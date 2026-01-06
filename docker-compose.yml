@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./backend
+    container_name: nowy-cpr-backend
+    ports:
+      - "8000:8000"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: nowy-cpr-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
