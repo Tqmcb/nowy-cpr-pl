@@ -1,0 +1,37 @@
+
+> nowy-cpr-pl@0.0.0 build
+> vite build
+
+Extension firebase-auth not found
+vite v4.4.5 building for production...
+transforming...
+[plugin:vite:esbuild] Duplicate member "check_health" in class body
+307|     * @request GET:/routes/health
+308|     */
+309|    check_health = (params: RequestParams = {}) =>
+   |    ^
+310|      this.request<CheckHealthResult, any>({
+311|        path: `/routes/health`,
+
+✓ 301 modules transformed.
+✓ built in 2.08s
+"fetchProductWithRequirements" is not exported by "src/utils/supabase/admin.ts", imported by "src/pages/AdminViewCategory.tsx".
+file: /Users/admin/Downloads/nowy-cpr-pl/frontend/src/pages/AdminViewCategory.tsx:8:9
+ 6: import { Button } from "@/extensions/shadcn/components/button";
+ 7: import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/extensions/shadcn/components/card";
+ 8: import { fetchProductWithRequirements } from "../utils/supabase/admin";
+             ^
+ 9: import { toast } from "sonner";
+10: import { useAuth } from "../utils/AuthContextUnified";
+error during build:
+RollupError: "fetchProductWithRequirements" is not exported by "src/utils/supabase/admin.ts", imported by "src/pages/AdminViewCategory.tsx".
+    at error (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at Module.error (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:13745:16)
+    at Module.traceVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:14175:29)
+    at ModuleScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:12615:39)
+    at FunctionScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ChildScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ReturnValueScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ChildScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ReturnValueScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
+    at ChildScope.findVariable (file:///Users/admin/Downloads/nowy-cpr-pl/frontend/node_modules/rollup/dist/es/shared/node-entry.js:7124:38)
