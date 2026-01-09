@@ -1,4 +1,9 @@
-import { getSupabaseClient } from './supabaseAuth';
+import { supabase } from './supabase';
+
+// Helper function to get supabase client
+function getSupabaseClient() {
+  return supabase;
+}
 
 /**
  * Generic types for database operations
@@ -24,35 +29,35 @@ export async function fetchData<T>(table: TableName, options: {
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     // Start the query
     let query = supabase.from(table).select(options.columns || '*');
-    
+
     // Apply filters if provided
     if (options.filters) {
       for (const [key, value] of Object.entries(options.filters)) {
         query = query.eq(key, value);
       }
     }
-    
+
     // Apply ordering
     if (options.orderBy) {
       query = query.order(
-        options.orderBy, 
+        options.orderBy,
         { ascending: options.orderDirection !== 'desc' }
       );
     }
-    
+
     // Apply pagination
     if (options.limit) {
       query = query.limit(options.limit);
     }
-    
+
     if (options.offset) {
       query = query.offset(options.offset);
     }
-    
+
     // Execute the query
     if (options.single) {
       return await query.single<T>();
@@ -61,9 +66,9 @@ export async function fetchData<T>(table: TableName, options: {
     }
   } catch (error) {
     console.error(`Error fetching data from ${table}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error fetching data from ${table}` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error fetching data from ${table}` }
     };
   }
 }
@@ -78,14 +83,14 @@ export async function insertData<T>(table: TableName, data: Record<string, any>)
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     return await supabase.from(table).insert(data).select().single<T>();
   } catch (error) {
     console.error(`Error inserting data into ${table}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error inserting data into ${table}` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error inserting data into ${table}` }
     };
   }
 }
@@ -101,14 +106,14 @@ export async function updateData<T>(table: TableName, id: string | number, data:
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     return await supabase.from(table).update(data).eq('id', id).select().single<T>();
   } catch (error) {
     console.error(`Error updating data in ${table}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error updating data in ${table}` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error updating data in ${table}` }
     };
   }
 }
@@ -123,14 +128,14 @@ export async function deleteData(table: TableName, id: string | number) {
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     return await supabase.from(table).delete().eq('id', id);
   } catch (error) {
     console.error(`Error deleting data from ${table}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error deleting data from ${table}` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error deleting data from ${table}` }
     };
   }
 }
@@ -146,7 +151,7 @@ export async function uploadFile(bucket: string, path: string, file: File) {
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     return await supabase.storage.from(bucket).upload(path, file, {
       cacheControl: '3600',
@@ -154,9 +159,9 @@ export async function uploadFile(bucket: string, path: string, file: File) {
     });
   } catch (error) {
     console.error(`Error uploading file to ${bucket}/${path}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error uploading file` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error uploading file` }
     };
   }
 }
@@ -171,7 +176,7 @@ export function getFileUrl(bucket: string, path: string) {
   if (!supabase) {
     return null;
   }
-  
+
   return supabase.storage.from(bucket).getPublicUrl(path);
 }
 
@@ -185,14 +190,14 @@ export async function deleteFile(bucket: string, path: string) {
   if (!supabase) {
     return { data: null, error: { message: 'No valid Supabase configuration' } };
   }
-  
+
   try {
     return await supabase.storage.from(bucket).remove([path]);
   } catch (error) {
     console.error(`Error deleting file from ${bucket}/${path}:`, error);
-    return { 
-      data: null, 
-      error: error instanceof Error ? error : { message: `Error deleting file` } 
+    return {
+      data: null,
+      error: error instanceof Error ? error : { message: `Error deleting file` }
     };
   }
 }

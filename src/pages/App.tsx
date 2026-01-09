@@ -1,153 +1,460 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "../components/Button";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { useNavigate } from "react-router-dom";
-import { AuthWrapper } from "../components/AuthWrapper";
 import { useAuth } from "../utils/AuthContext";
+import {
+  Search,
+  FileText,
+  Award,
+  Calendar,
+  ListChecks,
+  ArrowRight,
+  ChevronRight,
+  Building2,
+  Shield,
+  Clock,
+  BookOpen,
+  TrendingUp,
+  Users,
+  CheckCircle2,
+  Info,
+  Sparkles,
+  ClipboardList
+} from "lucide-react";
+
+interface BlogPost {
+  id: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  published_at: string;
+  category: string;
+  image_url?: string;
+}
 
 function HomePage() {
   const { isAuthenticated, user } = useAuth();
   const navigate = useNavigate();
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
+  const [loadingPosts, setLoadingPosts] = useState(true);
+
+  // Fetch latest blog posts
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        // Simulated blog posts - in production, fetch from API
+        const mockPosts: BlogPost[] = [
+          {
+            id: "1",
+            title: "Rozporządzenie CPR 2024 - Kompletny przewodnik dla producentów",
+            slug: "cpr-2024-przewodnik",
+            excerpt: "Wszystko co musisz wiedzieć o nowym rozporządzeniu w sprawie wyrobów budowlanych. Kluczowe zmiany i terminy.",
+            published_at: "2026-01-08",
+            category: "Przewodniki",
+            image_url: undefined
+          },
+          {
+            id: "2",
+            title: "Cyfrowa Deklaracja Właściwości Użytkowych (Digital DoP)",
+            slug: "cyfrowa-dop",
+            excerpt: "Jak przygotować się do obowiązkowej cyfryzacji dokumentacji produktów budowlanych zgodnie z CPR 2024.",
+            published_at: "2026-01-05",
+            category: "Digital DoP",
+            image_url: undefined
+          },
+          {
+            id: "3",
+            title: "Oznakowanie CE wyrobów budowlanych - nowe wymagania 2026",
+            slug: "oznakowanie-ce-2026",
+            excerpt: "Zmiany w oznakowaniu CE dla producentów wyrobów budowlanych. Praktyczne wskazówki i przykłady.",
+            published_at: "2026-01-02",
+            category: "Certyfikacja",
+            image_url: undefined
+          }
+        ];
+        setBlogPosts(mockPosts);
+      } catch (error) {
+        console.error("Error fetching blog posts:", error);
+      } finally {
+        setLoadingPosts(false);
+      }
+    };
+    fetchPosts();
+  }, []);
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('pl-PL', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    });
+  };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="py-12 md:py-24 bg-gradient-to-b from-gray-50 to-white">
+        <section className="relative min-h-[90vh] flex items-center gradient-hero particles-bg overflow-hidden pt-24">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-float"></div>
+            <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float-delay"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-amber-500/5 to-blue-500/5 rounded-full blur-3xl"></div>
+          </div>
+
           <Container>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-primary mb-6">
-                  Nadchodzące Rozporządzenie CPR – Przygotuj Swój Produkt Na Nowe Wymagania
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+              {/* Left Content */}
+              <div className="animate-fade-in-up">
+                {/* Badge */}
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-8">
+                  <Sparkles className="w-4 h-4 text-amber-400" />
+                  <span className="text-amber-400 text-sm font-medium">Rozporządzenie CPR w mocy od 2024</span>
+                </div>
+
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                  <span className="text-white">Nowe </span>
+                  <span className="gradient-text">Rozporządzenie CPR</span>
+                  <span className="text-white"> – Jesteś gotowy?</span>
                 </h1>
-                <p className="text-lg text-gray-700 mb-8">
-                  Nowe przepisy CPR 2024 wprowadzają istotne zmiany dla producentów wyrobów budowlanych. Sprawdź, czy Twoje produkty spełniają aktualne wymagania i uniknij konsekwencji braku zgodności.
+
+                <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed max-w-xl">
+                  Rozporządzenie CPR (EU) 2024/3110 obowiązuje od 8 stycznia 2025.
+                  Sprawdź aktualne wymagania dla Twoich produktów budowlanych i uniknij kar.
                 </p>
-                <Button 
-                  size="lg" 
-                  onClick={() => navigate("/product-search")}
-                  className="font-semibold bg-secondary text-primary hover:bg-secondary/90"
-                >
-                  Sprawdź wymagania dla Twojego produktu
-                </Button>
+
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button
+                    size="lg"
+                    onClick={() => navigate("/product-search")}
+                    className="group"
+                  >
+                    <span>Sprawdź wymagania dla produktu</span>
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    onClick={() => navigate("/documents")}
+                  >
+                    <FileText className="w-5 h-5 mr-2" />
+                    Przeglądaj dokumenty
+                  </Button>
+                </div>
+
+                {/* Stats */}
+                <div className="mt-12 grid grid-cols-3 gap-6">
+                  {[
+                    { value: "2025", label: "Rok wejścia w życie", icon: Calendar },
+                    { value: "27", label: "Krajów UE", icon: Users },
+                    { value: "100%", label: "Cyfryzacja DoP", icon: TrendingUp }
+                  ].map((stat, idx) => (
+                    <div key={idx} className="text-center">
+                      <stat.icon className="w-5 h-5 mx-auto mb-2 text-slate-500" />
+                      <div className="text-2xl md:text-3xl font-bold gradient-text">{stat.value}</div>
+                      <div className="text-sm text-slate-400 mt-1">{stat.label}</div>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="bg-accent/10 rounded-lg aspect-video flex items-center justify-center border-2 border-secondary shadow-md">
-                {/* Placeholder for video/infographic */}
-                <div className="text-primary text-center p-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-16 h-16 mx-auto mb-4">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                  </svg>
-                  <p>Infografika wyjaśniająca zmiany w przepisach CPR 2024</p>
+
+              {/* Right Visual */}
+              <div className="relative animate-fade-in-up-delay-2">
+                <div className="relative glass-card p-8 animate-float">
+                  {/* Glow Effect */}
+                  <div className="absolute -inset-1 bg-gradient-to-r from-amber-400/20 via-blue-500/20 to-emerald-400/20 rounded-2xl blur-xl opacity-60"></div>
+
+                  <div className="relative aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
+                    {/* Infographic Content */}
+                    <div className="text-center p-8">
+                      <div className="w-24 h-24 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg shadow-amber-500/30">
+                        <ClipboardList className="w-12 h-12 text-slate-900" />
+                      </div>
+                      <h3 className="text-xl font-bold text-white mb-2">CPR (EU) 2024/3110</h3>
+                      <p className="text-slate-400 text-sm">Rozporządzenie w sprawie wyrobów budowlanych</p>
+
+                      {/* Feature Pills */}
+                      <div className="flex flex-wrap justify-center gap-2 mt-6">
+                        {["Digital DoP", "Oznakowanie CE", "Paszport produktu"].map((tag) => (
+                          <span key={tag} className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-slate-300">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Floating Elements */}
+                  <div className="absolute -top-4 -right-4 w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg animate-pulse-glow">
+                    <span className="text-2xl">🇪🇺</span>
+                  </div>
+                  <div className="absolute -bottom-4 -left-4 w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-500 to-green-400 flex items-center justify-center shadow-lg">
+                    <CheckCircle2 className="w-6 h-6 text-white" />
+                  </div>
                 </div>
               </div>
             </div>
           </Container>
+
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <div className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center p-2">
+              <div className="w-1 h-2 bg-white/50 rounded-full animate-pulse"></div>
+            </div>
+          </div>
         </section>
 
         {/* About CPR 2024 Section */}
-        <section className="py-16 bg-white">
+        <section className="py-24 bg-slate-900 relative">
           <Container>
-            <div className="max-w-3xl mx-auto text-center mb-12">
-              <div className="bg-amber-50 border border-amber-200 rounded-md p-4 mb-6">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                    </svg>
+            {/* Section Header */}
+            <div className="max-w-3xl mx-auto text-center mb-16">
+              {/* Info Alert */}
+              <div className="glass-card p-4 mb-8 inline-flex items-start gap-3 text-left">
+                <div className="w-8 h-8 rounded-lg bg-amber-400/20 flex items-center justify-center flex-shrink-0">
+                  <Info className="w-4 h-4 text-amber-400" />
+                </div>
+                <p className="text-sm text-slate-300">
+                  <span className="text-amber-400 font-semibold">Ważne:</span> Rozporządzenie CPR (EU) 2024/3110 zostało opublikowane{" "}
+                  <a
+                    href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 underline transition-colors"
+                  >
+                    w Dzienniku Urzędowym UE
+                  </a>{" "}
+                  i wchodzi w życie od 8 stycznia 2025 roku.
+                </p>
+              </div>
+
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                Czym jest <span className="gradient-text">rozporządzenie CPR?</span>
+              </h2>
+              <p className="text-lg text-slate-400 leading-relaxed">
+                Rozporządzenie w sprawie wyrobów budowlanych (CPR) ustanawia zharmonizowane warunki
+                wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując
+                dotychczasowe przepisy z 2011 roku.
+              </p>
+            </div>
+
+            {/* Cards Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+              {/* Timeline Card */}
+              <div className="glass-card p-8 hover-lift card-border-glow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+                    <Calendar className="w-6 h-6 text-slate-900" />
                   </div>
-                  <div className="ml-3">
-                    <p className="text-sm text-amber-700">
-                      <strong>Informacja:</strong> Prezentowane wymagania oparte są na <a href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110#anx_III" target="_blank" rel="noopener noreferrer" className="underline font-medium">propozycji legislacyjnej</a> nowego rozporządzenia CPR. Ostateczna wersja przepisów może się różnić. Regularnie aktualizujemy nasze informacje zgodnie z postępem prac legislacyjnych.
-                    </p>
-                  </div>
+                  <h3 className="text-xl font-bold text-white">Kluczowe daty</h3>
+                </div>
+
+                <div className="space-y-4">
+                  {[
+                    { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", active: true, done: true },
+                    { year: "8 stycznia 2025", text: "Wejście w życie rozporządzenia", active: true, done: true },
+                    { year: "2026-2027", text: "Okres przejściowy dla Digital DoP", active: true },
+                    { year: "2028+", text: "Pełne wdrożenie cyfrowego paszportu produktu" }
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex gap-4 items-start">
+                      <div className={`w-28 flex-shrink-0 text-sm font-semibold flex items-center gap-2 ${item.active ? 'text-amber-400' : 'text-slate-500'}`}>
+                        {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
+                        {item.year}
+                      </div>
+                      <div className="flex-1 text-slate-300 text-sm leading-relaxed">{item.text}</div>
+                    </div>
+                  ))}
                 </div>
               </div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-6">Czym jest rozporządzenie CPR 2024?</h2>
-              <p className="text-lg text-gray-600 mb-4">
-                Proponowane rozporządzenie w sprawie wyrobów budowlanych (nazywane roboczo "CPR 2024") to nowy akt prawny Unii Europejskiej w fazie legislacyjnej, który ma zastąpić dotychczasowe przepisy (Rozporządzenie 305/2011) i ustanowić zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych.
-              </p>
-              <p className="text-lg text-gray-700">
-                Celem nowych przepisów jest zwiększenie bezpieczeństwa i zrównoważonego rozwoju w sektorze budowlanym, wprowadzenie bardziej rygorystycznych norm środowiskowych oraz digitalizacja procesów związanych z certyfikacją.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white p-6 rounded-lg border-l-4 border-secondary shadow-md">
-                <h3 className="text-lg font-semibold mb-4 flex items-center">
-                  <span className="w-8 h-8 bg-secondary text-primary rounded-full flex items-center justify-center mr-3 flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </span>
-                  Kluczowe daty
-                </h3>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex">
-                    <span className="font-semibold w-28 flex-shrink-0">2023:</span>
-                    <span>Propozycja nowego rozporządzenia przez Komisję Europejską</span>
-                  </li>
-                  <li className="flex">
-                    <span className="font-semibold w-28 flex-shrink-0">2024-2025:</span>
-                    <span>Przewidywany okres przyjęcia i wdrażania przepisów</span>
-                  </li>
-                  <li className="flex">
-                    <span className="font-semibold w-28 flex-shrink-0">Po przyjęciu:</span>
-                    <span>Planowane wprowadzenie cyfrowych deklaracji właściwości użytkowych</span>
-                  </li>
-                  <li className="flex">
-                    <span className="font-semibold w-28 flex-shrink-0">Docelowo:</span>
-                    <span>Harmonizacja wszystkich krajowych przepisów dotyczących wyrobów budowlanych</span>
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg border-l-4 border-accent shadow-md">
-                <h3 className="text-lg font-semibold mb-4 flex items-center">
-                  <span className="w-8 h-8 bg-accent text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </span>
-                  Główne zmiany w CPR 2024
-                </h3>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-accent mr-2">•</span>
-                    <span>Wprowadzenie cyfrowych deklaracji właściwości użytkowych (Digital DoP)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-accent mr-2">•</span>
-                    <span>Nowe wymagania środowiskowe i zrównoważonego rozwoju dla wyrobów budowlanych</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span>Rozszerzone obowiązki dla producentów, importerów i dystrybutorów</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span>Zmodyfikowane procedury oceny zgodności dla różnych kategorii wyrobów</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span>Bardziej rygorystyczne wymagania dotyczące oznakowania CE</span>
-                  </li>
-                </ul>
+
+              {/* Changes Card */}
+              <div className="glass-card p-8 hover-lift card-border-glow">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center">
+                    <ListChecks className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">Główne zmiany w CPR</h3>
+                </div>
+
+                <div className="space-y-3">
+                  {[
+                    { text: "Obowiązkowe cyfrowe deklaracje właściwości użytkowych (Digital DoP)", icon: FileText, color: "text-amber-400" },
+                    { text: "Nowe wymagania środowiskowe i wskaźniki zrównoważonego rozwoju", icon: TrendingUp, color: "text-emerald-400" },
+                    { text: "Rozszerzone obowiązki dla producentów, importerów i dystrybutorów", icon: Users, color: "text-blue-400" },
+                    { text: "Cyfrowy paszport produktu integrujący dokumentację", icon: ClipboardList, color: "text-purple-400" },
+                    { text: "Bardziej rygorystyczne wymagania dotyczące oznakowania CE", icon: Shield, color: "text-rose-400" }
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex items-start gap-3 group">
+                      <item.icon className={`w-5 h-5 mt-0.5 ${item.color} group-hover:scale-110 transition-transform`} />
+                      <span className="text-slate-300 text-sm leading-relaxed group-hover:text-white transition-colors">{item.text}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-            
-            <div className="bg-primary/10 p-6 rounded-lg text-center border-2 border-secondary border-dashed">
-              <p className="text-gray-700 font-medium">
-                Wszystkie podmioty w łańcuchu dostaw wyrobów budowlanych muszą dostosować swoje procedury do nowych wymagań CPR 2024. Nieprzestrzeganie przepisów może prowadzić do poważnych konsekwencji prawnych i biznesowych.
-              </p>
+
+            {/* CTA Banner */}
+            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 p-8 md:p-12">
+              <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-blue-500/10"></div>
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
+
+              <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
+                    Gotowy sprawdzić wymagania dla Twojego produktu?
+                  </h3>
+                  <p className="text-slate-400">
+                    Skorzystaj z naszej wyszukiwarki i dowiedz się więcej o wymaganiach CPR dla Twoich wyrobów.
+                  </p>
+                </div>
+                <Button
+                  size="lg"
+                  onClick={() => navigate("/product-search")}
+                  className="flex-shrink-0"
+                >
+                  Rozpocznij teraz
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </div>
             </div>
           </Container>
         </section>
-        
-        {/* Footer zawiera resztę sekcji strony */}
+
+        {/* Features Section */}
+        <section className="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
+          <Container>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Dlaczego <span className="gradient-text-blue">NowyCPR.pl?</span>
+              </h2>
+              <p className="text-slate-400 max-w-2xl mx-auto">
+                Kompleksowe wsparcie w przygotowaniu do wymagań rozporządzenia CPR
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {[
+                {
+                  icon: Search,
+                  title: "Wyszukiwarka CPR",
+                  description: "Szybko znajdź wymagania i normy zharmonizowane dla Twojego produktu budowlanego",
+                  gradient: "from-amber-400 to-orange-500",
+                  path: "/product-search"
+                },
+                {
+                  icon: FileText,
+                  title: "Baza dokumentów",
+                  description: "Dostęp do aktualnych dokumentów, wytycznych i norm związanych z CPR",
+                  gradient: "from-blue-400 to-cyan-500",
+                  path: "/documents"
+                },
+                {
+                  icon: Award,
+                  title: "Usługi certyfikacyjne",
+                  description: "Profesjonalne wsparcie w procesie certyfikacji i przygotowania dokumentacji",
+                  gradient: "from-emerald-400 to-green-500",
+                  path: "/services"
+                }
+              ].map((feature, idx) => (
+                <div
+                  key={idx}
+                  className="glass-card p-8 hover-lift card-border-glow group cursor-pointer"
+                  onClick={() => navigate(feature.path)}
+                >
+                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg`}>
+                    <feature.icon className="w-8 h-8 text-slate-900" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>
+                  <p className="text-slate-400 leading-relaxed">{feature.description}</p>
+                  <div className="mt-6 flex items-center text-amber-400 text-sm font-medium group-hover:gap-3 transition-all">
+                    <span>Dowiedz się więcej</span>
+                    <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+
+        {/* Latest Blog Posts Section */}
+        <section className="py-24 bg-slate-950">
+          <Container>
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
+                  Najnowsze <span className="gradient-text">artykuły</span>
+                </h2>
+                <p className="text-slate-400">
+                  Aktualności i przewodniki dotyczące rozporządzenia CPR
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                onClick={() => navigate("/blog")}
+                className="flex-shrink-0"
+              >
+                <BookOpen className="w-4 h-4 mr-2" />
+                Zobacz wszystkie artykuły
+              </Button>
+            </div>
+
+            {loadingPosts ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {[1, 2, 3].map((i) => (
+                  <div key={i} className="glass-card p-6 animate-pulse">
+                    <div className="h-4 bg-slate-700 rounded w-1/3 mb-4"></div>
+                    <div className="h-6 bg-slate-700 rounded w-full mb-2"></div>
+                    <div className="h-6 bg-slate-700 rounded w-3/4 mb-4"></div>
+                    <div className="h-4 bg-slate-700 rounded w-full mb-2"></div>
+                    <div className="h-4 bg-slate-700 rounded w-2/3"></div>
+                  </div>
+                ))}
+              </div>
+            ) : blogPosts.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {blogPosts.map((post) => (
+                  <article
+                    key={post.id}
+                    className="glass-card p-6 hover-lift card-border-glow group cursor-pointer"
+                    onClick={() => navigate(`/blog/${post.slug}`)}
+                  >
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="px-3 py-1 rounded-full bg-amber-400/10 text-amber-400 text-xs font-medium">
+                        {post.category}
+                      </span>
+                      <span className="text-slate-500 text-xs flex items-center gap-1">
+                        <Clock className="w-3 h-3" />
+                        {formatDate(post.published_at)}
+                      </span>
+                    </div>
+                    <h3 className="text-lg font-bold text-white mb-3 group-hover:text-amber-400 transition-colors line-clamp-2">
+                      {post.title}
+                    </h3>
+                    <p className="text-slate-400 text-sm leading-relaxed line-clamp-3 mb-4">
+                      {post.excerpt}
+                    </p>
+                    <div className="flex items-center text-amber-400 text-sm font-medium group-hover:gap-2 transition-all">
+                      <span>Czytaj więcej</span>
+                      <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className="glass-card p-12 text-center">
+                <BookOpen className="w-12 h-12 mx-auto text-slate-600 mb-4" />
+                <h3 className="text-lg font-semibold text-white mb-2">Brak artykułów</h3>
+                <p className="text-slate-400">Nowe artykuły pojawią się wkrótce.</p>
+              </div>
+            )}
+          </Container>
+        </section>
       </main>
 
       <Footer />
@@ -155,5 +462,4 @@ function HomePage() {
   )
 }
 
-// Wrap the component with AuthWrapper
 export default HomePage;

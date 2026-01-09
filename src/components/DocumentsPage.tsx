@@ -1,7 +1,25 @@
 import { useState } from "react";
 import { Button } from "@/extensions/shadcn/components/button";
-import { Separator } from "@/extensions/shadcn/components/separator";
 import { documents, trackLead, downloadDocument } from "../utils/documentHelpers";
+import { Container } from "./Container";
+import {
+  Search,
+  Download,
+  FileText,
+  Filter,
+  X,
+  CheckCircle2,
+  HelpCircle,
+  ChevronDown,
+  Mail,
+  MessageCircle,
+  ArrowRight,
+  File,
+  Clock,
+  Info,
+  RefreshCw,
+  Sparkles
+} from "lucide-react";
 
 interface DocumentProps {
   id: string;
@@ -13,27 +31,48 @@ interface DocumentProps {
   updatedAt: string;
 }
 
+const getFileIcon = (fileType: string) => {
+  switch (fileType.toLowerCase()) {
+    case 'pdf':
+      return <FileText className="w-6 h-6 text-red-400" />;
+    case 'docx':
+      return <File className="w-6 h-6 text-blue-400" />;
+    case 'xlsx':
+      return <File className="w-6 h-6 text-green-400" />;
+    default:
+      return <FileText className="w-6 h-6 text-slate-400" />;
+  }
+};
+
 const Document = ({ document, onDownload }: { document: DocumentProps; onDownload: (id: string) => void }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col h-full">
+    <div className="glass-card p-6 flex flex-col h-full hover-lift card-border-glow group">
       <div className="flex items-start justify-between mb-4">
         <div className="flex-1">
-          <div className="flex items-center mb-2">
-            <span className="text-3xl mr-2">{document.icon}</span>
-            <span className="text-xs font-medium py-1 px-2 bg-gray-100 rounded text-gray-600">{document.fileType}</span>
-            <span className="text-xs font-medium py-1 px-2 bg-gray-50 rounded text-gray-600 ml-2">{document.language}</span>
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
+              {getFileIcon(document.fileType)}
+            </div>
+            <div>
+              <span className="px-2 py-1 rounded bg-amber-400/10 text-amber-400 text-xs font-medium">{document.fileType}</span>
+              <span className="px-2 py-1 rounded bg-slate-700/50 text-slate-400 text-xs ml-2">{document.language}</span>
+            </div>
           </div>
-          <h3 className="text-lg font-bold">{document.title}</h3>
+          <h3 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors">{document.title}</h3>
         </div>
       </div>
-      <p className="text-gray-600 mb-4 flex-grow">{document.description}</p>
-      <div className="flex items-center justify-between">
-        <div className="text-sm text-gray-500">Aktualizacja: {document.updatedAt}</div>
-        <Button 
+      <p className="text-slate-400 text-sm mb-4 flex-grow leading-relaxed">{document.description}</p>
+      <div className="flex items-center justify-between pt-4 border-t border-white/10">
+        <div className="flex items-center gap-2 text-sm text-slate-500">
+          <Clock className="w-4 h-4" />
+          {document.updatedAt}
+        </div>
+        <Button
           onClick={() => onDownload(document.id)}
           size="sm"
-          className="font-medium"
+          className="btn-premium px-4 py-2 rounded-lg text-slate-900 font-medium text-sm"
         >
+          <Download className="w-4 h-4 mr-2" />
           Pobierz
         </Button>
       </div>
@@ -61,38 +100,34 @@ export function DocumentsPage() {
 
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email.trim()) {
       setFormError("Proszę podać adres email");
       return;
     }
-    
-    // Bardziej rygorystyczna walidacja adresu email
+
     const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-    
+
     if (!emailRegex.test(email)) {
       setFormError("Proszę podać prawidłowy adres email");
       return;
     }
-    
+
     if (!selectedDocumentId) {
       setFormError("Wystąpił błąd. Proszę spróbować ponownie.");
       return;
     }
-    
-    // Track the lead (save email address)
+
     trackLead(email, selectedDocumentId)
       .then(success => {
         if (success) {
-          // Initiate actual document download
           try {
             const downloadResult = downloadDocument(selectedDocumentId);
-            
+
             if (downloadResult) {
               setDownloadSuccess(true);
               setFormError("");
-              
-              // Reset form after 3 seconds
+
               setTimeout(() => {
                 setShowEmailForm(false);
                 setEmail("");
@@ -123,309 +158,332 @@ export function DocumentsPage() {
   };
 
   const filteredDocuments = documents.filter(doc => {
-    const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                         doc.description.toLowerCase().includes(searchTerm.toLowerCase());
-                         
+    const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      doc.description.toLowerCase().includes(searchTerm.toLowerCase());
+
     if (filterType === "all") return matchesSearch;
     return matchesSearch && doc.fileType.toLowerCase() === filterType.toLowerCase();
   });
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="min-h-screen bg-slate-900">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="md:w-1/2">
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">Gotowe dokumenty - CPR 2024</h1>
-              <p className="text-lg text-gray-600 mb-6">
-                Pobierz profesjonalnie przygotowane wzory dokumentów zgodne z wymaganiami nowego rozporządzenia CPR 2024. Zaoszczędź czas i uniknij błędów korzystając z naszych szablonów.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  onClick={() => document.getElementById("documents-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="font-medium"
-                >
-                  Przeglądaj dokumenty
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="font-medium"
-                  onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
-                >
-                  Najczęstsze pytania
-                </Button>
-              </div>
-            </div>
-            <div className="md:w-1/2 flex justify-center">
-              <img 
-                src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Dokumenty CPR 2024"
-                className="rounded-lg shadow-md max-w-full h-auto"
-                style={{ maxHeight: "350px" }}
-              />
-            </div>
-          </div>
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
         </div>
-      </section>
 
-      {/* Documents Section */}
-      <section id="documents-section" className="py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Dokumenty do pobrania</h2>
-            <p className="text-gray-600 mb-4">
-              Poniżej znajdują się przykładowe dokumenty demonstrujące, jak będą wyglądać nasze szablony. 
-            </p>
-            <div className="bg-gray-50 border-l-4 border-gray-300 p-4 mb-8">
-              <p className="text-gray-700 mb-2 font-medium">Informacja</p>
-              <p className="text-gray-600">
-                Obecnie prezentujemy przykładowe dokumenty. Pełne szablony dokumentów zgodne z CPR 2024 są w przygotowaniu i będą dostępne wkrótce. Dokumenty będą regularnie aktualizowane zgodnie z najnowszymi interpretacjami rozporządzenia.
-              </p>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-4 mb-8">
-              <div className="flex-grow">
-                <div className="relative">
-                  <input
-                    type="text"
-                    placeholder="Szukaj dokumentów..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md pl-10 focus:outline-none focus:ring-2 focus:ring-gray-400"
-                  />
-                  <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+        <Container>
+          <div className="relative z-10">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+              <div className="md:w-2/3">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
+                  <Sparkles className="w-4 h-4 text-amber-400" />
+                  <span className="text-amber-400 text-sm font-medium">Dokumentacja CPR</span>
+                </div>
+                <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                  <span className="text-white">Szablony </span>
+                  <span className="gradient-text">Dokumentów CPR</span>
+                </h1>
+                <p className="text-lg text-slate-400 mb-8 leading-relaxed max-w-2xl">
+                  Profesjonalnie przygotowane wzory dokumentów zgodne z wymaganiami Rozporządzenia CPR (EU) 2024/3110.
+                  Zaoszczędź czas i uniknij błędów korzystając z naszych szablonów.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button
+                    onClick={() => document.getElementById("documents-section")?.scrollIntoView({ behavior: "smooth" })}
+                    className="btn-premium px-6 py-3 rounded-full text-slate-900 font-semibold"
+                  >
+                    <FileText className="w-5 h-5 mr-2" />
+                    Przeglądaj dokumenty
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="px-6 py-3 rounded-full border-white/20 text-white hover:bg-white/10"
+                    onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
+                  >
+                    <HelpCircle className="w-5 h-5 mr-2" />
+                    Najczęstsze pytania
+                  </Button>
+                </div>
+              </div>
+              <div className="md:w-1/3">
+                <div className="glass-card p-6">
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+                    <FileText className="w-10 h-10 text-slate-900" />
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold gradient-text mb-1">{documents.length}</div>
+                    <p className="text-slate-400 text-sm">dokumentów dostępnych</p>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-3 gap-2 text-center">
+                    <div>
+                      <div className="text-lg font-bold text-white">PDF</div>
+                      <p className="text-slate-500 text-xs">formaty</p>
+                    </div>
+                    <div>
+                      <div className="text-lg font-bold text-white">DOCX</div>
+                      <p className="text-slate-500 text-xs">edytowalne</p>
+                    </div>
+                    <div>
+                      <div className="text-lg font-bold text-white">XLSX</div>
+                      <p className="text-slate-500 text-xs">arkusze</p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="flex-shrink-0">
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Documents Section */}
+      <section id="documents-section" className="py-16 bg-gradient-to-b from-slate-900 to-slate-950">
+        <Container>
+          <div className="mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+              Dokumenty do <span className="gradient-text">pobrania</span>
+            </h2>
+            <p className="text-slate-400 mb-6">Wybierz i pobierz potrzebne szablony dokumentów</p>
+
+            {/* Info Alert */}
+            <div className="glass-card p-4 mb-8 flex items-start gap-3">
+              <Info className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="text-sm text-white font-medium mb-1">Informacja</p>
+                <p className="text-sm text-slate-400">
+                  Obecnie prezentujemy przykładowe dokumenty. Pełne szablony dokumentów zgodne z CPR (EU) 2024/3110
+                  są w przygotowaniu i będą dostępne wkrótce. Dokumenty będą regularnie aktualizowane
+                  zgodnie z najnowszymi interpretacjami rozporządzenia.
+                </p>
+              </div>
+            </div>
+
+            {/* Filters */}
+            <div className="flex flex-col md:flex-row gap-4 mb-8">
+              <div className="flex-grow relative">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
+                <input
+                  type="text"
+                  placeholder="Szukaj dokumentów..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                />
+              </div>
+              <div className="md:w-48 relative">
+                <Filter className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
                 <select
                   value={filterType}
                   onChange={(e) => setFilterType(e.target.value)}
-                  className="w-full md:w-auto px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                  className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all appearance-none cursor-pointer"
                 >
-                  <option value="all">Wszystkie typy</option>
-                  <option value="PDF">PDF</option>
-                  <option value="DOCX">DOCX</option>
-                  <option value="XLSX">XLSX</option>
+                  <option value="all" className="bg-slate-800">Wszystkie typy</option>
+                  <option value="PDF" className="bg-slate-800">PDF</option>
+                  <option value="DOCX" className="bg-slate-800">DOCX</option>
+                  <option value="XLSX" className="bg-slate-800">XLSX</option>
                 </select>
               </div>
             </div>
-            
+
+            {/* Documents Grid */}
             {filteredDocuments.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredDocuments.map((doc) => (
-                  <Document 
-                    key={doc.id} 
-                    document={doc} 
-                    onDownload={handleDownloadClick} 
+                  <Document
+                    key={doc.id}
+                    document={doc}
+                    onDownload={handleDownloadClick}
                   />
                 ))}
               </div>
             ) : (
-              <div className="text-center py-12 bg-gray-50 rounded-lg border border-gray-200">
-                <div className="text-4xl mb-4">🔍</div>
-                <h3 className="text-xl font-bold mb-2">Brak wyników</h3>
-                <p className="text-gray-600">Nie znaleziono dokumentów spełniających kryteria wyszukiwania.</p>
+              <div className="text-center py-16 glass-card">
+                <Search className="w-16 h-16 mx-auto text-slate-500 mb-4" />
+                <h3 className="text-xl font-bold text-white mb-2">Brak wyników</h3>
+                <p className="text-slate-400">Nie znaleziono dokumentów spełniających kryteria wyszukiwania.</p>
               </div>
             )}
           </div>
-        </div>
+        </Container>
       </section>
 
-      <Separator />
-
       {/* FAQ Section */}
-      <section id="faq-section" className="py-16 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-6xl">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Najczęściej zadawane pytania</h2>
-            
-            <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-lg font-bold mb-2">Jak wypełnić deklarację właściwości użytkowych?</h3>
-                <p className="text-gray-600">
-                  Deklaracja właściwości użytkowych (DoP) powinna zawierać wszystkie istotne informacje o produkcie, w tym jego zamierzone zastosowanie, właściwości użytkowe oraz odniesienie do zharmonizowanej specyfikacji technicznej. Szczegółowe instrukcje znajdziesz w naszym szablonie DoP po pobraniu.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-lg font-bold mb-2">Jakie są główne zmiany w CPR 2024 w zakresie dokumentacji?</h3>
-                <p className="text-gray-600">
-                  Nowe rozporządzenie CPR 2024 wprowadza szereg zmian w dokumentacji, w tym cyfrowe deklaracje właściwości użytkowych, rozszerzone wymagania dotyczące informacji o zrównoważonym rozwoju i właściwościach środowiskowych oraz nowe systemy oceny i weryfikacji stałości właściwości użytkowych (AVCP).
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-lg font-bold mb-2">Czy mogę modyfikować pobrane szablony dokumentów?</h3>
-                <p className="text-gray-600">
-                  Tak, wszystkie nasze szablony są edytowalne i przeznaczone do dostosowania do specyfiki Twojego produktu. Należy jednak pamiętać, aby zachować wszystkie wymagane prawnie elementy dokumentów wskazane w instrukcjach.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <h3 className="text-lg font-bold mb-2">Jak często aktualizowane są szablony dokumentów?</h3>
-                <p className="text-gray-600">
-                  Wszystkie nasze szablony są regularnie aktualizowane, aby odzwierciedlać najnowsze interpretacje przepisów i wymagania CPR 2024. Data ostatniej aktualizacji jest zawsze widoczna przy każdym dokumencie.
-                </p>
-              </div>
+      <section id="faq-section" className="py-24 bg-slate-950">
+        <Container>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                Najczęściej zadawane <span className="gradient-text">pytania</span>
+              </h2>
+              <p className="text-slate-400">Odpowiedzi na najczęstsze pytania dotyczące dokumentacji CPR</p>
             </div>
 
-            <div className="mt-10 text-center">
-              <p className="text-gray-600 mb-4">
-                Masz więcej pytań dotyczących dokumentacji zgodnej z CPR 2024?
+            <div className="space-y-4">
+              {[
+                {
+                  question: "Jak wypełnić deklarację właściwości użytkowych (DoP)?",
+                  answer: "Deklaracja właściwości użytkowych (DoP) powinna zawierać wszystkie istotne informacje o produkcie, w tym jego zamierzone zastosowanie, właściwości użytkowe oraz odniesienie do zharmonizowanej specyfikacji technicznej. Szczegółowe instrukcje znajdziesz w naszym szablonie DoP po pobraniu."
+                },
+                {
+                  question: "Jakie są główne zmiany w CPR (EU) 2024/3110 w zakresie dokumentacji?",
+                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje właściwości użytkowych (Digital DoP), rozszerzone wymagania dotyczące informacji o zrównoważonym rozwoju i właściwościach środowiskowych oraz nowe systemy oceny i weryfikacji stałości właściwości użytkowych (AVCP)."
+                },
+                {
+                  question: "Czy mogę modyfikować pobrane szablony dokumentów?",
+                  answer: "Tak, wszystkie nasze szablony są edytowalne i przeznaczone do dostosowania do specyfiki Twojego produktu. Należy jednak pamiętać, aby zachować wszystkie wymagane prawnie elementy dokumentów wskazane w instrukcjach."
+                },
+                {
+                  question: "Jak często aktualizowane są szablony dokumentów?",
+                  answer: "Wszystkie nasze szablony są regularnie aktualizowane, aby odzwierciedlać najnowsze interpretacje przepisów i wymagania CPR. Data ostatniej aktualizacji jest zawsze widoczna przy każdym dokumencie."
+                }
+              ].map((faq, idx) => (
+                <div key={idx} className="glass-card p-6">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <HelpCircle className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
+                    {faq.question}
+                  </h3>
+                  <p className="text-slate-400 leading-relaxed pl-8">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <p className="text-slate-400 mb-4">
+                Masz więcej pytań dotyczące dokumentacji zgodnej z CPR?
               </p>
-              <Button 
+              <Button
                 onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
                 variant="outline"
-                className="font-medium"
+                className="border-white/20 text-white hover:bg-white/10"
               >
+                <MessageCircle className="w-4 h-4 mr-2" />
                 Skontaktuj się z nami
               </Button>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact-section" className="py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Potrzebujesz pomocy z dokumentacją?</h2>
-            <p className="text-gray-600 mb-8">
-              Nasi eksperci są gotowi pomóc Ci w przygotowaniu dokumentacji zgodnej z CPR 2024. Oferujemy indywidualne konsultacje oraz usługi przygotowania i weryfikacji dokumentów.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                className="font-medium"
-                onClick={() => window.location.href = "/Services"}
-              >
-                Poznaj nasze usługi
-              </Button>
-              <Button 
-                variant="outline" 
-                className="font-medium"
-              >
-                Umów konsultację
-              </Button>
+      {/* Contact CTA Section */}
+      <section id="contact-section" className="py-16 bg-slate-900 border-t border-white/5">
+        <Container>
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 p-8 md:p-12">
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-blue-500/10"></div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
+
+            <div className="relative z-10 text-center max-w-2xl mx-auto">
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                Potrzebujesz pomocy z dokumentacją?
+              </h2>
+              <p className="text-slate-400 mb-8">
+                Nasi eksperci są gotowi pomóc Ci w przygotowaniu dokumentacji zgodnej z CPR (EU) 2024/3110.
+                Oferujemy indywidualne konsultacje oraz usługi przygotowania i weryfikacji dokumentów.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button
+                  className="btn-premium px-6 py-3 rounded-full text-slate-900 font-semibold"
+                  onClick={() => window.location.href = "/services"}
+                >
+                  Poznaj nasze usługi
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+                <Button
+                  variant="outline"
+                  className="px-6 py-3 rounded-full border-white/20 text-white hover:bg-white/10"
+                >
+                  <Mail className="w-4 h-4 mr-2" />
+                  Umów konsultację
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
 
       {/* Email Capture Modal */}
       {showEmailForm && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded-lg shadow-lg max-w-md w-full p-6">
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+          <div className="glass-card max-w-md w-full p-6 animate-fade-in">
             {!downloadSuccess ? (
               <>
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-bold">Pobierz dokument</h3>
-                  <button 
+                <div className="flex justify-between items-start mb-6">
+                  <h3 className="text-xl font-bold text-white">Pobierz dokument</h3>
+                  <button
                     onClick={closeModal}
-                    className="text-gray-400 hover:text-gray-600 focus:outline-none"
+                    className="text-slate-400 hover:text-white transition-colors"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
+                    <X className="w-6 h-6" />
                   </button>
                 </div>
-                
-                <p className="text-gray-600 mb-4">
-                  Podaj swój adres email, aby otrzymać przykładowy dokument. 
+
+                <p className="text-slate-400 mb-6">
+                  Podaj swój adres email, aby otrzymać przykładowy dokument.
+                  Na podany adres wyślemy również powiadomienie o dostępności pełnych szablonów.
                 </p>
-                <p className="text-gray-600 mb-6">
-                  <span className="font-medium">Uwaga:</span> Obecnie udostępniamy przykładowe dokumenty, które demonstrują format i strukturę. Na podany adres wyślemy również powiadomienie, gdy dostępne będą pełne szablony dokumentów zgodne z CPR 2024.
-                </p>
-                
+
                 <form onSubmit={handleEmailSubmit}>
                   <div className="mb-4">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Adres email</label>
+                    <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Adres email</label>
                     <input
                       type="email"
                       id="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+                      className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
                       placeholder="twoj@email.pl"
                     />
-                    {formError && <p className="text-red-500 text-sm mt-1">{formError}</p>}
+                    {formError && <p className="text-red-400 text-sm mt-2">{formError}</p>}
                   </div>
-                  
-                  <div className="flex items-start mb-4">
+
+                  <div className="flex items-start mb-6">
                     <input
                       id="consent"
                       name="consent"
                       type="checkbox"
-                      className="h-4 w-4 text-gray-600 focus:ring-gray-400 border-gray-300 rounded mt-1"
+                      className="h-4 w-4 mt-1 rounded border-white/20 bg-white/5 text-amber-400 focus:ring-amber-400"
                       required
                     />
-                    <label htmlFor="consent" className="ml-2 block text-sm text-gray-600">
-                      Wyrażam zgodę na przetwarzanie moich danych osobowych w celu otrzymania dokumentu oraz informacji o aktualizacjach zgodnie z Polityką Prywatności.
+                    <label htmlFor="consent" className="ml-3 block text-sm text-slate-400">
+                      Wyrażam zgodę na przetwarzanie moich danych osobowych w celu otrzymania dokumentu oraz informacji o aktualizacjach.
                     </label>
                   </div>
-                  
-                  <div className="flex justify-end">
-                    <Button type="submit" className="w-full">
-                      Pobierz dokument
-                    </Button>
-                  </div>
+
+                  <Button type="submit" className="w-full btn-premium py-3 rounded-xl text-slate-900 font-semibold">
+                    <Download className="w-4 h-4 mr-2" />
+                    Pobierz dokument
+                  </Button>
                 </form>
               </>
             ) : (
               <div className="text-center py-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-100 text-green-500 mx-auto mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
+                <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 className="w-8 h-8 text-emerald-400" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Dziękujemy!</h3>
-                <p className="text-gray-600 mb-4">
-                  Przykładowy dokument <span className="font-semibold">{selectedDocument?.title}</span> ({selectedDocument?.fileType}) został wysłany do pobrania.
+                <h3 className="text-xl font-bold text-white mb-2">Dziękujemy!</h3>
+                <p className="text-slate-400 mb-6">
+                  Dokument <span className="font-semibold text-white">{selectedDocument?.title}</span> został wysłany do pobrania.
                 </p>
-                <div className="bg-gray-50 p-4 rounded-md mb-4 text-left">
-                  <p className="text-sm text-gray-700 mb-2">
-                    <span className="font-medium">Instrukcje:</span>
-                  </p>
-                  <ul className="text-sm text-gray-600 list-disc pl-5 space-y-1">
-                    <li>Dokument powinien zostać pobrany automatycznie</li>
-                    <li>Dodatkowo dokument otwiera się w nowej karcie przeglądarki</li>
-                    <li>Jeśli nie widzisz dokumentu, sprawdź ustawienia przeglądarki (blokowanie wyskakujących okienek)</li>
-                    <li>W przypadku problemów, użyj przycisku "Pobierz ponownie"</li>
-                  </ul>
-                </div>
-                <div className="flex flex-col sm:flex-row gap-2 justify-center">
-                  <Button 
+                <div className="flex flex-col gap-3">
+                  <Button
                     onClick={() => {
                       if (selectedDocumentId) {
                         downloadDocument(selectedDocumentId);
                       }
                     }}
-                    className="mt-2"
-                    variant="secondary"
+                    variant="outline"
+                    className="border-white/20 text-white hover:bg-white/10"
                   >
+                    <RefreshCw className="w-4 h-4 mr-2" />
                     Pobierz ponownie
                   </Button>
-                  <Button 
+                  <Button
                     onClick={closeModal}
-                    className="mt-2"
-                    variant="outline"
+                    className="btn-premium py-3 rounded-xl text-slate-900 font-semibold"
                   >
                     Zamknij
                   </Button>
-                </div>
-                <div className="mt-6 pt-4 border-t border-gray-100">
-                  <p className="text-sm text-gray-600">
-                    Na adres <span className="font-medium">{email}</span> prześlemy również powiadomienia o:
-                  </p>
-                  <ul className="text-xs text-gray-500 mt-2 space-y-1">
-                    <li>• Dostępności pełnych szablonów dokumentów zgodnych z CPR</li>
-                    <li>• Aktualizacjach związanych ze zmianami w przepisach</li>
-                    <li>• Nowych materiałach szkoleniowych i pomocniczych</li>
-                  </ul>
                 </div>
               </div>
             )}

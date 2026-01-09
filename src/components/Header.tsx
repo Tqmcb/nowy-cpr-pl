@@ -2,8 +2,22 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { Container } from "./Container";
 import { useAuth } from "../utils/AuthContextUnified";
-import { signOut } from "../utils/authHelpers";
-
+import {
+  Settings,
+  Database,
+  Download,
+  User,
+  LogOut,
+  ChevronDown,
+  Menu,
+  X,
+  Search,
+  FileText,
+  Award,
+  BookOpen,
+  Home,
+  LayoutDashboard
+} from "lucide-react";
 
 export function Header() {
   const navigate = useNavigate();
@@ -12,10 +26,20 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [adminMenuOpen, setAdminMenuOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const adminMenuRef = useRef<HTMLDivElement>(null);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
-  // Close admin and user menus when clicking outside
+  // Handle scroll effect
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close dropdowns when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (adminMenuRef.current && !adminMenuRef.current.contains(event.target as Node)) {
@@ -25,15 +49,12 @@ export function Header() {
         setUserMenuOpen(false);
       }
     }
-    
+
     document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-  
-  // Use signOut function from unified auth context
-const handleLogout = async () => {
+
+  const handleLogout = async () => {
     try {
       await auth.signOut();
       navigate("/");
@@ -42,278 +63,248 @@ const handleLogout = async () => {
     }
   };
 
+  const navLinkClass = ({ isActive }: { isActive: boolean }) =>
+    `relative py-2 px-1 text-sm font-medium transition-all duration-300 flex items-center gap-2 ${isActive
+      ? "text-amber-400"
+      : "text-slate-300 hover:text-white"
+    } after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-gradient-to-r after:from-amber-400 after:to-orange-500 after:transition-all after:duration-300 ${isActive ? "after:w-full" : "after:w-0 hover:after:w-full"
+    }`;
+
   return (
-    <header className="py-4 border-b border-gray-200">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+        ? "py-3 bg-slate-900/95 backdrop-blur-xl shadow-lg shadow-black/20 border-b border-white/5"
+        : "py-5 bg-transparent"
+        }`}
+    >
       <Container>
         <div className="flex items-center justify-between">
-          <div 
-            className="text-xl font-bold cursor-pointer flex items-center" 
+          {/* Logo */}
+          <div
+            className="cursor-pointer group flex items-center gap-1"
             onClick={() => navigate("/")}
           >
-            <span className="text-gray-800">NowyCPR</span>
-            <span className="text-gray-500">.pl</span>
+            <div className="relative">
+              <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-orange-300 transition-all duration-300">
+                NowyCPR
+              </span>
+              <span className="text-2xl font-bold text-slate-400 group-hover:text-slate-300 transition-colors duration-300">.pl</span>
+            </div>
+            <div className="w-2 h-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 animate-pulse ml-1"></div>
           </div>
-          <nav className="hidden md:flex space-x-6">
-            <li className="py-1">
-              <NavLink 
-                to="/Products" 
-                className={({ isActive }) =>
-                  isActive ? "text-primary font-semibold" : "text-gray-600 hover:text-primary transition-colors"
-                }
-              >
-                Wyszukiwarka CPR 2024
-              </NavLink>
-            </li>
-            <li className="py-1">
-              <NavLink 
-                to="/Documents" 
-                className={({ isActive }) =>
-                  isActive ? "text-primary font-semibold" : "text-gray-600 hover:text-primary transition-colors"
-                }
-              >
-                Dokumenty
-              </NavLink>
-            </li>
-            <li className="py-1">
-              <NavLink 
-                to="/Services" 
-                className={({ isActive }) =>
-                  isActive ? "text-primary font-semibold" : "text-gray-600 hover:text-primary transition-colors"
-                }
-              >
-                Usługi certyfikacyjne
-              </NavLink>
-            </li>
-            <li className="py-1">
-              <NavLink 
-                to="/Blog" 
-                className={({ isActive }) =>
-                  isActive ? "text-primary font-semibold" : "text-gray-600 hover:text-primary transition-colors"
-                }
-              >
-                Blog
-              </NavLink>
-            </li>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-8">
+            <NavLink to="/product-search" className={navLinkClass}>
+              <Search className="w-4 h-4" />
+              Wyszukiwarka CPR
+            </NavLink>
+            <NavLink to="/documents" className={navLinkClass}>
+              <FileText className="w-4 h-4" />
+              Dokumenty
+            </NavLink>
+            <NavLink to="/services" className={navLinkClass}>
+              <Award className="w-4 h-4" />
+              Usługi
+            </NavLink>
+            <NavLink to="/blog" className={navLinkClass}>
+              <BookOpen className="w-4 h-4" />
+              Blog
+            </NavLink>
           </nav>
-          <div className="hidden md:flex items-center space-x-4">
-            {/* Admin dropdown - only visible to admin users */}
+
+          {/* Right Side Actions */}
+          <div className="hidden lg:flex items-center gap-4">
+            {/* Admin Dropdown */}
             {isAuthenticated && user?.email?.endsWith('@multicert.pl') && (
               <div className="relative" ref={adminMenuRef}>
-                <button 
-                  className="text-gray-600 hover:text-gray-800 transition-colors flex items-center"
+                <button
+                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors duration-300 px-3 py-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:border-emerald-500/40"
                   onClick={() => setAdminMenuOpen(!adminMenuOpen)}
                 >
+                  <LayoutDashboard className="w-4 h-4 text-emerald-400" />
                   Admin
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
+                  <ChevronDown className={`h-4 w-4 transition-transform duration-300 ${adminMenuOpen ? 'rotate-180' : ''}`} />
                 </button>
-                
+
                 {adminMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg py-1 z-10 border border-gray-100">
-                    <div 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
-                      onClick={() => {
-                        navigate("/admin-panel");
-                        setAdminMenuOpen(false);
-                      }}
-                    >
-                      Panel Administracyjny
-                    </div>
-                    <div 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
-                      onClick={() => {
-                        navigate("/admin-supabase-config");
-                        setAdminMenuOpen(false);
-                      }}
-                    >
-                      Konfiguracja Supabase
-                    </div>
-                    <div 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
-                      onClick={() => {
-                        navigate("/admin-data-import");
-                        setAdminMenuOpen(false);
-                      }}
-                    >
-                      Import danych
-                    </div>
+                  <div className="absolute right-0 mt-3 w-56 glass-card py-2 shadow-xl animate-fade-in">
+                    {[
+                      { path: "/admin-panel", label: "Panel Administracyjny", icon: Settings },
+                      { path: "/admin-supabase-config", label: "Konfiguracja Supabase", icon: Database },
+                      { path: "/admin-data-import", label: "Import danych", icon: Download }
+                    ].map((item) => (
+                      <div
+                        key={item.path}
+                        className="px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
+                        onClick={() => {
+                          navigate(item.path);
+                          setAdminMenuOpen(false);
+                        }}
+                      >
+                        <item.icon className="w-4 h-4 text-slate-400" />
+                        {item.label}
+                      </div>
+                    ))}
                   </div>
                 )}
               </div>
             )}
-            
+
+            {/* User Menu / Login */}
             {isAuthenticated ? (
               <div className="relative" ref={userMenuRef}>
-                <button 
-                  className="text-gray-600 hover:text-gray-800 transition-colors flex items-center"
+                <button
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-all duration-300"
                   onClick={() => setUserMenuOpen(!userMenuOpen)}
                 >
-                  {user?.user_metadata?.full_name || user?.email || 'Użytkownik'}
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
+                  <div className="w-7 h-7 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-xs font-bold text-slate-900">
+                    {(user?.user_metadata?.full_name || user?.email || 'U')[0].toUpperCase()}
+                  </div>
+                  <span className="text-sm text-white max-w-[120px] truncate">
+                    {user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Użytkownik'}
+                  </span>
+                  <ChevronDown className={`h-4 w-4 text-slate-400 transition-transform duration-300 ${userMenuOpen ? 'rotate-180' : ''}`} />
                 </button>
-                
+
                 {userMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-56 bg-white rounded-md shadow-lg py-1 z-10 border border-gray-100">
-                    <div 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
+                  <div className="absolute right-0 mt-3 w-56 glass-card py-2 shadow-xl animate-fade-in">
+                    <div
+                      className="px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
                       onClick={() => {
                         navigate("/client-portal");
                         setUserMenuOpen(false);
                       }}
                     >
+                      <User className="w-4 h-4 text-slate-400" />
                       Portal Klienta
                     </div>
-                    <div 
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer"
+                    <div className="border-t border-white/10 my-1"></div>
+                    <div
+                      className="px-4 py-2.5 text-sm text-red-400 hover:text-red-300 hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
                       onClick={() => {
                         handleLogout();
                         setUserMenuOpen(false);
                       }}
                     >
+                      <LogOut className="w-4 h-4" />
                       Wyloguj się
                     </div>
                   </div>
                 )}
               </div>
             ) : (
-              <button 
-                onClick={() => navigate("/login")} 
-                className="text-gray-800 hover:text-gray-600 font-medium"
+              <button
+                onClick={() => navigate("/login")}
+                className="btn-premium px-6 py-2.5 rounded-full text-sm font-semibold text-slate-900"
               >
-                Logowanie
+                Zaloguj się
               </button>
             )}
           </div>
-          <button 
-            className="md:hidden text-gray-600"
+
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden relative w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 border border-white/10"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            {/* Mobile menu icon - simple hamburger */}
-            <div className="w-6 h-0.5 bg-current mb-1"></div>
-            <div className="w-6 h-0.5 bg-current mb-1"></div>
-            <div className="w-6 h-0.5 bg-current"></div>
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5 text-white" />
+            ) : (
+              <Menu className="w-5 h-5 text-white" />
+            )}
           </button>
         </div>
-        
-        {/* Mobile menu dropdown */}
-        {mobileMenuOpen && (
-          <div className="md:hidden mt-4 py-2 border-t border-gray-100">
-            <div className="flex flex-col space-y-4">
-              <span 
-                onClick={() => {
-                  navigate("/");
-                  setMobileMenuOpen(false);
-                }} 
-                className="text-gray-600 hover:text-primary transition-colors cursor-pointer"
+
+        {/* Mobile Menu */}
+        <div className={`lg:hidden overflow-hidden transition-all duration-500 ${mobileMenuOpen ? 'max-h-[600px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}>
+          <div className="glass-card p-6 space-y-4">
+            {[
+              { path: "/", label: "Strona Główna", icon: Home },
+              { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
+              { path: "/documents", label: "Dokumenty", icon: FileText },
+              { path: "/services", label: "Usługi", icon: Award },
+              { path: "/blog", label: "Blog", icon: BookOpen }
+            ].map((item, index) => (
+              <NavLink
+                key={item.path}
+                to={item.path}
+                onClick={() => setMobileMenuOpen(false)}
+                className={({ isActive }) =>
+                  `flex items-center gap-3 py-3 px-4 rounded-lg text-base font-medium transition-all duration-300 ${isActive
+                    ? 'bg-gradient-to-r from-amber-400/20 to-orange-500/20 text-amber-400 border-l-2 border-amber-400'
+                    : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                  }`
+                }
+                style={{ animationDelay: `${index * 50}ms` }}
               >
-                Strona Główna
-              </span>
-              <span 
-                onClick={() => {
-                  navigate("/product-search");
-                  setMobileMenuOpen(false);
-                }} 
-                className="text-gray-600 hover:text-primary transition-colors cursor-pointer"
-              >
-                Wyszukiwarka CPR
-              </span>
-              <span 
-                onClick={() => {
-                  navigate("/documents");
-                  setMobileMenuOpen(false);
-                }} 
-                className="text-gray-600 hover:text-primary transition-colors cursor-pointer"
-              >
-                Dokumenty
-              </span>
-              <span 
-                onClick={() => {
-                  navigate("/services");
-                  setMobileMenuOpen(false);
-                }} 
-                className="text-gray-600 hover:text-primary transition-colors cursor-pointer"
-              >
-                Usługi
-              </span>
-              <span 
-                onClick={() => {
-                  navigate("/Blog");
-                  setMobileMenuOpen(false);
-                }} 
-                className="text-gray-600 hover:text-primary transition-colors cursor-pointer"
-              >
-                Blog
-              </span>
-              {/* Admin section in mobile menu - only visible to admin users */}
-              {isAuthenticated && user?.email?.endsWith('@multicert.pl') && (
-                <div className="pt-2 mt-2 border-t border-gray-100">
-                  <p className="text-xs text-gray-500 mb-2 uppercase font-semibold">Admin</p>
-                  <span 
-                    onClick={() => {
-                      navigate("/admin-panel");
-                      setMobileMenuOpen(false);
-                    }} 
-                    className="block py-2 text-gray-600 hover:text-primary transition-colors cursor-pointer"
+                <item.icon className="w-5 h-5" />
+                {item.label}
+              </NavLink>
+            ))}
+
+            {/* Admin section in mobile */}
+            {isAuthenticated && user?.email?.endsWith('@multicert.pl') && (
+              <div className="pt-4 mt-4 border-t border-white/10">
+                <p className="text-xs text-emerald-400 uppercase tracking-wider font-semibold mb-3 px-4 flex items-center gap-2">
+                  <LayoutDashboard className="w-4 h-4" />
+                  Panel Admina
+                </p>
+                {[
+                  { path: "/admin-panel", label: "Panel Administracyjny", icon: Settings },
+                  { path: "/admin-supabase-config", label: "Konfiguracja Supabase", icon: Database },
+                  { path: "/admin-data-import", label: "Import danych", icon: Download }
+                ].map((item) => (
+                  <NavLink
+                    key={item.path}
+                    to={item.path}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center gap-3 py-2.5 px-4 text-sm text-slate-400 hover:text-white hover:bg-white/5 rounded-lg transition-all duration-200"
                   >
-                    Panel Administracyjny
-                  </span>
-                  <span 
-                    onClick={() => {
-                      navigate("/admin-supabase-config");
-                      setMobileMenuOpen(false);
-                    }} 
-                    className="block py-2 text-gray-600 hover:text-primary transition-colors cursor-pointer"
-                  >
-                    Konfiguracja Supabase
-                  </span>
-                  <span 
-                    onClick={() => {
-                      navigate("/admin-data-import");
-                      setMobileMenuOpen(false);
-                    }} 
-                    className="block py-2 text-gray-600 hover:text-primary transition-colors cursor-pointer"
-                  >
-                    Import danych
-                  </span>
-                </div>
-              )}
-              
+                    <item.icon className="w-4 h-4" />
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+
+            {/* User section in mobile */}
+            <div className="pt-4 mt-4 border-t border-white/10">
               {isAuthenticated ? (
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  <p className="text-xs text-gray-500 mb-2 uppercase font-semibold">Konto</p>
-                  <span 
-                    onClick={() => {
-                      navigate("/client-portal");
-                      setMobileMenuOpen(false);
-                    }} 
-                    className="block py-2 text-gray-600 hover:text-primary transition-colors cursor-pointer"
+                <>
+                  <NavLink
+                    to="/client-portal"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center gap-3 py-3 px-4 text-slate-300 hover:text-white hover:bg-white/5 rounded-lg transition-all duration-200"
                   >
+                    <User className="w-5 h-5" />
                     Portal Klienta
-                  </span>
-                  <button 
-                    onClick={handleLogout} 
-                    className="text-gray-800 hover:text-gray-600 font-medium text-left mt-2"
+                  </NavLink>
+                  <button
+                    onClick={() => {
+                      handleLogout();
+                      setMobileMenuOpen(false);
+                    }}
+                    className="w-full flex items-center gap-3 text-left py-3 px-4 text-red-400 hover:text-red-300 hover:bg-white/5 rounded-lg transition-all duration-200"
                   >
+                    <LogOut className="w-5 h-5" />
                     Wyloguj się
                   </button>
-                </div>
+                </>
               ) : (
-                <button 
+                <button
                   onClick={() => {
                     navigate("/login");
                     setMobileMenuOpen(false);
-                  }} 
-                  className="text-gray-800 hover:text-gray-600 font-medium text-left mt-4"
+                  }}
+                  className="w-full btn-premium py-3 rounded-xl text-sm font-semibold text-slate-900"
                 >
-                  Logowanie
+                  Zaloguj się
                 </button>
               )}
             </div>
           </div>
-        )}
+        </div>
       </Container>
     </header>
   );

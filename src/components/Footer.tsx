@@ -1,108 +1,242 @@
 import React from "react";
 import { Container } from "./Container";
 import { Link } from "react-router-dom";
+import {
+  MapPin,
+  Mail,
+  Phone,
+  Send,
+  Linkedin,
+  Twitter,
+  Facebook,
+  Home,
+  Search,
+  FileText,
+  Award,
+  BookOpen,
+  Shield,
+  ExternalLink
+} from "lucide-react";
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-gray-50 py-12">
+    <footer className="relative bg-gradient-to-b from-slate-900 to-slate-950 pt-20 pb-8 overflow-hidden">
+      {/* Decorative Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
+      </div>
+
+      {/* Top Border Gradient */}
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent"></div>
+
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <div className="text-xl font-bold mb-4">
-              <span className="text-gray-800">NowyCPR</span>
-              <span className="text-gray-500">.pl</span>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście nowego rozporządzenia CPR 2024.
-            </p>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Przydatne linki</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link to="/" className="text-gray-600 hover:text-gray-800">Strona Główna</Link></li>
-              <li><Link to="/product-search" className="text-gray-600 hover:text-gray-800">Wyszukiwarka CPR</Link></li>
-              <li><Link to="/documents" className="text-gray-600 hover:text-gray-800">Dokumenty</Link></li>
-              <li><Link to="/services" className="text-gray-600 hover:text-gray-800">Usługi</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Kontakt</h3>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li>Multicert Sp. z o.o.</li>
-              <li>ul. Przykładowa 12</li>
-              <li>00-000 Warszawa</li>
-              <li>info@multicert.pl</li>
-              <li>+48 123 456 789</li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Newsletter</h3>
-            <p className="text-gray-600 text-sm mb-4">Bądź na bieżąco z najnowszymi informacjami o CPR 2024</p>
-            <form onSubmit={(e) => {
-              e.preventDefault();
-              const form = e.target as HTMLFormElement;
-              const emailInput = form.querySelector('input[type="email"]') as HTMLInputElement;
-              const nameInput = form.querySelector('input[type="text"]') as HTMLInputElement;
-              
-              if (emailInput && emailInput.value) {
-                const name = nameInput?.value || '';
-                import('utils/newsletterHelpers').then(({ subscribeToNewsletter, validateEmail }) => {
-                  if (!validateEmail(emailInput.value)) {
-                    alert("Proszę podać prawidłowy adres email");
-                    return;
-                  }
-                  
-                  subscribeToNewsletter(emailInput.value, 'footer-newsletter', name)
-                    .then(success => {
-                      if (success) {
-                        alert("Dziękujemy za zapisanie się do newslettera!");
-                        emailInput.value = '';
-                        if (nameInput) nameInput.value = '';
-                      } else {
-                        alert("Wystąpił problem podczas zapisywania. Spróbuj ponownie.");
-                      }
-                    });
-                });
-              }
-            }}>
-              <div className="space-y-3 mb-3">
-                <input 
-                  type="text" 
-                  placeholder="Twoje imię" 
-                  className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-400 focus:border-gray-400 bg-white"
-                />
-                <input 
-                  type="email" 
-                  placeholder="Twój e-mail" 
-                  required
-                  className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-400 focus:border-gray-400 bg-white"
-                />
-                <button 
-                  type="submit" 
-                  className="w-full bg-gray-700 text-white px-3 py-2 text-sm rounded-md hover:bg-gray-600 font-medium"
-                >
-                  Zapisz się
-                </button>
+        <div className="relative z-10">
+          {/* Main Footer Content */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            {/* Brand Section */}
+            <div className="lg:col-span-1">
+              <div className="mb-6">
+                <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                  NowyCPR
+                </span>
+                <span className="text-2xl font-bold text-slate-500">.pl</span>
               </div>
-              <p className="text-xs text-gray-500 mt-2">Twoje dane będą wykorzystane wyłącznie w celu wysyłki newslettera.</p>
-            </form>
+              <p className="text-slate-400 text-sm leading-relaxed mb-6">
+                Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście Rozporządzenia CPR (EU) 2024/3110. Aktualne informacje, dokumenty i profesjonalne usługi certyfikacyjne.
+              </p>
+              {/* Social Icons */}
+              <div className="flex gap-3">
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
+                >
+                  <Twitter className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
+                >
+                  <Facebook className="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-white font-semibold mb-6 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-400"></span>
+                Przydatne linki
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  { path: "/", label: "Strona Główna", icon: Home },
+                  { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
+                  { path: "/documents", label: "Dokumenty", icon: FileText },
+                  { path: "/services", label: "Usługi certyfikacyjne", icon: Award },
+                  { path: "/blog", label: "Blog", icon: BookOpen }
+                ].map((link) => (
+                  <li key={link.path}>
+                    <Link
+                      to={link.path}
+                      className="text-slate-400 hover:text-amber-400 transition-colors duration-300 text-sm flex items-center gap-2 group"
+                    >
+                      <link.icon className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Contact */}
+            <div>
+              <h3 className="text-white font-semibold mb-6 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-blue-400"></span>
+                Kontakt
+              </h3>
+              <ul className="space-y-4 text-sm">
+                <li className="flex items-start gap-3 text-slate-400">
+                  <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="text-white font-medium">Multicert Sp. z o.o.</p>
+                    <p>ul. Przykładowa 12</p>
+                    <p>00-000 Warszawa</p>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="mailto:info@multicert.pl"
+                    className="flex items-center gap-3 text-slate-400 hover:text-amber-400 transition-colors"
+                  >
+                    <Mail className="w-5 h-5 text-amber-400" />
+                    info@multicert.pl
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+48123456789"
+                    className="flex items-center gap-3 text-slate-400 hover:text-amber-400 transition-colors"
+                  >
+                    <Phone className="w-5 h-5 text-green-400" />
+                    +48 123 456 789
+                  </a>
+                </li>
+              </ul>
+
+              {/* Official EU Link */}
+              <div className="mt-6 p-3 rounded-lg bg-blue-500/10 border border-blue-500/20">
+                <a
+                  href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R3110"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  <Shield className="w-4 h-4" />
+                  <span>Oficjalny tekst CPR (EU) 2024/3110</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+
+            {/* Newsletter */}
+            <div>
+              <h3 className="text-white font-semibold mb-6 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                Newsletter
+              </h3>
+              <p className="text-slate-400 text-sm mb-4">
+                Bądź na bieżąco z najnowszymi zmianami w przepisach CPR i terminami wdrożeń
+              </p>
+              <form onSubmit={(e) => {
+                e.preventDefault();
+                const form = e.target as HTMLFormElement;
+                const emailInput = form.querySelector('input[type="email"]') as HTMLInputElement;
+                const nameInput = form.querySelector('input[type="text"]') as HTMLInputElement;
+
+                if (emailInput && emailInput.value) {
+                  const name = nameInput?.value || '';
+                  import('utils/newsletterHelpers').then(({ subscribeToNewsletter, validateEmail }) => {
+                    if (!validateEmail(emailInput.value)) {
+                      alert("Proszę podać prawidłowy adres email");
+                      return;
+                    }
+
+                    subscribeToNewsletter(emailInput.value, 'footer-newsletter', name)
+                      .then(success => {
+                        if (success) {
+                          alert("Dziękujemy za zapisanie się do newslettera!");
+                          emailInput.value = '';
+                          if (nameInput) nameInput.value = '';
+                        } else {
+                          alert("Wystąpił problem podczas zapisywania. Spróbuj ponownie.");
+                        }
+                      });
+                  });
+                }
+              }}>
+                <div className="space-y-3">
+                  <input
+                    type="text"
+                    placeholder="Twoje imię"
+                    className="w-full px-4 py-3 text-sm bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all duration-300"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Twój e-mail"
+                    required
+                    className="w-full px-4 py-3 text-sm bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all duration-300"
+                  />
+                  <button
+                    type="submit"
+                    className="w-full btn-premium py-3 rounded-xl text-sm font-semibold text-slate-900 flex items-center justify-center gap-2"
+                  >
+                    <Send className="w-4 h-4" />
+                    Zapisz się
+                  </button>
+                </div>
+                <p className="text-xs text-slate-500 mt-3">
+                  Twoje dane będą wykorzystane wyłącznie w celu wysyłki newslettera.
+                </p>
+              </form>
+            </div>
           </div>
-        </div>
-        
-        <div className="mt-8 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
-          <div>
-            <p>© 2025 NowyCPR.pl. Wszystkie prawa zastrzeżone.</p>
-          </div>
-          <div className="mt-4 md:mt-0">
-            <p>Strona zarządzana przez Multicert Sp. z o.o., opracowana przez TechStandard.io.</p>
-          </div>
-          <div className="mt-4 md:mt-0 flex space-x-4">
-            <Link to="/" className="hover:text-gray-800">Polityka prywatności</Link>
-            <Link to="/" className="hover:text-gray-800">Regulamin</Link>
-            <Link to="/services" className="hover:text-gray-800">Kontakt</Link>
+
+          {/* Bottom Bar */}
+          <div className="pt-8 border-t border-white/10">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <div className="text-slate-500 text-sm">
+                © {currentYear} NowyCPR.pl. Wszystkie prawa zastrzeżone.
+              </div>
+              <div className="text-slate-600 text-xs">
+                Zarządzane przez <span className="text-slate-400">Multicert Sp. z o.o.</span>
+              </div>
+              <div className="flex items-center gap-6 text-sm">
+                <Link to="/" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                  Polityka prywatności
+                </Link>
+                <Link to="/" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                  Regulamin
+                </Link>
+                <Link to="/services" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                  Kontakt
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Container>
