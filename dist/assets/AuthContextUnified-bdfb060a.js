@@ -1,0 +1,1 @@
+import{r as s}from"./vendor-0d10fadb.js";import"./index-74277a00.js";const t=s.createContext({user:null,isLoading:!0,isAuthenticated:!1,error:null,signIn:async()=>({}),signUp:async()=>({}),signOut:async()=>({}),resetPassword:async()=>({}),getUserProfile:async()=>({}),updateUserProfile:async()=>({})}),r=()=>s.useContext(t);export{r as u};

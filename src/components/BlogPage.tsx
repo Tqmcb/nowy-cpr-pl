@@ -731,31 +731,42 @@ export function BlogPage() {
   const [email, setEmail] = useState("");
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
 
-  // Pobieranie wpisów bloga - priorytety: 1) Supabase, 2) External API, 3) Fallback
+  // Pobieranie wpisów bloga - priorytety: 1) Supabase (z harmonogramem), 2) External API, 3) Fallback
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
         setLoading(true);
 
-        // 1. Próba pobrania z Supabase (automatyczne aktualizacje)
+        // 1. Próba pobrania z Supabase z harmonogramowaniem (tylko opublikowane i po dacie publikacji)
         try {
-          const { fetchData } = await import('../utils/supabaseDatabase');
-          const { data: supabasePosts, error: supabaseError } = await fetchData<BlogPost[]>('blog_posts', {
-            filters: { is_published: true },
-            orderBy: 'published_at',
-            orderDirection: 'desc'
-          });
+          const { fetchPublishedBlogPosts } = await import('../utils/supabaseBlog');
+          const supabasePosts = await fetchPublishedBlogPosts();
 
-          if (!supabaseError && supabasePosts && supabasePosts.length > 0) {
-            console.log('✅ Pobrano posty z Supabase:', supabasePosts.length);
-            setBlogPosts(supabasePosts);
+          if (supabasePosts && supabasePosts.length > 0) {
+            // Mapuj posty z Supabase na format BlogPost
+            const mappedPosts: BlogPost[] = supabasePosts.map(post => ({
+              id: post.id,
+              title: post.title,
+              slug: post.slug,
+              excerpt: post.excerpt,
+              content: post.content,
+              author: post.author_name,
+              published_at: post.scheduled_for || post.created_at,
+              updated_at: post.updated_at,
+              is_published: post.published,
+              category: post.category,
+              image_url: post.image_url,
+              tags: post.tags
+            }));
+            console.log('✅ Pobrano posty z Supabase (z harmonogramem):', mappedPosts.length);
+            setBlogPosts(mappedPosts);
             setLastUpdate(new Date());
             setError(null);
             setLoading(false);
             return;
           }
         } catch (supabaseError) {
-          console.log('ℹ️ Supabase niedostępny, próbuję API zewnętrzne...');
+          console.log('ℹ️ Supabase niedostępny, próbuję API zewnętrzne...', supabaseError);
         }
 
         // 2. Próba pobrania z zewnętrznego API
@@ -792,7 +803,7 @@ export function BlogPage() {
 
     fetchBlogPosts();
 
-    // Automatyczne odświeżanie co 5 minut dla nowych treści CPR
+    // Automatyczne odświeżanie co 5 minut dla nowych treści CPR (harmonogramowanych)
     const refreshInterval = setInterval(fetchBlogPosts, 5 * 60 * 1000);
 
     return () => clearInterval(refreshInterval);
