@@ -306,7 +306,7 @@ export class Brain<SecurityDataType = unknown> extends HttpClient<SecurityDataTy
    * @summary Check Health
    * @request GET:/routes/health
    */
-  check_health = (params: RequestParams = {}) =>
+  check_health_api = (params: RequestParams = {}) =>
     this.request<CheckHealthResult, any>({
       path: `/routes/health`,
       method: "GET",

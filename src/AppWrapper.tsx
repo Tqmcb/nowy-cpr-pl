@@ -4,6 +4,7 @@ import { router } from "./router";
 import { Head } from "./internal-components/Head";
 import { ThemeProvider } from "./internal-components/ThemeProvider";
 import { DEFAULT_THEME } from "./constants/default-theme";
+import { AuthWrapper } from "./components/AuthWrapper";
 
 export const AppWrapper = () => {
 	return (
@@ -18,7 +19,9 @@ export const AppWrapper = () => {
 					);
 				}}
 			>
-				<RouterProvider router={router} />
+				<AuthWrapper>
+					<RouterProvider router={router} />
+				</AuthWrapper>
 				<Head />
 			</ErrorBoundary>
 		</ThemeProvider>

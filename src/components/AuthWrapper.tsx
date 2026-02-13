@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthProvider } from '../utils/AuthContext';
+import { AuthProvider } from '../utils/AuthContextUnified';
 
 interface AuthWrapperProps {
   children: React.ReactNode;
