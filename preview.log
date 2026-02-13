@@ -1,0 +1,7 @@
+
+> nowy-cpr-pl@0.0.0 preview
+> vite preview --port 4173
+
+Extension firebase-auth not found
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
