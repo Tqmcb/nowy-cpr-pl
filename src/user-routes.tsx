@@ -3,91 +3,23 @@
 import { lazy } from "react";
 import { RouteObject } from "react-router";
 
-
-
-const AdminAddBlog = lazy(() => import("./pages/AdminAddBlog.tsx"));
-const AdminAddCategory = lazy(() => import("./pages/AdminAddCategory.tsx"));
-const AdminAddDocument = lazy(() => import("./pages/AdminAddDocument.tsx"));
-const AdminBlog = lazy(() => import("./pages/AdminBlog.tsx"));
-const AdminBlogPosts = lazy(() => import("./pages/AdminBlogPosts.tsx"));
-const AdminDashboard = lazy(() => import("./pages/AdminDashboard.tsx"));
-const AdminDataImport = lazy(() => import("./pages/AdminDataImport.tsx"));
-const AdminDocuments = lazy(() => import("./pages/AdminDocuments.tsx"));
-const AdminEditBlog = lazy(() => import("./pages/AdminEditBlog.tsx"));
-const AdminEditCategory = lazy(() => import("./pages/AdminEditCategory.tsx"));
-const AdminEditDocument = lazy(() => import("./pages/AdminEditDocument.tsx"));
-const AdminImportData = lazy(() => import("./pages/AdminImportData.tsx"));
-const AdminPanel = lazy(() => import("./pages/AdminPanel.tsx"));
-const AdminProductCategories = lazy(() => import("./pages/AdminProductCategories.tsx"));
-const AdminSupabaseConfig = lazy(() => import("./pages/AdminSupabaseConfig.tsx"));
-const AdminViewCategory = lazy(() => import("./pages/AdminViewCategory.tsx"));
 const App = lazy(() => import("./pages/App.tsx"));
 const Blog = lazy(() => import("./pages/Blog.tsx"));
 const BlogPost = lazy(() => import("./pages/BlogPost.tsx"));
-const ClientPortal = lazy(() => import("./pages/ClientPortal.tsx"));
 const DataImport = lazy(() => import("./pages/DataImport.tsx"));
 const Documents = lazy(() => import("./pages/Documents.tsx"));
-const ForgotPassword = lazy(() => import("./pages/ForgotPassword.tsx"));
-const Login = lazy(() => import("./pages/Login.tsx"));
 const ProductSearch = lazy(() => import("./pages/ProductSearch.tsx"));
-const ResetPassword = lazy(() => import("./pages/ResetPassword.tsx"));
 const Services = lazy(() => import("./pages/Services.tsx"));
-const Signup = lazy(() => import("./pages/Signup.tsx"));
-const SupabaseConfig = lazy(() => import("./pages/SupabaseConfig.tsx"));
 
 export const userRoutes: RouteObject[] = [
-
-	{ path: "/admin-add-blog", element: <AdminAddBlog />},
-	{ path: "/adminaddblog", element: <AdminAddBlog />},
-	{ path: "/admin-add-category", element: <AdminAddCategory />},
-	{ path: "/adminaddcategory", element: <AdminAddCategory />},
-	{ path: "/admin-add-document", element: <AdminAddDocument />},
-	{ path: "/adminadddocument", element: <AdminAddDocument />},
-	{ path: "/admin-blog", element: <AdminBlog />},
-	{ path: "/adminblog", element: <AdminBlog />},
-	{ path: "/admin-blog-posts", element: <AdminBlogPosts />},
-	{ path: "/adminblogposts", element: <AdminBlogPosts />},
-	{ path: "/admin-dashboard", element: <AdminDashboard />},
-	{ path: "/admindashboard", element: <AdminDashboard />},
-	{ path: "/admin-data-import", element: <AdminDataImport />},
-	{ path: "/admindataimport", element: <AdminDataImport />},
-	{ path: "/admin-documents", element: <AdminDocuments />},
-	{ path: "/admindocuments", element: <AdminDocuments />},
-	{ path: "/admin-edit-blog", element: <AdminEditBlog />},
-	{ path: "/admineditblog", element: <AdminEditBlog />},
-	{ path: "/admin-edit-category", element: <AdminEditCategory />},
-	{ path: "/admineditcategory", element: <AdminEditCategory />},
-	{ path: "/admin-edit-document", element: <AdminEditDocument />},
-	{ path: "/admineditdocument", element: <AdminEditDocument />},
-	{ path: "/admin-import-data", element: <AdminImportData />},
-	{ path: "/adminimportdata", element: <AdminImportData />},
-	{ path: "/admin-panel", element: <AdminPanel />},
-	{ path: "/adminpanel", element: <AdminPanel />},
-	{ path: "/admin-product-categories", element: <AdminProductCategories />},
-	{ path: "/adminproductcategories", element: <AdminProductCategories />},
-	{ path: "/admin-supabase-config", element: <AdminSupabaseConfig />},
-	{ path: "/adminsupabaseconfig", element: <AdminSupabaseConfig />},
-	{ path: "/admin-view-category", element: <AdminViewCategory />},
-	{ path: "/adminviewcategory", element: <AdminViewCategory />},
 	{ path: "/", element: <App />},
 	{ path: "/blog", element: <Blog />},
 	{ path: "/blog-post", element: <BlogPost />},
 	{ path: "/blogpost", element: <BlogPost />},
-	{ path: "/client-portal", element: <ClientPortal />},
-	{ path: "/clientportal", element: <ClientPortal />},
 	{ path: "/data-import", element: <DataImport />},
 	{ path: "/dataimport", element: <DataImport />},
 	{ path: "/documents", element: <Documents />},
-	{ path: "/forgot-password", element: <ForgotPassword />},
-	{ path: "/forgotpassword", element: <ForgotPassword />},
-	{ path: "/login", element: <Login />},
 	{ path: "/product-search", element: <ProductSearch />},
 	{ path: "/productsearch", element: <ProductSearch />},
-	{ path: "/reset-password", element: <ResetPassword />},
-	{ path: "/resetpassword", element: <ResetPassword />},
 	{ path: "/services", element: <Services />},
-	{ path: "/signup", element: <Signup />},
-	{ path: "/supabase-config", element: <SupabaseConfig />},
-	{ path: "/supabaseconfig", element: <SupabaseConfig />},
-
 ];

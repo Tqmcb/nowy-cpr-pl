@@ -1,34 +1,20 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import { Container } from "./Container";
-import { useAuth } from "../utils/AuthContextUnified";
 import {
-  Settings,
-  Database,
-  Download,
-  User,
-  LogOut,
-  ChevronDown,
   Menu,
   X,
   Search,
   FileText,
   Award,
   BookOpen,
-  Home,
-  LayoutDashboard
+  Home
 } from "lucide-react";
 
 export function Header() {
   const navigate = useNavigate();
-  const auth = useAuth();
-  const { user, isAuthenticated, isLoading } = auth;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [adminMenuOpen, setAdminMenuOpen] = useState(false);
-  const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const adminMenuRef = useRef<HTMLDivElement>(null);
-  const userMenuRef = useRef<HTMLDivElement>(null);
 
   // Handle scroll effect
   useEffect(() => {
@@ -38,30 +24,6 @@ export function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  // Close dropdowns when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (adminMenuRef.current && !adminMenuRef.current.contains(event.target as Node)) {
-        setAdminMenuOpen(false);
-      }
-      if (userMenuRef.current && !userMenuRef.current.contains(event.target as Node)) {
-        setUserMenuOpen(false);
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  const handleLogout = async () => {
-    try {
-      await auth.signOut();
-      navigate("/");
-    } catch (error) {
-      console.error("Błąd podczas wylogowywania:", error);
-    }
-  };
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     `relative py-2 px-1 text-sm font-medium transition-all duration-300 flex items-center gap-2 ${isActive
@@ -113,94 +75,8 @@ export function Header() {
             </NavLink>
           </nav>
 
-          {/* Right Side Actions */}
+          {/* Right Side Actions - Empty for info-only portal */}
           <div className="hidden lg:flex items-center gap-4">
-            {/* Admin Dropdown */}
-            {isAuthenticated && user?.email?.endsWith('@multicert.pl') && (
-              <div className="relative" ref={adminMenuRef}>
-                <button
-                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors duration-300 px-3 py-2 rounded-lg bg-emerald-500/10 border border-emerald-500/20 hover:border-emerald-500/40"
-                  onClick={() => setAdminMenuOpen(!adminMenuOpen)}
-                >
-                  <LayoutDashboard className="w-4 h-4 text-emerald-400" />
-                  Admin
-                  <ChevronDown className={`h-4 w-4 transition-transform duration-300 ${adminMenuOpen ? 'rotate-180' : ''}`} />
-                </button>
-
-                {adminMenuOpen && (
-                  <div className="absolute right-0 mt-3 w-56 glass-card py-2 shadow-xl animate-fade-in">
-                    {[
-                      { path: "/admin-panel", label: "Panel Administracyjny", icon: Settings },
-                      { path: "/admin-supabase-config", label: "Konfiguracja Supabase", icon: Database },
-                      { path: "/admin-data-import", label: "Import danych", icon: Download }
-                    ].map((item) => (
-                      <div
-                        key={item.path}
-                        className="px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
-                        onClick={() => {
-                          navigate(item.path);
-                          setAdminMenuOpen(false);
-                        }}
-                      >
-                        <item.icon className="w-4 h-4 text-slate-400" />
-                        {item.label}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* User Menu / Login */}
-            {isAuthenticated ? (
-              <div className="relative" ref={userMenuRef}>
-                <button
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-all duration-300"
-                  onClick={() => setUserMenuOpen(!userMenuOpen)}
-                >
-                  <div className="w-7 h-7 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-xs font-bold text-slate-900">
-                    {(user?.user_metadata?.full_name || user?.email || 'U')[0].toUpperCase()}
-                  </div>
-                  <span className="text-sm text-white max-w-[120px] truncate">
-                    {user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Użytkownik'}
-                  </span>
-                  <ChevronDown className={`h-4 w-4 text-slate-400 transition-transform duration-300 ${userMenuOpen ? 'rotate-180' : ''}`} />
-                </button>
-
-                {userMenuOpen && (
-                  <div className="absolute right-0 mt-3 w-56 glass-card py-2 shadow-xl animate-fade-in">
-                    <div
-                      className="px-4 py-2.5 text-sm text-slate-300 hover:text-white hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
-                      onClick={() => {
-                        navigate("/client-portal");
-                        setUserMenuOpen(false);
-                      }}
-                    >
-                      <User className="w-4 h-4 text-slate-400" />
-                      Portal Klienta
-                    </div>
-                    <div className="border-t border-white/10 my-1"></div>
-                    <div
-                      className="px-4 py-2.5 text-sm text-red-400 hover:text-red-300 hover:bg-white/5 cursor-pointer transition-all duration-200 flex items-center gap-3"
-                      onClick={() => {
-                        handleLogout();
-                        setUserMenuOpen(false);
-                      }}
-                    >
-                      <LogOut className="w-4 h-4" />
-                      Wyloguj się
-                    </div>
-                  </div>
-                )}
-              </div>
-            ) : (
-              <button
-                onClick={() => navigate("/login")}
-                className="btn-premium px-6 py-2.5 rounded-full text-sm font-semibold text-slate-900"
-              >
-                Zaloguj się
-              </button>
-            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -243,66 +119,6 @@ export function Header() {
               </NavLink>
             ))}
 
-            {/* Admin section in mobile */}
-            {isAuthenticated && user?.email?.endsWith('@multicert.pl') && (
-              <div className="pt-4 mt-4 border-t border-white/10">
-                <p className="text-xs text-emerald-400 uppercase tracking-wider font-semibold mb-3 px-4 flex items-center gap-2">
-                  <LayoutDashboard className="w-4 h-4" />
-                  Panel Admina
-                </p>
-                {[
-                  { path: "/admin-panel", label: "Panel Administracyjny", icon: Settings },
-                  { path: "/admin-supabase-config", label: "Konfiguracja Supabase", icon: Database },
-                  { path: "/admin-data-import", label: "Import danych", icon: Download }
-                ].map((item) => (
-                  <NavLink
-                    key={item.path}
-                    to={item.path}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center gap-3 py-2.5 px-4 text-sm text-slate-400 hover:text-white hover:bg-white/5 rounded-lg transition-all duration-200"
-                  >
-                    <item.icon className="w-4 h-4" />
-                    {item.label}
-                  </NavLink>
-                ))}
-              </div>
-            )}
-
-            {/* User section in mobile */}
-            <div className="pt-4 mt-4 border-t border-white/10">
-              {isAuthenticated ? (
-                <>
-                  <NavLink
-                    to="/client-portal"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="flex items-center gap-3 py-3 px-4 text-slate-300 hover:text-white hover:bg-white/5 rounded-lg transition-all duration-200"
-                  >
-                    <User className="w-5 h-5" />
-                    Portal Klienta
-                  </NavLink>
-                  <button
-                    onClick={() => {
-                      handleLogout();
-                      setMobileMenuOpen(false);
-                    }}
-                    className="w-full flex items-center gap-3 text-left py-3 px-4 text-red-400 hover:text-red-300 hover:bg-white/5 rounded-lg transition-all duration-200"
-                  >
-                    <LogOut className="w-5 h-5" />
-                    Wyloguj się
-                  </button>
-                </>
-              ) : (
-                <button
-                  onClick={() => {
-                    navigate("/login");
-                    setMobileMenuOpen(false);
-                  }}
-                  className="w-full btn-premium py-3 rounded-xl text-sm font-semibold text-slate-900"
-                >
-                  Zaloguj się
-                </button>
-              )}
-            </div>
           </div>
         </div>
       </Container>

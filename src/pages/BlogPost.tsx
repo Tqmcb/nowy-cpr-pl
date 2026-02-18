@@ -4,11 +4,12 @@ import { Button } from "@/extensions/shadcn/components/button";
 import { Skeleton } from "@/extensions/shadcn/components/skeleton";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { fetchBlogPostBySlug, BlogPost as BlogPostType } from "../utils/contentLoader";
 
 export default function BlogPost() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [post, setPost] = useState<any>(null);
+  const [post, setPost] = useState<BlogPostType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,9 +28,9 @@ export default function BlogPost() {
     });
   };
 
-  // Pobieranie posta z API
+  // Pobieranie posta
   useEffect(() => {
-    const fetchPost = async () => {
+    const loadPost = async () => {
       if (!slug) {
         setError("Nieprawidłowy adres URL artykułu");
         setLoading(false);
@@ -38,14 +39,13 @@ export default function BlogPost() {
 
       try {
         setLoading(true);
-        const response = await fetch(`https://api.databutton.com/_projects/89c9d971-d0a0-4797-87da-9d7f842175ad/dbtn/devx/app/routes/local-post/${slug}`);
-        const data = await response.json();
+        const foundPost = await fetchBlogPostBySlug(slug);
 
-        if (data.success && data.post) {
-          setPost(data.post);
+        if (foundPost) {
+          setPost(foundPost);
           setError(null);
         } else {
-          setError(data.message || "Nie udało się pobrać artykułu");
+          setError("Nie znaleziono artykułu");
           setPost(null);
         }
       } catch (error) {
@@ -57,7 +57,7 @@ export default function BlogPost() {
       }
     };
 
-    fetchPost();
+    loadPost();
   }, [slug]);
 
   // Konwersja Markdown do HTML (prosta implementacja) 
