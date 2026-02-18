@@ -39,11 +39,13 @@ const placeholderRequirements = {
     "Cyfrowy paszport produktu (nowy z CPR 2024)"
   ],
   cprChanges: [
-    "Cyfryzacja dokumentacji i oznaczeń",
-    "Zwiększone wymagania środowiskowe",
-    "Nowe systemy oceny i weryfikacji stałości właściwości użytkowych"
+    "Cyfryzacja dokumentacji i oznaczeń (Digital DoP)",
+    "Zwiększone wymagania środowiskowe (zrównoważony rozwój)",
+    "Nowe systemy oceny i weryfikacji stałości właściwości użytkowych (w tym System 3+)",
+    "Paszport Produktu (Digital Product Passport)",
+    "Rozszerzone wymogi dotyczące substancji niebezpiecznych"
   ],
-  certificationSystems: ["System 2+", "System 3"]
+  certificationSystems: ["System 1", "System 2+", "System 3+", "System 3", "System 4"]
 };
 
 // Helper function to build a complete list of product categories when Supabase fails
