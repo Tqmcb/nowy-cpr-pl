@@ -46,6 +46,10 @@ Instytut Nafty i Gazu. Zakres:
 - Rury i złączki gazowe
 - Materiały uszczelniające do instalacji gazowych
 
+### Multicert (akredytacja dla betonu i wyrobów pochodnych)
+
+[Multicert](https://www.multicert.com.pl) to jednostka akredytowana w zakresie betonu towarowego, cementu, prefabrykatów betonowych i kruszyw budowlanych. Specjalizuje się w certyfikacji systemu 2+ dla producentów betonu i wyrobów prefabrykowanych.
+
 ## Kryteria wyboru jednostki
 
 1. **Zakres notyfikacji** – czy jednostka jest uprawniona dla Twojego produktu i normy?
@@ -72,6 +76,6 @@ Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy m
 
 ---
 
-Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.com.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.
+Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.
 
 Sprawdź też ofertę [ITCZLin](https://www.itczlin.pl) — niezależnego centrum badań i certyfikacji wyrobów budowlanych.

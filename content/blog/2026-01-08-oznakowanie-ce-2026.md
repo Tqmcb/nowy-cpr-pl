@@ -111,4 +111,4 @@ Organy kontrolne sprawdzają m.in.:
 
 ---
 
-**Przygotuj się na zmiany już teraz** — lipiec 2026 to już niedługo! Jeśli potrzebujesz wsparcia w przygotowaniu dokumentacji, Digital DoP lub oceny klasy środowiskowej, skontaktuj się z doświadczonymi specjalistami — [Multicert](https://www.multicert.com.pl) oferuje kompleksową obsługę procesu certyfikacji wyrobów budowlanych.
+**Przygotuj się na zmiany już teraz** — lipiec 2026 to już niedługo! Jeśli potrzebujesz wsparcia w przygotowaniu dokumentacji, Digital DoP lub oceny klasy środowiskowej, skontaktuj się z doświadczonymi specjalistami — [Multicert](https://www.multicert.pl) oferuje kompleksową obsługę procesu certyfikacji wyrobów budowlanych.
