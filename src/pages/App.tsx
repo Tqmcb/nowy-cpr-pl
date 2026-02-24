@@ -4,7 +4,6 @@ import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../utils/AuthContext";
 import {
   Search,
   FileText,
@@ -36,7 +35,6 @@ interface BlogPost {
 }
 
 function HomePage() {
-  const { isAuthenticated, user } = useAuth();
   const navigate = useNavigate();
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
   const [loadingPosts, setLoadingPosts] = useState(true);
