@@ -40,7 +40,7 @@ Paszport produktu to cyfrowy dokument zawierający kompleksowe informacje o prod
 
 ## Powiązanie z EPD
 
-Paszport produktu bazuje na danych z Deklaracji Środowiskowej Produktu (EPD) zgodnej z EN 15804+A2. Producenci posiadający aktualne EPD będą mieć znaczącą przewagę w procesie przygotowania paszportu.
+Paszport produktu bazuje na danych z Deklaracji Środowiskowej Produktu (EPD) zgodnej z EN 15804+A2. Producenci posiadający aktualne EPD będą mieć znaczącą przewagę w procesie przygotowania paszportu. Polskim programem rejestracji EPD jest [epd.org.pl](https://www.epd.org.pl).
 
 ## Harmonogram wdrożenia
 

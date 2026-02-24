@@ -162,4 +162,4 @@ System AVCP to fundament certyfikacji wyrobów budowlanych. Zrozumienie wymagań
 
 ---
 
-**Potrzebujesz wsparcia w certyfikacji?** Pomożemy przejść przez cały proces!
+**Potrzebujesz wsparcia w certyfikacji?** Firmy takie jak [Multicert](https://www.multicert.pl) specjalizują się w kompleksowym wsparciu — od doboru systemu AVCP, przez przygotowanie dokumentacji FPC, po kontakt z jednostką notyfikowaną.

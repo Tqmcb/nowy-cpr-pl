@@ -78,4 +78,4 @@ Nowe rozporządzenie wprowadza dodatkowe wymogi dotyczące:
 
 ---
 
-Branża betonowa stoi przed istotnym wyzwaniem dostosowania się do nowych wymogów środowiskowych CPR 2024. Producenci betonu, którzy wcześniej przygotują EPD i zaktualizują systemy FPC, unikną kosztownych opóźnień.
+Branża betonowa stoi przed istotnym wyzwaniem dostosowania się do nowych wymogów środowiskowych CPR 2024. Producenci betonu, którzy wcześniej przygotują EPD i zaktualizują systemy FPC, unikną kosztownych opóźnień. W zakresie certyfikacji i badań wyrobów betonowych warto sprawdzić ofertę [ITCZLin](https://www.itczlin.pl) oraz [Multicert](https://www.multicert.pl).

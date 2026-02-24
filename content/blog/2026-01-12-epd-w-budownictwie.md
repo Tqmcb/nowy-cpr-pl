@@ -72,10 +72,11 @@ Ważność EPD: **5 lat**
 
 ## Programy EPD w Polsce i Europie
 
-- **ITB-EPD** (Polska) - program Instytutu Techniki Budowlanej
-- **EPD International** (Szwecja) - największy program globalny
-- **IBU** (Niemcy) - Institut Bauen und Umwelt
-- **ECO Platform** - platforma europejska
+- **[EPD Polska](https://www.epd.org.pl)** – program EPD dedykowany rynkowi polskiemu
+- **ITB-EPD** (Polska) – program Instytutu Techniki Budowlanej
+- **EPD International** (Szwecja) – największy program globalny
+- **IBU** (Niemcy) – Institut Bauen und Umwelt
+- **ECO Platform** – platforma europejska
 
 ## Oprogramowanie do LCA
 
@@ -101,5 +102,5 @@ EPD staje się standardem w budownictwie zrównoważonym. CPR 2024 wymaga jedyni
 
 ---
 
-**Potrzebujesz pomocy w przygotowaniu EPD?**  
-Oferujemy kompleksowe usługi: analiza LCA, weryfikacja, rejestracja w programach międzynarodowych.
+**Potrzebujesz pomocy w przygotowaniu EPD?**
+Skorzystaj z usług specjalistów — [epd.org.pl](https://www.epd.org.pl) to polska platforma EPD oferująca wsparcie przy analizie LCA, weryfikacji i rejestracji deklaracji środowiskowych dla wyrobów budowlanych.
