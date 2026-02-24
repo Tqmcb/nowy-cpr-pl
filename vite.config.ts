@@ -66,7 +66,11 @@ const buildVariables = () => {
 
 // https://vite.dev/config/
 export default defineConfig({
-	define: buildVariables(),
+	define: {
+		...buildVariables(),
+		// Polyfill untuk gray-matter dalam przeglądarce
+		global: 'globalThis',
+	},
 	plugins: [react(), splitVendorChunkPlugin(), tsConfigPaths(), injectHTML()],
 	server: {
 		proxy: {
@@ -80,7 +84,15 @@ export default defineConfig({
 		alias: [
 			{ find: "@/components/ui", replacement: path.resolve(__dirname, "./src/extensions/shadcn/components") },
 			{ find: "@", replacement: path.resolve(__dirname, "./src") },
+			// Buffer polyfill for gray-matter
+			{ find: "buffer", replacement: "buffer/" },
 		],
 	},
-
+	optimizeDeps: {
+		esbuildOptions: {
+			define: {
+				global: 'globalThis',
+			},
+		},
+	},
 });

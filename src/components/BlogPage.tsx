@@ -731,69 +731,24 @@ export function BlogPage() {
   const [email, setEmail] = useState("");
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
 
-  // Pobieranie wpisów bloga - priorytety: 1) Supabase (z harmonogramem), 2) External API, 3) Fallback
+  // Pobieranie wpisów bloga z plików markdown
   useEffect(() => {
     const fetchBlogPosts = async () => {
       try {
         setLoading(true);
 
-        // 1. Próba pobrania z Supabase z harmonogramowaniem (tylko opublikowane i po dacie publikacji)
-        try {
-          const { fetchPublishedBlogPosts } = await import('../utils/supabaseBlog');
-          const supabasePosts = await fetchPublishedBlogPosts();
+        // Importuj i użyj blogLoader
+        const { getAllPosts } = await import('../utils/blogLoader');
+        const posts = await getAllPosts();
 
-          if (supabasePosts && supabasePosts.length > 0) {
-            // Mapuj posty z Supabase na format BlogPost
-            const mappedPosts: BlogPost[] = supabasePosts.map(post => ({
-              id: post.id,
-              title: post.title,
-              slug: post.slug,
-              excerpt: post.excerpt,
-              content: post.content,
-              author: post.author_name,
-              published_at: post.scheduled_for || post.created_at,
-              updated_at: post.updated_at,
-              is_published: post.published,
-              category: post.category,
-              image_url: post.image_url,
-              tags: post.tags
-            }));
-            console.log('✅ Pobrano posty z Supabase (z harmonogramem):', mappedPosts.length);
-            setBlogPosts(mappedPosts);
-            setLastUpdate(new Date());
-            setError(null);
-            setLoading(false);
-            return;
-          }
-        } catch (supabaseError) {
-          console.log('ℹ️ Supabase niedostępny, próbuję API zewnętrzne...', supabaseError);
-        }
-
-        // 2. Próba pobrania z zewnętrznego API
-        try {
-          const response = await fetch(`https://api.databutton.com/_projects/89c9d971-d0a0-4797-87da-9d7f842175ad/dbtn/devx/app/routes/local-posts?published_only=true`);
-          const data = await response.json();
-
-          if (data.success && data.posts && data.posts.length > 0) {
-            console.log('✅ Pobrano posty z API:', data.posts.length);
-            setBlogPosts(data.posts);
-            setLastUpdate(new Date());
-            setError(null);
-            setLoading(false);
-            return;
-          }
-        } catch (apiError) {
-          console.log('ℹ️ API zewnętrzne niedostępne, używam postów lokalnych...');
-        }
-
-        // 3. Użyj lokalnych postów fallback
-        console.log('📚 Używam lokalnych postów eksperckich:', fallbackPosts.length);
-        setBlogPosts(fallbackPosts);
+        console.log('✅ Załadowano artykuły z markdown:', posts.length);
+        setBlogPosts(posts);
         setLastUpdate(new Date());
         setError(null);
 
       } catch (error) {
-        console.error("Błąd pobierania artykułów:", error);
+        console.error("Błąd ładowania artykułów z markdown:", error);
+        // Fallback do lokalnych postów jeśli markdown nie zadziała
         setBlogPosts(fallbackPosts);
         setError(null);
       } finally {
@@ -802,11 +757,6 @@ export function BlogPage() {
     };
 
     fetchBlogPosts();
-
-    // Automatyczne odświeżanie co 5 minut dla nowych treści CPR (harmonogramowanych)
-    const refreshInterval = setInterval(fetchBlogPosts, 5 * 60 * 1000);
-
-    return () => clearInterval(refreshInterval);
   }, []);
 
   // Przekierowanie do strony szczegółów posta
