@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
@@ -18,7 +19,9 @@ export const AppWrapper = () => {
 					);
 				}}
 			>
-				<RouterProvider router={router} />
+				<Suspense fallback={null}>
+					<RouterProvider router={router} />
+				</Suspense>
 				<Head />
 			</ErrorBoundary>
 		</ThemeProvider>
