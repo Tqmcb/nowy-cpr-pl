@@ -761,7 +761,7 @@ export function BlogPage() {
 
   // Przekierowanie do strony szczegółów posta
   const navigateToPost = (slug: string) => {
-    navigate(`/BlogPost?slug=${slug}`);
+    navigate(`/blog-post?slug=${slug}`);
   };
 
   // Filtrowanie artykułów

@@ -4,11 +4,12 @@ import { Button } from "@/extensions/shadcn/components/button";
 import { Skeleton } from "@/extensions/shadcn/components/skeleton";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 
 export default function BlogPost() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [post, setPost] = useState<any>(null);
+  const [post, setPost] = useState<BlogPostType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,7 +28,7 @@ export default function BlogPost() {
     });
   };
 
-  // Pobieranie posta z API
+  // Pobieranie posta z lokalnych plików markdown
   useEffect(() => {
     const fetchPost = async () => {
       if (!slug) {
@@ -38,19 +39,19 @@ export default function BlogPost() {
 
       try {
         setLoading(true);
-        const response = await fetch(`https://api.databutton.com/_projects/89c9d971-d0a0-4797-87da-9d7f842175ad/dbtn/devx/app/routes/local-post/${slug}`);
-        const data = await response.json();
+        const { getPostBySlug } = await import('../utils/blogLoader');
+        const foundPost = await getPostBySlug(slug);
 
-        if (data.success && data.post) {
-          setPost(data.post);
+        if (foundPost) {
+          setPost(foundPost);
           setError(null);
         } else {
-          setError(data.message || "Nie udało się pobrać artykułu");
+          setError("Nie znaleziono artykułu");
           setPost(null);
         }
-      } catch (error) {
-        console.error("Błąd pobierania artykułu:", error);
-        setError("Wystąpił błąd podczas pobierania artykułu");
+      } catch (err) {
+        console.error("Błąd pobierania artykułu:", err);
+        setError("Wystąpił błąd podczas ładowania artykułu");
         setPost(null);
       } finally {
         setLoading(false);
@@ -60,7 +61,7 @@ export default function BlogPost() {
     fetchPost();
   }, [slug]);
 
-  // Konwersja Markdown do HTML (prosta implementacja) 
+  // Konwersja Markdown do HTML (prosta implementacja)
   const markdownToHtml = (markdown: string) => {
     if (!markdown) return "";
 
@@ -116,7 +117,7 @@ export default function BlogPost() {
             <div className="text-center py-12">
               <h3 className="text-xl font-medium text-gray-900">{error}</h3>
               <Button
-                onClick={() => navigate('/Blog')}
+                onClick={() => navigate('/blog')}
                 className="mt-4"
               >
                 Wróć do listy artykułów
@@ -126,7 +127,7 @@ export default function BlogPost() {
             // Treść artykułu
             <article>
               <Button
-                onClick={() => navigate('/Blog')}
+                onClick={() => navigate('/blog')}
                 variant="outline"
                 className="mb-6"
               >
