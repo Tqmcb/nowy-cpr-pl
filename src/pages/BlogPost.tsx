@@ -927,7 +927,7 @@ export default function BlogPost() {
         const { getPostBySlug } = await import("../utils/blogLoader");
         const foundPost = await getPostBySlug(slug);
         if (foundPost) {
-          setPost(foundPost);
+          setPost({ ...foundPost, tags: Array.isArray(foundPost.tags) ? foundPost.tags : [] });
           setError(null);
         } else {
           setError("Nie znaleziono artykułu");
