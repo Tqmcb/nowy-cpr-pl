@@ -23,7 +23,7 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 | System 4 | Jednostka notyfikowana: brak roli | Jednostka notyfikowana: może sprawdzać próbki z rynku |
 | System 3 | JN przeprowadza ITT | JN zatwierdza raport ITT producenta |
 | EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
-| FPC | Wymagane od systemu 3 | Wymagane we wszystkich systemach |
+| FPC | Wymagane we wszystkich systemach (w systemie 4 zakres minimalny) | Wymagane we wszystkich systemach |
 | Treść certyfikatu | Certyfikat stałości właściwości użytkowych | Certyfikat oceny i weryfikacji |
 
 ## Jak działają poszczególne poziomy AVS?
@@ -39,7 +39,7 @@ W praktyce **bez certyfikatu od jednostki notyfikowanej** wyrób nie może mieć
 
 ### AVS 1 — wymagający
 
-Stosowany do wyrobów ważnych, ale poniżej najwyższego priorytetu: okna i drzwi (EN 14351), prefabrykaty betonowe, kabable elektryczne.
+Stosowany do wyrobów ważnych, ale poniżej najwyższego priorytetu: okna i drzwi (EN 14351), prefabrykaty betonowe, kable elektryczne.
 
 **Co robi producent:** przeprowadza ITT, prowadzi FPC.
 **Co robi jednostka notyfikowana:** certyfikuje FPC (bez pobierania własnych próbek), wydaje certyfikat.
@@ -84,7 +84,7 @@ System 3+ jest **dobrowolny** — producent sam decyduje czy korzysta z walidacj
 
 ## FPC — czym różni się wymaganie w AVS vs AVCP?
 
-**FPC (Factory Production Control)** — Zakładowa Kontrola Produkcji — była wymagana w AVCP dla systemów 1+, 1, 2+, 3. W systemie AVCP 4 była wymagana, ale jej zakres był minimalny.
+**FPC (Factory Production Control)** — Zakładowa Kontrola Produkcji — była wymagana we wszystkich systemach AVCP (1+, 1, 2+, 3 i 4). W systemie AVCP 4 zakres wymagań FPC był jednak minimalny i praktycznie sprowadzał się do podstawowych zapisów proceduralnych.
 
 CPR 2024/3110 nie zmienia tego zasadniczo, ale kładzie **większy nacisk na dokumentowanie FPC** i jej aktualność. Dodaje też wyraźne wymagania dotyczące FPC dla wyrobów importowanych — importer musi zapewnić, że producent spoza UE prowadzi równoważny system kontroli.
 

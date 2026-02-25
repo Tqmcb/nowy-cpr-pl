@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Rebuild every day at 06:00 UTC — new dated posts appear automatically
+    - cron: '0 6 * * *'
 
 permissions:
   contents: write

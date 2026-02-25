@@ -3,7 +3,7 @@ title: "DoP → DoP&C: co konkretnie się zmieniło w deklaracji właściwości 
 date: "2026-02-26"
 author: "mgr inż. Katarzyna Dąbrowska"
 category: "Dokumentacja"
-tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "DoPC"]
+tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
 excerpt: "Od 8 stycznia 2026 deklaracja właściwości użytkowych staje się DoP&C. Sprawdź co dokładnie musisz zmienić, jakie nowe pola dodać i jak zaktualizować istniejące dokumenty."
 image_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
 template: "przewodnik"
@@ -27,7 +27,7 @@ Zgodnie z art. 4 CPR 2024/3110, producent wystawiając DoP&C bierze na siebie pe
 
 ### 1. Nowa nazwa i numer referencyjny
 
-Dokument należy oznaczać jako „Deklaracja Właściwości Użytkowych i Zgodności" lub w skrócie DoP&C (ang. Declaration of Performance and Conformity — DoPC). Numer referencyjny powinien odwoływać się do nowego rozporządzenia, nie starego.
+Dokument należy oznaczać jako „Deklaracja Właściwości Użytkowych i Zgodności" lub w skrócie DoP&C (ang. Declaration of Performance and Conformity). Numer referencyjny powinien odwoływać się do nowego rozporządzenia, nie starego.
 
 ### 2. Unikalny kod identyfikacyjny produktu
 
@@ -50,7 +50,7 @@ To największa nowość. CPR 2024/3110 wprowadza stopniowe obowiązki deklarowan
 | Globalny Potencjał Ocieplenia (GWP) | Od aktualizacji normy zharmonizowanej (ok. 2027) |
 | Zawartość surowców z recyklingu | Od aktualizacji normy (2027–2030) |
 | Trwałość i czas użytkowania | Od aktualizacji normy |
-| Możliwość recyklingu po użytkowania | Od 2030+ |
+| Możliwość recyklingu po użytkowaniu | Od 2030+ |
 
 Na razie (2026) pola te są **opcjonalne**, ale producenci, którzy je wypełnią wcześniej, zyskują przewagę w zielonych zamówieniach publicznych (GPP).
 
@@ -73,7 +73,7 @@ Warto wiedzieć, że niektóre elementy **nie ulegają zmianie**:
 
 ## Jak długo można korzystać ze starego DoP?
 
-Stary DoP wystawiony zgodnie z CPR 305/2011 **zachowuje ważność do 8 stycznia 2026** dla wyrobów wprowadzonych do obrotu przed tą datą. Wyroby wprowadzane do obrotu **od 8 stycznia 2026** muszą posiadać DoP&C zgodną z CPR 2024/3110.
+Stary DoP wystawiony zgodnie z CPR 305/2011 **pozostaje ważny dla wyrobów wprowadzonych do obrotu przed 8 stycznia 2026**. Dla wyrobów wprowadzanych do obrotu **od 8 stycznia 2026** obowiązkowy jest nowy DoP&C zgodny z CPR 2024/3110.
 
 Ważne: jeśli nie zmieniasz nic w wyrobie, nie musisz powtarzać badań ITT — możesz oprzeć nowy DoP&C na dotychczasowych raportach z badań, uzupełniając tylko nowe pola wymagane przez CPR 2024.
 
