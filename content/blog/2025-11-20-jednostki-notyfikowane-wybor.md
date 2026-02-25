@@ -79,4 +79,4 @@ Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy m
 
 Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.
 
-Sprawdź też ofertę [ITCZLin](https://www.itczlin.pl) — niezależnego centrum badań i certyfikacji wyrobów budowlanych.
+Sprawdź też ofertę [epd.org.pl](https://www.epd.org.pl) — niezależnego centrum badań i certyfikacji wyrobów budowlanych.

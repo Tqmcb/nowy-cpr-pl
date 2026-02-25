@@ -68,4 +68,4 @@ Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani h
 
 ---
 
-ETA to inwestycja, która otwiera drzwi do całego rynku europejskiego. Dla innowacyjnych producentów może stanowić istotną przewagę konkurencyjną. Przygotowaniem wniosku i dokumentacji do ETA lub Krajowej Oceny Technicznej zajmuje się m.in. [ocenytechniczne.pl](https://www.ocenytechniczne.pl) — serwis specjalizujący się w ocenach technicznych wyrobów budowlanych. Wsparcie w całym procesie oferuje również [ITCZLin](https://www.itczlin.pl).
+ETA to inwestycja, która otwiera drzwi do całego rynku europejskiego. Dla innowacyjnych producentów może stanowić istotną przewagę konkurencyjną. Przygotowaniem wniosku i dokumentacji do ETA lub Krajowej Oceny Technicznej zajmuje się m.in. [ocenytechniczne.pl](https://www.ocenytechniczne.pl) — serwis specjalizujący się w ocenach technicznych wyrobów budowlanych. Wsparcie w całym procesie oferuje również [epd.org.pl](https://www.epd.org.pl).

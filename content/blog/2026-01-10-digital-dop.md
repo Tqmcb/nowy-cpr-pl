@@ -103,4 +103,4 @@ Europejskie platformy DoP&C:
 
 ---
 
-**Digital DoP&C to przyszłość dokumentacji budowlanej** — przygotuj się już dziś! Wsparcie w wdrożeniu DoP&C i systemów AVS oferuje [Multicert](https://www.multicert.pl). W zakresie badań laboratoryjnych i EPD — [ITCZLin](https://www.itczlin.pl).
+**Digital DoP&C to przyszłość dokumentacji budowlanej** — przygotuj się już dziś! Wsparcie w wdrożeniu DoP&C i systemów AVS oferuje [Multicert](https://www.multicert.pl). W zakresie badań laboratoryjnych i EPD — [epd.org.pl](https://www.epd.org.pl).
