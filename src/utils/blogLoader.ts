@@ -34,8 +34,16 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
             const value = keyValueMatch[2].trim();
 
             if (value === '') {
-                // Start of an array
+                // Start of an array (multi-line)
                 currentArray = [];
+            } else if (value.startsWith('[') && value.endsWith(']')) {
+                // Inline JSON array like ["item1", "item2"]
+                try {
+                    data[currentKey] = JSON.parse(value);
+                } catch {
+                    data[currentKey] = value.slice(1, -1).split(',').map(s => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+                }
+                currentArray = null;
             } else if (value === 'true') {
                 data[currentKey] = true;
                 currentArray = null;
@@ -122,7 +130,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
                     is_published: true,
                     category: metadata.category,
                     image_url: metadata.image_url,
-                    tags: metadata.tags || [],
+                    tags: Array.isArray(metadata.tags) ? metadata.tags : [],
                     template: metadata.template,
                 });
             } catch (err) {
