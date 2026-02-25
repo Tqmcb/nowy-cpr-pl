@@ -114,26 +114,17 @@ export function Footer() {
                   <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-white font-medium">Multicert Sp. z o.o.</p>
-                    <p>ul. Przykładowa 12</p>
-                    <p>00-000 Warszawa</p>
+                    <p>Mydlarska 47</p>
+                    <p>04-690 Warszawa</p>
                   </div>
                 </li>
                 <li>
                   <a
-                    href="mailto:info@multicert.pl"
+                    href="mailto:biuro@multicert.pl"
                     className="flex items-center gap-3 text-slate-400 hover:text-amber-400 transition-colors"
                   >
                     <Mail className="w-5 h-5 text-amber-400" />
-                    info@multicert.pl
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="tel:+48123456789"
-                    className="flex items-center gap-3 text-slate-400 hover:text-amber-400 transition-colors"
-                  >
-                    <Phone className="w-5 h-5 text-green-400" />
-                    +48 123 456 789
+                    biuro@multicert.pl
                   </a>
                 </li>
               </ul>

@@ -827,7 +827,7 @@ export function BlogPage() {
                   </Button>
                   <Button
                     variant="outline"
-                    className="px-6 py-3 rounded-full border-white/20 text-white hover:bg-white/10"
+                    className="px-6 py-3 rounded-full border-white/20 text-white bg-transparent hover:bg-white/10"
                     onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
                   >
                     <Mail className="w-5 h-5 mr-2" />
@@ -909,7 +909,7 @@ export function BlogPage() {
                 <Button
                   onClick={() => window.location.reload()}
                   variant="outline"
-                  className="border-white/20 text-white hover:bg-white/10"
+                  className="border-white/20 text-white bg-transparent hover:bg-white/10"
                 >
                   <RefreshCw className="w-4 h-4 mr-2" />
                   Odśwież stronę
@@ -933,7 +933,7 @@ export function BlogPage() {
                     <Button
                       onClick={() => setSelectedCategory("all")}
                       variant="outline"
-                      className="border-white/20 text-white hover:bg-white/10"
+                      className="border-white/20 text-white bg-transparent hover:bg-white/10"
                     >
                       Pokaż wszystkie kategorie
                     </Button>
@@ -1037,7 +1037,7 @@ export function BlogPage() {
               </p>
               <Button
                 variant="outline"
-                className="border-white/20 text-white hover:bg-white/10"
+                className="border-white/20 text-white bg-transparent hover:bg-white/10"
                 onClick={() => navigate("/services")}
               >
                 Skontaktuj się

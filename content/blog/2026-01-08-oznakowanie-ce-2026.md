@@ -17,42 +17,40 @@ CPR 2024/3110 wprowadza **rozszerzone wymagania** dotyczące oznakowania CE wyro
 
 ### Obowiązkowe od 8 stycznia 2026:
 
-1. ✅ **Symbol CE** (min. 5mm wysokości)
-2. ✅ **Numer jednostki notyfikowanej** (jeśli dotyczy — dla systemów AVS 1+, 1, 2+, 3)
-3. ✅ **Nazwa i znak producenta**
-4. ✅ **Adres siedziby producenta**
-5. ✅ **Kod identyfikacyjny produktu**
-6. ✨ **NOWOŚĆ: Numer/link do Digital DoP&C** (QR kod obowiązkowy)
-7. ✅ **Zamierzone zastosowanie**
-8. ✅ **Odniesienie do normy zharmonizowanej lub ETA**
-9. ✅ **System AVS** (zamiast dawnego "AVCP")
-10. ✅ **Poziom/klasa deklarowanych właściwości użytkowych**
+1. **Symbol CE** (min. 5mm wysokości)
+2. **Numer jednostki notyfikowanej** (jeśli dotyczy — dla systemów AVS 1+, 1, 2+, 3)
+3. **Nazwa i znak producenta**
+4. **Adres siedziby producenta**
+5. **Kod identyfikacyjny produktu**
+6. **Numer referencyjny DoP&C lub link do DoP&C online** (wymagane jest zapewnienie dostępu online; konkretny format QR kodu na etykiecie wymaga aktów delegowanych KE — jeszcze nieopublikowanych)
+7. **Zamierzone zastosowanie**
+8. **Odniesienie do normy zharmonizowanej lub ETA**
+9. **System AVS** (zamiast dawnego "AVCP")
+10. **Poziom/klasa deklarowanych właściwości użytkowych**
 
 > **Uwaga terminologiczna**: W nowych etykietach CE należy stosować "System AVS" zamiast "System AVCP". Stara terminologia AVCP pochodzi z CPR 305/2011 i nie powinna być stosowana po 8 stycznia 2026.
 
-## Klasy środowiskowe (NOWOŚĆ — etapami od ok. 2027)
+## Klasy środowiskowe (planowane — wymaga aktów delegowanych)
 
-W przyszłości etykieta CE będzie mogła zawierać klasę środowiskową bazującą na wskaźniku GWP (Global Warming Potential). Klasy te będą definiowane przez akty delegowane Komisji Europejskiej (oczekiwane od 2027):
+CPR 2024/3110 przewiduje możliwość wprowadzenia klas środowiskowych na etykiecie CE bazujących na wskaźnikach środowiskowych (np. GWP). Jednak:
 
-| Klasa | GWP (kg CO₂ eq/kg) | Ocena |
-|-------|-------------------|-------|
-| **A+** | < 0,05 | Bardzo niski wpływ |
-| **A** | 0,05 - 0,20 | Niski wpływ |
-| **B** | 0,20 - 0,50 | Średni wpływ |
-| **C** | 0,50 - 1,00 | Podwyższony wpływ |
-| **D** | > 1,00 | Wysoki wpływ |
+- **Żadne klasy środowiskowe nie zostały jeszcze zdefiniowane** — wymagają osobnych aktów delegowanych Komisji Europejskiej, których oczekuje się nie wcześniej niż w 2027 roku.
+- Progi liczbowe dla poszczególnych klas będą ustalone przez KE osobno dla każdej rodziny wyrobów.
+- Do czasu przyjęcia aktów delegowanych **nie wolno stosować żadnego niestandardowego systemu klas** na etykiecie CE.
 
-Klasy środowiskowe nie są jeszcze obowiązkowe od 8 stycznia 2026 — ich wprowadzenie wymaga osobnych aktów delegowanych KE.
+> **Uwaga**: Wszelkie tabele z konkretnymi progami GWP pojawiające się w innych źródłach mają charakter spekulatywny — nie są częścią obowiązującego prawa.
 
 ## QR kod na etykiecie
 
-**Od 8 stycznia 2026 obowiązkowy** kod QR prowadzący do cyfrowej DoP&C online:
-- Digital DoP&C w formacie XML (zgodna z EN 16214)
-- Pełna dokumentacja techniczna wyrobu
-- Instrukcje montażu i użytkowania
-- Deklaracje środowiskowe (EPD) — o ile są dostępne
+CPR 2024 przewiduje QR kod jako docelowy element etykiety CE prowadzący do cyfrowej DoP&C. Jednak jego obowiązkowość jest uzależniona od aktów delegowanych KE:
 
-### Wymagania techniczne QR:
+- **Od 8 stycznia 2026**: producent musi zapewnić dostęp do DoP&C online (link na stronie, numer referencyjny w dokumentach); dobrowolne umieszczenie QR kodu na etykiecie jest dopuszczalne i zalecane jako dobra praktyka.
+- **Obowiązkowy QR kod na etykiecie**: wymaga aktów delegowanych KE określających format techniczny — oczekiwane nie wcześniej niż 2027.
+- Format cyfrowy DoP&C (np. XML/JSON): również określany przez akty delegowane, jeszcze nieopublikowane.
+
+> **Uwaga**: CPR 2024 nie wskazuje żadnej konkretnej normy EN określającej format XML dla Digital DoP&C — taki standard jest dopiero opracowywany w ramach mandatu normalizacyjnego Komisji Europejskiej.
+
+### Zalecane parametry techniczne QR (przy dobrowolnym wdrożeniu):
 - Minimum 15×15 mm
 - Kontrast min. 70%
 - Błąd korekcji Level M (15%)
@@ -85,8 +83,8 @@ Klasy środowiskowe nie są jeszcze obowiązkowe od 8 stycznia 2026 — ich wpro
 
 CPR 2024 przewiduje **surowe kary** (stosowane od 8 stycznia 2027):
 
-- ⚠️ Wycofanie produktu z rynku
-- 💰 Kary finansowe (wysokość ustalana przez państwa członkowskie)
+- Wycofanie produktu z rynku
+- Kary finansowe (wysokość ustalana przez państwa członkowskie)
 - ⛔ Zakaz wprowadzania na rynek
 - 📋 Odpowiedzialność cywilna za szkody
 
@@ -104,7 +102,7 @@ Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
 ## Checklist dla producentów
 
 - [ ] Zrewidować wzory etykiet CE — zaktualizować terminologię (AVCP → AVS, DoP → DoP&C)
-- [ ] Wdrożyć cyfrową DoP&C dostępną online (z QR kodem na etykiecie)
+- [ ] Zapewnić dostępność DoP&C online (min. link na stronie producenta); dodanie QR kodu na etykiecie jest dobrowolne do czasu aktów delegowanych
 - [ ] Upewnić się, że QR kod spełnia wymagania techniczne (min. 15×15 mm, trwały)
 - [ ] Sprawdzić czy numer jednostki notyfikowanej widnieje na etykiecie (jeśli dotyczy)
 - [ ] Zaktualizować procesy produkcyjne i dokumentację FPC zgodnie z systemem AVS
@@ -124,8 +122,9 @@ Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
 | Co? | Kiedy? |
 |---|---|
 | Obowiązek oznakowania CE według CPR 2024/3110 | **8 stycznia 2026** |
-| Obowiązek cyfrowej DoP&C z QR kodem | **8 stycznia 2026** |
-| Sankcje za naruszenia (Art. 92) | **8 stycznia 2027** |
+| Obowiązek dostępności DoP&C online (link/numer ref.) | **8 stycznia 2026** |
+| Obowiązkowy QR kod na etykiecie (wymaga aktów delegowanych) | **nie wcześniej niż 2027** |
+| Sankcje administracyjne za naruszenia (Art. 92) | **8 stycznia 2027** |
 | Koniec możliwości stosowania starych ETA | **9 stycznia 2036** |
 | Koniec okresu przejściowego | **7 stycznia 2040** |
 

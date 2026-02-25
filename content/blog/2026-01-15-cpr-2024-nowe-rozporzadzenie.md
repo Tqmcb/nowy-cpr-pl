@@ -30,9 +30,9 @@ Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopa
 CPR 2024 zastępuje Deklarację Właściwości Użytkowych (DoP) nową **Deklaracją Właściwości Użytkowych i Zgodności (DoP&C)**. Kluczowe różnice:
 
 - DoP&C musi potwierdzać **zgodność** z wymaganiami CPR 2024 (nie tylko deklarować właściwości)
-- DoP&C musi być udostępniana **wyłącznie w formie cyfrowej** (online, QR kod)
-- DoP&C musi zawierać dane środowiskowe (etapami od 2027)
-- Format cyfrowy oparty na ustrukturyzowanym XML
+- DoP&C musi być **dostępna online** — co najmniej link do pobrania na stronie producenta (papier/PDF nadal dopuszczalny); obowiązkowy format XML wymaga aktów delegowanych KE (oczekiwanych 2026-2027)
+- DoP&C musi zawierać dane środowiskowe (etapami, osobno dla każdej grupy wyrobów przez akty delegowane)
+- QR kod na etykiecie — dobra praktyka od 8.01.2026, obowiązkowy dopiero po aktach delegowanych
 
 ### 2. Nowe systemy AVS zamiast AVCP
 
@@ -43,7 +43,7 @@ System AVCP (Assessment and Verification of Constancy of Performance) zostaje pr
 | 1+ | Najwyższy rygor, nadzór rynku | Bez zmian |
 | 1 | Certyfikacja + pełny nadzór FPC | Bez zmian |
 | 2+ | Certyfikacja FPC, ITT własne | Bez zmian |
-| **3+** | Walidacja EPD / ocena środowiskowa | ✅ **NOWY** |
+| **3+** | Walidacja EPD / ocena środowiskowa | **Nowy** |
 | 3 | Tylko badanie ITT przez JN | Bez zmian |
 | 4 | Samodzielnie przez producenta | Bez zmian |
 
@@ -65,38 +65,27 @@ CPR 2024 wprowadza **obowiązkowe deklarowanie wskaźników środowiskowych** dl
 
 Wskaźniki muszą być obliczone zgodnie z **EN 15804+A2** (EPD dla wyrobów budowlanych).
 
-### 4. Cyfrowy paszport wyrobu (DPP)
+### 4. Digital DoP&C a Cyfrowy Paszport Wyrobu (DPP)
 
-CPR 2024 tworzy podstawy dla **Cyfrowego Paszportu Wyrobu** (Digital Product Passport — DPP), który będzie zawierał:
-- Wszystkie dane DoP&C w formacie cyfrowym (XML)
-- Dane środowiskowe (EPD)
-- Instrukcje montażu i demontażu
-- Informacje o recyklingu
-- Unikalny identyfikator (DOI lub podobny)
+CPR 2024 wprowadza **Digital DoP&C** — cyfrową Deklarację Właściwości Użytkowych i Zgodności dostępną online.
+
+> **Ważne rozróżnienie**: Cyfrowy Paszport Wyrobu (Digital Product Passport — DPP) to odrębny instrument z **rozporządzenia ESPR (EU) 2024/1781** (Ecodesign for Sustainable Products Regulation), a nie z CPR 2024. Oba dokumenty będą ze sobą powiązane, ale są różnymi instrumentami prawnymi z różnych rozporządzeń. Digital DoP&C z CPR 2024 może stać się jednym ze źródeł danych dla DPP z ESPR.
+
+Digital DoP&C (CPR 2024) będzie zawierać:
+- Właściwości użytkowe i potwierdzenie zgodności
+- Dane środowiskowe (etapami)
+- Odniesienie do normy/ETA i systemu AVS
 
 ### 5. Wzmocniony nadzór rynku
 
 - Większe uprawnienia organów nadzoru rynku w Polsce (UOKiK, GUNB, GUM)
 - Możliwość testowania wyrobów z rynku przez organy nadzoru
 - Wzrost kar za niezgodności (od 8 stycznia 2027)
-- System wczesnego ostrzegania Safety Gate (RAPEX dla wyrobów budowlanych)
+- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych produktów)
 
 ### 6. 36 rodzin wyrobów (Załącznik VII)
 
 CPR 2024 precyzuje katalog wyrobów budowlanych objętych rozporządzeniem do **36 rodzin** (Załącznik VII). Nową rodziną dodaną w CPR 2024 są **Drabiny przyścienne** (rodzina 36 — ATTACHED LADDERS), wcześniej nieujęte w CPR 305/2011.
-
-## Koszty wdrożenia dla producentów
-
-Typowe koszty związane z dostosowaniem do CPR 2024/3110:
-
-| Element | Szacowany koszt |
-|---------|----------------|
-| Analiza LCA (Life Cycle Assessment) | 15 000 - 40 000 PLN |
-| EPD + weryfikacja przez System 3+ | 8 000 - 23 000 PLN |
-| Aktualizacja dokumentacji technicznej (DoP → DoP&C) | 3 000 - 10 000 PLN |
-| Wdrożenie cyfrowej DoP&C (QR, XML, hosting) | 3 000 - 10 000 PLN |
-| Szkolenia zespołu | 2 000 - 6 000 PLN |
-| **RAZEM (średnio)** | **31 000 - 89 000 PLN** |
 
 ## Jak się przygotować?
 

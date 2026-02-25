@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useNavigate, useLocation } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -964,19 +965,88 @@ export default function BlogPost() {
     );
   }
 
+  // SEO / GEO meta tags
+  const canonicalUrl = `https://www.nowycpr.pl/blog?slug=${slug}`;
+  const pageTitle = `${post.title} | NowyCPR.pl`;
+  const description = post.excerpt || post.content.slice(0, 160).replace(/[#*`]/g, "").trim();
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": description,
+    "image": post.image_url || "https://www.nowycpr.pl/og-default.jpg",
+    "author": {
+      "@type": "Person",
+      "name": post.author,
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Multicert Sp. z o.o.",
+        "url": "https://www.nowycpr.pl"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NowyCPR.pl — Multicert Sp. z o.o.",
+      "url": "https://www.nowycpr.pl",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.nowycpr.pl/logo.png"
+      }
+    },
+    "datePublished": post.published_at,
+    "dateModified": post.published_at,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "keywords": Array.isArray(post.tags) ? post.tags.join(", ") : "",
+    "articleSection": post.category || "CPR 2024",
+    "inLanguage": "pl-PL",
+    "about": {
+      "@type": "Thing",
+      "name": "Rozporządzenie CPR (EU) 2024/3110",
+      "sameAs": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R3110"
+    }
+  };
+
+  const seoHelmet = (
+    <Helmet>
+      <title>{pageTitle}</title>
+      <meta name="description" content={description} />
+      <link rel="canonical" href={canonicalUrl} />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content={pageTitle} />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={canonicalUrl} />
+      {post.image_url && <meta property="og:image" content={post.image_url} />}
+      <meta property="og:site_name" content="NowyCPR.pl" />
+      <meta property="og:locale" content="pl_PL" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={pageTitle} />
+      <meta name="twitter:description" content={description} />
+      {post.image_url && <meta name="twitter:image" content={post.image_url} />}
+      <meta name="article:published_time" content={post.published_at} />
+      <meta name="article:author" content={post.author} />
+      {Array.isArray(post.tags) && post.tags.map((tag) => (
+        <meta key={tag} property="article:tag" content={tag} />
+      ))}
+      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    </Helmet>
+  );
+
   // Route to correct template
   switch (post.template) {
     case "regulacja":
-      return <RegulacjaTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<RegulacjaTemplate post={post} navigate={navigate} /></>;
     case "przewodnik":
-      return <PrzewodnikTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<PrzewodnikTemplate post={post} navigate={navigate} /></>;
     case "analiza":
-      return <AnalizaTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<AnalizaTemplate post={post} navigate={navigate} /></>;
     case "techniczny":
-      return <TechnicznyTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<TechnicznyTemplate post={post} navigate={navigate} /></>;
     case "aktualnosci":
-      return <AktualnosciTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<AktualnosciTemplate post={post} navigate={navigate} /></>;
     default:
-      return <DefaultTemplate post={post} navigate={navigate} />;
+      return <>{seoHelmet}<DefaultTemplate post={post} navigate={navigate} /></>;
   }
 }

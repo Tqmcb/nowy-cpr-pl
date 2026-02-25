@@ -27,7 +27,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Cement
 - Wyroby krytyczne dla bezpieczeństwa
 
-**Koszty**: 25 000 - 50 000 PLN rocznie
+**Koszty**: orientacyjnie 25 000–50 000 PLN rocznie (zależnie od jednostki notyfikowanej, zakresu akredytacji i liczby wyrobów)
 
 ---
 
@@ -43,7 +43,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Okna i drzwi zewnętrzne z odpornością ogniową
 - Dachy i pokrycia dachowe
 
-**Koszty**: 15 000 - 30 000 PLN rocznie
+**Koszty**: orientacyjnie 15 000–30 000 PLN rocznie
 
 ---
 
@@ -59,7 +59,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Kruszywa budowlane
 - Elementy murowe
 
-**Koszty**: 8 000 - 20 000 PLN rocznie
+**Koszty**: orientacyjnie 8 000–20 000 PLN rocznie
 
 ---
 
@@ -76,7 +76,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP)
 - Wyroby wymagające wiarygodnej deklaracji środowiskowej GWP, ODP, AP, EP, POCP, WDP
 
-**Koszty**: 5 000 - 15 000 PLN (walidacja EPD)
+**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację EPD (jednorazowo, ważność 5 lat)
 
 **Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu, lecz raport walidacyjny EPD. Raport ten jest elementem DoP&C i uprawnia do oznakowania CE z potwierdzonymi danymi środowiskowymi.
 
@@ -93,7 +93,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Płyty gipsowo-kartonowe
 - Membrany dachowe
 
-**Koszty**: 5 000 - 12 000 PLN jednorazowo
+**Koszty**: orientacyjnie 5 000–12 000 PLN jednorazowo
 
 ---
 
@@ -151,25 +151,28 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 
 ### Minimalne wymagania FPC:
 
-✓ Procedury pisemne
-✓ Wyznaczony personel
-✓ Plan badań
-✓ Sprzęt firmowy i skalibrowany
-✓ Działania korygujące
-✓ Zapisy minimum 5 lat
+- Procedury pisemne
+- Wyznaczony personel
+- Plan badań
+- Sprzęt firmowy i skalibrowany
+- Działania korygujące
+- Zapisy minimum 5 lat
 
 ## Zmiany w CPR 2024 względem CPR 305/2011
 
 **Kluczowe nowości**:
-- 🆕 **System 3+** — nowy system dedykowany walidacji EPD i ocenie środowiskowej
-- 📝 **AVCP → AVS** — zmiana nazwy systemu (Assessment and Verification of Constancy of Performance → Assessment and Verification Systems)
-- 📄 **DoP → DoP&C** — Deklaracja Właściwości Użytkowych staje się Deklaracją Właściwości Użytkowych i Zgodności
-- 📊 Dodatkowe kontrole parametrów środowiskowych (GWP, ODP, AP, EP, POCP, ADP, WDP)
-- 🔍 Wzrost częstotliwości inspekcji (System 1+ i 1)
-- 💻 Cyfrowa dokumentacja FPC i paszport cyfrowy wyrobu (DPP)
-- 🌍 Obowiązek deklarowania wskaźników GWP, ODP, AP, EP (etapami do 2032)
+- **System 3+** — nowy system dedykowany walidacji EPD i ocenie środowiskowej
+- **AVCP → AVS** — zmiana nazwy systemu (Assessment and Verification of Constancy of Performance → Assessment and Verification Systems)
+- **DoP → DoP&C** — Deklaracja Właściwości Użytkowych staje się Deklaracją Właściwości Użytkowych i Zgodności
+- Dodatkowe kontrole parametrów środowiskowych (GWP, ODP, AP, EP, POCP, ADP, WDP) — etapami przez akty delegowane KE
+- Cyfrowa dostępność DoP&C (link online od 8.01.2026); format XML po aktach delegowanych KE
+- Obowiązek deklarowania wskaźników środowiskowych — osobno dla każdej rodziny wyrobów, bez jednej globalnej daty granicznej
+
+> **Uwaga**: CPR 2024 nie zmienia harmonogramu inspekcji — ich częstotliwość określają normy zharmonizowane dla konkretnych wyrobów. Digital DoP&C z CPR 2024 należy odróżniać od Cyfrowego Paszportu Wyrobu (DPP) z rozporządzenia ESPR (EU) 2024/1781 — to dwa różne instrumenty.
 
 ## Koszty typowej certyfikacji
+
+> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju produktu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
 
 ### System 2+ (przykład: prefabrykaty betonowe)
 

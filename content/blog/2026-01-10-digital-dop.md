@@ -19,40 +19,40 @@ DoP (Deklaracja Właściwości Użytkowych) to dokument z CPR 305/2011. CPR 2024
 
 | Cechy | Stara DoP (CPR 305/2011) | Nowa DoP&C (CPR 2024/3110) |
 |---|---|---|
-| Format | Papier lub PDF | Wyłącznie cyfrowy (XML) |
+| Format | Papier lub PDF | Papier/PDF nadal dopuszczalne; docelowo XML po aktach delegowanych KE |
 | Zawartość | Właściwości użytkowe | Właściwości użytkowe + potwierdzenie zgodności |
-| Dostępność | Dołączana do wyrobu | Online minimum 10 lat |
-| Środowisko | Opcjonalnie | Obowiązkowo (etapami) |
+| Dostępność | Dołączana do wyrobu | Online minimum 10 lat (od 8.01.2026); pełny XML po aktach delegowanych |
+| Środowisko | Opcjonalnie | Obowiązkowo etapami — oddzielnie dla każdej grupy wyrobów |
 | System | AVCP | AVS |
 
-**Digital DoP&C** to elektroniczna wersja DoP&C w ustrukturyzowanym formacie XML, dostępna online przez co najmniej **10 lat**.
+> **Ważne**: Od 8.01.2026 obowiązkowy jest **dostęp online** do DoP&C (min. link na stronie producenta z możliwością pobrania). Format XML oraz centralny system europejski wymagają aktów delegowanych KE — oczekiwanych nie wcześniej niż 2027.
 
-## Wymagania techniczne
+## Wymagania techniczne (stan na luty 2026)
 
-### Format danych
-- **XML** zgodny z normą EN 16214
-- Schema XSD dostarczona przez Komisję Europejską
-- Cyfrowy podpis producenta
-- Unikalne DOI (Digital Object Identifier)
-- Pełna wielojęzyczność (minimum: EN + język kraju docelowego)
+### Co jest wymagane już teraz (od 8.01.2026)
+- DoP&C dostępna online — co najmniej bezpłatny link do pobrania na stronie producenta
+- Przechowywanie przez **10 lat** od daty wprowadzenia wyrobu do obrotu
+- Format PDF jest akceptowany jako forma "cyfrowej" dostępności
 
-### Repozytorium
-- Centralny europejski system dostępu (prowadzony przez Komisję Europejską)
-- Możliwość własnego repozytorium producenta (z kopiami zapasowymi)
-- API dla systemów zewnętrznych (BIM, zarządzanie łańcuchem dostaw)
-- Dostępność 24/7 z SLA 99.5%
+### Co jest planowane, ale wymaga aktów delegowanych KE
+- **Format XML/JSON** — Komisja Europejska opracowuje standard techniczny; oczekiwany 2026-2027
+- **Schema XSD** — zostanie dostarczona przez KE razem z aktem delegowanym
+- **Centralny europejski system dostępu** (repozytorium KE) — planowany na 2027-2028
+- **Unikalne identyfikatory** (np. DOI) — do określenia przez akty delegowane
 
-### Oznakowanie wyrobu
-- **QR kod** na etykiecie CE prowadzący do Digital DoP&C
-- Alternatywnie: link URL lub numer referencyjny
-- QR kod: minimum 15×15 mm, kontrast 70%, błąd korekcji Level M
+> **Uwaga**: CPR 2024 **nie wskazuje żadnej istniejącej normy EN** określającej format XML dla Digital DoP&C — taki standard jest dopiero opracowywany. Wszelkie odwołania do konkretnych norm są przedwczesne.
+
+### Oznakowanie wyrobu (stan na luty 2026)
+- **Dobrowolny QR kod** na etykiecie CE prowadzący do DoP&C — dobra praktyka, ale jeszcze nie obowiązkowy
+- **Numer referencyjny lub link URL** w dokumentacji — wystarczający do spełnienia wymogu dostępności online
+- Obowiązkowy QR kod na etykiecie: dopiero po aktach delegowanych KE
 
 ## Harmonogram wdrożenia
 
 | Data | Wymóg |
 |------|-------|
 | **7 stycznia 2025** | Wejście w życie CPR 2024/3110; możliwość dobrowolnego stosowania DoP&C |
-| **8 stycznia 2026** | Obowiązek stosowania DoP&C i udostępniania w formie cyfrowej |
+| **8 stycznia 2026** | Obowiązek stosowania DoP&C; wymagana dostępność online (min. link/PDF na stronie producenta) |
 | **8 stycznia 2027** | Sankcje za naruszenia (Art. 92 CPR 2024) |
 | **~2027** | Oczekiwane akty delegowane z obowiązkiem deklarowania GWP w DoP&C |
 
@@ -84,12 +84,12 @@ Europejskie platformy DoP&C:
 
 ## Korzyści Digital DoP&C
 
-✅ Automatyczna aktualizacja informacji (bez druku nowych dokumentów)
-✅ Łatwiejszy dostęp dla projektantów, wykonawców i organów nadzoru
-✅ Redukcja kosztów druku i dystrybucji
-✅ Integracja z systemami BIM (IFC, Revit, Archicad)
-✅ Śledzenie wyrobów w łańcuchu dostaw (blockchain, QR)
-✅ Gotowość do Cyfrowego Paszportu Wyrobu (DPP)
+- Automatyczna aktualizacja informacji (bez druku nowych dokumentów)
+- Łatwiejszy dostęp dla projektantów, wykonawców i organów nadzoru
+- Redukcja kosztów druku i dystrybucji
+- Integracja z systemami BIM (IFC, Revit, Archicad)
+- Śledzenie wyrobów w łańcuchu dostaw (blockchain, QR)
+- Gotowość do Cyfrowego Paszportu Wyrobu (DPP)
 
 ## Jak się przygotować?
 

@@ -25,9 +25,9 @@ EPD to **znormalizowany dokument** (zgodnie z ISO 14025 i EN 15804) zawierający
 
 W **CPR 2024** wska\u017aniki środowiskowe są obowiązkowe, ale **pełna EPD nie**. Wymagane minimum to:
 
-✅ Obliczenie wskaźników GWP, ODP, AP, EP, POCP  
-✅ Zgodność z EN 15804+A2  
-✅ Weryfikacja przez niezale\u017cną jednostkę  
+- Obliczenie wskaźników GWP, ODP, AP, EP, POCP
+- Zgodność z EN 15804+A2
+- Weryfikacja przez niezależną jednostkę
 
 Jednak **posiadanie EPD** daje przewagę konkurencyjną i ułatwia procedury!
 
@@ -91,11 +91,11 @@ Ważność EPD: **5 lat**
 
 ## Korzyści z posiadania EPD
 
-✅ **Zgodność z CPR 2024** - spełnienie wymagań środowiskowych  
-✅ **Przewaga konkurencyjna** - wymóg w przetargach publicznych  
-✅ **Certyfikacje LEED/BREEAM** - punkty za EPD  
-✅ **Marketing** - demonstracja odpowiedzialności środowiskowej  
-✅ **Optymalizacja produkcji** - identyfikacja obszarów do poprawy  
+- **Zgodność z CPR 2024** — spełnienie wymagań środowiskowych
+- **Przewaga konkurencyjna** — wymóg w przetargach publicznych
+- **Certyfikacje LEED/BREEAM** — punkty za EPD
+- **Marketing** — demonstracja odpowiedzialności środowiskowej
+- **Optymalizacja produkcji** — identyfikacja obszarów do poprawy
 
 ## Podsumowanie
 

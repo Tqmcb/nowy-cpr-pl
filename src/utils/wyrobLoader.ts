@@ -45,6 +45,14 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
             } else if (!isNaN(Number(value)) && value !== '') {
                 data[currentKey] = Number(value);
                 currentArray = null;
+            } else if (value.startsWith('[')) {
+                // Inline JSON array: normy: ["EN 13956", "EN 13967"]
+                try {
+                    data[currentKey] = JSON.parse(value);
+                } catch {
+                    data[currentKey] = value;
+                }
+                currentArray = null;
             } else {
                 data[currentKey] = value.replace(/^['"]|['"]$/g, '');
                 currentArray = null;

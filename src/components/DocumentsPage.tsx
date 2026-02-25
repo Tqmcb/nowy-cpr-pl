@@ -200,7 +200,7 @@ export function DocumentsPage() {
                   </Button>
                   <Button
                     variant="outline"
-                    className="px-6 py-3 rounded-full border-white/20 text-white hover:bg-white/10"
+                    className="px-6 py-3 rounded-full border-white/20 text-white bg-transparent hover:bg-white/10"
                     onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
                   >
                     <HelpCircle className="w-5 h-5 mr-2" />
@@ -356,7 +356,7 @@ export function DocumentsPage() {
               <Button
                 onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
                 variant="outline"
-                className="border-white/20 text-white hover:bg-white/10"
+                className="border-white/20 text-white bg-transparent hover:bg-white/10"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Skontaktuj się z nami
@@ -473,7 +473,7 @@ export function DocumentsPage() {
                       }
                     }}
                     variant="outline"
-                    className="border-white/20 text-white hover:bg-white/10"
+                    className="border-white/20 text-white bg-transparent hover:bg-white/10"
                   >
                     <RefreshCw className="w-4 h-4 mr-2" />
                     Pobierz ponownie
