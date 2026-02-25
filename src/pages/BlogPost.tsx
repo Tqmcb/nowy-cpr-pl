@@ -1,10 +1,909 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Button } from "@/extensions/shadcn/components/button";
-import { Skeleton } from "@/extensions/shadcn/components/skeleton";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import type { Components } from "react-markdown";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import {
+  ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
+  BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
+} from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
+
+// ────────────────────────────────────────────────────────────────────────────
+// SHARED UTILITIES
+// ────────────────────────────────────────────────────────────────────────────
+
+function formatDate(dateString: string) {
+  if (!dateString) return "";
+  return new Date(dateString).toLocaleDateString("pl-PL", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function readingTime(content: string) {
+  const words = content.trim().split(/\s+/).length;
+  return Math.ceil(words / 200);
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// MARKDOWN COMPONENT SETS
+// ────────────────────────────────────────────────────────────────────────────
+
+const DARK_COMPONENTS: Components = {
+  h1: ({ children }) => (
+    <h1 className="text-3xl font-bold text-white my-6 leading-tight">{children}</h1>
+  ),
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-white/10">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-amber-400 mt-6 mb-3">{children}</h3>
+  ),
+  p: ({ children }) => (
+    <p className="text-slate-300 leading-relaxed my-4 text-[15px]">{children}</p>
+  ),
+  strong: ({ children }) => (
+    <strong className="text-white font-semibold">{children}</strong>
+  ),
+  em: ({ children }) => <em className="text-slate-400 italic">{children}</em>,
+  a: ({ children, href }) => (
+    <a href={href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  ul: ({ children }) => <ul className="my-4 space-y-2">{children}</ul>,
+  ol: ({ children }) => <ol className="my-4 space-y-2">{children}</ol>,
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-amber-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-amber-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-amber-400/60 bg-amber-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  hr: () => <hr className="border-white/10 my-8" />,
+  code: ({ children, className }) => {
+    if (className) {
+      return <code className={`${className} text-amber-300 text-sm font-mono`}>{children}</code>;
+    }
+    return (
+      <code className="bg-slate-700/70 text-amber-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">
+        {children}
+      </code>
+    );
+  },
+  pre: ({ children }) => (
+    <pre className="bg-slate-800 border border-white/10 rounded-xl p-5 overflow-x-auto my-6 text-sm font-mono leading-relaxed">
+      {children}
+    </pre>
+  ),
+  table: ({ children }) => (
+    <div className="overflow-x-auto my-6 rounded-xl border border-white/10 shadow-lg">
+      <table className="w-full border-collapse text-sm">{children}</table>
+    </div>
+  ),
+  thead: ({ children }) => <thead className="bg-slate-800">{children}</thead>,
+  tbody: ({ children }) => <tbody className="divide-y divide-white/5">{children}</tbody>,
+  tr: ({ children }) => <tr className="hover:bg-white/[0.02] transition-colors">{children}</tr>,
+  th: ({ children }) => (
+    <th className="text-amber-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  td: ({ children }) => <td className="text-slate-300 px-4 py-3 text-[13px]">{children}</td>,
+};
+
+const LIGHT_COMPONENTS: Components = {
+  h1: ({ children }) => (
+    <h1 className="text-3xl font-bold text-slate-900 my-6 leading-tight">{children}</h1>
+  ),
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-slate-800 mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-blue-700 mt-6 mb-3">{children}</h3>
+  ),
+  p: ({ children }) => (
+    <p className="text-slate-600 leading-relaxed my-4 text-[15px]">{children}</p>
+  ),
+  strong: ({ children }) => (
+    <strong className="text-slate-900 font-semibold">{children}</strong>
+  ),
+  em: ({ children }) => <em className="text-slate-500 italic">{children}</em>,
+  a: ({ children, href }) => (
+    <a href={href} className="text-blue-600 hover:text-blue-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  ul: ({ children }) => <ul className="my-4 space-y-2">{children}</ul>,
+  ol: ({ children }) => <ol className="my-4 space-y-2">{children}</ol>,
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-3 text-slate-600 text-[15px]">
+      {ordered ? (
+        <span className="text-blue-600 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-blue-500 mt-1 shrink-0">✓</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-blue-500 bg-blue-50 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-blue-800 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  hr: () => <hr className="border-slate-200 my-8" />,
+  code: ({ children, className }) => {
+    if (className) {
+      return <code className={`${className} text-blue-700 text-sm font-mono`}>{children}</code>;
+    }
+    return (
+      <code className="bg-slate-100 text-blue-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">
+        {children}
+      </code>
+    );
+  },
+  pre: ({ children }) => (
+    <pre className="bg-slate-800 text-slate-200 rounded-xl p-5 overflow-x-auto my-6 text-sm font-mono leading-relaxed">
+      {children}
+    </pre>
+  ),
+  table: ({ children }) => (
+    <div className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-md">
+      <table className="w-full border-collapse text-sm">{children}</table>
+    </div>
+  ),
+  thead: ({ children }) => <thead className="bg-blue-600">{children}</thead>,
+  tbody: ({ children }) => <tbody className="divide-y divide-slate-100">{children}</tbody>,
+  tr: ({ children }) => <tr className="hover:bg-blue-50 transition-colors even:bg-slate-50/60">{children}</tr>,
+  th: ({ children }) => (
+    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  td: ({ children }) => <td className="text-slate-700 px-4 py-3 text-[13px]">{children}</td>,
+};
+
+const EMERALD_COMPONENTS: Components = {
+  ...DARK_COMPONENTS,
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-emerald-400/20">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-emerald-400 mt-6 mb-3">{children}</h3>
+  ),
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-emerald-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-emerald-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  a: ({ children, href }) => (
+    <a href={href} className="text-emerald-400 hover:text-emerald-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-emerald-400/60 bg-emerald-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  th: ({ children }) => (
+    <th className="text-emerald-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  code: ({ children, className }) => {
+    if (className) return <code className={`${className} text-emerald-300 text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-700/70 text-emerald-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
+  },
+};
+
+// ────────────────────────────────────────────────────────────────────────────
+// SHARED SIDEBAR CARDS
+// ────────────────────────────────────────────────────────────────────────────
+
+function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (path: string) => void }) {
+  return (
+    <>
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+        <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
+        <dl className="space-y-3">
+          <div>
+            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
+            <dd className="text-slate-300 text-sm flex items-center gap-2">
+              <User className="w-3.5 h-3.5 text-amber-400" />
+              {post.author}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Data publikacji</dt>
+            <dd className="text-slate-300 text-sm flex items-center gap-2">
+              <Calendar className="w-3.5 h-3.5 text-amber-400" />
+              {formatDate(post.published_at)}
+            </dd>
+          </div>
+          {post.category && (
+            <div>
+              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
+              <dd className="text-slate-300 text-sm">{post.category}</dd>
+            </div>
+          )}
+          <div>
+            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
+            <dd className="text-slate-300 text-sm flex items-center gap-2">
+              <Clock className="w-3.5 h-3.5 text-amber-400" />
+              ok. {readingTime(post.content)} min
+            </dd>
+          </div>
+        </dl>
+      </div>
+      {post.tags && post.tags.length > 0 && (
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+          <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+            <Tag className="w-3.5 h-3.5 text-amber-400" /> Tagi
+          </h4>
+          <div className="flex flex-wrap gap-2">
+            {post.tags.map((tag) => (
+              <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-amber-400/10 text-amber-400 border border-amber-400/20">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="bg-gradient-to-br from-amber-400/10 to-orange-500/10 border border-amber-400/20 rounded-2xl p-5">
+        <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+          <HelpCircle className="w-4 h-4 text-amber-400" /> Potrzebujesz pomocy?
+        </h4>
+        <p className="text-slate-400 text-sm mb-4">Nasi eksperci pomogą Ci spełnić wymagania CPR 2024/3110.</p>
+        <button
+          onClick={() => navigate("/services")}
+          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition-colors text-sm"
+        >
+          Kontakt <ChevronRight className="w-4 h-4" />
+        </button>
+      </div>
+    </>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 1: REGULACJA — dark navy, legal/EU document style
+// ────────────────────────────────────────────────────────────────────────────
+
+function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  const KEY_DATES = [
+    { date: "7 sty 2025", label: "Wejście w życie CPR 2024/3110" },
+    { date: "8 sty 2026", label: "Pełne stosowanie rozporządzenia" },
+    { date: "8 sty 2027", label: "Sankcje (Art. 92) zaczną obowiązywać" },
+    { date: "9 sty 2031", label: "Wygasają stare EAD" },
+    { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
+  ];
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-950">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        {/* Hero */}
+        <div className="relative overflow-hidden">
+          {post.image_url && (
+            <div className="absolute inset-0">
+              <img src={post.image_url} alt="" className="w-full h-full object-cover opacity-15" />
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/90 to-slate-950" />
+            </div>
+          )}
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16">
+            <button
+              onClick={() => navigate("/blog")}
+              className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors mb-8 group text-sm"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Powrót do bloga
+            </button>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-500/15 border border-red-500/30 text-red-400 text-xs font-bold uppercase tracking-wider">
+                <Scale className="w-3 h-3" /> Regulacja
+              </span>
+              {post.category && (
+                <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
+                  {post.category}
+                </span>
+              )}
+            </div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl">
+              {post.title}
+            </h1>
+            <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
+              <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" />{post.author}</span>
+              <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-amber-400" />{formatDate(post.published_at)}</span>
+              <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-amber-400" />ok. {readingTime(post.content)} min czytania</span>
+            </p>
+          </div>
+        </div>
+        {/* Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              {/* Key dates */}
+              <div className="bg-slate-900 border border-white/10 rounded-2xl p-5">
+                <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <Calendar className="w-4 h-4 text-amber-400" /> Harmonogram
+                </h4>
+                <ol className="space-y-3">
+                  {KEY_DATES.map((item) => (
+                    <li key={item.date} className="flex items-start gap-3">
+                      <span className="text-amber-400 font-mono text-xs font-bold mt-0.5 shrink-0">{item.date}</span>
+                      <span className="text-slate-400 text-xs">{item.label}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+              <DarkSidebarMeta post={post} navigate={navigate} />
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 2: PRZEWODNIK — light, step-by-step guide style
+// ────────────────────────────────────────────────────────────────────────────
+
+function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-50">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        {/* Header strip */}
+        <div className="bg-blue-600">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+            <button
+              onClick={() => navigate("/blog")}
+              className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors mb-6 text-sm group"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Powrót do bloga
+            </button>
+            <div className="flex items-center gap-3 mb-3">
+              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-wider">
+                <BookOpen className="w-3 h-3" /> Przewodnik
+              </span>
+              {post.category && (
+                <span className="text-xs text-blue-100 bg-white/10 px-3 py-1 rounded-full border border-white/20">
+                  {post.category}
+                </span>
+              )}
+            </div>
+            <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight max-w-3xl">
+              {post.title}
+            </h1>
+            <div className="flex items-center gap-4 mt-4 text-blue-100 text-sm flex-wrap">
+              <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5" />{post.author}</span>
+              <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5" />{formatDate(post.published_at)}</span>
+              <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" />ok. {readingTime(post.content)} min czytania</span>
+            </div>
+          </div>
+        </div>
+        {/* Banner image */}
+        {post.image_url && (
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 -mt-0">
+            <img
+              src={post.image_url}
+              alt={post.title}
+              className="w-full h-56 md:h-72 object-cover rounded-b-2xl shadow-xl"
+            />
+          </div>
+        )}
+        {/* Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={LIGHT_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              {/* Light sidebar */}
+              <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <FileText className="w-4 h-4 text-blue-600" /> Informacje
+                </h4>
+                <dl className="space-y-3">
+                  <div>
+                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Autor</dt>
+                    <dd className="text-slate-700 text-sm flex items-center gap-2">
+                      <User className="w-3.5 h-3.5 text-blue-600" />{post.author}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Data</dt>
+                    <dd className="text-slate-700 text-sm flex items-center gap-2">
+                      <Calendar className="w-3.5 h-3.5 text-blue-600" />{formatDate(post.published_at)}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
+                    <dd className="text-slate-700 text-sm flex items-center gap-2">
+                      <Clock className="w-3.5 h-3.5 text-blue-600" />ok. {readingTime(post.content)} min
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+              {post.tags && post.tags.length > 0 && (
+                <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+                  <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <Tag className="w-3.5 h-3.5 text-blue-600" /> Tagi
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {post.tags.map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <div className="bg-blue-600 rounded-2xl p-5 text-white">
+                <h4 className="font-semibold mb-2 flex items-center gap-2">
+                  <HelpCircle className="w-4 h-4" /> Potrzebujesz wsparcia?
+                </h4>
+                <p className="text-blue-100 text-sm mb-4">Eksperci pomogą Ci wdrożyć wymagania krok po kroku.</p>
+                <button
+                  onClick={() => navigate("/services")}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-blue-700 font-semibold rounded-xl hover:bg-blue-50 transition-colors text-sm"
+                >
+                  Kontakt <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 3: ANALIZA — dark, data-driven, emerald accents
+// ────────────────────────────────────────────────────────────────────────────
+
+function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        {/* Header */}
+        <div className="relative overflow-hidden border-b border-white/5">
+          {post.image_url && (
+            <div className="absolute inset-0">
+              <img src={post.image_url} alt="" className="w-full h-full object-cover opacity-10" />
+              <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900/70" />
+            </div>
+          )}
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16">
+            <button
+              onClick={() => navigate("/blog")}
+              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors mb-8 group text-sm"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Powrót do bloga
+            </button>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-400/15 border border-emerald-400/30 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+                <BarChart2 className="w-3 h-3" /> Analiza
+              </span>
+              {post.category && (
+                <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
+                  {post.category}
+                </span>
+              )}
+            </div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-4xl">
+              {post.title}
+            </h1>
+            <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
+              <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-emerald-400" />{post.author}</span>
+              <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-emerald-400" />{formatDate(post.published_at)}</span>
+              <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-emerald-400" />ok. {readingTime(post.content)} min czytania</span>
+            </p>
+          </div>
+        </div>
+        {/* Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={EMERALD_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+                <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
+                <dl className="space-y-3">
+                  <div>
+                    <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
+                    <dd className="text-slate-300 text-sm flex items-center gap-2">
+                      <User className="w-3.5 h-3.5 text-emerald-400" />{post.author}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Opublikowano</dt>
+                    <dd className="text-slate-300 text-sm flex items-center gap-2">
+                      <Calendar className="w-3.5 h-3.5 text-emerald-400" />{formatDate(post.published_at)}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
+                    <dd className="text-slate-300 text-sm flex items-center gap-2">
+                      <Clock className="w-3.5 h-3.5 text-emerald-400" />ok. {readingTime(post.content)} min
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+              {post.tags && post.tags.length > 0 && (
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+                  <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <Tag className="w-3.5 h-3.5 text-emerald-400" /> Tagi
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {post.tags.map((tag) => (
+                      <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-emerald-400/10 text-emerald-400 border border-emerald-400/20">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <div className="bg-gradient-to-br from-emerald-400/10 to-teal-500/10 border border-emerald-400/20 rounded-2xl p-5">
+                <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
+                  <HelpCircle className="w-4 h-4 text-emerald-400" /> Potrzebujesz pomocy?
+                </h4>
+                <p className="text-slate-400 text-sm mb-4">Przeprowadzimy analizę i doradzimy odpowiednie rozwiązanie.</p>
+                <button
+                  onClick={() => navigate("/services")}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-emerald-400 text-slate-900 font-semibold rounded-xl hover:bg-emerald-300 transition-colors text-sm"
+                >
+                  Kontakt <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 4: TECHNICZNY — dark industrial, amber/tech accents
+// ────────────────────────────────────────────────────────────────────────────
+
+function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        {/* Header */}
+        <div className="border-b border-white/5 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+            <button
+              onClick={() => navigate("/blog")}
+              className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors mb-8 group text-sm"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Powrót do bloga
+            </button>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-xs font-bold uppercase tracking-wider">
+                <Wrench className="w-3 h-3" /> Techniczny
+              </span>
+              {post.category && (
+                <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
+                  {post.category}
+                </span>
+              )}
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+              <div>
+                <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">{post.title}</h1>
+                <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
+                  <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" />{post.author}</span>
+                  <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-amber-400" />{formatDate(post.published_at)}</span>
+                  <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-amber-400" />ok. {readingTime(post.content)} min</span>
+                </p>
+              </div>
+              {post.image_url && (
+                <img
+                  src={post.image_url}
+                  alt={post.title}
+                  className="rounded-xl w-full h-40 object-cover opacity-70"
+                />
+              )}
+            </div>
+          </div>
+        </div>
+        {/* Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              {/* Normy / Standards card */}
+              <div className="bg-amber-400/5 border border-amber-400/20 rounded-2xl p-5">
+                <h4 className="text-amber-400 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <FileText className="w-4 h-4" /> Normy i wymagania
+                </h4>
+                <p className="text-slate-400 text-xs leading-relaxed">
+                  Artykuł dotyczy wyrobów budowlanych objętych normami zharmonizowanymi na mocy CPR 2024/3110.
+                </p>
+              </div>
+              <DarkSidebarMeta post={post} navigate={navigate} />
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 5: AKTUALNOŚCI — magazine style, full-width hero, white content
+// ────────────────────────────────────────────────────────────────────────────
+
+function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  const initials = post.author.split(" ").map((n) => n[0]).slice(0, 2).join("");
+  return (
+    <div className="flex flex-col min-h-screen bg-white">
+      <Header />
+      <main className="flex-grow pt-16">
+        {/* Full-width hero */}
+        <div className="relative h-72 md:h-96 overflow-hidden">
+          {post.image_url ? (
+            <img src={post.image_url} alt={post.title} className="w-full h-full object-cover" />
+          ) : (
+            <div className="w-full h-full bg-violet-900" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+          <div className="absolute bottom-0 left-0 right-0 px-4 sm:px-6 pb-8 max-w-5xl mx-auto">
+            <button
+              onClick={() => navigate("/blog")}
+              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-4 text-sm group"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              Powrót do bloga
+            </button>
+            <div className="flex items-center gap-3 mb-3">
+              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-violet-500/30 border border-violet-400/40 text-violet-200 text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
+                <Newspaper className="w-3 h-3" /> Aktualności
+              </span>
+              {post.category && (
+                <span className="text-xs text-white/70 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                  {post.category}
+                </span>
+              )}
+            </div>
+            <h1 className="text-2xl md:text-4xl font-bold text-white leading-tight max-w-3xl">
+              {post.title}
+            </h1>
+          </div>
+        </div>
+        {/* Author + meta strip */}
+        <div className="border-b border-slate-100 bg-slate-50">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-6 flex-wrap">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-full bg-violet-600 text-white font-bold text-sm flex items-center justify-center shrink-0">
+                {initials}
+              </div>
+              <div>
+                <p className="text-slate-900 font-medium text-sm">{post.author}</p>
+                <p className="text-slate-500 text-xs">{formatDate(post.published_at)}</p>
+              </div>
+            </div>
+            <span className="text-slate-300 hidden sm:block">·</span>
+            <span className="flex items-center gap-1.5 text-slate-500 text-sm">
+              <Clock className="w-3.5 h-3.5 text-violet-500" />
+              ok. {readingTime(post.content)} min czytania
+            </span>
+            {post.tags && post.tags.length > 0 && (
+              <>
+                <span className="text-slate-300 hidden sm:block">·</span>
+                <div className="flex flex-wrap gap-2">
+                  {post.tags.slice(0, 4).map((tag) => (
+                    <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-violet-50 text-violet-700 border border-violet-200">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+        {/* Content */}
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 mt-10 pb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
+                ...LIGHT_COMPONENTS,
+                h3: ({ children }) => (
+                  <h3 className="text-lg font-semibold text-violet-700 mt-6 mb-3">{children}</h3>
+                ),
+                a: ({ children, href }) => (
+                  <a href={href} className="text-violet-600 hover:text-violet-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+                    {children}
+                  </a>
+                ),
+                li: ({ children, ordered, index }) => (
+                  <li className="flex items-start gap-3 text-slate-600 text-[15px]">
+                    {ordered ? (
+                      <span className="text-violet-600 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">{(index ?? 0) + 1}.</span>
+                    ) : (
+                      <span className="text-violet-500 mt-1 shrink-0">✓</span>
+                    )}
+                    <span>{children}</span>
+                  </li>
+                ),
+                thead: ({ children }) => <thead className="bg-violet-600">{children}</thead>,
+              }}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+                <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <FileText className="w-4 h-4 text-violet-600" /> Informacje
+                </h4>
+                <dl className="space-y-3">
+                  <div>
+                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Autor</dt>
+                    <dd className="text-slate-700 text-sm">{post.author}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Opublikowano</dt>
+                    <dd className="text-slate-700 text-sm">{formatDate(post.published_at)}</dd>
+                  </div>
+                  {post.category && (
+                    <div>
+                      <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
+                      <dd className="text-slate-700 text-sm">{post.category}</dd>
+                    </div>
+                  )}
+                </dl>
+              </div>
+              <div className="bg-violet-600 rounded-2xl p-5 text-white">
+                <h4 className="font-semibold mb-2 flex items-center gap-2">
+                  <HelpCircle className="w-4 h-4" /> Masz pytania?
+                </h4>
+                <p className="text-violet-100 text-sm mb-4">Nasi eksperci wyjaśnią nowinki i pomogą w implementacji.</p>
+                <button
+                  onClick={() => navigate("/services")}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-violet-700 font-semibold rounded-xl hover:bg-violet-50 transition-colors text-sm"
+                >
+                  Kontakt <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// DEFAULT TEMPLATE — generic dark template for untagged posts
+// ────────────────────────────────────────────────────────────────────────────
+
+function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <button
+            onClick={() => navigate("/blog")}
+            className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors mb-8 group text-sm"
+          >
+            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+            Powrót do bloga
+          </button>
+          {post.image_url && (
+            <div className="mb-8 overflow-hidden rounded-2xl">
+              <img src={post.image_url} alt={post.title} className="w-full h-64 object-cover" />
+            </div>
+          )}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2">
+              <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">{post.title}</h1>
+              <div className="flex items-center gap-4 text-slate-400 text-sm mb-8 pb-6 border-b border-white/10 flex-wrap">
+                <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" />{post.author}</span>
+                <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-amber-400" />{formatDate(post.published_at)}</span>
+                <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-amber-400" />ok. {readingTime(post.content)} min</span>
+              </div>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              <DarkSidebarMeta post={post} navigate={navigate} />
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// LOADING SKELETON
+// ────────────────────────────────────────────────────────────────────────────
+
+function LoadingSkeleton() {
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 animate-pulse">
+          <div className="h-4 w-24 bg-slate-800 rounded mb-10" />
+          <div className="h-12 w-2/3 bg-slate-800 rounded mb-4" />
+          <div className="h-5 w-1/3 bg-slate-800 rounded mb-10" />
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2 space-y-4">
+              {[...Array(6)].map((_, i) => (
+                <div key={i} className={`h-4 bg-slate-800 rounded ${i % 3 === 2 ? "w-3/4" : "w-full"}`} />
+              ))}
+            </div>
+            <div className="space-y-4">
+              <div className="h-40 bg-slate-800 rounded-2xl" />
+              <div className="h-32 bg-slate-800 rounded-2xl" />
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// MAIN PAGE COMPONENT
+// ────────────────────────────────────────────────────────────────────────────
 
 export default function BlogPost() {
   const navigate = useNavigate();
@@ -13,22 +912,9 @@ export default function BlogPost() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Pobieranie parametru slug z URL
   const searchParams = new URLSearchParams(location.search);
-  const slug = searchParams.get('slug');
+  const slug = searchParams.get("slug");
 
-  // Funkcja do formatowania daty
-  const formatDate = (dateString: string) => {
-    if (!dateString) return "";
-    const date = new Date(dateString);
-    return date.toLocaleDateString("pl-PL", {
-      year: "numeric",
-      month: "long",
-      day: "numeric"
-    });
-  };
-
-  // Pobieranie posta z lokalnych plików markdown
   useEffect(() => {
     const fetchPost = async () => {
       if (!slug) {
@@ -36,142 +922,61 @@ export default function BlogPost() {
         setLoading(false);
         return;
       }
-
       try {
         setLoading(true);
-        const { getPostBySlug } = await import('../utils/blogLoader');
+        const { getPostBySlug } = await import("../utils/blogLoader");
         const foundPost = await getPostBySlug(slug);
-
         if (foundPost) {
           setPost(foundPost);
           setError(null);
         } else {
           setError("Nie znaleziono artykułu");
-          setPost(null);
         }
       } catch (err) {
         console.error("Błąd pobierania artykułu:", err);
         setError("Wystąpił błąd podczas ładowania artykułu");
-        setPost(null);
       } finally {
         setLoading(false);
       }
     };
-
     fetchPost();
   }, [slug]);
 
-  // Konwersja Markdown do HTML (prosta implementacja)
-  const markdownToHtml = (markdown: string) => {
-    if (!markdown) return "";
+  if (loading) return <LoadingSkeleton />;
 
-    let html = markdown;
+  if (error || !post) {
+    return (
+      <div className="flex flex-col min-h-screen bg-slate-900">
+        <Header />
+        <main className="flex-grow flex items-center justify-center">
+          <div className="text-center py-12 px-4">
+            <h3 className="text-xl font-semibold text-white mb-2">{error ?? "Nie znaleziono artykułu"}</h3>
+            <button
+              onClick={() => navigate("/blog")}
+              className="mt-4 px-6 py-3 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition-colors"
+            >
+              Wróć do bloga
+            </button>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 
-    // Konwersja nagłówków
-    html = html.replace(/^# (.+)$/gm, '<h1 class="text-3xl font-bold my-4">$1</h1>');
-    html = html.replace(/^## (.+)$/gm, '<h2 class="text-2xl font-bold my-3">$1</h2>');
-    html = html.replace(/^### (.+)$/gm, '<h3 class="text-xl font-bold my-2">$1</h3>');
-
-    // Konwersja pogrubienia i kursywy
-    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-    html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
-
-    // Konwersja list
-    html = html.replace(/^- (.+)$/gm, '<li class="ml-6 list-disc">$1</li>');
-    html = html.replace(/^\d+\. (.+)$/gm, '<li class="ml-6 list-decimal">$1</li>');
-
-    // Konwersja cytatów
-    html = html.replace(/^> (.+)$/gm, '<blockquote class="border-l-4 border-gray-300 pl-4 italic my-4">$1</blockquote>');
-
-    // Konwersja tabel (bardzo uproszczona)
-    html = html.replace(/\|(.+)\|/g, '<tr><td>$1</td></tr>');
-    html = html.replace(/^\|[-:\s]+\|$/gm, '');
-
-    // Konwersja paragrafów (uproszczona)
-    html = html.replace(/\n\n([^#<\n].+?)\n\n/gs, '<p class="my-4">$1</p>');
-
-    // Akapity na końcu tekstu
-    html = html.replace(/\n\n([^#<\n].+?)$/gs, '<p class="my-4">$1</p>');
-
-    return html;
-  };
-
-  return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
-      <Header />
-
-      <main className="flex-grow container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
-          {loading ? (
-            // Szkielet ładowania
-            <div className="space-y-6">
-              <Skeleton className="h-12 w-3/4 mx-auto" />
-              <div className="flex items-center justify-center space-x-4">
-                <Skeleton className="h-6 w-32" />
-                <Skeleton className="h-6 w-24" />
-              </div>
-              <Skeleton className="h-96 w-full" />
-            </div>
-          ) : error ? (
-            // Komunikat o błędzie
-            <div className="text-center py-12">
-              <h3 className="text-xl font-medium text-gray-900">{error}</h3>
-              <Button
-                onClick={() => navigate('/blog')}
-                className="mt-4"
-              >
-                Wróć do listy artykułów
-              </Button>
-            </div>
-          ) : post ? (
-            // Treść artykułu
-            <article>
-              <Button
-                onClick={() => navigate('/blog')}
-                variant="outline"
-                className="mb-6"
-              >
-                &larr; Wróć do listy artykułów
-              </Button>
-
-              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-                {post.title}
-              </h1>
-
-              <div className="flex items-center text-gray-600 mb-6">
-                <span className="font-medium">{post.author}</span>
-                <span className="mx-2">•</span>
-                <span>{formatDate(post.published_at)}</span>
-                {post.category && (
-                  <>
-                    <span className="mx-2">•</span>
-                    <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">
-                      {post.category}
-                    </span>
-                  </>
-                )}
-              </div>
-
-              {post.image_url && (
-                <div className="mb-8 overflow-hidden rounded-lg">
-                  <img
-                    src={post.image_url}
-                    alt={post.title}
-                    className="w-full h-auto object-cover"
-                  />
-                </div>
-              )}
-
-              <div
-                className="prose prose-lg max-w-none"
-                dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }}
-              />
-            </article>
-          ) : null}
-        </div>
-      </main>
-
-      <Footer />
-    </div>
-  );
+  // Route to correct template
+  switch (post.template) {
+    case "regulacja":
+      return <RegulacjaTemplate post={post} navigate={navigate} />;
+    case "przewodnik":
+      return <PrzewodnikTemplate post={post} navigate={navigate} />;
+    case "analiza":
+      return <AnalizaTemplate post={post} navigate={navigate} />;
+    case "techniczny":
+      return <TechnicznyTemplate post={post} navigate={navigate} />;
+    case "aktualnosci":
+      return <AktualnosciTemplate post={post} navigate={navigate} />;
+    default:
+      return <DefaultTemplate post={post} navigate={navigate} />;
+  }
 }

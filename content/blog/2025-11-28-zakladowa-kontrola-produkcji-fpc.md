@@ -5,7 +5,8 @@ author: "mgr inż. Robert Wójcik"
 category: "Produkcja"
 tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
 excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy."
-image_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
+image_url: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800"
+template: "przewodnik"
 ---
 
 # Zakładowa Kontrola Produkcji (FPC)

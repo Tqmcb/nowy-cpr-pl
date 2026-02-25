@@ -73,6 +73,7 @@ export interface BlogPost {
     category: string;
     image_url: string;
     tags?: string[];
+    template?: string;
 }
 
 export interface BlogMetadata {
@@ -83,6 +84,7 @@ export interface BlogMetadata {
     tags: string[];
     excerpt: string;
     image_url: string;
+    template?: string;
 }
 
 /**
@@ -121,6 +123,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
                     category: metadata.category,
                     image_url: metadata.image_url,
                     tags: metadata.tags || [],
+                    template: metadata.template,
                 });
             } catch (err) {
                 console.error(`Error parsing ${path}:`, err);

@@ -5,7 +5,8 @@ author: "dr inż. Barbara Sikora"
 category: "Materiały"
 tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
 excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVCP."
-image_url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
+template: "techniczny"
 ---
 
 # Wyroby izolacyjne – wymagania CPR 2024

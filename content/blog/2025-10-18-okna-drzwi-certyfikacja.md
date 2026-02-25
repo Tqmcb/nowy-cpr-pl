@@ -5,7 +5,8 @@ author: "mgr inż. Andrzej Maj"
 category: "Materiały"
 tags: ["okna", "drzwi", "EN 14351", "ITT"]
 excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2024. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP."
-image_url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+image_url: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800"
+template: "techniczny"
 ---
 
 # Okna i drzwi – certyfikacja EN 14351-1

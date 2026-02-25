@@ -1,0 +1,10 @@
+
+export async function getWyrob(slug: string): Promise<ProductFamily | null> {
+    const wyroby = await getAllWyroby();
+    return wyroby.find(w => w.slug === slug) || null;
+}
+
+export async function getWyrobyByCategory(category: string): Promise<ProductFamily[]> {
+    const wyroby = await getAllWyroby();
+    return wyroby.filter(w => w.category === category);
+}

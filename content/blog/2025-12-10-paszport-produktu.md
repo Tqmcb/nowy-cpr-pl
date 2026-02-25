@@ -5,7 +5,8 @@ author: "dr inż. Tomasz Kamiński"
 category: "Przepisy"
 tags: ["paszport produktu", "zrównoważoność", "ESG", "cyrkularność"]
 excerpt: "Czym jest paszport produktu budowlanego i jak go przygotować? Wymagania dotyczące informacji o zrównoważonym rozwoju, cyklu życia produktu i gospodarki o obiegu zamkniętym."
-image_url: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+image_url: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800"
+template: "aktualnosci"
 ---
 
 # Paszport produktu budowlanego

@@ -5,7 +5,8 @@ author: "dr hab. Marek Zieliński"
 category: "Certyfikacja"
 tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane", "CPR 2024"]
 excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
-image_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+template: "analiza"
 ---
 
 # Systemy AVS – Ocena i Weryfikacja Wyrobów Budowlanych (CPR 2024/3110)

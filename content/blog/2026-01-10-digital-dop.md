@@ -5,7 +5,8 @@ author: "mgr inż. Anna Nowak"
 category: "Digital DoP"
 tags: ["Digital DoP&C", "DoP&C", "cyfryzacja", "XML", "dokumentacja", "CPR 2024"]
 excerpt: "CPR 2024/3110 zastępuje DoP cyfrową DoP&C (Deklaracją Właściwości Użytkowych i Zgodności). Format XML, QR kody, repozytoria cyfrowe. Jak się przygotować i jakie są wymagania techniczne?"
-image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+image_url: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+template: "aktualnosci"
 ---
 
 # Digital DoP&C — Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności

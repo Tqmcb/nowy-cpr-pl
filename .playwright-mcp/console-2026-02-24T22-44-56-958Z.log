@@ -1,0 +1,16 @@
+[    7921ms] [ERROR] Error: Minified React error #426; visit https://reactjs.org/docs/error-decoder.html?invariant=426 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Td (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:38587)
+    at Co (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:39486)
+    at Tu (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:35849)
+    at Ks (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:36651)
+    at on (http://www.nowycpr.pl/assets/vendor-72be9d21.js:38:3265)
+    at http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:34186 @ http://www.nowycpr.pl/assets/vendor-72be9d21.js:39
+[    7926ms] [ERROR] React Router caught the following error during render Error: Minified React error #426; visit https://reactjs.org/docs/error-decoder.html?invariant=426 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Td (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:38587)
+    at Co (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:39486)
+    at Tu (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:35849)
+    at Ks (http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:36651)
+    at on (http://www.nowycpr.pl/assets/vendor-72be9d21.js:38:3265)
+    at http://www.nowycpr.pl/assets/vendor-72be9d21.js:40:34186 {componentStack: 
+    at Bv (http://www.nowycpr.pl/assets/vendor-72…ycpr.pl/assets/index-b4ab53be.js:1:5567)
+    at U} @ http://www.nowycpr.pl/assets/vendor-72be9d21.js:58

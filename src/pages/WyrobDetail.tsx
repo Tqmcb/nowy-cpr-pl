@@ -1,10 +1,64 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import type { Components } from "react-markdown";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
 import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
+
+const WYROB_COMPONENTS: Components = {
+  h1: ({ children }) => <h1 className="text-3xl font-bold text-white my-6 leading-tight">{children}</h1>,
+  h2: ({ children }) => <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-white/10">{children}</h2>,
+  h3: ({ children }) => <h3 className="text-lg font-semibold text-amber-400 mt-6 mb-3">{children}</h3>,
+  p: ({ children }) => <p className="text-slate-300 leading-relaxed my-4 text-[15px]">{children}</p>,
+  strong: ({ children }) => <strong className="text-white font-semibold">{children}</strong>,
+  em: ({ children }) => <em className="text-slate-400 italic">{children}</em>,
+  a: ({ children, href }) => (
+    <a href={href} className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  ul: ({ children }) => <ul className="my-4 space-y-2">{children}</ul>,
+  ol: ({ children }) => <ol className="my-4 space-y-2">{children}</ol>,
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-amber-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">{(index ?? 0) + 1}.</span>
+      ) : (
+        <span className="text-amber-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-amber-400/60 bg-amber-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  hr: () => <hr className="border-white/10 my-8" />,
+  code: ({ children, className }) => {
+    if (className) return <code className={`${className} text-amber-300 text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-700/70 text-amber-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
+  },
+  pre: ({ children }) => (
+    <pre className="bg-slate-800 border border-white/10 rounded-xl p-5 overflow-x-auto my-6 text-sm font-mono leading-relaxed">{children}</pre>
+  ),
+  table: ({ children }) => (
+    <div className="overflow-x-auto my-6 rounded-xl border border-white/10 shadow-lg">
+      <table className="w-full border-collapse text-sm">{children}</table>
+    </div>
+  ),
+  thead: ({ children }) => <thead className="bg-slate-800">{children}</thead>,
+  tbody: ({ children }) => <tbody className="divide-y divide-white/5">{children}</tbody>,
+  tr: ({ children }) => <tr className="hover:bg-white/[0.02] transition-colors">{children}</tr>,
+  th: ({ children }) => (
+    <th className="text-amber-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">{children}</th>
+  ),
+  td: ({ children }) => <td className="text-slate-300 px-4 py-3 text-[13px]">{children}</td>,
+};
 
 const KEY_DATES = [
   { date: "8 sty 2026", label: "Pełne stosowanie CPR 2024" },
@@ -12,22 +66,6 @@ const KEY_DATES = [
   { date: "9 sty 2031", label: "Wygasają stare EAD" },
   { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
 ];
-
-function markdownToHtml(markdown: string): string {
-  if (!markdown) return "";
-  let html = markdown;
-  html = html.replace(/^# (.+)$/gm, '<h1 class="text-3xl font-bold text-white my-6">$1</h1>');
-  html = html.replace(/^## (.+)$/gm, '<h2 class="text-2xl font-semibold text-white my-5">$1</h2>');
-  html = html.replace(/^### (.+)$/gm, '<h3 class="text-xl font-semibold text-amber-400 my-4">$1</h3>');
-  html = html.replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-semibold">$1</strong>');
-  html = html.replace(/\*(.+?)\*/g, '<em class="text-slate-300">$1</em>');
-  html = html.replace(/^- (.+)$/gm, '<li class="ml-6 list-disc text-slate-300 my-1">$1</li>');
-  html = html.replace(/^\d+\. (.+)$/gm, '<li class="ml-6 list-decimal text-slate-300 my-1">$1</li>');
-  html = html.replace(/^> (.+)$/gm, '<blockquote class="border-l-4 border-amber-400/50 pl-4 italic text-slate-400 my-4">$1</blockquote>');
-  html = html.replace(/\n\n([^#<\n].+?)\n\n/gs, '<p class="text-slate-300 leading-relaxed my-4">$1</p>');
-  html = html.replace(/\n\n([^#<\n].+?)$/gs, '<p class="text-slate-300 leading-relaxed my-4">$1</p>');
-  return html;
-}
 
 export default function WyrobDetail() {
   const navigate = useNavigate();
@@ -135,10 +173,11 @@ export default function WyrobDetail() {
                       <p className="text-slate-400 italic">{wyrob.family_name_en}</p>
                     )}
                   </div>
-                  <div
-                    className="prose-dark"
-                    dangerouslySetInnerHTML={{ __html: markdownToHtml(wyrob.content) }}
-                  />
+                  <div className="prose-dark">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={WYROB_COMPONENTS}>
+                      {wyrob.content}
+                    </ReactMarkdown>
+                  </div>
                 </article>
                 <aside className="space-y-6">
                   <div className="bg-slate-800/50 border border-white/10 rounded-2xl p-6">

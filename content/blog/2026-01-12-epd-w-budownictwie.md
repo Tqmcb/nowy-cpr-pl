@@ -5,7 +5,8 @@ author: "dr inż. Katarzyna Lewandowska"
 category: "Analiza"
 tags: ["EPD", "LCA", "środowisko", "EN 15804"]
 excerpt: "Co to jest EPD (Environmental Product Declaration)? Jak przeprowadzić analizę LCA? Czy EPD jest obowiązkowe w CPR 2024? Kompletny przewodnik po deklaracjach środowiskowych w budownictwie."
-image_url: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+image_url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"
+template: "analiza"
 ---
 
 # EPD w budownictwie - Deklaracje Środowiskowe Produktu

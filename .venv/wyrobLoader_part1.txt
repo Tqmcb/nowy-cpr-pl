@@ -1,0 +1,4 @@
+/**
+ * Simple browser-compatible frontmatter parser.
+ * Mirrors the pattern from blogLoader.ts but loads from /content/wyroby/*.md
+ */

@@ -5,7 +5,8 @@ author: "mgr inż. Tomasz Kowalski"
 category: "Wymagania"
 tags: ["CPR", "2024", "regulacje", "nowe wymagania", "AVS", "DoP&C"]
 excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram wdrożenia do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."
-image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
+image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800"
+template: "regulacja"
 ---
 
 # CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych

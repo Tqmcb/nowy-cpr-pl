@@ -5,7 +5,8 @@ author: "dr inż. Krzysztof Adamski"
 category: "Certyfikacja"
 tags: ["ETA", "ocena techniczna", "TAB", "ITB"]
 excerpt: "Co zrobić gdy produkt nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
-image_url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800"
+image_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+template: "przewodnik"
 ---
 
 # ETA i krajowe oceny techniczne

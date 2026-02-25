@@ -5,7 +5,8 @@ author: "prof. dr hab. inż. Michał Górski"
 category: "Materiały"
 tags: ["beton", "prefabrykaty", "EN 206", "konstrukcje"]
 excerpt: "Certyfikacja betonu towarowego i prefabrykatów betonowych według CPR 2024. System 2+, normy EN 206 i EN 13369, zakładowa kontrola produkcji."
-image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
+image_url: "https://images.unsplash.com/photo-1590674899484-13da0d02fbc8?w=800"
+template: "techniczny"
 ---
 
 # Beton i prefabrykaty betonowe – wymagania CPR 2024

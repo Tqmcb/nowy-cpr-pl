@@ -1,0 +1,31 @@
+export interface ProductFamily {
+    id: string;
+    slug: string;
+    title: string;
+    family_number: number;
+    family_name_en: string;
+    excerpt: string;
+    content: string;
+    author: string;
+    date: string;
+    category: string;
+    avs_system: string;
+    normy: string[];
+    tags: string[];
+    image_url: string;
+}
+
+export interface WyrobiMetadata {
+    title: string;
+    family_number: number;
+    family_name_en: string;
+    date: string;
+    author: string;
+    category: string;
+    avs_system: string;
+    normy: string[];
+    tags: string[];
+    excerpt: string;
+    image_url: string;
+}
+

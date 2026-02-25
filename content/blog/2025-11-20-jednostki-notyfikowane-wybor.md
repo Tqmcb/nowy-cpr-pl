@@ -5,7 +5,8 @@ author: "mgr Agnieszka Kowalczyk"
 category: "Certyfikacja"
 tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."
-image_url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800"
+image_url: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800"
+template: "przewodnik"
 ---
 
 # Jednostki notyfikowane w Polsce
