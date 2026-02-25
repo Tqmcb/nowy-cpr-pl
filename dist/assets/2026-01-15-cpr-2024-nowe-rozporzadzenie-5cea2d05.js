@@ -1,4 +1,4 @@
----
+const n=`---
 title: "CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych"
 date: "2026-01-15"
 author: "mgr inż. Tomasz Kowalski"
@@ -129,3 +129,4 @@ CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu 
 
 **Potrzebujesz pomocy w przygotowaniu do CPR 2024?**
 Skontaktuj się z ekspertami — [Multicert](https://www.multicert.pl) pomoże przeprowadzić aktualizację dokumentacji DoP&C, wybrać właściwy system AVS i wdrożyć cyfrową deklarację. Szerokie wsparcie laboratoryjne i w zakresie EPD oferuje [ITCZLin](https://www.itczlin.pl).
+`;export{n as default};

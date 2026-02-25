@@ -1,4 +1,4 @@
----
+const n=`---
 title: "Oznakowanie CE - Nowe Wymagania CPR 2024/3110"
 date: "2026-01-08"
 author: "dr inż. Piotr Wiśniewski"
@@ -60,7 +60,7 @@ Klasy środowiskowe nie są jeszcze obowiązkowe od 8 stycznia 2026 — ich wpro
 
 ## Przykład etykiety CE 2026
 
-```
+\`\`\`
 ┌─────────────────────────────────┐
 │          CE 1234                │
 │                                 │
@@ -78,7 +78,7 @@ Klasy środowiskowe nie są jeszcze obowiązkowe od 8 stycznia 2026 — ich wpro
 │  EN 771-3: 2011+A1:2015         │
 │  Wytrzymałość: 15 N/mm²         │
 └─────────────────────────────────┘
-```
+\`\`\`
 
 ## Sankcje za nieprawidłowe oznakowanie
 
@@ -131,3 +131,4 @@ Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
 ---
 
 **Przygotuj się na zmiany — 8 stycznia 2026 to już teraz!** Jeśli potrzebujesz wsparcia w przygotowaniu dokumentacji DoP&C, etykiet CE z QR kodami lub aktualizacji certyfikatów AVS, skontaktuj się z doświadczonymi specjalistami — [Multicert](https://www.multicert.pl) oferuje kompleksową obsługę procesu certyfikacji wyrobów budowlanych zgodnie z CPR 2024/3110.
+`;export{n as default};

@@ -1,0 +1,154 @@
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+import { Container } from "../components/Container";
+import { Search, Building2, ChevronRight, Filter } from "lucide-react";
+import type { ProductFamily } from "../utils/wyrobLoader";
+
+const CATEGORIES = ["Wszystkie", "Konstrukcyjne", "Izolacyjne", "Wykończeniowe", "Przeciwpożarowe", "Instalacyjne", "Inne"];
+
+export default function Wyroby() {
+  const navigate = useNavigate();
+  const [wyroby, setWyroby] = useState<ProductFamily[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState<string>("");
+  const [activeCategory, setActiveCategory] = useState<string>("Wszystkie");
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const { getAllWyroby } = await import("../utils/wyrobLoader");
+        const data = await getAllWyroby();
+        setWyroby(data);
+      } catch (err) {
+        console.error("Error loading wyroby:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    load();
+  }, []);
+
+  const filtered = wyroby.filter((w) => {
+    const matchesSearch = search === "" || w.title.toLowerCase().includes(search.toLowerCase()) || w.excerpt.toLowerCase().includes(search.toLowerCase()) || w.category.toLowerCase().includes(search.toLowerCase());
+    const matchesCategory = activeCategory === "Wszystkie" || w.category === activeCategory;
+    return matchesSearch && matchesCategory;
+  });
+
+  const goToWyrob = (slug: string) => navigate("/wyrob?slug=" + slug);
+
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        <section className="relative py-16 overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
+          </div>
+          <Container>
+            <div className="text-center max-w-3xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 text-amber-400 text-sm font-medium mb-6">
+                <Building2 className="w-4 h-4" />
+                CPR 2024/3110 — Aneks VII
+              </div>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                36 Rodzin Wyrobów Budowlanych
+              </h1>
+              <p className="text-slate-400 text-lg leading-relaxed">
+                Kompletny katalog rodzin wyrobów budowlanych objętych Rozporządzeniem CPR (EU) 2024/3110,
+                Aneks VII. Sprawdź wymagania, systemy AVS i normy zharmonizowane dla każdej rodziny.
+              </p>
+            </div>
+          </Container>
+        </section>
+        <Container>
+          <div className="relative mb-6">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Szukaj wyrobów po nazwie, kategorii..."
+              className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-white/10 rounded-2xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-slate-800 transition-all duration-300"
+            />
+          </div>
+          <div className="flex flex-wrap gap-2 mb-10">
+            <Filter className="w-4 h-4 text-slate-400 self-center mr-1" />
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={"px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 " + (activeCategory === cat ? "bg-amber-400 text-slate-900" : "bg-slate-800/50 border border-white/10 text-slate-300 hover:border-amber-400/50 hover:text-white")}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+          {loading && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="bg-slate-800/50 border border-white/10 rounded-2xl p-6 animate-pulse">
+                  <div className="h-6 w-16 bg-slate-700 rounded-full mb-4" />
+                  <div className="h-5 w-3/4 bg-slate-700 rounded mb-3" />
+                  <div className="h-4 w-1/2 bg-slate-700 rounded mb-4" />
+                  <div className="h-4 w-full bg-slate-700 rounded mb-2" />
+                  <div className="h-4 w-5/6 bg-slate-700 rounded" />
+                </div>
+              ))}
+            </div>
+          )}
+          {!loading && filtered.length === 0 && (
+            <div className="text-center py-20">
+              <Building2 className="w-16 h-16 text-slate-600 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-white mb-2">Nie znaleziono wyrobów</h3>
+              <p className="text-slate-400">Zmień kryteria wyszukiwania lub wybierz inną kategorię.</p>
+            </div>
+          )}
+          {!loading && filtered.length > 0 && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filtered.map((wyrob) => (
+                <div
+                  key={wyrob.slug}
+                  className="group bg-slate-800/50 border border-white/10 rounded-2xl p-6 hover:border-amber-400/30 hover:bg-slate-800/80 transition-all duration-300 cursor-pointer flex flex-col"
+                  onClick={() => goToWyrob(wyrob.slug)}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-xs font-bold">
+                      #{wyrob.family_number}
+                    </span>
+                    {wyrob.avs_system && (
+                      <span className="text-xs text-slate-400 font-mono bg-slate-700/50 px-2 py-1 rounded">
+                        {wyrob.avs_system}
+                      </span>
+                    )}
+                  </div>
+                  <h2 className="text-white font-semibold text-lg mb-2 group-hover:text-amber-400 transition-colors duration-300 line-clamp-2 flex-grow-0">
+                    {wyrob.title}
+                  </h2>
+                  {wyrob.category && (
+                    <span className="inline-block text-xs text-slate-400 bg-slate-700/50 px-2 py-0.5 rounded mb-3 w-fit">
+                      {wyrob.category}
+                    </span>
+                  )}
+                  <p className="text-slate-400 text-sm leading-relaxed line-clamp-2 flex-grow mb-4">
+                    {wyrob.excerpt}
+                  </p>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); goToWyrob(wyrob.slug); }}
+                    className="mt-auto flex items-center gap-2 text-amber-400 text-sm font-medium hover:gap-3 transition-all duration-300"
+                  >
+                    Sprawdź wymagania
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </Container>
+      </main>
+      <Footer />
+    </div>
+  );
+}

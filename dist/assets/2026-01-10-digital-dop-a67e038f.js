@@ -1,4 +1,4 @@
----
+const o=`---
 title: "Digital DoP&C - Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (CPR 2024)"
 date: "2026-01-10"
 author: "mgr inż. Anna Nowak"
@@ -103,3 +103,4 @@ Europejskie platformy DoP&C:
 ---
 
 **Digital DoP&C to przyszłość dokumentacji budowlanej** — przygotuj się już dziś! Wsparcie w wdrożeniu DoP&C i systemów AVS oferuje [Multicert](https://www.multicert.pl). W zakresie badań laboratoryjnych i EPD — [ITCZLin](https://www.itczlin.pl).
+`;export{o as default};

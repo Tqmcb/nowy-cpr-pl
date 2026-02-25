@@ -7,7 +7,8 @@ import {
   Search,
   FileText,
   BookOpen,
-  Home
+  Home,
+  Building2
 } from "lucide-react";
 
 export function Header() {
@@ -68,6 +69,10 @@ export function Header() {
               <BookOpen className="w-4 h-4" />
               Blog
             </NavLink>
+            <NavLink to="/wyroby" className={navLinkClass}>
+              <Building2 className="w-4 h-4" />
+              Wyroby
+            </NavLink>
           </nav>
 
 
@@ -91,7 +96,8 @@ export function Header() {
               { path: "/", label: "Strona Główna", icon: Home },
               { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
               { path: "/documents", label: "Dokumenty", icon: FileText },
-              { path: "/blog", label: "Blog", icon: BookOpen }
+              { path: "/blog", label: "Blog", icon: BookOpen },
+              { path: "/wyroby", label: "Wyroby", icon: Building2 }
             ].map((item, index) => (
               <NavLink
                 key={item.path}
