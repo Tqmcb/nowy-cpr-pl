@@ -12,6 +12,9 @@ const Wyroby = lazy(() => import("./pages/Wyroby.tsx"));
 const WyrobDetail = lazy(() => import("./pages/WyrobDetail.tsx"));
 const PolitykaPrywatnosci = lazy(() => import("./pages/PolitykaPrywatnosci.tsx"));
 const Regulamin = lazy(() => import("./pages/Regulamin.tsx"));
+const OPortalu = lazy(() => import("./pages/OPortalu.tsx"));
+const Kontakt = lazy(() => import("./pages/Kontakt.tsx"));
+const Dostepnosc = lazy(() => import("./pages/Dostepnosc.tsx"));
 
 // poLCA pages
 const PolcaHome = lazy(() => import("./pages/PolcaHome.tsx"));
@@ -34,6 +37,9 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/wyrob", element: <WyrobDetail /> },
 	{ path: "/polityka-prywatnosci", element: <PolitykaPrywatnosci /> },
 	{ path: "/regulamin", element: <Regulamin /> },
+	{ path: "/o-portalu", element: <OPortalu /> },
+	{ path: "/kontakt", element: <Kontakt /> },
+	{ path: "/dostepnosc", element: <Dostepnosc /> },
 
 	// poLCA routes
 	{ path: "/polca", element: <PolcaHome /> },

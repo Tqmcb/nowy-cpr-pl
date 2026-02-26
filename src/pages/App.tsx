@@ -420,7 +420,7 @@ function HomePage() {
                   <article
                     key={post.id}
                     className="glass-card p-6 hover-lift card-border-glow group cursor-pointer"
-                    onClick={() => navigate(`/blog/${post.slug}`)}
+                    onClick={() => navigate(`/blog-post?slug=${post.slug}`)}
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <span className="px-3 py-1 rounded-full bg-amber-400/10 text-amber-400 text-xs font-medium">
