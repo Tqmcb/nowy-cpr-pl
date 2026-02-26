@@ -15,7 +15,7 @@ Beton towarowy i wyroby prefabrykowane to jedne z najważniejszych grup wyrobów
 
 ## Beton towarowy
 
-### Norma: EN 206:2024
+### Norma: EN 206:2013+A2:2021
 
 Beton towarowy produkowany na terenie UE musi spełniać wymagania normy EN 206 (z krajowymi załącznikami normalizacyjnymi).
 

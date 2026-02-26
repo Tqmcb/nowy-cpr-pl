@@ -36,7 +36,7 @@ Pierwszym i fundamentalnym pytaniem jest: czy dla mojego wyrobu istnieje norma z
 
 ---
 
-## Krok 2: Ustalenie systemu AVCP z Załącznika ZA normy
+## Krok 2: Ustalenie systemu AVS z Załącznika ZA normy
 
 **Czas trwania:** 1–2 dni robocze
 
@@ -44,9 +44,9 @@ Każda norma zharmonizowana dla wyrobów budowlanych zawiera tzw. Załącznik ZA
 
 - zakres zastosowania normy w kontekście CPR,
 - właściwości użytkowe wymagane dla poszczególnych zastosowań wyrobu,
-- **system AVCP** (Assessment and Verification of Constancy of Performance) przypisany do wyrobu i zastosowania.
+- **system AVS** (Assessment and Verification System — System Oceny i Weryfikacji) przypisany do wyrobu i zastosowania.
 
-Systemy AVCP w CPR 2024:
+Systemy AVS w CPR 2024:
 
 | System | Zadania producenta | Zadania JN |
 |---|---|---|
@@ -64,7 +64,7 @@ System 1+ obowiązuje dla wyrobów o krytycznym znaczeniu dla bezpieczeństwa (n
 
 **Czas trwania:** 1–4 tygodnie (poszukiwanie i wybór)
 
-Dla systemów AVCP 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikowanej. JN to niezależna organizacja, której kompetencje w danym zakresie zostały ocenione przez krajowe władze akredytacyjne i która została notyfikowana przez swoje państwo członkowskie do Komisji Europejskiej.
+Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikowanej. JN to niezależna organizacja, której kompetencje w danym zakresie zostały ocenione przez krajowe władze akredytacyjne i która została notyfikowana przez swoje państwo członkowskie do Komisji Europejskiej.
 
 **Jak wybrać JN?**
 

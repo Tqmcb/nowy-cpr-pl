@@ -17,7 +17,7 @@ Celem tej zmiany jest umożliwienie wszystkim uczestnikom łańcucha dostaw — 
 
 ## Czym jest unikalny kod identyfikacyjny produktu?
 
-Zgodnie z art. 21 CPR 2024, każdy wyrób budowlany objęty obowiązkiem oznakowania CE musi posiadać unikalny kod identyfikacyjny produktu (ang. unique product identifier). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i powiązanie go z jego dokumentacją techniczną, w szczególności z DoP&C.
+Zgodnie z art. 22 ust. 5 CPR 2024, każdy wyrób budowlany objęty obowiązkiem oznakowania CE musi posiadać unikalny kod identyfikacyjny produktu (ang. unique product identifier). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i powiązanie go z jego dokumentacją techniczną, w szczególności z DoP&C.
 
 Rozporządzenie nie narzuca jednego konkretnego standardu, jednak w praktyce rynkowej dominuje standard GS1, a w jego ramach globalny numer jednostki handlowej GTIN (ang. Global Trade Item Number). GTIN jest 14-cyfrowym numerem, który identyfikuje wyroby handlowe na całym świecie. Składa się z:
 

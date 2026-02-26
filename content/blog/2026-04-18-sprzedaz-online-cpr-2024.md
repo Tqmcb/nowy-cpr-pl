@@ -37,7 +37,7 @@ Kluczowa zasada: dystrybutor nie jest odpowiedzialny za pierwotną ocenę właś
 
 ### Obowiązek informacyjny przed zakupem
 
-Art. 7 CPR 2024 w połączeniu z przepisami dyrektywy o prawach konsumentów (2011/83/UE) nakłada na sprzedawcę internetowego obowiązek zapewnienia nabywcy dostępu do DoP&C **przed zawarciem umowy**. W praktyce oznacza to, że każdy listing produktu objętego normą zharmonizowaną powinien zawierać:
+Art. 16 CPR 2024 (dotyczący udostępniania DoP&C) w połączeniu z art. 29 (sprzedaż online i na odległość) oraz przepisami dyrektywy o prawach konsumentów (2011/83/UE) nakłada na sprzedawcę internetowego obowiązek zapewnienia nabywcy dostępu do DoP&C **przed zawarciem umowy**. W praktyce oznacza to, że każdy listing produktu objętego normą zharmonizowaną powinien zawierać:
 
 - **Widoczne oznakowanie CE** — logo CE lub wyraźna informacja, że wyrób nosi oznakowanie CE wraz z numerem normy zharmonizowanej.
 - **Link do aktualnej DoP&C** — hiperłącze do strony producenta lub platformy cyfrowej, gdzie dokument jest bezpłatnie dostępny do pobrania. Brak tego linku w momencie zakupu może stanowić naruszenie obowiązków dystrybutora wynikających z CPR 2024.
@@ -73,7 +73,7 @@ Zasada swobodnego przepływu towarów w UE oznacza, że wyrób z oznakowaniem CE
 
 ## Co zrobić, gdy wystawiony produkt okaże się niezgodny?
 
-Art. 15 CPR 2024 nakłada na dystrybutora obowiązek działania w przypadku stwierdzenia lub uzasadnionego podejrzenia niezgodności wyrobu:
+Art. 27 i 28 CPR 2024 nakładają na dystrybutora obowiązek działania w przypadku stwierdzenia lub uzasadnionego podejrzenia niezgodności wyrobu:
 
 1. **Niezwłoczne powiadomienie producenta lub importera** o stwierdzonej niezgodności.
 2. **Zawieszenie sprzedaży** wyrobu do czasu wyjaśnienia sprawy i podjęcia działań naprawczych.

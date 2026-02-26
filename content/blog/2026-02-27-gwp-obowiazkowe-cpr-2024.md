@@ -29,18 +29,17 @@ Budownictwo odpowiada za ok. **40% zużycia energii i 36% emisji CO₂** w UE. K
 
 ## Co dokładnie mówi CPR 2024/3110?
 
-Rozporządzenie CPR 2024/3110 wprowadza **nowe podstawowe wymaganie nr 8** dotyczące zrównoważonego użytkowania zasobów naturalnych (art. 5 ust. 1 lit. h). Na jego podstawie Komisja Europejska wyda **akty delegowane** wskazujące, jakie właściwości środowiskowe — w tym GWP — mają być deklarowane dla poszczególnych rodzin wyrobów.
+Rozporządzenie CPR 2024/3110 reguluje treść Deklaracji Właściwości i Zgodności (DoP&C) w **art. 15**, który bezpośrednio określa, jakie wskaźniki środowiskowe — w tym GWP — muszą być deklarowane. Podstawowe wymagania dotyczące obiektów budowlanych, w tym zrównoważone użytkowanie zasobów naturalnych, zawarte są w **Załączniku I** do CPR 2024. Wskaźniki środowiskowe do obowiązkowego deklarowania wymienione są w **Załączniku II**.
 
 Harmonogram wygląda następująco:
 
 | Etap | Termin | Co się dzieje |
 |---|---|---|
-| Aktualizacje norm zharmonizowanych | 2026–2028 | Normy włączają GWP jako obowiązkową charakterystykę w Załączniku ZA |
-| GWP obowiązkowe dla pierwszych rodzin | ok. 2027 | Wyroby z zaktualizowaną normą muszą deklarować GWP w DoP&C |
-| Pełna lista właściwości środowiskowych | ok. 2030 | Wszystkie podstawowe wskaźniki środowiskowe |
-| Pełne raportowanie cyklu życia | ok. 2032 | Obowiązkowe dane LCA dla wszystkich wyrobów z normą |
+| GWP obowiązkowe dla wyrobów z nową hTS | od 8 stycznia 2026 | Wyroby objęte zaktualizowaną normą zharmonizowaną muszą deklarować wskaźniki GWP (Załącznik II, pkt a–d) w DoP&C |
+| Pełna lista wskaźników środowiskowych | 9 stycznia 2030 | Wszystkie podstawowe wskaźniki z Załącznika II (pkt e–m) |
+| Pełne raportowanie cyklu życia | 9 stycznia 2032 | Wszystkie wskaźniki z Załącznika II obowiązkowe |
 
-Dla producentów kluczowe jest to, że **termin dotyczy daty aktualizacji normy dla danej rodziny wyrobów** — nie jednej globalnej daty. Producent betonu komórkowego może mieć obowiązek wcześniej niż producent uszczelek.
+Dla producentów kluczowe jest to, że **termin dotyczy daty, od której dla danej rodziny wyrobów zaczyna obowiązywać zaktualizowana harmonizowana specyfikacja techniczna (hTS)** — nie ma jednej globalnej daty dla wszystkich wyrobów. Producent betonu komórkowego może mieć obowiązek wcześniej niż producent uszczelek.
 
 ## Które rodziny wyrobów są w pierwszej kolejności?
 
@@ -130,12 +129,12 @@ KE planuje europejski rejestr EPD/DPP, który umożliwi porównywanie wyrobów p
 
 ## Podsumowanie
 
-GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Pierwsze normy zharmonizowane z wymaganiem GWP wchodzą w życie ok. 2027, a pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do ok. 2032. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
+GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowiązek deklarowania wskaźników GWP (Załącznik II, pkt a–d) obowiązuje od 8 stycznia 2026 r. dla wyrobów objętych zaktualizowanymi normami zharmonizowanymi, a pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do 9 stycznia 2032 r. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
 
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 art. 5 ust. 1 lit. h — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110 art. 15 (treść DoP&C) i Załącznik II (wskaźniki środowiskowe) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Norma EN 15804+A2:2019 — podstawa obliczeń LCA dla wyrobów budowlanych
 - One Click LCA — [przewodnik po CPR i EPD](https://oneclicklca.com/en/resources/articles/revised-construction-products-regulation-to-include-epd-data)
 - Europejski Zielony Ład i budownictwo — [ec.europa.eu](https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_pl)

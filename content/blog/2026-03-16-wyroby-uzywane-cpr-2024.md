@@ -13,7 +13,7 @@ template: "analiza"
 
 Przez ponad dekadę obowiązywania rozporządzenia CPR 305/2011 rynek wyrobów budowlanych używanych, odzyskanych i odnowionych funkcjonował w prawnej szarej strefie. Stare CPR milczało na temat drugiego obiegu — nie regulowało, czy i kiedy wyrób używany wymaga ponownej oceny, kto odpowiada za jego właściwości użytkowe po odsprzedaży, ani jakie dokumenty powinny mu towarzyszyć.
 
-CPR 2024/3110 zmienia to radykalnie. Po raz pierwszy w historii unijnego prawa budowlanego dedykowane przepisy — zawarte przede wszystkim w art. 62–68 — odnoszą się wprost do wyrobów budowlanych wtórnych: używanych, z odzysku i odnowionych. Jest to bezpośrednia odpowiedź na cele Europejskiego Zielonego Ładu i strategii na rzecz zrównoważonego środowiska zabudowanego, które zachęcają do ponownego wykorzystania materiałów budowlanych zamiast ich utylizacji.
+CPR 2024/3110 zmienia to radykalnie. Po raz pierwszy w historii unijnego prawa budowlanego dedykowane przepisy — zawarte przede wszystkim w art. 3 ust. 20 (definicje), art. 4 ust. 6 (zakres hTS dla wyrobów używanych), art. 11 ust. 1 (strefa zharmonizowana) i art. 14 (zwolnienia) — odnoszą się wprost do wyrobów budowlanych wtórnych: używanych, z odzysku i odnowionych. Jest to bezpośrednia odpowiedź na cele Europejskiego Zielonego Ładu i strategii na rzecz zrównoważonego środowiska zabudowanego, które zachęcają do ponownego wykorzystania materiałów budowlanych zamiast ich utylizacji.
 
 ## Definicje — co kwalifikuje się jako wyrób używany?
 

@@ -21,10 +21,10 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 |---|---|---|
 | Nazewnictwo | AVCP 1+, 1, 2+, 3, 4 | AVS 1+, 1, 2+, 3, 4 (ta sama skala) |
 | System 4 | Jednostka notyfikowana: brak roli | Jednostka notyfikowana: może sprawdzać próbki z rynku |
-| System 3 | JN przeprowadza ITT | JN zatwierdza raport ITT producenta |
+| System 3 | JN przeprowadza ITT (przez notyfikowane laboratorium, próbki od producenta) | JN przeprowadza ITT przez notyfikowane laboratorium (próbki od producenta); wydaje certyfikat właściwości użytkowych i zgodności wyrobu |
 | EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
 | FPC | Wymagane we wszystkich systemach (w systemie 4 zakres minimalny) | Wymagane we wszystkich systemach |
-| Treść certyfikatu | Certyfikat stałości właściwości użytkowych | Certyfikat oceny i weryfikacji |
+| Treść certyfikatu | Certyfikat stałości właściwości użytkowych | Certyfikat stałości właściwości użytkowych i zgodności wyrobu (systemy 1+, 1) / certyfikat zgodności zakładowej kontroli produkcji (system 2+) |
 
 ## Jak działają poszczególne poziomy AVS?
 
@@ -55,10 +55,10 @@ Stosowany do wyrobów o umiarkowanych wymaganiach, np. część wyrobów do dach
 
 Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobów z systemem AVCP 3 w starym CPR.
 
-**Co robi producent:** prowadzi FPC, deklaruje właściwości.
-**Co robi jednostka notyfikowana:** sprawdza, czy wyniki ITT producenta są zgodne z metodami z normy i z typem wyrobu opisanym w dokumentacji. Wydaje **Raport z badania** (nie certyfikat). Na tej podstawie producent samodzielnie wystawia DoP&C.
+**Co robi producent:** przeprowadza dalsze badania właściwości użytkowych, prowadzi FPC, sporządza dokumentację techniczną.
+**Co robi jednostka notyfikowana:** przeprowadza ocenę właściwości użytkowych przez notyfikowane laboratorium badawcze (na podstawie próbek pobranych przez producenta). Wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** (Załącznik IX CPR 2024).
 
-**Kluczowa zmiana względem AVCP 3:** w starym CPR JN po prostu „przeprowadzała ITT". W nowym AVS 3 JN **weryfikuje raport ITT producenta** — to subtelna, ale ważna różnica. Producent ma większą kontrolę nad procesem badania, ale JN nadal musi zatwierdzić wyniki.
+**Porównanie z AVCP 3:** w starym i nowym CPR procedura jest zasadniczo taka sama — notyfikowane laboratorium przeprowadza badania na próbkach dostarczonych przez producenta. Różnica polega na nowej nazwie certyfikatu (dodano „i zgodności") i większej roli FPC w dokumentacji.
 
 ### AVS 4 — najlżejszy, ale... z niespodzianką
 
@@ -100,7 +100,7 @@ Uwaga: dla jednego wyrobu możliwe są **różne systemy dla różnych właściw
 ## Praktyczne konsekwencje dla producenta
 
 **Jeśli działałeś w AVCP 3:**
-Twoja ścieżka certyfikacji jest podobna — nadal współpracujesz z JN, która zatwierdza badania. Zwróć uwagę na zmianę: JN teraz formalnie weryfikuje Twój raport ITT, a nie przeprowadza własne badania. Zaktualizuj umowę z JN i sprawdź czy zakres umowy odpowiada wymaganiom AVS 3.
+Twoja ścieżka certyfikacji jest podobna — procedura ITT jest zasadniczo taka sama: notyfikowane laboratorium JN przeprowadza badania na próbkach dostarczonych przez Ciebie. Certyfikat ma nową nazwę: „certyfikat właściwości użytkowych i zgodności wyrobu". Zaktualizuj umowę z JN i sprawdź czy zakres umowy odpowiada wymaganiom Załącznika IX CPR 2024.
 
 **Jeśli działałeś w AVCP 4:**
 Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB ma teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
@@ -115,14 +115,14 @@ Przejście z AVCP na AVS to ewolucja, nie rewolucja. Numery systemów (1+ do 4) 
 - Nowy System 3+ dla walidacji EPD
 - Aktywna rola JN w nadzorze rynku nawet dla systemu 4
 - Wyraźniejsze wymagania FPC dla importowanych wyrobów
-- Zmiana roli JN w systemie 3 (weryfikacja raportu ITT zamiast własnego ITT)
+- Nowa nazwa certyfikatu w systemie 3: „certyfikat właściwości użytkowych i zgodności wyrobu" (procedura ITT zasadniczo taka sama jak w AVCP 3)
 
 Producenci, którzy mają aktualne certyfikaty i raporty z JN, mogą kontynuować działalność — ale powinni sprawdzić czy umowy z JN odpowiadają nowym wymaganiom i czy dokumentacja FPC jest kompletna.
 
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110, art. 34–51 (systemy AVS) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110, art. 10 i Załącznik IX (systemy AVS) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Kiwa — CPR 2024 dla producentów — [kiwa.com](https://www.kiwa.com/en/insights/stories/what-does-the-new-cpr-mean-for-you/)
 - Construction Products Europe — przewodnik po AVS — [construction-products.eu](https://construction-products.eu/publications/cpr-2/)
 - NANDO — baza jednostek notyfikowanych UE — [ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando/)

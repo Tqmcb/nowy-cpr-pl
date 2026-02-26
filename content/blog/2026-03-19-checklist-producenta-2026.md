@@ -11,7 +11,7 @@ template: "przewodnik"
 
 ## Dlaczego 2026 to rok kluczowy dla producentów wyrobów budowlanych?
 
-Rozporządzenie CPR 2024/3110 weszło w życie 8 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
+Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
 
 Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w łańcuchu dostaw, problemami z organami nadzoru rynku i utratą certyfikacji. Poniższa checklista została opracowana jako praktyczne narzędzie zarządzania gotowością regulacyjną — przejdź przez każdą sekcję i zaznacz, które działania Twoja firma już podjęła, a które jeszcze wymagają realizacji.
 

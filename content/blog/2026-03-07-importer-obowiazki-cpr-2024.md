@@ -1,10 +1,10 @@
 ---
-title: "Importer wyrobów budowlanych w CPR 2024 — nowe obowiązki i odpowiedzialność solidarna"
+title: "Importer wyrobów budowlanych w CPR 2024 — nowe obowiązki i wzmocniona odpowiedzialność"
 date: "2026-03-07"
 author: "mec. Anna Kowalczyk"
 category: "Prawo"
-tags: ["importer", "CPR 2024", "obowiązki", "odpowiedzialność solidarna", "wyroby budowlane"]
-excerpt: "Rozporządzenie CPR 2024/3110 wprowadza istotne zmiany w zakresie obowiązków importerów wyrobów budowlanych spoza UE. Importer odpowiada solidarnie z producentem i musi aktywnie weryfikować zgodność wyrobu przed wprowadzeniem go do obrotu. Poznaj szczegóły nowych przepisów i porównaj je z dotychczasowym stanem prawnym."
+tags: ["importer", "CPR 2024", "obowiązki", "weryfikacja zgodności", "wyroby budowlane"]
+excerpt: "Rozporządzenie CPR 2024/3110 wprowadza istotne zmiany w zakresie obowiązków importerów wyrobów budowlanych spoza UE. Importer musi aktywnie weryfikować zgodność wyrobu przed wprowadzeniem go do obrotu (art. 24 CPR 2024). Poznaj szczegóły nowych przepisów i porównaj je z dotychczasowym stanem prawnym."
 image_url: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800"
 template: "analiza"
 ---
@@ -23,13 +23,13 @@ Zgodnie z definicją zawartą w art. 3 CPR 2024, importer to każda osoba fizycz
 
 Istotne jest rozróżnienie między importerem a dystrybutorem. Dystrybutor to podmiot działający w łańcuchu dostaw, który udostępnia wyrób na rynku, ale sam go nie importuje. Jeśli wyrób pochodzi od producenta z UE lub od innego podmiotu, który już dokonał importu, kolejne ogniwo łańcucha to dystrybutor, nie importer.
 
-## Odpowiedzialność solidarna — przełomowa zmiana
+## Wzmocniona odpowiedzialność importera — przełomowa zmiana
 
-Najistotniejszą zmianą wprowadzoną przez CPR 2024 w odniesieniu do importerów jest ustanowienie odpowiedzialności solidarnej importera z producentem spoza UE. Artykuł 23 CPR 2024 stanowi wprost, że importer odpowiada solidarnie z producentem za zgodność wyrobu budowlanego z wymaganiami rozporządzenia.
+Najistotniejszą zmianą wprowadzoną przez CPR 2024 w odniesieniu do importerów jest znaczące wzmocnienie ich obowiązków weryfikacyjnych. Artykuł 24 CPR 2024 nakłada na importera obowiązek zapewnienia, że producent wykazał zgodność wyrobu z wymaganiami rozporządzenia, zanim wyrób zostanie wprowadzony do obrotu.
 
-W praktyce oznacza to, że organ nadzoru rynku lub poszkodowany może dochodzić roszczeń od importera w takim samym zakresie jak od producenta, bez konieczności uprzedniego wyczerpania roszczeń wobec podmiotu zagranicznego. Importer nie może zwolnić się z odpowiedzialności, powołując się wyłącznie na to, że producent zapewnił go o zgodności wyrobu, albo że dokumentacja wyglądała na prawidłową.
+W praktyce oznacza to, że importer jest zobowiązany do aktywnej weryfikacji zgodności wyrobu przed jego wprowadzeniem do obrotu — nie może ograniczyć się do przekazania dokumentacji producenta. Importer nie może zwolnić się z obowiązku weryfikacji, powołując się wyłącznie na to, że producent zapewnił go o zgodności wyrobu lub że dokumentacja wyglądała na prawidłową.
 
-Solidarna odpowiedzialność ma szczególne znaczenie w kontekście wyrobów budowlanych, które po wbudowaniu w obiekt budowlany mogą stwarzać zagrożenie dla zdrowia i życia użytkowników. Dotychczasowe przepisy były krytykowane za to, że w przypadku wadliwych wyrobów importowanych z krajów trzecich, egzekwowanie odpowiedzialności od zagranicznych producentów było iluzoryczne. CPR 2024 zmienia ten stan rzeczy.
+Wzmocniona odpowiedzialność importera ma szczególne znaczenie w kontekście wyrobów budowlanych, które po wbudowaniu w obiekt budowlany mogą stwarzać zagrożenie dla zdrowia i życia użytkowników. Dotychczasowe przepisy były krytykowane za to, że w przypadku wadliwych wyrobów importowanych z krajów trzecich, egzekwowanie odpowiedzialności od zagranicznych producentów było iluzoryczne. CPR 2024 zmienia ten stan rzeczy.
 
 ## Obowiązki importera — szczegółowy przegląd
 
@@ -64,7 +64,7 @@ Importer, który ma uzasadnione powody, by sądzić, że wyrób budowlany, któr
 
 | Obszar | CPR 305/2011 | CPR 2024 |
 |--------|-------------|----------|
-| Odpowiedzialność | Własna, za własne działania | Solidarna z producentem spoza UE |
+| Odpowiedzialność | Własna, za własne działania | Własna, z rozszerzonymi obowiązkami weryfikacyjnymi (art. 24) |
 | Weryfikacja dokumentacji | Ogólny obowiązek sprawdzenia | Szczegółowa weryfikacja TDR, DoP&C, oznakowania CE i procedury AVCP |
 | Dane na wyrobie | Nazwa i adres importera | Nazwa, znak towarowy lub adres kontaktowy — dopuszczony URL |
 | Przechowywanie dokumentacji | 10 lat (ogólnie) | 10 lat, z wymogiem dostępności cyfrowej |

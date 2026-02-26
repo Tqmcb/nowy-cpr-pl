@@ -25,7 +25,7 @@ Substancje wzbudzające szczególnie duże obawy (SVHC) to substancje chemiczne,
 - **Substancje zaburzające gospodarkę hormonalną (EDC)** o udokumentowanym negatywnym wpływie na zdrowie ludzi lub środowisko,
 - **Substancje o równoważnych właściwościach budzących obawy**, np. trwałe, mobilne i toksyczne (PMT) lub bardzo trwałe i bardzo mobilne (vPvM).
 
-Lista kandydacka jest dynamiczna — ECHA regularnie ją aktualizuje, zazwyczaj dwa razy w roku (zwykle w czerwcu i grudniu). Na początku 2026 roku lista kandydacka zawierała już ponad 240 substancji.
+Lista kandydacka jest dynamiczna — ECHA regularnie ją aktualizuje, zazwyczaj dwa razy w roku (zwykle w czerwcu i grudniu). Na początku 2026 roku lista kandydacka zawierała już 253 pozycje (stan po aktualizacji z 4 lutego 2026 r.).
 
 ## Gdzie sprawdzić listę kandydacką SVHC?
 

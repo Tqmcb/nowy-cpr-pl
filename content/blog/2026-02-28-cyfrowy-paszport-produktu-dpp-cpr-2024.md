@@ -23,11 +23,11 @@ Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dac
 
 ## Co mówi CPR 2024/3110 o DPP?
 
-Rozporządzenie CPR 2024/3110 wprowadza DPP w art. 76–83. Kluczowe postanowienia:
+Rozporządzenie CPR 2024/3110 wprowadza DPP w art. 75–80. Kluczowe postanowienia:
 
-1. **KE stworzy europejski system DPP dla wyrobów budowlanych** — centralny rejestr dostępny dla wszystkich uczestników rynku (art. 76)
-2. **DPP będzie obowiązkowy dla kategorii priorytetowych** — wskazanych przez KE w aktach delegowanych (art. 77)
-3. **Termin obowiązku: 18 miesięcy po uruchomieniu systemu** — co oznacza, że data obowiązku zależy od KE, nie od kalendarza (art. 78)
+1. **KE stworzy europejski system DPP dla wyrobów budowlanych** — centralny rejestr dostępny dla wszystkich uczestników rynku (art. 75)
+2. **DPP będzie obowiązkowy dla kategorii priorytetowych** — wskazanych przez KE w aktach delegowanych (art. 76)
+3. **Termin obowiązku: 18 miesięcy po uruchomieniu systemu** — co oznacza, że data obowiązku zależy od KE, nie od kalendarza (art. 77)
 4. **DPP ma być przechowywany co najmniej przez czas życia wyrobu + 10 lat** — nawet po likwidacji firmy (art. 79)
 
 ## Kiedy DPP stanie się obowiązkowy?
@@ -137,7 +137,7 @@ Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku, ale jego wdrożenie
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 art. 76–83 — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110 art. 75–80 — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Studium wykonalności KE dot. DPP w budownictwie — [Publications Office of the EU](https://op.europa.eu/en/publication-detail/-/publication/cf329d5e-3464-11f0-8a44-01aa75ed71a1/language-en)
 - Cobuilder — DPP dla wyrobów budowlanych — [cobuilder.com](https://cobuilder.com/en/digital-product-passport-dpp/)
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)

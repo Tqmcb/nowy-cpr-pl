@@ -112,7 +112,7 @@ Jeżeli producent nie deklaruje danej właściwości (co jest dozwolone dla wła
 
 **Przykład:** `Wyrób nie zawiera substancji z listy SVHC REACH w stężeniu powyżej 0,1% wagowo.`
 
-Art. 6 CPR 2024 nakłada obowiązek zamieszczenia w DoP&C informacji o zawartości substancji wzbudzających szczególnie duże obawy (SVHC — ang. Substances of Very High Concern) zgodnie z rozporządzeniem REACH. To pole jest całkowicie nowe w stosunku do starego DoP z CPR 305/2011 i odzwierciedla rosnącą rolę aspektów środowiskowych i zdrowotnych w regulacji wyrobów budowlanych.
+Art. 15 ust. 6 CPR 2024 nakłada obowiązek przekazania wraz z DoP&C informacji o zawartości substancji wzbudzających szczególnie duże obawy (SVHC — ang. Substances of Very High Concern) zgodnie z art. 31 lub art. 33 rozporządzenia REACH. To pole jest całkowicie nowe w stosunku do starego DoP z CPR 305/2011 i odzwierciedla rosnącą rolę aspektów środowiskowych i zdrowotnych w regulacji wyrobów budowlanych.
 
 ---
 
@@ -138,7 +138,7 @@ Dokument musi być podpisany przez osobę upoważnioną do reprezentowania produ
 
 ## Wymóg cyfrowej dostępności DoP&C
 
-Art. 7 CPR 2024 wprowadza obowiązek udostępnienia DoP&C w formie cyfrowej — na stronie internetowej producenta lub w ogólnodostępnej bazie danych. Nabywcy oraz organy nadzoru rynku muszą mieć możliwość pobrania aktualnej wersji dokumentu bez konieczności rejestracji lub wnoszenia opłat. Wyrób może być oznakowany kodem QR prowadzącym bezpośrednio do strony z DoP&C, co jest zalecane przez CPR 2024 jako nowoczesna praktyka.
+Art. 16 CPR 2024 wprowadza obowiązek udostępnienia DoP&C w formie cyfrowej — na stronie internetowej producenta lub za pośrednictwem cyfrowego paszportu produktu. Nabywcy oraz organy nadzoru rynku muszą mieć możliwość pobrania aktualnej wersji dokumentu bez konieczności rejestracji lub wnoszenia opłat. Wyrób może być oznakowany kodem QR prowadzącym bezpośrednio do strony z DoP&C, co jest zalecane przez CPR 2024 jako nowoczesna praktyka.
 
 ---
 

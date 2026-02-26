@@ -4,7 +4,7 @@ date: "2025-10-18"
 author: "mgr inż. Andrzej Maj"
 category: "Materiały"
 tags: ["okna", "drzwi", "EN 14351", "ITT"]
-excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2024. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP."
+excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2006+A2:2016. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP."
 image_url: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800"
 template: "techniczny"
 ---
@@ -13,14 +13,15 @@ template: "techniczny"
 
 Okna i drzwi zewnętrzne to wyroby budowlane, dla których CPR nakłada szczególne wymagania w zakresie badań i certyfikacji. Zmienione normy i nowe przepisy CPR 2024 wymuszają aktualizację dotychczasowych certyfikatów.
 
-## Zakres normy EN 14351-1:2024
+## Zakres normy EN 14351-1:2006+A2:2016
 
 Norma EN 14351-1 obejmuje okna i drzwi zewnętrzne do budynków mieszkalnych i komercyjnych. Dotyczy wyrobów wykonanych ze wszystkich materiałów: PVC, drewna, aluminium i ich kombinacji.
 
-**System AVCP: 3**
-- Badania typu (ITT) przeprowadza **jednostka notyfikowana**
-- Zakładową kontrolę produkcji (FPC) prowadzi **producent**
-- Brak certyfikatu FPC od jednostki zewnętrznej
+**System AVCP: 1 / 3 / 4** (zależnie od deklarowanej właściwości)
+- **System 1** – dla właściwości związanych z reakcją na ogień i odpornością na ogień (wymagany certyfikat jednostki notyfikowanej)
+- **System 3** – dla głównych właściwości użytkowych (przepuszczalność powietrza, wodoszczelność, odporność na wiatr itp.): badania ITT przeprowadza **notyfikowane laboratorium badawcze**; FPC prowadzi producent
+- **System 4** – dla niektórych właściwości deklarowanych dobrowolnie: samodeklaracja producenta
+- Brak certyfikatu FPC od jednostki zewnętrznej (dla systemu 3 i 4)
 
 ## Właściwości użytkowe podlegające deklarowaniu
 

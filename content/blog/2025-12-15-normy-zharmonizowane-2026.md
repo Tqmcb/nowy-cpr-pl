@@ -11,26 +11,29 @@ template: "techniczny"
 
 # Normy zharmonizowane 2026
 
-Normy zharmonizowane (hEN) są kluczowym elementem systemu certyfikacji wyrobów budowlanych w UE. Wraz z wejściem w życie CPR (EU) 2024/3110 wiele norm zostało zaktualizowanych lub jest w trakcie rewizji.
+Normy zharmonizowane (hEN) są kluczowym elementem systemu certyfikacji wyrobów budowlanych w UE. Wraz z wejściem w życie CPR (EU) 2024/3110 liczne normy są w trakcie rewizji lub przeglądu. Według stanu na początku 2026 r. żadna ze zaktualizowanych norm zharmonizowanych pod CPR 2024 nie została jeszcze opublikowana w OJEU.
 
-## Nowe i zaktualizowane normy
+## Normy w trakcie przeglądu i aktualizacji
+
+Komisja Europejska uruchomiła mandaty normalizacyjne dla CEN obejmujące przegląd licznych norm zharmonizowanych. Poniżej normy, których rewizja jest planowana lub w toku:
 
 ### Wyroby konstrukcyjne
 
-- **EN 1090-1:2024** – Konstrukcje stalowe i aluminiowe – wprowadza nowe wymagania dotyczące klas wykonania
-- **EN 1992-1-1:2025** – Projektowanie konstrukcji betonowych (Eurokod 2) – zaktualizowane parametry środowiskowe
-- **EN 13369:2024** – Wyroby prefabrykowane z betonu – nowe wymagania AVCP i deklarowania właściwości
+- **EN 1090-1** (aktualnie cytowana: EN 1090-1:2009+A1:2011) – Konstrukcje stalowe i aluminiowe – rewizja planowana w ramach mandatu CPR 2024
+- **EN 13369** (aktualnie cytowana: EN 13369:2013) – Wyroby prefabrykowane z betonu – rewizja w toku
+
+> **Uwaga:** Eurokody (np. EN 1992-1-1 — Eurokod 2 dla konstrukcji betonowych) **nie są normami zharmonizowanymi** w rozumieniu CPR — są normami projektowania konstrukcji dla inżynierów, nie normami wyrobów budowlanych do oznakowania CE.
 
 ### Wyroby izolacyjne
 
-- **EN 13162:2024** – Wyroby z wełny mineralnej – dodano obowiązkowe deklarowanie GWP
-- **EN 13163:2024** – Wyroby z EPS – nowe klasy reakcji na ogień
-- **EN 13164:2024** – Wyroby z XPS – zaktualizowane metody badań
+- **EN 13162** (aktualnie cytowana: EN 13162:2012+A1:2015) – Wyroby z wełny mineralnej – rewizja dotycząca obowiązkowego deklarowania GWP planowana
+- **EN 13163** (aktualnie cytowana: EN 13163:2012+A1:2015) – Wyroby z EPS – rewizja planowana
+- **EN 13164** (aktualnie cytowana: EN 13164:2012+A1:2015) – Wyroby z XPS – rewizja planowana
 
 ### Okna i drzwi
 
-- **EN 14351-1:2024** – Okna i drzwi zewnętrzne – rozszerzone wymagania dotyczące izolacyjności termicznej
-- **EN 16034:2024** – Wyroby drzwiowe do ochrony przeciwpożarowej – nowe procedury klasyfikacji
+- **EN 14351-1** (aktualnie cytowana: EN 14351-1:2006+A2:2016) – Okna i drzwi zewnętrzne – rewizja w toku (prEN 14351-1 w CEN/TC 33)
+- **EN 16034** (aktualnie cytowana: EN 16034:2014) – Wyroby drzwiowe do ochrony przeciwpożarowej – rewizja planowana
 
 ## Normy w trakcie rewizji
 

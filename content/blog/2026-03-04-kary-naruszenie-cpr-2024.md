@@ -83,7 +83,7 @@ Praktyczne działania minimalizujące ryzyko sankcji:
 - **Kompletna i aktualna dokumentacja** — DoP&C, raporty ITT, procedury FPC — dostępna w każdej chwili
 - **Cyfrowa dostępność DoP&C** — link lub QR kod na wyrobie od 8 stycznia 2026
 - **Monitoring zmian normalizacyjnych** — gdy norma zharmonizowana jest aktualizowana, wymagania mogą się zmienić
-- **Archiwizacja** — dokumentacja musi być przechowywana przez minimum 10 lat od daty produkcji
+- **Archiwizacja** — dokumentacja musi być przechowywana przez minimum 10 lat od daty dostarczenia wyrobu (art. 20 ust. 4 CPR 2024/3110)
 - **Szkolenie pracowników** — osoby odpowiedzialne za certyfikację muszą znać wymagania CPR 2024
 
 ## Podsumowanie
