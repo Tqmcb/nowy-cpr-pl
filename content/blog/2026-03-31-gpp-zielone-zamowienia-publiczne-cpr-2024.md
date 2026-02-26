@@ -50,9 +50,9 @@ Programy dotyczące renowacji budynków, efektywności energetycznej, infrastruk
 
 Warto spojrzeć na doświadczenia krajów, które wdrożyły GPP i wymagania EPD wcześniej niż większość państw UE.
 
-**Norwegia** — Od 1 lipca 2022 roku norweskie przepisy budowlane (TEK17 § 17-1) wymagają dokumentacji śladu węglowego (*klimagassregnskap*) dla bloków mieszkalnych (wielorodzinnych) i budynków komercyjnych wymagających pozwolenia na budowę. W praktyce oznacza to obowiązek stosowania wyrobów z EPD lub stosowania konserwatywnych wartości generycznych z baz danych z 25% narzutem bezpieczeństwa, co dramatycznie motywuje producentów do uzyskiwania własnych EPD.
+**Norwegia** — Od 1 lipca 2022 roku norweskie przepisy budowlane (TEK17) wymagają dokumentacji śladu węglowego dla bloków mieszkalnych (wielorodzinnych) i budynków komercyjnych wymagających pozwolenia na budowę. W praktyce oznacza to obowiązek stosowania wyrobów z EPD lub stosowania konserwatywnych wartości generycznych z baz danych, co dramatycznie motywuje producentów do uzyskiwania własnych EPD.
 
-**Szwecja** — Klimatdeklaracja obowiązkowa od 1 stycznia 2022 roku dla wszystkich nowych budynków wymagających pozwolenia na budowę (ustawa 2021:787). Wymaga zestawienia GWP dla głównych kategorii produktów. Producenci bez EPD są zastępowani konkurentami z Niemiec, Finlandii czy Polski, którzy posiadają aktualne EPD w Systemie 1 wg EN 15804+A2.
+**Szwecja** — Klimatdeklaracja obowiązkowa od 1 stycznia 2022 roku dla wszystkich nowych budynków wymagających pozwolenia na budowę. Wymaga zestawienia GWP dla głównych kategorii produktów. Producenci bez EPD są zastępowani konkurentami z Niemiec, Finlandii czy Polski, którzy posiadają aktualne EPD w Systemie 1 wg EN 15804+A2.
 
 **Francja** — Regulacja RE2020 (od 2022) określa maksymalne wartości śladu węglowego dla nowych budynków. Deklarowanie GWP przez producenta wyrobu jest tu warunkiem koniecznym, by specyfikant mógł uwzględnić wyrób w obliczeniach budynkowych.
 
