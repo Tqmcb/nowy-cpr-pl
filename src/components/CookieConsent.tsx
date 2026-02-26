@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Cookie, ChevronDown, ChevronUp, Shield, BarChart2, Megaphone } from "lucide-react";
 
 const CONSENT_KEY = "nowycpr_cookie_consent";
@@ -93,12 +92,12 @@ export function CookieConsent() {
                 Używamy plików cookie, aby zapewnić prawidłowe działanie serwisu, analizować ruch
                 i personalizować treści. Możesz zaakceptować wszystkie pliki cookie lub zarządzać
                 swoimi preferencjami. Więcej informacji znajdziesz w naszej{" "}
-                <Link
-                  to="/polityka-prywatnosci"
+                <a
+                  href="/polityka-prywatnosci"
                   className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors duration-200"
                 >
                   Polityce prywatności
-                </Link>
+                </a>
                 .
               </p>
             </div>
