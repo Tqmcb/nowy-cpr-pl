@@ -21,7 +21,7 @@ Stary DoP (Declaration of Performance) deklarował wyłącznie **właściwości 
 
 Nowe DoP&C (Declaration of Performance **and Conformity**) dodaje do tego element **zgodności** — producent deklaruje teraz, że wyrób spełnia nie tylko właściwości użytkowe z normy zharmonizowanej, ale **całość wymagań rozporządzenia CPR 2024/3110**. To fundamentalna zmiana zakresu odpowiedzialności.
 
-Zgodnie z art. 4 CPR 2024/3110, producent wystawiając DoP&C bierze na siebie pełną odpowiedzialność za to, że wyrób spełnia wszystkie mające zastosowanie przepisy rozporządzenia — nie tylko te dotyczące właściwości technicznych.
+Wystawiając DoP&C, producent bierze na siebie pełną odpowiedzialność za to, że wyrób spełnia wszystkie mające zastosowanie przepisy rozporządzenia CPR 2024/3110 — nie tylko te dotyczące właściwości technicznych.
 
 ## Co nowego pojawia się w treści DoP&C?
 
@@ -31,7 +31,7 @@ Dokument należy oznaczać jako „Deklaracja Właściwości Użytkowych i Zgodn
 
 ### 2. Unikalny kod identyfikacyjny produktu
 
-CPR 2024 wprowadza obowiązek podania **unikalnego kodu identyfikacyjnego** wyrobu (art. 21 ust. 2 lit. a). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i jego dokumentacji. W praktyce oznacza to GTIN, numer katalogowy lub inny identyfikator powiązany z systemem traceability producenta.
+CPR 2024 wprowadza obowiązek podania **unikalnego kodu identyfikacyjnego** wyrobu (wzór DoP&C określa Załącznik V CPR 2024/3110). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i jego dokumentacji — w praktyce jest to GTIN, numer katalogowy lub inny identyfikator powiązany z systemem traceability producenta.
 
 ### 3. Zamierzone zastosowanie/zastosowania
 
@@ -56,7 +56,7 @@ Na razie (2026) pola te są **opcjonalne**, ale producenci, którzy je wypełni�
 
 ### 6. Odesłanie do cyfrowej wersji dokumentu
 
-Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — przez link URL lub kod QR umieszczony na wyrobie lub opakowaniu. Nie zastępuje to wersji papierowej, ale ją uzupełnia. Wymaganie to wynika z art. 7 CPR 2024/3110.
+Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — przez link URL lub kod QR umieszczony na wyrobie lub opakowaniu. Nie zastępuje to wersji papierowej, ale ją uzupełnia. Wymaganie to wynika z art. 16 CPR 2024/3110.
 
 ### 7. Podpis i odpowiedzialność
 
@@ -88,7 +88,7 @@ Ważne: jeśli nie zmieniasz nic w wyrobie, nie musisz powtarzać badań ITT —
 ## Najczęściej zadawane pytania
 
 **Czy DoP&C musi być przetłumaczone na język kraju, gdzie wyrób jest sprzedawany?**
-Tak. Zgodnie z art. 7 ust. 4 CPR 2024/3110, DoP&C musi być dostępna w języku lub językach wymaganych przez państwo członkowskie, w którym wyrób jest udostępniany na rynku.
+Tak. Zgodnie z CPR 2024/3110, DoP&C musi być dostępna w języku lub językach wymaganych przez państwo członkowskie, w którym wyrób jest udostępniany na rynku.
 
 **Czy jedno DoP&C może obejmować kilka wariantów wyrobu?**
 Tak, o ile warianty wynikają z tej samej normy zharmonizowanej i mają identyczny zamierzony zakres zastosowania. Każdy wariant musi być jednak jednoznacznie identyfikowalny w dokumencie.
