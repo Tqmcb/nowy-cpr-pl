@@ -123,7 +123,7 @@ function HomePage() {
                 </h1>
 
                 <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed max-w-xl">
-                  Rozporządzenie CPR (EU) 2024/3110 obowiązuje od 8 stycznia 2025.
+                  Rozporządzenie CPR (EU) 2024/3110 stosuje się od 8 stycznia 2026.
                   Sprawdź aktualne wymagania dla Twoich produktów budowlanych i uniknij kar.
                 </p>
 
@@ -149,7 +149,7 @@ function HomePage() {
                 {/* Stats */}
                 <div className="mt-12 grid grid-cols-3 gap-6">
                   {[
-                    { value: "2025", label: "Rok wejścia w życie", icon: Calendar },
+                    { value: "2026", label: "Rok stosowania", icon: Calendar },
                     { value: "27", label: "Krajów UE", icon: Users },
                     { value: "100%", label: "Cyfryzacja DoP", icon: TrendingUp }
                   ].map((stat, idx) => (
@@ -228,7 +228,7 @@ function HomePage() {
                   >
                     w Dzienniku Urzędowym UE
                   </a>{" "}
-                  i wchodzi w życie od 8 stycznia 2025 roku.
+                  i wchodzi do pełnego stosowania od 8 stycznia 2026 roku.
                 </p>
               </div>
 
@@ -256,8 +256,8 @@ function HomePage() {
                 <div className="space-y-4">
                   {[
                     { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", active: true, done: true },
-                    { year: "8 stycznia 2025", text: "Wejście w życie rozporządzenia", active: true, done: true },
-                    { year: "2026-2027", text: "Okres przejściowy dla Digital DoP", active: true },
+                    { year: "7 sty 2025", text: "Wejście w życie — wybrane przepisy (art. 1–4, 9, 10, 37, 89, 90)", active: true, done: true },
+                    { year: "8 sty 2026", text: "Stosowanie głównych przepisów CPR; okres przejściowy dla Digital DoP", active: true, done: true },
                     { year: "2028+", text: "Pełne wdrożenie cyfrowego paszportu produktu" }
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-4 items-start">

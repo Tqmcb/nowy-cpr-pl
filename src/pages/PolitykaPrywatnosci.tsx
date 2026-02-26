@@ -109,7 +109,7 @@ export default function PolitykaPrywatnosci() {
                   {[
                     "Dane subskrybentów newslettera — do momentu cofnięcia zgody (rezygnacji z subskrypcji).",
                     "Dane z formularza kontaktowego — przez czas niezbędny do obsługi zapytania, nie dłużej niż 12 miesięcy od udzielenia odpowiedzi, chyba że przepisy prawa wymagają dłuższego przechowywania.",
-                    "Dane analityczne (cookies) — zgodnie z polityką dostawcy narzędzia analitycznego (Google Analytics), co do zasady nie dłużej niż 26 miesięcy.",
+                    "Dane analityczne (cookies) — zgodnie z polityką dostawcy narzędzia analitycznego (Google Analytics), co do zasady nie dłużej niż 14 miesięcy (w wersji GA4 standardowej; maksymalnie 26 miesięcy dotyczy wyłącznie GA4 360).",
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <ArrowRight className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
@@ -159,7 +159,7 @@ export default function PolitykaPrywatnosci() {
                 </p>
               </div>
               <p className="text-slate-400 text-sm mt-4 leading-relaxed">
-                W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy RODO, przysługuje Państwu prawo wniesienia skargi do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa, <a href="https://www.uodo.gov.pl" className="text-amber-400 hover:text-amber-300 transition-colors">www.uodo.gov.pl</a>).
+                W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy RODO, przysługuje Państwu prawo wniesienia skargi do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych (ul. Moniuszki 1A, 00-014 Warszawa, <a href="https://www.uodo.gov.pl" className="text-amber-400 hover:text-amber-300 transition-colors">www.uodo.gov.pl</a>).
               </p>
             </section>
 
