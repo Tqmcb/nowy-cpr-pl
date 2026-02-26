@@ -15,14 +15,15 @@ import {
   Award,
   BookOpen,
   Shield,
-  ExternalLink
+  ExternalLink,
+  Info
 } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-gradient-to-b from-slate-900 to-slate-950 pt-20 pb-8 overflow-hidden">
+    <footer role="contentinfo" className="relative bg-gradient-to-b from-slate-900 to-slate-950 pt-20 pb-8 overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl"></div>
@@ -53,6 +54,7 @@ export function Footer() {
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="NowyCPR.pl na LinkedIn (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Linkedin className="w-5 h-5" />
@@ -61,6 +63,7 @@ export function Footer() {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="NowyCPR.pl na Twitter (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Twitter className="w-5 h-5" />
@@ -69,6 +72,7 @@ export function Footer() {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="NowyCPR.pl na Facebook (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Facebook className="w-5 h-5" />
@@ -88,7 +92,8 @@ export function Footer() {
                   { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
                   { path: "/documents", label: "Dokumenty", icon: FileText },
                   { path: "/services", label: "Usługi certyfikacyjne", icon: Award },
-                  { path: "/blog", label: "Blog", icon: BookOpen }
+                  { path: "/blog", label: "Blog", icon: BookOpen },
+                  { path: "/o-portalu", label: "O portalu", icon: Info },
                 ].map((link) => (
                   <li key={link.path}>
                     <Link
@@ -181,12 +186,16 @@ export function Footer() {
                 }
               }}>
                 <div className="space-y-3">
+                  <label htmlFor="newsletter-name" className="sr-only">Twoje imię</label>
                   <input
+                    id="newsletter-name"
                     type="text"
                     placeholder="Twoje imię"
                     className="w-full px-4 py-3 text-sm bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all duration-300"
                   />
+                  <label htmlFor="newsletter-email" className="sr-only">Twój e-mail</label>
                   <input
+                    id="newsletter-email"
                     type="email"
                     placeholder="Twój e-mail"
                     required
@@ -214,18 +223,20 @@ export function Footer() {
                 © {currentYear} NowyCPR.pl. Wszystkie prawa zastrzeżone.
               </div>
               <div className="text-slate-600 text-xs">
-                Zarządzane przez <span className="text-slate-400">Multicert Sp. z o.o.</span>
+                Wydawca: <span className="text-slate-400">Multicert Sp. z o.o.</span> | Portal informacyjny NowyCPR.pl
               </div>
               <div className="flex items-center gap-6 text-sm">
-                <Link to="/" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                <Link to="/polityka-prywatnosci" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
                   Polityka prywatności
                 </Link>
-                <Link to="/" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                <Link to="/regulamin" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
                   Regulamin
                 </Link>
-                <Link to="/services" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
+                <Link to="/kontakt" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">
                   Kontakt
                 </Link>
+                <Link to="/o-portalu" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">O portalu</Link>
+                <Link to="/dostepnosc" className="text-slate-500 hover:text-amber-400 transition-colors duration-300">Dostępność</Link>
               </div>
             </div>
           </div>

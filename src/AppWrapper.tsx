@@ -5,6 +5,7 @@ import { router } from "./router";
 import { Head } from "./internal-components/Head";
 import { ThemeProvider } from "./internal-components/ThemeProvider";
 import { DEFAULT_THEME } from "./constants/default-theme";
+import { CookieConsent } from "./components/CookieConsent";
 
 export const AppWrapper = () => {
 	return (
@@ -23,6 +24,7 @@ export const AppWrapper = () => {
 					<RouterProvider router={router} />
 				</Suspense>
 				<Head />
+				<CookieConsent />
 			</ErrorBoundary>
 		</ThemeProvider>
 	);

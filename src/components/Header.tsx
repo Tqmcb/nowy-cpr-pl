@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Container } from "./Container";
 import {
   Menu,
@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 
 export function Header() {
-  const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -39,13 +38,16 @@ export function Header() {
         : "py-5 bg-transparent"
         }`}
     >
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-amber-400 focus:text-slate-900 focus:font-semibold focus:rounded-lg focus:outline-none"
+      >
+        Przejdź do treści głównej
+      </a>
       <Container>
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div
-            className="cursor-pointer group flex items-center gap-1"
-            onClick={() => navigate("/")}
-          >
+          <Link to="/" className="cursor-pointer group flex items-center gap-1">
             <div className="relative">
               <span className="text-2xl font-bold bg-gradient-to-r from-amber-400 via-yellow-400 to-orange-400 bg-clip-text text-transparent group-hover:from-amber-300 group-hover:to-orange-300 transition-all duration-300">
                 NowyCPR
@@ -53,10 +55,10 @@ export function Header() {
               <span className="text-2xl font-bold text-slate-400 group-hover:text-slate-300 transition-colors duration-300">.pl</span>
             </div>
             <div className="w-2 h-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 animate-pulse ml-1"></div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8" aria-label="Nawigacja główna">
             <NavLink to="/product-search" className={navLinkClass}>
               <Search className="w-4 h-4" />
               Wyszukiwarka CPR
@@ -80,6 +82,9 @@ export function Header() {
           <button
             className="lg:hidden relative w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 border border-white/10"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Zamknij menu" : "Otwórz menu"}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
           >
             {mobileMenuOpen ? (
               <X className="w-5 h-5 text-white" />
@@ -90,7 +95,10 @@ export function Header() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden overflow-hidden transition-all duration-500 ${mobileMenuOpen ? 'max-h-[600px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}>
+        <div
+          id="mobile-menu"
+          className={`lg:hidden overflow-hidden transition-all duration-500 ${mobileMenuOpen ? 'max-h-[600px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}
+        >
           <div className="glass-card p-6 space-y-4">
             {[
               { path: "/", label: "Strona Główna", icon: Home },
