@@ -46,25 +46,28 @@ W projektach finansowanych z funduszy strukturalnych UE (EFRR, Fundusz Spójnoś
 
 Programy dotyczące renowacji budynków, efektywności energetycznej, infrastruktury czy transportu miejskiego — wszystkie te obszary coraz powszechniej wymagają, by materiały budowlane stosowane w projektach miały dostępne EPD i deklarowany GWP. Producenci bez EPD nie mogą konkurować o dostawy do takich projektów.
 
-## Skandynawia i Europa Zachodnia — EPD jako standard rynkowy
+## Rynki eksportowe — EPD jako bariera wejścia
 
-Warto spojrzeć na doświadczenia krajów, które wdrożyły GPP i wymagania EPD wcześniej niż większość państw UE.
+Dla polskich producentów eksportujących wyroby budowlane do Europy Zachodniej EPD przestało być dokumentem opcjonalnym — stało się warunkiem dopuszczenia do przetargu. Niemcy, Francja, Norwegia i kraje skandynawskie wprowadziły od 2022 roku przepisy budowlane lub programy certyfikacji budynków wymagające od projektantów wykazania śladu węglowego materiałów. W praktyce oznacza to, że bez aktualnego EPD zgodnego z EN 15804+A2 polski producent nie może być uwzględniony w projekcie zamawiającego z tych rynków — niezależnie od ceny i jakości wyrobu.
 
-**Norwegia** — Od 1 lipca 2022 roku norweskie przepisy budowlane (TEK17) wymagają dokumentacji śladu węglowego dla bloków mieszkalnych (wielorodzinnych) i budynków komercyjnych wymagających pozwolenia na budowę. W praktyce oznacza to obowiązek stosowania wyrobów z EPD lub stosowania konserwatywnych wartości generycznych z baz danych, co dramatycznie motywuje producentów do uzyskiwania własnych EPD.
+Polski producent nie musi stosować się do tych przepisów na własnym rynku. Ale jeśli jego odbiorcą jest generalny wykonawca realizujący kontrakty w Niemczech lub Skandynawii, wymóg EPD spłynie w dół łańcucha dostaw — bezpośrednio do polskiego zakładu.
 
-**Szwecja** — Klimatdeklaracja obowiązkowa od 1 stycznia 2022 roku dla wszystkich nowych budynków wymagających pozwolenia na budowę. Wymaga zestawienia GWP dla głównych kategorii produktów. Producenci bez EPD są zastępowani konkurentami z Niemiec, Finlandii czy Polski, którzy posiadają aktualne EPD w Systemie 1 wg EN 15804+A2.
+## Polska: obowiązujące przepisy i praktyka rynkowa
 
-**Francja** — Regulacja RE2020 (od 2022) określa maksymalne wartości śladu węglowego dla nowych budynków. Deklarowanie GWP przez producenta wyrobu jest tu warunkiem koniecznym, by specyfikant mógł uwzględnić wyrób w obliczeniach budynkowych.
+W Polsce podstawą prawną GPP jest **ustawa Prawo zamówień publicznych z 2021 roku** (Dz.U. 2021 poz. 1129 ze zm.). Artykuł 246 PZP nakłada na zamawiających obowiązek stosowania kryterium najlepszego stosunku ceny do jakości, w ramach którego dopuszczalne jest uwzględnianie kryteriów środowiskowych. Ustawa nie narzuca jednak konkretnych wskaźników GWP ani minimalnych progów EPD — ich zastosowanie zależy od decyzji zamawiającego.
 
-**Niemcy** — Program QNG (Qualitätssiegel Nachhaltiges Gebäude) wymaga EPD dla wyrobów stosowanych w budynkach ubiegających się o certyfikat. Wiele instytucji publicznych w Niemczech wprost wymaga EPD w dokumentacji przetargowej.
+Równoległą podstawę stanowi **CPR 2024/3110** jako rozporządzenie UE stosowane bezpośrednio w Polsce od 8 stycznia 2026 roku — bez potrzeby transpozycji do prawa krajowego. CPR 2024 formalizuje GWP jako właściwość użytkową wyrobu budowlanego deklarowaną w DoP&C, co daje zamawiającym publicznym narzędzie do porównywania ofert na podstawie udokumentowanego śladu węglowego.
 
-## Polska: stan obecny i perspektywy
+**Gdzie GPP pojawia się już dziś w Polsce:**
 
-W Polsce przepisy GPP są wdrażane stopniowo. Ustawa Prawo zamówień publicznych z 2021 roku zachęca zamawiających do uwzględniania kryteriów środowiskowych, jednak nie narzuca konkretnych wskaźników ani progów GWP. Większość polskich zamawiających nadal stosuje cenę jako główne kryterium.
+- **KPO (Krajowy Plan Odbudowy)** — wytyczne programowe dla komponentu C (zielona energia) i komponentu A (odporność i konkurencyjność gospodarki) zawierają zapisy o stosowaniu materiałów o niskim śladzie węglowym w inwestycjach publicznych finansowanych z KPO.
+- **BGK — budownictwo społeczne** — Bank Gospodarstwa Krajowego w programach wsparcia budownictwa czynszowego (Fundusz Mieszkań na Wynajem, program SBC) coraz częściej zawiera w warunkach finansowania zapisy o zrównoważonych materiałach.
+- **Przetargi infrastrukturalne GDDKiA i PKP PLK** — w wybranych postępowaniach na roboty drogowe i kolejowe pojawiają się już wymagania dokumentacji środowiskowej dla materiałów (beton, stal, asfalt), choć na razie głównie jako warunek punktowany, nie eliminacyjny.
+- **Generalny wykonawca eksportujący** — polskie firmy wykonawcze realizujące kontrakty w Niemczech, Austrii czy krajach Beneluksu sami wymuszają na polskich dostawcach posiadanie EPD zgodnych z EN 15804+A2.
 
-Niemniej istnieją sygnały zmiany. Programy rządowe związane z KPO (Krajowy Plan Odbudowy) oraz wytyczne BGK dla budownictwa społecznego coraz częściej zawierają zapisy o zrównoważonych materiałach. Równocześnie polscy generalny wykonawcy realizujący kontrakty eksportowe — do Niemiec, Skandynawii czy Niderlandów — sami wymuszają na dostawcach posiadanie EPD.
+**Perspektywa na lata 2026–2028:** Komisja Europejska zapowiedziała zaostrzenie obowiązków GPP w ramach Green Deal i rewizji dyrektywy o zamówieniach publicznych. Należy oczekiwać, że kryteria środowiskowe — w tym GWP — stopniowo przejdą z kategorii opcjonalnych do obowiązkowych w zamówieniach powyżej progów unijnych.
 
-Producenci polskich wyrobów budowlanych — cegieł, bloczków betonu komórkowego, okien, wyrobów izolacyjnych, wyrobów ceramicznych — powinni traktować uzyskanie EPD nie jako koszt, ale jako inwestycję w dostęp do rosnącego segmentu rynku.
+Producenci polskich wyrobów budowlanych — wyrobów izolacyjnych, betonu komórkowego, ceramiki, okien, stali — powinni traktować uzyskanie EPD nie jako koszt, ale jako inwestycję warunkującą dostęp do rosnącego segmentu zamówień publicznych w Polsce i na rynkach eksportowych.
 
 ## Które wyroby potrzebują EPD by konkurować w przetargach
 
