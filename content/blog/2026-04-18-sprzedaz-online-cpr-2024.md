@@ -5,7 +5,7 @@ author: "mec. Paweł Szczepański"
 category: "Prawo"
 tags: ["sprzedaż online", "e-commerce", "CPR 2024", "dystrybutor", "obowiązki sprzedawcy"]
 excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający produkty na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing produktu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
-image_url: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800"
+image_url: "https://images.unsplash.com/photo-1770013413878-2530e2c3d82b?w=800"
 template: "analiza"
 ---
 

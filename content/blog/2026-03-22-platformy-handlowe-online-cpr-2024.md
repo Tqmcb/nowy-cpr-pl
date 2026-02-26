@@ -5,7 +5,7 @@ author: "mec. Paweł Szczepański"
 category: "Prawo"
 tags: ["platformy online", "marketplace", "CPR 2024", "obowiązki", "handel elektroniczny"]
 excerpt: "CPR 2024/3110 po raz pierwszy w historii unijnego prawa budowlanego reguluje rolę platform handlowych online, takich jak Amazon czy Allegro, w łańcuchu obrotu wyrobami budowlanymi. Platformy nie mogą być bierne wobec niezgodnych wyrobów — muszą usuwać oferty po powiadomieniu przez organy nadzoru. Jakie obowiązki ciążą na platformach i co to oznacza dla polskich sprzedawców online?"
-image_url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+image_url: "https://images.unsplash.com/photo-1758543102397-e14b5dfdd8bd?w=800"
 template: "analiza"
 ---
 
