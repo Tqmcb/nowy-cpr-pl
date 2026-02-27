@@ -1,0 +1,67 @@
+# NowyCPR.pl
+
+> NowyCPR.pl to polski portal informacyjny o Rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2024/3110 (CPR 2024/3110) — nowym prawie dotyczącym wyrobów budowlanych obowiązującym w całej UE od 8 stycznia 2026 roku. Portal prowadzony jest przez Multicert Sp. z o.o. i kierowany do producentów, importerów oraz dystrybutorów wyrobów budowlanych w Polsce i Unii Europejskiej.
+
+## Główne sekcje portalu
+
+- [Strona główna](https://www.nowycpr.pl/) — wprowadzenie do CPR 2024/3110, kluczowe terminy, linki do zasobów dla producentów
+- [Wyszukiwarka CPR](https://www.nowycpr.pl/product-search) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
+- [Dokumenty do pobrania](https://www.nowycpr.pl/documents) — 8 bezpłatnych szablonów HTML zgodnych z CPR 2024/3110 (DoP&C, karta techniczna, FPC, oznakowanie CE, lista kontrolna, EPD, DPP, AVS)
+- [Blog](https://www.nowycpr.pl/blog) — ok. 30 artykułów eksperckich o CPR 2024/3110, publikowanych od IX 2025
+- [Wyroby](https://www.nowycpr.pl/wyroby) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
+
+## Kluczowe tematy i definicje
+
+- **CPR 2024/3110** — Rozporządzenie (UE) 2024/3110 z 23.10.2024 r. uchyla CPR 305/2011; stosuje się od 8 stycznia 2026 r.; reguluje wprowadzanie wyrobów budowlanych do obrotu w UE
+- **DoP&C** — Deklaracja Właściwości Użytkowych i Zgodności (ang. Declaration of Performance and Conformity); wymagana art. 15–16 CPR 2024/3110; od 8.01.2026 obowiązkowo w formie cyfrowej
+- **Oznakowanie CE** — obowiązkowe dla wyrobów budowlanych objętych normami zharmonizowanymi (art. 18–19 CPR 2024/3110); musi zawierać kod QR prowadzący do cyfrowej DoP&C
+- **AVS** — Systemy Oceny i Weryfikacji Stałości Właściwości Użytkowych (dawniej AVCP w CPR 305/2011); nowe systemy: 1+, 1, 2+, 3, 3+ (nowy — tylko EPD), 4 (Załącznik IX CPR 2024/3110)
+- **System 3+** — nowy system AVS (bez odpowiednika w AVCP); obejmuje weryfikację Deklaracji Środowiskowej Produktu (EPD) przez notyfikowane laboratorium (NTL)
+- **FPC** — Zakładowa Kontrola Produkcji (art. 20 ust. 3 CPR 2024/3110); obowiązkowa dla wszystkich producentów; uproszczona dla mikroprzedsiębiorstw
+- **SVHC** — Substancje Wzbudzające Szczególne Obawy (lista kandydatów ECHA); jeśli >0,1% w/w w wyrobie, producent obowiązkowo ujawnia to w DoP&C i DPP (art. 15 ust. 6)
+- **DPP** — Cyfrowy Paszport Produktu (art. 75–80 CPR 2024/3110); etapowe wdrożenie po 2027 r. na podstawie aktów delegowanych KE; uzupełnia DoP&C o dane środowiskowe i cyklu życia
+- **EPD** — Deklaracja Środowiskowa Produktu (Environmental Product Declaration); norma EN 15804+A2; stosowana w systemie AVS 3+
+- **Jednostki notyfikowane (JN)** — organy certyfikujące upoważnione przez państwa członkowskie; wymagane w systemach AVS 1+, 1, 2+
+- **NTL** — Notyfikowane Laboratorium (Notified Testing Laboratory); wymagane w systemie AVS 3+ do weryfikacji EPD
+- **ETA** — Europejska Ocena Techniczna; dla wyrobów bez normy zharmonizowanej; wydawana przez TAB (Technical Assessment Body)
+- **Unikalny identyfikator produktu** — art. 22 ust. 5 CPR 2024/3110; każdy wyrób musi mieć kod QR/RFID/EAN prowadzący do DPP i DoP&C
+
+## Dostępne szablony dokumentów (bezpłatne)
+
+1. [Szablon Deklaracji DoP&C](https://www.nowycpr.pl/docs/dopc-szablon.html) — wzór deklaracji wg Załącznika V CPR 2024/3110, art. 15–16
+2. [Szablon Karty Technicznej](https://www.nowycpr.pl/docs/karta-techniczna-szablon.html) — Technical Data Sheet zgodna z CPR 2024/3110
+3. [Poradnik FPC](https://www.nowycpr.pl/docs/fpc-poradnik.html) — przewodnik Zakładowej Kontroli Produkcji, wszystkie systemy AVS
+4. [Wzór oznakowania CE](https://www.nowycpr.pl/docs/ce-oznakowanie-wzor.html) — elementy obowiązkowe, QR kod, numery JN
+5. [Lista kontrolna CPR 2024/3110](https://www.nowycpr.pl/docs/lista-kontrolna-cpr2024.html) — 7 obszarów: producent, DoP&C, CE, AVS, SVHC, cyfrowe, MŚP
+6. [Szablon EPD](https://www.nowycpr.pl/docs/epd-szablon.html) — wskaźniki GWP, ODP, AP, EP, POCP, ADP zgodne z EN 15804+A2
+7. [Przewodnik DPP](https://www.nowycpr.pl/docs/dpp-przewodnik.html) — art. 75–80 CPR 2024/3110, harmonogram, lista kontrolna
+8. [Przewodnik AVS](https://www.nowycpr.pl/docs/avs-systemy-przewodnik.html) — porównanie systemów 1+, 1, 2+, 3, 3+, 4; tabela vs AVCP
+
+## Wybrane artykuły blogowe
+
+- [CPR 2024/3110 — kompletny przewodnik](https://www.nowycpr.pl/blog/2026-01-15-cpr-2024-nowe-rozporzadzenie)
+- [Cyfrowa DoP&C — jak wdrożyć](https://www.nowycpr.pl/blog/2026-01-10-digital-dop)
+- [AVS vs AVCP — co się zmieniło](https://www.nowycpr.pl/blog/2026-03-01-avs-vs-avcp-nowy-system-oceny-cpr-2024)
+- [Oznakowanie CE 2026 — nowe wymagania](https://www.nowycpr.pl/blog/2026-01-08-oznakowanie-ce-2026)
+- [DPP — Cyfrowy Paszport Produktu](https://www.nowycpr.pl/blog/2026-02-28-cyfrowy-paszport-produktu-dpp-cpr-2024)
+- [SVHC i REACH w DoP&C](https://www.nowycpr.pl/blog/2026-03-13-svhc-reach-dopc-cpr-2024)
+- [FPC — Zakładowa Kontrola Produkcji](https://www.nowycpr.pl/blog/2026-04-06-fpc-zakladowa-kontrola-produkcji)
+- [EPD i AVS 3+](https://www.nowycpr.pl/blog/2026-04-03-avs-3plus-walidacja-epd)
+- [Obowiązki importera CPR 2024](https://www.nowycpr.pl/blog/2026-03-07-importer-obowiazki-cpr-2024)
+- [Małe firmy a CPR 2024/3110](https://www.nowycpr.pl/blog/2026-04-12-mala-firma-cpr-2024)
+- [QR kod i unikalny identyfikator produktu](https://www.nowycpr.pl/blog/2026-03-10-qr-kod-unikalny-kod-produktu-cpr-2024)
+- [Kary za naruszenie CPR 2024](https://www.nowycpr.pl/blog/2026-03-04-kary-naruszenie-cpr-2024)
+
+## Informacje o wydawcy
+
+- **Organizacja:** Multicert Sp. z o.o.
+- **Strona:** https://www.multicert.pl
+- **E-mail:** biuro@multicert.pl
+- **Adres:** ul. Mydlarska 47, 04-690 Warszawa, Polska
+- **Działalność:** jednostka certyfikująca i konsultingowa z zakresu norm i regulacji budowlanych UE
+- **Język:** polski (pl-PL)
+- **Zasięg:** Polska / Unia Europejska
+
+## Zastrzeżenie
+
+Treści na NowyCPR.pl mają charakter informacyjny i edukacyjny. Nie stanowią porady prawnej. Przed wdrożeniem rozwiązań należy skonsultować się z prawnikiem lub właściwą jednostką certyfikującą. Podstawą prawną jest Rozporządzenie (UE) 2024/3110 opublikowane w Dzienniku Urzędowym UE L 2024/3110.

@@ -1,4 +1,88 @@
+# robots.txt — NowyCPR.pl
+# Wszystkie boty (w tym AI) są mile widziane — treść jest publicznie dostępna
+
 User-agent: *
 Allow: /
 
+# --- Wyszukiwarki klasyczne ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# --- AI — OpenAI / ChatGPT ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- AI — Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+# --- AI — Anthropic / Claude ---
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# --- AI — Google (AI Overview, Gemini) ---
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+# --- AI — Meta / Facebook ---
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# --- AI — Apple ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- AI — Common Crawl (trening LLM) ---
+User-agent: CCBot
+Allow: /
+
+# --- AI — Amazon ---
+User-agent: Amazonbot
+Allow: /
+
+# --- AI — Cohere ---
+User-agent: cohere-ai
+Allow: /
+
+# --- AI — inne ---
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# Mapa strony
 Sitemap: https://www.nowycpr.pl/sitemap.xml
+
+# Plik opisu strony dla modeli językowych (LLM)
+# https://www.nowycpr.pl/llms.txt
