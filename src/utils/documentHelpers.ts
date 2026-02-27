@@ -114,7 +114,7 @@ export const documents: Document[] = [
   {
     id: "auth-rep-mandate",
     title: "Mandat upoważnionego przedstawiciela (Art. 23 CPR 2024/3110)",
-    description: "Wzór pisemnego mandatu upoważnionego przedstawiciela dla producentów spoza UE zgodny z art. 23 CPR 2024/3110. Zawiera zakres upoważnienia, czas obowiązywania, zakazy mandatowe (brak uprawnień do FPC i oceny właściwości).",
+    description: "Wzór pisemnego mandatu upoważnionego przedstawiciela zgodny z art. 23 CPR 2024/3110. Dotyczy każdego producenta (w UE i spoza UE). Zawiera zakres upoważnienia, czas obowiązywania i zakazy mandatowe z art. 23 ust. 3 (zakaz sporządzania DoP&C, AVS, organizowania i nadzorowania FPC).",
     icon: "📜",
     fileType: "HTML",
     language: "PL",
