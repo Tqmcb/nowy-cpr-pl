@@ -119,6 +119,15 @@ export const documents: Document[] = [
     fileType: "HTML",
     language: "PL",
     updatedAt: "02.2026"
+  },
+  {
+    id: "commission-work-plan",
+    title: "Plan Prac Komisji Europejskiej — Harmonogram norm CPR 2024/3110 na lata 2026-2029",
+    description: "Przewodnik po COM(2025) 772 final — pierwszym Planie Prac KE dla CPR 2024/3110. Zawiera harmonogram 36 rodzin wyrobów (Milestones 0-IV), środki horyzontalne (ogień, środowisko, SVHC, DPP) oraz zmiany w Załączniku VII. Niezbędny dla producentów planujących dostosowanie do nowych norm zharmonizowanych do 2029.",
+    icon: "📅",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "02.2026"
   }
 ];
 
@@ -135,7 +144,8 @@ const documentUrls: Record<string, string> = {
   "importer-dopc":      "/docs/importer-dopc-szablon.html",
   "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
   "user-instructions":  "/docs/instrukcja-uzytkownika-art25.html",
-  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html"
+  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html",
+  "commission-work-plan": "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
 // Function to track email leads with improved error handling
