@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Przewodnik po Systemach AVS | CPR 2024/3110</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; font-size: 10pt; color: #1a1a1a; background: #fff; padding: 18mm 20mm; }
+  h1 { font-size: 14pt; font-weight: bold; text-align: center; margin-bottom: 4px; }
+  .subtitle { text-align: center; font-size: 9pt; color: #555; margin-bottom: 20px; }
+  h2 { font-size: 11pt; font-weight: bold; margin: 18px 0 8px 0; color: #fff; background: #553c9a; padding: 6px 10px; }
+  h3 { font-size: 10pt; font-weight: bold; margin: 12px 0 6px 0; color: #553c9a; border-left: 4px solid #9f7aea; padding-left: 8px; }
+  p { margin-bottom: 8px; font-size: 9.5pt; line-height: 1.5; }
+  ul, ol { margin: 6px 0 10px 20px; font-size: 9.5pt; line-height: 1.6; }
+  li { margin-bottom: 3px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+  th { background: #553c9a; color: #fff; padding: 6px 8px; text-align: left; font-size: 9pt; }
+  td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; font-size: 9pt; }
+  tr:nth-child(even) td { background: #faf5ff; }
+  .note { font-size: 8.5pt; color: #555; background: #faf5ff; border-left: 3px solid #9f7aea; padding: 8px 10px; margin: 10px 0; }
+  .important { background: #fffbeb; border: 1px solid #f59e0b; padding: 8px 10px; margin: 10px 0; font-size: 9pt; }
+  .new { background: #f0fff4; border: 1px solid #48bb78; padding: 8px 10px; margin: 10px 0; font-size: 9pt; }
+  .footer { margin-top: 24px; font-size: 8pt; color: #888; text-align: center; border-top: 1px solid #ccc; padding-top: 8px; }
+  .art-ref { font-size: 8pt; color: #888; font-style: italic; }
+
+  /* AVS system cards */
+  .avs-card { border: 1px solid #d6bcfa; border-radius: 6px; padding: 12px 14px; margin: 10px 0; page-break-inside: avoid; }
+  .avs-card-1plus { border-color: #fc8181; background: #fff5f5; }
+  .avs-card-1 { border-color: #fc8181; background: #fff5f5; }
+  .avs-card-2plus { border-color: #f6ad55; background: #fffbeb; }
+  .avs-card-3 { border-color: #68d391; background: #f0fff4; }
+  .avs-card-3plus { border-color: #4299e1; background: #ebf8ff; }
+  .avs-card-4 { border-color: #9f7aea; background: #faf5ff; }
+  .avs-card h3 { margin-top: 0; border: none; padding: 0; }
+  .avs-card-1plus h3, .avs-card-1 h3 { color: #c53030; }
+  .avs-card-2plus h3 { color: #c05621; }
+  .avs-card-3 h3 { color: #276749; }
+  .avs-card-3plus h3 { color: #2b6cb0; }
+  .avs-card-4 h3 { color: #553c9a; }
+  .role-row { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
+  .role-box { flex: 1; min-width: 160px; border-radius: 4px; padding: 6px 10px; font-size: 8.5pt; }
+  .role-producer { background: #e9d8fd; }
+  .role-nb { background: #bee3f8; }
+  .role-ntl { background: #c6f6d5; }
+  .role-label { font-weight: bold; font-size: 8pt; margin-bottom: 3px; }
+
+  @media print { body { padding: 12mm 15mm; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+
+<h1>PRZEWODNIK: SYSTEMY OCENY I WERYFIKACJI (AVS)</h1>
+<div class="subtitle">Assessment and Verification of Constancy of Performance | Zgodny z art. 10 i Załącznikiem IX<br>
+Rozporządzenia (UE) 2024/3110 (CPR 2024/3110) | NowyCPR.pl</div>
+
+<div class="important">
+  📌 <strong>Terminologia:</strong> Dawny system <strong>AVCP</strong> (Assessment and Verification of Constancy of Performance) z CPR 305/2011
+  zastąpiony został przez <strong>AVS</strong> (Assessment and Verification System) w CPR 2024/3110.
+  CPR 2024/3110 wprowadza 6 systemów AVS: 1+, 1, 2+, 3, 3+, 4 — przy czym <strong>System 3+</strong> jest zupełnie nowym systemem.
+</div>
+
+<h2>1. PRZEGLĄD WSZYSTKICH SYSTEMÓW AVS</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>Ryzyko</th>
+      <th>Producent</th>
+      <th>Jednostka notyfikowana</th>
+      <th>Oznakowanie CE — NB?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff5f5;">
+      <td><strong>1+</strong></td>
+      <td>Najwyższe</td>
+      <td>FPC + ITT</td>
+      <td>Certyfikuje wyrób + ciągły nadzór FPC</td>
+      <td>✓ Tak</td>
+    </tr>
+    <tr style="background:#fff5f5;">
+      <td><strong>1</strong></td>
+      <td>Bardzo wysokie</td>
+      <td>FPC + ITT (wstępne)</td>
+      <td>Certyfikuje wyrób + inspekcje FPC</td>
+      <td>✓ Tak</td>
+    </tr>
+    <tr style="background:#fffbeb;">
+      <td><strong>2+</strong></td>
+      <td>Wysokie</td>
+      <td>FPC + ITT</td>
+      <td>Certyfikuje FPC + nadzoruje</td>
+      <td>✓ Tak</td>
+    </tr>
+    <tr style="background:#f0fff4;">
+      <td><strong>3</strong></td>
+      <td>Średnie</td>
+      <td>FPC (bez ITT w własnym zakresie)</td>
+      <td>NTL przeprowadza ITT</td>
+      <td>✗ Nie</td>
+    </tr>
+    <tr style="background:#ebf8ff;">
+      <td><strong>3+ (NOWY)</strong></td>
+      <td>Średnie / EPD</td>
+      <td>FPC + ITT + EPD</td>
+      <td>NTL weryfikuje EPD i raport LCA</td>
+      <td>✗ Nie</td>
+    </tr>
+    <tr style="background:#faf5ff;">
+      <td><strong>4</strong></td>
+      <td>Niskie</td>
+      <td>FPC + ITT (samodzielnie)</td>
+      <td>Brak udziału</td>
+      <td>✗ Nie</td>
+    </tr>
+  </tbody>
+</table>
+<p class="art-ref">Źródło: Załącznik IX CPR 2024/3110. NB = Notified Body (jednostka notyfikowana). NTL = Notified Technical Laboratory.</p>
+
+<h2>2. OPIS KAŻDEGO SYSTEMU AVS</h2>
+
+<!-- SYSTEM 1+ -->
+<div class="avs-card avs-card-1plus">
+  <h3>SYSTEM AVS 1+ — Najwyższy poziom nadzoru</h3>
+  <p><strong>Zastosowanie:</strong> Wyroby, których właściwości użytkowe mają krytyczne znaczenie dla bezpieczeństwa (np. kotwy, łączniki stalowe, wyroby do zastosowań konstrukcyjnych o wysokich wymaganiach).</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Przeprowadza ITT (wstępne badanie typu)
+    </div>
+    <div class="role-box role-nb">
+      <div class="role-label">Jednostka notyfikowana (JN):</div>
+      Certyfikuje stałość właściwości wyrobu<br>
+      Przeprowadza ciągły nadzór FPC<br>
+      Numer NB w oznakowaniu CE
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 2 + Zał. IX CPR 2024/3110 | Dawny AVCP: System 1+</p>
+</div>
+
+<!-- SYSTEM 1 -->
+<div class="avs-card avs-card-1">
+  <h3>SYSTEM AVS 1 — Wysoki poziom nadzoru</h3>
+  <p><strong>Zastosowanie:</strong> Wyroby o znacznym wpływie na bezpieczeństwo (np. drzwi przeciwpożarowe, produkty odporności ogniowej, kotwy do zastosowań niekonstrukcyjnych).</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Przeprowadza wstępne badanie wyrobu (ITT)
+    </div>
+    <div class="role-box role-nb">
+      <div class="role-label">Jednostka notyfikowana (JN):</div>
+      Certyfikuje stałość właściwości wyrobu<br>
+      Przeprowadza inspekcje FPC (nie ciągły nadzór)<br>
+      Numer NB w oznakowaniu CE
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 3 + Zał. IX CPR 2024/3110 | Dawny AVCP: System 1</p>
+</div>
+
+<!-- SYSTEM 2+ -->
+<div class="avs-card avs-card-2plus">
+  <h3>SYSTEM AVS 2+ — Certyfikacja FPC</h3>
+  <p><strong>Zastosowanie:</strong> Wyroby o umiarkowanym wpływie na bezpieczeństwo, gdzie kluczowa jest stałość procesu produkcji (np. płyty gipsowo-kartonowe, materiały termoizolacyjne, kruszywa).</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Przeprowadza ITT samodzielnie
+    </div>
+    <div class="role-box role-nb">
+      <div class="role-label">Jednostka notyfikowana (JN):</div>
+      Certyfikuje system FPC producenta<br>
+      Przeprowadza inspekcje nadzorcze FPC<br>
+      Numer NB w oznakowaniu CE
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 4 + Zał. IX CPR 2024/3110 | Dawny AVCP: System 2+</p>
+</div>
+
+<!-- SYSTEM 3 -->
+<div class="avs-card avs-card-3">
+  <h3>SYSTEM AVS 3 — Badanie przez NTL</h3>
+  <p><strong>Zastosowanie:</strong> Wyroby o niższym ryzyku, gdzie kluczowe jest obiektywne badanie właściwości (np. farby i lakiery budowlane, wyroby ceramiczne, kable).</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Sporządza DoP&amp;C na podstawie wyników NTL
+    </div>
+    <div class="role-box role-ntl">
+      <div class="role-label">Notyfikowane laboratorium techniczne (NTL):</div>
+      Przeprowadza ITT (badanie typu wyrobu)<br>
+      Wydaje raport z badań<br>
+      Brak numeru NB w oznakowaniu CE
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 5 lit. a) + Zał. IX CPR 2024/3110 | Dawny AVCP: System 3</p>
+</div>
+
+<!-- SYSTEM 3+ -->
+<div class="avs-card avs-card-3plus">
+  <h3>SYSTEM AVS 3+ — NOWY: Weryfikacja EPD przez NTL</h3>
+  <div class="new" style="padding:6px 8px; font-size:8.5pt; margin: 6px 0;">
+    🆕 System 3+ nie istniał w dawnym AVCP. Wprowadzony przez CPR 2024/3110 specjalnie dla deklaracji środowiskowych EPD.
+  </div>
+  <p><strong>Zastosowanie:</strong> Wyroby, dla których producent sporządza Deklarację Środowiskową Produktu (EPD) opartą na ocenie LCA zgodnej z EN 15804+A2. System ten dotyczy wyrobów, których CPR lub norma zharmonizowana wymaga weryfikowanej EPD.</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Przeprowadza ITT samodzielnie<br>
+      Sporządza EPD i raport LCA
+    </div>
+    <div class="role-box role-ntl">
+      <div class="role-label">Notyfikowane laboratorium techniczne (NTL):</div>
+      Weryfikuje EPD i raport LCA<br>
+      Wydaje raport weryfikacji<br>
+      Brak numeru NB w oznakowaniu CE
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 5 lit. b) + Zał. IX CPR 2024/3110 | BRAK odpowiednika w AVCP (nowy)</p>
+</div>
+
+<!-- SYSTEM 4 -->
+<div class="avs-card avs-card-4">
+  <h3>SYSTEM AVS 4 — Samocertyfikacja producenta</h3>
+  <p><strong>Zastosowanie:</strong> Wyroby o najmniejszym wpływie na bezpieczeństwo, gdzie producent samodzielnie przeprowadza ocenę (np. wyroby akcesoriów, uszczelniacze o niskim ryzyku, wyroby do zastosowań estetycznych).</p>
+  <div class="role-row">
+    <div class="role-box role-producer">
+      <div class="role-label">Producent:</div>
+      Wdraża i utrzymuje FPC<br>
+      Przeprowadza ITT samodzielnie<br>
+      Sporządza DoP&amp;C samodzielnie<br>
+      Brak udziału jednostek notyfikowanych
+    </div>
+  </div>
+  <p style="margin-top:8px; font-size:8.5pt; color:#555;">Art. 10 ust. 6 + Zał. IX CPR 2024/3110 | Dawny AVCP: System 4</p>
+</div>
+
+<h2>3. JAK USTALIĆ WŁAŚCIWY SYSTEM AVS?</h2>
+
+<p>System AVS dla danego wyrobu jest <strong>określony przez normę zharmonizowaną</strong> (sekcja ZA) lub <strong>EAD</strong>. Producent nie może samodzielnie wybierać systemu.</p>
+
+<h3>Kroki do ustalenia systemu AVS:</h3>
+<ol>
+  <li>Znajdź normę zharmonizowaną dla swojego wyrobu (np. EN 14566 dla łączników, EN 13163 dla polistyrenu)</li>
+  <li>W normie przejdź do <strong>Załącznika ZA</strong> (Annex ZA) — tam znajdziesz właściwy system AVS dla każdej właściwości</li>
+  <li>Różne właściwości tego samego wyrobu mogą podlegać różnym systemom AVS — stosuje się wtedy <strong>system najwyższy</strong></li>
+  <li>Skontaktuj się z jednostką notyfikowaną wpisaną do bazy NANDO (nando.nen.nl) jeśli Twój wyrób wymaga udziału JN</li>
+</ol>
+
+<div class="note">
+  <strong>Baza NANDO:</strong> Wszystkie jednostki notyfikowane i notyfikowane laboratoria techniczne znajdziesz na stronie:<br>
+  <strong>nando.nen.nl</strong> (European Commission New Approach Notified and Designated Organisations database)
+</div>
+
+<h2>4. RÓŻNICE AVS vs AVCP (CPR 2024/3110 vs CPR 305/2011)</h2>
+
+<table>
+  <thead><tr><th>Cecha</th><th>AVCP (CPR 305/2011)</th><th>AVS (CPR 2024/3110)</th></tr></thead>
+  <tbody>
+    <tr><td>Systemy</td><td>1+, 1, 2+, 3, 4 (5 systemów)</td><td>1+, 1, 2+, 3, 3+, 4 (6 systemów)</td></tr>
+    <tr><td>Nowy system</td><td>Brak systemu dla EPD</td><td><strong>System 3+ dla weryfikacji EPD</strong></td></tr>
+    <tr><td>Nazwa</td><td>Assessment and Verification of Constancy of Performance</td><td>Assessment and Verification System</td></tr>
+    <tr><td>Rola JN w systemie 2+</td><td>Certyfikacja AVCP</td><td>Certyfikacja FPC</td></tr>
+    <tr><td>Środowisko (EPD)</td><td>Opcjonalne, brak weryfikacji</td><td>System 3+ z weryfikacją NTL</td></tr>
+    <tr><td>Cyfrowy DoP&amp;C</td><td>Nie wymagany</td><td>Obowiązkowy (art. 16)</td></tr>
+  </tbody>
+</table>
+
+<div class="footer">
+  Przewodnik przygotowany przez NowyCPR.pl — www.nowycpr.pl | biuro@multicert.pl | Multicert Sp. z o.o.<br>
+  Podstawa: Rozporządzenie (UE) 2024/3110, art. 10, Załącznik IX | Luty 2026
+  <div class="no-print" style="margin-top:8px; color:#555;">💡 Drukuj (Ctrl+P) → Zapisz jako PDF</div>
+</div>
+
+</body>
+</html>

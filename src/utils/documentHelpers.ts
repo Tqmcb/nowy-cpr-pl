@@ -10,100 +10,92 @@ interface Document {
   updatedAt: string;
 }
 
-// Dane przykładowych dokumentów
+// Dane dokumentów CPR 2024/3110
 export const documents: Document[] = [
   {
     id: "dop-template",
-    title: "Przykładowa deklaracja właściwości użytkowych (DoP)",
-    description: "Szablon deklaracji zgodny z art. 22 rozporządzenia (UE) 2023/991 (CPR 2024), zawierający wszystkie obowiązkowe elementy wymagane dla cyfrowej DoP.",
+    title: "Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)",
+    description: "Wzór deklaracji DoP&C zgodny z Załącznikiem V Rozporządzenia (UE) 2024/3110 (CPR). Zawiera wszystkie obowiązkowe elementy wymagane przez art. 15–16, w tym sekcję substancji SVHC i cyfrowy dostęp.",
     icon: "📄",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "05.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "tech-card",
-    title: "Szablon karty technicznej produktu",
-    description: "Edytowalny szablon karty technicznej wyrobu budowlanego, zgodny z wymaganiami CPR 2024, z uwzględnieniem nowych wskaźników klimatycznych (ECI).",
+    title: "Szablon karty technicznej wyrobu budowlanego",
+    description: "Edytowalny szablon karty technicznej wyrobu budowlanego, zgodny z wymaganiami CPR (UE) 2024/3110. Zawiera sekcje właściwości użytkowych, warunków stosowania, BHP i historii rewizji.",
     icon: "📋",
-    fileType: "DOCX",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "05.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "fpc-manual",
     title: "Poradnik zakładowej kontroli produkcji (FPC)",
-    description: "Kompleksowy przewodnik implementacji systemu FPC zgodnego z wymaganiami CPR 2024 dla systemów oceny AVCP 1+, 1, 2+ i 3.",
+    description: "Kompleksowy przewodnik implementacji systemu FPC zgodnego z art. 20 ust. 3 CPR (UE) 2024/3110. Obejmuje wszystkie systemy AVS (1+, 1, 2+, 3, 3+, 4) oraz uproszczenia dla mikroprzedsiębiorstw.",
     icon: "📚",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "05.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "ce-marking",
-    title: "Wzór oznakowania CE zgodny z CPR 2024",
-    description: "Szablon oznakowania CE uwzględniający nowe wymagania, w tym odniesienia do cyfrowego paszportu produktu (DPP) i deklaracji środowiskowej.",
+    title: "Wzór oznakowania CE zgodny z CPR 2024/3110",
+    description: "Przewodnik i wzór oznakowania CE wg art. 18–19 CPR (UE) 2024/3110. Zawiera obowiązkowe elementy oznakowania, zasady umieszczania numeru NB dla systemów AVS 1+, 1, 2+ oraz wymagania dotyczące kodu QR i cyfrowego DoP&C.",
     icon: "🏷️",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "04.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "checklist",
-    title: "Lista kontrolna zgodności z CPR 2024",
-    description: "Szczegółowa lista kontrolna pomagająca producentom w weryfikacji zgodności z wszystkimi wymogami rozporządzenia (UE) 2023/991, z odniesieniami do odpowiednich artykułów.",
+    title: "Lista kontrolna zgodności z CPR 2024/3110",
+    description: "Szczegółowa lista kontrolna pomagająca producentom w weryfikacji zgodności z wymaganiami Rozporządzenia (UE) 2024/3110. Obejmuje 7 obszarów: obowiązki producenta, DoP&C, oznakowanie CE, AVS, SVHC, wymagania cyfrowe i MŚP.",
     icon: "✅",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "03.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "edp-template",
     title: "Szablon deklaracji środowiskowej produktu (EPD)",
-    description: "Wzór EPD zgodny z normą EN 15804+A2 i wymaganiami CPR 2024, zawierający wszystkie niezbędne wskaźniki środowiskowe i klimatyczne.",
+    description: "Wzór EPD zgodny z normą EN 15804+A2 i wymaganiami CPR (UE) 2024/3110. Zawiera wszystkie wskaźniki środowiskowe (GWP, ODP, AP, EP, POCP i inne) wymagane w systemie AVS 3+ z weryfikacją przez notyfikowane laboratorium.",
     icon: "🌱",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "04.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "dpp-guide",
     title: "Przewodnik po cyfrowym paszporcie produktu (DPP)",
-    description: "Kompletny poradnik dotyczący tworzenia i zarządzania cyfrowym paszportem produktu, nowym wymogiem wprowadzonym przez CPR 2024.",
+    description: "Kompletny przewodnik dotyczący Cyfrowego Paszportu Produktu (art. 75–80 CPR 2024/3110). Obejmuje harmonogram wdrożenia, wymagane dane, unikalny identyfikator (art. 22 ust. 5), wymagania techniczne dostępu i listę kontrolną producenta.",
     icon: "💻",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "05.03.2025"
+    updatedAt: "02.2026"
   },
   {
     id: "avcp-systems",
-    title: "Przewodnik po systemach AVCP",
-    description: "Szczegółowe objaśnienie systemów oceny i weryfikacji stałości właściwości użytkowych z przykładami dla różnych kategorii wyrobów budowlanych.",
+    title: "Przewodnik po systemach AVS (dawniej AVCP)",
+    description: "Szczegółowe objaśnienie 6 systemów oceny i weryfikacji (AVS) z CPR (UE) 2024/3110: 1+, 1, 2+, 3, nowy system 3+ dla EPD oraz 4. Porównanie z dawnym AVCP (CPR 305/2011) i przykłady dla kategorii wyrobów.",
     icon: "📊",
-    fileType: "PDF",
+    fileType: "HTML",
     language: "PL",
-    updatedAt: "02.03.2025"
+    updatedAt: "02.2026"
   }
 ];
 
-// Real document URLs with reliable sources
+// Adresy URL dokumentów — pliki HTML do otwarcia w przeglądarce i wydruku jako PDF
 const documentUrls: Record<string, string> = {
-  "dop-template": "https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100413.pdf", // ISO publication as example
-  "tech-card": "https://filesamples.com/samples/document/docx/sample3.docx", // Sample DOCX file
-  "fpc-manual": "https://www.fda.gov/files/food/published/Fish-and-Fishery-Products-Hazards-and-Controls-Guidance-Fourth-Edition.pdf", // FDA manual as example
-  "ce-marking": "https://www.gov.uk/government/publications/ce-marking/ce-marking", // UK Gov CE marking guidance
-  "checklist": "https://ec.europa.eu/docsroom/documents/9483/attachments/1/translations/en/renditions/pdf", // EU checklist example
-  "edp-template": "https://www.environdec.com/contentassets/95371fe3acc14a1a8d29311f617e6220/epd-of-electricity-from-vattenfall-nordic-nuclear-power-plants.pdf" // Environmental declaration example
-};
-
-// Backup URLs in case the primary ones fail
-const backupDocumentUrls: Record<string, string> = {
-  "dop-template": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-  "tech-card": "https://file-examples.com/storage/fede3f30f864a1f979d2bf0/2017/02/file-sample_100kB.docx",
-  "fpc-manual": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-  "ce-marking": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-  "checklist": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-  "edp-template": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  "dop-template":  "/docs/dopc-szablon.html",
+  "tech-card":     "/docs/karta-techniczna-szablon.html",
+  "fpc-manual":    "/docs/fpc-poradnik.html",
+  "ce-marking":    "/docs/ce-oznakowanie-wzor.html",
+  "checklist":     "/docs/lista-kontrolna-cpr2024.html",
+  "edp-template":  "/docs/epd-szablon.html",
+  "dpp-guide":     "/docs/dpp-przewodnik.html",
+  "avcp-systems":  "/docs/avs-systemy-przewodnik.html"
 };
 
 // Function to track email leads with improved error handling
@@ -111,108 +103,64 @@ export const trackLead = async (email: string, documentId: string): Promise<bool
   try {
     // In a real application, you would send this data to your backend
     console.log(`Tracking lead: ${email} downloaded document ${documentId}`);
-    
+
     // Get the document title
     const documentTitle = documents.find(doc => doc.id === documentId)?.title || 'Unknown document';
-    
+
     // Store email in localStorage for demonstration
     const leads = JSON.parse(localStorage.getItem('document_leads') || '[]');
-    leads.push({ 
-      email, 
-      documentId, 
+    leads.push({
+      email,
+      documentId,
       documentTitle,
-      timestamp: new Date().toISOString() 
+      timestamp: new Date().toISOString()
     });
     localStorage.setItem('document_leads', JSON.stringify(leads));
-    
-    // Log the lead for demonstration (in production, this would be sent to your CRM or backend)
+
     console.log(`Lead stored: ${email} - ${documentTitle} at ${new Date().toLocaleString()}`);
-    
-    // Simulate sending to a backend (would be replaced with actual API call)
+
     await new Promise(resolve => setTimeout(resolve, 300));
-    
+
     return true;
   } catch (error) {
     console.error('Error tracking lead:', error);
-    // Return true anyway to not block the download
     return true;
   }
 };
 
-// Function to download a document
+// Function to open a document in a new browser tab
+// Documents are HTML files designed to be printed to PDF via browser print dialog (Ctrl+P)
 export const downloadDocument = (documentId: string): boolean => {
   const url = documentUrls[documentId];
-  const backupUrl = backupDocumentUrls[documentId];
-  
-  if (!url && !backupUrl) {
+
+  if (!url) {
     console.error(`No URL found for document ID: ${documentId}`);
     return false;
   }
-  
-  const document = documents.find(doc => doc.id === documentId);
-  if (!document) {
+
+  const doc = documents.find(d => d.id === documentId);
+  if (!doc) {
     console.error(`Document not found with ID: ${documentId}`);
     return false;
   }
-  
-  const isDocx = document.fileType === 'DOCX';
-  const fileExtension = isDocx ? 'docx' : 'pdf';
-  const fileType = isDocx ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' : 'application/pdf';
-  
-  // Clean file naming
-  const fileName = `${document.title.replace(/[^a-zA-Z0-9_]/g, '_')}.${fileExtension}`;
-  
+
   try {
-    // Attempt primary download method
-    // 1. Create an anchor element with download attribute
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = fileName;
-    a.target = '_blank';
-    a.setAttribute('type', fileType);
-    
-    // 2. Append to body, click, and remove
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    
-    // 3. Also open in a new tab as a fallback for browsers that block downloads
-    setTimeout(() => {
-      window.open(url, '_blank');
-    }, 100); // Small delay to prevent browsers from blocking multiple popups
-    
-    console.log(`Started download for: ${documentId} - ${fileName}`);
-    
-    // Track successful download attempt
+    // Open the HTML document in a new tab
+    // User can then use Ctrl+P → Save as PDF to get the final PDF
+    window.open(url, '_blank');
+
+    console.log(`Opened document: ${documentId} - ${doc.title}`);
+
     localStorage.setItem('last_document_download', JSON.stringify({
       id: documentId,
-      title: document.title,
+      title: doc.title,
       timestamp: new Date().toISOString(),
       url: url
     }));
-    
+
     return true;
-  } catch (primaryError) {
-    console.error(`Primary download method failed for ${documentId}:`, primaryError);
-    
-    // Try backup URL and method if primary fails
-    try {
-      console.log(`Attempting backup download for: ${documentId}`);
-      window.open(backupUrl || url, '_blank');
-      
-      // Track fallback download attempt
-      localStorage.setItem('last_document_download', JSON.stringify({
-        id: documentId,
-        title: document.title,
-        timestamp: new Date().toISOString(),
-        url: backupUrl || url,
-        fallback: true
-      }));
-      
-      return true;
-    } catch (backupError) {
-      console.error(`All download methods failed for ${documentId}:`, backupError);
-      return false;
-    }
+  } catch (error) {
+    console.error(`Failed to open document ${documentId}:`, error);
+    return false;
   }
 };

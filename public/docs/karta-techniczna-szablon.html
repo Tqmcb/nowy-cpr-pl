@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Szablon Karty Technicznej Wyrobu Budowlanego | CPR 2024/3110</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; font-size: 10pt; color: #1a1a1a; background: #fff; padding: 18mm 20mm; }
+  h1 { font-size: 14pt; font-weight: bold; text-align: center; margin-bottom: 4px; }
+  .subtitle { text-align: center; font-size: 9pt; color: #555; margin-bottom: 20px; }
+  h2 { font-size: 11pt; font-weight: bold; margin: 18px 0 8px 0; color: #fff; background: #2d3748; padding: 6px 10px; }
+  h3 { font-size: 10pt; font-weight: bold; margin: 12px 0 6px 0; color: #2d3748; border-left: 4px solid #f59e0b; padding-left: 8px; }
+  p { margin-bottom: 8px; font-size: 9.5pt; line-height: 1.5; }
+  ul, ol { margin: 6px 0 10px 20px; font-size: 9.5pt; line-height: 1.6; }
+  li { margin-bottom: 3px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+  th { background: #4a5568; color: #fff; padding: 6px 8px; text-align: left; font-size: 9pt; }
+  td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; font-size: 9pt; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .note { font-size: 8.5pt; color: #555; background: #fffbeb; border-left: 3px solid #f59e0b; padding: 8px 10px; margin: 10px 0; }
+  .important { background: #ebf8ff; border: 1px solid #90cdf4; padding: 8px 10px; margin: 10px 0; font-size: 9pt; }
+  .footer { margin-top: 24px; font-size: 8pt; color: #888; text-align: center; border-top: 1px solid #ccc; padding-top: 8px; }
+  .art-ref { font-size: 8pt; color: #888; font-style: italic; }
+  .section { margin-bottom: 14px; }
+  .field { margin: 5px 0; display: flex; align-items: baseline; gap: 6px; }
+  .field label { font-weight: bold; min-width: 200px; font-size: 9pt; flex-shrink: 0; }
+  .field-line { border-bottom: 1px solid #bbb; flex-grow: 1; min-width: 80px; height: 16px; }
+  .empty-row td { height: 24px; }
+  .header-box { border: 2px solid #2d3748; padding: 12px 14px; margin-bottom: 16px; }
+  .header-grid { display: flex; gap: 16px; flex-wrap: wrap; }
+  .header-left { flex: 2; min-width: 200px; }
+  .header-right { flex: 1; min-width: 120px; text-align: center; border: 1px dashed #aaa; padding: 10px; }
+  .logo-placeholder { border: 1px dashed #ccc; height: 50px; display: flex; align-items: center; justify-content: center; color: #aaa; font-size: 8.5pt; }
+  .revision-table td, .revision-table th { font-size: 8.5pt; padding: 4px 6px; }
+  @media print { body { padding: 12mm 15mm; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header-box">
+  <div class="header-grid">
+    <div class="header-left">
+      <div class="logo-placeholder">[LOGO PRODUCENTA]</div>
+      <div style="margin-top: 8px;">
+        <div class="field"><label style="min-width:130px;">Producent:</label><div class="field-line"></div></div>
+        <div class="field"><label style="min-width:130px;">Adres:</label><div class="field-line"></div></div>
+        <div class="field"><label style="min-width:130px;">Tel./e-mail:</label><div class="field-line"></div></div>
+        <div class="field"><label style="min-width:130px;">www:</label><div class="field-line"></div></div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div style="font-weight:bold; font-size:9pt; margin-bottom:6px;">KARTA TECHNICZNA</div>
+      <div style="font-size:8pt; line-height:1.8;">
+        Nr dokumentu: <div class="field-line" style="display:inline-block; width:80px;"></div><br>
+        Wydanie: <div class="field-line" style="display:inline-block; width:80px;"></div><br>
+        Data wydania: <div class="field-line" style="display:inline-block; width:80px;"></div><br>
+        Strona: 1 z <div class="field-line" style="display:inline-block; width:30px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 style="margin-bottom: 2px;">KARTA TECHNICZNA WYROBU BUDOWLANEGO</h1>
+<div class="subtitle">Technical Data Sheet (TDS) | Zgodna z wymaganiami CPR (UE) 2024/3110<br>
+Wzór edukacyjny NowyCPR.pl</div>
+
+<div class="note">
+  ⚠️ Przed użyciem uzupełnij wszystkie pola. Karta techniczna powinna być spójna z treścią deklaracji DoP&amp;C.
+  Dane techniczne powinny być poparte wynikami badań lub obliczeniami zgodnie z normą zharmonizowaną.
+</div>
+
+<h2>1. IDENTYFIKACJA WYROBU</h2>
+<div class="section">
+  <div class="field"><label>Nazwa handlowa wyrobu:</label><div class="field-line"></div></div>
+  <div class="field"><label>Typ / Model:</label><div class="field-line"></div></div>
+  <div class="field"><label>Kod EAN / Nr katalogowy:</label><div class="field-line"></div></div>
+  <div class="field"><label>Zamierzone zastosowanie:</label><div class="field-line"></div></div>
+  <div class="field"><label>Norma zharmonizowana / EAD:</label><div class="field-line"></div></div>
+  <div class="field"><label>System AVS (Zał. IX CPR 2024/3110):</label><div class="field-line"></div></div>
+  <div class="field"><label>Nr DoP&amp;C / link cyfrowy DoP&amp;C:</label><div class="field-line"></div></div>
+</div>
+
+<h2>2. OPIS WYROBU I SKŁAD</h2>
+<div class="section">
+  <div class="field"><label>Rodzaj wyrobu / materiał:</label><div class="field-line"></div></div>
+  <div class="field"><label>Postać dostarczania (proszek/pasta/płyta/...):</label><div class="field-line"></div></div>
+  <div class="field"><label>Główne składniki (bez SVHC):</label><div class="field-line"></div></div>
+  <table style="margin-top: 8px;">
+    <thead><tr><th>Składnik</th><th>Zawartość (%)</th><th>Uwagi</th></tr></thead>
+    <tbody>
+      <tr class="empty-row"><td></td><td></td><td></td></tr>
+      <tr class="empty-row"><td></td><td></td><td></td></tr>
+      <tr class="empty-row"><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <div class="field" style="margin-top:6px;"><label>Substancje SVHC (&gt;0,1% w/w):</label><div class="field-line"></div></div>
+  <div class="note" style="margin:4px 0;">Substancje SVHC — lista kandydatów: echa.europa.eu | Art. 15 ust. 6 CPR 2024/3110</div>
+</div>
+
+<h2>3. WŁAŚCIWOŚCI TECHNICZNE (ZASADNICZE CHARAKTERYSTYKI)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:35%">Charakterystyka</th>
+      <th style="width:20%">Wartość / klasa</th>
+      <th style="width:15%">Jednostka</th>
+      <th style="width:20%">Metoda / norma badań</th>
+      <th style="width:10%">NPD*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td style="text-align:center;">□</td></tr>
+  </tbody>
+</table>
+<p class="art-ref">* NPD = No Performance Determined (brak określonej właściwości użytkowej) — zgodnie z art. 15 CPR 2024/3110</p>
+
+<h2>4. WYMIARY I TOLERANCJE</h2>
+<table>
+  <thead><tr><th>Parametr</th><th>Wartość nominalna</th><th>Tolerancja</th><th>Jednostka</th></tr></thead>
+  <tbody>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>5. WARUNKI STOSOWANIA I PRZECHOWYWANIA</h2>
+<div class="section">
+  <div class="field"><label>Temperatura stosowania:</label><div class="field-line"></div></div>
+  <div class="field"><label>Wilgotność względna podczas stosowania:</label><div class="field-line"></div></div>
+  <div class="field"><label>Temperatura przechowywania:</label><div class="field-line"></div></div>
+  <div class="field"><label>Termin przydatności do użycia:</label><div class="field-line"></div></div>
+  <div class="field"><label>Wymagania dot. podłoża:</label><div class="field-line"></div></div>
+  <div class="field"><label>Inne ograniczenia stosowania:</label><div class="field-line"></div></div>
+</div>
+
+<h2>6. APLIKACJA I ZALECENIA MONTAŻU</h2>
+<div class="section">
+  <div class="field"><label>Sposób aplikacji / montażu:</label><div class="field-line"></div></div>
+  <div class="field"><label>Zużycie (jeśli dotyczy):</label><div class="field-line"></div></div>
+  <div class="field"><label>Narzędzia / sprzęt:</label><div class="field-line"></div></div>
+  <div class="field"><label>Wymagane kwalifikacje wykonawcy:</label><div class="field-line"></div></div>
+</div>
+
+<h2>7. INFORMACJE BHP I ŚRODOWISKOWE</h2>
+<div class="section">
+  <div class="field"><label>Karta charakterystyki (SDS) dostępna:</label><div class="field-line"></div></div>
+  <div class="field"><label>Klasa reakcji na ogień:</label><div class="field-line"></div></div>
+  <div class="field"><label>Utylizacja i odpady:</label><div class="field-line"></div></div>
+  <div class="field"><label>Link do EPD (jeśli dotyczy):</label><div class="field-line"></div></div>
+</div>
+
+<h2>8. OZNAKOWANIE CE I CERTYFIKACJA</h2>
+<div class="section">
+  <div class="field"><label>Symbol CE umieszczony na:</label><div class="field-line"></div></div>
+  <div class="field"><label>Numer jednostki notyfikowanej (jeśli dotyczy):</label><div class="field-line"></div></div>
+  <div class="field"><label>Nr certyfikatu (jeśli dotyczy):</label><div class="field-line"></div></div>
+  <div class="field"><label>Rok nadania oznakowania CE:</label><div class="field-line"></div></div>
+</div>
+
+<h2>9. HISTORIA REWIZJI DOKUMENTU</h2>
+<table class="revision-table">
+  <thead><tr><th>Rewizja</th><th>Data</th><th>Opis zmian</th><th>Autor</th><th>Zatwierdził</th></tr></thead>
+  <tbody>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="important">
+  💡 <strong>Pamiętaj:</strong> Karta techniczna powinna być zawsze spójna z treścią DoP&amp;C. Wszelkie zmiany właściwości deklarowanych wymagają aktualizacji obu dokumentów jednocześnie.
+  Dokumentację przechowuj przez <strong>10 lat</strong> od daty dostarczenia wyrobu (art. 20 ust. 4 CPR 2024/3110).
+</div>
+
+<div class="footer">
+  Szablon przygotowany przez NowyCPR.pl — www.nowycpr.pl | biuro@multicert.pl | Multicert Sp. z o.o.<br>
+  Podstawa: Rozporządzenie (UE) 2024/3110 | Luty 2026
+  <div class="no-print" style="margin-top:8px; color:#555;">💡 Drukuj (Ctrl+P) → Zapisz jako PDF</div>
+</div>
+
+</body>
+</html>

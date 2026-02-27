@@ -39,6 +39,8 @@ const getFileIcon = (fileType: string) => {
       return <File className="w-6 h-6 text-blue-400" />;
     case 'xlsx':
       return <File className="w-6 h-6 text-green-400" />;
+    case 'html':
+      return <FileText className="w-6 h-6 text-amber-400" />;
     default:
       return <FileText className="w-6 h-6 text-slate-400" />;
   }
@@ -219,16 +221,16 @@ export function DocumentsPage() {
                   </div>
                   <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-3 gap-2 text-center">
                     <div>
-                      <div className="text-lg font-bold text-white">PDF</div>
-                      <p className="text-slate-500 text-xs">formaty</p>
+                      <div className="text-lg font-bold text-white">HTML</div>
+                      <p className="text-slate-500 text-xs">szablony</p>
                     </div>
                     <div>
-                      <div className="text-lg font-bold text-white">DOCX</div>
-                      <p className="text-slate-500 text-xs">edytowalne</p>
+                      <div className="text-lg font-bold text-white">→PDF</div>
+                      <p className="text-slate-500 text-xs">wydruk</p>
                     </div>
                     <div>
-                      <div className="text-lg font-bold text-white">XLSX</div>
-                      <p className="text-slate-500 text-xs">arkusze</p>
+                      <div className="text-lg font-bold text-white">PL</div>
+                      <p className="text-slate-500 text-xs">język</p>
                     </div>
                   </div>
                 </div>
@@ -251,11 +253,11 @@ export function DocumentsPage() {
             <div className="glass-card p-4 mb-8 flex items-start gap-3">
               <Info className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-sm text-white font-medium mb-1">Informacja</p>
+                <p className="text-sm text-white font-medium mb-1">Jak korzystać z dokumentów?</p>
                 <p className="text-sm text-slate-400">
-                  Obecnie prezentujemy przykładowe dokumenty. Pełne szablony dokumentów zgodne z CPR (EU) 2024/3110
-                  są w przygotowaniu i będą dostępne wkrótce. Dokumenty będą regularnie aktualizowane
-                  zgodnie z najnowszymi interpretacjami rozporządzenia.
+                  Dokumenty otwierają się w przeglądarce jako strona HTML gotowa do wydruku.
+                  Aby zapisać jako PDF: otwórz dokument → naciśnij <strong className="text-slate-300">Ctrl+P</strong> → wybierz <strong className="text-slate-300">„Zapisz jako PDF"</strong>.
+                  Szablony są edukacyjne — dostosuj je do swojego wyrobu i normy zharmonizowanej przed użyciem.
                 </p>
               </div>
             </div>
@@ -280,9 +282,9 @@ export function DocumentsPage() {
                   className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all appearance-none cursor-pointer"
                 >
                   <option value="all" className="bg-slate-800">Wszystkie typy</option>
+                  <option value="HTML" className="bg-slate-800">HTML (→ PDF)</option>
                   <option value="PDF" className="bg-slate-800">PDF</option>
                   <option value="DOCX" className="bg-slate-800">DOCX</option>
-                  <option value="XLSX" className="bg-slate-800">XLSX</option>
                 </select>
               </div>
             </div>
@@ -328,7 +330,7 @@ export function DocumentsPage() {
                 },
                 {
                   question: "Jakie są główne zmiany w CPR (EU) 2024/3110 w zakresie dokumentacji?",
-                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje właściwości użytkowych (Digital DoP), rozszerzone wymagania dotyczące informacji o zrównoważonym rozwoju i właściwościach środowiskowych oraz nowe systemy oceny i weryfikacji stałości właściwości użytkowych (AVCP)."
+                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 16), obowiązek ujawniania substancji SVHC (art. 15 ust. 6), nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 75–80) oraz unikalny identyfikator wyrobu (art. 22 ust. 5)."
                 },
                 {
                   question: "Czy mogę modyfikować pobrane szablony dokumentów?",
@@ -419,8 +421,8 @@ export function DocumentsPage() {
                 </div>
 
                 <p className="text-slate-400 mb-6">
-                  Podaj swój adres email, aby otrzymać przykładowy dokument.
-                  Na podany adres wyślemy również powiadomienie o dostępności pełnych szablonów.
+                  Podaj swój adres email, aby otworzyć szablon dokumentu.
+                  Dokument otworzy się w nowej karcie — zapisz go jako PDF używając Ctrl+P.
                 </p>
 
                 <form onSubmit={handleEmailSubmit}>
@@ -463,7 +465,8 @@ export function DocumentsPage() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">Dziękujemy!</h3>
                 <p className="text-slate-400 mb-6">
-                  Dokument <span className="font-semibold text-white">{selectedDocument?.title}</span> został wysłany do pobrania.
+                  Dokument <span className="font-semibold text-white">{selectedDocument?.title}</span> otworzył się w nowej karcie.
+                  Użyj <strong className="text-slate-300">Ctrl+P → Zapisz jako PDF</strong> aby zapisać.
                 </p>
                 <div className="flex flex-col gap-3">
                   <Button
