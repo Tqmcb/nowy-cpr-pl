@@ -145,7 +145,7 @@ const documentUrls: Record<string, string> = {
   "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
   "user-instructions":  "/docs/instrukcja-uzytkownika-art25.html",
   "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html",
-  "commission-work-plan": "/docs/plan-prac-komisji-cpr-2026-2029.html"
+  "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
 // Function to track email leads with improved error handling
