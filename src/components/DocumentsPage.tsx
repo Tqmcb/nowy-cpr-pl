@@ -120,35 +120,33 @@ export function DocumentsPage() {
       return;
     }
 
-    trackLead(email, selectedDocumentId)
-      .then(success => {
-        if (success) {
-          try {
-            const downloadResult = downloadDocument(selectedDocumentId);
+    // Otwórz dokument SYNCHRONICZNIE — w bezpośrednim kontekście kliknięcia,
+    // zanim jakikolwiek kod async zdąży przerwać "user gesture" i spowodować
+    // zablokowanie window.open() przez popup blocker przeglądarki.
+    try {
+      const downloadResult = downloadDocument(selectedDocumentId);
+      if (!downloadResult) {
+        setFormError("Wystąpił błąd podczas otwierania dokumentu. Proszę spróbować ponownie.");
+        return;
+      }
+    } catch (downloadError) {
+      console.error("Błąd podczas otwierania dokumentu:", downloadError);
+      setFormError("Nie udało się otworzyć dokumentu. Sprawdź czy dokument istnieje.");
+      return;
+    }
 
-            if (downloadResult) {
-              setDownloadSuccess(true);
-              setFormError("");
+    setDownloadSuccess(true);
+    setFormError("");
 
-              setTimeout(() => {
-                setShowEmailForm(false);
-                setEmail("");
-              }, 3000);
-            } else {
-              setFormError("Wystąpił błąd podczas pobierania dokumentu. Proszę spróbować ponownie.");
-            }
-          } catch (downloadError) {
-            console.error("Błąd podczas pobierania dokumentu:", downloadError);
-            setFormError("Nie udało się pobrać dokumentu. Sprawdź czy dokument istnieje.");
-          }
-        } else {
-          setFormError("Wystąpił błąd podczas zapisywania adresu email. Proszę spróbować ponownie.");
-        }
-      })
-      .catch(error => {
-        console.error("Nieoczekiwany błąd podczas przetwarzania żądania:", error);
-        setFormError("Wystąpił nieoczekiwany błąd. Proszę spróbować ponownie.");
-      });
+    // Zapisz lead asynchronicznie (po otwarciu dokumentu — nie blokuje UI)
+    trackLead(email, selectedDocumentId).catch(err =>
+      console.error("Błąd zapisu leada:", err)
+    );
+
+    setTimeout(() => {
+      setShowEmailForm(false);
+      setEmail("");
+    }, 3000);
   };
 
   const closeModal = () => {
