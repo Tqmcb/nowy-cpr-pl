@@ -1,7 +1,7 @@
 ---
 title: "Kary za naruszenie CPR 2024 — co grozi producentowi i dystrybutorowi od 2027 roku"
 date: "2026-03-04"
-author: "mec. Paweł Szczepański"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["kary", "sankcje", "CPR 2024", "nadzór rynku", "GUNB", "naruszenie"]
 excerpt: "CPR 2024/3110 wprowadza znacznie surowsze sankcje niż stare rozporządzenie. Od 8 stycznia 2027 organy nadzoru mogą nakładać kary na producentów, importerów i dystrybutorów. Sprawdź co grozi i za co dokładnie."

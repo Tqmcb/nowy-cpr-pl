@@ -1,7 +1,7 @@
 ---
 title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
 date: "2025-11-20"
-author: "mgr Agnieszka Kowalczyk"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."

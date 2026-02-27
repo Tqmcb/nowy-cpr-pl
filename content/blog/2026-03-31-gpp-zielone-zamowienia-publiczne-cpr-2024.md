@@ -1,7 +1,7 @@
 ---
 title: "Zielone zamówienia publiczne (GPP) a CPR 2024 — jak GWP staje się kryterium przetargowym"
 date: "2026-03-31"
-author: "mgr inż. Anna Nowak"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GPP", "zielone zamówienia publiczne", "GWP", "CPR 2024", "EPD", "przetargi"]
 excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy formalne podstawy do stosowania wskaźników środowiskowych, takich jak GWP, jako kryteriów oceny ofert w przetargach — a producenci bez EPD mogą wkrótce być wykluczani z dużych projektów."

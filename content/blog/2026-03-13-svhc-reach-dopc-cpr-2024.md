@@ -1,7 +1,7 @@
 ---
 title: "SVHC i REACH w nowej DoP&C — co deklarować i kiedy"
 date: "2026-03-13"
-author: "dr Joanna Pietrzak"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Bezpieczeństwo"
 tags: ["SVHC", "REACH", "substancje niebezpieczne", "CPR 2024", "DoP&C"]
 excerpt: "CPR 2024/3110 po raz pierwszy wprowadza do Deklaracji Właściwości i Zgodności obowiązek deklarowania substancji wzbudzających szczególnie duże obawy (SVHC) obecnych w wyrobie powyżej progu 0,1% wagowo. Dowiedz się, czym są SVHC, jak sprawdzić listę kandydacką ECHA i jak powiązać ten wymóg z bazą SCIP."

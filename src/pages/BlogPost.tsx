@@ -9,6 +9,7 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
+  Shield, ExternalLink,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 
@@ -286,7 +287,70 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           Kontakt <ChevronRight className="w-4 h-4" />
         </button>
       </div>
+      <MulticertBoxDark />
     </>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// MULTICERT CREDIBILITY BOX — reusable, shown in all article sidebars
+// ────────────────────────────────────────────────────────────────────────────
+
+function MulticertBoxDark() {
+  return (
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+      <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+        <Shield className="w-3.5 h-3.5 text-amber-400" /> Wydawca
+      </h4>
+      <div className="space-y-2">
+        <p className="text-slate-200 text-sm font-medium">Multicert Sp. z o.o.</p>
+        <p className="text-slate-400 text-xs leading-relaxed">
+          Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
+        </p>
+        <div className="flex items-center gap-2 mt-2">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/25 font-mono">
+            PCA nr AC 210
+          </span>
+        </div>
+        <a
+          href="https://www.multicert.com.pl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 transition-colors mt-2"
+        >
+          <ExternalLink className="w-3 h-3" /> www.multicert.com.pl
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function MulticertBoxLight() {
+  return (
+    <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+      <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+        <Shield className="w-3.5 h-3.5 text-blue-600" /> Wydawca
+      </h4>
+      <div className="space-y-2">
+        <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
+        <p className="text-slate-500 text-xs leading-relaxed">
+          Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
+        </p>
+        <div className="flex items-center gap-2 mt-2">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200 font-mono">
+            PCA nr AC 210
+          </span>
+        </div>
+        <a
+          href="https://www.multicert.com.pl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 text-xs text-blue-600 hover:text-blue-700 transition-colors mt-2"
+        >
+          <ExternalLink className="w-3 h-3" /> www.multicert.com.pl
+        </a>
+      </div>
+    </div>
   );
 }
 
@@ -485,6 +549,7 @@ function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: 
                   Kontakt <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
+              <MulticertBoxLight />
             </aside>
           </div>
         </div>
@@ -597,6 +662,7 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
                   Kontakt <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
+              <MulticertBoxDark />
             </aside>
           </div>
         </div>
@@ -817,6 +883,7 @@ function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate:
                   Kontakt <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
+              <MulticertBoxLight />
             </aside>
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 title: "FPC — Zakładowa Kontrola Produkcji w małym zakładzie produkcyjnym krok po kroku"
 date: "2026-04-06"
-author: "mgr inż. Tomasz Wiśniewski"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["FPC", "zakładowa kontrola produkcji", "CPR 2024", "producent", "certyfikacja"]
 excerpt: "Zakładowa Kontrola Produkcji (FPC) to obowiązkowy element systemu oznakowania CE dla wyrobów budowlanych i jeden z najczęstszych powodów problemów podczas audytów jednostek notyfikowanych. Praktyczny przewodnik dla małych producentów wyjaśnia, co musi zawierać dokumentacja FPC i jak przygotować się na wizytę audytorów."

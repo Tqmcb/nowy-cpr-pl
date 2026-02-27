@@ -1,7 +1,7 @@
 ---
 title: "Certyfikacja wyrobów budowlanych krok po kroku — od badań ITT do oznakowania CE"
 date: "2026-04-21"
-author: "mgr inż. Tomasz Wiśniewski"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["certyfikacja", "ITT", "oznakowanie CE", "CPR 2024", "jednostka notyfikowana"]
 excerpt: "Uzyskanie oznakowania CE dla wyrobu budowlanego to proces wieloetapowy, obejmujący wybór normy zharmonizowanej, badania typu, wdrożenie zakładowej kontroli produkcji i sporządzenie deklaracji DoP&C. Omawiamy każdy krok procesu certyfikacji zgodnie z CPR 2024/3110, podajemy szacunkowe harmonogramy i wskazujemy najczęstsze błędy."

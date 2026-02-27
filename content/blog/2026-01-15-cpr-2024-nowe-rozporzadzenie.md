@@ -1,7 +1,7 @@
 ---
 title: "CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych"
 date: "2026-01-15"
-author: "mgr inż. Tomasz Kowalski"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Wymagania"
 tags: ["CPR", "2024", "regulacje", "nowe wymagania", "AVS", "DoP&C"]
 excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram wdrożenia do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."

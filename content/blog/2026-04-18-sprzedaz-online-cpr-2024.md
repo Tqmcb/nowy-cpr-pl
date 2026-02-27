@@ -1,7 +1,7 @@
 ---
 title: "Sprzedaż wyrobów budowlanych online — obowiązki sprzedawcy w CPR 2024"
 date: "2026-04-18"
-author: "mec. Paweł Szczepański"
+author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["sprzedaż online", "e-commerce", "CPR 2024", "dystrybutor", "obowiązki sprzedawcy"]
 excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający produkty na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing produktu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
