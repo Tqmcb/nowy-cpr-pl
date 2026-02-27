@@ -83,6 +83,42 @@ export const documents: Document[] = [
     fileType: "HTML",
     language: "PL",
     updatedAt: "02.2026"
+  },
+  {
+    id: "importer-dopc",
+    title: "Szablon DoP&C dla importera (Art. 17 CPR 2024/3110)",
+    description: "Wzór deklaracji właściwości użytkowych i zgodności wystawianej przez importera wprowadzającego wyrób pod własną marką lub modyfikującego wyrób (art. 16 ust. 3-4 i art. 17 CPR 2024/3110). Importer przejmuje pełną odpowiedzialność producenta.",
+    icon: "🔵",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "02.2026"
+  },
+  {
+    id: "tech-file",
+    title: "Struktura dokumentacji technicznej (Art. 21 CPR 2024/3110)",
+    description: "Szablon wewnętrznego pliku technicznego wymaganego przez art. 21 CPR 2024/3110. Zawiera listę kontrolną dokumentów, opis wyrobu, wyniki badań, certyfikaty NB i oświadczenie o kompletności. Przechowywać 10 lat od daty dostarczenia wyrobu.",
+    icon: "🗂️",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "02.2026"
+  },
+  {
+    id: "user-instructions",
+    title: "Instrukcja dla profesjonalnych użytkowników (Art. 25 CPR 2024/3110)",
+    description: "Wzór instrukcji stosowania wyrobu budowlanego zgodny z art. 25 CPR 2024/3110. Obejmuje zamierzone zastosowanie, instrukcję montażu, wymagania BHP, warunki przechowywania, informacje środowiskowe i dane kontaktowe producenta.",
+    icon: "📘",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "02.2026"
+  },
+  {
+    id: "auth-rep-mandate",
+    title: "Mandat upoważnionego przedstawiciela (Art. 23 CPR 2024/3110)",
+    description: "Wzór pisemnego mandatu upoważnionego przedstawiciela dla producentów spoza UE zgodny z art. 23 CPR 2024/3110. Zawiera zakres upoważnienia, czas obowiązywania, zakazy mandatowe (brak uprawnień do FPC i oceny właściwości).",
+    icon: "📜",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "02.2026"
   }
 ];
 
@@ -95,7 +131,11 @@ const documentUrls: Record<string, string> = {
   "checklist":     "/docs/lista-kontrolna-cpr2024.html",
   "edp-template":  "/docs/epd-szablon.html",
   "dpp-guide":     "/docs/dpp-przewodnik.html",
-  "avcp-systems":  "/docs/avs-systemy-przewodnik.html"
+  "avcp-systems":       "/docs/avs-systemy-przewodnik.html",
+  "importer-dopc":      "/docs/importer-dopc-szablon.html",
+  "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
+  "user-instructions":  "/docs/instrukcja-uzytkownika-art25.html",
+  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html"
 };
 
 // Function to track email leads with improved error handling
