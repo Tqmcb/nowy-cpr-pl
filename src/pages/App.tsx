@@ -99,6 +99,18 @@ function HomePage() {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative min-h-[90vh] flex items-center gradient-hero particles-bg overflow-hidden pt-24">
+          {/* Hero Photo Background - subtle construction site texture */}
+          <div className="absolute inset-0 pointer-events-none">
+            <img
+              src="/images/hero-bg.jpg"
+              alt=""
+              aria-hidden="true"
+              className="w-full h-full object-cover object-center opacity-[0.12]"
+            />
+            {/* Extra dark gradient on top of photo to preserve text contrast */}
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/40 to-slate-900/60"></div>
+          </div>
+
           {/* Animated Background Elements */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-float"></div>
@@ -168,19 +180,26 @@ function HomePage() {
                   {/* Glow Effect */}
                   <div className="absolute -inset-1 bg-gradient-to-r from-amber-400/20 via-blue-500/20 to-emerald-400/20 rounded-2xl blur-xl opacity-60"></div>
 
-                  <div className="relative aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                    {/* Infographic Content */}
-                    <div className="text-center p-8">
-                      <div className="w-24 h-24 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg shadow-amber-500/30">
-                        <ClipboardList className="w-12 h-12 text-slate-900" />
+                  <div className="relative aspect-video rounded-xl overflow-hidden">
+                    {/* Construction site photo */}
+                    <img
+                      src="/images/hero-construction.jpg"
+                      alt="Nowoczesna budowa — wyroby budowlane CPR 2024/3110"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
+                    />
+                    {/* Gradient overlay — darker at bottom for text legibility */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/95 via-slate-900/50 to-slate-900/20"></div>
+                    {/* Content overlay */}
+                    <div className="relative flex flex-col items-center justify-end h-full p-6 text-center">
+                      <div className="w-14 h-14 mx-auto mb-3 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg shadow-amber-500/40">
+                        <ClipboardList className="w-7 h-7 text-slate-900" />
                       </div>
-                      <h3 className="text-xl font-bold text-white mb-2">CPR (EU) 2024/3110</h3>
-                      <p className="text-slate-400 text-sm">Rozporządzenie w sprawie wyrobów budowlanych</p>
-
+                      <h3 className="text-lg font-bold text-white mb-1">CPR (EU) 2024/3110</h3>
+                      <p className="text-slate-300 text-xs mb-4">Rozporządzenie w sprawie wyrobów budowlanych</p>
                       {/* Feature Pills */}
-                      <div className="flex flex-wrap justify-center gap-2 mt-6">
+                      <div className="flex flex-wrap justify-center gap-2">
                         {["Digital DoP", "Oznakowanie CE", "Paszport produktu"].map((tag) => (
-                          <span key={tag} className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-slate-300">
+                          <span key={tag} className="px-3 py-1 rounded-full bg-black/40 border border-white/20 text-xs text-slate-200 backdrop-blur-sm">
                             {tag}
                           </span>
                         ))}

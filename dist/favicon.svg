@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Tło: dark slate -->
+  <rect width="32" height="32" rx="6" fill="#0F172A"/>
+  <!-- Litera N - amber -->
+  <text x="16" y="23" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" text-anchor="middle" fill="#F59E0B">N</text>
+  <!-- Dolna kreska akcentująca -->
+  <rect x="6" y="27" width="20" height="2" rx="1" fill="#F59E0B" opacity="0.6"/>
+</svg>

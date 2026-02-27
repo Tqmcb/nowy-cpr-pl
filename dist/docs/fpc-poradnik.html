@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poradnik FPC — Zakładowa Kontrola Produkcji | CPR 2024/3110</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; font-size: 10pt; color: #1a1a1a; background: #fff; padding: 18mm 20mm; }
+  h1 { font-size: 14pt; font-weight: bold; text-align: center; margin-bottom: 4px; }
+  .subtitle { text-align: center; font-size: 9pt; color: #555; margin-bottom: 20px; }
+  h2 { font-size: 11pt; font-weight: bold; margin: 18px 0 8px 0; color: #fff; background: #2d3748; padding: 6px 10px; }
+  h3 { font-size: 10pt; font-weight: bold; margin: 12px 0 6px 0; color: #2d3748; border-left: 4px solid #f59e0b; padding-left: 8px; }
+  p { margin-bottom: 8px; font-size: 9.5pt; line-height: 1.5; }
+  ul, ol { margin: 6px 0 10px 20px; font-size: 9.5pt; line-height: 1.6; }
+  li { margin-bottom: 3px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+  th { background: #4a5568; color: #fff; padding: 6px 8px; text-align: left; font-size: 9pt; }
+  td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; font-size: 9pt; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .note { font-size: 8.5pt; color: #555; background: #fffbeb; border-left: 3px solid #f59e0b; padding: 8px 10px; margin: 10px 0; }
+  .important { background: #ebf8ff; border: 1px solid #90cdf4; padding: 8px 10px; margin: 10px 0; font-size: 9pt; }
+  .footer { margin-top: 24px; font-size: 8pt; color: #888; text-align: center; border-top: 1px solid #ccc; padding-top: 8px; }
+  .art-ref { font-size: 8pt; color: #888; font-style: italic; }
+  .badge { display: inline-block; background: #f59e0b; color: #000; font-weight: bold; font-size: 8pt; padding: 1px 7px; border-radius: 3px; }
+  @media print { body { padding: 12mm 15mm; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+
+<h1>PORADNIK: ZAKŁADOWA KONTROLA PRODUKCJI (FPC)</h1>
+<div class="subtitle">Factory Production Control | Zgodny z art. 20 ust. 3 Rozporządzenia (UE) 2024/3110 (CPR 2024/3110)<br>
+dla producentów wyrobów budowlanych | NowyCPR.pl</div>
+
+<div class="note">
+  <strong>Podstawa prawna:</strong> Art. 20 ust. 3 CPR 2024/3110 — producent wdraża, dokumentuje i utrzymuje system FPC zapewniający stałość właściwości użytkowych wyrobu.
+  Wymagania szczegółowe określa mająca zastosowanie norma zharmonizowana lub EAD.
+</div>
+
+<h2>1. CO TO JEST FPC I DLACZEGO JEST OBOWIĄZKOWE?</h2>
+
+<p>Zakładowa kontrola produkcji (FPC, ang. Factory Production Control) to udokumentowany, ciągły wewnętrzny system zarządzania produkcją, obejmujący procedury, regularne inspekcje i badania oraz wykorzystanie ich wyników w celu zapewnienia stałości właściwości użytkowych wyrobu.</p>
+
+<p><strong>FPC jest obowiązkowe dla wszystkich producentów</strong> wyrobów budowlanych objętych normą zharmonizowaną lub EAD, we wszystkich systemach AVS (1+, 1, 2+, 3, 3+, 4).</p>
+
+<div class="important">
+  💡 <strong>Ważne:</strong> FPC nie jest tym samym co certyfikacja ISO 9001. FPC jest wymaganiem specyficznym dla CPR i musi odnosić się bezpośrednio do wymagań normy zharmonizowanej dla danej kategorii wyrobu.
+</div>
+
+<h2>2. MINIMALNE WYMAGANIA SYSTEMU FPC</h2>
+
+<h3>2.1. Dokumentacja wymagana w systemie FPC</h3>
+<table>
+  <thead><tr><th>Dokument</th><th>Zawartość</th><th>Uwagi</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Instrukcja FPC</strong></td><td>Opis systemu, zakres, odpowiedzialności</td><td>Dokument nadrzędny</td></tr>
+    <tr><td><strong>Plan kontroli</strong></td><td>Parametry kontrolowane, częstotliwość, metody</td><td>Wg normy zharmon.</td></tr>
+    <tr><td><strong>Procedury badań</strong></td><td>Instrukcje wykonywania badań i kontroli</td><td>Wewnętrzne/zewnętrzne</td></tr>
+    <tr><td><strong>Rejestry badań</strong></td><td>Wyniki kontroli produkcji, daty, podpisy</td><td>Min. 10 lat*</td></tr>
+    <tr><td><strong>Rejestry niezgodności</strong></td><td>Zidentyfikowane niezgodności i działania korygujące</td><td>Ciągłe prowadzenie</td></tr>
+    <tr><td><strong>Świadectwa kalibracji</strong></td><td>Dokumenty wzorcowania sprzętu pomiarowego</td><td>Wg harmonogramu</td></tr>
+  </tbody>
+</table>
+<p class="art-ref">* art. 20 ust. 4 CPR 2024/3110: dokumentację przechowywać przez 10 lat od daty dostarczenia wyrobu</p>
+
+<h3>2.2. Elementy obowiązkowe systemu FPC</h3>
+<ol>
+  <li><strong>Surowce i komponenty</strong> — kontrola wejściowa materiałów do produkcji</li>
+  <li><strong>Urządzenia produkcyjne</strong> — wykaz sprzętu, harmonogram przeglądów i kalibracji</li>
+  <li><strong>Procesy produkcji</strong> — udokumentowane procedury dla kluczowych etapów</li>
+  <li><strong>Badania wyrobów gotowych</strong> — plan i rejestry badań zgodne z normą zharmonizowaną</li>
+  <li><strong>Wyroby niezgodne</strong> — procedura postępowania z niezgodnościami</li>
+  <li><strong>Identyfikacja i identyfikowalność</strong> — system śledzenia partii produkcyjnych</li>
+  <li><strong>Działania korygujące</strong> — procedura analizy przyczyn i eliminacji niezgodności</li>
+</ol>
+
+<h2>3. PLAN KONTROLI — PRZYKŁADOWA STRUKTURA</h2>
+
+<table>
+  <thead>
+    <tr><th>Etap kontroli</th><th>Parametr</th><th>Metoda</th><th>Częstotliwość</th><th>Kryterium akceptacji</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Kontrola wejściowa</td><td>Surowce — cechy wg spec. zakupu</td><td>Wizualna + dok. dostawcy</td><td>Każda dostawa</td><td>Zgodność ze spec.</td></tr>
+    <tr><td>Kontrola procesu</td><td>Parametry technologiczne</td><td>Pomiar bezpośredni</td><td>Ciągła / na zmianie</td><td>Wg receptury/instr.</td></tr>
+    <tr><td>Kontrola wyrobu gotowego</td><td>Właściwości z normy zharmon.</td><td>Wg EN [numer normy]</td><td>Wg tabeli norm</td><td>Deklarowane wartości</td></tr>
+    <tr><td>Identyfikacja</td><td>Oznakowanie, partia, data</td><td>Wizualna</td><td>100%</td><td>Kompletność oznakowania</td></tr>
+  </tbody>
+</table>
+
+<div class="note">
+  Uzupełnij tabelę planu kontroli zgodnie z wymaganiami Załącznika ZA normy zharmonizowanej stosowanej dla Twojego wyrobu. Każda norma określa minimalne wymagania FPC w sekcji ZA.
+</div>
+
+<h2>4. FPC A SYSTEMY AVS — RÓŻNICE</h2>
+
+<table>
+  <thead><tr><th>System AVS</th><th>Rola producenta w FPC</th><th>Rola jednostki notyfikowanej</th></tr></thead>
+  <tbody>
+    <tr><td><strong>System 4</strong></td><td>Samodzielnie prowadzi pełne FPC i ITT</td><td>Brak udziału</td></tr>
+    <tr><td><strong>System 3</strong></td><td>Prowadzi FPC; zleca badania do JN laboratorium</td><td>NTL: przeprowadza ITT</td></tr>
+    <tr><td><strong>System 2+</strong></td><td>Prowadzi FPC</td><td>JN: certyfikuje FPC, nadzoruje</td></tr>
+    <tr><td><strong>System 1</strong></td><td>Prowadzi FPC</td><td>JN: certyfikuje wyrób + nadzoruje FPC</td></tr>
+    <tr><td><strong>System 1+</strong></td><td>Prowadzi FPC (najostrzejszy nadzór)</td><td>JN: certyfikuje wyrób + ciągły nadzór FPC</td></tr>
+  </tbody>
+</table>
+
+<h2>5. UPROSZCZONE FPC DLA MIKROPRZEDSIĘBIORSTW</h2>
+
+<p>Zgodnie z art. 59–60 CPR 2024/3110, mikroprzedsiębiorstwa (mniej niż 10 pracowników, obrót do 2 mln EUR) mogą stosować uproszczone procedury FPC.</p>
+
+<h3>Uproszczenia mogą obejmować:</h3>
+<ul>
+  <li>Ograniczoną dokumentację (zamiast pełnych procedur — uproszczone rejestry)</li>
+  <li>Zmniejszoną częstotliwość kontroli (przy niskim ryzyku dla bezpieczeństwa)</li>
+  <li>Zastosowanie wyników badań z zewnętrznych laboratoriów zamiast własnych</li>
+</ul>
+
+<div class="note">
+  <strong>Uwaga:</strong> Uproszczenia nie zwalniają z obowiązku prowadzenia FPC. Każda partia wyrobu musi być identyfikowalna, a właściwości użytkowe muszą pozostawać zgodne z DoP&amp;C.
+</div>
+
+<h2>6. INSPEKCJA FPC PRZEZ JEDNOSTKĘ NOTYFIKOWANĄ</h2>
+
+<p>W systemach AVS 1+, 1, 2+ jednostka notyfikowana przeprowadza inspekcje FPC. Producent powinien przygotować:</p>
+<ul>
+  <li>Pełną dokumentację FPC (instrukcja, plany, rejestry)</li>
+  <li>Wyniki badań wyrobów z ostatnich 12 miesięcy</li>
+  <li>Rejestry kalibracji sprzętu</li>
+  <li>Dokumentację działań korygujących</li>
+  <li>Rejestry szkoleń personelu</li>
+</ul>
+
+<div class="footer">
+  Poradnik przygotowany przez NowyCPR.pl — www.nowycpr.pl | biuro@multicert.pl | Multicert Sp. z o.o.<br>
+  Podstawa: Rozporządzenie (UE) 2024/3110 | Tekst: eur-lex.europa.eu | Luty 2026
+  <div class="no-print" style="margin-top:8px; color:#555;">💡 Drukuj (Ctrl+P) → Zapisz jako PDF</div>
+</div>
+
+</body>
+</html>
