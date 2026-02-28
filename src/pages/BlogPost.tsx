@@ -478,6 +478,100 @@ function MulticertBoxLight() {
 }
 
 // ────────────────────────────────────────────────────────────────────────────
+// SHARED HERO — jednolity nagłówek/hero dla wszystkich szablonów
+// Struktura: zdjęcie w tle (opacity-15) + gradient overlay + badge + tytuł + meta
+// ────────────────────────────────────────────────────────────────────────────
+
+type HeroConfig = {
+  /** Pełne klasy Tailwind dla badge'a — muszą być literalami (Tailwind purging) */
+  badgeClasses: string;
+  /** Klasa koloru dla ikon w meta (User, Calendar, Clock) np. "text-amber-400" */
+  iconAccentClass: string;
+  /** Klasa hover dla przycisku "Powrót do bloga" np. "hover:text-amber-400" */
+  buttonHoverClass: string;
+  /** Etykieta badge'a np. "Regulacja", "Przewodnik" */
+  badgeLabel: string;
+  /** Ikona lucide-react do badge'a */
+  BadgeIcon: React.ComponentType<{ className?: string }>;
+  /** Kolor końcowy gradientu overlay (dopasuj do bg strony) — domyślnie "to-slate-900" */
+  bottomBg?: string;
+};
+
+function SharedHero({
+  post,
+  navigate,
+  config,
+}: {
+  post: BlogPostType;
+  navigate: (p: string) => void;
+  config: HeroConfig;
+}) {
+  const {
+    badgeClasses,
+    iconAccentClass,
+    buttonHoverClass,
+    badgeLabel,
+    BadgeIcon,
+    bottomBg = "to-slate-900",
+  } = config;
+
+  return (
+    <div className="relative overflow-hidden">
+      {post.image_url && (
+        <div className="absolute inset-0">
+          <img
+            src={post.image_url}
+            alt=""
+            className="w-full h-full object-cover opacity-15"
+          />
+          <div
+            className={`absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/90 ${bottomBg}`}
+          />
+        </div>
+      )}
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16">
+        <button
+          onClick={() => navigate("/blog")}
+          className={`flex items-center gap-2 text-slate-400 ${buttonHoverClass} transition-colors mb-8 group text-sm`}
+        >
+          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          Powrót do bloga
+        </button>
+        <div className="flex items-center gap-3 mb-4">
+          <span
+            className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${badgeClasses}`}
+          >
+            <BadgeIcon className="w-3 h-3" /> {badgeLabel}
+          </span>
+          {post.category && (
+            <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
+              {post.category}
+            </span>
+          )}
+        </div>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl">
+          {post.title}
+        </h1>
+        <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
+          <span className="flex items-center gap-1.5">
+            <User className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            {post.author}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Calendar className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            {formatDate(post.published_at)}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Clock className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            ok. {readingTime(post.content)} min czytania
+          </span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
 // TEMPLATE 1: REGULACJA — dark navy, legal/EU document style
 // ────────────────────────────────────────────────────────────────────────────
 
