@@ -178,7 +178,7 @@ export default function Services() {
                   number: "1",
                   icon: Award,
                   title: "Certyfikacja Zakładowej Kontroli Produkcji (ZKP)",
-                  description: "Ocena i certyfikacja systemu zakładowej kontroli produkcji wyrobów budowlanych. Działamy jako przedstawiciel akredytowanych jednostek notyfikowanych ITC Zlín oraz ZDZ Cert (NB 1388) na rynek polski.",
+                  description: "Przeprowadzamy pełny proces certyfikacji ZKP — od pierwszego kontaktu do wydania certyfikatu. Obsługa w języku polskim, znajomość polskich realiów produkcyjnych.",
                   features: [
                     "Certyfikacja ZKP zgodna z wymaganiami CPR (EU) 2024/3110",
                     "Certyfikaty uznawane w całej Unii Europejskiej",
