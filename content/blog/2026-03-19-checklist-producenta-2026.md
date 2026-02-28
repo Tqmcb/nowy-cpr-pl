@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["checklist", "2026", "producent", "CPR 2024", "przygotowanie do certyfikacji"]
 excerpt: "Rok 2026 przynosi kluczowe obowiązki wynikające z CPR 2024/3110 — od cyfrowej dostępności DoP&C po nowe wymagania dotyczące kodów QR i deklarowania substancji niebezpiecznych. Skorzystaj z naszej szczegółowej checklisty i sprawdź, czy Twoja firma jest gotowa na nadchodzące zmiany regulacyjne."
-image_url: "/images/blog/certyfikacja.jpg"
+image_url: /images/blog/fabryka-fpc.jpg
 template: "przewodnik"
 ---
 

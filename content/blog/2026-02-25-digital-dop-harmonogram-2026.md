@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["Digital DoP", "DoP&C", "cyfryzacja", "2026", "QR kod"]
 excerpt: "Komisja Europejska doprecyzowała harmonogram wdrożenia cyfrowej deklaracji właściwości. Co jest już obowiązkowe, co dobrowolne, i jakie kroki warto podjąć w 2026 roku?"
-image_url: "/images/blog/cyfryzacja.jpg"
+image_url: /images/blog/digital-qr.jpg
 template: "techniczny"
 ---
 

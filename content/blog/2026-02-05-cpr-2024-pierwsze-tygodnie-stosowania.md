@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"
 tags: ["CPR 2024", "2026", "AVS", "DoP&C", "obowiązki producenta"]
 excerpt: "Od 8 stycznia 2026 rozporządzenie CPR 305/2011 zostało uchylone. CPR 2024/3110 stosuje się w pełni. Co w praktyce zmieniło się dla producentów wyrobów budowlanych?"
-image_url: "/images/blog/aktualnosci.jpg"
+image_url: /images/blog/cpr-przepisy.jpg
 template: "aktualnosci"
 ---
 

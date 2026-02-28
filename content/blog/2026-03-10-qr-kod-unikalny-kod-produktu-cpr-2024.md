@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["QR kod", "kod produktu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa"]
 excerpt: "Od 8 stycznia 2026 roku producenci wyrobów budowlanych objętych oznaczeniem CE muszą zapewnić cyfrową dostępność Deklaracji Właściwości i Zgodności (DoP&C) oraz nadać wyrobom unikalny kod identyfikacyjny. Sprawdź, jak wdrożyć te wymogi w praktyce — od generowania kodu QR po obsługę wyjątków dla małych wyrobów."
-image_url: "/images/blog/cyfryzacja.jpg"
+image_url: /images/blog/digital-qr.jpg
 template: "przewodnik"
 ---
 

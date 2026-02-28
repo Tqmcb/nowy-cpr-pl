@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["CPR", "2024", "regulacje", "nowe wymagania", "AVS", "DoP&C"]
 excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram wdrożenia do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."
-image_url: "/images/blog/prawo.jpg"
+image_url: /images/blog/cpr-przepisy.jpg
 template: "regulacja"
 ---
 

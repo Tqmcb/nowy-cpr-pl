@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["ETA", "ocena techniczna", "TAB", "ITB"]
 excerpt: "Co zrobić gdy produkt nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
-image_url: "/images/blog/certyfikacja.jpg"
+image_url: /images/blog/normy-eta.jpg
 template: "przewodnik"
 ---
 

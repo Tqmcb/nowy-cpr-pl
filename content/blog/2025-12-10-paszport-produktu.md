@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"
 tags: ["paszport produktu", "zrównoważoność", "ESG", "cyrkularność"]
 excerpt: "Czym jest paszport produktu budowlanego i jak go przygotować? Wymagania dotyczące informacji o zrównoważonym rozwoju, cyklu życia produktu i gospodarki o obiegu zamkniętym."
-image_url: "/images/blog/srodowisko.jpg"
+image_url: /images/blog/digital-qr.jpg
 template: "aktualnosci"
 ---
 
