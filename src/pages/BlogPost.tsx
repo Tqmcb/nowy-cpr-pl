@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
-  Shield, ExternalLink,
+  Shield, ExternalLink, CheckSquare,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 
@@ -219,6 +219,129 @@ const EMERALD_COMPONENTS: Components = {
   code: ({ children, className }) => {
     if (className) return <code className={`${className} text-emerald-300 text-sm font-mono`}>{children}</code>;
     return <code className="bg-slate-700/70 text-emerald-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
+  },
+};
+
+const ORANGE_COMPONENTS: Components = {
+  ...DARK_COMPONENTS,
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-orange-400/20">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-orange-400 mt-6 mb-3">{children}</h3>
+  ),
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-orange-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-orange-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  a: ({ children, href }) => (
+    <a href={href} className="text-orange-400 hover:text-orange-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-orange-400/60 bg-orange-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  th: ({ children }) => (
+    <th className="text-orange-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  code: ({ children, className }) => {
+    if (className) return <code className={`${className} text-orange-300 text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-700/70 text-orange-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
+  },
+};
+
+const ROSE_COMPONENTS: Components = {
+  ...DARK_COMPONENTS,
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-rose-400/20">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-rose-400 mt-6 mb-3">{children}</h3>
+  ),
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-rose-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-rose-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  a: ({ children, href }) => (
+    <a href={href} className="text-rose-400 hover:text-rose-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-rose-400/60 bg-rose-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  th: ({ children }) => (
+    <th className="text-rose-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  code: ({ children, className }) => {
+    if (className) return <code className={`${className} text-rose-300 text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-700/70 text-rose-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
+  },
+};
+
+const TEAL_COMPONENTS: Components = {
+  ...DARK_COMPONENTS,
+  h2: ({ children }) => (
+    <h2 className="text-2xl font-semibold text-white mt-8 mb-4 pb-2 border-b border-teal-400/20">{children}</h2>
+  ),
+  h3: ({ children }) => (
+    <h3 className="text-lg font-semibold text-teal-400 mt-6 mb-3">{children}</h3>
+  ),
+  li: ({ children, ordered, index }) => (
+    <li className="flex items-start gap-2.5 text-slate-300 text-[15px]">
+      {ordered ? (
+        <span className="text-teal-400 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+          {(index ?? 0) + 1}.
+        </span>
+      ) : (
+        <span className="text-teal-400 mt-2 shrink-0 text-xs">▪</span>
+      )}
+      <span>{children}</span>
+    </li>
+  ),
+  a: ({ children, href }) => (
+    <a href={href} className="text-teal-400 hover:text-teal-300 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+  blockquote: ({ children }) => (
+    <blockquote className="border-l-4 border-teal-400/60 bg-teal-400/5 pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-slate-400 italic text-[15px]">{children}</div>
+    </blockquote>
+  ),
+  th: ({ children }) => (
+    <th className="text-teal-400 font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+      {children}
+    </th>
+  ),
+  code: ({ children, className }) => {
+    if (className) return <code className={`${className} text-teal-300 text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-700/70 text-teal-400 px-1.5 py-0.5 rounded text-[13px] font-mono border border-white/10">{children}</code>;
   },
 };
 
