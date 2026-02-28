@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
-  Shield, ExternalLink, CheckSquare,
+  Shield, ExternalLink,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 
