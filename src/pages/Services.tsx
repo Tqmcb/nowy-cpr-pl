@@ -48,23 +48,39 @@ export default function Services() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    setTimeout(() => {
-      setFormStatus("success");
-      setIsSubmitting(false);
-      // Reset form after successful submission
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        company: "",
-        message: "",
-        consent: false
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
+          subject: `Nowe zapytanie z NowyCPR.pl — ${formData.name}`,
+          from_name: formData.name,
+          replyto: formData.email,
+          email: formData.email,
+          phone: formData.phone || "—",
+          company: formData.company || "—",
+          message: formData.message,
+          botcheck: false,
+        }),
       });
-    }, 1000);
+
+      const data = await res.json();
+      if (data.success) {
+        setFormStatus("success");
+        setFormData({ name: "", email: "", phone: "", company: "", message: "", consent: false });
+      } else {
+        setFormStatus("error");
+      }
+    } catch {
+      setFormStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -397,6 +413,12 @@ export default function Services() {
                         </label>
                       </div>
                     </div>
+
+                    {formStatus === "error" && (
+                      <div className="mb-6 p-4 rounded-lg bg-red-500/10 border border-red-500/30 text-red-400 text-sm text-center">
+                        Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub napisz bezpośrednio na <a href="mailto:biuro@multicert.pl" className="underline">biuro@multicert.pl</a>.
+                      </div>
+                    )}
 
                     <div className="text-center">
                       <Button type="submit" size="lg" disabled={isSubmitting} className="w-full sm:w-auto">
