@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe", "LCA"]
 excerpt: "CPR 2024/3110 wprowadza obowiązkowe deklarowanie Globalnego Potencjału Ocieplenia (GWP) dla wyrobów budowlanych. Dowiedz się co to oznacza dla producenta i jak zbierać dane już teraz, zanim termin stanie się pilny."
-image_url: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800"
+image_url: "/images/blog/srodowisko.jpg"
 template: "analiza"
 ---
 

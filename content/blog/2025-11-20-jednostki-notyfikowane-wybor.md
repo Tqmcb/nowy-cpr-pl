@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."
-image_url: "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800"
+image_url: "/images/blog/certyfikacja.jpg"
 template: "przewodnik"
 ---
 

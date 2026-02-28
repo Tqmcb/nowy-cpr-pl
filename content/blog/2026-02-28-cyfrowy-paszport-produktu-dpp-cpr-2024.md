@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability"]
 excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla wyrobów budowlanych i jak techniczny wygląda jego wdrożenie."
-image_url: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800"
+image_url: "/images/blog/cyfryzacja.jpg"
 template: "analiza"
 ---
 

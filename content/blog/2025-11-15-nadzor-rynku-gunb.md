@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["GUNB", "nadzór rynku", "kontrola", "sankcje"]
 excerpt: "Jak działa nadzór rynku wyrobów budowlanych w Polsce? Rola GUNB, procedury kontrolne, najczęstsze nieprawidłowości i sankcje."
-image_url: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800"
+image_url: "/images/blog/prawo.jpg"
 template: "regulacja"
 ---
 

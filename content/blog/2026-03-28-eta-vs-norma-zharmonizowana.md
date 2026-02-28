@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["ETA", "norma zharmonizowana", "EAD", "EOTA", "certyfikacja", "CPR 2024"]
 excerpt: "Producenci wyrobów budowlanych mają do wyboru dwie główne drogi uzyskania oznakowania CE: przez normę zharmonizowaną lub przez Europejską Ocenę Techniczną. Wybór między nimi nie zawsze jest oczywisty i zależy od charakteru wyrobu, dostępności norm oraz strategii rynkowej producenta."
-image_url: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800"
+image_url: "/images/blog/certyfikacja.jpg"
 template: "analiza"
 ---
 

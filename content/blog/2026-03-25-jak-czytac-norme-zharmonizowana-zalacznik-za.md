@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["norma zharmonizowana", "Załącznik ZA", "AVS", "AVCP", "certyfikacja CPR"]
 excerpt: "Norma zharmonizowana to podstawowy dokument techniczny umożliwiający oznakowanie CE wyrobu budowlanego. Kluczem do jej prawidłowego stosowania jest Załącznik ZA — część wiążąca normę z wymaganiami CPR 2024/3110. Przewodnik wyjaśnia krok po kroku, jak czytać i interpretować ten załącznik."
-image_url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800"
+image_url: "/images/blog/certyfikacja.jpg"
 template: "przewodnik"
 ---
 

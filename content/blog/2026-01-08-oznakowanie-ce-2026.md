@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["CE", "oznakowanie", "etykieta", "wymagania", "CPR 2024", "DoP&C"]
 excerpt: "Rozszerzone wymagania dotyczące oznakowania CE w CPR 2024/3110. Obowiązek cyfrowej DoP&C od 8 stycznia 2026. QR kody, klasy środowiskowe, nowe elementy etykiety CE. Praktyczny przewodnik dla producentów."
-image_url: "https://images.unsplash.com/photo-1758873263563-5ba4aa330799?w=800"
+image_url: "/images/blog/certyfikacja.jpg"
 template: "regulacja"
 ---
 

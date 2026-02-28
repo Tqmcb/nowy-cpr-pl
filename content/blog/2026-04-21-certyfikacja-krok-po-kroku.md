@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["certyfikacja", "ITT", "oznakowanie CE", "CPR 2024", "jednostka notyfikowana"]
 excerpt: "Uzyskanie oznakowania CE dla wyrobu budowlanego to proces wieloetapowy, obejmujący wybór normy zharmonizowanej, badania typu, wdrożenie zakładowej kontroli produkcji i sporządzenie deklaracji DoP&C. Omawiamy każdy krok procesu certyfikacji zgodnie z CPR 2024/3110, podajemy szacunkowe harmonogramy i wskazujemy najczęstsze błędy."
-image_url: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+image_url: "/images/blog/certyfikacja.jpg"
 template: "przewodnik"
 ---
 

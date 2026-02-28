@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["EPD", "LCA", "środowisko", "EN 15804"]
 excerpt: "Co to jest EPD (Environmental Product Declaration)? Jak przeprowadzić analizę LCA? Czy EPD jest obowiązkowe w CPR 2024? Kompletny przewodnik po deklaracjach środowiskowych w budownictwie."
-image_url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"
+image_url: "/images/blog/srodowisko.jpg"
 template: "analiza"
 ---
 

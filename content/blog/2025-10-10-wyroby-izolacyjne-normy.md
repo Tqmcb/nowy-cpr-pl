@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
 excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVCP."
-image_url: "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800"
+image_url: "/images/blog/materialy.jpg"
 template: "techniczny"
 ---
 
