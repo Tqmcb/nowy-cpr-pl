@@ -177,48 +177,48 @@ export default function Services() {
                 {
                   number: "1",
                   icon: Award,
-                  title: "Certyfikacja stałości właściwości użytkowych",
-                  description: "Kompleksowa ocena i certyfikacja zgodnie z systemami AVCP określonymi w CPR 2024. Obejmuje badanie typu, ocenę dokumentacji technicznej i weryfikację zakładowej kontroli produkcji.",
+                  title: "Certyfikacja Zakładowej Kontroli Produkcji (ZKP)",
+                  description: "Ocena i certyfikacja systemu zakładowej kontroli produkcji wyrobów budowlanych. Działamy jako przedstawiciel akredytowanych jednostek notyfikowanych ITC Zlín oraz ZDZ Cert (NB 1388) na rynek polski.",
                   features: [
-                    "Certyfikaty zgodne z systemami A+, A, B+ i B",
-                    "Certyfikacja zakładowej kontroli produkcji",
-                    "Okresowa ocena i nadzór nad produkcją"
+                    "Certyfikacja ZKP zgodna z wymaganiami CPR (EU) 2024/3110",
+                    "Certyfikaty uznawane w całej Unii Europejskiej",
+                    "Obsługa w języku polskim, krótkie terminy realizacji"
                   ],
                   gradient: "from-amber-400 to-orange-500"
                 },
                 {
                   number: "2",
                   icon: FlaskConical,
-                  title: "Badania wyrobów budowlanych",
-                  description: "Kompleksowe badania laboratoryjne wyrobów budowlanych, które są niezbędne do uzyskania certyfikacji. Współpracujemy z siecią akredytowanych laboratoriów badawczych.",
+                  title: "Ocena wstępna (Initial Inspection)",
+                  description: "Przeprowadzamy ocenę wstępną wyrobu i dokumentacji technicznej producenta przed przystąpieniem do właściwego procesu certyfikacji. Identyfikujemy braki i pomagamy się do niego przygotować.",
                   features: [
-                    "Badania typu zgodnie z normami zharmonizowanymi",
-                    "Badania środowiskowe i ocena cyklu życia",
-                    "Analiza składu i ocena zawartości substancji niebezpiecznych"
+                    "Analiza dokumentacji technicznej i wyników badań",
+                    "Ocena zgodności z właściwą normą zharmonizowaną",
+                    "Raport z zaleceniami przed audytem certyfikacyjnym"
                   ],
                   gradient: "from-blue-400 to-cyan-500"
                 },
                 {
                   number: "3",
                   icon: FileText,
-                  title: "Przygotowanie dokumentacji technicznej",
-                  description: "Profesjonalne przygotowanie i weryfikacja dokumentacji technicznej zgodnie z nowymi wymogami CPR 2024, w tym cyfrowych deklaracji właściwości użytkowych.",
+                  title: "Audyty nadzoru",
+                  description: "Regularne audyty nadzoru po uzyskaniu certyfikacji, potwierdzające utrzymanie zgodności systemu ZKP z wymaganiami CPR. Przeprowadzane cyklicznie w siedzibie producenta.",
                   features: [
-                    "Przygotowanie cyfrowych DoP w formacie XML",
-                    "Opracowanie kart charakterystyki produktu",
-                    "Przygotowanie etykiet i oznakowania CE"
+                    "Roczne audyty nadzoru systemu ZKP",
+                    "Ocena ciągłości zgodności z wymaganiami normy",
+                    "Przedłużenie i utrzymanie ważności certyfikatu"
                   ],
                   gradient: "from-emerald-400 to-green-500"
                 },
                 {
                   number: "4",
                   icon: GraduationCap,
-                  title: "Doradztwo i szkolenia",
-                  description: "Profesjonalne doradztwo i szkolenia z zakresu wymagań CPR 2024 dla producentów, dystrybutorów i importerów wyrobów budowlanych.",
+                  title: "Szkolenia z zakresu CPR i ZKP",
+                  description: "Szkolenia dla producentów, importerów i dystrybutorów wyrobów budowlanych z zakresu wymagań CPR 2024 oraz wdrożenia i dokumentowania systemu zakładowej kontroli produkcji.",
                   features: [
-                    "Konsultacje dotyczące nowych przepisów CPR 2024",
-                    "Szkolenia z zakładowej kontroli produkcji",
-                    "Warsztaty z przygotowania dokumentacji technicznej"
+                    "Szkolenia z wymagań CPR (EU) 2024/3110",
+                    "Wdrożenie i dokumentowanie systemu ZKP",
+                    "Interpretacja norm zharmonizowanych i EAD"
                   ],
                   gradient: "from-purple-400 to-pink-500"
                 }
