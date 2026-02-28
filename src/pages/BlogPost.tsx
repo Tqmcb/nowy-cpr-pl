@@ -760,42 +760,17 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
     <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
       <main className="flex-grow pt-24 pb-20">
-        {/* Header */}
-        <div className="relative overflow-hidden border-b border-white/5">
-          {post.image_url && (
-            <div className="absolute inset-0">
-              <img src={post.image_url} alt="" className="w-full h-full object-cover opacity-10" />
-              <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900/70" />
-            </div>
-          )}
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16">
-            <button
-              onClick={() => navigate("/blog")}
-              className="flex items-center gap-2 text-slate-400 hover:text-emerald-400 transition-colors mb-8 group text-sm"
-            >
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              Powrót do bloga
-            </button>
-            <div className="flex items-center gap-3 mb-4">
-              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-400/15 border border-emerald-400/30 text-emerald-400 text-xs font-bold uppercase tracking-wider">
-                <BarChart2 className="w-3 h-3" /> Analiza
-              </span>
-              {post.category && (
-                <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
-                  {post.category}
-                </span>
-              )}
-            </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-4xl">
-              {post.title}
-            </h1>
-            <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
-              <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-emerald-400" />{post.author}</span>
-              <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-emerald-400" />{formatDate(post.published_at)}</span>
-              <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-emerald-400" />ok. {readingTime(post.content)} min czytania</span>
-            </p>
-          </div>
-        </div>
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "bg-emerald-400/15 border border-emerald-400/30 text-emerald-400",
+            iconAccentClass: "text-emerald-400",
+            buttonHoverClass: "hover:text-emerald-400",
+            badgeLabel: "Analiza",
+            BadgeIcon: BarChart2,
+          }}
+        />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
