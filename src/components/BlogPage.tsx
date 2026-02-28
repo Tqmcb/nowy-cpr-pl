@@ -175,7 +175,7 @@ Producenci muszą zapewnić:
     published_at: "2026-01-08",
     is_published: true,
     category: "Przewodniki",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/cpr-przepisy.jpg",
     tags: ["CPR 2024", "przepisy", "wyroby budowlane", "EU"]
   },
   {
@@ -208,7 +208,7 @@ Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która
     published_at: "2026-01-05",
     is_published: true,
     category: "Digital DoP",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/digital-qr.jpg",
     tags: ["Digital DoP", "cyfryzacja", "dokumentacja", "XML"]
   },
   {
@@ -244,7 +244,7 @@ Nieprawidłowe oznakowanie CE może skutkować:
     published_at: "2026-01-02",
     is_published: true,
     category: "Certyfikacja",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/oznakowanie-ce.jpg",
     tags: ["CE", "oznakowanie", "certyfikacja", "etykieta"]
   },
   {
@@ -288,7 +288,7 @@ Nieprawidłowe oznakowanie CE może skutkować:
     published_at: "2025-12-20",
     is_published: true,
     category: "Certyfikacja",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/normy-eta.jpg",
     tags: ["AVCP", "systemy oceny", "certyfikacja", "jednostki notyfikowane"]
   },
   {
@@ -323,7 +323,7 @@ Nieprawidłowe oznakowanie CE może skutkować:
     published_at: "2025-12-15",
     is_published: true,
     category: "Normy",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/normy-eta.jpg",
     tags: ["normy", "hEN", "standardy", "EN"]
   },
   {
@@ -361,7 +361,7 @@ Paszport produktu będzie bazował na danych z Deklaracji Środowiskowej Produkt
     published_at: "2025-12-10",
     is_published: true,
     category: "Przepisy",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/digital-qr.jpg",
     tags: ["paszport produktu", "zrównoważoność", "ESG", "cyrkularność"]
   },
   {
@@ -399,7 +399,7 @@ EPD jest ważna przez 5 lat od daty weryfikacji.`,
     published_at: "2025-12-05",
     is_published: true,
     category: "Środowisko",
-    image_url: "/images/blog/srodowisko.jpg",
+    image_url: "/images/blog/epd-srodowisko.jpg",
     tags: ["EPD", "LCA", "środowisko", "EN 15804"]
   },
   {
@@ -440,7 +440,7 @@ Factory Production Control (FPC) to udokumentowany, stały i wewnętrzny system 
     published_at: "2025-11-28",
     is_published: true,
     category: "Produkcja",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/fabryka-fpc.jpg",
     tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
   },
   {
@@ -476,7 +476,7 @@ Oficjalna baza jednostek notyfikowanych UE: ec.europa.eu/growth/tools-databases/
     published_at: "2025-11-20",
     is_published: true,
     category: "Certyfikacja",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/laboratorium.jpg",
     tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
   },
   {
@@ -517,7 +517,7 @@ GUNB jest organem odpowiedzialnym za nadzór rynku wyrobów budowlanych w Polsce
     published_at: "2025-11-15",
     is_published: true,
     category: "Prawo",
-    image_url: "/images/blog/prawo.jpg",
+    image_url: "/images/blog/inspekcja-gunb.jpg",
     tags: ["GUNB", "nadzór rynku", "kontrola", "sankcje"]
   },
   {
@@ -553,7 +553,7 @@ Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie ma hEN ani ETA
     published_at: "2025-11-10",
     is_published: true,
     category: "Certyfikacja",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/normy-eta.jpg",
     tags: ["ETA", "ocena techniczna", "TAB", "ITB"]
   },
   {
@@ -591,7 +591,7 @@ Zgodnie z CPR 2024, importer musi:
     published_at: "2025-11-05",
     is_published: true,
     category: "Handel",
-    image_url: "/images/blog/certyfikacja.jpg",
+    image_url: "/images/blog/import-handel.jpg",
     tags: ["import", "handel", "cło", "dokumentacja"]
   },
   {
@@ -632,7 +632,7 @@ Zgodnie z CPR 2024, importer musi:
     published_at: "2025-10-25",
     is_published: true,
     category: "Materiały",
-    image_url: "/images/blog/materialy.jpg",
+    image_url: "/images/blog/beton.jpg",
     tags: ["beton", "prefabrykaty", "EN 206", "konstrukcje"]
   },
   {
@@ -671,7 +671,7 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
     published_at: "2025-10-18",
     is_published: true,
     category: "Materiały",
-    image_url: "/images/blog/materialy.jpg",
+    image_url: "/images/blog/okna-drzwi.jpg",
     tags: ["okna", "drzwi", "EN 14351", "ITT"]
   },
   {
@@ -715,7 +715,7 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
     published_at: "2025-10-10",
     is_published: true,
     category: "Materiały",
-    image_url: "/images/blog/materialy.jpg",
+    image_url: "/images/blog/izolacja.jpg",
     tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
   }
 ];
