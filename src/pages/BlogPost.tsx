@@ -828,137 +828,40 @@ function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 // ────────────────────────────────────────────────────────────────────────────
 
 function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
-  const initials = post.author.split(" ").map((n) => n[0]).slice(0, 2).join("");
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
-      <main className="flex-grow pt-16">
-        {/* Full-width hero */}
-        <div className="relative h-72 md:h-96 overflow-hidden">
-          {post.image_url ? (
-            <img src={post.image_url} alt={post.title} className="w-full h-full object-cover" />
-          ) : (
-            <div className="w-full h-full bg-violet-900" />
-          )}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 px-4 sm:px-6 pb-8 max-w-5xl mx-auto">
-            <button
-              onClick={() => navigate("/blog")}
-              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-4 text-sm group"
-            >
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              Powrót do bloga
-            </button>
-            <div className="flex items-center gap-3 mb-3">
-              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-violet-500/30 border border-violet-400/40 text-violet-200 text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
-                <Newspaper className="w-3 h-3" /> Aktualności
-              </span>
-              {post.category && (
-                <span className="text-xs text-white/70 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
-                  {post.category}
-                </span>
-              )}
-            </div>
-            <h1 className="text-2xl md:text-4xl font-bold text-white leading-tight max-w-3xl">
-              {post.title}
-            </h1>
-          </div>
-        </div>
-        {/* Author + meta strip */}
-        <div className="border-b border-slate-100 bg-slate-50">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-6 flex-wrap">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-violet-600 text-white font-bold text-sm flex items-center justify-center shrink-0">
-                {initials}
-              </div>
-              <div>
-                <p className="text-slate-900 font-medium text-sm">{post.author}</p>
-                <p className="text-slate-500 text-xs">{formatDate(post.published_at)}</p>
-              </div>
-            </div>
-            <span className="text-slate-300 hidden sm:block">·</span>
-            <span className="flex items-center gap-1.5 text-slate-500 text-sm">
-              <Clock className="w-3.5 h-3.5 text-violet-500" />
-              ok. {readingTime(post.content)} min czytania
-            </span>
-            {post.tags && post.tags.length > 0 && (
-              <>
-                <span className="text-slate-300 hidden sm:block">·</span>
-                <div className="flex flex-wrap gap-2">
-                  {post.tags.slice(0, 4).map((tag) => (
-                    <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-violet-50 text-violet-700 border border-violet-200">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
-        </div>
+      <main className="flex-grow pt-24 pb-20">
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "bg-rose-400/15 border border-rose-400/30 text-rose-400",
+            iconAccentClass: "text-rose-400",
+            buttonHoverClass: "hover:text-rose-400",
+            badgeLabel: "Aktualności",
+            BadgeIcon: Newspaper,
+          }}
+        />
         {/* Content */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mt-10 pb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <article className="lg:col-span-2">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
-                ...LIGHT_COMPONENTS,
-                h3: ({ children }) => (
-                  <h3 className="text-lg font-semibold text-violet-700 mt-6 mb-3">{children}</h3>
-                ),
-                a: ({ children, href }) => (
-                  <a href={href} className="text-violet-600 hover:text-violet-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
-                    {children}
-                  </a>
-                ),
-                li: ({ children, ordered, index }) => (
-                  <li className="flex items-start gap-3 text-slate-600 text-[15px]">
-                    {ordered ? (
-                      <span className="text-violet-600 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">{(index ?? 0) + 1}.</span>
-                    ) : (
-                      <span className="text-violet-500 mt-1 shrink-0">✓</span>
-                    )}
-                    <span>{children}</span>
-                  </li>
-                ),
-                thead: ({ children }) => <thead className="bg-violet-600">{children}</thead>,
-              }}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={ROSE_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
             <aside className="space-y-5">
-              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
-                <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <FileText className="w-4 h-4 text-violet-600" /> Informacje
-                </h4>
-                <dl className="space-y-3">
-                  <div>
-                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Autor</dt>
-                    <dd className="text-slate-700 text-sm">{post.author}</dd>
-                  </div>
-                  <div>
-                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Opublikowano</dt>
-                    <dd className="text-slate-700 text-sm">{formatDate(post.published_at)}</dd>
-                  </div>
-                  {post.category && (
-                    <div>
-                      <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
-                      <dd className="text-slate-700 text-sm">{post.category}</dd>
-                    </div>
-                  )}
-                </dl>
-              </div>
-              <div className="bg-violet-600 rounded-2xl p-5 text-white">
-                <h4 className="font-semibold mb-2 flex items-center gap-2">
-                  <HelpCircle className="w-4 h-4" /> Masz pytania?
-                </h4>
-                <p className="text-violet-100 text-sm mb-4">Nasi eksperci wyjaśnią nowinki i pomogą w implementacji.</p>
-                <button
-                  onClick={() => navigate("/services")}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-violet-700 font-semibold rounded-xl hover:bg-violet-50 transition-colors text-sm"
-                >
-                  Kontakt <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
-              <MulticertBoxLight />
+              {/* Co musisz wiedzieć */}
+              {post.excerpt && (
+                <div className="bg-rose-400/5 border border-rose-400/20 rounded-2xl p-5">
+                  <h4 className="text-rose-400 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <Newspaper className="w-4 h-4" /> Co musisz wiedzieć
+                  </h4>
+                  <p className="text-slate-300 text-sm leading-relaxed">{post.excerpt}</p>
+                </div>
+              )}
+              <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
         </div>
