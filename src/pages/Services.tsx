@@ -16,7 +16,8 @@ import {
   Send,
   Building2,
   Phone,
-  Mail
+  Mail,
+  ExternalLink
 } from "lucide-react";
 
 export default function Services() {
@@ -109,7 +110,15 @@ export default function Services() {
               </h1>
               <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
                 Kompleksowe wsparcie w certyfikacji wyrobów budowlanych zgodnie z CPR (EU) 2024/3110.
-                Oferujemy profesjonalną pomoc, szybką realizację i najwyższą jakość usług.
+                Oferujemy profesjonalną pomoc, szybką realizację i najwyższą jakość usług.{" "}
+                <a
+                  href="https://www.multicert.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors"
+                >
+                  Dowiedz się więcej o Multicert
+                </a>.
               </p>
             </div>
           </Container>
@@ -295,6 +304,34 @@ export default function Services() {
                     <p className="text-slate-300 text-sm italic">"{caseStudy.quote}"</p>
                   </div>
                 </div>
+              ))}
+            </div>
+          </Container>
+        </section>
+
+        {/* Partnerzy i akredytacje */}
+        <section className="py-12 bg-slate-950 border-t border-white/5">
+          <Container>
+            <p className="text-center text-slate-500 text-xs uppercase tracking-widest mb-8">
+              Działamy we współpracy z akredytowanymi jednostkami certyfikującymi
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-6">
+              {[
+                { name: "Multicert Sp. z o.o.", url: "https://www.multicert.pl" },
+                { name: "ITC Zlín", url: "https://www.itczlin.cz" },
+                { name: "LL-C", url: "https://www.ll-c.com.pl" },
+                { name: "ZDZ Cert (NB 1388)", url: "https://www.zdzcert.pl" },
+              ].map((partner) => (
+                <a
+                  key={partner.name}
+                  href={partner.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-white/10 text-slate-400 hover:text-amber-400 hover:border-amber-400/30 transition-all text-sm font-medium"
+                >
+                  {partner.name}
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
               ))}
             </div>
           </Container>
