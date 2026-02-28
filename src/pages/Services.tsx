@@ -178,11 +178,11 @@ export default function Services() {
                   number: "1",
                   icon: Award,
                   title: "Certyfikacja Zakładowej Kontroli Produkcji (ZKP)",
-                  description: "Przeprowadzamy pełny proces certyfikacji ZKP — od pierwszego kontaktu do wydania certyfikatu. Obsługa w języku polskim, znajomość polskich realiów produkcyjnych.",
+                  description: "Ocena i certyfikacja systemu zakładowej kontroli produkcji wyrobów budowlanych. Jednostka akredytowana przez PCA — gwarancja bezstronności i rzetelności procesu certyfikacji.",
                   features: [
-                    "Certyfikacja ZKP zgodna z wymaganiami CPR (EU) 2024/3110",
-                    "Certyfikaty uznawane w całej Unii Europejskiej",
-                    "Obsługa w języku polskim, krótkie terminy realizacji"
+                    "Akredytacja PCA zgodna z EN ISO/IEC 17065",
+                    "Certyfikaty ZKP ważne na terenie całej Unii Europejskiej",
+                    "Pełen proces: wniosek → audyt → decyzja → certyfikat"
                   ],
                   gradient: "from-amber-400 to-orange-500"
                 },
