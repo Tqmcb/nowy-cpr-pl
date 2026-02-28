@@ -637,111 +637,39 @@ function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (
 
 function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-50">
+    <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
       <main className="flex-grow pt-24 pb-20">
-        {/* Header strip */}
-        <div className="bg-blue-600">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-            <button
-              onClick={() => navigate("/blog")}
-              className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors mb-6 text-sm group"
-            >
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              Powrót do bloga
-            </button>
-            <div className="flex items-center gap-3 mb-3">
-              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-wider">
-                <BookOpen className="w-3 h-3" /> Przewodnik
-              </span>
-              {post.category && (
-                <span className="text-xs text-blue-100 bg-white/10 px-3 py-1 rounded-full border border-white/20">
-                  {post.category}
-                </span>
-              )}
-            </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight max-w-3xl">
-              {post.title}
-            </h1>
-            <div className="flex items-center gap-4 mt-4 text-blue-100 text-sm flex-wrap">
-              <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5" />{post.author}</span>
-              <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5" />{formatDate(post.published_at)}</span>
-              <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" />ok. {readingTime(post.content)} min czytania</span>
-            </div>
-          </div>
-        </div>
-        {/* Banner image */}
-        {post.image_url && (
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 -mt-0">
-            <img
-              src={post.image_url}
-              alt={post.title}
-              className="w-full h-56 md:h-72 object-cover rounded-b-2xl shadow-xl"
-            />
-          </div>
-        )}
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "bg-amber-400/15 border border-amber-400/30 text-amber-400",
+            iconAccentClass: "text-amber-400",
+            buttonHoverClass: "hover:text-amber-400",
+            badgeLabel: "Przewodnik",
+            BadgeIcon: BookOpen,
+          }}
+        />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} components={LIGHT_COMPONENTS}>
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
             <aside className="space-y-5">
-              {/* Light sidebar */}
-              <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-                <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <FileText className="w-4 h-4 text-blue-600" /> Informacje
-                </h4>
-                <dl className="space-y-3">
-                  <div>
-                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Autor</dt>
-                    <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <User className="w-3.5 h-3.5 text-blue-600" />{post.author}
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Data</dt>
-                    <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <Calendar className="w-3.5 h-3.5 text-blue-600" />{formatDate(post.published_at)}
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="text-slate-400 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
-                    <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <Clock className="w-3.5 h-3.5 text-blue-600" />ok. {readingTime(post.content)} min
-                    </dd>
-                  </div>
-                </dl>
-              </div>
-              {post.tags && post.tags.length > 0 && (
-                <div className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
-                  <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <Tag className="w-3.5 h-3.5 text-blue-600" /> Tagi
+              {/* TL;DR — streszczenie posta */}
+              {post.excerpt && (
+                <div className="bg-amber-400/5 border border-amber-400/20 rounded-2xl p-5">
+                  <h4 className="text-amber-400 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <FileText className="w-4 h-4" /> TL;DR
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {post.tags.map((tag) => (
-                      <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+                  <p className="text-slate-300 text-sm leading-relaxed">{post.excerpt}</p>
                 </div>
               )}
-              <div className="bg-blue-600 rounded-2xl p-5 text-white">
-                <h4 className="font-semibold mb-2 flex items-center gap-2">
-                  <HelpCircle className="w-4 h-4" /> Potrzebujesz wsparcia?
-                </h4>
-                <p className="text-blue-100 text-sm mb-4">Eksperci pomogą Ci wdrożyć wymagania krok po kroku.</p>
-                <button
-                  onClick={() => navigate("/services")}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-blue-700 font-semibold rounded-xl hover:bg-blue-50 transition-colors text-sm"
-                >
-                  Kontakt <ChevronRight className="w-4 h-4" />
-                </button>
-              </div>
-              <MulticertBoxLight />
+              <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
         </div>
