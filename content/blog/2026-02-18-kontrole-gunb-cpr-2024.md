@@ -2,7 +2,7 @@
 title: "Nadzór rynku GUNB w 2026 — na co zwracają uwagę inspektorzy pod CPR 2024?"
 date: "2026-02-18"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
-category: "Nadzór rynku"
+category: "Prawo"
 tags: ["GUNB", "nadzór rynku", "kontrole", "CPR 2024", "oznakowanie CE"]
 excerpt: "GUNB prowadzi kontrole wyrobów budowlanych na podstawie CPR 2024/3110. Poznaj najczęstsze nieprawidłowości, prawa i obowiązki producenta podczas kontroli oraz jak się do niej przygotować."
 image_url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800"

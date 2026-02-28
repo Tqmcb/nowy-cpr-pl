@@ -2,7 +2,7 @@
 title: "Import wyrobów budowlanych spoza UE - wymagania CPR"
 date: "2025-11-05"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
-category: "Handel"
+category: "Prawo"
 tags: ["import", "handel", "cło", "dokumentacja"]
 excerpt: "Jak legalnie importować wyroby budowlane z Chin, Turcji czy USA? Obowiązki importera, wymagana dokumentacja i procedury celne."
 image_url: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800"

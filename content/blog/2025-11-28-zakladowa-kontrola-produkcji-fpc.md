@@ -2,7 +2,7 @@
 title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i wdrożenie"
 date: "2025-11-28"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
-category: "Produkcja"
+category: "Certyfikacja"
 tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
 excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy."
 image_url: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800"

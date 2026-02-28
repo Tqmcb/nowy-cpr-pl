@@ -2,7 +2,7 @@
 title: "Paszport produktu budowlanego - nowy wymóg CPR"
 date: "2025-12-10"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
-category: "Przepisy"
+category: "Aktualności"
 tags: ["paszport produktu", "zrównoważoność", "ESG", "cyrkularność"]
 excerpt: "Czym jest paszport produktu budowlanego i jak go przygotować? Wymagania dotyczące informacji o zrównoważonym rozwoju, cyklu życia produktu i gospodarki o obiegu zamkniętym."
 image_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
