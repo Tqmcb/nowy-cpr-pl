@@ -103,7 +103,7 @@ export function ServicesPage() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3"
+                src="/images/hero-construction.jpg"
                 alt="Certyfikacja wyrobów budowlanych"
                 className="rounded-lg shadow-md max-w-full h-auto"
                 style={{ maxHeight: "350px" }}
