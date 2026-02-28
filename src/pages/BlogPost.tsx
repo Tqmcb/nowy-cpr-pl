@@ -776,62 +776,42 @@ function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
     <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
       <main className="flex-grow pt-24 pb-20">
-        {/* Header */}
-        <div className="border-b border-white/5 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-            <button
-              onClick={() => navigate("/blog")}
-              className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors mb-8 group text-sm"
-            >
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-              Powrót do bloga
-            </button>
-            <div className="flex items-center gap-3 mb-4">
-              <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-xs font-bold uppercase tracking-wider">
-                <Wrench className="w-3 h-3" /> Techniczny
-              </span>
-              {post.category && (
-                <span className="text-xs text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
-                  {post.category}
-                </span>
-              )}
-            </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-              <div>
-                <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">{post.title}</h1>
-                <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
-                  <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" />{post.author}</span>
-                  <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-amber-400" />{formatDate(post.published_at)}</span>
-                  <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-amber-400" />ok. {readingTime(post.content)} min</span>
-                </p>
-              </div>
-              {post.image_url && (
-                <img
-                  src={post.image_url}
-                  alt={post.title}
-                  className="rounded-xl w-full h-40 object-cover opacity-70"
-                />
-              )}
-            </div>
-          </div>
-        </div>
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "bg-orange-400/15 border border-orange-400/30 text-orange-400",
+            iconAccentClass: "text-orange-400",
+            buttonHoverClass: "hover:text-orange-400",
+            badgeLabel: "Techniczny",
+            BadgeIcon: Wrench,
+          }}
+        />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <article className="lg:col-span-2">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={ORANGE_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
             <aside className="space-y-5">
-              {/* Normy / Standards card */}
-              <div className="bg-amber-400/5 border border-amber-400/20 rounded-2xl p-5">
-                <h4 className="text-amber-400 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+              <div className="bg-orange-400/5 border border-orange-400/20 rounded-2xl p-5">
+                <h4 className="text-orange-400 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
                 </h4>
                 <p className="text-slate-400 text-xs leading-relaxed">
                   Artykuł dotyczy wyrobów budowlanych objętych normami zharmonizowanymi na mocy CPR 2024/3110.
                 </p>
+                {post.tags && post.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5 mt-3">
+                    {post.tags.map((tag) => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-orange-400/10 text-orange-300 border border-orange-400/20">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
