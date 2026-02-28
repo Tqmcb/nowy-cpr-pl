@@ -25,12 +25,12 @@ MAPPINGS = [
       "cyfryzacja", "traceability", "identyfikacja cyfrowa"],
      "digital-qr.jpg"),
 
+    (["gwp", "gpp", "ślad węglowy", "zielone zamówienia"],
+     "gwp-wegiel.jpg"),
+
     (["epd", "ecolabel", "etykietowanie środowiskowe",
       "wyroby używane", "odzysk", "en 15804"],
      "epd-srodowisko.jpg"),
-
-    (["gwp", "gpp", "ślad węglowy", "zielone zamówienia"],
-     "gwp-wegiel.jpg"),
 
     (["gunb", "nadzór rynku", "kary", "sankcje", "naruszenie"],
      "inspekcja-gunb.jpg"),
