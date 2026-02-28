@@ -768,7 +768,7 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
 }
 
 // ────────────────────────────────────────────────────────────────────────────
-// TEMPLATE 4: TECHNICZNY — dark industrial, amber/tech accents
+// TEMPLATE 4: TECHNICZNY — dark industrial, orange accents
 // ────────────────────────────────────────────────────────────────────────────
 
 function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
