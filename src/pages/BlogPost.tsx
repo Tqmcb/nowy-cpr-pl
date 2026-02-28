@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
-  Shield, ExternalLink,
+  Shield, ExternalLink, CheckSquare,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 
@@ -872,6 +872,67 @@ function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate:
 }
 
 // ────────────────────────────────────────────────────────────────────────────
+// TEMPLATE 6: PRAKTYCZNY — dark teal, action-oriented, checklist sidebar
+// ────────────────────────────────────────────────────────────────────────────
+
+function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+  const CHECKLIST = [
+    "Sprawdź wymagania CPR dla swojego wyrobu",
+    "Zidentyfikuj właściwy system AVS",
+    "Skontaktuj się z jednostką notyfikowaną",
+    "Przygotuj dokumentację techniczną",
+    "Wystaw Deklarację Właściwości Użytkowych (DoP&C)",
+    "Umieść oznakowanie CE na wyrobie",
+  ];
+  return (
+    <div className="flex flex-col min-h-screen bg-slate-900">
+      <Header />
+      <main className="flex-grow pt-24 pb-20">
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "bg-teal-400/15 border border-teal-400/30 text-teal-400",
+            iconAccentClass: "text-teal-400",
+            buttonHoverClass: "hover:text-teal-400",
+            badgeLabel: "Praktyczny",
+            BadgeIcon: CheckSquare,
+          }}
+        />
+        {/* Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <article className="lg:col-span-2">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={TEAL_COMPONENTS}>
+                {post.content}
+              </ReactMarkdown>
+            </article>
+            <aside className="space-y-5">
+              {/* Lista kontrolna */}
+              <div className="bg-teal-400/5 border border-teal-400/20 rounded-2xl p-5">
+                <h4 className="text-teal-400 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <CheckSquare className="w-4 h-4" /> Lista kontrolna
+                </h4>
+                <ol className="space-y-2.5">
+                  {CHECKLIST.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <span className="text-teal-400 font-mono text-xs font-bold mt-0.5 shrink-0">{i + 1}.</span>
+                      <span className="text-slate-400 text-xs leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+              <DarkSidebarMeta post={post} navigate={navigate} />
+            </aside>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// ────────────────────────────────────────────────────────────────────────────
 // DEFAULT TEMPLATE — generic dark template for untagged posts
 // ────────────────────────────────────────────────────────────────────────────
 
@@ -1091,6 +1152,8 @@ export default function BlogPost() {
       return <>{seoHelmet}<TechnicznyTemplate post={post} navigate={navigate} /></>;
     case "aktualnosci":
       return <>{seoHelmet}<AktualnosciTemplate post={post} navigate={navigate} /></>;
+    case "praktyczny":
+      return <>{seoHelmet}<PraktycznyTemplate post={post} navigate={navigate} /></>;
     default:
       return <>{seoHelmet}<DefaultTemplate post={post} navigate={navigate} /></>;
   }
