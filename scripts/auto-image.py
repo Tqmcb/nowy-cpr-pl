@@ -146,10 +146,71 @@ def find_mismatches():
     return mismatches
 
 
+# ─── Konkretne zapytania wizualne per artykuł ────────────────────────────────
+# Opisują CO MA BYĆ NA ZDJĘCIU (nie o czym jest artykuł)
+
+ARTICLE_VISUAL_QUERIES = {
+    "wyroby-izolacyjne-normy":              "mineral wool insulation worker construction site",
+    "okna-drzwi-certyfikacja":              "window installation worker building site",
+    "beton-prefabrykaty-wymagania":         "concrete pouring construction workers building",
+    "import-wyrobow-spoza-ue":              "cargo container port shipping import",
+    "eta-krajowe-oceny-techniczne":         "engineer reviewing technical document office",
+    "nadzor-rynku-gunb":                    "government building inspector construction site",
+    "jednostki-notyfikowane-wybor":         "quality control material testing laboratory",
+    "zakladowa-kontrola-produkcji-fpc":     "factory production line quality control worker",
+    "paszport-produktu":                    "product label scanning warehouse worker",
+    "normy-zharmonizowane-2026":            "architect engineer technical drawings office desk",
+    "systemy-avcp":                         "construction material testing engineer laboratory",
+    "oznakowanie-ce-2026":                  "product certification label construction material",
+    "digital-dop":                          "engineer laptop digital document construction office",
+    "epd-w-budownictwie":                   "green sustainable building construction materials",
+    "cpr-2024-nowe-rozporzadzenie":         "european regulation legal document construction professional",
+    "cpr-2024-pierwsze-tygodnie-stosowania":"construction site professional workers building",
+    "kontrole-gunb-cpr-2024":              "inspector audit clipboard building site",
+    "digital-dop-harmonogram-2026":         "business meeting laptop planning office professional",
+    "dop-do-dopc-zmiany-cpr-2024":          "signing official document businessman office pen",
+    "gwp-obowiazkowe-cpr-2024":             "industrial carbon emission factory environment",
+    "cyfrowy-paszport-produktu-dpp-cpr-2024":"tablet scanning product barcode warehouse digital",
+    "avs-vs-avcp-nowy-system-oceny-cpr-2024":"quality assessment engineer construction inspection",
+    "kary-naruszenie-cpr-2024":             "legal contract lawyer penalty businessmen meeting",
+    "importer-obowiazki-cpr-2024":          "cargo shipping import port warehouse forklift",
+    "qr-kod-unikalny-kod-produktu-cpr-2024":"barcode scanner worker warehouse product",
+    "svhc-reach-dopc-cpr-2024":             "chemical safety laboratory researcher protective gloves",
+    "wyroby-uzywane-cpr-2024":              "recycled building materials reuse construction site",
+    "checklist-producenta-2026":            "engineer checklist clipboard factory inspection",
+    "platformy-handlowe-online-cpr-2024":   "online shopping laptop store building products",
+    "jak-czytac-norme-zharmonizowana-zalacznik-za": "engineer reading technical manual document desk",
+    "eta-vs-norma-zharmonizowana":          "architect blueprint technical drawing review office",
+    "gpp-zielone-zamowienia-publiczne-cpr-2024": "green sustainable building construction site",
+    "avs-3plus-walidacja-epd":              "environmental testing building material laboratory",
+    "fpc-zakladowa-kontrola-produkcji":     "factory production manager quality control inspection",
+    "oznakowanie-ekologiczne-cpr-2024":     "eco label sustainable packaging green product",
+    "mala-firma-cpr-2024":                  "small business owner workshop craftsman tools",
+    "dopc-szablon-wyjasnienie":             "filling form paperwork office desk pen documents",
+    "sprzedaz-online-cpr-2024":             "online store laptop shopping ecommerce professional",
+    "certyfikacja-krok-po-kroku":           "quality certification engineer factory steps inspection",
+    "nowe-normy-zharmonizowane-2026-2028":  "engineering standards technical books documents office",
+}
+
 # ─── Generowanie zapytania wyszukiwania ───────────────────────────────────────
 
 def build_query(art_kw, meta):
-    """Buduje angielskie zapytanie do Pexels/Pollinations na podstawie słów kluczowych."""
+    """Buduje angielskie zapytanie do Pexels na podstawie slug artykułu."""
+    # Najpierw sprawdź czy mamy konkretne zapytanie wizualne dla tego artykułu
+    slug_raw = meta.get("slug", "")
+    # Wyciągnij slug z image_url lub z nazwy pliku
+    img_url = meta.get("image_url", "")
+    # Spróbuj dopasować po slug z front matter lub po kluczach słownika
+    for article_slug, visual_query in ARTICLE_VISUAL_QUERIES.items():
+        for kw in art_kw:
+            if article_slug.replace("-", "") in "".join(sorted(art_kw)).replace("-", ""):
+                pass
+        # Dopasuj po kluczach słownika względem słów kluczowych artykułu
+        slug_parts = set(article_slug.split("-"))
+        if len(slug_parts & art_kw) >= 2:
+            return visual_query
+
+    # Fallback: ogólne zapytanie branżowe
     translated = []
     used = set()
     for kw in sorted(art_kw):
@@ -157,16 +218,20 @@ def build_query(art_kw, meta):
             translated.append(PL_TO_EN[kw])
             used.add(PL_TO_EN[kw])
         elif re.match(r'^[a-z]+$', kw) and len(kw) > 3:
-            translated.append(kw)  # już po angielsku
+            translated.append(kw)
 
-    # Fallback: tytuł artykułu
     if not translated:
-        title = meta.get("title", "")
-        translated = ["construction", "building", "professional"]
+        return "construction professional building materials worker"
 
-    # Weź pierwsze 3 frazy, połącz
-    query = " ".join(translated[:3])
-    return query
+    return " ".join(translated[:3])
+
+
+def build_query_from_slug(md_filename):
+    """Buduje zapytanie wizualne bezpośrednio z nazwy pliku markdown."""
+    slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", Path(md_filename).stem)
+    if slug in ARTICLE_VISUAL_QUERIES:
+        return ARTICLE_VISUAL_QUERIES[slug]
+    return None
 
 
 # ─── Pexels API ───────────────────────────────────────────────────────────────
@@ -460,7 +525,7 @@ def pollinations_url_variant(prompt, variant=1, width=800, height=534):
 
 def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
     """Pobiera nowe zdjęcie i aktualizuje plik markdown. Zwraca True przy sukcesie."""
-    query = build_query(art_kw, meta)
+    query = build_query_from_slug(md.name) or build_query(art_kw, meta)
     slug  = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", md.stem)[:30]
     new_name  = f"{slug}.jpg"
     dest_path = IMAGES_DIR / new_name
@@ -575,7 +640,8 @@ def main():
             meta   = item["meta"]
             art_kw = item["art_kw"]
             title  = meta.get("title", "")[:60]
-            query  = build_query(art_kw, meta)
+            # Używaj konkretnego zapytania wizualnego ze słownika (slug → co ma być na zdjęciu)
+            query  = build_query_from_slug(md.name) or build_query(art_kw, meta)
 
             print(f"[{i}/{len(articles)}] {md.name}")
             print(f"  Tytuł:  {title}")
