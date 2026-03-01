@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["Ecolabel", "EPD", "etykietowanie środowiskowe", "CPR 2024", "greenwashing"]
 excerpt: "Rynek wyrobów budowlanych jest zalany różnego rodzaju etykietami, deklaracjami i certyfikatami środowiskowymi. CPR 2024/3110 porządkuje ten krajobraz, nadając normative znaczenie charakterystykom środowiskowym w DoP&C, a nadchodząca Dyrektywa o Ekologicznych Twierdzeniach (Green Claims Directive) zaostry wymagania wobec wszelkich dobrowolnych deklaracji środowiskowych."
-image_url: /images/blog/epd-srodowisko.jpg
+image_url: /images/blog/oznakowanie-ekologiczne-cpr-20.jpg
 template: "analiza"
 ---
 

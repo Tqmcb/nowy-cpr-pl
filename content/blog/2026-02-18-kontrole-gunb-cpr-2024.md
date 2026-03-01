@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["GUNB", "nadzór rynku", "kontrole", "CPR 2024", "oznakowanie CE"]
 excerpt: "GUNB prowadzi kontrole wyrobów budowlanych na podstawie CPR 2024/3110. Poznaj najczęstsze nieprawidłowości, prawa i obowiązki producenta podczas kontroli oraz jak się do niej przygotować."
-image_url: /images/blog/inspekcja-gunb.jpg
+image_url: /images/blog/kontrole-gunb-cpr-2024.jpg
 template: "praktyczny"
 ---
 

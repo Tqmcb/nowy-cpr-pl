@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["AVS 3+", "EPD", "walidacja", "jednostka notyfikowana", "CPR 2024", "LCA"]
 excerpt: "CPR 2024/3110 wprowadza zupełnie nowy system oceny — AVS 3+ — przeznaczony wyłącznie do walidacji danych środowiskowych LCA i EPD przez akredytowaną jednostkę notyfikowaną. To istotna nowość w stosunku do starego rozporządzenia, która zmienia sposób, w jaki producenci dokumentują swój ślad środowiskowy."
-image_url: /images/blog/epd-srodowisko.jpg
+image_url: /images/blog/avs-3plus-walidacja-epd.jpg
 template: "analiza"
 ---
 

@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["normy", "hEN", "standardy", "EN"]
 excerpt: "Aktualna lista norm zharmonizowanych dla wyrobów budowlanych. Co nowego w 2026 roku, które normy uległy zmianie i jak się przygotować?"
-image_url: /images/blog/normy-eta.jpg
+image_url: /images/blog/normy-zharmonizowane-2026.jpg
 template: "techniczny"
 ---
 

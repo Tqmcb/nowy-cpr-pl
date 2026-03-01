@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["SVHC", "REACH", "substancje niebezpieczne", "CPR 2024", "DoP&C"]
 excerpt: "CPR 2024/3110 po raz pierwszy wprowadza do Deklaracji Właściwości i Zgodności obowiązek deklarowania substancji wzbudzających szczególnie duże obawy (SVHC) obecnych w wyrobie powyżej progu 0,1% wagowo. Dowiedz się, czym są SVHC, jak sprawdzić listę kandydacką ECHA i jak powiązać ten wymóg z bazą SCIP."
-image_url: /images/blog/normy-eta.jpg
+image_url: /images/blog/svhc-reach.jpg
 template: "analiza"
 ---
 

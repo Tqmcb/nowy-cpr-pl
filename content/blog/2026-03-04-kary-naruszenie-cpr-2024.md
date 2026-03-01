@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["kary", "sankcje", "CPR 2024", "nadzór rynku", "GUNB", "naruszenie"]
 excerpt: "CPR 2024/3110 wprowadza znacznie surowsze sankcje niż stare rozporządzenie. Od 8 stycznia 2027 organy nadzoru mogą nakładać kary na producentów, importerów i dystrybutorów. Sprawdź co grozi i za co dokładnie."
-image_url: /images/blog/inspekcja-gunb.jpg
+image_url: /images/blog/kary-naruszenie-cpr-2024.jpg
 template: "analiza"
 ---
 

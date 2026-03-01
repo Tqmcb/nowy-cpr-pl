@@ -202,6 +202,36 @@ def pexels_search(query, api_key, per_page=3):
         return []
 
 
+# ─── OpenVerse (Creative Commons, bez klucza) ─────────────────────────────────
+
+def openverse_search(query, variant=0, per_page=20):
+    """Szuka zdjęć CC na OpenVerse. Zwraca element [variant] z listy wyników."""
+    params = urllib.parse.urlencode({
+        "q": query,
+        "page_size": per_page,
+        "page": 1,
+        "license_type": "commercial",
+        "extension": "jpg",
+    })
+    url = f"https://api.openverse.org/v1/images/?{params}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read())
+        results = [{"url": p["url"], "title": p.get("title", "")} for p in data.get("results", [])]
+        # Wybierz element 'variant' (0,1,2...) żeby każdy artykuł miał inne zdjęcie
+        if results:
+            idx = variant % len(results)
+            return [results[idx]]
+        return []
+    except Exception as e:
+        print(f"    ⚠️  OpenVerse błąd: {e}")
+        return []
+
+
 # ─── Pollinations.ai (bez klucza) ─────────────────────────────────────────────
 
 def pollinations_url(prompt, width=800, height=534):
@@ -333,35 +363,59 @@ def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
     new_name  = f"{slug}.jpg"
     dest_path = IMAGES_DIR / new_name
 
-    results = []
+    source = "openverse"
+    dl_url = None
+    label  = ""
+
+    # 1. Pexels (najlepsza jakość)
     if pexels_key:
         print(f"  🔎 Pexels (strona {variant+1}): szukam...", end=" ", flush=True)
         results = pexels_search_variant(query, pexels_key, variant)
         if results:
-            print(f"znaleziono {len(results)} zdjęć")
-        else:
-            print("brak wyników → Pollinations.ai")
-    else:
-        print(f"  ℹ️  Brak PEXELS_API_KEY → używam Pollinations.ai (seed={42+variant*137})")
-
-    if dry_run:
-        print(f"  [DRY RUN] Nowe zdjęcie: {new_name}  (query: \"{query}\")")
-        if results:
-            r = results[0]
-            print(f"  [DRY RUN] Pexels ID {r['id']} — {r['photographer']}")
-        else:
-            print(f"  [DRY RUN] Pollinations seed={42+variant*137}")
-        return True
-
-    try:
-        if results:
             best   = results[0]
             dl_url = best["download"]
             label  = f"Pexels #{best['id']} by {best['photographer']}"
+            source = "pexels"
+            print(f"znaleziono {len(results)} zdjęć")
         else:
-            dl_url = pollinations_url_variant(query, variant)
-            label  = f"Pollinations.ai seed={42+variant*137}"
+            print("brak → OpenVerse")
 
+    # 2. OpenVerse (CC, bez klucza)
+    if not dl_url:
+        print(f"  🔎 OpenVerse (wynik #{variant+1}): szukam...", end=" ", flush=True)
+        # Próbuj coraz prostszych zapytań aż do skutku
+        queries_to_try = [query]
+        # Dodaj zapytania z samych tłumaczeń PL_TO_EN
+        translated_only = " ".join(list({PL_TO_EN[k] for k in sorted(art_kw) if k in PL_TO_EN})[:2])
+        if translated_only:
+            queries_to_try.append(translated_only)
+        queries_to_try.append("construction building")  # zawsze działa
+        ov = []
+        for q in queries_to_try:
+            ov = openverse_search(q, variant)
+            if ov:
+                break
+        if ov:
+            dl_url = ov[0]["url"]
+            label  = f"OpenVerse: {ov[0]['title'][:50]}"
+            source = "openverse"
+            print(f"znaleziono {len(ov)} zdjęć")
+        else:
+            print("brak → Pollinations.ai")
+
+    # 3. Pollinations.ai (AI, ostatni fallback)
+    if not dl_url:
+        dl_url = pollinations_url_variant(query, variant)
+        label  = f"Pollinations.ai seed={42+variant*137}"
+        source = "pollinations"
+        print(f"  ℹ️  Używam Pollinations.ai (seed={42+variant*137})")
+
+    if dry_run:
+        print(f"  [DRY RUN] Nowe zdjęcie: {new_name}  (query: \"{query}\")")
+        print(f"  [DRY RUN] Źródło: {label}")
+        return True
+
+    try:
         download_image(dl_url, dest_path, label)
         update_markdown_image(md, new_name)
         print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
