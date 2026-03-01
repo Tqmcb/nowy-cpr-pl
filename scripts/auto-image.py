@@ -12,7 +12,7 @@ Użycie:
     python3 scripts/auto-image.py --fix --dry-run  # podgląd bez pobierania
 """
 
-import re, json, sys, time, urllib.request, urllib.parse
+import re, json, sys, time, urllib.request, urllib.parse, io
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -232,10 +232,100 @@ def openverse_search(query, variant=0, per_page=20):
         return []
 
 
-# ─── Pollinations.ai (bez klucza) ─────────────────────────────────────────────
+# ─── Stable Horde (Stable Diffusion, darmowy, bez klucza) ────────────────────
+
+STABLE_HORDE_API = "https://stablehorde.net/api/v2"
+STABLE_HORDE_KEY = "0000000000"   # klucz anonimowy (darmowy)
+
+def stable_horde_generate(prompt, variant=0, timeout_s=180):
+    """Generuje obraz AI przez Stable Horde. Zwraca bajty JPEG lub None."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("    ⚠️  Brak Pillow (pip3 install Pillow) → pomijam Stable Horde")
+        return None
+
+    full_prompt = (
+        f"professional photo, {prompt}, construction industry, EU regulation, "
+        f"high quality, natural lighting, realistic, no text, no watermark"
+    )
+    seed = 100 + variant * 137
+
+    # 1. Wyślij zlecenie
+    payload = json.dumps({
+        "prompt": full_prompt,
+        "params": {
+            "width": 512, "height": 512,
+            "steps": 25, "n": 1,
+            "sampler_name": "k_euler",
+            "seed": str(seed),
+        },
+        "nsfw": False, "censor_nsfw": True,
+        "models": ["stable_diffusion"],
+    }).encode()
+    req = urllib.request.Request(
+        f"{STABLE_HORDE_API}/generate/async", data=payload,
+        headers={"Content-Type": "application/json",
+                 "apikey": STABLE_HORDE_KEY,
+                 "Client-Agent": "nowycpr:2:admin"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            job_id = json.loads(r.read())["id"]
+    except Exception as e:
+        print(f"    ⚠️  Stable Horde start: {e}")
+        return None
+
+    # 2. Czekaj na wynik
+    deadline = time.time() + timeout_s
+    while time.time() < deadline:
+        time.sleep(8)
+        try:
+            chk = urllib.request.Request(
+                f"{STABLE_HORDE_API}/generate/check/{job_id}",
+                headers={"apikey": STABLE_HORDE_KEY, "Client-Agent": "nowycpr:2:admin"},
+            )
+            with urllib.request.urlopen(chk, timeout=10) as r:
+                status = json.loads(r.read())
+            if status.get("done"):
+                break
+            wait = status.get("wait_time", "?")
+            print(f"    ⏳ Stable Horde: czekam ~{wait}s...")
+        except Exception:
+            pass
+    else:
+        print("    ⚠️  Stable Horde: timeout")
+        return None
+
+    # 3. Pobierz URL obrazu
+    try:
+        res = urllib.request.Request(
+            f"{STABLE_HORDE_API}/generate/status/{job_id}",
+            headers={"apikey": STABLE_HORDE_KEY, "Client-Agent": "nowycpr:2:admin"},
+        )
+        with urllib.request.urlopen(res, timeout=10) as r:
+            img_url = json.loads(r.read())["generations"][0]["img"]
+    except Exception as e:
+        print(f"    ⚠️  Stable Horde status: {e}")
+        return None
+
+    # 4. Pobierz webp i konwertuj na JPEG 800×534
+    try:
+        dl = urllib.request.Request(img_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(dl, timeout=20) as r:
+            raw = r.read()
+        img = Image.open(io.BytesIO(raw)).convert("RGB").resize((800, 534), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, "JPEG", quality=88)
+        return buf.getvalue()
+    except Exception as e:
+        print(f"    ⚠️  Stable Horde konwersja: {e}")
+        return None
+
+
+# ─── Pollinations.ai (fallback) ───────────────────────────────────────────────
 
 def pollinations_url(prompt, width=800, height=534):
-    """Zwraca URL do AI-generowanego zdjęcia (Pollinations.ai)."""
     safe = urllib.parse.quote(
         f"professional photo, {prompt}, construction industry, EU regulation, "
         f"high quality, natural lighting, no text, no watermark"
@@ -246,7 +336,7 @@ def pollinations_url(prompt, width=800, height=534):
 # ─── Pobieranie i zapis ────────────────────────────────────────────────────────
 
 def download_image(url, dest_path, source_label):
-    """Pobiera zdjęcie pod wskazany ścieżkę."""
+    """Pobiera zdjęcie z URL i zapisuje pod wskazaną ścieżkę."""
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         data = r.read()
@@ -403,27 +493,46 @@ def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
         else:
             print("brak → Pollinations.ai")
 
-    # 3. Pollinations.ai (AI, ostatni fallback)
-    if not dl_url:
-        dl_url = pollinations_url_variant(query, variant)
-        label  = f"Pollinations.ai seed={42+variant*137}"
-        source = "pollinations"
-        print(f"  ℹ️  Używam Pollinations.ai (seed={42+variant*137})")
-
     if dry_run:
+        src_name = "Pexels" if source == "pexels" else "OpenVerse" if source == "openverse" else "Stable Horde (AI)"
         print(f"  [DRY RUN] Nowe zdjęcie: {new_name}  (query: \"{query}\")")
-        print(f"  [DRY RUN] Źródło: {label}")
+        print(f"  [DRY RUN] Źródło: {src_name}")
         return True
 
-    try:
-        download_image(dl_url, dest_path, label)
+    # ── Pobierz przez URL (Pexels / OpenVerse) ────────────────────────────────
+    if dl_url:
+        try:
+            download_image(dl_url, dest_path, label)
+            update_markdown_image(md, new_name)
+            print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
+            add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
+            return True
+        except Exception as e:
+            print(f"  ⚠️  Błąd pobierania URL: {e} → próbuję Stable Horde...")
+
+    # ── Stable Horde (AI generator, fallback) ────────────────────────────────
+    print(f"  🤖 Stable Horde: generuję AI zdjęcie...")
+    img_bytes = stable_horde_generate(query, variant)
+    if img_bytes:
+        dest_path.write_bytes(img_bytes)
+        size_kb = len(img_bytes) // 1024
+        print(f"    💾 Zapisano: {dest_path.name} ({size_kb} KB) [Stable Horde AI]")
         update_markdown_image(md, new_name)
         print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
         add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
         return True
 
+    # ── Pollinations.ai (ostateczny fallback) ────────────────────────────────
+    print(f"  ℹ️  Ostatni fallback: Pollinations.ai")
+    try:
+        poll_url = pollinations_url_variant(query, variant)
+        download_image(poll_url, dest_path, f"Pollinations.ai seed={42+variant*137}")
+        update_markdown_image(md, new_name)
+        print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
+        add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
+        return True
     except Exception as e:
-        print(f"  ❌ Błąd pobierania: {e}")
+        print(f"  ❌ Wszystkie źródła zawiodły: {e}")
         return False
 
 
