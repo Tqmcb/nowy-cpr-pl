@@ -254,13 +254,172 @@ def add_to_hook_keywords(img_filename, keywords_set):
         print(f"    📝 Dodano '{img_filename}' do IMAGE_KEYWORDS w hooku")
 
 
+# ─── Znajdowanie duplikatów ────────────────────────────────────────────────────
+
+def find_duplicates():
+    """Zwraca listę artykułów które dzielą to samo zdjęcie z innym artykułem.
+    Dla każdej grupy duplikatów: pierwszy artykuł (najstarszy) zachowuje oryginał,
+    pozostałe są zwracane do wymiany."""
+    usage = {}
+    for md in sorted(CONTENT_DIR.glob("*.md")):
+        meta = parse_front_matter(md)
+        if not meta.get("title"):
+            continue
+        img_rel = meta.get("image_url", "").lstrip("/")
+        if not img_rel:
+            continue
+        usage.setdefault(img_rel, []).append((md, meta))
+
+    to_fix = []
+    for img_rel, articles in usage.items():
+        if len(articles) < 2:
+            continue
+        img_file = Path(img_rel).name
+        # Pierwszy artykuł zachowuje oryginał, reszta dostaje nowe zdjęcia
+        for idx, (md, meta) in enumerate(articles[1:], 1):
+            art_kw = article_keywords(md.name, meta)
+            to_fix.append({
+                "md":       md,
+                "meta":     meta,
+                "img_file": img_file,
+                "art_kw":   art_kw,
+                "variant":  idx,   # różny seed/strona dla każdego duplikatu
+            })
+    return to_fix
+
+
+# ─── Pobieranie z wariantem (żeby nie powtarzać tego samego zdjęcia) ──────────
+
+def pexels_search_variant(query, api_key, variant=1, per_page=3):
+    """Szuka na Pexels z inną stroną wyników dla każdego wariantu."""
+    page = variant + 1  # strona 2, 3, 4...
+    url = (f"https://api.pexels.com/v1/search?query={urllib.parse.quote(query)}"
+           f"&per_page={per_page}&page={page}&orientation=landscape")
+    req = urllib.request.Request(url, headers={"Authorization": api_key})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
+        results = []
+        for p in data.get("photos", []):
+            results.append({
+                "id":           p["id"],
+                "url":          p["url"],
+                "photographer": p["photographer"],
+                "thumb":        p["src"]["medium"],
+                "download":     p["src"]["large"],
+            })
+        return results
+    except Exception as e:
+        print(f"    ⚠️  Pexels błąd: {e}")
+        return []
+
+
+def pollinations_url_variant(prompt, variant=1, width=800, height=534):
+    """Generuje AI-zdjęcie z innym seed dla każdego wariantu."""
+    seed = 42 + variant * 137   # różny seed: 42, 179, 316, 453...
+    safe = urllib.parse.quote(
+        f"professional photo, {prompt}, construction industry, EU regulation, "
+        f"high quality, natural lighting, no text, no watermark"
+    )
+    return f"https://image.pollinations.ai/prompt/{safe}?width={width}&height={height}&nologo=true&seed={seed}"
+
+
+# ─── Wspólna logika pobierania ─────────────────────────────────────────────────
+
+def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
+    """Pobiera nowe zdjęcie i aktualizuje plik markdown. Zwraca True przy sukcesie."""
+    query = build_query(art_kw, meta)
+    slug  = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", md.stem)[:30]
+    new_name  = f"{slug}.jpg"
+    dest_path = IMAGES_DIR / new_name
+
+    results = []
+    if pexels_key:
+        print(f"  🔎 Pexels (strona {variant+1}): szukam...", end=" ", flush=True)
+        results = pexels_search_variant(query, pexels_key, variant)
+        if results:
+            print(f"znaleziono {len(results)} zdjęć")
+        else:
+            print("brak wyników → Pollinations.ai")
+    else:
+        print(f"  ℹ️  Brak PEXELS_API_KEY → używam Pollinations.ai (seed={42+variant*137})")
+
+    if dry_run:
+        print(f"  [DRY RUN] Nowe zdjęcie: {new_name}  (query: \"{query}\")")
+        if results:
+            r = results[0]
+            print(f"  [DRY RUN] Pexels ID {r['id']} — {r['photographer']}")
+        else:
+            print(f"  [DRY RUN] Pollinations seed={42+variant*137}")
+        return True
+
+    try:
+        if results:
+            best   = results[0]
+            dl_url = best["download"]
+            label  = f"Pexels #{best['id']} by {best['photographer']}"
+        else:
+            dl_url = pollinations_url_variant(query, variant)
+            label  = f"Pollinations.ai seed={42+variant*137}"
+
+        download_image(dl_url, dest_path, label)
+        update_markdown_image(md, new_name)
+        print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
+        add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
+        return True
+
+    except Exception as e:
+        print(f"  ❌ Błąd pobierania: {e}")
+        return False
+
+
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    auto_fix = "--fix" in sys.argv
-    dry_run  = "--dry-run" in sys.argv
+    auto_fix   = "--fix"   in sys.argv
+    dry_run    = "--dry-run" in sys.argv
+    dedup_mode = "--dedup" in sys.argv
     pexels_key = load_pexels_key()
 
+    # ── Tryb deduplikacji ──────────────────────────────────────────────────────
+    if dedup_mode:
+        print("🔍 Szukam zdublowanych zdjęć...\n")
+        duplicates = find_duplicates()
+
+        if not duplicates:
+            print("✅ Każdy artykuł ma unikalne zdjęcie!")
+            return
+
+        print(f"♻️  Znaleziono {len(duplicates)} artykułów ze zdublowanymi zdjęciami:\n")
+        for i, item in enumerate(duplicates, 1):
+            md      = item["md"]
+            meta    = item["meta"]
+            img_old = item["img_file"]
+            variant = item["variant"]
+            art_kw  = item["art_kw"]
+            title   = meta.get("title", "")[:60]
+
+            print(f"[{i}/{len(duplicates)}] {md.name}")
+            print(f"  Tytuł:   {title}")
+            print(f"  Zdjęcie: {img_old}  (duplikat #{variant})")
+
+            if not auto_fix:
+                query = build_query(art_kw, meta)
+                print(f"  Query:   \"{query}\"")
+                print()
+                continue
+
+            fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run)
+            print()
+            time.sleep(1)
+
+        if not auto_fix:
+            print("💡 Aby automatycznie przypisać unikalne zdjęcia:")
+            print("   python3 scripts/auto-image.py --dedup --fix")
+            print("   python3 scripts/auto-image.py --dedup --fix --dry-run  # podgląd")
+        return
+
+    # ── Tryb naprawy niezgodności (domyślny) ──────────────────────────────────
     print("🔍 Szukam niezgodności zdjęć...\n")
     mismatches = find_mismatches()
 
@@ -287,57 +446,7 @@ def main():
         if not auto_fix:
             continue
 
-        # ── Szukaj nowego zdjęcia ──────────────────────────────────────────
-        results = []
-        source  = "pollinations"
-
-        if pexels_key:
-            print(f"  🔎 Pexels: szukam...", end=" ", flush=True)
-            results = pexels_search(query, pexels_key)
-            if results:
-                source = "pexels"
-                print(f"znaleziono {len(results)} zdjęć")
-            else:
-                print("brak wyników → Pollinations.ai")
-        else:
-            print(f"  ℹ️  Brak PEXELS_API_KEY → używam Pollinations.ai (AI)")
-
-        # ── Ustal nową nazwę pliku ─────────────────────────────────────────
-        slug      = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", md.stem)[:30]
-        new_name  = f"{slug}.jpg"
-        dest_path = IMAGES_DIR / new_name
-
-        if dry_run:
-            print(f"  [DRY RUN] Nowe zdjęcie: {new_name}")
-            if results:
-                r = results[0]
-                print(f"  [DRY RUN] Pexels ID {r['id']} — {r['photographer']}")
-                print(f"  [DRY RUN] URL: {r['url']}")
-            else:
-                print(f"  [DRY RUN] Pollinations query: {query}")
-            print()
-            continue
-
-        # ── Pobierz ────────────────────────────────────────────────────────
-        try:
-            if results:
-                best    = results[0]
-                dl_url  = best["download"]
-                label   = f"Pexels #{best['id']} by {best['photographer']}"
-            else:
-                dl_url  = pollinations_url(query)
-                label   = "Pollinations.ai"
-
-            download_image(dl_url, dest_path, label)
-            update_markdown_image(md, new_name)
-            print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
-
-            # Dodaj do słownika hooka
-            add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
-
-        except Exception as e:
-            print(f"  ❌ Błąd pobierania: {e}")
-
+        fetch_and_update(md, meta, art_kw, 0, pexels_key, dry_run)
         print()
         time.sleep(1)
 
@@ -345,10 +454,11 @@ def main():
         print("\n💡 Aby automatycznie pobrać i podmienić zdjęcia:")
         print("   python3 scripts/auto-image.py --fix")
         print()
+        print("💡 Aby usunąć duplikaty (każdy artykuł unikalne zdjęcie):")
+        print("   python3 scripts/auto-image.py --dedup --fix")
+        print()
         print("💡 Aby dodać klucz Pexels (darmowy, lepsza jakość):")
         print("   https://www.pexels.com/api/  →  echo 'PEXELS_API_KEY=...' >> .env")
-        print()
-        print("💡 Bez klucza używa Pollinations.ai (AI, zero konfiguracji)")
 
 
 if __name__ == "__main__":
