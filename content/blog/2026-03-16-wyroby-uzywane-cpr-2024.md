@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["wyroby używane", "second-hand", "odzysk", "CPR 2024", "gospodarka cyrkularna"]
 excerpt: "CPR 2024/3110 jako pierwsze rozporządzenie budowlane UE reguluje wprost obrót wyrobami używanymi, odzyskanymi i odnowionymi. Nowe przepisy określają, kto odpowiada przy odsprzedaży, kiedy pierwotny DoP&C zachowuje ważność i kiedy konieczna jest nowa ocena zgodności. To przełom dla zrównoważonego budownictwa i gospodarki cyrkularnej."
-image_url: /images/blog/recykling.jpg
+image_url: /images/blog/wyroby-uzywane-cpr-2024.jpg
 template: "analiza"
 ---
 

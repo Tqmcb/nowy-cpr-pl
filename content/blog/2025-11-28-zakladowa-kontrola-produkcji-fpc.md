@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
 excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy."
-image_url: /images/blog/fabryka-fpc.jpg
+image_url: /images/blog/zakladowa-kontrola-produkcji-f.jpg
 template: "przewodnik"
 ---
 

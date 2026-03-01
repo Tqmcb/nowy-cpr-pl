@@ -551,10 +551,47 @@ def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
 # ─── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    auto_fix   = "--fix"   in sys.argv
-    dry_run    = "--dry-run" in sys.argv
-    dedup_mode = "--dedup" in sys.argv
-    pexels_key = load_pexels_key()
+    auto_fix     = "--fix"         in sys.argv
+    dry_run      = "--dry-run"     in sys.argv
+    dedup_mode   = "--dedup"       in sys.argv
+    replace_all  = "--replace-all" in sys.argv
+    pexels_key   = load_pexels_key()
+
+    # ── Tryb: podmień WSZYSTKIE zdjęcia ───────────────────────────────────────
+    if replace_all:
+        print("🔄 Tryb --replace-all: podmieniam zdjęcia we wszystkich artykułach...\n")
+        articles = []
+        for md in sorted(CONTENT_DIR.glob("*.md")):
+            meta = parse_front_matter(md)
+            if not meta.get("title"):
+                continue
+            art_kw = article_keywords(md.name, meta)
+            articles.append({"md": md, "meta": meta, "art_kw": art_kw})
+
+        print(f"📋 Znaleziono {len(articles)} artykułów\n")
+
+        for i, item in enumerate(articles, 1):
+            md     = item["md"]
+            meta   = item["meta"]
+            art_kw = item["art_kw"]
+            title  = meta.get("title", "")[:60]
+            query  = build_query(art_kw, meta)
+
+            print(f"[{i}/{len(articles)}] {md.name}")
+            print(f"  Tytuł:  {title}")
+            print(f"  Query:  \"{query}\"")
+
+            if not auto_fix:
+                continue
+
+            fetch_and_update(md, meta, art_kw, i, pexels_key, dry_run)
+            print()
+            time.sleep(1)
+
+        if not auto_fix:
+            print("\n💡 Aby podmienić:")
+            print("   python3 scripts/auto-image.py --replace-all --fix")
+        return
 
     # ── Tryb deduplikacji ──────────────────────────────────────────────────────
     if dedup_mode:

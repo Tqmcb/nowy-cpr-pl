@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["okna", "drzwi", "EN 14351", "ITT"]
 excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2006+A2:2016. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP."
-image_url: /images/blog/okna-drzwi.jpg
+image_url: /images/blog/okna-drzwi-certyfikacja.jpg
 template: "techniczny"
 ---
 
