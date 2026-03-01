@@ -5,7 +5,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości", "szablon", "CPR 2024", "oznakowanie CE"]
 excerpt: "CPR 2024/3110 zastąpił starą Deklarację Właściwości Użytkowych (DoP) nowym dokumentem — Deklaracją Właściwości Użytkowych i Zgodności (DoP&C). Nowy formularz zawiera dodatkowe pola dotyczące substancji SVHC, śladu węglowego GWP oraz cyfrowej dostępności. Omawiamy każde wymagane pole krok po kroku z praktycznym komentarzem."
-image_url: /images/blog/normy-eta.jpg
+image_url: /images/blog/szablon-dopc.jpg
 template: "przewodnik"
 ---
 
