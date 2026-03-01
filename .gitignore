@@ -1,3 +1,16 @@
 node_modules
 
 .firecrawl/
+
+# Zmienne środowiskowe (klucze API) — nie commitujemy
+.env
+.env.local
+.env.*.local
+
+# Logi i artefakty sesji deweloperskiej
+firebase-debug.log
+.playwright-mcp/
+*.png
+
+# Build output (regenerowany przez GitHub Actions)
+dist/
