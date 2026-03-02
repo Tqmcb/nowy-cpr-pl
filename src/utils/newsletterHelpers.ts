@@ -1,3 +1,6 @@
+// MailerLite group ID for newsletter (group: "Newsletter NowyCPR.pl")
+const ML_GROUP_NEWSLETTER = "180850653268018494";
+
 /**
  * Funkcje pomocnicze do obsługi newslettera
  * Używa MailerLite API do zapisu subskrybentów.
@@ -14,11 +17,10 @@ export const subscribeToNewsletter = async (email: string, source: string = 'blo
       return true;
     }
 
-    const body: Record<string, unknown> = { email };
+    const body: Record<string, unknown> = { email, groups: [ML_GROUP_NEWSLETTER] };
     if (name) {
       body.fields = { name };
     }
-    body.groups = [];  // brak grup — trafia do głównej listy
 
     const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
       method: "POST",

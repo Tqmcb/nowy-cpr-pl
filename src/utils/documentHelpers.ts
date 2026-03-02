@@ -148,7 +148,10 @@ const documentUrls: Record<string, string> = {
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
-// Function to track email leads — adds to MailerLite with a note about the downloaded document
+// MailerLite group ID for document leads (group: "Pobrania dokumentow CPR")
+const ML_GROUP_DOCS = "180850653059352398";
+
+// Function to track email leads — adds to MailerLite group + note about downloaded document
 export const trackLead = async (email: string, documentId: string): Promise<boolean> => {
   const documentTitle = documents.find(doc => doc.id === documentId)?.title || documentId;
   const apiKey = import.meta.env.VITE_MAILERLITE_API_KEY;
@@ -159,11 +162,11 @@ export const trackLead = async (email: string, documentId: string): Promise<bool
   };
 
   try {
-    // 1. Dodaj subskrybenta (lub zaktualizuj istniejącego)
+    // 1. Dodaj subskrybenta do grupy "Pobrania dokumentow CPR"
     const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
       method: "POST",
       headers,
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({ email, groups: [ML_GROUP_DOCS] }),
     });
 
     if (res.ok) {
