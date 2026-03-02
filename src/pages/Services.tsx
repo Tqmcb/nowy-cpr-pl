@@ -47,29 +47,47 @@ export default function Services() {
     setFormData(prev => ({ ...prev, [name]: checked }));
   };
 
+  // MailerLite group ID for contact form (group: "Zapytania o usługi CPR")
+  const ML_GROUP_CONTACT = "180852782214940193";
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const apiKey = import.meta.env.VITE_MAILERLITE_API_KEY;
+      const headers = {
+        "Authorization": `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      };
+
+      // 1. Dodaj subskrybenta do grupy "Zapytania o usługi CPR"
+      const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        headers,
         body: JSON.stringify({
-          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
-          subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
-          from_name: formData.name,
-          replyto: formData.email,
           email: formData.email,
-          phone: formData.phone || "—",
-          company: formData.company || "—",
-          message: formData.message,
-          botcheck: false,
+          fields: { name: formData.name, phone: formData.phone || "" },
+          groups: [ML_GROUP_CONTACT],
         }),
       });
 
-      const data = await res.json();
-      if (data.success) {
+      if (res.ok) {
+        const data = await res.json();
+        const subscriberId: string = data?.data?.id;
+
+        // 2. Dodaj notatkę z pełną treścią zapytania
+        if (subscriberId) {
+          const date = new Date().toLocaleString("pl-PL", { timeZone: "Europe/Warsaw" });
+          const noteContent = `Zapytanie o usługę CPR 2024 (${date})\nFirma: ${formData.company || "—"}\nTelefon: ${formData.phone || "—"}\nWiadomość: ${formData.message}`;
+          await fetch(`https://connect.mailerlite.com/api/subscribers/${subscriberId}/notes`, {
+            method: "POST",
+            headers,
+            body: JSON.stringify({ content: noteContent }),
+          }).catch(() => {});
+        }
+
         setFormStatus("success");
         setFormData({ name: "", email: "", phone: "", company: "", message: "", consent: false });
       } else {
