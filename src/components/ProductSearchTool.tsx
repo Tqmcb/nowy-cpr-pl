@@ -562,7 +562,7 @@ export function ProductSearchTool() {
               </h2>
               <p className="text-slate-400 mb-8">
                 Nasi eksperci pomogą Ci dostosować Twoje wyroby do nowych wymagań.
-                Oferujemy kompleksowe wsparcie w procesie certyfikacji oraz doradztwo w zakresie interpretacji przepisów.
+                Oferujemy kompleksowe wsparcie w procesie certyfikacji oraz ocenę zgodności z wymaganiami CPR 2024/3110.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

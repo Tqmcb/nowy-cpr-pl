@@ -379,7 +379,7 @@ export function DocumentsPage() {
               </h2>
               <p className="text-slate-400 mb-8">
                 Nasi eksperci są gotowi pomóc Ci w przygotowaniu dokumentacji zgodnej z CPR (EU) 2024/3110.
-                Oferujemy indywidualne konsultacje oraz usługi przygotowania i weryfikacji dokumentów.
+                Oferujemy usługi przygotowania i weryfikacji dokumentów oraz ocenę zgodności z wymaganiami CPR 2024/3110.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

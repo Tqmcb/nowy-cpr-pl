@@ -202,9 +202,9 @@ export function ServicesPage() {
             </div>
 
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold mb-3">Doradztwo i szkolenia</h3>
+              <h3 className="text-xl font-bold mb-3">Szkolenia techniczne</h3>
               <p className="text-gray-600 mb-4">
-                Profesjonalne doradztwo i szkolenia z zakresu wymagań CPR 2024, pomagające zrozumieć i wdrożyć nowe przepisy w organizacji.
+                Profesjonalne szkolenia z zakresu wymagań CPR 2024, pomagające zrozumieć nowe przepisy i dostosować do nich organizację.
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
                 <li>Analiza wpływu CPR 2024 na produkty</li>
@@ -258,7 +258,7 @@ export function ServicesPage() {
                 <h3 className="font-bold text-lg mb-2">Multicert Sp. z o.o.</h3>
                 <p className="text-gray-600">ul. Przykładowa 123</p>
                 <p className="text-gray-600">00-000 Warszawa</p>
-                <p className="text-gray-600 mt-2">Tel: +48 123 456 789</p>
+                <p className="text-gray-600 mt-2">Tel: 730 668 341</p>
                 <p className="text-gray-600">Email: kontakt@multicert.pl</p>
               </div>
             </div>
