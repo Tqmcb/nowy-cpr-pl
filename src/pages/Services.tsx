@@ -133,7 +133,7 @@ export default function Services() {
       number: "02",
       icon: Factory,
       title: "Przegląd systemu ZKP (Art. 20 CPR 2024)",
-      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
+      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
       features: [
         "Ocena Księgi ZKP i procedur operacyjnych",
         "Weryfikacja dostosowania do systemu AVS klienta",
