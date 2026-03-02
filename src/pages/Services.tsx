@@ -216,7 +216,7 @@ export default function Services() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                <span className="text-white">Usługi doradcze i audytowe </span>
+                <span className="text-white">Usługi techniczne i audytowe </span>
                 <span className="gradient-text">Multicert</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
