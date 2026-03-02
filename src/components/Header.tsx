@@ -61,10 +61,6 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8" aria-label="Nawigacja główna">
-            <NavLink to="/services" className={navLinkClass}>
-              <Briefcase className="w-4 h-4" />
-              Usługi
-            </NavLink>
             <NavLink to="/product-search" className={navLinkClass}>
               <Search className="w-4 h-4" />
               Wymagania
@@ -76,6 +72,10 @@ export function Header() {
             <NavLink to="/documents" className={navLinkClass}>
               <FileText className="w-4 h-4" />
               Wzory
+            </NavLink>
+            <NavLink to="/services" className={navLinkClass}>
+              <Briefcase className="w-4 h-4" />
+              Usługi
             </NavLink>
             <NavLink to="/blog" className={navLinkClass}>
               <Newspaper className="w-4 h-4" />
@@ -108,10 +108,10 @@ export function Header() {
           <div className="glass-card p-6 space-y-4">
             {[
               { path: "/", label: "Strona Główna", icon: Home },
-              { path: "/services", label: "Usługi", icon: Briefcase },
               { path: "/product-search", label: "Wymagania", icon: Search },
               { path: "/wyroby", label: "Katalog wyrobów", icon: Building2 },
               { path: "/documents", label: "Wzory", icon: FileText },
+              { path: "/services", label: "Usługi", icon: Briefcase },
               { path: "/blog", label: "Aktualności", icon: Newspaper }
             ].map((item, index) => (
               <NavLink

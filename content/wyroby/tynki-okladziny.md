@@ -133,7 +133,7 @@ Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoin
 
 ## Gdzie szukać wsparcia
 
+- [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych i tynkarskich
 - [ITB](https://www.itb.pl) – badania ogniowe systemów ścianek GK, tynków elewacyjnych, odporność ogniowa (NB 1488)
 - [ITCZLin](https://www.itczlin.pl) – badania emisji VOC, właściwości mechanicznych tynków i zapraw
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów ETICS i innowacyjnych systemów suchej zabudowy
-- [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych i tynkarskich

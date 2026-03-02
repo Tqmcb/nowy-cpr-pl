@@ -584,7 +584,7 @@ function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (
     { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
   ];
   return (
-    <div className="flex flex-col min-h-screen bg-slate-950">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -637,7 +637,7 @@ function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (
 
 function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -685,7 +685,7 @@ function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 
 function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -773,7 +773,7 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
 
 function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -829,7 +829,7 @@ function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 
 function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -885,7 +885,7 @@ function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
     "Umieść oznakowanie CE na wyrobie",
   ];
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <SharedHero
@@ -938,7 +938,7 @@ function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 
 function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -983,7 +983,7 @@ function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
 
 function LoadingSkeleton() {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 animate-pulse">
@@ -1053,7 +1053,7 @@ export default function BlogPost() {
 
   if (error || !post) {
     return (
-      <div className="flex flex-col min-h-screen bg-slate-900">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow flex items-center justify-center">
           <div className="text-center py-12 px-4">

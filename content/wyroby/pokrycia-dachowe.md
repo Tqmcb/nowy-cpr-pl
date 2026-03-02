@@ -129,7 +129,7 @@ Producent membran TPO do dachów płaskich:
 
 ## Gdzie szukać wsparcia
 
+- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów dachowych
 - [ITB](https://www.itb.pl) – badania pokryć dachowych (BROOF, wytrzymałość, wodoszczelność), największa polska NB (NB 1488)
 - [ITCZLin](https://www.itczlin.pl) – badania materiałów dachowych i membran
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów okien dachowych, świetlików i innowacyjnych systemów dachowych
-- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów dachowych

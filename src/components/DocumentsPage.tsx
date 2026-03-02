@@ -90,6 +90,8 @@ export function DocumentsPage() {
   const [downloadSuccess, setDownloadSuccess] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [filterType, setFilterType] = useState("all");
+  // Honeypot — niewidoczne dla ludzi, wypełniane przez boty
+  const [honeypot, setHoneypot] = useState("");
 
   const selectedDocument = documents.find(doc => doc.id === selectedDocumentId);
 
@@ -102,6 +104,12 @@ export function DocumentsPage() {
 
   const handleEmailSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Honeypot — bot wypełnił ukryte pole, cicho odrzucamy
+    if (honeypot) {
+      setDownloadSuccess(true);
+      return;
+    }
 
     if (!email.trim()) {
       setFormError("Proszę podać adres email");
@@ -166,7 +174,7 @@ export function DocumentsPage() {
   });
 
   return (
-    <div className="min-h-screen bg-slate-900">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -328,7 +336,7 @@ export function DocumentsPage() {
                 },
                 {
                   question: "Jakie są główne zmiany w CPR (EU) 2024/3110 w zakresie dokumentacji?",
-                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 16), obowiązek ujawniania substancji SVHC (art. 15 ust. 6), nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 75–80) oraz unikalny identyfikator wyrobu (art. 22 ust. 5)."
+                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 18–19), obowiązek ujawniania substancji SVHC, nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 25) oraz unikalny identyfikator wyrobu."
                 },
                 {
                   question: "Czy mogę modyfikować pobrane szablony dokumentów?",
@@ -424,6 +432,19 @@ export function DocumentsPage() {
                 </p>
 
                 <form onSubmit={handleEmailSubmit}>
+                  {/* Honeypot — niewidoczne dla użytkowników */}
+                  <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }}>
+                    <label htmlFor="doc-website">Nie wypełniaj tego pola</label>
+                    <input
+                      id="doc-website"
+                      name="website"
+                      type="text"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={honeypot}
+                      onChange={(e) => setHoneypot(e.target.value)}
+                    />
+                  </div>
                   <div className="mb-4">
                     <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Adres email</label>
                     <input

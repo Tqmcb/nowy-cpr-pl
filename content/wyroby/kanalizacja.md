@@ -110,6 +110,6 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania rur i kształtek z tworzyw sztucznych do kanalizacji (wytrzymałość, szczelność, odporność chemiczna)
-- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja systemów kanalizacyjnych (NB 1488)
 - [Multicert](https://www.multicert.pl) – certyfikacja wyrobów instalacyjnych i kanalizacyjnych
+- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja systemów kanalizacyjnych (NB 1488)
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kanalizacyjnych nieobjętych normami zharmonizowanymi

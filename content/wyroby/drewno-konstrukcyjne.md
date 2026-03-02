@@ -110,7 +110,7 @@ Oceny techniczne (ETA) dla innowacyjnych systemów CLT można uzyskać poprzez [
 
 Dla producentów drewna konstrukcyjnego szczególnie przydatne są:
 
+- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
 - [ITCZLin](https://www.itczlin.pl) – badania i certyfikacja wyrobów z drewna i tworzyw drzewnych
 - [ITB](https://www.itb.pl) – największa polska jednostka notyfikowana (NB 1488), certyfikacja ZKP dla wyrobów drewnianych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – oceny techniczne ETA dla innowacyjnych systemów konstrukyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)
-- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych

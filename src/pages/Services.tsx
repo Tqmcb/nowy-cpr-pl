@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -33,6 +33,10 @@ export default function Services() {
     message: "",
     consent: false
   });
+  // Honeypot — pole niewidoczne dla ludzi, boty je wypełniają
+  const [honeypot, setHoneypot] = useState("");
+  // Rate limit — timestamp ostatniego wysłania
+  const lastSubmitRef = useRef<number>(0);
 
   const [formStatus, setFormStatus] = useState<null | "success" | "error">(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -52,6 +56,20 @@ export default function Services() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Honeypot — bot wypełnił ukryte pole
+    if (honeypot) {
+      setFormStatus("success"); // udajemy sukces, nic nie wysyłamy
+      return;
+    }
+
+    // Rate limit — blokada przez 60 sekund od ostatniego wysłania
+    const now = Date.now();
+    if (now - lastSubmitRef.current < 60_000) {
+      return;
+    }
+    lastSubmitRef.current = now;
+
     setIsSubmitting(true);
 
     try {
@@ -95,6 +113,7 @@ export default function Services() {
           body: JSON.stringify({
             _subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
             _template: "table",
+            _captcha: "false",
             name: formData.name,
             email: formData.email,
             telefon: formData.phone || "—",
@@ -197,7 +216,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
 
       <main className="flex-grow">
@@ -346,7 +365,7 @@ export default function Services() {
                       Dlaczego teraz — zanim pojawi się certyfikacja
                     </h2>
                     <p className="text-slate-300 leading-relaxed mb-4">
-                      CPR (UE) 2024/3110 wchodzi w życie w kilku etapach. Certyfikacja jednostek notyfikowanych (NB) pod nowe rozporządzenie dopiero się kształtuje — pierwsze normy zharmonizowane pojawią się w latach 2026–2029. Jednak obowiązki producenta, nowe formaty DoP&C, zmienione wymagania ZKP i przepisy dotyczące SVHC obowiązują już lub obowiązywać będą wkrótce.
+                      CPR (UE) 2024/3110 wchodzi w życie etapami. Od 8 stycznia 2026 r. obowiązują główne przepisy, ale stary format DoP (305/2011) pozostaje ważny — do czasu przyjęcia nowej normy zharmonizowanej dla danej rodziny wyrobów. Nowy format DoP&C staje się obowiązkowy osobno dla każdej rodziny, co będzie następować sukcesywnie w latach 2026–2029+. Certyfikacja jednostek notyfikowanych pod nowe rozporządzenie dopiero się kształtuje. Obowiązki w zakresie SVHC, zmienione wymagania ZKP i przepisy dotyczące pliku technicznego wchodzą niezależnie od terminu przejścia na nowy format DoP&C.
                     </p>
                     <p className="text-slate-300 leading-relaxed mb-6">
                       Firmy, które zaczną przygotowanie teraz, unikną chaosu ostatniej chwili, kosztownych błędów w dokumentacji i ryzyk związanych z nadzorem rynku. Usługi Multicert są właśnie pod to przygotowanie — pragmatyczne, oparte na tekście rozporządzenia i prowadzone przez praktyków.
@@ -422,6 +441,19 @@ export default function Services() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
+                    {/* Honeypot — niewidoczne dla użytkowników, wypełniane przez boty */}
+                    <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }}>
+                      <label htmlFor="website">Nie wypełniaj tego pola</label>
+                      <input
+                        id="website"
+                        name="website"
+                        type="text"
+                        tabIndex={-1}
+                        autoComplete="off"
+                        value={honeypot}
+                        onChange={(e) => setHoneypot(e.target.value)}
+                      />
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Imię i nazwisko *</label>

@@ -132,5 +132,5 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania podłóg i posadzek (emisja formaldehydu, VOC, reakcja na ogień, antypoślizgowość)
-- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja wyrobów podłogowych, szczególnie systemów posadzkowych (NB 1488)
 - [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych
+- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja wyrobów podłogowych, szczególnie systemów posadzkowych (NB 1488)

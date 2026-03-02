@@ -16,7 +16,11 @@ import {
   AlertTriangle,
   CheckCircle2,
   Calendar,
-  Building2
+  Building2,
+  ExternalLink,
+  Globe,
+  MapPin,
+  Star
 } from "lucide-react";
 
 // Merged product data type to match the component expectations
@@ -140,7 +144,7 @@ export function ProductSearchTool() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         {/* Animated Background Elements */}
@@ -516,11 +520,11 @@ export function ProductSearchTool() {
                 </h3>
                 <div className="space-y-6">
                   {[
-                    { year: "2024", title: "Publikacja CPR (EU) 2024/3110", desc: "Publikacja i początek okresu przejściowego", done: true },
-                    { year: "2025", title: "Wejście w życie", desc: "Aktualizacja deklaracji właściwości użytkowych i dokumentacji technicznej", active: true },
-                    { year: "2026", title: "Cyfryzacja dokumentacji", desc: "Obowiązkowe wdrożenie cyfrowej deklaracji właściwości użytkowych" },
-                    { year: "2027", title: "Wymagania środowiskowe", desc: "Obowiązkowe raportowanie śladu węglowego i cyklu życia produktu" },
-                    { year: "2028", title: "Końcowa data zgodności", desc: "Pełne wdrożenie wszystkich wymagań CPR 2024" }
+                    { year: "Gru 2024", title: "Publikacja CPR (UE) 2024/3110", desc: "Publikacja w Dzienniku Urzędowym UE i początek biegu terminów", done: true },
+                    { year: "7 sty 2025", title: "Wejście w życie", desc: "Wybrane przepisy zaczęły obowiązywać (Art. 1–4, 9, 10, 37, 89, 90)", done: true },
+                    { year: "8 sty 2026", title: "Stosowanie głównych przepisów", desc: "Główne obowiązki CPR 2024/3110 wchodzą w życie; stary format DoP (305/2011) nadal ważny dla wyrobów objętych istniejącymi normami EN", active: true },
+                    { year: "2026–2029+", title: "Nowe normy zharmonizowane", desc: "Komisja przyjmuje nowe HTS dla kolejnych rodzin wyrobów; nowy format DoP&C staje się obowiązkowy dla danej rodziny 12 miesięcy po mandacie normy" },
+                    { year: "7 sty 2040", title: "Pełne wygaśnięcie CPR 305/2011", desc: "Ostateczny koniec okresu przejściowego — wszystkie wyroby budowlane objęte wyłącznie nowym CPR 2024/3110" }
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-4">
                       <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-amber-400' : 'text-slate-500'}`}>
@@ -545,6 +549,226 @@ export function ProductSearchTool() {
                 </div>
               </div>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Źródła krajowe i europejskie */}
+      <section className="py-24 bg-slate-950">
+        <Container>
+          <div className="text-center mb-14">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-400/10 border border-blue-400/20 text-blue-400 text-sm font-medium mb-5">
+              <Globe className="w-4 h-4" />
+              Oficjalne źródła informacji o CPR
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Weryfikuj wymagania bezpośrednio u źródła
+            </h2>
+            <p className="text-slate-400 max-w-2xl mx-auto">
+              Lista sprawdzonych instytucji i baz danych — krajowych i europejskich — do których powinien sięgać każdy producent wyrobów budowlanych.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-10">
+
+            {/* Krajowe */}
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <MapPin className="w-5 h-5 text-amber-400" />
+                <h3 className="text-lg font-semibold text-white">Źródła krajowe</h3>
+              </div>
+              <div className="space-y-4">
+
+                {/* Multicert — wyróżnione */}
+                <a
+                  href="https://www.multicert.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-amber-400/5 border border-amber-400/25 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-amber-400/15 flex items-center justify-center shrink-0 mt-0.5">
+                    <Star className="w-4 h-4 text-amber-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">Multicert Sp. z o.o.</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-400 font-medium">Certyfikacja CPR</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-amber-400 transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Akredytowana jednostka certyfikująca wyroby budowlane. Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej zgodnie z CPR (UE) 2024/3110.
+                    </p>
+                  </div>
+                </a>
+
+                {/* GUNB */}
+                <a
+                  href="https://www.gunb.gov.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-blue-400/30 hover:bg-white/8 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-blue-400/10 flex items-center justify-center shrink-0 mt-0.5">
+                    <Shield className="w-4 h-4 text-blue-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">GUNB</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-blue-400/15 text-blue-400 font-medium">Organ nadzoru rynku</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-blue-400 transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Główny Urząd Nadzoru Budowlanego — organ odpowiedzialny za nadzór rynku wyrobów budowlanych w Polsce. Rejestr wyrobów, decyzje, kontrole.
+                    </p>
+                  </div>
+                </a>
+
+                {/* PKN */}
+                <a
+                  href="https://www.pkn.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
+                    <FileText className="w-4 h-4 text-slate-300" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">PKN</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Normy EN</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Polskie Centrum Normalizacji — zakup i dostęp do norm zharmonizowanych EN stosowanych w CPR (EN 197, EN 771, EN 13162 i in.).
+                    </p>
+                  </div>
+                </a>
+
+                {/* ITB — tylko jako TAB */}
+                <a
+                  href="https://www.itb.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
+                    <Building2 className="w-4 h-4 text-slate-300" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">ITB</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">TAB / ETA (NB 1488)</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Instytut Techniki Budowlanej — jedyna polska Jednostka Oceny Technicznej (TAB) w sieci EOTA. Wymagany przy uzyskiwaniu Europejskich Ocen Technicznych (ETA).
+                    </p>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            {/* Europejskie */}
+            <div>
+              <div className="flex items-center gap-2 mb-6">
+                <Globe className="w-5 h-5 text-blue-400" />
+                <h3 className="text-lg font-semibold text-white">Źródła europejskie</h3>
+              </div>
+              <div className="space-y-4">
+
+                {/* EUR-Lex */}
+                <a
+                  href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-amber-400/30 hover:bg-amber-400/5 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-amber-400/10 flex items-center justify-center shrink-0 mt-0.5">
+                    <FileText className="w-4 h-4 text-amber-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">EUR-Lex</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-400 font-medium">Tekst CPR 2024/3110</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-amber-400 transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Oficjalny Dziennik Urzędowy UE — pełny tekst Rozporządzenia (UE) 2024/3110 w języku polskim. Jedyne miarodajne źródło prawa.
+                    </p>
+                  </div>
+                </a>
+
+                {/* NANDO */}
+                <a
+                  href="https://ec.europa.eu/growth/tools-databases/nando/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
+                    <ListChecks className="w-4 h-4 text-slate-300" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">NANDO</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Jednostki notyfikowane UE</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Oficjalna baza Komisji Europejskiej wszystkich jednostek notyfikowanych (NB) we wszystkich państwach UE. Weryfikacja aktualnego zakresu akredytacji.
+                    </p>
+                  </div>
+                </a>
+
+                {/* EOTA */}
+                <a
+                  href="https://www.eota.eu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
+                    <Award className="w-4 h-4 text-slate-300" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">EOTA</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">ETA / EAD</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      European Organisation for Technical Assessment — baza EAD i ETA dla wyrobów bez normy zharmonizowanej. Kluczowe dla innowacyjnych produktów.
+                    </p>
+                  </div>
+                </a>
+
+                {/* CEN */}
+                <a
+                  href="https://www.cencenelec.eu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
+                    <Globe className="w-4 h-4 text-slate-300" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-white font-semibold text-sm">CEN/CENELEC</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Normy europejskie EN</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Europejski Komitet Normalizacyjny — plan prac normalizacyjnych, statusy mandatów dla nowych norm CPR 2024, robocze dokumenty WG.
+                    </p>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
           </div>
         </Container>
       </section>

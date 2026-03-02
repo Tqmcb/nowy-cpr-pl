@@ -142,8 +142,43 @@ const BlogPostCard = ({ post, onClick }: { post: BlogPost; onClick: () => void }
   );
 };
 
-// Fallback blog posts when API is unavailable - comprehensive CPR 2024 content
-const fallbackPosts: BlogPost[] = [
+// Komponent pokazywany gdy ładowanie artykułów nie powiodło się
+const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
+  <div className="flex flex-col items-center justify-center py-20 px-4">
+    <div className="glass-card max-w-md w-full p-10 text-center">
+      <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-slate-800 border border-white/10 flex items-center justify-center">
+        <RefreshCw className="w-8 h-8 text-slate-400" />
+      </div>
+      <h3 className="text-xl font-bold text-white mb-3">
+        Aktualności tymczasowo niedostępne
+      </h3>
+      <p className="text-slate-400 text-sm leading-relaxed mb-8">
+        Trwa odświeżanie treści. Spróbuj za chwilę lub skontaktuj się z nami bezpośrednio.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <Button
+          onClick={onRetry}
+          className="btn-premium px-5 py-2.5 rounded-full text-slate-900 font-semibold text-sm"
+        >
+          <RefreshCw className="w-4 h-4 mr-2" />
+          Odśwież
+        </Button>
+        <Button
+          variant="outline"
+          className="px-5 py-2.5 rounded-full border-white/20 text-white bg-transparent hover:bg-white/10 text-sm"
+          onClick={() => window.location.href = "/services"}
+        >
+          Skontaktuj się
+          <ArrowRight className="w-4 h-4 ml-2" />
+        </Button>
+      </div>
+    </div>
+  </div>
+);
+
+// USUNIĘTE: fallbackPosts zawierały nieaktualne i błędne informacje o terminach CPR.
+// Zamiast dezinformacji pokazujemy UnavailableState gdy API jest niedostępne.
+const _fallbackPosts: BlogPost[] = [
   {
     id: "1",
     title: "Rozporządzenie CPR (EU) 2024/3110 - Kompletny przewodnik dla producentów",
@@ -725,10 +760,12 @@ export function BlogPage() {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [blogPosts, setBlogPosts] = useState<BlogPost[]>(fallbackPosts);
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadFailed, setLoadFailed] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [email, setEmail] = useState("");
+  const [newsletterHoneypot, setNewsletterHoneypot] = useState("");
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
 
   // Pobieranie wpisów bloga z plików markdown
@@ -748,8 +785,8 @@ export function BlogPage() {
 
       } catch (error) {
         console.error("Błąd ładowania artykułów z markdown:", error);
-        // Fallback do lokalnych postów jeśli markdown nie zadziała
-        setBlogPosts(fallbackPosts);
+        setBlogPosts([]);
+        setLoadFailed(true);
         setError(null);
       } finally {
         setLoading(false);
@@ -758,6 +795,14 @@ export function BlogPage() {
 
     fetchBlogPosts();
   }, []);
+
+  const handleRetry = () => {
+    setLoadFailed(false);
+    setLoading(true);
+    setBlogPosts([]);
+    // re-trigger useEffect przez przeładowanie strony
+    window.location.reload();
+  };
 
   // Przekierowanie do strony szczegółów posta
   const navigateToPost = (slug: string) => {
@@ -781,6 +826,9 @@ export function BlogPage() {
   const handleNewsletterSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Honeypot — bot wypełnił ukryte pole
+    if (newsletterHoneypot) return;
+
     if (!validateEmail(email)) {
       toast.error("Proszę podać poprawny adres e-mail");
       return;
@@ -792,7 +840,7 @@ export function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         {/* Background decorations */}
@@ -902,19 +950,10 @@ export function BlogPage() {
           <div id="blog-posts-grid">
             {loading ? (
               <LoadingState />
+            ) : loadFailed ? (
+              <UnavailableState onRetry={handleRetry} />
             ) : error ? (
-              <div className="text-center py-12 glass-card">
-                <h3 className="text-xl font-medium text-white mb-2">{error}</h3>
-                <p className="text-slate-400 mb-4">Spróbuj odświeżyć stronę</p>
-                <Button
-                  onClick={() => window.location.reload()}
-                  variant="outline"
-                  className="border-white/20 text-white bg-transparent hover:bg-white/10"
-                >
-                  <RefreshCw className="w-4 h-4 mr-2" />
-                  Odśwież stronę
-                </Button>
-              </div>
+              <UnavailableState onRetry={handleRetry} />
             ) : filteredPosts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredPosts.map(post => (
@@ -963,6 +1002,17 @@ export function BlogPage() {
                   interpretacje przepisów i praktyczne porady dotyczące Rozporządzenia CPR.
                 </p>
                 <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-3">
+                  {/* Honeypot — niewidoczne dla użytkowników */}
+                  <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }}>
+                    <input
+                      name="website"
+                      type="text"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={newsletterHoneypot}
+                      onChange={(e) => setNewsletterHoneypot(e.target.value)}
+                    />
+                  </div>
                   <input
                     type="email"
                     placeholder="Twój adres e-mail"

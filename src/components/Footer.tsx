@@ -161,8 +161,12 @@ export function Footer() {
               <form onSubmit={(e) => {
                 e.preventDefault();
                 const form = e.target as HTMLFormElement;
+                const honeypotInput = form.querySelector('input[name="website"]') as HTMLInputElement;
                 const emailInput = form.querySelector('input[type="email"]') as HTMLInputElement;
-                const nameInput = form.querySelector('input[type="text"]') as HTMLInputElement;
+                const nameInput = form.querySelector('input[id="newsletter-name"]') as HTMLInputElement;
+
+                // Honeypot — bot wypełnił ukryte pole
+                if (honeypotInput?.value) return;
 
                 if (emailInput && emailInput.value) {
                   const name = nameInput?.value || '';
@@ -186,6 +190,10 @@ export function Footer() {
                 }
               }}>
                 <div className="space-y-3">
+                  {/* Honeypot — niewidoczne dla użytkowników */}
+                  <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }}>
+                    <input name="website" type="text" tabIndex={-1} autoComplete="off" />
+                  </div>
                   <label htmlFor="newsletter-name" className="sr-only">Twoje imię</label>
                   <input
                     id="newsletter-name"

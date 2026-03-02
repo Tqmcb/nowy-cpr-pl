@@ -6,7 +6,14 @@ import { Container } from "../components/Container";
 import { Search, Building2, ChevronRight, Filter } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
 
-const CATEGORIES = ["Wszystkie", "Konstrukcyjne", "Izolacyjne", "Wykończeniowe", "Przeciwpożarowe", "Instalacyjne", "Inne"];
+const MAIN_CATEGORIES = [
+  "Wyroby konstrukcyjne",
+  "Wyroby wykończeniowe",
+  "Instalacyjne",
+  "Ochrona przeciwpożarowa",
+  "Chemia budowlana",
+];
+const CATEGORIES = ["Wszystkie", ...MAIN_CATEGORIES, "Inne"];
 
 export default function Wyroby() {
   const navigate = useNavigate();
@@ -32,14 +39,17 @@ export default function Wyroby() {
 
   const filtered = wyroby.filter((w) => {
     const matchesSearch = search === "" || w.title.toLowerCase().includes(search.toLowerCase()) || w.excerpt.toLowerCase().includes(search.toLowerCase()) || w.category.toLowerCase().includes(search.toLowerCase());
-    const matchesCategory = activeCategory === "Wszystkie" || w.category === activeCategory;
+    const matchesCategory =
+      activeCategory === "Wszystkie" ||
+      (activeCategory === "Inne" && !MAIN_CATEGORIES.includes(w.category)) ||
+      w.category === activeCategory;
     return matchesSearch && matchesCategory;
   });
 
   const goToWyrob = (slug: string) => navigate("/wyrob?slug=" + slug);
 
   return (
-    <div className="flex flex-col min-h-screen bg-slate-900">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <section className="relative py-16 overflow-hidden">

@@ -118,9 +118,9 @@ Kluczową polską jednostką notyfikowaną dla wyrobów drogowych jest [ITB](htt
 
 ## Gdzie szukać wsparcia
 
+- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego
 - [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); kluczowa polska jednostka notyfikowana dla wyposażenia dróg; certyfikacja CoCP dla barier drogowych (AVS 1), raporty ITT dla słupów (AVS 3); doradztwo techniczne w zakresie EN 1317 i EN 12767
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze; badania właściwości mechanicznych stali i aluminium; badania fotometryczne folii retrorefleksyjnych i znaków drogowych
-- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów ochrony drogowej (kompozytowe bariery drogowe, mobilne bariery ze stali dupleks, ekrany akustyczne nowych generacji)
 
 Producenci wyposażenia drogowego powinni śledzić specyfikacje techniczne GDDKiA (np. ST-01.03 dla barier, ST-08.01 dla oznakowania pionowego), które coraz częściej wymagają deklaracji środowiskowych i EPD jako załącznika do oferty przetargowej, wyprzedzając formalny harmonogram CPR 2024.

@@ -104,9 +104,9 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 ## Gdzie szukać wsparcia
 
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca wsparcie w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
 - [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); kluczowa polska jednostka notyfikowana dla łożysk budowlanych; przeprowadza certyfikację CoCP w systemie AVS 1, prowadzi inspekcje FPC i oferuje doradztwo techniczne dla producentów infrastruktury mostowej
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z zapleczem do testów materiałów (elastomerów, PTFE) i badań mechanicznych; wykonuje badania wstępne ITT wymagane przed certyfikacją
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca wsparcie w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – European Technical Assessments (ETA) dla innowacyjnych systemów łożysk nieposiadających pełnej normy zharmonizowanej (np. izolatory sejsmiczne nowych generacji)
 
 Producenci łożysk budowlanych powinni szczególnie śledzić wytyczne techniczne GDDKiA i PKP PLK, które jako zamawiający robót mostowych coraz częściej wymagają DPP i EPD w dokumentacji przetargowej, wyprzedzając nawet harmonogram CPR 2024.
