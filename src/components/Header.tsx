@@ -8,7 +8,9 @@ import {
   FileText,
   BookOpen,
   Home,
-  Building2
+  Building2,
+  Briefcase,
+  Newspaper
 } from "lucide-react";
 
 export function Header() {
@@ -59,21 +61,25 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8" aria-label="Nawigacja główna">
+            <NavLink to="/services" className={navLinkClass}>
+              <Briefcase className="w-4 h-4" />
+              Usługi
+            </NavLink>
             <NavLink to="/product-search" className={navLinkClass}>
               <Search className="w-4 h-4" />
-              Wyszukiwarka CPR
-            </NavLink>
-            <NavLink to="/documents" className={navLinkClass}>
-              <FileText className="w-4 h-4" />
-              Dokumenty
-            </NavLink>
-            <NavLink to="/blog" className={navLinkClass}>
-              <BookOpen className="w-4 h-4" />
-              Blog
+              Wymagania
             </NavLink>
             <NavLink to="/wyroby" className={navLinkClass}>
               <Building2 className="w-4 h-4" />
-              Wyroby
+              Katalog wyrobów
+            </NavLink>
+            <NavLink to="/documents" className={navLinkClass}>
+              <FileText className="w-4 h-4" />
+              Wzory
+            </NavLink>
+            <NavLink to="/blog" className={navLinkClass}>
+              <Newspaper className="w-4 h-4" />
+              Aktualności
             </NavLink>
           </nav>
 
@@ -102,10 +108,11 @@ export function Header() {
           <div className="glass-card p-6 space-y-4">
             {[
               { path: "/", label: "Strona Główna", icon: Home },
-              { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
-              { path: "/documents", label: "Dokumenty", icon: FileText },
-              { path: "/blog", label: "Blog", icon: BookOpen },
-              { path: "/wyroby", label: "Wyroby", icon: Building2 }
+              { path: "/services", label: "Usługi", icon: Briefcase },
+              { path: "/product-search", label: "Wymagania", icon: Search },
+              { path: "/wyroby", label: "Katalog wyrobów", icon: Building2 },
+              { path: "/documents", label: "Wzory", icon: FileText },
+              { path: "/blog", label: "Aktualności", icon: Newspaper }
             ].map((item, index) => (
               <NavLink
                 key={item.path}
