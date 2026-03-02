@@ -148,34 +148,50 @@ const documentUrls: Record<string, string> = {
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
-// Function to track email leads with improved error handling
+// Function to track email leads — adds to MailerLite and sends notification to biuro@multicert.pl
 export const trackLead = async (email: string, documentId: string): Promise<boolean> => {
+  const documentTitle = documents.find(doc => doc.id === documentId)?.title || documentId;
+
+  // 1. Add subscriber to MailerLite
   try {
-    // In a real application, you would send this data to your backend
-    console.log(`Tracking lead: ${email} downloaded document ${documentId}`);
-
-    // Get the document title
-    const documentTitle = documents.find(doc => doc.id === documentId)?.title || 'Unknown document';
-
-    // Store email in localStorage for demonstration
-    const leads = JSON.parse(localStorage.getItem('document_leads') || '[]');
-    leads.push({
-      email,
-      documentId,
-      documentTitle,
-      timestamp: new Date().toISOString()
+    await fetch("https://connect.mailerlite.com/api/subscribers", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${import.meta.env.VITE_MAILERLITE_API_KEY}`,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+      body: JSON.stringify({ email }),
     });
-    localStorage.setItem('document_leads', JSON.stringify(leads));
+  } catch (_) { /* silent — nie blokuj pobierania */ }
 
-    console.log(`Lead stored: ${email} - ${documentTitle} at ${new Date().toLocaleString()}`);
-
-    await new Promise(resolve => setTimeout(resolve, 300));
-
-    return true;
-  } catch (error) {
-    console.error('Error tracking lead:', error);
-    return true;
+  // 2. Powiadomienie e-mail na biuro@multicert.pl przez Web3Forms
+  const web3key = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+  if (web3key) {
+    try {
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: web3key,
+          subject: `[NowyCPR.pl] Pobranie dokumentu — ${documentTitle}`,
+          from_name: "NowyCPR.pl – Dokumenty",
+          replyto: email,
+          email_nadawcy: email,
+          dokument: documentTitle,
+          data: new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }),
+          botcheck: false,
+        }),
+      });
+    } catch (_) { /* silent */ }
   }
+
+  // 3. Lokalny backup
+  const leads = JSON.parse(localStorage.getItem('document_leads') || '[]');
+  leads.push({ email, documentId, documentTitle, timestamp: new Date().toISOString() });
+  localStorage.setItem('document_leads', JSON.stringify(leads));
+
+  return true;
 };
 
 // Function to open a document in a new browser tab
