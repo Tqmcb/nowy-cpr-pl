@@ -133,7 +133,7 @@ export default function Services() {
       number: "02",
       icon: Factory,
       title: "Przegląd systemu ZKP (Art. 20 CPR 2024)",
-      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
+      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
       features: [
         "Ocena Księgi ZKP i procedur operacyjnych",
         "Weryfikacja dostosowania do systemu AVS klienta",
@@ -229,7 +229,7 @@ export default function Services() {
                 >
                   Multicert
                 </a>{" "}
-                pomagają producentom, importerom i dystrybuotorom wyrobów budowlanych przejść przez ten proces sprawnie i bez ryzyka.
+                pomagają producentom, importerom i dystrybutorom wyrobów budowlanych przejść przez ten proces sprawnie i bez ryzyka.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -461,7 +461,7 @@ export default function Services() {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
-                          placeholder="+48 123 456 789"
+                          placeholder="730 668 341"
                         />
                       </div>
                       <div>
@@ -534,7 +534,7 @@ export default function Services() {
                     <Phone className="w-6 h-6 text-amber-400" />
                   </div>
                   <h3 className="text-white font-semibold mb-2">Telefon</h3>
-                  <a href="tel:+48123456789" className="text-slate-400 hover:text-amber-400 transition-colors">+48 123 456 789</a>
+                  <a href="tel:+48730668341" className="text-slate-400 hover:text-amber-400 transition-colors">730 668 341</a>
                 </div>
                 <div className="glass-card p-6 text-center">
                   <div className="w-12 h-12 rounded-xl bg-blue-400/10 flex items-center justify-center mx-auto mb-4">
