@@ -5,19 +5,23 @@ import { Footer } from "../components/Footer";
 import { Button } from "../components/Button";
 import {
   Sparkles,
-  Award,
   Users,
-  Clock,
   CheckCircle2,
   ArrowRight,
-  FlaskConical,
   FileText,
   GraduationCap,
   Send,
   Building2,
   Phone,
   Mail,
-  ExternalLink
+  ExternalLink,
+  ClipboardCheck,
+  Factory,
+  FolderOpen,
+  Code2,
+  Map,
+  ShieldCheck,
+  BadgeCheck
 } from "lucide-react";
 
 export default function Services() {
@@ -35,18 +39,12 @@ export default function Services() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
+    setFormData(prev => ({ ...prev, [name]: value }));
   };
 
   const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: checked
-    }));
+    setFormData(prev => ({ ...prev, [name]: checked }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -59,7 +57,7 @@ export default function Services() {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
-          subject: `Nowe zapytanie z NowyCPR.pl — ${formData.name}`,
+          subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
           from_name: formData.name,
           replyto: formData.email,
           email: formData.email,
@@ -84,6 +82,87 @@ export default function Services() {
     }
   };
 
+  const services = [
+    {
+      number: "01",
+      icon: ClipboardCheck,
+      title: "Audyt gotowości CPR 2024",
+      description: "Kompleksowy przegląd luk między aktualną dokumentacją i procesami a wymaganiami CPR (UE) 2024/3110. Otrzymujesz jasny obraz co działa, co wymaga aktualizacji i w jakiej kolejności działać.",
+      features: [
+        "Identyfikacja właściwego systemu AVS dla każdej linii produktowej",
+        "Ocena systemu ZKP/FPC względem Art. 20 CPR 2024",
+        "Analiza dokumentacji: DoP&C, plik techniczny, instrukcje",
+        "Raport z mapą ryzyk i priorytetową ścieżką wdrożenia"
+      ],
+      gradient: "from-amber-400 to-orange-500"
+    },
+    {
+      number: "02",
+      icon: Factory,
+      title: "Wdrożenie systemu ZKP (Art. 20 CPR 2024)",
+      description: "Opracowanie lub aktualizacja Zakładowej Kontroli Produkcji zgodnie z Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
+      features: [
+        "Opracowanie Księgi ZKP i procedur operacyjnych",
+        "Dostosowanie do systemu AVS klienta",
+        "Uproszczone ZKP dla mikroprzedsiębiorstw (Art. 20 ust. 5)",
+        "Szkolenie personelu i przygotowanie do inspekcji NB"
+      ],
+      gradient: "from-blue-400 to-cyan-500"
+    },
+    {
+      number: "03",
+      icon: FolderOpen,
+      title: "Dokumentacja techniczna CPR 2024",
+      description: "Przygotowanie kompletnej dokumentacji wymaganej przez CPR (UE) 2024/3110 — od deklaracji DoP&C przez plik techniczny po instrukcje i mandaty. Dokumenty gotowe do użycia, zgodne z artykułami i załącznikami rozporządzenia.",
+      features: [
+        "Deklaracja właściwości użytkowych i zgodności (DoP&C) — Art. 15–16, Zał. V",
+        "Wewnętrzny plik techniczny — Art. 21",
+        "Instrukcja dla użytkowników profesjonalnych — Art. 25",
+        "Mandat upoważnionego przedstawiciela — Art. 23"
+      ],
+      gradient: "from-emerald-400 to-green-500"
+    },
+    {
+      number: "04",
+      icon: Code2,
+      title: "Weryfikacja i walidacja oprogramowania obliczeniowego",
+      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 21 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
+      features: [
+        "Weryfikacja algorytmów vs normy zharmonizowane",
+        "Walidacja wyników vs deklarowane właściwości w DoP&C",
+        "Ocena oprogramowania własnego i zewnętrznego (BIM, CAD, kalkulatory)",
+        "Raport walidacyjny do pliku technicznego"
+      ],
+      gradient: "from-purple-400 to-violet-500"
+    },
+    {
+      number: "05",
+      icon: Map,
+      title: "Analiza norm i harmonogram wdrożenia",
+      description: "Identyfikacja norm zharmonizowanych dla wyrobów klienta i opracowanie indywidualnego harmonogramu dostosowania do CPR 2024 z uwzględnieniem Planu Prac Komisji Europejskiej (Milestones 0–IV, lata 2026–2029).",
+      features: [
+        "Przyporządkowanie norm zharmonizowanych do produktów klienta",
+        "Śledzenie etapów Milestones 0–IV wg Planu Prac KE",
+        "Plan działań z konkretnymi datami przejściowymi",
+        "Monitoring zmian w Dzienniku Urzędowym UE (usługa ciągła)"
+      ],
+      gradient: "from-rose-400 to-pink-500"
+    },
+    {
+      number: "06",
+      icon: GraduationCap,
+      title: "Szkolenia i warsztaty CPR 2024",
+      description: "Praktyczne szkolenia dostosowane do roli uczestnika — od zarządu przez dział jakości po produkcję. Prowadzone przez audytorów Multicert z bezpośrednim doświadczeniem we wdrożeniach CPR.",
+      features: [
+        "CPR 2024 dla zarządu i kierowników — co się zmienia, terminy, ryzyka",
+        "Warsztat DoP&C — jak wypełnić, SVHC, QR kod, dostęp cyfrowy",
+        "ZKP dla działu jakości i produkcji — praktyczne wdrożenie",
+        "Cyfrowy Paszport Produktu — planowanie wdrożenia (Art. 75–80)"
+      ],
+      gradient: "from-teal-400 to-cyan-500"
+    }
+  ];
+
   return (
     <div className="flex flex-col min-h-screen bg-slate-900">
       <Header />
@@ -91,7 +170,6 @@ export default function Services() {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative py-24 overflow-hidden pt-32">
-          {/* Animated Background Elements */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-float"></div>
             <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float-delay"></div>
@@ -101,25 +179,36 @@ export default function Services() {
             <div className="relative z-10 text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-8">
                 <Sparkles className="w-4 h-4 text-amber-400" />
-                <span className="text-amber-400 text-sm font-medium">Profesjonalne usługi certyfikacyjne</span>
+                <span className="text-amber-400 text-sm font-medium">Przygotowanie do CPR (UE) 2024/3110</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                <span className="text-white">Usługi certyfikacyjne </span>
+                <span className="text-white">Usługi doradcze i audytowe </span>
                 <span className="gradient-text">Multicert</span>
               </h1>
               <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
-                Kompleksowe wsparcie w certyfikacji wyrobów budowlanych zgodnie z CPR (EU) 2024/3110.
-                Oferujemy profesjonalną pomoc, szybką realizację i najwyższą jakość usług.{" "}
+                Nowe Rozporządzenie CPR 2024/3110 wchodzi w życie etapami od 2025 roku. Audytorzy{" "}
                 <a
                   href="https://www.multicert.pl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors"
                 >
-                  Dowiedz się więcej o Multicert
-                </a>.
+                  Multicert
+                </a>{" "}
+                pomagają producentom, importerom i dystrybuotorom wyrobów budowlanych przejść przez ten proces sprawnie i bez ryzyka.
               </p>
+
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button
+                  size="lg"
+                  onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
+                  className="group"
+                >
+                  Umów bezpłatną konsultację
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </div>
             </div>
           </Container>
         </section>
@@ -130,21 +219,21 @@ export default function Services() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               {[
                 {
-                  icon: Clock,
-                  title: "Ekspresowa certyfikacja",
-                  description: "Uzyskaj certyfikat w rekordowym czasie dzięki naszym zoptymalizowanym procesom i doświadczonemu zespołowi ekspertów.",
+                  icon: BadgeCheck,
+                  title: "Audytorzy z praktyką",
+                  description: "Usługi realizują certyfikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych i weryfikacji dokumentacji technicznej.",
                   gradient: "from-amber-400 to-orange-500"
                 },
                 {
                   icon: Users,
-                  title: "Ekspercka pomoc",
-                  description: "Nasi specjaliści pomogą zinterpretować przepisy i dopasować wymagania do specyfiki Twojego produktu.",
+                  title: "Indywidualne podejście",
+                  description: "Każde wdrożenie jest inne — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów.",
                   gradient: "from-blue-400 to-cyan-500"
                 },
                 {
-                  icon: FlaskConical,
-                  title: "Współpraca z laboratoriami",
-                  description: "Korzystamy z sieci akredytowanych laboratoriów badawczych, co gwarantuje kompleksową obsługę w jednym miejscu.",
+                  icon: ShieldCheck,
+                  title: "Kompletne wsparcie",
+                  description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu.",
                   gradient: "from-emerald-400 to-green-500"
                 }
               ].map((item, idx) => (
@@ -160,75 +249,29 @@ export default function Services() {
           </Container>
         </section>
 
-        {/* Services Offered */}
+        {/* Services */}
         <section className="py-24 bg-slate-950">
           <Container>
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Nasze <span className="gradient-text">usługi certyfikacyjne</span>
+                Nasze <span className="gradient-text">usługi CPR 2024</span>
               </h2>
               <p className="text-lg text-slate-400">
-                Multicert oferuje szeroki zakres usług wspierających producentów w dostosowaniu do wymagań CPR (EU) 2024/3110.
+                Realizowane przez audytorów Multicert — dla producentów, importerów i dystrybutorów wyrobów budowlanych przygotowujących się do wymagań CPR (UE) 2024/3110.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              {[
-                {
-                  number: "1",
-                  icon: Award,
-                  title: "Certyfikacja Zakładowej Kontroli Produkcji (ZKP)",
-                  description: "Ocena i certyfikacja systemu zakładowej kontroli produkcji wyrobów budowlanych. Jednostka akredytowana przez PCA — gwarancja bezstronności i rzetelności procesu certyfikacji.",
-                  features: [
-                    "Akredytacja PCA zgodna z EN ISO/IEC 17065",
-                    "Certyfikaty ZKP ważne na terenie całej Unii Europejskiej",
-                    "Pełen proces: wniosek → audyt → decyzja → certyfikat"
-                  ],
-                  gradient: "from-amber-400 to-orange-500"
-                },
-                {
-                  number: "2",
-                  icon: FlaskConical,
-                  title: "Ocena wstępna (Initial Inspection)",
-                  description: "Przeprowadzamy ocenę wstępną wyrobu i dokumentacji technicznej producenta przed przystąpieniem do właściwego procesu certyfikacji. Identyfikujemy braki i pomagamy się do niego przygotować.",
-                  features: [
-                    "Analiza dokumentacji technicznej i wyników badań",
-                    "Ocena zgodności z właściwą normą zharmonizowaną",
-                    "Raport z zaleceniami przed audytem certyfikacyjnym"
-                  ],
-                  gradient: "from-blue-400 to-cyan-500"
-                },
-                {
-                  number: "3",
-                  icon: FileText,
-                  title: "Audyty nadzoru",
-                  description: "Regularne audyty nadzoru po uzyskaniu certyfikacji, potwierdzające utrzymanie zgodności systemu ZKP z wymaganiami CPR. Przeprowadzane cyklicznie w siedzibie producenta.",
-                  features: [
-                    "Roczne audyty nadzoru systemu ZKP",
-                    "Ocena ciągłości zgodności z wymaganiami normy",
-                    "Przedłużenie i utrzymanie ważności certyfikatu"
-                  ],
-                  gradient: "from-emerald-400 to-green-500"
-                },
-                {
-                  number: "4",
-                  icon: GraduationCap,
-                  title: "Szkolenia z zakresu CPR i ZKP",
-                  description: "Szkolenia dla producentów, importerów i dystrybutorów wyrobów budowlanych z zakresu wymagań CPR 2024 oraz wdrożenia i dokumentowania systemu zakładowej kontroli produkcji.",
-                  features: [
-                    "Szkolenia z wymagań CPR (EU) 2024/3110",
-                    "Wdrożenie i dokumentowanie systemu ZKP",
-                    "Interpretacja norm zharmonizowanych i EAD"
-                  ],
-                  gradient: "from-purple-400 to-pink-500"
-                }
-              ].map((service, idx) => (
+              {services.map((service, idx) => (
                 <div key={idx} className="glass-card p-8 hover-lift card-border-glow">
                   <div className="flex items-center gap-4 mb-6">
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center shadow-lg`}>
+                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center shadow-lg flex-shrink-0`}>
                       <service.icon className="w-6 h-6 text-slate-900" />
                     </div>
-                    <h3 className="text-xl font-bold text-white">{service.title}</h3>
+                    <div>
+                      <span className="text-xs font-mono text-slate-500 block mb-0.5">{service.number}</span>
+                      <h3 className="text-xl font-bold text-white leading-tight">{service.title}</h3>
+                    </div>
                   </div>
                   <p className="text-slate-400 mb-6 leading-relaxed">{service.description}</p>
                   <ul className="space-y-3">
@@ -249,67 +292,52 @@ export default function Services() {
                 onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
                 className="group"
               >
-                Poznaj pełną ofertę usług
+                Zapytaj o wycenę
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
           </Container>
         </section>
 
-        {/* Case Studies */}
-        <section className="py-24 bg-slate-900">
+        {/* Dla kogo */}
+        <section className="py-16 bg-slate-900">
           <Container>
-            <div className="max-w-3xl mx-auto text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                <span className="gradient-text-blue">Zaufali nam</span>
-              </h2>
-              <p className="text-lg text-slate-400">
-                Poznaj historie sukcesu firm, które skorzystały z naszych usług certyfikacyjnych.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              {[
-                {
-                  company: "Ceramika Budowlana S.A.",
-                  year: "2023",
-                  description: "Certyfikacja pełnej linii wyrobów ceramicznych zgodnie z CPR. Proces został zakończony w ciągu 4 tygodni, co pozwoliło na terminowe wprowadzenie produktów na rynek UE.",
-                  quote: "Profesjonalizm i szybkość działania Multicert pozwoliły nam uniknąć opóźnień w dostawach do naszych klientów."
-                },
-                {
-                  company: "Termo Izolacje Sp. z o.o.",
-                  year: "2024",
-                  description: "Kompleksowe dostosowanie dokumentacji technicznej i procedur do nowych wymogów CPR 2024. Wdrożenie systemu zakładowej kontroli produkcji zgodnego z nowymi przepisami.",
-                  quote: "Dzięki wsparciu Multicert bezproblemowo przeszliśmy przez proces dostosowania do nowych przepisów CPR 2024."
-                },
-                {
-                  company: "Stal Konstrukcje Sp.j.",
-                  year: "2023",
-                  description: "Pełna certyfikacja wyrobów stalowych zgodnie z systemem AVCP 2+. Przygotowanie cyfrowych deklaracji właściwości użytkowych dla całego asortymentu.",
-                  quote: "Eksperci Multicert przeprowadzili nas przez złożony proces certyfikacji krok po kroku, co znacznie ułatwiło całą procedurę."
-                }
-              ].map((caseStudy, idx) => (
-                <div key={idx} className="glass-card p-6 hover-lift">
-                  <div className="flex justify-between items-start mb-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-                        <Building2 className="w-5 h-5 text-slate-900" />
-                      </div>
-                      <h3 className="text-lg font-bold text-white">{caseStudy.company}</h3>
-                    </div>
-                    <span className="px-3 py-1 rounded-full bg-amber-400/10 text-amber-400 text-sm font-medium">{caseStudy.year}</span>
+            <div className="max-w-4xl mx-auto">
+              <div className="glass-card p-8 md:p-12">
+                <div className="flex items-start gap-6 flex-col md:flex-row">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center flex-shrink-0">
+                    <FileText className="w-7 h-7 text-slate-900" />
                   </div>
-                  <p className="text-slate-400 text-sm mb-4 leading-relaxed">{caseStudy.description}</p>
-                  <div className="pt-4 border-t border-white/10">
-                    <p className="text-slate-300 text-sm italic">"{caseStudy.quote}"</p>
+                  <div>
+                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                      Dlaczego teraz — zanim pojawi się certyfikacja
+                    </h2>
+                    <p className="text-slate-300 leading-relaxed mb-4">
+                      CPR (UE) 2024/3110 wchodzi w życie w kilku etapach. Certyfikacja jednostek notyfikowanych (NB) pod nowe rozporządzenie dopiero się kształtuje — pierwsze normy zharmonizowane pojawią się w latach 2026–2029. Jednak obowiązki producenta, nowe formaty DoP&C, zmienione wymagania ZKP i przepisy dotyczące SVHC obowiązują już lub obowiązywać będą wkrótce.
+                    </p>
+                    <p className="text-slate-300 leading-relaxed mb-6">
+                      Firmy, które zaczną przygotowanie teraz, unikną chaosu ostatniej chwili, kosztownych błędów w dokumentacji i ryzyk związanych z nadzorem rynku. Usługi Multicert są właśnie pod to przygotowanie — pragmatyczne, oparte na tekście rozporządzenia i prowadzone przez praktyków.
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                      {[
+                        { label: "Producenci wyrobów budowlanych", desc: "każda kategoria i system AVS" },
+                        { label: "Importerzy i dystrybutorzy", desc: "sprowadzający wyroby pod własną marką" },
+                        { label: "Mikroprzedsiębiorstwa i MŚP", desc: "uproszczone ścieżki wdrożenia" }
+                      ].map((item, idx) => (
+                        <div key={idx} className="bg-white/5 rounded-xl p-4 border border-white/10">
+                          <p className="text-white font-semibold text-sm mb-1">{item.label}</p>
+                          <p className="text-slate-400 text-xs">{item.desc}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
           </Container>
         </section>
 
-        {/* Partnerzy i akredytacje */}
+        {/* Partnerzy */}
         <section className="py-12 bg-slate-950 border-t border-white/5">
           <Container>
             <p className="text-center text-slate-500 text-xs uppercase tracking-widest mb-8">
@@ -347,7 +375,7 @@ export default function Services() {
                     Umów <span className="gradient-text">bezpłatną konsultację</span>
                   </h2>
                   <p className="text-slate-400">
-                    Skontaktuj się z nami, aby omówić Twoje potrzeby związane z certyfikacją wyrobów budowlanych zgodnie z CPR 2024.
+                    Opisz swój wyrób i sytuację — audytor Multicert skontaktuje się z Tobą w ciągu 24 godzin, aby omówić zakres i sposób wsparcia.
                   </p>
                 </div>
 
@@ -357,7 +385,7 @@ export default function Services() {
                       <CheckCircle2 className="w-8 h-8 text-emerald-400" />
                     </div>
                     <h3 className="text-xl font-bold text-white mb-2">Dziękujemy za wiadomość!</h3>
-                    <p className="text-slate-400">Nasz ekspert skontaktuje się z Tobą w ciągu 24 godzin, aby omówić szczegóły konsultacji.</p>
+                    <p className="text-slate-400">Nasz audytor skontaktuje się z Tobą w ciągu 24 godzin.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
@@ -375,7 +403,6 @@ export default function Services() {
                           placeholder="Jan Kowalski"
                         />
                       </div>
-
                       <div>
                         <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Email *</label>
                         <input
@@ -404,7 +431,6 @@ export default function Services() {
                           placeholder="+48 123 456 789"
                         />
                       </div>
-
                       <div>
                         <label htmlFor="company" className="block text-sm font-medium text-slate-300 mb-2">Firma *</label>
                         <input
@@ -430,7 +456,7 @@ export default function Services() {
                         value={formData.message}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all resize-none"
-                        placeholder="Opisz jaką usługą certyfikacyjną jesteś zainteresowany..."
+                        placeholder="Opisz jakimi wyrobami się zajmujesz i w czym możemy pomóc..."
                       ></textarea>
                     </div>
 
@@ -453,7 +479,8 @@ export default function Services() {
 
                     {formStatus === "error" && (
                       <div className="mb-6 p-4 rounded-lg bg-red-500/10 border border-red-500/30 text-red-400 text-sm text-center">
-                        Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie lub napisz bezpośrednio na <a href="mailto:biuro@multicert.pl" className="underline">biuro@multicert.pl</a>.
+                        Wystąpił błąd podczas wysyłania. Spróbuj ponownie lub napisz bezpośrednio na{" "}
+                        <a href="mailto:biuro@multicert.pl" className="underline">biuro@multicert.pl</a>.
                       </div>
                     )}
 
@@ -481,7 +508,7 @@ export default function Services() {
                     <Mail className="w-6 h-6 text-blue-400" />
                   </div>
                   <h3 className="text-white font-semibold mb-2">Email</h3>
-                  <a href="mailto:info@multicert.pl" className="text-slate-400 hover:text-amber-400 transition-colors">info@multicert.pl</a>
+                  <a href="mailto:biuro@multicert.pl" className="text-slate-400 hover:text-amber-400 transition-colors">biuro@multicert.pl</a>
                 </div>
                 <div className="glass-card p-6 text-center">
                   <div className="w-12 h-12 rounded-xl bg-emerald-400/10 flex items-center justify-center mx-auto mb-4">
