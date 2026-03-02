@@ -148,7 +148,7 @@ const documentUrls: Record<string, string> = {
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
-// MailerLite group ID for document leads (group: "Pobrania dokumentow CPR")
+// MailerLite group ID for document leads (group: "Pobrania dokumentów CPR")
 const ML_GROUP_DOCS = "180850653059352398";
 
 // Function to track email leads — adds to MailerLite group + note about downloaded document
