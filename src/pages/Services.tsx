@@ -88,6 +88,21 @@ export default function Services() {
           }).catch(() => {});
         }
 
+        // 3. Powiadomienie email do biuro@multicert.pl (formsubmit.co)
+        await fetch("https://formsubmit.co/ajax/biuro@multicert.pl", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            _subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
+            _template: "table",
+            name: formData.name,
+            email: formData.email,
+            telefon: formData.phone || "—",
+            firma: formData.company || "—",
+            wiadomosc: formData.message,
+          }),
+        }).catch(() => {});
+
         setFormStatus("success");
         setFormData({ name: "", email: "", phone: "", company: "", message: "", consent: false });
       } else {
