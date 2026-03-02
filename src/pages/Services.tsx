@@ -132,13 +132,13 @@ export default function Services() {
     {
       number: "02",
       icon: Factory,
-      title: "Wdrożenie systemu ZKP (Art. 20 CPR 2024)",
-      description: "Opracowanie lub aktualizacja Zakładowej Kontroli Produkcji zgodnie z Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
+      title: "Przegląd systemu ZKP (Art. 20 CPR 2024)",
+      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
       features: [
-        "Opracowanie Księgi ZKP i procedur operacyjnych",
-        "Dostosowanie do systemu AVS klienta",
-        "Uproszczone ZKP dla mikroprzedsiębiorstw (Art. 20 ust. 5)",
-        "Szkolenie personelu i przygotowanie do inspekcji NB"
+        "Ocena Księgi ZKP i procedur operacyjnych",
+        "Weryfikacja dostosowania do systemu AVS klienta",
+        "Przegląd ZKP dla mikroprzedsiębiorstw (Art. 20 ust. 5)",
+        "Wytyczne przed inspekcją jednostki notyfikowanej (NB)"
       ],
       gradient: "from-blue-400 to-cyan-500"
     },
@@ -189,7 +189,7 @@ export default function Services() {
       features: [
         "CPR 2024 dla zarządu i kierowników — co się zmienia, terminy, ryzyka",
         "Warsztat DoP&C — jak wypełnić, SVHC, QR kod, dostęp cyfrowy",
-        "ZKP dla działu jakości i produkcji — praktyczne wdrożenie",
+        "ZKP dla działu jakości i produkcji — praktyczny przegląd wymagań",
         "Cyfrowy Paszport Produktu — planowanie wdrożenia (Art. 75–80)"
       ],
       gradient: "from-teal-400 to-cyan-500"
