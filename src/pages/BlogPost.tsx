@@ -522,10 +522,10 @@ function SharedHero({
           <img
             src={post.image_url}
             alt=""
-            className="w-full h-full object-cover opacity-35"
+            className="w-full h-full object-cover opacity-50"
           />
           <div
-            className={`absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/90 ${bottomBg}`}
+            className={`absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-900/65 ${bottomBg}`}
           />
         </div>
       )}
