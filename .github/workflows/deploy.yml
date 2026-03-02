@@ -29,6 +29,7 @@ jobs:
         run: npm run build
         env:
           VITE_WEB3FORMS_ACCESS_KEY: ${{ secrets.VITE_WEB3FORMS_ACCESS_KEY }}
+          VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
 
       - name: Copy index.html to 404.html (SPA routing fix)
         run: cp dist/index.html dist/404.html
