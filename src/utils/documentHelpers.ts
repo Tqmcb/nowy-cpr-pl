@@ -148,43 +148,39 @@ const documentUrls: Record<string, string> = {
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
-// Function to track email leads — adds to MailerLite and sends notification to biuro@multicert.pl
+// Function to track email leads — adds to MailerLite with a note about the downloaded document
 export const trackLead = async (email: string, documentId: string): Promise<boolean> => {
   const documentTitle = documents.find(doc => doc.id === documentId)?.title || documentId;
+  const apiKey = import.meta.env.VITE_MAILERLITE_API_KEY;
+  const headers = {
+    "Authorization": `Bearer ${apiKey}`,
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+  };
 
-  // 1. Add subscriber to MailerLite
   try {
-    await fetch("https://connect.mailerlite.com/api/subscribers", {
+    // 1. Dodaj subskrybenta (lub zaktualizuj istniejącego)
+    const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
       method: "POST",
-      headers: {
-        "Authorization": `Bearer ${import.meta.env.VITE_MAILERLITE_API_KEY}`,
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
+      headers,
       body: JSON.stringify({ email }),
     });
-  } catch (_) { /* silent — nie blokuj pobierania */ }
 
-  // 2. Powiadomienie e-mail na biuro@multicert.pl przez Web3Forms
-  const web3key = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
-  if (web3key) {
-    try {
-      await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          access_key: web3key,
-          subject: `[NowyCPR.pl] Pobranie dokumentu — ${documentTitle}`,
-          from_name: "NowyCPR.pl – Dokumenty",
-          replyto: email,
-          email_nadawcy: email,
-          dokument: documentTitle,
-          data: new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' }),
-          botcheck: false,
-        }),
-      });
-    } catch (_) { /* silent */ }
-  }
+    if (res.ok) {
+      const data = await res.json();
+      const subscriberId: string = data?.data?.id;
+
+      // 2. Dodaj notatkę z nazwą dokumentu i datą pobrania
+      if (subscriberId) {
+        const date = new Date().toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw' });
+        await fetch(`https://connect.mailerlite.com/api/subscribers/${subscriberId}/notes`, {
+          method: "POST",
+          headers,
+          body: JSON.stringify({ content: `Pobrał dokument: ${documentTitle} (${date})` }),
+        }).catch(() => { /* nie blokuj */ });
+      }
+    }
+  } catch (_) { /* nie blokuj pobierania */ }
 
   // 3. Lokalny backup
   const leads = JSON.parse(localStorage.getItem('document_leads') || '[]');
