@@ -308,7 +308,7 @@ def openverse_search(query, variant=0, per_page=20):
 STABLE_HORDE_API = "https://stablehorde.net/api/v2"
 STABLE_HORDE_KEY = "0000000000"   # klucz anonimowy (darmowy)
 
-def stable_horde_generate(prompt, variant=0, timeout_s=180):
+def stable_horde_generate(prompt, variant=0, timeout_s=300):
     """Generuje obraz AI przez Stable Horde. Zwraca bajty JPEG lub None."""
     try:
         from PIL import Image
@@ -317,18 +317,25 @@ def stable_horde_generate(prompt, variant=0, timeout_s=180):
         return None
 
     full_prompt = (
-        f"professional photo, {prompt}, construction industry, EU regulation, "
-        f"high quality, natural lighting, realistic, no text, no watermark"
+        f"portrait facing camera, caucasian european male, {prompt}, "
+        f"western european setting, professional DSLR photo, "
+        f"natural lighting, sharp focus, high quality, photorealistic"
+    )
+    negative_prompt = (
+        "asian, chinese, japanese, korean, arabic, indian, "
+        "chinese characters, asian text, asian architecture, "
+        "back view, headless, no face, turned away, "
+        "cartoon, painting, illustration, blurry, low quality, watermark, text, logo"
     )
     seed = 100 + variant * 137
 
     # 1. Wyślij zlecenie
     payload = json.dumps({
-        "prompt": full_prompt,
+        "prompt": f"{full_prompt} ### {negative_prompt}",
         "params": {
-            "width": 512, "height": 512,
+            "width": 768, "height": 512,
             "steps": 25, "n": 1,
-            "sampler_name": "k_euler",
+            "sampler_name": "k_euler_a",
             "seed": str(seed),
         },
         "nsfw": False, "censor_nsfw": True,
@@ -521,6 +528,42 @@ def pollinations_url_variant(prompt, variant=1, width=800, height=534):
     return f"https://image.pollinations.ai/prompt/{safe}?width={width}&height={height}&nologo=true&seed={seed}"
 
 
+def generate_ai_image(prompt, variant=1, dest_path=None):
+    """Generuje zdjęcie przez Pollinations.ai z precyzyjnym promptem europejskim.
+    Zwraca True przy sukcesie."""
+    seed = 200 + variant * 173
+    # Prompt specyficzny dla branży budowlanej CPR - białe osoby, Europa
+    full_prompt = (
+        f"professional photograph, {prompt}, "
+        f"caucasian european person, western european construction site, "
+        f"realistic DSLR photo, natural daylight, sharp focus, "
+        f"no text overlay, no watermark, no logo"
+    )
+    negative = (
+        "asian, chinese, japanese, korean, arabic, indian, "
+        "chinese characters, japanese text, asian architecture, "
+        "cartoon, illustration, painting, blurry, low quality, "
+        "text, watermark, logo, nsfw"
+    )
+    url = (
+        f"https://image.pollinations.ai/prompt/{urllib.parse.quote(full_prompt)}"
+        f"?width=800&height=534&nologo=true&seed={seed}"
+        f"&negative={urllib.parse.quote(negative)}"
+    )
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = r.read()
+        if dest_path:
+            dest_path.write_bytes(data)
+            size_kb = len(data) // 1024
+            print(f"    💾 Zapisano: {dest_path.name} ({size_kb} KB) [Pollinations.ai AI seed={seed}]")
+        return True
+    except Exception as e:
+        print(f"    ⚠️  Pollinations.ai błąd: {e}")
+        return False
+
+
 # ─── Wspólna logika pobierania ─────────────────────────────────────────────────
 
 def fetch_and_update(md, meta, art_kw, variant, pexels_key, dry_run):
@@ -620,11 +663,13 @@ def main():
     dry_run      = "--dry-run"     in sys.argv
     dedup_mode   = "--dedup"       in sys.argv
     replace_all  = "--replace-all" in sys.argv
-    pexels_key   = load_pexels_key()
+    ai_mode      = "--ai"          in sys.argv   # pomija Pexels, generuje AI
+    pexels_key   = load_pexels_key() if not ai_mode else ""
 
     # ── Tryb: podmień WSZYSTKIE zdjęcia ───────────────────────────────────────
     if replace_all:
-        print("🔄 Tryb --replace-all: podmieniam zdjęcia we wszystkich artykułach...\n")
+        mode_label = "AI (Pollinations.ai)" if ai_mode else "Pexels → OpenVerse → AI"
+        print(f"🔄 Tryb --replace-all: podmieniam zdjęcia ({mode_label})...\n")
         articles = []
         for md in sorted(CONTENT_DIR.glob("*.md")):
             meta = parse_front_matter(md)
@@ -640,22 +685,41 @@ def main():
             meta   = item["meta"]
             art_kw = item["art_kw"]
             title  = meta.get("title", "")[:60]
-            # Używaj konkretnego zapytania wizualnego ze słownika (slug → co ma być na zdjęciu)
             query  = build_query_from_slug(md.name) or build_query(art_kw, meta)
+            slug   = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", md.stem)[:30]
+            new_name  = f"{slug}.jpg"
+            dest_path = IMAGES_DIR / new_name
 
             print(f"[{i}/{len(articles)}] {md.name}")
             print(f"  Tytuł:  {title}")
-            print(f"  Query:  \"{query}\"")
+            print(f"  Prompt: \"{query}\"")
 
             if not auto_fix:
                 continue
 
-            fetch_and_update(md, meta, art_kw, i, pexels_key, dry_run)
+            if ai_mode:
+                # Tryb AI: pomijaj Pexels, generuj przez Stable Horde (Stable Diffusion)
+                print(f"  🤖 Stable Horde AI: generuję (może zająć ~60s)...")
+                img_bytes = stable_horde_generate(query, variant=i)
+                if img_bytes:
+                    dest_path.write_bytes(img_bytes)
+                    size_kb = len(img_bytes) // 1024
+                    print(f"    💾 Zapisano: {dest_path.name} ({size_kb} KB) [Stable Horde AI]")
+                    update_markdown_image(md, new_name)
+                    print(f"  ✅ Zaktualizowano image_url → /images/blog/{new_name}")
+                    add_to_hook_keywords(new_name, art_kw & set(PL_TO_EN.keys()) or art_kw)
+                else:
+                    print(f"  ❌ Błąd generowania AI")
+            else:
+                fetch_and_update(md, meta, art_kw, i, pexels_key, dry_run)
+
             print()
-            time.sleep(1)
+            time.sleep(2)
 
         if not auto_fix:
-            print("\n💡 Aby podmienić:")
+            print("\n💡 Aby podmienić przez AI (zalecane):")
+            print("   python3 scripts/auto-image.py --replace-all --ai --fix")
+            print("\n💡 Aby podmienić przez Pexels:")
             print("   python3 scripts/auto-image.py --replace-all --fix")
         return
 

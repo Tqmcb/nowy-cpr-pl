@@ -271,6 +271,20 @@ IMAGE_KEYWORDS = {
     "sprzedaz-online-cpr-2024.jpg":        {"online", "sprzedaz"},
     "certyfikacja-krok-po-kroku.jpg":        {"certyfikacja", "oznakowanie"},
     "nowe-normy-zharmonizowane-2026.jpg":        {"normy"},
+    "wyroby-izolacyjne-normy.jpg":        {"izolacja", "izolacyjne", "normy", "wyroby"},
+    "okna-drzwi-certyfikacja.jpg":        {"certyfikacja", "drzwi", "okna"},
+    "beton-prefabrykaty-wymagania.jpg":        {"beton", "prefabrykaty"},
+    "import-wyrobow-spoza-ue.jpg":        {"handel", "import"},
+    "eta-krajowe-oceny-techniczne.jpg":        {"eta"},
+    "nadzor-rynku-gunb.jpg":        {"gunb", "nadzor"},
+    "jednostki-notyfikowane-wybor.jpg":        {"certyfikacja", "jednostki", "notyfikowane"},
+    "zakladowa-kontrola-produkcji-f.jpg":        {"fpc"},
+    "paszport-produktu.jpg":        {"paszport"},
+    "normy-zharmonizowane-2026.jpg":        {"normy"},
+    "systemy-avcp.jpg":        {"avcp", "avs", "certyfikacja", "jednostki", "notyfikowane"},
+    "oznakowanie-ce-2026.jpg":        {"oznakowanie"},
+    "digital-dop.jpg":        {"cyfryzacja", "digital", "dop"},
+    "epd-w-budownictwie.jpg":        {"epd"},
 }
 
 # ─── Helpers ───────────────────────────────────────────────────────────────────
