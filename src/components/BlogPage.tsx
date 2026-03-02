@@ -128,7 +128,7 @@ const BlogPostCard = ({ post, onClick }: { post: BlogPost; onClick: () => void }
               <User className="w-4 h-4 text-slate-900" />
             </div>
             <div>
-              <span className="text-sm text-white">{post.author}</span>
+              <span className="text-sm text-white">{post.author.split(' | ')[0]}</span>
               <p className="text-xs text-slate-500">{formatDate(post.published_at)}</p>
             </div>
           </div>
