@@ -8,6 +8,7 @@ import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
 import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
+import { Helmet } from "react-helmet-async";
 
 const WYROB_COMPONENTS: Components = {
   h1: ({ children }) => <h1 className="text-3xl font-bold text-white my-6 leading-tight">{children}</h1>,
@@ -102,8 +103,58 @@ export default function WyrobDetail() {
     fetchData();
   }, [slug]);
 
+  const canonicalUrl = `https://www.nowycpr.pl/wyroby?slug=${wyrob?.slug ?? slug}`;
+  const pageTitle = wyrob
+    ? `${wyrob.title} — Wymagania CPR 2024/3110 | NowyCPR.pl`
+    : "Wyrób budowlany — CPR 2024/3110 | NowyCPR.pl";
+  const pageDesc = wyrob?.excerpt
+    ? `${wyrob.excerpt} Sprawdź normy, system ${wyrob.avs_system}, certyfikację i wymagania DoP&C.`
+    : "Szczegółowe wymagania CPR 2024/3110 dla wyrobów budowlanych.";
+
+  const breadcrumbSchema = wyrob ? {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://www.nowycpr.pl/" },
+      { "@type": "ListItem", "position": 2, "name": "Katalog wyrobów", "item": "https://www.nowycpr.pl/wyroby" },
+      { "@type": "ListItem", "position": 3, "name": wyrob.title }
+    ]
+  } : null;
+
+  const techArticleSchema = wyrob ? {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": `${wyrob.title} — Wymagania CPR 2024/3110`,
+    "description": pageDesc,
+    "url": canonicalUrl,
+    "inLanguage": "pl-PL",
+    "publisher": { "@id": "https://www.nowycpr.pl/#organization" },
+    "about": { "@type": "Thing", "name": "CPR 2024/3110" },
+    "keywords": `CPR 2024, ${wyrob.category}, ${wyrob.avs_system}, wyroby budowlane`
+  } : null;
+
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDesc} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href={canonicalUrl} />
+        {breadcrumbSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(breadcrumbSchema)}
+          </script>
+        )}
+        {techArticleSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(techArticleSchema)}
+          </script>
+        )}
+      </Helmet>
+      <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <Container>
@@ -256,5 +307,6 @@ export default function WyrobDetail() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }
