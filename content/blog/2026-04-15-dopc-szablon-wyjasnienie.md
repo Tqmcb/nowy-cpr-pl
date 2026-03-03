@@ -9,6 +9,10 @@ image_url: /images/blog/dopc-szablon-wyjasnienie.jpg
 template: "przewodnik"
 ---
 
+> 📥 **[Pobierz wzór DoP&C do druku / PDF](/downloads/dopc-wzor-cpr-2024.html)** — interaktywny formularz ze wszystkimi 13 polami, zgodny z CPR 2024/3110. Wypełnij na ekranie i wydrukuj lub zapisz jako PDF (Ctrl+P).
+
+---
+
 ## Czym jest DoP&C i czym różni się od starego DoP?
 
 Rozporządzenie CPR 2024/3110 zastępuje rozporządzenie 305/2011 i wraz z nim zmienia nazwę oraz zakres kluczowego dokumentu towarzyszącego oznakowanemu wyrobowi budowlanemu. Dotychczasowa **Deklaracja Właściwości Użytkowych** (DoP — ang. Declaration of Performance) przekształca się w **Deklarację Właściwości Użytkowych i Zgodności** (DoP&C — ang. Declaration of Performance and Conformity).
@@ -139,6 +143,14 @@ Dokument musi być podpisany przez osobę upoważnioną do reprezentowania produ
 ## Wymóg cyfrowej dostępności DoP&C
 
 Art. 16 CPR 2024 wprowadza obowiązek udostępnienia DoP&C w formie cyfrowej — na stronie internetowej producenta lub za pośrednictwem cyfrowego paszportu produktu. Nabywcy oraz organy nadzoru rynku muszą mieć możliwość pobrania aktualnej wersji dokumentu bez konieczności rejestracji lub wnoszenia opłat. Wyrób może być oznakowany kodem QR prowadzącym bezpośrednio do strony z DoP&C, co jest zalecane przez CPR 2024 jako nowoczesna praktyka.
+
+---
+
+## Pobierz wzór DoP&C
+
+Przygotowaliśmy gotowy, interaktywny formularz DoP&C ze wszystkimi 13 polami zgodnymi z CPR 2024/3110. Formularz można wypełnić bezpośrednio na ekranie, a następnie wydrukować lub zapisać jako PDF.
+
+> 📥 **[Pobierz wzór DoP&C (CPR 2024/3110)](/downloads/dopc-wzor-cpr-2024.html)** — otwórz, wypełnij i wydrukuj
 
 ---
 
