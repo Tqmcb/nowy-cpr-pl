@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
@@ -50,6 +51,14 @@ export default function Wyroby() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Helmet>
+        <title>Katalog Wyrobów Budowlanych — CPR 2024/3110 | NowyCPR.pl</title>
+        <meta name="description" content="Przeszukaj katalog 36 kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu." />
+        <meta property="og:title" content="Katalog Wyrobów Budowlanych CPR 2024/3110 | NowyCPR.pl" />
+        <meta property="og:description" content="36 kategorii wyrobów budowlanych — normy, systemy AVS, certyfikacja DoP&C." />
+        <meta property="og:url" content="https://www.nowycpr.pl/wyroby" />
+        <link rel="canonical" href="https://www.nowycpr.pl/wyroby" />
+      </Helmet>
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <section className="relative py-16 overflow-hidden">
