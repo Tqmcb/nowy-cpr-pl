@@ -854,7 +854,7 @@ export function BlogPage() {
             src="/images/hero-bg.jpg"
             alt=""
             aria-hidden="true"
-            className="w-full h-full object-cover object-center opacity-[0.18]"
+            className="w-full h-full object-cover object-center opacity-[0.28]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-slate-900/70"></div>
         </div>
