@@ -103,7 +103,7 @@ export default function WyrobDetail() {
     fetchData();
   }, [slug]);
 
-  const canonicalUrl = `https://www.nowycpr.pl/wyroby?slug=${wyrob?.slug ?? slug}`;
+  const canonicalUrl = `https://www.nowycpr.pl/wyrob?slug=${wyrob?.slug ?? slug}`;
   const pageTitle = wyrob
     ? `${wyrob.title} — Wymagania CPR 2024/3110 | NowyCPR.pl`
     : "Wyrób budowlany — CPR 2024/3110 | NowyCPR.pl";

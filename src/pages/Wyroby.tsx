@@ -73,9 +73,11 @@ export default function Wyroby() {
         <meta property="og:description" content="36 kategorii wyrobów budowlanych — normy, systemy AVS, certyfikacja DoP&C." />
         <meta property="og:url" content="https://www.nowycpr.pl/wyroby" />
         <link rel="canonical" href="https://www.nowycpr.pl/wyroby" />
-        <script type="application/ld+json">
-          {JSON.stringify(itemListSchema)}
-        </script>
+        {wyroby.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify(itemListSchema)}
+          </script>
+        )}
       </Helmet>
       <Header />
       <main className="flex-grow pt-24 pb-20">
