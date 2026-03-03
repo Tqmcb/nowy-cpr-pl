@@ -3,7 +3,7 @@ import { Button } from "../components/Button";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import {
   Search,
   FileText,
@@ -436,10 +436,10 @@ function HomePage() {
             ) : blogPosts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {blogPosts.map((post) => (
-                  <article
+                  <Link
                     key={post.id}
-                    className="glass-card p-6 hover-lift card-border-glow group cursor-pointer"
-                    onClick={() => navigate(`/blog/${post.slug}`)}
+                    to={`/blog/${post.slug}`}
+                    className="glass-card p-6 hover-lift card-border-glow group cursor-pointer block no-underline"
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <span className="px-3 py-1 rounded-full bg-amber-400/10 text-amber-400 text-xs font-medium">
@@ -460,7 +460,7 @@ function HomePage() {
                       <span>Czytaj więcej</span>
                       <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                     </div>
-                  </article>
+                  </Link>
                 ))}
               </div>
             ) : (

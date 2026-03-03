@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
 import { Badge } from "@/extensions/shadcn/components/badge";
 import { Skeleton } from "@/extensions/shadcn/components/skeleton";
@@ -89,13 +89,13 @@ const calculateReadingTime = (text: string) => {
 };
 
 // Komponent pojedynczego artykułu dla widoku skróconego (karta)
-const BlogPostCard = ({ post, onClick }: { post: BlogPost; onClick: () => void }) => {
+const BlogPostCard = ({ post }: { post: BlogPost }) => {
   const readingTime = calculateReadingTime(post.excerpt + post.content);
 
   return (
-    <div
-      className="glass-card overflow-hidden hover-lift card-border-glow group cursor-pointer"
-      onClick={onClick}
+    <Link
+      to={`/blog/${post.slug}`}
+      className="glass-card overflow-hidden hover-lift card-border-glow group cursor-pointer block no-underline"
     >
       {post.image_url && (
         <div className="h-48 overflow-hidden relative">
@@ -139,7 +139,7 @@ const BlogPostCard = ({ post, onClick }: { post: BlogPost; onClick: () => void }
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -975,7 +975,6 @@ export function BlogPage() {
                   <BlogPostCard
                     key={post.id}
                     post={post}
-                    onClick={() => navigateToPost(post.slug)}
                   />
                 ))}
               </div>
