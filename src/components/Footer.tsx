@@ -51,28 +51,28 @@ export function Footer() {
               {/* Social Icons */}
               <div className="flex gap-3">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/multicert-certyfikacja-wyrobow/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="NowyCPR.pl na LinkedIn (otwiera się w nowej karcie)"
+                  aria-label="Multicert na LinkedIn (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/multicert_pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="NowyCPR.pl na Twitter (otwiera się w nowej karcie)"
+                  aria-label="Multicert na Twitter/X (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Twitter className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/MulticertCertyfikacja"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="NowyCPR.pl na Facebook (otwiera się w nowej karcie)"
+                  aria-label="Multicert na Facebook (otwiera się w nowej karcie)"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-amber-400 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300"
                 >
                   <Facebook className="w-5 h-5" />
