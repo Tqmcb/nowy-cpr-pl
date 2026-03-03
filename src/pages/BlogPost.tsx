@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
@@ -1015,12 +1015,14 @@ function LoadingSkeleton() {
 export default function BlogPost() {
   const navigate = useNavigate();
   const location = useLocation();
+  const params = useParams<{ slug?: string }>();
   const [post, setPost] = useState<BlogPostType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Support both /blog/:slug (new, SEO-friendly) and /blog-post?slug= (legacy)
   const searchParams = new URLSearchParams(location.search);
-  const slug = searchParams.get("slug");
+  const slug = params.slug ?? searchParams.get("slug");
 
   useEffect(() => {
     const fetchPost = async () => {
@@ -1072,7 +1074,7 @@ export default function BlogPost() {
   }
 
   // SEO / GEO meta tags
-  const canonicalUrl = `https://www.nowycpr.pl/blog?slug=${slug}`;
+  const canonicalUrl = `https://www.nowycpr.pl/blog/${slug}`;
   const pageTitle = `${post.title} | NowyCPR.pl`;
   const description = post.excerpt || post.content.slice(0, 160).replace(/[#*`]/g, "").trim();
   const jsonLd = {

@@ -803,7 +803,7 @@ export function BlogPage() {
 
   // Przekierowanie do strony szczegółów posta
   const navigateToPost = (slug: string) => {
-    navigate(`/blog-post?slug=${slug}`);
+    navigate(`/blog/${slug}`);
   };
 
   // Filtrowanie artykułów

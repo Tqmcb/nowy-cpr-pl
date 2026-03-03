@@ -27,6 +27,7 @@ export const userRoutes: RouteObject[] = [
 
 	{ path: "/", element: <App /> },
 	{ path: "/blog", element: <Blog /> },
+	{ path: "/blog/:slug", element: <BlogPost /> },
 	{ path: "/blog-post", element: <BlogPost /> },
 	{ path: "/blogpost", element: <BlogPost /> },
 	{ path: "/documents", element: <Documents /> },
