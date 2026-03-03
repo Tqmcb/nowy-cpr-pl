@@ -23,6 +23,7 @@ import {
   ShieldCheck,
   BadgeCheck
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 export default function Services() {
   const [formData, setFormData] = useState({
@@ -217,6 +218,14 @@ export default function Services() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Helmet>
+        <title>Usługi Certyfikacyjne CPR 2024/3110 — Multicert | NowyCPR.pl</title>
+        <meta name="description" content="Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej i audyty zgodności z CPR 2024/3110. Multicert — akredytowana jednostka certyfikująca wyroby budowlane." />
+        <meta property="og:title" content="Usługi Certyfikacyjne CPR 2024/3110 — Multicert" />
+        <meta property="og:description" content="Certyfikacja ZKP, DoP&C, audyty CPR 2024/3110 — Multicert, akredytowana NB w Polsce." />
+        <meta property="og:url" content="https://www.nowycpr.pl/services" />
+        <link rel="canonical" href="https://www.nowycpr.pl/services" />
+      </Helmet>
       <Header />
 
       <main className="flex-grow">

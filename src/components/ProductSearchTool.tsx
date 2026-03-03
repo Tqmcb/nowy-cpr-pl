@@ -22,6 +22,7 @@ import {
   MapPin,
   Star
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 // Merged product data type to match the component expectations
 interface ProductCategory {
@@ -145,6 +146,14 @@ export function ProductSearchTool() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Helmet>
+        <title>Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl</title>
+        <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011." />
+        <meta property="og:title" content="Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl" />
+        <meta property="og:description" content="Interaktywna wyszukiwarka wymagań dla 36 kategorii wyrobów budowlanych objętych CPR 2024/3110." />
+        <meta property="og:url" content="https://www.nowycpr.pl/product-search" />
+        <link rel="canonical" href="https://www.nowycpr.pl/product-search" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         {/* Animated Background Elements */}

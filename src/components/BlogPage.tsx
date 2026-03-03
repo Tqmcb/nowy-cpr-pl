@@ -21,6 +21,7 @@ import {
   ArrowRight,
   Sparkles
 } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 interface BlogPost {
   id: string;
@@ -841,6 +842,14 @@ export function BlogPage() {
 
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl</title>
+        <meta name="description" content="Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych." />
+        <meta property="og:title" content="Aktualności CPR 2024/3110 | NowyCPR.pl" />
+        <meta property="og:description" content="Artykuły i analizy o nowym rozporządzeniu CPR 2024/3110 dla producentów wyrobów budowlanych." />
+        <meta property="og:url" content="https://www.nowycpr.pl/blog" />
+        <link rel="canonical" href="https://www.nowycpr.pl/blog" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         {/* Background decorations */}
