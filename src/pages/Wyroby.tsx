@@ -49,6 +49,21 @@ export default function Wyroby() {
 
   const goToWyrob = (slug: string) => navigate("/wyrob?slug=" + slug);
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Katalog wyrobów budowlanych CPR 2024/3110",
+    "description": "36 kategorii wyrobów budowlanych objętych Rozporządzeniem CPR (UE) 2024/3110",
+    "url": "https://www.nowycpr.pl/wyroby",
+    "numberOfItems": wyroby.length,
+    "itemListElement": wyroby.map((w, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "name": w.title,
+      "url": `https://www.nowycpr.pl/wyroby?slug=${w.slug}`
+    }))
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <Helmet>
@@ -58,6 +73,9 @@ export default function Wyroby() {
         <meta property="og:description" content="36 kategorii wyrobów budowlanych — normy, systemy AVS, certyfikacja DoP&C." />
         <meta property="og:url" content="https://www.nowycpr.pl/wyroby" />
         <link rel="canonical" href="https://www.nowycpr.pl/wyroby" />
+        <script type="application/ld+json">
+          {JSON.stringify(itemListSchema)}
+        </script>
       </Helmet>
       <Header />
       <main className="flex-grow pt-24 pb-20">
