@@ -49,7 +49,8 @@ const files = readdirSync(blogContentDir)
 let count = 0;
 
 for (const file of files) {
-  const slug = file.replace(/\.md$/, '');
+  // Strip date prefix (YYYY-MM-DD-) to match the URL format used by the React app
+  const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
   const src = readFileSync(join(blogContentDir, file), 'utf-8');
   const meta = parseFrontmatter(src);
 
@@ -147,3 +148,9 @@ for (const file of files) {
 }
 
 console.log(`\n✓ Pre-rendered ${count} blog posts into dist/blog/*/index.html`);
+
+// ── GitHub Pages SPA fallback ─────────────────────────────────────────────
+// Copy index.html → 404.html so GitHub Pages serves the React app for any
+// unknown URL (e.g. /blog, /blog/:slug when navigating directly or refreshing).
+writeFileSync(join(distDir, '404.html'), templateHtml, 'utf-8');
+console.log('✓ Created dist/404.html (GitHub Pages SPA fallback)');

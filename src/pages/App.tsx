@@ -39,41 +39,14 @@ function HomePage() {
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
   const [loadingPosts, setLoadingPosts] = useState(true);
 
-  // Fetch latest blog posts
+  // Fetch latest blog posts from markdown files
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        // Simulated blog posts - in production, fetch from API
-        const mockPosts: BlogPost[] = [
-          {
-            id: "1",
-            title: "Rozporządzenie CPR 2024 - Kompletny przewodnik dla producentów",
-            slug: "cpr-2024-przewodnik",
-            excerpt: "Wszystko co musisz wiedzieć o nowym rozporządzeniu w sprawie wyrobów budowlanych. Kluczowe zmiany i terminy.",
-            published_at: "2026-01-08",
-            category: "Przewodniki",
-            image_url: undefined
-          },
-          {
-            id: "2",
-            title: "Cyfrowa Deklaracja Właściwości Użytkowych (Digital DoP)",
-            slug: "cyfrowa-dop",
-            excerpt: "Jak przygotować się do obowiązkowej cyfryzacji dokumentacji produktów budowlanych zgodnie z CPR 2024.",
-            published_at: "2026-01-05",
-            category: "Digital DoP",
-            image_url: undefined
-          },
-          {
-            id: "3",
-            title: "Oznakowanie CE wyrobów budowlanych - nowe wymagania 2026",
-            slug: "oznakowanie-ce-2026",
-            excerpt: "Zmiany w oznakowaniu CE dla producentów wyrobów budowlanych. Praktyczne wskazówki i przykłady.",
-            published_at: "2026-01-02",
-            category: "Certyfikacja",
-            image_url: undefined
-          }
-        ];
-        setBlogPosts(mockPosts);
+        const { getAllPosts } = await import('../utils/blogLoader');
+        const allPosts = await getAllPosts();
+        // Show 3 newest articles on homepage
+        setBlogPosts(allPosts.slice(0, 3));
       } catch (error) {
         console.error("Error fetching blog posts:", error);
       } finally {
