@@ -848,6 +848,16 @@ export function BlogPage() {
       </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
+        {/* Hero Photo Background */}
+        <div className="absolute inset-0 pointer-events-none">
+          <img
+            src="/images/hero-bg.jpg"
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover object-center opacity-[0.18]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-slate-900/70"></div>
+        </div>
         {/* Background decorations */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl"></div>
