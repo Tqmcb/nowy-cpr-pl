@@ -490,10 +490,9 @@ Factory Production Control (FPC) to udokumentowany, stały i wewnętrzny system 
 Jednostki notyfikowane (Notified Bodies) to organizacje wyznaczone przez państwa członkowskie do przeprowadzania oceny zgodności wyrobów budowlanych.
 
 ## Jednostki w Polsce
-1. **ITB** - Instytut Techniki Budowlanej (NB 1488)
-2. **ICiMB** - Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
-3. **CNBOP-PIB** - Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej (NB 1438)
-4. **IGNiG-PIB** - Instytut Nafty i Gazu (NB 1453)
+1. **ICiMB** - Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
+2. **CNBOP-PIB** - Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej (NB 1438)
+3. **IGNiG-PIB** - Instytut Nafty i Gazu (NB 1453)
 
 ## Kryteria wyboru
 - Zakres notyfikacji (normy, produkty)
@@ -513,7 +512,7 @@ Oficjalna baza jednostek notyfikowanych UE: ec.europa.eu/growth/tools-databases/
     is_published: true,
     category: "Certyfikacja",
     image_url: "/images/blog/laboratorium.jpg",
-    tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
+    tags: ["jednostki notyfikowane", "certyfikacja", "NANDO"]
   },
   {
     id: "10",
@@ -576,9 +575,6 @@ Europejska Ocena Techniczna (ETA) jest wymagana gdy:
 4. Wydanie ETA
 5. Certyfikacja zgodnie z systemem AVCP
 
-## Jednostki TAB w Polsce
-- ITB (Instytut Techniki Budowlanej)
-
 ## Krajowe Oceny Techniczne
 Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie ma hEN ani ETA.
 
@@ -590,7 +586,7 @@ Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie ma hEN ani ETA
     is_published: true,
     category: "Certyfikacja",
     image_url: "/images/blog/normy-eta.jpg",
-    tags: ["ETA", "ocena techniczna", "TAB", "ITB"]
+    tags: ["ETA", "ocena techniczna", "TAB"]
   },
   {
     id: "12",

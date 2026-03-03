@@ -654,27 +654,6 @@ export function ProductSearchTool() {
                   </div>
                 </a>
 
-                {/* ITB — tylko jako TAB */}
-                <a
-                  href="https://www.itb.pl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
-                >
-                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
-                    <Building2 className="w-4 h-4 text-slate-300" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">ITB</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">TAB / ETA (NB 1488)</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
-                    </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
-                      Instytut Techniki Budowlanej — jedyna polska Jednostka Oceny Technicznej (TAB) w sieci EOTA. Wymagany przy uzyskiwaniu Europejskich Ocen Technicznych (ETA).
-                    </p>
-                  </div>
-                </a>
 
               </div>
             </div>
