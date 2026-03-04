@@ -58,35 +58,78 @@ function getExistingTitles() {
     .filter(Boolean);
 }
 
+// ── Google News RSS (darmowy, bez API key) ────────────────────────────────────
+
+async function fetchNewsHeadlines() {
+  const queries = [
+    'CPR+2024+wyroby+budowlane',
+    'rozporządzenie+budowlane+UE+2024',
+    'Construction+Products+Regulation+2024+EU',
+    'CPR+2024/3110+implementation',
+    'Digital+Product+Passport+construction',
+  ];
+
+  const headlines = [];
+  for (const q of queries) {
+    try {
+      const url = `https://news.google.com/rss/search?q=${q}&hl=pl&gl=PL&ceid=PL:pl`;
+      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+      if (!res.ok) continue;
+      const xml = await res.text();
+      // wyciągnij tytuły i opisy z RSS
+      const items = [...xml.matchAll(/<item>[\s\S]*?<title><!\[CDATA\[(.*?)\]\]><\/title>[\s\S]*?<description><!\[CDATA\[(.*?)\]\]><\/description>[\s\S]*?<pubDate>(.*?)<\/pubDate>[\s\S]*?<\/item>/g)];
+      for (const [, title, desc, date] of items.slice(0, 3)) {
+        headlines.push(`[${date?.trim()}] ${title?.trim()} — ${desc?.trim()?.slice(0, 120)}`);
+      }
+    } catch { /* ignoruj błędy pojedynczych feedów */ }
+  }
+  return headlines.slice(0, 15); // max 15 nagłówków
+}
+
 // ── Gemini API ────────────────────────────────────────────────────────────────
 
 async function callGemini(prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+  // Próbuj kolejno modele — gemini-1.5-flash ma darmowy tier (1500 req/dzień)
+  const models = ['gemini-1.5-flash', 'gemini-1.5-flash-8b', 'gemini-2.0-flash'];
 
-  const body = {
-    contents: [{ parts: [{ text: prompt }] }],
-    tools: [{ google_search: {} }],
-    generationConfig: {
-      temperature: 0.65,
-      maxOutputTokens: 4096,
-    },
-  };
+  for (const model of models) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
+    const body = {
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.65, maxOutputTokens: 4096 },
+    };
 
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
 
-  if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`Gemini API ${res.status}: ${err}`);
+      if (res.status === 429) {
+        console.warn(`⚠️  ${model} — quota exceeded, próbuję następny model...`);
+        continue;
+      }
+      if (!res.ok) {
+        const err = await res.text();
+        throw new Error(`Gemini API ${res.status}: ${err}`);
+      }
+
+      const json = await res.json();
+      const text = json.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!text) throw new Error('Gemini zwrócił pustą odpowiedź');
+      console.log(`✓ Model: ${model}`);
+      return text;
+    } catch (err) {
+      if (err.message.includes('quota exceeded') || err.message.includes('429')) {
+        console.warn(`⚠️  ${model} — quota exceeded, próbuję następny...`);
+        continue;
+      }
+      throw err;
+    }
   }
 
-  const json = await res.json();
-  const text = json.candidates?.[0]?.content?.parts?.[0]?.text;
-  if (!text) throw new Error('Gemini zwrócił pustą odpowiedź');
-  return text;
+  throw new Error('Wszystkie modele Gemini wyczerpały quota. Sprawdź billing na aistudio.google.com.');
 }
 
 // ── Pexels API ────────────────────────────────────────────────────────────────
@@ -113,6 +156,14 @@ const dateStr = today.toISOString().slice(0, 10);
 
 const existingTitles = getExistingTitles();
 
+console.log('📰 Pobieram aktualności z Google News RSS...');
+const headlines = await fetchNewsHeadlines();
+console.log(`   Znalazłem ${headlines.length} nagłówków`);
+
+const newsContext = headlines.length > 0
+  ? `═══ AKTUALNE WIADOMOŚCI Z GOOGLE NEWS (ostatnie tygodnie) ═══\n${headlines.map((h, i) => `${i + 1}. ${h}`).join('\n')}`
+  : '(brak aktualnych nagłówków — napisz artykuł oparty na wiedzy o CPR 2024/3110)';
+
 const prompt = `
 Jesteś redaktorem portalu NowyCPR.pl prowadzonego przez Multicert Sp. z o.o. —
 akredytowaną jednostkę certyfikującą wyroby budowlane (NIE doradczą).
@@ -133,31 +184,17 @@ Zamiast tego używaj: "certyfikacja", "ocena zgodności", "przegląd dokumentacj
 ═══ ISTNIEJĄCE ARTYKUŁY (nie powtarzaj) ═══
 ${existingTitles.map(t => `• ${t}`).join('\n')}
 
+${newsContext}
+
 ═══ ZADANIE ═══
-1. Przeszukaj internet (po polsku I po angielsku) w poszukiwaniu NOWEGO tematu
-   z ostatnich 4 tygodni. Szukaj w tych źródłach:
+1. Na podstawie powyższych aktualności wybierz JEDEN konkretny temat, który:
+   - Jest nowy (nie pokrywa się z istniejącymi artykułami powyżej)
+   - Dotyczy CPR 2024/3110, wyrobów budowlanych, norm EN, DPP, AVCP lub jednostek notyfikowanych
+   - Może pochodzić z Komisji Europejskiej, EUR-Lex, LinkedIn, EOTA, CEN lub mediów branżowych
 
-   OFICJALNE ŹRÓDŁA UE:
-   - Komisja Europejska (ec.europa.eu) — komunikaty, decyzje, konsultacje
-   - EUR-Lex (eur-lex.europa.eu) — nowe przepisy, akty delegowane, corrigenda
-   - EOTA (eota.eu) — Europejskie Oceny Techniczne (ETA)
-   - NANDO (nando.nist.gov) — zmiany jednostek notyfikowanych
-   - CEN (cen.eu) — nowe lub zmienione normy EN
+2. Jeśli nie ma nic nowego w nagłówkach — wybierz ważny temat CPR 2024/3110 jeszcze nieomówiony.
 
-   LINKEDIN I BRANŻA:
-   - posty ekspertów CPR/wyrobów budowlanych na LinkedIn
-   - aktualności stowarzyszeń branżowych (np. FIEC, EuroWindowNET, Glass for Europe)
-   - konferencje, webinaria, raporty branżowe
-
-   TEMATY DO PRZESZUKANIA (angielskie zapytania):
-   - "CPR 2024 Construction Products Regulation news"
-   - "Regulation EU 2024/3110 implementation"
-   - "Digital Product Passport construction 2025 2026"
-   - "harmonised standards EN construction products 2025"
-   - "notified bodies construction products update"
-   - "European Commission construction products delegated act"
-
-2. Wybierz JEDEN konkretny, aktualny temat (nie ma w istniejących artykułach powyżej).
+3. Wybierz JEDEN konkretny, aktualny temat (nie ma w istniejących artykułach powyżej).
 
 3. Napisz profesjonalny artykuł po POLSKU (minimum 700 słów) w formacie:
 
