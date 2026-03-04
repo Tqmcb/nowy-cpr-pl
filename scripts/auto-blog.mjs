@@ -89,17 +89,16 @@ async function fetchNewsHeadlines() {
 // ── Gemini API ────────────────────────────────────────────────────────────────
 
 async function callGemini(prompt) {
-  // gemini-1.5-flash → stabilne API v1 (darmowy tier 1500/dzień)
-  // gemini-2.0-flash → preview API v1beta
+  // Modele dostępne dla tego klucza (v1 API)
   const models = [
-    { name: 'gemini-1.5-flash',      api: 'v1'    },
-    { name: 'gemini-1.5-flash-8b',   api: 'v1'    },
-    { name: 'gemini-2.0-flash-lite', api: 'v1beta' },
-    { name: 'gemini-2.0-flash',      api: 'v1beta' },
+    'gemini-2.0-flash-lite',
+    'gemini-2.5-flash-lite',
+    'gemini-2.0-flash',
+    'gemini-2.5-flash',
   ];
 
-  for (const { name: model, api } of models) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`.replace('v1beta', api);
+  for (const model of models) {
+    const url = `https://generativelanguage.googleapis.com/v1/models/${model}:generateContent?key=${GEMINI_API_KEY}`;
     const body = {
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { temperature: 0.65, maxOutputTokens: 4096 },
