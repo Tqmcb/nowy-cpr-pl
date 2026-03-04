@@ -1,6 +1,6 @@
 ---
 title: "CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych"
-date: "2026-05-27"
+date: "2026-03-05"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["CPCR", "LCA", "EPD", "EN 15804", "CPR 2024", "PCR", "obliczenia środowiskowe"]
