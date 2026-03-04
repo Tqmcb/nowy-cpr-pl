@@ -6,6 +6,13 @@
  * z zakresu CPR 2024/3110 i wygenerować artykuł .md do content/blog/.
  *
  * Wymagane env: GEMINI_API_KEY, PEXELS_API_KEY (opcjonalny)
+ *
+ * ⚠️  PRZED COMMITEM wygenerowanego artykułu obowiązkowa weryfikacja:
+ *   1. weryfikacja-faktow-cpr  → sprawdź daty, status norm, akty wykonawcze
+ *   2. walidacja-cpr           → sprawdź numery artykułów CPR i słownictwo
+ *
+ * Typowe błędy AI: DPP jako "już obowiązkowe", EN 15804+A3 jako "opublikowane",
+ * błędne daty wejścia w życie, nieistniejące akty wykonawcze KE.
  */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';

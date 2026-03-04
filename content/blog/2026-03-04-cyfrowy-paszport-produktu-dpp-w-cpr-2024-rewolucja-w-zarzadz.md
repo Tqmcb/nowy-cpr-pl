@@ -50,7 +50,7 @@ Unikalny identyfikator produktu (UPC) zawarty w DoP&C to **element poprzedzając
 Wprowadzenie DPP nie jest jednorazowym wydarzeniem, a procesem stopniowym. Rozporządzenie CPR 2024/3110 przewiduje różne terminy wejścia w życie poszczególnych przepisów. Kluczowe daty, na które należy zwrócić uwagę, to:
 
 - **8 stycznia 2026 r.:** Pełne wejście w życie rozporządzenia CPR 2024/3110. Od tej daty producenci muszą spełniać nowe wymagania dotyczące oznakowania CE, Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz unikalnych identyfikatorów produktów.
-- **8 stycznia 2027 r.:** Wprowadzenie obowiązku uwzględniania w deklaracjach DoP&C informacji o Globalnym Potencjale Ocieplenia (GWP) dla określonych wyrobów budowlanych.
+- **Od 8 stycznia 2026 r.:** Obowiązek deklarowania GWP w DoP&C wchodzi w życie — ale **wyłącznie dla wyrobów objętych zaktualizowaną harmonizowaną specyfikacją techniczną (hTS)**. Nie ma jednej daty globalnej dla wszystkich produktów: dla każdej rodziny wyrobów termin zależy od tego, kiedy zaktualizowana norma zharmonizowana zostanie opublikowana. Pierwsze aktualizacje hTS oczekiwane są w latach 2026–2027.
 - **Dalsze etapy:** Rozporządzenie przewiduje dalsze etapy wprowadzania DPP dla kolejnych grup produktów, co będzie wymagało od producentów stałego monitorowania zmian i dostosowywania swoich procesów.
 
 Szczegółowe harmonogramy dotyczące wprowadzania DPP dla poszczególnych grup produktów będą publikowane przez Komisję Europejską i powinny być uważnie śledzone przez producentów.

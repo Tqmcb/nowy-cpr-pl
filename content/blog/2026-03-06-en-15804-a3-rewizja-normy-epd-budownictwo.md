@@ -64,7 +64,9 @@ Art. 25 CPR 2024/3110 nakłada obowiązek wdrożenia **Cyfrowego Paszportu Produ
 
 Prace prowadzi **CEN/TC 350 / WG 5** przy współudziale ekspertów z IBU (*Institut Bauen und Umwelt*, Niemcy), BRE (Wielka Brytania), INIES (Francja), EPD Norway oraz SINTEF.
 
-Na podstawie opublikowanych mandatów i roboczych dokumentów CEN można wskazać następujące obszary zmian:
+> **Uwaga metodyczna:** Prace nad EN 15804+A3 toczą się wewnątrz CEN/TC 350, jednak na dzień publikacji artykułu CEN nie opublikował oficjalnego komunikatu o uruchomieniu formalnego projektu rewizji. Informacje poniżej oparte są na dokumentach warsztatowych CEN, publikacjach ECO Platform i dyskusjach eksperckich — należy je traktować jako kierunki, nie zatwierdzone postanowienia.
+
+Na podstawie dostępnych materiałów roboczych CEN i wypowiedzi ekspertów WG5 można wskazać następujące obszary zmian:
 
 ### Zaktualizowane czynniki charakteryzacji (EF 3.x)
 
