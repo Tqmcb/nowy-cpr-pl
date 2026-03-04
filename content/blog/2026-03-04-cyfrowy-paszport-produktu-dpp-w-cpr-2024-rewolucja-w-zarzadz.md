@@ -1,71 +1,111 @@
 ---
-title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024: Rewolucja w Zarządzaniu Informacją o Wyrobach Budowlanych"
+title: "Cyfrowy Paszport Produktu w CPR 2024: kiedy i dla kogo — aktualny status wdrożenia"
 date: "2026-03-04"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "CPR 2024/3110"
-tags: ["DPP", "CPR 2024", "wyroby budowlane", "cyfryzacja", "zarządzanie informacją"]
-excerpt: "Cyfrowy Paszport Produktu (DPP) to kluczowy element nowej regulacji CPR 2024/3110, wprowadzający fundamentalne zmiany w sposobie udostępniania i zarządzania informacjami o wyrobach budowlanych."
-image_url: /images/blog/cyfrowy-paszport-produktu-dpp-cpr-2024.jpg
+tags: ["DPP", "CPR 2024", "wyroby budowlane", "cyfryzacja", "akty wykonawcze"]
+excerpt: "CPR 2024/3110 wprowadza Cyfrowy Paszport Produktu, ale szczegółowe akty wykonawcze Komisji Europejskiej wciąż nie są opublikowane. Co już wiadomo, a czego jeszcze nie ma?"
+image_url: /images/blog/cyfrowy-paszport-produktu-dpp-.jpg
 template: "techniczny"
 ---
 
-# Cyfrowy Paszport Produktu (DPP) w CPR 2024: Rewolucja w Zarządzaniu Informacją o Wyrobach Budowlanych
+# Cyfrowy Paszport Produktu w CPR 2024: aktualny status wdrożenia
 
-Nowe rozporządzenie o wyrobach budowlanych (CPR 2024/3110) wprowadza szereg innowacyjnych rozwiązań mających na celu zwiększenie przejrzystości, bezpieczeństwa i zrównoważonego rozwoju w sektorze budowlanym. Jednym z najbardziej przełomowych elementów tej reformy jest wprowadzenie Cyfrowego Paszportu Produktu (DPP). To rozwiązanie, które w nadchodzących latach zrewolucjonizuje sposób, w jaki informacje o wyrobach budowlanych są gromadzone, udostępniane i wykorzystywane przez wszystkich uczestników łańcucha dostaw – od producentów, przez dystrybutorów, aż po użytkowników końcowych i organy nadzoru rynku.
+Rozporządzenie CPR 2024/3110 wprowadza Cyfrowy Paszport Produktu (DPP) jako jeden z kluczowych instrumentów cyfryzacji rynku wyrobów budowlanych. **Ważne zastrzeżenie**: samo rozporządzenie tworzy jedynie ramy prawne — szczegółowe wymagania techniczne, formaty danych i terminy dla poszczególnych grup wyrobów zostaną określone w osobnych aktach wykonawczych Komisji Europejskiej, które **na dzień publikacji tego artykułu nie zostały jeszcze wydane**.
 
-## Czym jest Cyfrowy Paszport Produktu (DPP)?
+Poniżej przedstawiamy rzetelny obraz tego, co jest już pewne, co jest planowane i czego jeszcze nie wiadomo.
 
-Cyfrowy Paszport Produktu (DPP) to cyfrowy dokument zawierający kompleksowe informacje o danym wyrobie budowlanym. Ma on na celu zapewnienie łatwego dostępu do kluczowych danych dotyczących właściwości użytkowych, bezpieczeństwa, zrównoważonego rozwoju oraz cyklu życia produktu. DPP ma zastąpić tradycyjne, często papierowe, dokumenty i umożliwić szybkie i efektywne zarządzanie informacją w formie cyfrowej.
+---
 
-Zgodnie z CPR 2024/3110, DPP będzie zawierał szereg istotnych informacji, w tym między innymi:
+## Art. 25 CPR 2024/3110 — co mówi rozporządzenie?
 
-*   **Deklarację Właściwości Użytkowych i Zgodności (DoP&C):** Nowa, rozszerzona wersja deklaracji, uwzględniająca szerszy zakres danych.
-*   **Informacje o zrównoważonym rozwoju:** Dane dotyczące wpływu wyrobu na środowisko, w tym informacje z Deklaracji Środowiskowych Produktu (EPD) oraz wskaźniki takie jak Globalny Potencjał Ocieplenia (GWP).
-*   **Informacje o bezpieczeństwie:** Dane dotyczące substancji niebezpiecznych (np. zgodnie z rozporządzeniem REACH), trwałości produktu oraz instrukcje dotyczące naprawy i demontażu.
-*   **Informacje o pochodzeniu i łańcuchu dostaw:** Dane dotyczące producenta, importera, a także potencjalnie informacje o wykorzystanych materiałach.
-*   **Unikalny identyfikator produktu:** Kod QR lub inny unikalny identyfikator, który umożliwi szybkie powiązanie produktu z jego cyfrowym paszportem.
+Art. 25 CPR 2024/3110 nakłada na Komisję Europejską obowiązek przyjęcia aktów wykonawczych określających:
 
-## Kluczowe Cele Wprowadzenia DPP
+- **które grupy wyrobów budowlanych** będą objęte obowiązkiem DPP,
+- **jakie informacje** musi zawierać paszport (zakres danych, struktura),
+- **w jakiej formie technicznej** DPP ma być udostępniany (format cyfrowy, API, QR kod),
+- **terminy**, od kiedy obowiązek wchodzi w życie dla poszczególnych kategorii.
 
-Wprowadzenie DPP ma na celu osiągnięcie kilku kluczowych celów:
+Do czasu publikacji tych aktów wykonawczych **żaden producent wyrobów budowlanych nie jest zobowiązany do wdrożenia pełnego DPP** — niezależnie od terminu ogólnego stosowania CPR.
 
-1.  **Zwiększenie przejrzystości rynku:** Ułatwienie dostępu do rzetelnych informacji o wyrobach budowlanych dla wszystkich interesariuszy, co pozwoli na dokonywanie bardziej świadomych wyborów.
-2.  **Poprawa bezpieczeństwa:** Szybszy dostęp do informacji o potencjalnych zagrożeniach związanych z produktem, co jest kluczowe w kontekście nadzoru rynku.
-3.  **Promowanie zrównoważonego rozwoju:** Umożliwienie łatwego porównywania produktów pod kątem ich wpływu na środowisko i promowanie stosowania bardziej ekologicznych rozwiązań.
-4.  **Usprawnienie zarządzania informacją:** Cyfrowa forma DPP znacznie ułatwi przechowywanie, wyszukiwanie i udostępnianie danych, co jest szczególnie ważne w kontekście rosnącej ilości regulacji i wymagań.
-5.  **Wsparcie dla gospodarki o obiegu zamkniętym:** DPP będzie zawierał informacje ułatwiające ponowne wykorzystanie i recykling materiałów budowlanych, wspierając tym samym cele gospodarki o obiegu zamkniętym.
+---
 
-## Kiedy DPP stanie się obowiązkowy?
+## Co już obowiązuje od 8 stycznia 2026 r.?
 
-Wprowadzenie DPP nie jest jednorazowym wydarzeniem, a procesem stopniowym. Rozporządzenie CPR 2024/3110 przewiduje różne terminy wejścia w życie poszczególnych przepisów. Obowiązek posiadania i udostępniania DPP będzie stopniowo wprowadzany dla różnych kategorii wyrobów budowlanych. Kluczowe daty, na które należy zwrócić uwagę, to:
+Po ogólnym wejściu w życie CPR 2024/3110, od **8 stycznia 2026 r.** obowiązują:
 
-*   **8 stycznia 2026 r.:** Pełne wejście w życie rozporządzenia CPR 2024/3110. Od tej daty producenci muszą spełniać nowe wymagania dotyczące oznakowania CE, Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz unikalnych identyfikatorów produktów.
-*   **8 stycznia 2027 r.:** Wprowadzenie obowiązku uwzględniania w deklaracjach DoP&C informacji o Globalnym Potencjale Ocieplenia (GWP) dla określonych wyrobów budowlanych.
-*   **Dalsze etapy:** Rozporządzenie przewiduje dalsze etapy wprowadzania DPP dla kolejnych grup produktów, co będzie wymagało od producentów stałego monitorowania zmian i dostosowywania swoich procesów.
+| Wymaganie | Podstawa prawna | Status |
+|-----------|----------------|--------|
+| Nowy format Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) | Art. 18–19 | **Obowiązuje** |
+| Unikalny identyfikator produktu (UPC) w DoP&C | Art. 18 | **Obowiązuje** |
+| Cyfrowa DoP&C (dostęp online) | Art. 18 ust. 3 | **Obowiązuje** |
+| Pełny Cyfrowy Paszport Produktu (DPP) | Art. 25 | **Oczekuje na akty wykonawcze** |
+
+Unikalny identyfikator produktu (UPC) zawarty w DoP&C to **element poprzedzający DPP** — to ten sam kod, który w przyszłości powiąże wyrób z jego cyfrowym paszportem. Nie jest jednak równoznaczny z pełnym DPP.
+
+---
+
+## Kluczowe daty — co wiemy
+
+Wprowadzenie DPP nie jest jednorazowym wydarzeniem, a procesem stopniowym. Rozporządzenie CPR 2024/3110 przewiduje różne terminy wejścia w życie poszczególnych przepisów. Kluczowe daty, na które należy zwrócić uwagę, to:
+
+- **8 stycznia 2026 r.:** Pełne wejście w życie rozporządzenia CPR 2024/3110. Od tej daty producenci muszą spełniać nowe wymagania dotyczące oznakowania CE, Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz unikalnych identyfikatorów produktów.
+- **8 stycznia 2027 r.:** Wprowadzenie obowiązku uwzględniania w deklaracjach DoP&C informacji o Globalnym Potencjale Ocieplenia (GWP) dla określonych wyrobów budowlanych.
+- **Dalsze etapy:** Rozporządzenie przewiduje dalsze etapy wprowadzania DPP dla kolejnych grup produktów, co będzie wymagało od producentów stałego monitorowania zmian i dostosowywania swoich procesów.
 
 Szczegółowe harmonogramy dotyczące wprowadzania DPP dla poszczególnych grup produktów będą publikowane przez Komisję Europejską i powinny być uważnie śledzone przez producentów.
 
-## Jak przygotować się na wprowadzenie DPP?
+---
 
-Przygotowanie się na wprowadzenie Cyfrowego Paszportu Produktu wymaga od producentów wyrobów budowlanych strategicznego podejścia i inwestycji w nowe technologie oraz procesy. Oto kluczowe kroki, które należy podjąć:
+## Czego jeszcze nie wiadomo (brakujące akty wykonawcze)
 
-1.  **Audyt istniejącej dokumentacji:** Dokładne przejrzenie i uporządkowanie wszystkich danych dotyczących wyrobów budowlanych, od właściwości użytkowych po informacje środowiskowe.
-2.  **Digitalizacja danych:** Przejście na cyfrowe formaty przechowywania i zarządzania danymi. Warto rozważyć wdrożenie systemów klasy PIM (Product Information Management) lub dedykowanych rozwiązań do zarządzania danymi produktowymi.
-3.  **Integracja z nowymi wymogami:** Zapewnienie, że systemy informatyczne będą w stanie generować i udostępniać informacje wymagane w ramach DPP, w tym dane dotyczące zrównoważonego rozwoju (EPD, GWP) i substancji niebezpiecznych.
-4.  **Współpraca z partnerami:** Nawiązanie współpracy z jednostkami certyfikującymi, laboratoriami badawczymi oraz dostawcami oprogramowania, aby zapewnić zgodność z nowymi przepisami. Multicert Sp. z o.o., jako akredytowana jednostka certyfikująca, oferuje wsparcie techniczne w zakresie oceny zgodności wyrobów budowlanych z nowymi wymogami CPR.
-5.  **Szkolenie personelu:** Zapewnienie odpowiedniego przeszkolenia pracowników odpowiedzialnych za zarządzanie informacją o produktach, aby byli oni świadomi nowych wymogów i potrafili efektywnie z nich korzystać.
-6.  **Monitorowanie zmian:** Regularne śledzenie aktualizacji i wytycznych publikowanych przez Komisję Europejską oraz inne odpowiednie organy.
+Komisja Europejska pracuje nad aktami wykonawczymi do art. 25, jednak do chwili obecnej nie opublikowała:
 
-## DPP a Użytkownicy Profesjonalni i Konsumenci
+- **Listy grup wyrobów budowlanych** objętych pierwszym etapem DPP,
+- **Specyfikacji technicznej** formatu DPP (standardu danych, API, schematu XML/JSON),
+- **Szczegółowych terminów** dla poszczególnych kategorii wyrobów (poza ogólnymi ramami CPR),
+- **Wymagań co do infrastruktury IT** po stronie producenta i rejestru europejskiego.
 
-DPP ma znaczący wpływ nie tylko na producentów, ale również na innych uczestników rynku.
+Producenci śledzący prace KE powinni monitorować komunikaty [EUR-Lex](https://eur-lex.europa.eu) oraz stronę DG GROW.
 
-*   **Użytkownicy profesjonalni (np. projektanci, wykonawcy):** Będą mieli łatwiejszy dostęp do kompleksowych danych o produktach, co pozwoli na lepsze projektowanie, wybór materiałów i zapewnienie zgodności z przepisami. Informacje o zrównoważonym rozwoju staną się kluczowym kryterium wyboru, zwłaszcza w kontekście zielonych zamówień publicznych.
-*   **Organy nadzoru rynku:** DPP ułatwi kontrole i weryfikację zgodności produktów z wymaganiami, przyspieszając identyfikację wyrobów niezgodnych i eliminując je z rynku.
-*   **Konsumenci:** Choć DPP jest dokumentem technicznym, jego dane mogą być upraszczane i udostępniane w bardziej przystępnej formie, co pozwoli konsumentom na lepsze zrozumienie cech i wpływu kupowanych produktów na ich zdrowie i środowisko.
+---
 
-## Wyzwania i Przyszłość DPP
+## Jak przygotować się, nie znając jeszcze szczegółów?
 
-Wprowadzenie DPP jest ambitnym przedsięwzięciem, które wiąże się z pewnymi wyzwaniami. Należą do nich m.in. konieczność standaryzacji formatów danych, zapewnienie interoperacyjności różnych systemów informatycznych oraz edukacja wszystkich uczestników rynku. Jednakże, korzyści płynące z wdrożenia DPP – takie jak zwiększona przejrzystość, bezpieczeństwo i promowanie zrównoważonego rozwoju – znacznie przewyższają potencjalne trudności.
+Brak aktów wykonawczych nie oznacza, że producenci nie mogą nic zrobić. Działania przygotowawcze, które mają sens już teraz:
 
-Cyfrowy Paszport Produktu to nie tylko nowy wymóg prawny, ale przede wszystkim narzędzie, które ma potencjał fundamentalnie zmienić sposób funkcjonowania branży budowlanej, czyniąc ją bardziej efektywną, bezpieczną i przyjazną dla środowiska. Przygotowanie się na te zmiany już teraz jest kluczowe dla utrzymania konkurencyjności i spełnienia przyszłych wymagań prawnych.
+1. **Wdrożenie DoP&C z UPC** — to obowiązkowe od stycznia 2026 r. i stanowi fundament przyszłego DPP.
+2. **Digitalizacja dokumentacji produktowej** — strukturyzowanie danych technicznych, środowiskowych i substancji niebezpiecznych w formacie możliwym do eksportu (JSON, XML).
+3. **Uzyskanie EPD** — deklaracje środowiskowe (EN 15804+A2) z wysokim prawdopodobieństwem będą elementem DPP w sektorze budowlanym; warto je mieć z wyprzedzeniem.
+4. **Monitoring actów wykonawczych** — śledzenie oficjalnych komunikatów KE i notyfikacji w Dzienniku Urzędowym UE.
+5. **Ocena infrastruktury IT** — wstępna analiza, czy systemy ERP/PIM producenta będą w stanie generować i udostępniać dane w wymaganym formacie.
+
+---
+
+## DPP a inne obowiązki cyfrowe CPR 2024
+
+Warto odróżnić DPP od innych cyfrowych elementów CPR 2024/3110, które **już obowiązują**:
+
+| Element | Status 2026 | Uwagi |
+|---------|-------------|-------|
+| Cyfrowa DoP&C (dostęp URL/QR) | Obowiązuje | Art. 18 ust. 3 |
+| Unikalny kod produktu (UPC) | Obowiązuje | Poprzednik DPP |
+| Cyfrowy plik techniczny | Obowiązuje | Art. 20 |
+| Pełny DPP | Oczekuje na akty wykonawcze | Art. 25 |
+
+---
+
+## Podsumowanie
+
+CPR 2024/3110 tworzy solidne ramy prawne dla Cyfrowego Paszportu Produktu i wyznacza kierunek transformacji cyfrowej rynku wyrobów budowlanych. Jednak **pełne wdrożenie DPP nie jest dziś możliwe** — brakuje aktów wykonawczych Komisji Europejskiej precyzujących wymagania techniczne i harmonogram dla poszczególnych grup produktów.
+
+Producenci powinni śledzić postępy prac KE i przygotowywać infrastrukturę danych, nie czekając na ostatnią chwilę — ale bez obawy, że dziś już „spóźniają się" z obowiązkowym DPP.
+
+---
+
+## Źródła
+
+- **CPR 2024/3110, Art. 25** — Cyfrowy Paszport Produktu: [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- **CPR 2024/3110, Art. 18–19** — Deklaracja właściwości użytkowych i zgodności (DoP&C)
+- **DG GROW** — Digital Product Passport: [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
+- **Więcej o DPP**: [Cyfrowy Paszport Produktu w CPR 2024 — kompletne wyjaśnienie](/blog/cyfrowy-paszport-produktu-dpp-cpr-2024)
