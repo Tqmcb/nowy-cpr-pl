@@ -1,0 +1,41 @@
+name: Auto Blog Post (weekly)
+
+on:
+  schedule:
+    # Każdy poniedziałek o 07:00 UTC = 08:00 CET / 09:00 CEST
+    - cron: '0 7 * * 1'
+  workflow_dispatch:  # Możliwość ręcznego uruchomienia z GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate blog post via Gemini
+        run: node scripts/auto-blog.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+
+      - name: Commit and push new post (if generated)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/blog/
+          if git diff --staged --quiet; then
+            echo "ℹ️ Brak nowych postów do dodania"
+          else
+            git commit -m "🤖 Auto blog: $(date +%Y-%m-%d)"
+            git push
+            echo "✅ Nowy post opublikowany i deployment uruchomiony"
+          fi
