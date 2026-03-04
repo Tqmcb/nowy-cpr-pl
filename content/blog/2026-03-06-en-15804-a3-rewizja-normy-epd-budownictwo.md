@@ -13,7 +13,7 @@ template: "techniczny"
 
 Norma **EN 15804** to fundament europejskiego systemu deklaracji środowiskowych wyrobów budowlanych (EPD — *Environmental Product Declaration*). Jej aktualna wersja z poprawką +A2 obowiązuje od 2019 r. i wyznaczyła nowe standardy oceny cyklu życia (LCA) w budownictwie. Trwają prace nad kolejną — już trzecią — poprawką, oznaczaną roboczo jako **EN 15804+A3**.
 
-Dla producentów wyrobów budowlanych zmiana ta nie jest kwestią odległej przyszłości. CPR 2024/3110 wprowadza obowiązkowe wskaźniki środowiskowe powiązane właśnie z EN 15804, a wymagania nowego systemu AVS 3+ bezpośrednio odwołują się do tej normy. Warto już teraz rozumieć kierunek rewizji.
+Dla producentów wyrobów budowlanych zmiana ta nie jest kwestią odległej przyszłości. CPR 2024/3110 przewiduje docelowo obowiązkowe wskaźniki środowiskowe powiązane z EN 15804 — obowiązek wejdzie w życie osobno dla każdej rodziny wyrobów, po opublikowaniu nowych norm zharmonizowanych (hTS). Na marzec 2026 żadna nowa hTS nie została jeszcze opublikowana. Wymagania nowego systemu AVS 3+ bezpośrednio odwołują się do tej normy. Warto już teraz rozumieć kierunek rewizji.
 
 ---
 

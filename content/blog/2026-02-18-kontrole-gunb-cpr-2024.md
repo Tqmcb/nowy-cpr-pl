@@ -49,7 +49,7 @@ Na podstawie dotychczasowych kontroli GUNB po wejściu w życie CPR 2024, najcz�
 
 **Dokumentacja:**
 - Stary format DoP zamiast DoP&C przy wyrobach wprowadzanych od 8 stycznia 2026
-- Brak deklaracji wskaźników środowiskowych mimo podlegania systemowi 3+
+- Brak deklaracji wskaźników środowiskowych u producenta, który dobrowolnie wybrał system 3+ i zadeklarował dane środowiskowe w DoP&C, ale nie przeszedł walidacji JN *(uwaga: samo niepodawanie wskaźników środowiskowych nie jest naruszeniem — obowiązek pojawi się dopiero po opublikowaniu nowych hTS)*
 - DoP&C niedostępna online — wymagany jest co najmniej link na stronie producenta
 
 **Oznakowanie CE:**
@@ -71,7 +71,7 @@ CPR 2024 i rozporządzenie 2019/1020 zapewniają producentowi:
 
 ## Sankcje za naruszenia CPR 2024
 
-CPR 2024 zobowiązuje państwa członkowskie do ustanowienia skutecznych, proporcjonalnych i odstraszających kar. Polska ustawa o wyrobach budowlanych (znowelizowana) przewiduje:
+CPR 2024 zobowiązuje państwa członkowskie do ustanowienia skutecznych, proporcjonalnych i odstraszających kar (Art. 92 — od 8 stycznia 2027 r.). Projekt Nowej Ustawy o Wyrobach Budowlanych (NUWB) — opublikowany 21.10.2025, **jeszcze nieuchwalony przez Sejm** — przewiduje m.in. wzrost stawek kar o ok. 50%. Do czasu uchwalenia NUWB stosuje się dotychczasową ustawę. Na jej podstawie możliwe są:
 
 - Nakaz wycofania niezgodnego wyrobu z rynku
 - Nakaz zaprzestania udostępniania wyrobu

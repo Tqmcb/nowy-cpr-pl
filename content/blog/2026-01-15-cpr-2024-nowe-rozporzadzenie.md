@@ -49,9 +49,9 @@ System AVCP (Assessment and Verification of Constancy of Performance) zostaje pr
 
 W Systemie 3+ jednostka notyfikowana nie wydaje certyfikatu, lecz **raport walidacyjny** potwierdzający poprawność obliczeń LCA i danych EPD.
 
-### 3. Wymagania środowiskowe (Załącznik X) — obowiązek deklarowania
+### 3. Wymagania środowiskowe (Załącznik X) — docelowy obowiązek deklarowania
 
-CPR 2024 wprowadza **obowiązkowe deklarowanie wskaźników środowiskowych** dla wyrobów budowlanych (etapami, poprzez akty delegowane Komisji Europejskiej):
+CPR 2024 wprowadza **docelowo obowiązkowe deklarowanie wskaźników środowiskowych** dla wyrobów budowlanych — etapami, poprzez nowe normy zharmonizowane (hTS) i akty delegowane KE. **Na marzec 2026 żadna nowa hTS ani akt delegowany w tym zakresie nie zostały opublikowane — obowiązek jeszcze nie obowiązuje.** Przyszłe wymagania obejmą m.in.:
 
 - **GWP** (Global Warming Potential) — potencjał globalnego ocieplenia [kg CO₂ eq]
 - **ODP** (Ozone Depletion Potential) — potencjał niszczenia warstwy ozonowej

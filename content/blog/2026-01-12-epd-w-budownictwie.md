@@ -23,7 +23,7 @@ EPD to **znormalizowany dokument** (zgodnie z ISO 14025 i EN 15804) zawierający
 
 ## Czy EPD jest obowiązkowe?
 
-W **CPR 2024** wska\u017aniki środowiskowe są obowiązkowe, ale **pełna EPD nie**. Wymagane minimum to:
+W **CPR 2024** wskaźniki środowiskowe **będą docelowo obowiązkowe** — ale dopiero po opublikowaniu nowych norm zharmonizowanych (hTS) dla danej rodziny wyrobów. Na marzec 2026 żadna nowa hTS nie została jeszcze opublikowana, więc obowiązek deklarowania wskaźników środowiskowych jeszcze nie obowiązuje. **Pełna EPD pozostaje dobrowolna.** Wymagane minimum (gdy odpowiednia hTS zostanie opublikowana i wejdzie w życie) to:
 
 - Obliczenie wskaźników GWP, ODP, AP, EP, POCP
 - Zgodność z EN 15804+A2
