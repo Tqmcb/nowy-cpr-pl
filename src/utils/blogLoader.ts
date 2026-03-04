@@ -138,8 +138,12 @@ export async function getAllPosts(): Promise<BlogPost[]> {
             }
         }
 
-        // Sort by date, newest first (no date filter — all posts visible immediately)
+        const today = new Date();
+        today.setHours(23, 59, 59, 999);
+
+        // Filter out future posts and sort by date, newest first
         return posts
+            .filter(post => new Date(post.published_at) <= today)
             .sort((a, b) =>
                 new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
             );
