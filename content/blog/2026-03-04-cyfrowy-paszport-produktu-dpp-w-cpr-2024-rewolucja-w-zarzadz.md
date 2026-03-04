@@ -39,32 +39,58 @@ Po ogólnym wejściu w życie CPR 2024/3110, od **8 stycznia 2026 r.** obowiązu
 | Nowy format Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) | Art. 18–19 | **Obowiązuje** |
 | Unikalny identyfikator produktu (UPC) w DoP&C | Art. 18 | **Obowiązuje** |
 | Cyfrowa DoP&C (dostęp online) | Art. 18 ust. 3 | **Obowiązuje** |
-| Pełny Cyfrowy Paszport Produktu (DPP) | Art. 25 | **Oczekuje na akty wykonawcze** |
+| Deklarowanie GWP w DoP&C | Załącznik II | **Oczekuje na nowe hTS** |
+| Pełny Cyfrowy Paszport Produktu (DPP) | Art. 25 | **Oczekuje na hTS + akty wykonawcze** |
 
 Unikalny identyfikator produktu (UPC) zawarty w DoP&C to **element poprzedzający DPP** — to ten sam kod, który w przyszłości powiąże wyrób z jego cyfrowym paszportem. Nie jest jednak równoznaczny z pełnym DPP.
 
 ---
 
-## Kluczowe daty — co wiemy
+## Dlaczego GWP i DPP nie mogą obowiązywać bez nowych norm zharmonizowanych?
 
-Wprowadzenie DPP nie jest jednorazowym wydarzeniem, a procesem stopniowym. Rozporządzenie CPR 2024/3110 przewiduje różne terminy wejścia w życie poszczególnych przepisów. Kluczowe daty, na które należy zwrócić uwagę, to:
+To kluczowy mechanizm CPR 2024/3110, który jest często pomijany lub błędnie rozumiany.
 
-- **8 stycznia 2026 r.:** Pełne wejście w życie rozporządzenia CPR 2024/3110. Od tej daty producenci muszą spełniać nowe wymagania dotyczące oznakowania CE, Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz unikalnych identyfikatorów produktów.
-- **Od 8 stycznia 2026 r.:** Obowiązek deklarowania GWP w DoP&C wchodzi w życie — ale **wyłącznie dla wyrobów objętych zaktualizowaną harmonizowaną specyfikacją techniczną (hTS)**. Nie ma jednej daty globalnej dla wszystkich produktów: dla każdej rodziny wyrobów termin zależy od tego, kiedy zaktualizowana norma zharmonizowana zostanie opublikowana. Pierwsze aktualizacje hTS oczekiwane są w latach 2026–2027.
-- **Dalsze etapy:** Rozporządzenie przewiduje dalsze etapy wprowadzania DPP dla kolejnych grup produktów, co będzie wymagało od producentów stałego monitorowania zmian i dostosowywania swoich procesów.
+Droga od rozporządzenia do obowiązku wygląda następująco:
 
-Szczegółowe harmonogramy dotyczące wprowadzania DPP dla poszczególnych grup produktów będą publikowane przez Komisję Europejską i powinny być uważnie śledzone przez producentów.
+```
+CPR 2024/3110 (ramy prawne)
+        ↓
+Mandat Komisji Europejskiej do CEN
+        ↓
+CEN opracowuje nową normę zharmonizowaną (hTS)
+        ↓
+Norma opublikowana w Dzienniku Urzędowym UE
+        ↓
+DOPIERO WTEDY: GWP i DPP stają się obowiązkowe dla tej grupy wyrobów
+```
+
+**Na dzień publikacji artykułu (marzec 2026) żadna nowa norma zharmonizowana wynikająca z CPR 2024/3110 nie została jeszcze opublikowana.** Oznacza to, że ani obowiązek deklarowania GWP, ani obowiązek wdrożenia DPP nie mają jeszcze podstawy prawnej dla żadnej grupy wyrobów budowlanych.
+
+Kluczowe daty, na które należy zwrócić uwagę:
+
+- **8 stycznia 2026 r.:** Wejście w życie rozporządzenia CPR 2024/3110 — obowiązują nowy format DoP&C (Art. 18–19), UPC i cyfrowy dostęp do DoP&C.
+- **Bezterminowo (do opublikowania hTS):** Dla każdej rodziny wyrobów GWP i DPP stają się obowiązkowe dopiero po publikacji zaktualizowanej harmonizowanej specyfikacji technicznej w Dz.U. UE.
+- **Dalsze etapy DPP:** Oprócz nowych hTS wymagane są też dodatkowe akty wykonawcze KE określające system DPP (rejestr, format danych, zasady dla dostawców usług DPP).
+
+Szczegółowe harmonogramy dotyczące aktualizacji norm zharmonizowanych dla poszczególnych grup produktów będą publikowane przez Komisję Europejską w ramach planu prac i powinny być uważnie śledzone przez producentów.
 
 ---
 
-## Czego jeszcze nie wiadomo (brakujące akty wykonawcze)
+## Czego jeszcze nie ma (brakujące elementy systemu)
 
-Komisja Europejska pracuje nad aktami wykonawczymi do art. 25, jednak do chwili obecnej nie opublikowała:
+Aby DPP i GWP stały się obowiązkowe, muszą powstać **dwie niezależne warstwy regulacyjne** — i obie są niekompletne:
 
-- **Listy grup wyrobów budowlanych** objętych pierwszym etapem DPP,
-- **Specyfikacji technicznej** formatu DPP (standardu danych, API, schematu XML/JSON),
-- **Szczegółowych terminów** dla poszczególnych kategorii wyrobów (poza ogólnymi ramami CPR),
-- **Wymagań co do infrastruktury IT** po stronie producenta i rejestru europejskiego.
+**Warstwa 1 — Nowe normy zharmonizowane (hTS):**
+- Żadna nowa hTS wynikająca z CPR 2024/3110 nie jest jeszcze opublikowana w Dz.U. UE
+- CEN pracuje nad aktualizacjami norm dla poszczególnych rodzin wyrobów na podstawie mandatów KE
+- Bez opublikowanej hTS nie ma obowiązku GWP ani DPP dla danej grupy produktów
+
+**Warstwa 2 — Akty wykonawcze i delegowane KE dla systemu DPP (Art. 25):**
+- Rejestr DPP (KE zobowiązana do uruchomienia do 19 lipca 2026 r.),
+- Zasady dla dostawców usług DPP (akt delegowany),
+- Specyfikacja techniczna systemu DPP (format danych, API, schemat XML/JSON).
+
+Producenci śledzący prace KE powinni monitorować komunikaty [EUR-Lex](https://eur-lex.europa.eu) oraz stronę DG GROW.
 
 Producenci śledzący prace KE powinni monitorować komunikaty [EUR-Lex](https://eur-lex.europa.eu) oraz stronę DG GROW.
 
@@ -86,12 +112,14 @@ Brak aktów wykonawczych nie oznacza, że producenci nie mogą nic zrobić. Dzia
 
 Warto odróżnić DPP od innych cyfrowych elementów CPR 2024/3110, które **już obowiązują**:
 
-| Element | Status 2026 | Uwagi |
+| Element | Status marzec 2026 | Podstawa |
 |---------|-------------|-------|
-| Cyfrowa DoP&C (dostęp URL/QR) | Obowiązuje | Art. 18 ust. 3 |
-| Unikalny kod produktu (UPC) | Obowiązuje | Poprzednik DPP |
-| Cyfrowy plik techniczny | Obowiązuje | Art. 20 |
-| Pełny DPP | Oczekuje na akty wykonawcze | Art. 25 |
+| Nowy format DoP&C | **Obowiązuje** | Art. 18–19 |
+| Cyfrowa DoP&C (dostęp URL/QR) | **Obowiązuje** | Art. 18 ust. 3 |
+| Unikalny identyfikator produktu (UPC) | **Obowiązuje** | Art. 18 |
+| Cyfrowy plik techniczny | **Obowiązuje** | Art. 20 |
+| Deklarowanie GWP w DoP&C | **Oczekuje na nowe hTS** | Zał. II |
+| Pełny DPP | **Oczekuje na hTS + akty KE** | Art. 25 |
 
 ---
 
