@@ -3,8 +3,8 @@ title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024 — co to jest, kiedy obowią
 date: "2026-02-28"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
-tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability"]
-excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla wyrobów budowlanych i jak techniczny wygląda jego wdrożenie."
+tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability", "GUNB", "Polska", "kary"]
+excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
 image_url: /images/blog/cyfrowy-paszport-produktu-dpp-.jpg
 template: "analiza"
 ---
@@ -44,6 +44,34 @@ To pytanie, które zadają wszyscy producenci. Odpowiedź jest złożona:
 | DPP obowiązkowy | Po spełnieniu obu warunków: hTS + akty KE | Pierwsze wyroby: ok. 2028–2029 (orientacyjnie) |
 
 **Wniosek praktyczny:** w 2026 roku DPP **nie jest jeszcze obowiązkowy** dla żadnego wyrobu budowlanego — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE określających techniczne wymagania DPP. Przygotowanie infrastruktury danych teraz to inwestycja, nie strata czasu.
+
+## Sytuacja prawna w Polsce — marzec 2026
+
+CPR 2024/3110 jest **rozporządzeniem UE** (nie dyrektywą), więc stosuje się bezpośrednio w Polsce od 8 stycznia 2026 r. — bez potrzeby osobnej ustawy transponującej. Jednak krajowe mechanizmy egzekucyjne i kary reguluje polska ustawa, która jest właśnie aktualizowana.
+
+**Nowa Ustawa o Wyrobach Budowlanych (NUWB)**
+
+Projekt Nowej Ustawy o Wyrobach Budowlanych został opublikowany przez Ministerstwo Finansów i Gospodarki **21 października 2025 r.** Na marzec 2026 wciąż jest na etapie procesu legislacyjnego — **Sejm nie uchwalił jej jeszcze**. Do czasu uchwalenia NUWB obowiązują kary z dotychczasowej ustawy o wyrobach budowlanych.
+
+Projekt NUWB przewiduje m.in.:
+- aktualizację stawek kar pieniężnych (wzrost o ok. 50% względem poziomów obecnych),
+- dostosowanie do nowych mechanizmów nadzoru rynku wynikających z CPR 2024/3110.
+
+Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru Budowlanego (GUNB)** oraz inspektorzy wojewódzcy.
+
+**Praktyczne ryzyko kar dla polskich producentów — marzec 2026**
+
+| Wymaganie | Podstawa prawna (UE) | Status krajowy | Realne ryzyko kary |
+|-----------|---------------------|---------------|-------------------|
+| DoP&C w nowym formacie (Art. 18–19) | ✅ Obowiązuje | ⚠️ NUWB w trakcie uchwalania | Niskie |
+| Unikalny identyfikator produktu (UPC) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
+| Cyfrowy dostęp do DoP&C (URL/QR) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
+| Deklarowanie GWP w DoP&C | ❌ Brak hTS | ❌ Brak podstawy prawnej | **Zerowe** |
+| Cyfrowy Paszport Produktu (DPP) | ❌ Brak hTS + brak aktów KE | ❌ Brak systemu DPP | **Zerowe** |
+
+> **Dlaczego za DPP nie ma dziś żadnych kar?** KE nie opublikowała jeszcze ani aktów wykonawczych z formatem DPP, ani nie uruchomiła rejestru DPP (planowany do 19 lipca 2026 r.). Nie można nałożyć kary za niespełnienie wymagań, których infrastruktura techniczna i prawna w ogóle nie istnieje.
+
+*Producenci powinni śledzić komunikaty [GUNB](https://www.gunb.gov.pl) i Dziennik Urzędowy UE — sytuacja zmieni się po uchwaleniu NUWB i opublikowaniu aktów wykonawczych KE.*
 
 ## Co DPP będzie zawierał?
 
@@ -134,7 +162,11 @@ DPP zmienia sposób w jaki informacje o wyrobach budowlanych przepływają przez
 
 ## Podsumowanie
 
-Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku, ale jego wdrożenie to kwestia 2–3 lat. Europejski system DPP jest budowany przez KE, pierwsze akty delegowane wskazujące kategorie priorytetowe oczekiwane są w 2027. Producenci, którzy teraz ustandaryzują swoje dane i wdrożą cyfrową dostępność DoP&C, będą gotowi na DPP bez rewolucji w ostatniej chwili.
+Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku dla żadnego polskiego producenta — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE precyzujących system DPP. Kary za DPP są dziś niemożliwe, bo nie istnieje ani rejestr, ani format danych, ani podstawa prawna wymagania DPP.
+
+Europejski system DPP jest budowany przez KE — pierwsze akty delegowane wskazujące kategorie priorytetowe oczekiwane są w 2027 r. W Polsce trwa jednocześnie uchwalanie Nowej Ustawy o Wyrobach Budowlanych (NUWB), która zaktualizuje stawki kar i mechanizmy nadzoru GUNB.
+
+Producenci, którzy teraz ustandaryzują dane i wdrożą cyfrową dostępność DoP&C (już obowiązkową od 2026), będą gotowi na DPP bez rewolucji w ostatniej chwili.
 
 ---
 
@@ -142,3 +174,5 @@ Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku, ale jego wdrożenie
 - Rozporządzenie (UE) 2024/3110 Art. 25 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - DG GROW — Digital Product Passport w sektorze budowlanym — [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)
+- GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gunb.gov.pl](https://www.gunb.gov.pl)
+- Projekt Nowej Ustawy o Wyrobach Budowlanych (NUWB) — opublikowany 21.10.2025, Ministerstwo Finansów i Gospodarki
