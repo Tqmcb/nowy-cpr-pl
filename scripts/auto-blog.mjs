@@ -134,14 +134,32 @@ Zamiast tego używaj: "certyfikacja", "ocena zgodności", "przegląd dokumentacj
 ${existingTitles.map(t => `• ${t}`).join('\n')}
 
 ═══ ZADANIE ═══
-1. Użyj wyszukiwania Google, żeby znaleźć NOWY temat z ostatnich 4 tygodni związany z:
-   - CPR 2024/3110 (Rozporządzenie o wyrobach budowlanych)
-   - normami zharmonizowanymi EN dla wyrobów budowlanych
-   - Cyfrowym Paszportem Produktu (DPP) w budownictwie
-   - systemem AVCP lub jednostkami notyfikowanymi
-   - rynkiem budowlanym UE i wymaganiami certyfikacyjnymi
+1. Przeszukaj internet (po polsku I po angielsku) w poszukiwaniu NOWEGO tematu
+   z ostatnich 4 tygodni. Szukaj w tych źródłach:
 
-2. Napisz profesjonalny artykuł po POLSKU (minimum 700 słów) w formacie:
+   OFICJALNE ŹRÓDŁA UE:
+   - Komisja Europejska (ec.europa.eu) — komunikaty, decyzje, konsultacje
+   - EUR-Lex (eur-lex.europa.eu) — nowe przepisy, akty delegowane, corrigenda
+   - EOTA (eota.eu) — Europejskie Oceny Techniczne (ETA)
+   - NANDO (nando.nist.gov) — zmiany jednostek notyfikowanych
+   - CEN (cen.eu) — nowe lub zmienione normy EN
+
+   LINKEDIN I BRANŻA:
+   - posty ekspertów CPR/wyrobów budowlanych na LinkedIn
+   - aktualności stowarzyszeń branżowych (np. FIEC, EuroWindowNET, Glass for Europe)
+   - konferencje, webinaria, raporty branżowe
+
+   TEMATY DO PRZESZUKANIA (angielskie zapytania):
+   - "CPR 2024 Construction Products Regulation news"
+   - "Regulation EU 2024/3110 implementation"
+   - "Digital Product Passport construction 2025 2026"
+   - "harmonised standards EN construction products 2025"
+   - "notified bodies construction products update"
+   - "European Commission construction products delegated act"
+
+2. Wybierz JEDEN konkretny, aktualny temat (nie ma w istniejących artykułach powyżej).
+
+3. Napisz profesjonalny artykuł po POLSKU (minimum 700 słów) w formacie:
 
 ---
 title: "TYTUŁ ARTYKUŁU"
@@ -156,10 +174,13 @@ template: "techniczny"
 
 # TYTUŁ ARTYKUŁU
 
-[TREŚĆ W MARKDOWN — min. 700 słów, nagłówki H2/H3, praktyczne informacje]
+[TREŚĆ W MARKDOWN — min. 700 słów, nagłówki H2/H3]
+
+Jeśli temat pochodzi z anglojęzycznego źródła (LinkedIn, KE, EUR-Lex) —
+napisz artykuł po polsku, ale dodaj sekcję "Źródła" na końcu z linkami.
 
 ═══ WAŻNE ═══
-Odpowiedz WYŁĄCZNIE samym artykułem zaczynającym się od ---. Żadnych wstępów, komentarzy ani wyjaśnień przed ani po.
+Odpowiedz WYŁĄCZNIE samym artykułem zaczynającym się od ---. Żadnych wstępów ani komentarzy.
 `.trim();
 
 console.log('🔍 Szukam nowego tematu CPR 2024/3110...');
