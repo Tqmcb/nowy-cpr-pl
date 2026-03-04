@@ -29,13 +29,13 @@ Budownictwo odpowiada za ok. **40% zużycia energii i 36% emisji CO₂** w UE. K
 
 ## Co dokładnie mówi CPR 2024/3110?
 
-Rozporządzenie CPR 2024/3110 reguluje treść Deklaracji Właściwości i Zgodności (DoP&C) w **art. 15**, który bezpośrednio określa, jakie wskaźniki środowiskowe — w tym GWP — muszą być deklarowane. Podstawowe wymagania dotyczące obiektów budowlanych, w tym zrównoważone użytkowanie zasobów naturalnych, zawarte są w **Załączniku I** do CPR 2024. Wskaźniki środowiskowe do obowiązkowego deklarowania wymienione są w **Załączniku II**.
+Rozporządzenie CPR 2024/3110 reguluje treść Deklaracji Właściwości i Zgodności (DoP&C) w **Art. 18–19**, które bezpośrednio określają, jakie wskaźniki środowiskowe — w tym GWP — muszą być deklarowane. Podstawowe wymagania dotyczące obiektów budowlanych, w tym zrównoważone użytkowanie zasobów naturalnych, zawarte są w **Załączniku I** do CPR 2024. Wskaźniki środowiskowe do obowiązkowego deklarowania wymienione są w **Załączniku II**.
 
 Harmonogram wygląda następująco:
 
 | Etap | Termin | Co się dzieje |
 |---|---|---|
-| GWP obowiązkowe dla wyrobów z nową hTS | od 8 stycznia 2026 | Wyroby objęte zaktualizowaną normą zharmonizowaną muszą deklarować wskaźniki GWP (Załącznik II, pkt a–d) w DoP&C |
+| GWP obowiązkowe dla wyrobów z nową hTS | po zakończeniu okresu koegzystencji po publikacji hTS w Dz.U. UE (typowo 12–36 mies. po publikacji) | Wyroby objęte zaktualizowaną normą zharmonizowaną muszą deklarować wskaźniki GWP (Załącznik II, pkt a–d) w DoP&C — **na marzec 2026 żadna nowa hTS z CPR 2024/3110 nie została jeszcze opublikowana** |
 | Pełna lista wskaźników środowiskowych | 9 stycznia 2030 | Wszystkie podstawowe wskaźniki z Załącznika II (pkt e–m) |
 | Pełne raportowanie cyklu życia | 9 stycznia 2032 | Wszystkie wskaźniki z Załącznika II obowiązkowe |
 
@@ -79,7 +79,7 @@ Obliczenia LCA (Life Cycle Assessment) muszą być zgodne z normą **EN 15804+A2
 
 - instytuty badawcze (ITB, ICiMB)
 - wyspecjalizowane firmy konsultingowe ds. zrównoważonego budownictwa
-- platformy cyfrowe (One Click LCA, SimaPro z polskim wsparciem)
+- platformy cyfrowe (SimaPro, OpenLCA, GaBi z bazami danych ekoinwentaryzacji)
 
 Koszt obliczeń LCA dla typowego wyrobu budowlanego: **3 000–15 000 PLN** w zależności od złożoności.
 
@@ -129,12 +129,12 @@ KE planuje europejski rejestr EPD/DPP, który umożliwi porównywanie wyrobów p
 
 ## Podsumowanie
 
-GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowiązek deklarowania wskaźników GWP (Załącznik II, pkt a–d) obowiązuje od 8 stycznia 2026 r. dla wyrobów objętych zaktualizowanymi normami zharmonizowanymi, a pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do 9 stycznia 2032 r. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
+GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowiązek deklarowania wskaźników GWP (Załącznik II, pkt a–d) aktywuje się dla każdej rodziny wyrobów **po zakończeniu okresu koegzystencji następującego po publikacji zaktualizowanej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE** (zazwyczaj 12–36 miesięcy od publikacji hTS) — nie ma jednej globalnej daty dla wszystkich wyrobów. Na dzień publikacji tego artykułu (marzec 2026) żadna nowa hTS wynikająca z CPR 2024/3110 nie została jeszcze opublikowana. Pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do 9 stycznia 2032 r. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
 
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 art. 15 (treść DoP&C) i Załącznik II (wskaźniki środowiskowe) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110 Art. 18–19 (treść DoP&C) i Załącznik II (wskaźniki środowiskowe) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Norma EN 15804+A2:2019 — podstawa obliczeń LCA dla wyrobów budowlanych
-- One Click LCA — [przewodnik po CPR i EPD](https://oneclicklca.com/en/resources/articles/revised-construction-products-regulation-to-include-epd-data)
 - Europejski Zielony Ład i budownictwo — [ec.europa.eu](https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_pl)
+- DG GROW — materiały budowlane i CPR — [ec.europa.eu](https://single-market-economy.ec.europa.eu/sectors/construction_en)

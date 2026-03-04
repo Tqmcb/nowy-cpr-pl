@@ -11,7 +11,7 @@ template: "techniczny"
 
 # CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych
 
-Wraz z wejściem w życie Rozporządzenia CPR 2024/3110 deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym wskaźnika GWP (Global Warming Potential) — staje się obowiązkiem, a nie opcją. Kluczowym narzędziem do spełnienia tego wymogu jest Deklaracja Środowiskowa Produktu (EPD), która musi być oparta na rzetelnie przeprowadzonej analizie LCA (Life Cycle Assessment). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules**.
+CPR 2024/3110 przewiduje, że deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym wskaźnika GWP (Global Warming Potential) — stanie się obowiązkiem. Obowiązek aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (zazwyczaj 12–36 miesięcy) następującego po publikacji nowej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE — na marzec 2026 żadna taka norma nie została jeszcze opublikowana. Kluczowym narzędziem do spełnienia tego wymogu jest Deklaracja Środowiskowa Produktu (EPD), która musi być oparta na rzetelnie przeprowadzonej analizie LCA (Life Cycle Assessment). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules**.
 
 ## Czym są CPCR?
 
@@ -80,7 +80,7 @@ CPCR określa, jakie dane **pierwotne (primary data)** producent musi zebrać sa
 
 ## CPCR a obowiązek deklaracji GWP w CPR 2024/3110
 
-Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do deklarowania wskaźnika **GWP-total (Global Warming Potential)** jako obowiązkowej właściwości użytkowej. Termin wdrożenia jest uzależniony od harmonogramu aktów delegowanych, ale dla wyrobów z normami zharmonizowanymi przewiduje się lata **2027–2030**.
+Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do deklarowania wskaźnika **GWP-total (Global Warming Potential)** jako obowiązkowej właściwości użytkowej. Obowiązek aktywuje się dla danej rodziny wyrobów dopiero po zakończeniu okresu koegzystencji po publikacji nowej normy zharmonizowanej (hTS) w Dz.U. UE — dla poszczególnych rodzin wyrobów przewiduje się lata **2027–2030** (z uwzględnieniem 12–36 mies. okresu koegzystencji), choć żadna hTS nie została jeszcze opublikowana (stan: marzec 2026).
 
 **EPD oparta na CPCR** jest uznawana jako referencyjny dokument do wykazania tej właściwości. Bez prawidłowego CPCR:
 - EPD może zostać odrzucona przez weryfikatora
@@ -129,7 +129,7 @@ W każdym przypadku wybór i uzasadnienie PCR muszą być udokumentowane w rapor
 
 ## Podsumowanie
 
-CPCR to kluczowy element normatywny, bez którego poprawna EPD dla wyrobu budowlanego nie jest możliwa. Ich znaczenie rośnie wprost proporcjonalnie do zaostrzania wymagań środowiskowych CPR 2024/3110. Producenci planujący deklarowanie GWP — a od 2027 roku będą musieli — powinni już teraz zidentyfikować właściwy CPCR dla swoich wyrobów i uwzględnić go w harmonogramie przygotowania do certyfikacji.
+CPCR to kluczowy element normatywny, bez którego poprawna EPD dla wyrobu budowlanego nie jest możliwa. Ich znaczenie rośnie wprost proporcjonalnie do zaostrzania wymagań środowiskowych CPR 2024/3110. Producenci planujący deklarowanie GWP — a gdy dla ich wyrobów wejdzie w życie nowa hTS, będą musieli — powinni już teraz zidentyfikować właściwy CPCR dla swoich wyrobów i uwzględnić go w harmonogramie przygotowania do certyfikacji.
 
 ---
 

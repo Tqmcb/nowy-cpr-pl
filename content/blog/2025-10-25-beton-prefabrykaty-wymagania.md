@@ -73,7 +73,7 @@ Beton towarowy produkowany na terenie UE musi spełniać wymagania normy EN 206 
 
 Nowe rozporządzenie wprowadza dodatkowe wymogi dotyczące:
 
-1. **Deklarowania wskaźników środowiskowych** (GWP, ODP) – obowiązkowe od 2027
+1. **Deklarowania wskaźników środowiskowych** (GWP, ODP) – obowiązkowe po zakończeniu okresu koegzystencji (12–36 mies.) po publikacji nowej normy zharmonizowanej (hTS) dla betonu w Dz.U. UE (publikacja hTS przewidywana ok. 2027–2028, obowiązek ok. 2028–2030)
 2. **Informacji o składnikach** (cement, kruszywa, domieszki) w paszporcie produktu
 3. **Współczynnika cyrkulacyjności** – zawartość materiałów z recyclingu
 

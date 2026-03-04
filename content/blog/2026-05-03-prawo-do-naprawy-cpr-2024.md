@@ -120,7 +120,7 @@ Przy projektowaniu nowych wyrobów lub aktualizacji istniejących uwzględnij:
 |---|---|
 | 8 stycznia 2026 | CPR 2024/3110 w pełni obowiązuje — deklarowanie właściwości środowiskowych w systemach 3+ |
 | 2026–2027 | Komisja KE opracowuje akty delegowane ESPR dla wyrobów budowlanych |
-| 2027 | GWP (ślad węglowy) obowiązkowy w wybranych systemach AVS |
+| 2027–2032 | GWP (ślad węglowy) obowiązkowy po zakończeniu okresu koegzystencji (12–36 mies.) po publikacji nowej hTS dla danych rodzin wyrobów w Dz.U. UE |
 | 2028–2030 | Spodziewane akty delegowane ESPR z wymaganiami trwałości i naprawialności |
 
 ## Podsumowanie — dlaczego warto działać już teraz?

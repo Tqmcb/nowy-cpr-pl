@@ -23,12 +23,14 @@ Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dac
 
 ## Co mówi CPR 2024/3110 o DPP?
 
-Rozporządzenie CPR 2024/3110 wprowadza DPP w art. 75–80. Kluczowe postanowienia:
+Rozporządzenie CPR 2024/3110 wprowadza DPP w **Art. 25**. Kluczowe postanowienia:
 
-1. **KE stworzy europejski system DPP dla wyrobów budowlanych** — centralny rejestr dostępny dla wszystkich uczestników rynku (art. 75)
-2. **DPP będzie obowiązkowy dla kategorii priorytetowych** — wskazanych przez KE w aktach delegowanych (art. 76)
-3. **Termin obowiązku: 18 miesięcy po uruchomieniu systemu** — co oznacza, że data obowiązku zależy od KE, nie od kalendarza (art. 77)
-4. **DPP ma być przechowywany co najmniej przez czas życia wyrobu + 10 lat** — nawet po likwidacji firmy (art. 79)
+1. **KE przyjmie akty wykonawcze określające zakres DPP** — które grupy wyrobów, jakie dane, jaki format, jakie terminy (Art. 25 ust. 2)
+2. **DPP będzie obowiązkowy dopiero po upływie okresu koegzystencji po opublikowaniu nowej normy zharmonizowanej (hTS)** dla danej rodziny wyrobów ORAZ po wydaniu odpowiednich aktów wykonawczych KE
+3. **Rejestr DPP prowadzony przez KE** — KE zobowiązana do uruchomienia do 19 lipca 2026 r.
+4. **Zasady dla dostawców usług DPP** — określone w osobnym akcie delegowanym KE
+
+> **Kluczowy mechanizm:** DPP staje się obowiązkowy dopiero gdy: (1) CEN opublikuje nową normę zharmonizowaną (hTS) dla danej rodziny wyrobów w Dz.U. UE, (2) upłynie okres koegzystencji (zazwyczaj 12–36 mies.) i stara norma zostanie wycofana, ORAZ (3) KE wyda akty wykonawcze z technicznymi wymaganiami systemu DPP. Na marzec 2026 żadne z tych warunków nie zostało spełnione.
 
 ## Kiedy DPP stanie się obowiązkowy?
 
@@ -36,12 +38,12 @@ To pytanie, które zadają wszyscy producenci. Odpowiedź jest złożona:
 
 | Etap | Termin | Co się dzieje |
 |---|---|---|
-| Uruchomienie systemu przez KE | Planowane 2026–2027 | KE buduje europejski rejestr DPP |
-| Pierwsze akty delegowane KE wskazujące kategorie | 2027 | KE ogłasza które rodziny wyrobów pierwsze |
-| DPP obowiązkowy dla rodzin priorytetowych | 18 miesięcy po ogłoszeniu | Pierwsze wyroby: ok. 2028–2029 |
-| Plan wdrożenia 2026–2029 (Working Plan KE) | Grudzień 2025 opublikowany | Harmonogram widoczny w dokumencie |
+| Uruchomienie rejestru DPP przez KE | Planowane do 19 lipca 2026 | KE buduje europejski rejestr DPP |
+| Publikacja aktów wykonawczych KE (Art. 25) | Brak ustalonego terminu | Określenie formatu, danych, terminów dla poszczególnych grup wyrobów |
+| Publikacja nowych hTS przez CEN w Dz.U. UE + upływ okresu koegzystencji (12–36 mies.) | Dla każdej rodziny wyrobów oddzielnie | **Bez wycofania starej hTS DPP nie jest obowiązkowy** — sama publikacja hTS nie wystarczy |
+| DPP obowiązkowy | Po spełnieniu obu warunków: hTS + akty KE | Pierwsze wyroby: ok. 2028–2029 (orientacyjnie) |
 
-**Wniosek praktyczny:** w 2026 roku DPP **nie jest jeszcze obowiązkowy** dla żadnego wyrobu budowlanego. Ale architektura systemu, dane, które będzie trzeba dostarczyć, oraz techniczny format są już określone. Przygotowanie danych teraz to inwestycja, nie strata czasu.
+**Wniosek praktyczny:** w 2026 roku DPP **nie jest jeszcze obowiązkowy** dla żadnego wyrobu budowlanego — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE określających techniczne wymagania DPP. Przygotowanie infrastruktury danych teraz to inwestycja, nie strata czasu.
 
 ## Co DPP będzie zawierał?
 
@@ -88,7 +90,7 @@ Ważne: producent **nie musi sam budować serwera** dla swojego DPP. Będzie mó
 
 ## Co CPR 2024 mówi o QR kodzie już dziś?
 
-Choć DPP nie jest jeszcze obowiązkowy, CPR 2024/3110 już teraz (od 8 stycznia 2026) wymaga, by **DoP&C była dostępna cyfrowo** — przez URL lub QR kod na wyrobie/opakowaniu (art. 7 ust. 3).
+Choć DPP nie jest jeszcze obowiązkowy, CPR 2024/3110 już teraz (od 8 stycznia 2026) wymaga, by **DoP&C była dostępna cyfrowo** — przez URL lub QR kod na wyrobie/opakowaniu (Art. 18 ust. 3).
 
 To jest **poprzedniczka DPP** — jeśli teraz wdrożysz cyfrową dostępność DoP&C przez QR kod, zbudujesz fundament pod przyszły DPP. Techniczne przygotowanie jest bardzo podobne.
 
@@ -137,7 +139,6 @@ Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku, ale jego wdrożenie
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 art. 75–80 — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
-- Studium wykonalności KE dot. DPP w budownictwie — [Publications Office of the EU](https://op.europa.eu/en/publication-detail/-/publication/cf329d5e-3464-11f0-8a44-01aa75ed71a1/language-en)
-- Cobuilder — DPP dla wyrobów budowlanych — [cobuilder.com](https://cobuilder.com/en/digital-product-passport-dpp/)
+- Rozporządzenie (UE) 2024/3110 Art. 25 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- DG GROW — Digital Product Passport w sektorze budowlanym — [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)

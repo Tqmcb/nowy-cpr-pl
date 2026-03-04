@@ -39,7 +39,7 @@ Trzy główne czynniki napędzają prace nad kolejną rewizją:
 
 ### 1. Nowe wymagania CPR 2024/3110
 
-Rozporządzenie CPR 2024/3110 wprowadziło do europejskiego prawa budowlanego **obowiązkową deklarację wskaźnika GWP** (Global Warming Potential) dla szerokiej grupy wyrobów. Jednocześnie nowy **system AVS 3+** (*AVCP zrównoważoność środowiskowa*) wymaga, by EPD były sporządzane i weryfikowane według aktualnych zasad EN 15804.
+Rozporządzenie CPR 2024/3110 przewiduje **obowiązkową deklarację wskaźnika GWP** (Global Warming Potential) dla wyrobów budowlanych objętych nowymi normami zharmonizowanymi (hTS) — obowiązek aktywuje się po zakończeniu okresu koegzystencji (typowo 12–36 mies.) po publikacji zaktualizowanej hTS dla danej rodziny wyrobów w Dz.U. UE (na marzec 2026 żadna hTS nie opublikowana). Jednocześnie nowy **system AVS 3+** (*AVCP zrównoważoność środowiskowa*) wymaga, by EPD były sporządzane i weryfikowane według aktualnych zasad EN 15804.
 
 To stworzyło konieczność doprecyzowania normy w zakresie:
 - minimalnych wymagań dla EPD używanych w AVS 3+,
