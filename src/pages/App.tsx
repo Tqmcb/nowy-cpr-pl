@@ -234,64 +234,27 @@ function HomePage() {
               </p>
             </div>
 
-            {/* Status wymagań CPR 2024 — co obowiązuje teraz, a co czeka na hTS */}
-            <div className="glass-card overflow-hidden mb-16">
+            {/* Status wymagań CPR 2024 — kluczowa informacja */}
+            <div className="glass-card overflow-hidden mb-16 border-l-4 border-blue-500/60">
               <div className="px-6 py-4 bg-slate-800/60 border-b border-white/10 flex items-center gap-2">
                 <Info className="w-4 h-4 text-blue-400 flex-shrink-0" />
                 <span className="text-sm font-semibold text-white">
-                  Status wymagań CPR 2024/3110 — {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
+                  Co obowiązuje teraz — status {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
                 </span>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2">
-                {/* Lewa kolumna — obowiązuje od 8.01.2026 */}
-                <div className="p-6 md:border-r border-b md:border-b-0 border-white/10">
-                  <div className="flex items-center gap-2 mb-4">
-                    <div className="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    </div>
-                    <span className="text-emerald-400 font-semibold text-sm">Obowiązuje od 8 stycznia 2026</span>
-                  </div>
-                  <ul className="space-y-2.5">
-                    {[
-                      "Oznakowanie CE według nowych zasad CPR 2024",
-                      "DoP&C dostępna online (link/PDF na stronie producenta)",
-                      "Unikalny kod produktu (UPC) w dokumentacji wyrobu",
-                      "Nowa terminologia: DoP&C, system AVS zamiast AVCP",
-                    ].map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                {/* Prawa kolumna — czeka na hTS */}
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-4">
-                    <div className="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-4 h-4 text-amber-400" />
-                    </div>
-                    <span className="text-amber-400 font-semibold text-sm">Wymaga nowych norm zharmonizowanych (hTS)</span>
-                  </div>
-                  <ul className="space-y-2.5">
-                    {[
-                      "Deklaracja GWP (ślad węglowy) i wskaźników środowiskowych w DoP&C",
-                      "Cyfrowy Paszport Produktu (DPP)",
-                      "Obowiązkowy system AVS 3+ (walidacja EPD)",
-                      "Obowiązkowy format XML dla DoP&C / QR kod na etykiecie CE",
-                    ].map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-slate-400">
-                        <Clock className="w-3.5 h-3.5 text-amber-400 mt-0.5 flex-shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="mt-4 text-xs text-slate-500 border-t border-white/5 pt-4">
-                    Na marzec 2026 żadna nowa hTS z CPR 2024/3110 nie została opublikowana w Dz.U. UE.
-                    Po publikacji hTS obowiązuje jeszcze 12–36 mies. okresu koegzystencji — dopiero
-                    po jego zakończeniu GWP, DPP i AVS 3+ stają się obowiązkowe dla danej grupy wyrobów.
-                  </p>
-                </div>
+              <div className="p-6 md:p-8">
+                <p className="text-slate-200 leading-relaxed text-base md:text-lg">
+                  <span className="font-semibold text-white">CPR 2024 obowiązuje od 8 stycznia 2026</span>,
+                  ale <span className="font-semibold text-amber-400">GWP, EPD i paszport produktu (DPP) jeszcze nie są obowiązkowe</span> — i nie będą
+                  dla nikogo w tym samym momencie. Obowiązek wchodzi <span className="font-semibold text-white">oddzielnie dla każdej grupy wyrobów</span>,
+                  dopiero gdy CEN opublikuje nową normę zharmonizowaną (hTS) w Dzienniku Urzędowym UE — a po publikacji
+                  jest jeszcze <span className="font-semibold text-white">12–36 miesięcy okresu przejściowego</span>.
+                </p>
+                <p className="mt-4 text-slate-300 leading-relaxed text-base md:text-lg">
+                  Na dziś <span className="font-semibold text-amber-400">żadna nowa hTS nie wyszła</span>.
+                  Pierwsze spodziewane są najwcześniej 2026–2027, więc
+                  realny obowiązek dla większości wyrobów to <span className="font-semibold text-white">2028–2029</span>.
+                </p>
               </div>
             </div>
 
