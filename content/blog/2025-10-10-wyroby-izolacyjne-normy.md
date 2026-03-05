@@ -77,7 +77,7 @@ Każdy wyrób izolacyjny z oznakowaniem CE musi posiadać:
 
 ## CPR 2024 – nowe wymogi dla izolacji
 
-Od 2027 roku wyroby izolacyjne będą musiały deklarować:
+Po wejściu w życie zaktualizowanych norm zharmonizowanych (hTS) dla wyrobów izolacyjnych — publikacja przewidywana ok. 2026–2027 w Dz.U. UE, po zakończeniu okresu koegzystencji (ok. 12–24 mies.) — wyroby izolacyjne będą musiały deklarować:
 
 - **GWP (Global Warming Potential)** – potencjał globalnego ocieplenia
 - **ODP (Ozone Depletion Potential)** – niszczenie warstwy ozonowej

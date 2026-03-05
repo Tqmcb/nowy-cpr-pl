@@ -67,7 +67,7 @@ W sektorze budowlanym własne deklaracje tego typu proliferowały szczególnie w
 
 ## Charakterystyki środowiskowe w DoP&C — integracja CPR 2024
 
-Największa zmiana systemowa przyniesiona przez CPR 2024/3110 polega na tym, że **właściwości środowiskowe wyrobu budowlanego stają się deklarowanymi charakterystykami użytkowymi** zawartymi w Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C). To fundamentalne przesunięcie — charakterystyki środowiskowe przestają być dobrowolnymi dodatkami, a stają się częścią oficjalnego systemu certyfikacji CE.
+Największa zmiana systemowa przyniesiona przez CPR 2024/3110 polega na tym, że **właściwości środowiskowe wyrobu budowlanego stają się deklarowanymi charakterystykami użytkowymi** zawartymi w Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C). To fundamentalne przesunięcie — docelowo charakterystyki środowiskowe przestają być dobrowolnymi dodatkami, a stają się częścią oficjalnego systemu certyfikacji CE; obowiązek ten aktywuje się dla każdej grupy wyrobów osobno, po opublikowaniu nowej normy zharmonizowanej (hTS) i zakończeniu okresu koegzystencji (zazwyczaj 12–36 mies.).
 
 DoP&C zawiera lub będzie zawierała (w zależności od grupy wyrobów i etapu wdrożenia CPR 2024):
 - Deklarowane wartości GWP (z podziałem na moduły cyklu życia),
@@ -75,7 +75,7 @@ DoP&C zawiera lub będzie zawierała (w zależności od grupy wyrobów i etapu w
 - Informacje o zawartości substancji niebezpiecznych (REACH, lista SCIP),
 - Dane dotyczące możliwości recyklingu i trwałości.
 
-Dane te muszą być oparte na EPD zweryfikowanej w systemie AVS 3+ (dla charakterystyk wymagających weryfikacji przez stronę trzecią) lub na samodzielnej deklaracji producenta (dla charakterystyk w systemie AVS 4). Falsyfikowanie lub zawyżanie wartości środowiskowych w DoP&C stanowi naruszenie prawa UE i podlega sankcjom.
+Dane te muszą być oparte na EPD zweryfikowanej w systemie AVS 3+ (dla charakterystyk wymagających weryfikacji przez stronę trzecią) lub na samodzielnej deklaracji producenta (dla charakterystyk w systemie AVS 4) — wymaganie to stanie się wiążące dla danej grupy wyrobów po opublikowaniu właściwej hTS i zakończeniu okresu koegzystencji. Na marzec 2026 żadna nowa hTS z CPR 2024/3110 nie została jeszcze opublikowana. Falsyfikowanie lub zawyżanie wartości środowiskowych w DoP&C stanowi naruszenie prawa UE i podlega sankcjom.
 
 ## Green Claims Directive — walka z greenwashingiem
 
