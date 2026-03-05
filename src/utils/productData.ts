@@ -32,7 +32,7 @@ const placeholderRequirements: ProductRequirement = {
     "Deklaracja właściwości użytkowych (DoP)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (nowy z CPR 2024)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
   ],
   cprChanges: [
     "Cyfryzacja dokumentacji i oznaczeń",
@@ -68,12 +68,12 @@ const plumbingRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i eksploatacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Certyfikat systemu oceny dla wyrobów mających kontakt z wodą pitną (EAS)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zharmonizowane europejskie standardy dla wyrobów kontaktujących się z wodą pitną (schemat EAS)",
     "Standardy dotyczące zawartości materiałów z recyklingu (min. 25% dla tworzyw sztucznych do 2030)",
     "Ograniczenie stosowania ołowiu i innych metali ciężkich w armaturze i rurociągach",
@@ -110,12 +110,12 @@ const ceilingRequirement: ProductRequirement = {
     "Instrukcja montażu i konserwacji",
     "Raporty z badań ogniowych",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Certyfikaty jakości powietrza wewnętrznego (np. Eurofins, Indoor Air Comfort)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów emisji lotnych związków organicznych (LZO)",
     "Standardy dotyczące zawartości materiałów z recyklingu (min. 20% do 2030)",
     "Wymogi dotyczące możliwości rozbioru systemu i recyclingu po zakończeniu użytkowania",
@@ -152,12 +152,12 @@ const steelRequirement: ProductRequirement = {
     "Certyfikaty spawaczy i procedury spawalnicze (WPQR, WPS)",
     "Plan kontroli jakości",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Ślad węglowy dla wyrobów stalowych wg ISO 14067"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące śladu węglowego i raportowania emisji CO2",
     "Standardy produkcji stali niskoemisyjnej (zielona stal)",
     "Wymagania dotyczące recyklingu i zawartości złomu stalowego",
@@ -194,12 +194,12 @@ const concreteMortarRequirement: ProductRequirement = {
     "Instrukcja stosowania i przechowywania",
     "Karta charakterystyki (dla domieszek chemicznych) zgodna z REACH",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Raporty z badań emisji substancji niebezpiecznych"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące zawartości materiałów z recyklingu (min. 15% do 2030)",
     "Ograniczenie stosowania cementów wysokoemisyjnych (CEM I)",
     "Wymogi dotyczące stosowania spoiw niskoemisyjnych i geopolimerów",
@@ -237,12 +237,12 @@ const doorsWindowsRequirement: ProductRequirement = {
     "Dokumentacja gwarancyjna i serwisowa",
     "Instrukcja montażu, obsługi i konserwacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
   ],
   cprChanges: [
     "Zaostrzenie wymogów izolacyjności termicznej (docelowy Uw ≤ 0,8 W/m²K do 2030)",
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące możliwości naprawy i wymiany komponentów",
     "Standardy dotyczące trwałości i gwarancji (min. 10 lat)",
     "Wytyczne dla zrównoważonego pozyskiwania surowców i możliwości recyklingu",
@@ -278,12 +278,12 @@ const roadConstructionRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Dokumentacja gwarancyjna",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Plan jakości dla kontraktu drogowego"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi redukcji emisji CO2 w procesie produkcji mieszanek asfaltowych",
     "Promowanie asfaltów niskotemperaturowych i na zimno",
     "Standardy dotyczące stosowania materiałów z recyklingu (w tym destruktu asfaltowego)",
@@ -320,12 +320,12 @@ const flooringRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i konserwacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Klasyfikacja użytkowa wg EN ISO 10874 (dawniej EN 685)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów emisji lotnych związków organicznych (LZO) i formaldehydu",
     "Ograniczenia dla stosowania ftalanowów w podłogach elastycznych",
     "Wymogi dotyczące zawartości materiałów z recyklingu",
@@ -362,12 +362,12 @@ const structuralTimberRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Dokumentacja obliczeń konstrukcyjnych",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Certyfikat legalnego pochodzenia drewna (PEFC, FSC lub równoważny)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowa certyfikacja zrównoważonego gospodarowania leśnego (PEFC, FSC)",
     "Nowe wymagania dotyczące trwałości konstrukcyjnej w kontekście zmian klimatu",
     "Nowe wymagania dla środków ochrony drewna (ograniczenie substancji biobójczych)",
@@ -404,12 +404,12 @@ const woodPanelsRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Klasyfikacja emisji formaldehydu (E1, E0.5, E0, NAF)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Certyfikat legalnego pochodzenia drewna (PEFC, FSC lub równoważny)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Dalsze zaostrzenie wymogów dotyczących emisji formaldehydu (klasa emisji E0 lub NAF)",
     "Wymogi dotyczące zrównoważonego pozyskiwania drewna (obowiązkowa certyfikacja)",
     "Standardy dotyczące zawartości materiałów z recyklingu (min. 30% do 2030 r.)",
@@ -446,12 +446,12 @@ const thermalInsulationRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i stosowania",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Karta charakterystyki wg rozporządzenia REACH (dla produktów zawierających substancje niebezpieczne)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów dotyczących emisji formaldehydów i innych LZO",
     "Nowe wymagania dotyczące bezhalogenowych środków ognioodpornych",
     "Standardy dotyczące zawartości materiałów z recyklingu lub pochodzenia naturalnego",
@@ -488,12 +488,12 @@ const membranesRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja układania i łączenia",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Karta charakterystyki wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Limit emisji lotnych związków organicznych (LZO) podczas produkcji i instalacji",
     "Nowe wymagania dotyczące bezhalogenowych składników ognioodpornych",
     "Wymogi dotyczące minimalizacji mikroplastików i substancji PFAS",
@@ -530,12 +530,12 @@ const precastConcreteRequirement: ProductRequirement = {
     "Dokumentacja obliczeń konstrukcyjnych",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Instrukcje transportu, składowania i montażu"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące minimalnej zawartości materiałów z recyklingu",
     "Raportowanie śladu węglowego w całym cyklu produkcyjnym",
     "Limity zawartości cementów wysokoemisyjnych",
@@ -571,13 +571,13 @@ const masonryRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Informacja o zawartości substancji niebezpiecznych",
     "Procedura utylizacji, ponownego użycia lub recyklingu"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe standardy dotyczące recyklingu i ponownego użycia elementów murowych",
     "Limity emisji CO2 podczas produkcji",
     "Wymogi dotyczące współczynnika przewodzenia ciepła (lambda)",
@@ -624,13 +624,13 @@ const glassRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Instrukcja montażu, użytkowania i konserwacji",
     "Raport emisji w procesie produkcji"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone wymagania dla szkła bezpiecznego w zastosowaniach publicznych",
     "Nowe standardy dotyczące recyklingu odpadów szklanych",
     "Wymogi dotyczące minimalnej energooszczędności (współczynnik U)",
@@ -666,13 +666,13 @@ const gypsumRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Instrukcja montażu i użytkowania",
     "Karta charakterystyki wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone wymagania dotyczące odporności ogniowej systemów gipsowych",
     "Nowe standardy dotyczące recyklingu odpadów gipsowych",
     "Wymogi dotyczące minimalnego udziału gipsu z recyklingu",
@@ -708,13 +708,13 @@ const ceramicRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Instrukcja montażu i użytkowania",
     "Raport emisji w procesie produkcji i wypalania"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące raportowania zużycia energii podczas procesu wypalania",
     "Limity emisji CO2 podczas produkcji",
     "Nowe standardy dotyczące recyklingu odpadów ceramicznych",
@@ -751,12 +751,12 @@ const asphaltRequirement: ProductRequirement = {
     "Karta charakterystyki wg rozporządzenia REACH",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Raport emisji LZO (lotnych związków organicznych)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone limity emisji LZO podczas produkcji i stosowania",
     "Wymogi dotyczące recyklingu i ponownego wykorzystania materiałów asfaltowych",
     "Ograniczenie zawartości wielopierścieniowych węglowodorów aromatycznych (WWA)",
@@ -792,12 +792,12 @@ const steelRequirement: ProductRequirement = {
     "Certyfikat spawalniczy wg EN 1090 (dla konstrukcji spawanych)",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Certyfikat pochodzenia materiału (nowy wymóg CPR 2024)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Wymogi dotyczące minimalnego udziału materiałów z recyklingu",
     "Certyfikacja niskoemisyjnych procesów produkcji stali",
@@ -833,13 +833,13 @@ const concreteRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Instrukcja montażu i użytkowania",
     "Raport emisji CO2 w cyklu produkcyjnym"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Wymogi dotyczące minimalnego udziału materiałów z recyklingu",
     "Limity zawartości cementów wysokoemisyjnych",
@@ -876,12 +876,12 @@ const cementRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Karta charakterystyki substancji chemicznej (SDS)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Raport emisji CO2 w cyklu produkcyjnym"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Limity emisji CO2 dla poszczególnych typów cementów",
     "Wymogi dotyczące minimalnego udziału materiałów z recyklingu",
@@ -916,12 +916,12 @@ const timberRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Certyfikat legalności pochodzenia drewna (PEFC lub FSC)",
     "Instrukcje dotyczące montażu, użytkowania i konserwacji",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wprowadzenie obowiązkowego certyfikatu legalności pochodzenia drewna (EUTR)",
     "Zaostrzenie limitów emisji formaldehydów z produktów drewnianych",
     "Obowiązkowe informacje o środkach ochrony drewna i ich wpływie na środowisko",
@@ -953,13 +953,13 @@ const adhesivesRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Raport z badań typu",
     "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
     "Instrukcja stosowania z informacją o ograniczeniach użytkowania"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie limitów emisji VOC i innych substancji szkodliwych",
     "Wymogi dotyczące biodegradowalności i zawartości surowców z recyklingu",
     "Nowe standardy oznakowania bezpieczeństwa i informacji dla użytkownika",
@@ -994,11 +994,11 @@ const roofingRequirement: ProductRequirement = {
     "Instrukcja montażu zgodna z wymaganiami producenta",
     "Raport odporności ogniowej i klasyfikacji",
     "Deklaracja środowiskowa produktu (EPD) zgodna z EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów odporności ogniowej dla materiałów dachowych",
     "Nowe kryteria dotyczące emisji substancji niebezpiecznych",
     "Obowiązkowe informacje o możliwości recyklingu i ponownego użycia",
@@ -1030,13 +1030,13 @@ const insulationRequirement: ProductRequirement = {
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
     "Karta techniczna produktu",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
     "Deklaracja środowiskowa produktu (EPD) zgodna z EN 15804+A2",
     "Raport o zawartości substancji niebezpiecznych (SVHC) wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe, bardziej rygorystyczne klasy efektywności energetycznej",
     "Wprowadzenie kryteriów oceny emisji LZO, formaldehydu i innych substancji do powietrza wewnętrznego",
     "Obowiązkowa informacja o możliwości recyklingu i biodegradowalności",
@@ -1068,12 +1068,12 @@ const doorsWindowsRequirement: ProductRequirement = {
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
     "Instrukcja montażu zgodna z wymaganiami producenta",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)",
-    "Deklaracja środowiskowa produktu (EPD) - nowy obowiązkowy element wg CPR 2024"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2 — zalecana (docelowo obowiązkowa po publikacji nowej hTS)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu z pełną historią wyrobów",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktów (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych (pełna historia wyrobów)",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe zharmonizowane wskaźniki efektywności energetycznej",
     "Rozszerzone wymagania dotyczące informacji o zawartości substancji niebezpiecznych",
     "Wprowadzenie kryteriów oceny emisji VOC i innych substancji do powietrza wewnętrznego",
@@ -1104,7 +1104,7 @@ const glassProductsRequirement: ProductRequirement = {
   ],
   cprChanges: [
     "Wprowadzenie cyfrowego paszportu produktu dla wyrobów szklanych",
-    "Obowiązkowa ocena cyklu życia (LCA)",
+    "Ocena cyklu życia (LCA) — docelowo obowiązkowa po publikacji nowej normy zharmonizowanej",
     "Określenie minimalnej zawartości surowców z recyklingu",
     "Raportowanie śladu węglowego w procesie produkcji",
     "Rozszerzone wymagania bezpieczeństwa dla szkła w zastosowaniach specjalnych"
@@ -1124,7 +1124,7 @@ const placeholderRequirements: ProductRequirement = {
   documentationRequired: [
     "Deklaracja właściwości użytkowych (DoP)",
     "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (nowy z CPR 2024)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
   ],
   cprChanges: [
     "Cyfryzacja dokumentacji i oznaczeń",
@@ -1152,11 +1152,11 @@ const placeholderRequirement: ProductRequirement = {
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (wymagany od 2025 w ramach CPR 2024)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
   ],
   cprChanges: [
-    "Wprowadzenie obowiązkowego cyfrowego paszportu produktu",
-    "Obowiązkowa ocena cyklu życia (LCA) i deklaracja środowiskowa produktu (EPD)",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe wymagania dotyczące zawartości materiałów z recyklingu",
     "Zaostrzenie wymogów emisji substancji niebezpiecznych",
     "Wymogi dotyczące możliwości ponownego wykorzystania po zakończeniu cyklu życia"
@@ -1465,7 +1465,7 @@ export const productCategories: ProductCategory[] = [
       cprChanges: [
         "Zaostrzenie kryteriów bezpieczeństwa pożarowego",
         "Wymogi dotyczące biodegradowalności i recyklingu",
-        "Obowiązkowa analiza cyklu życia produktu (LCA)",
+        "Analiza cyklu życia produktu (LCA) — docelowo obowiązkowa po publikacji nowej normy zharmonizowanej",
         "Raportowanie śladu węglowego",
         "Ograniczenia stosowania substancji szkodliwych"
       ],
@@ -1599,7 +1599,7 @@ export const productCategories: ProductCategory[] = [
         "Wymogi dotyczące trwałości i zdolności do recyklingu",
         "Standardy w zakresie emisji substancji niebezpiecznych",
         "Nowe wytyczne dotyczące izolacyjności termicznej",
-        "Cyfrowy paszport produktu wymagany od 2026 roku"
+        "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych"
       ],
       certificationSystems: ["System 3", "System 4", "System 1"]
     }

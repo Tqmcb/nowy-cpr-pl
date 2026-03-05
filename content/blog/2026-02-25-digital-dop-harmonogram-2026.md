@@ -4,7 +4,7 @@ date: "2026-02-25"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["Digital DoP", "DoP&C", "cyfryzacja", "2026", "QR kod"]
-excerpt: "Komisja Europejska doprecyzowała harmonogram wdrożenia cyfrowej deklaracji właściwości. Co jest już obowiązkowe, co dobrowolne, i jakie kroki warto podjąć w 2026 roku?"
+excerpt: "Co w zakresie Digital DoP&C jest już obowiązkowe od 8 stycznia 2026, a co czeka na akty delegowane KE? Wyjaśniamy podział i jakie kroki warto podjąć już teraz."
 image_url: /images/blog/digital-dop-harmonogram-2026.jpg
 template: "techniczny"
 ---

@@ -128,7 +128,7 @@ Jeśli producent planuje inwestycję w pełne LCA/EPD, warto:
 
 ### Planowanie budżetu dla AVS 3+
 
-Jeśli wyrób podlega systemowi AVS 3+ już teraz (na mocy CPR 2024/3110), deklaracja środowiskowa musi spełniać bieżące wymagania EN 15804+A2. Koszty aktualizacji EPD do +A3 powinny być uwzględnione w budżecie R&D na lata 2026–2029.
+Jeśli producent sporządza EPD dobrowolnie lub na potrzeby przetargów (GPP), deklaracja powinna spełniać bieżące wymagania EN 15804+A2. System AVS 3+ stanie się obowiązkowy dopiero po opublikowaniu nowej normy zharmonizowanej (hTS) dla danej grupy wyrobów — na marzec 2026 żadna nowa hTS nie została jeszcze opublikowana. Koszty aktualizacji EPD do +A3 powinny być uwzględnione w budżecie R&D na lata 2026–2029.
 
 ### Deklaracje DPP-ready
 
