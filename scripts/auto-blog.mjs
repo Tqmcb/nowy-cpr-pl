@@ -15,7 +15,7 @@
  * błędne daty wejścia w życie, nieistniejące akty wykonawcze KE.
  */
 
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -144,20 +144,50 @@ async function callGemini(prompt) {
   throw new Error('Wszystkie modele Gemini wyczerpały quota. Sprawdź billing na aistudio.google.com.');
 }
 
-// ── Pexels API ────────────────────────────────────────────────────────────────
+// ── Pollinations.ai — darmowe generowanie obrazków AI ────────────────────────
 
-async function getPexelsImageUrl(query) {
-  if (!PEXELS_API_KEY) return null;
+function buildImagePrompt(title) {
+  // Tłumacz kluczowe słowa na angielski i dodaj kontekst budowlany
+  const map = {
+    'wyrob': 'construction product', 'wyroby': 'construction products',
+    'budowlan': 'construction', 'certyfikacj': 'certification',
+    'oznakowanie': 'CE marking', 'norma': 'technical standard',
+    'deklaracja': 'declaration document', 'paszport': 'digital passport',
+    'kary': 'regulation compliance', 'kontrola': 'quality control inspection',
+    'producent': 'manufacturer factory', 'importer': 'import warehouse',
+    'dystrybutor': 'distribution logistics', 'dokumentacja': 'technical documentation',
+    'izolacj': 'insulation material', 'okna': 'window frame', 'beton': 'concrete',
+    'epd': 'environmental product declaration', 'gwp': 'carbon footprint measurement',
+    'cyfrowy': 'digital technology', 'zrownowazony': 'sustainable green building',
+  };
+  let eng = 'European construction industry building materials regulation';
+  for (const [pl, en] of Object.entries(map)) {
+    if (title.toLowerCase().includes(pl)) eng = `${en}, ${eng}`;
+  }
+  return `${eng}, professional photography, modern architecture, no text, no letters, no words, no captions, no watermark, photorealistic, high quality`;
+}
+
+async function generateAndSaveImage(title, slug) {
+  const imgDir = join(rootDir, 'public', 'images', 'blog');
+  const imgPath = join(imgDir, `${slug}.jpg`);
+  if (existsSync(imgPath)) {
+    console.log(`🖼️  Obraz już istnieje: ${slug}.jpg`);
+    return true;
+  }
+  const prompt = buildImagePrompt(title);
+  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true&model=flux&seed=${Math.floor(Math.random()*9999)}`;
+  console.log(`🎨 Generuję obraz przez Pollinations.ai...`);
   try {
-    const res = await fetch(
-      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=3&orientation=landscape`,
-      { headers: { Authorization: PEXELS_API_KEY } }
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    return data.photos?.[0]?.src?.large2x || null;
-  } catch {
-    return null;
+    const res = await fetch(url);
+    if (!res.ok) { console.log(`⚠️  Pollinations błąd ${res.status}`); return false; }
+    const buf = Buffer.from(await res.arrayBuffer());
+    mkdirSync(imgDir, { recursive: true });
+    writeFileSync(imgPath, buf);
+    console.log(`✅ Obraz zapisany: public/images/blog/${slug}.jpg`);
+    return true;
+  } catch (e) {
+    console.log(`⚠️  Błąd generowania obrazu: ${e.message}`);
+    return false;
   }
 }
 
@@ -272,11 +302,8 @@ if (existsSync(filepath)) {
   process.exit(0);
 }
 
-// Opcjonalnie: pobierz URL zdjęcia z Pexels (tylko logujemy — obraz nie jest embedowany)
-if (PEXELS_API_KEY) {
-  const imgUrl = await getPexelsImageUrl(`construction building certification ${imgSlug}`);
-  if (imgUrl) console.log(`🖼️  Pexels foto: ${imgUrl}`);
-}
+// Generuj i zapisz obraz przez Pollinations.ai (darmowe, bez klucza API)
+await generateAndSaveImage(title, imgSlug);
 
 writeFileSync(filepath, articleContent, 'utf-8');
 
