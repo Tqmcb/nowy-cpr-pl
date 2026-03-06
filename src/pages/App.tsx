@@ -104,12 +104,13 @@ function HomePage() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                   <span className="text-white">Nowe </span>
                   <span className="gradient-text">Rozporządzenie CPR</span>
-                  <span className="text-white"> – Jesteś gotowy?</span>
+                  <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed max-w-xl">
-                  Rozporządzenie CPR (EU) 2024/3110 stosuje się od 8 stycznia 2026.
-                  Sprawdź aktualne wymagania dla Twoich produktów budowlanych i uniknij kar.
+                  CPR (EU) 2024/3110 stosuje się od 8 stycznia 2026. Większość nowych wymogów
+                  (GWP, DPP, EPD) wymaga jeszcze nowych norm zharmonizowanych —
+                  sprawdź harmonogram dla swojej branży.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -136,7 +137,7 @@ function HomePage() {
                   {[
                     { value: "2026", label: "Rok stosowania", icon: Calendar },
                     { value: "27", label: "Krajów UE", icon: Users },
-                    { value: "100%", label: "Cyfryzacja DoP", icon: TrendingUp }
+                    { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
                   ].map((stat, idx) => (
                     <div key={idx} className="text-center">
                       <stat.icon className="w-5 h-5 mx-auto mb-2 text-slate-500" />
