@@ -50,18 +50,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-  <url>
-    <loc>https://www.nowycpr.pl/polityka-prywatnosci</loc>
-    <lastmod>2026-02-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.nowycpr.pl/regulamin</loc>
-    <lastmod>2026-02-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  <!-- polityka-prywatnosci i regulamin mają noindex — celowo poza sitemapą -->
   <url>
     <loc>https://www.nowycpr.pl/dostepnosc</loc>
     <lastmod>2026-02-26</lastmod>
@@ -307,6 +296,78 @@
   <url>
     <loc>https://www.nowycpr.pl/blog/2026-04-24-nowe-normy-zharmonizowane-2026-2028</loc>
     <lastmod>2026-04-24</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-04-27-dystrybutor-cpr-2024</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-04-30-dokumentacja-techniczna-cpr-2024</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-03-prawo-do-naprawy-cpr-2024</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-06-druk-3d-cpr-2024</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-09-upowazniiony-przedstawiciel-cpr-2024</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-12-procedury-oceny-zgodnosci-cpr-2024</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-15-ead-europejski-dokument-oceny-cpr-2024</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-18-wyjatki-od-ce-cpr-2024</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-21-wycofanie-produktu-cpr-2024</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-05-24-adco-rapex-cpr-2024</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-03-05-cpcr-complementary-product-category-rules-lca</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/2026-03-06-en-15804-a3-rewizja-normy-epd-budownictwo</loc>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>
