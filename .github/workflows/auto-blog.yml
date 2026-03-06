@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   generate:
@@ -28,15 +29,60 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
 
-      - name: Commit and push new post (if generated)
+      - name: Create Pull Request with review
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add content/blog/ public/images/blog/
+
           if git diff --staged --quiet; then
             echo "ℹ️ Brak nowych postów do dodania"
-          else
-            git commit -m "🤖 Auto blog: $(date +%Y-%m-%d)"
-            git push
-            echo "✅ Nowy post opublikowany i deployment uruchomiony"
+            exit 0
           fi
+
+          # Nazwa brancha z datą
+          BRANCH="auto-blog/$(date +%Y-%m-%d)"
+          git checkout -b "$BRANCH"
+          git commit -m "🤖 Auto blog: $(date +%Y-%m-%d)"
+          git push -u origin "$BRANCH"
+
+          # Pobierz wynik recenzji (wygenerowany przez auto-blog.mjs)
+          REVIEW=""
+          if [ -f .review-result.md ]; then
+            REVIEW=$(cat .review-result.md)
+          else
+            REVIEW="⚠️ Brak automatycznej recenzji."
+          fi
+
+          # Stwórz PR z recenzją w opisie
+          gh pr create \
+            --title "🤖 Nowy post: $(date +%Y-%m-%d)" \
+            --body "$(cat <<EOF
+          ## Automatycznie wygenerowany artykuł
+
+          Ten post został wygenerowany przez Gemini i wymaga **ręcznej weryfikacji** przed merge.
+
+          ### 🔍 Recenzja automatyczna (Gemini)
+
+          ${REVIEW}
+
+          ### ✅ Checklist przed merge
+
+          - [ ] Tytuł i excerpt nie wprowadzają w błąd
+          - [ ] Daty i status norm są aktualne
+          - [ ] Nie twierdzi że GWP/DPP już obowiązuje (brak hTS!)
+          - [ ] Numery artykułów CPR prawidłowe
+          - [ ] Zdjęcie wygenerowane i adekwatne
+
+          ---
+          🤖 Wygenerowano automatycznie przez [auto-blog.mjs]
+          EOF
+          )" \
+            --label "auto-blog" \
+            --base main \
+            --head "$BRANCH"
+
+          echo "✅ Pull Request utworzony — czeka na Twoją akceptację"

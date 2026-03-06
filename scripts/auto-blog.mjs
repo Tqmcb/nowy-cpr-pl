@@ -329,7 +329,63 @@ if (existsSync(filepath)) {
   process.exit(0);
 }
 
-// Generuj i zapisz obraz przez Pollinations.ai (darmowe, bez klucza API)
+// ── Recenzja faktów CPR przez Gemini ──────────────────────────────────────────
+
+console.log('\n🔍 Recenzja faktów CPR...');
+
+const reviewPrompt = `
+Jesteś ekspertem od prawa budowlanego UE i rozporządzenia CPR (EU) 2024/3110.
+Przejrzyj poniższy artykuł i zweryfikuj KAŻDE twierdzenie faktograficzne.
+
+═══ KLUCZOWE ZASADY WERYFIKACJI ═══
+
+1. CPR 2024/3110 stosuje się od 8 stycznia 2026 — to prawda.
+2. Większość NOWYCH wymogów (GWP, DPP, EPD, AVS 3+) wymaga jeszcze:
+   a) Nowych norm zharmonizowanych (hTS) opublikowanych w Dz.U. UE
+   b) Zakończenia okresu koegzystencji (12–36 mies. po publikacji hTS)
+   c) DPP wymaga DODATKOWO aktów wykonawczych KE
+3. Na dzień ${dateStr} ŻADNA nowa hTS pod CPR 2024/3110 NIE została opublikowana.
+4. Co JUŻ obowiązuje od 8.01.2026: DoP&C online (PDF), UPC, terminologia AVS/AVCP.
+5. Co NIE obowiązuje jeszcze: GWP/carbon footprint, DPP, EPD, pełny XML, QR kody.
+
+═══ CZĘSTE BŁĘDY DO WYŁAPANIA ═══
+- "GWP obowiązkowe od 2026/2027" → BŁĄD (brak hTS)
+- "DPP obowiązkowy od X" → BŁĄD (brak hTS + brak aktów wykonawczych)
+- "Producenci muszą wdrożyć DPP do..." → BŁĄD (obowiązek warunkowy)
+- "EN 15804+A3 opublikowana" → BŁĄD (w trakcie prac CEN)
+- Mylenie UPC (obowiązkowy) z DPP (oczekuje na hTS)
+- "po publikacji hTS" bez wzmianki o okresie koegzystencji → NIEKOMPLETNE
+
+═══ ARTYKUŁ DO RECENZJI ═══
+${articleContent}
+
+═══ FORMAT ODPOWIEDZI ═══
+Odpowiedz WYŁĄCZNIE w formacie:
+
+OCENA: [OK / WYMAGA_POPRAWEK / ODRZUCONY]
+
+PROBLEMY:
+- [numer] "[cytat z artykułu]" → [co jest nie tak] → SUGEROWANA POPRAWKA: [poprawka]
+
+PODSUMOWANIE: [1-2 zdania o ogólnej jakości]
+`.trim();
+
+let reviewResult = '';
+try {
+  reviewResult = await callGemini(reviewPrompt);
+  console.log('\n📋 Wynik recenzji:');
+  console.log(reviewResult);
+} catch (err) {
+  console.warn('⚠️  Recenzja nie powiodła się:', err.message);
+  reviewResult = '⚠️ Recenzja automatyczna niedostępna (błąd API). Wymagana ręczna weryfikacja.';
+}
+
+// Zapisz wynik recenzji do pliku (workflow użyje go w opisie PR)
+const reviewPath = join(rootDir, '.review-result.md');
+writeFileSync(reviewPath, `# Recenzja: ${title}\n\n${reviewResult}\n`, 'utf-8');
+
+// ── Generuj obrazek i zapisz artykuł ─────────────────────────────────────────
+
 await generateAndSaveImage(title, imgSlug);
 
 writeFileSync(filepath, articleContent, 'utf-8');
@@ -337,4 +393,4 @@ writeFileSync(filepath, articleContent, 'utf-8');
 console.log(`\n✅ Nowy artykuł: content/blog/${filename}`);
 console.log(`📰 Tytuł: ${title}`);
 console.log(`📅 Data: ${dateStr}`);
-console.log(`\n👉 Artykuł pojawi się na stronie po buildzie (deployment w toku).`);
+console.log(`\n👉 Artykuł trafi do Pull Request do ręcznej akceptacji.`);

@@ -15,3 +15,4 @@ firebase-debug.log
 # Build output (regenerowany przez GitHub Actions)
 dist/
 .firecrawl/
+.review-result.md
