@@ -5,7 +5,8 @@
  * Używa Gemini 2.0 Flash z Google Search grounding, żeby znaleźć nowy temat
  * z zakresu CPR 2024/3110 i wygenerować artykuł .md do content/blog/.
  *
- * Wymagane env: GEMINI_API_KEY, PEXELS_API_KEY (opcjonalny)
+ * Wymagane env: GEMINI_API_KEY
+ * Opcjonalne env: CF_ACCOUNT_ID, CF_AI_TOKEN (fallback do Cloudflare Workers AI gdy Pollinations nie działa)
  *
  * ⚠️  PRZED COMMITEM wygenerowanego artykułu obowiązkowa weryfikacja:
  *   1. weryfikacja-faktow-cpr  → sprawdź daty, status norm, akty wykonawcze
@@ -23,8 +24,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir   = join(__dirname, '..');
 const blogDir   = join(rootDir, 'content', 'blog');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
+const GEMINI_API_KEY  = process.env.GEMINI_API_KEY;
+const CF_ACCOUNT_ID   = process.env.CF_ACCOUNT_ID;
+const CF_AI_TOKEN     = process.env.CF_AI_TOKEN;
 
 if (!GEMINI_API_KEY) {
   console.error('❌ Brak GEMINI_API_KEY w environment');
@@ -167,6 +169,25 @@ function buildImagePrompt(title) {
   return `${eng}, professional photography, modern architecture, no text, no letters, no words, no captions, no watermark, photorealistic, high quality`;
 }
 
+async function fetchFromPollinations(prompt) {
+  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true&model=flux&seed=${Math.floor(Math.random()*9999)}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Pollinations HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
+async function fetchFromCloudflareAI(prompt) {
+  if (!CF_ACCOUNT_ID || !CF_AI_TOKEN) throw new Error('Brak CF_ACCOUNT_ID / CF_AI_TOKEN');
+  const url = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/@cf/bytedance/stable-diffusion-xl-lightning`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${CF_AI_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt, width: 1200, height: 672, num_steps: 4 }),
+  });
+  if (!res.ok) throw new Error(`Cloudflare AI HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
 async function generateAndSaveImage(title, slug) {
   const imgDir = join(rootDir, 'public', 'images', 'blog');
   const imgPath = join(imgDir, `${slug}.jpg`);
@@ -175,20 +196,26 @@ async function generateAndSaveImage(title, slug) {
     return true;
   }
   const prompt = buildImagePrompt(title);
-  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true&model=flux&seed=${Math.floor(Math.random()*9999)}`;
-  console.log(`🎨 Generuję obraz przez Pollinations.ai...`);
-  try {
-    const res = await fetch(url);
-    if (!res.ok) { console.log(`⚠️  Pollinations błąd ${res.status}`); return false; }
-    const buf = Buffer.from(await res.arrayBuffer());
-    mkdirSync(imgDir, { recursive: true });
-    writeFileSync(imgPath, buf);
-    console.log(`✅ Obraz zapisany: public/images/blog/${slug}.jpg`);
-    return true;
-  } catch (e) {
-    console.log(`⚠️  Błąd generowania obrazu: ${e.message}`);
-    return false;
+  mkdirSync(imgDir, { recursive: true });
+
+  // Próbuj Pollinations, potem Cloudflare AI jako fallback
+  const providers = [
+    { name: 'Pollinations.ai', fn: () => fetchFromPollinations(prompt) },
+    { name: 'Cloudflare AI',   fn: () => fetchFromCloudflareAI(prompt) },
+  ];
+  for (const { name, fn } of providers) {
+    try {
+      console.log(`🎨 Generuję obraz przez ${name}...`);
+      const buf = await fn();
+      writeFileSync(imgPath, buf);
+      console.log(`✅ Obraz zapisany: public/images/blog/${slug}.jpg (${Math.round(buf.length/1024)}KB)`);
+      return true;
+    } catch (e) {
+      console.log(`⚠️  ${name}: ${e.message}`);
+    }
   }
+  console.log(`❌ Nie udało się wygenerować obrazu`);
+  return false;
 }
 
 // ── main ──────────────────────────────────────────────────────────────────────

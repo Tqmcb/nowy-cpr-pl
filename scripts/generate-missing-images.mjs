@@ -13,6 +13,9 @@ const rootDir   = join(__dirname, '..');
 const blogDir   = join(rootDir, 'content', 'blog');
 const imgDir    = join(rootDir, 'public', 'images', 'blog');
 
+const CF_ACCOUNT_ID = process.env.CF_ACCOUNT_ID;
+const CF_AI_TOKEN   = process.env.CF_AI_TOKEN;
+
 function parseFrontmatter(src) {
   const m = src.match(/^---\s*\n([\s\S]*?)\n---/);
   if (!m) return {};
@@ -46,6 +49,25 @@ function buildImagePrompt(title) {
   return `${eng}, professional photography, modern architecture, no text, no letters, no words, no captions, no watermark, photorealistic, high quality`;
 }
 
+async function fetchFromPollinations(prompt) {
+  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true&model=flux&seed=${Math.floor(Math.random()*9999)}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
+async function fetchFromCloudflareAI(prompt) {
+  if (!CF_ACCOUNT_ID || !CF_AI_TOKEN) throw new Error('Brak CF_ACCOUNT_ID / CF_AI_TOKEN');
+  const url = `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/ai/run/@cf/bytedance/stable-diffusion-xl-lightning`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${CF_AI_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt, width: 1200, height: 672, num_steps: 4 }),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}
+
 async function generateImage(title, slug) {
   const imgPath = join(imgDir, `${slug}.jpg`);
   if (existsSync(imgPath)) {
@@ -53,19 +75,26 @@ async function generateImage(title, slug) {
     return;
   }
   const prompt = buildImagePrompt(title);
-  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true&model=flux&seed=${Math.floor(Math.random()*9999)}`;
   console.log(`🎨 Generuję: ${slug}.jpg`);
   console.log(`   Prompt: ${prompt.slice(0, 80)}...`);
-  try {
-    const res = await fetch(url);
-    if (!res.ok) { console.log(`   ❌ Błąd HTTP ${res.status}`); return; }
-    const buf = Buffer.from(await res.arrayBuffer());
-    mkdirSync(imgDir, { recursive: true });
-    writeFileSync(imgPath, buf);
-    console.log(`   ✅ Zapisano (${Math.round(buf.length/1024)}KB)`);
-  } catch (e) {
-    console.log(`   ❌ ${e.message}`);
+  mkdirSync(imgDir, { recursive: true });
+
+  const providers = [
+    { name: 'Pollinations.ai', fn: () => fetchFromPollinations(prompt) },
+    { name: 'Cloudflare AI',   fn: () => fetchFromCloudflareAI(prompt) },
+  ];
+  for (const { name, fn } of providers) {
+    try {
+      console.log(`   🔄 ${name}...`);
+      const buf = await fn();
+      writeFileSync(imgPath, buf);
+      console.log(`   ✅ Zapisano (${Math.round(buf.length/1024)}KB) via ${name}`);
+      return;
+    } catch (e) {
+      console.log(`   ⚠️  ${name}: ${e.message}`);
+    }
   }
+  console.log(`   ❌ Żaden provider nie zadziałał`);
 }
 
 // Znajdź wszystkie posty z brakującymi obrazkami
