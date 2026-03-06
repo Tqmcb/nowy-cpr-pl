@@ -1,10 +1,10 @@
 ---
-title: "GWP obowiązkowe od 2027 — jak przygotować dane środowiskowe dla wyrobu budowlanego"
+title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
 date: "2026-02-27"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe", "LCA"]
-excerpt: "CPR 2024/3110 wprowadza obowiązkowe deklarowanie Globalnego Potencjału Ocieplenia (GWP) dla wyrobów budowlanych. Dowiedz się co to oznacza dla producenta i jak zbierać dane już teraz, zanim termin stanie się pilny."
+excerpt: "CPR 2024/3110 planuje obowiązkowe deklarowanie GWP — ale dopiero po opublikowaniu nowej normy zharmonizowanej dla Twojej grupy wyrobów i zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie wyszła. Dowiedz się jak działa ten mechanizm i dlaczego warto zbierać dane już teraz."
 image_url: /images/blog/gwp-obowiazkowe-cpr-2024.jpg
 template: "analiza"
 ---
