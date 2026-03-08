@@ -767,8 +767,8 @@ const asphaltRequirement: ProductRequirement = {
   certificationSystems: ["System 2+", "System 3", "System 4" ]
 };
 
-const steelRequirement: ProductRequirement = {
-  id: "steel-req",
+const metalStructuralRequirement: ProductRequirement = {
+  id: "metal-structural-req",
   title: "Wymagania dla wyrobów stalowych konstrukcyjnych",
   description: "Wyroby stalowe konstrukcyjne i metalowe dla budownictwa muszą spełniać wymagania dotyczące wytrzymałości, trwałości, odporności ogniowej oraz odporności na korozję. Rozporządzenie CPR 2024 wprowadza dodatkowe wymagania dotyczące śladu węglowego i recyklingu stalów.",
   mandatoryTests: [
@@ -1046,326 +1046,17 @@ const insulationRequirement: ProductRequirement = {
   certificationSystems: ["System 1+", "System 3", "System 4" ]
 };
 
-const doorsWindowsRequirement: ProductRequirement = {
-  id: "doors-windows-req",
-  title: "Wymagania dla drzwi, okien i okiennic",
-  description: "Drzwi, okna, okiennice, bramy i powiązane z nimi okucia budowlane muszą spełniać restrykcyjne wymagania dotyczące izolacyjności cieplnej, szczelności, bezpieczeństwa i trwałości. Rozporządzenie CPR 2024 wprowadza dodatkowe obowiązki w zakresie deklarowania parametrów środowiskowych.",
-  mandatoryTests: [
-    "Przepuszczalność cieplna - współczynnik U wg EN ISO 10077-1 i 10077-2",
-    "Wodoszczelność - badanie wg EN 1027 i klasyfikacja wg EN 12208",
-    "Przepuszczalność powietrza - badanie wg EN 1026 i klasyfikacja wg EN 12207",
-    "Odporność na obciążenie wiatrem - badanie wg EN 12211 i klasyfikacja wg EN 12210",
-    "Właściwości akustyczne - izolacyjność akustyczna wg EN ISO 10140 i EN ISO 717-1",
-    "Siły operacyjne - badanie wg EN 12046 i klasyfikacja wg EN 13115",
-    "Odporność na włamanie dla okien i drzwi z podwyższoną odpornością na włamanie wg EN 1627",
-    "Trwałość mechaniczna - cykle otwierania/zamykania wg EN 1191 i EN 12400",
-    "Emisja substancji niebezpiecznych - badanie obecności związków VOC i formaldehydu (nowy wymóg CPR 2024)"
-  ],
-  documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
-    "Oznakowanie CE",
-    "Etykieta energetyczna okna/drzwi zgodna z dyrektywą o efektywności energetycznej",
-    "Dokumentacja zakładowej kontroli produkcji",
-    "Raport z badań typu",
-    "Instrukcja montażu zgodna z wymaganiami producenta",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
-    "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2 — zalecana (docelowo obowiązkowa po publikacji nowej hTS)"
-  ],
-  cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych (pełna historia wyrobów)",
-    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
-    "Nowe zharmonizowane wskaźniki efektywności energetycznej",
-    "Rozszerzone wymagania dotyczące informacji o zawartości substancji niebezpiecznych",
-    "Wprowadzenie kryteriów oceny emisji VOC i innych substancji do powietrza wewnętrznego",
-    "Obowiązkowa informacja o możliwości recyklingu lub ponownego użycia komponentów"
-  ],
-  certificationSystems: ["System 3", "System 1" ]
-};
-
-const glassProductsRequirement: ProductRequirement = {
-  id: "glass-req",
-  title: "Wymagania dla wyrobów ze szkła",
-  description: "Wyroby ze szkła płaskiego, profilowanego i bloków szklanych muszą spełniać wymagania bezpieczeństwa, izolacyjności cieplnej i akustycznej oraz przejrzystości. Nowe rozporządzenie CPR 2024 wprowadza dodatkowe wymagania dotyczące śladu węglowego i recyklingu.",
-  mandatoryTests: [
-    "Odporność na uderzenia zgodnie z normą EN 12600",
-    "Izolacyjność cieplna - współczynnik U wg EN 673",
-    "Izolacyjność akustyczna - wskaźnik tłumienia dźwięku Rw",
-    "Przepuszczalność światła i promieniowania słonecznego wg EN 410",
-    "Odporność ogniowa dla szkła przeciwpożarowego",
-    "Ocena cyklu życia (LCA) - nowy wymóg CPR 2024"
-  ],
-  documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
-    "Oznakowanie CE",
-    "Dokumentacja zakładowej kontroli produkcji",
-    "Raport z badań typu",
-    "Cyfrowy paszport produktu (CPR 2024)",
-    "Karta charakterystyki środowiskowej (CPR 2024)"
-  ],
-  cprChanges: [
-    "Wprowadzenie cyfrowego paszportu produktu dla wyrobów szklanych",
-    "Ocena cyklu życia (LCA) — docelowo obowiązkowa po publikacji nowej normy zharmonizowanej",
-    "Określenie minimalnej zawartości surowców z recyklingu",
-    "Raportowanie śladu węglowego w procesie produkcji",
-    "Rozszerzone wymagania bezpieczeństwa dla szkła w zastosowaniach specjalnych"
-  ],
-  certificationSystems: ["System 1+", "System 3"]
-};
-
-const placeholderRequirements: ProductRequirement = {
-  id: "placeholder-req",
-  title: "Wymagania podstawowe",
-  description: "Szczegółowe wymagania dla tej kategorii produktów są obecnie opracowywane. Skontaktuj się z Multicert, aby uzyskać szczegółowe informacje.",
-  mandatoryTests: [
-    "Badania wstępne typu",
-    "Ocena zgodności z normami zharmonizowanymi",
-    "Raportowanie środowiskowe (nowe z CPR 2024)"
-  ],
-  documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
-    "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
-  ],
-  cprChanges: [
-    "Cyfryzacja dokumentacji i oznaczeń",
-    "Zwiększone wymagania środowiskowe",
-    "Nowe systemy oceny i weryfikacji stałości właściwości użytkowych"
-  ],
-  certificationSystems: ["System 2+", "System 3"]
-};
-
-// Basic placeholder requirement for categories without detailed information
-const placeholderRequirement: ProductRequirement = {
-  id: "placeholder-req",
-  title: "Ogólne wymagania CPR 2024",
-  description: "Ogólne wymagania dla wyrobów budowlanych zgodnie z nowym rozporządzeniem CPR 2024. Szczegółowe wymagania są w trakcie opracowywania.",
-  mandatoryTests: [
-    "Badania właściwości mechanicznych zgodnie z odpowiednimi normami EN",
-    "Badania trwałości i odporności na czynniki środowiskowe",
-    "Badania reakcji na ogień wg EN 13501-1",
-    "Badania emisji substancji niebezpiecznych wg EN 16516",
-    "Badania zgodności z wymogami podstawowymi CPR 2024"
-  ],
-  documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
-    "Oznakowanie CE",
-    "Dokumentacja zakładowej kontroli produkcji",
-    "Raport z badań typu",
-    "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
-  ],
-  cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
-    "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
-    "Nowe wymagania dotyczące zawartości materiałów z recyklingu",
-    "Zaostrzenie wymogów emisji substancji niebezpiecznych",
-    "Wymogi dotyczące możliwości ponownego wykorzystania po zakończeniu cyklu życia"
-  ],
-  certificationSystems: ["System 1+", "System 1", "System 2+", "System 3", "System 4"]
-};
 
 export const productCategories: ProductCategory[] = [
-  // Plumbing products category with detailed requirements
+  // Rodzina 01 — Wyroby prefabrykowane z betonu
   {
-    id: "plumbing-products",
-    name: "Wyroby instalacyjne",
-    code: "21",
-    description: "Rury, złączki, zawory, armatura sanitarna, systemy wodno-kanalizacyjne",
-    requirements: plumbingRequirement
-  },
-  // Ceiling products category with detailed requirements
-  {
-    id: "ceiling-products",
-    name: "Sufity podwieszane",
-    code: "22",
-    description: "Panele sufitowe, konstrukcje nośne, systemy sufitowe",
-    requirements: ceilingRequirement
-  },
-  // Steel products category with detailed requirements
-  {
-    id: "steel-products",
-    name: "Wyroby stalowe",
-    code: "30",
-    description: "Stal konstrukcyjna, zbrojeniowa, elementy złączne, wyroby spawalnicze",
-    requirements: steelRequirement
-  },
-  // Concrete and mortar products category with detailed requirements
-  {
-    id: "concrete-mortar-products",
-    name: "Betony i zaprawy",
-    code: "26",
-    description: "Beton towarowy, zaprawy murarskie, tynkarskie, jastrychy i domieszki",
-    requirements: concreteMortarRequirement
-  },
-  // Doors and windows category with detailed requirements
-  {
-    id: "doors-windows-products",
-    name: "Drzwi i okna",
-    code: "16",
-    description: "Okna, drzwi, bramy garażowe, rolety, żaluzje i okucia",
-    requirements: doorsWindowsRequirement
-  },
-  // Road construction products category with detailed requirements
-  {
-    id: "road-construction-products",
-    name: "Wyroby do budowy dróg",
-    code: "24",
-    description: "Mieszanki mineralno-asfaltowe, kruszywa drogowe, oznakowanie, bariery",
-    requirements: roadConstructionRequirement
-  },
-  // Flooring products category with detailed requirements
-  {
-    id: "flooring-products",
-    name: "Wyroby podłogowe",
-    code: "17",
-    description: "Podłogi drewniane, laminowane, ceramiczne, winylowe, wykładziny",
-    requirements: flooringRequirement
-  },
-  // Structural timber products category with detailed requirements
-  {
-    id: "structural-timber-products",
-    name: "Wyroby konstrukcyjne z drewna",
-    code: "36",
-    description: "Drewno konstrukcyjne lite, klejone warstwowo (GLT, CLT), LVL i inne",
-    requirements: structuralTimberRequirement
-  },
-  // Wood-based panels category with detailed requirements
-  {
-    id: "wood-based-panels",
-    name: "Płyty drewnopochodne",
-    code: "34",
-    description: "Płyty drewnopochodne, w tym sklejka, OSB, płyty wiórowe, MDF/HDF",
-    requirements: woodPanelsRequirement
-  },
-  // Thermal insulation products category with detailed requirements
-  {
-    id: "thermal-insulation-products",
-    name: "Wyroby do izolacji cieplnej",
-    code: "35",
-    description: "Materiały termoizolacyjne, w tym wełna mineralna, styropian, XPS, PIR, PUR",
-    requirements: thermalInsulationRequirement
-  },
-  // Membranes and geosynthetic barriers category with detailed requirements
-  {
-    id: "membranes-barriers",
-    name: "Membrany i bariery geosyntetyczne",
-    code: "28",
-    description: "Membrany hydroizolacyjne, paroszczelne i bariery geosyntetyczne",
-    requirements: membranesRequirement
-  },
-  // Precast concrete products category with detailed requirements
-  {
-    id: "precast-concrete-products",
-    name: "Prefabrykaty betonowe",
-    code: "31",
-    description: "Prefabrykowane elementy betonowe, żelbetowe i sprężone",
+    id: "concrete-prefab",
+    name: "Wyroby prefabrykowane z betonu",
+    code: "01",
+    description: "Wyroby prefabrykowane z betonu zwykłego/lekkiego/autoklawizowanego napowietrzonego",
     requirements: precastConcreteRequirement
   },
-  // Masonry units category with detailed requirements
-  {
-    id: "masonry-units",
-    name: "Elementy murowe",
-    code: "27",
-    description: "Cegły, bloczki, pustaki i elementy z kamienia naturalnego",
-    requirements: masonryRequirement
-  },
-  // Geotextiles and related products category with detailed requirements
-  {
-    id: "geotextile-products",
-    name: "Geotekstylia i wyroby pokrewne",
-    code: "18",
-    description: "Geotekstylia, membrany, geosiatki i geosyntetyki",
-    requirements: geotextileRequirement
-  },
-  // Glass products category with detailed requirements
-  {
-    id: "glass-products",
-    name: "Wyroby szklane",
-    code: "14",
-    description: "Szkło budowlane, szyby zespolone, szkło hartowane i laminowane",
-    requirements: glassRequirement
-  },
-  // Gypsum products category with detailed requirements
-  {
-    id: "gypsum-products",
-    name: "Wyroby gipsowe",
-    code: "15",
-    description: "Płyty gipsowo-kartonowe, tynki gipsowe i elementy sufitowe",
-    requirements: gypsumRequirement
-  },
-  // Clay/ceramic products category with detailed requirements
-  {
-    id: "ceramic-products",
-    name: "Wyroby ceramiczne",
-    code: "13",
-    description: "Ceramika budowlana, cegły, dachówki i płytki ceramiczne",
-    requirements: ceramicRequirement
-  },
-  // Asphalt/bituminous products category with detailed requirements
-  {
-    id: "asphalt-products",
-    name: "Wyroby asfaltowe i bitumiczne",
-    code: "03",
-    description: "Wyroby asfaltowe i bitumiczne do budownictwa drogowego i pokryć dachowych",
-    requirements: asphaltRequirement
-  },
-  // Steel products category with detailed requirements
-  {
-    id: "steel-products",
-    name: "Wyroby stalowe konstrukcyjne",
-    code: "33",
-    description: "Wyroby stalowe konstrukcyjne i metalowe dla budownictwa",
-    requirements: steelRequirement
-  },
-  // Concrete products category with detailed requirements
-  {
-    id: "concrete-products",
-    name: "Wyroby betonowe",
-    code: "05",
-    description: "Prefabrykowane wyroby z betonu zwykłego, lekkiego i autoklawizowanego",
-    requirements: concreteRequirement
-  },
-  // Cement and building limes category with detailed requirements
-  {
-    id: "cement-limes",
-    name: "Cementy i wapna budowlane",
-    code: "12",
-    description: "Cementy, wapna budowlane i inne spoiwa hydrauliczne",
-    requirements: cementRequirement
-  },
-  // Structural timber products category with detailed requirements
-  {
-    id: "timber-products",
-    name: "Konstrukcyjne wyroby z drewna",
-    code: "35",
-    description: "Konstrukcyjne wyroby z drewna i wyroby pomocnicze",
-    requirements: timberRequirement
-  },
-  // Construction adhesives category with detailed requirements
-  {
-    id: "adhesives",
-    name: "Kleje budowlane",
-    code: "25",
-    description: "Kleje konstrukcyjne, zaprawy klejowe i produkty do mocowania wyrobów budowlanych",
-    requirements: adhesivesRequirement
-  },
-  // Roofing products category with detailed requirements
-  {
-    id: "roofing-products",
-    name: "Pokrycia dachowe",
-    code: "22",
-    description: "Pokrycia dachowe, świetliki, okna dachowe i wyroby dodatkowe",
-    requirements: roofingRequirement
-  },
-  // Insulation materials category with detailed requirements
-  {
-    id: "insulation-materials",
-    name: "Materiały izolacyjne",
-    code: "04",
-    description: "Wyroby do izolacji cieplnej, akustycznej i przeciwpożarowej",
-    requirements: insulationRequirement
-  },
-  // Doors and windows category with detailed requirements
+  // Rodzina 02 — Drzwi, okna i okucia
   {
     id: "doors-windows",
     name: "Drzwi, okna i okucia",
@@ -1373,269 +1064,141 @@ export const productCategories: ProductCategory[] = [
     description: "Drzwi, okna, okiennice, bramy i powiązane z nimi okucia budowlane",
     requirements: doorsWindowsRequirement
   },
+  // Rodzina 03 — Membrany izolacyjne
   {
-    id: "concrete",
-    name: "Beton i wyroby betonowe",
-    code: "33",
-    description: "Beton i wyroby z betonu, np. prefabrykowane elementy betonowe, płyty, rury",
-    requirements: {
-      id: "req-concrete",
-      title: "Wymagania dla betonu i wyrobów betonowych",
-      description: "Nowe rozporządzenie CPR 2024 wprowadza dodatkowe wymagania dla wyrobów betonowych, szczególnie w zakresie emisji substancji niebezpiecznych i zrównoważonego wykorzystania zasobów naturalnych.",
-      mandatoryTests: [
-        "Wytrzymałość na ściskanie",
-        "Wodoszczelność",
-        "Odporność na zamrażanie/rozmrażanie",
-        "Emisja substancji niebezpiecznych (nowe z CPR 2024)",
-        "Analiza cyklu życia produktu (nowe z CPR 2024)"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Dokumentacja zakładowej kontroli produkcji (ZKP)",
-        "Ocena emisji substancji niebezpiecznych",
-        "Deklaracja środowiskowa produktu (EPD)",
-        "Plan zarządzania odpadami (nowy z CPR 2024)"
-      ],
-      cprChanges: [
-        "Dodatkowa ocena emisji CO2 podczas produkcji",
-        "Analiza możliwości recyklingu i ponownego wykorzystania",
-        "Ocena wpływu na środowisko przez cały cykl życia produktu",
-        "Cyfryzacja deklaracji właściwości użytkowych",
-        "Obowiązkowa obecność kart charakterystyki dla substancji niebezpiecznych"
-      ],
-      certificationSystems: ["System 1+", "System 1", "System 2+"]
-    }
+    id: "membranes",
+    name: "Membrany izolacyjne",
+    code: "03",
+    description: "Membrany, w tym stosowane w postaci płynnej i zestawy (izolujące przed wodą lub parą wodną)",
+    requirements: membranesRequirement
   },
-  {
-    id: "steel",
-    name: "Stal konstrukcyjna",
-    code: "20",
-    description: "Wyroby stalowe do zastosowan konstrukcyjnych, np. belki, profile, blachy",
-    requirements: {
-      id: "req-steel",
-      title: "Wymagania dla stali konstrukcyjnej",
-      description: "Stal konstrukcyjna według CPR 2024 musi spełniać szereg nowych wymagań związanych z możliwością recyklingu oraz emisją dwutlenku węgla podczas produkcji.",
-      mandatoryTests: [
-        "Wytrzymałość na rozciąganie",
-        "Ciągliwość i plastyczność",
-        "Odporność na zmęczenie",
-        "Udział materiałów z recyklingu (nowe z CPR 2024)",
-        "Emisja CO2 podczas produkcji (nowe z CPR 2024)"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Certyfikat zakładowej kontroli produkcji",
-        "Ślad węglowy produktu",
-        "Raport z oceny możliwości recyklingu",
-        "Karta charakterystyki substancji niebezpiecznych"
-      ],
-      cprChanges: [
-        "Dodatkowe informacje o możliwości recyklingu w DoP",
-        "Obowiązkowa deklaracja emisji CO2",
-        "Wymagania dotyczące minimalnego udziału materiałów z recyklingu",
-        "Raportowanie o trwałości produktu",
-        "System śledzenia pochodzenia surowców"
-      ],
-      certificationSystems: ["System 2+", "System 1+"]
-    }
-  },
+  // Rodzina 04 — Materiały termoizolacyjne
   {
     id: "insulation",
-    name: "Materiały izolacyjne",
+    name: "Materiały termoizolacyjne",
     code: "04",
-    description: "Materiały izolacyjne termiczne i akustyczne, np. wełna mineralna, styropian, pianka PUR",
-    requirements: {
-      id: "req-insulation",
-      title: "Wymagania dla materiałów izolacyjnych",
-      description: "Materiały izolacyjne podlegają szczególnie restrykcyjnym wymaganiom w zakresie bezpieczeństwa pożarowego oraz emisji substancji niebezpiecznych, co zostało wzmocnione w CPR 2024.",
-      mandatoryTests: [
-        "Współczynnik przewodzenia ciepła",
-        "Reakcja na ogień",
-        "Chłonność wody",
-        "Emisja substancji niebezpiecznych",
-        "Trwałość właściwości termoizolacyjnych"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Raporty klasyfikacji ogniowej",
-        "Deklaracja środowiskowa produktu (EPD)",
-        "Certyfikat zakładowej kontroli produkcji",
-        "Dokumentacja materiałów bazowych"
-      ],
-      cprChanges: [
-        "Zaostrzenie kryteriów bezpieczeństwa pożarowego",
-        "Wymogi dotyczące biodegradowalności i recyklingu",
-        "Analiza cyklu życia produktu (LCA) — docelowo obowiązkowa po publikacji nowej normy zharmonizowanej",
-        "Raportowanie śladu węglowego",
-        "Ograniczenia stosowania substancji szkodliwych"
-      ],
-      certificationSystems: ["System 1", "System 3", "System 4"]
-    }
+    description: "Materiały termoizolacyjne złożone zestawy/systemy izolacyjne",
+    requirements: thermalInsulationRequirement
   },
+  // Rodzina 07 — Wyroby gipsowe
   {
-    id: "windows",
-    name: "Okna i drzwi",
-    code: "16",
-    description: "Okna, drzwi zewnętrzne i wewnętrzne, drzwi garażowe i przemysłowe",
-    requirements: {
-      id: "req-windows",
-      title: "Wymagania dla okien i drzwi",
-      description: "CPR 2024 rozszerza wymagania dla okien i drzwi w zakresie efektywności energetycznej, izolacyjności akustycznej oraz bezpieczeństwa użytkowania.",
-      mandatoryTests: [
-        "Współczynnik przenikania ciepła",
-        "Izolacyjność akustyczna",
-        "Przepuszczalność powietrza",
-        "Odporność na włamanie",
-        "Trwałość mechaniczna i funkcjonalna"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Etykieta energetyczna",
-        "Dokumentacja techniczna",
-        "Instrukcja montażu zgodna z nowymi wytycznymi",
-        "Ocena cyklu życia produktu"
-      ],
-      cprChanges: [
-        "Zaostrzenie wymagań dotyczących efektywności energetycznej",
-        "Wymagania w zakresie łatwości demontażu i recyklingu",
-        "Cyfrowy paszport produktu",
-        "Ocena wpływu na środowisko w całym cyklu życia",
-        "Nowe wytyczne dotyczące bezpieczeństwa użytkowania"
-      ],
-      certificationSystems: ["System 3", "System 1"]
-    }
+    id: "gypsum-products",
+    name: "Wyroby gipsowe",
+    code: "07",
+    description: "Wyroby gipsowe",
+    requirements: gypsumRequirement
   },
+  // Rodzina 13 — Konstrukcje drewniane
+  {
+    id: "timber-structural",
+    name: "Konstrukcje drewniane",
+    code: "13",
+    description: "Konstrukcyjne wyroby/elementy drewniane i wyroby pomocnicze",
+    requirements: structuralTimberRequirement
+  },
+  // Rodzina 14 — Płyty drewnopochodne
+  {
+    id: "wood-panels",
+    name: "Płyty drewnopochodne",
+    code: "14",
+    description: "Płyty i elementy drewnopochodne",
+    requirements: woodPanelsRequirement
+  },
+  // Rodzina 15 — Cement i spoiwa
   {
     id: "cement",
     name: "Cement i spoiwa",
     code: "15",
-    description: "Cement, spoiwa hydrauliczne, zaprawy murarskie i tynkarskie",
-    requirements: {
-      id: "req-cement",
-      title: "Wymagania dla cementu i spoiw",
-      description: "Cement i spoiwa w ramach CPR 2024 podlegają nowym regulacjom dotyczącym redukcji emisji CO2 oraz wykorzystania materiałów alternatywnych i z recyklingu.",
-      mandatoryTests: [
-        "Wytrzymałość na ściskanie",
-        "Czas wiązania",
-        "Stałość objętości",
-        "Zawartość chlorków, siarczków i alkaliów",
-        "Emisja CO2 w procesie produkcji (nowe z CPR 2024)"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Certyfikat stałości właściwości użytkowych",
-        "Raport emisji gazow cieplarnianych",
-        "Dokumentacja materiałów z recyklingu",
-        "Deklaracja środowiskowa produktu (EPD)"
-      ],
-      cprChanges: [
-        "Wymagania dotyczące obniżenia śladu węglowego",
-        "Wprowadzenie limitu emisji CO2 na tonę produktu",
-        "Wymogi dotyczące stosowania materiałów alternatywnych",
-        "Cyfryzacja dokumentów zakładowej kontroli produkcji",
-        "Nowe kategorie cementu niskoemiłs  innego"
-      ],
-      certificationSystems: ["System 1+", "System 1"]
-    }
+    description: "Cementy, wapna budowlane i inne spoiwa hydrauliczne",
+    requirements: cementRequirement
   },
+  // Rodzina 16 — Stal zbrojeniowa i sprężająca
+  {
+    id: "steel",
+    name: "Stal zbrojeniowa",
+    code: "16",
+    description: "Stal zbrojeniowa i sprężająca do betonu (i wyroby pomocnicze) zestawy zakotwień i cięgien",
+    requirements: steelRequirement
+  },
+  // Rodzina 17 — Wyroby murarskie
   {
     id: "bricks",
-    name: "Cegły i bloczki",
-    code: "01",
-    description: "Wyroby murowe, bloczki konstrukcyjne, pustaki ceramiczne i betonowe",
-    requirements: {
-      id: "req-bricks",
-      title: "Wymagania dla cegieł i bloczków",
-      description: "Wyroby murowe w świetle CPR 2024 muszą spełniać nowe wymagania dotyczące trwałości, efektywności energetycznej i możliwości ponownego wykorzystania.",
-      mandatoryTests: [
-        "Wytrzymałość na ściskanie",
-        "Odporność na zamrażanie/rozmrażanie",
-        "Absorpcja wody",
-        "Współczynnik przewodzenia ciepła",
-        "Trwałość (nowe kryteria z CPR 2024)"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Dokumentacja zakładowej kontroli produkcji",
-        "Raport z testow efektywności energetycznej",
-        "Deklaracja środowiskowa produktu (EPD)",
-        "Plan zarządzania odpadami i recyklingu"
-      ],
-      cprChanges: [
-        "Wprowadzenie kryteriów oceny trwałości w cyklu życia",
-        "Wymagania dotyczące zawartości materiałów z recyklingu",
-        "Nowe standardy izolacyjności termicznej",
-        "Cyfryzacja dokumentacji technicznej",
-        "Raportowanie śladu węglowego"
-      ],
-      certificationSystems: ["System 2+", "System 4"]
-    }
+    name: "Wyroby murarskie",
+    code: "17",
+    description: "Wyroby murarskie i wyroby pokrewne elementy murowe, zaprawy i wyroby pomocnicze",
+    requirements: masonryRequirement
   },
+  // Rodzina 19 — Wyroby podłogowe
+  {
+    id: "flooring",
+    name: "Wyroby podłogowe",
+    code: "19",
+    description: "Wyroby podłogowe i posadzkowe",
+    requirements: flooringRequirement
+  },
+  // Rodzina 20 — Konstrukcje metalowe
+  {
+    id: "metal-structural",
+    name: "Konstrukcje metalowe",
+    code: "20",
+    description: "Konstrukcyjne wyroby metalowe i wyroby pomocnicze",
+    requirements: metalStructuralRequirement
+  },
+  // Rodzina 21 — Wykończenia ścian i sufitów
+  {
+    id: "wall-finishes",
+    name: "Wykończenia ścian i sufitów",
+    code: "21",
+    description: "Wykończenie ścian wewnętrznych, zewnętrznych i sufitów. Zestawy wyrobów do wykonywania ścian działowych",
+    requirements: ceilingRequirement
+  },
+  // Rodzina 22 — Pokrycia dachowe
   {
     id: "roofing",
     name: "Pokrycia dachowe",
-    code: "25",
-    description: "Pokrycia dachowe, dachowki, blachodachówki, membrany i akcesoria dachowe",
-    requirements: {
-      id: "req-roofing",
-      title: "Wymagania dla pokryć dachowych",
-      description: "CPR 2024 wprowadza dla pokryć dachowych dodatkowe wymagania w zakresie odporności na ekstremalne warunki pogodowe, izolacyjności termicznej oraz zrównoważonego rozwoju.",
-      mandatoryTests: [
-        "Wodoszczelność",
-        "Reakcja na ogień",
-        "Odporność na ekstremalne warunki pogodowe",
-        "Trwałość (nowe zaaostrzone kryteria)",
-        "Odporność na promieniowanie UV"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Certyfikat odporności ogniowej",
-        "Raport z testów odporności na warunki pogodowe",
-        "Ocena cyklu życia produktu",
-        "Certyfikat zakładowej kontroli produkcji"
-      ],
-      cprChanges: [
-        "Dodatkowe testy odporności na ekstremalne zjawiska pogodowe",
-        "Wymogi dotyczące trwałości i zdolności do recyklingu",
-        "Standardy w zakresie emisji substancji niebezpiecznych",
-        "Nowe wytyczne dotyczące izolacyjności termicznej",
-        "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych"
-      ],
-      certificationSystems: ["System 3", "System 4", "System 1"]
-    }
+    code: "22",
+    description: "Pokrycia dachowe, świetliki, okna dachowe i wyroby pomocnicze, zestawy dachowe",
+    requirements: roofingRequirement
   },
+  // Rodzina 23 — Budowa dróg
   {
-    id: "pipes",
-    name: "Rury i systemy rurowe",
-    code: "14",
-    description: "Rury i kształtki do różnych zastosowan, systemy kanalizacyjne i wodociągowe",
-    requirements: {
-      id: "req-pipes",
-      title: "Wymagania dla rur i systemów rurowych",
-      description: "Rury i systemy rurowe według CPR 2024 podlegają nowym wymaganiom w zakresie bezpieczeństwa użytkowania, higieniczności oraz wpływu na środowisko.",
-      mandatoryTests: [
-        "Szczelność",
-        "Wytrzymałość na ciśnienie wewnętrzne",
-        "Odporność na czynniki chemiczne",
-        "Higieniczność (kontakt z wodą pitną)",
-        "Emisja substancji niebezpiecznych"
-      ],
-      documentationRequired: [
-        "Deklaracja właściwości użytkowych (DoP)",
-        "Dokumentacja zakładowej kontroli produkcji",
-        "Certyfikaty higieniczne dla kontaktu z wodą pitną",
-        "Ocena wpływu na środowisko",
-        "Dokumentacja techniczna systemu"
-      ],
-      cprChanges: [
-        "Rozszerzone wymagania dotyczące kontaktu z wodą pitną",
-        "Zaostrzenie norm emisji zanieczyszczeń",
-        "Wymogi dotyczące łatwości recyklingu",
-        "Cyfrowa dokumentacja techniczna i znakowanie",
-        "Testy odporności na długotrwałe użytkowanie"
-      ],
-      certificationSystems: ["System 1+", "System 3", "System 4"]
-    }
+    id: "road-construction",
+    name: "Budowa dróg",
+    code: "23",
+    description: "Wyroby do budowy dróg",
+    requirements: roadConstructionRequirement
+  },
+  // Rodzina 25 — Kleje budowlane
+  {
+    id: "construction-adhesives",
+    name: "Kleje budowlane",
+    code: "25",
+    description: "Kleje budowlane",
+    requirements: adhesivesRequirement
+  },
+  // Rodzina 26 — Wyroby związane z betonem
+  {
+    id: "concrete-related",
+    name: "Wyroby betonowe",
+    code: "26",
+    description: "Wyroby związane z betonem, zaprawą i zaczynem",
+    requirements: concreteMortarRequirement
+  },
+  // Rodzina 29 — Wyroby do wody pitnej
+  {
+    id: "pipes-drinking",
+    name: "Wyroby do wody pitnej",
+    code: "29",
+    description: "Wyroby budowlane stykające się z wodą przeznaczoną do spożycia przez ludzi",
+    requirements: plumbingRequirement
+  },
+  // Rodzina 30 — Wyroby szklane
+  {
+    id: "glass-products",
+    name: "Wyroby szklane",
+    code: "30",
+    description: "Wyroby ze szkła płaskiego, profilowanego i bloków szklanych",
+    requirements: glassRequirement
   }
 ];
 
