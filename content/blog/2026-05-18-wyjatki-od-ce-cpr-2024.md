@@ -118,7 +118,7 @@ A: Zależy. Jeśli jesteś wykonawcą robót i sam wbudowujesz — wyjątek 1/2 
 A: Wyjątek dotyczy konkretnych wyrobów wytwarzanych tradycyjnymi metodami — nie całego obiektu. Standardowe materiały w zabytkowym budynku podlegają normalnym wymaganiom CPR.
 
 **Q: Wytwarzam beton na budowie. Czy zawsze jestem zwolniony z CE?**
-A: Tak, jeśli sam go wbudowujesz w ten sam obiekt. Ale jeśli dostarczasz beton towarowy innym — jesteś producentem i CE (system AVS 3+, norma EN 206) jest wymagane.
+A: Tak, jeśli sam go wbudowujesz w ten sam obiekt. Ale jeśli dostarczasz beton towarowy innym — jesteś producentem i CE (system AVS 2+) jest wymagane.
 
 ---
 
