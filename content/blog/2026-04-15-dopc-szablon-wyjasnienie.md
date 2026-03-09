@@ -70,13 +70,13 @@ Jeżeli producent ma siedzibę poza UE, musi wyznaczyć upoważnionego przedstaw
 
 ---
 
-### Pole 6: System oceny i weryfikacji stałości właściwości użytkowych (AVCP)
+### Pole 6: System oceny i weryfikacji (AVS)
 
 **Przykład:** `System 3`
 
-CPR 2024 utrzymuje pięć systemów AVCP: 1+, 1, 2+, 3 i 4. Numer systemu jest przypisany do każdego wyrobu i zastosowania w Załączniku ZA odpowiedniej normy zharmonizowanej. Określa on zakres zadań, które musi wykonać producent (badania ITT, FPC) oraz które zadania należą do jednostki notyfikowanej (certyfikacja wyrobu, inspekcja zakładu, certyfikacja FPC lub ocena techniczna dokumentacji).
+CPR 2024 wprowadza sześć systemów AVS: 1+, 1, 2+, 3, 3+ (nowy — dla walidacji danych środowiskowych) i 4. Numer systemu jest przypisany do każdego wyrobu i zastosowania w Załączniku ZA odpowiedniej normy zharmonizowanej. Określa on zakres zadań, które musi wykonać producent (badania ITT, FPC) oraz które zadania należą do jednostki notyfikowanej (certyfikacja wyrobu, inspekcja zakładu, certyfikacja FPC lub ocena techniczna dokumentacji).
 
-**Ważne:** W CPR 2024 termin „AVCP" zastąpił wcześniejszy skrót „AVCP" (ang. Assessment and Verification of Constancy of Performance) — jest to ta sama koncepcja, jednak z ujednoliconą nomenklaturą.
+**Ważne:** W CPR 2024 termin „AVS" zastąpił wcześniejszy skrót „AVCP" (ang. Assessment and Verification of Constancy of Performance) — jest to ta sama koncepcja, jednak z ujednoliconą nomenklaturą i dodanym nowym systemem 3+.
 
 ---
 
@@ -116,7 +116,7 @@ Jeżeli producent nie deklaruje danej właściwości (co jest dozwolone dla wła
 
 **Przykład:** `Wyrób nie zawiera substancji z listy SVHC REACH w stężeniu powyżej 0,1% wagowo.`
 
-Art. 15 ust. 6 CPR 2024 nakłada obowiązek przekazania wraz z DoP&C informacji o zawartości substancji wzbudzających szczególnie duże obawy (SVHC — ang. Substances of Very High Concern) zgodnie z art. 31 lub art. 33 rozporządzenia REACH. To pole jest całkowicie nowe w stosunku do starego DoP z CPR 305/2011 i odzwierciedla rosnącą rolę aspektów środowiskowych i zdrowotnych w regulacji wyrobów budowlanych.
+Art. 18–19 CPR 2024 nakłada obowiązek przekazania wraz z DoP&C informacji o zawartości substancji wzbudzających szczególnie duże obawy (SVHC — ang. Substances of Very High Concern) zgodnie z art. 31 lub art. 33 rozporządzenia REACH. To pole jest całkowicie nowe w stosunku do starego DoP z CPR 305/2011 i odzwierciedla rosnącą rolę aspektów środowiskowych i zdrowotnych w regulacji wyrobów budowlanych.
 
 ---
 
@@ -142,7 +142,7 @@ Dokument musi być podpisany przez osobę upoważnioną do reprezentowania produ
 
 ## Wymóg cyfrowej dostępności DoP&C
 
-Art. 16 CPR 2024 wprowadza obowiązek udostępnienia DoP&C w formie cyfrowej — na stronie internetowej producenta lub za pośrednictwem cyfrowego paszportu produktu. Nabywcy oraz organy nadzoru rynku muszą mieć możliwość pobrania aktualnej wersji dokumentu bez konieczności rejestracji lub wnoszenia opłat. Wyrób może być oznakowany kodem QR prowadzącym bezpośrednio do strony z DoP&C, co jest zalecane przez CPR 2024 jako nowoczesna praktyka.
+Art. 18–19 CPR 2024 wprowadza obowiązek udostępnienia DoP&C w formie cyfrowej — na stronie internetowej producenta lub za pośrednictwem cyfrowego paszportu produktu. Nabywcy oraz organy nadzoru rynku muszą mieć możliwość pobrania aktualnej wersji dokumentu bez konieczności rejestracji lub wnoszenia opłat. Wyrób może być oznakowany kodem QR prowadzącym bezpośrednio do strony z DoP&C, co jest zalecane przez CPR 2024 jako nowoczesna praktyka.
 
 ---
 

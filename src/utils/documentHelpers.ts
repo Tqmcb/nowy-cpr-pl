@@ -69,7 +69,7 @@ export const documents: Document[] = [
   {
     id: "dpp-guide",
     title: "Przewodnik po cyfrowym paszporcie produktu (DPP)",
-    description: "Kompletny przewodnik dotyczący Cyfrowego Paszportu Produktu (art. 75–80 CPR 2024/3110). Obejmuje harmonogram wdrożenia, wymagane dane, unikalny identyfikator (art. 22 ust. 5), wymagania techniczne dostępu i listę kontrolną producenta.",
+    description: "Kompletny przewodnik dotyczący Cyfrowego Paszportu Produktu (art. 25 CPR 2024/3110). Obejmuje harmonogram wdrożenia, wymagane dane, unikalny identyfikator (art. 25), wymagania techniczne dostępu i listę kontrolną producenta.",
     icon: "💻",
     fileType: "HTML",
     language: "PL",
@@ -142,9 +142,9 @@ const documentUrls: Record<string, string> = {
   "dpp-guide":     "/docs/dpp-przewodnik.html",
   "avcp-systems":       "/docs/avs-systemy-przewodnik.html",
   "importer-dopc":      "/docs/importer-dopc-szablon.html",
-  "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
-  "user-instructions":  "/docs/instrukcja-uzytkownika-art25.html",
-  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html",
+  "tech-file":          "/docs/dokumentacja-techniczna-art20.html",
+  "user-instructions":  "/docs/instrukcja-uzytkownika-art9.html",
+  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art22.html",
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
