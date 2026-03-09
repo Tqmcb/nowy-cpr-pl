@@ -191,15 +191,15 @@ const _fallbackPosts: BlogPost[] = [
 Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 13 grudnia 2024 r. ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych. Weszło w życie **8 stycznia 2025 roku**.
 
 ## Kluczowe zmiany
-1. **Cyfrowa Deklaracja Właściwości Użytkowych (Digital DoP)** - obowiązkowa od 2027
-2. **Paszport produktu budowlanego** - nowe wymagania środowiskowe
-3. **Rozszerzone wymagania AVCP** - zaostrzone kontrole
-4. **Sustainability requirements** - informacje o zrównoważonym rozwoju
+1. **Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C)** — nowy format, obowiązkowy po publikacji nowych norm zharmonizowanych (hTS)
+2. **Cyfrowy paszport produktu (DPP)** — wymaga hTS oraz aktów wykonawczych KE (oba jeszcze nieopublikowane)
+3. **Rozszerzone systemy AVS (dawniej AVCP)** — nowy system 3+ dla aspektów środowiskowych
+4. **Wymagania środowiskowe (GWP)** — obowiązkowe dopiero po wejściu w życie nowych hTS dla danej rodziny wyrobów
 
 ## Terminy wdrożenia
-- 8 stycznia 2025 - wejście w życie
-- 2026 - okres przejściowy
-- 2027 - pełne wdrożenie Digital DoP
+- 8 stycznia 2025 — wejście w życie (wybrane przepisy)
+- 8 stycznia 2026 — stosowanie głównych przepisów CPR
+- 2026–2029+ — publikacja nowych hTS przez CEN; GWP i DPP obowiązkowe dopiero po zakończeniu okresu koegzystencji dla danej rodziny wyrobów
 
 ## Obowiązki producentów
 Producenci muszą zapewnić:

@@ -64,7 +64,7 @@ Dla tynków gipsowych (EN 13279-1):
 
 **Właściwości środowiskowe – gips ma przewagę**: CPR 2024 jest szansą dla producentów gipsu. Gips jako materiał wykazuje szereg korzystnych cech środowiskowych: pełna możliwość recyklingu (gips z rozbiórki może być przetworzony i użyty ponownie – zamknięta pętla recyklingu Knauf, Rigips), niskie GWP w porównaniu z alternatywnymi wyrobami ściennymi, zdolność do regulacji wilgotności (pasywna klimatyzacja wnętrz), naturalny surowiec (anhydryt, alabaster) lub produkt uboczny odsiarczania (FGD gypsum – gips syntetyczny z elektrowni).
 
-Deklarowanie GWP dla płyt gipsowo-kartonowych od 2027 będzie korzystne dla gipsu: typowe GWP dla 1 m² płyty GKB 12,5 mm wynosi ok. 2,5–4,0 kg CO₂ eq/m², co jest niskie w porównaniu z alternatywnymi rozwiązaniami.
+Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowych hTS) będzie korzystne dla gipsu: typowe GWP dla 1 m² płyty GKB 12,5 mm wynosi ok. 2,5–4,0 kg CO₂ eq/m², co jest niskie w porównaniu z alternatywnymi rozwiązaniami.
 
 **System 3+ dla walidacji EPD**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji tych EPD przez System 3+ – wydania raportu walidacyjnego przez jednostkę notyfikowaną, co podnosi wiarygodność danych w zamówieniach publicznych GPP.
 

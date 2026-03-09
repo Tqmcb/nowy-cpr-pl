@@ -71,7 +71,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 *Oszczędność wody*: Miski WC z systemem dual-flush (3/6 l) i ultra-low flush (2/4 l, a nawet 2/3 l) są bezpośrednim instrumentem ochrony zasobów wodnych. CPR 2024 będzie wymagać deklarowania ilości wody zużywanej na spłukiwanie jako właściwości środowiskowej. Producenci innowacyjnych systemów spłukujących zyskają przewagę.
 
-*GWP ceramiki*: Ceramika sanitarna ma niskie GWP (ok. 5–12 kg CO₂ eq/kg) ze względu na energochłonność wypalania (~1 200°C). Jednak trwałość wyrobu (50–100 lat eksploatacji ceramiki sanitarnej) w przeliczeniu na rok użytkowania daje bardzo niski ślad węglowy. Od 2027 oczekuje się deklarowania GWP w DoP&C.
+*GWP ceramiki*: Ceramika sanitarna ma niskie GWP (ok. 5–12 kg CO₂ eq/kg) ze względu na energochłonność wypalania (~1 200°C). Jednak trwałość wyrobu (50–100 lat eksploatacji ceramiki sanitarnej) w przeliczeniu na rok użytkowania daje bardzo niski ślad węglowy. Po publikacji nowych hTS dla armatury sanitarnej oczekuje się deklarowania GWP w DoP&C.
 
 *Substancje niebezpieczne w glazurach*: Tradycyjne glazury zawierały tlenek ołowiu jako topnik. Nowoczesne glazury ołowio-wolne stają się normą, a CPR 2024 zaostrza wymagania dotyczące deklarowania składu chemicznego powierzchni kontaktujących się z wodą pitną.
 

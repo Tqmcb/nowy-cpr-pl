@@ -7,7 +7,7 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1 / 2+"
 normy: ["EN 13369", "EN 13225", "EN 1168", "EN 14843", "EN 14992", "EN 13230"]
 tags: ["prefabrykaty", "beton", "CPR 2024", "certyfikacja", "AVS"]
-excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika VII CPR 2024/3110. System AVS 1 lub 2+ w zależności od zastosowania. Obowiązkowe deklarowanie właściwości środowiskowych od 2027. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
+excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika VII CPR 2024/3110. System AVS 1 lub 2+ w zależności od zastosowania. Deklarowanie właściwości środowiskowych obowiązkowe po publikacji nowych hTS. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -61,7 +61,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 **DoP → DoP&C**: Dotychczasowa Deklaracja Właściwości Użytkowych (DoP) zostaje zastąpiona przez Deklarację Właściwości Użytkowych i Zgodności (DoP&C). Nowy dokument musi zawierać nie tylko deklarowane właściwości użytkowe, ale również potwierdzenie zgodności z wymogami CPR 2024 (w tym środowiskowymi). DoP&C musi być udostępniana w formie cyfrowej.
 
-**Właściwości środowiskowe – obowiązek deklarowania GWP od 2027**: Od wejścia w życie przepisów wykonawczych (przewidywany rok 2027) producenci prefabrykatów będą zobowiązani do deklarowania wskaźnika globalnego ocieplenia (GWP – Global Warming Potential) wyrażonego w kg CO₂ eq/m³ lub kg CO₂ eq/element. Wymaga to sporządzenia Deklaracji Środowiskowej Produktu (EPD) według EN 15804.
+**Właściwości środowiskowe – obowiązek deklarowania GWP po publikacji nowych hTS**: Po opublikowaniu nowej normy zharmonizowanej (hTS) dla prefabrykatów betonowych i zakończeniu okresu koegzystencji producenci będą zobowiązani do deklarowania wskaźnika globalnego ocieplenia (GWP – Global Warming Potential) wyrażonego w kg CO₂ eq/m³ lub kg CO₂ eq/element. Wymaga to sporządzenia Deklaracji Środowiskowej Produktu (EPD) według EN 15804. Na dzień publikacji żadna nowa hTS nie została jeszcze opublikowana.
 
 **System 3+ – nowość w CPR 2024**: Dla elementów, w których producent chce wykazać spełnienie wymagań środowiskowych (np. wartość GWP), możliwe jest skorzystanie z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji EPD, potwierdzając poprawność danych środowiskowych. To nie jest certyfikat, lecz raport walidacyjny – kluczowa różnica formalna.
 

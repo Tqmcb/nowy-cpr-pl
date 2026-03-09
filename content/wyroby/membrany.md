@@ -93,7 +93,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 - [ ] Opracować i wdrożyć procedury FPC (kontrola surowców, kontrola procesu, badania wyrobu gotowego)
 - [ ] Sporządzić DoP&C z wszystkimi wymaganymi normą właściwościami i udostępnić cyfrowo
 - [ ] Przegląd składu wyrobu pod kątem SVHC (szczególnie plastyfikatory w PVC, PAH w bitumie)
-- [ ] Zebrać dane środowiskowe od dostawców bitumu i polimerów do przyszłej EPD (GWP od 2027)
+- [ ] Zebrać dane środowiskowe od dostawców bitumu i polimerów do przyszłej EPD (GWP obowiązkowe po publikacji nowych hTS)
 - [ ] Oznakować wyroby (rolki, opakowania) znakiem CE z wymaganymi informacjami
 - [ ] Zaplanować harmonogram odnawiania badań ITT (typowo co 5 lat lub przy zmianach receptury)
 

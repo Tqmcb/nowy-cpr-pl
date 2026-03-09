@@ -7,7 +7,7 @@ category: "Izolacje"
 avs_system: "1 / 3"
 normy: ["EN 13162", "EN 13163", "EN 13164", "EN 13165", "EN 13166", "EN 13170", "EN 13171", "EN 13499", "EN 13500"]
 tags: ["izolacja", "wełna mineralna", "styropian", "XPS", "ETICS", "CPR 2024"]
-excerpt: "Izolacja termiczna i systemy ETICS – rodzina 4 CPR 2024. Wełna mineralna, EPS (styropian), XPS, pianka PUR, perlit. System AVS 1 lub 3. OGROMNA zmiana: obowiązkowe deklarowanie GWP od 2027 — kluczowe dla pozycjonowania rynkowego."
+excerpt: "Izolacja termiczna i systemy ETICS – rodzina 4 CPR 2024. Wełna mineralna, EPS (styropian), XPS, pianka PUR, perlit. System AVS 1 lub 3. Deklarowanie GWP obowiązkowe po publikacji nowych hTS — kluczowe dla pozycjonowania rynkowego."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -56,7 +56,7 @@ Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie
 
 ## Zmiany względem CPR 305/2011
 
-**Rewolucja środowiskowa – GWP stanie się parametrem rynkowym**: CPR 2024 jako pierwsza wersja rozporządzenia wprowadza obowiązek deklarowania właściwości środowiskowych. Dla izolacji termicznej – rodziny o kluczowym znaczeniu klimatycznym – oznacza to konieczność sporządzenia EPD (Environmental Product Declaration) i deklarowania wskaźnika GWP w kg CO₂ eq/m² lub kg CO₂ eq/m³.
+**Rewolucja środowiskowa – GWP stanie się parametrem rynkowym**: CPR 2024 wprowadza ramy prawne dla obowiązkowego deklarowania właściwości środowiskowych, ale obowiązek wchodzi w życie dopiero po publikacji nowej normy zharmonizowanej (hTS) dla danej rodziny wyrobów i zakończeniu okresu koegzystencji. Dla izolacji termicznej – rodziny o kluczowym znaczeniu klimatycznym – oznacza to konieczność sporządzenia EPD (Environmental Product Declaration) i deklarowania wskaźnika GWP w kg CO₂ eq/m² lub kg CO₂ eq/m³.
 
 Szacunkowe wartości GWP dla typowych wyrobów izolacyjnych (dane orientacyjne dla 1 m³):
 - Wełna skalna: ok. 80–150 kg CO₂ eq/m³ (~1,0–2,0 kg CO₂ eq/kg)
@@ -89,7 +89,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 **Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od NB, samodzielnie wystawia DoP&C. Kluczowe zadanie na 2026–2027: zlecenie EPD i wdrożenie deklaracji GWP.
 
-**Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po 2027.
+**Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 
 **System ETICS na EPS z tynkiem silikonowym**: Kompletny zestaw: klej, EPS, kołki, zaprawa wzmacniająca, siatka z włókna szklanego, grunt, tynk silikonowy. Wprowadzany na podstawie ETA (np. ETA-xx/yyyy wydana przez ITB). System AVS 1. Producent musi odnowić ETA w świetle CPR 2024; stare ETA ważne do 9 stycznia 2036.
 

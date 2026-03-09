@@ -75,7 +75,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 **Właściwości środowiskowe – wyzwanie dla polymerów**: CPR 2024 otwiera trudne pytania dla producentów geosyntetyków wykonanych z polimerów kopalnych (PP, PE, PVC). Mikrodrobiny plastiku i biodegradowalność geosyntetyków po zakończeniu eksploatacji stają się coraz ważniejszym tematem. Nowe wymagania CPR 2024 w zakresie trwałości i właściwości środowiskowych będą wymagały deklarowania projektowanego okresu eksploatacji (design working life) dla kluczowych zastosowań (50 lat dla składowisk, nasypów drogowych).
 
-**GWP i zawartość surowców z recyklingu**: Od 2027 producenci geosyntetyków będą musieli deklarować GWP i zawartość surowców wtórnych. Wyroby z recyclowanego polipropylenu (rPP) lub polietylenu (rPE) będą miały przewagę w zamówieniach publicznych GPP. Producenci, którzy wcześniej zainwestują w EPD i surowce z recyklingu, zyskają przewagę rynkową.
+**GWP i zawartość surowców z recyklingu**: Po publikacji nowych hTS i zakończeniu okresu koegzystencji producenci geosyntetyków będą musieli deklarować GWP i zawartość surowców wtórnych. Wyroby z recyclowanego polipropylenu (rPP) lub polietylenu (rPE) będą miały przewagę w zamówieniach publicznych GPP. Producenci, którzy wcześniej zainwestują w EPD i surowce z recyklingu, zyskają przewagę rynkową.
 
 **System 3+ dla EPD**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą walidować swoje EPD przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
 
