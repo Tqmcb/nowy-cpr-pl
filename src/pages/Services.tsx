@@ -157,7 +157,7 @@ export default function Services() {
       features: [
         "Ocena Księgi ZKP i procedur operacyjnych",
         "Weryfikacja dostosowania do systemu AVS klienta",
-        "Przegląd ZKP dla mikroprzedsiębiorstw (Art. 20 ust. 5)",
+        "Przegląd ZKP dla mikroprzedsiębiorstw (Art. 60)",
         "Wytyczne przed inspekcją jednostki notyfikowanej (NB)"
       ],
       gradient: "from-blue-400 to-cyan-500"
@@ -179,7 +179,7 @@ export default function Services() {
       number: "04",
       icon: Code2,
       title: "Weryfikacja i walidacja oprogramowania obliczeniowego",
-      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 20 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
+      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 21 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
       features: [
         "Weryfikacja algorytmów vs normy zharmonizowane",
         "Walidacja wyników vs deklarowane właściwości w DoP&C",
