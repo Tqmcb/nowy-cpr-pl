@@ -69,7 +69,7 @@ export const documents: Document[] = [
   {
     id: "dpp-guide",
     title: "Przewodnik po cyfrowym paszporcie produktu (DPP)",
-    description: "Kompletny przewodnik dotyczący Cyfrowego Paszportu Produktu (art. 25 CPR 2024/3110). Obejmuje harmonogram wdrożenia, wymagane dane, unikalny identyfikator (art. 25), wymagania techniczne dostępu i listę kontrolną producenta.",
+    description: "Kompletny przewodnik dotyczący Cyfrowego Paszportu Produktu (art. 75–80 CPR 2024/3110). Obejmuje harmonogram wdrożenia, wymagane dane, unikalny identyfikator (art. 78), wymagania techniczne dostępu i listę kontrolną producenta.",
     icon: "💻",
     fileType: "HTML",
     language: "PL",

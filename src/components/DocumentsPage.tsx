@@ -346,7 +346,7 @@ export function DocumentsPage() {
                 },
                 {
                   question: "Jakie są główne zmiany w CPR (EU) 2024/3110 w zakresie dokumentacji?",
-                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 18–19), obowiązek ujawniania substancji SVHC, nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 25) oraz unikalny identyfikator wyrobu."
+                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 18–19), obowiązek ujawniania substancji SVHC, nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 75–80) oraz unikalny identyfikator wyrobu."
                 },
                 {
                   question: "Czy mogę modyfikować pobrane szablony dokumentów?",

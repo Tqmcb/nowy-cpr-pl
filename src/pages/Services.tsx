@@ -210,7 +210,7 @@ export default function Services() {
         "CPR 2024 dla zarządu i kierowników — co się zmienia, terminy, ryzyka",
         "Warsztat DoP&C — jak wypełnić, SVHC, QR kod, dostęp cyfrowy",
         "ZKP dla działu jakości i produkcji — praktyczny przegląd wymagań",
-        "Cyfrowy Paszport Produktu — planowanie wdrożenia (Art. 25)"
+        "Cyfrowy Paszport Produktu — planowanie wdrożenia (Art. 75–80)"
       ],
       gradient: "from-teal-400 to-cyan-500"
     }
