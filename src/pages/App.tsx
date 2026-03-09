@@ -253,8 +253,8 @@ function HomePage() {
                 </p>
                 <p className="mt-4 text-slate-300 leading-relaxed text-base md:text-lg">
                   Na dziś <span className="font-semibold text-amber-400">żadna nowa hTS nie wyszła</span>.
-                  Pierwsze spodziewane są najwcześniej 2026–2027, więc
-                  realny obowiązek dla większości wyrobów to <span className="font-semibold text-white">2028–2029</span>.
+                  Pierwsze spodziewane są najwcześniej 2027–2029 (zgodnie z planem prac KE), więc
+                  realny obowiązek dla większości wyrobów to <span className="font-semibold text-white">najwcześniej 2029–2031</span>.
                 </p>
               </div>
             </div>

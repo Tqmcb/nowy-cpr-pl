@@ -80,14 +80,14 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 |---|---|
 | 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92); EPD i GWP w przygotowaniu |
-| ~2027 | Akty delegowane Komisji z obowiązkowym deklarowaniem GWP |
-| 2026–2027 | Baza EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
+| ~2028–2029 | Obowiązkowe deklarowanie GWP — po publikacji nowych hTS i upływie koegzystencji |
+| 2027–2028 | Rozbudowa bazy EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
 | 9 stycznia 2031 | Wygasają EAD (w tym dla systemów ETICS na ETA) |
 | 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
-**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od NB, samodzielnie wystawia DoP&C. Kluczowe zadanie na 2026–2027: zlecenie EPD i wdrożenie deklaracji GWP.
+**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od NB, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
 
 **Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 
@@ -104,7 +104,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 - [ ] Rozważyć walidację EPD przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
 - [ ] Sprawdzić zawartość SVHC (PolyFR zamiast HBCD w EPS, HFO zamiast HFC w XPS)
 - [ ] Udostępnić DoP&C cyfrowo – wdrożyć QR kody na opakowaniach palet i fakturach
-- [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) na 2026–2027
+- [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) — po publikacji aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)
 
 ## Gdzie szukać wsparcia
 

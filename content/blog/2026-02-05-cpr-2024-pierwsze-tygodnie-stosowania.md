@@ -40,7 +40,7 @@ System AVS 3+ jest zupełnie nowy — wcześniej nie istniał w CPR 305/2011. Do
 
 Pomimo pełnego stosowania CPR 2024, **cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C)** nie jest jeszcze w pełni obowiązkowa. Komisja Europejska musi wydać akty delegowane określające format techniczny i infrastrukturę repozytorium cyfrowego. Oczekiwane terminy:
 
-- Akty delegowane KE dotyczące Digital DoP&C: **2026–2027**
+- Akty delegowane KE dotyczące Digital DoP&C: **oczekiwane nie wcześniej niż 2027**
 - Obowiązek stosowania Digital DoP&C: **nie wcześniej niż 2027**
 
 Do tego czasu producenci mogą wystawiać DoP&C w formie papierowej lub PDF, udostępniając go na stronie internetowej (co zaleca Multicert już teraz jako dobrą praktykę).

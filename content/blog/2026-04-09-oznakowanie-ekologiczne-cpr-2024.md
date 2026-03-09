@@ -88,7 +88,7 @@ Kluczowe wymagania projektowanej GCD:
 - **Obowiązek informowania o zakresie twierdzenia** — twierdzenie dotyczące jednego aspektu środowiskowego (np. niski GWP) nie może być prezentowane w sposób sugerujący doskonałość środowiskową w całym cyklu życia,
 - **Specyficzne reguły dla oznaczeń** — systemy znakowania środowiskowego stosowane w twierdzeniach muszą być publiczne, przejrzyste i oparte na weryfikowalnych kryteriach.
 
-GCD po wejściu w życie (spodziewany termin wdrożenia do prawa krajowego: 2026–2027) będzie miała bezpośrednie skutki dla producentów wyrobów budowlanych:
+GCD po wejściu w życie (spodziewany termin wdrożenia do prawa krajowego: 2027–2028) będzie miała bezpośrednie skutki dla producentów wyrobów budowlanych:
 
 - Własne deklaracje środowiskowe nieoparte na weryfikowanym EPD lub EU Ecolabel będą prawnie ryzykowne,
 - Kampanie marketingowe używające terminologii „eko-" lub „zielony" bez poparcia w zweryfikowanych danych środowiskowych narażą producenta na postępowania administracyjne i kary,

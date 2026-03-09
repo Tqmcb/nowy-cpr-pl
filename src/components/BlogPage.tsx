@@ -232,7 +232,7 @@ Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która
 
 ## Harmonogram wdrożenia
 - 2025–2026: Przygotowanie infrastruktury i rejestr DPP
-- 2026–2027: Akty delegowane KE (format, dostawcy usług)
+- 2027–2028: Akty delegowane KE (format, dostawcy usług)
 - Po publikacji hTS: Obowiązkowe stosowanie (etapowo wg rodzin wyrobów)
 
 ## Korzyści

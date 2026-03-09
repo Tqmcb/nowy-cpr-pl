@@ -55,7 +55,7 @@ Jest to jedna z najważniejszych rodzin norm dla producentów wyrobów budowlany
 - EN 13170 — wyroby z ekspandowanego korka (ICB),
 - EN 13171 — wyroby z włókien drewnianych (WF).
 
-**Oczekiwana zmiana:** Komisja Europejska zleciła CEN opracowanie wersji zaktualizowanych, które będą uwzględniały obowiązkową deklarację wskaźnika **GWP-total w zakresie A1–A3** (etap produkcji, zgodnie z EN 15804+A2). Wstępnie planowane publikacje w OJEU to lata 2026–2027, z okresem koegzystencji wynoszącym 24 miesiące.
+**Oczekiwana zmiana:** Komisja Europejska zleciła CEN opracowanie wersji zaktualizowanych, które będą uwzględniały obowiązkową deklarację wskaźnika **GWP-total w zakresie A1–A3** (etap produkcji, zgodnie z EN 15804+A2). Zgodnie z planem prac KE COM(2025) 772, planowane publikacje w OJEU to lata 2027–2029, z okresem koegzystencji wynoszącym 24 miesiące.
 
 **Co to znaczy dla producenta wyrobów izolacyjnych?**
 Będzie konieczne przeprowadzenie lub zlecenie badania EPD (Environmental Product Declaration) zgodnego z EN 15804+A2, aby uzyskać wartość GWP-total. Koszty badania EPD wahają się zazwyczaj od 10 000 do 30 000 PLN w zależności od złożoności wyrobu i zakresu analizy LCA.

@@ -35,7 +35,7 @@ DoP (Deklaracja Właściwości Użytkowych) to dokument z CPR 305/2011. CPR 2024
 - Format PDF jest akceptowany jako forma "cyfrowej" dostępności
 
 ### Co jest planowane, ale wymaga aktów delegowanych KE
-- **Format XML/JSON** — Komisja Europejska opracowuje standard techniczny; oczekiwany 2026-2027
+- **Format XML/JSON** — Komisja Europejska opracowuje standard techniczny; oczekiwany nie wcześniej niż 2027
 - **Schema XSD** — zostanie dostarczona przez KE razem z aktem delegowanym
 - **Centralny europejski system dostępu** (repozytorium KE) — planowany na 2027-2028
 - **Unikalne identyfikatory** (np. DOI) — do określenia przez akty delegowane

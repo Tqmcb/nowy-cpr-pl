@@ -30,7 +30,7 @@ Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopa
 CPR 2024 zastępuje Deklarację Właściwości Użytkowych (DoP) nową **Deklaracją Właściwości Użytkowych i Zgodności (DoP&C)**. Kluczowe różnice:
 
 - DoP&C musi potwierdzać **zgodność** z wymaganiami CPR 2024 (nie tylko deklarować właściwości)
-- DoP&C musi być **dostępna online** — co najmniej link do pobrania na stronie producenta (papier/PDF nadal dopuszczalny); obowiązkowy format XML wymaga aktów delegowanych KE (oczekiwanych 2026-2027)
+- DoP&C musi być **dostępna online** — co najmniej link do pobrania na stronie producenta (papier/PDF nadal dopuszczalny); obowiązkowy format XML wymaga aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)
 - DoP&C musi zawierać dane środowiskowe (etapami, osobno dla każdej grupy wyrobów przez akty delegowane)
 - QR kod na etykiecie — dobra praktyka od 8.01.2026, obowiązkowy dopiero po aktach delegowanych
 
