@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 15 według załącznika VII CPR 2024/3110 obejmuje cement, wapno budowlane i inne spoiwa hydrauliczne. Jest to jedna z nielicznych rodzin, dla których obowiązuje System AVS 1+ – najwyższy możliwy poziom nadzoru w nowym rozporządzeniu. Wynika to z fundamentalnej roli spoiw hydraulicznych w bezpieczeństwie konstrukcji budowlanych: cement jest podstawowym składnikiem betonu, zapraw i wielu systemów naprawczych.
+Rodzina 15 według Załącznika IV CPR 2024/3110 obejmuje cement, wapno budowlane i inne spoiwa hydrauliczne. Jest to jedna z nielicznych rodzin, dla których obowiązuje System AVS 1+ – najwyższy możliwy poziom nadzoru w nowym rozporządzeniu. Wynika to z fundamentalnej roli spoiw hydraulicznych w bezpieczeństwie konstrukcji budowlanych: cement jest podstawowym składnikiem betonu, zapraw i wielu systemów naprawczych.
 
 Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośród wszystkich rodzin w CPR 2024/3110. Produkcja klinkieru portlandzkiego generuje około **0,83–0,95 kg CO2 na kilogram** cementu – co sprawia, że przemysł cementowy odpowiada globalnie za około 7–8% całkowitej emisji CO2. CPR 2024 po raz pierwszy oficjalnie wymaga deklarowania tych wartości w ramach DoP&C, a System 3+ umożliwia niezależną walidację EPD przez jednostkę notyfikowaną.
 

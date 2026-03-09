@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 17 według załącznika VII CPR 2024/3110 obejmuje wyroby murowe i wyroby pokrewne: elementy murowe, zaprawy murarskie, zaprawy tynkarskie oraz wyroby pomocnicze (kotwy, strzemiona, łączniki, zbrojenie spoin). Jest to jedna z największych rodzin wyrobów pod względem liczby norm zharmonizowanych i różnorodności produktów.
+Rodzina 17 według Załącznika IV CPR 2024/3110 obejmuje wyroby murowe i wyroby pokrewne: elementy murowe, zaprawy murarskie, zaprawy tynkarskie oraz wyroby pomocnicze (kotwy, strzemiona, łączniki, zbrojenie spoin). Jest to jedna z największych rodzin wyrobów pod względem liczby norm zharmonizowanych i różnorodności produktów.
 
 Wyroby murowe tworzą mury nośne i ściany działowe – dwa fundamentalnie różne zastosowania, którym odpowiadają różne systemy AVS. Ściany nośne wymagają rygorystycznej certyfikacji (System AVS 2+), natomiast elementy wyłącznie estetyczne lub działowe mogą korzystać z systemu 3 lub 4.
 

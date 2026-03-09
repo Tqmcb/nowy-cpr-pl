@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 14 w załączniku VII CPR 2024/3110 obejmuje płyty i elementy drewnopochodne stosowane w budownictwie. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów – obejmuje produkty wytwarzane z drewna poddanego różnym procesom mechanicznym i chemicznym, od prostej sklejki po wysoce przetworzone płyty MDF i HDF.
+Rodzina 14 w Załączniku IV CPR 2024/3110 obejmuje płyty i elementy drewnopochodne stosowane w budownictwie. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów – obejmuje produkty wytwarzane z drewna poddanego różnym procesom mechanicznym i chemicznym, od prostej sklejki po wysoce przetworzone płyty MDF i HDF.
 
 Główne typy wyrobów w rodzinie 14:
 - **Sklejka** (plywood) – warstwy forniru klejone na krzyż

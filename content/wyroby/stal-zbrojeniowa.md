@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 16 w załączniku VII CPR 2024/3110 obejmuje stal zbrojeniową i sprężającą do betonu oraz wyroby pomocnicze, w tym systemy sprężania post-tensioning. Są to wyroby o kluczowym znaczeniu dla bezpieczeństwa konstrukcji – zbrojenie przenosi siły rozciągające w elementach żelbetowych, a stale sprężające (o wytrzymałości 3–5-krotnie wyższej niż zbrojeniowe) są stosowane w mostach, halach sprężonych i stropach bezbelkowych.
+Rodzina 16 w Załączniku IV CPR 2024/3110 obejmuje stal zbrojeniową i sprężającą do betonu oraz wyroby pomocnicze, w tym systemy sprężania post-tensioning. Są to wyroby o kluczowym znaczeniu dla bezpieczeństwa konstrukcji – zbrojenie przenosi siły rozciągające w elementach żelbetowych, a stale sprężające (o wytrzymałości 3–5-krotnie wyższej niż zbrojeniowe) są stosowane w mostach, halach sprężonych i stropach bezbelkowych.
 
 System AVS 1+ dla tej rodziny wynika z bezpośredniego wpływu jakości zbrojenia na bezpieczeństwo konstrukcji żelbetowych. Niski poziom ciągliwości lub spawalności pręta zbrojeniowego może prowadzić do kruchego zniszczenia bez wcześniejszego ostrzeżenia – czyli do katastrofy budowlanej. CPR 2024/3110 nie obniża wymagań dotyczących nadzoru, a wręcz wzmacnia je przez wprowadzenie obowiązkowej deklaracji właściwości środowiskowych.
 

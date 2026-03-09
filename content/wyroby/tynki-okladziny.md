@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 21 w załączniku VII CPR 2024/3110 obejmuje wykończenia wewnętrznych i zewnętrznych powierzchni ścian i sufitów oraz zestawy ścianek działowych. Jest to rodzina obejmująca ogromną różnorodność produktów: od tradycyjnych tynków cementowo-wapiennych przez nowoczesne tynki silikonowe i silikatowe, po systemy suchej zabudowy z płyt gipsowo-kartonowych (GK) i gipsowo-włóknowych (GF).
+Rodzina 21 w Załączniku IV CPR 2024/3110 obejmuje wykończenia wewnętrznych i zewnętrznych powierzchni ścian i sufitów oraz zestawy ścianek działowych. Jest to rodzina obejmująca ogromną różnorodność produktów: od tradycyjnych tynków cementowo-wapiennych przez nowoczesne tynki silikonowe i silikatowe, po systemy suchej zabudowy z płyt gipsowo-kartonowych (GK) i gipsowo-włóknowych (GF).
 
 Z perspektywy CPR 2024/3110 rodzina 21 jest szczególnie istotna ze względu na wymaganie podstawowe nr 3 (Higiena, zdrowie i środowisko), gdyż tynki i okładziny wewnętrzne są w bezpośrednim kontakcie z powietrzem w pomieszczeniach i mogą być źródłem emisji VOC. Nowe rozporządzenie formalizuje obowiązek deklarowania emisji dla wyrobów do zastosowań wewnętrznych.
 

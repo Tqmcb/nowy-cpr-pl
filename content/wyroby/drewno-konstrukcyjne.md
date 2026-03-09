@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 13 według załącznika VII rozporządzenia CPR 2024/3110 obejmuje konstrukcyjne wyroby i elementy z drewna oraz wyroby pomocnicze stosowane w budownictwie. Do grupy tej zaliczają się: drewno sortowane wytrzymałościowo (piłowane lub strugane), drewno klejone warstwowo (GLT/BSH, ang. glued laminated timber), lite drewno klejone CLT (ang. cross-laminated timber), drewno z łącznikami palcowymi (ang. finger-jointed structural timber) oraz drewno warstwowe LVL (ang. laminated veneer lumber).
+Rodzina 13 według Załącznika IV rozporządzenia CPR 2024/3110 obejmuje konstrukcyjne wyroby i elementy z drewna oraz wyroby pomocnicze stosowane w budownictwie. Do grupy tej zaliczają się: drewno sortowane wytrzymałościowo (piłowane lub strugane), drewno klejone warstwowo (GLT/BSH, ang. glued laminated timber), lite drewno klejone CLT (ang. cross-laminated timber), drewno z łącznikami palcowymi (ang. finger-jointed structural timber) oraz drewno warstwowe LVL (ang. laminated veneer lumber).
 
 Drewno jest jednym z najstarszych materiałów konstrukcyjnych, lecz CPR 2024/3110 wprowadza dla niego zupełnie nową perspektywę – środowiskową. Drewno rosnące w lesie pochłania CO2 z atmosfery i wiąże go w biomasie. Szacuje się, że 1 kg drewna budowlanego (o gęstości ~500 kg/m³) sekwestruje netto około 1,6–1,8 kg CO2eq w ciągu całego okresu wzrostu drzewa. Oznacza to, że wskaźnik GWP (ang. Global Warming Potential) deklarowany w EPD dla drewna konstrukcyjnego może być **ujemny** – co stanowi unikalną przewagę marketingową i regulacyjną na rynku materiałów budowlanych.
 

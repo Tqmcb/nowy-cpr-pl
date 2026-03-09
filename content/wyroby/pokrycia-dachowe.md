@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 22 w załączniku VII CPR 2024/3110 obejmuje szerokie spektrum wyrobów dachowych: dachówki ceramiczne i betonowe, papy bitumiczne i membrany bitumiczne, blachy stalowe i aluminiowe płaskie oraz profilowane, membrany z tworzyw sztucznych (TPO, PVC, EPDM), podkłady pod pokrycia (paroizolacje, wiatroizolacje), folie dachowe, a także okna dachowe, świetliki i kompleksowe zestawy dachowe (roof kits).
+Rodzina 22 w Załączniku IV CPR 2024/3110 obejmuje szerokie spektrum wyrobów dachowych: dachówki ceramiczne i betonowe, papy bitumiczne i membrany bitumiczne, blachy stalowe i aluminiowe płaskie oraz profilowane, membrany z tworzyw sztucznych (TPO, PVC, EPDM), podkłady pod pokrycia (paroizolacje, wiatroizolacje), folie dachowe, a także okna dachowe, świetliki i kompleksowe zestawy dachowe (roof kits).
 
 Dachy pełnią krytyczną funkcję w zakresie wymagania podstawowego nr 1 (nośność mechaniczna i stateczność – obciążenia śniegiem i wiatrem), nr 2 (bezpieczeństwo pożarowe – klasa BROOF i zewnętrzne zachowanie w ogniu), nr 3 (higiena – wodoszczelność chroniąca przed wilgocią w budynku), nr 4 (energooszczędność) i nr 5 (ochrona przed hałasem, zwłaszcza deszczowym).
 

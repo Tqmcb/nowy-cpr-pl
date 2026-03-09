@@ -83,9 +83,9 @@ Digital DoP&C (CPR 2024) będzie zawierać:
 - Wzrost kar za niezgodności (od 8 stycznia 2027)
 - System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych produktów)
 
-### 6. 36 rodzin wyrobów (Załącznik VII)
+### 6. 36 rodzin wyrobów (Załącznik IV)
 
-CPR 2024 precyzuje katalog wyrobów budowlanych objętych rozporządzeniem do **36 rodzin** (Załącznik VII). Nową rodziną dodaną w CPR 2024 są **Drabiny przyścienne** (rodzina 36 — ATTACHED LADDERS), wcześniej nieujęte w CPR 305/2011.
+CPR 2024 precyzuje katalog wyrobów budowlanych objętych rozporządzeniem do **36 rodzin** (Załącznik IV). Nową rodziną dodaną w CPR 2024 są **Drabiny przyścienne** (rodzina 36 — ATTACHED LADDERS), wcześniej nieujęte w CPR 305/2011.
 
 ## Jak się przygotować?
 

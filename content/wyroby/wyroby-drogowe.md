@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 23 w załączniku VII CPR 2024/3110 obejmuje wyroby stosowane w budownictwie drogowym i infrastrukturalnym. Jest to szeroka kategoria obejmująca asfalty drogowe (lepiszcza asfaltowe), asfalty modyfikowane polimerami, emulsje asfaltowe, mieszanki mineralno-asfaltowe (AC, SMA, PA), a także betonowe prefabrykaty drogowe: kostki brukowe, płyty chodnikowe, krawężniki, obrzeża.
+Rodzina 23 w Załączniku IV CPR 2024/3110 obejmuje wyroby stosowane w budownictwie drogowym i infrastrukturalnym. Jest to szeroka kategoria obejmująca asfalty drogowe (lepiszcza asfaltowe), asfalty modyfikowane polimerami, emulsje asfaltowe, mieszanki mineralno-asfaltowe (AC, SMA, PA), a także betonowe prefabrykaty drogowe: kostki brukowe, płyty chodnikowe, krawężniki, obrzeża.
 
 Branża drogowa jest o tyle specyficzna, że wiele wyrobów produkowanych jest na bieżąco na placu budowy (wytwórnie asfaltu) lub dostarczanych jako surowce do dalszego przetworzenia, co komplikuje ścieżkę certyfikacji. CPR 2024/3110 wprowadza bardziej precyzyjne wymagania dotyczące tego, kiedy asfalt jest „wyrobem budowlanym" wymagającym CE, a kiedy jest surowcem lub mieszanką produkowaną na miejscu.
 
