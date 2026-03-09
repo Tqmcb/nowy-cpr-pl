@@ -40,9 +40,9 @@ Na podstawie EAD przeprowadzane są badania i ocena właściwości użytkowych p
 
 TAB wydaje Europejską Ocenę Techniczną zawierającą zestaw właściwości użytkowych produktu, które producent może deklarować.
 
-### Krok 5: Certyfikacja zgodnie z systemem AVCP
+### Krok 5: Certyfikacja zgodnie z systemem AVS
 
-Po uzyskaniu ETA producent przeprowadza ocenę zgodności zgodnie z systemem AVCP określonym w EAD, wystawia DoP i nanosi oznakowanie CE.
+Po uzyskaniu ETA producent przeprowadza ocenę zgodności zgodnie z systemem AVS określonym w EAD, wystawia DoP&C i nanosi oznakowanie CE.
 
 ## Jednostki TAB w Polsce
 

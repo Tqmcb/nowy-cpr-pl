@@ -19,7 +19,7 @@ Beton towarowy i wyroby prefabrykowane to jedne z najważniejszych grup wyrobów
 
 Beton towarowy produkowany na terenie UE musi spełniać wymagania normy EN 206 (z krajowymi załącznikami normalizacyjnymi).
 
-**System AVCP: 2+**
+**System AVS: 2+**
 - Certyfikacja Zakładowej Kontroli Produkcji przez jednostkę notyfikowaną
 - Nadzór zewnętrzny FPC przynajmniej dwa razy w roku
 - Badania typu (ITT) przez producenta
@@ -47,7 +47,7 @@ Beton towarowy produkowany na terenie UE musi spełniać wymagania normy EN 206 
 | Elementy ścienne | EN 14992 |
 | Fundamenty | EN 13230 |
 
-### System AVCP
+### System AVS
 
 - **System 2+** dla większości prefabrykatów nośnych
 - **System 4** dla niektórych elementów wykończeniowych nieprzenoszących obciążeń

@@ -17,7 +17,7 @@ Okna i drzwi zewnętrzne to wyroby budowlane, dla których CPR nakłada szczegó
 
 Norma EN 14351-1 obejmuje okna i drzwi zewnętrzne do budynków mieszkalnych i komercyjnych. Dotyczy wyrobów wykonanych ze wszystkich materiałów: PVC, drewna, aluminium i ich kombinacji.
 
-**System AVCP: 1 / 3 / 4** (zależnie od deklarowanej właściwości)
+**System AVS: 1 / 3 / 4** (zależnie od deklarowanej właściwości)
 - **System 1** – dla właściwości związanych z reakcją na ogień i odpornością na ogień (wymagany certyfikat jednostki notyfikowanej)
 - **System 3** – dla głównych właściwości użytkowych (przepuszczalność powietrza, wodoszczelność, odporność na wiatr itp.): badania ITT przeprowadza **notyfikowane laboratorium badawcze**; FPC prowadzi producent
 - **System 4** – dla niektórych właściwości deklarowanych dobrowolnie: samodeklaracja producenta
@@ -53,9 +53,9 @@ Laboratorium przeprowadza badania wg odpowiednich norm EN. Czas realizacji typow
 
 Jednostka notyfikowana wydaje raport z badań (Test Report), który jest podstawą do deklarowania właściwości.
 
-### Krok 4: Opracowanie Deklaracji Właściwości Użytkowych (DoP)
+### Krok 4: Opracowanie Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)
 
-Na podstawie raportu ITT producent opracowuje DoP dla każdego wyrobu lub grupy wyrobów.
+Na podstawie raportu ITT producent opracowuje DoP&C dla każdego wyrobu lub grupy wyrobów.
 
 ### Krok 5: Oznakowanie CE
 

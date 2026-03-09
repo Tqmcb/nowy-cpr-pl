@@ -118,7 +118,7 @@ FPC musi być opisany w **Podręczniku FPC** — dokumencie wewnętrznym produce
 
 ---
 
-## Krok 6: Audyt i certyfikat JN (dla systemów AVCP 1+, 1, 2+)
+## Krok 6: Audyt i certyfikat JN (dla systemów AVS 1+, 1, 2+)
 
 **Czas trwania:** 2–8 tygodni od zgłoszenia gotowości
 

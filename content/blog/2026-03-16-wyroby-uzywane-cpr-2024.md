@@ -57,7 +57,7 @@ Nowa ocena zgodności jest wymagana w następujących sytuacjach:
 - **Właściwości użytkowe wyrobu uległy pogorszeniu** (np. wskutek korozji, uszkodzeń mechanicznych, starzenia materiału) i nie odpowiadają już zadeklarowanym wartościom,
 - **Wyrób jest z odzysku i nigdy nie posiadał DoP&C** (np. pochodzi z okresu przed wejściem w życie CPR lub z kraju, w którym nie było obowiązku oznakowania CE).
 
-W praktyce ocena, czy konieczna jest nowa procedura AVCP, wymaga technicznej wiedzy o właściwościach konkretnej grupy wyrobów. CPR 2024 nie wyłącza możliwości zastosowania uproszczonych procedur oceny dla wyrobów wtórnych — w szczególności procedur opartych na wizualnej inspekcji, badaniach nieniszczących lub dokumentacji historycznej — pod warunkiem że są one uznane jako wystarczające przez właściwą jednostkę notyfikowaną.
+W praktyce ocena, czy konieczna jest nowa procedura AVS, wymaga technicznej wiedzy o właściwościach konkretnej grupy wyrobów. CPR 2024 nie wyłącza możliwości zastosowania uproszczonych procedur oceny dla wyrobów wtórnych — w szczególności procedur opartych na wizualnej inspekcji, badaniach nieniszczących lub dokumentacji historycznej — pod warunkiem że są one uznane jako wystarczające przez właściwą jednostkę notyfikowaną.
 
 ## Uproszczone procedury oceny dla wyrobów z odzysku
 

@@ -40,7 +40,7 @@ Importer zobowiązany jest do przeprowadzenia weryfikacji dokumentacji producent
 - sprawdzenie, czy producent sporządził techniczną dokumentację referencyjną (TDR) lub inną wymaganą dokumentację techniczną,
 - potwierdzenie, że wyrób posiada właściwe oznakowanie CE,
 - weryfikację dostępności Deklaracji Właściwości i Zgodności (DoP&C) — w nowym CPR połączono dotychczasową Deklarację Właściwości (DoP) z deklaracją zgodności,
-- sprawdzenie, czy zastosowana procedura oceny i weryfikacji stałości właściwości użytkowych (AVCP) odpowiada wymaganiom dla danej grupy wyrobów.
+- sprawdzenie, czy zastosowana procedura oceny i weryfikacji stałości właściwości użytkowych (AVS) odpowiada wymaganiom dla danej grupy wyrobów.
 
 Importer nie musi być ekspertem technicznym w danej dziedzinie, jednak musi wykazać należytą staranność. W przypadku wątpliwości co do rzetelności dokumentacji producenta, importer powinien zwrócić się o niezależną weryfikację lub powstrzymać się od wprowadzenia wyrobu do obrotu.
 
@@ -65,7 +65,7 @@ Importer, który ma uzasadnione powody, by sądzić, że wyrób budowlany, któr
 | Obszar | CPR 305/2011 | CPR 2024 |
 |--------|-------------|----------|
 | Odpowiedzialność | Własna, za własne działania | Własna, z rozszerzonymi obowiązkami weryfikacyjnymi (art. 24) |
-| Weryfikacja dokumentacji | Ogólny obowiązek sprawdzenia | Szczegółowa weryfikacja TDR, DoP&C, oznakowania CE i procedury AVCP |
+| Weryfikacja dokumentacji | Ogólny obowiązek sprawdzenia | Szczegółowa weryfikacja TDR, DoP&C, oznakowania CE i procedury AVS |
 | Dane na wyrobie | Nazwa i adres importera | Nazwa, znak towarowy lub adres kontaktowy — dopuszczony URL |
 | Przechowywanie dokumentacji | 10 lat (ogólnie) | 10 lat, z wymogiem dostępności cyfrowej |
 | Działania w przypadku niezgodności | Ogólny obowiązek | Szczegółowe procedury wycofania i powiadomienia organów |

@@ -31,9 +31,9 @@ Zgodnie z CPR 2024/3110, importer musi:
 
 ## Wymagana dokumentacja
 
-- **Deklaracja właściwości użytkowych (DoP)** – oryginał + tłumaczenia
+- **Deklaracja właściwości użytkowych i zgodności (DoP&C)** – oryginał + tłumaczenia
 - **Raporty z badań** przeprowadzonych przez akredytowane laboratoria
-- **Certyfikaty zgodności** (jeśli wymagane przez system AVCP)
+- **Certyfikaty zgodności** (jeśli wymagane przez system AVS)
 - **Dokumentacja zakładowej kontroli produkcji** (FPC) – dla systemów 2+ i wyższych
 - **Certyfikat jednostki notyfikowanej** – jeśli wymagany
 

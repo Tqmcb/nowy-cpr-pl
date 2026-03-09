@@ -285,10 +285,10 @@ Nieprawidłowe oznakowanie CE może skutkować:
   },
   {
     id: "4",
-    title: "System AVCP - Ocena i weryfikacja stałości właściwości użytkowych",
+    title: "System AVS - Ocena i weryfikacja stałości właściwości użytkowych",
     slug: "system-avcp",
-    excerpt: "Kompletny przegląd systemów oceny AVCP 1+, 1, 2+, 3 i 4. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji?",
-    content: `# Systemy AVCP w CPR 2024
+    excerpt: "Kompletny przegląd systemów oceny AVS 1+, 1, 2+, 3 i 4. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji?",
+    content: `# Systemy AVS w CPR 2024
 
 ## Przegląd systemów
 
@@ -325,7 +325,7 @@ Nieprawidłowe oznakowanie CE może skutkować:
     is_published: true,
     category: "Certyfikacja",
     image_url: "/images/blog/normy-eta.jpg",
-    tags: ["AVCP", "systemy oceny", "certyfikacja", "jednostki notyfikowane"]
+    tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane"]
   },
   {
     id: "5",
@@ -573,7 +573,7 @@ Europejska Ocena Techniczna (ETA) jest wymagana gdy:
 2. Opracowanie EAD (European Assessment Document)
 3. Ocena i badania produktu
 4. Wydanie ETA
-5. Certyfikacja zgodnie z systemem AVCP
+5. Certyfikacja zgodnie z systemem AVS
 
 ## Krajowe Oceny Techniczne
 Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie ma hEN ani ETA.
@@ -635,7 +635,7 @@ Zgodnie z CPR 2024, importer musi:
 
 ## Beton towarowy
 ### Norma: EN 206:2024
-- System AVCP: 2+
+- System AVS: 2+
 - Wymagana certyfikacja FPC przez jednostkę notyfikowaną
 
 ### Kluczowe właściwości
@@ -651,7 +651,7 @@ Zgodnie z CPR 2024, importer musi:
 - EN 13224 - Płyty żebrowe
 - EN 1168 - Płyty kanałowe
 
-### System AVCP
+### System AVS
 - System 2+ dla większości prefabrykatów
 - System 4 dla niektórych elementów wykończeniowych
 
@@ -671,13 +671,13 @@ Zgodnie z CPR 2024, importer musi:
     id: "14",
     title: "Okna i drzwi - certyfikacja według EN 14351-1",
     slug: "okna-drzwi-certyfikacja",
-    excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2024. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP.",
+    excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2024. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP&C.",
     content: `# Okna i drzwi - certyfikacja EN 14351-1
 
 ## Zakres normy EN 14351-1:2024
 Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
 
-## System AVCP: 3
+## System AVS: 3
 - Badania typu (ITT) przez jednostkę notyfikowaną
 - Zakładowa kontrola produkcji przez producenta
 
@@ -693,7 +693,7 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
 1. Przygotowanie próbek reprezentatywnych
 2. Badania w laboratorium notyfikowanym
 3. Raport z badań typu (ITT report)
-4. Opracowanie DoP
+4. Opracowanie DoP&C
 5. Oznakowanie CE
 
 ## Koszty badań
@@ -710,25 +710,25 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
     id: "15",
     title: "Wyroby izolacyjne - przegląd norm i wymagań CPR",
     slug: "wyroby-izolacyjne-normy",
-    excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVCP.",
+    excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVS.",
     content: `# Wyroby izolacyjne - wymagania CPR
 
 ## Główne normy zharmonizowane
 
 ### Wełna mineralna - EN 13162
-- System AVCP: 3 (1 dla reakcji na ogień)
+- System AVS: 3 (1 dla reakcji na ogień)
 - Właściwości termiczne, akustyczne, ogniowe
 
 ### Styropian EPS - EN 13163
-- System AVCP: 3 (1 dla ETICS)
+- System AVS: 3 (1 dla ETICS)
 - Klasy lambda: od 030 do 045
 
 ### Styrodur XPS - EN 13164
-- System AVCP: 3
+- System AVS: 3
 - Zastosowanie: fundamenty, dachy odwrócone
 
 ### Pianka PIR/PUR - EN 13165
-- System AVCP: 3
+- System AVS: 3
 - Najlepsze parametry termiczne
 
 ## Kluczowe właściwości

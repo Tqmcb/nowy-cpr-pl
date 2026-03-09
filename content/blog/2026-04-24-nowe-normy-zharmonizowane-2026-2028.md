@@ -94,7 +94,7 @@ Dotyczy to w szczególności:
 ### 4. Normy dla wyrobów ogniochronnych
 
 Wyroby ogniochronne (farby i powłoki pęczniejące, płyty ogniochronne, uszczelnienia ogniowe) podlegają normom z obszaru EN 13501, EN 1366 i powiązanym. Aktualizacje w latach 2027–2028 są spodziewane w zakresie:
-- Uszczegółowienia wymagań dotyczących systemu AVCP 1 (pozostaje bez zmian jako najwyższy poziom ochrony).
+- Uszczegółowienia wymagań dotyczących systemu AVS 1 (pozostaje bez zmian jako najwyższy poziom ochrony).
 - Rozszerzenia wymogów dotyczących długoterminowej trwałości właściwości ogniochronnych po ekspozycji na warunki środowiskowe.
 
 ---

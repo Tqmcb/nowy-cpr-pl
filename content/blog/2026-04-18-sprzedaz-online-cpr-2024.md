@@ -90,7 +90,7 @@ Ogólna zasada CPR 2024 jest następująca:
 
 | Obowiązek | Producent | Importer | Dystrybutor |
 |---|---|---|---|
-| Ocena właściwości (AVCP) | TAK | NIE | NIE |
+| Ocena właściwości (AVS) | TAK | NIE | NIE |
 | Sporządzenie DoP&C | TAK | Może przejąć | NIE |
 | Oznakowanie CE | TAK | Może przejąć | NIE |
 | Weryfikacja DoP&C i CE | NIE | TAK | TAK |

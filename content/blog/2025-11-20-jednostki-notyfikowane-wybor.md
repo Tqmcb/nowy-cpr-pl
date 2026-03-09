@@ -15,7 +15,7 @@ Wybór właściwej jednostki notyfikowanej to jedna z najważniejszych decyzji w
 
 ## Czym są jednostki notyfikowane?
 
-Jednostki notyfikowane (Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVCP. Są one notyfikowane Komisji Europejskiej i wpisane do bazy NANDO.
+Jednostki notyfikowane (Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVS. Są one notyfikowane Komisji Europejskiej i wpisane do bazy NANDO.
 
 ## Główne jednostki notyfikowane w Polsce
 

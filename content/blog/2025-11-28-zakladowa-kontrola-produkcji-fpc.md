@@ -46,7 +46,7 @@ Wymagane minimum **raz w roku**. Powinny obejmować:
 
 ### Audyty zewnętrzne (jednostki notyfikowanej)
 
-Dla systemów AVCP 1+, 1 i 2+ – zgodnie z harmonogramem ustalonym z jednostką notyfikowaną, zazwyczaj raz lub dwa razy w roku.
+Dla systemów AVS 1+, 1 i 2+ – zgodnie z harmonogramem ustalonym z jednostką notyfikowaną, zazwyczaj raz lub dwa razy w roku.
 
 ## Najczęstsze błędy
 

@@ -4,7 +4,7 @@ date: "2025-10-10"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
-excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVCP."
+excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVS."
 image_url: /images/blog/wyroby-izolacyjne-normy.jpg
 template: "techniczny"
 ---
@@ -19,7 +19,7 @@ Materiały termoizolacyjne to jedna z największych grup wyrobów budowlanych na
 
 Wełna szklana i skalna stosowana w izolacji termicznej, akustycznej i ogniochronnej.
 
-- **System AVCP:** 3 (standardowy) / **System 1** dla reakcji na ogień
+- **System AVS:** 3 (standardowy) / **System 1** dla reakcji na ogień
 - Właściwości termiczne, akustyczne i ogniowe
 - Konieczność badań ITT w jednostce notyfikowanej dla systemu 1 (euroklasa)
 
@@ -27,7 +27,7 @@ Wełna szklana i skalna stosowana w izolacji termicznej, akustycznej i ogniochro
 
 Ekspandowany polistyren – najpopularniejszy materiał izolacyjny.
 
-- **System AVCP:** 3 (standardowy) / **System 1** dla ETICS
+- **System AVS:** 3 (standardowy) / **System 1** dla ETICS
 - Klasy lambda: od λD = 0,030 do 0,045 W/(mK)
 - Klasy reakcji na ogień: E (standard), B-D z uniepalniacze
 
@@ -35,7 +35,7 @@ Ekspandowany polistyren – najpopularniejszy materiał izolacyjny.
 
 Ekstrudowany polistyren – izolacja w warunkach wilgoci i nacisku.
 
-- **System AVCP:** 3
+- **System AVS:** 3
 - Zastosowanie: fundamenty, dachy odwrócone, posadzki
 - Deklarowana wytrzymałość na ściskanie (CS) jako kluczowa właściwość
 
@@ -43,7 +43,7 @@ Ekstrudowany polistyren – izolacja w warunkach wilgoci i nacisku.
 
 Poliizocyjanuran i poliuretan – najlepsza izolacyjność cieplna.
 
-- **System AVCP:** 3
+- **System AVS:** 3
 - Najniższe wartości lambda na rynku: 0,022 – 0,028 W/(mK)
 - Stosowane w płytach warstwowych, systemach dachowych
 
@@ -73,7 +73,7 @@ Każdy wyrób izolacyjny z oznakowaniem CE musi posiadać:
 - Numer normy europejskiej (np. EN 13162)
 - **Deklarowaną wartość lambda λD** – obowiązkowa i czytelna
 - Klasę reakcji na ogień (np. A1, B-s1,d0, E)
-- Numer DoP
+- Numer DoP&C
 
 ## CPR 2024 – nowe wymogi dla izolacji
 
@@ -85,9 +85,9 @@ Po wejściu w życie zaktualizowanych norm zharmonizowanych (hTS) dla wyrobów i
 
 Ma to szczególne znaczenie dla EPS i XPS (związane z HBCD i blowing agents) oraz PIR/PUR.
 
-## Przegląd systemu AVCP
+## Przegląd systemu AVS
 
-| Wyrób | Zastosowanie | System AVCP |
+| Wyrób | Zastosowanie | System AVS |
 |-------|-------------|-------------|
 | Wełna mineralna | Standardowe | 3 |
 | Wełna mineralna | Euroklasa A1/A2 | 1 |
