@@ -63,7 +63,7 @@ Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru B
 
 | Wymaganie | Podstawa prawna (UE) | Status krajowy | Realne ryzyko kary |
 |-----------|---------------------|---------------|-------------------|
-| DoP&C w nowym formacie (Art. 18–19) | ✅ Obowiązuje | ⚠️ NUWB w trakcie uchwalania | Niskie |
+| DoP&C w nowym formacie (Art. 15) | ✅ Obowiązuje | ⚠️ NUWB w trakcie uchwalania | Niskie |
 | Unikalny identyfikator produktu (UPC) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
 | Cyfrowy dostęp do DoP&C (URL/QR) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
 | Deklarowanie GWP w DoP&C | ❌ Brak hTS | ❌ Brak podstawy prawnej | **Zerowe** |
@@ -118,7 +118,7 @@ Ważne: producent **nie musi sam budować serwera** dla swojego DPP. Będzie mó
 
 ## Co CPR 2024 mówi o QR kodzie już dziś?
 
-Choć DPP nie jest jeszcze obowiązkowy, CPR 2024/3110 już teraz (od 8 stycznia 2026) wymaga, by **DoP&C była dostępna cyfrowo** — przez URL lub QR kod na wyrobie/opakowaniu (Art. 18 ust. 3).
+Choć DPP nie jest jeszcze obowiązkowy, CPR 2024/3110 już teraz (od 8 stycznia 2026) wymaga, by **DoP&C była dostępna cyfrowo** — przez URL lub QR kod na wyrobie/opakowaniu (Art. 16 ust. 2).
 
 To jest **poprzedniczka DPP** — jeśli teraz wdrożysz cyfrową dostępność DoP&C przez QR kod, zbudujesz fundament pod przyszły DPP. Techniczne przygotowanie jest bardzo podobne.
 

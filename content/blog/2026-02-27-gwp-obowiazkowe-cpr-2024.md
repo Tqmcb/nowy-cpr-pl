@@ -29,7 +29,7 @@ Budownictwo odpowiada za ok. **40% zużycia energii i 36% emisji CO₂** w UE. K
 
 ## Co dokładnie mówi CPR 2024/3110?
 
-Rozporządzenie CPR 2024/3110 reguluje treść Deklaracji Właściwości i Zgodności (DoP&C) w **Art. 18–19**, które bezpośrednio określają, jakie wskaźniki środowiskowe — w tym GWP — muszą być deklarowane. Podstawowe wymagania dotyczące obiektów budowlanych, w tym zrównoważone użytkowanie zasobów naturalnych, zawarte są w **Załączniku I** do CPR 2024. Wskaźniki środowiskowe do obowiązkowego deklarowania wymienione są w **Załączniku II**.
+Rozporządzenie CPR 2024/3110 reguluje treść Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) w **Art. 15**, który bezpośrednio określa, jakie wskaźniki środowiskowe — w tym GWP — muszą być deklarowane. Podstawowe wymagania dotyczące obiektów budowlanych, w tym zrównoważone użytkowanie zasobów naturalnych, zawarte są w **Załączniku I** do CPR 2024. Wskaźniki środowiskowe do obowiązkowego deklarowania wymienione są w **Załączniku II**.
 
 Harmonogram wygląda następująco:
 
@@ -134,7 +134,7 @@ GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowi
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 Art. 18–19 (treść DoP&C) i Załącznik II (wskaźniki środowiskowe) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110 Art. 15 (treść DoP&C) i Załącznik II (wskaźniki środowiskowe) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Norma EN 15804+A2:2019 — podstawa obliczeń LCA dla wyrobów budowlanych
 - Europejski Zielony Ład i budownictwo — [ec.europa.eu](https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_pl)
 - DG GROW — materiały budowlane i CPR — [ec.europa.eu](https://single-market-economy.ec.europa.eu/sectors/construction_en)

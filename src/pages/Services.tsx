@@ -168,10 +168,10 @@ export default function Services() {
       title: "Dokumentacja techniczna CPR 2024",
       description: "Przygotowanie kompletnej dokumentacji wymaganej przez CPR (UE) 2024/3110 — od deklaracji DoP&C przez plik techniczny po instrukcje i mandaty. Dokumenty gotowe do użycia, zgodne z artykułami i załącznikami rozporządzenia.",
       features: [
-        "Deklaracja właściwości użytkowych i zgodności (DoP&C) — Art. 18–19",
-        "Wewnętrzny plik techniczny — Art. 20",
+        "Deklaracja właściwości użytkowych i zgodności (DoP&C) — Art. 15",
+        "Wewnętrzny plik techniczny — Art. 22 ust. 3",
         "Instrukcja dla użytkowników profesjonalnych — Art. 9",
-        "Mandat upoważnionego przedstawiciela — Art. 22"
+        "Mandat upoważnionego przedstawiciela — Art. 23"
       ],
       gradient: "from-emerald-400 to-green-500"
     },
