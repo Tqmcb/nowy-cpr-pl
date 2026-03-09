@@ -73,7 +73,7 @@ Zasada swobodnego przepływu towarów w UE oznacza, że wyrób z oznakowaniem CE
 
 ## Co zrobić, gdy wystawiony produkt okaże się niezgodny?
 
-Art. 27 i 28 CPR 2024 nakładają na dystrybutora obowiązek działania w przypadku stwierdzenia lub uzasadnionego podejrzenia niezgodności wyrobu:
+Art. 25 ust. 4 i 6 CPR 2024 nakładają na dystrybutora obowiązek działania w przypadku stwierdzenia lub uzasadnionego podejrzenia niezgodności wyrobu:
 
 1. **Niezwłoczne powiadomienie producenta lub importera** o stwierdzonej niezgodności.
 2. **Zawieszenie sprzedaży** wyrobu do czasu wyjaśnienia sprawy i podjęcia działań naprawczych.

@@ -21,7 +21,7 @@ Jest to definicja celowo szeroka, obejmująca zarówno globalne platformy jak Am
 
 Dotychczasowe prawo traktowało platformy marketplace jako "neutralnych pośredników" — podmioty, które nie były odpowiedzialne za treść ofert publikowanych przez sprzedawców, o ile działały w dobrej wierze i usuwały nielegalne treści po zgłoszeniu. Model "notice and takedown" był przez platformy interpretowany wąsko: dotyczyło to nielegalnych treści (np. piractwa), ale niekoniecznie wyrobów niezgodnych z przepisami technicznymi.
 
-CPR 2024 przełamuje tę logikę. Art. 25 CPR 2024 nakłada na platformy handlowe online konkretne, egzekwowalne obowiązki w odniesieniu do wyrobów budowlanych:
+CPR 2024 przełamuje tę logikę. Art. 28 CPR 2024 nakłada na platformy handlowe online konkretne, egzekwowalne obowiązki w odniesieniu do wyrobów budowlanych:
 
 ### 1. Obowiązek usunięcia oferty po powiadomieniu przez organ nadzoru rynku
 
