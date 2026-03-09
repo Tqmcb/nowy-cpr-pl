@@ -56,7 +56,7 @@ Na razie (2026) pola te są **opcjonalne**, ale producenci, którzy je wypełni�
 
 ### 6. Odesłanie do cyfrowej wersji dokumentu
 
-Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — przez link URL lub kod QR umieszczony na wyrobie lub opakowaniu. Nie zastępuje to wersji papierowej, ale ją uzupełnia. Wymaganie to wynika z art. 18–19 CPR 2024/3110.
+Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — przez link URL lub kod QR umieszczony na wyrobie lub opakowaniu. Nie zastępuje to wersji papierowej, ale ją uzupełnia. Wymaganie to wynika z art. 16 ust. 2 CPR 2024/3110.
 
 ### 7. Podpis i odpowiedzialność
 
