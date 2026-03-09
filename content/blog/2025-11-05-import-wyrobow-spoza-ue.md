@@ -23,10 +23,10 @@ Zgodnie z CPR 2024/3110, importer musi:
 
 1. **Upewnić się**, że producent przeprowadził odpowiednią procedurę oceny zgodności
 2. **Sprawdzić**, że producent sporządził wymaganą dokumentację techniczną
-3. **Zweryfikować**, czy wyrób jest prawidłowo oznakowany znakiem CE i czy dołączono DoP
-4. **Przetłumaczyć** DoP na język(-i) wymagany(-e) przez państwo docelowe
+3. **Zweryfikować**, czy wyrób jest prawidłowo oznakowany znakiem CE i czy dołączono DoP&C
+4. **Przetłumaczyć** DoP&C na język(-i) wymagany(-e) przez państwo docelowe
 5. **Umieścić** na wyrobie lub jego opakowaniu swoje dane (nazwa, adres)
-6. **Przechowywać** kopię DoP i dokumentację techniczną przez **10 lat**
+6. **Przechowywać** kopię DoP&C i dokumentację techniczną przez **10 lat**
 7. **Współpracować** z organami nadzoru rynku i udostępniać dokumentację na żądanie
 
 ## Wymagana dokumentacja
