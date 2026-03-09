@@ -90,14 +90,14 @@ export default function Wyroby() {
             <div className="text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 text-amber-400 text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
-                CPR 2024/3110 — Aneks VII
+                CPR 2024/3110 — Załącznik IV
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 36 Rodzin Wyrobów Budowlanych
               </h1>
               <p className="text-slate-400 text-lg leading-relaxed">
                 Kompletny katalog rodzin wyrobów budowlanych objętych Rozporządzeniem CPR (EU) 2024/3110,
-                Aneks VII. Sprawdź wymagania, systemy AVS i normy zharmonizowane dla każdej rodziny.
+                Załącznik IV. Sprawdź wymagania, systemy AVS i normy zharmonizowane dla każdej rodziny.
               </p>
             </div>
           </Container>

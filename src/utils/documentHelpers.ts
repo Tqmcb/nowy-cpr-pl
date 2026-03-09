@@ -214,8 +214,6 @@ export const downloadDocument = (documentId: string): boolean => {
     // User can then use Ctrl+P → Save as PDF to get the final PDF
     window.open(url, '_blank');
 
-    console.log(`Opened document: ${documentId} - ${doc.title}`);
-
     localStorage.setItem('last_document_download', JSON.stringify({
       id: documentId,
       title: doc.title,

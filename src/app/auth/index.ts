@@ -1,5 +1,5 @@
 const validateConfig = () => {
-  console.log("No auth extension enabled");
+  // No auth extension enabled
 };
 
 export const auth = {

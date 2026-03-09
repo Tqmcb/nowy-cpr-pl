@@ -775,7 +775,6 @@ export function BlogPage() {
         const { getAllPosts } = await import('../utils/blogLoader');
         const posts = await getAllPosts();
 
-        console.log('✅ Załadowano artykuły z markdown:', posts.length);
         setBlogPosts(posts);
         setLastUpdate(new Date());
         setError(null);

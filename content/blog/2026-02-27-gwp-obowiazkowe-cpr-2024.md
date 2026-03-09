@@ -9,7 +9,7 @@ image_url: /images/blog/gwp-obowiazkowe-cpr-2024.jpg
 template: "analiza"
 ---
 
-# GWP obowiązkowe od 2027 — jak przygotować się już teraz
+# GWP w CPR 2024 — jak przygotować się już teraz
 
 Producenci wyrobów budowlanych przez lata mogli ignorować temat śladu węglowego swoich produktów. CPR 2024/3110 kończy ten czas. Globalny Potencjał Ocieplenia (GWP) — potocznie zwany śladem węglowym — stanie się **obowiązkową deklarowaną właściwością** w nowych normach zharmonizowanych, których pierwsze aktualizacje oczekiwane są w latach 2026–2027.
 

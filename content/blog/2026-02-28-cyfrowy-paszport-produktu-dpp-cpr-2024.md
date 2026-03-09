@@ -145,7 +145,7 @@ Nie czekając na obowiązek, możesz zrobić trzy rzeczy:
 Zadbaj o to, by każdy wyrób miał jednoznaczny identyfikator (GTIN z GS1, własny numer katalogowy z logiką), a dane techniczne były przechowywane w formie ustrukturyzowanej (baza danych, a nie tylko PDF).
 
 **2. Wdróż cyfrową dostępność DoP&C**
-Umieść DoP&C online i dodaj QR kod na etykietach — to już jest wymagane od 2026, a jednocześnie test gotowości technicznej na DPP.
+Umieść DoP&C online i dodaj QR kod na etykietach — to krok w stronę pełnej cyfryzacji, a jednocześnie test gotowości technicznej na DPP.
 
 **3. Zbierz dane środowiskowe**
 GWP i inne wskaźniki środowiskowe będą centralnym elementem DPP. Zacznij obliczenia LCA teraz — wówczas gdy DPP stanie się obowiązkowy, będziesz miał dane gotowe.
