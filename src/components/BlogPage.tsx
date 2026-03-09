@@ -206,7 +206,7 @@ Producenci muszą zapewnić:
 - Zgodność z normami zharmonizowanymi
 - Prawidłową dokumentację techniczną
 - Oznakowanie CE ze wszystkimi wymaganymi informacjami
-- Deklarację właściwości użytkowych (DoP)`,
+- Deklarację właściwości użytkowych i zgodności (DoP&C)`,
     author: "dr inż. Jan Kowalski",
     published_at: "2026-01-08",
     is_published: true,
@@ -216,13 +216,13 @@ Producenci muszą zapewnić:
   },
   {
     id: "2",
-    title: "Cyfrowa Deklaracja Właściwości Użytkowych (Digital DoP) - Praktyczny poradnik",
+    title: "Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C) - Praktyczny poradnik",
     slug: "cyfrowa-dop",
     excerpt: "Jak przygotować się do obowiązkowej cyfryzacji dokumentacji produktów budowlanych zgodnie z CPR 2024. Format danych, wymagania techniczne i harmonogram wdrożenia.",
-    content: `# Cyfrowa Deklaracja Właściwości Użytkowych (Digital DoP)
+    content: `# Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C)
 
-## Czym jest Digital DoP?
-Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która zastąpi tradycyjne dokumenty papierowe. Format oparty na standardach XML/JSON umożliwi automatyczne przetwarzanie danych.
+## Czym jest Digital DoP&C?
+Digital DoP&C to elektroniczna forma deklaracji właściwości użytkowych i zgodności, która zastąpi tradycyjne dokumenty papierowe. Format oparty na standardach XML/JSON umożliwi automatyczne przetwarzanie danych.
 
 ## Wymagania techniczne
 - Format: strukturyzowany XML lub JSON
@@ -243,9 +243,9 @@ Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która
     author: "mgr inż. Anna Nowak",
     published_at: "2026-01-05",
     is_published: true,
-    category: "Digital DoP",
+    category: "Digital DoP&C",
     image_url: "/images/blog/digital-qr.jpg",
-    tags: ["Digital DoP", "cyfryzacja", "dokumentacja", "XML"]
+    tags: ["Digital DoP&C", "cyfryzacja", "dokumentacja", "XML"]
   },
   {
     id: "3",
@@ -257,7 +257,7 @@ Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która
 ## Nowe wymagania
 CPR 2024/3110 wprowadza rozszerzone wymagania dotyczące oznakowania CE:
 
-1. **Numer referencyjny Digital DoP** - obowiązkowy QR kod
+1. **Numer referencyjny Digital DoP&C** - obowiązkowy QR kod
 2. **Informacje środowiskowe** - klasa zrównoważoności
 3. **Dane producenta** - rozszerzone informacje kontaktowe
 
@@ -267,7 +267,7 @@ CPR 2024/3110 wprowadza rozszerzone wymagania dotyczące oznakowania CE:
 - Nazwa/znak producenta
 - Adres producenta
 - Kod identyfikacyjny produktu
-- Nr Digital DoP / link do repozytorium
+- Nr Digital DoP&C / link do repozytorium
 - Zamierzone zastosowanie
 - Deklarowane właściwości użytkowe
 
@@ -538,7 +538,7 @@ GUNB jest organem odpowiedzialnym za nadzór rynku wyrobów budowlanych w Polsce
 5. Decyzja administracyjna
 
 ## Najczęstsze nieprawidłowości
-- Brak DoP lub nieprawidłowa treść
+- Brak DoP&C lub nieprawidłowa treść
 - Niewłaściwe oznakowanie CE
 - Niezgodność deklarowanych właściwości
 - Brak wymaganej dokumentacji
@@ -599,12 +599,12 @@ Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie ma hEN ani ETA
 Zgodnie z CPR 2024, importer musi:
 1. Upewnić się, że producent przeprowadził ocenę zgodności
 2. Sprawdzić dokumentację techniczną
-3. Weryfikować oznakowanie CE i DoP
+3. Weryfikować oznakowanie CE i DoP&C
 4. Przechowywać dokumentację przez 10 lat
 5. Współpracować z organami nadzoru
 
 ## Wymagana dokumentacja
-- Deklaracja właściwości użytkowych (DoP)
+- Deklaracja właściwości użytkowych i zgodności (DoP&C)
 - Raporty z badań
 - Certyfikaty zgodności (jeśli wymagane)
 - Dokumentacja zakładowej kontroli produkcji
@@ -742,7 +742,7 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
 - Symbol λD na etykiecie
 - Klasa reakcji na ogień
 - Wymiary i tolerancje
-- Nr DoP`,
+- Nr DoP&C`,
     author: "dr inż. Barbara Sikora",
     published_at: "2025-10-10",
     is_published: true,

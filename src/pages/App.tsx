@@ -172,7 +172,7 @@ function HomePage() {
                       <p className="text-slate-300 text-xs mb-4">Rozporządzenie w sprawie wyrobów budowlanych</p>
                       {/* Feature Pills */}
                       <div className="flex flex-wrap justify-center gap-2">
-                        {["Digital DoP", "Oznakowanie CE", "Paszport produktu"].map((tag) => (
+                        {["Digital DoP&C", "Oznakowanie CE", "Paszport produktu"].map((tag) => (
                           <span key={tag} className="px-3 py-1 rounded-full bg-black/40 border border-white/20 text-xs text-slate-200 backdrop-blur-sm">
                             {tag}
                           </span>
@@ -274,7 +274,7 @@ function HomePage() {
                   {[
                     { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", active: true, done: true },
                     { year: "7 sty 2025", text: "Wejście w życie — wybrane przepisy (art. 1–4, 9, 10, 37, 89, 90)", active: true, done: true },
-                    { year: "8 sty 2026", text: "Stosowanie głównych przepisów CPR; okres przejściowy dla Digital DoP", active: true, done: true },
+                    { year: "8 sty 2026", text: "Stosowanie głównych przepisów CPR; okres przejściowy dla Digital DoP&C", active: true, done: true },
                     { year: "2028+", text: "Pełne wdrożenie cyfrowego paszportu produktu" }
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-4 items-start">
@@ -299,7 +299,7 @@ function HomePage() {
 
                 <div className="space-y-3">
                   {[
-                    { text: "Obowiązkowe cyfrowe deklaracje właściwości użytkowych (Digital DoP)", icon: FileText, color: "text-amber-400" },
+                    { text: "Obowiązkowe cyfrowe deklaracje właściwości użytkowych i zgodności (Digital DoP&C)", icon: FileText, color: "text-amber-400" },
                     { text: "Nowe wymagania środowiskowe i wskaźniki zrównoważonego rozwoju", icon: TrendingUp, color: "text-emerald-400" },
                     { text: "Rozszerzone obowiązki dla producentów, importerów i dystrybutorów", icon: Users, color: "text-blue-400" },
                     { text: "Cyfrowy paszport produktu integrujący dokumentację", icon: ClipboardList, color: "text-purple-400" },

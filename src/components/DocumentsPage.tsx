@@ -341,12 +341,12 @@ export function DocumentsPage() {
             <div className="space-y-4">
               {[
                 {
-                  question: "Jak wypełnić deklarację właściwości użytkowych (DoP)?",
-                  answer: "Deklaracja właściwości użytkowych (DoP) powinna zawierać wszystkie istotne informacje o produkcie, w tym jego zamierzone zastosowanie, właściwości użytkowe oraz odniesienie do zharmonizowanej specyfikacji technicznej. Szczegółowe instrukcje znajdziesz w naszym szablonie DoP po pobraniu."
+                  question: "Jak wypełnić deklarację właściwości użytkowych i zgodności (DoP&C)?",
+                  answer: "Deklaracja właściwości użytkowych i zgodności (DoP&C) powinna zawierać wszystkie istotne informacje o produkcie, w tym jego zamierzone zastosowanie, właściwości użytkowe oraz odniesienie do zharmonizowanej specyfikacji technicznej. Szczegółowe instrukcje znajdziesz w naszym szablonie DoP&C po pobraniu."
                 },
                 {
                   question: "Jakie są główne zmiany w CPR (EU) 2024/3110 w zakresie dokumentacji?",
-                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 18–19), obowiązek ujawniania substancji SVHC, nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 75–80) oraz unikalny identyfikator wyrobu."
+                  answer: "Nowe rozporządzenie wprowadza cyfrowe deklaracje DoP&C (art. 16 ust. 2), obowiązek ujawniania substancji SVHC, nowy system AVS 3+ dla weryfikacji EPD, Cyfrowy Paszport Produktu (DPP, art. 75–80) oraz unikalny identyfikator wyrobu."
                 },
                 {
                   question: "Czy mogę modyfikować pobrane szablony dokumentów?",

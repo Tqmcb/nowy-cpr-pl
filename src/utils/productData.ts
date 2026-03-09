@@ -29,7 +29,7 @@ const placeholderRequirements: ProductRequirement = {
     "Raportowanie środowiskowe (nowe z CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
     "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
@@ -60,7 +60,7 @@ const plumbingRequirement: ProductRequirement = {
     "Przepustowość i straty ciśnienia wg EN 12627, EN 1267"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
@@ -102,7 +102,7 @@ const ceilingRequirement: ProductRequirement = {
     "Odbicie światła wg EN 410"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
@@ -144,7 +144,7 @@ const steelRequirement: ProductRequirement = {
     "Ocena spawów wg EN ISO 5817, EN ISO 10042"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat kontroli zgodny z EN 10204 (2.1, 2.2, 3.1 lub 3.2)",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -186,7 +186,7 @@ const concreteMortarRequirement: ProductRequirement = {
     "Emisja substancji niebezpiecznych wg EN 16516"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
@@ -228,7 +228,7 @@ const doorsWindowsRequirement: ProductRequirement = {
     "Właściwości promieniowania słonecznego (dla okien) wg EN 410"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Etykieta energetyczna zgodna z dyrektywą 2010/30/UE",
     "Certyfikat stałości właściwości użytkowych",
@@ -270,7 +270,7 @@ const roadConstructionRequirement: ProductRequirement = {
     "Emisja substancji niebezpiecznych wg EN 16516"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -312,7 +312,7 @@ const flooringRequirement: ProductRequirement = {
     "Wodoszczelność wg EN 13553 (dla podłóg wodoodpornych)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -354,7 +354,7 @@ const structuralTimberRequirement: ProductRequirement = {
     "Odporność na działanie mikroorganizmów wg EN 335"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -396,7 +396,7 @@ const woodPanelsRequirement: ProductRequirement = {
     "Zawartość pentachlorofenolu (PCP) wg CEN/TR 14823"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -438,7 +438,7 @@ const thermalInsulationRequirement: ProductRequirement = {
     "Emisja substancji niebezpiecznych wg EN 16516 (szczególnie formaldehyd i LZO)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -480,7 +480,7 @@ const membranesRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -522,7 +522,7 @@ const precastConcreteRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -564,7 +564,7 @@ const masonryRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -617,7 +617,7 @@ const glassRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -659,7 +659,7 @@ const gypsumRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -701,7 +701,7 @@ const ceramicRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -743,7 +743,7 @@ const asphaltRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -784,7 +784,7 @@ const metalStructuralRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -826,7 +826,7 @@ const concreteRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -868,7 +868,7 @@ const cementRequirement: ProductRequirement = {
     "Ślad węglowy i wydajność produkcji wg ISO 14067 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -909,7 +909,7 @@ const timberRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -947,7 +947,7 @@ const adhesivesRequirement: ProductRequirement = {
     "Zawartość substancji niebezpiecznych wg Rozporządzenia REACH"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Karta charakterystyki substancji chemicznej (SDS)",
     "Karta techniczna produktu",
@@ -986,7 +986,7 @@ const roofingRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",
@@ -1024,7 +1024,7 @@ const insulationRequirement: ProductRequirement = {
     "Ocena cyklu życia (LCA) zgodnie z EN 15804+A2 (nowy wymóg CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Certyfikat stałości właściwości użytkowych",
     "Dokumentacja zakładowej kontroli produkcji",

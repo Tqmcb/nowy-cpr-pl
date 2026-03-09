@@ -52,7 +52,7 @@ const placeholderRequirements = {
     "Raportowanie środowiskowe (nowe z CPR 2024)"
   ],
   documentationRequired: [
-    "Deklaracja właściwości użytkowych (DoP)",
+    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
     "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"

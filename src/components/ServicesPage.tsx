@@ -189,12 +189,12 @@ export function ServicesPage() {
             </div>
 
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold mb-3">Certyfikacja zgodności EC/DoP</h3>
+              <h3 className="text-xl font-bold mb-3">Certyfikacja zgodności EC/DoP&C</h3>
               <p className="text-gray-600 mb-4">
-                Wsparcie w przygotowaniu deklaracji właściwości użytkowych (DoP) i uzyskaniu oznakowania CE zgodnego z wymogami nowego rozporządzenia.
+                Wsparcie w przygotowaniu deklaracji właściwości użytkowych i zgodności (DoP&C) i uzyskaniu oznakowania CE zgodnego z wymogami nowego rozporządzenia.
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
-                <li>Przygotowanie dokumentacji EC/DoP</li>
+                <li>Przygotowanie dokumentacji EC/DoP&C</li>
                 <li>Weryfikacja zgodności z normami</li>
                 <li>Wsparcie w oznaczeniu produktu znakiem CE</li>
                 <li>Aktualizacja dokumentacji zgodnie z CPR 2024</li>

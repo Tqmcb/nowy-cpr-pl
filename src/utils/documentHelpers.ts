@@ -15,7 +15,7 @@ export const documents: Document[] = [
   {
     id: "dop-template",
     title: "Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)",
-    description: "Wzór deklaracji DoP&C zgodny z Załącznikiem V Rozporządzenia (UE) 2024/3110 (CPR). Zawiera wszystkie obowiązkowe elementy wymagane przez art. 18–19, w tym sekcję substancji SVHC i cyfrowy dostęp.",
+    description: "Wzór deklaracji DoP&C zgodny z Załącznikiem V Rozporządzenia (UE) 2024/3110 (CPR). Zawiera wszystkie obowiązkowe elementy wymagane przez art. 15–16, w tym sekcję substancji SVHC i cyfrowy dostęp.",
     icon: "📄",
     fileType: "HTML",
     language: "PL",
@@ -95,8 +95,8 @@ export const documents: Document[] = [
   },
   {
     id: "tech-file",
-    title: "Struktura dokumentacji technicznej (Art. 20 CPR 2024/3110)",
-    description: "Szablon wewnętrznego pliku technicznego wymaganego przez art. 20 CPR 2024/3110. Zawiera listę kontrolną dokumentów, opis wyrobu, wyniki badań, certyfikaty NB i oświadczenie o kompletności. Przechowywać 10 lat od daty dostarczenia wyrobu.",
+    title: "Struktura dokumentacji technicznej (Art. 21 CPR 2024/3110)",
+    description: "Szablon wewnętrznego pliku technicznego wymaganego przez art. 21 CPR 2024/3110. Zawiera listę kontrolną dokumentów, opis wyrobu, wyniki badań, certyfikaty NB i oświadczenie o kompletności. Przechowywać 10 lat od daty dostarczenia wyrobu.",
     icon: "🗂️",
     fileType: "HTML",
     language: "PL",
@@ -113,8 +113,8 @@ export const documents: Document[] = [
   },
   {
     id: "auth-rep-mandate",
-    title: "Mandat upoważnionego przedstawiciela (Art. 22 CPR 2024/3110)",
-    description: "Wzór pisemnego mandatu upoważnionego przedstawiciela zgodny z art. 22 CPR 2024/3110. Dotyczy każdego producenta (w UE i spoza UE). Zawiera zakres upoważnienia, czas obowiązywania i zakazy mandatowe z art. 22 ust. 3 (zakaz sporządzania DoP&C, AVS, organizowania i nadzorowania FPC).",
+    title: "Mandat upoważnionego przedstawiciela (Art. 23 CPR 2024/3110)",
+    description: "Wzór pisemnego mandatu upoważnionego przedstawiciela zgodny z art. 23 CPR 2024/3110. Dotyczy każdego producenta (w UE i spoza UE). Zawiera zakres upoważnienia, czas obowiązywania i zakazy mandatowe z art. 23 ust. 3 (zakaz sporządzania DoP&C, AVS, organizowania i nadzorowania FPC).",
     icon: "📜",
     fileType: "HTML",
     language: "PL",
