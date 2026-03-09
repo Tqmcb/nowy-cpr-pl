@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Urządzenia grzewcze – rodzina wyrobów 27 wg CPR 2024/3110
 
-Urządzenia grzewcze trwale wbudowane w budynki to kategoria wyrobów stojąca na styku kilku reżimów regulacyjnych – rozporządzenia o wyrobach budowlanych (CPR), dyrektywy ekoprojektu (ErP/Ecodesign) oraz krajowych przepisów budowlanych. CPR 2024/3110 obejmuje tę rodzinę jako nr 27 w Załączniku VII, precyzując, że dotyczy urządzeń grzewczych trwale związanych z konstrukcją budynku lub jego instalacją stałą, nie zaś urządzeń przenośnych.
+Urządzenia grzewcze trwale wbudowane w budynki to kategoria wyrobów stojąca na styku kilku reżimów regulacyjnych – rozporządzenia o wyrobach budowlanych (CPR), dyrektywy ekoprojektu (ErP/Ecodesign) oraz krajowych przepisów budowlanych. CPR 2024/3110 obejmuje tę rodzinę jako nr 27 w Załączniku IV, precyzując, że dotyczy urządzeń grzewczych trwale związanych z konstrukcją budynku lub jego instalacją stałą, nie zaś urządzeń przenośnych.
 
 ## O rodzinie wyrobów
 

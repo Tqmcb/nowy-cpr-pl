@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 3 według Załącznika VII CPR 2024/3110 obejmuje membrany hydroizolacyjne w postaci arkuszy giętkich (flexible sheets), membrany nakładane ciekłe (liquid applied membranes – LAM) oraz zestawy wyrobów przeznaczone do kontroli przenikania wody i pary wodnej w budowlach. Jest to niezwykle zróżnicowana familia – zarówno pod względem materiałów bazowych, jak i zastosowań.
+Rodzina 3 według Załącznika IV CPR 2024/3110 obejmuje membrany hydroizolacyjne w postaci arkuszy giętkich (flexible sheets), membrany nakładane ciekłe (liquid applied membranes – LAM) oraz zestawy wyrobów przeznaczone do kontroli przenikania wody i pary wodnej w budowlach. Jest to niezwykle zróżnicowana familia – zarówno pod względem materiałów bazowych, jak i zastosowań.
 
 Rodzina obejmuje: elastyczne membrany dachowe bitumiczne (APP i SBS) oraz polimerowe (PVC-P, TPO, EPDM, FPO), elastyczne membrany do izolacji fundamentów i ścian piwnic, uszczelnienia podposadzkowe, membrany do obiektów inżynierskich (mosty, tunele, zbiorniki), geomembrany do retencji i deponowania odpadów, membrany paroizolacyjne i paroprzepuszczalne (folia dachowa wstępnego krycia), membrany nakładane ciekłe (bitumiczne modyfikowane polimerami, poliuretanowe, akrylowe) oraz zestawy do tarasów i balkonów.
 

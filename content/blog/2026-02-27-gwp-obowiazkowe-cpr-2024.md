@@ -11,7 +11,7 @@ template: "analiza"
 
 # GWP w CPR 2024 — jak przygotować się już teraz
 
-Producenci wyrobów budowlanych przez lata mogli ignorować temat śladu węglowego swoich produktów. CPR 2024/3110 kończy ten czas. Globalny Potencjał Ocieplenia (GWP) — potocznie zwany śladem węglowym — stanie się **obowiązkową deklarowaną właściwością** w nowych normach zharmonizowanych, których pierwsze aktualizacje oczekiwane są w latach 2026–2027.
+Producenci wyrobów budowlanych przez lata mogli ignorować temat śladu węglowego swoich produktów. CPR 2024/3110 kończy ten czas. Globalny Potencjał Ocieplenia (GWP) — potocznie zwany śladem węglowym — stanie się **obowiązkową deklarowaną właściwością** w nowych normach zharmonizowanych, których pierwsze aktualizacje oczekiwane są w latach 2027–2029 (zgodnie z planem prac KE COM(2025) 772).
 
 Ten artykuł wyjaśnia czym jest GWP, dlaczego staje się kluczowym wskaźnikiem dla branży budowlanej i — przede wszystkim — **co konkretnie musisz zrobić już teraz**, by uniknąć problemów gdy termin stanie się pilny.
 

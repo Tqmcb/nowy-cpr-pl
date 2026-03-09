@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Prefabrykowane zestawy budowlane – rodzina wyrobów 34 wg CPR 2024/3110
 
-Budownictwo prefabrykowane i modułowe przeżywa renesans w całej Europie – szybkość realizacji, wysoka jakość fabryczna i rosnąca presja na zrównoważone budownictwo napędzają ten segment. Rozporządzenie CPR 2024/3110 obejmuje zestawy budowlane jako rodzinę 34 w Załączniku VII, jednak ze względu na złożoność tych systemów certyfikacja przebiega w dużej mierze przez ścieżkę ETA, a nie standardowe normy zharmonizowane.
+Budownictwo prefabrykowane i modułowe przeżywa renesans w całej Europie – szybkość realizacji, wysoka jakość fabryczna i rosnąca presja na zrównoważone budownictwo napędzają ten segment. Rozporządzenie CPR 2024/3110 obejmuje zestawy budowlane jako rodzinę 34 w Załączniku IV, jednak ze względu na złożoność tych systemów certyfikacja przebiega w dużej mierze przez ścieżkę ETA, a nie standardowe normy zharmonizowane.
 
 ## O rodzinie wyrobów
 

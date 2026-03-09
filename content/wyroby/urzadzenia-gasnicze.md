@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 10 według Załącznika VII CPR 2024/3110 obejmuje stałe urządzenia gaśnicze i systemy ochrony przeciwpożarowej przeznaczone do wbudowania w budynki i obiekty budowlane. Jest to jedna z rodzin o najwyższym rygorze certyfikacyjnym – bezpośredni związek z ochroną życia ludzkiego uzasadnia stosowanie systemu AVS 1 dla wszystkich wyrobów w tej rodzinie.
+Rodzina 10 według Załącznika IV CPR 2024/3110 obejmuje stałe urządzenia gaśnicze i systemy ochrony przeciwpożarowej przeznaczone do wbudowania w budynki i obiekty budowlane. Jest to jedna z rodzin o najwyższym rygorze certyfikacyjnym – bezpośredni związek z ochroną życia ludzkiego uzasadnia stosowanie systemu AVS 1 dla wszystkich wyrobów w tej rodzinie.
 
 Rodzina obejmuje: systemy sygnalizacji pożarowej (SSP) – centrale, czujniki dymu (jonizacyjne i optyczne), czujniki ciepła, ręczne ostrzegacze pożarowe, moduły i syreny alarmowe, stałe urządzenia gaśnicze wodne tryskaczowe (sprinkler systems) – tryskacze, zawory, rurociągi i zestawy zasilające, stałe urządzenia gaśnicze gazowe (CO₂, Novec 1230, FM-200/HFC-227ea, gazy inertne IG-541/Inergen), stałe urządzenia gaśnicze pianowe, proszkowe i aerozolowe, systemy wentylacji pożarowej i oddymiania (klapa dymowa, wentylator oddymiający, klapy odcinające), systemy kontroli rozgorzenia i tłumienia wybuchu.
 

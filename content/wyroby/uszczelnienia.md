@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Uszczelnienia szczelin – rodzina wyrobów 32 wg CPR 2024/3110
 
-Uszczelniacze szczelin budowlanych to wyroby chemiczne stosowane do wypełniania i uszczelniania połączeń między elementami budowlanymi, które pozostają ruchome w trakcie eksploatacji. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę numerem 32 w Załączniku VII i szczególnie akcentuje wymagania dotyczące emisji VOC dla uszczelniaczy stosowanych wewnątrz pomieszczeń.
+Uszczelniacze szczelin budowlanych to wyroby chemiczne stosowane do wypełniania i uszczelniania połączeń między elementami budowlanymi, które pozostają ruchome w trakcie eksploatacji. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę numerem 32 w Załączniku IV i szczególnie akcentuje wymagania dotyczące emisji VOC dla uszczelniaczy stosowanych wewnątrz pomieszczeń.
 
 ## O rodzinie wyrobów
 

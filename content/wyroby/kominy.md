@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 6 według Załącznika VII CPR 2024/3110 obejmuje systemy kominowe, kanały spalinowe i ich elementy składowe przeznaczone do odprowadzania spalin z urządzeń grzewczych wszelkich typów. Jest to rodzina istotna z punktu widzenia zarówno bezpieczeństwa pożarowego, jak i ochrony zdrowia użytkowników – niewłaściwe systemy kominowe są częstą przyczyną zatruć tlenkiem węgla i pożarów.
+Rodzina 6 według Załącznika IV CPR 2024/3110 obejmuje systemy kominowe, kanały spalinowe i ich elementy składowe przeznaczone do odprowadzania spalin z urządzeń grzewczych wszelkich typów. Jest to rodzina istotna z punktu widzenia zarówno bezpieczeństwa pożarowego, jak i ochrony zdrowia użytkowników – niewłaściwe systemy kominowe są częstą przyczyną zatruć tlenkiem węgla i pożarów.
 
 Rodzina obejmuje: systemy kominowe ceramiczne (kamionkowe wkłady kominowe), systemy kominowe ze stali nierdzewnej (wkłady elastyczne i sztywne), systemy kominowe ze stali kwasoodpornej (do kotłów kondensacyjnych), systemy kominowe aluminiowe (do kotłów gazowych kondensacyjnych o niskiej temperaturze), kominy murowane z ceramicznymi kształtkami kominowymi, systemy dwupłaszczowe (powietrzno-spalinowe dla kotłów kondensacyjnych), systemy szachtowe (collective flue systems), przewody elastyczne kominowe, elementy uzupełniające (kolana, trójniki, rewizje, czapki kominowe).
 

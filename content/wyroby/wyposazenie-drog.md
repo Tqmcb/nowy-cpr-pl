@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 12 według Załącznika VII CPR 2024/3110 obejmuje wyposażenie dróg i obiektów inżynierskich (urządzenia bezpieczeństwa ruchu drogowego) przeznaczone do wbudowania w drogi publiczne, autostrady i inne obiekty komunikacyjne. Jest to rodzina bezpośrednio związana z bezpieczeństwem ruchu drogowego – awaria bariery energochłonnej lub słupa oświetleniowego może prowadzić do ofiar śmiertelnych.
+Rodzina 12 według Załącznika IV CPR 2024/3110 obejmuje wyposażenie dróg i obiektów inżynierskich (urządzenia bezpieczeństwa ruchu drogowego) przeznaczone do wbudowania w drogi publiczne, autostrady i inne obiekty komunikacyjne. Jest to rodzina bezpośrednio związana z bezpieczeństwem ruchu drogowego – awaria bariery energochłonnej lub słupa oświetleniowego może prowadzić do ofiar śmiertelnych.
 
 Rodzina obejmuje: bariery ochronne stalowe (Highway Restraint Systems) – bariery jednostronne, dwustronne, na krawędzi, mostowe, kolejowe, bariery betonowe (New Jersey, step barriers), stalowe bariery energochłonne (atenuatory uderzeń), słupy oświetlenia drogowego – stalowe, aluminiowe, żelbetowe i kompozytowe, słupy do sygnalizacji świetlnej i znaków zmiennej treści (VMS), znaki drogowe pionowe – aktywne i pasywne (retrorefleksyjne), elementy oznakowania poziomego (elementy punktowe – kocich oczek), bariery tymczasowe (woda-wypełniane, plastikowe), ekrany akustyczne drogowe.
 

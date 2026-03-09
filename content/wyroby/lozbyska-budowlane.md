@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 5 według Załącznika VII CPR 2024/3110 obejmuje łożyska budowlane (structural bearings) oraz sworznie stosowane w węzłach konstrukcyjnych. Są to wyroby o krytycznym znaczeniu dla bezpieczeństwa konstrukcji – odpowiadają za przenoszenie sił i dopuszczanie przemieszczeń oraz obrotu między elementami, jednocześnie chroniąc konstrukcję przed nadmiernymi naprężeniami.
+Rodzina 5 według Załącznika IV CPR 2024/3110 obejmuje łożyska budowlane (structural bearings) oraz sworznie stosowane w węzłach konstrukcyjnych. Są to wyroby o krytycznym znaczeniu dla bezpieczeństwa konstrukcji – odpowiadają za przenoszenie sił i dopuszczanie przemieszczeń oraz obrotu między elementami, jednocześnie chroniąc konstrukcję przed nadmiernymi naprężeniami.
 
 Zastosowania łożysk budowlanych obejmują: mosty drogowe i kolejowe (wszystkie typy), wiadukty i estakady, budynki wielokondygnacyjne (izolacja sejsmiczna), hale przemysłowe i dachy przestrzenne, zbiorniki i silosy, rurociągi i inne obiekty inżynierskie wymagające kontrolowanego ruchu. Sworznie do węzłów konstrukcyjnych (pins) stosowane są tam, gdzie wymagana jest swoboda obrotu przy jednoczesnym przenoszeniu dużych sił.
 

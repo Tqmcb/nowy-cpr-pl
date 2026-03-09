@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Wyroby do betonu, zapraw i zastrzyków – rodzina wyrobów 26 wg CPR 2024/3110
 
-Domieszki do betonu i zapraw to jedna z najbardziej dynamicznie rozwijających się kategorii wyrobów budowlanych, której znaczenie systematycznie rośnie wraz z wymaganiami dotyczącymi trwałości i efektywności środowiskowej konstrukcji betonowych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę numerem 26 w Załączniku VII i kładzie szczególny nacisk na alternatywne spoiwa o obniżonym śladzie węglowym.
+Domieszki do betonu i zapraw to jedna z najbardziej dynamicznie rozwijających się kategorii wyrobów budowlanych, której znaczenie systematycznie rośnie wraz z wymaganiami dotyczącymi trwałości i efektywności środowiskowej konstrukcji betonowych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę numerem 26 w Załączniku IV i kładzie szczególny nacisk na alternatywne spoiwa o obniżonym śladzie węglowym.
 
 ## O rodzinie wyrobów
 

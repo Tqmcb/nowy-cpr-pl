@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Łączniki, kotwy i elementy mocujące – rodzina wyrobów 33 wg CPR 2024/3110
 
-Kotwy, łączniki i elementy mocujące to kategoria wyrobów budowlanych, dla której droga certyfikacji przebiega zasadniczo inaczej niż dla większości innych rodzin – zamiast norm zharmonizowanych (hEN) głównym narzędziem oceny jest **Europejska Ocena Techniczna (ETA)** oparta na Europejskich Dokumentach Oceny (EAD). CPR 2024/3110 obejmuje tę rodzinę numerem 33 w Załączniku VII.
+Kotwy, łączniki i elementy mocujące to kategoria wyrobów budowlanych, dla której droga certyfikacji przebiega zasadniczo inaczej niż dla większości innych rodzin – zamiast norm zharmonizowanych (hEN) głównym narzędziem oceny jest **Europejska Ocena Techniczna (ETA)** oparta na Europejskich Dokumentach Oceny (EAD). CPR 2024/3110 obejmuje tę rodzinę numerem 33 w Załączniku IV.
 
 ## O rodzinie wyrobów
 
