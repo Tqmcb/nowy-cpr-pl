@@ -11,13 +11,13 @@ template: "przewodnik"
 
 # Dokumentacja techniczna wyrobu budowlanego w CPR 2024
 
-Dokumentacja techniczna (DT) to jeden z kluczowych obowiązków producenta wyrobu budowlanego. CPR 2024/3110 w Załączniku II precyzuje jej zawartość — i jest to znacznie więcej niż samo posiadanie raportu z badań. GUNB może zażądać pełnej DT w każdej chwili.
+Dokumentacja techniczna (DT) to jeden z kluczowych obowiązków producenta wyrobu budowlanego. CPR 2024/3110 w Art. 22 ust. 3 precyzuje jej zawartość — i jest to znacznie więcej niż samo posiadanie raportu z badań. GUNB może zażądać pełnej DT w każdej chwili.
 
 ## Co to jest dokumentacja techniczna?
 
 Dokumentacja techniczna to zbiór dokumentów potwierdzających, że wyrób budowlany spełnia wymagania niezbędne do nawieszenia oznakowania CE i wystawienia DoP&C. Nie jest przesyłana do żadnego urzędu — przechowuje ją producent i udostępnia na żądanie organów nadzoru.
 
-## Zawartość dokumentacji technicznej — Załącznik II CPR 2024
+## Zawartość dokumentacji technicznej — Art. 22 ust. 3 CPR 2024
 
 ### Część 1: Opis wyrobu
 
