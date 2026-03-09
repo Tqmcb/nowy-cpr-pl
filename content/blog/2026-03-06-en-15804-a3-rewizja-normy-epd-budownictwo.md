@@ -56,7 +56,7 @@ Komisja Europejska rozwijała równolegle metodykę **Product Environmental Foot
 
 ### 3. Przygotowanie do Cyfrowego Paszportu Produktu (DPP)
 
-Art. 25 CPR 2024/3110 nakłada obowiązek wdrożenia **Cyfrowego Paszportu Produktu**. Paszport ma zawierać dane środowiskowe — a ich format, granularność i weryfikowalność muszą być spójne z EN 15804. Rewizja +A3 ma włączyć wymagania dotyczące struktury danych LCA nadających się do odczytu maszynowego i integracji z systemami DPP.
+Art. 75–80 CPR 2024/3110 nakładają obowiązek wdrożenia **Cyfrowego Paszportu Produktu**. Paszport ma zawierać dane środowiskowe — a ich format, granularność i weryfikowalność muszą być spójne z EN 15804. Rewizja +A3 ma włączyć wymagania dotyczące struktury danych LCA nadających się do odczytu maszynowego i integracji z systemami DPP.
 
 ---
 
@@ -132,7 +132,7 @@ Jeśli producent sporządza EPD dobrowolnie lub na potrzeby przetargów (GPP), d
 
 ### Deklaracje DPP-ready
 
-Producenci planujący wczesne wdrożenie Cyfrowego Paszportu Produktu (Art. 25 CPR 2024/3110) powinni śledzić prace ECO Platform w zakresie standardu wymiany danych EPD — wymagania te będą odzwierciedlone w +A3.
+Producenci planujący wczesne wdrożenie Cyfrowego Paszportu Produktu (art. 75–80 CPR 2024/3110) powinni śledzić prace ECO Platform w zakresie standardu wymiany danych EPD — wymagania te będą odzwierciedlone w +A3.
 
 ---
 

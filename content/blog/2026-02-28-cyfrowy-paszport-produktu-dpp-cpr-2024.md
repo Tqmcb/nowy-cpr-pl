@@ -23,9 +23,9 @@ Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dac
 
 ## Co mówi CPR 2024/3110 o DPP?
 
-Rozporządzenie CPR 2024/3110 wprowadza DPP w **Art. 25**. Kluczowe postanowienia:
+Rozporządzenie CPR 2024/3110 wprowadza DPP w **art. 75–80**. Kluczowe postanowienia:
 
-1. **KE przyjmie akty wykonawcze określające zakres DPP** — które grupy wyrobów, jakie dane, jaki format, jakie terminy (Art. 25 ust. 2)
+1. **KE przyjmie akty wykonawcze określające zakres DPP** — które grupy wyrobów, jakie dane, jaki format, jakie terminy (art. 76)
 2. **DPP będzie obowiązkowy dopiero po upływie okresu koegzystencji po opublikowaniu nowej normy zharmonizowanej (hTS)** dla danej rodziny wyrobów ORAZ po wydaniu odpowiednich aktów wykonawczych KE
 3. **Rejestr DPP prowadzony przez KE** — KE zobowiązana do uruchomienia do 19 lipca 2026 r.
 4. **Zasady dla dostawców usług DPP** — określone w osobnym akcie delegowanym KE
@@ -39,7 +39,7 @@ To pytanie, które zadają wszyscy producenci. Odpowiedź jest złożona:
 | Etap | Termin | Co się dzieje |
 |---|---|---|
 | Uruchomienie rejestru DPP przez KE | Planowane do 19 lipca 2026 | KE buduje europejski rejestr DPP |
-| Publikacja aktów wykonawczych KE (Art. 25) | Brak ustalonego terminu | Określenie formatu, danych, terminów dla poszczególnych grup wyrobów |
+| Publikacja aktów wykonawczych KE (art. 75–80) | Brak ustalonego terminu | Określenie formatu, danych, terminów dla poszczególnych grup wyrobów |
 | Publikacja nowych hTS przez CEN w Dz.U. UE + upływ okresu koegzystencji (12–36 mies.) | Dla każdej rodziny wyrobów oddzielnie | **Bez wycofania starej hTS DPP nie jest obowiązkowy** — sama publikacja hTS nie wystarczy |
 | DPP obowiązkowy | Po spełnieniu obu warunków: hTS + akty KE | Pierwsze wyroby: ok. 2028–2029 (orientacyjnie) |
 
@@ -171,7 +171,7 @@ Producenci, którzy teraz ustandaryzują dane i wdrożą cyfrową dostępność 
 ---
 
 **Źródła:**
-- Rozporządzenie (UE) 2024/3110 Art. 25 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
+- Rozporządzenie (UE) 2024/3110 art. 75–80 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - DG GROW — Digital Product Passport w sektorze budowlanym — [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)
 - GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gunb.gov.pl](https://www.gunb.gov.pl)
