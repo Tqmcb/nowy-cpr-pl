@@ -11,7 +11,7 @@ template: "analiza"
 
 ## Wprowadzenie — dlaczego importerzy znaleźli się pod lupą CPR 2024?
 
-Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 23 października 2024 r. w sprawie wyrobów budowlanych (CPR 2024) zastępuje obowiązujące od 2013 roku rozporządzenie CPR 305/2011. Jedną z kluczowych zmian jest znaczące wzmocnienie pozycji i zaostrzenie obowiązków importerów — podmiotów, które wprowadzają do obrotu na terytorium UE wyroby budowlane wyprodukowane przez producenta mającego siedzibę poza Unią Europejską.
+Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 27 listopada 2024 r. w sprawie wyrobów budowlanych (CPR 2024) zastępuje obowiązujące od 2013 roku rozporządzenie CPR 305/2011. Jedną z kluczowych zmian jest znaczące wzmocnienie pozycji i zaostrzenie obowiązków importerów — podmiotów, które wprowadzają do obrotu na terytorium UE wyroby budowlane wyprodukowane przez producenta mającego siedzibę poza Unią Europejską.
 
 Dotychczasowe przepisy CPR 305/2011 traktowały importera w sposób stosunkowo łagodny. W praktyce wystarczyło, że importer przekazał nabywcy dokumentację producenta i umieścił swoje dane kontaktowe na wyrobie lub opakowaniu. Organy nadzoru rynku w przypadku stwierdzenia niezgodności zwracały się przede wszystkim do producenta, a importer mógł w wielu przypadkach zasłaniać się brakiem wiedzy o nieprawidłowościach.
 

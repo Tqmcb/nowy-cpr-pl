@@ -483,7 +483,7 @@ Dopisz na końcu przed `</body>`:
 ```html
 <div class="footer">
   <strong>Podstawa prawna:</strong> COM(2025) 772 final — Komunikat Komisji Europejskiej, Bruksela 16.12.2025 r.<br>
-  Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 23 października 2024 r.<br>
+  Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopada 2024 r.<br>
   Tekst dostępny: <strong>eur-lex.europa.eu</strong> | Wersja dokumentu: 02.2026<br><br>
   Dokument przygotowany przez: <strong>NowyCPR.pl</strong> — www.nowycpr.pl | biuro@multicert.pl | Multicert Sp. z o.o. PCA AC 210
 </div>
