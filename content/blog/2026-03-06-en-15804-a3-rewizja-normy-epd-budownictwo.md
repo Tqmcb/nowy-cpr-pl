@@ -87,7 +87,7 @@ Module D (*Reuse, Recovery, Recycling Potential*) — dotychczas opcjonalny — 
 
 ### Uproszczone EPD dla MŚP
 
-Nawiązując do Art. 20 ust. 5 CPR 2024/3110 (uproszczone ZKP dla mikroprzedsiębiorstw), +A3 ma zawierać ścieżkę uproszczonej EPD (*simplified EPD* lub *screened EPD*), opartej na danych wtórnych z baz ogólnoeuropejskich, z niższymi wymaganiami audytu danych pierwotnych. Pozwoli to mniejszym producentom na uczestnictwo w systemie AVS 3+ bez ponoszenia pełnych kosztów LCA.
+Nawiązując do Art. 60 CPR 2024/3110 (uproszczone procedury dla mikroprzedsiębiorstw), +A3 ma zawierać ścieżkę uproszczonej EPD (*simplified EPD* lub *screened EPD*), opartej na danych wtórnych z baz ogólnoeuropejskich, z niższymi wymaganiami audytu danych pierwotnych. Pozwoli to mniejszym producentom na uczestnictwo w systemie AVS 3+ bez ponoszenia pełnych kosztów LCA.
 
 ### Wymagania dla danych maszynowo-czytelnych (DPP-ready EPD)
 
