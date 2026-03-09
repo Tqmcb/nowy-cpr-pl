@@ -347,7 +347,7 @@ Nieprawidłowe oznakowanie CE może skutkować:
 - EN 13164:2024 - Wyroby z XPS
 
 ### Okna i drzwi
-- EN 14351-1:2024 - Okna i drzwi zewnętrzne
+- EN 14351-1:2006+A2:2016 - Okna i drzwi zewnętrzne
 - EN 16034:2024 - Wyroby drzwiowe do ochrony przeciwpożarowej
 
 ## Jak śledzić zmiany?
@@ -634,7 +634,7 @@ Zgodnie z CPR 2024, importer musi:
     content: `# Beton i prefabrykaty betonowe - CPR 2024
 
 ## Beton towarowy
-### Norma: EN 206:2024
+### Norma: EN 206:2013+A2:2021
 - System AVS: 2+
 - Wymagana certyfikacja FPC przez jednostkę notyfikowaną
 
@@ -671,10 +671,10 @@ Zgodnie z CPR 2024, importer musi:
     id: "14",
     title: "Okna i drzwi - certyfikacja według EN 14351-1",
     slug: "okna-drzwi-certyfikacja",
-    excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2024. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP&C.",
+    excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2006+A2:2016. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP&C.",
     content: `# Okna i drzwi - certyfikacja EN 14351-1
 
-## Zakres normy EN 14351-1:2024
+## Zakres normy EN 14351-1:2006+A2:2016
 Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
 
 ## System AVS: 3

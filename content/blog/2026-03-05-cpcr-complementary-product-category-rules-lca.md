@@ -89,7 +89,7 @@ Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do d
 
 ## CPCR a system AVS 3+
 
-CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (dawniej AVCP 3+), przeznaczony wyłącznie do **walidacji danych środowiskowych LCA i EPD** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
+CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (nowy system w CPR 2024, nieistniejący w starym AVCP), przeznaczony wyłącznie do **walidacji danych środowiskowych LCA i EPD** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
 
 1. Producent zleca wykonanie LCA i EPD akredytowanemu weryfikatorowi
 2. Weryfikator sprawdza zgodność z EN 15804+A2 **i** właściwym CPCR

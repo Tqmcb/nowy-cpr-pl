@@ -62,7 +62,7 @@ Znormalizowana wytrzymałość na ściskanie fb (po przeliczeniu na próbkę 100
 - Elementy silikatowe: λ = 0,56–0,70 W/(m·K) (wysokie – stosowane ze względu na akustykę i nośność, nie termoizolację)
 
 **Reakcja na ogień:**
-Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP dla tego parametru z wyjątkiem produktów hybrydowych).
+Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP&C dla tego parametru z wyjątkiem produktów hybrydowych).
 
 **Zaprawy wg EN 998-2:**
 - Typy: G (ogólnego przeznaczenia), T (do spoin cienkich ≤3 mm), L (lekkie)

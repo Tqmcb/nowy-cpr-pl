@@ -138,7 +138,7 @@ Producenci planujący wczesne wdrożenie Cyfrowego Paszportu Produktu (art. 75�
 
 ## Rola jednostek certyfikujących i notyfikowanych
 
-W systemie AVS 3+ (AVCP 3+) jednostka notyfikowana przeprowadza **ocenę i weryfikację stałości właściwości użytkowych** w zakresie zrównoważoności środowiskowej. Zakres weryfikacji obejmuje:
+W systemie AVS 3+ jednostka notyfikowana przeprowadza **ocenę i weryfikację** danych środowiskowych w zakresie zrównoważoności. Zakres weryfikacji obejmuje:
 
 - zgodność LCA z wybranym PCR (EN 15804 jako core PCR + ewentualny CPCR),
 - poprawność zastosowania czynników charakteryzacji,
