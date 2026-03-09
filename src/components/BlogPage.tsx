@@ -231,9 +231,9 @@ Digital DoP to elektroniczna forma deklaracji właściwości użytkowych, która
 - Archiwizacja: minimum 10 lat
 
 ## Harmonogram wdrożenia
-- 2025: Przygotowanie infrastruktury
-- 2026: Testy pilotażowe
-- 2027: Obowiązkowe stosowanie
+- 2025–2026: Przygotowanie infrastruktury i rejestr DPP
+- 2026–2027: Akty delegowane KE (format, dostawcy usług)
+- Po publikacji hTS: Obowiązkowe stosowanie (etapowo wg rodzin wyrobów)
 
 ## Korzyści
 1. Automatyzacja procesów weryfikacji
