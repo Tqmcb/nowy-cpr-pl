@@ -73,10 +73,20 @@ check_art23() {
 }
 check_art23
 
-# Art. 75-80 dla DPP → powinno być Art. 25
-check \
-  "Art. 7x–xx znaleziony — DPP to Art. 25 w CPR 2024/3110" \
-  "art\.?\s*7[0-9][-–][0-9]+"
+# Art. 25 dla DPP → powinno być Art. 75–80
+# DPP w CPR 2024/3110: Art. 75 (definicja), 76 (zawartość), 77 (dostęp),
+# 78 (unikalny identyfikator), 79 (operatorzy), 80 (nadzór rynku)
+check_art25_dpp() {
+  local matches
+  matches=$(grep -rn --include="*.tsx" --include="*.ts" --include="*.mdx" --include="*.md" \
+    -iE "art\.?\s*25.{0,40}(DPP|paszport|passport)" "$SRC" 2>/dev/null || true)
+  if [ -n "$matches" ]; then
+    err "Art. 25 użyty dla DPP — Cyfrowy Paszport Produktu to Art. 75–80 w CPR 2024/3110"
+    echo "$matches" | sed 's/^/         /'
+    echo ""
+  fi
+}
+check_art25_dpp
 
 # ─── 2. ZAKAZANE SŁOWNICTWO ─────────────────────────────────────────────────
 
