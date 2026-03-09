@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 4 według Załącznika IV CPR 2024/3110 obejmuje wszystkie wyroby do izolacji termicznej budynków oraz złożone zestawy (systemy) izolacyjne. Jest to jedna z rodzin o najwyższym znaczeniu strategicznym w kontekście CPR 2024 – właśnie tutaj obowiązek deklarowania śladu węglowego GWP spowoduje największe przegrupowanie na rynku.
+Rodzina 4 według Załącznika VII CPR 2024/3110 obejmuje wszystkie wyroby do izolacji termicznej budynków oraz złożone zestawy (systemy) izolacyjne. Jest to jedna z rodzin o najwyższym znaczeniu strategicznym w kontekście CPR 2024 – właśnie tutaj obowiązek deklarowania śladu węglowego GWP spowoduje największe przegrupowanie na rynku.
 
 Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian EPS (polistyren ekspandowany), polistyren ekstrudowany XPS, pianki poliuretanowe i poliizocyjanurowe (PUR/PIR) w płytach i w formie natryskowej, fenolowe pianki twarde, szkło komórkowe (cellular glass), wełnę drzewną (WW), perlit ekspandowany (EPB), korek ekspandowany (ICB), włókno drzewne (WF) oraz złożone systemy izolacji cieplnej od zewnątrz – ETICS (External Thermal Insulation Composite Systems), znane w Polsce jako "ocieplenie metodą lekko-mokrą" lub BSO.
 

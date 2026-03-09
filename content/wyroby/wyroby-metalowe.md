@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 20 w Załączniku IV CPR 2024/3110 obejmuje metalowe wyroby konstrukcyjne i wyroby pomocnicze stosowane w stalowych i aluminiowych konstrukcjach nośnych. Obejmuje walcowane profile stalowe (HEB, IPE, UPN, RHS, SHS, CHS), gorąco formowane i zimnoformowane rury zamknięte, blachy i taśmy, a także kompletne elementy prefabrykowane (belki, słupy, rygle) przeznaczone do montażu na budowie.
+Rodzina 20 w Załączniku VII CPR 2024/3110 obejmuje metalowe wyroby konstrukcyjne i wyroby pomocnicze stosowane w stalowych i aluminiowych konstrukcjach nośnych. Obejmuje walcowane profile stalowe (HEB, IPE, UPN, RHS, SHS, CHS), gorąco formowane i zimnoformowane rury zamknięte, blachy i taśmy, a także kompletne elementy prefabrykowane (belki, słupy, rygle) przeznaczone do montażu na budowie.
 
 Kluczowym dokumentem dla tej rodziny jest norma **EN 1090-1** (Wykonanie konstrukcji stalowych i aluminiowych – Wymagania dotyczące oceny zgodności elementów konstrukcyjnych), która definiuje ścieżkę certyfikacji CE, klasy wykonania oraz wymagania dotyczące zakładowej kontroli produkcji (ZKP) w wytwórni konstrukcji.
 

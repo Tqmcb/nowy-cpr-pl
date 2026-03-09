@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 24 w Załączniku IV CPR 2024/3110 obejmuje kruszywa budowlane – materiały ziarniste stosowane jako składniki betonu, mieszanek mineralno-asfaltowych, podbudów drogowych, zapraw, prefabrykatów i innych wyrobów budowlanych. Pod względem wolumenu produkcji kruszywa są największą grupą materiałów budowlanych na świecie – roczna produkcja UE sięga kilku miliardów ton.
+Rodzina 24 w Załączniku VII CPR 2024/3110 obejmuje kruszywa budowlane – materiały ziarniste stosowane jako składniki betonu, mieszanek mineralno-asfaltowych, podbudów drogowych, zapraw, prefabrykatów i innych wyrobów budowlanych. Pod względem wolumenu produkcji kruszywa są największą grupą materiałów budowlanych na świecie – roczna produkcja UE sięga kilku miliardów ton.
 
 Kruszywa dzielimy ze względu na:
 - **Pochodzenie**: naturalne (żwir, piasek, granit, wapień, bazalt), sztuczne (lekkie kruszywa ekspandowane: keramzyt, pumeks), z recyklingu (granulat betonowy RCA, granulat ceglany)

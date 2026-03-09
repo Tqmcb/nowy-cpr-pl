@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 18 w Załączniku IV CPR 2024/3110 obejmuje wyroby do inżynierii sanitarnej i odwodnień – przede wszystkim systemy rurowe do kanalizacji grawitacyjnej i ciśnieniowej, studzienki kanalizacyjne, separatory, szamba oraz elementy odwodnienia drogowego. Są to wyroby instalacyjne zakopywane w gruncie lub montowane w budynkach, odprowadzające ścieki bytowe, przemysłowe i wody opadowe.
+Rodzina 18 w Załączniku VII CPR 2024/3110 obejmuje wyroby do inżynierii sanitarnej i odwodnień – przede wszystkim systemy rurowe do kanalizacji grawitacyjnej i ciśnieniowej, studzienki kanalizacyjne, separatory, szamba oraz elementy odwodnienia drogowego. Są to wyroby instalacyjne zakopywane w gruncie lub montowane w budynkach, odprowadzające ścieki bytowe, przemysłowe i wody opadowe.
 
 Branża kanalizacyjna jest specyficzna pod względem materiałowym – stosuje się tu szerokie spektrum tworzyw sztucznych (PVC-U, PVC-MD, PP, PE-HD, GRP) oraz tradycyjną ceramikę kamionkową i beton. Każdy materiał ma własną normę zharmonizowaną i odpowiedni zakres zastosowań.
 

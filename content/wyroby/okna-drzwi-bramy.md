@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 2 według Załącznika IV CPR 2024/3110 obejmuje wszystkie drzwi, okna, okiennice, bramy i związane z nimi okucia budowlane przeznaczone do wbudowania w zewnętrzne i wewnętrzne przegrody budynków. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów pod względem zastosowań i materiałów – producentami są zarówno małe zakłady stolarskie, jak i wielkie fabryki okien PVC i aluminium.
+Rodzina 2 według Załącznika VII CPR 2024/3110 obejmuje wszystkie drzwi, okna, okiennice, bramy i związane z nimi okucia budowlane przeznaczone do wbudowania w zewnętrzne i wewnętrzne przegrody budynków. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów pod względem zastosowań i materiałów – producentami są zarówno małe zakłady stolarskie, jak i wielkie fabryki okien PVC i aluminium.
 
 Rodzina obejmuje: okna i drzwi zewnętrzne (w tym balkonowe i tarasowe), okna i drzwi wewnętrzne, drzwi do pomieszczeń mokrych, drzwi i okna dymoszczelne oraz o odporności ogniowej, bramy przemysłowe i garażowe (w tym bramy szybkobieżne, sekcyjne, segmentowe), żaluzje, rolety zewnętrzne i okiennice, okucia do drzwi i okien (zawiasy, zamki, klamki o funkcji EVP i odporności na włamanie), a także fasadowe elementy obrotowe i przesuwne.
 

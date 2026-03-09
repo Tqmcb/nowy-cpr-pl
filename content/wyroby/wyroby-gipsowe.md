@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 7 według Załącznika IV CPR 2024/3110 obejmuje wyroby gipsowe stosowane jako elementy wewnętrzne okładzin, przegród, podłóg i sufitów w budynkach. Gips, jako surowiec naturalny o wyjątkowych właściwościach pożarowych i higroskopijnych, stanowi podstawę jednych z najbardziej rozpowszechnionych materiałów wykończeniowych w Europie.
+Rodzina 7 według Załącznika VII CPR 2024/3110 obejmuje wyroby gipsowe stosowane jako elementy wewnętrzne okładzin, przegród, podłóg i sufitów w budynkach. Gips, jako surowiec naturalny o wyjątkowych właściwościach pożarowych i higroskopijnych, stanowi podstawę jednych z najbardziej rozpowszechnionych materiałów wykończeniowych w Europie.
 
 Rodzina obejmuje: płyty gipsowo-kartonowe (GKB – standardowe, GKF – ognioodporne, GKBI – odporne na wilgoć, GKFI – ognioodporne i wodoodporne, GKL – lekkie), płyty gipsowo-włóknowe (gipsowo-drzewne, homogeniczne), tynki gipsowe i szpachle gipsowe (maszynowe i ręczne), płyty gipsowe do ścian działowych i sufitów podwieszanych, kompozytowe panele gipsowe (z rdzeniem gipsowym i okładzinami z różnych materiałów), gipsowe płyty podłogowe, elementy do suchej zabudowy (systemowe profile i łączniki – choć te należą do innych rodzin).
 

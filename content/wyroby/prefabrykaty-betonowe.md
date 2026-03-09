@@ -7,13 +7,13 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1 / 2+"
 normy: ["EN 13369", "EN 13225", "EN 1168", "EN 14843", "EN 14992", "EN 13230"]
 tags: ["prefabrykaty", "beton", "CPR 2024", "certyfikacja", "AVS"]
-excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika IV CPR 2024/3110. System AVS 1 lub 2+ w zależności od zastosowania. Deklarowanie właściwości środowiskowych obowiązkowe po publikacji nowych hTS. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
+excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika VII CPR 2024/3110. System AVS 1 lub 2+ w zależności od zastosowania. Deklarowanie właściwości środowiskowych obowiązkowe po publikacji nowych hTS. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
 ## O rodzinie wyrobów
 
-Prefabrykaty betonowe stanowią pierwszą rodzinę wyrobów budowlanych według Załącznika IV do rozporządzenia CPR 2024/3110. Obejmuje ona wszystkie prefabrykowane elementy produkowane z betonu zwykłego, lekkiego oraz autoklawizowanego betonu komórkowego (AAC), przeznaczone do zastosowań konstrukcyjnych i niekonstrukcyjnych w obiektach budowlanych.
+Prefabrykaty betonowe stanowią pierwszą rodzinę wyrobów budowlanych według Załącznika VII do rozporządzenia CPR 2024/3110. Obejmuje ona wszystkie prefabrykowane elementy produkowane z betonu zwykłego, lekkiego oraz autoklawizowanego betonu komórkowego (AAC), przeznaczone do zastosowań konstrukcyjnych i niekonstrukcyjnych w obiektach budowlanych.
 
 Do rodziny tej zalicza się szerokie spectrum wyrobów: belki i podciągi sprężone, płyty kanałowe (hollow core slabs), słupy i ściany prefabrykowane, schody prefabrykowane, elementy fundamentowe, deski i panele ogrodzeniowe z betonu, a także bloczki i płyty z autoklawizowanego betonu komórkowego (ytong, siporex). Normą bazową dla całej rodziny jest EN 13369 – Wspólne wymagania dla prefabrykatów betonowych, która określa zasady ogólne dotyczące składu betonu, zbrojenia, tolerancji wymiarowych i wymagań dotyczących trwałości.
 

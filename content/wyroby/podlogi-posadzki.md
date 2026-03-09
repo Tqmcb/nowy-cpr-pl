@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 19 w Załączniku IV CPR 2024/3110 obejmuje wszystkie rodzaje podłóg i posadzek stosowanych w budynkach i obiektach infrastrukturalnych. Jest to jedna z najbardziej różnorodnych rodzin wyrobów pod względem materiałowym – od naturalnego drewna, przez płytki ceramiczne i kamień naturalny, po zaawansowane kompozyty winylowe LVT i żywiczne posadzki przemysłowe.
+Rodzina 19 w Załączniku VII CPR 2024/3110 obejmuje wszystkie rodzaje podłóg i posadzek stosowanych w budynkach i obiektach infrastrukturalnych. Jest to jedna z najbardziej różnorodnych rodzin wyrobów pod względem materiałowym – od naturalnego drewna, przez płytki ceramiczne i kamień naturalny, po zaawansowane kompozyty winylowe LVT i żywiczne posadzki przemysłowe.
 
 Wyróżniające cechy rodziny 19 z perspektywy CPR 2024/3110:
 - **Bezpośredni kontakt użytkowników** – podłogi są wyrobem, z którym ludzie są w stałym kontakcie, co czyni emisje VOC i substancje niebezpieczne szczególnie krytycznym parametrem

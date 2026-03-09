@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Kable elektroenergetyczne i komunikacyjne – rodzina wyrobów 31 wg CPR 2024/3110
 
-Kable wchodzą w zakres CPR już od 1 lipca 2017 roku – jako jeden z pierwszych wyrobów budowlanych z obowiązkowym oznakowaniem CE wynikającym z normy EN 50575. Rozporządzenie CPR 2024/3110 potwierdza i rozszerza ten zakres w rodzinie 31 Załącznika IV, dodając nowe wymagania środowiskowe oraz precyzując klasyfikację kabli komunikacyjnych i sterujących.
+Kable wchodzą w zakres CPR już od 1 lipca 2017 roku – jako jeden z pierwszych wyrobów budowlanych z obowiązkowym oznakowaniem CE wynikającym z normy EN 50575. Rozporządzenie CPR 2024/3110 potwierdza i rozszerza ten zakres w rodzinie 31 Załącznika VII, dodając nowe wymagania środowiskowe oraz precyzując klasyfikację kabli komunikacyjnych i sterujących.
 
 ## O rodzinie wyrobów
 

@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 9 według Załącznika IV CPR 2024/3110 obejmuje ściany osłonowe (curtain walling), okładziny elewacyjne (cladding) i systemy fasadowego szklenia strukturalnego (SSG – Structural Sealant Glazing). Jest to jedna z najbardziej złożonych technicznie rodzin wyrobów – systemy fasadowe łączą funkcje ochrony przed warunkami atmosferycznymi, izolacji termicznej i akustycznej, odporności ogniowej, a często również estetyki reprezentacyjnych budynków biurowych i użyteczności publicznej.
+Rodzina 9 według Załącznika VII CPR 2024/3110 obejmuje ściany osłonowe (curtain walling), okładziny elewacyjne (cladding) i systemy fasadowego szklenia strukturalnego (SSG – Structural Sealant Glazing). Jest to jedna z najbardziej złożonych technicznie rodzin wyrobów – systemy fasadowe łączą funkcje ochrony przed warunkami atmosferycznymi, izolacji termicznej i akustycznej, odporności ogniowej, a często również estetyki reprezentacyjnych budynków biurowych i użyteczności publicznej.
 
 Rodzina obejmuje: aluminiowe systemy ścian osłonowych słupkowo-ryglowych (mullion-transom curtain walls), elewacje wentylowane z okładzinami aluminiowymi, kompozytowymi (ACM), kamieniem naturalnym, ceramiką, betonem architektonicznym i drewnem, systemy fasadowego szklenia strukturalnego (SSG – uszczelnienie strukturalne silikonem bez widocznych opraw), systemy fasad point-fixed (mocowania mechaniczne szklenia), fasady zintegrowane z fotowoltaiką (BIPV), podwójne fasady (double-skin facades), żaluzje integralne w przestrzeni fasadowej.
 

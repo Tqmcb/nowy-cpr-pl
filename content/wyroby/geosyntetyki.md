@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 8 według Załącznika IV CPR 2024/3110 obejmuje geosyntetyki, geomembrany i wyroby pokrewne stosowane w budownictwie geotechnicznym, drogownictwie, hydrotechnice i inżynierii środowiska. Jest to obszar techniczny o znaczeniu strategicznym dla infrastruktury – geosyntetyki stosowane są w dosłownie każdym obiekcie inżynierskim: pod każdą drogą ekspresową, wzdłuż każdej linii kolejowej i w każdym składowisku odpadów.
+Rodzina 8 według Załącznika VII CPR 2024/3110 obejmuje geosyntetyki, geomembrany i wyroby pokrewne stosowane w budownictwie geotechnicznym, drogownictwie, hydrotechnice i inżynierii środowiska. Jest to obszar techniczny o znaczeniu strategicznym dla infrastruktury – geosyntetyki stosowane są w dosłownie każdym obiekcie inżynierskim: pod każdą drogą ekspresową, wzdłuż każdej linii kolejowej i w każdym składowisku odpadów.
 
 Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z polipropylenu i polietylenu, geotekstylia włókninowe (nonwoven geotextiles) igłowane i termozgrzewane, geosiatki (geogrids) z polipropylenu, polietylenu i stali, geokompozyty (połączenie geotekstyliów z geosiatkami lub innymi elementami), geomembrany z HDPE, LLDPE, PVC-P, TPO, EPDM do hydroizolacji, georuszty (geocells) – przestrzenne struktury polimerowe do wzmacniania podłoża, georuszty do ochrony brzegów, geodreny (geocomposite drainage systems), geosyntetyczne bariery bentonitowe (GCL – Geosynthetic Clay Liners).
 

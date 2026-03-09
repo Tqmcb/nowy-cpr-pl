@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Kleje budowlane – rodzina wyrobów 25 wg CPR 2024/3110
 
-Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku IV, skupiając szeroki zakres produktów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
+Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres produktów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
 
 ## O rodzinie wyrobów
 

@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 11 według Załącznika IV CPR 2024/3110 obejmuje wyroby sanitarne przeznaczone do wbudowania w budynki – urządzenia sanitarne do higieny osobistej i potrzeb fizjologicznych. Jest to rodzina bezpośrednio związana z podstawowymi wymaganiami higienicznymi i zdrowotnymi, w tym z wymaganiami dotyczącymi ochrony zdrowia i środowiska (Wymaganie Podstawowe 3 CPR).
+Rodzina 11 według Załącznika VII CPR 2024/3110 obejmuje wyroby sanitarne przeznaczone do wbudowania w budynki – urządzenia sanitarne do higieny osobistej i potrzeb fizjologicznych. Jest to rodzina bezpośrednio związana z podstawowymi wymaganiami higienicznymi i zdrowotnymi, w tym z wymaganiami dotyczącymi ochrony zdrowia i środowiska (Wymaganie Podstawowe 3 CPR).
 
 Rodzina obejmuje: miski ustępowe (WC) – podwieszane i stojące, zbiorniki spłukujące (stelaże), pisuarowe, umywalki – ceramiczne, akrylowe, ze stali emaliowanej, z kompozytów mineralno-akrylowych (Solid Surface, Corian), wanny – akrylowe, stalowo-emaliowane, żeliwno-emaliowane, wanny z hydromasażem, brodziki prysznicowe – akrylowe, ceramiczne, z tworzywa sztucznego, ceramiczne, zlewy kuchenne – ze stali nierdzewnej, ceramiczne, akrylowe, granitowe, bidety, pisuary, zlewy laboratoryjne i szpitalne.
 
