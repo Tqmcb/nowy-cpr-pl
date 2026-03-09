@@ -13,7 +13,7 @@ template: "analiza"
 
 CPR 2024/3110 (rozporządzenie Parlamentu Europejskiego i Rady w sprawie wyrobów budowlanych) utrzymuje dwa zasadnicze mechanizmy, przez które producent może oznakować wyrób znakiem CE i wprowadzić go do obrotu na jednolitym rynku UE:
 
-1. **Norma zharmonizowana (hEN)** — opracowana przez CEN lub CENELEC na podstawie mandatu KE, opublikowana w Dzienniku Urzędowym UE. Producent stosuje ją bezpośrednio jako podstawę do wystawienia Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C).
+1. **Norma zharmonizowana (hEN)** — opracowana przez CEN lub CENELEC na podstawie mandatu KE, opublikowana w Dzienniku Urzędowym UE. Producent stosuje ją bezpośrednio jako podstawę do wystawienia Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
 
 2. **Europejska Ocena Techniczna (ETA, ang. *European Technical Assessment*)** — indywidualna ocena wyrobu przeprowadzana przez akredytowaną jednostkę oceny technicznej (TAB, ang. *Technical Assessment Body*) na podstawie Europejskiego Dokumentu Oceny (EAD). ETA jest wydawana na wniosek producenta i stanowi podstawę oznakowania CE wyrobów, dla których nie istnieje właściwa norma zharmonizowana lub które znacząco odbiegają od zakresu dostępnych norm.
 

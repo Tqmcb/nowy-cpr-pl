@@ -18,7 +18,7 @@ Na rynku europejskim w obszarze wyrobów budowlanych funkcjonują przede wszystk
 1. **EU Ecolabel** — europejska ekologiczna etykieta produktu, system dobrowolny regulowany rozporządzeniem (WE) nr 66/2010,
 2. **EPD (Environmental Product Declaration)** — deklaracja środowiskowa produktu opracowana zgodnie z normą EN 15804+A2 (dla wyrobów budowlanych) lub ISO 14025,
 3. **Własne deklaracje środowiskowe (twierdzenia własne)** — deklaracje producenta nieoparte na zewnętrznej weryfikacji, regulowane normą ISO 14021,
-4. **Charakterystyki środowiskowe w DoP&C** — nowe podejście CPR 2024/3110, integrujące wybrane wskaźniki środowiskowe do Deklaracji Właściwości Użytkowych i Środowiskowych.
+4. **Charakterystyki środowiskowe w DoP&C** — nowe podejście CPR 2024/3110, integrujące wybrane wskaźniki środowiskowe do Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
 
 ## EU Ecolabel — dobrowolna, ale wymagająca
 
@@ -67,7 +67,7 @@ W sektorze budowlanym własne deklaracje tego typu proliferowały szczególnie w
 
 ## Charakterystyki środowiskowe w DoP&C — integracja CPR 2024
 
-Największa zmiana systemowa przyniesiona przez CPR 2024/3110 polega na tym, że **właściwości środowiskowe wyrobu budowlanego stają się deklarowanymi charakterystykami użytkowymi** zawartymi w Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C). To fundamentalne przesunięcie — docelowo charakterystyki środowiskowe przestają być dobrowolnymi dodatkami, a stają się częścią oficjalnego systemu certyfikacji CE; obowiązek ten aktywuje się dla każdej grupy wyrobów osobno, po opublikowaniu nowej normy zharmonizowanej (hTS) i zakończeniu okresu koegzystencji (zazwyczaj 12–36 mies.).
+Największa zmiana systemowa przyniesiona przez CPR 2024/3110 polega na tym, że **właściwości środowiskowe wyrobu budowlanego stają się deklarowanymi charakterystykami użytkowymi** zawartymi w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C). To fundamentalne przesunięcie — docelowo charakterystyki środowiskowe przestają być dobrowolnymi dodatkami, a stają się częścią oficjalnego systemu certyfikacji CE; obowiązek ten aktywuje się dla każdej grupy wyrobów osobno, po opublikowaniu nowej normy zharmonizowanej (hTS) i zakończeniu okresu koegzystencji (zazwyczaj 12–36 mies.).
 
 DoP&C zawiera lub będzie zawierała (w zależności od grupy wyrobów i etapu wdrożenia CPR 2024):
 - Deklarowane wartości GWP (z podziałem na moduły cyklu życia),

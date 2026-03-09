@@ -18,7 +18,7 @@ Główny Urząd Nadzoru Budowlanego (GUNB) jest w Polsce organem odpowiedzialnym
 ### 1. Deklaracja Właściwości Użytkowych i Zgodności (DoP&C)
 
 Inspektor weryfikuje, czy DoP&C:
-- Zawiera wszystkie elementy wymagane przez Załącznik IV do CPR 2024
+- Zawiera wszystkie elementy wymagane przez Załącznik V do CPR 2024
 - Używa właściwej nomenklatury (AVS zamiast AVCP, DoP&C zamiast DoP)
 - Wskazuje właściwy system AVS dla danego wyrobu
 - Jest dostępna w języku polskim (lub przynajmniej angielskim z tłumaczeniem na żądanie)

@@ -17,7 +17,7 @@ Jednak sama norma techniczna — zawierająca metody badań, definicje klas i po
 
 - wykaz charakterystyk wyrobu, które podlegają deklarowaniu,
 - przypisany do każdej charakterystyki system oceny i weryfikacji stałości właściwości użytkowych (AVS, dawniej AVCP),
-- wymagania dotyczące zawartości Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C),
+- wymagania dotyczące zawartości Deklaracji Właściwości Użytkowych i Zgodności (DoP&C),
 - zakres zastosowania normy w kontekście CPR.
 
 ## Struktura Załącznika ZA — co i gdzie szukać
@@ -41,7 +41,7 @@ Tabela ta jest absolutnie kluczowa. To właśnie ona decyduje, co producent musi
 
 **3. Punkt ZA.3 — Zawartość i prezentacja oznakowania CE oraz DoP&C**
 
-W punkcie ZA.3 norma wskazuje, jakie informacje muszą znaleźć się na etykiecie CE oraz w Deklaracji Właściwości Użytkowych i Środowiskowych (w nowym CPR 2024 dawna DoP — Declaration of Performance — stała się DoP&C — Declaration of Performance and Characteristics). Jest tu zazwyczaj wzorcowy układ etykiety CE z podaniem symboli, klas i numerów norm.
+W punkcie ZA.3 norma wskazuje, jakie informacje muszą znaleźć się na etykiecie CE oraz w Deklaracji Właściwości Użytkowych i Zgodności (w nowym CPR 2024 dawna DoP — Declaration of Performance — stała się DoP&C — Declaration of Performance and Conformity). Jest tu zazwyczaj wzorcowy układ etykiety CE z podaniem symboli, klas i numerów norm.
 
 ## Jak odczytać system AVS z tabeli ZA.2
 
@@ -81,6 +81,6 @@ Czytając Załącznik ZA nowej normy, warto postępować zgodnie z poniższą ko
 2. Otwórz tabelę ZA.2 i wypisz wszystkie charakterystyki istotne dla Twojego wyrobu i rynku docelowego.
 3. Dla każdej charakterystyki zidentyfikuj system AVS i zdecyduj, czy deklarujesz wartość, czy stosujesz NPD.
 4. Zidentyfikuj, które systemy AVS wymagają udziału jednostki notyfikowanej i zaplanuj współpracę z odpowiednią JN.
-5. Na podstawie ZA.3 przygotuj projekt Deklaracji Właściwości Użytkowych i Środowiskowych oraz etykiety CE.
+5. Na podstawie ZA.3 przygotuj projekt Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz etykiety CE.
 
 Prawidłowe przeczytanie Załącznika ZA to nie formalność — to podstawa zgodności z CPR 2024/3110 i warunek konieczny legalnego wprowadzenia wyrobu budowlanego do obrotu na terenie Unii Europejskiej.

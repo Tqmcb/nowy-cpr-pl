@@ -21,7 +21,7 @@ Sektor budowlany odpowiada za około 40% zużycia energii w UE i blisko 36% emis
 
 ## CPR 2024 a podstawy prawne deklarowania właściwości środowiskowych
 
-CPR 2024/3110 wprowadza szereg zmian, które mają bezpośrednie przełożenie na GPP. Najważniejszą z nich jest formalizacja **charakterystyk środowiskowych wyrobu budowlanego** jako pełnoprawnych właściwości użytkowych, które mogą (a w przyszłości — będą musiały) być deklarowane w Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C).
+CPR 2024/3110 wprowadza szereg zmian, które mają bezpośrednie przełożenie na GPP. Najważniejszą z nich jest formalizacja **charakterystyk środowiskowych wyrobu budowlanego** jako pełnoprawnych właściwości użytkowych, które mogą (a w przyszłości — będą musiały) być deklarowane w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
 
 Wśród tych charakterystyk centralne miejsce zajmuje **GWP (ang. *Global Warming Potential*, potencjał globalnego ocieplenia)**, wyrażany w kg CO2 ekwiwalentnym na jednostkę funkcjonalną wyrobu. GWP jest obliczany metodą oceny cyklu życia (LCA) zgodnie z normą EN 15804+A2 i wykazywany w Deklaracji Środowiskowej Produktu (EPD).
 

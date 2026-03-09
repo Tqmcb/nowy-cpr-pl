@@ -45,7 +45,7 @@ Dokumentacja techniczna to zbiór dokumentów potwierdzających, że wyrób budo
 
 ### Część 4: Deklaracja właściwości i zgodności
 
-- **Aktualna DoP&C** — ze wszystkimi wymaganymi polami Załącznika IV
+- **Aktualna DoP&C** — ze wszystkimi wymaganymi polami Załącznika V
 - **Historia zmian DoP&C** — jeśli była aktualizowana
 - **Kopie poprzednich DoP** (jeśli producent wystawiał w ramach CPR 305/2011)
 

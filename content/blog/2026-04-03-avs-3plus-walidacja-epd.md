@@ -13,7 +13,7 @@ template: "analiza"
 
 Stare rozporządzenie CPR (305/2011) zostało zaprojektowane w epoce, gdy zrównoważone budownictwo było postulatem, a nie wymogiem prawnym. System AVCP (Assessment and Verification of Constancy of Performance) obejmował systemy 1+, 1, 2+, 3 i 4, skupione wyłącznie na ocenie właściwości użytkowych wyrobu w sensie techniczno-mechanicznym: wytrzymałości, reakcji na ogień, przewodności cieplnej, wodoszczelności itp.
 
-Tymczasem CPR 2024/3110 formalnie włącza **właściwości środowiskowe** (ang. *environmental characteristics*) do zakresu oceny wyrobu budowlanego. Producenci deklarujący charakterystyki środowiskowe w Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C) muszą oprzeć je na wiarygodnych danych. Jednak dane LCA i EPD są z natury bardziej złożone i mniej obiektywizowalne niż wynik badania wytrzymałościowego w laboratorium.
+Tymczasem CPR 2024/3110 formalnie włącza **właściwości środowiskowe** (ang. *environmental characteristics*) do zakresu oceny wyrobu budowlanego. Producenci deklarujący charakterystyki środowiskowe w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) muszą oprzeć je na wiarygodnych danych. Jednak dane LCA i EPD są z natury bardziej złożone i mniej obiektywizowalne niż wynik badania wytrzymałościowego w laboratorium.
 
 Odpowiedzią na tę potrzebę jest **system AVS 3+** — nowa kategoria oceny, która nie certyfikuje wyrobu, lecz **waliduje metodologię i dane** leżące u podstaw EPD. Stanowi formalne uzupełnienie systemu 3 (w którym JN przeprowadza wstępne badanie typu wyrobu), tworząc odrębną ścieżkę dla oceny środowiskowej.
 
