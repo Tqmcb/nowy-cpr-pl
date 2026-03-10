@@ -142,9 +142,9 @@ const documentUrls: Record<string, string> = {
   "dpp-guide":     "/docs/dpp-przewodnik.html",
   "avcp-systems":       "/docs/avs-systemy-przewodnik.html",
   "importer-dopc":      "/docs/importer-dopc-szablon.html",
-  "tech-file":          "/docs/dokumentacja-techniczna-art20.html",
+  "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
   "user-instructions":  "/docs/instrukcja-uzytkownika-art9.html",
-  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art22.html",
+  "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html",
   "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
 };
 
