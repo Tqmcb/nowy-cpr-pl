@@ -28,7 +28,7 @@ GUNB jest centralnym organem odpowiedzialnym za nadzór rynku wyrobów budowlany
 Podczas kontroli inspektorzy GUNB sprawdzają:
 
 1. **Dokumentację techniczną** – kompletność i aktualność
-2. **Deklarację właściwości użytkowych (DoP)** – treść, dostępność, języki
+2. **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** – treść, dostępność, języki
 3. **Oznakowanie CE** – prawidłowość, czytelność, kompletność
 4. **Zgodność z normami zharmonizowanymi** – badania, certyfikaty
 5. **Zakładową kontrolę produkcji** – dokumentacja FPC (dla importerów)
@@ -52,7 +52,7 @@ Wszczynana na podstawie:
 
 ## Najczęstsze nieprawidłowości
 
-- **Brak DoP** lub jej nieprawidłowa treść (nieaktualne normy, brak wymaganych właściwości)
+- **Brak DoP&C** lub jej nieprawidłowa treść (nieaktualne normy, brak wymaganych właściwości)
 - **Niewłaściwe oznakowanie CE** – brakujące elementy, nieczytelne symbole
 - **Niezgodność deklarowanych właściwości** z wynikami badań rynkowych
 - **Brak wymaganej dokumentacji** przy imporcie spoza UE

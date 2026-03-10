@@ -97,7 +97,7 @@ TAB wydaje ETA zawierającą:
 - Warunki zastosowania wyrobu
 - Wymagania dotyczące FPC
 
-ETA jest ważna **bezterminowo**, ale może być zmieniona lub wycofana przy zmianie wyrobu lub EAD.
+ETA jest ważna przez **czas obowiązywania EAD** (10 lat od cytowania w OJEU) plus 5 lat po wygaśnięciu EAD (art. 95 CPR 2024/3110). Może być też zmieniona lub wycofana przy zmianie wyrobu.
 
 ### Etap 6: DoP&C i oznakowanie CE
 

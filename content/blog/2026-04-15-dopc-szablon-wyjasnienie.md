@@ -90,9 +90,9 @@ To pole wskazuje normę EN lub Europejską Ocenę Techniczną (ETA), na podstawi
 
 ### Pole 8: Dane jednostki notyfikowanej (JN)
 
-**Przykład:** `Instytut Techniki Budowlanej, numer notyfikacji 1488, zakres: wyroby ceramiczne`
+**Przykład:** `Multicert Sp. z o.o., numer notyfikacji XXXX, zakres: wyroby betonowe`
 
-W systemach AVCP 1+, 1 i 2+ w procesie oceny bierze udział jednostka notyfikowana. W DoP&C podaje się nazwę JN, jej numer notyfikacji (z bazy NANDO) oraz opis wykonanych przez nią zadań (np. certyfikacja wyrobu, inspekcja zakładu). W systemach 3 i 4 zadania JN są ograniczone lub nieobecne — w polu wpisuje się wówczas odpowiednią adnotację.
+W systemach AVS 1+, 1 i 2+ w procesie oceny bierze udział jednostka notyfikowana. W DoP&C podaje się nazwę JN, jej numer notyfikacji (z bazy NANDO) oraz opis wykonanych przez nią zadań (np. certyfikacja wyrobu, inspekcja zakładu). W systemach 3 i 4 zadania JN są ograniczone lub nieobecne — w polu wpisuje się wówczas odpowiednią adnotację.
 
 ---
 

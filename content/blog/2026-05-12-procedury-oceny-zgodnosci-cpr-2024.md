@@ -11,7 +11,7 @@ template: "przewodnik"
 
 # Procedury oceny zgodności w CPR 2024 — jak wybrać właściwy system AVS
 
-Jednym z pierwszych kroków na drodze do oznakowania CE jest ustalenie, **który system AVS (Assessment and Verification of Constancy of Performance) dotyczy Twojego wyrobu**. CPR 2024/3110 definiuje 6 systemów — i każdy oznacza inne obowiązki producenta oraz inny zakres zaangażowania jednostki notyfikowanej.
+Jednym z pierwszych kroków na drodze do oznakowania CE jest ustalenie, **który system AVS (Assessment and Verification System) dotyczy Twojego wyrobu**. CPR 2024/3110 definiuje 6 systemów — i każdy oznacza inne obowiązki producenta oraz inny zakres zaangażowania jednostki notyfikowanej.
 
 ## Co to jest system AVS?
 

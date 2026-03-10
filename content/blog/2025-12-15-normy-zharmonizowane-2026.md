@@ -61,4 +61,4 @@ Producenci korzystający z nieaktualnych norm ryzykują:
 
 ---
 
-Regularnie sprawdzaj aktualność norm, na których podstawie wystawiasz Deklarację Właściwości Użytkowych. Zmiany w hEN mogą wymagać aktualizacji dokumentacji technicznej i powtórzenia części badań.
+Regularnie sprawdzaj aktualność norm, na których podstawie wystawiasz Deklarację Właściwości Użytkowych i Zgodności (DoP&C). Zmiany w hEN mogą wymagać aktualizacji dokumentacji technicznej i powtórzenia części badań.
