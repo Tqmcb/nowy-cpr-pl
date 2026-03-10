@@ -115,5 +115,4 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie ceramiki budowlanej i armatury sanitarnej; badania ITT wymagane w systemie AVS 3
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; specjalistyczne laboratorium ceramiczne; badania glazur, składu chemicznego, higieny powierzchni ceramiki sanitarnej
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy wdrożeniu FPC dla producentów armatury sanitarnej
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej; oceny techniczne dla innowacyjnych wyrobów sanitarnych (np. kompozyty mineralne Solid Surface, nowe materiały nawierzchniowe)
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla wyrobów sanitarnych nieobjętych normami zharmonizowanymi (systemy prysznicowe nowej generacji, innowacyjne zbiorniki spłukujące)

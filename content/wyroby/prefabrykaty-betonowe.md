@@ -40,7 +40,7 @@ W systemie AVS 1 jednostka notyfikowana przeprowadza: wstępne badanie typu (ITT
 
 W systemie AVS 2+ jednostka notyfikowana certyfikuje system FPC producenta (wydaje certyfikat systemu FPC), natomiast producent samodzielnie przeprowadza ITT.
 
-Kluczową polską jednostką notyfikowaną dla prefabrykatów betonowych jest [Multicert](https://www.multicert.com.pl) – posiada akredytację PCA i notyfikację do certyfikacji zgodności prefabrykatów z betonu zwykłego, lekkiego i komórkowego. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl), a kompleksowe wsparcie systemowe – [ITB](https://www.itb.pl) (jednostka notyfikowana NB 1488).
+Kluczową polską jednostką notyfikowaną dla prefabrykatów betonowych jest [Multicert](https://www.multicert.com.pl) – posiada akredytację PCA i notyfikację do certyfikacji zgodności prefabrykatów z betonu zwykłego, lekkiego i komórkowego. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -89,7 +89,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 - [ ] Ustalić system AVS (1 lub 2+) na podstawie klasy zagrożenia w normie wyrobu
 - [ ] Przeprowadzić lub zlecić badanie wstępne typu (ITT) w akredytowanym laboratorium
 - [ ] Opracować i wdrożyć podręcznik zakładowej kontroli produkcji (FPC Manual) zgodny z wymaganiami normy
-- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl) lub [ITB](https://www.itb.pl)) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
+- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl)) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
 - [ ] Sporządzić DoP&C (Deklarację Właściwości Użytkowych i Zgodności) w języku polskim i udostępnić ją w formie cyfrowej
 - [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVS i numer jednostki notyfikowanej
 - [ ] Rozpocząć przygotowania do deklarowania GWP – nawiązać kontakt z dostawcami cementu i kruszyw w sprawie danych środowiskowych do EPD
@@ -102,7 +102,6 @@ Producenci prefabrykatów betonowych mogą korzystać z następujących źróde�
 
 - [Multicert](https://www.multicert.com.pl) – jednostka notyfikowana akredytowana przez PCA, specjalizująca się w certyfikacji prefabrykatów z betonu zwykłego, lekkiego i komórkowego; oferuje pełen zakres usług dla systemu AVS 1 i 2+
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z szerokim zakresem akredytacji dla wyrobów betonowych; wykonuje badania ITT i badania próbek FPC
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej, największa polska jednostka notyfikowana (NB 1488); oferuje certyfikację, oceny techniczne i doradztwo w zakresie CPR 2024
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie w zakresie Europejskich Ocen Technicznych (ETA) dla wyrobów nieobjętych normami zharmonizowanymi lub wyrobów innowacyjnych
 
 Warto pamiętać, że od 8 stycznia 2026 roku wymagania CPR 2024 obowiązują w pełni, a pierwsze kontrole rynkowe z możliwością nakładania sankcji administracyjnych przewidziane są od 8 stycznia 2027 roku.

@@ -41,7 +41,7 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 
 **System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wydaje DoP&C.
 
-Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB) takie jak [ITB](https://www.itb.pl).
+Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -91,7 +91,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 **Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 
-**System ETICS na EPS z tynkiem silikonowym**: Kompletny zestaw: klej, EPS, kołki, zaprawa wzmacniająca, siatka z włókna szklanego, grunt, tynk silikonowy. Wprowadzany na podstawie ETA (np. ETA-xx/yyyy wydana przez ITB). System AVS 1. Producent musi odnowić ETA w świetle CPR 2024; stare ETA ważne do 9 stycznia 2036.
+**System ETICS na EPS z tynkiem silikonowym**: Kompletny zestaw: klej, EPS, kołki, zaprawa wzmacniająca, siatka z włókna szklanego, grunt, tynk silikonowy. Wprowadzany na podstawie ETA (np. ETA-xx/yyyy wydana przez TAB). System AVS 1. Producent musi odnowić ETA w świetle CPR 2024; stare ETA ważne do 9 stycznia 2036.
 
 ## Checklist producenta
 
@@ -110,7 +110,6 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań wyrobów termoizolacyjnych; badania λ, CS, reakcji na ogień, nasiąkliwości wodą; wykonuje badania ITT dla AVS 3
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; badania i certyfikacja wyrobów izolacyjnych; raporty ITT i wsparcie w przygotowaniu DoP&C
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); Jednostka Oceny Technicznej (TAB) dla systemów ETICS na ETA; szkolenia CPR 2024
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie przy uzyskiwaniu ETA dla innowacyjnych systemów izolacyjnych i ETICS
 
 Ważny zasób dla producentów: bazy danych EPD takie jak Instytut Bauvil (Niemcy) oraz krajowe programy EPD rozwijające się w Polsce. Warto wcześnie zaangażować się w tworzenie EPD branżowych (industry-average EPD), które mogą być tańszą alternatywą dla EPD indywidualnych przed 2027.

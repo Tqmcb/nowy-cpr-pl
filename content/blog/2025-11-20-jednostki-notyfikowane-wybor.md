@@ -3,7 +3,7 @@ title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
 date: "2025-11-20"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
-tags: ["jednostki notyfikowane", "certyfikacja", "ITB", "NANDO"]
+tags: ["jednostki notyfikowane", "certyfikacja", "NANDO", "Multicert"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."
 image_url: /images/blog/jednostki-notyfikowane-wybor.jpg
 template: "przewodnik"
@@ -19,13 +19,15 @@ Jednostki notyfikowane (Notified Bodies, NB) to organizacje wyznaczone przez pa�
 
 ## Główne jednostki notyfikowane w Polsce
 
-### ITB – Instytut Techniki Budowlanej (NB 1488)
+### Multicert Sp. z o.o.
 
-Największa polska jednostka notyfikowana dla wyrobów budowlanych. Zakres obejmuje m.in.:
-- Wyroby konstrukcyjne (stal, beton, drewno)
-- Okna, drzwi i fasady
-- Wyroby izolacyjne
-- Wyroby do dachów i tarczów
+[Multicert](https://www.multicert.pl) to jednostka akredytowana przez PCA w zakresie certyfikacji wyrobów budowlanych. Zakres obejmuje m.in.:
+- Beton towarowy i prefabrykaty betonowe
+- Cement i spoiwa hydrauliczne
+- Kruszywa budowlane
+- Wyroby konstrukcyjne
+
+Multicert jest również przedstawicielem handlowym [ITCZLin](https://www.itczlin.pl) – laboratorium oferującego szeroki zakres badań wyrobów budowlanych.
 
 ### ICiMB – Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
 

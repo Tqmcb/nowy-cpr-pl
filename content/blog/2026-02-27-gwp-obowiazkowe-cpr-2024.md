@@ -77,7 +77,7 @@ Większość z tych danych powinna być dostępna w Twoim systemie zarządzania 
 
 Obliczenia LCA (Life Cycle Assessment) muszą być zgodne z normą **EN 15804+A2** i **ISO 14044**. Nie są to obliczenia, które można wykonać samodzielnie bez specjalistycznej wiedzy. W Polsce działają firmy oferujące usługi LCA dla wyrobów budowlanych, m.in.:
 
-- instytuty badawcze (ITB, ICiMB)
+- instytuty badawcze (ICiMB, ITCZLin)
 - wyspecjalizowane firmy konsultingowe ds. zrównoważonego budownictwa
 - platformy cyfrowe (SimaPro, OpenLCA, GaBi z bazami danych ekoinwentaryzacji)
 

@@ -47,7 +47,7 @@ Rodzina 20 stosuje dwa poziomy nadzoru, zależne od klasy wykonania (EXC):
 - W systemie 2+: NB certyfikuje ZKP (audyt), lecz nie prowadzi audit sampling ante market.
 
 Certyfikację EN 1090 dla wytwórni stalowych wykonują w Polsce:
-- [ITB](https://www.itb.pl) (NB 1488) – największy zakres, certyfikuje EXC1-EXC4
+- [Multicert](https://www.multicert.pl) – certyfikacja EXC1-EXC4
 - [ITCZLin](https://www.itczlin.pl) – badania wyrobów stalowych i materiałów wyjściowych
 
 ## Kluczowe wymagania CPR 2024
@@ -107,7 +107,7 @@ Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 muszą zaktualizowa�
 
 Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2, stal S355J2):
 1. Posiadanie WPS/WPQR dla spawania MIG/MAG stali S355J2 wg EN ISO 15614-1
-2. Certyfikacja ZKP przez [ITB](https://www.itb.pl) (NB 1488) – System AVS 2+
+2. Certyfikacja ZKP przez jednostkę notyfikowaną (np. [Multicert](https://www.multicert.pl)) – System AVS 2+
 3. Personel nadzoru spawalniczego na poziomie IWT (Technolog Spawalnik IWT/EWT)
 4. Opracowanie DoP&C dla elementów prefabrykowanych: klasa EXC2, S355J2, tolerancje EN 1090-2, powłoka antykorozyjna klasa C3 (EN ISO 12944)
 5. Deklaracja GWP dla stali EAF: ~0,55 kg CO2eq/kg
@@ -116,7 +116,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 
 - [ ] Ustalenie klas wykonania EXC dla produkowanych elementów
 - [ ] Wybór systemu AVS (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej NB
-- [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [ITB](https://www.itb.pl) lub [ITCZLin](https://www.itczlin.pl)
+- [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl)
 - [ ] Przygotowanie procedur spawania (WPS/WPQR wg EN ISO 15614)
 - [ ] Zatrudnienie personelu nadzoru spawalniczego (IWE/IWT) odpowiedniego dla EXC
 - [ ] Kwalifikacja spawaczy wg EN ISO 9606-1 (ważność certyfikatów spawaczy co 2 lata)
@@ -128,6 +128,5 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 
 ## Gdzie szukać wsparcia
 
-- [ITB](https://www.itb.pl) – największa polska jednostka notyfikowana (NB 1488), certyfikacja EN 1090 EXC1-EXC4, badania stali i spawów
 - [ITCZLin](https://www.itczlin.pl) – badania właściwości mechanicznych stali i złączy spawanych, kontrola NDT
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów połączeń stalowych i kotwiących

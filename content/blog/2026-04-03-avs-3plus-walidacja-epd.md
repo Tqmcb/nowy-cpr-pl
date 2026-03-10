@@ -61,7 +61,7 @@ W Polsce walidację EPD zgodną z EN 15804+A2 i wymaganiami CPR 2024 (system AVS
 
 - **Jednostki notyfikowane akredytowane przez PCA (Polskie Centrum Akredytacji)** w zakresie walidacji lub weryfikacji środowiskowej — lista dostępna w bazie NANDO (New Approach Notified and Designated Organisations) Komisji Europejskiej,
 - **Operatorzy programów EPD** uznanych na poziomie europejskim, tacy jak Institut Bauen und Umwelt e.V. (IBU, Niemcy), The Norwegian EPD Foundation czy ECO Platform — ich weryfikatorzy mogą działać transgranicznie,
-- **Instytuty naukowo-badawcze** posiadające akredytację w zakresie weryfikacji LCA, np. w ramach struktury ITB lub Instytutu Inżynierii Chemicznej PAN.
+- **Instytuty naukowo-badawcze** posiadające akredytację w zakresie weryfikacji LCA, np. w ramach Instytutu Inżynierii Chemicznej PAN lub innych akredytowanych podmiotów.
 
 Rynek walidacji EPD w Polsce dopiero się kształtuje. Wielu producentów korzysta z usług zagranicznych JN — szczególnie z Niemiec i Skandynawii — gdzie doświadczenie w weryfikacji EPD jest znacznie dłuższe.
 

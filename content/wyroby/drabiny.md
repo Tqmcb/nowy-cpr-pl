@@ -136,4 +136,4 @@ Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm do
 
 ## Gdzie szukać wsparcia
 
-Szczegółowe informacje o nowej rodzinie 36 i procedurach certyfikacji drabin trwałych dostępne są na [nowycpr.pl](https://www.nowycpr.pl). W sprawach ocen technicznych (ETA) właściwy jest [Instytut Techniki Budowlanej (ITB)](https://www.itb.pl) – [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Norma EN ISO 14122-4 i EN 131-7 dostępne są przez [PKN](https://www.pkn.pl). Baza jednostek notyfikowanych dla CPR dostępna jest w systemie [NANDO Komisji Europejskiej](https://ec.europa.eu/growth/tools-databases/nando/).
+Szczegółowe informacje o nowej rodzinie 36 i procedurach certyfikacji drabin trwałych dostępne są na [nowycpr.pl](https://www.nowycpr.pl). W sprawach ocen technicznych (ETA) informacje dostępne są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Norma EN ISO 14122-4 i EN 131-7 dostępne są przez [PKN](https://www.pkn.pl). Baza jednostek notyfikowanych dla CPR dostępna jest w systemie [NANDO Komisji Europejskiej](https://ec.europa.eu/growth/tools-databases/nando/).

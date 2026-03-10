@@ -114,5 +114,4 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVS 3
 - [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i wsparcie w zakresie CPR 2024; raporty z ITT dla producentów geosyntetyków
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej; oceny techniczne dla innowacyjnych wyrobów geotechnicznych (np. geosyntetyczne bariery bentonitowe GCL, biopolimerowe geosyntetyki)
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych geosyntetyków nieobjętych normami zharmonizowanymi (np. georuszty z włókna bazaltowego, biodegradowalne maty erozyjochronne)

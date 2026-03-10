@@ -42,7 +42,7 @@ Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na
 
 **System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wydaje DoP&C.
 
-Kluczową polską jednostką notyfikowaną dla wyrobów drogowych jest [ITB](https://www.itb.pl) (NB 1488). Wsparcie przy badaniach właściwości mechanicznych i certyfikacji oferuje [Multicert](https://www.multicert.pl).
+Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów drogowych oferuje [Multicert](https://www.multicert.pl). Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -97,7 +97,7 @@ Kluczową polską jednostką notyfikowaną dla wyrobów drogowych jest [ITB](htt
 
 ## Przykłady wyrobów
 
-**Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVS 1 – producent posiada CoCP od ITB (NB 1488) potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
+**Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVS 1 – producent posiada CoCP od jednostki notyfikowanej potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
 
 **Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – producent przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy) i wystawia DoP&C.
 
@@ -107,7 +107,7 @@ Kluczową polską jednostką notyfikowaną dla wyrobów drogowych jest [ITB](htt
 
 - [ ] Zidentyfikować właściwą normę EN (EN 1317-2 dla barier, EN 12767 dla słupów, EN 1463-1 dla folii) dla każdego wyrobu
 - [ ] Ustalić system AVS: AVS 1 dla barier ochronnych, AVS 3 dla słupów i znaków
-- [ ] Dla barier (AVS 1): nawiązać kontakt z [ITB](https://www.itb.pl) (NB 1488) i zaplanować test zderzeniowy na akredytowanym torze badawczym
+- [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
 - [ ] Uzyskać certyfikat CoCP (bariery) lub raport ITT (słupy, znaki) od jednostki notyfikowanej
 - [ ] Wdrożyć FPC z kontrolą stali (skład chemiczny, grubość), cynkowania (grubość powłoki) i wymiarów
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) z klasyfikacją EN 1317 lub EN 12767 i udostępnić cyfrowo
@@ -118,8 +118,7 @@ Kluczową polską jednostką notyfikowaną dla wyrobów drogowych jest [ITB](htt
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); kluczowa polska jednostka notyfikowana dla wyposażenia dróg; certyfikacja CoCP dla barier drogowych (AVS 1), raporty ITT dla słupów (AVS 3); doradztwo techniczne w zakresie EN 1317 i EN 12767
+- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego; certyfikacja CoCP dla barier drogowych (AVS 1), raporty ITT dla słupów (AVS 3)
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze; badania właściwości mechanicznych stali i aluminium; badania fotometryczne folii retrorefleksyjnych i znaków drogowych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów ochrony drogowej (kompozytowe bariery drogowe, mobilne bariery ze stali dupleks, ekrany akustyczne nowych generacji)
 

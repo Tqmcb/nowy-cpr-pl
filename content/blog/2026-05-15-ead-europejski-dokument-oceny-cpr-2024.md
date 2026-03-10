@@ -58,10 +58,7 @@ Nowy EAD opracowuje EOTA we współpracy z TAB i producentem. To **długi i kosz
 
 ### Etap 1: Wybór TAB
 
-Producent składa wniosek do dowolnej TAB mającej siedzibę w UE. TAB to instytucje wyznaczone przez rządy państw członkowskich — w Polsce jest to:
-- **ITB (Instytut Techniki Budowlanej)** — dla większości kategorii wyrobów budowlanych
-
-Pełna lista TAB dostępna na stronie EOTA.
+Producent składa wniosek do dowolnej TAB mającej siedzibę w UE. TAB to instytucje wyznaczone przez rządy państw członkowskich. W Polsce funkcjonuje jednostka TAB wpisana do organizacji EOTA. Pełna lista TAB dostępna na stronie [EOTA](https://www.eota.eu). Procedury uzyskiwania ETA opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
 ### Etap 2: Wstępna ocena i weryfikacja zakresu (1–3 miesiące)
 

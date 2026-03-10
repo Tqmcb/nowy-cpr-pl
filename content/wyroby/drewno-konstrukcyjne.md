@@ -37,7 +37,7 @@ Dla drewna konstrukcyjnego z rodziny 13 obowiązuje:
 - **System AVS 2+** – dla drewna sortowanego wizualnie lub dla elementów o niższym poziomie krytyczności.
 - **System AVS 3+** – nowy system w CPR 2024/3110, dedykowany weryfikacji deklaracji środowiskowych (EPD). Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat), potwierdzający prawidłowość obliczeń GWP i innych wskaźników środowiskowych.
 
-Producenci CLT i GLT powinni skontaktować się z jednostką notyfikowaną, taką jak [ITB](https://www.itb.pl) (NB 1488) lub [ITCZLin](https://www.itczlin.pl), w celu certyfikacji ZKP.
+Producenci CLT i GLT powinni skontaktować się z jednostką notyfikowaną, taką jak [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl), w celu certyfikacji ZKP.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -112,5 +112,4 @@ Dla producentów drewna konstrukcyjnego szczególnie przydatne są:
 
 - [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
 - [ITCZLin](https://www.itczlin.pl) – badania i certyfikacja wyrobów z drewna i tworzyw drzewnych
-- [ITB](https://www.itb.pl) – największa polska jednostka notyfikowana (NB 1488), certyfikacja ZKP dla wyrobów drewnianych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – oceny techniczne ETA dla innowacyjnych systemów konstrukyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)

@@ -42,7 +42,7 @@ Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
 - **System AVS 3+** – walidacja EPD dla producentów dążących do deklarowania GWP.
 
-W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl) lub [ITB](https://www.itb.pl) (NB 1488).
+W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -105,7 +105,7 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 
 - [ ] Identyfikacja normy wyrobu (EN 771-1 do EN 771-6 lub EN 998-1/-2)
 - [ ] Ustalenie systemu AVS (2+ dla nośnych, 3/4 dla nienośnych)
-- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ICiMB](https://www.icimb.pl) lub [ITB](https://www.itb.pl))
+- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl))
 - [ ] Certyfikacja ZKP przez NB ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
@@ -119,4 +119,3 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), lider w certyfikacji ceramicznych wyrobów murowych i elementów z ABK
 - [Multicert](https://www.multicert.com.pl) – certyfikacja elementów betonowych i silikatowych do murowania
-- [ITB](https://www.itb.pl) – badania i certyfikacja wyrobów murowych, ETA dla systemów murowych z innowacyjnymi zaprawami (NB 1488)

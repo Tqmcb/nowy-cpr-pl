@@ -37,7 +37,7 @@ System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcj
 
 **System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 jednostka notyfikowana przeprowadza wyłącznie badanie ITT i wydaje raport z badania. Producent samodzielnie wydaje DoP&C i certyfikuje FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego.
 
-Dla produktów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe – [ITB](https://www.itb.pl) (NB 1488).
+Dla produktów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -78,7 +78,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 **Okna PVC trójszybowe**: Producent okien PVC z profilu 6-komorowego, szyba o Ug = 0,6 W/m²K, Uw całego okna ≈ 0,8 W/m²K. Podlega EN 14351-1, system AVS 3. Zleca ITT w laboratorium akredytowanym (badania przepuszczalności powietrza, wodoszczelności, obciążenia wiatrem). Samodzielnie prowadzi FPC, wystawia DoP&C z wartościami: Uw = 0,8 W/(m²K), klasa powietrzna 4, klasa wodoszczelna 7A, klasa wiatrowa 3.
 
-**Drzwi ognioodporne EI 30**: Drzwi stalowe z wypełnieniem mineralnym, klasyfikowane jako EI 30 (odporność ogniowa 30 minut z integralnością i izolacyjnością). Podlega EN 16034 + EN 14351-2, system AVS 1. Wymaga certyfikatu CoCP od jednostki notyfikowanej (np. ITB NB 1488). Badanie ogniowe przeprowadza się w akredytowanym laboratorium pożarowym.
+**Drzwi ognioodporne EI 30**: Drzwi stalowe z wypełnieniem mineralnym, klasyfikowane jako EI 30 (odporność ogniowa 30 minut z integralnością i izolacyjnością). Podlega EN 16034 + EN 14351-2, system AVS 1. Wymaga certyfikatu CoCP od jednostki notyfikowanej. Badanie ogniowe przeprowadza się w akredytowanym laboratorium pożarowym.
 
 **Brama segmentowa garażowa**: Brama stalowa segmentowa do garażu prywatnego. EN 13241, system AVS 3. Producent deklaruje obciążenie wiatrem, bezpieczne użytkowanie (siły zetknięcia z przeszkodą ≤ 150 N), trwałość cykli (> 25 000 cykli dla klasy 3).
 
@@ -99,5 +99,4 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze oferujące testy okien i drzwi (EN 1026, EN 1027, EN 12211); wykonuje badania ITT wymagane w systemie AVS 3
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca certyfikację wyrobów okienno-drzwiowych; doradztwo w zakresie CPR 2024
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); niezbędny dla drzwi i okien ognioodpornych (AVS 1, EN 16034); oferuje również szkolenia z zakresu CPR 2024
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie dla producentów ubiegających się o ETA dla innowacyjnych rozwiązań okienno-drzwiowych nieposiadających normy zharmonizowanej

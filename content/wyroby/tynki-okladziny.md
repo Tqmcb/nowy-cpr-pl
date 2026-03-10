@@ -42,7 +42,7 @@ Dla wyrobów z rodziny 21 obowiązuje:
 - **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników środowiskowych.
 
-Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITB](https://www.itb.pl) (NB 1488), który dysponuje pełnozakresowym laboratorium badawczym.
+Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -113,8 +113,8 @@ Producent tynku silikonowego ziarnistego (baranek 1,5 mm) przeznaczonego do wyko
 **Przykład 2: Producent systemu ścianek GK z deklaracją EI 60**
 
 Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoinowa):
-1. Badania ogniowe zestawu wg EN 1364-1 w laboratorium [ITB](https://www.itb.pl) – uzyskany wynik EI 60
-2. System AVS 3 – ITB przeprowadza ITT, producent prowadzi ZKP
+1. Badania ogniowe zestawu wg EN 1364-1 w akredytowanym laboratorium – uzyskany wynik EI 60
+2. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
 3. Klasyfikacja wg EN 13501-2: EI 60
 4. DoP&C dla zestawu: EI 60, odporność akustyczna Rw=45dB, A2-s1,d0
 
@@ -122,7 +122,7 @@ Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoin
 
 - [ ] Identyfikacja normy (EN 998-1, EN 15824, EN 15825, EN 13963, EN 520 lub inne)
 - [ ] Ustalenie systemu AVS (3 dla wyrobów z deklarowaną odpornością ogniową lub zewnętrznych, 4 dla pozostałych)
-- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ITB](https://www.itb.pl) lub [ITCZLin](https://www.itczlin.pl))
+- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Badania emisji VOC i substancji niebezpiecznych dla tynków wewnętrznych
 - [ ] Sprawdzenie biocydów stosowanych w tynkach elewacyjnych (Rozporządzenie BPR)
 - [ ] Wdrożenie ZKP z monitoringiem składu i właściwości
@@ -134,6 +134,5 @@ Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoin
 ## Gdzie szukać wsparcia
 
 - [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych i tynkarskich
-- [ITB](https://www.itb.pl) – badania ogniowe systemów ścianek GK, tynków elewacyjnych, odporność ogniowa (NB 1488)
-- [ITCZLin](https://www.itczlin.pl) – badania emisji VOC, właściwości mechanicznych tynków i zapraw
+- [ITCZLin](https://www.itczlin.pl) – badania emisji VOC, właściwości mechanicznych tynków i zapraw, badania ogniowe
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów ETICS i innowacyjnych systemów suchej zabudowy

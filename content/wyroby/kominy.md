@@ -102,5 +102,4 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; kluczowe centrum kompetencji dla ceramicznych wyrobów kominowych i ogniotrwałych; badania ITT i konsultacje techniczne
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań metalowych systemów kominowych i instalacyjnych; badania szczelności, odporności korozyjnej i termicznej
 - [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i doradztwo w zakresie CPR 2024 dla producentów elementów instalacyjnych i kominowych
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej; oceny techniczne dla innowacyjnych systemów kominowych i powietrzno-spalinowych nieposiadających pełnych norm zharmonizowanych
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów kominowych o specjalnych właściwościach lub nowych konfiguracjach (np. systemy kominowe do pomp ciepła, hybrydowych urządzeń grzewczych)
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kominowych o specjalnych właściwościach lub nowych konfiguracjach (np. systemy kominowe do pomp ciepła, hybrydowych urządzeń grzewczych)

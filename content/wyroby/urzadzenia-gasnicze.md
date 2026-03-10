@@ -45,7 +45,7 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej obejmuje:
 - **Certyfikat stałości właściwości użytkowych (CoCP)**: Wydawany przez jednostkę notyfikowaną po pozytywnej ocenie ITT i FPC
 - **Ciągły nadzór**: Regularne audyty (co najmniej raz w roku) obejmujące kontrolę FPC, wyniki badań wewnętrznych i losowe badania próbek pobranych z rynku lub zakładu
 
-Kluczową polską jednostką notyfikowaną dla wyrobów przeciwpożarowych jest [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego w Józefowie (numer notyfikacji NB 1438). CNBOP-PIB posiada kompleksowe laboratoria ppoż. i jest uznawane za wiodące centrum kompetencji w zakresie ochrony przeciwpożarowej w Polsce i Europie Środkowej. Ponadto [ITB](https://www.itb.pl) (NB 1488) posiada kompetencje w zakresie badań materiałów ogniochronnych.
+Kluczową polską jednostką notyfikowaną dla wyrobów przeciwpożarowych jest [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego w Józefowie (numer notyfikacji NB 1438). CNBOP-PIB posiada kompleksowe laboratoria ppoż. i jest uznawane za wiodące centrum kompetencji w zakresie ochrony przeciwpożarowej w Polsce i Europie Środkowej.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -117,5 +117,4 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 - [Multicert](https://www.multicert.pl) – certyfikacja systemu zarządzania jakością (ISO 9001) jako uzupełnienie wymagań FPC dla producentów urządzeń ppoż.
 - [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego, Józefów; numer notyfikacji NB 1438; wiodąca jednostka notyfikowana dla wyrobów ppoż. w Polsce; badania ITT, certyfikacja CoCP, doradztwo techniczne; niezbędny partner dla każdego producenta z rodziny 10
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); badania ogniochronności materiałów i systemów budowlanych; oceny techniczne dla innowacyjnych systemów gaśniczych
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane; badania środowiskowe i EMC dla elektronicznych komponentów systemów SAP

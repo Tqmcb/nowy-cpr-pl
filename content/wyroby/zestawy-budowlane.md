@@ -112,7 +112,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 ## Checklist producenta
 
 - [ ] Zidentyfikować, czy dla systemu istnieje hEN czy konieczna jest ścieżka ETA
-- [ ] Wybrać TAB (ITB lub inna jednostka EOTA) i złożyć wniosek o ETA jeśli potrzebna
+- [ ] Wybrać TAB (jednostkę oceny technicznej z [EOTA](https://www.eota.eu)) i złożyć wniosek o ETA jeśli potrzebna
 - [ ] Przeprowadzić obliczenia nośności wg Eurokodów i badania laboratoryjne
 - [ ] Wybrać system AVS (1 lub 2+) i uzyskać certyfikat od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP w fabryce i poddać ją audytom zewnętrznym
@@ -123,4 +123,4 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 
 ## Gdzie szukać wsparcia
 
-Procedury ETA dla zestawów budowlanych dostępne są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl) i stronie [ITB](https://www.itb.pl). Europejskie EAD dla systemów modułowych i CLT dostępne są na [EOTA](https://www.eota.eu). Wsparcie w zakresie EPD i LCA dla systemów drewnianych oferuje [Platforma Zrównoważonego Budownictwa](https://www.platzb.pl). Pełne informacje o CPR 2024 i procedurach certyfikacji dostępne są na [nowycpr.pl](https://www.nowycpr.pl).
+Procedury ETA dla zestawów budowlanych dostępne są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Europejskie EAD dla systemów modułowych i CLT dostępne są na [EOTA](https://www.eota.eu). Wsparcie w zakresie EPD i LCA dla systemów drewnianych oferuje [Platforma Zrównoważonego Budownictwa](https://www.platzb.pl). Pełne informacje o CPR 2024 i procedurach certyfikacji dostępne są na [nowycpr.pl](https://www.nowycpr.pl).

@@ -42,7 +42,7 @@ Wyroby z rodziny 18 stosują:
 - **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja EPD dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 
-Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl) lub [ITB](https://www.itb.pl).
+Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -99,7 +99,7 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 - [ ] Identyfikacja właściwej normy (EN 1401-1, EN 1329-1, EN 1453-1, EN 13476 seria, EN 1519-1, EN 1852-1)
 - [ ] Ustalenie systemu AVS (3 dla kanalizacji zewnętrznej/nośnej, 4 dla pomocniczej)
 - [ ] Przeprowadzenie badań ITT (sztywność, szczelność, odporność chemiczna, wymiary)
-- [ ] Skontaktowanie się z NB ([ITCZLin](https://www.itczlin.pl) lub [ITB](https://www.itb.pl)) w celu przeprowadzenia ITT (System AVS 3)
+- [ ] Skontaktowanie się z NB ([ITCZLin](https://www.itczlin.pl)) w celu przeprowadzenia ITT (System AVS 3)
 - [ ] Wdrożenie ZKP z kontrolą każdej partii produkcyjnej
 - [ ] Sprawdzenie składu chemicznego surowców pod kątem REACH i RoHS
 - [ ] Wystawienie DoP&C z deklaracją SN, szczelności, klasy materiału
@@ -111,5 +111,4 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 
 - [ITCZLin](https://www.itczlin.pl) – badania rur i kształtek z tworzyw sztucznych do kanalizacji (wytrzymałość, szczelność, odporność chemiczna)
 - [Multicert](https://www.multicert.pl) – certyfikacja wyrobów instalacyjnych i kanalizacyjnych
-- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja systemów kanalizacyjnych (NB 1488)
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kanalizacyjnych nieobjętych normami zharmonizowanymi

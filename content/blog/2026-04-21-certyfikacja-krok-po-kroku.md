@@ -69,7 +69,7 @@ Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikow
 **Jak wybrać JN?**
 
 1. Skorzystaj z bazy NANDO (ec.europa.eu/growth/tools-databases/nando) — wyszukaj JN notyfikowane dla odpowiedniej normy EN (pole „Standard/Document").
-2. Zidentyfikuj polskie JN — dla wyrobów budowlanych notyfikowane są m.in. Instytut Techniki Budowlanej (ITB), COBR METALTECH, Instytut Ceramiki i Materiałów Budowlanych.
+2. Zidentyfikuj polskie JN — dla wyrobów budowlanych notyfikowane są m.in. Multicert, ICiMB (Instytut Ceramiki i Materiałów Budowlanych), CNBOP-PIB.
 3. Poproś o ofertę cenową od co najmniej 2–3 JN — ceny mogą się znacznie różnić w zależności od zakresu i złożoności badań.
 4. Sprawdź aktualność notyfikacji — zdarza się, że notyfikacja JN wygasa lub jest zawieszona.
 

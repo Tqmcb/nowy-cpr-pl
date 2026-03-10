@@ -104,4 +104,4 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 
 ## Gdzie szukać wsparcia
 
-Informacje o certyfikacji domieszek do betonu i wymaganiach CPR 2024 dostępne są na [nowycpr.pl](https://www.nowycpr.pl). Oceny techniczne i badania prowadzi [Instytut Techniki Budowlanej (ITB)](https://www.itb.pl). Europejskie wytyczne techniczne dla domieszek publikuje [EFCA (European Federation of Concrete Admixtures Associations)](https://www.efca.info). Normy EN 934 dostępne są przez [PKN](https://www.pkn.pl).
+Informacje o certyfikacji domieszek do betonu i wymaganiach CPR 2024 dostępne są na [nowycpr.pl](https://www.nowycpr.pl). Europejskie wytyczne techniczne dla domieszek publikuje [EFCA (European Federation of Concrete Admixtures Associations)](https://www.efca.info). Normy EN 934 dostępne są przez [PKN](https://www.pkn.pl).

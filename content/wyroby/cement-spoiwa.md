@@ -120,4 +120,3 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych, jednostka notyfikowana NB 1454, specjalizacja w certyfikacji cementu, wapna i spoiw hydraulicznych
 - [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących
-- [ITB](https://www.itb.pl) – badania i oceny techniczne dla innowacyjnych spoiw (NB 1488)

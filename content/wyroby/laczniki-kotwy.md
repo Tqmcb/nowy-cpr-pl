@@ -57,7 +57,7 @@ Dla łączników na podstawie ETA obowiązuje **system AVS 1** – najwyższy po
 - Jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP (system AVS 1).
 - Oznakowanie CE możliwe jest wyłącznie po uzyskaniu ETA i certyfikatu zgodności.
 
-W Polsce właściwą jednostką oceny technicznej (TAB) jest [Instytut Techniki Budowlanej (ITB)](https://www.itb.pl) wpisany do organizacji [EOTA](https://www.eota.eu). Inne europejskie TAB (np. DIBt w Niemczech, CSTB we Francji) mogą wystawiać ETA uznawane w całej UE.
+W Polsce funkcjonuje jednostka oceny technicznej (TAB) wpisana do organizacji [EOTA](https://www.eota.eu). Procedury opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Inne europejskie TAB (np. DIBt w Niemczech, CSTB we Francji) mogą wystawiać ETA uznawane w całej UE.
 
 **Metody obliczeniowe dla projektantów:**
 ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe** (NRd, VRd) zgodne z:
@@ -111,7 +111,7 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 ## Checklist producenta
 
 - [ ] Zidentyfikować typ kotwy i właściwy EAD (EAD 330232, 330499, 330087 lub inny)
-- [ ] Wybrać właściwą jednostkę oceny technicznej (TAB) – ITB lub inna z EOTA
+- [ ] Wybrać właściwą jednostkę oceny technicznej (TAB) z [EOTA](https://www.eota.eu)
 - [ ] Przeprowadzić kompletny program badań wg EAD (wyrwanie, ścinanie, sejsmika, korozja)
 - [ ] Uzyskać Europejską Ocenę Techniczną (ETA) od TAB
 - [ ] Uzyskać certyfikat wyrobu od jednostki notyfikowanej (system AVS 1)
@@ -122,4 +122,4 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 
 ## Gdzie szukać wsparcia
 
-Procedury uzyskiwania ETA dla łączników opisane są na stronach [Instytutu Techniki Budowlanej (ITB)](https://www.itb.pl) i portalu [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Pełna lista EAD dostępna jest na stronie [EOTA](https://www.eota.eu). Norma EN 1992-4 (projektowanie kotwień) dostępna jest przez [PKN](https://www.pkn.pl). Wsparcie merytoryczne i interpretację przepisów CPR 2024 oferuje [nowycpr.pl](https://www.nowycpr.pl).
+Procedury uzyskiwania ETA dla łączników opisane są na portalu [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Pełna lista EAD dostępna jest na stronie [EOTA](https://www.eota.eu). Norma EN 1992-4 (projektowanie kotwień) dostępna jest przez [PKN](https://www.pkn.pl). Wsparcie merytoryczne i interpretację przepisów CPR 2024 oferuje [nowycpr.pl](https://www.nowycpr.pl).

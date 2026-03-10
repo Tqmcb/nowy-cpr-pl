@@ -44,7 +44,7 @@ Jednak **posiadanie EPD** daje przewagę konkurencyjną i ułatwia procedury!
 - Potwierdzenie zgodności
 
 ### 3. Publikacja (1 tydzień)
-- Rejestracja w międzynarodowym programie (np. EPD International, IBU, ITB)
+- Rejestracja w międzynarodowym programie (np. EPD International, IBU, EPD Polska)
 - Nadanie numeru rejestracyjnego
 - Umieszczenie w bazie danych
 
@@ -74,7 +74,6 @@ Ważność EPD: **5 lat**
 ## Programy EPD w Polsce i Europie
 
 - **[EPD Polska](https://www.epd.org.pl)** – program EPD dedykowany rynkowi polskiemu
-- **ITB-EPD** (Polska) – program Instytutu Techniki Budowlanej
 - **EPD International** (Szwecja) – największy program globalny
 - **IBU** (Niemcy) – Institut Bauen und Umwelt
 - **ECO Platform** – platforma europejska

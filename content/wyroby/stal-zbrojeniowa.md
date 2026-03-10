@@ -44,7 +44,7 @@ Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich 
    - Wydanie CSPU (Certyfikatu Stałości Właściwości Użytkowych)
 3. **Audyty nadzorcze** – co 12 miesięcy lub przy zmianie procesu produkcji
 
-W Polsce certyfikację stali zbrojeniowej prowadzi m.in. [ITCZLin](https://www.itczlin.pl) oraz [ITB](https://www.itb.pl) (NB 1488).
+W Polsce certyfikację stali zbrojeniowej prowadzi m.in. [ITCZLin](https://www.itczlin.pl) oraz [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -103,7 +103,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 10080 dla zbrojenia, EN 10138-x dla stali sprężającej)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej NB ([ITB](https://www.itb.pl) NB 1488 lub [ITCZLin](https://www.itczlin.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej NB ([Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP z kontrolą każdego wytopu (skład chemiczny, właściwości mechaniczne)
 - [ ] Uzyskanie CSPU w ramach Systemu AVS 1+ (audyt ante-market)
 - [ ] Zapewnienie pełnej identyfikowalności (traceability) od wytopu do wyrobu gotowego
@@ -117,5 +117,4 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – certyfikacja i badania stali zbrojeniowej i sprężającej
-- [ITB](https://www.itb.pl) – jednostka notyfikowana NB 1488, certyfikacja wyrobów stalowych, ETA dla systemów
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – Europejskie Oceny Techniczne (ETA) dla systemów post-tensioning i kotwiących

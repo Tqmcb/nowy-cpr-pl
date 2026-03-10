@@ -79,8 +79,7 @@ Dane te będą weryfikowane przez System AVS 3+ (nowy system dla oceny środowis
 Europejskie platformy DoP&C:
 - **CSTB** (Francja) — Construction Digital Hub
 - **IBU** (Niemcy) — Digital Product Passport (z EPD)
-- **ITB** (Polska) — System ITB-DoP&C (w przygotowaniu)
-- **Multicert** — wsparcie we wdrożeniu dokumentacji i platformy cyfrowej DoP&C
+- **Multicert** (Polska) — wsparcie we wdrożeniu dokumentacji i platformy cyfrowej DoP&C
 
 ## Korzyści Digital DoP&C
 

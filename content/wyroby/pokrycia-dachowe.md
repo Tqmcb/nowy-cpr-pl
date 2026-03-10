@@ -42,7 +42,7 @@ Dla wyrobów z rodziny 22 obowiązuje:
 - **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
 - **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 
-Badania dachowe (BROOF, wodoszczelność, wytrzymałość mechaniczna) wykonuje m.in. [ITB](https://www.itb.pl) (NB 1488), który posiada stanowiska do badań pokryć dachowych.
+Badania dachowe (BROOF, wodoszczelność, wytrzymałość mechaniczna) wykonuje m.in. [ITCZLin](https://www.itczlin.pl), który posiada stanowiska do badań pokryć dachowych.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -101,8 +101,8 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 
 Polska cegielnia produkująca dachówki ceramiczne dachówkowe (łukowe) w różnych kolorach angobowanych:
 1. Badania ITT wg EN 1304: wytrzymałość na zginanie, absorpcja wody, mrozoodporność (F2 – 150 cykli), masy pozornej
-2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium NB ([ITB](https://www.itb.pl))
-3. System AVS 3 – ITB przeprowadza ITT, producent prowadzi ZKP
+2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium NB ([ITCZLin](https://www.itczlin.pl))
+3. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
 4. EPD z GWP 280 kg CO2eq/t – dachówka ceramiczna może być deklarowana jako wyrób trwały (min. 50 lat) z niskim GWP na rok użytkowania
 5. DoP&C: klasa BROOF(t2), absorpcja wody <15%, klasa mrozoodporności F2, trwałość 50+ lat
 
@@ -119,7 +119,7 @@ Producent membran TPO do dachów płaskich:
 - [ ] Identyfikacja normy wyrobu (EN 490, EN 1304, EN 544, EN 13707, EN 14783 lub inne)
 - [ ] Ustalenie systemu AVS (3 dla wyrobów z deklarowaną klasą BROOF, 4 dla pomocniczych)
 - [ ] Przeprowadzenie badań ITT – wytrzymałość mechaniczna, wodoszczelność, mrozoodporność
-- [ ] Klasyfikacja BROOF(t2) lub BROOF(t4) w laboratorium NB ([ITB](https://www.itb.pl))
+- [ ] Klasyfikacja BROOF(t2) lub BROOF(t4) w laboratorium NB ([ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP i wystawienie DoP&C z deklaracją klasy BROOF i wodoszczelności
 - [ ] Sprawdzenie składu chemicznego pod kątem SVHC (bitum, plastyfikatory, farby)
 - [ ] Deklarowanie GWP i udziału materiału z recyklingu
@@ -130,6 +130,5 @@ Producent membran TPO do dachów płaskich:
 ## Gdzie szukać wsparcia
 
 - [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów dachowych
-- [ITB](https://www.itb.pl) – badania pokryć dachowych (BROOF, wytrzymałość, wodoszczelność), największa polska NB (NB 1488)
 - [ITCZLin](https://www.itczlin.pl) – badania materiałów dachowych i membran
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów okien dachowych, świetlików i innowacyjnych systemów dachowych

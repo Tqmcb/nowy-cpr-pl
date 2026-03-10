@@ -31,7 +31,7 @@ Wiele systemów fasadowych wprowadzanych jest na rynek na podstawie Europejskich
 
 Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wystawia DoP&C.
 
-Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA lub oceny technicznej kluczowym partnerem jest [ITB](https://www.itb.pl) jako TAB w Polsce.
+Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
 Należy podkreślić, że dla systemów fasadowych z elementami o odporności ogniowej (np. ściana osłonowa z klasą EI 30 lub REI 60) powiązana norma ogniowa wymaga zaangażowania jednostki notyfikowanej z kompetencjami pożarowymi – system może wówczas de facto wymagać AVS 1 lub certyfikacji ogniowej.
 
@@ -98,5 +98,4 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z komorami do badań klimatycznych okien i fasad; wstępne badanie typu (ITT) dla systemów fasadowych wg EN 13830
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy DoP&C dla producentów systemów fasadowych
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej jako TAB; ETA dla innowacyjnych systemów fasadowych (BIPV, point-fix, fasady dynamiczne); badania pożarowe elewacji
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – europejskie oceny techniczne dla systemów fasadowych bez pełnego pokrycia normą EN 13830 (innowacyjne konfiguracje, nowe materiały okładzinowe)

@@ -42,7 +42,7 @@ Dla wyrobów z rodziny 19 obowiązuje:
 - **System AVS 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
 - **System AVS 3+** – walidacja EPD dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
 
-Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl) oraz [ITB](https://www.itb.pl).
+Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -119,7 +119,7 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 
 - [ ] Identyfikacja normy (EN 14041, EN 14342, EN 13329, EN 14904 lub inne)
 - [ ] Ustalenie systemu AVS (3 dla obiektów publicznych, 4 dla mieszkalnych)
-- [ ] Badania ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl) lub [ITB](https://www.itb.pl))
+- [ ] Badania ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Pomiar emisji formaldehydu (EN 717-1) i VOC (EN ISO 16000-6)
 - [ ] Sprawdzenie składu pod kątem ftalanów SVHC (dotyczy LVT/PVC)
 - [ ] Badanie antypoślizgowości wg EN 13893 dla wyrobów do obiektów publicznych
@@ -133,4 +133,3 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 
 - [ITCZLin](https://www.itczlin.pl) – badania podłóg i posadzek (emisja formaldehydu, VOC, reakcja na ogień, antypoślizgowość)
 - [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych
-- [ITB](https://www.itb.pl) – oceny techniczne i certyfikacja wyrobów podłogowych, szczególnie systemów posadzkowych (NB 1488)

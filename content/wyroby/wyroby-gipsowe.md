@@ -106,4 +106,3 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie badań płyt gipsowych i tynków; badania ITT wymagane przed wydaniem DoP&C
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty z ITT i wsparcie przy wdrożeniu FPC dla producentów wyrobów gipsowych
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; kompetencje w zakresie badań materiałów mineralnych, w tym gipsu i anhydrytu; wsparcie przy badaniach fizykochemicznych i termicznych
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej; oceny techniczne dla innowacyjnych systemów gipsowych (np. płyty dźwiękochłonne, systemy klimatyczne z gipsem aktywnym)

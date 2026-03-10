@@ -42,7 +42,7 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej jest najszerszy:
 - **Certyfikat stałości właściwości użytkowych (CoCP)**: Jednostka notyfikowana wydaje certyfikat potwierdzający stałość deklarowanych właściwości
 - **Ciągły nadzór**: Regularne audyty zakładu (co najmniej raz w roku) i kontrole procesu produkcji przez cały okres ważności certyfikatu
 
-Producenci łożysk budowlanych w Polsce korzystają z usług [ITB](https://www.itb.pl) (NB 1488) – jako największej polskiej jednostki notyfikowanej z kompetencjami w obszarze wyrobów konstrukcyjnych. Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl).
+Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikację CoCP w systemie AVS 1 oferuje [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -92,7 +92,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 ## Checklist producenta
 
 - [ ] Potwierdzić, które typy łożysk produkowane są według norm z serii EN 1337 (EN 1337-2 do EN 1337-8)
-- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. [ITB](https://www.itb.pl))
+- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. [Multicert](https://www.multicert.pl))
 - [ ] Przeprowadzić lub zaktualizować badania ITT dla wszystkich deklarowanych właściwości użytkowych
 - [ ] Prowadzić zakładową kontrolę produkcji (FPC) z udokumentowanymi wynikami badań dla każdej partii
 - [ ] Sporządzić DoP&C w aktualnej formie (zmiana z DoP) dla każdego wyrobu lub grupy wyrobów
@@ -104,8 +104,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca wsparcie w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
-- [ITB](https://www.itb.pl) – Instytut Techniki Budowlanej (NB 1488); kluczowa polska jednostka notyfikowana dla łożysk budowlanych; przeprowadza certyfikację CoCP w systemie AVS 1, prowadzi inspekcje FPC i oferuje doradztwo techniczne dla producentów infrastruktury mostowej
+- [Multicert](https://www.multicert.pl) – jednostka notyfikowana oferująca certyfikację CoCP w systemie AVS 1, inspekcje FPC i doradztwo w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z zapleczem do testów materiałów (elastomerów, PTFE) i badań mechanicznych; wykonuje badania wstępne ITT wymagane przed certyfikacją
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – European Technical Assessments (ETA) dla innowacyjnych systemów łożysk nieposiadających pełnej normy zharmonizowanej (np. izolatory sejsmiczne nowych generacji)
 

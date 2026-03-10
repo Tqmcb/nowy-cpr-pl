@@ -44,7 +44,7 @@ Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
 
 **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 
-W Polsce certyfikację betonowych wyrobów drogowych prowadzi [Multicert](https://www.multicert.com.pl) oraz [ITB](https://www.itb.pl) (NB 1488). Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
+W Polsce certyfikację betonowych wyrobów drogowych prowadzi [Multicert](https://www.multicert.com.pl). Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -122,7 +122,7 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 - [ ] Identyfikacja normy wyrobu (EN 12591, EN 14023, EN 13808, EN 1338, EN 1339, EN 1340)
 - [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
-- [ ] Certyfikacja ZKP przez NB ([ITB](https://www.itb.pl) lub [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Certyfikacja ZKP przez NB ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Dla asfaltów (AVS 3): zlecenie ITT do NB ([ITCZLin](https://www.itczlin.pl)), wdrożenie ZKP
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
@@ -134,5 +134,4 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 ## Gdzie szukać wsparcia
 
 - [Multicert](https://www.multicert.com.pl) – certyfikacja betonowych prefabrykatów drogowych (kostka, krawężniki, płyty)
-- [ITB](https://www.itb.pl) – certyfikacja i badania wyrobów drogowych, ETA dla innowacyjnych systemów drogowych (NB 1488)
 - [ITCZLin](https://www.itczlin.pl) – badania lepiszcz asfaltowych, asfaltów modyfikowanych, mieszanek mineralno-asfaltowych

@@ -3,7 +3,7 @@ title: "Wyroby nieobjęte normami zharmonizowanymi - ETA i krajowe oceny technic
 date: "2025-11-10"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
-tags: ["ETA", "ocena techniczna", "TAB", "ITB"]
+tags: ["ETA", "ocena techniczna", "TAB", "EOTA"]
 excerpt: "Co zrobić gdy produkt nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
 image_url: /images/blog/eta-krajowe-oceny-techniczne.jpg
 template: "przewodnik"
@@ -26,7 +26,7 @@ Europejska Ocena Techniczna jest wymagana lub zalecana gdy:
 
 ### Krok 1: Wniosek do jednostki TAB
 
-Producent składa wniosek do jednej z europejskich jednostek ds. oceny technicznej (TAB – Technical Assessment Body). W Polsce funkcję TAB pełni **ITB – Instytut Techniki Budowlanej**.
+Producent składa wniosek do jednej z europejskich jednostek ds. oceny technicznej (TAB – Technical Assessment Body). W Polsce funkcjonuje jednostka TAB wpisana do organizacji [EOTA](https://www.eota.eu). Procedury opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
 ### Krok 2: Opracowanie EAD
 
@@ -44,17 +44,13 @@ TAB wydaje Europejską Ocenę Techniczną zawierającą zestaw właściwości u�
 
 Po uzyskaniu ETA producent przeprowadza ocenę zgodności zgodnie z systemem AVS określonym w EAD, wystawia DoP&C i nanosi oznakowanie CE.
 
-## Jednostki TAB w Polsce
+## Jednostki TAB w Europie
 
-W Polsce jedyną jednostką TAB jest:
-
-**ITB – Instytut Techniki Budowlanej**
-ul. Ksawerów 21, 02-656 Warszawa
-www.itb.pl
+Lista wszystkich europejskich jednostek TAB dostępna jest na stronie [EOTA](https://www.eota.eu). Producent może złożyć wniosek o ETA do dowolnego TAB w UE – wydana ETA jest uznawana we wszystkich państwach członkowskich.
 
 ## Krajowe Oceny Techniczne (KOT)
 
-Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN, ani ETA, możliwe jest uzyskanie Krajowej Oceny Technicznej. Wydaje ją wyłącznie ITB na podstawie krajowego systemu oceny.
+Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN, ani ETA, możliwe jest uzyskanie Krajowej Oceny Technicznej na podstawie krajowego systemu oceny.
 
 **Uwaga:** KOT nie uprawnia do nanoszenia oznakowania CE — jest dokumentem krajowym.
 

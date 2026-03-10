@@ -43,9 +43,8 @@ Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
 3. **Producent** przeprowadza badania wstępne ITT samodzielnie lub zlecając je laboratorium.
 
 W Polsce certyfikację ZKP dla producentów kruszyw prowadzi:
-- [Multicert](https://www.multicert.com.pl) – specjalizacja w certyfikacji kruszyw betonowych i drogowych
+- [Multicert](https://www.multicert.com.pl) – specjalizacja w certyfikacji kruszyw betonowych, drogowych i specjalnych
 - [ICiMB](https://www.icimb.pl) – dla kruszyw ceramicznych i lekkich ekspandowanych (keramzyt)
-- [ITB](https://www.itb.pl) (NB 1488) – certyfikacja kruszyw specjalnych
 
 ## Kluczowe wymagania CPR 2024
 
@@ -141,5 +140,4 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 
 - [Multicert](https://www.multicert.com.pl) – lider w certyfikacji kruszyw do betonu, asfaltów i podbudów drogowych w Polsce
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), certyfikacja kruszyw ceramicznych i lekkich ekspandowanych (keramzyt)
-- [ITB](https://www.itb.pl) – badania kruszyw specjalnych, kruszywa do betonu jądrowego, kruszywa lekkie (NB 1488)
 - [ITCZLin](https://www.itczlin.pl) – badania właściwości fizycznych i mechanicznych kruszyw

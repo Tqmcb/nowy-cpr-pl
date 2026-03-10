@@ -37,13 +37,13 @@ Warto jednak pamiętać, że ETA nie zastępuje normy zharmonizowanej — jeśli
 
 ## Rola TABów i EOTA w Polsce i Europie
 
-Europejska Ocena Techniczna jest wydawana przez TAB — jednostkę oceny technicznej akredytowaną przez państwo członkowskie i wpisaną do rejestru prowadzonego przez Komisję Europejską. W Polsce rolę TAB pełni **Instytut Techniki Budowlanej (ITB)** z siedzibą w Warszawie. ITB jest członkiem organizacji EOTA (ang. *European Organisation for Technical Assessment*), która koordynuje pracę TABów w całej Europie.
+Europejska Ocena Techniczna jest wydawana przez TAB — jednostkę oceny technicznej akredytowaną przez państwo członkowskie i wpisaną do rejestru prowadzonego przez Komisję Europejską. W Polsce funkcjonuje jednostka TAB wpisana do organizacji [EOTA](https://www.eota.eu) (ang. *European Organisation for Technical Assessment*), która koordynuje pracę TABów w całej Europie. Procedury uzyskiwania ETA opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
 EOTA prowadzi dwa kluczowe rejestry publiczne:
 - Rejestr opublikowanych **EAD** (Europejskich Dokumentów Oceny),
 - Rejestr wydanych **ETA** wraz z ich treścią.
 
-Producent składający wniosek o ETA do ITB lub innego TAB powinien wcześniej sprawdzić w bazie EOTA, czy interesujący go EAD już istnieje. Jeśli tak — czas oczekiwania na ETA jest zazwyczaj krótszy.
+Producent składający wniosek o ETA do wybranego TAB powinien wcześniej sprawdzić w bazie EOTA, czy interesujący go EAD już istnieje. Jeśli tak — czas oczekiwania na ETA jest zazwyczaj krótszy.
 
 ## EAD — podstawa prawna i techniczna ETA
 
