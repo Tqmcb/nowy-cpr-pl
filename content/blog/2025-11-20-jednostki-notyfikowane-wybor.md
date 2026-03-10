@@ -51,7 +51,7 @@ Instytut Nafty i Gazu. Zakres:
 
 ### Multicert (akredytacja dla betonu i wyrobów pochodnych)
 
-[Multicert](https://www.multicert.com.pl) to jednostka akredytowana w zakresie betonu towarowego, cementu, prefabrykatów betonowych i kruszyw budowlanych. Specjalizuje się w certyfikacji systemu 2+ dla producentów betonu i wyrobów prefabrykowanych.
+[Multicert](https://www.multicert.com.pl) to jednostka akredytowana w zakresie betonu towarowego, cementu, prefabrykatów betonowych i kruszyw budowlanych. Specjalizuje się w certyfikacji AVS 2+ dla producentów betonu i wyrobów prefabrykowanych.
 
 ## Kryteria wyboru jednostki
 
@@ -70,12 +70,13 @@ Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy m
 
 ## Typowe koszty współpracy (rocznie)
 
-| Typ | Certyfikacja wstępna | Nadzór roczny |
-|-----|---------------------|----------------|
-| System 1+ | 20 000 – 50 000 PLN | 8 000 – 15 000 PLN |
-| System 1 | 15 000 – 35 000 PLN | 6 000 – 12 000 PLN |
-| System 2+ | 8 000 – 20 000 PLN | 4 000 – 8 000 PLN |
-| System 3 (ITT) | 8 000 – 25 000 PLN | – |
+| Typ (CPR 2024) | Certyfikacja wstępna | Nadzór roczny |
+|----------------|---------------------|----------------|
+| AVS 1+ | 20 000 – 50 000 PLN | 8 000 – 15 000 PLN |
+| AVS 1 | 15 000 – 35 000 PLN | 6 000 – 12 000 PLN |
+| AVS 2+ | 8 000 – 20 000 PLN | 4 000 – 8 000 PLN |
+| AVS 3 (badanie ITT przez JN) | 8 000 – 25 000 PLN | – |
+| AVS 3+ (walidacja EPD) | 5 000 – 15 000 PLN | – |
 
 ---
 

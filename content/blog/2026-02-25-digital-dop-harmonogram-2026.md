@@ -42,7 +42,7 @@ To wymagane już teraz. Utwórz dedykowaną podstronę (np. `/dokumenty` lub `/c
 Nie musisz czekać na standardy UE. Możesz już teraz dodać do swoich etykiet QR kod prowadzący do DoP&C na Twojej stronie. Korzyści:
 - Demonstracja gotowości na CPR 2024 klientom i organom nadzoru
 - Łatwa aktualizacja (gdy zmieni się treść DoP&C, wystarczy zaktualizować plik — QR kod pozostaje ten sam)
-- Przewaga w przetargach publicznych wymagających Digital DoP
+- Przewaga w przetargach publicznych wymagających Digital DoP&C
 
 ### Krok 3: Przyjmij ustrukturyzowany format danych
 
