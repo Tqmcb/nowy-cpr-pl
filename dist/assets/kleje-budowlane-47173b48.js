@@ -1,0 +1,100 @@
+const a=`---
+title: "Kleje budowlane – wymagania CPR 2024"
+family_number: 25
+family_name_en: "CONSTRUCTION ADHESIVES"
+date: "2026-02-25"
+category: "Chemia budowlana"
+avs_system: "3 / 4"
+normy: ["EN 12004-1", "EN 12004-2", "EN 15836-1", "EN 15836-2"]
+tags: ["kleje", "płytki", "chemia budowlana", "CPR 2024"]
+excerpt: "Kleje budowlane – rodzina 25 CPR 2024. Zaprawy klejące do płytek ceramicznych, kleje do parkietu, kleje montażowe. Klasy C, D, R, S."
+image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
+---
+
+# Kleje budowlane – rodzina wyrobów 25 wg CPR 2024/3110
+
+Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres produktów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
+
+## O rodzinie wyrobów
+
+Rodzina 25 – Construction Adhesives – obejmuje wszystkie kleje przeznaczone do trwałego łączenia elementów budowlanych ze sobą lub z podłożem. Kluczowe kryterium włączenia do zakresu CPR 2024 to trwałe wbudowanie w obiekt oraz bezpośredni wpływ na spełnienie podstawowych wymagań budowlanych (BWR). Kleje do płytek ceramicznych decydują o trwałości okładzin podłogowych i ściennych, kleje do parkietu – o stabilności posadzek drewnianych, natomiast kleje montażowe – o integralności fasad i przeszkleń. Do rodziny 25 nie należą kleje tymczasowe ani produkty stosowane wyłącznie jako środki pomocnicze podczas budowy.
+
+Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C** (cementowe – zaprawa w proszku), **D** (dyspersyjne – gotowe do użycia, wyłącznie wnętrza) oraz **R** (reaktywne – epoksydowe lub poliuretanowe, najwyższa wytrzymałość). Do każdej grupy dochodzą klasy funkcjonalne 1 (standardowe) lub 2 (ulepszone), a także oznaczenia: **T** (obniżony spływ, do stosowania pionowego) i **S1/S2** (odkształcalność poprzeczna – konieczna przy ogrzewaniu podłogowym i dużych formatach).
+
+## Normy zharmonizowane
+
+| Wyrób | Norma zharmonizowana |
+|---|---|
+| Zaprawy klejące do płytek – cementowe i dyspersyjne | EN 12004-1:2017 |
+| Zaprawy klejące do płytek – reaktywne (żywice) | EN 12004-2:2017 |
+| Kleje do parkietu i posadzek drewnianych – cementowe i dyspersyjne | EN 15836-1:2017 |
+| Kleje do parkietu – reaktywne | EN 15836-2:2017 |
+
+## System AVS i certyfikacja
+
+Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**, zależnie od klasy wyrobu i deklarowanego zastosowania.
+
+- **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
+- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: niezależna jednostka notyfikowana przeprowadza wstępne badanie typu (ITT) i wydaje raport z badań. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** na podstawie tych wyników.
+
+CPR 2024 wprowadza ponadto **system 3+** dla walidacji deklaracji środowiskowych – jednostka notyfikowana weryfikuje EPD (Environmental Product Declaration) i wydaje raport walidacji, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
+
+## Kluczowe wymagania CPR 2024
+
+**Mechaniczne i wytrzymałościowe:**
+- Wytrzymałość na ścinanie (C1 ≥ 0,5 N/mm², C2 ≥ 1,0 N/mm² po starzeniu wodnym, termicznym i mrozowym)
+- Wytrzymałość na odrywanie (klasy 0,5 i 1,0 N/mm²)
+- Odkształcalność poprzeczna (S1: 2,5–5 mm, S2: > 5 mm) – warunek konieczny przy ogrzewaniu podłogowym
+
+**Higieniczne i środowiskowe – nowe w CPR 2024:**
+- Emisja lotnych związków organicznych (VOC) – parametr obligatoryjny dla klejów stosowanych wewnątrz
+- Zawartość substancji niebezpiecznych – deklaracja zgodna z listą substancji priorytetowych CPR 2024
+- Ślad węglowy (GWP) – nowy parametr w ramach BWR 7 (Zrównoważone wykorzystanie zasobów naturalnych)
+
+**Ogniowe:**
+- Klasy reakcji na ogień wg EN 13501-1 (większość klejów: klasa E lub F; kleje podłogowe mogą wymagać Dfl-s1)
+
+## Zmiany względem CPR 305/2011
+
+1. **Nowe wymaganie podstawowe BWR 7** – producenci muszą deklarować zawartość materiałów z recyklingu, trwałość użytkową produktu oraz możliwość demontażu okładzin po zakończeniu cyklu życia budynku.
+2. **Obowiązkowa deklaracja emisji VOC** – wcześniej fakultatywna, teraz obligatoryjna dla wszystkich klejów do wnętrz, w tym klejów dyspersyjnych D1/D2 i reaktywnych epoksydowych.
+3. **System 3+ dla oceny środowiskowej** – nowy tryb weryfikacji, w którym jednostka notyfikowana zatwierdza deklaracje środowiskowe producenta (EPD).
+4. **Nowy format DoP&C** – Deklaracja Właściwości Użytkowych i Zgodności zastępuje dotychczasową Deklarację Właściwości Użytkowych (DoP) przewidzianą w CPR 305/2011.
+
+## Harmonogram wdrożenia
+
+| Etap | Data |
+|---|---|
+| Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
+| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
+
+Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dokumentacji technicznej, aktualizację DoP&C oraz wdrożenie nowych procedur ZKP zgodnych z wymaganiami CPR 2024.
+
+## Przykłady wyrobów i zastosowania
+
+**Kleje cementowe C2S2TE** – ulepszone zaprawy klejące do wielkoformatowych płytek (> 60×60 cm) i ogrzewania podłogowego; obniżony spływ umożliwia nakładanie pionowe, wysoka odkształcalność kompensuje ruchy termiczne podłoża.
+
+**Kleje dyspersyjne D2TE** – gotowe do użycia pasty na bazie wodnej dyspersji polimerowej; wyłącznie wnętrza suche i wilgotne; wydłużony czas otwarty (TE) ułatwia układanie dużych formatów.
+
+**Kleje reaktywne R2T** – dwukomponentowe kleje epoksydowe lub poliuretanowe; odporność chemiczna i termiczna; stosowane w laboratoriach, przemyśle spożywczym, strefach permanentnie mokrych.
+
+**Kleje do parkietu MS-polimer (EN 15836-1)** – elastyczne, jednoskładnikowe kleje na bazie silanowo-modyfikowanych polimerów; dedykowane ogrzewaniu podłogowemu; niska emisja VOC i aldehydów, w tym formaldehydu.
+
+## Checklist producenta
+
+- [ ] Zidentyfikować klasę kleju wg EN 12004-1, EN 12004-2, EN 15836-1 lub EN 15836-2
+- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego produktu w asortymencie
+- [ ] Zlecić badania ITT w akredytowanym laboratorium notyfikowanym (system AVS 3)
+- [ ] Wdrożyć i udokumentować zakładową kontrolę produkcji (ZKP) zgodną z CPR 2024
+- [ ] Przeprowadzić badania emisji VOC i zawrzeć wyniki w DoP&C
+- [ ] Ocenić właściwości środowiskowe wg BWR 7 (GWP, zawartość recyklatu, trwałość)
+- [ ] Wystawić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE na opakowaniu
+- [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z rozporządzeniem CLP i REACH
+- [ ] Sprawdzić zawartość substancji SVHC i ujawnić informacje w bazie SCIP (ECHA)
+- [ ] Rozważyć walidację EPD przez jednostkę notyfikowaną (system 3+) dla deklaracji środowiskowej
+
+## Gdzie szukać wsparcia
+
+Szczegółowe informacje o procedurach certyfikacji klejów budowlanych i wymaganiach CPR 2024 dostępne są na [nowycpr.pl](https://www.nowycpr.pl). W sprawach Europejskich Ocen Technicznych (ETA) informacje dostępne są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Baza akredytowanych jednostek notyfikowanych dla CPR dostępna jest w systemie [NANDO Komisji Europejskiej](https://ec.europa.eu/growth/tools-databases/nando/). Pełny tekst rozporządzenia CPR 2024/3110 opublikowany jest w [Dzienniku Urzędowym UE](https://eur-lex.europa.eu).
+`;export{a as default};
