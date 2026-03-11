@@ -217,11 +217,113 @@ const staticPages = [
   },
 ];
 
+// ── Body content data for static pages ───────────────────────────────────
+// Read wyroby MD files to build the product catalog list
+const wyrobyContentDir = join(rootDir, 'content', 'wyroby');
+const wyrobyItems = readdirSync(wyrobyContentDir)
+  .filter(f => f.endsWith('.md'))
+  .sort()
+  .map(f => {
+    const slug = f.replace('.md', '');
+    const src = readFileSync(join(wyrobyContentDir, f), 'utf-8');
+    const meta = parseFrontmatter(src);
+    return {
+      slug,
+      title: String(meta.title || slug),
+      avs: String(meta.avs_system || ''),
+    };
+  });
+
+// Published blog posts (reuse files already read above)
+const todayForBody = new Date();
+todayForBody.setHours(23, 59, 59, 999);
+const publishedPosts = files
+  .map(file => {
+    const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    const src = readFileSync(join(blogContentDir, file), 'utf-8');
+    const meta = parseFrontmatter(src);
+    return { slug, title: String(meta.title || slug), date: String(meta.date || '') };
+  })
+  .filter(({ date }) => date && new Date(date) <= todayForBody)
+  .sort((a, b) => b.date.localeCompare(a.date));
+
+// Body HTML per path — injected hidden inside <body> for crawlers
+const bodyContentMap = {
+  blog: `
+<h1>Aktualności CPR 2024/3110 — Artykuły i Analizy</h1>
+<p>Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych.</p>
+<ul>
+${publishedPosts.map(p => `  <li><a href="/blog/${p.slug}">${escapeHtml(p.title)}</a></li>`).join('\n')}
+</ul>`,
+
+  wyroby: `
+<h1>Katalog Wyrobów Budowlanych — CPR 2024/3110</h1>
+<p>36 kategorii wyrobów budowlanych objętych Rozporządzeniem (UE) 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu.</p>
+<ul>
+${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
+</ul>`,
+
+  'product-search': `
+<h1>Wyszukiwarka Wymagań CPR 2024/3110</h1>
+<p>Sprawdź wymagania Rozporządzenia (UE) 2024/3110 dla swojego wyrobu budowlanego. Narzędzie obejmuje 36 rodzin wyrobów z Załącznika VII CPR 2024/3110.</p>
+<p>Dla każdej kategorii znajdziesz: obowiązkowe badania i normy zharmonizowane, wymagany system AVS (Assessment and Verification of Constancy of Performance), wymaganą dokumentację (DoP&amp;C, plik techniczny, ZKP/FPC) oraz kluczowe zmiany względem poprzedniego CPR 305/2011.</p>`,
+
+  documents: `
+<h1>Szablony Dokumentów CPR 2024/3110 — bezpłatne wzory</h1>
+<p>13 bezpłatnych szablonów dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych. Wszystkie wzory zgodne z Rozporządzeniem (UE) 2024/3110.</p>
+<ul>
+  <li>Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&amp;C) — Załącznik V CPR 2024/3110</li>
+  <li>Szablon karty technicznej wyrobu budowlanego</li>
+  <li>Poradnik zakładowej kontroli produkcji (FPC/ZKP) — Art. 20 CPR 2024/3110</li>
+  <li>Wzór oznakowania CE zgodny z CPR 2024/3110 — Art. 18–19</li>
+  <li>Lista kontrolna zgodności z CPR 2024/3110 (7 obszarów)</li>
+  <li>Szablon deklaracji środowiskowej produktu (EPD) — EN 15804+A2, system AVS 3+</li>
+  <li>Przewodnik po cyfrowym paszporcie produktu (DPP) — Art. 75–80 CPR 2024/3110</li>
+  <li>Przewodnik po systemach AVS (6 systemów: 1+, 1, 2+, 3, 3+, 4)</li>
+  <li>Szablon DoP&amp;C dla importera — Art. 17 CPR 2024/3110</li>
+  <li>Struktura dokumentacji technicznej — Art. 21 CPR 2024/3110</li>
+  <li>Instrukcja dla profesjonalnych użytkowników — Art. 9 CPR 2024/3110</li>
+  <li>Mandat upoważnionego przedstawiciela — Art. 23 CPR 2024/3110</li>
+  <li>Plan Prac Komisji Europejskiej — Harmonogram norm CPR 2024/3110 na lata 2026–2029</li>
+</ul>`,
+
+  services: `
+<h1>Usługi Certyfikacyjne CPR 2024/3110 — Multicert</h1>
+<p>Multicert Sp. z o.o. — akredytowana jednostka certyfikująca wyroby budowlane z siedzibą w Warszawie. Oferujemy kompleksowe usługi zgodności z Rozporządzeniem (UE) 2024/3110.</p>
+<ul>
+  <li><strong>Audyt gotowości CPR 2024</strong> — identyfikacja systemu AVS, ocena ZKP/FPC, analiza dokumentacji DoP&amp;C, mapa ryzyk</li>
+  <li><strong>Przegląd systemu ZKP (Art. 20 CPR 2024)</strong> — ocena dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), uproszczenie dla mikroprzedsiębiorstw (Art. 60)</li>
+  <li><strong>Dokumentacja techniczna CPR 2024</strong> — DoP&amp;C (Art. 15), plik techniczny (Art. 22), instrukcje (Art. 9), mandat przedstawiciela (Art. 23)</li>
+  <li><strong>Weryfikacja oprogramowania obliczeniowego</strong> — raport walidacyjny do pliku technicznego Art. 21</li>
+  <li><strong>Analiza norm i harmonogram wdrożenia</strong> — normy zharmonizowane, Plan Prac KE (Milestones 0–IV, 2026–2029)</li>
+  <li><strong>Szkolenia CPR 2024/3110</strong> — warsztaty dla producentów i dystrybutorów wyrobów budowlanych</li>
+</ul>`,
+
+  'o-portalu': `
+<h1>O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110</h1>
+<p>NowyCPR.pl to kompleksowe źródło wiedzy o Rozporządzeniu (UE) 2024/3110 w sprawie wyrobów budowlanych (CPR) dla producentów, importerów i dystrybutorów działających na rynku polskim i europejskim.</p>
+<p>Portal prowadzony jest przez Multicert Sp. z o.o. — akredytowaną jednostkę certyfikującą wyroby budowlane z siedzibą w Warszawie (ul. Mydlarska 47, 04-690 Warszawa).</p>
+<p>Co oferujemy: artykuły prawne i techniczne o CPR 2024/3110, katalog 36 rodzin wyrobów budowlanych (Załącznik VII), 13 bezpłatnych szablonów dokumentów (DoP&amp;C, ZKP/FPC, EPD, DPP), wyszukiwarka wymagań dla kategorii wyrobów.</p>`,
+
+  kontakt: `
+<h1>Kontakt — NowyCPR.pl</h1>
+<address>
+  <p><strong>Multicert Sp. z o.o.</strong></p>
+  <p>ul. Mydlarska 47, 04-690 Warszawa</p>
+  <p>Email: <a href="mailto:biuro@multicert.pl">biuro@multicert.pl</a></p>
+</address>`,
+
+  dostepnosc: `
+<h1>Deklaracja dostępności cyfrowej — NowyCPR.pl</h1>
+<p>Portal NowyCPR.pl zobowiązuje się zapewnić dostępność swojej strony internetowej zgodnie z przepisami ustawy z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.</p>`,
+};
+
 function renderStaticPage(page) {
   const title     = escapeHtml(page.title);
   const desc      = escapeHtml(page.desc);
   const canonical = page.canonical;
   const jsonLd    = JSON.stringify(page.schema);
+  const body      = bodyContentMap[page.path] || '';
 
   let html = templateHtml
     .replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`)
@@ -234,6 +336,17 @@ function renderStaticPage(page) {
     .replace(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${desc}" />`)
     .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${canonical}" />`)
     .replace('</head>', `<script type="application/ld+json">${jsonLd}</script>\n</head>`);
+
+  // Inject static body content directly into #root.
+  // Crawlers (Google, AI bots) see the full HTML text.
+  // React mounts fresh into #root on load, replacing this content within ~1s.
+  // Minimal flash for users — acceptable trade-off for full crawlability.
+  if (body) {
+    html = html.replace(
+      '<div id="root"></div>',
+      `<div id="root"><main>${body}\n</main></div>`
+    );
+  }
 
   return html;
 }
