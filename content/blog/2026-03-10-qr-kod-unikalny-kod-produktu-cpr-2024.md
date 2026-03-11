@@ -1,19 +1,23 @@
 ---
-title: "QR kod i unikalny kod identyfikacyjny produktu — nowy obowiązek od 8 stycznia 2026"
+title: "QR kod i unikalny kod identyfikacyjny produktu w CPR 2024 — jak się przygotować"
 date: "2026-03-10"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["QR kod", "kod produktu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa"]
-excerpt: "Od 8 stycznia 2026 roku producenci wyrobów budowlanych objętych oznaczeniem CE muszą zapewnić cyfrową dostępność Deklaracji Właściwości i Zgodności (DoP&C) oraz nadać wyrobom unikalny kod identyfikacyjny. Sprawdź, jak wdrożyć te wymogi w praktyce — od generowania kodu QR po obsługę wyjątków dla małych wyrobów."
+excerpt: "CPR 2024/3110 wprowadza wymóg cyfrowej dostępności DoP&C (od 8.01.2026 wystarczy link/URL na stronie producenta) oraz unikalny kod identyfikacyjny produktu. Sam kod QR nie jest jeszcze obowiązkowy — stanie się nim po aktach delegowanych KE. Dowiedz się jak wdrożyć te wymogi krok po kroku."
 image_url: /images/blog/qr-kod-unikalny-kod-produktu-c.jpg
 template: "przewodnik"
 ---
 
 ## Nowy wymiar oznakowania — cyfryzacja w CPR 2024
 
-Rozporządzenie CPR 2024/3110 wprowadza jedno z najbardziej praktycznie odczuwalnych wymagań dla branży budowlanej: obowiązek zapewnienia cyfrowej dostępności Deklaracji Właściwości i Zgodności (DoP&C) oraz nadania każdemu wyrobowi budowlanemu unikalnego kodu identyfikacyjnego. Termin wejścia w życie tych przepisów to 8 stycznia 2026 roku — data, która dla wielu producentów oznacza konieczność pilnych działań.
+> **Stan prawny — marzec 2026:**
+> - ✅ **Dostęp online do DoP&C obowiązkowy od 8.01.2026** — producent musi udostępnić DoP&C bezpłatnie w internecie (link/URL na stronie producenta, PDF do pobrania). Spełnienie tego wymogu nie wymaga kodu QR — wystarczy adres URL w dokumentacji.
+> - ⚠️ **Kod QR na wyrobie/opakowaniu — jeszcze nie obowiązkowy.** QR kod to najwygodniejszy sposób na spełnienie wymogu cyfrowej dostępności, ale obowiązkowy będzie dopiero po opublikowaniu przez KE aktów delegowanych (oczekiwanych nie wcześniej niż 2027).
+> - ⚠️ **Unikalny kod identyfikacyjny produktu (UPC)** — wymóg wynika z CPR 2024/3110, jednak realne ryzyko kar jest niskie, gdyż polska Nowa Ustawa o Wyrobach Budowlanych (NUWB) nie została jeszcze uchwalona.
+> - ❌ **Cyfrowy Paszport Produktu (DPP) — nie obowiązuje** do czasu opublikowania nowych norm zharmonizowanych (hTS) i aktów wykonawczych KE.
 
-Celem tej zmiany jest umożliwienie wszystkim uczestnikom łańcucha dostaw — od producenta, przez dystrybutorów i importerów, aż po organy nadzoru rynku i końcowych użytkowników — natychmiastowego dostępu do aktualnej dokumentacji wyrobu za pomocą smartfona lub komputera. Papierowe wersje DoP&C nie wystarczą.
+Rozporządzenie CPR 2024/3110 wprowadza nowe wymagania dotyczące cyfrowej dostępności dokumentacji wyrobów budowlanych. Od 8 stycznia 2026 roku DoP&C (Deklaracja Właściwości Użytkowych i Zgodności) musi być dostępna online — producent musi zapewnić bezpłatny dostęp do aktualnego dokumentu przez minimum 10 lat. Celem tej zmiany jest umożliwienie wszystkim uczestnikom łańcucha dostaw natychmiastowego dostępu do aktualnej dokumentacji wyrobu. Poniżej opisujemy jak technicznie wdrożyć te wymogi — od najprostszego (link/URL) po najbardziej zaawansowane (QR kod, GS1 Digital Link).
 
 ## Czym jest unikalny kod identyfikacyjny produktu?
 
@@ -101,12 +105,15 @@ Taki system powinien automatycznie:
 
 ## Terminy i harmonogram wdrożenia
 
-Kluczowe daty związane z obowiązkiem cyfrowej dostępności DoP&C to:
+| Data | Wymóg | Status |
+|------|-------|--------|
+| **8 stycznia 2026** | Cyfrowy dostęp do DoP&C (link/URL na stronie producenta) | ✅ Obowiązuje — URL wystarczy |
+| **8 stycznia 2026** | Unikalny kod identyfikacyjny produktu (UPC) | ✅ Obowiązuje — ryzyko kar niskie (NUWB w trakcie uchwalania) |
+| **po aktach delegowanych KE (ok. 2027)** | Obowiązkowy QR kod na etykiecie / wyrobie | ⏳ Wymaga aktów delegowanych KE |
+| **po publikacji nowej hTS + zakończeniu koegzystencji** | Deklarowanie GWP i wskaźników środowiskowych | ⏳ Żadna nowa hTS jeszcze nie opublikowana |
+| **po hTS + aktach KE (ok. 2028–2029)** | Cyfrowy Paszport Produktu (DPP) | ⏳ Nie obowiązuje |
 
-- **8 stycznia 2026** — obowiązek cyfrowej dostępności DoP&C dla wyrobów objętych normami zharmonizowanymi wprowadzanymi lub aktualizowanymi po tej dacie,
-- **lata 2026–2030** — sukcesywne obejmowanie kolejnych grup wyrobów, wraz z aktualizacją norm zharmonizowanych przez Komisję Europejską.
-
-Oznacza to, że producenci powinni już teraz monitorować plan aktualizacji norm zharmonizowanych w ramach mandatów Komisji Europejskiej i planować wdrożenie wymagań cyfrowych odpowiednio wcześnie.
+**Co warto zrobić już teraz:** Niezależnie od terminu obowiązkowego kodu QR, wdrożenie QR kodów prowadzących do DoP&C to dobra praktyka — ułatwia pracę inspektorom, dystrybutorów i wykonawcom, a jednocześnie buduje infrastrukturę techniczną pod przyszłe wymagania (DPP).
 
 ## Podsumowanie
 

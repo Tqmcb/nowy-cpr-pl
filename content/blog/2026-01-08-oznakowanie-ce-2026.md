@@ -11,7 +11,7 @@ template: "regulacja"
 
 # Oznakowanie CE — Nowe Wymagania CPR 2024/3110
 
-CPR 2024/3110 wprowadza **rozszerzone wymagania** dotyczące oznakowania CE wyrobów budowlanych, obowiązujące od **8 stycznia 2026**. Kluczową zmianą jest obowiązek powiązania etykiety CE z cyfrową Deklaracją Właściwości Użytkowych i Zgodności (DoP&C) poprzez kod QR.
+CPR 2024/3110 wprowadza **rozszerzone wymagania** dotyczące oznakowania CE wyrobów budowlanych, obowiązujące od **8 stycznia 2026**. Kluczową zmianą jest obowiązek zapewnienia dostępności Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) online (link/URL na stronie producenta). Kod QR na etykiecie CE jest docelowym elementem nowego systemu, ale jego obowiązkowe stosowanie wymaga aktów delegowanych KE — oczekiwanych nie wcześniej niż 2027. Do tego czasu QR kod jest dobrowolny.
 
 ## Nowe elementy etykiety CE
 

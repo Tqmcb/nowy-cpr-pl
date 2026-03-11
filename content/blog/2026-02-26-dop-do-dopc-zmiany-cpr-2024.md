@@ -56,7 +56,7 @@ Na razie (2026) pola te są **opcjonalne**, ale producenci, którzy je wypełni�
 
 ### 6. Odesłanie do cyfrowej wersji dokumentu
 
-Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — przez link URL lub kod QR umieszczony na wyrobie lub opakowaniu. Nie zastępuje to wersji papierowej, ale ją uzupełnia. Wymaganie to wynika z art. 16 ust. 2 CPR 2024/3110.
+Od 8 stycznia 2026 DoP&C musi być **dostępna cyfrowo** — wystarczy link URL (adres strony producenta z PDF-em DoP&C). Kod QR na wyrobie lub opakowaniu to wygodny sposób przekazania tego linku, ale jest dobrowolny do czasu opublikowania przez KE aktów delegowanych (oczekiwanych nie wcześniej niż 2027). Wymaganie to wynika z art. 16 ust. 2 CPR 2024/3110.
 
 ### 7. Podpis i odpowiedzialność
 
@@ -81,7 +81,7 @@ Ważne: jeśli nie zmieniasz nic w wyrobie, nie musisz powtarzać badań ITT —
 
 1. **Audyt istniejących DoP** — sprawdź które wyroby mają DoP zgodny z CPR 305/2011 i które należy zaktualizować
 2. **Aktualizacja szablonu dokumentu** — zmień nazwę, dodaj pola dla unikalnego kodu, danych importera, właściwości środowiskowych (nawet jeśli na razie NPD)
-3. **Uruchom cyfrową dostępność** — wygeneruj stronę lub link dla każdego DoP&C i umieść QR kod na etykiecie
+3. **Uruchom cyfrową dostępność** — wygeneruj stronę lub link (URL) dla każdego DoP&C; możesz też dobrowolnie umieścić QR kod na etykiecie (obowiązkowy dopiero po aktach delegowanych KE ~2027)
 4. **Zaktualizuj treść podpisu** — upewnij się, że osoba podpisująca DoP&C ma odpowiednie pełnomocnictwo i świadomość zakresu odpowiedzialności
 5. **Poinformuj importerów** — jeśli Twoje wyroby są importowane do UE, upewnij się że importer rozumie że jego dane muszą figurować w DoP&C
 
