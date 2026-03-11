@@ -1,7 +1,9 @@
 /**
- * prerender.mjs — Post-build static HTML generator for blog posts
+ * prerender.mjs — Post-build static HTML generator
  *
- * Creates dist/blog/<slug>/index.html for every content/blog/*.md file.
+ * 1. Creates dist/blog/<slug>/index.html for every content/blog/*.md file.
+ * 2. Creates dist/<path>/index.html for every static page (/, /blog, /wyroby, …).
+ *
  * Each file gets the correct <title>, <meta description>, og:* and
  * canonical tags so Google can index them WITHOUT executing JavaScript.
  *
@@ -148,6 +150,104 @@ for (const file of files) {
 }
 
 console.log(`\n✓ Pre-rendered ${count} blog posts into dist/blog/*/index.html`);
+
+// ── Static pages pre-rendering ─────────────────────────────────────────────
+// Creates dist/<path>/index.html for each main static page with correct meta.
+
+const staticPages = [
+  {
+    path: '',  // root — overwrite dist/index.html in-place (already correct, skip)
+    skip: true,
+  },
+  {
+    path: 'blog',
+    title: 'Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl',
+    desc: 'Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych.',
+    canonical: 'https://www.nowycpr.pl/blog',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Aktualności CPR 2024/3110', url: 'https://www.nowycpr.pl/blog', description: 'Artykuły i analizy prawne o CPR 2024/3110 na NowyCPR.pl' },
+  },
+  {
+    path: 'wyroby',
+    title: 'Katalog Wyrobów Budowlanych — CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Przeszukaj katalog 36 kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu.',
+    canonical: 'https://www.nowycpr.pl/wyroby',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Katalog Wyrobów Budowlanych CPR 2024/3110', url: 'https://www.nowycpr.pl/wyroby' },
+  },
+  {
+    path: 'product-search',
+    title: 'Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011.',
+    canonical: 'https://www.nowycpr.pl/product-search',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wyszukiwarka Wymagań CPR 2024/3110', url: 'https://www.nowycpr.pl/product-search' },
+  },
+  {
+    path: 'documents',
+    title: 'Szablony Dokumentów CPR 2024/3110 — bezpłatne wzory | NowyCPR.pl',
+    desc: '13 bezpłatnych szablonów dokumentów CPR 2024/3110: DoP&C, karta techniczna, FPC, oznakowanie CE, EPD, DPP, paszport produktu. Zgodne z Rozporządzeniem (UE) 2024/3110.',
+    canonical: 'https://www.nowycpr.pl/documents',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Szablony Dokumentów CPR 2024/3110', url: 'https://www.nowycpr.pl/documents' },
+  },
+  {
+    path: 'services',
+    title: 'Usługi Certyfikacyjne CPR 2024/3110 — Multicert | NowyCPR.pl',
+    desc: 'Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej i audyty zgodności z CPR 2024/3110. Multicert — akredytowana jednostka certyfikująca wyroby budowlane.',
+    canonical: 'https://www.nowycpr.pl/services',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Usługi Certyfikacyjne CPR 2024/3110 — Multicert', url: 'https://www.nowycpr.pl/services' },
+  },
+  {
+    path: 'o-portalu',
+    title: 'O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110',
+    desc: 'Dowiedz się więcej o portalu NowyCPR.pl — kompleksowym źródle wiedzy o rozporządzeniu CPR (EU) 2024/3110 dla producentów wyrobów budowlanych.',
+    canonical: 'https://www.nowycpr.pl/o-portalu',
+    schema: { '@context': 'https://schema.org', '@type': 'AboutPage', name: 'O portalu NowyCPR.pl', url: 'https://www.nowycpr.pl/o-portalu' },
+  },
+  {
+    path: 'kontakt',
+    title: 'Kontakt — NowyCPR.pl',
+    desc: 'Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa.',
+    canonical: 'https://www.nowycpr.pl/kontakt',
+    schema: { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Kontakt — NowyCPR.pl', url: 'https://www.nowycpr.pl/kontakt' },
+  },
+  {
+    path: 'dostepnosc',
+    title: 'Deklaracja dostępności — NowyCPR.pl',
+    desc: 'Deklaracja dostępności cyfrowej portalu NowyCPR.pl zgodnie z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.',
+    canonical: 'https://www.nowycpr.pl/dostepnosc',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Deklaracja dostępności NowyCPR.pl', url: 'https://www.nowycpr.pl/dostepnosc' },
+  },
+];
+
+function renderStaticPage(page) {
+  const title     = escapeHtml(page.title);
+  const desc      = escapeHtml(page.desc);
+  const canonical = page.canonical;
+  const jsonLd    = JSON.stringify(page.schema);
+
+  let html = templateHtml
+    .replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`)
+    .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${canonical}" />`)
+    .replace(
+      /<meta name="description"\s+content="[^"]*"\s*\/>/,
+      `<meta name="description" content="${desc}" />`
+    )
+    .replace(/<meta property="og:title"[^>]*>/, `<meta property="og:title" content="${title}" />`)
+    .replace(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${desc}" />`)
+    .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${canonical}" />`)
+    .replace('</head>', `<script type="application/ld+json">${jsonLd}</script>\n</head>`);
+
+  return html;
+}
+
+let staticCount = 0;
+for (const page of staticPages) {
+  if (page.skip) continue;
+  const outDir = join(distDir, page.path);
+  mkdirSync(outDir, { recursive: true });
+  writeFileSync(join(outDir, 'index.html'), renderStaticPage(page), 'utf-8');
+  staticCount++;
+  console.log(`  ✓ /${page.path}`);
+}
+console.log(`\n✓ Pre-rendered ${staticCount} static pages into dist/*/index.html`);
 
 // ── GitHub Pages SPA fallback ─────────────────────────────────────────────
 // Copy index.html → 404.html so GitHub Pages serves the React app for any
