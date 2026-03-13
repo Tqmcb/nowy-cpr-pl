@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Container } from "./Container";
 import {
@@ -15,11 +15,15 @@ import {
   HelpCircle,
   Compass,
   Stamp,
+  ChevronDown,
+  Wrench,
 } from "lucide-react";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [toolsOpen, setToolsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const toolsRef = useRef<HTMLDivElement>(null);
 
   // Handle scroll effect
   useEffect(() => {
@@ -28,6 +32,17 @@ export function Header() {
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close tools dropdown on outside click
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (toolsRef.current && !toolsRef.current.contains(e.target as Node)) {
+        setToolsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
@@ -64,7 +79,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8" aria-label="Nawigacja główna">
+          <nav className="hidden lg:flex items-center gap-6" aria-label="Nawigacja główna">
             <NavLink to="/product-search" className={navLinkClass}>
               <Search className="w-4 h-4" />
               Wymagania
@@ -77,25 +92,54 @@ export function Header() {
               <FileText className="w-4 h-4" />
               Wzory
             </NavLink>
+
+            {/* Narzędzia dropdown */}
+            <div ref={toolsRef} className="relative">
+              <button
+                onClick={() => setToolsOpen((v) => !v)}
+                className={`relative py-2 px-1 text-sm font-medium transition-all duration-300 flex items-center gap-1.5 ${
+                  toolsOpen ? "text-amber-400" : "text-slate-300 hover:text-white"
+                }`}
+              >
+                <Wrench className="w-4 h-4" />
+                Narzędzia
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${toolsOpen ? "rotate-180" : ""}`} />
+              </button>
+
+              {toolsOpen && (
+                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-56 py-2 bg-slate-800/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-xl shadow-black/30">
+                  {[
+                    { path: "/sciezka-ce", label: "Ścieżka do CE", icon: Compass, desc: "Kreator checklisty" },
+                    { path: "/generator-ce", label: "Generator etykiety CE", icon: Stamp, desc: "Podgląd i wydruk" },
+                    { path: "/harmonogram", label: "Harmonogram CPR", icon: Calendar, desc: "Kluczowe daty" },
+                    { path: "/faq", label: "FAQ", icon: HelpCircle, desc: "Pytania i odpowiedzi" },
+                  ].map((item) => (
+                    <NavLink
+                      key={item.path}
+                      to={item.path}
+                      onClick={() => setToolsOpen(false)}
+                      className={({ isActive }) =>
+                        `flex items-center gap-3 px-4 py-2.5 text-sm transition-colors ${
+                          isActive
+                            ? "text-amber-400 bg-amber-400/10"
+                            : "text-slate-300 hover:text-white hover:bg-white/5"
+                        }`
+                      }
+                    >
+                      <item.icon className="w-4 h-4 shrink-0" />
+                      <div>
+                        <div className="font-medium">{item.label}</div>
+                        <div className="text-xs text-slate-500">{item.desc}</div>
+                      </div>
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <NavLink to="/services" className={navLinkClass}>
               <Briefcase className="w-4 h-4" />
               Usługi
-            </NavLink>
-            <NavLink to="/harmonogram" className={navLinkClass}>
-              <Calendar className="w-4 h-4" />
-              Harmonogram
-            </NavLink>
-            <NavLink to="/faq" className={navLinkClass}>
-              <HelpCircle className="w-4 h-4" />
-              FAQ
-            </NavLink>
-            <NavLink to="/sciezka-ce" className={navLinkClass}>
-              <Compass className="w-4 h-4" />
-              Ścieżka CE
-            </NavLink>
-            <NavLink to="/generator-ce" className={navLinkClass}>
-              <Stamp className="w-4 h-4" />
-              Generator CE
             </NavLink>
             <NavLink to="/blog" className={navLinkClass}>
               <Newspaper className="w-4 h-4" />
