@@ -1,7 +1,7 @@
 ---
 title: "Zharmonizowane normy europejskie (hEN) - aktualizacje 2026"
 date: "2025-12-15"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["normy", "hEN", "standardy", "EN"]
 excerpt: "Aktualna lista norm zharmonizowanych dla wyrobów budowlanych. Co nowego w 2026 roku, które normy uległy zmianie i jak się przygotować?"

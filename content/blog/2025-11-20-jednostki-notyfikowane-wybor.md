@@ -1,7 +1,7 @@
 ---
 title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
 date: "2025-11-20"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["jednostki notyfikowane", "certyfikacja", "NANDO", "Multicert"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."

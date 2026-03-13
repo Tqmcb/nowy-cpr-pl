@@ -1,7 +1,7 @@
 ---
 title: "Digital DoP&C — aktualny harmonogram i co producenci muszą zrobić już teraz"
 date: "2026-02-25"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["Digital DoP", "DoP&C", "cyfryzacja", "2026", "QR kod"]
 excerpt: "Co w zakresie Digital DoP&C jest już obowiązkowe od 8 stycznia 2026, a co czeka na akty delegowane KE? Wyjaśniamy podział i jakie kroki warto podjąć już teraz."

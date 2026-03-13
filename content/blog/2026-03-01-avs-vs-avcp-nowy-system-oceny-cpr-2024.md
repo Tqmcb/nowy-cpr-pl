@@ -1,7 +1,7 @@
 ---
 title: "AVS zamiast AVCP — nowy system oceny wyrobów budowlanych w CPR 2024 porównany ze starym"
 date: "2026-03-01"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS", "AVCP", "system oceny", "CPR 2024", "jednostki notyfikowane", "certyfikacja"]
 excerpt: "CPR 2024/3110 zastępuje stary system AVCP nowym AVS (Assessment and Verification System). Sprawdź co się zmieniło w każdym z poziomów, dlaczego nawet w systemie 4 pojawia się rola jednostki notyfikowanej i co to oznacza dla Twojej certyfikacji."

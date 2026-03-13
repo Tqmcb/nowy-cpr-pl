@@ -1,7 +1,7 @@
 ---
 title: "DoP → DoP&C: co konkretnie się zmieniło w deklaracji właściwości użytkowych w CPR 2024"
 date: "2026-02-26"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
 excerpt: "Od 8 stycznia 2026 deklaracja właściwości użytkowych staje się DoP&C. Sprawdź co dokładnie musisz zmienić, jakie nowe pola dodać i jak zaktualizować istniejące dokumenty."

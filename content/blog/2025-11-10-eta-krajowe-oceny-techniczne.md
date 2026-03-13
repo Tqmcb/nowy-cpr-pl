@@ -1,7 +1,7 @@
 ---
 title: "Wyroby nieobjęte normami zharmonizowanymi - ETA i krajowe oceny techniczne"
 date: "2025-11-10"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["ETA", "ocena techniczna", "TAB", "EOTA"]
 excerpt: "Co zrobić gdy produkt nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."

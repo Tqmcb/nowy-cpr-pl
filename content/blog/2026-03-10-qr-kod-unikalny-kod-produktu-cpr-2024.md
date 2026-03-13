@@ -1,7 +1,7 @@
 ---
 title: "QR kod i unikalny kod identyfikacyjny produktu w CPR 2024 — jak się przygotować"
 date: "2026-03-10"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["QR kod", "kod produktu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa"]
 excerpt: "CPR 2024/3110 wprowadza wymóg cyfrowej dostępności DoP&C (od 8.01.2026 wystarczy link/URL na stronie producenta) oraz unikalny kod identyfikacyjny produktu. Sam kod QR nie jest jeszcze obowiązkowy — stanie się nim po aktach delegowanych KE. Dowiedz się jak wdrożyć te wymogi krok po kroku."
