@@ -17,6 +17,8 @@ const Kontakt = lazy(() => import("./pages/Kontakt.tsx"));
 const Dostepnosc = lazy(() => import("./pages/Dostepnosc.tsx"));
 const Timeline = lazy(() => import("./pages/Timeline.tsx"));
 const Faq = lazy(() => import("./pages/Faq.tsx"));
+const CeWizard = lazy(() => import("./pages/CeWizard.tsx"));
+const CeLabelGenerator = lazy(() => import("./pages/CeLabelGenerator.tsx"));
 
 // poLCA pages
 const PolcaHome = lazy(() => import("./pages/PolcaHome.tsx"));
@@ -45,6 +47,8 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/dostepnosc", element: <Dostepnosc /> },
 	{ path: "/harmonogram", element: <Timeline /> },
 	{ path: "/faq", element: <Faq /> },
+	{ path: "/sciezka-ce", element: <CeWizard /> },
+	{ path: "/generator-ce", element: <CeLabelGenerator /> },
 
 	// poLCA routes
 	{ path: "/polca", element: <PolcaHome /> },
