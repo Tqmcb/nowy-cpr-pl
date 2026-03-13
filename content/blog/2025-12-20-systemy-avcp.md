@@ -66,19 +66,19 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 ### System 3+ (NOWY — wprowadzony przez Rozporządzenie delegowane (UE) 2024/2769, przejęty przez CPR 2024/3110)
 
 **Zakres**:
-- Dedykowany **ocenie zrównoważoności środowiskowej** (LCA, GWP, EPD)
-- Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat!)
-- Producent samodzielnie przeprowadza obliczenia LCA/EPD według EN 15804
-- Jednostka notyfikowana weryfikuje poprawność metody i danych
+- Dedykowany **ocenie właściwości środowiskowych** — przede wszystkim śladu węglowego (GWP — Global Warming Potential) i innych wskaźników z Załącznika II CPR 2024
+- Producent samodzielnie przeprowadza **analizę cyklu życia (LCA — Life Cycle Assessment)** zgodnie z EN 15804+A2 — jest to metoda obliczania wpływu wyrobu na środowisko „od kołyski do grobu"
+- Wyniki LCA mogą być udokumentowane w formie **EPD (Deklaracji Środowiskowej Wyrobu)** — dobrowolnego, znormalizowanego dokumentu
+- Jednostka notyfikowana weryfikuje poprawność metody i danych LCA i wydaje **raport walidacyjny** (nie certyfikat wyrobu!)
 
 **Wyroby**:
-- Dowolne wyroby, dla których producent chce walidować EPD
-- Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP)
-- Wyroby wymagające wiarygodnej deklaracji środowiskowej GWP, ODP, AP, EP, POCP, WDP
+- Dowolne wyroby, dla których producent chce zwalidować dane środowiskowe przez niezależną jednostkę
+- Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP — Green Public Procurement)
+- Wyroby wymagające wiarygodnej deklaracji śladu węglowego (GWP) i innych wskaźników środowiskowych
 
-**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację EPD (jednorazowo, ważność 5 lat)
+**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację (jednorazowo, ważność 5 lat)
 
-**Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu, lecz raport walidacyjny EPD. Raport ten jest elementem DoP&C i uprawnia do oznakowania CE z potwierdzonymi danymi środowiskowymi.
+**Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu wyrobu, lecz raport walidacyjny potwierdzający poprawność obliczeń LCA. Raport ten jest elementem DoP&C.
 
 ---
 
@@ -139,7 +139,7 @@ System AVS **nie jest wybierany przez producenta** - jest określony w:
 | **1+** | Pełny nadzór | TAK | Jednostka + rynek | 25k-50k |
 | **1** | Pełny nadzór | TAK | Jednostka | 15k-30k |
 | **2+** | Nadzór nad FPC | TAK | Producent | 8k-20k |
-| **3+** ⭐ NOWY | Walidacja EPD | NIE | Producent (LCA) | 5k-15k |
+| **3+** ⭐ NOWY | Walidacja danych środow. | NIE | Producent (LCA) | 5k-15k |
 | **3** | Tylko badanie typu | NIE | Jednostka | 5k-12k |
 | **4** | Brak | NIE | Producent | 0 |
 
@@ -163,10 +163,10 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 ## Zmiany w CPR 2024 względem CPR 305/2011
 
 **Kluczowe nowości**:
-- **System 3+** — nowy system dedykowany walidacji EPD i ocenie środowiskowej
+- **System 3+** — nowy system dedykowany walidacji danych środowiskowych (wyników analizy cyklu życia — LCA)
 - **AVCP → AVS** — zmiana nazwy systemu (Assessment and Verification of Constancy of Performance → Assessment and Verification Systems)
 - **DoP → DoP&C** — Deklaracja Właściwości Użytkowych staje się Deklaracją Właściwości Użytkowych i Zgodności
-- Dodatkowe kontrole parametrów środowiskowych (GWP, ODP, AP, EP, POCP, ADP, WDP) — etapami przez akty delegowane KE
+- Docelowo obowiązkowe deklarowanie właściwości środowiskowych — przede wszystkim śladu węglowego (GWP) i kolejnych wskaźników (ODP, AP, EP, POCP, ADP, WDP) — etapami, osobno dla każdej rodziny wyrobów po publikacji nowej normy zharmonizowanej
 - Cyfrowa dostępność DoP&C (link online od 8.01.2026); format XML po aktach delegowanych KE
 - Obowiązek deklarowania wskaźników środowiskowych — osobno dla każdej rodziny wyrobów, bez jednej globalnej daty granicznej
 
@@ -186,18 +186,18 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 | Badania laboratoryjne | 2 000 PLN | 3 000 PLN |
 | **SUMA** | **10 000 PLN** | **9 000 PLN** |
 
-### System 3+ (walidacja EPD)
+### System 3+ (walidacja danych środowiskowych)
 
 | Element | Koszt jednorazowy | Ważność |
 |---------|------------------|---------|
-| Obliczenia LCA / EPD | 8 000 - 20 000 PLN | 5 lat |
-| Walidacja EPD przez jednostkę notyfikowaną | 3 000 - 8 000 PLN | 5 lat |
-| Rejestracja EPD w programie (np. EPD-Norge, IBU) | 1 000 - 3 000 PLN | 5 lat |
+| Analiza cyklu życia (LCA) / sporządzenie EPD | 8 000 - 20 000 PLN | 5 lat |
+| Walidacja danych przez jednostkę notyfikowaną | 3 000 - 8 000 PLN | 5 lat |
+| Rejestracja EPD w programie (np. EPD-Norge, IBU) — opcjonalnie | 1 000 - 3 000 PLN | 5 lat |
 | **SUMA** | **12 000 - 31 000 PLN** | **5 lat** |
 
 ## Podsumowanie
 
-System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań i kosztów pozwala zaplanować budżet i harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe przez niezależną jednostkę.
+System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań i kosztów pozwala zaplanować budżet i harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
 
 ---
 

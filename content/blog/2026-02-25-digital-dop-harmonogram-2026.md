@@ -63,8 +63,8 @@ Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już ter
 Producenci wyrobów stosowanych w budownictwie publicznym (zamówienia publiczne) powinni priorytetowo potraktować cyfryzację DoP&C, ponieważ:
 
 - Specyfikacje techniczne przetargów coraz częściej wymagają DoP&C w formie cyfrowej
-- Certyfikacje LEED i BREEAM premiują dostępność danych w formatach cyfrowych
-- Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM — a DoP&C jest elementem modelu BIM
+- Certyfikacje budynków LEED i BREEAM premiują dostępność danych w formatach cyfrowych
+- Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM (Building Information Modelling) — a DoP&C jest elementem modelu BIM
 
 ## Multicert pomaga w cyfryzacji DoP&C
 

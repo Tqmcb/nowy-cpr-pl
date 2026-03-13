@@ -26,7 +26,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 - [ ] Zidentyfikowałem wszystkie wyroby z portfolio, które objęte są obowiązkiem oznakowania CE i wymagają DoP&C
 - [ ] Przejrzałem aktualne DoP i sprawdziłem, które z nich wymagają aktualizacji do formatu DoP&C zgodnego z CPR 2024
 - [ ] Zaktualizowałem DoP&C o sekcję dotyczącą substancji SVHC (obecnych powyżej 0,1% w/w), jeśli dotyczy
-- [ ] Zaktualizowałem DoP&C o sekcję dotyczącą środowiskowych właściwości użytkowych (EPD), jeśli norma zharmonizowana tego wymaga
+- [ ] Zaktualizowałem DoP&C o sekcję dotyczącą właściwości środowiskowych (przede wszystkim śladu węglowego — GWP), jeśli zaktualizowana norma zharmonizowana (hTS) już tego wymaga dla mojej rodziny wyrobów
 - [ ] Zapewniłem dostępność DoP&C w formie elektronicznej pod stałym adresem URL
 - [ ] Przetłumaczyłem DoP&C na języki wszystkich rynków, na które wprowadzam wyrób
 - [ ] Ustaliłem procedurę aktualizacji DoP&C po zmianach składu, procesu produkcji lub normy zharmonizowanej
@@ -101,7 +101,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 - [ ] Sprawdziłem, czy mój system ERP wspiera zarządzanie unikalnymi kodami identyfikacyjnymi wyrobów
 - [ ] Rozważyłem wdrożenie systemu PIM (Product Information Management) do zarządzania dokumentacją wyrobu
 - [ ] Upewniłem się, że system WMS (magazynowy) umożliwia powiązanie wyrobu z jego DoP&C przez kod identyfikacyjny
-- [ ] Dane o SVHC i właściwościach środowiskowych są przechowywane w systemie i automatycznie aktualizowane w DoP&C
+- [ ] Dane o substancjach niebezpiecznych (SVHC) i właściwościach środowiskowych (ślad węglowy — GWP) są przechowywane w systemie i automatycznie aktualizowane w DoP&C
 
 ---
 
@@ -119,7 +119,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 - [ ] Oszacowałem koszty wdrożenia wymagań cyfrowych CPR 2024 (IT, etykietowanie, strona internetowa)
 - [ ] Uwzględniłem w budżecie na 2026 rok koszty aktualizacji DoP&C i TDR dla wszystkich wyrobów
-- [ ] Zaplanowałem budżet na przeprowadzenie LCA (oceny cyklu życia) dla wyrobów, dla których normy tego wymagają
+- [ ] Zaplanowałem budżet na przeprowadzenie analizy cyklu życia (LCA — Life Cycle Assessment) dla wyrobów, dla których zaktualizowane normy zharmonizowane będą wymagać deklarowania śladu węglowego (GWP)
 - [ ] Uwzględniłem koszty szkoleń dla pracowników w budżecie na 2026 rok
 - [ ] Zaplanowałem zasoby ludzkie do zarządzania wdrożeniem CPR 2024 (wewnętrzny koordynator lub zewnętrzny doradca)
 

@@ -4,32 +4,40 @@ date: "2026-01-12"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["EPD", "LCA", "środowisko", "EN 15804"]
-excerpt: "Co to jest EPD (Environmental Product Declaration)? Jak przeprowadzić analizę LCA? Czy EPD jest obowiązkowe w CPR 2024? Kompletny przewodnik po deklaracjach środowiskowych w budownictwie."
+excerpt: "Co to jest EPD (Deklaracja Środowiskowa Wyrobu)? CPR 2024 nie wymaga wprost EPD — wymaga deklarowania właściwości środowiskowych (m.in. śladu węglowego). EPD to narzędzie, które pomaga te dane obliczyć i udokumentować. Wyjaśniamy, jak to działa i kiedy warto się przygotować."
 image_url: /images/blog/epd-w-budownictwie.jpg
 template: "analiza"
 ---
 
-# EPD w budownictwie - Deklaracje Środowiskowe Wyrobu
+# EPD w budownictwie — Deklaracja Środowiskowa Wyrobu
 
-Deklaracja Środowiskowa Wyrobu (EPD - Environmental Product Declaration) to dokument potwierdzający wpływ wyrobu budowlanego na środowisko w całym cyklu życia.
+**Deklaracja Środowiskowa Wyrobu (EPD — Environmental Product Declaration)** to znormalizowany dokument opisujący wpływ wyrobu budowlanego na środowisko w całym cyklu życia. Zawiera m.in. **ślad węglowy** (GWP — Global Warming Potential), zużycie zasobów i emisje — obliczone na podstawie **analizy cyklu życia (LCA — Life Cycle Assessment)**.
+
+## Ważne: EPD a CPR 2024 — co jest wymagane, a co dobrowolne?
+
+CPR 2024/3110 **nie wymaga wprost posiadania EPD**. Wymaga natomiast docelowo **deklarowania właściwości środowiskowych** wyrobów budowlanych — przede wszystkim śladu węglowego (GWP) — w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
+
+EPD to **narzędzie** — znormalizowany sposób obliczenia i udokumentowania tych danych. Sam dokument EPD pozostaje **dobrowolny**, ale dane, które zawiera (GWP i inne wskaźniki), staną się obowiązkowe w DoP&C.
+
+> **Kiedy dokładnie?** Obowiązek deklarowania właściwości środowiskowych wchodzi **osobno dla każdej rodziny wyrobów**, dopiero gdy CEN opublikuje nową normę zharmonizowaną (hTS — harmonized Technical Specification) w Dzienniku Urzędowym UE, a potem minie jeszcze **12–36 miesięcy okresu koegzystencji**. Na marzec 2026 żadna nowa hTS nie została jeszcze opublikowana. Pierwsze spodziewane są w latach 2027–2029 (zgodnie z planem prac KE COM(2025) 772), więc realny obowiązek dla większości wyrobów to najwcześniej **2029–2031**.
 
 ## Co to jest EPD?
 
 EPD to **znormalizowany dokument** (zgodnie z ISO 14025 i EN 15804) zawierający:
-- Wyniki analizy LCA (Life Cycle Assessment)
-- Wskaźniki środowiskowe  
-- Informacje o surowcach i emisjach
+- Wyniki analizy cyklu życia (LCA) wyrobu
+- Wskaźniki środowiskowe — w tym **ślad węglowy (GWP)**, zużycie zasobów, emisje
+- Informacje o surowcach i odpadach
 - Dane weryfikowane przez niezależną stronę trzecią
 
-## Czy EPD jest obowiązkowe?
+## Co będzie wymagane, gdy obowiązek wejdzie w życie?
 
-W **CPR 2024** wskaźniki środowiskowe **będą docelowo obowiązkowe** — ale dopiero po opublikowaniu nowych norm zharmonizowanych (hTS) dla danej rodziny wyrobów. Na marzec 2026 żadna nowa hTS nie została jeszcze opublikowana, więc obowiązek deklarowania wskaźników środowiskowych jeszcze nie obowiązuje. **Pełna EPD pozostaje dobrowolna.** Wymagane minimum (gdy odpowiednia hTS zostanie opublikowana i wejdzie w życie) to:
+Gdy dla danej rodziny wyrobów zakończy się okres koegzystencji po publikacji nowej hTS, producent będzie musiał podać w DoP&C co najmniej:
 
-- Obliczenie wskaźników GWP, ODP, AP, EP, POCP
-- Zgodność z EN 15804+A2
-- Weryfikacja przez niezależną jednostkę
+- **Ślad węglowy (GWP)** — potencjał globalnego ocieplenia [kg CO₂ eq]
+- Oraz kolejne wskaźniki z Załącznika II CPR 2024 (ODP, AP, EP, POCP — etapami do 2032)
+- Obliczone zgodnie z normą **EN 15804+A2**
 
-Jednak **posiadanie EPD** daje przewagę konkurencyjną i ułatwia procedury!
+Pełna EPD (obejmująca wszystkie moduły LCA) pozostaje **dobrowolna**, ale daje przewagę konkurencyjną — szczególnie w przetargach publicznych z kryteriami zielonymi (GPP).
 
 ## Etapy tworzenia EPD
 
@@ -48,16 +56,18 @@ Jednak **posiadanie EPD** daje przewagę konkurencyjną i ułatwia procedury!
 - Nadanie numeru rejestracyjnego
 - Umieszczenie w bazie danych
 
-##  Wskaźniki w EPD zgodnie z EN 15804+A2
+## Wskaźniki środowiskowe w EPD (zgodnie z EN 15804+A2)
 
-| Wskaźnik | Opis | Jednostka |
+Poniższe wskaźniki opisują wpływ wyrobu na środowisko. CPR 2024 wymaga docelowo deklarowania części z nich (etapami) w DoP&C:
+
+| Wskaźnik | Co mierzy (po polsku) | Jednostka |
 |----------|------|-----------|
-| **GWP** | Potencjał globalnego ocieplenia | kg CO₂ eq |
+| **GWP** | **Ślad węglowy** — potencjał globalnego ocieplenia | kg CO₂ eq |
 | **ODP** | Niszczenie warstwy ozonowej | kg CFC-11 eq |
-| **AP** | Potencjał zakwaszenia | kg SO₂ eq |
-| **EP** | Potencjał eutrofizacji | kg PO₄³⁻ eq |
-| **POCP** | Tworzenie ozonu fotochemicznego | kg Ethen eq |
-| **ADPE** | Zużycie zasobów nieodnawialnych | kg Sb eq |
+| **AP** | Zakwaszenie gleb i wód | kg SO₂ eq |
+| **EP** | Przeżyźnienie wód (eutrofizacja) | kg PO₄³⁻ eq |
+| **POCP** | Tworzenie smogu (ozon fotochemiczny) | kg Ethen eq |
+| **ADPE** | Wyczerpywanie zasobów nieodnawialnych | kg Sb eq |
 | **ADPF** | Zużycie paliw kopalnych | MJ |
 
 ## Koszty EPD
@@ -90,15 +100,15 @@ Ważność EPD: **5 lat**
 
 ## Korzyści z posiadania EPD
 
-- **Zgodność z CPR 2024** — spełnienie wymagań środowiskowych
-- **Przewaga konkurencyjna** — wymóg w przetargach publicznych
-- **Certyfikacje LEED/BREEAM** — punkty za EPD
+- **Gotowość na wymogi CPR 2024** — dane z EPD (ślad węglowy, inne wskaźniki) będą potrzebne do przyszłej DoP&C, gdy wejdzie w życie nowa hTS dla danej rodziny wyrobów
+- **Przewaga w przetargach publicznych** — coraz więcej zamówień publicznych (GPP — Green Public Procurement) wymaga danych środowiskowych
+- **Certyfikacje LEED/BREEAM** — punkty za posiadanie EPD
 - **Marketing** — demonstracja odpowiedzialności środowiskowej
-- **Optymalizacja produkcji** — identyfikacja obszarów do poprawy
+- **Optymalizacja produkcji** — analiza LCA identyfikuje obszary do redukcji emisji i kosztów
 
 ## Podsumowanie
 
-EPD staje się standardem w budownictwie zrównoważonym. CPR 2024 wymaga jedynie podstawowych wskaźników, ale pełna EPD jest inwestycją w długoterminową konkurencyjność.
+EPD to dobrowolne narzędzie, ale dane, które zawiera — przede wszystkim ślad węglowy (GWP) — staną się obowiązkowe w DoP&C po wejściu w życie nowych norm zharmonizowanych dla poszczególnych rodzin wyrobów. Pełna EPD jest inwestycją w długoterminową konkurencyjność i gotowość na przyszłe wymogi CPR 2024.
 
 ---
 

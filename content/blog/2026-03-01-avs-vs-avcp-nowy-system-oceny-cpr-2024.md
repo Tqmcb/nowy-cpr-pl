@@ -65,12 +65,12 @@ Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobó
 
 ### AVS 3+ — nowość: walidacja danych środowiskowych EPD
 
-System 3+ nie istniał w oryginalnym AVCP z CPR 305/2011. Został wprowadzony najpierw przez Rozporządzenie delegowane (UE) 2024/2769 (zmiana Załącznika V starego CPR, w życie od 17.11.2024), a następnie przejęty przez CPR 2024/3110 w Załączniku IX. Dotyczy wyłącznie walidacji danych środowiskowych (EPD) przez jednostkę notyfikowaną.
+System 3+ nie istniał w oryginalnym AVCP z CPR 305/2011. Został wprowadzony najpierw przez Rozporządzenie delegowane (UE) 2024/2769 (zmiana Załącznika V starego CPR, w życie od 17.11.2024), a następnie przejęty przez CPR 2024/3110 w Załączniku IX. Dotyczy wyłącznie walidacji danych środowiskowych — przede wszystkim śladu węglowego (GWP) i innych wskaźników z Załącznika II CPR 2024.
 
-**Co robi producent:** przeprowadza ITT i FPC samodzielnie, sporządza EPD opartą na ocenie LCA zgodnej z EN 15804+A2.
-**Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny EPD** potwierdzający wiarygodność deklaracji środowiskowych.
+**Co robi producent:** przeprowadza ITT i FPC samodzielnie, przeprowadza **analizę cyklu życia (LCA — Life Cycle Assessment)** zgodną z EN 15804+A2 — oblicza ślad węglowy i inne wskaźniki środowiskowe. Opcjonalnie sporządza EPD (Deklarację Środowiskową Wyrobu).
+**Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny** potwierdzający wiarygodność deklaracji środowiskowych.
 
-System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych (GPP) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
+System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych w ramach zielonych zamówień (GPP — Green Public Procurement) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
 
 ### AVS 4 — najlżejszy, ale... z niespodzianką
 
@@ -82,14 +82,14 @@ Stosowany do wyrobów o najniższym ryzyku: folie paroizolacyjne, ograniczone za
 
 To oznacza, że producent w systemie AVS 4 nadal nie musi angażować JN do certyfikacji — ale musi być gotowy, że jego wyroby mogą być weryfikowane przez JN na zlecenie GUNB, WINB (Wojewódzki Inspektorat Nadzoru Budowlanego) lub innego organu nadzoru rynku.
 
-## System 3+ dla EPD — szczegóły procedury
+## System 3+ dla danych środowiskowych — szczegóły procedury
 
 Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa procedura walidacji wygląda następująco:
 
-- Producent samodzielnie oblicza GWP i inne wskaźniki środowiskowe (LCA zgodne z EN 15804+A2)
+- Producent samodzielnie oblicza **ślad węglowy (GWP)** i inne wskaźniki środowiskowe metodą analizy cyklu życia (LCA) zgodnie z EN 15804+A2
 - Jednostka notyfikowana **weryfikuje metodykę i dane** LCA — nie przeprowadza własnych obliczeń
-- JN wydaje **Raport walidacyjny EPD** (nie certyfikat wyrobu)
-- Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opublikować EPD z niezależną weryfikacją (*third-party verified*)
+- JN wydaje **Raport walidacyjny** (nie certyfikat wyrobu)
+- Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opcjonalnie opublikować EPD (Deklarację Środowiskową Wyrobu) z niezależną weryfikacją (*third-party verified*)
 
 Szczegółową analizę kosztów, procedury i rynku walidacji EPD w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
 
@@ -116,8 +116,8 @@ To jedna z najważniejszych zmian! W starym systemie wystarczył raport z badań
 **Jeśli działałeś w AVCP 4:**
 Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB i WINB (wojewódzkie inspektoraty nadzoru budowlanego) mają teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
 
-**Jeśli planujesz deklarować dane środowiskowe:**
-Rozważ System 3+. Walidacja EPD przez JN nie jest droga (porównywalna z kosztem systemu 3), a podnosi wiarygodność deklaracji i otwiera rynki z wymaganiami GPP.
+**Jeśli planujesz deklarować dane środowiskowe (ślad węglowy):**
+Rozważ System 3+. Walidacja danych środowiskowych (wyników LCA) przez JN nie jest droga (porównywalna z kosztem systemu 3), a podnosi wiarygodność deklaracji i otwiera rynki z wymaganiami zielonych zamówień publicznych (GPP).
 
 ## Podsumowanie zmian AVS vs AVCP
 
