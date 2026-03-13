@@ -7,7 +7,7 @@ category: "Spoiwa"
 avs_system: "1+"
 normy: ["EN 197-1", "EN 197-5", "EN 413-1", "EN 459-1", "EN 14216"]
 tags: ["cement", "wapno", "spoiwa", "CPR 2024", "AVS 1+"]
-excerpt: "Cement, wapno budowlane i spoiwa hydrauliczne – rodzina 15 CPR 2024. System AVS 1+ (najwyższy rygor). CEM I-V, wapno hydratyzowane, cement murarski. Cement to jeden z największych emitentów CO2 – System 3+ dla EPD będzie kluczowy."
+excerpt: "Cement, wapno budowlane i spoiwa hydrauliczne – rodzina 15 CPR 2024. System AVS 1+ (najwyższy rygor). CEM I-V, wapno hydratyzowane, cement murarski. Cement to jeden z największych emitentów CO2 – System 3+ dla danych środowiskowych będzie kluczowy."
 image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 ---
 
@@ -15,7 +15,7 @@ image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 
 Rodzina 15 według Załącznika VII CPR 2024/3110 obejmuje cement, wapno budowlane i inne spoiwa hydrauliczne. Jest to jedna z nielicznych rodzin, dla których obowiązuje System AVS 1+ – najwyższy możliwy poziom nadzoru w nowym rozporządzeniu. Wynika to z fundamentalnej roli spoiw hydraulicznych w bezpieczeństwie konstrukcji budowlanych: cement jest podstawowym składnikiem betonu, zapraw i wielu systemów naprawczych.
 
-Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośród wszystkich rodzin w CPR 2024/3110. Produkcja klinkieru portlandzkiego generuje około **0,83–0,95 kg CO2 na kilogram** cementu – co sprawia, że przemysł cementowy odpowiada globalnie za około 7–8% całkowitej emisji CO2. CPR 2024 po raz pierwszy oficjalnie wymaga deklarowania tych wartości w ramach DoP&C, a System 3+ umożliwia niezależną walidację EPD przez jednostkę notyfikowaną.
+Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośród wszystkich rodzin w CPR 2024/3110. Produkcja klinkieru portlandzkiego generuje około **0,83–0,95 kg CO2 na kilogram** cementu – co sprawia, że przemysł cementowy odpowiada globalnie za około 7–8% całkowitej emisji CO2. CPR 2024 po raz pierwszy oficjalnie wymaga deklarowania tych wartości w ramach DoP&C, a System 3+ umożliwia niezależną walidację danych środowiskowych przez jednostkę notyfikowaną.
 
 ## Normy zharmonizowane
 

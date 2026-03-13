@@ -98,7 +98,7 @@ Oceny techniczne (ETA) dla innowacyjnych systemów CLT można uzyskać poprzez [
 - [ ] Przeprowadzenie badań wstępnych ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie zakładowej kontroli produkcji (ZKP) zgodnej z wymogami systemu AVS 1 lub 2+
 - [ ] Uzyskanie certyfikatu ZKP od akredytowanej jednostki notyfikowanej
-- [ ] Opracowanie i walidacja EPD zgodnie z EN 15804+A2 (System AVS 3+)
+- [ ] Opracowanie EPD i walidacja danych środowiskowych zgodnie z EN 15804+A2 (System AVS 3+)
 - [ ] Wystawienie Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)
 - [ ] Umieszczenie oznakowania CE na produkcie i/lub opakowaniu
 - [ ] Zweryfikowanie klasy trwałości DC (EN 335) i odpowiednich warunków stosowania

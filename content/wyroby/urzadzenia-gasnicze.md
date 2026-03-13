@@ -78,7 +78,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 **Właściwości środowiskowe dla wyrobów ppoż.**: CPR 2024 jest pierwszym krokiem ku uwzględnieniu środowiskowego śladu urządzeń ochrony ppoż. Szczególnie istotne są: substancje gaśnicze o wysokim GWP (HFC-227ea ma GWP = 3350 – trwa stopniowe wycofywanie na rzecz Novec 1230 z GWP < 1), akumulatory w centralach SAP i systemach alarmowych (trwałość, recykling), tworzywa sztuczne w obudowach detektorów (ABS, PC z retardantami ognia).
 
-**System 3+ dla EPD**: Choć EPD dla urządzeń ppoż. nie są jeszcze powszechne, CPR 2024 otwiera drogę do walidacji danych środowiskowych przez System 3+. W kontekście zamówień publicznych (szpitale, szkoły, obiekty rządowe) EPD dla systemów SAP i tryskaczowych może stać się wymaganiem przetargowym.
+**System 3+ dla danych środowiskowych**: Choć EPD dla urządzeń ppoż. nie są jeszcze powszechne, CPR 2024 otwiera drogę do walidacji danych środowiskowych przez System 3+. W kontekście zamówień publicznych (szpitale, szkoły, obiekty rządowe) EPD dla systemów SAP i tryskaczowych może stać się wymaganiem przetargowym.
 
 **Nowe wyroby objęte CPR**: CPR 2024 rozszerza zakres na nowe kategorie wyrobów ppoż.: automatyczne systemy tłumienia wybuchu (EN 16750), aerozolowe systemy gaśnicze, stałe urządzenia gaśnicze dla tuneli drogowych i kolejowych (szczególnie istotne w kontekście infrastruktury finansowanej ze środków UE).
 
