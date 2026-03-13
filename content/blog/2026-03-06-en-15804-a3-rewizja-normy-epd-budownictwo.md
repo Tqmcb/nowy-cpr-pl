@@ -1,7 +1,7 @@
 ---
 title: "EN 15804+A3: nadchodząca rewizja kluczowej normy EPD dla budownictwa"
 date: "2026-03-06"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["EN 15804", "EPD", "LCA", "rewizja normy", "CEN/TC 350", "AVS 3+", "CPR 2024"]
 excerpt: "CEN/TC 350 pracuje nad trzecią poprawką normy EN 15804 — fundamentu dla deklaracji środowiskowych wyrobów budowlanych. Jakie zmiany przyniesie +A3 i kiedy producenci powinni się przygotować?"

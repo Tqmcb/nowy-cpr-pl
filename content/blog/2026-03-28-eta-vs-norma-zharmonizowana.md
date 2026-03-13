@@ -94,7 +94,7 @@ Poniżej uproszczony schemat decyzyjny dla producenta wyrobu budowlanego:
 
 Pod rządami CPR 2024/3110 ETA **nie jest już wydawana bezterminowo**. Nowe EAD cytowane pod CPR 2024 są ważne przez **10 lat** od daty cytowania w Dzienniku Urzędowym UE; ETA oparta na takim EAD pozostaje ważna przez **5 kolejnych lat** po wygaśnięciu EAD (art. 95 CPR 2024, potwierdzenie: DIBt FAQ i strona KE „Voluntary CE marking – EOTA route"). Producent jest dodatkowo zobowiązany do corocznego potwierdzania Zakładowej Kontroli Produkcji (FPC). TAB, który wydał ETA, może przeprowadzać nadzorcze wizyty w zakładzie produkcyjnym.
 
-**Przepisy przejściowe dla ETA wydanych pod starym CPR 305/2011:** EAD cytowane pod CPR 2011 mogą być podstawą do wydawania ETA do **9 stycznia 2031 r.** ETA oparte na tych EAD mogą być stosowane jako podstawa oznakowania CE do **9 stycznia 2036 r.**
+**Przepisy przejściowe dla ETA wydanych pod starym CPR 305/2011:** EAD cytowane pod CPR 305/2011 mogą być podstawą do wydawania ETA do **9 stycznia 2031 r.** ETA oparte na tych EAD mogą być stosowane jako podstawa oznakowania CE do **9 stycznia 2036 r.**
 
 Jeśli wyrób lub jego sposób produkcji ulegnie istotnej zmianie, ETA wymaga aktualizacji. Równocześnie, jeśli po wydaniu ETA zostanie opublikowana norma zharmonizowana obejmująca dany wyrób, producent nie jest zmuszony do natychmiastowego przejścia na nową ścieżkę — istniejąca ETA pozostaje ważna do końca swojego okresu ważności, jednak po jego upływie lub gdy nowa hEN stanie się obowiązkowa, producent powinien rozważyć migrację do hEN.
 

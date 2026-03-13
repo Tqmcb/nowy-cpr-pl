@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 17 według Załącznika VII CPR 2024/3110 obejmuje wyroby murowe i wyroby pokrewne: elementy murowe, zaprawy murarskie, zaprawy tynkarskie oraz wyroby pomocnicze (kotwy, strzemiona, łączniki, zbrojenie spoin). Jest to jedna z największych rodzin wyrobów pod względem liczby norm zharmonizowanych i różnorodności produktów.
+Rodzina 17 według Załącznika VII CPR 2024/3110 obejmuje wyroby murowe i wyroby pokrewne: elementy murowe, zaprawy murarskie, zaprawy tynkarskie oraz wyroby pomocnicze (kotwy, strzemiona, łączniki, zbrojenie spoin). Jest to jedna z największych rodzin wyrobów pod względem liczby norm zharmonizowanych i różnorodności wyrobów.
 
 Wyroby murowe tworzą mury nośne i ściany działowe – dwa fundamentalnie różne zastosowania, którym odpowiadają różne systemy AVS. Ściany nośne wymagają rygorystycznej certyfikacji (System AVS 2+), natomiast elementy wyłącznie estetyczne lub działowe mogą korzystać z systemu 3 lub 4.
 
@@ -37,10 +37,10 @@ Z perspektywy środowiskowej ceramika murowa (cegły wypalane) należy do materi
 
 Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 
-- **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez NB jest wymagany do oznakowani CE wyrobu przeznaczonego do zastosowań nośnych.
-- **System AVS 3** – dla elementów nienośnych lub dekoracyjnych, gdzie NB przeprowadza jedynie badania wstępne, a producent prowadzi ZKP samodzielnie.
+- **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez JN jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
+- **System AVS 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
-- **System AVS 3+** – walidacja EPD dla producentów dążących do deklarowania GWP.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów dążących do deklarowania GWP.
 
 W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl).
 
@@ -62,7 +62,7 @@ Znormalizowana wytrzymałość na ściskanie fb (po przeliczeniu na próbkę 100
 - Elementy silikatowe: λ = 0,56–0,70 W/(m·K) (wysokie – stosowane ze względu na akustykę i nośność, nie termoizolację)
 
 **Reakcja na ogień:**
-Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP&C dla tego parametru z wyjątkiem produktów hybrydowych).
+Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP&C dla tego parametru z wyjątkiem wyrobów hybrydowych).
 
 **Zaprawy wg EN 998-2:**
 - Typy: G (ogólnego przeznaczenia), T (do spoin cienkich ≤3 mm), L (lekkie)
@@ -77,7 +77,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 ## Zmiany względem CPR 305/2011
 
 1. **Obowiązek deklarowania GWP** – producenci elementów murowych muszą uwzględnić właściwości środowiskowe w DoP&C.
-2. **System 3+ dla walidacji EPD** – jednostka notyfikowana wydaje raport walidacyjny dla EPD, co umożliwia stosowanie EPD w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
+2. **System 3+ dla walidacji danych środowiskowych** – jednostka notyfikowana wydaje raport walidacyjny, co umożliwia stosowanie zwalidowanych danych środowiskowych w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
 3. **Substancje niebezpieczne** – obowiązek sprawdzenia i deklarowania braku SVHC (substancje wzbudzające szczególnie duże obawy wg REACH) w zastosowanych surowcach i dodatkach.
 4. **DoP&C** – zintegrowany dokument zamiast odrębnych deklaracji.
 5. **Trwałość** – CPR 2024 kładzie nacisk na deklarowanie przewidywanej trwałości i warunków ekspozycji (klasy ekspozycji wg EN 1996).
@@ -106,14 +106,14 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 - [ ] Identyfikacja normy wyrobu (EN 771-1 do EN 771-6 lub EN 998-1/-2)
 - [ ] Ustalenie systemu AVS (2+ dla nośnych, 3/4 dla nienośnych)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl))
-- [ ] Certyfikacja ZKP przez NB ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Certyfikacja ZKP przez JN ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
 - [ ] Sprawdzenie zawartości substancji niebezpiecznych (SVHC, REACH)
 - [ ] Opracowanie EPD (opcjonalnie, ale zalecane dla zamówień publicznych)
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla rzetelności deklaracji GWP
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla rzetelności deklaracji GWP
 - [ ] Oznakowanie CE na wyrobie lub etykiecie zbiorczej (paleta)
-- [ ] Coroczne audyty nadzorcze NB (dla Systemu AVS 2+)
+- [ ] Coroczne audyty nadzorcze JN (dla Systemu AVS 2+)
 
 ## Gdzie szukać wsparcia
 

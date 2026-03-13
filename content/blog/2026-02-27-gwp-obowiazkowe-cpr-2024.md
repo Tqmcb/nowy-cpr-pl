@@ -1,7 +1,7 @@
 ---
 title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
 date: "2026-02-27"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe", "LCA"]
 excerpt: "CPR 2024/3110 planuje obowiązkowe deklarowanie GWP — ale dopiero po opublikowaniu nowej normy zharmonizowanej dla Twojej grupy wyrobów i zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie wyszła. Dowiedz się jak działa ten mechanizm i dlaczego warto zbierać dane już teraz."
@@ -11,7 +11,7 @@ template: "analiza"
 
 # GWP w CPR 2024 — jak przygotować się już teraz
 
-Producenci wyrobów budowlanych przez lata mogli ignorować temat śladu węglowego swoich produktów. CPR 2024/3110 kończy ten czas. Globalny Potencjał Ocieplenia (GWP) — potocznie zwany śladem węglowym — stanie się **obowiązkową deklarowaną właściwością** w nowych normach zharmonizowanych, których pierwsze aktualizacje oczekiwane są w latach 2027–2029 (zgodnie z planem prac KE COM(2025) 772).
+Producenci wyrobów budowlanych przez lata mogli ignorować temat śladu węglowego swoich wyrobów. CPR 2024/3110 kończy ten czas. Globalny Potencjał Ocieplenia (GWP) — potocznie zwany śladem węglowym — stanie się **obowiązkową deklarowaną właściwością** w nowych normach zharmonizowanych, których pierwsze aktualizacje oczekiwane są w latach 2027–2029 (zgodnie z planem prac KE COM(2025) 772).
 
 Ten artykuł wyjaśnia czym jest GWP, dlaczego staje się kluczowym wskaźnikiem dla branży budowlanej i — przede wszystkim — **co konkretnie musisz zrobić już teraz**, by uniknąć problemów gdy termin stanie się pilny.
 
@@ -53,13 +53,13 @@ Na podstawie priorytetów KE i zaawansowania prac normalizacyjnych, najwcześnie
 
 Jeśli Twój wyrób należy do tych rodzin — przygotuj się w pierwszej kolejności.
 
-## Co to jest EPD i czy jest obowiązkowe?
+## Czy CPR 2024 wymaga EPD?
 
-**EPD (Environmental Product Declaration)** — Deklaracja Środowiskowa Produktu — to dokument, który zawiera weryfikowane dane środowiskowe wyrobu, w tym GWP. Sporządza się ją zgodnie z normą **EN 15804+A2**.
+**Nie wprost.** CPR 2024 wymaga deklarowania **właściwości środowiskowych** (w tym śladu węglowego) w DoP&C — ale nie nakazuje posiadania dokumentu EPD.
 
-Ważne rozróżnienie: EPD jako samodzielny dokument pozostaje **dobrowolna**. Ale **dane środowiskowe** (w tym GWP) zadeklarowane w DoP&C — na podstawie obliczeń LCA zgodnych z EN 15804 — stają się **obowiązkowe** po aktualizacji normy zharmonizowanej.
+**EPD (Environmental Product Declaration — Deklaracja Środowiskowa Wyrobu)** to znormalizowany dokument zawierający weryfikowane dane środowiskowe wyrobu, sporządzany zgodnie z normą EN 15804+A2. To **narzędzie do obliczenia i udokumentowania** danych, które CPR 2024 wymaga.
 
-Innymi słowy: nie musisz publikować pełnego EPD, ale musisz mieć dane, z których możesz wziąć GWP do DoP&C. A te dane i tak wymagają metodyki EN 15804. Efekt praktyczny: posiadanie EPD będzie de facto koniecznością.
+Mówiąc prościej: nie musisz publikować pełnego EPD, ale musisz mieć rzetelnie obliczone dane o śladzie węglowym (GWP) do wpisania w DoP&C. Te dane i tak wymagają metodyki z EN 15804+A2. W praktyce posiadanie EPD będzie najłatwiejszą drogą do spełnienia wymogu.
 
 ## Jak obliczyć GWP dla swojego wyrobu — krok po kroku
 
@@ -73,9 +73,9 @@ Potrzebujesz informacji o:
 
 Większość z tych danych powinna być dostępna w Twoim systemie zarządzania produkcją.
 
-### Krok 2: Zamów obliczenia LCA w akredytowanym podmiocie
+### Krok 2: Zamów obliczenia LCA (analizę cyklu życia) w akredytowanym podmiocie
 
-Obliczenia LCA (Life Cycle Assessment) muszą być zgodne z normą **EN 15804+A2** i **ISO 14044**. Nie są to obliczenia, które można wykonać samodzielnie bez specjalistycznej wiedzy. W Polsce działają firmy oferujące usługi LCA dla wyrobów budowlanych, m.in.:
+**LCA (Life Cycle Assessment — analiza cyklu życia)** to metoda obliczania wpływu wyrobu na środowisko „od kołyski do grobu" — od wydobycia surowców po utylizację. Obliczenia muszą być zgodne z normą **EN 15804+A2** i **ISO 14044**. Nie są to obliczenia, które można wykonać samodzielnie bez specjalistycznej wiedzy. W Polsce działają firmy oferujące usługi LCA dla wyrobów budowlanych, m.in.:
 
 - instytuty badawcze (ICiMB, ITCZLin)
 - wyspecjalizowane firmy konsultingowe ds. zrównoważonego budownictwa
@@ -83,9 +83,9 @@ Obliczenia LCA (Life Cycle Assessment) muszą być zgodne z normą **EN 15804+A2
 
 Koszt obliczeń LCA dla typowego wyrobu budowlanego: **3 000–15 000 PLN** w zależności od złożoności.
 
-### Krok 3: Walidacja przez jednostkę notyfikowaną (opcjonalnie System 3+)
+### Krok 3: Walidacja przez jednostkę notyfikowaną (opcjonalnie — System AVS 3+)
 
-CPR 2024 przewiduje możliwość walidacji danych środowiskowych przez jednostkę notyfikowaną w ramach **Systemu 3+** (nowy system wprowadzony przez CPR 2024). Walidacja nie jest obowiązkowa, ale:
+CPR 2024 wprowadził nowy **System AVS 3+** — system oceny i weryfikacji przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy LCA). Jednostka notyfikowana sprawdza poprawność obliczeń i wydaje raport walidacyjny. Walidacja nie jest obowiązkowa, ale:
 - podnosi wiarygodność deklaracji GWP
 - jest wymagana w części przetargów publicznych z kryteriami GPP
 - otwiera dostęp do rynków skandynawskich, gdzie EPD są de facto standardem

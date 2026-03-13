@@ -44,7 +44,7 @@ Pierwotna DoP&C zachowuje swoją ważność i może być przekazana nabywcy uży
 1. **Wyrób nie został istotnie zmodyfikowany** — nie przeszedł procesów, które mogłyby zmienić jego zasadnicze właściwości użytkowe (wytrzymałość mechaniczna, ognioodporność, izolacyjność termiczna itp.),
 2. **Właściwości użytkowe wyrobu są nadal zgodne z zadeklarowanymi** — stan techniczny wyrobu odpowiada temu opisanemu w DoP&C,
 3. **DoP&C jest kompletna i aktualna** — tzn. odpowiada normie zharmonizowanej obowiązującej w momencie ponownego wprowadzenia wyrobu do obrotu, a nie normie z daty pierwotnego zakupu (jeżeli norma była aktualizowana),
-4. **Wyrób posiada nadal czytelne oznakowanie CE** lub możliwa jest jego identyfikacja przy użyciu unikalnego kodu produktu.
+4. **Wyrób posiada nadal czytelne oznakowanie CE** lub możliwa jest jego identyfikacja przy użyciu unikalnego kodu wyrobu.
 
 Jeśli choćby jeden z tych warunków nie jest spełniony, przekazanie pierwotnego DoP&C nie jest wystarczające.
 
@@ -85,7 +85,7 @@ Zatajenie informacji o tym, że wyrób jest używany lub z odzysku, może stanow
 
 Polska ma jedną z najwyższych w UE stóp rozbiórki i modernizacji obiektów przemysłowych, magazynowych i mieszkaniowych. Rynek odzysku stali konstrukcyjnej, prefabrykatów betonowych, cegły rozbiórkowej czy stolarki budowlanej jest znaczący, choć dotychczas słabo uregulowany.
 
-Nowe przepisy CPR 2024 stwarzają szansę na sformalizowanie tego rynku i nadanie wyrobom z odzysku statusu pełnoprawnych produktów z udokumentowanymi właściwościami użytkowymi. Dla firm specjalizujących się w rozbiórkach selektywnych i odzysku materiałów otworzy się możliwość tworzenia certyfikowanego asortymentu wyrobów wtórnych o potwierdzonej jakości.
+Nowe przepisy CPR 2024 stwarzają szansę na sformalizowanie tego rynku i nadanie wyrobom z odzysku statusu pełnoprawnych wyrobów z udokumentowanymi właściwościami użytkowymi. Dla firm specjalizujących się w rozbiórkach selektywnych i odzysku materiałów otworzy się możliwość tworzenia certyfikowanego asortymentu wyrobów wtórnych o potwierdzonej jakości.
 
 ## Podsumowanie
 

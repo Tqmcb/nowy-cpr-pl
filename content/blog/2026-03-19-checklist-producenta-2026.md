@@ -11,7 +11,7 @@ template: "przewodnik"
 
 ## Dlaczego 2026 to rok kluczowy dla producentów wyrobów budowlanych?
 
-Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
+Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
 
 Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w łańcuchu dostaw, problemami z organami nadzoru rynku i utratą certyfikacji. Poniższa checklista została opracowana jako praktyczne narzędzie zarządzania gotowością regulacyjną — przejdź przez każdą sekcję i zaznacz, które działania Twoja firma już podjęła, a które jeszcze wymagają realizacji.
 
@@ -21,18 +21,18 @@ Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w ł
 
 ### A1. Deklaracja Właściwości i Zgodności (DoP&C)
 
-Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację Właściwości (DoP). Dokument ten musi zawierać elementy deklaracji zgodności. Sprawdź poniższe pozycje:
+Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację Właściwości Użytkowych (DoP). Dokument ten musi zawierać elementy deklaracji zgodności. Sprawdź poniższe pozycje:
 
 - [ ] Zidentyfikowałem wszystkie wyroby z portfolio, które objęte są obowiązkiem oznakowania CE i wymagają DoP&C
 - [ ] Przejrzałem aktualne DoP i sprawdziłem, które z nich wymagają aktualizacji do formatu DoP&C zgodnego z CPR 2024
 - [ ] Zaktualizowałem DoP&C o sekcję dotyczącą substancji SVHC (obecnych powyżej 0,1% w/w), jeśli dotyczy
-- [ ] Zaktualizowałem DoP&C o sekcję dotyczącą środowiskowych właściwości użytkowych (EPD), jeśli norma zharmonizowana tego wymaga
+- [ ] Zaktualizowałem DoP&C o sekcję dotyczącą właściwości środowiskowych (przede wszystkim śladu węglowego — GWP), jeśli zaktualizowana norma zharmonizowana (hTS) już tego wymaga dla mojej rodziny wyrobów
 - [ ] Zapewniłem dostępność DoP&C w formie elektronicznej pod stałym adresem URL
 - [ ] Przetłumaczyłem DoP&C na języki wszystkich rynków, na które wprowadzam wyrób
 - [ ] Ustaliłem procedurę aktualizacji DoP&C po zmianach składu, procesu produkcji lub normy zharmonizowanej
 - [ ] Zweryfikowałem, że archiwum poprzednich wersji DoP&C jest przechowywane przez co najmniej 10 lat
 
-### A2. Unikalny kod identyfikacyjny produktu
+### A2. Unikalny kod identyfikacyjny wyrobu
 
 - [ ] Nadałem każdemu wyrobowi unikalny kod identyfikacyjny (GTIN lub własny system identyfikacji)
 - [ ] Kod identyfikacyjny jest powiązany z aktualną DoP&C w moim systemie wewnętrznym
@@ -42,7 +42,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 ### A3. Techniczna Dokumentacja Referencyjna (TDR)
 
-- [ ] Posiadam aktualną Techniczną Dokumentację Referencyjną (TDR) dla każdego wyrobu objętego oznaczeniem CE
+- [ ] Posiadam aktualną Techniczną Dokumentację Referencyjną (TDR) dla każdego wyrobu objętego oznakowaniem CE
 - [ ] TDR zawiera wszystkie elementy wymagane przez CPR 2024 i stosowaną normę zharmonizowaną
 - [ ] TDR jest przechowywana w formie umożliwiającej udostępnienie jej organom nadzoru na żądanie w ciągu 3 dni roboczych
 - [ ] Ustaliłem procedurę aktualizacji TDR po zmianach technicznych wyrobu lub procesu produkcji
@@ -98,10 +98,10 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 ### C3. Integracja systemów (ERP, PIM, WMS)
 
-- [ ] Sprawdziłem, czy mój system ERP wspiera zarządzanie unikalnymi kodami identyfikacyjnymi produktów
-- [ ] Rozważyłem wdrożenie systemu PIM (Product Information Management) do zarządzania dokumentacją produktową
+- [ ] Sprawdziłem, czy mój system ERP wspiera zarządzanie unikalnymi kodami identyfikacyjnymi wyrobów
+- [ ] Rozważyłem wdrożenie systemu PIM (Product Information Management) do zarządzania dokumentacją wyrobu
 - [ ] Upewniłem się, że system WMS (magazynowy) umożliwia powiązanie wyrobu z jego DoP&C przez kod identyfikacyjny
-- [ ] Dane o SVHC i właściwościach środowiskowych są przechowywane w systemie i automatycznie aktualizowane w DoP&C
+- [ ] Dane o substancjach niebezpiecznych (SVHC) i właściwościach środowiskowych (ślad węglowy — GWP) są przechowywane w systemie i automatycznie aktualizowane w DoP&C
 
 ---
 
@@ -119,7 +119,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 - [ ] Oszacowałem koszty wdrożenia wymagań cyfrowych CPR 2024 (IT, etykietowanie, strona internetowa)
 - [ ] Uwzględniłem w budżecie na 2026 rok koszty aktualizacji DoP&C i TDR dla wszystkich wyrobów
-- [ ] Zaplanowałem budżet na przeprowadzenie LCA (oceny cyklu życia) dla wyrobów, dla których normy tego wymagają
+- [ ] Zaplanowałem budżet na przeprowadzenie analizy cyklu życia (LCA — Life Cycle Assessment) dla wyrobów, dla których zaktualizowane normy zharmonizowane będą wymagać deklarowania śladu węglowego (GWP)
 - [ ] Uwzględniłem koszty szkoleń dla pracowników w budżecie na 2026 rok
 - [ ] Zaplanowałem zasoby ludzkie do zarządzania wdrożeniem CPR 2024 (wewnętrzny koordynator lub zewnętrzny doradca)
 

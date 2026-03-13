@@ -39,7 +39,7 @@ CPR 2024/3110 wprowadza szczególnie istotne zmiany dla kruszyw z recyklingu –
 Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
 
 1. **Producent** – wdraża i prowadzi zakładową kontrolę produkcji (ZKP) obejmującą regularną kontrolę uziarnienia, właściwości geometrycznych, fizycznych i chemicznych kruszywa. Częstotliwości badań określone są w normie wyrobu (np. EN 12620).
-2. **Jednostka notyfikowana (NB)** – certyfikuje ZKP: przeprowadza audyt wytwórni (kopalni, zakładu przeróbki) i ocenia system kontroli produkcji. Wydaje certyfikat ZKP.
+2. **Jednostka notyfikowana (JN)** – certyfikuje ZKP: przeprowadza audyt wytwórni (kopalni, zakładu przeróbki) i ocenia system kontroli produkcji. Wydaje certyfikat ZKP.
 3. **Producent** przeprowadza badania wstępne ITT samodzielnie lub zlecając je laboratorium.
 
 W Polsce certyfikację ZKP dla producentów kruszyw prowadzi:
@@ -91,7 +91,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 1. **Kruszywa z recyklingu – nowe wymogi** – CPR 2024/3110 wymaga deklarowania udziału kruszyw z recyklingu i ich właściwości specyficznych (absorpcja, zawartość zaprawy cementowej w RCA).
 2. **Obowiązkowe deklarowanie GWP** – producenci kruszyw muszą ujmować wskaźnik klimatyczny w DoP&C.
 3. **Substancje niebezpieczne** – kruszywa z recyklingu mogą zawierać zanieczyszczenia (azbest, PCB, metale ciężkie) – konieczna kontrola składu chemicznego deklarowanego w DoP&C.
-4. **System 3+ dla EPD** – walidacja przez NB, ważna dla zamówień publicznych i certyfikatów zrównoważonego budownictwa.
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN, ważna dla zamówień publicznych i certyfikatów zrównoważonego budownictwa.
 5. **DoP&C zamiast DoP** – rozszerzona deklaracja z właściwościami środowiskowymi.
 
 ## Harmonogram wdrożenia
@@ -125,15 +125,15 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 12620, EN 13043, EN 13055, EN 13242 lub EN 13383)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej NB ([Multicert](https://www.multicert.com.pl) lub [ICiMB](https://www.icimb.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.com.pl) lub [ICiMB](https://www.icimb.pl))
 - [ ] Przeprowadzenie badań ITT: uziarnienie, kształt (SI), wytrzymałość (LA, MDE), mrozoodporność
 - [ ] Badania chemiczne: chlorki, siarczany, reaktywność alkaliczna (ASR)
 - [ ] Dla RCA/RMA: badanie zawartości zaprawy, zanieczyszczeń, absorpcji wody
 - [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C z System AVS 2+
 - [ ] Deklarowanie GWP i ewentualnego udziału kruszywa z recyklingu
 - [ ] Oznakowanie CE na dokumencie dostawy lub na etykiecie na silosie/hałdzie
-- [ ] Coroczne audyty nadzorcze ZKP przez NB
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla zamówień publicznych wymagających deklaracji środowiskowych
+- [ ] Coroczne audyty nadzorcze ZKP przez JN
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla zamówień publicznych wymagających deklaracji środowiskowych
 - [ ] Monitorowanie zmienności złoża (kopalnie odkrywkowe) i aktualizacja ITT przy zmianie materiału
 
 ## Gdzie szukać wsparcia

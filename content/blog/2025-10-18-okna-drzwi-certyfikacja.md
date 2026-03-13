@@ -19,7 +19,7 @@ Norma EN 14351-1 obejmuje okna i drzwi zewnętrzne do budynków mieszkalnych i k
 
 **System AVS: 1 / 3 / 4** (zależnie od deklarowanej właściwości)
 - **System 1** – dla właściwości związanych z reakcją na ogień i odpornością na ogień (wymagany certyfikat jednostki notyfikowanej)
-- **System 3** – dla głównych właściwości użytkowych (przepuszczalność powietrza, wodoszczelność, odporność na wiatr itp.): badania ITT przeprowadza **notyfikowane laboratorium badawcze**; FPC prowadzi producent
+- **System 3** – dla głównych właściwości użytkowych (przepuszczalność powietrza, wodoszczelność, odporność na wiatr itp.): badania ITT przeprowadza **notyfikowane laboratorium techniczne (NTL)**; FPC prowadzi producent
 - **System 4** – dla niektórych właściwości deklarowanych dobrowolnie: samodeklaracja producenta
 - Brak certyfikatu FPC od jednostki zewnętrznej (dla systemu 3 i 4)
 
@@ -59,7 +59,7 @@ Na podstawie raportu ITT producent opracowuje DoP&C dla każdego wyrobu lub grup
 
 ### Krok 5: Oznakowanie CE
 
-Naniesienie oznakowania CE wraz z numerem jednostki notyfikowanej (w formacie: CE + rok + numer NB).
+Naniesienie oznakowania CE wraz z numerem jednostki notyfikowanej (w formacie: CE + rok + numer JN).
 
 ## Zasada kaskadowania wyników
 

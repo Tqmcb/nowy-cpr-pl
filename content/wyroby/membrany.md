@@ -35,7 +35,7 @@ Rodzina obejmuje: elastyczne membrany dachowe bitumiczne (APP i SBS) oraz polime
 
 Membrany hydroizolacyjne podlegają systemowi AVS 3 lub AVS 4, w zależności od wymagań konkretnej normy zharmonizowanej i zamierzonego zastosowania:
 
-**System AVS 3** stosuje się dla membran dachowych (EN 13956), membran fundamentowych (EN 13967, EN 13969) oraz membran do obiektów inżynierskich (EN 14695, EN 13491), gdy przepisy krajowe lub normy wyrobu wskazują na wyższe wymagania – np. gdy wyrób jest przeznaczony do zastosowania w budynkach użyteczności publicznej lub obiektach, których awaria mogłaby powodować poważne konsekwencje. W systemie AVS 3 jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania (nie certyfikat). Producent samodzielnie prowadzi FPC i wystawia DoP&C.
+**System AVS 3** stosuje się dla membran dachowych (EN 13956), membran fundamentowych (EN 13967, EN 13969) oraz membran do obiektów inżynierskich (EN 14695, EN 13491), gdy przepisy krajowe lub normy wyrobu wskazują na wyższe wymagania – np. gdy wyrób jest przeznaczony do zastosowania w budynkach użyteczności publicznej lub obiektach, których awaria mogłaby powodować poważne konsekwencje. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 4** jest najmniej restrykcyjny i dotyczy membran do mniej krytycznych zastosowań (np. paroizolacje wewnętrzne EN 13984, folie wstępnego krycia EN 13859). Producent samodzielnie deklaruje wszystkie właściwości i prowadzi FPC bez zaangażowania jednostki notyfikowanej. Wyłącznie sam przeprowadza badania ITT.
 
@@ -61,7 +61,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 **Właściwości środowiskowe – nowe pola deklaracji**: CPR 2024 wymaga, aby w DoP&C pojawiły się pola dla właściwości środowiskowych. Dla membran kluczowe są: zawartość surowców z recyklingu (regranulet PVC, recyklingowany bitum – tzw. granulat asfaltowy RAP), trwałość wyrobu (gwarantowany czas eksploatacji [lata]), dane dotyczące możliwości recyklingu po zakończeniu użytkowania. Od 2027 oczekiwane jest obowiązkowe deklarowanie GWP według EN 15804.
 
-**System 3+ dla EPD**: Producenci membran PVC-P dążący do udziału w przetargach z kryteriami zielonymi (GPP – Green Public Procurement) mogą skorzystać z Systemu 3+ do walidacji swojej Deklaracji Środowiskowej Produktu (EPD). Jednostka notyfikowana waliduje dane środowiskowe i wydaje raport walidacyjny – nie certyfikat. Walidacja wzmacnia pozycję rynkową w zamówieniach publicznych, gdzie GWP staje się kryterium wyboru.
+**System 3+ dla danych środowiskowych**: Producenci membran PVC-P dążący do udziału w przetargach z kryteriami zielonymi (GPP – Green Public Procurement) mogą skorzystać z Systemu 3+ do walidacji danych środowiskowych (wyników LCA). Jednostka notyfikowana waliduje dane środowiskowe i wydaje raport walidacyjny – nie certyfikat. Walidacja wzmacnia pozycję rynkową w zamówieniach publicznych, gdzie GWP staje się kryterium wyboru.
 
 **Zawartość substancji szczególnie niebezpiecznych (SVHC)**: CPR 2024 zaostrza wymagania dotyczące deklarowania substancji z listy REACH SVHC. Dotyczy to szczególnie membran PVC zawierających ftalaninowe plastyfikatory (DEHP, DBP, BBP) – podlegają ograniczeniom, a producenci muszą uwzględnić to w DoP&C oraz dokumentacji technicznej.
 
@@ -78,7 +78,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 ## Przykłady wyrobów
 
-**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. System AVS 3 – producent zleca badanie ITT (wodoszczelność, wytrzymałość na rozciąganie, odporność na uderzenie) w laboratorium takim jak ITCZLin, następnie uzyskuje Raport z Badania od jednostki notyfikowanej i samodzielnie wystawia DoP&C.
+**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. System AVS 3 – producent zleca badanie ITT (wodoszczelność, wytrzymałość na rozciąganie, odporność na uderzenie) w laboratorium takim jak ITCZLin, następnie uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
 
 **Membrana PVC-P do fundamentów**: Folia PVC-P grubości 1,5 mm bez wzmocnienia, przeznaczona do izolacji fundamentów i ścian piwnic w kontakcie z gruntem. EN 13969, system AVS 3. Producent musi deklarować odporność na chemikalia glebowe (kwasy humusowe), wodoszczelność i wytrzymałość mechaniczną.
 

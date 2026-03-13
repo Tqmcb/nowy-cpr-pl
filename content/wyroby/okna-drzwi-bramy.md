@@ -35,9 +35,9 @@ System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcj
 
 **System AVS 1** obowiązuje dla drzwi, okien, bram i żaluzji z charakterystyką odporności ogniowej lub dymoszczelności (norma EN 16034 w połączeniu z EN 14351-1, EN 14351-2 lub EN 13241). W systemie AVS 1 jednostka notyfikowana przeprowadza wstępne badanie ITT, certyfikuje zakładową kontrolę produkcji FPC oraz wydaje certyfikat stałości właściwości użytkowych (CoCP). Nadzór nad FPC jest ciągły (audyty roczne).
 
-**System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 jednostka notyfikowana przeprowadza wyłącznie badanie ITT i wydaje raport z badania. Producent samodzielnie wydaje DoP&C i certyfikuje FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego.
+**System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie wydaje DoP&C i prowadzi FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego; numer JN pojawia się w oznakowaniu CE.
 
-Dla produktów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
+Dla wyrobów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -60,7 +60,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 **Właściwości środowiskowe ram**: CPR 2024 wprowadza obowiązek uwzględnienia właściwości środowiskowych w DoP&C. W kontekście okien i drzwi oznacza to konieczność gromadzenia danych dotyczących: zawartości surowców wtórnych w profilach PVC (rePVC), śladu węglowego profili aluminiowych (aluminium pierwotne vs. wtórne emituje kilkukrotnie mniej CO₂), trwałości drewna (certyfikat FSC/PEFC) oraz możliwości recyklingu po zakończeniu eksploatacji. Od roku 2027 oczekuje się wprowadzenia obowiązkowego deklarowania GWP dla ram okiennych.
 
-**System 3+ dla EPD**: Producenci, którzy chcą walidować swoje Deklaracje Środowiskowe Produktu (EPD) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja EPD przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
+**System 3+ dla danych środowiskowych**: Producenci, którzy chcą zwalidować dane środowiskowe (wyniki LCA) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja danych środowiskowych przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
 
 **Paszport cyfrowy wyrobu**: Każde okno i drzwi będzie musiało posiadać cyfrowy paszport wyrobu (DPP) dostępny przez kod QR lub podobny identyfikator. DPP zawiera m.in.: DoP&C, dane o składzie materiałowym, instrukcję montażu i demontażu, dane środowiskowe.
 

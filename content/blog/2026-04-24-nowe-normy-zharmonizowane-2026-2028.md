@@ -15,9 +15,9 @@ Normy zharmonizowane dla wyrobów budowlanych (normy EN wydawane przez CEN — E
 
 Uchwalenie CPR 2024/3110 uruchomiło bardzo intensywny cykl przeglądów i aktualizacji, ponieważ nowe rozporządzenie wprowadza wymagania, których stare normy (pisane pod CPR 305/2011) nie obejmują. Kluczowe nowe wymogi CPR 2024, które wymagają dostosowania norm zharmonizowanych, to:
 
-- **Obowiązek deklarowania wskaźnika GWP** (potencjał globalnego ocieplenia) dla określonych grup wyrobów.
-- **Zaktualizowana metodologia LCA** (ocena cyklu życia) zgodna z normą EN 15804+A2.
-- **Wzmocnione wymagania dotyczące SVHC** (substancji wzbudzających szczególnie duże obawy) i składu chemicznego.
+- **Obowiązek deklarowania śladu węglowego (GWP — Global Warming Potential)** — potencjału globalnego ocieplenia — dla określonych grup wyrobów.
+- **Zaktualizowana metodologia analizy cyklu życia (LCA — Life Cycle Assessment)** zgodna z normą EN 15804+A2.
+- **Wzmocnione wymagania dotyczące substancji niebezpiecznych (SVHC — Substances of Very High Concern)** i składu chemicznego.
 - **Nowe wymagania dotyczące identyfikowalności** i oznakowania wyrobów w łańcuchu dostaw.
 - **Rozszerzone wymagania środowiskowe** dla wyrobów o istotnym śladzie węglowym.
 
@@ -55,10 +55,10 @@ Jest to jedna z najważniejszych rodzin norm dla producentów wyrobów budowlany
 - EN 13170 — wyroby z ekspandowanego korka (ICB),
 - EN 13171 — wyroby z włókien drewnianych (WF).
 
-**Oczekiwana zmiana:** Komisja Europejska zleciła CEN opracowanie wersji zaktualizowanych, które będą uwzględniały obowiązkową deklarację wskaźnika **GWP-total w zakresie A1–A3** (etap produkcji, zgodnie z EN 15804+A2). Zgodnie z planem prac KE COM(2025) 772, planowane publikacje w OJEU to lata 2027–2029, z okresem koegzystencji wynoszącym 24 miesiące.
+**Oczekiwana zmiana:** Komisja Europejska zleciła CEN opracowanie wersji zaktualizowanych, które będą uwzględniały obowiązkową deklarację **śladu węglowego (GWP-total — potencjał globalnego ocieplenia) w zakresie A1–A3** (etap produkcji, zgodnie z EN 15804+A2). Zgodnie z planem prac KE COM(2025) 772, planowane publikacje w OJEU to lata 2027–2029, z okresem koegzystencji wynoszącym 24 miesiące.
 
 **Co to znaczy dla producenta wyrobów izolacyjnych?**
-Będzie konieczne przeprowadzenie lub zlecenie badania EPD (Environmental Product Declaration) zgodnego z EN 15804+A2, aby uzyskać wartość GWP-total. Koszty badania EPD wahają się zazwyczaj od 10 000 do 30 000 PLN w zależności od złożoności wyrobu i zakresu analizy LCA.
+Będzie konieczne przeprowadzenie **analizy cyklu życia (LCA)** zgodnej z EN 15804+A2, aby obliczyć wartość śladu węglowego (GWP-total). Wyniki mogą być udokumentowane w formie EPD (Deklaracji Środowiskowej Wyrobu) — dokumentu dobrowolnego, ale ułatwiającego spełnienie wymogów. Koszty analizy LCA i sporządzenia EPD wahają się zazwyczaj od 10 000 do 30 000 PLN w zależności od złożoności wyrobu.
 
 ---
 
@@ -78,7 +78,7 @@ Norma EN 14351-1 obejmuje okna i drzwi zewnętrzne (z wyjątkiem drzwi przeciwpo
 
 ### 3. Aktualizacje norm zgodnych z EN 15804 — wyroby deklarujące EPD
 
-EN 15804+A2 (Normy wyrobu dla deklaracji środowiskowych w budownictwie — EPD) jest kluczową normą horyzontalną dla całego systemu deklaracji środowiskowych w branży budowlanej. Jej wdrożenie wpływa na dziesiątki norm wyrobowych, które będą musiały odwołać się do zaktualizowanej metodologii LCA.
+EN 15804+A2 (norma określająca zasady sporządzania Deklaracji Środowiskowych Wyrobu — EPD — w budownictwie) jest kluczową normą horyzontalną dla całego systemu deklaracji środowiskowych w branży budowlanej. Jej wdrożenie wpływa na dziesiątki norm wyrobowych, które będą musiały odwołać się do zaktualizowanej metodologii analizy cyklu życia (LCA).
 
 Dotyczy to w szczególności:
 - EN 197 (cementy),
@@ -87,7 +87,7 @@ Dotyczy to w szczególności:
 - EN 14041 (podłogi),
 - EN 13813 (podkłady podłogowe).
 
-**Oczekiwane zmiany:** Aktualizacje tych norm będą wymagać od producentów opracowania lub aktualizacji EPD zgodnych z EN 15804+A2, co z kolei wymaga danych ze zweryfikowanych baz inwentaryzacyjnych (np. Ecoinvent).
+**Oczekiwane zmiany:** Aktualizacje tych norm będą wymagać od producentów obliczenia właściwości środowiskowych (przede wszystkim śladu węglowego) metodą LCA zgodną z EN 15804+A2, co z kolei wymaga danych ze zweryfikowanych baz inwentaryzacyjnych (np. Ecoinvent). Wyniki mogą być udokumentowane w formie EPD (Deklaracji Środowiskowej Wyrobu).
 
 ---
 
@@ -130,13 +130,13 @@ Stowarzyszenia producentów branżowych (np. Stowarzyszenie Producentów Wełny 
 Producenci wyrobów, których normy zharmonizowane będą aktualizowane w perspektywie 2026–2028, powinni podjąć następujące działania:
 
 1. **Zidentyfikować normy, które ich dotyczą** — sprawdzić, czy norma stosowana do ich wyrobu widnieje w planie prac CEN na lata 2026–2028.
-2. **Ocenić konieczność badań EPD** — dla wyrobów izolacyjnych i innych objętych wymogiem GWP warto już teraz zebrać dane do LCA.
+2. **Ocenić konieczność obliczeń śladu węglowego** — dla wyrobów izolacyjnych i innych objętych przyszłym wymogiem GWP warto już teraz zebrać dane do analizy cyklu życia (LCA).
 3. **Zaplanować budżet** — aktualizacja certyfikacji po wejściu nowej normy wiąże się z kosztami uzupełniających badań ITT oraz opłatami za audyt JN.
-4. **Poinformować wewnętrzny zespół R&D i produkcji** — zmiany w normie mogą wymagać modyfikacji produktu lub procesu produkcji.
+4. **Poinformować wewnętrzny zespół R&D i produkcji** — zmiany w normie mogą wymagać modyfikacji wyrobu lub procesu produkcji.
 5. **Negocjować z JN warunki bieżącej umowy** — wiele umów z JN przewiduje koszty ponownej certyfikacji po zmianie normy; warto wynegocjować korzystne stawki z wyprzedzeniem.
 
 ---
 
 ## Podsumowanie
 
-Lata 2026–2028 będą dla sektora wyrobów budowlanych w UE okresem intensywnych zmian normatywnych, napędzanych wdrożeniem CPR 2024/3110. Największe zmiany dotkną producentów wyrobów izolacyjnych (nowe wymogi GWP), stolarki okiennej i drzwiowej (aktualizacja EN 14351-1) oraz wszystkich wyrobów, dla których opracowywane są EPD zgodne z EN 15804+A2. Kluczem do sprawnego przejścia przez ten okres jest wczesne monitorowanie stanu prac normalizacyjnych, planowanie budżetu na recertyfikację i aktywne uczestnictwo w pracach branżowych organizacji normalizacyjnych.
+Lata 2026–2028 będą dla sektora wyrobów budowlanych w UE okresem intensywnych zmian normatywnych, napędzanych wdrożeniem CPR 2024/3110. Największe zmiany dotkną producentów wyrobów izolacyjnych (nowe wymogi deklarowania śladu węglowego — GWP), stolarki okiennej i drzwiowej (aktualizacja EN 14351-1) oraz wszystkich wyrobów, dla których wymagane będzie obliczenie właściwości środowiskowych zgodnie z EN 15804+A2. Kluczem do sprawnego przejścia przez ten okres jest wczesne monitorowanie stanu prac normalizacyjnych, planowanie budżetu na recertyfikację i aktywne uczestnictwo w pracach branżowych organizacji normalizacyjnych.

@@ -38,9 +38,9 @@ Wyróżniające cechy rodziny 19 z perspektywy CPR 2024/3110:
 
 Dla wyrobów z rodziny 19 obowiązuje:
 
-- **System AVS 3** – dla podłóg stosowanych w obiektach użyteczności publicznej, gdzie wymagania bezpieczeństwa pożarowego i antypoślizgowości są krytyczne. Jednostka notyfikowana przeprowadza badania wstępne (ITT), producent prowadzi ZKP.
+- **System AVS 3** – dla podłóg stosowanych w obiektach użyteczności publicznej, gdzie wymagania bezpieczeństwa pożarowego i antypoślizgowości są krytyczne. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
 
 Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 
@@ -86,7 +86,7 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 2. **Klasa E0 oficjalnie uznana** – obok E1 i E2.
 3. **Obowiązkowe deklarowanie GWP** – nowe dla całej rodziny.
 4. **Substancje SVHC** – producenci LVT (PVC) muszą sprawdzić i zadeklarować brak ftalanów DEHP, DBP, DIBP i BBP (wpisanych na listę SVHC REACH).
-5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia produktu.
+5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia wyrobu.
 
 ## Harmonogram wdrożenia
 
@@ -105,7 +105,7 @@ Producent paneli laminowanych klasy AC4 (biura, sklepy) wprowadza je na rynek zg
 1. Badania ITT wg EN 13329 i EN 14041: ścieralność (klasa AC4), odporność na uderzenie, grubość spęcznienia po zamoczeniu, szczelność połączeń
 2. Pomiar emisji formaldehydu wg EN 717-1: wynik E1 (0,05 mg/m² h)
 3. Pomiar TVOC wg EN ISO 16000-6: TVOC po 28 dniach = 0,08 mg/m³ (poniżej progu AgBB)
-4. System AVS 3 – badania ITT przez NB ([ITCZLin](https://www.itczlin.pl)), ZKP u producenta
+4. System AVS 3 – badania ITT przez NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
 5. DoP&C: klasa AC4, klasa Dfl-s1, E1, TVOC 0,08 mg/m³, GWP -0,3 kg CO2eq/kg (ujemny – sekwestracja węgla w drewnie rdzennym)
 
 **Przykład: Producent LVT (Luxury Vinyl Tile)**

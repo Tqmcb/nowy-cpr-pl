@@ -45,9 +45,9 @@ Rodzina 30 obejmuje następujące kategorie wyrobów szklanych:
 Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
-- **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: jednostka notyfikowana wykonuje wstępne badanie typu (ITT) i wystawia raport badań. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** na podstawie wyników ITT.
+- **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy produktu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
+**System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -81,7 +81,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 1. **Obowiązkowa deklaracja GWP** – po raz pierwszy w CPR szkło musi być ocenione pod kątem śladu węglowego (producent może to robić dobrowolnie lub w systemie 3+).
 2. **Rozszerzone wymagania dla szyb zespolonych** – EN 1279 z 2018 r. zaostrzyła wymagania trwałościowe (argon retention test), które teraz są egzekwowane przez rynek poprzez CPR 2024.
 3. **Koordynacja z EPBD** – CPR 2024 lepiej integruje wymagania szklane z Dyrektywą o charakterystyce energetycznej budynków, wskazując wartości graniczne Ug jako parametry projektowe wyrobu.
-4. **System 3+ dla EPD** – walidacja deklaracji środowiskowych przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
 
 ## Harmonogram wdrożenia
 

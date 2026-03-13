@@ -61,7 +61,7 @@ Wyroby o umiarkowanym znaczeniu dla bezpieczeństwa lub specyficznych wymaganiac
 
 **Kto uczestniczy:**
 - Producent: ITT + FPC + badania próbek z rynku
-- Jednostka notyfikowana: walidacja lub weryfikacja właściwości środowiskowych (EPD, GWP)
+- Jednostka notyfikowana: walidacja danych środowiskowych (wyników LCA, w tym GWP)
 
 **Kiedy stosowany:**
 System specyficzny dla CPR 2024 — dotyczy wyrobów, dla których deklarowane są właściwości środowiskowe (np. GWP, zawartość substancji niebezpiecznych). JN nie certyfikuje mechanicznych właściwości użytkowych, lecz weryfikuje dane środowiskowe.

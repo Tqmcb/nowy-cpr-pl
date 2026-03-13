@@ -1,7 +1,7 @@
 ---
 title: "CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych"
 date: "2026-03-05"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["CPCR", "LCA", "EPD", "EN 15804", "CPR 2024", "PCR", "obliczenia środowiskowe"]
 excerpt: "CPCR (Complementary Product Category Rules) to zestaw wymagań normatywnych uzupełniających EN 15804+A2, które precyzują zasady obliczania LCA dla konkretnych grup wyrobów budowlanych. Wyjaśniamy, czym są, jak działają i dlaczego stają się kluczowe pod CPR 2024/3110."
@@ -11,7 +11,7 @@ template: "techniczny"
 
 # CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych
 
-CPR 2024/3110 przewiduje, że deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym wskaźnika GWP (Global Warming Potential) — stanie się obowiązkiem. Obowiązek aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (zazwyczaj 12–36 miesięcy) następującego po publikacji nowej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE — na marzec 2026 żadna taka norma nie została jeszcze opublikowana. Kluczowym narzędziem do spełnienia tego wymogu jest Deklaracja Środowiskowa Produktu (EPD), która musi być oparta na rzetelnie przeprowadzonej analizie LCA (Life Cycle Assessment). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules**.
+CPR 2024/3110 przewiduje, że deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym **śladu węglowego (GWP — Global Warming Potential)** — stanie się obowiązkiem. Obowiązek aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (zazwyczaj 12–36 miesięcy) następującego po publikacji nowej normy zharmonizowanej (hTS — harmonized Technical Specification) w Dzienniku Urzędowym UE — na marzec 2026 żadna taka norma nie została jeszcze opublikowana. Kluczowym narzędziem do obliczenia tych danych jest **analiza cyklu życia (LCA — Life Cycle Assessment)**, której wyniki mogą być udokumentowane w formie Deklaracji Środowiskowej Wyrobu (EPD — Environmental Product Declaration). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules** (uzupełniających zasad kategorii wyrobu).
 
 ## Czym są CPCR?
 
@@ -58,7 +58,7 @@ CPCR określa, które moduły są **obowiązkowe (M)**, **opcjonalne (O)** lub *
 
 ### 4. Scenariusze końca życia (End-of-life scenarios)
 
-To jeden z kluczowych elementów CPCR. Dla wyrobów budowlanych często nieoczywiste jest, co dzieje się z produktem po rozbiórce budynku. CPCR precyzuje domyślne scenariusze — np.:
+To jeden z kluczowych elementów CPCR. Dla wyrobów budowlanych często nieoczywiste jest, co dzieje się z wyrobem po rozbiórce budynku. CPCR precyzuje domyślne scenariusze — np.:
 - dla stali: wskaźnik recyklingu na poziomie europejskiej średniej sektorowej
 - dla drewna: udział spalania energetycznego vs. składowania
 - dla betonu: crushing i re-użycie kruszywa
@@ -85,18 +85,18 @@ Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do d
 **EPD oparta na CPCR** jest uznawana jako referencyjny dokument do wykazania tej właściwości. Bez prawidłowego CPCR:
 - EPD może zostać odrzucona przez weryfikatora
 - Deklaracja GWP może być kwestionowana przez organy nadzoru rynku (GUNB)
-- Produkt może nie spełnić wymogów przetargów publicznych (GPP — Green Public Procurement)
+- Wyrób może nie spełnić wymogów przetargów publicznych (GPP — Green Public Procurement)
 
 ## CPCR a system AVS 3+
 
-CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (nowy system w CPR 2024, nieistniejący w starym AVCP), przeznaczony wyłącznie do **walidacji danych środowiskowych LCA i EPD** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
+CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (nowy system w CPR 2024, nieistniejący w starym AVCP), przeznaczony wyłącznie do **walidacji danych środowiskowych (wyników obliczeń LCA)** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
 
-1. Producent zleca wykonanie LCA i EPD akredytowanemu weryfikatorowi
-2. Weryfikator sprawdza zgodność z EN 15804+A2 **i** właściwym CPCR
-3. Jednostka notyfikowana (np. Multicert) waliduje wynik i potwierdza EPD
-4. EPD uzyskuje status dokumentu weryfikowanego zewnętrznie — wymagany przez rynek
+1. Producent zleca wykonanie analizy cyklu życia (LCA) akredytowanemu podmiotowi
+2. Weryfikator sprawdza zgodność obliczeń z EN 15804+A2 **i** właściwym CPCR
+3. Jednostka notyfikowana waliduje wyniki i wydaje **raport walidacyjny** (nie certyfikat wyrobu)
+4. Producent wpisuje zwalidowane dane środowiskowe do DoP&C; opcjonalnie publikuje EPD
 
-Brak zgodności z CPCR jest jedną z najczęstszych przyczyn odrzucenia EPD na etapie weryfikacji.
+Brak zgodności z CPCR jest jedną z najczęstszych przyczyn odrzucenia danych środowiskowych na etapie walidacji.
 
 ## Gdzie znaleźć właściwy CPCR?
 

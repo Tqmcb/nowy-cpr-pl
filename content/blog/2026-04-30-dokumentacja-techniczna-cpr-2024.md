@@ -51,7 +51,7 @@ Dokumentacja techniczna to zbiór dokumentów potwierdzających, że wyrób budo
 
 ### Część 5: Dokumenty środowiskowe (dla systemów z 3+)
 
-- **Deklaracja Środowiskowa Produktu (EPD)** — jeśli wymagana lub deklarowana
+- **Deklaracja Środowiskowa Wyrobu (EPD)** — jeśli wymagana lub deklarowana
 - **Dane wejściowe do EPD** (LCA data)
 - **Dokumenty walidacji przez JN** (w przypadku AVS 3+)
 

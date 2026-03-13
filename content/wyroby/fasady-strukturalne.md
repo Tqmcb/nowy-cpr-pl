@@ -59,7 +59,7 @@ Dla systemów SSG (EN 15434) kluczowe są dodatkowo: wytrzymałość spoiny sili
 
 Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdzeniem PE (zakazanym przez wiele przepisów budowlanych po Grenfell) przejście na rdzeń mineralny (FR – fire rated) wiąże się z nieco wyższym GWP, ale drastycznie lepszą klasą ogniową.
 
-**System 3+ dla EPD fasad**: Producenci systemów fasadowych stosowanych w budynkach BREEAM lub LEED mogą walidować EPD przez System 3+. Certyfikowane EPD są wymagane przez coraz więcej systemów oceny zrównoważonego budownictwa na poziomie wyróżnienia.
+**System 3+ — walidacja danych środowiskowych fasad**: Producenci systemów fasadowych stosowanych w budynkach BREEAM lub LEED mogą zwalidować dane środowiskowe (wyniki LCA) przez System 3+. Zwalidowane dane środowiskowe w EPD są wymagane przez coraz więcej systemów oceny zrównoważonego budownictwa na poziomie wyróżnienia.
 
 **Pożar fasadowy a CPR 2024**: Pożary fasadowe (Grenfell Tower 2017, Rydzyna 2006) spowodowały zaostrzenie wymagań dotyczących reakcji na ogień zewnętrznych okładzin. CPR 2024 wzmacnia wymagania dotyczące FIGRA (Fire Growth Rate Index) i deklarowania klasy Euroklassyfikacji dla cyklu zewnętrznego (EN 13501-1, metoda SBI i IN300).
 
@@ -75,7 +75,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 ## Przykłady wyrobów
 
-**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVS 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje raport ITT od NB i wystawia DoP&C.
+**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVS 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
 
 **Elewacja wentylowana z płytami HPL/ceramicznymi**: Podkonstrukcja aluminiowa z okładzinami z płyt HPL (High Pressure Laminate) lub dużoformatowej ceramiki, z pustką wentylacyjną 40 mm. Klasa ogniowa okładziny: A2-s1,d0 (ceramika) lub B-s2,d0 (HPL klasy ogniowej). ETA lub EN 13830 + dokumentacja szczegółowa. System AVS 3.
 
@@ -86,7 +86,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 - [ ] Określić zastosowaną normę zharmonizowaną (EN 13830) lub podstawę ETA dla systemu fasadowego
 - [ ] Ustalić pełny zestaw właściwości do deklarowania (przepuszczalność, wodoszczelność, wiatr, ciepło, hałas, ogień)
 - [ ] Przeprowadzić ITT w akredytowanej komorze badawczej ([ITCZLin](https://www.itczlin.pl) lub laboratorium zagraniczne)
-- [ ] Uzyskać raport ITT od jednostki notyfikowanej (AVS 3: [Multicert](https://www.multicert.pl))
+- [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVS 3: [Multicert](https://www.multicert.pl))
 - [ ] Sporządzić DoP&C z możliwością konfiguracji dla projektów indywidualnych (warianty szybowania, izolacji)
 - [ ] Sprawdzić klasę ogniową okładzin – zaktualizować badania i dokumentację dla okładzin ACM (rdzeń PE vs. FR)
 - [ ] Zebrać dane środowiskowe o zawartości aluminium z recyklingu w profilach od dostawców

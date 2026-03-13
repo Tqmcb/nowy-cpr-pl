@@ -48,7 +48,7 @@ Dla rodziny 31 obowiązuje wyłącznie **system AVS 3**:
 
 Brak tutaj systemu AVS 1 lub 2+ – wszystkie kable budowlane objęte są systemem 3. Oznacza to, że jednostka notyfikowana **nie certyfikuje wyrobu końcowego**, a jedynie przeprowadza badania wstępne. Nadzór nad ciągłością właściwości leży po stronie producenta i jego ZKP.
 
-**System 3+** – nowy w CPR 2024 – dla walidacji środowiskowej EPD. Dotyczy kabli z tworzyw sztucznych (PVC, XLPE, LSZH), gdzie produkcja jest materiałochłonna i energochłonna.
+**System 3+** – nowy w CPR 2024 – dla walidacji danych środowiskowych (wyników LCA). Dotyczy kabli z tworzyw sztucznych (PVC, XLPE, LSZH), gdzie produkcja jest materiałochłonna i energochłonna.
 
 ## Kluczowe wymagania CPR 2024
 

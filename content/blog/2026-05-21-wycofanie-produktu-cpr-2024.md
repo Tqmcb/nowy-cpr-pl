@@ -3,7 +3,7 @@ title: "Wycofanie wyrobu budowlanego z rynku — procedura, RAPEX i środki napr
 date: "2026-05-21"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
-tags: ["wycofanie produktu", "RAPEX", "GUNB", "środki naprawcze", "CPR 2024", "nadzór rynku", "producent"]
+tags: ["wycofanie wyrobu", "RAPEX", "GUNB", "środki naprawcze", "CPR 2024", "nadzór rynku", "producent"]
 excerpt: "GUNB może nakazać wycofanie niezgodnego wyrobu budowlanego z rynku. Poznaj etapy postępowania, system RAPEX i prawa producenta. Dowiedz się, jak się przygotować i co robić gdy otrzymasz decyzję."
 image_url: /images/blog/wycofanie-produktu-cpr-2024.jpg
 template: "praktyczny"
@@ -96,7 +96,7 @@ GUNB ma obowiązek zgłoszenia do RAPEX gdy:
 
 ### Jak sprawdzić alerty RAPEX?
 
-Baza alertów dostępna jest na stronie **ec.europa.eu/safety-gate-alerts**. Producenci powinni regularnie monitorować bazę w zakresie swoich produktów i kategorii.
+Baza alertów dostępna jest na stronie **ec.europa.eu/safety-gate-alerts**. Producenci powinni regularnie monitorować bazę w zakresie swoich wyrobów i kategorii.
 
 ## Prawo do obrony producenta
 

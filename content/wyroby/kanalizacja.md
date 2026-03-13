@@ -38,9 +38,9 @@ CPR 2024/3110 kładzie w tej rodzinie szczególny nacisk na dwa wymagania podsta
 
 Wyroby z rodziny 18 stosują:
 
-- **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Jednostka notyfikowana przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. NB wydaje raport z badań ITT, nie certyfikuje ZKP.
+- **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
-- **System AVS 3+** – walidacja EPD dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 
 Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl).
 
@@ -89,7 +89,7 @@ Tworzywa sztuczne charakteryzują się znacznym GWP (~1,5–3,0 kg CO2eq/kg dla 
 
 Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z palisadą zewnętrznie) z PP do kanalizacji deszczowej w pasach drogowych:
 1. Badania ITT wg EN 13476-3: sztywność obwodowa SN8, szczelność połączeń (test B), udarność, wymiary
-2. System AVS 3 – NB ([ITCZLin](https://www.itczlin.pl)) przeprowadza ITT, producent prowadzi ZKP
+2. System AVS 3 – NTL ([ITCZLin](https://www.itczlin.pl)) przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 3. Badanie składu chemicznego – brak plastyfikatorów ftalanowych, brak metali ciężkich
 4. Opracowanie EPD z uwzględnieniem udziału recyklatu PP (25% recyklat post-produkcyjny)
 5. DoP&C: SN 8, klasa pierścieniowa, szczelność typ B, GWP 2,1 kg CO2eq/kg
@@ -99,7 +99,7 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 - [ ] Identyfikacja właściwej normy (EN 1401-1, EN 1329-1, EN 1453-1, EN 13476 seria, EN 1519-1, EN 1852-1)
 - [ ] Ustalenie systemu AVS (3 dla kanalizacji zewnętrznej/nośnej, 4 dla pomocniczej)
 - [ ] Przeprowadzenie badań ITT (sztywność, szczelność, odporność chemiczna, wymiary)
-- [ ] Skontaktowanie się z NB ([ITCZLin](https://www.itczlin.pl)) w celu przeprowadzenia ITT (System AVS 3)
+- [ ] Skontaktowanie się z NTL ([ITCZLin](https://www.itczlin.pl)) w celu przeprowadzenia ITT i z JN w celu uzyskania certyfikatu (System AVS 3)
 - [ ] Wdrożenie ZKP z kontrolą każdej partii produkcyjnej
 - [ ] Sprawdzenie składu chemicznego surowców pod kątem REACH i RoHS
 - [ ] Wystawienie DoP&C z deklaracją SN, szczelności, klasy materiału

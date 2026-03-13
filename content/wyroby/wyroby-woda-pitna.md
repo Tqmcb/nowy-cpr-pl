@@ -43,9 +43,9 @@ Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału 
 Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **systemem AVS 1** – najwyższym poziomem nadzoru nad stałością właściwości użytkowych:
 
 - **System AVS 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Producent może wystawić **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** dopiero po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
-- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): jednostka notyfikowana wykonuje wyłącznie ITT; producent samodzielnie certyfikuje ZKP i wystawia DoP&C.
+- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP i wystawia DoP&C.
 
-**System 3+** – walidacja środowiskowych EPD; istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
+**System 3+** – walidacja danych środowiskowych (wyników LCA); istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
 
 Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higienicznych** – właściwości migracyjnych materiałów (uwalnianie metali ciężkich, substancji organicznych, zapachu i smaku). Do 2026 roku obowiązywały w Europie cztery rozbieżne systemy krajowe: **system 4MS** (Francja, Niemcy, Holandia i Wielka Brytania – po Brexicie bez UK), **KIWA** (Holandia), **DVGW** (Niemcy) i **ACS** (Francja). CPR 2024 tworzy jednolite europejskie wymagania higieniczne, eliminując bariery techniczne wynikające z rozbieżności systemów krajowych.
 

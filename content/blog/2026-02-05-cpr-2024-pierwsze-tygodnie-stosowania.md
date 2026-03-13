@@ -28,11 +28,11 @@ W dokumentach technicznych i etykietach CE stosowanych do nowych wyrobów należ
 | AVCP | AVS |
 | DoP | DoP&C |
 | System oceny 1, 2+, 3, 4 | System AVS 1+, 1, 2+, 3+, 3, 4 |
-| Jednostka notyfikowana (NB) | Jednostka notyfikowana (NB) — bez zmian |
+| Jednostka notyfikowana (JN) | Jednostka notyfikowana (JN) — bez zmian |
 
 ### Nowy system 3+ — realna nowość
 
-System AVS 3+ jest zupełnie nowy — wcześniej nie istniał w CPR 305/2011. Dotyczy walidacji EPD (Environmental Product Declaration) i oceny środowiskowej wyrobów. Producenci, którzy chcą deklarować wskaźniki środowiskowe (GWP, ODP, AP itp.) w swoim DoP&C, muszą skorzystać z walidacji przez jednostkę notyfikowaną działającą w systemie 3+.
+System AVS 3+ jest zupełnie nowy — wcześniej nie istniał w CPR 305/2011. Dotyczy **walidacji danych środowiskowych** — wyników analizy cyklu życia (LCA), w tym śladu węglowego (GWP) i innych wskaźników. Producenci, którzy chcą deklarować właściwości środowiskowe w swoim DoP&C, mogą skorzystać z walidacji przez jednostkę notyfikowaną działającą w systemie 3+. Uwaga: System 3+ waliduje dane środowiskowe, nie sam dokument EPD (Deklaracji Środowiskowej Wyrobu) — EPD pozostaje dobrowolna.
 
 ## Co jeszcze NIE jest obowiązkowe od 8 stycznia 2026?
 

@@ -37,7 +37,7 @@ Dystrybutor jest zobowiązany sprawdzić, czy wyrób **posiada oznakowanie CE** 
 - Rok nawieszenia oznakowania
 - Numer DoP&C lub QR kod do Digital DoP&C
 
-### 2. Dostępność Deklaracji Właściwości i Zgodności (DoP&C)
+### 2. Dostępność Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)
 
 Przed dystrybucją dystrybutor weryfikuje, czy:
 - DoP&C jest dostępna online lub dołączona do wyrobu
@@ -121,4 +121,4 @@ Przed każdą partią wyrobów budowlanych sprawdź:
 
 ---
 
-*Masz wątpliwości co do zgodności wyrobów, które dystrybuujesz? Multicert oferuje audyty łańcucha dostaw dla dystrybutorów. Kontakt: biuro@multicert.pl*
+*Masz wątpliwości co do zgodności wyrobów, które dystrybujesz? Multicert oferuje audyty łańcucha dostaw dla dystrybutorów. Kontakt: biuro@multicert.pl*

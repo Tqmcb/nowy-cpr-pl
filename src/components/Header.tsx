@@ -10,7 +10,11 @@ import {
   Home,
   Building2,
   Briefcase,
-  Newspaper
+  Newspaper,
+  Calendar,
+  HelpCircle,
+  Compass,
+  Stamp,
 } from "lucide-react";
 
 export function Header() {
@@ -77,6 +81,22 @@ export function Header() {
               <Briefcase className="w-4 h-4" />
               Usługi
             </NavLink>
+            <NavLink to="/harmonogram" className={navLinkClass}>
+              <Calendar className="w-4 h-4" />
+              Harmonogram
+            </NavLink>
+            <NavLink to="/faq" className={navLinkClass}>
+              <HelpCircle className="w-4 h-4" />
+              FAQ
+            </NavLink>
+            <NavLink to="/sciezka-ce" className={navLinkClass}>
+              <Compass className="w-4 h-4" />
+              Ścieżka CE
+            </NavLink>
+            <NavLink to="/generator-ce" className={navLinkClass}>
+              <Stamp className="w-4 h-4" />
+              Generator CE
+            </NavLink>
             <NavLink to="/blog" className={navLinkClass}>
               <Newspaper className="w-4 h-4" />
               Aktualności
@@ -112,6 +132,10 @@ export function Header() {
               { path: "/wyroby", label: "Katalog wyrobów", icon: Building2 },
               { path: "/documents", label: "Wzory", icon: FileText },
               { path: "/services", label: "Usługi", icon: Briefcase },
+              { path: "/harmonogram", label: "Harmonogram", icon: Calendar },
+              { path: "/faq", label: "FAQ", icon: HelpCircle },
+              { path: "/sciezka-ce", label: "Ścieżka CE", icon: Compass },
+              { path: "/generator-ce", label: "Generator CE", icon: Stamp },
               { path: "/blog", label: "Aktualności", icon: Newspaper }
             ].map((item, index) => (
               <NavLink

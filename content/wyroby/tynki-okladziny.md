@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 21 w Załączniku VII CPR 2024/3110 obejmuje wykończenia wewnętrznych i zewnętrznych powierzchni ścian i sufitów oraz zestawy ścianek działowych. Jest to rodzina obejmująca ogromną różnorodność produktów: od tradycyjnych tynków cementowo-wapiennych przez nowoczesne tynki silikonowe i silikatowe, po systemy suchej zabudowy z płyt gipsowo-kartonowych (GK) i gipsowo-włóknowych (GF).
+Rodzina 21 w Załączniku VII CPR 2024/3110 obejmuje wykończenia wewnętrznych i zewnętrznych powierzchni ścian i sufitów oraz zestawy ścianek działowych. Jest to rodzina obejmująca ogromną różnorodność wyrobów: od tradycyjnych tynków cementowo-wapiennych przez nowoczesne tynki silikonowe i silikatowe, po systemy suchej zabudowy z płyt gipsowo-kartonowych (GK) i gipsowo-włóknowych (GF).
 
 Z perspektywy CPR 2024/3110 rodzina 21 jest szczególnie istotna ze względu na wymaganie podstawowe nr 3 (Higiena, zdrowie i środowisko), gdyż tynki i okładziny wewnętrzne są w bezpośrednim kontakcie z powietrzem w pomieszczeniach i mogą być źródłem emisji VOC. Nowe rozporządzenie formalizuje obowiązek deklarowania emisji dla wyrobów do zastosowań wewnętrznych.
 
@@ -38,9 +38,9 @@ Rodzina 21 obejmuje również **systemy ETICS** (ang. External Thermal Insulatio
 
 Dla wyrobów z rodziny 21 obowiązuje:
 
-- **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Jednostka notyfikowana przeprowadza badania ITT (w tym badania ogniowe).
+- **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników środowiskowych.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników środowiskowych.
 
 Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 
@@ -114,7 +114,7 @@ Producent tynku silikonowego ziarnistego (baranek 1,5 mm) przeznaczonego do wyko
 
 Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoinowa):
 1. Badania ogniowe zestawu wg EN 1364-1 w akredytowanym laboratorium – uzyskany wynik EI 60
-2. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
+2. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 3. Klasyfikacja wg EN 13501-2: EI 60
 4. DoP&C dla zestawu: EI 60, odporność akustyczna Rw=45dB, A2-s1,d0
 

@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle } from "lucide-react";
+import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle, Newspaper } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
+import type { BlogPost } from "../utils/blogLoader";
 import { Helmet } from "react-helmet-async";
 
 const WYROB_COMPONENTS: Components = {
@@ -75,6 +76,7 @@ export default function WyrobDetail() {
   const [wyrob, setWyrob] = useState<ProductFamily | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [relatedPosts, setRelatedPosts] = useState<BlogPost[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -102,6 +104,22 @@ export default function WyrobDetail() {
     };
     fetchData();
   }, [slug]);
+
+  // Load related blog posts when wyrob is available
+  useEffect(() => {
+    if (!wyrob) return;
+    const fetchRelated = async () => {
+      try {
+        const { getAllPosts } = await import("../utils/blogLoader");
+        const { findRelatedBlogPosts } = await import("../utils/crossLinkUtils");
+        const allPosts = await getAllPosts();
+        setRelatedPosts(findRelatedBlogPosts(wyrob, allPosts, 3));
+      } catch (err) {
+        console.error("Error loading related posts:", err);
+      }
+    };
+    fetchRelated();
+  }, [wyrob]);
 
   const canonicalUrl = `https://www.nowycpr.pl/wyrob?slug=${wyrob?.slug ?? slug}`;
   const pageTitle = wyrob
@@ -301,6 +319,40 @@ export default function WyrobDetail() {
                   </div>
                 </aside>
               </div>
+
+              {/* Related blog posts */}
+              {relatedPosts.length > 0 && (
+                <section className="mt-12 pt-8 border-t border-white/10">
+                  <h2 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
+                    <Newspaper className="w-5 h-5 text-amber-400" />
+                    Powiązane artykuły
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {relatedPosts.map((post) => (
+                      <Link
+                        key={post.slug}
+                        to={`/blog/${post.slug}`}
+                        className="group bg-slate-800/50 border border-white/10 rounded-xl p-4 hover:border-amber-400/30 hover:bg-slate-800/80 transition-all duration-300"
+                      >
+                        {post.image_url && (
+                          <div className="mb-3 overflow-hidden rounded-lg">
+                            <img
+                              src={post.image_url}
+                              alt={post.title}
+                              className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </div>
+                        )}
+                        <span className="text-xs text-amber-400 font-medium">{post.category}</span>
+                        <h3 className="text-sm font-semibold text-white mt-1 group-hover:text-amber-400 transition-colors line-clamp-2">
+                          {post.title}
+                        </h3>
+                        <p className="text-xs text-slate-400 mt-2 line-clamp-2">{post.excerpt}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              )}
             </>
           )}
         </Container>

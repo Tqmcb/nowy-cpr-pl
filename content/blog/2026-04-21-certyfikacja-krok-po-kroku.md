@@ -11,9 +11,9 @@ template: "przewodnik"
 
 ## Wprowadzenie: dlaczego certyfikacja wyrobu budowlanego jest procesem, a nie jednorazowym działaniem?
 
-Oznakowanie CE na wyrobie budowlanym nie jest certyfikatem wystawianym raz na zawsze. Jest ono zewnętrznym dowodem trwającego procesu — producent nieustannie monitoruje swój produkt, utrzymuje Zakładową Kontrolę Produkcji i aktualizuje dokumentację w miarę jak zmieniają się normy zharmonizowane. CPR 2024/3110 wzmacnia ten wymiar ciągłości, zwiększając wymagania dotyczące nadzoru nad łańcuchem dostaw i identyfikowalności wyrobów.
+Oznakowanie CE na wyrobie budowlanym nie jest certyfikatem wystawianym raz na zawsze. Jest ono zewnętrznym dowodem trwającego procesu — producent nieustannie monitoruje swój wyrób, utrzymuje Zakładową Kontrolę Produkcji i aktualizuje dokumentację w miarę jak zmieniają się normy zharmonizowane. CPR 2024/3110 wzmacnia ten wymiar ciągłości, zwiększając wymagania dotyczące nadzoru nad łańcuchem dostaw i identyfikowalności wyrobów.
 
-Poniżej przedstawiamy kompletny przewodnik po procesie certyfikacji — od pierwszego pytania „czy mój produkt podlega normie zharmonizowanej?" aż po umieszczenie oznakowania CE na wyrobie i jego pierwsze legalne wprowadzenie na rynek UE.
+Poniżej przedstawiamy kompletny przewodnik po procesie certyfikacji — od pierwszego pytania „czy mój wyrób podlega normie zharmonizowanej?" aż po umieszczenie oznakowania CE na wyrobie i jego pierwsze legalne wprowadzenie na rynek UE.
 
 ---
 
@@ -40,7 +40,7 @@ Pierwszym i fundamentalnym pytaniem jest: czy dla mojego wyrobu istnieje norma z
 
 **Czas trwania:** 1–2 dni robocze
 
-Każda norma zharmonizowana dla wyrobów budowlanych zawiera tzw. Załącznik ZA — normartywny aneks, który określa:
+Każda norma zharmonizowana dla wyrobów budowlanych zawiera tzw. Załącznik ZA — normatywny aneks, który określa:
 
 - zakres zastosowania normy w kontekście CPR,
 - właściwości użytkowe wymagane dla poszczególnych zastosowań wyrobu,
@@ -81,7 +81,7 @@ Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikow
 
 **Czas trwania:** 4–16 tygodni
 
-Initial Type Testing (ITT) — badanie początkowe typu — to badania wykonywane na wyrobie reprezentatywnym dla planowanej produkcji, mające na celu ustalenie, jakie właściwości użytkowe wyrób posiada i jakie wartości im odpowiadają.
+Initial Type Testing (ITT) — wstępne badanie typu — to badania wykonywane na wyrobie reprezentatywnym dla planowanej produkcji, mające na celu ustalenie, jakie właściwości użytkowe wyrób posiada i jakie wartości im odpowiadają.
 
 **Co obejmuje ITT?**
 

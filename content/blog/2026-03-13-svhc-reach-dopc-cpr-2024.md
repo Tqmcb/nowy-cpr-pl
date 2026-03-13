@@ -4,14 +4,14 @@ date: "2026-03-13"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["SVHC", "REACH", "substancje niebezpieczne", "CPR 2024", "DoP&C"]
-excerpt: "CPR 2024/3110 po raz pierwszy wprowadza do Deklaracji Właściwości i Zgodności obowiązek deklarowania substancji wzbudzających szczególnie duże obawy (SVHC) obecnych w wyrobie powyżej progu 0,1% wagowo. Dowiedz się, czym są SVHC, jak sprawdzić listę kandydacką ECHA i jak powiązać ten wymóg z bazą SCIP."
+excerpt: "CPR 2024/3110 po raz pierwszy wprowadza do Deklaracji Właściwości Użytkowych i Zgodności obowiązek deklarowania substancji wzbudzających szczególnie duże obawy (SVHC) obecnych w wyrobie powyżej progu 0,1% wagowo. Dowiedz się, czym są SVHC, jak sprawdzić listę kandydacką ECHA i jak powiązać ten wymóg z bazą SCIP."
 image_url: /images/blog/svhc-reach-dopc-cpr-2024.jpg
 template: "analiza"
 ---
 
 ## SVHC w wyrobach budowlanych — nowy obowiązek w CPR 2024
 
-Jedną z najbardziej przełomowych zmian wprowadzonych przez rozporządzenie CPR 2024/3110 jest nałożenie na producentów wyrobów budowlanych obowiązku deklarowania w Deklaracji Właściwości i Zgodności (DoP&C) substancji wzbudzających szczególnie duże obawy, znanych pod anglojęzycznym skrótem SVHC (Substances of Very High Concern). Obowiązek ten dotyczy sytuacji, gdy substancja SVHC jest obecna w wyrobie w stężeniu przekraczającym 0,1% wagowo (w/w).
+Jedną z najbardziej przełomowych zmian wprowadzonych przez rozporządzenie CPR 2024/3110 jest nałożenie na producentów wyrobów budowlanych obowiązku deklarowania w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) substancji wzbudzających szczególnie duże obawy, znanych pod anglojęzycznym skrótem SVHC (Substances of Very High Concern). Obowiązek ten dotyczy sytuacji, gdy substancja SVHC jest obecna w wyrobie w stężeniu przekraczającym 0,1% wagowo (w/w).
 
 Ten wymóg stanowi bezpośrednie powiązanie CPR z rozporządzeniem REACH (Rozporządzenie WE nr 1907/2006 w sprawie rejestracji, oceny, udzielania zezwoleń i stosowanych ograniczeń w zakresie chemikaliów) i jest wyrazem szerszej polityki UE zmierzającej do eliminacji substancji niebezpiecznych z wyrobów budowlanych. Jest to temat, który do tej pory pozostawał w znacznej mierze poza zakresem zainteresowania producentów budowlanych — CPR 2024 zmienia ten stan rzeczy fundamentalnie.
 
@@ -102,4 +102,4 @@ Praktyka pokazuje, że producenci wyrobów budowlanych najczęściej napotykają
 
 ## Podsumowanie
 
-Wymóg deklarowania SVHC w DoP&C to element szerszego trendu w prawie unijnym, zmierzającego do zapewnienia pełnej transparentności chemicznej wyrobów przez cały cykl ich życia — od produkcji, przez użytkowanie, aż po recyclling i utylizację. Producenci wyrobów budowlanych, którzy wdrożą te wymagania rzetelnie i terminowo, nie tylko spełnią wymogi prawa, ale również zbudują zaufanie rynkowe i będą gotowi na dalsze zaostrzenie przepisów w nadchodzących latach.
+Wymóg deklarowania SVHC w DoP&C to element szerszego trendu w prawie unijnym, zmierzającego do zapewnienia pełnej transparentności chemicznej wyrobów przez cały cykl ich życia — od produkcji, przez użytkowanie, aż po recykling i utylizację. Producenci wyrobów budowlanych, którzy wdrożą te wymagania rzetelnie i terminowo, nie tylko spełnią wymogi prawa, ale również zbudują zaufanie rynkowe i będą gotowi na dalsze zaostrzenie przepisów w nadchodzących latach.

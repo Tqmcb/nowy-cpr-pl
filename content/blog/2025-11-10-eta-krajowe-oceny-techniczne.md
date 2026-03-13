@@ -1,24 +1,24 @@
 ---
 title: "Wyroby nieobjęte normami zharmonizowanymi - ETA i krajowe oceny techniczne"
 date: "2025-11-10"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["ETA", "ocena techniczna", "TAB", "EOTA"]
-excerpt: "Co zrobić gdy produkt nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
+excerpt: "Co zrobić gdy wyrób nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
 image_url: /images/blog/eta-krajowe-oceny-techniczne.jpg
 template: "przewodnik"
 ---
 
 # ETA i krajowe oceny techniczne
 
-Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych produktów lub tych, które istotnie odbiegają od istniejących norm, istnieje alternatywna droga do oznakowania CE — Europejska Ocena Techniczna (ETA).
+Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych wyrobów lub tych, które istotnie odbiegają od istniejących norm, istnieje alternatywna droga do oznakowania CE — Europejska Ocena Techniczna (ETA).
 
 ## Kiedy potrzebna ETA?
 
 Europejska Ocena Techniczna jest wymagana lub zalecana gdy:
 
 - **Brak normy zharmonizowanej (hEN)** dla danego wyrobu lub zastosowania
-- **Produkt znacząco odbiega** od zakresu lub wymagań istniejącej normy
+- **Wyrób znacząco odbiega** od zakresu lub wymagań istniejącej normy
 - **Innowacyjny wyrób budowlany** nieujęty w żadnym mandacie normalizacyjnym
 - Producent chce uzyskać **europejskie uznanie** dla krajowej oceny technicznej
 
@@ -30,15 +30,15 @@ Producent składa wniosek do jednej z europejskich jednostek ds. oceny techniczn
 
 ### Krok 2: Opracowanie EAD
 
-Jeśli nie istnieje jeszcze Europejski Dokument Oceny (EAD – European Assessment Document) dla danej grupy produktów, TAB wraz z organizacją EOTA opracowuje nowy dokument. Jest to najbardziej czasochłonny etap.
+Jeśli nie istnieje jeszcze Europejski Dokument Oceny (EAD – European Assessment Document) dla danej grupy wyrobów, TAB wraz z organizacją EOTA opracowuje nowy dokument. Jest to najbardziej czasochłonny etap.
 
-### Krok 3: Ocena i badania produktu
+### Krok 3: Ocena i badania wyrobu
 
-Na podstawie EAD przeprowadzane są badania i ocena właściwości użytkowych produktu w odniesieniu do jego zamierzonego zastosowania.
+Na podstawie EAD przeprowadzane są badania i ocena właściwości użytkowych wyrobu w odniesieniu do jego zamierzonego zastosowania.
 
 ### Krok 4: Wydanie ETA
 
-TAB wydaje Europejską Ocenę Techniczną zawierającą zestaw właściwości użytkowych produktu, które producent może deklarować.
+TAB wydaje Europejską Ocenę Techniczną zawierającą zestaw właściwości użytkowych wyrobu, które producent może deklarować.
 
 ### Krok 5: Certyfikacja zgodnie z systemem AVS
 
@@ -50,7 +50,7 @@ Lista wszystkich europejskich jednostek TAB dostępna jest na stronie [EOTA](htt
 
 ## Krajowe Oceny Techniczne (KOT)
 
-Dla produktów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN, ani ETA, możliwe jest uzyskanie Krajowej Oceny Technicznej na podstawie krajowego systemu oceny.
+Dla wyrobów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN, ani ETA, możliwe jest uzyskanie Krajowej Oceny Technicznej na podstawie krajowego systemu oceny.
 
 **Uwaga:** KOT nie uprawnia do nanoszenia oznakowania CE — jest dokumentem krajowym.
 
