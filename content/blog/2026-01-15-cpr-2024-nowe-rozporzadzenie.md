@@ -81,7 +81,7 @@ Digital DoP&C (CPR 2024) będzie zawierać:
 - Większe uprawnienia organów nadzoru rynku w Polsce (UOKiK, GUNB, GUM)
 - Możliwość testowania wyrobów z rynku przez organy nadzoru
 - Wzrost kar za niezgodności (od 8 stycznia 2027)
-- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych produktów)
+- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych wyrobów)
 
 ### 6. 36 rodzin wyrobów (Załącznik VII)
 
@@ -96,7 +96,7 @@ Sprawdź czy Twoje obecne DoP (Deklaracje Właściwości Użytkowych) zawierają
 Zmień "AVCP" → "AVS", "DoP" → "DoP&C" we wszystkich dokumentach, na stronie internetowej i w materiałach handlowych. Wymień stare certyfikaty AVCP na nowe certyfikaty AVS (w praktyce: zaktualizuj umowy z jednostkami notyfikowanymi).
 
 ### Krok 3: Przeprowadź analizę LCA
-Zlecić kompleksową analizę cyklu życia produktu zgodnie z EN 15804+A2 i sporządzić EPD (Environmental Product Declaration). Skorzystaj z Systemu 3+ do walidacji EPD.
+Zlecić kompleksową analizę cyklu życia wyrobu zgodnie z EN 15804+A2 i sporządzić EPD (Environmental Product Declaration). Skorzystaj z Systemu 3+ do walidacji EPD.
 
 ### Krok 4: Wdróż cyfrową DoP&C
 Przygotuj system do udostępniania DoP&C w formie cyfrowej — co najmniej strona internetowa z wyszukiwarką lub unikalny link dla każdego wyrobu (QR kod na etykiecie CE).

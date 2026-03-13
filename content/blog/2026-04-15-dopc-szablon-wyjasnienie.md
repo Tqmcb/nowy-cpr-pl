@@ -1,5 +1,5 @@
 ---
-title: "Deklaracja Właściwości i Zgodności (DoP&C) — szablon i wyjaśnienie każdego pola"
+title: "Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) — szablon i wyjaśnienie każdego pola"
 date: "2026-04-15"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
@@ -44,7 +44,7 @@ Każda DoP&C musi posiadać unikalny kod, który jednoznacznie identyfikuje typ 
 
 **Przykład:** `Pustak ceramyczny drążony PD 25/25/11,5`
 
-To pole identyfikuje konkretny produkt — jego handlową nazwę, typ techniczny lub inny opis umożliwiający odróżnienie go od innych wyrobów producenta. Dla produkcji seryjnej wskazuje się tutaj numer partii lub serii, co jest kluczowe dla identyfikowalności wyrobu (ang. traceability) w łańcuchu dostaw.
+To pole identyfikuje konkretny wyrób — jego handlową nazwę, typ techniczny lub inny opis umożliwiający odróżnienie go od innych wyrobów producenta. Dla produkcji seryjnej wskazuje się tutaj numer partii lub serii, co jest kluczowe dla identyfikowalności wyrobu (ang. traceability) w łańcuchu dostaw.
 
 ---
 

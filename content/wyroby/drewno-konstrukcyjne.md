@@ -64,7 +64,7 @@ Najistotniejsze zmiany dla producentów drewna konstrukcyjnego wynikające z CPR
 
 1. **Rozszerzenie DoP&C** – dotychczasowa Deklaracja Właściwości Użytkowych (DoP) staje się Deklaracją Właściwości Użytkowych i Zgodności (DoP&C), obejmującą właściwości środowiskowe.
 2. **Ujemny GWP jako atut** – po raz pierwszy regulacja UE oficjalnie uznaje sekwestrację węgla przez drewno w ramach obliczania cyklu życia (LCA). Producenci mogą to deklarować i weryfikować w Systemie 3+.
-3. **Nowe wymagania dla klejów w GLT/CLT** – kleje stosowane w produktach wielowarstwowych muszą spełniać wymagania dotyczące emisji VOC i formaldehydu (klasa E1 lub lepsza E0).
+3. **Nowe wymagania dla klejów w GLT/CLT** – kleje stosowane w wyrobach wielowarstwowych muszą spełniać wymagania dotyczące emisji VOC i formaldehydu (klasa E1 lub lepsza E0).
 4. **Trwałość i serwisowanie** – CPR 2024 kładzie większy nacisk na deklarowanie przewidywanej trwałości elementów i warunków ich utrzymania.
 
 ## Harmonogram wdrożenia
@@ -112,4 +112,4 @@ Dla producentów drewna konstrukcyjnego szczególnie przydatne są:
 
 - [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
 - [ITCZLin](https://www.itczlin.pl) – badania i certyfikacja wyrobów z drewna i tworzyw drzewnych
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – oceny techniczne ETA dla innowacyjnych systemów konstrukyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – oceny techniczne ETA dla innowacyjnych systemów konstrukcyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)

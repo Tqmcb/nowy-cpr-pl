@@ -13,7 +13,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 ## O rodzinie wyrobów
 
-Rodzina 14 w Załączniku VII CPR 2024/3110 obejmuje płyty i elementy drewnopochodne stosowane w budownictwie. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów – obejmuje produkty wytwarzane z drewna poddanego różnym procesom mechanicznym i chemicznym, od prostej sklejki po wysoce przetworzone płyty MDF i HDF.
+Rodzina 14 w Załączniku VII CPR 2024/3110 obejmuje płyty i elementy drewnopochodne stosowane w budownictwie. Jest to jedna z najbardziej zróżnicowanych rodzin wyrobów – obejmuje wyroby wytwarzane z drewna poddanego różnym procesom mechanicznym i chemicznym, od prostej sklejki po wysoce przetworzone płyty MDF i HDF.
 
 Główne typy wyrobów w rodzinie 14:
 - **Sklejka** (plywood) – warstwy forniru klejone na krzyż
@@ -122,11 +122,11 @@ Producent MDF do zabudów wnętrz dąży do klasy E0 ze względu na wymagania ry
 - [ ] Oznaczenie emisji formaldehydu metodą komorową (EN 717-1) lub analizy gazowej (EN 120)
 - [ ] Oznaczenie emisji VOC (TVOC, kancerogeny) wg EN ISO 16000 lub równoważnych
 - [ ] Wdrożenie zakładowej kontroli produkcji (ZKP) ze stałym monitoringiem emisji
-- [ ] Wystawienie DoP&C z deklaracją klasy emisji (E0/E1/E2) i klasy produktu
-- [ ] Umieszczenie oznakowania CE na produkcie, opakowaniu lub w dokumentach dostawy
+- [ ] Wystawienie DoP&C z deklaracją klasy emisji (E0/E1/E2) i klasy wyrobu
+- [ ] Umieszczenie oznakowania CE na wyrobie, opakowaniu lub w dokumentach dostawy
 - [ ] Przegląd stosowanych klejów pod kątem REACH i substancji SVHC
 - [ ] Rozważenie opracowania EPD (System AVS 3+) dla rynków wymagających deklaracji środowiskowych
-- [ ] Aktualizacja instrukcji stosowania produktu z informacją o warunkach użytkowania
+- [ ] Aktualizacja instrukcji stosowania wyrobu z informacją o warunkach użytkowania
 
 ## Gdzie szukać wsparcia
 

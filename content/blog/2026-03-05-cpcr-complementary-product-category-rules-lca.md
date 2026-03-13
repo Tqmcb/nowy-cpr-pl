@@ -85,7 +85,7 @@ Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do d
 **EPD oparta na CPCR** jest uznawana jako referencyjny dokument do wykazania tej właściwości. Bez prawidłowego CPCR:
 - EPD może zostać odrzucona przez weryfikatora
 - Deklaracja GWP może być kwestionowana przez organy nadzoru rynku (GUNB)
-- Produkt może nie spełnić wymogów przetargów publicznych (GPP — Green Public Procurement)
+- Wyrób może nie spełnić wymogów przetargów publicznych (GPP — Green Public Procurement)
 
 ## CPCR a system AVS 3+
 

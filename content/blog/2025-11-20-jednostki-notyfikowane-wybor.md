@@ -55,8 +55,8 @@ Instytut Nafty i Gazu. Zakres:
 
 ## Kryteria wyboru jednostki
 
-1. **Zakres notyfikacji** – czy jednostka jest uprawniona dla Twojego produktu i normy?
-2. **Doświadczenie branżowe** – jak wiele certyfikatów dla podobnych produktów wydała?
+1. **Zakres notyfikacji** – czy jednostka jest uprawniona dla Twojego wyrobu i normy?
+2. **Doświadczenie branżowe** – jak wiele certyfikatów dla podobnych wyrobów wydała?
 3. **Terminy realizacji** – ile czasu zajmuje przeprowadzenie oceny?
 4. **Koszty** – porównaj oferty cenowe kilku jednostek
 5. **Lokalizacja** – dostępność laboratoriów i audytorów

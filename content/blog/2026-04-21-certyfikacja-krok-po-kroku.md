@@ -40,7 +40,7 @@ Pierwszym i fundamentalnym pytaniem jest: czy dla mojego wyrobu istnieje norma z
 
 **Czas trwania:** 1–2 dni robocze
 
-Każda norma zharmonizowana dla wyrobów budowlanych zawiera tzw. Załącznik ZA — normartywny aneks, który określa:
+Każda norma zharmonizowana dla wyrobów budowlanych zawiera tzw. Załącznik ZA — normatywny aneks, który określa:
 
 - zakres zastosowania normy w kontekście CPR,
 - właściwości użytkowe wymagane dla poszczególnych zastosowań wyrobu,
@@ -81,7 +81,7 @@ Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikow
 
 **Czas trwania:** 4–16 tygodni
 
-Initial Type Testing (ITT) — badanie początkowe typu — to badania wykonywane na wyrobie reprezentatywnym dla planowanej produkcji, mające na celu ustalenie, jakie właściwości użytkowe wyrób posiada i jakie wartości im odpowiadają.
+Initial Type Testing (ITT) — wstępne badanie typu — to badania wykonywane na wyrobie reprezentatywnym dla planowanej produkcji, mające na celu ustalenie, jakie właściwości użytkowe wyrób posiada i jakie wartości im odpowiadają.
 
 **Co obejmuje ITT?**
 

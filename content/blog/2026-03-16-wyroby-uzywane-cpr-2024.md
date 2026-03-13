@@ -85,7 +85,7 @@ Zatajenie informacji o tym, że wyrób jest używany lub z odzysku, może stanow
 
 Polska ma jedną z najwyższych w UE stóp rozbiórki i modernizacji obiektów przemysłowych, magazynowych i mieszkaniowych. Rynek odzysku stali konstrukcyjnej, prefabrykatów betonowych, cegły rozbiórkowej czy stolarki budowlanej jest znaczący, choć dotychczas słabo uregulowany.
 
-Nowe przepisy CPR 2024 stwarzają szansę na sformalizowanie tego rynku i nadanie wyrobom z odzysku statusu pełnoprawnych produktów z udokumentowanymi właściwościami użytkowymi. Dla firm specjalizujących się w rozbiórkach selektywnych i odzysku materiałów otworzy się możliwość tworzenia certyfikowanego asortymentu wyrobów wtórnych o potwierdzonej jakości.
+Nowe przepisy CPR 2024 stwarzają szansę na sformalizowanie tego rynku i nadanie wyrobom z odzysku statusu pełnoprawnych wyrobów z udokumentowanymi właściwościami użytkowymi. Dla firm specjalizujących się w rozbiórkach selektywnych i odzysku materiałów otworzy się możliwość tworzenia certyfikowanego asortymentu wyrobów wtórnych o potwierdzonej jakości.
 
 ## Podsumowanie
 

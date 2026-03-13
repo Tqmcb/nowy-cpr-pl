@@ -11,7 +11,7 @@ template: "przewodnik"
 
 ## Dlaczego 2026 to rok kluczowy dla producentów wyrobów budowlanych?
 
-Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
+Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
 
 Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w łańcuchu dostaw, problemami z organami nadzoru rynku i utratą certyfikacji. Poniższa checklista została opracowana jako praktyczne narzędzie zarządzania gotowością regulacyjną — przejdź przez każdą sekcję i zaznacz, które działania Twoja firma już podjęła, a które jeszcze wymagają realizacji.
 
@@ -21,7 +21,7 @@ Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w ł
 
 ### A1. Deklaracja Właściwości i Zgodności (DoP&C)
 
-Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację Właściwości (DoP). Dokument ten musi zawierać elementy deklaracji zgodności. Sprawdź poniższe pozycje:
+Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację Właściwości Użytkowych (DoP). Dokument ten musi zawierać elementy deklaracji zgodności. Sprawdź poniższe pozycje:
 
 - [ ] Zidentyfikowałem wszystkie wyroby z portfolio, które objęte są obowiązkiem oznakowania CE i wymagają DoP&C
 - [ ] Przejrzałem aktualne DoP i sprawdziłem, które z nich wymagają aktualizacji do formatu DoP&C zgodnego z CPR 2024
@@ -42,7 +42,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 ### A3. Techniczna Dokumentacja Referencyjna (TDR)
 
-- [ ] Posiadam aktualną Techniczną Dokumentację Referencyjną (TDR) dla każdego wyrobu objętego oznaczeniem CE
+- [ ] Posiadam aktualną Techniczną Dokumentację Referencyjną (TDR) dla każdego wyrobu objętego oznakowaniem CE
 - [ ] TDR zawiera wszystkie elementy wymagane przez CPR 2024 i stosowaną normę zharmonizowaną
 - [ ] TDR jest przechowywana w formie umożliwiającej udostępnienie jej organom nadzoru na żądanie w ciągu 3 dni roboczych
 - [ ] Ustaliłem procedurę aktualizacji TDR po zmianach technicznych wyrobu lub procesu produkcji

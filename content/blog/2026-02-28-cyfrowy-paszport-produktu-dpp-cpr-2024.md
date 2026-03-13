@@ -17,7 +17,7 @@ Ten artykuł wyjaśnia czym jest DPP, kiedy stanie się obowiązkowy dla wyrobó
 
 ## Czym jest Cyfrowy Paszport Produktu?
 
-DPP to **cyfrowy zbiór danych o wyrobie**, dostępny przez internet i powiązany z konkretnym egzemplarzem lub partią produktu za pomocą unikalnego identyfikatora (np. QR kodu, kodu GS1 lub cyfrowego linku GS1). Paszport zawiera wszystkie kluczowe informacje o wyrobie — techniczne, środowiskowe i administracyjne — w formie ustrukturyzowanej i czytelnej maszynowo.
+DPP to **cyfrowy zbiór danych o wyrobie**, dostępny przez internet i powiązany z konkretnym egzemplarzem lub partią wyrobu za pomocą unikalnego identyfikatora (np. QR kodu, kodu GS1 lub cyfrowego linku GS1). Paszport zawiera wszystkie kluczowe informacje o wyrobie — techniczne, środowiskowe i administracyjne — w formie ustrukturyzowanej i czytelnej maszynowo.
 
 Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dachowej, każda płyta izolacyjna, każdy profil stalowy będzie miał swój unikalny identyfikator prowadzący do pełnego zestawu danych o tym konkretnym wyrobie.
 

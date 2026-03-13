@@ -52,7 +52,7 @@ Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie
 - **Stabilność wymiarowa** DS(T,H) – zmiana wymiarów przy zmiennej temperaturze i wilgotności
 - **Nasiąkliwość wodą** – WS [mg/cm²] lub WL (przy zanurzeniu długoterminowym)
 - **Przepuszczalność pary wodnej** – współczynnik µ lub SD [m]
-- **Substancje niebezpieczne** – brak SVHC powyżej limitów REACH; dla EPS z dodatklem HBCD – zakaz stosowania od 2016 (zastąpiony PolyFR)
+- **Substancje niebezpieczne** – brak SVHC powyżej limitów REACH; dla EPS z dodatkiem HBCD – zakaz stosowania od 2016 (zastąpiony PolyFR)
 
 ## Zmiany względem CPR 305/2011
 
@@ -66,7 +66,7 @@ Szacunkowe wartości GWP dla typowych wyrobów izolacyjnych (dane orientacyjne d
 - Płyty korkowe: ok. 20–40 kg CO₂ eq/m³ (często ujemny GWP uwzględniając wiązanie CO₂ przez korek)
 - Włókno drzewne: ok. 10–40 kg CO₂ eq/m³ (możliwy GWP ujemny przy uwzględnieniu biogenicznego CO₂)
 
-Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio widoczne w zamówieniach publicznych stosujących kryteria zielone GPP. Materiały o wysokim GWP (XPS z HFC, EPS z dodatklem HBCD) znajdą się pod silną presją rynkową.
+Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio widoczne w zamówieniach publicznych stosujących kryteria zielone GPP. Materiały o wysokim GWP (XPS z HFC, EPS z dodatkiem HBCD) znajdą się pod silną presją rynkową.
 
 **System 3+ – walidacja EPD przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie swojej EPD do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja EPD przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
 

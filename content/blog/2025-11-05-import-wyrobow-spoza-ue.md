@@ -41,7 +41,7 @@ Zgodnie z CPR 2024/3110, importer musi:
 
 ### Zgłoszenie do odprawy celnej
 
-1. Zgłoszenie celne z kodem CN (Nomenklatura Scalona) produktu
+1. Zgłoszenie celne z kodem CN (Nomenklatura Scalona) wyrobu
 2. Kontrola dokumentacji przez służby celne
 3. Możliwa kontrola fizyczna i pobranie próbek (szczególnie dla wyrobów wysokiego ryzyka)
 4. Dopuszczenie do obrotu po stwierdzeniu zgodności
@@ -55,7 +55,7 @@ Właściwe zaklasyfikowanie wyrobu do kodu CN jest kluczowe — wpływa na wysok
 ### Ryzyko finansowe
 
 - **Koszty przechowywania** wyrobów zatrzymanych przez cło podczas kontroli
-- **Koszty utylizacji** produktów niezgodnych z wymogami CPR
+- **Koszty utylizacji** wyrobów niezgodnych z wymogami CPR
 - **Kary administracyjne** za wprowadzenie niezgodnych wyrobów do obrotu
 - **Odpowiedzialność cywilna** za szkody wyrządzone przez niezgodne wyroby
 

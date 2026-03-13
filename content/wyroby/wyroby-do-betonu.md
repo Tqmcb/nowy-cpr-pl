@@ -97,7 +97,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 - [ ] Uzyskać certyfikat ZKP od jednostki notyfikowanej (system AVS 2+)
 - [ ] Przeprowadzić badania chlorków, alkaliów i substancji szkodliwych
 - [ ] Sporządzić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE
-- [ ] Ocenić i zadeklarować GWP produktu (BWR 7)
+- [ ] Ocenić i zadeklarować GWP wyrobu (BWR 7)
 - [ ] Sprawdzić zawartość substancji SVHC i zarejestrować w bazie SCIP
 - [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z CLP i REACH
 - [ ] Rozważyć opracowanie EPD i jej walidację w systemie 3+

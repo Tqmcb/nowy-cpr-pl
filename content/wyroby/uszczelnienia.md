@@ -17,7 +17,7 @@ Uszczelniacze szczelin budowlanych to wyroby chemiczne stosowane do wypełniania
 
 ## O rodzinie wyrobów
 
-Rodzina 32 – Sealants for Joints – obejmuje gotowe do użycia produkty przeznaczone do uszczelniania szczelin, dylatacji i połączeń w elementach i obiektach budowlanych. Klasyfikacja według serii EN 15651 dzieli uszczelniacze na pięć grup zastosowań:
+Rodzina 32 – Sealants for Joints – obejmuje gotowe do użycia wyroby przeznaczone do uszczelniania szczelin, dylatacji i połączeń w elementach i obiektach budowlanych. Klasyfikacja według serii EN 15651 dzieli uszczelniacze na pięć grup zastosowań:
 
 - **Fasadowe (F)** – uszczelnienia zewnętrzne: połączenia między elementami prefabrykowanymi, panelami elewacyjnymi, ościeżnicami okiennymi i ścianą
 - **Do szklenia (G – Glazing)** – uszczelniacze do osadzania szyb w ramach okiennych i fasadach szklanych

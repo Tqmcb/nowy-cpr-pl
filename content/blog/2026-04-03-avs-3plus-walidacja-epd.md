@@ -73,7 +73,7 @@ Nie każdy producent musi natychmiast stosować system 3+ dla wszystkich swoich 
 
 **Eksport do krajów z dojrzałym rynkiem GPP** — Skandynawia, Niemcy, Francja, Niderlandy; w tych krajach niezweryfikowane EPD budzi wątpliwości po stronie specyfikantów i inwestorów.
 
-**Produkty o niskim GWP jako atut marketingowy** — jeśli producent może pochwalić się wyjątkowo niskim śladem węglowym i chce uczynić z tego element komunikacji rynkowej, walidacja JN uwiarygadnia te twierdzenia i chroni przed zarzutem greenwashingu.
+**Wyroby o niskim GWP jako atut marketingowy** — jeśli producent może pochwalić się wyjątkowo niskim śladem węglowym i chce uczynić z tego element komunikacji rynkowej, walidacja JN uwiarygadnia te twierdzenia i chroni przed zarzutem greenwashingu.
 
 **Komunikacja inwestorska i ESG** — firmy notowane na giełdzie lub raportujące zgodnie ze standardami CSRD (Corporate Sustainability Reporting Directive) potrzebują wiarygodnych, zweryfikowanych danych środowiskowych dla swoich wyrobów.
 

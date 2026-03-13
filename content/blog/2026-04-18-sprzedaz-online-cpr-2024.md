@@ -4,7 +4,7 @@ date: "2026-04-18"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["sprzedaż online", "e-commerce", "CPR 2024", "dystrybutor", "obowiązki sprzedawcy"]
-excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający produkty na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing produktu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
+excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający wyroby na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing produktu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
 image_url: /images/blog/sprzedaz-online-cpr-2024.jpg
 template: "analiza"
 ---
@@ -54,9 +54,9 @@ Zarówno CPR 2024, jak i ogólne przepisy o nieuczciwych praktykach handlowych (
 
 Sytuacja sprzedawcy na marketplace jest pod wieloma względami trudniejsza niż prowadzenie własnego sklepu, ponieważ:
 
-1. **Platforma marketplace nie jest dystrybutorem** w rozumieniu CPR 2024 — odpowiedzialność spoczywa na sprzedawcy wystawiającym produkt.
+1. **Platforma marketplace nie jest dystrybutorem** w rozumieniu CPR 2024 — odpowiedzialność spoczywa na sprzedawcy wystawiającym wyrób.
 2. **Regulaminy platform** (np. Amazon Product Compliance Policy, Allegro regulamin sprzedaży) wymagają zgodności z przepisami unijnymi, w tym z CPR. Wystawienie wyrobu bez wymaganego oznakowania CE może skutkować usunięciem listingu przez platformę.
-3. **Pole opisu produktu na marketplace** musi zawierać te same informacje, co listing na własnym sklepie — w szczególności link do DoP&C. Jeżeli platforma nie umożliwia zamieszczenia bezpośredniego linku, należy podać URL w sekcji dokumentów lub specyfikacji technicznej.
+3. **Pole opisu wyrobu na marketplace** musi zawierać te same informacje, co listing na własnym sklepie — w szczególności link do DoP&C. Jeżeli platforma nie umożliwia zamieszczenia bezpośredniego linku, należy podać URL w sekcji dokumentów lub specyfikacji technicznej.
 4. **Sprzedaż transgraniczna** — wystawiając wyrób na Amazon.de, Amazon.fr czy Allegro z wysyłką do innych krajów UE, sprzedawca musi zadbać, by DoP&C była dostępna przynajmniej w języku kraju przeznaczenia lub w języku angielskim (w zależności od wymagań danego państwa członkowskiego).
 
 ---

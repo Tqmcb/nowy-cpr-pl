@@ -56,7 +56,7 @@ CPR 2024 wprowadza ponadto **system 3+** dla walidacji deklaracji środowiskowyc
 
 ## Zmiany względem CPR 305/2011
 
-1. **Nowe wymaganie podstawowe BWR 7** – producenci muszą deklarować zawartość materiałów z recyklingu, trwałość użytkową produktu oraz możliwość demontażu okładzin po zakończeniu cyklu życia budynku.
+1. **Nowe wymaganie podstawowe BWR 7** – producenci muszą deklarować zawartość materiałów z recyklingu, trwałość użytkową wyrobu oraz możliwość demontażu okładzin po zakończeniu cyklu życia budynku.
 2. **Obowiązkowa deklaracja emisji VOC** – wcześniej fakultatywna, teraz obligatoryjna dla wszystkich klejów do wnętrz, w tym klejów dyspersyjnych D1/D2 i reaktywnych epoksydowych.
 3. **System 3+ dla oceny środowiskowej** – nowy tryb weryfikacji, w którym jednostka notyfikowana zatwierdza deklaracje środowiskowe producenta (EPD).
 4. **Nowy format DoP&C** – Deklaracja Właściwości Użytkowych i Zgodności zastępuje dotychczasową Deklarację Właściwości Użytkowych (DoP) przewidzianą w CPR 305/2011.

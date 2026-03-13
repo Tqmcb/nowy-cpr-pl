@@ -47,7 +47,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
 - **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy produktu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
+**System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
 
 ## Kluczowe wymagania CPR 2024
 

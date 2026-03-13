@@ -15,8 +15,8 @@ Producent wyrobu budowlanego, który chce komunikować swoje osiągnięcia środ
 
 Na rynku europejskim w obszarze wyrobów budowlanych funkcjonują przede wszystkim:
 
-1. **EU Ecolabel** — europejska ekologiczna etykieta produktu, system dobrowolny regulowany rozporządzeniem (WE) nr 66/2010,
-2. **EPD (Environmental Product Declaration)** — deklaracja środowiskowa produktu opracowana zgodnie z normą EN 15804+A2 (dla wyrobów budowlanych) lub ISO 14025,
+1. **EU Ecolabel** — europejska ekologiczna etykieta wyrobu, system dobrowolny regulowany rozporządzeniem (WE) nr 66/2010,
+2. **EPD (Environmental Product Declaration)** — deklaracja środowiskowa wyrobu opracowana zgodnie z normą EN 15804+A2 (dla wyrobów budowlanych) lub ISO 14025,
 3. **Własne deklaracje środowiskowe (twierdzenia własne)** — deklaracje producenta nieoparte na zewnętrznej weryfikacji, regulowane normą ISO 14021,
 4. **Charakterystyki środowiskowe w DoP&C** — nowe podejście CPR 2024/3110, integrujące wybrane wskaźniki środowiskowe do Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
 
@@ -105,13 +105,13 @@ Na podstawie projektu GCD i istniejących wytycznych Komisji Europejskiej, poni�
 
 **Twierdzenia wymagające weryfikacji przed upublicznieniem:**
 - Wszelkie ilościowe twierdzenia środowiskowe niebędące bezpośrednim wyciągiem z zarejestrowanego EPD,
-- Porównania środowiskowe z konkurencyjnymi produktami (wymaga oparcia na tych samych normach LCA i porównywalnych jednostkach funkcjonalnych),
+- Porównania środowiskowe z konkurencyjnymi wyrobami (wymaga oparcia na tych samych normach LCA i porównywalnych jednostkach funkcjonalnych),
 - Twierdzenia dotyczące konkretnych wymagań programów certyfikacji zrównoważonego budownictwa (BREEAM, LEED, DGNB) — jeśli producent deklaruje zgodność z kryteriami tych systemów.
 
 **Twierdzenia zakazane:**
 - „Produkt zeroemisyjny" lub „carbon neutral" oparty wyłącznie na offsetach,
 - „Ekologiczny", „przyjazny środowisku", „zielony" bez odniesienia do konkretnych, zweryfikowanych wskaźników,
-- Twierdzenia o objęciu wyrobu systemem środowiskowym, który w rzeczywistości nie obejmuje całego produktu lub jest przestarzały.
+- Twierdzenia o objęciu wyrobu systemem środowiskowym, który w rzeczywistości nie obejmuje całego wyrobu lub jest przestarzały.
 
 ## Strategia dla producenta wyrobów budowlanych
 

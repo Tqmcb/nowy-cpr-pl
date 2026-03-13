@@ -37,7 +37,7 @@ Z perspektywy środowiskowej ceramika murowa (cegły wypalane) należy do materi
 
 Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 
-- **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez NB jest wymagany do oznakowani CE wyrobu przeznaczonego do zastosowań nośnych.
+- **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez NB jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
 - **System AVS 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
 - **System AVS 3+** – walidacja EPD dla producentów dążących do deklarowania GWP.
@@ -62,7 +62,7 @@ Znormalizowana wytrzymałość na ściskanie fb (po przeliczeniu na próbkę 100
 - Elementy silikatowe: λ = 0,56–0,70 W/(m·K) (wysokie – stosowane ze względu na akustykę i nośność, nie termoizolację)
 
 **Reakcja na ogień:**
-Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP&C dla tego parametru z wyjątkiem produktów hybrydowych).
+Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK klasyfikuje się jako **klasa A1** – niepalne bez testowania (euryklasa A1, bez deklaracji w DoP&C dla tego parametru z wyjątkiem wyrobów hybrydowych).
 
 **Zaprawy wg EN 998-2:**
 - Typy: G (ogólnego przeznaczenia), T (do spoin cienkich ≤3 mm), L (lekkie)
