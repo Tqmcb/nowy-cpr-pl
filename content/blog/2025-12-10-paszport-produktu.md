@@ -17,13 +17,13 @@ CPR (EU) 2024/3110 wprowadza koncepcję cyfrowego paszportu wyrobu (DPP) — jed
 
 ## Definicja
 
-Paszport produktu to cyfrowy dokument zawierający kompleksowe informacje o produkcie budowlanym od produkcji, przez użytkowanie, aż po recykling i utylizację. Powiązany jest z unikalnym identyfikatorem produktu (kodem QR lub tagiem RFID).
+Paszport wyrobu to cyfrowy dokument zawierający kompleksowe informacje o wyrobie budowlanym od produkcji, przez użytkowanie, aż po recykling i utylizację. Powiązany jest z unikalnym identyfikatorem wyrobu (kodem QR lub tagiem RFID).
 
 ## Wymagane informacje
 
 ### Dane podstawowe
 
-- Identyfikator produktu (unikalny numer seryjny lub partii)
+- Identyfikator wyrobu (unikalny numer seryjny lub partii)
 - Producent i łańcuch dostaw
 - Skład materiałowy (substancje szczególnie niebezpieczne)
 
@@ -43,7 +43,7 @@ Paszport produktu to cyfrowy dokument zawierający kompleksowe informacje o prod
 
 ## Powiązanie z EPD
 
-Paszport produktu bazuje na danych z Deklaracji Środowiskowej Produktu (EPD) zgodnej z EN 15804+A2. Producenci posiadający aktualne EPD będą mieć znaczącą przewagę w procesie przygotowania paszportu. Polskim programem rejestracji EPD jest [epd.org.pl](https://www.epd.org.pl).
+Paszport wyrobu bazuje na danych z Deklaracji Środowiskowej Wyrobu (EPD) zgodnej z EN 15804+A2. Producenci posiadający aktualne EPD będą mieć znaczącą przewagę w procesie przygotowania paszportu. Polskim programem rejestracji EPD jest [epd.org.pl](https://www.epd.org.pl).
 
 ## Harmonogram wdrożenia
 
@@ -57,11 +57,11 @@ Paszport produktu bazuje na danych z Deklaracji Środowiskowej Produktu (EPD) zg
 
 ## Jak się przygotować?
 
-1. **Przeprowadź analizę LCA** dla swoich produktów
+1. **Przeprowadź analizę LCA** dla swoich wyrobów
 2. **Przygotuj lub zaktualizuj EPD** zgodnie z EN 15804+A2
-3. **Wdróż system zarządzania danymi** o produktach
+3. **Wdróż system zarządzania danymi** o wyrobach
 4. **Zintegruj** informacje o składzie materiałowym z dokumentacją techniczną
 
 ---
 
-Paszport produktu budowlanego to przyszły wymóg prawny, który stanie się faktem po opublikowaniu nowych norm zharmonizowanych i aktów wykonawczych KE. Już teraz jest jednak szansą na wyróżnienie się na rynku i budowanie przewagi konkurencyjnej opartej na transparentności i zrównoważonym rozwoju.
+Paszport wyrobu budowlanego to przyszły wymóg prawny, który stanie się faktem po opublikowaniu nowych norm zharmonizowanych i aktów wykonawczych KE. Już teraz jest jednak szansą na wyróżnienie się na rynku i budowanie przewagi konkurencyjnej opartej na transparentności i zrównoważonym rozwoju.
