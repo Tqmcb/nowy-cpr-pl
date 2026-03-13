@@ -273,9 +273,9 @@ function HomePage() {
                 <div className="space-y-4">
                   {[
                     { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", active: true, done: true },
-                    { year: "7 sty 2025", text: "Wejście w życie — wybrane przepisy (art. 1–4, 9, 10, 37, 89, 90)", active: true, done: true },
-                    { year: "8 sty 2026", text: "Stosowanie głównych przepisów CPR; okres przejściowy dla Digital DoP&C", active: true, done: true },
-                    { year: "2028+", text: "Pełne wdrożenie cyfrowego paszportu produktu" }
+                    { year: "7 sty 2025", text: "Wejście w życie — 20 dni po publikacji w Dz.U. UE", active: true, done: true },
+                    { year: "8 sty 2026", text: "Przepisy ramowe CPR; stare hEN i AVCP nadal obowiązują do publikacji hTS", active: true, done: true },
+                    { year: "2027–2028+", text: "Pierwsze hTS, DoP&C, system AVS, cyfrowy paszport produktu (DPP)" }
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-4 items-start">
                       <div className={`w-28 flex-shrink-0 text-sm font-semibold flex items-center gap-2 ${item.active ? 'text-amber-400' : 'text-slate-500'}`}>
