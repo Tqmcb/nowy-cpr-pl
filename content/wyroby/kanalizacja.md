@@ -40,7 +40,7 @@ Wyroby z rodziny 18 stosują:
 
 - **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
-- **System AVS 3+** – walidacja EPD dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 
 Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl).
 

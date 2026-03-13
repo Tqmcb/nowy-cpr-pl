@@ -46,7 +46,7 @@ Dla płyt drewnopochodnych z rodziny 14 obowiązuje jeden z dwóch systemów:
 
 - **System AVS 3** – dla płyt stosowanych w miejscach krytycznych pod względem nośności lub bezpieczeństwa pożarowego. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wykonuje ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla płyt niskiego ryzyka (np. dekoracyjne, nieobciążone nośnie). Producent samodzielnie deklaruje właściwości na podstawie własnych badań i ZKP.
-- **System AVS 3+** – stosowany do walidacji deklaracji środowiskowych (EPD) przez jednostkę notyfikowaną; szczególnie istotny ze względu na emisje formaldehydu i VOC.
+- **System AVS 3+** – stosowany do walidacji danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną; szczególnie istotny ze względu na emisje formaldehydu i VOC.
 
 Badania płyt drewnopochodnych (oznaczanie emisji formaldehydu, badania mechaniczne, reakcja na ogień) wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
 

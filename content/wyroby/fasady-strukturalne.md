@@ -59,7 +59,7 @@ Dla systemów SSG (EN 15434) kluczowe są dodatkowo: wytrzymałość spoiny sili
 
 Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdzeniem PE (zakazanym przez wiele przepisów budowlanych po Grenfell) przejście na rdzeń mineralny (FR – fire rated) wiąże się z nieco wyższym GWP, ale drastycznie lepszą klasą ogniową.
 
-**System 3+ dla EPD fasad**: Producenci systemów fasadowych stosowanych w budynkach BREEAM lub LEED mogą walidować EPD przez System 3+. Certyfikowane EPD są wymagane przez coraz więcej systemów oceny zrównoważonego budownictwa na poziomie wyróżnienia.
+**System 3+ — walidacja danych środowiskowych fasad**: Producenci systemów fasadowych stosowanych w budynkach BREEAM lub LEED mogą zwalidować dane środowiskowe (wyniki LCA) przez System 3+. Zwalidowane dane środowiskowe w EPD są wymagane przez coraz więcej systemów oceny zrównoważonego budownictwa na poziomie wyróżnienia.
 
 **Pożar fasadowy a CPR 2024**: Pożary fasadowe (Grenfell Tower 2017, Rydzyna 2006) spowodowały zaostrzenie wymagań dotyczących reakcji na ogień zewnętrznych okładzin. CPR 2024 wzmacnia wymagania dotyczące FIGRA (Fire Growth Rate Index) i deklarowania klasy Euroklassyfikacji dla cyklu zewnętrznego (EN 13501-1, metoda SBI i IN300).
 

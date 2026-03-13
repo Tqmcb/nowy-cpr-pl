@@ -35,7 +35,7 @@ Dla drewna konstrukcyjnego z rodziny 13 obowiązuje:
 
 - **System AVS 1** – dla drewna sortowanego wytrzymałościowo maszynowo (klasy MSo) oraz dla elementów GLT/CLT/LVL przeznaczonych do zastosowań nośnych. W systemie 1 producent przeprowadza wewnętrzną kontrolę produkcji (ZKP), a jednostka notyfikowana (NB) wydaje certyfikat zgodności ZKP po przeprowadzeniu audytu oraz niezależnych badań próbek.
 - **System AVS 2+** – dla drewna sortowanego wizualnie lub dla elementów o niższym poziomie krytyczności.
-- **System AVS 3+** – nowy system w CPR 2024/3110, dedykowany weryfikacji deklaracji środowiskowych (EPD). Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat), potwierdzający prawidłowość obliczeń GWP i innych wskaźników środowiskowych.
+- **System AVS 3+** – nowy system w CPR 2024/3110, dedykowany walidacji danych środowiskowych (wyników LCA). Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat), potwierdzający prawidłowość obliczeń GWP i innych wskaźników środowiskowych.
 
 Producenci CLT i GLT powinni skontaktować się z jednostką notyfikowaną, taką jak [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl), w celu certyfikacji ZKP.
 
@@ -87,7 +87,7 @@ Firma produkująca panele CLT do budownictwa modularnego przechodzi z CPR 305/20
 2. Zlecenie badań typu ITT do akredytowanego laboratorium
 3. Uzyskanie certyfikatu ZKP od jednostki notyfikowanej (System AVS 1)
 4. Zlecenie opracowania EPD (ISO 14040/14044) z uwzględnieniem ujemnego GWP
-5. Walidacja EPD przez NB w Systemie 3+ – uzyskanie raportu walidacyjnego
+5. Walidacja danych środowiskowych przez JN w Systemie 3+ – uzyskanie raportu walidacyjnego
 6. Wystawienie DoP&C z deklaracją GWP (~-0,9 kg CO2eq/kg po odjęciu emisji produkcji od sekwestracji)
 
 Oceny techniczne (ETA) dla innowacyjnych systemów CLT można uzyskać poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).

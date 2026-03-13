@@ -64,7 +64,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 **Nowe wymagania dotyczące emisji**: Systemy kominowe mają bezpośredni wpływ na emisje z urządzeń grzewczych. CPR 2024 w połączeniu z wymaganiami dyrektywy ErP i ekoprojektowania zacieśnia związek między charakterystyką kominów a efektywnością energetyczną i emisjami NOx i CO urządzeń grzewczych. Producenci systemów kominowych muszą dokumentować, dla jakich klas urządzeń grzewczych (etapy ErP) ich systemy są przeznaczone.
 
-**System 3+ i EPD**: Dla ceramicznych wkładów kominowych i ceramiki strukturalnej GWP jest stosunkowo niski (ceramika jest materiałem o niskim śladzie węglowym w porównaniu z metalem). Producenci ceramiki kominowej mogą to wykorzystać w komunikacji rynkowej po uzyskaniu walidacji EPD przez System 3+.
+**System 3+ i dane środowiskowe**: Dla ceramicznych wkładów kominowych i ceramiki strukturalnej GWP jest stosunkowo niski (ceramika jest materiałem o niskim śladzie węglowym w porównaniu z metalem). Producenci ceramiki kominowej mogą to wykorzystać w komunikacji rynkowej po uzyskaniu walidacji danych środowiskowych przez System 3+.
 
 ## Harmonogram wdrożenia
 

@@ -45,7 +45,7 @@ Dla rodziny 26 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
 - **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
 
-W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla deklaracji środowiskowych (EPD) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
+W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla danych środowiskowych (wyników LCA) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -67,7 +67,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 
 1. **Wzmocnienie BWR 7** – nowe wymagania środowiskowe dla dodatków mineralnych jako niskoemisyjnych zamienników klinkieru.
 2. **Deklaracja emisji i toksyczności** – producenci domieszek chemicznych muszą deklarować zawartość SVHC i potencjalne uwalnianie substancji niebezpiecznych do betonu i środowiska.
-3. **System 3+ dla EPD** – jednostka notyfikowana waliduje deklaracje środowiskowe dla domieszek i dodatków.
+3. **System 3+ dla danych środowiskowych** – jednostka notyfikowana waliduje dane środowiskowe (wyniki LCA) dla domieszek i dodatków.
 4. **Uproszczony nadzór rynkowy** – wzmocnione uprawnienia organów nadzoru do pobierania próbek w terenie i weryfikacji DoP&C.
 
 ## Harmonogram wdrożenia
@@ -100,7 +100,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 - [ ] Ocenić i zadeklarować GWP wyrobu (BWR 7)
 - [ ] Sprawdzić zawartość substancji SVHC i zarejestrować w bazie SCIP
 - [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z CLP i REACH
-- [ ] Rozważyć opracowanie EPD i jej walidację w systemie 3+
+- [ ] Rozważyć opracowanie EPD i walidację danych środowiskowych w systemie 3+
 
 ## Gdzie szukać wsparcia
 

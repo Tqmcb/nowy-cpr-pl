@@ -44,7 +44,7 @@ Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
 - **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – dla walidacji deklaracji środowiskowych (EPD). Istotny dla uszczelniaczy silikonowych (produkcja silikonu jest energochłonna) i poliuretanowych (izocyjaniany i ich wpływ na środowisko).
+**System 3+** – dla walidacji danych środowiskowych (wyników LCA). Istotny dla uszczelniaczy silikonowych (produkcja silikonu jest energochłonna) i poliuretanowych (izocyjaniany i ich wpływ na środowisko).
 
 ## Kluczowe wymagania CPR 2024
 

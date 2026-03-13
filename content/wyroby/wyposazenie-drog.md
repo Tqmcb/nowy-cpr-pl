@@ -81,7 +81,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 *GWP produkcji stalowej*: Produkcja stali węglowej (sekcje W-bariery) ma GWP ok. 1,8–2,2 kg CO₂ eq/kg dla stali z pieca łukowego (EAF) z surowców recyklingowych, vs. 2,5–3,0 kg CO₂ eq/kg dla stali ze złożu (BF-BOF). GDDKiA już teraz preferuje stal z EAF w specyfikacjach drogowych.
 
-**System 3+ dla EPD infrastruktury**: Producenci barier drogowych dostarczający materiały na autostrady i drogi ekspresowe finansowane z funduszy UE (CEF – Connecting Europe Facility, FENX – Fundusze Europejskie na Infrastrukturę) coraz częściej spotykają się z wymogiem EPD w dokumentacji przetargowej. System 3+ umożliwia walidację EPD przez jednostkę notyfikowaną.
+**System 3+ — walidacja danych środowiskowych infrastruktury**: Producenci barier drogowych dostarczający materiały na autostrady i drogi ekspresowe finansowane z funduszy UE (CEF – Connecting Europe Facility, FENX – Fundusze Europejskie na Infrastrukturę) coraz częściej spotykają się z wymogiem EPD w dokumentacji przetargowej. System 3+ umożliwia walidację danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną.
 
 **Nowe wymagania dot. ekranów akustycznych**: Ekrany akustyczne drogowe – coraz powszechniejszy element wyposażenia dróg – będą podlegały nowym wymaganiom środowiskowym w zakresie degradacji materiałów (PVC vs. drewno vs. aluminium) i możliwości recyklingu po zakończeniu eksploatacji.
 

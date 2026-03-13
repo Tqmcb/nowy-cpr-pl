@@ -40,7 +40,7 @@ Dla wyrobów z rodziny 19 obowiązuje:
 
 - **System AVS 3** – dla podłóg stosowanych w obiektach użyteczności publicznej, gdzie wymagania bezpieczeństwa pożarowego i antypoślizgowości są krytyczne. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
 
 Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 

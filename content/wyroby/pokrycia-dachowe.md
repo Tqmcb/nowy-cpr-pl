@@ -40,7 +40,7 @@ Dla wyrobów z rodziny 22 obowiązuje:
 
 - **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 
 Badania dachowe (BROOF, wodoszczelność, wytrzymałość mechaniczna) wykonuje m.in. [ITCZLin](https://www.itczlin.pl), który posiada stanowiska do badań pokryć dachowych.
 
@@ -83,7 +83,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 1. **Deklarowanie GWP** – obowiązkowe dla wszystkich wyrobów dachowych w DoP&C.
 2. **Cyrkulacja** – deklarowanie możliwości recyklingu, szczególnie ważne dla metali i PVC (membrany).
 3. **Substancje niebezpieczne** – papy z modyfikatorami polimerowymi (APP, SBS) muszą być sprawdzone pod kątem SVHC; membrany PVC – bez ftalanów z listy REACH.
-4. **System 3+ dla EPD** – walidacja przez NB (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
 5. **DoP&C** – rozszerzona deklaracja zamiast DoP.
 
 ## Harmonogram wdrożenia
@@ -125,7 +125,7 @@ Producent membran TPO do dachów płaskich:
 - [ ] Deklarowanie GWP i udziału materiału z recyklingu
 - [ ] Oznakowanie CE na wyrobie lub opakowaniu zbiorczym
 - [ ] Dla okien dachowych i systemów świetlikowych: rozważenie ETA ([ocenytechniczne.pl](https://www.ocenytechniczne.pl))
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla producentów deklarujących recykling
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla producentów deklarujących recykling
 
 ## Gdzie szukać wsparcia
 

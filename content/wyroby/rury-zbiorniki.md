@@ -47,7 +47,7 @@ Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constanc
 
 System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 
-**System 3+** dla oceny środowiskowej: walidacja EPD przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
+**System 3+** dla oceny środowiskowej: walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
 
 ## Kluczowe wymagania CPR 2024
 

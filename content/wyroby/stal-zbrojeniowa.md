@@ -73,7 +73,7 @@ Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu z�
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowe deklarowanie GWP i EPD** – producenci stali zbrojeniowej muszą ujmować ślad węglowy w DoP&C i mogą go walidować przez NB (System 3+).
+1. **Obowiązkowe deklarowanie GWP** – producenci stali zbrojeniowej muszą ujmować ślad węglowy w DoP&C i mogą zwalidować dane środowiskowe przez JN (System 3+).
 2. **DoP&C zamiast DoP** – poszerzony zakres deklaracji o właściwości środowiskowe.
 3. **Wymóg traceability (identyfikowalności)** – CPR 2024 wzmacnia wymagania dotyczące identyfikowalności partii produkcyjnych od wytopu do końcowego wyrobu.
 4. **Systemy post-tensioning** – pozostają w obszarze ETA, ale EAD wydane pod CPR 305/2011 tracą ważność 9 stycznia 2031.
@@ -97,7 +97,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 2. Pobieranie próbek ante market – NB bada próbki z wybranych wytopów przed wydaniem certyfikatu
 3. Uzyskanie CSPU – certyfikat stałości właściwości użytkowych (System AVS 1+)
 4. Opracowanie EPD: GWP = 0,52 kg CO2eq/kg (metoda EAF, recykling złomu)
-5. Walidacja EPD przez NB w Systemie 3+ – raport walidacyjny
+5. Walidacja danych środowiskowych przez JN w Systemie 3+ – raport walidacyjny
 6. DoP&C z deklaracją: klasa B500B, klasa ciągliwości B, CE 0,46, GWP 0,52 kg CO2eq/kg
 
 ## Checklist producenta
@@ -108,7 +108,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 - [ ] Uzyskanie CSPU w ramach Systemu AVS 1+ (audyt ante-market)
 - [ ] Zapewnienie pełnej identyfikowalności (traceability) od wytopu do wyrobu gotowego
 - [ ] Opracowanie EPD z uwzględnieniem metody produkcji (EAF vs BF) i GWP
-- [ ] Walidacja EPD przez NB (System AVS 3+)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+)
 - [ ] Wystawienie DoP&C z deklaracją Re, Rm, εuk, CE, GWP
 - [ ] Oznakowanie CE na prętach (etykieta lub naklejka na wiązce)
 - [ ] Coroczne audyty nadzorcze ZKP przez NB

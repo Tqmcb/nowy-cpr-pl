@@ -91,7 +91,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 1. **Kruszywa z recyklingu – nowe wymogi** – CPR 2024/3110 wymaga deklarowania udziału kruszyw z recyklingu i ich właściwości specyficznych (absorpcja, zawartość zaprawy cementowej w RCA).
 2. **Obowiązkowe deklarowanie GWP** – producenci kruszyw muszą ujmować wskaźnik klimatyczny w DoP&C.
 3. **Substancje niebezpieczne** – kruszywa z recyklingu mogą zawierać zanieczyszczenia (azbest, PCB, metale ciężkie) – konieczna kontrola składu chemicznego deklarowanego w DoP&C.
-4. **System 3+ dla EPD** – walidacja przez NB, ważna dla zamówień publicznych i certyfikatów zrównoważonego budownictwa.
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN, ważna dla zamówień publicznych i certyfikatów zrównoważonego budownictwa.
 5. **DoP&C zamiast DoP** – rozszerzona deklaracja z właściwościami środowiskowymi.
 
 ## Harmonogram wdrożenia
@@ -133,7 +133,7 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 - [ ] Deklarowanie GWP i ewentualnego udziału kruszywa z recyklingu
 - [ ] Oznakowanie CE na dokumencie dostawy lub na etykiecie na silosie/hałdzie
 - [ ] Coroczne audyty nadzorcze ZKP przez NB
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla zamówień publicznych wymagających deklaracji środowiskowych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla zamówień publicznych wymagających deklaracji środowiskowych
 - [ ] Monitorowanie zmienności złoża (kopalnie odkrywkowe) i aktualizacja ITT przy zmianie materiału
 
 ## Gdzie szukać wsparcia

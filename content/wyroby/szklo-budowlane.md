@@ -81,7 +81,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 1. **Obowiązkowa deklaracja GWP** – po raz pierwszy w CPR szkło musi być ocenione pod kątem śladu węglowego (producent może to robić dobrowolnie lub w systemie 3+).
 2. **Rozszerzone wymagania dla szyb zespolonych** – EN 1279 z 2018 r. zaostrzyła wymagania trwałościowe (argon retention test), które teraz są egzekwowane przez rynek poprzez CPR 2024.
 3. **Koordynacja z EPBD** – CPR 2024 lepiej integruje wymagania szklane z Dyrektywą o charakterystyce energetycznej budynków, wskazując wartości graniczne Ug jako parametry projektowe wyrobu.
-4. **System 3+ dla EPD** – walidacja deklaracji środowiskowych przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
 
 ## Harmonogram wdrożenia
 

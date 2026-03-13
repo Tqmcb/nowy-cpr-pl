@@ -77,7 +77,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 **GWP i zawartość surowców z recyklingu**: Po publikacji nowych hTS i zakończeniu okresu koegzystencji producenci geosyntetyków będą musieli deklarować GWP i zawartość surowców wtórnych. Wyroby z recyclowanego polipropylenu (rPP) lub polietylenu (rPE) będą miały przewagę w zamówieniach publicznych GPP. Producenci, którzy wcześniej zainwestują w EPD i surowce z recyklingu, zyskają przewagę rynkową.
 
-**System 3+ dla EPD**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą walidować swoje EPD przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
+**System 3+ dla danych środowiskowych**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą zwalidować dane środowiskowe (wyniki LCA) przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
 
 ## Harmonogram wdrożenia
 

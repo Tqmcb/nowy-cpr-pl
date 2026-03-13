@@ -68,7 +68,7 @@ Szacunkowe wartości GWP dla typowych wyrobów izolacyjnych (dane orientacyjne d
 
 Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio widoczne w zamówieniach publicznych stosujących kryteria zielone GPP. Materiały o wysokim GWP (XPS z HFC, EPS z dodatkiem HBCD) znajdą się pod silną presją rynkową.
 
-**System 3+ – walidacja EPD przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie swojej EPD do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja EPD przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
+**System 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie danych środowiskowych (wyników LCA) do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja danych środowiskowych przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
 
 **Cyfrowy paszport wyrobu (DPP)**: Każdy wyrób termoizolacyjny objęty będzie obowiązkiem posiadania DPP zawierającego: DoP&C, dane środowiskowe (GWP, EPD), skład materiałowy (ważne dla recyklingu), instrukcję montażu i demontażu. Format cyfrowy (QR kod, link) musi być dostępny od etapu etykietowania.
 
@@ -101,7 +101,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 - [ ] Sporządzić lub zaktualizować DoP&C (zmiana z DoP) z uzupełnionymi polami środowiskowymi
 - [ ] Uruchomić zbieranie danych środowiskowych od dostawców surowców (granulki PS, włókna, lepiszcze)
 - [ ] Zlecić sporządzenie EPD zgodnej z EN 15804+A2 – niezbędne przed 2027
-- [ ] Rozważyć walidację EPD przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
+- [ ] Rozważyć walidację danych środowiskowych przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
 - [ ] Sprawdzić zawartość SVHC (PolyFR zamiast HBCD w EPS, HFO zamiast HFC w XPS)
 - [ ] Udostępnić DoP&C cyfrowo – wdrożyć QR kody na opakowaniach palet i fakturach
 - [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) — po publikacji aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)

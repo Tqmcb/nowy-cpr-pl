@@ -40,7 +40,7 @@ Dla wyrobów z rodziny 21 obowiązuje:
 
 - **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników środowiskowych.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników środowiskowych.
 
 Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
 

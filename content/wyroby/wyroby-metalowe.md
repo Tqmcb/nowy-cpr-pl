@@ -85,7 +85,7 @@ Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla
 ## Zmiany względem CPR 305/2011
 
 1. **Obowiązkowe deklarowanie GWP** – producenci stali i aluminium konstrukcyjnego muszą ujmować ślad węglowy w DoP&C.
-2. **System 3+ dla EPD** – walidacja EPD przez NB, szczególnie istotna w kontekście zamówień publicznych (dyrektywy UE o zrównoważonym zamówieniu).
+2. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez JN, szczególnie istotna w kontekście zamówień publicznych (dyrektywy UE o zrównoważonym zamówieniu).
 3. **Substancje niebezpieczne** – powłoki antykorozyjne (cynkowanie, farby epoksydowe) muszą być sprawdzone pod kątem SVHC; chromowy(VI) w powłokach jest ograniczony przez REACH.
 4. **DoP&C zamiast DoP** – zintegrowana deklaracja.
 5. **Trwałość i korozja** – CPR 2024 wymaga deklarowania klasy korozyjności (wg EN ISO 12944) i trwałości powłok ochronnych.
@@ -123,7 +123,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 - [ ] Uzyskanie certyfikatu ZKP EN 1090 i wystawienie DoP&C
 - [ ] Deklarowanie GWP i klasy korozyjności powłok w DoP&C
 - [ ] Sprawdzenie powłok antykorozyjnych pod kątem SVHC (chrom VI)
-- [ ] Walidacja EPD przez NB (System AVS 3+) jeśli konieczne dla zamówień publicznych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) jeśli konieczne dla zamówień publicznych
 - [ ] Coroczne audyty nadzorcze ZKP przez NB
 
 ## Gdzie szukać wsparcia

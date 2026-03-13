@@ -62,7 +62,7 @@ Dla rodziny 36 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – dla drabin o prostszym profilu właściwości (drabiny do niskich instalacji, standardowe stalowe bez systemu bezpieczeństwa): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
 - **System AVS 3** – dla drabin na znacznych wysokościach (> 3 m), z koszem ochronnym lub szyną bezpieczeństwa, w obiektach użyteczności publicznej: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – walidacja EPD dla producentów deklarujących właściwości środowiskowe drabin stalowych lub aluminiowych (GWP stali i aluminium, udział metali z recyklingu).
+**System 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących właściwości środowiskowe drabin stalowych lub aluminiowych (GWP stali i aluminium, udział metali z recyklingu).
 
 ## Kluczowe wymagania CPR 2024
 

@@ -60,7 +60,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 **Właściwości środowiskowe ram**: CPR 2024 wprowadza obowiązek uwzględnienia właściwości środowiskowych w DoP&C. W kontekście okien i drzwi oznacza to konieczność gromadzenia danych dotyczących: zawartości surowców wtórnych w profilach PVC (rePVC), śladu węglowego profili aluminiowych (aluminium pierwotne vs. wtórne emituje kilkukrotnie mniej CO₂), trwałości drewna (certyfikat FSC/PEFC) oraz możliwości recyklingu po zakończeniu eksploatacji. Od roku 2027 oczekuje się wprowadzenia obowiązkowego deklarowania GWP dla ram okiennych.
 
-**System 3+ dla EPD**: Producenci, którzy chcą walidować swoje Deklaracje Środowiskowe Wyrobu (EPD) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja EPD przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
+**System 3+ dla danych środowiskowych**: Producenci, którzy chcą zwalidować dane środowiskowe (wyniki LCA) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja danych środowiskowych przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
 
 **Paszport cyfrowy wyrobu**: Każde okno i drzwi będzie musiało posiadać cyfrowy paszport wyrobu (DPP) dostępny przez kod QR lub podobny identyfikator. DPP zawiera m.in.: DoP&C, dane o składzie materiałowym, instrukcję montażu i demontażu, dane środowiskowe.
 

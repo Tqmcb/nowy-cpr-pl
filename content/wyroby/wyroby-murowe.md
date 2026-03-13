@@ -40,7 +40,7 @@ Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 - **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez NB jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
 - **System AVS 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
-- **System AVS 3+** – walidacja EPD dla producentów dążących do deklarowania GWP.
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów dążących do deklarowania GWP.
 
 W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl).
 
@@ -77,7 +77,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 ## Zmiany względem CPR 305/2011
 
 1. **Obowiązek deklarowania GWP** – producenci elementów murowych muszą uwzględnić właściwości środowiskowe w DoP&C.
-2. **System 3+ dla walidacji EPD** – jednostka notyfikowana wydaje raport walidacyjny dla EPD, co umożliwia stosowanie EPD w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
+2. **System 3+ dla walidacji danych środowiskowych** – jednostka notyfikowana wydaje raport walidacyjny, co umożliwia stosowanie zwalidowanych danych środowiskowych w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
 3. **Substancje niebezpieczne** – obowiązek sprawdzenia i deklarowania braku SVHC (substancje wzbudzające szczególnie duże obawy wg REACH) w zastosowanych surowcach i dodatkach.
 4. **DoP&C** – zintegrowany dokument zamiast odrębnych deklaracji.
 5. **Trwałość** – CPR 2024 kładzie nacisk na deklarowanie przewidywanej trwałości i warunków ekspozycji (klasy ekspozycji wg EN 1996).
@@ -111,7 +111,7 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
 - [ ] Sprawdzenie zawartości substancji niebezpiecznych (SVHC, REACH)
 - [ ] Opracowanie EPD (opcjonalnie, ale zalecane dla zamówień publicznych)
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla rzetelności deklaracji GWP
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla rzetelności deklaracji GWP
 - [ ] Oznakowanie CE na wyrobie lub etykiecie zbiorczej (paleta)
 - [ ] Coroczne audyty nadzorcze NB (dla Systemu AVS 2+)
 
