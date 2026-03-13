@@ -13,11 +13,11 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Kleje budowlane – rodzina wyrobów 25 wg CPR 2024/3110
 
-Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres produktów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
+Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres wyrobów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
 
 ## O rodzinie wyrobów
 
-Rodzina 25 – Construction Adhesives – obejmuje wszystkie kleje przeznaczone do trwałego łączenia elementów budowlanych ze sobą lub z podłożem. Kluczowe kryterium włączenia do zakresu CPR 2024 to trwałe wbudowanie w obiekt oraz bezpośredni wpływ na spełnienie podstawowych wymagań budowlanych (BWR). Kleje do płytek ceramicznych decydują o trwałości okładzin podłogowych i ściennych, kleje do parkietu – o stabilności posadzek drewnianych, natomiast kleje montażowe – o integralności fasad i przeszkleń. Do rodziny 25 nie należą kleje tymczasowe ani produkty stosowane wyłącznie jako środki pomocnicze podczas budowy.
+Rodzina 25 – Construction Adhesives – obejmuje wszystkie kleje przeznaczone do trwałego łączenia elementów budowlanych ze sobą lub z podłożem. Kluczowe kryterium włączenia do zakresu CPR 2024 to trwałe wbudowanie w obiekt oraz bezpośredni wpływ na spełnienie podstawowych wymagań budowlanych (BWR). Kleje do płytek ceramicznych decydują o trwałości okładzin podłogowych i ściennych, kleje do parkietu – o stabilności posadzek drewnianych, natomiast kleje montażowe – o integralności fasad i przeszkleń. Do rodziny 25 nie należą kleje tymczasowe ani wyroby stosowane wyłącznie jako środki pomocnicze podczas budowy.
 
 Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C** (cementowe – zaprawa w proszku), **D** (dyspersyjne – gotowe do użycia, wyłącznie wnętrza) oraz **R** (reaktywne – epoksydowe lub poliuretanowe, najwyższa wytrzymałość). Do każdej grupy dochodzą klasy funkcjonalne 1 (standardowe) lub 2 (ulepszone), a także oznaczenia: **T** (obniżony spływ, do stosowania pionowego) i **S1/S2** (odkształcalność poprzeczna – konieczna przy ogrzewaniu podłogowym i dużych formatach).
 
@@ -84,7 +84,7 @@ Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dok
 ## Checklist producenta
 
 - [ ] Zidentyfikować klasę kleju wg EN 12004-1, EN 12004-2, EN 15836-1 lub EN 15836-2
-- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego produktu w asortymencie
+- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego wyrobu w asortymencie
 - [ ] Zlecić badania ITT w akredytowanym laboratorium notyfikowanym (system AVS 3)
 - [ ] Wdrożyć i udokumentować zakładową kontrolę produkcji (ZKP) zgodną z CPR 2024
 - [ ] Przeprowadzić badania emisji VOC i zawrzeć wyniki w DoP&C

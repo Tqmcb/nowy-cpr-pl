@@ -46,7 +46,7 @@ Nie musisz czekać na standardy UE. Możesz już teraz dodać do swoich etykiet 
 
 ### Krok 3: Przyjmij ustrukturyzowany format danych
 
-Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już teraz przygotowywać dane DoP&C w sposób ustrukturyzowany (np. w arkuszu danych produktu z oznaczonymi polami). Ułatwi to przyszłą migrację do formatu wymaganego przez KE.
+Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już teraz przygotowywać dane DoP&C w sposób ustrukturyzowany (np. w arkuszu danych wyrobu z oznaczonymi polami). Ułatwi to przyszłą migrację do formatu wymaganego przez KE.
 
 ## Porównanie: DoP&C papierowe vs. cyfrowe w 2026
 

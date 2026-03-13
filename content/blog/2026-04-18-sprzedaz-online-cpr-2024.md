@@ -4,7 +4,7 @@ date: "2026-04-18"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["sprzedaż online", "e-commerce", "CPR 2024", "dystrybutor", "obowiązki sprzedawcy"]
-excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający wyroby na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing produktu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
+excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający wyroby na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing wyrobu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
 image_url: /images/blog/sprzedaz-online-cpr-2024.jpg
 template: "analiza"
 ---
@@ -33,11 +33,11 @@ Kluczowa zasada: dystrybutor nie jest odpowiedzialny za pierwotną ocenę właś
 
 ---
 
-## Wymagania dotyczące listingu produktu w sklepie internetowym
+## Wymagania dotyczące listingu wyrobu w sklepie internetowym
 
 ### Obowiązek informacyjny przed zakupem
 
-Art. 15–16 CPR 2024 (dotyczący treści i udostępniania DoP&C) w połączeniu z art. 29 (sprzedaż online i na odległość) oraz przepisami dyrektywy o prawach konsumentów (2011/83/UE) nakłada na sprzedawcę internetowego obowiązek zapewnienia nabywcy dostępu do DoP&C **przed zawarciem umowy**. W praktyce oznacza to, że każdy listing produktu objętego normą zharmonizowaną powinien zawierać:
+Art. 15–16 CPR 2024 (dotyczący treści i udostępniania DoP&C) w połączeniu z art. 29 (sprzedaż online i na odległość) oraz przepisami dyrektywy o prawach konsumentów (2011/83/UE) nakłada na sprzedawcę internetowego obowiązek zapewnienia nabywcy dostępu do DoP&C **przed zawarciem umowy**. W praktyce oznacza to, że każdy listing wyrobu objętego normą zharmonizowaną powinien zawierać:
 
 - **Widoczne oznakowanie CE** — logo CE lub wyraźna informacja, że wyrób nosi oznakowanie CE wraz z numerem normy zharmonizowanej.
 - **Link do aktualnej DoP&C** — hiperłącze do strony producenta lub platformy cyfrowej, gdzie dokument jest bezpłatnie dostępny do pobrania. Brak tego linku w momencie zakupu może stanowić naruszenie obowiązków dystrybutora wynikających z CPR 2024.
@@ -46,7 +46,7 @@ Art. 15–16 CPR 2024 (dotyczący treści i udostępniania DoP&C) w połączeniu
 
 ### Zdjęcia i opisy — pułapka dla sprzedawcy
 
-Zarówno CPR 2024, jak i ogólne przepisy o nieuczciwych praktykach handlowych (dyrektywa 2005/29/WE) zakazują prezentowania wyrobów w sposób sugerujący właściwości, których wyrób nie posiada lub które nie zostały zadeklarowane. Sprzedawca, który w opisie produktu podaje klasę reakcji na ogień A1, a w DoP&C producenta zadeklarowana jest klasa E, naraża się na odpowiedzialność za wprowadzenie nabywcy w błąd — niezależnie od winy producenta.
+Zarówno CPR 2024, jak i ogólne przepisy o nieuczciwych praktykach handlowych (dyrektywa 2005/29/WE) zakazują prezentowania wyrobów w sposób sugerujący właściwości, których wyrób nie posiada lub które nie zostały zadeklarowane. Sprzedawca, który w opisie wyrobu podaje klasę reakcji na ogień A1, a w DoP&C producenta zadeklarowana jest klasa E, naraża się na odpowiedzialność za wprowadzenie nabywcy w błąd — niezależnie od winy producenta.
 
 ---
 
@@ -71,7 +71,7 @@ Zasada swobodnego przepływu towarów w UE oznacza, że wyrób z oznakowaniem CE
 
 ---
 
-## Co zrobić, gdy wystawiony produkt okaże się niezgodny?
+## Co zrobić, gdy wystawiony wyrób okaże się niezgodny?
 
 Art. 25 ust. 4 i 6 CPR 2024 nakładają na dystrybutora obowiązek działania w przypadku stwierdzenia lub uzasadnionego podejrzenia niezgodności wyrobu:
 
@@ -108,7 +108,7 @@ Przed wystawieniem wyrobu budowlanego w sklepie online warto sprawdzić:
 - Czy wyrób posiada wymagane oznakowanie CE (jeśli norma zharmonizowana obowiązuje)?
 - Czy DoP&C jest dostępna cyfrowo i aktualnej wersji?
 - Czy listing zawiera link do DoP&C lub wskazuje, gdzie ją znaleźć?
-- Czy opis produktu jest zgodny z deklarowanymi właściwościami w DoP&C?
+- Czy opis wyrobu jest zgodny z deklarowanymi właściwościami w DoP&C?
 - Czy w przypadku sprzedaży transgranicznej DoP&C jest dostępna w wymaganym języku?
 - Czy procedury wewnętrzne przewidują reagowanie na informacje o niezgodności wyrobu?
 

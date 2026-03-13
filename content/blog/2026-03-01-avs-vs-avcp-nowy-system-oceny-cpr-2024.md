@@ -57,7 +57,7 @@ Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobó
 
 **Co robi producent:** prowadzi FPC, sporządza dokumentację techniczną, pobiera próbki i dostarcza je do badań.
 **Co robi notyfikowane laboratorium techniczne (NTL):** przeprowadza wstępne badanie typu wyrobu (ITT) na podstawie próbek dostarczonych przez producenta.
-**Co robi jednostka notyfikowana (JN):** na podstawie wyników NTL ocenia właściwości użytkowe, **potwierdza prawidłowość określenia typu wyrobu i kategorii produktu**, a następnie wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
+**Co robi jednostka notyfikowana (JN):** na podstawie wyników NTL ocenia właściwości użytkowe, **potwierdza prawidłowość określenia typu wyrobu i kategorii wyrobu**, a następnie wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
 
 **Porównanie z AVCP 3:** to istotna zmiana! W starym CPR 305/2011 NTL wydawało jedynie raport z badań — bez certyfikatu i bez numeru NB na oznakowaniu CE. W nowym CPR 2024/3110 JN musi wydać pełny certyfikat i potwierdzić prawidłowość klasyfikacji wyrobu. Dla producentów działających dotychczas w AVCP 3 oznacza to konieczność zawarcia umowy z JN (nie tylko z laboratorium) i uzyskania certyfikatu.
 
@@ -88,7 +88,7 @@ Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa p
 
 - Producent samodzielnie oblicza GWP i inne wskaźniki środowiskowe (LCA zgodne z EN 15804+A2)
 - Jednostka notyfikowana **weryfikuje metodykę i dane** LCA — nie przeprowadza własnych obliczeń
-- JN wydaje **Raport walidacyjny EPD** (nie certyfikat produktu)
+- JN wydaje **Raport walidacyjny EPD** (nie certyfikat wyrobu)
 - Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opublikować EPD z niezależną weryfikacją (*third-party verified*)
 
 Szczegółową analizę kosztów, procedury i rynku walidacji EPD w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).

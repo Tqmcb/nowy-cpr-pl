@@ -60,7 +60,7 @@ Dla tynków gipsowych (EN 13279-1):
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C**: Konieczna aktualizacja wszystkich istniejących deklaracji. DoP&C musi zawierać sekcje środowiskowe i być dostępna cyfrowo. Dla wielkich producentów (Knauf, Rigips) to zadanie systemowe: setki produktów i wariantów muszą mieć zaktualizowane dokumenty.
+**DoP → DoP&C**: Konieczna aktualizacja wszystkich istniejących deklaracji. DoP&C musi zawierać sekcje środowiskowe i być dostępna cyfrowo. Dla wielkich producentów (Knauf, Rigips) to zadanie systemowe: setki wyrobów i wariantów muszą mieć zaktualizowane dokumenty.
 
 **Właściwości środowiskowe – gips ma przewagę**: CPR 2024 jest szansą dla producentów gipsu. Gips jako materiał wykazuje szereg korzystnych cech środowiskowych: pełna możliwość recyklingu (gips z rozbiórki może być przetworzony i użyty ponownie – zamknięta pętla recyklingu Knauf, Rigips), niskie GWP w porównaniu z alternatywnymi wyrobami ściennymi, zdolność do regulacji wilgotności (pasywna klimatyzacja wnętrz), naturalny surowiec (anhydryt, alabaster) lub produkt uboczny odsiarczania (FGD gypsum – gips syntetyczny z elektrowni).
 

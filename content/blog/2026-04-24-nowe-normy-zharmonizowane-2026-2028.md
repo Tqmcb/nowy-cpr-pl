@@ -132,7 +132,7 @@ Producenci wyrobów, których normy zharmonizowane będą aktualizowane w perspe
 1. **Zidentyfikować normy, które ich dotyczą** — sprawdzić, czy norma stosowana do ich wyrobu widnieje w planie prac CEN na lata 2026–2028.
 2. **Ocenić konieczność badań EPD** — dla wyrobów izolacyjnych i innych objętych wymogiem GWP warto już teraz zebrać dane do LCA.
 3. **Zaplanować budżet** — aktualizacja certyfikacji po wejściu nowej normy wiąże się z kosztami uzupełniających badań ITT oraz opłatami za audyt JN.
-4. **Poinformować wewnętrzny zespół R&D i produkcji** — zmiany w normie mogą wymagać modyfikacji produktu lub procesu produkcji.
+4. **Poinformować wewnętrzny zespół R&D i produkcji** — zmiany w normie mogą wymagać modyfikacji wyrobu lub procesu produkcji.
 5. **Negocjować z JN warunki bieżącej umowy** — wiele umów z JN przewiduje koszty ponownej certyfikacji po zmianie normy; warto wynegocjować korzystne stawki z wyprzedzeniem.
 
 ---

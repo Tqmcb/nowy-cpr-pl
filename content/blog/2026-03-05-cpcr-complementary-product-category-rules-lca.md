@@ -11,7 +11,7 @@ template: "techniczny"
 
 # CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych
 
-CPR 2024/3110 przewiduje, że deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym wskaźnika GWP (Global Warming Potential) — stanie się obowiązkiem. Obowiązek aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (zazwyczaj 12–36 miesięcy) następującego po publikacji nowej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE — na marzec 2026 żadna taka norma nie została jeszcze opublikowana. Kluczowym narzędziem do spełnienia tego wymogu jest Deklaracja Środowiskowa Produktu (EPD), która musi być oparta na rzetelnie przeprowadzonej analizie LCA (Life Cycle Assessment). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules**.
+CPR 2024/3110 przewiduje, że deklarowanie właściwości środowiskowych wyrobów budowlanych — w tym wskaźnika GWP (Global Warming Potential) — stanie się obowiązkiem. Obowiązek aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (zazwyczaj 12–36 miesięcy) następującego po publikacji nowej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE — na marzec 2026 żadna taka norma nie została jeszcze opublikowana. Kluczowym narzędziem do spełnienia tego wymogu jest Deklaracja Środowiskowa Wyrobu (EPD), która musi być oparta na rzetelnie przeprowadzonej analizie LCA (Life Cycle Assessment). Jednak sama norma EN 15804+A2 nie wystarczy. Dla każdej grupy wyrobów konieczne jest zastosowanie **CPCR — Complementary Product Category Rules**.
 
 ## Czym są CPCR?
 
@@ -58,7 +58,7 @@ CPCR określa, które moduły są **obowiązkowe (M)**, **opcjonalne (O)** lub *
 
 ### 4. Scenariusze końca życia (End-of-life scenarios)
 
-To jeden z kluczowych elementów CPCR. Dla wyrobów budowlanych często nieoczywiste jest, co dzieje się z produktem po rozbiórce budynku. CPCR precyzuje domyślne scenariusze — np.:
+To jeden z kluczowych elementów CPCR. Dla wyrobów budowlanych często nieoczywiste jest, co dzieje się z wyrobem po rozbiórce budynku. CPCR precyzuje domyślne scenariusze — np.:
 - dla stali: wskaźnik recyklingu na poziomie europejskiej średniej sektorowej
 - dla drewna: udział spalania energetycznego vs. składowania
 - dla betonu: crushing i re-użycie kruszywa

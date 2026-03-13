@@ -35,7 +35,7 @@ Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1
 1. **Producent** – ustanawia i prowadzi zakładową kontrolę produkcji (ZKP) zgodnie z wymaganiami normy EN 197-1 lub właściwej normy wyrobu.
 2. **Jednostka notyfikowana (NB)** – przeprowadza:
    - Certyfikację ZKP (audyt fabryki, przegląd procedur, badanie próbek w laboratorium NB)
-   - **Nadzorujące badanie próbek pobranych przed wprowadzeniem wyrobu na rynek** – to jest istota systemu 1+: NB pobiera próbki z rynku lub magazynu, badając czy produkt jest zgodny z deklaracją PRZED jego sprzedażą lub w ciągłej rotacji
+   - **Nadzorujące badanie próbek pobranych przed wprowadzeniem wyrobu na rynek** – to jest istota systemu 1+: NB pobiera próbki z rynku lub magazynu, badając czy wyrób jest zgodny z deklaracją PRZED jego sprzedażą lub w ciągłej rotacji
 3. **Wynik** – NB wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU/COCPC)
 
 W Polsce certyfikację cementu prowadzą m.in.:
@@ -73,7 +73,7 @@ Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród 
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowe deklarowanie GWP** – producenci cementu po raz pierwszy muszą deklarować ślad węglowy produktu w DoP&C (dotychczas było to dobrowolne w EPD).
+1. **Obowiązkowe deklarowanie GWP** – producenci cementu po raz pierwszy muszą deklarować ślad węglowy wyrobu w DoP&C (dotychczas było to dobrowolne w EPD).
 2. **System 3+ dla EPD** – jednostka notyfikowana wydaje raport walidacyjny dla EPD, co podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych.
 3. **DoP&C zamiast DoP** – rozszerzona deklaracja łączy właściwości użytkowe z właściwościami środowiskowymi.
 4. **Nacisk na cementy niskoemisyjne** – CPR 2024 promuje stosowanie materiałów o niskim GWP, co w praktyce oznacza przewagę konkurencyjną dla CEM III, CEM V i CEM VI.

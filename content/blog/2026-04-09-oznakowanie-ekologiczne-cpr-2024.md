@@ -36,7 +36,7 @@ EU Ecolabel **nie jest oparty na pełnej analizie cyklu życia (LCA)** — nie p
 
 ## EPD — ilościowa deklaracja oparta na LCA
 
-Deklaracja Środowiskowa Produktu (EPD, ang. *Environmental Product Declaration*) to dokument opracowywany zgodnie z normą EN 15804+A2 (specyficznie dla wyrobów budowlanych i budowlano-inżynieryjnych) lub normą ISO 14025 (dla pozostałych produktów). EPD jest dokumentem **ilościowym** — podaje konkretne wartości wskaźników wpływu środowiskowego dla określonej jednostki funkcjonalnej wyrobu.
+Deklaracja Środowiskowa Wyrobu (EPD, ang. *Environmental Product Declaration*) to dokument opracowywany zgodnie z normą EN 15804+A2 (specyficznie dla wyrobów budowlanych i budowlano-inżynieryjnych) lub normą ISO 14025 (dla pozostałych produktów). EPD jest dokumentem **ilościowym** — podaje konkretne wartości wskaźników wpływu środowiskowego dla określonej jednostki funkcjonalnej wyrobu.
 
 Kluczowe wskaźniki podawane w EPD (moduł A1–A3 jako minimum dla EPD „od kołyski do bramy"):
 - **GWP (Global Warming Potential)** — potencjał globalnego ocieplenia w kg CO2 eq./j.f.,

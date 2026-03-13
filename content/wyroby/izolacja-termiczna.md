@@ -33,7 +33,7 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 | Włókno drzewne WF | EN 13171 |
 | System ETICS z EPS (tynk mineralny/silikonowy) | EN 13499 |
 | System ETICS z wełną mineralną (tynk mineralny) | EN 13500 |
-| Produkty do izolacji instalacji (w budynkach) | EN 14303–14315 |
+| Wyroby do izolacji instalacji (w budynkach) | EN 14303–14315 |
 
 ## System AVS i certyfikacja
 

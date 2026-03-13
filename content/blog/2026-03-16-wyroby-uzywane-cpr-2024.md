@@ -44,7 +44,7 @@ Pierwotna DoP&C zachowuje swoją ważność i może być przekazana nabywcy uży
 1. **Wyrób nie został istotnie zmodyfikowany** — nie przeszedł procesów, które mogłyby zmienić jego zasadnicze właściwości użytkowe (wytrzymałość mechaniczna, ognioodporność, izolacyjność termiczna itp.),
 2. **Właściwości użytkowe wyrobu są nadal zgodne z zadeklarowanymi** — stan techniczny wyrobu odpowiada temu opisanemu w DoP&C,
 3. **DoP&C jest kompletna i aktualna** — tzn. odpowiada normie zharmonizowanej obowiązującej w momencie ponownego wprowadzenia wyrobu do obrotu, a nie normie z daty pierwotnego zakupu (jeżeli norma była aktualizowana),
-4. **Wyrób posiada nadal czytelne oznakowanie CE** lub możliwa jest jego identyfikacja przy użyciu unikalnego kodu produktu.
+4. **Wyrób posiada nadal czytelne oznakowanie CE** lub możliwa jest jego identyfikacja przy użyciu unikalnego kodu wyrobu.
 
 Jeśli choćby jeden z tych warunków nie jest spełniony, przekazanie pierwotnego DoP&C nie jest wystarczające.
 

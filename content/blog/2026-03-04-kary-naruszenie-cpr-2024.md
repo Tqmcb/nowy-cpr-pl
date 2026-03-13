@@ -30,7 +30,7 @@ W Polsce za tego rodzaju naruszenia grozi odpowiedzialność karna i cywilna —
 
 ### Naruszenia poważne
 
-- Brak unikalnego kodu identyfikacyjnego produktu
+- Brak unikalnego kodu identyfikacyjnego wyrobu
 - Brak cyfrowej dostępności DoP&C (link/QR kod)
 - DoP&C niezgodna z wymaganiami CPR 2024 (brak wymaganych pól)
 - Brak wymaganych informacji na etykiecie lub w oznakowaniu CE

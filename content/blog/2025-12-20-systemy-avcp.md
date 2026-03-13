@@ -4,7 +4,7 @@ date: "2025-12-20"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane", "CPR 2024"]
-excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
+excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego wyrobu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
 image_url: /images/blog/systemy-avcp.jpg
 template: "analiza"
 ---
@@ -174,7 +174,7 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 
 ## Koszty typowej certyfikacji
 
-> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju produktu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
+> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju wyrobu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
 
 ### System 2+ (przykład: prefabrykaty betonowe)
 

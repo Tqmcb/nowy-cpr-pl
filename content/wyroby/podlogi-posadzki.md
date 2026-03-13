@@ -86,7 +86,7 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 2. **Klasa E0 oficjalnie uznana** – obok E1 i E2.
 3. **Obowiązkowe deklarowanie GWP** – nowe dla całej rodziny.
 4. **Substancje SVHC** – producenci LVT (PVC) muszą sprawdzić i zadeklarować brak ftalanów DEHP, DBP, DIBP i BBP (wpisanych na listę SVHC REACH).
-5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia produktu.
+5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia wyrobu.
 
 ## Harmonogram wdrożenia
 

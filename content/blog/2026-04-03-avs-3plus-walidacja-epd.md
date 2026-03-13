@@ -23,7 +23,7 @@ Rola jednostki notyfikowanej (JN) w systemie 3+ jest zasadniczo różna od jej r
 
 - bada właściwości użytkowych wyrobu (wytrzymałości, odporności ogniowej itp.),
 - certyfikuje wyrobu ani zakładowej kontroli produkcji (FPC),
-- wydaje certyfikatu produktu.
+- wydaje certyfikatu wyrobu.
 
 Zamiast tego JN w systemie 3+ wykonuje **walidację**, która obejmuje:
 

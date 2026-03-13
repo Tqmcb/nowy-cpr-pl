@@ -1,10 +1,10 @@
 ---
-title: "QR kod i unikalny kod identyfikacyjny produktu w CPR 2024 — jak się przygotować"
+title: "QR kod i unikalny kod identyfikacyjny wyrobu w CPR 2024 — jak się przygotować"
 date: "2026-03-10"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
-tags: ["QR kod", "kod produktu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa"]
-excerpt: "CPR 2024/3110 wprowadza wymóg cyfrowej dostępności DoP&C (od 8.01.2026 wystarczy link/URL na stronie producenta) oraz unikalny kod identyfikacyjny produktu. Sam kod QR nie jest jeszcze obowiązkowy — stanie się nim po aktach delegowanych KE. Dowiedz się jak wdrożyć te wymogi krok po kroku."
+tags: ["QR kod", "kod wyrobu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa"]
+excerpt: "CPR 2024/3110 wprowadza wymóg cyfrowej dostępności DoP&C (od 8.01.2026 wystarczy link/URL na stronie producenta) oraz unikalny kod identyfikacyjny wyrobu. Sam kod QR nie jest jeszcze obowiązkowy — stanie się nim po aktach delegowanych KE. Dowiedz się jak wdrożyć te wymogi krok po kroku."
 image_url: /images/blog/qr-kod-unikalny-kod-produktu-c.jpg
 template: "przewodnik"
 ---
@@ -14,14 +14,14 @@ template: "przewodnik"
 > **Stan prawny — marzec 2026:**
 > - ✅ **Dostęp online do DoP&C obowiązkowy od 8.01.2026** — producent musi udostępnić DoP&C bezpłatnie w internecie (link/URL na stronie producenta, PDF do pobrania). Spełnienie tego wymogu nie wymaga kodu QR — wystarczy adres URL w dokumentacji.
 > - ⚠️ **Kod QR na wyrobie/opakowaniu — jeszcze nie obowiązkowy.** QR kod to najwygodniejszy sposób na spełnienie wymogu cyfrowej dostępności, ale obowiązkowy będzie dopiero po opublikowaniu przez KE aktów delegowanych (oczekiwanych nie wcześniej niż 2027).
-> - ⚠️ **Unikalny kod identyfikacyjny produktu (UPC)** — wymóg wynika z CPR 2024/3110, jednak realne ryzyko kar jest niskie, gdyż polska Nowa Ustawa o Wyrobach Budowlanych (NUWB) nie została jeszcze uchwalona.
+> - ⚠️ **Unikalny kod identyfikacyjny wyrobu (UPC)** — wymóg wynika z CPR 2024/3110, jednak realne ryzyko kar jest niskie, gdyż polska Nowa Ustawa o Wyrobach Budowlanych (NUWB) nie została jeszcze uchwalona.
 > - ❌ **Cyfrowy Paszport Produktu (DPP) — nie obowiązuje** do czasu opublikowania nowych norm zharmonizowanych (hTS) i aktów wykonawczych KE.
 
 Rozporządzenie CPR 2024/3110 wprowadza nowe wymagania dotyczące cyfrowej dostępności dokumentacji wyrobów budowlanych. Od 8 stycznia 2026 roku DoP&C (Deklaracja Właściwości Użytkowych i Zgodności) musi być dostępna online — producent musi zapewnić bezpłatny dostęp do aktualnego dokumentu przez minimum 10 lat. Celem tej zmiany jest umożliwienie wszystkim uczestnikom łańcucha dostaw natychmiastowego dostępu do aktualnej dokumentacji wyrobu. Poniżej opisujemy jak technicznie wdrożyć te wymogi — od najprostszego (link/URL) po najbardziej zaawansowane (QR kod, GS1 Digital Link).
 
-## Czym jest unikalny kod identyfikacyjny produktu?
+## Czym jest unikalny kod identyfikacyjny wyrobu?
 
-Zgodnie z art. 22 ust. 5 CPR 2024, każdy wyrób budowlany objęty obowiązkiem oznakowania CE musi posiadać unikalny kod identyfikacyjny produktu (ang. unique product identifier). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i powiązanie go z jego dokumentacją techniczną, w szczególności z DoP&C.
+Zgodnie z art. 22 ust. 5 CPR 2024, każdy wyrób budowlany objęty obowiązkiem oznakowania CE musi posiadać unikalny kod identyfikacyjny wyrobu (ang. unique product identifier). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i powiązanie go z jego dokumentacją techniczną, w szczególności z DoP&C.
 
 Rozporządzenie nie narzuca jednego konkretnego standardu, jednak w praktyce rynkowej dominuje standard GS1, a w jego ramach globalny numer jednostki handlowej GTIN (ang. Global Trade Item Number). GTIN jest 14-cyfrowym numerem, który identyfikuje wyroby handlowe na całym świecie. Składa się z:
 
@@ -33,9 +33,9 @@ Korzystanie z systemu GTIN jest szczególnie rekomendowane, gdy wyrób jest dyst
 
 ## Kod QR jako nośnik identyfikatora i link do DoP&C
 
-CPR 2024 wymaga, aby unikalny kod identyfikacyjny produktu był umieszczony na wyrobie, jego opakowaniu lub w towarzyszącej dokumentacji w formie umożliwiającej maszynowy odczyt. W praktyce najwygodniejszą formą jest kod QR (Quick Response), który:
+CPR 2024 wymaga, aby unikalny kod identyfikacyjny wyrobu był umieszczony na wyrobie, jego opakowaniu lub w towarzyszącej dokumentacji w formie umożliwiającej maszynowy odczyt. W praktyce najwygodniejszą formą jest kod QR (Quick Response), który:
 
-- może zawierać zarówno sam identyfikator produktu, jak i bezpośredni URL do strony z DoP&C,
+- może zawierać zarówno sam identyfikator wyrobu, jak i bezpośredni URL do strony z DoP&C,
 - jest czytelny dla każdego smartfona wyposażonego w aparat,
 - nie wymaga instalacji specjalnej aplikacji przez użytkownika końcowego,
 - jest tani w generowaniu i nanoszeniu (nadruk, etykieta, grawerowanie laserowe).
@@ -108,7 +108,7 @@ Taki system powinien automatycznie:
 | Data | Wymóg | Status |
 |------|-------|--------|
 | **8 stycznia 2026** | Cyfrowy dostęp do DoP&C (link/URL na stronie producenta) | ✅ Obowiązuje — URL wystarczy |
-| **8 stycznia 2026** | Unikalny kod identyfikacyjny produktu (UPC) | ✅ Obowiązuje — ryzyko kar niskie (NUWB w trakcie uchwalania) |
+| **8 stycznia 2026** | Unikalny kod identyfikacyjny wyrobu (UPC) | ✅ Obowiązuje — ryzyko kar niskie (NUWB w trakcie uchwalania) |
 | **po aktach delegowanych KE (ok. 2027)** | Obowiązkowy QR kod na etykiecie / wyrobie | ⏳ Wymaga aktów delegowanych KE |
 | **po publikacji nowej hTS + zakończeniu koegzystencji** | Deklarowanie GWP i wskaźników środowiskowych | ⏳ Żadna nowa hTS jeszcze nie opublikowana |
 | **po hTS + aktach KE (ok. 2028–2029)** | Cyfrowy Paszport Produktu (DPP) | ⏳ Nie obowiązuje |

@@ -55,7 +55,7 @@ Jeśli Twój wyrób należy do tych rodzin — przygotuj się w pierwszej kolejn
 
 ## Co to jest EPD i czy jest obowiązkowe?
 
-**EPD (Environmental Product Declaration)** — Deklaracja Środowiskowa Produktu — to dokument, który zawiera weryfikowane dane środowiskowe wyrobu, w tym GWP. Sporządza się ją zgodnie z normą **EN 15804+A2**.
+**EPD (Environmental Product Declaration)** — Deklaracja Środowiskowa Wyrobu — to dokument, który zawiera weryfikowane dane środowiskowe wyrobu, w tym GWP. Sporządza się ją zgodnie z normą **EN 15804+A2**.
 
 Ważne rozróżnienie: EPD jako samodzielny dokument pozostaje **dobrowolna**. Ale **dane środowiskowe** (w tym GWP) zadeklarowane w DoP&C — na podstawie obliczeń LCA zgodnych z EN 15804 — stają się **obowiązkowe** po aktualizacji normy zharmonizowanej.
 

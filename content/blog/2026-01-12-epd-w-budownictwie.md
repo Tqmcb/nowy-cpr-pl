@@ -1,5 +1,5 @@
 ---
-title: "EPD w budownictwie - Deklaracje Środowiskowe Produktu"
+title: "EPD w budownictwie - Deklaracje Środowiskowe Wyrobu"
 date: "2026-01-12"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
@@ -9,9 +9,9 @@ image_url: /images/blog/epd-w-budownictwie.jpg
 template: "analiza"
 ---
 
-# EPD w budownictwie - Deklaracje Środowiskowe Produktu
+# EPD w budownictwie - Deklaracje Środowiskowe Wyrobu
 
-Deklaracja Środowiskowa Produktu (EPD - Environmental Product Declaration) to dokument potwierdzający wpływ wyrobu budowlanego na środowisko w całym cyklu życia.
+Deklaracja Środowiskowa Wyrobu (EPD - Environmental Product Declaration) to dokument potwierdzający wpływ wyrobu budowlanego na środowisko w całym cyklu życia.
 
 ## Co to jest EPD?
 
