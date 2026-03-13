@@ -24,7 +24,7 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 | System 3 | JN przeprowadza ITT (przez notyfikowane laboratorium, próbki od producenta) | JN przeprowadza ITT przez notyfikowane laboratorium (próbki od producenta); wydaje certyfikat właściwości użytkowych i zgodności wyrobu |
 | EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
 | FPC | Wymagane we wszystkich systemach (w systemie 4 zakres minimalny) | Wymagane we wszystkich systemach |
-| Treść certyfikatu | Certyfikat stałości właściwości użytkowych | Certyfikat stałości właściwości użytkowych i zgodności wyrobu (systemy 1+, 1) / certyfikat zgodności zakładowej kontroli produkcji (system 2+) |
+| Treść certyfikatu | Certyfikat stałości właściwości użytkowych | Certyfikat stałości właściwości użytkowych i zgodności wyrobu (systemy 1+, 1) / certyfikat zgodności zakładowej kontroli produkcji (system 2+) / certyfikat właściwości użytkowych i zgodności wyrobu (system 3) |
 
 ## Jak działają poszczególne poziomy AVS?
 
@@ -77,7 +77,7 @@ Stosowany do wyrobów o najniższym ryzyku: folie paroizolacyjne, ograniczone za
 
 **Co nowego w CPR 2024:** Jednostka notyfikowana może teraz być zaangażowana **po wprowadzeniu wyrobu na rynek** — w ramach **nadzoru rynku**. Nowe przepisy umożliwiają organom nadzoru zlecanie JN pobierania próbek i badania wyrobów z systemu 4 w celu weryfikacji deklarowanych właściwości.
 
-To oznacza, że producent w systemie AVS 4 nadal nie musi angażować JN do certyfikacji — ale musi być gotowy, że jego wyroby mogą być weryfikowane przez JN na zlecenie GUNB lub innego organu nadzoru.
+To oznacza, że producent w systemie AVS 4 nadal nie musi angażować JN do certyfikacji — ale musi być gotowy, że jego wyroby mogą być weryfikowane przez JN na zlecenie GUNB, WINB (Wojewódzki Inspektorat Nadzoru Budowlanego) lub innego organu nadzoru rynku.
 
 ## System 3+ dla EPD — szczegóły procedury
 
@@ -111,7 +111,7 @@ Uwaga: dla jednego wyrobu możliwe są **różne systemy dla różnych właściw
 Twoja ścieżka certyfikacji jest podobna — procedura ITT jest zasadniczo taka sama: notyfikowane laboratorium JN przeprowadza badania na próbkach dostarczonych przez Ciebie. Certyfikat ma nową nazwę: „certyfikat właściwości użytkowych i zgodności wyrobu". Zaktualizuj umowę z JN i sprawdź czy zakres umowy odpowiada wymaganiom Załącznika IX CPR 2024.
 
 **Jeśli działałeś w AVCP 4:**
-Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB ma teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
+Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB i WINB (wojewódzkie inspektoraty nadzoru budowlanego) mają teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
 
 **Jeśli planujesz deklarować dane środowiskowe:**
 Rozważ System 3+. Walidacja EPD przez JN nie jest droga (porównywalna z kosztem systemu 3), a podnosi wiarygodność deklaracji i otwiera rynki z wymaganiami GPP.
