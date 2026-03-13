@@ -12,6 +12,7 @@ import {
   Briefcase,
   Newspaper,
   Calendar,
+  HelpCircle,
 } from "lucide-react";
 
 export function Header() {
@@ -82,6 +83,10 @@ export function Header() {
               <Calendar className="w-4 h-4" />
               Harmonogram
             </NavLink>
+            <NavLink to="/faq" className={navLinkClass}>
+              <HelpCircle className="w-4 h-4" />
+              FAQ
+            </NavLink>
             <NavLink to="/blog" className={navLinkClass}>
               <Newspaper className="w-4 h-4" />
               Aktualności
@@ -118,6 +123,7 @@ export function Header() {
               { path: "/documents", label: "Wzory", icon: FileText },
               { path: "/services", label: "Usługi", icon: Briefcase },
               { path: "/harmonogram", label: "Harmonogram", icon: Calendar },
+              { path: "/faq", label: "FAQ", icon: HelpCircle },
               { path: "/blog", label: "Aktualności", icon: Newspaper }
             ].map((item, index) => (
               <NavLink
