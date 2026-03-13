@@ -43,7 +43,7 @@ Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału 
 Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **systemem AVS 1** – najwyższym poziomem nadzoru nad stałością właściwości użytkowych:
 
 - **System AVS 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Producent może wystawić **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** dopiero po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
-- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): jednostka notyfikowana wykonuje wyłącznie ITT; producent samodzielnie certyfikuje ZKP i wystawia DoP&C.
+- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP i wystawia DoP&C.
 
 **System 3+** – walidacja środowiskowych EPD; istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
 

@@ -35,7 +35,7 @@ Rodzina obejmuje: systemy kominowe ceramiczne (kamionkowe wkłady kominowe), sys
 
 Systemy kominowe podlegają systemowi **AVS 3 lub AVS 4**, w zależności od konkretnej normy zharmonizowanej i kategorii wyrobu:
 
-**System AVS 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wystawia DoP&C.
+**System AVS 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 4** może mieć zastosowanie dla prostszych elementów uzupełniających (czapki kominowe, przewody elastyczne do zastosowań mniej krytycznych), gdzie producent samodzielnie wykonuje ITT bez zaangażowania jednostki notyfikowanej.
 
@@ -78,7 +78,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Przykłady wyrobów
 
-**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do laboratorium ceramicznego (np. ICiMB), uzyskuje raport ITT i samodzielnie wystawia DoP&C z pełną klasyfikacją.
+**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do NTL (np. ICiMB), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
 
 **Stalowy elastyczny wkład kominowy**: Przewód ze stali kwasoodpornej 316L, DN 130 mm, klasa T120 N1 W, przeznaczony do kotłów gazowych. EN 1856-2, system AVS 3. Producent deklaruje szczelność, odporność korozyjną, zakres temperatur pracy.
 

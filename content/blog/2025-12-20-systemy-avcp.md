@@ -63,7 +63,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 
 ---
 
-### System 3+ (NOWY w CPR 2024/3110)
+### System 3+ (NOWY — wprowadzony przez Rozporządzenie delegowane (UE) 2024/2769, przejęty przez CPR 2024/3110)
 
 **Zakres**:
 - Dedykowany **ocenie zrównoważoności środowiskowej** (LCA, GWP, EPD)
@@ -85,7 +85,9 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 ### System 3
 
 **Zakres**:
-- Badania typu przez jednostkę notyfikowaną
+- Badania typu (ITT) przeprowadza notyfikowane laboratorium techniczne (NTL)
+- Jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — istotna zmiana wobec starego AVCP 3, gdzie NTL wydawało jedynie raport z badań
+- Numer JN pojawia się w oznakowaniu CE
 - FPC prowadzone przez producenta (bez certyfikacji)
 
 **Produkty**:

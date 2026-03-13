@@ -40,7 +40,7 @@ Rodzina 12 jest zróżnicowana pod względem systemu AVS:
 
 Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na akredytowanych torach badawczych. W Europie funkcjonuje kilka laboratoriów zdolnych do przeprowadzenia testów wg EN 1317 z pełnym monitoringiem (akcelerometry, kamery szybkie, pomiary odkształceń). Wyniki testów zderzeniowych stanowią podstawę raportu z klasyfikacji.
 
-**System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wydaje DoP&C.
+**System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów drogowych oferuje [Multicert](https://www.multicert.pl). Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
 
@@ -99,16 +99,16 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 **Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVS 1 – producent posiada CoCP od jednostki notyfikowanej potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
 
-**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – producent przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy) i wystawia DoP&C.
+**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – NTL przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy), JN wydaje certyfikat, producent wystawia DoP&C.
 
-**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVS 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do laboratorium fotometrycznego, uzyskuje raport NB i wystawia DoP&C.
+**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVS 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do NTL (laboratorium fotometryczne), uzyskuje certyfikat od JN i wystawia DoP&C.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę EN (EN 1317-2 dla barier, EN 12767 dla słupów, EN 1463-1 dla folii) dla każdego wyrobu
 - [ ] Ustalić system AVS: AVS 1 dla barier ochronnych, AVS 3 dla słupów i znaków
 - [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
-- [ ] Uzyskać certyfikat CoCP (bariery) lub raport ITT (słupy, znaki) od jednostki notyfikowanej
+- [ ] Uzyskać certyfikat CoCP (bariery, AVS 1) lub certyfikat właściwości użytkowych i zgodności (słupy, znaki, AVS 3) od JN
 - [ ] Wdrożyć FPC z kontrolą stali (skład chemiczny, grubość), cynkowania (grubość powłoki) i wymiarów
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) z klasyfikacją EN 1317 lub EN 12767 i udostępnić cyfrowo
 - [ ] Zebrać dane o zawartości stali z recyklingu od hut dostawczych (pod kątem EPD i wymagań GPP GDDKiA)

@@ -38,7 +38,7 @@ Rodzina 21 obejmuje również **systemy ETICS** (ang. External Thermal Insulatio
 
 Dla wyrobów z rodziny 21 obowiązuje:
 
-- **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Jednostka notyfikowana przeprowadza badania ITT (w tym badania ogniowe).
+- **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników środowiskowych.
 
@@ -114,7 +114,7 @@ Producent tynku silikonowego ziarnistego (baranek 1,5 mm) przeznaczonego do wyko
 
 Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoinowa):
 1. Badania ogniowe zestawu wg EN 1364-1 w akredytowanym laboratorium – uzyskany wynik EI 60
-2. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
+2. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 3. Klasyfikacja wg EN 13501-2: EI 60
 4. DoP&C dla zestawu: EI 60, odporność akustyczna Rw=45dB, A2-s1,d0
 

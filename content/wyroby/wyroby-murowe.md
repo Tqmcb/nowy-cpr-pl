@@ -38,7 +38,7 @@ Z perspektywy środowiskowej ceramika murowa (cegły wypalane) należy do materi
 Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 
 - **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez NB jest wymagany do oznakowani CE wyrobu przeznaczonego do zastosowań nośnych.
-- **System AVS 3** – dla elementów nienośnych lub dekoracyjnych, gdzie NB przeprowadza jedynie badania wstępne, a producent prowadzi ZKP samodzielnie.
+- **System AVS 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
 - **System AVS 3+** – walidacja EPD dla producentów dążących do deklarowania GWP.
 

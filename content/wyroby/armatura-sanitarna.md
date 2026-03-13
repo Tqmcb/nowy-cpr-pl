@@ -36,7 +36,7 @@ Rodzina obejmuje: miski ustępowe (WC) – podwieszane i stojące, zbiorniki sp�
 
 Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
 
-**System AVS 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wydaje DoP&C.
+**System AVS 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 4** może być stosowany dla prostszych wyrobów i akcesoriów sanitarnych, gdzie producent samodzielnie przeprowadza ITT i zarządza całą dokumentacją. Dotyczy to m.in. zlewów ze stali nierdzewnej (EN 13310), prostych brodzików z tworzyw sztucznych.
 
@@ -91,7 +91,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 ## Przykłady wyrobów
 
-**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl)), uzyskuje raport ITT od NB i wystawia DoP&C. System AVS 3.
+**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVS 3.
 
 **Wanna akrylowa 170×75 cm**: Wanna z akrylu ABS 4 mm (wzmocnienie spodnie), długość 170 cm ±10 mm, ugięcie pod 150 kg ≤ 8 mm, odporność na detergenty potwierdzona, Ra ≤ 0,1 µm. EN 14527, system AVS 3. DoP&C zawiera deklarację materiałową i wartości wytrzymałościowe.
 
@@ -101,7 +101,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu sanitarnego (EN 997, EN 14688, EN 14527, EN 13310)
 - [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT w akredytowanym laboratorium
-- [ ] Dla AVS 3 – uzyskać raport ITT od jednostki notyfikowanej ([Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl))
+- [ ] Dla AVS 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN ([Multicert](https://www.multicert.pl))
 - [ ] Sprawdzić skład glazur ceramicznych – wykluczyć ołów i kadm powyżej limitów EN 1388
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) dla każdego wyrobu i wdrożyć cyfrowe udostępnianie
 - [ ] Wdrożyć FPC z kontrolą wymiarów, jakości glazury i wyników badań partii produkcyjnych

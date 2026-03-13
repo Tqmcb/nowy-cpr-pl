@@ -35,7 +35,7 @@ Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C
 Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**, zależnie od klasy wyrobu i deklarowanego zastosowania.
 
 - **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
-- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: niezależna jednostka notyfikowana przeprowadza wstępne badanie typu (ITT) i wydaje raport z badań. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** na podstawie tych wyników.
+- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
 CPR 2024 wprowadza ponadto **system 3+** dla walidacji deklaracji środowiskowych – jednostka notyfikowana weryfikuje EPD (Environmental Product Declaration) i wydaje raport walidacji, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
 

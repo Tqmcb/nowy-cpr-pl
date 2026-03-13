@@ -35,7 +35,7 @@ System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcj
 
 **System AVS 1** obowiązuje dla drzwi, okien, bram i żaluzji z charakterystyką odporności ogniowej lub dymoszczelności (norma EN 16034 w połączeniu z EN 14351-1, EN 14351-2 lub EN 13241). W systemie AVS 1 jednostka notyfikowana przeprowadza wstępne badanie ITT, certyfikuje zakładową kontrolę produkcji FPC oraz wydaje certyfikat stałości właściwości użytkowych (CoCP). Nadzór nad FPC jest ciągły (audyty roczne).
 
-**System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 jednostka notyfikowana przeprowadza wyłącznie badanie ITT i wydaje raport z badania. Producent samodzielnie wydaje DoP&C i certyfikuje FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego.
+**System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie wydaje DoP&C i prowadzi FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego; numer JN pojawia się w oznakowaniu CE.
 
 Dla produktów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
 

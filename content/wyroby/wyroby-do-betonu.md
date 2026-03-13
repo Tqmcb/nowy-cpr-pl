@@ -43,7 +43,7 @@ Do rodziny 26 należą również wyroby do naprawy betonu (zaprawy naprawcze wg 
 Dla rodziny 26 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **2+** i **3**:
 
 - **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
-- **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): jednostka notyfikowana przeprowadza wstępne badanie typu (ITT), producent samodzielnie certyfikuje ZKP.
+- **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
 
 W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla deklaracji środowiskowych (EPD) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
 

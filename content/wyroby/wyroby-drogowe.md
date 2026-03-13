@@ -40,7 +40,7 @@ Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
 
 **System AVS 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
 
-**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Jednostka notyfikowana przeprowadza badania wstępne ITT, producent prowadzi ZKP samodzielnie bez certyfikacji NB.
+**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 
@@ -113,7 +113,7 @@ Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 
 Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 1. Badania ITT wg EN 14023: penetracja, punkt mięknienia, odporność na starzenie RTFOT+PAV
-2. System AVS 3 – badania w laboratorium ([ITCZLin](https://www.itczlin.pl)), ZKP u producenta
+2. System AVS 3 – badania ITT w NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
 3. Sprawdzenie zawartości PAH (poliaromatycznych węglowodorów) wg REACH
 4. DoP&C: PMB 45/80-55, zawartość polimeru min. 3,5% SBS, brak PAH ponad limity REACH
 
@@ -123,7 +123,7 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 - [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
 - [ ] Certyfikacja ZKP przez NB ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
-- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NB ([ITCZLin](https://www.itczlin.pl)), wdrożenie ZKP
+- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
 - [ ] Wystawienie DoP&C z deklaracją klas właściwości, GWP i cyrkulacyjnych wskaźników

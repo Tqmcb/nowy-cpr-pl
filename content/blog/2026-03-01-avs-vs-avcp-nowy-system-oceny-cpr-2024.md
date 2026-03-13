@@ -21,10 +21,10 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 |---|---|---|
 | Nazewnictwo | AVCP 1+, 1, 2+, 3, 4 (5 systemów) | AVS 1+, 1, 2+, 3, **3+**, 4 (6 systemów — 3+ jest nowy) |
 | System 4 | Jednostka notyfikowana: brak roli | Jednostka notyfikowana: może sprawdzać próbki z rynku |
-| System 3 | NTL przeprowadza ITT (próbki od producenta); wydaje raport z badań | NTL przeprowadza ITT (próbki od producenta); wydaje raport z badań (nie certyfikat) |
+| System 3 | NTL przeprowadza ITT (próbki od producenta); wydaje raport z badań | NTL przeprowadza ITT; **JN wydaje certyfikat właściwości użytkowych i zgodności** (istotna zmiana!) |
 | EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
 | FPC | Wymagane we wszystkich systemach (w systemie 4 zakres minimalny) | Wymagane we wszystkich systemach |
-| Dokumenty od JN/NTL | Certyfikat stałości właściwości użytkowych (systemy 1+, 1) / certyfikat FPC (system 2+) | Certyfikat stałości właściwości użytkowych i zgodności wyrobu (systemy 1+, 1) / certyfikat zgodności FPC (system 2+) / raport z badań NTL (system 3) / raport walidacyjny EPD (system 3+) |
+| Dokumenty od JN/NTL | Certyfikat stałości właściwości użytkowych (systemy 1+, 1) / certyfikat FPC (system 2+) / raport z badań NTL (system 3) | Certyfikat właściwości użytkowych i zgodności wyrobu (systemy 1+, 1, **3**) / certyfikat zgodności FPC (system 2+) / raport walidacyjny EPD (system 3+) |
 
 ## Jak działają poszczególne poziomy AVS?
 
@@ -51,18 +51,21 @@ Stosowany do wyrobów o umiarkowanych wymaganiach, np. część wyrobów do dach
 **Co robi producent:** przeprowadza ITT, prowadzi FPC.
 **Co robi jednostka notyfikowana:** certyfikuje system FPC producenta na podstawie audytu i przeprowadza inspekcje nadzorcze FPC. Próbki bada producent — nie JN. Numer JN pojawia się w oznakowaniu CE.
 
-### AVS 3 — lekki z udziałem JN
+### AVS 3 — istotna zmiana wobec AVCP 3
 
 Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobów z systemem AVCP 3 w starym CPR.
 
-**Co robi producent:** prowadzi FPC, sporządza dokumentację techniczną, dostarcza próbki do badań.
-**Co robi notyfikowane laboratorium techniczne (NTL):** przeprowadza wstępne badanie typu wyrobu (ITT) na podstawie próbek dostarczonych przez producenta. Wydaje **raport z badań** (nie certyfikat). Numer NTL nie pojawia się w oznakowaniu CE.
+**Co robi producent:** prowadzi FPC, sporządza dokumentację techniczną, pobiera próbki i dostarcza je do badań.
+**Co robi notyfikowane laboratorium techniczne (NTL):** przeprowadza wstępne badanie typu wyrobu (ITT) na podstawie próbek dostarczonych przez producenta.
+**Co robi jednostka notyfikowana (JN):** na podstawie wyników NTL ocenia właściwości użytkowe, **potwierdza prawidłowość określenia typu wyrobu i kategorii produktu**, a następnie wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
 
-**Porównanie z AVCP 3:** w starym i nowym CPR procedura jest zasadniczo taka sama — notyfikowane laboratorium przeprowadza badania na próbkach dostarczonych przez producenta. Różnica polega na większej roli FPC w dokumentacji.
+**Porównanie z AVCP 3:** to istotna zmiana! W starym CPR 305/2011 NTL wydawało jedynie raport z badań — bez certyfikatu i bez numeru NB na oznakowaniu CE. W nowym CPR 2024/3110 JN musi wydać pełny certyfikat i potwierdzić prawidłowość klasyfikacji wyrobu. Dla producentów działających dotychczas w AVCP 3 oznacza to konieczność zawarcia umowy z JN (nie tylko z laboratorium) i uzyskania certyfikatu.
+
+> **Uwaga:** Interpretacja zakresu obowiązków JN w nowym systemie 3 budzi rozbieżności wśród jednostek notyfikowanych w różnych krajach UE (zob. stanowisko EuroWindoor z XI/2025). Zalecamy kontakt z wybraną JN w celu ustalenia aktualnych wymagań.
 
 ### AVS 3+ — nowość: walidacja danych środowiskowych EPD
 
-To zupełnie nowy system, nieistniejący w starym AVCP. Dotyczy wyłącznie walidacji danych środowiskowych (EPD) przez jednostkę notyfikowaną.
+System 3+ nie istniał w oryginalnym AVCP z CPR 305/2011. Został wprowadzony najpierw przez Rozporządzenie delegowane (UE) 2024/2769 (zmiana Załącznika V starego CPR, w życie od 17.11.2024), a następnie przejęty przez CPR 2024/3110 w Załączniku IX. Dotyczy wyłącznie walidacji danych środowiskowych (EPD) przez jednostkę notyfikowaną.
 
 **Co robi producent:** przeprowadza ITT i FPC samodzielnie, sporządza EPD opartą na ocenie LCA zgodnej z EN 15804+A2.
 **Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny EPD** potwierdzający wiarygodność deklaracji środowiskowych.
@@ -108,7 +111,7 @@ Uwaga: dla jednego wyrobu możliwe są **różne systemy dla różnych właściw
 ## Praktyczne konsekwencje dla producenta
 
 **Jeśli działałeś w AVCP 3:**
-Twoja ścieżka jest podobna — procedura ITT zasadniczo taka sama: notyfikowane laboratorium techniczne (NTL) przeprowadza badania na próbkach dostarczonych przez Ciebie i wydaje raport z badań. Zaktualizuj umowę z NTL i sprawdź czy zakres umowy odpowiada wymaganiom Załącznika IX CPR 2024.
+To jedna z najważniejszych zmian! W starym systemie wystarczył raport z badań NTL. W nowym AVS 3 jednostka notyfikowana (JN) musi wydać **certyfikat właściwości użytkowych i zgodności wyrobu**, a jej numer pojawi się w oznakowaniu CE. Musisz więc nie tylko zaktualizować umowę z laboratorium badawczym, ale też **zawrzeć umowę z JN** na certyfikację w systemie AVS 3.
 
 **Jeśli działałeś w AVCP 4:**
 Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB i WINB (wojewódzkie inspektoraty nadzoru budowlanego) mają teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
@@ -124,6 +127,7 @@ Przejście z AVCP na AVS to ewolucja, nie rewolucja. Numery systemów (1+ do 4) 
 - Aktywna rola JN w nadzorze rynku nawet dla systemu 4
 - Wyraźniejsze wymagania FPC dla importowanych wyrobów
 - Nowe nazwy certyfikatów w systemach 1+, 1 i 2+ (dodano „i zgodności")
+- **System 3 wymaga teraz certyfikatu JN** (w starym AVCP 3 wystarczał raport z badań NTL)
 
 Producenci, którzy mają aktualne certyfikaty i raporty z JN, mogą kontynuować działalność — ale powinni sprawdzić czy umowy z JN odpowiadają nowym wymaganiom i czy dokumentacja FPC jest kompletna.
 
@@ -134,3 +138,5 @@ Producenci, którzy mają aktualne certyfikaty i raporty z JN, mogą kontynuowa�
 - Kiwa — CPR 2024 dla producentów — [kiwa.com](https://www.kiwa.com/en/insights/stories/what-does-the-new-cpr-mean-for-you/)
 - Construction Products Europe — przewodnik po AVS — [construction-products.eu](https://construction-products.eu/publications/cpr-2/)
 - NANDO — baza jednostek notyfikowanych UE — [ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando/)
+- Rozporządzenie delegowane (UE) 2024/2769 (wprowadzenie systemu 3+ do CPR 305/2011) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402769)
+- EuroWindoor — stanowisko dot. rozbieżności w interpretacji AVS 3 (XI/2025) — [eurowindoor.eu](https://www.eurowindoor.eu/publications/eurowindoor-information-on-the-implementation-and-involvement-of-notified-bodies-nb-in-new-avs-3-different-understanding-by-nb/)

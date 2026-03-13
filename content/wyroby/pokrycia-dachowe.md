@@ -38,7 +38,7 @@ Jedną ze specyfik rodziny 22 jest klasa odporności ogniowej **BROOF** – klas
 
 Dla wyrobów z rodziny 22 obowiązuje:
 
-- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Jednostka notyfikowana przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), producent prowadzi ZKP.
+- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
 - **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 
@@ -102,7 +102,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 Polska cegielnia produkująca dachówki ceramiczne dachówkowe (łukowe) w różnych kolorach angobowanych:
 1. Badania ITT wg EN 1304: wytrzymałość na zginanie, absorpcja wody, mrozoodporność (F2 – 150 cykli), masy pozornej
 2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium NB ([ITCZLin](https://www.itczlin.pl))
-3. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
+3. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 4. EPD z GWP 280 kg CO2eq/t – dachówka ceramiczna może być deklarowana jako wyrób trwały (min. 50 lat) z niskim GWP na rok użytkowania
 5. DoP&C: klasa BROOF(t2), absorpcja wody <15%, klasa mrozoodporności F2, trwałość 50+ lat
 
