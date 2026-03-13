@@ -10,7 +10,8 @@ import {
   Home,
   Building2,
   Briefcase,
-  Newspaper
+  Newspaper,
+  Calendar,
 } from "lucide-react";
 
 export function Header() {
@@ -77,6 +78,10 @@ export function Header() {
               <Briefcase className="w-4 h-4" />
               Usługi
             </NavLink>
+            <NavLink to="/harmonogram" className={navLinkClass}>
+              <Calendar className="w-4 h-4" />
+              Harmonogram
+            </NavLink>
             <NavLink to="/blog" className={navLinkClass}>
               <Newspaper className="w-4 h-4" />
               Aktualności
@@ -112,6 +117,7 @@ export function Header() {
               { path: "/wyroby", label: "Katalog wyrobów", icon: Building2 },
               { path: "/documents", label: "Wzory", icon: FileText },
               { path: "/services", label: "Usługi", icon: Briefcase },
+              { path: "/harmonogram", label: "Harmonogram", icon: Calendar },
               { path: "/blog", label: "Aktualności", icon: Newspaper }
             ].map((item, index) => (
               <NavLink

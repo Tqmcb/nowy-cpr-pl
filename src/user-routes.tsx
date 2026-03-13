@@ -15,6 +15,7 @@ const Regulamin = lazy(() => import("./pages/Regulamin.tsx"));
 const OPortalu = lazy(() => import("./pages/OPortalu.tsx"));
 const Kontakt = lazy(() => import("./pages/Kontakt.tsx"));
 const Dostepnosc = lazy(() => import("./pages/Dostepnosc.tsx"));
+const Timeline = lazy(() => import("./pages/Timeline.tsx"));
 
 // poLCA pages
 const PolcaHome = lazy(() => import("./pages/PolcaHome.tsx"));
@@ -41,6 +42,7 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/o-portalu", element: <OPortalu /> },
 	{ path: "/kontakt", element: <Kontakt /> },
 	{ path: "/dostepnosc", element: <Dostepnosc /> },
+	{ path: "/harmonogram", element: <Timeline /> },
 
 	// poLCA routes
 	{ path: "/polca", element: <PolcaHome /> },
