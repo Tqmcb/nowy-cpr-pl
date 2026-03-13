@@ -76,7 +76,7 @@ Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy m
 | AVS 1 | 15 000 – 35 000 PLN | 6 000 – 12 000 PLN |
 | AVS 2+ | 8 000 – 20 000 PLN | 4 000 – 8 000 PLN |
 | AVS 3 (badanie ITT przez JN) | 8 000 – 25 000 PLN | – |
-| AVS 3+ (walidacja EPD) | 5 000 – 15 000 PLN | – |
+| AVS 3+ (walidacja danych środowiskowych) | 5 000 – 15 000 PLN | – |
 
 ---
 

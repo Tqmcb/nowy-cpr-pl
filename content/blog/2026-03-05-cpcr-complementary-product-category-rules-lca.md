@@ -89,14 +89,14 @@ Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do d
 
 ## CPCR a system AVS 3+
 
-CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (nowy system w CPR 2024, nieistniejący w starym AVCP), przeznaczony wyłącznie do **walidacji danych środowiskowych LCA i EPD** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
+CPR 2024/3110 wprowadził nowy system oceny **AVS 3+** (nowy system w CPR 2024, nieistniejący w starym AVCP), przeznaczony wyłącznie do **walidacji danych środowiskowych (wyników obliczeń LCA)** przez akredytowaną jednostkę notyfikowaną. W ramach AVS 3+:
 
-1. Producent zleca wykonanie LCA i EPD akredytowanemu weryfikatorowi
-2. Weryfikator sprawdza zgodność z EN 15804+A2 **i** właściwym CPCR
-3. Jednostka notyfikowana (np. Multicert) waliduje wynik i potwierdza EPD
-4. EPD uzyskuje status dokumentu weryfikowanego zewnętrznie — wymagany przez rynek
+1. Producent zleca wykonanie analizy cyklu życia (LCA) akredytowanemu podmiotowi
+2. Weryfikator sprawdza zgodność obliczeń z EN 15804+A2 **i** właściwym CPCR
+3. Jednostka notyfikowana waliduje wyniki i wydaje **raport walidacyjny** (nie certyfikat wyrobu)
+4. Producent wpisuje zwalidowane dane środowiskowe do DoP&C; opcjonalnie publikuje EPD
 
-Brak zgodności z CPCR jest jedną z najczęstszych przyczyn odrzucenia EPD na etapie weryfikacji.
+Brak zgodności z CPCR jest jedną z najczęstszych przyczyn odrzucenia danych środowiskowych na etapie walidacji.
 
 ## Gdzie znaleźć właściwy CPCR?
 

@@ -22,9 +22,9 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 | Nazewnictwo | AVCP 1+, 1, 2+, 3, 4 (5 systemów) | AVS 1+, 1, 2+, 3, **3+**, 4 (6 systemów — 3+ jest nowy) |
 | System 4 | Jednostka notyfikowana: brak roli | Jednostka notyfikowana: może sprawdzać próbki z rynku |
 | System 3 | NTL przeprowadza ITT (próbki od producenta); wydaje raport z badań | NTL przeprowadza ITT; **JN wydaje certyfikat właściwości użytkowych i zgodności** (istotna zmiana!) |
-| EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
+| Dane środowiskowe (LCA) | Poza zakresem | Nowy System 3+ dla walidacji danych środowiskowych |
 | FPC | Wymagane we wszystkich systemach (w systemie 4 zakres minimalny) | Wymagane we wszystkich systemach |
-| Dokumenty od JN/NTL | Certyfikat stałości właściwości użytkowych (systemy 1+, 1) / certyfikat FPC (system 2+) / raport z badań NTL (system 3) | Certyfikat właściwości użytkowych i zgodności wyrobu (systemy 1+, 1, **3**) / certyfikat zgodności FPC (system 2+) / raport walidacyjny EPD (system 3+) |
+| Dokumenty od JN/NTL | Certyfikat stałości właściwości użytkowych (systemy 1+, 1) / certyfikat FPC (system 2+) / raport z badań NTL (system 3) | Certyfikat właściwości użytkowych i zgodności wyrobu (systemy 1+, 1, **3**) / certyfikat zgodności FPC (system 2+) / raport walidacyjny danych środowiskowych (system 3+) |
 
 ## Jak działają poszczególne poziomy AVS?
 
@@ -63,14 +63,14 @@ Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobó
 
 > **Uwaga:** Interpretacja zakresu obowiązków JN w nowym systemie 3 budzi rozbieżności wśród jednostek notyfikowanych w różnych krajach UE (zob. stanowisko EuroWindoor z XI/2025). Zalecamy kontakt z wybraną JN w celu ustalenia aktualnych wymagań.
 
-### AVS 3+ — nowość: walidacja danych środowiskowych EPD
+### AVS 3+ — nowość: walidacja danych środowiskowych
 
 System 3+ nie istniał w oryginalnym AVCP z CPR 305/2011. Został wprowadzony najpierw przez Rozporządzenie delegowane (UE) 2024/2769 (zmiana Załącznika V starego CPR, w życie od 17.11.2024), a następnie przejęty przez CPR 2024/3110 w Załączniku IX. Dotyczy wyłącznie walidacji danych środowiskowych — przede wszystkim śladu węglowego (GWP) i innych wskaźników z Załącznika II CPR 2024.
 
 **Co robi producent:** przeprowadza ITT i FPC samodzielnie, przeprowadza **analizę cyklu życia (LCA — Life Cycle Assessment)** zgodną z EN 15804+A2 — oblicza ślad węglowy i inne wskaźniki środowiskowe. Opcjonalnie sporządza EPD (Deklarację Środowiskową Wyrobu).
 **Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny** potwierdzający wiarygodność deklaracji środowiskowych.
 
-System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych w ramach zielonych zamówień (GPP — Green Public Procurement) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
+System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych w ramach zielonych zamówień (GPP — Green Public Procurement) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/2026-04-03-avs-3plus-walidacja-epd).
 
 ### AVS 4 — najlżejszy, ale... z niespodzianką
 
@@ -91,7 +91,7 @@ Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa p
 - JN wydaje **Raport walidacyjny** (nie certyfikat wyrobu)
 - Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opcjonalnie opublikować EPD (Deklarację Środowiskową Wyrobu) z niezależną weryfikacją (*third-party verified*)
 
-Szczegółową analizę kosztów, procedury i rynku walidacji EPD w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
+Szczegółową analizę kosztów, procedury i rynku walidacji danych środowiskowych w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/2026-04-03-avs-3plus-walidacja-epd).
 
 ## FPC — czym różni się wymaganie w AVS vs AVCP?
 
@@ -123,7 +123,7 @@ Rozważ System 3+. Walidacja danych środowiskowych (wyników LCA) przez JN nie 
 
 Przejście z AVCP na AVS to ewolucja, nie rewolucja. Numery systemów (1+ do 4) są takie same, logika podobna. Kluczowe nowości to:
 
-- Nowy System 3+ dla walidacji EPD
+- Nowy System 3+ dla walidacji danych środowiskowych (wyników LCA)
 - Aktywna rola JN w nadzorze rynku nawet dla systemu 4
 - Wyraźniejsze wymagania FPC dla importowanych wyrobów
 - Nowe nazwy certyfikatów w systemach 1+, 1 i 2+ (dodano „i zgodności")
