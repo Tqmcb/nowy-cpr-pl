@@ -46,7 +46,7 @@ Art. 15–16 CPR 2024 (dotyczący treści i udostępniania DoP&C) w połączeniu
 
 ### Zdjęcia i opisy — pułapka dla sprzedawcy
 
-Zarówno CPR 2024, jak i ogólne przepisy o nieuczciwych praktykach handlowych (dyrektywa 2005/29/WE) zakazują prezentowania wyrobów w sposób sugerujący właściwości, których wyrób nie posiada lub które nie zostały zdeklarowane. Sprzedawca, który w opisie produktu podaje klasę reakcji na ogień A1, a w DoP&C producenta zadeklarowana jest klasa E, naraża się na odpowiedzialność za wprowadzenie nabywcy w błąd — niezależnie od winy producenta.
+Zarówno CPR 2024, jak i ogólne przepisy o nieuczciwych praktykach handlowych (dyrektywa 2005/29/WE) zakazują prezentowania wyrobów w sposób sugerujący właściwości, których wyrób nie posiada lub które nie zostały zadeklarowane. Sprzedawca, który w opisie produktu podaje klasę reakcji na ogień A1, a w DoP&C producenta zadeklarowana jest klasa E, naraża się na odpowiedzialność za wprowadzenie nabywcy w błąd — niezależnie od winy producenta.
 
 ---
 

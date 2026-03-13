@@ -32,7 +32,7 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 - [ ] Ustaliłem procedurę aktualizacji DoP&C po zmianach składu, procesu produkcji lub normy zharmonizowanej
 - [ ] Zweryfikowałem, że archiwum poprzednich wersji DoP&C jest przechowywane przez co najmniej 10 lat
 
-### A2. Unikalny kod identyfikacyjny produktu
+### A2. Unikalny kod identyfikacyjny wyrobu
 
 - [ ] Nadałem każdemu wyrobowi unikalny kod identyfikacyjny (GTIN lub własny system identyfikacji)
 - [ ] Kod identyfikacyjny jest powiązany z aktualną DoP&C w moim systemie wewnętrznym
@@ -98,8 +98,8 @@ Nowy CPR wprowadza zintegrowaną DoP&C zastępującą dotychczasową Deklarację
 
 ### C3. Integracja systemów (ERP, PIM, WMS)
 
-- [ ] Sprawdziłem, czy mój system ERP wspiera zarządzanie unikalnymi kodami identyfikacyjnymi produktów
-- [ ] Rozważyłem wdrożenie systemu PIM (Product Information Management) do zarządzania dokumentacją produktową
+- [ ] Sprawdziłem, czy mój system ERP wspiera zarządzanie unikalnymi kodami identyfikacyjnymi wyrobów
+- [ ] Rozważyłem wdrożenie systemu PIM (Product Information Management) do zarządzania dokumentacją wyrobu
 - [ ] Upewniłem się, że system WMS (magazynowy) umożliwia powiązanie wyrobu z jego DoP&C przez kod identyfikacyjny
 - [ ] Dane o SVHC i właściwościach środowiskowych są przechowywane w systemie i automatycznie aktualizowane w DoP&C
 

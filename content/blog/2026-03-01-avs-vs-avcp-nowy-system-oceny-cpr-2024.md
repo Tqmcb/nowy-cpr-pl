@@ -76,7 +76,7 @@ System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamaw
 
 Stosowany do wyrobów o najniższym ryzyku: folie paroizolacyjne, ograniczone zastosowania, wyroby sprzedawane wyłącznie do aplikacji nieregulowanych przez prawo budowlane.
 
-**Co robi producent:** przeprowadza ITT i prowadzi FPC samodzielnie, deklaruje właściwości, wystawia DoP&C — bez żadnego zaangażowania JN przed wprowadzeniem wyrobu na rynek.
+**Co robi producent:** przeprowadza ITT i prowadzi FPC samodzielnie, deklaruje właściwości, wystawia DoP&C — bez żadnego zaangażowania JN przed wprowadzeniem wyrobu do obrotu.
 
 **Co nowego w CPR 2024:** Jednostka notyfikowana może teraz być zaangażowana **po wprowadzeniu wyrobu na rynek** — w ramach **nadzoru rynku**. Nowe przepisy umożliwiają organom nadzoru zlecanie JN pobierania próbek i badania wyrobów z systemu 4 w celu weryfikacji deklarowanych właściwości.
 

@@ -1,17 +1,17 @@
 ---
-title: "Paszport produktu budowlanego - nowy wymóg CPR"
+title: "Paszport wyrobu budowlanego - nowy wymóg CPR"
 date: "2025-12-10"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"
-tags: ["paszport produktu", "zrównoważoność", "ESG", "cyrkularność"]
-excerpt: "Czym jest paszport produktu budowlanego i jak go przygotować? Wymagania dotyczące informacji o zrównoważonym rozwoju, cyklu życia produktu i gospodarki o obiegu zamkniętym."
+tags: ["paszport wyrobu", "zrównoważoność", "ESG", "cyrkularność"]
+excerpt: "Czym jest paszport wyrobu budowlanego i jak go przygotować? Wymagania dotyczące informacji o zrównoważonym rozwoju, cyklu życia wyrobu i gospodarki o obiegu zamkniętym."
 image_url: /images/blog/paszport-produktu.jpg
 template: "aktualnosci"
 ---
 
-# Paszport produktu budowlanego
+# Paszport wyrobu budowlanego
 
-CPR (EU) 2024/3110 wprowadza koncepcję cyfrowego paszportu produktu (DPP) — jednego z najważniejszych przyszłych elementów systemu CPR 2024. To narzędzie, które docelowo zmieni sposób dokumentowania i udostępniania informacji o produktach przez cały ich cykl życia.
+CPR (EU) 2024/3110 wprowadza koncepcję cyfrowego paszportu wyrobu (DPP) — jednego z najważniejszych przyszłych elementów systemu CPR 2024. To narzędzie, które docelowo zmieni sposób dokumentowania i udostępniania informacji o wyrobach przez cały ich cykl życia.
 
 > **Ważne:** DPP nie jest jeszcze obowiązkowy. Obowiązek wejdzie w życie osobno dla każdej rodziny wyrobów dopiero po opublikowaniu nowej normy zharmonizowanej (hTS) w Dz.U. UE, po zakończeniu okresu koegzystencji (zazwyczaj 12–36 mies.) ORAZ po wydaniu przez Komisję Europejską aktów wykonawczych z technicznymi wymaganiami systemu DPP. Na marzec 2026 żadne z tych warunków nie zostało spełnione.
 

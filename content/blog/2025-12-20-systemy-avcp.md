@@ -22,7 +22,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Ciągły nadzór nad zakładową kontrolą produkcji (FPC)
 - Badania próbek pobranych z zakładu i rynku
 
-**Produkty**:
+**Wyroby**:
 - Elementy konstrukcyjne stalowe
 - Cement
 - Wyroby krytyczne dla bezpieczeństwa
@@ -38,7 +38,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Certyfikacja FPC
 - Ciągły nadzór nad FPC
 
-**Produkty**:
+**Wyroby**:
 - Drzwi przeciwpożarowe
 - Okna i drzwi zewnętrzne z odpornością ogniową
 - Dachy i pokrycia dachowe
@@ -54,7 +54,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Badania typu przeprowadza producent
 - Nadzór nad FPC
 
-**Produkty**:
+**Wyroby**:
 - Prefabrykaty betonowe
 - Kruszywa budowlane
 - Elementy murowe
@@ -71,7 +71,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Producent samodzielnie przeprowadza obliczenia LCA/EPD według EN 15804
 - Jednostka notyfikowana weryfikuje poprawność metody i danych
 
-**Produkty**:
+**Wyroby**:
 - Dowolne wyroby, dla których producent chce walidować EPD
 - Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP)
 - Wyroby wymagające wiarygodnej deklaracji środowiskowej GWP, ODP, AP, EP, POCP, WDP
@@ -90,7 +90,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Numer JN pojawia się w oznakowaniu CE
 - FPC prowadzone przez producenta (bez certyfikacji)
 
-**Produkty**:
+**Wyroby**:
 - Wyroby izolacyjne termiczne
 - Płyty gipsowo-kartonowe
 - Membrany dachowe
@@ -105,10 +105,10 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Samodzielne badania typu przez producenta
 - Samodzielna FPC
 
-**Produkty**:
+**Wyroby**:
 - Armatura sanitarna
 - Osprzęt elektryczny
-- Produkty o niskim ryzyku
+- Wyroby o niskim ryzyku
 
 **Koszty**: Tylko koszty wewnętrzne
 
@@ -117,7 +117,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 ## Jak wybrać właściwy system?
 
 System AVS **nie jest wybierany przez producenta** - jest określony w:
-1. Normie zharmonizowanej dla danego produktu
+1. Normie zharmonizowanej dla danego wyrobu
 2. Europejskiej Ocenie Technicznej (ETA)
 3. Załączniku ZA normy
 
