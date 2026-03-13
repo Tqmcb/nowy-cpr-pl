@@ -44,7 +44,7 @@ Rodzina 20 stosuje dwa poziomy nadzoru, zależne od klasy wykonania (EXC):
 **System AVS 2+ – klasy wykonania EXC1 i EXC2:**
 - EXC1: Proste elementy ze stali S235 i S275, obciążenia statyczne, budownictwo ogólne
 - EXC2: Standardowe hale, konstrukcje biurowe, elementy powtarzalne
-- W systemie 2+: NB certyfikuje ZKP (audyt), lecz nie prowadzi audit sampling ante market.
+- W systemie 2+: JN certyfikuje ZKP (audyt), lecz nie prowadzi audit sampling ante market.
 
 Certyfikację EN 1090 dla wytwórni stalowych wykonują w Polsce:
 - [Multicert](https://www.multicert.pl) – certyfikacja EXC1-EXC4

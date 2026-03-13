@@ -106,14 +106,14 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 - [ ] Identyfikacja normy wyrobu (EN 771-1 do EN 771-6 lub EN 998-1/-2)
 - [ ] Ustalenie systemu AVS (2+ dla nośnych, 3/4 dla nienośnych)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl))
-- [ ] Certyfikacja ZKP przez NB ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Certyfikacja ZKP przez JN ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
 - [ ] Sprawdzenie zawartości substancji niebezpiecznych (SVHC, REACH)
 - [ ] Opracowanie EPD (opcjonalnie, ale zalecane dla zamówień publicznych)
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla rzetelności deklaracji GWP
 - [ ] Oznakowanie CE na wyrobie lub etykiecie zbiorczej (paleta)
-- [ ] Coroczne audyty nadzorcze NB (dla Systemu AVS 2+)
+- [ ] Coroczne audyty nadzorcze JN (dla Systemu AVS 2+)
 
 ## Gdzie szukać wsparcia
 
