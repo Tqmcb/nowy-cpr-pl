@@ -38,6 +38,17 @@ const EMPTY: LabelData = {
   declaredProperties: "",
 };
 
+const EXAMPLE: LabelData = {
+  producerName: "ABC Budowlana Sp. z o.o.",
+  producerAddress: "ul. Przemyslowa 15, 00-001 Warszawa",
+  productName: "Okno PVC 3-szybowe OKN-150",
+  notifiedBodyNumber: "1234",
+  dopcNumber: "DoPC-2026-001",
+  year: new Date().getFullYear().toString().slice(-2),
+  harmonizedStandard: "EN 14351-1:2006+A2:2016",
+  declaredProperties: "Uw = 0,9 W/(m²K)\nRw = 35 dB\nKlasa 4 - przepuszczalnosc powietrza",
+};
+
 // ────────────────────────────────────────────────────────────────────────────
 // CE LABEL SVG COMPONENT
 // ────────────────────────────────────────────────────────────────────────────
@@ -48,7 +59,7 @@ function CeLabelPreview({ data }: { data: LabelData }) {
     .map((l) => l.trim())
     .filter(Boolean);
 
-  const baseHeight = 340;
+  const baseHeight = 380;
   const extraLines = Math.max(0, lines.length - 2);
   const height = baseHeight + extraLines * 18;
 
@@ -62,85 +73,86 @@ function CeLabelPreview({ data }: { data: LabelData }) {
       {/* Background */}
       <rect width="400" height={height} rx="8" fill="#ffffff" stroke="#e2e8f0" strokeWidth="2" />
 
-      {/* CE Symbol */}
-      <g transform="translate(30, 25)">
-        {/* Official CE mark proportions */}
-        <text fontSize="56" fontWeight="bold" fill="#1e293b" letterSpacing="-2">
+      {/* CE Symbol - dedicated zone with clear separation */}
+      <g transform="translate(20, 12)">
+        <text fontSize="64" fontWeight="bold" fill="#1e293b" letterSpacing="-2">
           CE
         </text>
       </g>
 
-      {/* Notified body number */}
+      {/* Notified body number - positioned to the right of CE, not overlapping */}
       {data.notifiedBodyNumber && (
-        <text x="120" y="62" fontSize="24" fontWeight="bold" fill="#1e293b">
+        <text x="130" y="60" fontSize="28" fontWeight="bold" fill="#1e293b">
           {data.notifiedBodyNumber}
         </text>
       )}
 
-      {/* Year line */}
-      <line x1="20" y1="80" x2="380" y2="80" stroke="#cbd5e1" strokeWidth="1" />
-
-      {/* Year of first marking */}
-      <text x="20" y="100" fontSize="10" fill="#94a3b8">
-        Rok pierwszego oznakowania
+      {/* Year of first marking - right-aligned in CE row */}
+      <text x="280" y="35" fontSize="10" fill="#94a3b8">
+        Rok oznakowania
       </text>
-      <text x="20" y="116" fontSize="13" fontWeight="600" fill="#1e293b">
+      <text x="280" y="55" fontSize="16" fontWeight="700" fill="#1e293b">
         {data.year ? `20${data.year}` : "----"}
       </text>
 
+      {/* Separator after CE zone */}
+      <line x1="20" y1="85" x2="380" y2="85" stroke="#1e293b" strokeWidth="1.5" />
+
       {/* Producer */}
-      <text x="200" y="100" fontSize="10" fill="#94a3b8">
+      <text x="20" y="108" fontSize="10" fill="#94a3b8">
         Producent
       </text>
-      <text x="200" y="116" fontSize="12" fontWeight="600" fill="#1e293b">
+      <text x="20" y="125" fontSize="13" fontWeight="600" fill="#1e293b">
         {data.producerName || "---"}
       </text>
-      {data.producerAddress && (
-        <text x="200" y="131" fontSize="10" fill="#64748b">
-          {data.producerAddress.length > 40 ? data.producerAddress.slice(0, 40) + "..." : data.producerAddress}
-        </text>
-      )}
+      <text x="20" y="140" fontSize="10" fill="#64748b">
+        {data.producerAddress
+          ? (data.producerAddress.length > 55 ? data.producerAddress.slice(0, 55) + "..." : data.producerAddress)
+          : "---"}
+      </text>
 
-      <line x1="20" y1="140" x2="380" y2="140" stroke="#cbd5e1" strokeWidth="1" />
+      <line x1="20" y1="155" x2="380" y2="155" stroke="#cbd5e1" strokeWidth="1" />
 
       {/* Product name */}
-      <text x="20" y="158" fontSize="10" fill="#94a3b8">
+      <text x="20" y="175" fontSize="10" fill="#94a3b8">
         Wyrob budowlany
       </text>
-      <text x="20" y="175" fontSize="13" fontWeight="600" fill="#1e293b">
+      <text x="20" y="193" fontSize="14" fontWeight="600" fill="#1e293b">
         {data.productName || "---"}
       </text>
 
+      <line x1="20" y1="205" x2="380" y2="205" stroke="#cbd5e1" strokeWidth="1" />
+
       {/* DoP&C reference */}
-      <text x="20" y="198" fontSize="10" fill="#94a3b8">
+      <text x="20" y="225" fontSize="10" fill="#94a3b8">
         Nr DoP&amp;C
       </text>
-      <text x="20" y="214" fontSize="12" fontWeight="600" fill="#1e293b">
+      <text x="20" y="242" fontSize="12" fontWeight="600" fill="#1e293b">
         {data.dopcNumber || "---"}
       </text>
 
       {/* Harmonized standard */}
-      <text x="200" y="198" fontSize="10" fill="#94a3b8">
+      <text x="200" y="225" fontSize="10" fill="#94a3b8">
         Norma zharmonizowana
       </text>
-      <text x="200" y="214" fontSize="12" fontWeight="600" fill="#1e293b">
+      <text x="200" y="242" fontSize="12" fontWeight="600" fill="#1e293b">
         {data.harmonizedStandard || "---"}
       </text>
 
-      <line x1="20" y1="228" x2="380" y2="228" stroke="#cbd5e1" strokeWidth="1" />
+      <line x1="20" y1="258" x2="380" y2="258" stroke="#cbd5e1" strokeWidth="1" />
 
       {/* Declared properties */}
-      <text x="20" y="248" fontSize="10" fill="#94a3b8">
+      <text x="20" y="278" fontSize="10" fill="#94a3b8">
         Deklarowane wlasciwosci uzytkowe
       </text>
       {lines.length > 0 ? (
         lines.map((line, i) => (
-          <text key={i} x="20" y={266 + i * 18} fontSize="11" fill="#334155">
+          <text key={i} x="20" y={296 + i * 18} fontSize="11" fill="#334155">
             {line.length > 55 ? line.slice(0, 55) + "..." : line}
           </text>
         ))
       ) : (
-        <text x="20" y="266" fontSize="11" fill="#94a3b8" fontStyle="italic">
+        <text x="20" y="296" fontSize="11" fill="#94a3b8" fontStyle="italic">
           (wpisz wlasciwosci)
         </text>
       )}
@@ -362,6 +374,13 @@ export default function CeLabelGenerator() {
                   >
                     <Download className="w-4 h-4" />
                     Pobierz SVG
+                  </button>
+                  <button
+                    onClick={() => setData(EXAMPLE)}
+                    className="flex items-center gap-2 px-5 py-2.5 bg-white/5 border border-white/10 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors text-sm"
+                  >
+                    <Eye className="w-4 h-4" />
+                    Wczytaj przyklad
                   </button>
                   <button
                     onClick={() => setData(EMPTY)}
