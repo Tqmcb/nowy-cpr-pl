@@ -4,7 +4,7 @@ family_number: 33
 family_name_en: "FIXINGS"
 date: "2026-02-25"
 category: "Wyroby metalowe"
-avs_system: "1 / ETA"
+avs_system: "1"
 normy: ["EAD 330232-00-0601", "EAD 330499-00-0601", "EAD 330087-00-0601", "ETAG 020"]
 tags: ["kotwy", "łączniki", "ETA", "ocena techniczna", "mocowania", "CPR 2024"]
 excerpt: "Łączniki, kotwy i elementy mocujące – rodzina 33 CPR 2024. Kotwy chemiczne, mechaniczne, kołki rozporowe. ETA jako główna droga certyfikacji."
