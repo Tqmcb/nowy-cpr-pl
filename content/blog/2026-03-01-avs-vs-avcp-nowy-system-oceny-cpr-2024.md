@@ -19,7 +19,7 @@ Zmiana to nie tylko nowe trzy litery. Choć ogólna logika systemu pozostaje pod
 
 | Cecha | Stary AVCP (CPR 305/2011) | Nowy AVS (CPR 2024/3110) |
 |---|---|---|
-| Nazewnictwo | AVCP 1+, 1, 2+, 3, 4 | AVS 1+, 1, 2+, 3, 4 (ta sama skala) |
+| Nazewnictwo | AVCP 1+, 1, 2+, 3, 4 (5 systemów) | AVS 1+, 1, 2+, 3, **3+**, 4 (6 systemów — 3+ jest nowy) |
 | System 4 | Jednostka notyfikowana: brak roli | Jednostka notyfikowana: może sprawdzać próbki z rynku |
 | System 3 | JN przeprowadza ITT (przez notyfikowane laboratorium, próbki od producenta) | JN przeprowadza ITT przez notyfikowane laboratorium (próbki od producenta); wydaje certyfikat właściwości użytkowych i zgodności wyrobu |
 | EPD / dane środowiskowe | Poza zakresem | Nowy System 3+ dla walidacji EPD |
@@ -60,6 +60,15 @@ Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobó
 
 **Porównanie z AVCP 3:** w starym i nowym CPR procedura jest zasadniczo taka sama — notyfikowane laboratorium przeprowadza badania na próbkach dostarczonych przez producenta. Różnica polega na nowej nazwie certyfikatu (dodano „i zgodności") i większej roli FPC w dokumentacji.
 
+### AVS 3+ — nowość: walidacja danych środowiskowych EPD
+
+To zupełnie nowy system, nieistniejący w starym AVCP. Dotyczy wyłącznie walidacji danych środowiskowych (EPD) przez jednostkę notyfikowaną.
+
+**Co robi producent:** przeprowadza ITT i FPC samodzielnie, sporządza EPD opartą na ocenie LCA zgodnej z EN 15804+A2.
+**Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny EPD** potwierdzający wiarygodność deklaracji środowiskowych.
+
+System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych (GPP) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
+
 ### AVS 4 — najlżejszy, ale... z niespodzianką
 
 Stosowany do wyrobów o najniższym ryzyku: folie paroizolacyjne, ograniczone zastosowania, wyroby sprzedawane wyłącznie do aplikacji nieregulowanych przez prawo budowlane.
@@ -70,17 +79,16 @@ Stosowany do wyrobów o najniższym ryzyku: folie paroizolacyjne, ograniczone za
 
 To oznacza, że producent w systemie AVS 4 nadal nie musi angażować JN do certyfikacji — ale musi być gotowy, że jego wyroby mogą być weryfikowane przez JN na zlecenie GUNB lub innego organu nadzoru.
 
-## Nowy System 3+ dla EPD — co to jest?
+## System 3+ dla EPD — szczegóły procedury
 
-CPR 2024/3110 wprowadza całkowicie nowy element: **System 3+** (z plusem), który nie istniał w starym AVCP. Dotyczy on walidacji danych środowiskowych (EPD) producenta przez jednostkę notyfikowaną.
+Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa procedura walidacji wygląda następująco:
 
-W Systemie 3+:
-- Producent samodzielnie oblicza GWP i inne wskaźniki środowiskowe (LCA zgodne z EN 15804)
+- Producent samodzielnie oblicza GWP i inne wskaźniki środowiskowe (LCA zgodne z EN 15804+A2)
 - Jednostka notyfikowana **weryfikuje metodykę i dane** LCA — nie przeprowadza własnych obliczeń
 - JN wydaje **Raport walidacyjny EPD** (nie certyfikat produktu)
-- Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i w razie potrzeby opublikować EPD third-party verified
+- Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opublikować EPD z niezależną weryfikacją (*third-party verified*)
 
-System 3+ jest **dobrowolny** — producent sam decyduje czy korzysta z walidacji JN. Ale wymagany jest coraz częściej przez zamawiających (GPP) i w przetargach zagranicznych.
+Szczegółową analizę kosztów, procedury i rynku walidacji EPD w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych EPD](/blog/2026-04-03-avs-3plus-walidacja-epd).
 
 ## FPC — czym różni się wymaganie w AVS vs AVCP?
 
