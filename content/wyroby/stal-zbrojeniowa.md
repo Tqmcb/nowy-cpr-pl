@@ -40,7 +40,7 @@ Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich 
 2. **Jednostka notyfikowana** – przeprowadza:
    - Pełny audyt systemu ZKP w hucie
    - Pobieranie próbek z produkcji lub rynku PRZED dopuszczeniem do obrotu (audit sampling ante market)
-   - Niezależne badania pobranych próbek w laboratorium NB
+   - Niezależne badania pobranych próbek w laboratorium JN
    - Wydanie CSPU (Certyfikatu Stałości Właściwości Użytkowych)
 3. **Audyty nadzorcze** – co 12 miesięcy lub przy zmianie procesu produkcji
 
@@ -93,8 +93,8 @@ Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu z�
 **Przykład: Huta stali z walcownią prętów zbrojeniowych**
 
 Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% złom stalowy):
-1. Audyt ZKP przez NB ([ITCZLin](https://www.itczlin.pl)) – weryfikacja procedur pobierania próbek z każdego wytopu
-2. Pobieranie próbek ante market – NB bada próbki z wybranych wytopów przed wydaniem certyfikatu
+1. Audyt ZKP przez JN ([ITCZLin](https://www.itczlin.pl)) – weryfikacja procedur pobierania próbek z każdego wytopu
+2. Pobieranie próbek ante market – JN bada próbki z wybranych wytopów przed wydaniem certyfikatu
 3. Uzyskanie CSPU – certyfikat stałości właściwości użytkowych (System AVS 1+)
 4. Opracowanie EPD: GWP = 0,52 kg CO2eq/kg (metoda EAF, recykling złomu)
 5. Walidacja danych środowiskowych przez JN w Systemie 3+ – raport walidacyjny
@@ -103,7 +103,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 10080 dla zbrojenia, EN 10138-x dla stali sprężającej)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej NB ([Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP z kontrolą każdego wytopu (skład chemiczny, właściwości mechaniczne)
 - [ ] Uzyskanie CSPU w ramach Systemu AVS 1+ (audyt ante-market)
 - [ ] Zapewnienie pełnej identyfikowalności (traceability) od wytopu do wyrobu gotowego
@@ -111,7 +111,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+)
 - [ ] Wystawienie DoP&C z deklaracją Re, Rm, εuk, CE, GWP
 - [ ] Oznakowanie CE na prętach (etykieta lub naklejka na wiązce)
-- [ ] Coroczne audyty nadzorcze ZKP przez NB
+- [ ] Coroczne audyty nadzorcze ZKP przez JN
 - [ ] Dla systemów post-tensioning: uzyskanie ETA przez [ocenytechniczne.pl](https://www.ocenytechniczne.pl)
 
 ## Gdzie szukać wsparcia

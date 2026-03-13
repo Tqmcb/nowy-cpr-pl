@@ -106,9 +106,9 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 - [ ] Nawiązać kontakt z [CNBOP-PIB](https://www.cnbop.pl) (NB 1438) jako wiodącą polską jednostką notyfikowaną dla wyrobów ppoż.
 - [ ] Przeprowadzić pełne badanie ITT pod nadzorem jednostki notyfikowanej (AVS 1)
 - [ ] Wdrożyć system FPC z kompletną dokumentacją procesu produkcji i badań kontrolnych
-- [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna NB z kompetencjami ppoż.)
+- [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna JN z kompetencjami ppoż.)
 - [ ] Sporządzić DoP&C (zmiana z DoP) w języku polskim i udostępnić cyfrowo
-- [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem NB (1438 dla CNBOP-PIB)
+- [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem JN (1438 dla CNBOP-PIB)
 - [ ] Przeprowadzić przegląd substancji gaśniczych pod kątem GWP (wycofywanie HFC w systemach gazowych)
 - [ ] Monitorować zmiany w normach serii EN 54 (aktywny komitet CEN/TC 72) – możliwe aktualizacje norm
 - [ ] Przygotować dokumentację do cyfrowego paszportu wyrobu (DPP) uwzględniającą wymagania systemów FMMS (zarządzania konserwacją)

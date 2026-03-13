@@ -115,7 +115,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 ## Checklist producenta
 
 - [ ] Ustalenie klas wykonania EXC dla produkowanych elementów
-- [ ] Wybór systemu AVS (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej NB
+- [ ] Wybór systemu AVS (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej JN
 - [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl)
 - [ ] Przygotowanie procedur spawania (WPS/WPQR wg EN ISO 15614)
 - [ ] Zatrudnienie personelu nadzoru spawalniczego (IWE/IWT) odpowiedniego dla EXC
@@ -124,7 +124,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 - [ ] Deklarowanie GWP i klasy korozyjności powłok w DoP&C
 - [ ] Sprawdzenie powłok antykorozyjnych pod kątem SVHC (chrom VI)
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) jeśli konieczne dla zamówień publicznych
-- [ ] Coroczne audyty nadzorcze ZKP przez NB
+- [ ] Coroczne audyty nadzorcze ZKP przez JN
 
 ## Gdzie szukać wsparcia
 

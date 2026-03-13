@@ -33,7 +33,7 @@ Drewno jest jednym z najstarszych materiałów konstrukcyjnych, lecz CPR 2024/31
 
 Dla drewna konstrukcyjnego z rodziny 13 obowiązuje:
 
-- **System AVS 1** – dla drewna sortowanego wytrzymałościowo maszynowo (klasy MSo) oraz dla elementów GLT/CLT/LVL przeznaczonych do zastosowań nośnych. W systemie 1 producent przeprowadza wewnętrzną kontrolę produkcji (ZKP), a jednostka notyfikowana (NB) wydaje certyfikat zgodności ZKP po przeprowadzeniu audytu oraz niezależnych badań próbek.
+- **System AVS 1** – dla drewna sortowanego wytrzymałościowo maszynowo (klasy MSo) oraz dla elementów GLT/CLT/LVL przeznaczonych do zastosowań nośnych. W systemie 1 producent przeprowadza wewnętrzną kontrolę produkcji (ZKP), a jednostka notyfikowana (JN) wydaje certyfikat zgodności ZKP po przeprowadzeniu audytu oraz niezależnych badań próbek.
 - **System AVS 2+** – dla drewna sortowanego wizualnie lub dla elementów o niższym poziomie krytyczności.
 - **System AVS 3+** – nowy system w CPR 2024/3110, dedykowany walidacji danych środowiskowych (wyników LCA). Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat), potwierdzający prawidłowość obliczeń GWP i innych wskaźników środowiskowych.
 

@@ -59,7 +59,7 @@ Stosowany szeroko: membrany, izolacja termiczna, wyroby do zapraw, wiele wyrobó
 **Co robi notyfikowane laboratorium techniczne (NTL):** przeprowadza wstępne badanie typu wyrobu (ITT) na podstawie próbek dostarczonych przez producenta.
 **Co robi jednostka notyfikowana (JN):** na podstawie wyników NTL ocenia właściwości użytkowe, **potwierdza prawidłowość określenia typu wyrobu i kategorii wyrobu**, a następnie wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
 
-**Porównanie z AVCP 3:** to istotna zmiana! W starym CPR 305/2011 NTL wydawało jedynie raport z badań — bez certyfikatu i bez numeru NB na oznakowaniu CE. W nowym CPR 2024/3110 JN musi wydać pełny certyfikat i potwierdzić prawidłowość klasyfikacji wyrobu. Dla producentów działających dotychczas w AVCP 3 oznacza to konieczność zawarcia umowy z JN (nie tylko z laboratorium) i uzyskania certyfikatu.
+**Porównanie z AVCP 3:** to istotna zmiana! W starym CPR 305/2011 NTL wydawało jedynie raport z badań — bez certyfikatu i bez numeru JN na oznakowaniu CE. W nowym CPR 2024/3110 JN musi wydać pełny certyfikat i potwierdzić prawidłowość klasyfikacji wyrobu. Dla producentów działających dotychczas w AVCP 3 oznacza to konieczność zawarcia umowy z JN (nie tylko z laboratorium) i uzyskania certyfikatu.
 
 > **Uwaga:** Interpretacja zakresu obowiązków JN w nowym systemie 3 budzi rozbieżności wśród jednostek notyfikowanych w różnych krajach UE (zob. stanowisko EuroWindoor z XI/2025). Zalecamy kontakt z wybraną JN w celu ustalenia aktualnych wymagań.
 

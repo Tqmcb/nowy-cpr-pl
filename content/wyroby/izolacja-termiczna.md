@@ -87,7 +87,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 ## Przykłady wyrobów
 
-**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od NB, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
+**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od JN, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
 
 **Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 

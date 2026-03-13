@@ -122,7 +122,7 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 - [ ] Identyfikacja normy wyrobu (EN 12591, EN 14023, EN 13808, EN 1338, EN 1339, EN 1340)
 - [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
-- [ ] Certyfikacja ZKP przez NB ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Certyfikacja ZKP przez JN ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Dla asfaltów (AVS 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu

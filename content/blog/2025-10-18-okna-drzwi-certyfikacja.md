@@ -59,7 +59,7 @@ Na podstawie raportu ITT producent opracowuje DoP&C dla każdego wyrobu lub grup
 
 ### Krok 5: Oznakowanie CE
 
-Naniesienie oznakowania CE wraz z numerem jednostki notyfikowanej (w formacie: CE + rok + numer NB).
+Naniesienie oznakowania CE wraz z numerem jednostki notyfikowanej (w formacie: CE + rok + numer JN).
 
 ## Zasada kaskadowania wyników
 

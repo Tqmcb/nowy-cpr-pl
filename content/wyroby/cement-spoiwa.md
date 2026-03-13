@@ -33,10 +33,10 @@ Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośr
 Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1+** – najwyższy stopień nadzoru zewnętrznego:
 
 1. **Producent** – ustanawia i prowadzi zakładową kontrolę produkcji (ZKP) zgodnie z wymaganiami normy EN 197-1 lub właściwej normy wyrobu.
-2. **Jednostka notyfikowana (NB)** – przeprowadza:
-   - Certyfikację ZKP (audyt fabryki, przegląd procedur, badanie próbek w laboratorium NB)
-   - **Nadzorujące badanie próbek pobranych przed wprowadzeniem wyrobu na rynek** – to jest istota systemu 1+: NB pobiera próbki z rynku lub magazynu, badając czy wyrób jest zgodny z deklaracją PRZED jego sprzedażą lub w ciągłej rotacji
-3. **Wynik** – NB wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU/COCPC)
+2. **Jednostka notyfikowana (JN)** – przeprowadza:
+   - Certyfikację ZKP (audyt fabryki, przegląd procedur, badanie próbek w laboratorium JN)
+   - **Nadzorujące badanie próbek pobranych przed wprowadzeniem wyrobu na rynek** – to jest istota systemu 1+: JN pobiera próbki z rynku lub magazynu, badając czy wyrób jest zgodny z deklaracją PRZED jego sprzedażą lub w ciągłej rotacji
+3. **Wynik** – JN wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU/COCPC)
 
 W Polsce certyfikację cementu prowadzą m.in.:
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), specjalizacja w cemencie i ceramice
@@ -88,7 +88,7 @@ Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród 
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |
 
-Producenci cementu są obowiązkowo objęci certyfikacją NB – bez ważnego certyfikatu ZKP (CSPU) wystawionego przez akredytowaną NB, wprowadzenie cementu na rynek UE jest niemożliwe.
+Producenci cementu są obowiązkowo objęci certyfikacją JN – bez ważnego certyfikatu ZKP (CSPU) wystawionego przez akredytowaną JN, wprowadzenie cementu na rynek UE jest niemożliwe.
 
 ## Przykłady wyrobów
 
@@ -105,15 +105,15 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 197-1, EN 197-5, EN 413-1, EN 459-1 lub EN 14216)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej NB ([ICiMB](https://www.icimb.pl) NB 1454 lub [Multicert](https://www.multicert.com.pl))
-- [ ] Przeprowadzenie badań wstępnych ITT w laboratorium NB
+- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([ICiMB](https://www.icimb.pl) NB 1454 lub [Multicert](https://www.multicert.com.pl))
+- [ ] Przeprowadzenie badań wstępnych ITT w laboratorium JN
 - [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
 - [ ] Opracowanie EPD zgodnej z EN 15804+A2 (GWP, AP, EP, ODP i in.)
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) – uzyskanie raportu walidacyjnego
 - [ ] Wystawienie DoP&C z deklaracją GWP, zawartości chromu(VI) i klasy wyrobu
 - [ ] Umieszczenie oznakowania CE na workach i dokumentach dostawy (luzem – w dokumentach)
-- [ ] Regularne przeglądy certyfikatu ZKP (audyty NB co 12 miesięcy)
+- [ ] Regularne przeglądy certyfikatu ZKP (audyty JN co 12 miesięcy)
 - [ ] Monitorowanie zawartości chromu(VI) w ramach ZKP (max 2 mg/kg)
 
 ## Gdzie szukać wsparcia
