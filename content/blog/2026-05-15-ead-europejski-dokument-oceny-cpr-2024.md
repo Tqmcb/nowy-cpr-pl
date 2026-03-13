@@ -29,7 +29,7 @@ EAD określa:
 **Europejska Ocena Techniczna (ETA)** to dokument wystawiony przez Jednostkę Oceny Technicznej (TAB — Technical Assessment Body) na podstawie EAD. Pełni tę samą rolę co certyfikat — potwierdza właściwości użytkowe konkretnego wyrobu konkretnego producenta.
 
 Na podstawie ETA producent:
-- Wystawia Deklarację Właściwości i Zgodności (DoP&C)
+- Wystawia Deklarację Właściwości Użytkowych i Zgodności (DoP&C)
 - Nanosi oznakowanie CE na wyrób
 - Wprowadza wyrób na rynek całej UE
 
