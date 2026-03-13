@@ -56,14 +56,14 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Co to jest CPR 2024/3110 i czym różni się od CPR 305/2011?",
     answer:
-      "Rozporządzenie (UE) 2024/3110 (CPR 2024) to nowe rozporządzenie o wyrobach budowlanych, które zastępuje Rozporządzenie 305/2011. Kluczowe zmiany to: zastąpienie Deklaracji Właściwości Użytkowych (DoP) nową Deklaracją Właściwości Użytkowych i Zgodności (DoP&C), nowy system oceny AVS zamiast AVCP, obowiązkowe deklarowanie GWP (potencjału globalnego ocieplenia), wprowadzenie Cyfrowego Paszportu Produktu (DPP) oraz rozszerzone obowiązki dla importerów i dystrybutorów.",
+      "Rozporządzenie (UE) 2024/3110 (CPR 2024) to nowe rozporządzenie o wyrobach budowlanych, które docelowo zastapi Rozporządzenie 305/2011. Kluczowe zmiany (wchodzace w zycie stopniowo, po publikacji nowych zharmonizowanych specyfikacji technicznych — hTS): zastapienie Deklaracji Wlasciwosci Uzytkowych (DoP) nowa Deklaracja Wlasciwosci Uzytkowych i Zgodnosci (DoP&C), nowy system oceny AVS zamiast AVCP, obowiazkowe deklarowanie GWP (potencjalu globalnego ocieplenia), wprowadzenie Cyfrowego Paszportu Produktu (DPP) oraz rozszerzone obowiazki dla importerow i dystrybutorow. **Uwaga**: Dopoki nie zostana opublikowane hTS dla danej rodziny wyrobow, producenci nadal stosuja dotychczasowe normy hEN i systemy AVCP.",
     category: "ogolne",
     keywords: ["CPR", "305/2011", "2024/3110", "zmiana", "nowe rozporządzenie"],
   },
   {
     question: "Kiedy nowe przepisy CPR 2024 zaczęły obowiązywać?",
     answer:
-      "CPR 2024 weszło w życie 7 stycznia 2025 r. (20 dni po publikacji w Dz.U. UE). Pełne stosowanie rozpoczęło się 8 stycznia 2026 r. Od tego dnia producenci muszą wystawiać DoP&C zamiast DoP. Sankcje za naruszenia obowiązują od 8 stycznia 2027 r. Okres przejściowy kończy się 7 stycznia 2040 r.",
+      "CPR 2024 weszlo w zycie 7 stycznia 2025 r. (20 dni po publikacji w Dz.U. UE). Od 8 stycznia 2026 r. stosuja sie przepisy ramowe (definicje, ramy instytucjonalne, nadzor rynku). **Jednak konkretne obowiazki produktowe** — wystawianie DoP&C zamiast DoP, stosowanie systemu AVS, nowe oznakowanie CE — wchodza w zycie **dopiero po opublikowaniu nowych zharmonizowanych specyfikacji technicznych (hTS)** dla danej rodziny wyrobow. Do tego czasu producenci stosuja dotychczasowe normy hEN i wystawiaja DoP na starych zasadach. Sankcje za naruszenia obowiazuja od 8 stycznia 2027 r. Okres przejsciowy konczy sie 7 stycznia 2040 r.",
     category: "ogolne",
     keywords: ["termin", "data", "wejście w życie", "okres przejściowy", "2025", "2026"],
   },
@@ -79,7 +79,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czy potrzebuję jednostki notyfikowanej (JN) do certyfikacji?",
     answer:
-      "To zależy od systemu AVS przypisanego do Twojego wyrobu. W systemie **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu wydanego przez jednostkę notyfikowaną (JN). W systemie **AVS 3** — JN wykonuje tylko badania typu (ITT), ale nie wydaje certyfikatu. W systemie **AVS 4** — nie potrzebujesz JN, producent samodzielnie deklaruje właściwości. System AVS danego wyrobu znajdziesz w Załączniku V do CPR 2024 lub w naszym katalogu wyrobów.",
+      "To zalezy od systemu oceny przypisanego do Twojego wyrobu. **Uwaga**: Nowy system AVS (z CPR 2024) zacznie obowiazywac dla danego wyrobu dopiero po publikacji odpowiedniej hTS. Do tego czasu obowiazuje dotychczasowy system AVCP z CPR 305/2011. Docelowo w systemie **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu wydanego przez jednostke notyfikowana (JN). W systemie **AVS 3** — JN wykonuje badania typu (ITT). W systemie **AVS 4** — producent samodzielnie deklaruje wlasciwosci. System AVCP/AVS danego wyrobu znajdziesz w obowiazujacej normie hEN lub w Zalaczniku V do CPR 2024.",
     category: "producent",
     keywords: ["jednostka notyfikowana", "JN", "certyfikat", "AVS 1+", "AVS 1", "AVS 3", "AVS 4"],
   },
@@ -109,7 +109,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czym system AVS różni się od starego AVCP?",
     answer:
-      "System AVS (Assessment and Verification of Constancy of Performance) zastępuje stary AVCP z CPR 305/2011. Główne różnice: **Nowe nazewnictwo**: AVS 1+, 1, 2, 3, 4 zamiast 1+, 1, 2+, 3, 4. **Stary system 2+ znika** — jest zastąpiony przez AVS 2. **Rozszerzony zakres JN**: w AVS 1+ JN certyfikuje wyrób + nadzoruje ZKP, w AVS 1 certyfikuje wyrób. **AVS 3**: JN wykonuje ITT (nie tylko badania próbek). **AVS 4**: producent odpowiada za wszystko sam. Numer systemu AVS dla danego wyrobu znajdziesz w Załączniku V CPR 2024.",
+      "System AVS (Assessment and Verification of Constancy of Performance) **docelowo zastapi** stary AVCP z CPR 305/2011 — ale dopiero po publikacji nowych hTS dla danej rodziny wyrobow. Do tego czasu obowiazuja dotychczasowe systemy AVCP. Glowne roznice miedzy AVS a AVCP: **Nowe nazewnictwo**: AVS 1+, 1, 2, 3, 4 zamiast 1+, 1, 2+, 3, 4. **Stary system 2+ znika** — jest zastapiony przez AVS 2. **Rozszerzony zakres JN**: w AVS 1+ JN certyfikuje wyrob + nadzoruje ZKP, w AVS 1 certyfikuje wyrob. **AVS 3**: JN wykonuje ITT (nie tylko badania probek). **AVS 4**: producent odpowiada za wszystko sam.",
     category: "certyfikacja",
     keywords: ["AVS", "AVCP", "system oceny", "1+", "2+", "2", "zmiana"],
   },
@@ -123,7 +123,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Co to jest ZKP (Zakładowa Kontrola Produkcji / FPC)?",
     answer:
-      "ZKP (FPC — Factory Production Control) to stały, wewnętrzny system kontroli produkcji prowadzony przez producenta, zgodny z wymaganiami odpowiedniej normy zharmonizowanej. Obejmuje: kontrolę surowców, monitorowanie procesu produkcji, badania wyrobu gotowego, kalibrację sprzętu, zarządzanie reklamacjami i działania korygujące. W systemie AVS 1+ i 1 ZKP jest poddawany inspekcji przez JN (wstępnej i okresowej). W systemie AVS 2, 3 i 4 producent prowadzi ZKP samodzielnie. Dokumentacja ZKP musi być przechowywana przez min. 10 lat.",
+      "ZKP (FPC — Factory Production Control) to staly, wewnetrzny system kontroli produkcji prowadzony przez producenta, zgodny z wymaganiami odpowiedniej normy zharmonizowanej. Obejmuje: kontrole surowcow, monitorowanie procesu produkcji, badania wyrobu gotowego, kalibracje sprzetu, zarzadzanie reklamacjami i dzialania korygujace. Obecnie (wg AVCP z CPR 305/2011): w systemie 1+ i 1 ZKP jest poddawany inspekcji przez JN. Docelowo (wg AVS z CPR 2024, po publikacji hTS): zasady pozostaja podobne, ale zmienia sie numeracja systemow. Dokumentacja ZKP musi byc przechowywana przez min. 10 lat.",
     category: "certyfikacja",
     keywords: ["ZKP", "FPC", "kontrola produkcji", "inspekcja", "audyt"],
   },
@@ -132,7 +132,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Co to jest DoP&C i czym różni się od starego DoP?",
     answer:
-      "DoP&C (Deklaracja Właściwości Użytkowych i Zgodności) to nowy dokument wprowadzony przez CPR 2024, zastępujący dotychczasową Deklarację Właściwości Użytkowych (DoP). **Kluczowe różnice**: DoP&C łączy deklarację właściwości użytkowych z deklaracją zgodności (wcześniej osobno w ramach oznakowania CE). Zawiera dodatkowe informacje o: substancjach niebezpiecznych (SVHC), danych środowiskowych (GWP po wejściu w życie hTS), danych do DPP. Format DoP&C jest ustandaryzowany w Załączniku III CPR 2024. DoP&C musi być udostępniona cyfrowo (od 8 lipca 2027 r. — przez system informatyczny KE).",
+      "DoP&C (Deklaracja Wlasciwosci Uzytkowych i Zgodnosci) to nowy dokument wprowadzony przez CPR 2024, ktory **docelowo zastapi** dotychczasowa Deklaracje Wlasciwosci Uzytkowych (DoP). **Wazne**: Obowiazek wystawiania DoP&C zamiast DoP wchodzi w zycie dopiero po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla danej rodziny wyrobow. Do tego czasu producenci wystawiaja DoP na dotychczasowych zasadach. **Kluczowe roznice DoP&C vs DoP**: DoP&C laczy deklaracje wlasciwosci uzytkowych z deklaracja zgodnosci. Zawiera dodatkowe informacje o: substancjach niebezpiecznych (SVHC), danych srodowiskowych (GWP — po wejsciu w zycie hTS), danych do DPP. Format DoP&C jest ustandaryzowany w Zalaczniku III CPR 2024.",
     category: "dokumentacja",
     keywords: ["DoP&C", "DoP", "deklaracja", "deklaracja zgodności", "wzór"],
   },

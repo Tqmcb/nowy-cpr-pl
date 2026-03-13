@@ -171,7 +171,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
     step: stepNum++,
     title: "Wystaw Deklarację Właściwości Użytkowych i Zgodności (DoP&C)",
     description:
-      "DoP&C zastępuje starą DoP. Musi zawierać: identyfikację wyrobu, system AVS, normy referencyjne, deklarowane właściwości, informacje o SVHC oraz dane producenta. Format wg Załącznika III CPR 2024.",
+      "DoP&C docelowo zastapi stara DoP — ale obowiazek wystawiania DoP&C wchodzi w zycie dopiero po opublikowaniu hTS dla danej rodziny wyrobow. Do tego czasu wystawiaj DoP na dotychczasowych zasadach. DoP&C musi zawierac: identyfikacje wyrobu, system AVS, normy referencyjne, deklarowane wlasciwosci, informacje o SVHC oraz dane producenta (Zalacznik III CPR 2024).",
     link: { label: "Pobierz szablon DoP&C", to: "/documents" },
     critical: true,
   });
@@ -198,7 +198,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
       step: stepNum++,
       title: "Zaktualizuj dokumentację z CPR 305/2011 na CPR 2024",
       description:
-        "Zamień starą DoP na nową DoP&C, zaktualizuj oznakowanie CE wg Art. 20, dostosuj dokumentację ZKP do nowych wymagań. Istniejące certyfikaty JN mogą być podstawą do uproszczonej procedury.",
+        "Przygotuj sie na przejscie: gdy zostanie opublikowana hTS dla Twojej rodziny wyrobow, bedziesz musial zamienic stara DoP na nowa DoP&C i zaktualizowac oznakowanie CE wg Art. 20. Juz teraz mozesz dostosowywac dokumentacje ZKP. Istniejace certyfikaty JN moga byc podstawa do uproszczonej procedury.",
       critical: true,
     });
   }
@@ -573,6 +573,14 @@ export default function CeWizard() {
                       <RotateCcw className="w-3.5 h-3.5" />
                       Zacznij od nowa
                     </button>
+                  </div>
+                </div>
+
+                {/* hTS disclaimer */}
+                <div className="flex items-start gap-3 p-4 rounded-xl bg-sky-400/5 border border-sky-400/20 mb-6">
+                  <AlertTriangle className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
+                  <div className="text-sm text-slate-300 leading-relaxed">
+                    <strong className="text-sky-400">Wazne:</strong> Ponizsze kroki opisuja docelowy proces wg CPR 2024. Nowe obowiazki (DoP&C, AVS, nowe oznakowanie CE) wchodza w zycie <strong>dopiero po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS)</strong> dla danej rodziny wyrobow. Do tego czasu stosuj dotychczasowe normy hEN i system AVCP. Checklista pomoze Ci przygotowac sie na nadchodzace zmiany.
                   </div>
                 </div>
 
