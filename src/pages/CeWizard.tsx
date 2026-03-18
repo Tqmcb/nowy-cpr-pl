@@ -104,8 +104,8 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
   // 1. Identify norm
   items.push({
     step: stepNum++,
-    title: "Zidentyfikuj normę zharmonizowaną",
-    description: `Twój wyrób podlega normom: ${product.mainNorms.join(", ") || "skonsultuj z ekspertem"}. Sprawdź Załącznik ZA normy, aby ustalić wymagane właściwości do zadeklarowania.`,
+    title: "Zidentyfikuj obowiązującą normę hEN (stary system, nadal aktualny)",
+    description: `Twój wyrób podlega aktualnie normom: ${product.mainNorms.join(", ") || "skonsultuj z ekspertem"}. To są istniejące normy hEN wg CPR 305/2011 — nadal obowiązują do czasu publikacji nowych hTS pod CPR 2024. Sprawdź Załącznik ZA normy, aby ustalić wymagane właściwości do zadeklarowania w DoP.`,
     link: product.familyNumbers.length > 0
       ? { label: "Sprawdź w katalogu wyrobów", to: "/wyroby" }
       : undefined,
@@ -169,10 +169,10 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
   // 5. DoP&C
   items.push({
     step: stepNum++,
-    title: "Wystaw Deklarację Właściwości Użytkowych i Zgodności (DoP&C)",
+    title: "Teraz: wystaw DoP (stary system) | Docelowo: DoP&C",
     description:
-      "DoP&C docelowo zastapi stara DoP — ale obowiazek wystawiania DoP&C wchodzi w zycie dopiero po opublikowaniu hTS dla danej rodziny wyrobow. Do tego czasu wystawiaj DoP na dotychczasowych zasadach. DoP&C musi zawierac: identyfikacje wyrobu, system AVS, normy referencyjne, deklarowane wlasciwosci, informacje o SVHC oraz dane producenta (Zalacznik III CPR 2024).",
-    link: { label: "Pobierz szablon DoP&C", to: "/documents" },
+      "Do czasu publikacji hTS dla Twojej rodziny wyrobów wystawiaj Deklarację Właściwości Użytkowych (DoP) wg CPR 305/2011 na dotychczasowych zasadach. DoP&C zastąpi DoP dopiero po wejściu w życie właściwej hTS — na marzec 2026 żadna hTS nie została jeszcze opublikowana. Już teraz możesz zapoznać się z wymaganiami przyszłego DoP&C (Załącznik III CPR 2024) i przygotować dokumentację ZKP.",
+    link: { label: "Pobierz szablon DoP i DoP&C", to: "/documents" },
     critical: true,
   });
 
@@ -332,6 +332,15 @@ export default function CeWizard() {
                   {/* Step 1: Product */}
                   {state.step === 1 && (
                     <div>
+                      {/* Upfront hTS warning */}
+                      <div className="flex items-start gap-3 p-4 rounded-xl bg-amber-400/8 border border-amber-400/25 mb-6">
+                        <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                        <div className="text-sm text-slate-300 leading-relaxed">
+                          <strong className="text-amber-400">Na marzec 2026 żadne nowe normy zharmonizowane (hTS) pod CPR 2024 nie zostały opublikowane.</strong>{" "}
+                          Obowiązują nadal stare normy hEN i system AVCP/certyfikacji wg CPR 305/2011.
+                          Kreator pokazuje <strong>docelową ścieżkę wg CPR 2024</strong> — pomaga przygotować się na zmiany, które wejdą w życie po publikacji hTS (najwcześniej 2027–2029).
+                        </div>
+                      </div>
                       <h2 className="text-xl font-semibold text-white mb-2 flex items-center gap-2">
                         <Building2 className="w-5 h-5 text-amber-400" />
                         Co produkujesz?
@@ -434,9 +443,8 @@ export default function CeWizard() {
                       <p className="text-slate-400 text-sm mb-6">Istniejace certyfikaty mogą uproscic przejscie na CPR 2024.</p>
                       <div className="space-y-3">
                         {([
-                          { value: "tak-305" as HasExistingCert, label: "Tak, certyfikat wg CPR 305/2011", desc: "Posiadam certyfikat AVCP wydany przed 2026" },
-                          { value: "tak-cpr2024" as HasExistingCert, label: "Tak, certyfikat wg CPR 2024", desc: "Już przeszedłem na nowy system" },
-                          { value: "nie" as HasExistingCert, label: "Nie, to nowy wyrob", desc: "Pierwszy raz certyfikuję ten wyrób" },
+                          { value: "tak-305" as HasExistingCert, label: "Tak, certyfikat wg CPR 305/2011 (stary system)", desc: "Posiadam certyfikat AVCP / hEN wydany na podstawie CPR 305/2011" },
+                          { value: "nie" as HasExistingCert, label: "Nie, to nowy wyrób (certyfikuję po raz pierwszy)", desc: "Pierwszy raz certyfikuję ten wyrób lub wchodzę na nowy rynek" },
                         ]).map((opt) => (
                           <button
                             key={opt.value}
