@@ -60,18 +60,10 @@ check_art21() {
 }
 check_art21
 
-# Art. 23 → powinno być Art. 22 (upoważniony przedstawiciel, wyklucz URLe)
-check_art23() {
-  local matches
-  matches=$(grep -rn --include="*.tsx" --include="*.ts" --include="*.mdx" --include="*.md" \
-    -iE "art\.?\s*23\b" "$SRC" 2>/dev/null | grep -v "/docs/" || true)
-  if [ -n "$matches" ]; then
-    warn "Art. 23 znaleziony — upoważniony przedstawiciel to Art. 22 w CPR 2024/3110"
-    echo "$matches" | sed 's/^/         /'
-    echo ""
-  fi
-}
-check_art23
+# Art. 23 = upoważniony przedstawiciel (poprawny artykuł w CPR 2024/3110)
+# Art. 22 = obowiązki producenta (Art. 22 ust. 3 = plik techniczny, Art. 22 ust. 5 = unikalny identyfikator)
+# Art. 24 = obowiązki importera, Art. 25 = obowiązki dystrybutora
+# Brak sprawdzania Art. 23 — jest poprawny dla upoważnionego przedstawiciela
 
 # Art. 25 dla DPP → powinno być Art. 75–80
 # DPP w CPR 2024/3110: Art. 75 (definicja), 76 (zawartość), 77 (dostęp),

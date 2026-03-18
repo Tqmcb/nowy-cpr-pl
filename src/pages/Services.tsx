@@ -179,7 +179,7 @@ export default function Services() {
       number: "04",
       icon: Code2,
       title: "Weryfikacja i walidacja oprogramowania obliczeniowego",
-      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 21 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
+      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 22 ust. 3 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
       features: [
         "Weryfikacja algorytmów vs normy zharmonizowane",
         "Walidacja wyników vs deklarowane właściwości w DoP&C",

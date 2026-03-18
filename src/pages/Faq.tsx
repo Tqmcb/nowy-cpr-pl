@@ -208,16 +208,16 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Jakie obowiązki ma importer wyrobów budowlanych?",
     answer:
-      "CPR 2024 znacznie rozszerza obowiązki importerów (Art. 22). Importer musi: **1.** Upewnić się, że producent przeprowadził prawidłową ocenę AVS. **2.** Zweryfikować, że wyrób posiada DoP&C i oznakowanie CE. **3.** Umieścić na wyrobie swoją nazwę i adres. **4.** Zapewnić, że wyrób jest transportowany i przechowywany prawidłowo. **5.** Prowadzić rejestr reklamacji i wycofań. **6.** Przechowywać kopię DoP&C przez 10 lat. **7.** Na żądanie organów — udostępnić całą dokumentację. Importer ponosi odpowiedzialność za zgodność wyrobu z CPR tak jak producent.",
+      "CPR 2024 znacznie rozszerza obowiązki importerów (Art. 24). Importer musi: **1.** Upewnić się, że producent przeprowadził prawidłową ocenę AVS. **2.** Zweryfikować, że wyrób posiada DoP&C i oznakowanie CE. **3.** Umieścić na wyrobie swoją nazwę i adres. **4.** Zapewnić, że wyrób jest transportowany i przechowywany prawidłowo. **5.** Prowadzić rejestr reklamacji i wycofań. **6.** Przechowywać kopię DoP&C przez 10 lat. **7.** Na żądanie organów — udostępnić całą dokumentację. Importer ponosi odpowiedzialność za zgodność wyrobu z CPR tak jak producent.",
     category: "import",
-    keywords: ["importer", "import", "obowiązki", "Art. 22", "spoza UE"],
+    keywords: ["importer", "import", "obowiązki", "Art. 24", "spoza UE"],
   },
   {
     question: "Jakie obowiązki ma dystrybutor wyrobów budowlanych?",
     answer:
-      "Dystrybutor (Art. 23 CPR 2024) musi: **1.** Sprawdzić, że wyrób posiada oznakowanie CE i DoP&C. **2.** Upewnić się, że producent/importer podał swoją nazwę i adres. **3.** Nie wprowadzać do obrotu wyrobu, co do którego ma wątpliwości o zgodności. **4.** Zapewnić prawidłowe warunki przechowywania i transportu. **5.** Prowadzić ewidencję dostawców i odbiorców (umożliwiającą śledzenie). **6.** Współpracować z organami nadzoru rynku. Dystrybutor nie musi sam wystawiać DoP&C, ale odpowiada za to, aby dokumenty producenta/importera były dostępne.",
+      "Dystrybutor (Art. 25 CPR 2024) musi: **1.** Sprawdzić, że wyrób posiada oznakowanie CE i DoP&C. **2.** Upewnić się, że producent/importer podał swoją nazwę i adres. **3.** Nie wprowadzać do obrotu wyrobu, co do którego ma wątpliwości o zgodności. **4.** Zapewnić prawidłowe warunki przechowywania i transportu. **5.** Prowadzić ewidencję dostawców i odbiorców (umożliwiającą śledzenie). **6.** Współpracować z organami nadzoru rynku. Dystrybutor nie musi sam wystawiać DoP&C, ale odpowiada za to, aby dokumenty producenta/importera były dostępne.",
     category: "import",
-    keywords: ["dystrybutor", "sprzedawca", "obowiązki", "Art. 23", "hurtownia"],
+    keywords: ["dystrybutor", "sprzedawca", "obowiązki", "Art. 25", "hurtownia"],
   },
   {
     question: "Czy mogę sprzedawać wyroby budowlane online?",

@@ -95,8 +95,8 @@ export const documents: Document[] = [
   },
   {
     id: "tech-file",
-    title: "Struktura dokumentacji technicznej (Art. 21 CPR 2024/3110)",
-    description: "Szablon wewnętrznego pliku technicznego wymaganego przez art. 21 CPR 2024/3110. Zawiera listę kontrolną dokumentów, opis wyrobu, wyniki badań, certyfikaty NB i oświadczenie o kompletności. Przechowywać 10 lat od daty dostarczenia wyrobu.",
+    title: "Struktura dokumentacji technicznej (Art. 22 ust. 3 CPR 2024/3110)",
+    description: "Szablon wewnętrznego pliku technicznego wymaganego przez art. 22 ust. 3 CPR 2024/3110. Zawiera listę kontrolną dokumentów, opis wyrobu, wyniki badań, certyfikaty NB i oświadczenie o kompletności. Przechowywać 10 lat od daty dostarczenia wyrobu.",
     icon: "🗂️",
     fileType: "HTML",
     language: "PL",
