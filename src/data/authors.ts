@@ -52,15 +52,7 @@ export const AUTHORS: Record<string, Author> = {
     awards: [
       "2012 – Finalista III edycji Polska Nagroda Jakości; tytuł: Znakomity Pełnomocnik Systemów Zarządzania (nagroda wręczona przez Wicepremiera, Ministra Gospodarki Waldemara Pawlaka)",
     ],
-    publications: [
-      {
-        title:
-          "Inwentaryzacja Cyklu Życia (LCI) Mieszanek Mineralno-Asfaltowych (MMA) w Polsce",
-        year: 2026,
-        description:
-          "Dataset z danymi domyślnymi (default data) zgodny z EN 15804+A2, zakres: moduły A1–A3 (cradle-to-gate). Raport opracowany zgodnie z EN 15804:2012+A2:2019 oraz c-PCR dla mieszanek bitumicznych (DN-PAV-03077, 2024). Obejmuje analizę wytwórni cyklicznych i ciągłych, wskaźniki GWP dla MMA produkowanych w Polsce.",
-      },
-    ],
+    publications: [],
   },
 };
 
