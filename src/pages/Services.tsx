@@ -144,7 +144,7 @@ export default function Services() {
       features: [
         "Identyfikacja właściwego systemu AVS dla każdej linii produktowej",
         "Ocena systemu ZKP/FPC względem Art. 20 CPR 2024",
-        "Analiza dokumentacji: DoP&C, plik techniczny, instrukcje",
+        "Analiza dokumentacji: obowiązująca DoP / przyszła DoP&C, plik techniczny, instrukcje",
         "Raport z mapą ryzyk i priorytetową ścieżką wdrożenia"
       ],
       gradient: "from-amber-400 to-orange-500"
@@ -166,9 +166,9 @@ export default function Services() {
       number: "03",
       icon: FolderOpen,
       title: "Dokumentacja techniczna CPR 2024",
-      description: "Przygotowanie kompletnej dokumentacji wymaganej przez CPR (UE) 2024/3110 — od deklaracji DoP&C przez plik techniczny po instrukcje i mandaty. Dokumenty gotowe do użycia, zgodne z artykułami i załącznikami rozporządzenia.",
+      description: "Przygotowanie dokumentacji wg CPR (UE) 2024/3110 — od aktualnej DoP i szablonu przyszłej DoP&C, przez plik techniczny po instrukcje i mandaty. Uwaga: DoP&C zastępuje DoP dopiero po opublikowaniu hTS dla danej rodziny wyrobów (na marzec 2026 żadna hTS nie istnieje).",
       features: [
-        "Deklaracja właściwości użytkowych i zgodności (DoP&C) — Art. 15",
+        "Szablon DoP (obowiązująca) i DoP&C (po publikacji hTS) — Art. 15",
         "Wewnętrzny plik techniczny — Art. 22 ust. 3",
         "Instrukcja dla użytkowników profesjonalnych — Art. 9",
         "Mandat upoważnionego przedstawiciela — Art. 23"
@@ -192,9 +192,9 @@ export default function Services() {
       number: "05",
       icon: Map,
       title: "Analiza norm i harmonogram wdrożenia",
-      description: "Identyfikacja norm zharmonizowanych dla wyrobów klienta i opracowanie indywidualnego harmonogramu dostosowania do CPR 2024 z uwzględnieniem Planu Prac Komisji Europejskiej (Milestones 0–IV, lata 2026–2029).",
+      description: "Identyfikacja obowiązujących norm hEN (CPR 305/2011) dla wyrobów klienta i opracowanie harmonogramu dostosowania do CPR 2024 — z uwzględnieniem Planu Prac KE i etapów publikacji przyszłych hTS (Milestones 0–IV, przewidywane 2027–2029).",
       features: [
-        "Przyporządkowanie norm zharmonizowanych do produktów klienta",
+        "Przyporządkowanie obowiązujących norm hEN do produktów klienta",
         "Śledzenie etapów Milestones 0–IV wg Planu Prac KE",
         "Plan działań z konkretnymi datami przejściowymi",
         "Monitoring zmian w Dzienniku Urzędowym UE (usługa ciągła)"
