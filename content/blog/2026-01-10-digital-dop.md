@@ -64,7 +64,7 @@ Nowością w DoP&C jest konieczność uwzględnienia **danych środowiskowych** 
 - Zawartość materiałów z recyklingu
 - Trwałość wyrobu
 
-Dane te będą weryfikowane przez System AVS 3+ (nowy system dla oceny środowiskowej w CPR 2024) — jednostka notyfikowana wydaje raport walidacyjny EPD.
+Dane te mogą być weryfikowane przez **System AVS 3+** (nowy system w CPR 2024 przeznaczony do walidacji danych środowiskowych) — jednostka notyfikowana sprawdza poprawność obliczeń LCA i wydaje raport walidacyjny.
 
 ## Koszty implementacji
 

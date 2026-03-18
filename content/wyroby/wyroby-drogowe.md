@@ -40,9 +40,9 @@ Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
 
 **System AVS 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
 
-**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Jednostka notyfikowana przeprowadza badania wstępne ITT, producent prowadzi ZKP samodzielnie bez certyfikacji NB.
+**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 
-**System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
+**System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 
 W Polsce certyfikację betonowych wyrobów drogowych prowadzi [Multicert](https://www.multicert.com.pl). Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
 
@@ -85,7 +85,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 
 1. **Deklarowanie GWP** – po publikacji nowych hTS producenci asfaltu i prefabrykatów drogowych będą musieli ujmować ślad węglowy w DoP&C.
 2. **Cyrkulacja i RAP** – CPR 2024 wprowadza możliwość i zachętę do deklarowania udziału granulatu asfaltowego (RAP) i kruszyw z recyklingu. EPD z RAP będą miały niższy GWP.
-3. **System 3+ dla EPD** – walidacja przez NB, ważna dla zamówień publicznych (drogi finansowane z UE będą wymagać deklaracji środowiskowych po wejściu w życie nowych hTS).
+3. **System 3+ dla danych środowiskowych** – walidacja wyników LCA przez JN, ważna dla zamówień publicznych (drogi finansowane z UE będą wymagać deklaracji środowiskowych po wejściu w życie nowych hTS).
 4. **Substancje niebezpieczne** – poliaromatyczne węglowodory (PAH) w asfaltach – limitowane przez REACH Rozporządzenie (WE) nr 1272/2008; konieczna kontrola zawartości benzo[a]pirenu.
 5. **DoP&C zamiast DoP** – rozszerzona deklaracja.
 
@@ -106,14 +106,14 @@ Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 1. Badania ITT wg EN 1338: wytrzymałość T≥3,6 MPa, ścieralność klasa 1, PSV≥44, mrozoodporność D
 2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
 3. Opracowanie EPD z deklaracją GWP 155 kg CO2eq/t (10% kruszywa z recyklingu betonu w składzie)
-4. Walidacja EPD w Systemie AVS 3+ – raport walidacyjny
+4. Walidacja danych środowiskowych w Systemie AVS 3+ – raport walidacyjny
 5. DoP&C: EN 1338, klasa T, PSV ≥44, klasa mrozoodporności D, GWP 155 kg CO2eq/t
 
 **Przykład 2: Rafinery / Producent asfaltu PMB 45/80-55**
 
 Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 1. Badania ITT wg EN 14023: penetracja, punkt mięknienia, odporność na starzenie RTFOT+PAV
-2. System AVS 3 – badania w laboratorium ([ITCZLin](https://www.itczlin.pl)), ZKP u producenta
+2. System AVS 3 – badania ITT w NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
 3. Sprawdzenie zawartości PAH (poliaromatycznych węglowodorów) wg REACH
 4. DoP&C: PMB 45/80-55, zawartość polimeru min. 3,5% SBS, brak PAH ponad limity REACH
 
@@ -122,13 +122,13 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 - [ ] Identyfikacja normy wyrobu (EN 12591, EN 14023, EN 13808, EN 1338, EN 1339, EN 1340)
 - [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
-- [ ] Certyfikacja ZKP przez NB ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
-- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NB ([ITCZLin](https://www.itczlin.pl)), wdrożenie ZKP
+- [ ] Certyfikacja ZKP przez JN ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
 - [ ] Wystawienie DoP&C z deklaracją klas właściwości, GWP i cyrkulacyjnych wskaźników
 - [ ] Oznakowanie CE na paletach kostki/krawężników lub w dokumentach dostawy asfaltu
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla zamówień publicznych z wymaganiami środowiskowymi
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla zamówień publicznych z wymaganiami środowiskowymi
 - [ ] Monitorowanie zawartości PAH w każdej partii lepiszcza
 
 ## Gdzie szukać wsparcia

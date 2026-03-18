@@ -1,7 +1,7 @@
 ---
 title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
 date: "2025-11-20"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["jednostki notyfikowane", "certyfikacja", "NANDO", "Multicert"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."
@@ -15,7 +15,7 @@ Wybór właściwej jednostki notyfikowanej to jedna z najważniejszych decyzji w
 
 ## Czym są jednostki notyfikowane?
 
-Jednostki notyfikowane (Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVS. Są one notyfikowane Komisji Europejskiej i wpisane do bazy NANDO.
+Jednostki notyfikowane (JN; ang. Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVS. Są one notyfikowane Komisji Europejskiej i wpisane do bazy NANDO.
 
 ## Główne jednostki notyfikowane w Polsce
 
@@ -55,8 +55,8 @@ Instytut Nafty i Gazu. Zakres:
 
 ## Kryteria wyboru jednostki
 
-1. **Zakres notyfikacji** – czy jednostka jest uprawniona dla Twojego produktu i normy?
-2. **Doświadczenie branżowe** – jak wiele certyfikatów dla podobnych produktów wydała?
+1. **Zakres notyfikacji** – czy jednostka jest uprawniona dla Twojego wyrobu i normy?
+2. **Doświadczenie branżowe** – jak wiele certyfikatów dla podobnych wyrobów wydała?
 3. **Terminy realizacji** – ile czasu zajmuje przeprowadzenie oceny?
 4. **Koszty** – porównaj oferty cenowe kilku jednostek
 5. **Lokalizacja** – dostępność laboratoriów i audytorów
@@ -76,7 +76,7 @@ Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy m
 | AVS 1 | 15 000 – 35 000 PLN | 6 000 – 12 000 PLN |
 | AVS 2+ | 8 000 – 20 000 PLN | 4 000 – 8 000 PLN |
 | AVS 3 (badanie ITT przez JN) | 8 000 – 25 000 PLN | – |
-| AVS 3+ (walidacja EPD) | 5 000 – 15 000 PLN | – |
+| AVS 3+ (walidacja danych środowiskowych) | 5 000 – 15 000 PLN | – |
 
 ---
 

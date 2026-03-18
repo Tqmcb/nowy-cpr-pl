@@ -1,7 +1,7 @@
 ---
 title: "Oznakowanie CE - Nowe Wymagania CPR 2024/3110"
 date: "2026-01-08"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["CE", "oznakowanie", "etykieta", "wymagania", "CPR 2024", "DoP&C"]
 excerpt: "Rozszerzone wymagania dotyczące oznakowania CE w CPR 2024/3110. Obowiązek cyfrowej DoP&C od 8 stycznia 2026. QR kody, klasy środowiskowe, nowe elementy etykiety CE. Praktyczny przewodnik dla producentów."
@@ -21,7 +21,7 @@ CPR 2024/3110 wprowadza **rozszerzone wymagania** dotyczące oznakowania CE wyro
 2. **Numer jednostki notyfikowanej** (jeśli dotyczy — dla systemów AVS 1+, 1, 2+, 3)
 3. **Nazwa i znak producenta**
 4. **Adres siedziby producenta**
-5. **Kod identyfikacyjny produktu**
+5. **Kod identyfikacyjny wyrobu**
 6. **Numer referencyjny DoP&C lub link do DoP&C online** (wymagane jest zapewnienie dostępu online; konkretny format QR kodu na etykiecie wymaga aktów delegowanych KE — jeszcze nieopublikowanych)
 7. **Zamierzone zastosowanie**
 8. **Odniesienie do normy zharmonizowanej lub ETA**
@@ -66,7 +66,7 @@ CPR 2024 przewiduje QR kod jako docelowy element etykiety CE prowadzący do cyfr
 │  PRODUCENT Sp. z o.o.           │
 │  ul. Przemysłowa 1, Warszawa    │
 │                                 │
-│  Produkt: Bloczki betonowe      │
+│  Wyrób: Bloczki betonowe      │
 │  Kod: BET-2024-001              │
 │                                 │
 │  🔗 Digital DoP&C: [QR CODE]    │
@@ -83,7 +83,7 @@ CPR 2024 przewiduje QR kod jako docelowy element etykiety CE prowadzący do cyfr
 
 CPR 2024 przewiduje **surowe kary** (stosowane od 8 stycznia 2027):
 
-- Wycofanie produktu z rynku
+- Wycofanie wyrobu z rynku
 - Kary finansowe (wysokość ustalana przez państwa członkowskie)
 - ⛔ Zakaz wprowadzania na rynek
 - 📋 Odpowiedzialność cywilna za szkody
@@ -93,7 +93,7 @@ CPR 2024 przewiduje **surowe kary** (stosowane od 8 stycznia 2027):
 ## Kontrole nadzoru rynku
 
 Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
-- ✔️ Kompletność oznaczeń (w tym QR kod)
+- ✔️ Kompletność oznakowania (w tym QR kod)
 - ✔️ Czytelność i trwałość etykiety
 - ✔️ Zgodność etykiety z cyfrową DoP&C
 - ✔️ Dostępność DoP&C online (działający QR kod)

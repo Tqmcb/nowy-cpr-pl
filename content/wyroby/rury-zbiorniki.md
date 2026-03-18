@@ -43,11 +43,11 @@ Kluczowym kryterium rozgraniczającym rodziny 28 i 29 jest **przeznaczenie mediu
 Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla rur i zbiorników o niższym ryzyku (kanalizacja deszczowa, niepodciśnieniowe rury odpływowe): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: jednostka notyfikowana wykonuje wstępne badanie typu (ITT), producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**.
+- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
 System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 
-**System 3+** dla oceny środowiskowej: walidacja EPD przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
+**System 3+** dla oceny środowiskowej: walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
 
 ## Kluczowe wymagania CPR 2024
 

@@ -33,7 +33,7 @@ Rodzina obejmuje: płyty gipsowo-kartonowe (GKB – standardowe, GKF – ogniood
 
 Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
 
-**System AVS 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania, natomiast producent samodzielnie zarządza FPC i wydaje DoP&C. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
+**System AVS 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
 
 **System AVS 4** dotyczy tynków gipsowych i mas szpachlowych (EN 13279-1) oraz prostszych elementów gipsowych. Producent samodzielnie przeprowadza ITT, zarządza FPC i wydaje DoP&C bez zaangażowania jednostki notyfikowanej.
 
@@ -60,13 +60,13 @@ Dla tynków gipsowych (EN 13279-1):
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C**: Konieczna aktualizacja wszystkich istniejących deklaracji. DoP&C musi zawierać sekcje środowiskowe i być dostępna cyfrowo. Dla wielkich producentów (Knauf, Rigips) to zadanie systemowe: setki produktów i wariantów muszą mieć zaktualizowane dokumenty.
+**DoP → DoP&C**: Konieczna aktualizacja wszystkich istniejących deklaracji. DoP&C musi zawierać sekcje środowiskowe i być dostępna cyfrowo. Dla wielkich producentów (Knauf, Rigips) to zadanie systemowe: setki wyrobów i wariantów muszą mieć zaktualizowane dokumenty.
 
 **Właściwości środowiskowe – gips ma przewagę**: CPR 2024 jest szansą dla producentów gipsu. Gips jako materiał wykazuje szereg korzystnych cech środowiskowych: pełna możliwość recyklingu (gips z rozbiórki może być przetworzony i użyty ponownie – zamknięta pętla recyklingu Knauf, Rigips), niskie GWP w porównaniu z alternatywnymi wyrobami ściennymi, zdolność do regulacji wilgotności (pasywna klimatyzacja wnętrz), naturalny surowiec (anhydryt, alabaster) lub produkt uboczny odsiarczania (FGD gypsum – gips syntetyczny z elektrowni).
 
 Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowych hTS) będzie korzystne dla gipsu: typowe GWP dla 1 m² płyty GKB 12,5 mm wynosi ok. 2,5–4,0 kg CO₂ eq/m², co jest niskie w porównaniu z alternatywnymi rozwiązaniami.
 
-**System 3+ dla walidacji EPD**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji tych EPD przez System 3+ – wydania raportu walidacyjnego przez jednostkę notyfikowaną, co podnosi wiarygodność danych w zamówieniach publicznych GPP.
+**System 3+ dla walidacji danych środowiskowych**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji danych środowiskowych (wyników LCA) przez System 3+ – wydania raportu walidacyjnego przez jednostkę notyfikowaną, co podnosi wiarygodność danych w zamówieniach publicznych GPP.
 
 **Cyfrowy paszport wyrobu**: Dla płyt GK o unikalnych kodach produktowych (SKU) możliwe jest wdrożenie DPP na poziomie palety lub partii produkcyjnej. Kod QR na palecie prowadzi do DoP&C, EPD i instrukcji montażu w formacie cyfrowym.
 

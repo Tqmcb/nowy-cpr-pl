@@ -221,6 +221,18 @@
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/svhc-reach-dopc-cpr-2024</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/wyroby-uzywane-cpr-2024</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Katalog wyrobów — 36 stron -->
   <url>

@@ -16,6 +16,10 @@ const OPortalu = lazy(() => import("./pages/OPortalu.tsx"));
 const Kontakt = lazy(() => import("./pages/Kontakt.tsx"));
 const Dostepnosc = lazy(() => import("./pages/Dostepnosc.tsx"));
 const AutorPage = lazy(() => import("./pages/AutorPage.tsx"));
+const Timeline = lazy(() => import("./pages/Timeline.tsx"));
+const Faq = lazy(() => import("./pages/Faq.tsx"));
+const CeWizard = lazy(() => import("./pages/CeWizard.tsx"));
+const CeLabelGenerator = lazy(() => import("./pages/CeLabelGenerator.tsx"));
 
 // poLCA pages
 const PolcaHome = lazy(() => import("./pages/PolcaHome.tsx"));
@@ -43,6 +47,10 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/kontakt", element: <Kontakt /> },
 	{ path: "/dostepnosc", element: <Dostepnosc /> },
 	{ path: "/autor/:slug", element: <AutorPage /> },
+	{ path: "/harmonogram", element: <Timeline /> },
+	{ path: "/faq", element: <Faq /> },
+	{ path: "/sciezka-ce", element: <CeWizard /> },
+	{ path: "/generator-ce", element: <CeLabelGenerator /> },
 
 	// poLCA routes
 	{ path: "/polca", element: <PolcaHome /> },

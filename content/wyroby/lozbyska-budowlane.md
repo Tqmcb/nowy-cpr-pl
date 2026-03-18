@@ -65,7 +65,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 **Właściwości środowiskowe i trwałość**: CPR 2024 kładzie większy nacisk na deklarowanie trwałości wyrobów. Dla łożysk budowlanych kluczowe jest deklarowanie projektowanego okresu eksploatacji (design working life) – typowo 50 lub 100 lat dla infrastruktury mostowej. Nowe wymagania dotyczą również możliwości inspekcji, wymiany i recyklingu łożysk po zakończeniu eksploatacji.
 
-**System 3+ dla EPD**: Producenci łożysk budowlanych stosowanych w inwestycjach infrastrukturalnych finansowanych ze środków UE (gdzie stosowane są kryteria zielone GPP) mogą korzystać z Systemu 3+ do walidacji EPD. Dla łożysk stalowych kluczowym parametrem środowiskowym jest zawartość stali z recyklingu oraz GWP procesu vulkanizacji gumy.
+**System 3+ dla danych środowiskowych**: Producenci łożysk budowlanych stosowanych w inwestycjach infrastrukturalnych finansowanych ze środków UE (gdzie stosowane są kryteria zielone GPP) mogą korzystać z Systemu 3+ do walidacji danych środowiskowych (wyników LCA). Dla łożysk stalowych kluczowym parametrem środowiskowym jest zawartość stali z recyklingu oraz GWP procesu vulkanizacji gumy.
 
 **Cyfrowy paszport wyrobu (DPP)**: Każde łożysko budowlane, które jest elementem krytycznym infrastruktury, będzie musiało posiadać DPP z pełną dokumentacją techniczną dostępną cyfrowo. Jest to szczególnie istotne dla zarządców infrastruktury (GDDKiA, PKP PLK) prowadzących elektroniczne rejestry obiektów.
 

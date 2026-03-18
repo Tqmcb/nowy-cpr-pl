@@ -33,13 +33,13 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 | Włókno drzewne WF | EN 13171 |
 | System ETICS z EPS (tynk mineralny/silikonowy) | EN 13499 |
 | System ETICS z wełną mineralną (tynk mineralny) | EN 13500 |
-| Produkty do izolacji instalacji (w budynkach) | EN 14303–14315 |
+| Wyroby do izolacji instalacji (w budynkach) | EN 14303–14315 |
 
 ## System AVS i certyfikacja
 
 **System AVS 1** obowiązuje dla wyrobów izolacyjnych stosowanych w ogniochronnych systemach izolacji, jeśli norma wyrobu lub przepis krajowy wskazuje na zastosowanie krytyczne (np. izolacja o funkcji ogniochronnej). W praktyce AVS 1 dotyczy wyrobów z wełny mineralnej deklarowanych jako materiał klasy A1/A2 stosowany w systemach ogniochronnych, gdzie jednostka notyfikowana certyfikuje FPC i wydaje CoCP.
 
-**System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wydaje DoP&C.
+**System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB).
 
@@ -52,7 +52,7 @@ Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie
 - **Stabilność wymiarowa** DS(T,H) – zmiana wymiarów przy zmiennej temperaturze i wilgotności
 - **Nasiąkliwość wodą** – WS [mg/cm²] lub WL (przy zanurzeniu długoterminowym)
 - **Przepuszczalność pary wodnej** – współczynnik µ lub SD [m]
-- **Substancje niebezpieczne** – brak SVHC powyżej limitów REACH; dla EPS z dodatklem HBCD – zakaz stosowania od 2016 (zastąpiony PolyFR)
+- **Substancje niebezpieczne** – brak SVHC powyżej limitów REACH; dla EPS z dodatkiem HBCD – zakaz stosowania od 2016 (zastąpiony PolyFR)
 
 ## Zmiany względem CPR 305/2011
 
@@ -66,9 +66,9 @@ Szacunkowe wartości GWP dla typowych wyrobów izolacyjnych (dane orientacyjne d
 - Płyty korkowe: ok. 20–40 kg CO₂ eq/m³ (często ujemny GWP uwzględniając wiązanie CO₂ przez korek)
 - Włókno drzewne: ok. 10–40 kg CO₂ eq/m³ (możliwy GWP ujemny przy uwzględnieniu biogenicznego CO₂)
 
-Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio widoczne w zamówieniach publicznych stosujących kryteria zielone GPP. Materiały o wysokim GWP (XPS z HFC, EPS z dodatklem HBCD) znajdą się pod silną presją rynkową.
+Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio widoczne w zamówieniach publicznych stosujących kryteria zielone GPP. Materiały o wysokim GWP (XPS z HFC, EPS z dodatkiem HBCD) znajdą się pod silną presją rynkową.
 
-**System 3+ – walidacja EPD przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie swojej EPD do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja EPD przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
+**System 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie danych środowiskowych (wyników LCA) do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja danych środowiskowych przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
 
 **Cyfrowy paszport wyrobu (DPP)**: Każdy wyrób termoizolacyjny objęty będzie obowiązkiem posiadania DPP zawierającego: DoP&C, dane środowiskowe (GWP, EPD), skład materiałowy (ważne dla recyklingu), instrukcję montażu i demontażu. Format cyfrowy (QR kod, link) musi być dostępny od etapu etykietowania.
 
@@ -87,7 +87,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 ## Przykłady wyrobów
 
-**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od NB, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
+**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od JN, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
 
 **Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 
@@ -101,7 +101,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 - [ ] Sporządzić lub zaktualizować DoP&C (zmiana z DoP) z uzupełnionymi polami środowiskowymi
 - [ ] Uruchomić zbieranie danych środowiskowych od dostawców surowców (granulki PS, włókna, lepiszcze)
 - [ ] Zlecić sporządzenie EPD zgodnej z EN 15804+A2 – niezbędne przed 2027
-- [ ] Rozważyć walidację EPD przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
+- [ ] Rozważyć walidację danych środowiskowych przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
 - [ ] Sprawdzić zawartość SVHC (PolyFR zamiast HBCD w EPS, HFO zamiast HFC w XPS)
 - [ ] Udostępnić DoP&C cyfrowo – wdrożyć QR kody na opakowaniach palet i fakturach
 - [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) — po publikacji aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)

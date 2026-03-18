@@ -1,10 +1,10 @@
 ---
 title: "Systemy AVS – Ocena i Weryfikacja Wyrobów Budowlanych (CPR 2024/3110)"
 date: "2025-12-20"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane", "CPR 2024"]
-excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
+excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego wyrobu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
 image_url: /images/blog/systemy-avcp.jpg
 template: "analiza"
 ---
@@ -22,7 +22,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Ciągły nadzór nad zakładową kontrolą produkcji (FPC)
 - Badania próbek pobranych z zakładu i rynku
 
-**Produkty**:
+**Wyroby**:
 - Elementy konstrukcyjne stalowe
 - Cement
 - Wyroby krytyczne dla bezpieczeństwa
@@ -38,7 +38,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Certyfikacja FPC
 - Ciągły nadzór nad FPC
 
-**Produkty**:
+**Wyroby**:
 - Drzwi przeciwpożarowe
 - Okna i drzwi zewnętrzne z odpornością ogniową
 - Dachy i pokrycia dachowe
@@ -54,7 +54,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Badania typu przeprowadza producent
 - Nadzór nad FPC
 
-**Produkty**:
+**Wyroby**:
 - Prefabrykaty betonowe
 - Kruszywa budowlane
 - Elementy murowe
@@ -63,32 +63,34 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 
 ---
 
-### System 3+ (NOWY w CPR 2024/3110)
+### System 3+ (NOWY — wprowadzony przez Rozporządzenie delegowane (UE) 2024/2769, przejęty przez CPR 2024/3110)
 
 **Zakres**:
-- Dedykowany **ocenie zrównoważoności środowiskowej** (LCA, GWP, EPD)
-- Jednostka notyfikowana wydaje **raport walidacyjny** (nie certyfikat!)
-- Producent samodzielnie przeprowadza obliczenia LCA/EPD według EN 15804
-- Jednostka notyfikowana weryfikuje poprawność metody i danych
+- Dedykowany **ocenie właściwości środowiskowych** — przede wszystkim śladu węglowego (GWP — Global Warming Potential) i innych wskaźników z Załącznika II CPR 2024
+- Producent samodzielnie przeprowadza **analizę cyklu życia (LCA — Life Cycle Assessment)** zgodnie z EN 15804+A2 — jest to metoda obliczania wpływu wyrobu na środowisko „od kołyski do grobu"
+- Wyniki LCA mogą być udokumentowane w formie **EPD (Deklaracji Środowiskowej Wyrobu)** — dobrowolnego, znormalizowanego dokumentu
+- Jednostka notyfikowana weryfikuje poprawność metody i danych LCA i wydaje **raport walidacyjny** (nie certyfikat wyrobu!)
 
-**Produkty**:
-- Dowolne wyroby, dla których producent chce walidować EPD
-- Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP)
-- Wyroby wymagające wiarygodnej deklaracji środowiskowej GWP, ODP, AP, EP, POCP, WDP
+**Wyroby**:
+- Dowolne wyroby, dla których producent chce zwalidować dane środowiskowe przez niezależną jednostkę
+- Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP — Green Public Procurement)
+- Wyroby wymagające wiarygodnej deklaracji śladu węglowego (GWP) i innych wskaźników środowiskowych
 
-**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację EPD (jednorazowo, ważność 5 lat)
+**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację (jednorazowo, ważność 5 lat)
 
-**Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu, lecz raport walidacyjny EPD. Raport ten jest elementem DoP&C i uprawnia do oznakowania CE z potwierdzonymi danymi środowiskowymi.
+**Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu wyrobu, lecz raport walidacyjny potwierdzający poprawność obliczeń LCA. Raport ten jest elementem DoP&C.
 
 ---
 
 ### System 3
 
 **Zakres**:
-- Badania typu przez jednostkę notyfikowaną
+- Badania typu (ITT) przeprowadza notyfikowane laboratorium techniczne (NTL)
+- Jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — istotna zmiana wobec starego AVCP 3, gdzie NTL wydawało jedynie raport z badań
+- Numer JN pojawia się w oznakowaniu CE
 - FPC prowadzone przez producenta (bez certyfikacji)
 
-**Produkty**:
+**Wyroby**:
 - Wyroby izolacyjne termiczne
 - Płyty gipsowo-kartonowe
 - Membrany dachowe
@@ -103,10 +105,10 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Samodzielne badania typu przez producenta
 - Samodzielna FPC
 
-**Produkty**:
+**Wyroby**:
 - Armatura sanitarna
 - Osprzęt elektryczny
-- Produkty o niskim ryzyku
+- Wyroby o niskim ryzyku
 
 **Koszty**: Tylko koszty wewnętrzne
 
@@ -115,7 +117,7 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 ## Jak wybrać właściwy system?
 
 System AVS **nie jest wybierany przez producenta** - jest określony w:
-1. Normie zharmonizowanej dla danego produktu
+1. Normie zharmonizowanej dla danego wyrobu
 2. Europejskiej Ocenie Technicznej (ETA)
 3. Załączniku ZA normy
 
@@ -128,7 +130,7 @@ System AVS **nie jest wybierany przez producenta** - jest określony w:
 - Załącznik ZA → **System 2+**
 - Wymagana jednostka notyfikowana: TAK (certyfikacja FPC)
 - Własne laboratorium: OPCJONALNE
-- Dodatkowy System 3+: OPCJONALNIE (jeśli chcę walidować EPD z GWP)
+- Dodatkowy System 3+: OPCJONALNIE (jeśli chcę zwalidować dane środowiskowe, np. ślad węglowy GWP)
 
 ## Porównanie systemów
 
@@ -137,7 +139,7 @@ System AVS **nie jest wybierany przez producenta** - jest określony w:
 | **1+** | Pełny nadzór | TAK | Jednostka + rynek | 25k-50k |
 | **1** | Pełny nadzór | TAK | Jednostka | 15k-30k |
 | **2+** | Nadzór nad FPC | TAK | Producent | 8k-20k |
-| **3+** ⭐ NOWY | Walidacja EPD | NIE | Producent (LCA) | 5k-15k |
+| **3+** ⭐ NOWY | Walidacja danych środow. | NIE | Producent (LCA) | 5k-15k |
 | **3** | Tylko badanie typu | NIE | Jednostka | 5k-12k |
 | **4** | Brak | NIE | Producent | 0 |
 
@@ -161,10 +163,10 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 ## Zmiany w CPR 2024 względem CPR 305/2011
 
 **Kluczowe nowości**:
-- **System 3+** — nowy system dedykowany walidacji EPD i ocenie środowiskowej
+- **System 3+** — nowy system dedykowany walidacji danych środowiskowych (wyników analizy cyklu życia — LCA)
 - **AVCP → AVS** — zmiana nazwy systemu (Assessment and Verification of Constancy of Performance → Assessment and Verification Systems)
 - **DoP → DoP&C** — Deklaracja Właściwości Użytkowych staje się Deklaracją Właściwości Użytkowych i Zgodności
-- Dodatkowe kontrole parametrów środowiskowych (GWP, ODP, AP, EP, POCP, ADP, WDP) — etapami przez akty delegowane KE
+- Docelowo obowiązkowe deklarowanie właściwości środowiskowych — przede wszystkim śladu węglowego (GWP) i kolejnych wskaźników (ODP, AP, EP, POCP, ADP, WDP) — etapami, osobno dla każdej rodziny wyrobów po publikacji nowej normy zharmonizowanej
 - Cyfrowa dostępność DoP&C (link online od 8.01.2026); format XML po aktach delegowanych KE
 - Obowiązek deklarowania wskaźników środowiskowych — osobno dla każdej rodziny wyrobów, bez jednej globalnej daty granicznej
 
@@ -172,7 +174,7 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 
 ## Koszty typowej certyfikacji
 
-> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju produktu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
+> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju wyrobu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
 
 ### System 2+ (przykład: prefabrykaty betonowe)
 
@@ -184,19 +186,19 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 | Badania laboratoryjne | 2 000 PLN | 3 000 PLN |
 | **SUMA** | **10 000 PLN** | **9 000 PLN** |
 
-### System 3+ (walidacja EPD)
+### System 3+ (walidacja danych środowiskowych)
 
 | Element | Koszt jednorazowy | Ważność |
 |---------|------------------|---------|
-| Obliczenia LCA / EPD | 8 000 - 20 000 PLN | 5 lat |
-| Walidacja EPD przez jednostkę notyfikowaną | 3 000 - 8 000 PLN | 5 lat |
-| Rejestracja EPD w programie (np. EPD-Norge, IBU) | 1 000 - 3 000 PLN | 5 lat |
+| Analiza cyklu życia (LCA) / sporządzenie EPD | 8 000 - 20 000 PLN | 5 lat |
+| Walidacja danych przez jednostkę notyfikowaną | 3 000 - 8 000 PLN | 5 lat |
+| Rejestracja EPD w programie (np. EPD-Norge, IBU) — opcjonalnie | 1 000 - 3 000 PLN | 5 lat |
 | **SUMA** | **12 000 - 31 000 PLN** | **5 lat** |
 
 ## Podsumowanie
 
-System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań i kosztów pozwala zaplanować budżet i harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe przez niezależną jednostkę.
+System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań i kosztów pozwala zaplanować budżet i harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
 
 ---
 
-**Potrzebujesz wsparcia w certyfikacji?** Firmy takie jak [Multicert](https://www.multicert.pl) specjalizują się w kompleksowym wsparciu — od doboru systemu AVS, przez przygotowanie dokumentacji FPC, po kontakt z jednostką notyfikowaną. Dla producentów betonu, cementu i prefabrykatów betonowych certyfikacją w systemie 2+ zajmuje się [Multicert](https://www.multicert.com.pl) — jednostka akredytowana właśnie dla tej grupy wyrobów. W zakresie walidacji EPD i systemu 3+ wsparcie oferuje [epd.org.pl](https://www.epd.org.pl).
+**Potrzebujesz wsparcia w certyfikacji?** Firmy takie jak [Multicert](https://www.multicert.pl) specjalizują się w kompleksowym wsparciu — od doboru systemu AVS, przez przygotowanie dokumentacji FPC, po kontakt z jednostką notyfikowaną. Dla producentów betonu, cementu i prefabrykatów betonowych certyfikacją w systemie 2+ zajmuje się [Multicert](https://www.multicert.com.pl) — jednostka akredytowana właśnie dla tej grupy wyrobów. W zakresie walidacji danych środowiskowych (system 3+) i sporządzania EPD wsparcie oferuje [epd.org.pl](https://www.epd.org.pl).

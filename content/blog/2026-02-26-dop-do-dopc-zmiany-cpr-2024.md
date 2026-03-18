@@ -1,7 +1,7 @@
 ---
 title: "DoP → DoP&C: co konkretnie się zmieniło w deklaracji właściwości użytkowych w CPR 2024"
 date: "2026-02-26"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
 excerpt: "Od 8 stycznia 2026 deklaracja właściwości użytkowych staje się DoP&C. Sprawdź co dokładnie musisz zmienić, jakie nowe pola dodać i jak zaktualizować istniejące dokumenty."
@@ -29,7 +29,7 @@ Wystawiając DoP&C, producent bierze na siebie pełną odpowiedzialność za to,
 
 Dokument należy oznaczać jako „Deklaracja Właściwości Użytkowych i Zgodności" lub w skrócie DoP&C (ang. Declaration of Performance and Conformity). Numer referencyjny powinien odwoływać się do nowego rozporządzenia, nie starego.
 
-### 2. Unikalny kod identyfikacyjny produktu
+### 2. Unikalny kod identyfikacyjny wyrobu
 
 CPR 2024 wprowadza obowiązek podania **unikalnego kodu identyfikacyjnego** wyrobu (wzór DoP&C określa Załącznik V CPR 2024/3110). Kod ten musi umożliwiać jednoznaczną identyfikację wyrobu i jego dokumentacji — w praktyce jest to GTIN, numer katalogowy lub inny identyfikator powiązany z systemem traceability producenta.
 
@@ -98,7 +98,7 @@ Tak, jeśli badania były przeprowadzone zgodnie z normą zharmonizowaną, któr
 
 ## Podsumowanie
 
-Przejście z DoP na DoP&C to więcej niż zmiana nazwy — to rozszerzenie deklarowanej zgodności z samej normy na całe rozporządzenie. Kluczowe różnice to: nowe pola dla właściwości środowiskowych, obowiązek unikalnego kodu produktu, cyfrowa dostępność dokumentu i szersza odpowiedzialność producenta.
+Przejście z DoP na DoP&C to więcej niż zmiana nazwy — to rozszerzenie deklarowanej zgodności z samej normy na całe rozporządzenie. Kluczowe różnice to: nowe pola dla właściwości środowiskowych, obowiązek unikalnego kodu wyrobu, cyfrowa dostępność dokumentu i szersza odpowiedzialność producenta.
 
 Producenci, którzy zaktualizują swoje dokumenty szybko i poprawnie, unikną ryzyka kontroli ze strony GUNB oraz zablokowania sprzedaży na rynkach UE od 2026 roku.
 

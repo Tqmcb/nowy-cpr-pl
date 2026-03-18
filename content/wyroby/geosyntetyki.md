@@ -36,7 +36,7 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 
 Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczności zastosowania i wymagań normy:
 
-**System AVS 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Jednostka notyfikowana przeprowadza ITT i wydaje raport z badania.
+**System AVS 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
 
@@ -77,7 +77,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 **GWP i zawartość surowców z recyklingu**: Po publikacji nowych hTS i zakończeniu okresu koegzystencji producenci geosyntetyków będą musieli deklarować GWP i zawartość surowców wtórnych. Wyroby z recyclowanego polipropylenu (rPP) lub polietylenu (rPE) będą miały przewagę w zamówieniach publicznych GPP. Producenci, którzy wcześniej zainwestują w EPD i surowce z recyklingu, zyskają przewagę rynkową.
 
-**System 3+ dla EPD**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą walidować swoje EPD przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
+**System 3+ dla danych środowiskowych**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą zwalidować dane środowiskowe (wyniki LCA) przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
 
 ## Harmonogram wdrożenia
 
@@ -91,7 +91,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 ## Przykłady wyrobów
 
-**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (wzmocnienie gruntu). System AVS 3 dla nasypów drogowych. Producent zleca ITT, uzyskuje raport od NB, prowadzi FPC z kontrolą gramaturą i wytrzymałości.
+**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (wzmocnienie gruntu). System AVS 3 dla nasypów drogowych. Producent zleca ITT do NTL, uzyskuje certyfikat od JN, prowadzi FPC z kontrolą gramaturą i wytrzymałości.
 
 **Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13257. System AVS 3. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
 

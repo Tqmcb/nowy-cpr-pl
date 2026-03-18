@@ -4,7 +4,7 @@ family_number: 34
 family_name_en: "BUILDING KITS, UNITS, AND PREFABRICATED ELEMENTS"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+ / ETA"
+avs_system: "1 / 2+"
 normy: ["EAD (różne)", "EN 15498", "EN 14915", "EN 1168", "EN 14843"]
 tags: ["prefabrykaty", "domy szkieletowe", "budownictwo modułowe", "ETA", "CPR 2024"]
 excerpt: "Prefabrykowane zestawy budowlane – rodzina 34 CPR 2024. Drewniane domy szkieletowe, modułowe systemy ścian, lekkie hale stalowe. ETA lub normy EN."
@@ -58,7 +58,7 @@ Dla rodziny 34 stosuje się systemy AVS (Assessment and Verification of Constanc
 - **System AVS 2+** – dla prefabrykowanych elementów z częściowo znormalizowanymi właściwościami: jednostka notyfikowana certyfikuje ZKP, producent przeprowadza ITT.
 - **Ścieżka ETA** – dla systemów innowacyjnych lub nieposiadających hEN: pełna ocena przez TAB, następnie certyfikacja AVS 1. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** po uzyskaniu ETA i certyfikatu.
 
-**System 3+** – dla walidacji EPD zestawu budowlanego jako całości (ocena LCA systemu budowlanego). Zestawy drewniane mają zazwyczaj ujemny ślad węglowy (sekwestracja CO2 w drewnie) i mogą to prezentować przez zwalidowane EPD.
+**System 3+** – dla walidacji danych środowiskowych (wyników LCA) zestawu budowlanego jako całości. Zestawy drewniane mają zazwyczaj ujemny ślad węglowy (sekwestracja CO2 w drewnie) i mogą to prezentować przez zwalidowane dane środowiskowe w EPD.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -101,7 +101,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 
 ## Przykłady wyrobów i zastosowania
 
-**System CLT (Cross-Laminated Timber) z ETA** – wielorodzinne budynki mieszkalne do 8 kondygnacji; ściany REI 60–90; GWP ujemne (-250 kg CO2eq/m³); certyfikat FSC lub PEFC; EPD zwalidowane (system 3+).
+**System CLT (Cross-Laminated Timber) z ETA** – wielorodzinne budynki mieszkalne do 8 kondygnacji; ściany REI 60–90; GWP ujemne (-250 kg CO2eq/m³); certyfikat FSC lub PEFC; dane środowiskowe zwalidowane (system 3+).
 
 **Lekki dom szkieletowy (timber frame) wg ETA** – budynki jednorodzinne do 2 kondygnacji; prefabrikacja ścian w fabryce; montaż na budowie w 3–5 dni; U ściany ≤ 0,15 W/m²K z izolacją wełnianą.
 
@@ -116,7 +116,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 - [ ] Przeprowadzić obliczenia nośności wg Eurokodów i badania laboratoryjne
 - [ ] Wybrać system AVS (1 lub 2+) i uzyskać certyfikat od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP w fabryce i poddać ją audytom zewnętrznym
-- [ ] Opracować EPD systemu i rozważyć walidację (system 3+) – szczególnie dla drewna
+- [ ] Opracować EPD systemu i rozważyć walidację danych środowiskowych (system 3+) – szczególnie dla drewna
 - [ ] Przygotować cyfrowy paszport wyrobu z DoP&C dostępną przez kod QR
 - [ ] Wystawić DoP&C i oznaczyć system CE
 - [ ] Opracować instrukcję montażu zgodną z wymaganiami CPR 2024

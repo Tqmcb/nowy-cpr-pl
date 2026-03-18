@@ -36,34 +36,34 @@ CPR 2024 zastępuje Deklarację Właściwości Użytkowych (DoP) nową **Deklara
 
 ### 2. Nowe systemy AVS zamiast AVCP
 
-System AVCP (Assessment and Verification of Constancy of Performance) zostaje przemianowany na AVS (Assessment and Verification Systems). Istotną nowością jest **System 3+** — zupełnie nowy, szósty system przeznaczony wyłącznie do walidacji danych środowiskowych (LCA, EPD, GWP):
+System AVCP (Assessment and Verification of Constancy of Performance) zostaje przemianowany na AVS (Assessment and Verification Systems). Istotną nowością jest **System 3+** — zupełnie nowy, szósty system przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy cyklu życia — LCA):
 
 | System AVS | Zastosowanie | Nowość? |
 |---|---|---|
 | 1+ | Najwyższy rygor, nadzór rynku | Bez zmian |
 | 1 | Certyfikacja + pełny nadzór FPC | Bez zmian |
 | 2+ | Certyfikacja FPC, ITT własne | Bez zmian |
-| **3+** | Walidacja EPD / ocena środowiskowa | **Nowy** |
+| **3+** | Walidacja danych środowiskowych (LCA/EPD) | **Nowy** |
 | 3 | Tylko badanie ITT przez JN | Bez zmian |
 | 4 | Samodzielnie przez producenta | Bez zmian |
 
-W Systemie 3+ jednostka notyfikowana nie wydaje certyfikatu, lecz **raport walidacyjny** potwierdzający poprawność obliczeń LCA i danych EPD.
+W Systemie 3+ jednostka notyfikowana nie wydaje certyfikatu wyrobu, lecz **raport walidacyjny** potwierdzający poprawność obliczeń analizy cyklu życia (LCA) i danych środowiskowych.
 
 ### 3. Wymagania środowiskowe (Załącznik II) — docelowy obowiązek deklarowania
 
 CPR 2024 wprowadza **docelowo obowiązkowe deklarowanie wskaźników środowiskowych** dla wyrobów budowlanych — etapami, poprzez nowe normy zharmonizowane (hTS) i akty delegowane KE. **Na marzec 2026 żadna nowa hTS ani akt delegowany w tym zakresie nie zostały opublikowane — obowiązek jeszcze nie obowiązuje.** Przyszłe wymagania obejmą m.in.:
 
-- **GWP** (Global Warming Potential) — potencjał globalnego ocieplenia [kg CO₂ eq]
-- **ODP** (Ozone Depletion Potential) — potencjał niszczenia warstwy ozonowej
-- **AP** (Acidification Potential) — potencjał zakwaszenia
-- **EP** (Eutrophication Potential) — potencjał eutrofizacji
-- **POCP** (Photochemical Ozone Creation Potential) — potencjał tworzenia ozonu fotochemicznego
-- **ADP** (Abiotic Depletion Potential) — potencjał wyczerpania zasobów abiotycznych
-- **WDP** (Water Deprivation Potential) — potencjał deficytu wody
+- **GWP** — **ślad węglowy** (Global Warming Potential — potencjał globalnego ocieplenia) [kg CO₂ eq]
+- **ODP** — niszczenie warstwy ozonowej (Ozone Depletion Potential)
+- **AP** — zakwaszenie gleb i wód (Acidification Potential)
+- **EP** — przeżyźnienie wód (Eutrophication Potential)
+- **POCP** — tworzenie smogu (Photochemical Ozone Creation Potential)
+- **ADP** — wyczerpywanie zasobów nieodnawialnych (Abiotic Depletion Potential)
+- **WDP** — deficyt wody (Water Deprivation Potential)
 - Zawartość materiałów z recyklingu (%)
 - Trwałość i możliwość naprawy
 
-Wskaźniki muszą być obliczone zgodnie z **EN 15804+A2** (EPD dla wyrobów budowlanych).
+Wskaźniki muszą być obliczone zgodnie z normą **EN 15804+A2** — za pomocą analizy cyklu życia (LCA — Life Cycle Assessment). Wyniki mogą być udokumentowane w formie EPD (Deklaracji Środowiskowej Wyrobu), choć sam dokument EPD pozostaje dobrowolny.
 
 ### 4. Digital DoP&C a Cyfrowy Paszport Wyrobu (DPP)
 
@@ -81,7 +81,7 @@ Digital DoP&C (CPR 2024) będzie zawierać:
 - Większe uprawnienia organów nadzoru rynku w Polsce (UOKiK, GUNB, GUM)
 - Możliwość testowania wyrobów z rynku przez organy nadzoru
 - Wzrost kar za niezgodności (od 8 stycznia 2027)
-- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych produktów)
+- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych wyrobów)
 
 ### 6. 36 rodzin wyrobów (Załącznik VII)
 
@@ -95,8 +95,8 @@ Sprawdź czy Twoje obecne DoP (Deklaracje Właściwości Użytkowych) zawierają
 ### Krok 2: Aktualizuj terminologię
 Zmień "AVCP" → "AVS", "DoP" → "DoP&C" we wszystkich dokumentach, na stronie internetowej i w materiałach handlowych. Wymień stare certyfikaty AVCP na nowe certyfikaty AVS (w praktyce: zaktualizuj umowy z jednostkami notyfikowanymi).
 
-### Krok 3: Przeprowadź analizę LCA
-Zlecić kompleksową analizę cyklu życia produktu zgodnie z EN 15804+A2 i sporządzić EPD (Environmental Product Declaration). Skorzystaj z Systemu 3+ do walidacji EPD.
+### Krok 3: Przygotuj dane środowiskowe (jeśli Twoja norma jest w planie aktualizacji)
+Sprawdź, czy norma zharmonizowana Twojego wyrobu jest w planie aktualizacji KE na lata 2026–2028. Jeśli tak — zlecić analizę cyklu życia (LCA) zgodnie z EN 15804+A2, aby obliczyć ślad węglowy (GWP). Opcjonalnie: sporządzić Deklarację Środowiskową Wyrobu (EPD) i zwalidować ją w ramach Systemu AVS 3+.
 
 ### Krok 4: Wdróż cyfrową DoP&C
 Przygotuj system do udostępniania DoP&C w formie cyfrowej — co najmniej strona internetowa z wyszukiwarką lub unikalny link dla każdego wyrobu (QR kod na etykiecie CE).
@@ -113,7 +113,7 @@ Przeszkolenie pracowników odpowiedzialnych za jakość, dokumentację techniczn
 
 ## Podsumowanie
 
-CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu CPR 305/2011 (2013). Producenci powinni skupić się na trzech priorytetach: **aktualizacji dokumentacji** (DoP → DoP&C), **przygotowaniu do deklarowania danych środowiskowych** (EPD, GWP) oraz **cyfryzacji** (dostęp online do DoP&C). Pełne wdrożenie obowiązuje od 8 stycznia 2026, natomiast sankcje zaczną być stosowane od 8 stycznia 2027.
+CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu CPR 305/2011 (2013). Producenci powinni skupić się na trzech priorytetach: **aktualizacji dokumentacji** (DoP → DoP&C), **przygotowaniu do deklarowania właściwości środowiskowych** (przede wszystkim śladu węglowego — GWP) oraz **cyfryzacji** (dostęp online do DoP&C). Pełne wdrożenie obowiązuje od 8 stycznia 2026, natomiast sankcje zaczną być stosowane od 8 stycznia 2027.
 
 ---
 

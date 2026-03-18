@@ -57,7 +57,7 @@ W dokumentacji towarzyszącej wyrobowi producent powinien umieścić:
 Rozporządzenie ESPR (Ecodesign for Sustainable Products Regulation, 2024/1781) zapowiada wprowadzenie **aktów delegowanych dla wyrobów budowlanych** w latach 2026–2030. Spodziewane wymagania obejmą:
 
 - **Minimalną trwałość** określoną w latach dla poszczególnych kategorii wyrobów
-- **Indeks naprawialności** — punktową ocenę naprawialności produktu (podobnie jak dla sprzętu AGD)
+- **Indeks naprawialności** — punktową ocenę naprawialności wyrobu (podobnie jak dla sprzętu AGD)
 - **Paszport produktu (DPP)** — powiązany z CPR 2024, zawierający dane o trwałości i składzie
 - **Zakaz technik uniemożliwiających naprawę** — np. klejenie zamiast łączenia na śruby tam gdzie możliwe
 
@@ -88,7 +88,7 @@ Wymagania dotyczące trwałości i naprawialności najsilniej dotyczą:
 
 ### Krok 1: Ocena aktualnego wyrobu
 
-Przejrzyj swoje produkty pod kątem:
+Przejrzyj swoje wyroby pod kątem:
 - Czy wyrób można naprawić, czy musi być wymieniony jako całość?
 - Czy dostępne są części zamienne?
 - Czy istnieje instrukcja napraw i konserwacji?

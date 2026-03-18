@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { useNavigate, useLocation, useParams } from "react-router-dom";
+import { useNavigate, useLocation, useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
@@ -9,10 +9,11 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
-  Shield, ExternalLink, CheckSquare,
+  Shield, ExternalLink, CheckSquare, Building2,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 import { getAuthorSlug } from "../data/authors";
+import type { ProductFamily } from "../utils/wyrobLoader";
 
 // ────────────────────────────────────────────────────────────────────────────
 // SHARED UTILITIES
@@ -500,6 +501,12 @@ function MulticertBoxLight() {
 // Struktura: zdjęcie w tle (opacity-15) + gradient overlay + badge + tytuł + meta
 // ────────────────────────────────────────────────────────────────────────────
 
+type TemplateBaseProps = {
+  post: BlogPostType;
+  navigate: (p: string) => void;
+  bottomSection?: React.ReactNode;
+};
+
 type HeroConfig = {
   /** Pełne klasy Tailwind dla badge'a — muszą być literalami (Tailwind purging) */
   badgeClasses: string;
@@ -593,7 +600,7 @@ function SharedHero({
 // TEMPLATE 1: REGULACJA — dark navy, legal/EU document style
 // ────────────────────────────────────────────────────────────────────────────
 
-function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   const KEY_DATES = [
     { date: "7 sty 2025", label: "Wejście w życie CPR 2024/3110" },
     { date: "8 sty 2026", label: "Pełne stosowanie rozporządzenia" },
@@ -643,6 +650,7 @@ function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -653,7 +661,7 @@ function RegulacjaTemplate({ post, navigate }: { post: BlogPostType; navigate: (
 // TEMPLATE 2: PRZEWODNIK — light, step-by-step guide style
 // ────────────────────────────────────────────────────────────────────────────
 
-function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -691,6 +699,7 @@ function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: 
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -701,7 +710,7 @@ function PrzewodnikTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 // TEMPLATE 3: ANALIZA — dark, data-driven, emerald accents
 // ────────────────────────────────────────────────────────────────────────────
 
-function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -780,6 +789,7 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -790,7 +800,7 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
 // TEMPLATE 4: TECHNICZNY — dark industrial, orange accents
 // ────────────────────────────────────────────────────────────────────────────
 
-function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -836,6 +846,7 @@ function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -846,7 +857,7 @@ function TechnicznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 // TEMPLATE 5: AKTUALNOŚCI — magazine style, full-width hero, white content
 // ────────────────────────────────────────────────────────────────────────────
 
-function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -884,6 +895,7 @@ function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate:
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -894,7 +906,7 @@ function AktualnosciTemplate({ post, navigate }: { post: BlogPostType; navigate:
 // TEMPLATE 6: PRAKTYCZNY — dark teal, action-oriented, checklist sidebar
 // ────────────────────────────────────────────────────────────────────────────
 
-function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   const CHECKLIST = [
     "Sprawdź wymagania CPR dla swojego wyrobu",
     "Zidentyfikuj właściwy system AVS",
@@ -945,6 +957,7 @@ function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -955,7 +968,7 @@ function PraktycznyTemplate({ post, navigate }: { post: BlogPostType; navigate: 
 // DEFAULT TEMPLATE — generic dark template for untagged posts
 // ────────────────────────────────────────────────────────────────────────────
 
-function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p: string) => void }) {
+function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -990,6 +1003,7 @@ function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
             </aside>
           </div>
         </div>
+        {bottomSection}
       </main>
       <Footer />
     </div>
@@ -1031,6 +1045,56 @@ function LoadingSkeleton() {
 // MAIN PAGE COMPONENT
 // ────────────────────────────────────────────────────────────────────────────
 
+// ────────────────────────────────────────────────────────────────────────────
+// RELATED WYROBY SECTION — shown at the bottom of all blog post templates
+// ────────────────────────────────────────────────────────────────────────────
+
+function RelatedWyrobySection({ wyroby }: { wyroby: ProductFamily[] }) {
+  if (wyroby.length === 0) return null;
+  return (
+    <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-12">
+      <div className="border-t border-white/10 pt-8">
+        <h2 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
+          <Building2 className="w-5 h-5 text-amber-400" />
+          Powiązane wyroby budowlane
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {wyroby.map((w) => (
+            <Link
+              key={w.slug}
+              to={`/wyrob?slug=${w.slug}`}
+              className="group bg-slate-800/50 border border-white/10 rounded-xl p-4 hover:border-amber-400/30 hover:bg-slate-800/80 transition-all duration-300"
+            >
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 font-bold">
+                  #{w.family_number}
+                </span>
+                <span className="text-xs text-slate-500">{w.category}</span>
+              </div>
+              <h3 className="text-sm font-semibold text-white group-hover:text-amber-400 transition-colors line-clamp-2">
+                {w.title}
+              </h3>
+              <p className="text-xs text-slate-400 mt-2 line-clamp-2">{w.excerpt}</p>
+              {w.normy && w.normy.length > 0 && (
+                <div className="flex flex-wrap gap-1 mt-2">
+                  {w.normy.slice(0, 3).map((n) => (
+                    <span key={n} className="text-[10px] px-1.5 py-0.5 rounded bg-slate-700/50 text-slate-500 font-mono">
+                      {n}
+                    </span>
+                  ))}
+                  {w.normy.length > 3 && (
+                    <span className="text-[10px] text-slate-600">+{w.normy.length - 3}</span>
+                  )}
+                </div>
+              )}
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function BlogPost() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -1038,6 +1102,7 @@ export default function BlogPost() {
   const [post, setPost] = useState<BlogPostType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [relatedWyroby, setRelatedWyroby] = useState<ProductFamily[]>([]);
 
   // Support both /blog/:slug (new, SEO-friendly) and /blog-post?slug= (legacy)
   const searchParams = new URLSearchParams(location.search);
@@ -1069,6 +1134,22 @@ export default function BlogPost() {
     };
     fetchPost();
   }, [slug]);
+
+  // Load related wyroby when post is available
+  useEffect(() => {
+    if (!post) return;
+    const fetchRelatedWyroby = async () => {
+      try {
+        const { getAllWyroby } = await import("../utils/wyrobLoader");
+        const { findRelatedWyroby } = await import("../utils/crossLinkUtils");
+        const allWyroby = await getAllWyroby();
+        setRelatedWyroby(findRelatedWyroby(post, allWyroby, 3));
+      } catch (err) {
+        console.error("Error loading related wyroby:", err);
+      }
+    };
+    fetchRelatedWyroby();
+  }, [post]);
 
   if (loading) return <LoadingSkeleton />;
 
@@ -1161,21 +1242,26 @@ export default function BlogPost() {
     </Helmet>
   );
 
+  // Shared related wyroby section passed to all templates
+  const relatedSection = <RelatedWyrobySection wyroby={relatedWyroby} />;
+
+  const templateProps: TemplateBaseProps = { post, navigate, bottomSection: relatedSection };
+
   // Route to correct template
   switch (post.template) {
     case "regulacja":
-      return <>{seoHelmet}<RegulacjaTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<RegulacjaTemplate {...templateProps} /></>;
     case "przewodnik":
-      return <>{seoHelmet}<PrzewodnikTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<PrzewodnikTemplate {...templateProps} /></>;
     case "analiza":
-      return <>{seoHelmet}<AnalizaTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<AnalizaTemplate {...templateProps} /></>;
     case "techniczny":
-      return <>{seoHelmet}<TechnicznyTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<TechnicznyTemplate {...templateProps} /></>;
     case "aktualnosci":
-      return <>{seoHelmet}<AktualnosciTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<AktualnosciTemplate {...templateProps} /></>;
     case "praktyczny":
-      return <>{seoHelmet}<PraktycznyTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<PraktycznyTemplate {...templateProps} /></>;
     default:
-      return <>{seoHelmet}<DefaultTemplate post={post} navigate={navigate} /></>;
+      return <>{seoHelmet}<DefaultTemplate {...templateProps} /></>;
   }
 }

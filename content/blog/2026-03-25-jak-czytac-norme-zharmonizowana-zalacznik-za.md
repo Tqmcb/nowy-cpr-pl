@@ -47,7 +47,7 @@ W punkcie ZA.3 norma wskazuje, jakie informacje muszą znaleźć się na etykiec
 
 System AVS (Assessment and Verification System — System Oceny i Weryfikacji) — w CPR 2024/3110 zastąpił dotychczasowy system AVCP (Assessment and Verification of Constancy of Performance) — określa, kto i w jaki sposób ocenia i weryfikuje, że właściwości użytkowe wyrobu są stałe. CPR 2024 wprowadza następujące systemy:
 
-- **System 1+** — najwyższy rygor; jednostka notyfikowana certyfikuje produkt i zakładową kontrolę produkcji (FPC); stosowany m.in. dla wyrobów do ochrony przed ogniem,
+- **System 1+** — najwyższy rygor; jednostka notyfikowana certyfikuje wyrób i zakładową kontrolę produkcji (FPC); stosowany m.in. dla wyrobów do ochrony przed ogniem,
 - **System 1** — certyfikacja przez JN obejmuje próbki wyrobu (wstępne badanie typu) oraz FPC,
 - **System 2+** — JN certyfikuje FPC; producent sam przeprowadza wstępne badania,
 - **System 3** — JN wykonuje lub zleca wstępne badanie typu (ITT); producent zarządza FPC bez certyfikacji JN,

@@ -38,9 +38,9 @@ Jedną ze specyfik rodziny 22 jest klasa odporności ogniowej **BROOF** – klas
 
 Dla wyrobów z rodziny 22 obowiązuje:
 
-- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Jednostka notyfikowana przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), producent prowadzi ZKP.
+- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
 - **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
-- **System AVS 3+** – walidacja EPD dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
+- **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 
 Badania dachowe (BROOF, wodoszczelność, wytrzymałość mechaniczna) wykonuje m.in. [ITCZLin](https://www.itczlin.pl), który posiada stanowiska do badań pokryć dachowych.
 
@@ -83,7 +83,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 1. **Deklarowanie GWP** – obowiązkowe dla wszystkich wyrobów dachowych w DoP&C.
 2. **Cyrkulacja** – deklarowanie możliwości recyklingu, szczególnie ważne dla metali i PVC (membrany).
 3. **Substancje niebezpieczne** – papy z modyfikatorami polimerowymi (APP, SBS) muszą być sprawdzone pod kątem SVHC; membrany PVC – bez ftalanów z listy REACH.
-4. **System 3+ dla EPD** – walidacja przez NB (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
 5. **DoP&C** – rozszerzona deklaracja zamiast DoP.
 
 ## Harmonogram wdrożenia
@@ -101,8 +101,8 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 
 Polska cegielnia produkująca dachówki ceramiczne dachówkowe (łukowe) w różnych kolorach angobowanych:
 1. Badania ITT wg EN 1304: wytrzymałość na zginanie, absorpcja wody, mrozoodporność (F2 – 150 cykli), masy pozornej
-2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium NB ([ITCZLin](https://www.itczlin.pl))
-3. System AVS 3 – NB przeprowadza ITT, producent prowadzi ZKP
+2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium JN ([ITCZLin](https://www.itczlin.pl))
+3. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 4. EPD z GWP 280 kg CO2eq/t – dachówka ceramiczna może być deklarowana jako wyrób trwały (min. 50 lat) z niskim GWP na rok użytkowania
 5. DoP&C: klasa BROOF(t2), absorpcja wody <15%, klasa mrozoodporności F2, trwałość 50+ lat
 
@@ -119,13 +119,13 @@ Producent membran TPO do dachów płaskich:
 - [ ] Identyfikacja normy wyrobu (EN 490, EN 1304, EN 544, EN 13707, EN 14783 lub inne)
 - [ ] Ustalenie systemu AVS (3 dla wyrobów z deklarowaną klasą BROOF, 4 dla pomocniczych)
 - [ ] Przeprowadzenie badań ITT – wytrzymałość mechaniczna, wodoszczelność, mrozoodporność
-- [ ] Klasyfikacja BROOF(t2) lub BROOF(t4) w laboratorium NB ([ITCZLin](https://www.itczlin.pl))
+- [ ] Klasyfikacja BROOF(t2) lub BROOF(t4) w laboratorium JN ([ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP i wystawienie DoP&C z deklaracją klasy BROOF i wodoszczelności
 - [ ] Sprawdzenie składu chemicznego pod kątem SVHC (bitum, plastyfikatory, farby)
 - [ ] Deklarowanie GWP i udziału materiału z recyklingu
 - [ ] Oznakowanie CE na wyrobie lub opakowaniu zbiorczym
 - [ ] Dla okien dachowych i systemów świetlikowych: rozważenie ETA ([ocenytechniczne.pl](https://www.ocenytechniczne.pl))
-- [ ] Walidacja EPD przez NB (System AVS 3+) dla producentów deklarujących recykling
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla producentów deklarujących recykling
 
 ## Gdzie szukać wsparcia
 

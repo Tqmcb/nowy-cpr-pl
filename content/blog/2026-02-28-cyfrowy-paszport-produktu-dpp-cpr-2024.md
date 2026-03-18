@@ -1,7 +1,7 @@
 ---
 title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024 — co to jest, kiedy obowiązkowy i dla których wyrobów"
 date: "2026-02-28"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability", "GUNB", "Polska", "kary"]
 excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
@@ -11,13 +11,13 @@ template: "analiza"
 
 # Cyfrowy Paszport Produktu w CPR 2024 — kompletne wyjaśnienie
 
-Cyfrowy Paszport Produktu (DPP, ang. Digital Product Passport) jest jedną z najbardziej przełomowych nowości wprowadzonych przez rozporządzenie CPR (UE) 2024/3110. Dla producentów wyrobów budowlanych przyzwyczajonych do papierowej dokumentacji to znacząca zmiana sposobu myślenia o identyfikowalności i transparentności produktu.
+Cyfrowy Paszport Produktu (DPP, ang. Digital Product Passport) jest jedną z najbardziej przełomowych nowości wprowadzonych przez rozporządzenie CPR (UE) 2024/3110. Dla producentów wyrobów budowlanych przyzwyczajonych do papierowej dokumentacji to znacząca zmiana sposobu myślenia o identyfikowalności i transparentności wyrobu.
 
 Ten artykuł wyjaśnia czym jest DPP, kiedy stanie się obowiązkowy dla wyrobów budowlanych, co musi zawierać i jak można się do niego przygotować już teraz.
 
 ## Czym jest Cyfrowy Paszport Produktu?
 
-DPP to **cyfrowy zbiór danych o wyrobie**, dostępny przez internet i powiązany z konkretnym egzemplarzem lub partią produktu za pomocą unikalnego identyfikatora (np. QR kodu, kodu GS1 lub cyfrowego linku GS1). Paszport zawiera wszystkie kluczowe informacje o wyrobie — techniczne, środowiskowe i administracyjne — w formie ustrukturyzowanej i czytelnej maszynowo.
+DPP to **cyfrowy zbiór danych o wyrobie**, dostępny przez internet i powiązany z konkretnym egzemplarzem lub partią wyrobu za pomocą unikalnego identyfikatora (np. QR kodu, kodu GS1 lub cyfrowego linku GS1). Paszport zawiera wszystkie kluczowe informacje o wyrobie — techniczne, środowiskowe i administracyjne — w formie ustrukturyzowanej i czytelnej maszynowo.
 
 Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dachowej, każda płyta izolacyjna, każdy profil stalowy będzie miał swój unikalny identyfikator prowadzący do pełnego zestawu danych o tym konkretnym wyrobie.
 
@@ -64,21 +64,21 @@ Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru B
 | Wymaganie | Podstawa prawna (UE) | Status krajowy | Realne ryzyko kary |
 |-----------|---------------------|---------------|-------------------|
 | DoP&C w nowym formacie (Art. 15) | ✅ Obowiązuje | ⚠️ NUWB w trakcie uchwalania | Niskie |
-| Unikalny identyfikator produktu (UPC) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
+| Unikalny identyfikator wyrobu (UPC) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
 | Cyfrowy dostęp do DoP&C (URL/QR) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
 | Deklarowanie GWP w DoP&C | ❌ Brak hTS | ❌ Brak podstawy prawnej | **Zerowe** |
 | Cyfrowy Paszport Produktu (DPP) | ❌ Brak hTS + brak aktów KE | ❌ Brak systemu DPP | **Zerowe** |
 
 > **Dlaczego za DPP nie ma dziś żadnych kar?** KE nie opublikowała jeszcze ani aktów wykonawczych z formatem DPP, ani nie uruchomiła rejestru DPP (planowany do 19 lipca 2026 r.). Nie można nałożyć kary za niespełnienie wymagań, których infrastruktura techniczna i prawna w ogóle nie istnieje.
 
-*Producenci powinni śledzić komunikaty [GUNB](https://www.gunb.gov.pl) i Dziennik Urzędowy UE — sytuacja zmieni się po uchwaleniu NUWB i opublikowaniu aktów wykonawczych KE.*
+*Producenci powinni śledzić komunikaty [GUNB](https://www.gov.pl/web/gunb) i Dziennik Urzędowy UE — sytuacja zmieni się po uchwaleniu NUWB i opublikowaniu aktów wykonawczych KE.*
 
 ## Co DPP będzie zawierał?
 
 Na podstawie CPR 2024/3110 i projektów aktów delegowanych DPP dla wyrobu budowlanego będzie zawierał:
 
 ### Identyfikacja wyrobu
-- Unikalny identyfikator produktu (GTIN lub inny globalny standard)
+- Unikalny identyfikator wyrobu (GTIN lub inny globalny standard)
 - Nazwa handlowa, opis, numer modelu
 - Data produkcji / numer partii
 - Dane producenta (nazwa, adres, kontakt)
@@ -141,7 +141,7 @@ DoP&C to **deklaracja**, DPP to **repozytorium danych**. DPP będzie zawierało 
 
 Nie czekając na obowiązek, możesz zrobić trzy rzeczy:
 
-**1. Ustandaryzuj dane produktów**
+**1. Ustandaryzuj dane wyrobów**
 Zadbaj o to, by każdy wyrób miał jednoznaczny identyfikator (GTIN z GS1, własny numer katalogowy z logiką), a dane techniczne były przechowywane w formie ustrukturyzowanej (baza danych, a nie tylko PDF).
 
 **2. Wdróż cyfrową dostępność DoP&C**
@@ -174,5 +174,5 @@ Producenci, którzy teraz ustandaryzują dane i wdrożą cyfrową dostępność 
 - Rozporządzenie (UE) 2024/3110 art. 75–80 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - DG GROW — Digital Product Passport w sektorze budowlanym — [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)
-- GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gunb.gov.pl](https://www.gunb.gov.pl)
+- GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gov.pl/web/gunb](https://www.gov.pl/web/gunb)
 - Projekt Nowej Ustawy o Wyrobach Budowlanych (NUWB) — opublikowany 21.10.2025, Ministerstwo Finansów i Gospodarki

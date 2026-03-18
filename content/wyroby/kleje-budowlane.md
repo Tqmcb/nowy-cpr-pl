@@ -13,11 +13,11 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 # Kleje budowlane – rodzina wyrobów 25 wg CPR 2024/3110
 
-Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres produktów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
+Kleje budowlane stanowią jedną z kluczowych kategorii chemii budowlanej stosowanej w robotach wykończeniowych i instalacyjnych. Rozporządzenie CPR 2024/3110 obejmuje tę rodzinę wyrobów numerem 25 w Załączniku VII, skupiając szeroki zakres wyrobów – od zapraw klejących do płytek ceramicznych, przez kleje do parkietu, aż po kleje montażowe i uszczelniające stosowane w budynkach jako ich trwała część składowa.
 
 ## O rodzinie wyrobów
 
-Rodzina 25 – Construction Adhesives – obejmuje wszystkie kleje przeznaczone do trwałego łączenia elementów budowlanych ze sobą lub z podłożem. Kluczowe kryterium włączenia do zakresu CPR 2024 to trwałe wbudowanie w obiekt oraz bezpośredni wpływ na spełnienie podstawowych wymagań budowlanych (BWR). Kleje do płytek ceramicznych decydują o trwałości okładzin podłogowych i ściennych, kleje do parkietu – o stabilności posadzek drewnianych, natomiast kleje montażowe – o integralności fasad i przeszkleń. Do rodziny 25 nie należą kleje tymczasowe ani produkty stosowane wyłącznie jako środki pomocnicze podczas budowy.
+Rodzina 25 – Construction Adhesives – obejmuje wszystkie kleje przeznaczone do trwałego łączenia elementów budowlanych ze sobą lub z podłożem. Kluczowe kryterium włączenia do zakresu CPR 2024 to trwałe wbudowanie w obiekt oraz bezpośredni wpływ na spełnienie podstawowych wymagań budowlanych (BWR). Kleje do płytek ceramicznych decydują o trwałości okładzin podłogowych i ściennych, kleje do parkietu – o stabilności posadzek drewnianych, natomiast kleje montażowe – o integralności fasad i przeszkleń. Do rodziny 25 nie należą kleje tymczasowe ani wyroby stosowane wyłącznie jako środki pomocnicze podczas budowy.
 
 Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C** (cementowe – zaprawa w proszku), **D** (dyspersyjne – gotowe do użycia, wyłącznie wnętrza) oraz **R** (reaktywne – epoksydowe lub poliuretanowe, najwyższa wytrzymałość). Do każdej grupy dochodzą klasy funkcjonalne 1 (standardowe) lub 2 (ulepszone), a także oznaczenia: **T** (obniżony spływ, do stosowania pionowego) i **S1/S2** (odkształcalność poprzeczna – konieczna przy ogrzewaniu podłogowym i dużych formatach).
 
@@ -35,9 +35,9 @@ Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C
 Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**, zależnie od klasy wyrobu i deklarowanego zastosowania.
 
 - **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
-- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: niezależna jednostka notyfikowana przeprowadza wstępne badanie typu (ITT) i wydaje raport z badań. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** na podstawie tych wyników.
+- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-CPR 2024 wprowadza ponadto **system 3+** dla walidacji deklaracji środowiskowych – jednostka notyfikowana weryfikuje EPD (Environmental Product Declaration) i wydaje raport walidacji, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
+CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych – jednostka notyfikowana weryfikuje dane środowiskowe (wyniki LCA) i wydaje raport walidacyjny, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -56,9 +56,9 @@ CPR 2024 wprowadza ponadto **system 3+** dla walidacji deklaracji środowiskowyc
 
 ## Zmiany względem CPR 305/2011
 
-1. **Nowe wymaganie podstawowe BWR 7** – producenci muszą deklarować zawartość materiałów z recyklingu, trwałość użytkową produktu oraz możliwość demontażu okładzin po zakończeniu cyklu życia budynku.
+1. **Nowe wymaganie podstawowe BWR 7** – producenci muszą deklarować zawartość materiałów z recyklingu, trwałość użytkową wyrobu oraz możliwość demontażu okładzin po zakończeniu cyklu życia budynku.
 2. **Obowiązkowa deklaracja emisji VOC** – wcześniej fakultatywna, teraz obligatoryjna dla wszystkich klejów do wnętrz, w tym klejów dyspersyjnych D1/D2 i reaktywnych epoksydowych.
-3. **System 3+ dla oceny środowiskowej** – nowy tryb weryfikacji, w którym jednostka notyfikowana zatwierdza deklaracje środowiskowe producenta (EPD).
+3. **System 3+ dla danych środowiskowych** – nowy tryb weryfikacji, w którym jednostka notyfikowana waliduje dane środowiskowe (wyniki LCA) zadeklarowane przez producenta.
 4. **Nowy format DoP&C** – Deklaracja Właściwości Użytkowych i Zgodności zastępuje dotychczasową Deklarację Właściwości Użytkowych (DoP) przewidzianą w CPR 305/2011.
 
 ## Harmonogram wdrożenia
@@ -84,7 +84,7 @@ Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dok
 ## Checklist producenta
 
 - [ ] Zidentyfikować klasę kleju wg EN 12004-1, EN 12004-2, EN 15836-1 lub EN 15836-2
-- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego produktu w asortymencie
+- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego wyrobu w asortymencie
 - [ ] Zlecić badania ITT w akredytowanym laboratorium notyfikowanym (system AVS 3)
 - [ ] Wdrożyć i udokumentować zakładową kontrolę produkcji (ZKP) zgodną z CPR 2024
 - [ ] Przeprowadzić badania emisji VOC i zawrzeć wyniki w DoP&C
@@ -92,7 +92,7 @@ Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dok
 - [ ] Wystawić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE na opakowaniu
 - [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z rozporządzeniem CLP i REACH
 - [ ] Sprawdzić zawartość substancji SVHC i ujawnić informacje w bazie SCIP (ECHA)
-- [ ] Rozważyć walidację EPD przez jednostkę notyfikowaną (system 3+) dla deklaracji środowiskowej
+- [ ] Rozważyć walidację danych środowiskowych przez jednostkę notyfikowaną (system 3+) dla deklaracji środowiskowej
 
 ## Gdzie szukać wsparcia
 

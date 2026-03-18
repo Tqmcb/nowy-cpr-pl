@@ -1,7 +1,7 @@
 ---
 title: "Digital DoP&C — aktualny harmonogram i co producenci muszą zrobić już teraz"
 date: "2026-02-25"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["Digital DoP", "DoP&C", "cyfryzacja", "2026", "QR kod"]
 excerpt: "Co w zakresie Digital DoP&C jest już obowiązkowe od 8 stycznia 2026, a co czeka na akty delegowane KE? Wyjaśniamy podział i jakie kroki warto podjąć już teraz."
@@ -46,7 +46,7 @@ Nie musisz czekać na standardy UE. Możesz już teraz dodać do swoich etykiet 
 
 ### Krok 3: Przyjmij ustrukturyzowany format danych
 
-Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już teraz przygotowywać dane DoP&C w sposób ustrukturyzowany (np. w arkuszu danych produktu z oznaczonymi polami). Ułatwi to przyszłą migrację do formatu wymaganego przez KE.
+Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już teraz przygotowywać dane DoP&C w sposób ustrukturyzowany (np. w arkuszu danych wyrobu z oznaczonymi polami). Ułatwi to przyszłą migrację do formatu wymaganego przez KE.
 
 ## Porównanie: DoP&C papierowe vs. cyfrowe w 2026
 
@@ -63,8 +63,8 @@ Choć format XML dla Digital DoP&C nie jest jeszcze obowiązkowy, warto już ter
 Producenci wyrobów stosowanych w budownictwie publicznym (zamówienia publiczne) powinni priorytetowo potraktować cyfryzację DoP&C, ponieważ:
 
 - Specyfikacje techniczne przetargów coraz częściej wymagają DoP&C w formie cyfrowej
-- Certyfikacje LEED i BREEAM premiują dostępność danych w formatach cyfrowych
-- Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM — a DoP&C jest elementem modelu BIM
+- Certyfikacje budynków LEED i BREEAM premiują dostępność danych w formatach cyfrowych
+- Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM (Building Information Modelling) — a DoP&C jest elementem modelu BIM
 
 ## Multicert pomaga w cyfryzacji DoP&C
 

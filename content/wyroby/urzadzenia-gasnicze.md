@@ -78,7 +78,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 **Właściwości środowiskowe dla wyrobów ppoż.**: CPR 2024 jest pierwszym krokiem ku uwzględnieniu środowiskowego śladu urządzeń ochrony ppoż. Szczególnie istotne są: substancje gaśnicze o wysokim GWP (HFC-227ea ma GWP = 3350 – trwa stopniowe wycofywanie na rzecz Novec 1230 z GWP < 1), akumulatory w centralach SAP i systemach alarmowych (trwałość, recykling), tworzywa sztuczne w obudowach detektorów (ABS, PC z retardantami ognia).
 
-**System 3+ dla EPD**: Choć EPD dla urządzeń ppoż. nie są jeszcze powszechne, CPR 2024 otwiera drogę do walidacji danych środowiskowych przez System 3+. W kontekście zamówień publicznych (szpitale, szkoły, obiekty rządowe) EPD dla systemów SAP i tryskaczowych może stać się wymaganiem przetargowym.
+**System 3+ dla danych środowiskowych**: Choć EPD dla urządzeń ppoż. nie są jeszcze powszechne, CPR 2024 otwiera drogę do walidacji danych środowiskowych przez System 3+. W kontekście zamówień publicznych (szpitale, szkoły, obiekty rządowe) EPD dla systemów SAP i tryskaczowych może stać się wymaganiem przetargowym.
 
 **Nowe wyroby objęte CPR**: CPR 2024 rozszerza zakres na nowe kategorie wyrobów ppoż.: automatyczne systemy tłumienia wybuchu (EN 16750), aerozolowe systemy gaśnicze, stałe urządzenia gaśnicze dla tuneli drogowych i kolejowych (szczególnie istotne w kontekście infrastruktury finansowanej ze środków UE).
 
@@ -106,9 +106,9 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 - [ ] Nawiązać kontakt z [CNBOP-PIB](https://www.cnbop.pl) (NB 1438) jako wiodącą polską jednostką notyfikowaną dla wyrobów ppoż.
 - [ ] Przeprowadzić pełne badanie ITT pod nadzorem jednostki notyfikowanej (AVS 1)
 - [ ] Wdrożyć system FPC z kompletną dokumentacją procesu produkcji i badań kontrolnych
-- [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna NB z kompetencjami ppoż.)
+- [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna JN z kompetencjami ppoż.)
 - [ ] Sporządzić DoP&C (zmiana z DoP) w języku polskim i udostępnić cyfrowo
-- [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem NB (1438 dla CNBOP-PIB)
+- [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem JN (1438 dla CNBOP-PIB)
 - [ ] Przeprowadzić przegląd substancji gaśniczych pod kątem GWP (wycofywanie HFC w systemach gazowych)
 - [ ] Monitorować zmiany w normach serii EN 54 (aktywny komitet CEN/TC 72) – możliwe aktualizacje norm
 - [ ] Przygotować dokumentację do cyfrowego paszportu wyrobu (DPP) uwzględniającą wymagania systemów FMMS (zarządzania konserwacją)

@@ -1,7 +1,7 @@
 ---
 title: "Beton i prefabrykaty betonowe - specyficzne wymagania CPR"
 date: "2025-10-25"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["beton", "prefabrykaty", "EN 206", "konstrukcje"]
 excerpt: "Certyfikacja betonu towarowego i prefabrykatów betonowych według CPR 2024. System 2+, normy EN 206 i EN 13369, zakładowa kontrola produkcji."
@@ -74,8 +74,8 @@ Beton towarowy produkowany na terenie UE musi spełniać wymagania normy EN 206 
 Nowe rozporządzenie wprowadza dodatkowe wymogi dotyczące:
 
 1. **Deklarowania wskaźników środowiskowych** (GWP, ODP) – obowiązkowe po zakończeniu okresu koegzystencji (12–36 mies.) po publikacji nowej normy zharmonizowanej (hTS) dla betonu w Dz.U. UE (publikacja hTS przewidywana ok. 2027–2028, obowiązek ok. 2028–2030)
-2. **Informacji o składnikach** (cement, kruszywa, domieszki) w paszporcie produktu
-3. **Współczynnika cyrkulacyjności** – zawartość materiałów z recyclingu
+2. **Informacji o składnikach** (cement, kruszywa, domieszki) w paszporcie wyrobu
+3. **Współczynnika cyrkularności** – zawartość materiałów z recyklingu
 
 ---
 

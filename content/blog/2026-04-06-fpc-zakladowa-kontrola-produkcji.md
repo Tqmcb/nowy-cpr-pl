@@ -13,7 +13,7 @@ template: "przewodnik"
 
 Zakładowa Kontrola Produkcji (ang. *Factory Production Control*, FPC) to udokumentowany, trwały i wewnętrzny system kontroli jakości, który producent wyrobu budowlanego jest zobowiązany wdrożyć i utrzymywać jako warunek stosowania oznakowania CE. Obowiązek ten wynika bezpośrednio z CPR 2024/3110 (rozporządzenie Parlamentu Europejskiego i Rady w sprawie wyrobów budowlanych) i jest wymagany niezależnie od systemu AVS — od systemu 4 (samocertyfikacja) przez system 3 aż do systemu 1+ (pełna certyfikacja przez JN).
 
-FPC nie jest systemem zarządzania jakością ISO 9001, choć oba systemy mają wiele wspólnych elementów. FPC jest wymaganiem specyficznie budowlanym, opisanym w normach zharmonizowanych (Załącznik ZA) i aktach delegowanych do CPR. Jej celem jest zagwarantowanie, że właściwości wyrobu opuszczającego halę produkcyjną są zgodne z wartościami zadeklarowanymi przez producenta w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) i oznaczeniu CE.
+FPC nie jest systemem zarządzania jakością ISO 9001, choć oba systemy mają wiele wspólnych elementów. FPC jest wymaganiem specyficznie budowlanym, opisanym w normach zharmonizowanych (Załącznik ZA) i aktach delegowanych do CPR. Jej celem jest zagwarantowanie, że właściwości wyrobu opuszczającego halę produkcyjną są zgodne z wartościami zadeklarowanymi przez producenta w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) i oznakowaniu CE.
 
 ## Co musi zawierać dokumentacja FPC — struktura i wymagane elementy
 
