@@ -74,8 +74,8 @@ function CeLabelPreview({ data }: { data: LabelData }) {
       <rect width="400" height={height} rx="8" fill="#ffffff" stroke="#e2e8f0" strokeWidth="2" />
 
       {/* CE Symbol - dedicated zone with clear separation */}
-      <g transform="translate(20, 12)">
-        <text fontSize="64" fontWeight="bold" fill="#1e293b" letterSpacing="-2">
+      <g transform="translate(20, 0)">
+        <text y="72" fontSize="64" fontWeight="bold" fill="#1e293b" letterSpacing="-2">
           CE
         </text>
       </g>
