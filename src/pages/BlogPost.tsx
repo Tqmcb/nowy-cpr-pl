@@ -12,6 +12,7 @@ import {
   Shield, ExternalLink, CheckSquare,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
+import { getAuthorSlug } from "../data/authors";
 
 // ────────────────────────────────────────────────────────────────────────────
 // SHARED UTILITIES
@@ -24,6 +25,23 @@ function formatDate(dateString: string) {
     month: "long",
     day: "numeric",
   });
+}
+
+function AuthorLink({ authorField, className }: { authorField: string; className?: string }) {
+  const navigate = useNavigate();
+  const displayName = authorField.split(' | ')[0];
+  const slug = getAuthorSlug(authorField) ?? getAuthorSlug(displayName);
+  if (slug) {
+    return (
+      <button
+        onClick={() => navigate(`/autor/${slug}`)}
+        className={`hover:text-amber-300 underline underline-offset-2 transition-colors cursor-pointer ${className ?? ""}`}
+      >
+        {displayName}
+      </button>
+    );
+  }
+  return <span className={className}>{displayName}</span>;
 }
 
 function readingTime(content: string) {
@@ -359,7 +377,7 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
             <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
             <dd className="text-slate-300 text-sm flex items-center gap-2">
               <User className="w-3.5 h-3.5 text-amber-400" />
-              {post.author.split(' | ')[0]}
+              <AuthorLink authorField={post.author} />
             </dd>
           </div>
           <div>
@@ -555,7 +573,7 @@ function SharedHero({
         <p className="text-slate-400 mt-4 text-sm flex items-center gap-4 flex-wrap">
           <span className="flex items-center gap-1.5">
             <User className={`w-3.5 h-3.5 ${iconAccentClass}`} />
-            {post.author.split(' | ')[0]}
+            <AuthorLink authorField={post.author} />
           </span>
           <span className="flex items-center gap-1.5">
             <Calendar className={`w-3.5 h-3.5 ${iconAccentClass}`} />
@@ -714,7 +732,8 @@ function AnalizaTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
                     <dd className="text-slate-300 text-sm flex items-center gap-2">
-                      <User className="w-3.5 h-3.5 text-emerald-400" />{post.author.split(' | ')[0]}
+                      <User className="w-3.5 h-3.5 text-emerald-400" />
+                      <AuthorLink authorField={post.author} />
                     </dd>
                   </div>
                   <div>
@@ -958,7 +977,7 @@ function DefaultTemplate({ post, navigate }: { post: BlogPostType; navigate: (p:
             <article className="lg:col-span-2">
               <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">{post.title}</h1>
               <div className="flex items-center gap-4 text-slate-400 text-sm mb-8 pb-6 border-b border-white/10 flex-wrap">
-                <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" />{post.author.split(' | ')[0]}</span>
+                <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-amber-400" /><AuthorLink authorField={post.author} /></span>
                 <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-amber-400" />{formatDate(post.published_at)}</span>
                 <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-amber-400" />ok. {readingTime(post.content)} min</span>
               </div>
