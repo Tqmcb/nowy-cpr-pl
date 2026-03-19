@@ -540,52 +540,62 @@ function SharedHero({
     bottomBg = "to-slate-900",
   } = config;
 
+  const photoBg = post.image_url || "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80";
+
   return (
-    <div className="relative overflow-hidden bg-slate-50 border-b border-slate-200">
-      {post.image_url && (
-        <div className="absolute inset-0">
-          <img
-            src={post.image_url}
-            alt=""
-            className="w-full h-full object-cover opacity-10"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-slate-50/90 to-slate-50" />
-        </div>
-      )}
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16">
+    <div className="relative overflow-hidden">
+      {/* B&W photo background */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url('${photoBg}')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+        }}
+      />
+      {/* Navy→blue gradient overlay */}
+      <div
+        className="absolute inset-0"
+        style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+      />
+      {/* Bottom accent stripe: wiśniowy → niebieski */}
+      <div
+        className="absolute bottom-0 left-0 right-0 h-[4px]"
+        style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+      />
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <button
           onClick={() => navigate("/blog")}
-          className={`flex items-center gap-2 text-slate-500 ${buttonHoverClass} transition-colors mb-8 group text-sm`}
+          className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-8 group text-sm"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
           Powrót do bloga
         </button>
         <div className="flex items-center gap-3 mb-4">
-          <span
-            className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${badgeClasses}`}
-          >
+          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#8b1a3c] text-white border border-[#8b1a3c]">
             <BadgeIcon className="w-3 h-3" /> {badgeLabel}
           </span>
           {post.category && (
-            <span className="text-xs text-slate-500 bg-white border border-slate-200 px-3 py-1 rounded-full">
+            <span className="text-xs text-white/80 bg-white/15 border border-white/30 px-3 py-1 rounded-full">
               {post.category}
             </span>
           )}
         </div>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2137] leading-tight max-w-3xl">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl">
           {post.title}
         </h1>
-        <p className="text-slate-500 mt-4 text-sm flex items-center gap-4 flex-wrap">
+        <p className="text-white/70 mt-4 text-sm flex items-center gap-4 flex-wrap">
           <span className="flex items-center gap-1.5">
-            <User className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            <User className="w-3.5 h-3.5 text-white/60" />
             <AuthorLink authorField={post.author} />
           </span>
           <span className="flex items-center gap-1.5">
-            <Calendar className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            <Calendar className="w-3.5 h-3.5 text-white/60" />
             {formatDate(post.published_at)}
           </span>
           <span className="flex items-center gap-1.5">
-            <Clock className={`w-3.5 h-3.5 ${iconAccentClass}`} />
+            <Clock className="w-3.5 h-3.5 text-white/60" />
             ok. {readingTime(post.content)} min czytania
           </span>
         </p>
