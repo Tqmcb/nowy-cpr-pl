@@ -199,9 +199,9 @@ const PHASE_CONFIG: Record<TimelinePhase, { label: string; color: string; bgColo
   },
   teraz: {
     label: "Obowiazuje",
-    color: "text-amber-400",
-    bgColor: "bg-amber-400/10",
-    borderColor: "border-amber-400/30",
+    color: "text-[#1a56a0]",
+    bgColor: "bg-[#1a56a0]/10",
+    borderColor: "border-[#1a56a0]/30",
   },
   przyszlosc: {
     label: "Nadchodzi",
@@ -256,32 +256,31 @@ export default function TimelinePage() {
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* ── HERO ── */}
-          <section className="relative overflow-hidden pb-12">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900 to-transparent" />
-            <div className="absolute inset-0 opacity-20">
-              <div className="absolute top-20 left-1/4 w-72 h-72 bg-amber-400/20 rounded-full blur-3xl" />
-              <div className="absolute top-40 right-1/4 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl" />
+          <section className="relative overflow-hidden pb-12 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
+            <div className="absolute inset-0 pointer-events-none">
+              <div className="absolute top-20 left-1/4 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl" />
+              <div className="absolute top-40 right-1/4 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl" />
             </div>
             <Container>
               <div className="relative pt-8">
-                <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-                  <button onClick={() => navigate("/")} className="hover:text-amber-400 transition-colors">
+                <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">
+                  <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">
                     Strona główna
                   </button>
                   <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">Harmonogram</span>
+                  <span className="text-[#0d2137]">Harmonogram</span>
                 </nav>
 
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-400/15 border border-amber-400/30 text-amber-400">
+                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0]">
                     <Calendar className="w-3 h-3" /> Harmonogram
                   </span>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2137] leading-tight max-w-3xl mb-4">
                   Harmonogram CPR 2024/3110
                 </h1>
-                <p className="text-slate-400 text-lg max-w-2xl">
+                <p className="text-slate-500 text-lg max-w-2xl">
                   Kluczowe daty, terminy przejściowe i kamienie milowe wdrożenia nowego rozporządzenia o wyrobach budowlanych.
                 </p>
 
@@ -293,7 +292,7 @@ export default function TimelinePage() {
                         key={phase}
                         className={`flex items-center gap-2 px-4 py-2 rounded-full border ${config.borderColor} ${config.bgColor}`}
                       >
-                        <span className={`w-2 h-2 rounded-full ${phase === "teraz" ? "bg-amber-400 animate-pulse" : phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`} />
+                        <span className={`w-2 h-2 rounded-full ${phase === "teraz" ? "bg-[#1a56a0] animate-pulse" : phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`} />
                         <span className={`text-sm font-medium ${config.color}`}>{config.label}</span>
                       </div>
                     )
@@ -314,8 +313,8 @@ export default function TimelinePage() {
                   onClick={() => setFilter(cat)}
                   className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
                     filter === cat
-                      ? "bg-amber-400/20 border-amber-400/40 text-amber-400"
-                      : "bg-white/5 border-white/10 text-slate-400 hover:text-white hover:border-white/20"
+                      ? "bg-[#1a56a0]/10 border-[#1a56a0]/30 text-[#1a56a0]"
+                      : "bg-white border-slate-200 text-slate-600 hover:text-[#0d2137] hover:border-slate-300"
                   }`}
                 >
                   {label}
@@ -328,7 +327,7 @@ export default function TimelinePage() {
           <Container>
             <div className="relative">
               {/* Vertical line */}
-              <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-gradient-to-b from-slate-400/30 via-amber-400/50 to-sky-400/30" />
+              <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-gradient-to-b from-slate-300 via-[#1a56a0]/40 to-sky-400/30" />
 
               <div className="space-y-0">
                 {filtered.map((event, index) => {
@@ -347,8 +346,8 @@ export default function TimelinePage() {
                       {/* NOW marker */}
                       {isNow && (
                         <div className="relative flex items-center justify-center py-4">
-                          <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-amber-400 shadow-lg shadow-amber-400/40 z-10 animate-pulse" />
-                          <span className="hidden md:block bg-amber-400 text-slate-900 text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full z-10">
+                          <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-[#1a56a0] shadow-lg shadow-[#1a56a0]/40 z-10 animate-pulse" />
+                          <span className="hidden md:block bg-[#1a56a0] text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full z-10">
                             Teraz
                           </span>
                         </div>
@@ -363,8 +362,8 @@ export default function TimelinePage() {
                         <div
                           className={`absolute left-4 md:left-1/2 -translate-x-1/2 w-3 h-3 rounded-full border-2 z-10 mt-2 ${
                             event.important
-                              ? `${phaseConfig.borderColor.replace("/30", "/80")} ${event.phase === "teraz" ? "bg-amber-400" : event.phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`
-                              : "bg-slate-800 border-slate-600"
+                              ? `${phaseConfig.borderColor.replace("/30", "/80")} ${event.phase === "teraz" ? "bg-[#1a56a0]" : event.phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`
+                              : "bg-white border-slate-300"
                           }`}
                         />
 
@@ -373,8 +372,8 @@ export default function TimelinePage() {
                           <div
                             className={`group p-5 rounded-2xl border transition-all duration-300 hover:shadow-lg ${
                               event.important
-                                ? `${phaseConfig.bgColor} ${phaseConfig.borderColor} hover:shadow-${event.phase === "teraz" ? "amber" : "sky"}-400/10`
-                                : "bg-slate-800/50 border-white/10 hover:border-white/20"
+                                ? `${phaseConfig.bgColor} ${phaseConfig.borderColor}`
+                                : "bg-white border-slate-200 hover:border-slate-300"
                             }`}
                           >
                             {/* Date + phase badge */}
@@ -399,12 +398,12 @@ export default function TimelinePage() {
                               <div>
                                 <h3
                                   className={`font-semibold text-base mb-1.5 ${
-                                    event.important ? "text-white" : "text-slate-200"
+                                    event.important ? "text-[#0d2137]" : "text-slate-700"
                                   }`}
                                 >
                                   {event.title}
                                 </h3>
-                                <p className="text-slate-400 text-sm leading-relaxed">
+                                <p className="text-slate-600 text-sm leading-relaxed">
                                   {event.description}
                                 </p>
                               </div>
@@ -417,7 +416,7 @@ export default function TimelinePage() {
                                 .map((cat) => (
                                   <span
                                     key={cat}
-                                    className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-slate-500 border border-white/5"
+                                    className="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200"
                                   >
                                     {CATEGORY_LABELS[cat]}
                                   </span>
@@ -436,23 +435,23 @@ export default function TimelinePage() {
           {/* ── CTA ── */}
           <section className="mt-16">
             <Container>
-              <div className="bg-gradient-to-br from-amber-400/10 to-orange-500/10 border border-amber-400/20 rounded-2xl p-8 md:p-12 text-center">
+              <div className="bg-[#0d2137] rounded-2xl p-8 md:p-12 text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
                   Przygotuj się na CPR 2024
                 </h2>
-                <p className="text-slate-400 max-w-xl mx-auto mb-6">
+                <p className="text-slate-300 max-w-xl mx-auto mb-6">
                   Sprawdź wymagania dla Twojego wyrobu i pobierz szablony dokumentów, aby płynnie przejść na nowe przepisy.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <button
                     onClick={() => navigate("/product-search")}
-                    className="flex items-center gap-2 px-6 py-3 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition-colors"
+                    className="flex items-center gap-2 px-6 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors"
                   >
                     Sprawdź wymagania <ArrowRight className="w-4 h-4" />
                   </button>
                   <button
                     onClick={() => navigate("/documents")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors"
+                    className="flex items-center gap-2 px-6 py-3 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors"
                   >
                     Pobierz szablony <FileText className="w-4 h-4" />
                   </button>

@@ -145,7 +145,7 @@ export function ProductSearchTool() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white">
       <Helmet>
         <title>Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl</title>
         <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011." />
@@ -155,43 +155,31 @@ export function ProductSearchTool() {
         <link rel="canonical" href="https://www.nowycpr.pl/product-search" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden">
-        {/* Hero Photo Background */}
+      <section className="relative py-24 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
         <div className="absolute inset-0 pointer-events-none">
-          <img
-            src="/images/hero-bg.jpg"
-            alt=""
-            aria-hidden="true"
-            className="w-full h-full object-cover object-center opacity-[0.28]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-slate-900/70"></div>
-        </div>
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float-delay"></div>
+          <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl"></div>
         </div>
 
         <Container>
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-2/3">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
-                <Sparkles className="w-4 h-4 text-amber-400" />
-                <span className="text-amber-400 text-sm font-medium">Wyszukiwarka CPR</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-6">
+                <Sparkles className="w-4 h-4 text-[#1a56a0]" />
+                <span className="text-[#1a56a0] text-sm font-medium">Wyszukiwarka CPR</span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-white">Wyszukiwarka wymagań </span>
-                <span className="gradient-text">CPR (EU) 2024/3110</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] mb-6">
+                Wyszukiwarka wymagań CPR (EU) 2024/3110
               </h1>
-              <p className="text-lg text-slate-300 mb-8 leading-relaxed max-w-2xl">
+              <p className="text-lg text-slate-500 mb-8 leading-relaxed max-w-2xl">
                 Sprawdź wymagania dla Twojego wyrobu budowlanego. Wybierz kategorię produktu,
                 aby zobaczyć szczegółowe informacje o testach, dokumentacji i zmianach w nowym rozporządzeniu CPR.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
                   onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="group"
+                  className="group px-6 py-3 rounded-full bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold"
                 >
                   <Search className="w-5 h-5 mr-2" />
                   Przejdź do wyszukiwarki
@@ -200,27 +188,28 @@ export function ProductSearchTool() {
                 <Button
                   variant="outline"
                   onClick={() => document.getElementById("about-section")?.scrollIntoView({ behavior: "smooth" })}
+                  className="px-6 py-3 rounded-full border-slate-200 text-slate-700 bg-white hover:bg-slate-50"
                 >
                   Więcej o CPR 2024
                 </Button>
               </div>
             </div>
             <div className="md:w-1/3">
-              <div className="glass-card p-6 animate-float">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg">
-                  <Search className="w-10 h-10 text-slate-900" />
+              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-[#1a56a0]/10 flex items-center justify-center">
+                  <Search className="w-10 h-10 text-[#1a56a0]" />
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text mb-1">{productOptions.length}</div>
-                  <p className="text-slate-400 text-sm">kategorii produktów</p>
+                  <div className="text-3xl font-bold text-[#0d2137] mb-1">{productOptions.length}</div>
+                  <p className="text-slate-500 text-sm">kategorii produktów</p>
                 </div>
-                <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-2 gap-4 text-center">
+                <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-2 gap-4 text-center">
                   <div>
-                    <div className="text-lg font-bold text-white">2025</div>
+                    <div className="text-lg font-bold text-[#0d2137]">2025</div>
                     <p className="text-slate-500 text-xs">rok wejścia</p>
                   </div>
                   <div>
-                    <div className="text-lg font-bold text-white">EU</div>
+                    <div className="text-lg font-bold text-[#0d2137]">EU</div>
                     <p className="text-slate-500 text-xs">regulacja</p>
                   </div>
                 </div>
@@ -231,33 +220,32 @@ export function ProductSearchTool() {
       </section>
 
       {/* Search Section */}
-      <section id="search-section" className="py-16 bg-gradient-to-b from-slate-900 to-slate-950">
+      <section id="search-section" className="py-16 bg-white">
         <Container>
           <div className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Znajdź wymagania dla <span className="gradient-text">Twojego produktu</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-4">
+              Znajdź wymagania dla Twojego produktu
             </h2>
-            <p className="text-slate-400 mb-8">
+            <p className="text-slate-500 mb-8">
               Wybierz kategorię wyrobu budowlanego, aby sprawdzić wymagania zgodne z rozporządzeniem CPR (EU) 2024/3110.
             </p>
-
           </div>
 
-          <div className="glass-card p-8 mb-10">
+          <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8 mb-10">
             <div className="max-w-xl mx-auto">
-              <label className="block text-sm font-medium text-slate-300 mb-3">
+              <label className="block text-sm font-medium text-slate-700 mb-3">
                 Wybierz kategorię wyrobu budowlanego:
               </label>
               <div className="relative mb-6">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
                 <select
                   value={selectedCategoryId}
                   onChange={(e) => handleCategoryChange(e.target.value)}
-                  className="w-full pl-12 pr-4 py-4 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all appearance-none cursor-pointer"
+                  className="w-full pl-12 pr-4 py-4 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all appearance-none cursor-pointer"
                 >
-                  <option value="" className="bg-slate-800">-- Wybierz kategorię --</option>
+                  <option value="">-- Wybierz kategorię --</option>
                   {productOptions.map((option) => (
-                    <option key={option.value} value={option.value} className="bg-slate-800">
+                    <option key={option.value} value={option.value}>
                       {option.label}
                     </option>
                   ))}
@@ -268,7 +256,7 @@ export function ProductSearchTool() {
                 <Button
                   onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
                   disabled={!selectedCategory}
-                  className="group"
+                  className="group px-6 py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400"
                 >
                   Pokaż wymagania
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -280,29 +268,29 @@ export function ProductSearchTool() {
           {/* Results Section */}
           {selectedCategory && (
             <div id="results-section" className="scroll-mt-16">
-              <div className="glass-card p-6 mb-8">
+              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 mb-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-                    <Building2 className="w-6 h-6 text-slate-900" />
+                  <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center">
+                    <Building2 className="w-6 h-6 text-[#1a56a0]" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">{selectedCategory.name}</h3>
-                    <p className="text-slate-400">
-                      Kod kategorii: <span className="text-amber-400 font-semibold">{selectedCategory.code}</span>
+                    <h3 className="text-2xl font-bold text-[#0d2137]">{selectedCategory.name}</h3>
+                    <p className="text-slate-500">
+                      Kod kategorii: <span className="text-[#1a56a0] font-semibold">{selectedCategory.code}</span>
                     </p>
                   </div>
                 </div>
               </div>
 
               {/* Tabs */}
-              <div className="flex flex-wrap gap-2 mb-8 pb-4 border-b border-white/10">
+              <div className="flex flex-wrap gap-2 mb-8 pb-4 border-b border-slate-200">
                 {tabs.map((tab) => (
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     className={`flex items-center gap-2 py-2 px-4 text-sm font-medium rounded-lg transition-all ${activeTab === tab.id
-                        ? "bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900"
-                        : "bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white"
+                        ? "bg-[#0d2137] text-white"
+                        : "bg-white border border-slate-200 text-slate-600 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]"
                       }`}
                   >
                     <tab.icon className="w-4 h-4" />
@@ -313,36 +301,36 @@ export function ProductSearchTool() {
 
               {/* Tab Content */}
               {activeTab === "overview" && (
-                <div className="glass-card p-8">
-                  <h3 className="text-xl font-bold text-white mb-4">{selectedCategory.requirements.title}</h3>
-                  <p className="text-slate-400 mb-8 leading-relaxed">{selectedCategory.requirements.description}</p>
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-[#0d2137] mb-4">{selectedCategory.requirements.title}</h3>
+                  <p className="text-slate-600 mb-8 leading-relaxed">{selectedCategory.requirements.description}</p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-white/5 p-6 rounded-xl border border-white/10">
-                      <h4 className="font-bold text-white mb-4 flex items-center gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-amber-400" />
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                      <h4 className="font-bold text-[#0d2137] mb-4 flex items-center gap-2">
+                        <CheckCircle2 className="w-5 h-5 text-[#1a56a0]" />
                         Kluczowe wymagania
                       </h4>
                       <ul className="space-y-3">
                         {selectedCategory.requirements.mandatoryTests.slice(0, 3).map((test, index) => (
                           <li key={index} className="flex items-start gap-3">
-                            <ChevronRight className="w-4 h-4 text-slate-500 mt-0.5 flex-shrink-0" />
-                            <span className="text-slate-300 text-sm">{test}</span>
+                            <ChevronRight className="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
+                            <span className="text-slate-700 text-sm">{test}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
 
-                    <div className="bg-emerald-500/10 p-6 rounded-xl border border-emerald-500/20">
-                      <h4 className="font-bold text-emerald-400 mb-4 flex items-center gap-2">
+                    <div className="bg-emerald-50 p-6 rounded-xl border border-emerald-200">
+                      <h4 className="font-bold text-emerald-700 mb-4 flex items-center gap-2">
                         <Sparkles className="w-5 h-5" />
                         Nowości w CPR 2024
                       </h4>
                       <ul className="space-y-3">
                         {selectedCategory.requirements.cprChanges.slice(0, 3).map((change, index) => (
                           <li key={index} className="flex items-start gap-3">
-                            <ArrowRight className="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0" />
-                            <span className="text-slate-300 text-sm">{change}</span>
+                            <ArrowRight className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-slate-700 text-sm">{change}</span>
                           </li>
                         ))}
                       </ul>
@@ -352,22 +340,22 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "tests" && (
-                <div className="glass-card p-8">
-                  <h3 className="text-xl font-bold text-white mb-2">Wymagane badania</h3>
-                  <p className="text-slate-400 mb-6">
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Wymagane badania</h3>
+                  <p className="text-slate-500 mb-6">
                     Wyroby z kategorii "{selectedCategory.name}" muszą przejść następujące badania:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.mandatoryTests.map((test, index) => (
-                      <li key={index} className="bg-white/5 p-4 rounded-xl border border-white/10">
+                      <li key={index} className="bg-slate-50 p-4 rounded-xl border border-slate-200">
                         <div className="flex items-start gap-4">
-                          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-400 to-cyan-500 flex items-center justify-center text-sm font-bold text-slate-900">
+                          <div className="w-8 h-8 rounded-lg bg-[#1a56a0]/10 flex items-center justify-center text-sm font-bold text-[#1a56a0]">
                             {index + 1}
                           </div>
                           <div>
-                            <p className="font-medium text-white">{test}</p>
+                            <p className="font-medium text-[#0d2137]">{test}</p>
                             {test.includes("nowe") && (
-                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 text-xs">
+                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
                                 <Sparkles className="w-3 h-3" />
                                 Nowy wymóg CPR 2024
                               </span>
@@ -381,20 +369,20 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "documentation" && (
-                <div className="glass-card p-8">
-                  <h3 className="text-xl font-bold text-white mb-2">Wymagana dokumentacja</h3>
-                  <p className="text-slate-400 mb-6">
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Wymagana dokumentacja</h3>
+                  <p className="text-slate-500 mb-6">
                     Producenci wyrobów z kategorii "{selectedCategory.name}" muszą przygotować:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.documentationRequired.map((doc, index) => (
-                      <li key={index} className="bg-white/5 p-4 rounded-xl border border-white/10">
+                      <li key={index} className="bg-slate-50 p-4 rounded-xl border border-slate-200">
                         <div className="flex items-start gap-4">
-                          <FileText className="w-6 h-6 text-slate-500 flex-shrink-0" />
+                          <FileText className="w-6 h-6 text-slate-400 flex-shrink-0" />
                           <div>
-                            <p className="font-medium text-white">{doc}</p>
+                            <p className="font-medium text-[#0d2137]">{doc}</p>
                             {doc.includes("nowy") && (
-                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 text-xs">
+                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
                                 <Sparkles className="w-3 h-3" />
                                 Nowy wymóg CPR 2024
                               </span>
@@ -405,12 +393,12 @@ export function ProductSearchTool() {
                     ))}
                   </ul>
 
-                  <div className="mt-6 p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-start gap-3">
-                    <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <div className="mt-6 p-4 rounded-xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 flex items-start gap-3">
+                    <Info className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-medium text-white">Pobierz wzory dokumentów</p>
-                      <p className="text-slate-400 text-sm mb-3">W sekcji "Dokumenty" znajdziesz gotowe szablony wymaganych dokumentów.</p>
-                      <Button variant="outline" size="sm" onClick={() => navigate("/documents")}>
+                      <p className="font-medium text-[#0d2137]">Pobierz wzory dokumentów</p>
+                      <p className="text-slate-500 text-sm mb-3">W sekcji "Dokumenty" znajdziesz gotowe szablony wymaganych dokumentów.</p>
+                      <Button variant="outline" size="sm" onClick={() => navigate("/documents")} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
                         Przejdź do dokumentów
                       </Button>
                     </div>
@@ -419,19 +407,19 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "changes" && (
-                <div className="glass-card p-8">
-                  <h3 className="text-xl font-bold text-white mb-2">Zmiany w rozporządzeniu CPR (EU) 2024/3110</h3>
-                  <p className="text-slate-400 mb-6">
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Zmiany w rozporządzeniu CPR (EU) 2024/3110</h3>
+                  <p className="text-slate-500 mb-6">
                     Najważniejsze modyfikacje dla kategorii "{selectedCategory.name}" w porównaniu z poprzednim rozporządzeniem:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.cprChanges.map((change, index) => (
-                      <li key={index} className="bg-emerald-500/10 p-4 rounded-xl border border-emerald-500/20">
+                      <li key={index} className="bg-emerald-50 p-4 rounded-xl border border-emerald-200">
                         <div className="flex items-start gap-4">
-                          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-400 to-green-500 flex items-center justify-center text-sm font-bold text-slate-900">
+                          <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center text-sm font-bold text-emerald-700">
                             {index + 1}
                           </div>
-                          <p className="font-medium text-emerald-100">{change}</p>
+                          <p className="font-medium text-slate-700">{change}</p>
                         </div>
                       </li>
                     ))}
@@ -440,19 +428,19 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "certification" && (
-                <div className="glass-card p-8">
-                  <h3 className="text-xl font-bold text-white mb-2">Systemy oceny i weryfikacji stałości właściwości użytkowych</h3>
-                  <p className="text-slate-400 mb-6">
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Systemy oceny i weryfikacji stałości właściwości użytkowych</h3>
+                  <p className="text-slate-500 mb-6">
                     Dla wyrobów z kategorii "{selectedCategory.name}" obowiązują następujące systemy certyfikacji:
                   </p>
                   <div className="space-y-4">
                     {selectedCategory.requirements.certificationSystems.map((system, index) => (
-                      <div key={index} className="bg-white/5 p-6 rounded-xl border border-white/10">
+                      <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                         <div className="flex items-center gap-3 mb-3">
-                          <Shield className="w-6 h-6 text-amber-400" />
-                          <h4 className="font-bold text-white text-lg">{system}</h4>
+                          <Shield className="w-6 h-6 text-[#1a56a0]" />
+                          <h4 className="font-bold text-[#0d2137] text-lg">{system}</h4>
                         </div>
-                        <p className="text-slate-400 text-sm leading-relaxed">
+                        <p className="text-slate-600 text-sm leading-relaxed">
                           {system === "System 1+" && "Najwyższy poziom kontroli - wymaga certyfikacji przez jednostkę notyfikowaną, stałego nadzoru i badań próbek z rynku."}
                           {system === "System 1" && "Wymaga certyfikacji przez jednostkę notyfikowaną oraz stałego nadzoru bez badań próbek z rynku."}
                           {system === "System 2+" && "Wymaga certyfikacji zakładowej kontroli produkcji przez jednostkę notyfikowaną i wstępnych badań typu przez producenta."}
@@ -464,12 +452,12 @@ export function ProductSearchTool() {
                     ))}
                   </div>
 
-                  <div className="mt-6 p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-start gap-3">
-                    <Award className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
+                  <div className="mt-6 p-4 rounded-xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 flex items-start gap-3">
+                    <Award className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-medium text-white">Potrzebujesz certyfikacji?</p>
-                      <p className="text-slate-400 text-sm mb-3">Multicert oferuje kompleksowe usługi certyfikacji zgodnej z CPR (EU) 2024/3110.</p>
-                      <Button variant="outline" size="sm" onClick={() => navigate("/services")}>
+                      <p className="font-medium text-[#0d2137]">Potrzebujesz certyfikacji?</p>
+                      <p className="text-slate-500 text-sm mb-3">Multicert oferuje kompleksowe usługi certyfikacji zgodnej z CPR (EU) 2024/3110.</p>
+                      <Button variant="outline" size="sm" onClick={() => navigate("/services")} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
                         Sprawdź nasze usługi
                       </Button>
                     </div>
@@ -478,7 +466,7 @@ export function ProductSearchTool() {
               )}
 
               <div className="mt-10 text-center">
-                <Button variant="outline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                <Button variant="outline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40">
                   Powrót do wyszukiwarki
                 </Button>
               </div>
@@ -488,25 +476,25 @@ export function ProductSearchTool() {
       </section>
 
       {/* About Section */}
-      <section id="about-section" className="py-24 bg-slate-950">
+      <section id="about-section" className="py-24 bg-slate-50 border-t border-slate-200">
         <Container>
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                O rozporządzeniu <span className="gradient-text">CPR (EU) 2024/3110</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-6">
+                O rozporządzeniu CPR (EU) 2024/3110
               </h2>
-              <p className="text-slate-400 mb-4 leading-relaxed">
+              <p className="text-slate-700 mb-4 leading-relaxed">
                 <a
                   href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110#anx_III"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amber-400 hover:text-amber-300 underline transition-colors"
+                  className="text-[#1a56a0] hover:text-[#1a3d6b] underline transition-colors"
                 >
                   Rozporządzenie CPR (EU) 2024/3110
                 </a>{" "}
                 o wyrobach budowlanych wprowadza istotne zmiany dla producentów, importerów i dystrybutorów wyrobów budowlanych w Unii Europejskiej.
               </p>
-              <p className="text-slate-400 mb-6 leading-relaxed">
+              <p className="text-slate-600 mb-6 leading-relaxed">
                 Główne obszary zmian obejmują:
               </p>
               <ul className="space-y-3 mb-8">
@@ -518,23 +506,24 @@ export function ProductSearchTool() {
                   "Wprowadzenie cyfrowego paszportu produktu"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-slate-300">{item}</span>
+                    <CheckCircle2 className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
+                    <span className="text-slate-700">{item}</span>
                   </li>
                 ))}
               </ul>
               <Button
                 onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
                 variant="outline"
+                className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]"
               >
                 Sprawdź wymagania dla Twojego produktu
               </Button>
             </div>
 
             <div className="lg:w-1/2">
-              <div className="glass-card p-8">
-                <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-3">
-                  <Calendar className="w-6 h-6 text-amber-400" />
+              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
+                <h3 className="text-xl font-bold text-[#0d2137] mb-6 flex items-center gap-3">
+                  <Calendar className="w-6 h-6 text-[#1a56a0]" />
                   Harmonogram wdrażania CPR
                 </h3>
                 <div className="space-y-6">
@@ -546,22 +535,22 @@ export function ProductSearchTool() {
                     { year: "7 sty 2040", title: "Pełne wygaśnięcie CPR 305/2011", desc: "Ostateczny koniec okresu przejściowego — wszystkie wyroby budowlane objęte wyłącznie nowym CPR 2024/3110" }
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-4">
-                      <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-amber-400' : 'text-slate-500'}`}>
-                        {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
+                      <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-[#1a56a0]' : 'text-slate-400'}`}>
+                        {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
                         {item.year}
                       </div>
                       <div className="flex-1">
-                        <p className="font-semibold text-white">{item.title}</p>
-                        <p className="text-slate-400 text-sm">{item.desc}</p>
+                        <p className="font-semibold text-[#0d2137]">{item.title}</p>
+                        <p className="text-slate-500 text-sm">{item.desc}</p>
                       </div>
                     </div>
                   ))}
                 </div>
 
-                <div className="mt-8 p-4 rounded-xl bg-red-500/10 border border-red-500/20">
+                <div className="mt-8 p-4 rounded-xl bg-amber-50 border border-amber-200">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
-                    <p className="text-red-300 text-sm font-medium">
+                    <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                    <p className="text-amber-800 text-sm font-medium">
                       Działaj już teraz, nie czekaj na ostatni moment! Proces dostosowania do CPR (EU) 2024/3110 może być długotrwały.
                     </p>
                   </div>
@@ -573,17 +562,17 @@ export function ProductSearchTool() {
       </section>
 
       {/* Źródła krajowe i europejskie */}
-      <section className="py-24 bg-slate-950">
+      <section className="py-24 bg-white border-t border-slate-200">
         <Container>
           <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-400/10 border border-blue-400/20 text-blue-400 text-sm font-medium mb-5">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-sm font-medium mb-5">
               <Globe className="w-4 h-4" />
               Oficjalne źródła informacji o CPR
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
               Weryfikuj wymagania bezpośrednio u źródła
             </h2>
-            <p className="text-slate-400 max-w-2xl mx-auto">
+            <p className="text-slate-500 max-w-2xl mx-auto">
               Lista sprawdzonych instytucji i baz danych — krajowych i europejskich — do których powinien sięgać każdy producent wyrobów budowlanych.
             </p>
           </div>
@@ -593,8 +582,8 @@ export function ProductSearchTool() {
             {/* Krajowe */}
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <MapPin className="w-5 h-5 text-amber-400" />
-                <h3 className="text-lg font-semibold text-white">Źródła krajowe</h3>
+                <MapPin className="w-5 h-5 text-[#1a56a0]" />
+                <h3 className="text-lg font-semibold text-[#0d2137]">Źródła krajowe</h3>
               </div>
               <div className="space-y-4">
 
@@ -603,18 +592,18 @@ export function ProductSearchTool() {
                   href="https://www.multicert.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-amber-400/5 border border-amber-400/25 hover:border-amber-400/50 hover:bg-amber-400/10 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 hover:border-[#1a56a0]/40 hover:bg-[#1a56a0]/8 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-amber-400/15 flex items-center justify-center shrink-0 mt-0.5">
-                    <Star className="w-4 h-4 text-amber-400" />
+                  <div className="w-9 h-9 rounded-lg bg-[#1a56a0]/15 flex items-center justify-center shrink-0 mt-0.5">
+                    <Star className="w-4 h-4 text-[#1a56a0]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">Multicert Sp. z o.o.</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-400 font-medium">Certyfikacja CPR</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-amber-400 transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">Multicert Sp. z o.o.</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/15 text-[#1a56a0] font-medium">Certyfikacja CPR</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#1a56a0] transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Akredytowana jednostka certyfikująca wyroby budowlane. Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej zgodnie z CPR (UE) 2024/3110.
                     </p>
                   </div>
@@ -625,18 +614,18 @@ export function ProductSearchTool() {
                   href="https://www.gunb.gov.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-blue-400/30 hover:bg-white/8 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-blue-400/10 flex items-center justify-center shrink-0 mt-0.5">
-                    <Shield className="w-4 h-4 text-blue-400" />
+                  <div className="w-9 h-9 rounded-lg bg-sky-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <Shield className="w-4 h-4 text-sky-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">GUNB</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-blue-400/15 text-blue-400 font-medium">Organ nadzoru rynku</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-blue-400 transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">GUNB</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700 font-medium">Organ nadzoru rynku</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-sky-600 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Główny Urząd Nadzoru Budowlanego — organ odpowiedzialny za nadzór rynku wyrobów budowlanych w Polsce. Rejestr wyrobów, decyzje, kontrole.
                     </p>
                   </div>
@@ -647,18 +636,18 @@ export function ProductSearchTool() {
                   href="https://www.pkn.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
-                    <FileText className="w-4 h-4 text-slate-300" />
+                  <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <FileText className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">PKN</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Normy EN</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">PKN</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Normy EN</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Polskie Centrum Normalizacji — zakup i dostęp do norm zharmonizowanych EN stosowanych w CPR (EN 197, EN 771, EN 13162 i in.).
                     </p>
                   </div>
@@ -669,18 +658,18 @@ export function ProductSearchTool() {
                   href="https://ocenytechniczne.pl/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-green-400/30 hover:bg-green-400/5 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-green-400/10 flex items-center justify-center shrink-0 mt-0.5">
-                    <Building2 className="w-4 h-4 text-green-400" />
+                  <div className="w-9 h-9 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <Building2 className="w-4 h-4 text-emerald-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">ocenytechniczne.pl</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-green-400/15 text-green-400 font-medium">EOT / ETA</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-green-400 transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">ocenytechniczne.pl</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-medium">EOT / ETA</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Multicert — Europejskie Oceny Techniczne (EOT) dla wyrobów budowlanych nieobj­ętych normami zharmonizowanymi. Pełen zakres usług: ocena zgodności, badania, ekspertyzy.
                     </p>
                   </div>
@@ -692,8 +681,8 @@ export function ProductSearchTool() {
             {/* Europejskie */}
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <Globe className="w-5 h-5 text-blue-400" />
-                <h3 className="text-lg font-semibold text-white">Źródła europejskie</h3>
+                <Globe className="w-5 h-5 text-[#1a56a0]" />
+                <h3 className="text-lg font-semibold text-[#0d2137]">Źródła europejskie</h3>
               </div>
               <div className="space-y-4">
 
@@ -702,18 +691,18 @@ export function ProductSearchTool() {
                   href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-amber-400/30 hover:bg-amber-400/5 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-[#1a56a0]/30 hover:bg-[#1a56a0]/5 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-amber-400/10 flex items-center justify-center shrink-0 mt-0.5">
-                    <FileText className="w-4 h-4 text-amber-400" />
+                  <div className="w-9 h-9 rounded-lg bg-[#1a56a0]/10 flex items-center justify-center shrink-0 mt-0.5">
+                    <FileText className="w-4 h-4 text-[#1a56a0]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">EUR-Lex</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-400 font-medium">Tekst CPR 2024/3110</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-amber-400 transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">EUR-Lex</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] font-medium">Tekst CPR 2024/3110</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#1a56a0] transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Oficjalny Dziennik Urzędowy UE — pełny tekst Rozporządzenia (UE) 2024/3110 w języku polskim. Jedyne miarodajne źródło prawa.
                     </p>
                   </div>
@@ -724,18 +713,18 @@ export function ProductSearchTool() {
                   href="https://ec.europa.eu/growth/tools-databases/nando/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
-                    <ListChecks className="w-4 h-4 text-slate-300" />
+                  <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <ListChecks className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">NANDO</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Jednostki notyfikowane UE</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">NANDO</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Jednostki notyfikowane UE</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Oficjalna baza Komisji Europejskiej wszystkich jednostek notyfikowanych (NB) we wszystkich państwach UE. Weryfikacja aktualnego zakresu akredytacji.
                     </p>
                   </div>
@@ -746,18 +735,18 @@ export function ProductSearchTool() {
                   href="https://www.eota.eu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
-                    <Award className="w-4 h-4 text-slate-300" />
+                  <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <Award className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">EOTA</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">ETA / EAD</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">EOTA</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">ETA / EAD</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       European Organisation for Technical Assessment — baza EAD i ETA dla wyrobów bez normy zharmonizowanej. Kluczowe dla innowacyjnych produktów.
                     </p>
                   </div>
@@ -768,18 +757,18 @@ export function ProductSearchTool() {
                   href="https://www.cencenelec.eu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl glass-card hover:border-white/20 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-slate-700 flex items-center justify-center shrink-0 mt-0.5">
-                    <Globe className="w-4 h-4 text-slate-300" />
+                  <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
+                    <Globe className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-white font-semibold text-sm">CEN/CENELEC</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300 font-medium">Normy europejskie EN</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-500 group-hover:text-white transition-colors ml-auto shrink-0" />
+                      <span className="text-[#0d2137] font-semibold text-sm">CEN/CENELEC</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Normy europejskie EN</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       Europejski Komitet Normalizacyjny — plan prac normalizacyjnych, statusy mandatów dla nowych norm CPR 2024, robocze dokumenty WG.
                     </p>
                   </div>
@@ -793,24 +782,23 @@ export function ProductSearchTool() {
       </section>
 
       {/* Help Section */}
-      <section className="py-24 bg-slate-900">
+      <section className="py-24 bg-slate-50 border-t border-slate-200">
         <Container>
-          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 p-8 md:p-12">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-blue-500/10"></div>
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
+          <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
                 Potrzebujesz pomocy w przygotowaniu do wymagań CPR?
               </h2>
-              <p className="text-slate-400 mb-8">
+              <p className="text-slate-300 mb-8">
                 Nasi eksperci pomogą Ci dostosować Twoje wyroby do nowych wymagań.
                 Oferujemy kompleksowe wsparcie w procesie certyfikacji oraz ocenę zgodności z wymaganiami CPR 2024/3110.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   onClick={() => navigate("/services")}
-                  className="group"
+                  className="group px-6 py-3 rounded-xl bg-white hover:bg-slate-100 text-[#0d2137] font-semibold"
                 >
                   Nasze usługi certyfikacyjne
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -818,6 +806,7 @@ export function ProductSearchTool() {
                 <Button
                   variant="outline"
                   onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
+                  className="px-6 py-3 rounded-xl border-white/20 text-white hover:bg-white/10"
                 >
                   Sprawdź wymagania
                 </Button>

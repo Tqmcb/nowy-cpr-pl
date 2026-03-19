@@ -233,21 +233,20 @@ export default function CeLabelGenerator() {
         <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 20 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
         <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
       </Helmet>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* Hero */}
-          <section className="relative overflow-hidden pb-6">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900 to-transparent" />
+          <section className="relative overflow-hidden pb-6 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
             <Container>
               <div className="relative pt-8">
-                <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-                  <button onClick={() => navigate("/")} className="hover:text-amber-400 transition-colors">Strona glowna</button>
+                <nav className="flex items-center gap-2 text-sm text-slate-500 mb-6">
+                  <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">Strona glowna</button>
                   <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">Generator etykiety CE</span>
+                  <span className="text-[#0d2137]">Generator etykiety CE</span>
                 </nav>
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Generator etykiety CE</h1>
-                <p className="text-slate-400 text-lg max-w-2xl">
+                <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-2">Generator etykiety CE</h1>
+                <p className="text-slate-500 text-lg max-w-2xl">
                   Wypelnij formularz i wygeneruj etykiete oznakowania CE zgodna z Art. 20 CPR 2024/3110.
                 </p>
               </div>
@@ -255,98 +254,98 @@ export default function CeLabelGenerator() {
           </section>
 
           <Container>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
               {/* ── FORM ── */}
               <div className="space-y-5">
-                <div className="bg-slate-800/30 border border-white/10 rounded-2xl p-6 space-y-4">
-                  <h2 className="text-lg font-semibold text-white mb-2">Dane producenta</h2>
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 space-y-4">
+                  <h2 className="text-lg font-semibold text-[#0d2137] mb-2">Dane producenta</h2>
 
                   <div>
-                    <label className="block text-xs text-slate-400 mb-1.5">Nazwa producenta *</label>
+                    <label className="block text-xs text-slate-500 mb-1.5">Nazwa producenta *</label>
                     <input
                       type="text"
                       value={data.producerName}
                       onChange={(e) => update("producerName", e.target.value)}
                       placeholder="np. ABC Budowlana Sp. z o.o."
-                      className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs text-slate-400 mb-1.5">Adres producenta</label>
+                    <label className="block text-xs text-slate-500 mb-1.5">Adres producenta</label>
                     <input
                       type="text"
                       value={data.producerAddress}
                       onChange={(e) => update("producerAddress", e.target.value)}
                       placeholder="np. ul. Przemyslowa 15, 00-001 Warszawa"
-                      className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                     />
                   </div>
                 </div>
 
-                <div className="bg-slate-800/30 border border-white/10 rounded-2xl p-6 space-y-4">
-                  <h2 className="text-lg font-semibold text-white mb-2">Dane wyrobu</h2>
+                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 space-y-4">
+                  <h2 className="text-lg font-semibold text-[#0d2137] mb-2">Dane wyrobu</h2>
 
                   <div>
-                    <label className="block text-xs text-slate-400 mb-1.5">Nazwa wyrobu *</label>
+                    <label className="block text-xs text-slate-500 mb-1.5">Nazwa wyrobu *</label>
                     <input
                       type="text"
                       value={data.productName}
                       onChange={(e) => update("productName", e.target.value)}
                       placeholder="np. Okno PVC 3-szybowe OKN-150"
-                      className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                     />
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs text-slate-400 mb-1.5">Nr jednostki notyfikowanej</label>
+                      <label className="block text-xs text-slate-500 mb-1.5">Nr jednostki notyfikowanej</label>
                       <input
                         type="text"
                         value={data.notifiedBodyNumber}
                         onChange={(e) => update("notifiedBodyNumber", e.target.value)}
                         placeholder="np. 1234"
-                        className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs text-slate-400 mb-1.5">Rok (2 cyfry) *</label>
+                      <label className="block text-xs text-slate-500 mb-1.5">Rok (2 cyfry) *</label>
                       <input
                         type="text"
                         value={data.year}
                         onChange={(e) => update("year", e.target.value.replace(/\D/g, "").slice(0, 2))}
                         placeholder="26"
                         maxLength={2}
-                        className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                       />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs text-slate-400 mb-1.5">Nr DoP&C *</label>
+                      <label className="block text-xs text-slate-500 mb-1.5">Nr DoP&C *</label>
                       <input
                         type="text"
                         value={data.dopcNumber}
                         onChange={(e) => update("dopcNumber", e.target.value)}
                         placeholder="np. DoPC-2026-001"
-                        className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs text-slate-400 mb-1.5">Norma zharmonizowana *</label>
+                      <label className="block text-xs text-slate-500 mb-1.5">Norma zharmonizowana *</label>
                       <input
                         type="text"
                         value={data.harmonizedStandard}
                         onChange={(e) => update("harmonizedStandard", e.target.value)}
                         placeholder="np. EN 14351-1:2006+A2:2016"
-                        className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-xs text-slate-400 mb-1.5">
+                    <label className="block text-xs text-slate-500 mb-1.5">
                       Deklarowane wlasciwosci uzytkowe (kazda w nowej linii)
                     </label>
                     <textarea
@@ -354,7 +353,7 @@ export default function CeLabelGenerator() {
                       onChange={(e) => update("declaredProperties", e.target.value)}
                       placeholder={"Uw = 0,9 W/(m2K)\nRw = 35 dB\nKlasa 4 - przepuszczalnosc powietrza"}
                       rows={4}
-                      className="w-full px-4 py-2.5 bg-slate-800/50 border border-white/10 rounded-xl text-white text-sm placeholder-slate-600 focus:outline-none focus:border-amber-400/40 resize-y"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 resize-y"
                     />
                   </div>
                 </div>
@@ -363,28 +362,28 @@ export default function CeLabelGenerator() {
                 <div className="flex flex-wrap gap-3">
                   <button
                     onClick={handlePrint}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
                   >
                     <Printer className="w-4 h-4" />
                     Drukuj
                   </button>
                   <button
                     onClick={handleDownloadSvg}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-white/5 border border-white/10 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:border-[#1a56a0]/40 hover:text-[#1a56a0] transition-colors text-sm"
                   >
                     <Download className="w-4 h-4" />
                     Pobierz SVG
                   </button>
                   <button
                     onClick={() => setData(EXAMPLE)}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-white/5 border border-white/10 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:border-[#1a56a0]/40 hover:text-[#1a56a0] transition-colors text-sm"
                   >
                     <Eye className="w-4 h-4" />
                     Wczytaj przyklad
                   </button>
                   <button
                     onClick={() => setData(EMPTY)}
-                    className="flex items-center gap-2 px-5 py-2.5 text-slate-400 hover:text-white transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 text-slate-500 hover:text-slate-700 transition-colors text-sm"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
                     Wyczysc
@@ -396,12 +395,12 @@ export default function CeLabelGenerator() {
               <div>
                 <div className="sticky top-28">
                   <div className="flex items-center gap-2 mb-4">
-                    <Eye className="w-4 h-4 text-amber-400" />
-                    <h2 className="text-lg font-semibold text-white">Podglad etykiety</h2>
+                    <Eye className="w-4 h-4 text-[#1a56a0]" />
+                    <h2 className="text-lg font-semibold text-[#0d2137]">Podglad etykiety</h2>
                   </div>
                   <div
                     ref={svgContainerRef}
-                    className="bg-white rounded-2xl p-6 shadow-xl shadow-black/20"
+                    className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm"
                   >
                     <CeLabelPreview data={data} />
                   </div>
