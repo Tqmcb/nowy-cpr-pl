@@ -43,7 +43,7 @@ const EmptyState = () => (
   <div className="text-center py-16 bg-white border border-slate-200 shadow-sm rounded-xl">
     <BookOpen className="h-16 w-16 mx-auto text-slate-400 mb-4" />
     <h3 className="text-lg font-medium text-[#0d2137] mb-2">Brak artykułów</h3>
-    <p className="text-slate-500">Nie znaleziono artykułów spełniających kryteria wyszukiwania.</p>
+    <p className="text-slate-700">Nie znaleziono artykułów spełniających kryteria wyszukiwania.</p>
   </div>
 );
 
@@ -112,7 +112,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
           <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
             {post.category}
           </span>
-          <div className="flex items-center text-sm text-slate-500 gap-3">
+          <div className="flex items-center text-sm text-slate-600 gap-3">
             <span className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
               {readingTime} min
@@ -122,7 +122,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
         <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
           {post.title}
         </h3>
-        <p className="text-slate-500 text-sm mb-4 line-clamp-3 leading-relaxed">{post.excerpt}</p>
+        <p className="text-slate-700 text-sm mb-4 line-clamp-3 leading-relaxed">{post.excerpt}</p>
         <div className="flex justify-between items-center pt-4 border-t border-slate-200">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-[#0d2137] flex items-center justify-center">
@@ -153,7 +153,7 @@ const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
       <h3 className="text-xl font-bold text-[#0d2137] mb-3">
         Aktualności tymczasowo niedostępne
       </h3>
-      <p className="text-slate-500 text-sm leading-relaxed mb-8">
+      <p className="text-slate-700 text-sm leading-relaxed mb-8">
         Trwa odświeżanie treści. Spróbuj za chwilę lub skontaktuj się z nami bezpośrednio.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -935,7 +935,7 @@ export function BlogPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-2">
               Najnowsze <span className="text-[#0d2137] font-bold">artykuły</span>
             </h2>
-            <p className="text-slate-500">Wybierz kategorię lub wyszukaj interesujący Cię temat</p>
+            <p className="text-slate-700">Wybierz kategorię lub wyszukaj interesujący Cię temat</p>
           </div>
 
           {/* Filters */}
@@ -1070,7 +1070,7 @@ export function BlogPage() {
                 <BookOpen className="w-5 h-5 text-[#1a56a0]" />
                 O blogu
               </h3>
-              <p className="text-slate-500 text-sm leading-relaxed">
+              <p className="text-slate-700 text-sm leading-relaxed">
                 Dostarczamy ekspercką wiedzę i praktyczne informacje dla producentów wyrobów budowlanych
                 dotyczące Rozporządzenia CPR (EU) 2024/3110.
               </p>
@@ -1100,7 +1100,7 @@ export function BlogPage() {
                 <User className="w-5 h-5 text-emerald-600" />
                 Kontakt
               </h3>
-              <p className="text-slate-500 text-sm mb-4">
+              <p className="text-slate-700 text-sm mb-4">
                 Masz pytania dotyczące CPR? Skontaktuj się z naszymi ekspertami.
               </p>
               <Button

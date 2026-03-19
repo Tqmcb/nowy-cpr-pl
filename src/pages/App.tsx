@@ -230,7 +230,7 @@ function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-6">
                 Czym jest <span className="text-[#1a56a0] font-bold">rozporządzenie CPR?</span>
               </h2>
-              <p className="text-lg text-slate-500 leading-relaxed">
+              <p className="text-lg text-slate-700 leading-relaxed">
                 Rozporządzenie w sprawie wyrobów budowlanych (CPR) ustanawia zharmonizowane warunki
                 wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując
                 dotychczasowe przepisy z 2011 roku.
@@ -350,7 +350,7 @@ function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
                 Dlaczego <span className="text-[#1a56a0] font-bold">NowyCPR.pl?</span>
               </h2>
-              <p className="text-slate-500 max-w-2xl mx-auto">
+              <p className="text-slate-700 max-w-2xl mx-auto">
                 Kompleksowe wsparcie w przygotowaniu do wymagań rozporządzenia CPR
               </p>
             </div>
@@ -388,7 +388,7 @@ function HomePage() {
                     <feature.icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#0d2137] mb-3">{feature.title}</h3>
-                  <p className="text-slate-500 leading-relaxed">{feature.description}</p>
+                  <p className="text-slate-700 leading-relaxed">{feature.description}</p>
                   <div className="mt-6 flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-3 transition-all">
                     <span>Dowiedz się więcej</span>
                     <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
@@ -407,7 +407,7 @@ function HomePage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-2">
                   Najnowsze <span className="text-[#0d2137] font-bold">artykuły</span>
                 </h2>
-                <p className="text-slate-500">
+                <p className="text-slate-700">
                   Aktualności i przewodniki dotyczące rozporządzenia CPR
                 </p>
               </div>
@@ -445,7 +445,7 @@ function HomePage() {
                       <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
                         {post.category}
                       </span>
-                      <span className="text-slate-500 text-xs flex items-center gap-1">
+                      <span className="text-slate-600 text-xs flex items-center gap-1">
                         <Clock className="w-3 h-3" />
                         {formatDate(post.published_at)}
                       </span>
@@ -453,7 +453,7 @@ function HomePage() {
                     <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
                       {post.title}
                     </h3>
-                    <p className="text-slate-500 text-sm leading-relaxed line-clamp-3 mb-4">
+                    <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 mb-4">
                       {post.excerpt}
                     </p>
                     <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
@@ -467,7 +467,7 @@ function HomePage() {
               <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-12 text-center">
                 <BookOpen className="w-12 h-12 mx-auto text-slate-400 mb-4" />
                 <h3 className="text-lg font-semibold text-[#0d2137] mb-2">Brak artykułów</h3>
-                <p className="text-slate-500">Nowe artykuły pojawią się wkrótce.</p>
+                <p className="text-slate-700">Nowe artykuły pojawią się wkrótce.</p>
               </div>
             )}
           </Container>

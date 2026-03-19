@@ -85,8 +85,8 @@
 
   /* Sekcje z subtelną siatką — alternatywa dla czystego bg-white */
   .section-paper {
-    background-color: #f8fafc;
-    background-image: radial-gradient(#d1d9e6 1px, transparent 1px);
+    background-color: #edf2f8;
+    background-image: radial-gradient(#b8c5d6 1px, transparent 1px);
     background-size: 20px 20px;
   }
 
