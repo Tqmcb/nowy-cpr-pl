@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
 import { Search, Building2, ChevronRight, Filter } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
+import { getCategorySketch } from "../components/BlueprintSketches";
 
 const MAIN_CATEGORIES = [
   "Wyroby konstrukcyjne",
@@ -169,6 +170,10 @@ export default function Wyroby() {
                   className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
                   onClick={() => goToWyrob(wyrob.slug)}
                 >
+                  {/* Blueprint sketch illustration */}
+                  <div className="flex justify-end mb-3 opacity-40 group-hover:opacity-70 transition-opacity duration-300">
+                    {getCategorySketch(wyrob.category, 44)}
+                  </div>
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-xs font-bold">
                       #{wyrob.family_number}

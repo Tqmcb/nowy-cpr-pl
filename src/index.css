@@ -83,6 +83,21 @@
     background-size: 22px 22px;
   }
 
+  /* Sekcje z subtelną siatką — alternatywa dla czystego bg-white */
+  .section-paper {
+    background-color: #f8fafc;
+    background-image: radial-gradient(#d1d9e6 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .section-blueprint {
+    background-color: #f0f5fb;
+    background-image:
+      linear-gradient(rgba(26,86,160,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
   h1,
   h2,
   h3,
