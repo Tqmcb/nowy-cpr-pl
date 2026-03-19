@@ -557,7 +557,7 @@ function SharedHero({
       {/* Navy→blue gradient overlay */}
       <div
         className="absolute inset-0"
-        style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+        style={{ background: "linear-gradient(to bottom, rgba(13,33,55,0.50) 0%, rgba(13,33,55,0.78) 100%)" }}
       />
       {/* Bottom accent stripe: wiśniowy → niebieski */}
       <div
