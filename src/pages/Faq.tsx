@@ -337,7 +337,7 @@ export default function FaqPage() {
 
       <div className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main id="main-content" className="flex-grow pt-24 pb-20">
+        <main id="main-content" className="flex-grow pb-20">
           {/* ── HERO ── */}
           <section className="relative overflow-hidden border-b border-slate-800">
             {/* B&W photo background */}
@@ -361,7 +361,7 @@ export default function FaqPage() {
               style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
             />
             <Container>
-              <div className="relative z-10 pt-8 pb-8">
+              <div className="relative z-10 pt-28 pb-10">
                 <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
                   <button onClick={() => navigate("/")} className="hover:text-white transition-colors">
                     Strona główna

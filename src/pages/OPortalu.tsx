@@ -12,24 +12,27 @@ export default function OPortalu() {
         <meta name="description" content="Dowiedz się więcej o portalu NowyCPR.pl — kompleksowym źródle wiedzy o rozporządzeniu CPR (EU) 2024/3110 dla producentów wyrobów budowlanych." />
       </Helmet>
       <Header />
-      <main id="main-content" className="pt-24 pb-20">
-        <Container>
-          {/* Page header */}
-          <div className="max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-6">
-              <Info className="w-4 h-4 text-[#1a56a0]" />
-              <span className="text-[#1a56a0] text-sm font-medium">Informacje o portalu</span>
+      <main id="main-content" className="pb-20">
+        {/* Hero */}
+        <section className="relative overflow-hidden border-b border-slate-800">
+          <div className="absolute inset-0" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=80')", backgroundSize: "cover", backgroundPosition: "center", filter: "grayscale(100%) contrast(1.1) brightness(0.75)" }} />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }} />
+          <div className="absolute bottom-0 left-0 right-0 h-[4px]" style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }} />
+          <Container>
+            <div className="relative z-10 pt-28 pb-10">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
+                <Info className="w-4 h-4 text-white" />
+                <span className="text-white text-sm font-medium">Informacje o portalu</span>
+              </div>
+              <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">O portalu NowyCPR.pl</h1>
+              <p className="text-white/80 text-lg leading-relaxed max-w-2xl">
+                Kompleksowe wsparcie dla producentów wyrobów budowlanych w przygotowaniu do wymagań Rozporządzenia CPR (EU) 2024/3110.
+              </p>
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
-              O portalu NowyCPR.pl
-            </h1>
-            <p className="text-slate-500 text-lg leading-relaxed">
-              Kompleksowe wsparcie dla producentów wyrobów budowlanych w przygotowaniu
-              do wymagań Rozporządzenia CPR (EU) 2024/3110.
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto space-y-8">
+          </Container>
+        </section>
+        <Container>
+          <div className="max-w-3xl mx-auto space-y-8 pt-12">
 
             {/* Mission */}
             <section className="rounded-2xl border border-slate-200 bg-white shadow-sm p-8">
