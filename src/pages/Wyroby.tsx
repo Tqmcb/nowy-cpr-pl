@@ -172,7 +172,7 @@ export default function Wyroby() {
                 >
                   {/* Blueprint sketch illustration */}
                   <div className="flex justify-end mb-3 opacity-40 group-hover:opacity-70 transition-opacity duration-300">
-                    {getCategorySketch(wyrob.category, 44)}
+                    {getCategorySketch(wyrob.title, wyrob.category, 44)}
                   </div>
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-xs font-bold">
