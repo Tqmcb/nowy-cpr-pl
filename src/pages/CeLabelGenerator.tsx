@@ -160,7 +160,7 @@ function CeLabelPreview({ data }: { data: LabelData }) {
       {/* Footer */}
       <line x1="20" y1={height - 30} x2="380" y2={height - 30} stroke="#cbd5e1" strokeWidth="1" />
       <text x="20" y={height - 12} fontSize="9" fill="#94a3b8">
-        Rozp. (UE) 2024/3110, Art. 20 | Wygenerowano na NowyCPR.pl
+        Rozp. (UE) 2024/3110, Art. 8 | Wygenerowano na NowyCPR.pl
       </text>
     </svg>
   );
@@ -230,7 +230,7 @@ export default function CeLabelGenerator() {
     <>
       <Helmet>
         <title>{pageTitle}</title>
-        <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 20 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
+        <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 8 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
         <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
       </Helmet>
       <div className="flex flex-col min-h-screen section-paper">
@@ -267,7 +267,7 @@ export default function CeLabelGenerator() {
                 </nav>
                 <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Generator etykiety CE</h1>
                 <p className="text-white/80 text-lg max-w-2xl">
-                  Wypelnij formularz i wygeneruj etykiete oznakowania CE zgodna z Art. 20 CPR 2024/3110.
+                  Wypelnij formularz i wygeneruj etykiete oznakowania CE zgodna z Art. 8 CPR 2024/3110.
                 </p>
               </div>
             </Container>
@@ -425,7 +425,7 @@ export default function CeLabelGenerator() {
                     <CeLabelPreview data={data} />
                   </div>
                   <p className="text-xs text-slate-500 mt-4 leading-relaxed">
-                    Etykieta wygenerowana na podstawie Art. 20 CPR (UE) 2024/3110.
+                    Etykieta wygenerowana na podstawie Art. 8 CPR (UE) 2024/3110.
                     Producent odpowiada za poprawnosc i kompletnosc danych.
                     Litery CE muszą miec min. 5 mm wysokosci na wyrobie.
                   </p>
