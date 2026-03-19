@@ -124,8 +124,8 @@ function CeLabelPreview({ data }: { data: LabelData }) {
       <line x1="20" y1="205" x2="380" y2="205" stroke="#cbd5e1" strokeWidth="1" />
 
       {/* DoP&C reference */}
-      <text x="20" y="225" fontSize="10" fill="#94a3b8">
-        Nr DoP&amp;C
+      <text x="20" y="222" fontSize="8.5" fill="#94a3b8">
+        Deklaracja właściwości użytkowych i zgodności (DoP&amp;C)
       </text>
       <text x="20" y="242" fontSize="12" fontWeight="600" fill="#1e293b">
         {data.dopcNumber || "---"}
@@ -343,7 +343,7 @@ export default function CeLabelGenerator() {
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-xs text-slate-500 mb-1.5">Nr DoP&C *</label>
+                      <label className="block text-xs text-slate-500 mb-1.5">Nr Deklaracji właściwości użytkowych i zgodności (DoP&C) *</label>
                       <input
                         type="text"
                         value={data.dopcNumber}
