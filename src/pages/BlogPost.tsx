@@ -564,7 +564,7 @@ function SharedHero({
         className="absolute bottom-0 left-0 right-0 h-[4px]"
         style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
       />
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-16">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-28 pb-14">
         <button
           onClick={() => navigate("/blog")}
           className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-8 group text-sm"
@@ -619,7 +619,7 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -673,7 +673,7 @@ function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -722,7 +722,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -812,7 +812,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -869,7 +869,7 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -926,7 +926,7 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
@@ -980,7 +980,7 @@ function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <button
             onClick={() => navigate("/blog")}
@@ -1026,7 +1026,7 @@ function LoadingSkeleton() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 animate-pulse">
           <div className="h-4 w-24 bg-slate-200 rounded mb-10" />
           <div className="h-12 w-2/3 bg-slate-200 rounded mb-4" />
