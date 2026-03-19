@@ -929,7 +929,7 @@ export function BlogPage() {
       </section>
 
       {/* Blog List Section */}
-      <section id="blog-list" className="py-16 bg-slate-50">
+      <section id="blog-list" className="py-16 section-paper">
         <Container>
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-2">
@@ -1003,7 +1003,7 @@ export function BlogPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section id="newsletter-section" className="py-24 bg-white">
+      <section id="newsletter-section" className="py-24 section-blueprint">
         <Container>
           <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
             <div className="absolute inset-0 bg-gradient-to-r from-[#1a56a0]/20 via-transparent to-[#1a56a0]/10"></div>
@@ -1062,7 +1062,7 @@ export function BlogPage() {
       </section>
 
       {/* Quick Links Section */}
-      <section className="py-16 bg-slate-50 border-t border-slate-100">
+      <section className="py-16 section-paper border-t border-slate-100">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">

@@ -204,7 +204,7 @@ function HomePage() {
         </section>
 
         {/* About CPR 2024 Section */}
-        <section className="py-24 bg-slate-50 relative">
+        <section className="py-24 section-paper relative">
           <Container>
             {/* Section Header */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -344,7 +344,7 @@ function HomePage() {
         </section>
 
         {/* Features Section */}
-        <section className="py-24 bg-white">
+        <section className="py-24 section-blueprint">
           <Container>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
@@ -400,7 +400,7 @@ function HomePage() {
         </section>
 
         {/* Latest Blog Posts Section */}
-        <section className="py-24 bg-slate-50">
+        <section className="py-24 section-paper">
           <Container>
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
               <div>

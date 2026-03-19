@@ -278,7 +278,7 @@ export default function Services() {
         </section>
 
         {/* Key Benefits */}
-        <section className="py-16 bg-slate-50 border-b border-slate-200">
+        <section className="py-16 section-paper border-b border-slate-200">
           <Container>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               {[
@@ -299,7 +299,7 @@ export default function Services() {
         </section>
 
         {/* Services */}
-        <section className="py-20 bg-white">
+        <section className="py-20 section-blueprint">
           <Container>
             <div className="max-w-3xl mx-auto text-center mb-14">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
@@ -349,7 +349,7 @@ export default function Services() {
         </section>
 
         {/* Dla kogo */}
-        <section className="py-16 bg-slate-50 border-t border-slate-200">
+        <section className="py-16 section-paper border-t border-slate-200">
           <Container>
             <div className="max-w-4xl mx-auto">
               <div className="bg-white border border-slate-200 rounded-lg p-8 md:p-12 shadow-sm">
@@ -387,7 +387,7 @@ export default function Services() {
         </section>
 
         {/* Partnerzy */}
-        <section className="py-10 bg-white border-t border-slate-200">
+        <section className="py-10 section-blueprint border-t border-slate-200">
           <Container>
             <p className="text-center text-slate-400 text-xs uppercase tracking-widest mb-6">
               Działamy we współpracy z akredytowanymi jednostkami certyfikującymi
@@ -410,7 +410,7 @@ export default function Services() {
         </section>
 
         {/* Contact Form */}
-        <section id="contact-section" className="py-24 bg-slate-50">
+        <section id="contact-section" className="py-24 section-paper">
           <Container>
             <div className="max-w-3xl mx-auto">
               <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 md:p-12">
