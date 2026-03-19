@@ -81,21 +81,37 @@ export default function Wyroby() {
       </Helmet>
       <Header />
       <main className="flex-grow pt-24 pb-20">
-        <section className="relative py-16 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#1a56a0]/5 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl" />
-          </div>
+        <section className="relative overflow-hidden border-b border-slate-800">
+          {/* B&W photo background */}
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1400&q=80')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+            }}
+          />
+          {/* Navy→blue gradient overlay */}
+          <div
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+          />
+          {/* Bottom accent stripe */}
+          <div
+            className="absolute bottom-0 left-0 right-0 h-[4px]"
+            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+          />
           <Container>
-            <div className="text-center max-w-3xl mx-auto">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-sm font-medium mb-6">
+            <div className="relative z-10 py-16 text-center max-w-3xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 text-white text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
                 CPR 2024/3110 — Załącznik VII
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 36 Rodzin Wyrobów Budowlanych
               </h1>
-              <p className="text-slate-500 text-lg leading-relaxed">
+              <p className="text-white/80 text-lg leading-relaxed">
                 Kompletny katalog rodzin wyrobów budowlanych objętych Rozporządzeniem CPR (EU) 2024/3110,
                 Załącznik VII. Sprawdź wymagania, systemy AVS i normy zharmonizowane dla każdej rodziny.
               </p>

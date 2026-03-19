@@ -846,36 +846,41 @@ export function BlogPage() {
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
-        {/* Hero Photo Background */}
-        <div className="absolute inset-0 pointer-events-none">
-          <img
-            src="/images/hero-bg.jpg"
-            alt=""
-            aria-hidden="true"
-            className="w-full h-full object-cover object-center opacity-[0.05]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-white/80"></div>
-        </div>
-        {/* Background decorations */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl"></div>
-        </div>
+      <section className="relative py-24 overflow-hidden border-b border-slate-800">
+        {/* B&W photo background */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=80')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+          }}
+        />
+        {/* Navy→blue gradient overlay */}
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+        />
+        {/* Bottom accent stripe */}
+        <div
+          className="absolute bottom-0 left-0 right-0 h-[4px]"
+          style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+        />
 
         <Container>
           <div className="relative z-10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="md:w-2/3">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-6">
-                  <Sparkles className="w-4 h-4 text-[#1a56a0]" />
-                  <span className="text-[#1a56a0] text-sm font-medium">Blog CPR</span>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
+                  <Sparkles className="w-4 h-4 text-white" />
+                  <span className="text-white text-sm font-medium">Blog CPR</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                  <span className="text-[#0d2137]">Aktualności i </span>
-                  <span className="text-[#0d2137] font-bold">Wiedza CPR</span>
+                  <span className="text-white">Aktualności i </span>
+                  <span className="text-white font-bold">Wiedza CPR</span>
                 </h1>
-                <p className="text-lg text-slate-700 mb-8 leading-relaxed max-w-2xl">
+                <p className="text-lg text-white/80 mb-8 leading-relaxed max-w-2xl">
                   Najnowsze informacje, interpretacje i poradniki dotyczące Rozporządzenia CPR (EU) 2024/3110.
                   Bądź na bieżąco ze wszystkimi zmianami prawnymi i najlepszymi praktykami w branży.
                 </p>
@@ -889,7 +894,7 @@ export function BlogPage() {
                   </Button>
                   <Button
                     variant="outline"
-                    className="px-6 py-3 rounded-full border-slate-300 text-slate-700 bg-transparent hover:bg-slate-50"
+                    className="px-6 py-3 rounded-full border-white/30 text-white bg-white/10 hover:bg-white/20"
                     onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
                   >
                     <Mail className="w-5 h-5 mr-2" />

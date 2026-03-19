@@ -48,19 +48,39 @@ export default function AutorPage() {
 
       <main className="flex-1">
         {/* Hero */}
-        <div className="bg-gradient-to-b from-slate-50 to-white border-b border-slate-200 py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden border-b border-slate-800 py-16">
+          {/* B&W photo background */}
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+            }}
+          />
+          {/* Navy→blue gradient overlay */}
+          <div
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+          />
+          {/* Bottom accent stripe */}
+          <div
+            className="absolute bottom-0 left-0 right-0 h-[4px]"
+            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+          />
+          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <button
               onClick={() => navigate(-1)}
-              className="text-slate-500 hover:text-[#1a56a0] flex items-center gap-2 text-sm mb-8 transition-colors"
+              className="text-white/70 hover:text-white flex items-center gap-2 text-sm mb-8 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" /> Wróć
             </button>
 
             <div className="flex items-start gap-6">
               {/* Avatar placeholder */}
-              <div className="w-20 h-20 rounded-full bg-[#1a56a0]/10 border-2 border-[#1a56a0]/30 flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl font-bold text-[#1a56a0]">
+              <div className="w-20 h-20 rounded-full bg-white/15 border-2 border-white/30 flex items-center justify-center flex-shrink-0">
+                <span className="text-2xl font-bold text-white">
                   {author.name
                     .split(" ")
                     .filter((w) => /^[A-ZŁŚÓĄĘŹŻĆŃ]/.test(w))
@@ -71,13 +91,13 @@ export default function AutorPage() {
               </div>
 
               <div>
-                <p className="text-[#1a56a0] text-sm font-medium uppercase tracking-wider mb-1">
+                <p className="text-white/80 text-sm font-medium uppercase tracking-wider mb-1">
                   Autor
                 </p>
-                <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] leading-tight mb-2">
+                <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-2">
                   {author.name}
                 </h1>
-                <p className="text-slate-500 text-base">{author.shortTitle}</p>
+                <p className="text-white/70 text-base">{author.shortTitle}</p>
               </div>
             </div>
           </div>

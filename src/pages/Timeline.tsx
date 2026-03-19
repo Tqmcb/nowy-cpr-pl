@@ -256,31 +256,47 @@ export default function TimelinePage() {
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* ── HERO ── */}
-          <section className="relative overflow-hidden pb-12 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
-            <div className="absolute inset-0 pointer-events-none">
-              <div className="absolute top-20 left-1/4 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl" />
-              <div className="absolute top-40 right-1/4 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl" />
-            </div>
+          <section className="relative overflow-hidden border-b border-slate-800">
+            {/* B&W photo background */}
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+              }}
+            />
+            {/* Navy→blue gradient overlay */}
+            <div
+              className="absolute inset-0"
+              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+            />
+            {/* Bottom accent stripe */}
+            <div
+              className="absolute bottom-0 left-0 right-0 h-[4px]"
+              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+            />
             <Container>
-              <div className="relative pt-8">
-                <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">
-                  <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">
+              <div className="relative z-10 pt-8 pb-12">
+                <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
+                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">
                     Strona główna
                   </button>
                   <ChevronRight className="w-3 h-3" />
-                  <span className="text-[#0d2137]">Harmonogram</span>
+                  <span className="text-white">Harmonogram</span>
                 </nav>
 
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0]">
+                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/15 border border-white/30 text-white">
                     <Calendar className="w-3 h-3" /> Harmonogram
                   </span>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2137] leading-tight max-w-3xl mb-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-4">
                   Harmonogram CPR 2024/3110
                 </h1>
-                <p className="text-slate-500 text-lg max-w-2xl">
+                <p className="text-white/80 text-lg max-w-2xl">
                   Kluczowe daty, terminy przejściowe i kamienie milowe wdrożenia nowego rozporządzenia o wyrobach budowlanych.
                 </p>
 

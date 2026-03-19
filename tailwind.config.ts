@@ -25,7 +25,7 @@ const config: Config = {
                     navy:    "#0d2137",   // granat — nagłówek, masthead
                     ink:     "#1a2744",   // ciemny tekst główny
                     blue:    "#1a56a0",   // niebieski instytucjonalny — akcent, linki
-                    gold:    "#b7860b",   // ciemne złoto — certyfikacja, pieczęć
+                    wisnia:  "#8b1a3c",   // wiśniowy — akcent hero, badge kategorii
                     paper:   "#f8f9fa",   // tło sekcji "papierowe"
                     rule:    "#e2e8f0",   // linijka separatora
                 },

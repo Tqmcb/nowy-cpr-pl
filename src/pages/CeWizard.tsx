@@ -294,17 +294,36 @@ export default function CeWizard() {
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* Hero */}
-          <section className="relative overflow-hidden pb-6">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-white" />
+          <section className="relative overflow-hidden border-b border-slate-800">
+            {/* B&W photo background */}
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+              }}
+            />
+            {/* Navy→blue gradient overlay */}
+            <div
+              className="absolute inset-0"
+              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+            />
+            {/* Bottom accent stripe */}
+            <div
+              className="absolute bottom-0 left-0 right-0 h-[4px]"
+              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+            />
             <Container>
-              <div className="relative pt-8">
-                <nav className="flex items-center gap-2 text-sm text-slate-500 mb-6">
-                  <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">Strona glowna</button>
+              <div className="relative z-10 pt-8 pb-6">
+                <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
+                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">Strona glowna</button>
                   <ChevronRight className="w-3 h-3" />
-                  <span className="text-[#0d2137]">Sciezka do CE</span>
+                  <span className="text-white">Sciezka do CE</span>
                 </nav>
-                <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-2">Sciezka do CE</h1>
-                <p className="text-slate-500 text-lg">Odpowiedz na kilka pytan i otrzymaj spersonalizowana checkliste krok po kroku.</p>
+                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Sciezka do CE</h1>
+                <p className="text-white/80 text-lg">Odpowiedz na kilka pytan i otrzymaj spersonalizowana checkliste krok po kroku.</p>
               </div>
             </Container>
           </section>

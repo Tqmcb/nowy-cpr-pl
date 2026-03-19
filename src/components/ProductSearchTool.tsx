@@ -155,24 +155,40 @@ export function ProductSearchTool() {
         <link rel="canonical" href="https://www.nowycpr.pl/product-search" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl"></div>
-        </div>
+      <section className="relative py-24 overflow-hidden border-b border-slate-800">
+        {/* B&W photo background */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1400&q=80')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+          }}
+        />
+        {/* Navy→blue gradient overlay */}
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+        />
+        {/* Bottom accent stripe */}
+        <div
+          className="absolute bottom-0 left-0 right-0 h-[4px]"
+          style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+        />
 
         <Container>
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-2/3">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-6">
-                <Sparkles className="w-4 h-4 text-[#1a56a0]" />
-                <span className="text-[#1a56a0] text-sm font-medium">Wyszukiwarka CPR</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
+                <Sparkles className="w-4 h-4 text-white" />
+                <span className="text-white text-sm font-medium">Wyszukiwarka CPR</span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Wyszukiwarka wymagań CPR (EU) 2024/3110
               </h1>
-              <p className="text-lg text-slate-500 mb-8 leading-relaxed max-w-2xl">
+              <p className="text-lg text-white/80 mb-8 leading-relaxed max-w-2xl">
                 Sprawdź wymagania dla Twojego wyrobu budowlanego. Wybierz kategorię produktu,
                 aby zobaczyć szczegółowe informacje o testach, dokumentacji i zmianach w nowym rozporządzeniu CPR.
               </p>
@@ -188,7 +204,7 @@ export function ProductSearchTool() {
                 <Button
                   variant="outline"
                   onClick={() => document.getElementById("about-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="px-6 py-3 rounded-full border-slate-200 text-slate-700 bg-white hover:bg-slate-50"
+                  className="px-6 py-3 rounded-full border-white/30 text-white bg-white/10 hover:bg-white/20"
                 >
                   Więcej o CPR 2024
                 </Button>

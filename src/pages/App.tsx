@@ -71,42 +71,45 @@ function HomePage() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative min-h-[90vh] flex items-center bg-gradient-to-b from-slate-50 to-white overflow-hidden pt-24">
-          {/* Hero Photo Background - subtle construction site texture */}
-          <div className="absolute inset-0 pointer-events-none">
-            <img
-              src="/images/hero-bg.jpg"
-              alt=""
-              aria-hidden="true"
-              className="w-full h-full object-cover object-center opacity-[0.06]"
-            />
-            {/* Light gradient on top of photo */}
-            <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/60 to-white/80"></div>
-          </div>
-
-          {/* Subtle Background Elements */}
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl"></div>
-          </div>
+        <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24 border-b border-slate-800">
+          {/* B&W photo background */}
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+            }}
+          />
+          {/* Navy→blue gradient overlay */}
+          <div
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+          />
+          {/* Bottom accent stripe */}
+          <div
+            className="absolute bottom-0 left-0 right-0 h-[4px]"
+            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+          />
 
           <Container>
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Left Content */}
               <div className="animate-fade-in-up">
                 {/* Badge */}
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-8">
-                  <Sparkles className="w-4 h-4 text-[#1a56a0]" />
-                  <span className="text-[#1a56a0] text-sm font-medium">Rozporządzenie CPR w mocy od 2024</span>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-8">
+                  <Sparkles className="w-4 h-4 text-white" />
+                  <span className="text-white text-sm font-medium">Rozporządzenie CPR w mocy od 2024</span>
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  <span className="text-[#0d2137]">Nowe </span>
-                  <span className="text-[#0d2137] font-bold">Rozporządzenie CPR</span>
-                  <span className="text-[#0d2137]"> – Co i kiedy Cię dotyczy?</span>
+                  <span className="text-white">Nowe </span>
+                  <span className="text-white font-bold">Rozporządzenie CPR</span>
+                  <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-slate-700 mb-8 leading-relaxed max-w-xl">
+                <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed max-w-xl">
                   CPR (EU) 2024/3110 stosuje się od 8 stycznia 2026. Większość nowych wymogów
                   (GWP, DPP, EPD) wymaga jeszcze nowych norm zharmonizowanych —
                   sprawdź harmonogram dla swojej branży.
@@ -139,9 +142,9 @@ function HomePage() {
                     { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
                   ].map((stat, idx) => (
                     <div key={idx} className="text-center">
-                      <stat.icon className="w-5 h-5 mx-auto mb-2 text-slate-500" />
-                      <div className="text-2xl md:text-3xl font-bold text-[#0d2137] font-bold">{stat.value}</div>
-                      <div className="text-sm text-slate-500 mt-1">{stat.label}</div>
+                      <stat.icon className="w-5 h-5 mx-auto mb-2 text-white/70" />
+                      <div className="text-2xl md:text-3xl font-bold text-white font-bold">{stat.value}</div>
+                      <div className="text-sm text-white/70 mt-1">{stat.label}</div>
                     </div>
                   ))}
                 </div>
@@ -194,8 +197,8 @@ function HomePage() {
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 rounded-full border-2 border-slate-300 flex items-start justify-center p-2">
-              <div className="w-1 h-2 bg-slate-400 rounded-full animate-pulse"></div>
+            <div className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center p-2">
+              <div className="w-1 h-2 bg-white/60 rounded-full animate-pulse"></div>
             </div>
           </div>
         </section>

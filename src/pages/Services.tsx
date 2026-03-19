@@ -230,21 +230,41 @@ export default function Services() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="pt-32 pb-16 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
+        <section className="relative overflow-hidden border-b border-slate-800">
+          {/* B&W photo background */}
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1400&q=80')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
+            }}
+          />
+          {/* Navy→blue gradient overlay */}
+          <div
+            className="absolute inset-0"
+            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+          />
+          {/* Bottom accent stripe */}
+          <div
+            className="absolute bottom-0 left-0 right-0 h-[4px]"
+            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
+          />
           <Container>
-            <div className="text-center max-w-3xl mx-auto">
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded border border-[#1a56a0]/30 bg-[#1a56a0]/10 mb-6">
-                <Sparkles className="w-3.5 h-3.5 text-[#1a56a0]" />
-                <span className="text-[#1a56a0] text-xs font-medium uppercase tracking-wider">Przygotowanie do CPR (UE) 2024/3110</span>
+            <div className="relative z-10 pt-32 pb-16 text-center max-w-3xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded border border-white/30 bg-white/15 mb-6">
+                <Sparkles className="w-3.5 h-3.5 text-white" />
+                <span className="text-white text-xs font-medium uppercase tracking-wider">Przygotowanie do CPR (UE) 2024/3110</span>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] leading-tight mb-5">
+              <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
                 Usługi techniczne i audytowe{" "}
-                <span className="text-[#1a56a0]">Multicert</span>
+                <span className="text-white">Multicert</span>
               </h1>
-              <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+              <p className="text-lg text-white/80 mb-8 leading-relaxed">
                 Nowe Rozporządzenie CPR 2024/3110 wchodzi w życie etapami od 2025 roku. Audytorzy{" "}
                 <a href="https://www.multicert.pl" target="_blank" rel="noopener noreferrer"
-                  className="text-[#1a56a0] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors">
+                  className="text-white underline underline-offset-2 transition-colors hover:text-white/80">
                   Multicert
                 </a>{" "}
                 pomagają producentom, importerom i dystrybutorom wyrobów budowlanych przejść przez ten proces sprawnie i bez ryzyka.
