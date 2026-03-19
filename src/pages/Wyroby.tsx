@@ -4,9 +4,32 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Search, Building2, ChevronRight, Filter } from "lucide-react";
+import { Search, Building2, ChevronRight, Filter, Layers, TreePine, Thermometer, Droplets, DoorOpen, Home, Wrench, Gauge, Zap, Flame, Route, Mountain, Hammer, Shield, Wind, Pipette, Cable, Construction, type LucideIcon } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
-import { getCategorySketch } from "../components/BlueprintSketches";
+
+function getCategoryIcon(title: string, category: string): LucideIcon {
+  const t = (title ?? "").toLowerCase();
+  const c = (category ?? "").toLowerCase();
+  if (/beton|prefabrykat|murowy|cegł|kruszywa|wapno|cement|spoiwa/.test(t)) return Layers;
+  if (/drewno|drewn|płyt.*drewno|clb|glulam|sklejka/.test(t)) return TreePine;
+  if (/izolacja|wełna|styropian|eps|xps|pir|pur|etics/.test(t)) return Thermometer;
+  if (/membran|hydroizol|bitum|papa|uszczel/.test(t)) return Droplets;
+  if (/okna|okno|drzwi|brama|fasad|szkło/.test(t)) return DoorOpen;
+  if (/dach|pokryci/.test(t)) return Home;
+  if (/podłog|posadzk|tynk|gips|okładzin/.test(t)) return Layers;
+  if (/stal|metalow|żelbetow|zbrojeni|łożysk|kotw|łącznik/.test(t)) return Wrench;
+  if (/rur|zbiornik|instalac|kanalizac|komin|armatur|grzewcz|woda pitna/.test(t)) return Gauge;
+  if (/kabel|kable|elektr|detekcj/.test(t)) return Zap;
+  if (/pożar|ogniow|gaśnicz/.test(t)) return Flame;
+  if (/drogowy|drogi|nawierzch/.test(t)) return Route;
+  if (/geosynt|geomembran|geotekst/.test(t)) return Mountain;
+  if (/klej|zaprawa|chemia budowlana/.test(t)) return Hammer;
+  if (/konstrukcj/.test(c)) return Building2;
+  if (/izolac/.test(c)) return Thermometer;
+  if (/ochrona/.test(c)) return Shield;
+  if (/instalac/.test(c)) return Gauge;
+  return Building2;
+}
 
 const MAIN_CATEGORIES = [
   "Wyroby konstrukcyjne",
@@ -81,7 +104,7 @@ export default function Wyroby() {
         )}
       </Helmet>
       <Header />
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pb-20">
         <section className="relative overflow-hidden border-b border-slate-800">
           {/* B&W photo background */}
           <div
@@ -104,7 +127,7 @@ export default function Wyroby() {
             style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
           />
           <Container>
-            <div className="relative z-10 py-16 text-center max-w-3xl mx-auto">
+            <div className="relative z-10 pt-32 pb-16 text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 text-white text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
                 CPR 2024/3110 — Załącznik VII
@@ -167,12 +190,12 @@ export default function Wyroby() {
               {filtered.map((wyrob) => (
                 <div
                   key={wyrob.slug}
-                  className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
+                  className="group bg-white border border-slate-200 border-l-4 border-l-[#1a56a0] rounded-2xl p-6 hover:shadow-lg hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-sm"
                   onClick={() => goToWyrob(wyrob.slug)}
                 >
-                  {/* Blueprint sketch illustration */}
-                  <div className="flex justify-end mb-3 opacity-40 group-hover:opacity-70 transition-opacity duration-300">
-                    {getCategorySketch(wyrob.title, wyrob.category, 44)}
+                  {/* Category icon */}
+                  <div className="flex items-center justify-between mb-4">
+                    {(() => { const Icon = getCategoryIcon(wyrob.title, wyrob.category); return <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors duration-300"><Icon className="w-6 h-6 text-[#1a56a0]" /></div>; })()}
                   </div>
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-xs font-bold">
