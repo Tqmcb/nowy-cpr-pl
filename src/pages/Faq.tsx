@@ -41,14 +41,14 @@ interface FaqItem {
 }
 
 const CATEGORY_CONFIG: Record<FaqCategory, { label: string; icon: React.ComponentType<{ className?: string }>; color: string }> = {
-  ogolne: { label: "Ogólne", icon: HelpCircle, color: "text-amber-400" },
-  producent: { label: "Producent", icon: Building2, color: "text-sky-400" },
-  certyfikacja: { label: "Certyfikacja i AVS", icon: Shield, color: "text-emerald-400" },
-  dokumentacja: { label: "Dokumentacja", icon: FileText, color: "text-orange-400" },
-  "eta-normy": { label: "ETA i normy", icon: Scale, color: "text-violet-400" },
-  srodowisko: { label: "Środowisko / GWP", icon: Leaf, color: "text-green-400" },
-  import: { label: "Import i eksport", icon: Globe, color: "text-cyan-400" },
-  sankcje: { label: "Sankcje i nadzór", icon: AlertTriangle, color: "text-rose-400" },
+  ogolne: { label: "Ogólne", icon: HelpCircle, color: "text-[#1a56a0]" },
+  producent: { label: "Producent", icon: Building2, color: "text-sky-600" },
+  certyfikacja: { label: "Certyfikacja i AVS", icon: Shield, color: "text-emerald-600" },
+  dokumentacja: { label: "Dokumentacja", icon: FileText, color: "text-orange-600" },
+  "eta-normy": { label: "ETA i normy", icon: Scale, color: "text-violet-600" },
+  srodowisko: { label: "Środowisko / GWP", icon: Leaf, color: "text-green-600" },
+  import: { label: "Import i eksport", icon: Globe, color: "text-cyan-600" },
+  sankcje: { label: "Sankcje i nadzór", icon: AlertTriangle, color: "text-rose-600" },
 };
 
 const FAQ_DATA: FaqItem[] = [
@@ -335,37 +335,36 @@ export default function FaqPage() {
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* ── HERO ── */}
-          <section className="relative overflow-hidden pb-8">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900 to-transparent" />
-            <div className="absolute inset-0 opacity-20">
-              <div className="absolute top-20 left-1/4 w-72 h-72 bg-amber-400/20 rounded-full blur-3xl" />
-              <div className="absolute top-40 right-1/3 w-96 h-96 bg-sky-400/10 rounded-full blur-3xl" />
+          <section className="relative overflow-hidden pb-8 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
+            <div className="absolute inset-0 pointer-events-none">
+              <div className="absolute top-20 left-1/4 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl" />
+              <div className="absolute top-40 right-1/3 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl" />
             </div>
             <Container>
               <div className="relative pt-8">
-                <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-                  <button onClick={() => navigate("/")} className="hover:text-amber-400 transition-colors">
+                <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">
+                  <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">
                     Strona główna
                   </button>
                   <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">FAQ</span>
+                  <span className="text-[#0d2137]">FAQ</span>
                 </nav>
 
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-400/15 border border-amber-400/30 text-amber-400">
+                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0]">
                     <HelpCircle className="w-3 h-3" /> FAQ
                   </span>
                   <span className="text-xs text-slate-500">{FAQ_DATA.length} pytań</span>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-4">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0d2137] leading-tight max-w-3xl mb-4">
                   Najczęstsze pytania o CPR 2024
                 </h1>
-                <p className="text-slate-400 text-lg max-w-2xl">
+                <p className="text-slate-500 text-lg max-w-2xl">
                   Odpowiedzi na pytania producentów, importerów i dystrybutorów wyrobów budowlanych.
                 </p>
               </div>
@@ -381,12 +380,12 @@ export default function FaqPage() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Szukaj pytania, np. &quot;DoP&C&quot;, &quot;koszt certyfikacji&quot;, &quot;ETA&quot;..."
-                className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-white/10 rounded-2xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/40 focus:ring-2 focus:ring-amber-400/10 transition-all text-sm"
+                className="w-full pl-12 pr-4 py-4 bg-white border border-slate-200 rounded-2xl text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all text-sm"
               />
               {search && (
                 <button
                   onClick={() => setSearch("")}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white transition-colors text-xs"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-700 transition-colors text-xs"
                 >
                   Wyczyść
                 </button>
@@ -401,8 +400,8 @@ export default function FaqPage() {
                 onClick={() => setActiveCategory("all")}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
                   activeCategory === "all"
-                    ? "bg-amber-400/20 border-amber-400/40 text-amber-400"
-                    : "bg-white/5 border-white/10 text-slate-400 hover:text-white hover:border-white/20"
+                    ? "bg-[#0d2137] border-[#0d2137] text-white"
+                    : "bg-white border-slate-200 text-slate-600 hover:border-[#1a56a0]/50 hover:text-[#1a56a0]"
                 }`}
               >
                 Wszystkie
@@ -417,8 +416,8 @@ export default function FaqPage() {
                       onClick={() => setActiveCategory(cat)}
                       className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
                         activeCategory === cat
-                          ? "bg-amber-400/20 border-amber-400/40 text-amber-400"
-                          : "bg-white/5 border-white/10 text-slate-400 hover:text-white hover:border-white/20"
+                          ? "bg-[#0d2137] border-[#0d2137] text-white"
+                          : "bg-white border-slate-200 text-slate-600 hover:border-[#1a56a0]/50 hover:text-[#1a56a0]"
                       }`}
                     >
                       <Icon className="w-3 h-3" />
@@ -435,11 +434,11 @@ export default function FaqPage() {
           <Container>
             {filtered.length === 0 ? (
               <div className="text-center py-16">
-                <HelpCircle className="w-12 h-12 text-slate-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-white mb-2">Brak wyników</h3>
-                <p className="text-slate-400 text-sm">
+                <HelpCircle className="w-12 h-12 text-slate-300 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold text-[#0d2137] mb-2">Brak wyników</h3>
+                <p className="text-slate-500 text-sm">
                   Nie znaleziono pytań pasujących do &bdquo;{search}&rdquo;.{" "}
-                  <button onClick={() => { setSearch(""); setActiveCategory("all"); }} className="text-amber-400 hover:underline">
+                  <button onClick={() => { setSearch(""); setActiveCategory("all"); }} className="text-[#1a56a0] hover:underline">
                     Wyczyść filtry
                   </button>
                 </p>
@@ -457,8 +456,8 @@ export default function FaqPage() {
                       key={globalIndex}
                       className={`border rounded-2xl transition-all duration-300 ${
                         isOpen
-                          ? "bg-slate-800/60 border-amber-400/20 shadow-lg shadow-amber-400/5"
-                          : "bg-slate-800/30 border-white/10 hover:border-white/20"
+                          ? "bg-white border-[#1a56a0]/20 shadow-md"
+                          : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
                       }`}
                     >
                       <button
@@ -466,18 +465,18 @@ export default function FaqPage() {
                         className="w-full flex items-start gap-4 p-5 text-left"
                         aria-expanded={isOpen}
                       >
-                        <div className={`shrink-0 mt-0.5 w-8 h-8 rounded-lg flex items-center justify-center ${isOpen ? "bg-amber-400/15" : "bg-white/5"}`}>
-                          <CatIcon className={`w-4 h-4 ${isOpen ? "text-amber-400" : catConfig.color}`} />
+                        <div className={`shrink-0 mt-0.5 w-8 h-8 rounded-lg flex items-center justify-center ${isOpen ? "bg-[#1a56a0]/10" : "bg-slate-100"}`}>
+                          <CatIcon className={`w-4 h-4 ${isOpen ? "text-[#1a56a0]" : catConfig.color}`} />
                         </div>
                         <div className="flex-grow min-w-0">
                           <div className="flex items-center gap-2 mb-1">
-                            <span className={`text-[10px] px-2 py-0.5 rounded-full border ${isOpen ? "bg-amber-400/10 border-amber-400/20 text-amber-400" : "bg-white/5 border-white/10 text-slate-500"}`}>
+                            <span className={`text-[10px] px-2 py-0.5 rounded-full border ${isOpen ? "bg-[#1a56a0]/10 border-[#1a56a0]/20 text-[#1a56a0]" : "bg-slate-100 border-slate-200 text-slate-500"}`}>
                               {catConfig.label}
                             </span>
                           </div>
                           <h3
                             className={`font-semibold text-[15px] leading-snug transition-colors ${
-                              isOpen ? "text-white" : "text-slate-200"
+                              isOpen ? "text-[#0d2137]" : "text-slate-800"
                             }`}
                           >
                             {item.question}
@@ -485,7 +484,7 @@ export default function FaqPage() {
                         </div>
                         <ChevronDown
                           className={`shrink-0 w-5 h-5 mt-1 transition-transform duration-300 ${
-                            isOpen ? "rotate-180 text-amber-400" : "text-slate-500"
+                            isOpen ? "rotate-180 text-[#1a56a0]" : "text-slate-400"
                           }`}
                         />
                       </button>
@@ -497,11 +496,11 @@ export default function FaqPage() {
                         }`}
                       >
                         <div className="px-5 pb-5 pl-[4.25rem]">
-                          <div className="text-slate-300 text-sm leading-relaxed whitespace-pre-line">
+                          <div className="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
                             {item.answer.split(/(\*\*.*?\*\*)/).map((part, i) => {
                               if (part.startsWith("**") && part.endsWith("**")) {
                                 return (
-                                  <strong key={i} className="text-white font-semibold">
+                                  <strong key={i} className="text-[#0d2137] font-semibold">
                                     {part.slice(2, -2)}
                                   </strong>
                                 );
@@ -521,23 +520,23 @@ export default function FaqPage() {
           {/* ── CTA ── */}
           <section className="mt-16">
             <Container>
-              <div className="bg-gradient-to-br from-amber-400/10 to-orange-500/10 border border-amber-400/20 rounded-2xl p-8 md:p-12 text-center">
+              <div className="bg-[#0d2137] rounded-2xl p-8 md:p-12 text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
                   Nie znalazłeś odpowiedzi?
                 </h2>
-                <p className="text-slate-400 max-w-xl mx-auto mb-6">
+                <p className="text-slate-300 max-w-xl mx-auto mb-6">
                   Skontaktuj się z naszymi ekspertami — pomożemy rozwiązać każdy problem związany z CPR 2024.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <button
                     onClick={() => navigate("/kontakt")}
-                    className="flex items-center gap-2 px-6 py-3 bg-amber-400 text-slate-900 font-semibold rounded-xl hover:bg-amber-300 transition-colors"
+                    className="flex items-center gap-2 px-6 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors"
                   >
                     Zadaj pytanie <ChevronRight className="w-4 h-4" />
                   </button>
                   <button
                     onClick={() => navigate("/services")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors"
+                    className="flex items-center gap-2 px-6 py-3 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors"
                   >
                     Usługi certyfikacyjne <Shield className="w-4 h-4" />
                   </button>

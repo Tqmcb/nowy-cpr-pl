@@ -40,10 +40,10 @@ interface BlogPost {
 
 // Komponent dla pustego stanu
 const EmptyState = () => (
-  <div className="text-center py-16 glass-card">
-    <BookOpen className="h-16 w-16 mx-auto text-slate-500 mb-4" />
-    <h3 className="text-lg font-medium text-white mb-2">Brak artykułów</h3>
-    <p className="text-slate-400">Nie znaleziono artykułów spełniających kryteria wyszukiwania.</p>
+  <div className="text-center py-16 bg-white border border-slate-200 shadow-sm rounded-xl">
+    <BookOpen className="h-16 w-16 mx-auto text-slate-400 mb-4" />
+    <h3 className="text-lg font-medium text-[#0d2137] mb-2">Brak artykułów</h3>
+    <p className="text-slate-500">Nie znaleziono artykułów spełniających kryteria wyszukiwania.</p>
   </div>
 );
 
@@ -51,18 +51,18 @@ const EmptyState = () => (
 const LoadingState = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {[1, 2, 3, 4, 5, 6].map((i) => (
-      <div key={i} className="glass-card overflow-hidden animate-pulse">
-        <div className="h-48 bg-slate-700/50"></div>
+      <div key={i} className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden animate-pulse">
+        <div className="h-48 bg-slate-200/50"></div>
         <div className="p-6 space-y-4">
           <div className="flex justify-between">
-            <div className="h-6 w-24 bg-slate-700/50 rounded"></div>
-            <div className="h-5 w-32 bg-slate-700/50 rounded"></div>
+            <div className="h-6 w-24 bg-slate-200/50 rounded"></div>
+            <div className="h-5 w-32 bg-slate-200/50 rounded"></div>
           </div>
-          <div className="h-8 w-full bg-slate-700/50 rounded"></div>
-          <div className="h-20 w-full bg-slate-700/50 rounded"></div>
+          <div className="h-8 w-full bg-slate-200/50 rounded"></div>
+          <div className="h-20 w-full bg-slate-200/50 rounded"></div>
           <div className="flex justify-between items-center">
-            <div className="h-6 w-32 bg-slate-700/50 rounded"></div>
-            <div className="h-8 w-28 bg-slate-700/50 rounded"></div>
+            <div className="h-6 w-32 bg-slate-200/50 rounded"></div>
+            <div className="h-8 w-28 bg-slate-200/50 rounded"></div>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
   return (
     <Link
       to={`/blog/${post.slug}`}
-      className="glass-card overflow-hidden hover-lift card-border-glow group cursor-pointer block no-underline"
+      className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift group cursor-pointer block no-underline"
     >
       {post.image_url && (
         <div className="h-48 overflow-hidden relative">
@@ -104,36 +104,36 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
             alt={post.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d2137]/60 to-transparent"></div>
         </div>
       )}
       <div className="p-6">
         <div className="flex items-center justify-between mb-4">
-          <span className="px-3 py-1 rounded-full bg-amber-400/10 text-amber-400 text-xs font-medium">
+          <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
             {post.category}
           </span>
-          <div className="flex items-center text-sm text-slate-400 gap-3">
+          <div className="flex items-center text-sm text-slate-500 gap-3">
             <span className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
               {readingTime} min
             </span>
           </div>
         </div>
-        <h3 className="text-lg font-bold text-white mb-3 group-hover:text-amber-400 transition-colors line-clamp-2">
+        <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
           {post.title}
         </h3>
-        <p className="text-slate-400 text-sm mb-4 line-clamp-3 leading-relaxed">{post.excerpt}</p>
-        <div className="flex justify-between items-center pt-4 border-t border-white/10">
+        <p className="text-slate-500 text-sm mb-4 line-clamp-3 leading-relaxed">{post.excerpt}</p>
+        <div className="flex justify-between items-center pt-4 border-t border-slate-200">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-              <User className="w-4 h-4 text-slate-900" />
+            <div className="w-8 h-8 rounded-full bg-[#0d2137] flex items-center justify-center">
+              <User className="w-4 h-4 text-white" />
             </div>
             <div>
-              <span className="text-sm text-white">{post.author.split(' | ')[0]}</span>
+              <span className="text-sm text-slate-900">{post.author.split(' | ')[0]}</span>
               <p className="text-xs text-slate-500">{formatDate(post.published_at)}</p>
             </div>
           </div>
-          <div className="flex items-center text-amber-400 text-sm font-medium group-hover:gap-2 transition-all">
+          <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
             <span>Czytaj</span>
             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </div>
@@ -146,27 +146,27 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
 // Komponent pokazywany gdy ładowanie artykułów nie powiodło się
 const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
   <div className="flex flex-col items-center justify-center py-20 px-4">
-    <div className="glass-card max-w-md w-full p-10 text-center">
-      <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-slate-800 border border-white/10 flex items-center justify-center">
-        <RefreshCw className="w-8 h-8 text-slate-400" />
+    <div className="bg-white border border-slate-200 shadow-sm rounded-xl max-w-md w-full p-10 text-center">
+      <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center">
+        <RefreshCw className="w-8 h-8 text-slate-500" />
       </div>
-      <h3 className="text-xl font-bold text-white mb-3">
+      <h3 className="text-xl font-bold text-[#0d2137] mb-3">
         Aktualności tymczasowo niedostępne
       </h3>
-      <p className="text-slate-400 text-sm leading-relaxed mb-8">
+      <p className="text-slate-500 text-sm leading-relaxed mb-8">
         Trwa odświeżanie treści. Spróbuj za chwilę lub skontaktuj się z nami bezpośrednio.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <Button
           onClick={onRetry}
-          className="btn-premium px-5 py-2.5 rounded-full text-slate-900 font-semibold text-sm"
+          className="px-5 py-2.5 rounded-full bg-[#0d2137] text-white font-semibold text-sm hover:bg-[#1a3d6b]"
         >
           <RefreshCw className="w-4 h-4 mr-2" />
           Odśwież
         </Button>
         <Button
           variant="outline"
-          className="px-5 py-2.5 rounded-full border-white/20 text-white bg-transparent hover:bg-white/10 text-sm"
+          className="px-5 py-2.5 rounded-full border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50 text-sm"
           onClick={() => window.location.href = "/services"}
         >
           Skontaktuj się
@@ -836,7 +836,7 @@ export function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white">
       <Helmet>
         <title>Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl</title>
         <meta name="description" content="Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych." />
@@ -846,50 +846,50 @@ export function BlogPage() {
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden">
+      <section className="relative py-24 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
         {/* Hero Photo Background */}
         <div className="absolute inset-0 pointer-events-none">
           <img
             src="/images/hero-bg.jpg"
             alt=""
             aria-hidden="true"
-            className="w-full h-full object-cover object-center opacity-[0.28]"
+            className="w-full h-full object-cover object-center opacity-[0.05]"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-slate-900/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-white/80"></div>
         </div>
         {/* Background decorations */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/4 left-10 w-72 h-72 bg-[#1a56a0]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl"></div>
         </div>
 
         <Container>
           <div className="relative z-10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="md:w-2/3">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
-                  <Sparkles className="w-4 h-4 text-amber-400" />
-                  <span className="text-amber-400 text-sm font-medium">Blog CPR</span>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 mb-6">
+                  <Sparkles className="w-4 h-4 text-[#1a56a0]" />
+                  <span className="text-[#1a56a0] text-sm font-medium">Blog CPR</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                  <span className="text-white">Aktualności i </span>
-                  <span className="gradient-text">Wiedza CPR</span>
+                  <span className="text-[#0d2137]">Aktualności i </span>
+                  <span className="text-[#0d2137] font-bold">Wiedza CPR</span>
                 </h1>
-                <p className="text-lg text-slate-400 mb-8 leading-relaxed max-w-2xl">
+                <p className="text-lg text-slate-700 mb-8 leading-relaxed max-w-2xl">
                   Najnowsze informacje, interpretacje i poradniki dotyczące Rozporządzenia CPR (EU) 2024/3110.
                   Bądź na bieżąco ze wszystkimi zmianami prawnymi i najlepszymi praktykami w branży.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
                     onClick={() => document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" })}
-                    className="btn-premium px-6 py-3 rounded-full text-slate-900 font-semibold"
+                    className="px-6 py-3 rounded-full bg-[#0d2137] text-white font-semibold hover:bg-[#1a3d6b]"
                   >
                     <BookOpen className="w-5 h-5 mr-2" />
                     Przeglądaj artykuły
                   </Button>
                   <Button
                     variant="outline"
-                    className="px-6 py-3 rounded-full border-white/20 text-white bg-transparent hover:bg-white/10"
+                    className="px-6 py-3 rounded-full border-slate-300 text-slate-700 bg-transparent hover:bg-slate-50"
                     onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
                   >
                     <Mail className="w-5 h-5 mr-2" />
@@ -898,21 +898,21 @@ export function BlogPage() {
                 </div>
               </div>
               <div className="md:w-1/3">
-                <div className="glass-card p-6">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-                    <FileText className="w-10 h-10 text-slate-900" />
+                <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-[#0d2137] flex items-center justify-center">
+                    <FileText className="w-10 h-10 text-white" />
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold gradient-text mb-1">{blogPosts.length}</div>
-                    <p className="text-slate-400 text-sm">artykułów dostępnych</p>
+                    <div className="text-3xl font-bold text-[#0d2137] font-bold mb-1">{blogPosts.length}</div>
+                    <p className="text-slate-500 text-sm">artykułów dostępnych</p>
                   </div>
-                  <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-2 gap-4 text-center">
+                  <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-2 gap-4 text-center">
                     <div>
-                      <div className="text-xl font-bold text-white">{categories.length}</div>
+                      <div className="text-xl font-bold text-[#0d2137]">{categories.length}</div>
                       <p className="text-slate-500 text-xs">kategorii</p>
                     </div>
                     <div>
-                      <div className="text-xl font-bold text-white">2026</div>
+                      <div className="text-xl font-bold text-[#0d2137]">2026</div>
                       <p className="text-slate-500 text-xs">aktualny rok</p>
                     </div>
                   </div>
@@ -924,13 +924,13 @@ export function BlogPage() {
       </section>
 
       {/* Blog List Section */}
-      <section id="blog-list" className="py-16 bg-gradient-to-b from-slate-900 to-slate-950">
+      <section id="blog-list" className="py-16 bg-slate-50">
         <Container>
           <div className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              Najnowsze <span className="gradient-text">artykuły</span>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-2">
+              Najnowsze <span className="text-[#0d2137] font-bold">artykuły</span>
             </h2>
-            <p className="text-slate-400">Wybierz kategorię lub wyszukaj interesujący Cię temat</p>
+            <p className="text-slate-500">Wybierz kategorię lub wyszukaj interesujący Cię temat</p>
           </div>
 
           {/* Filters */}
@@ -942,7 +942,7 @@ export function BlogPage() {
                 placeholder="Szukaj artykułów..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
               />
             </div>
             <div className="md:w-64 relative">
@@ -950,11 +950,11 @@ export function BlogPage() {
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all appearance-none cursor-pointer"
+                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all appearance-none cursor-pointer"
               >
-                <option value="all" className="bg-slate-800">Wszystkie kategorie</option>
+                <option value="all" className="bg-white">Wszystkie kategorie</option>
                 {categories.map(category => (
-                  <option key={category} value={category} className="bg-slate-800">{category}</option>
+                  <option key={category} value={category} className="bg-white">{category}</option>
                 ))}
               </select>
             </div>
@@ -985,7 +985,7 @@ export function BlogPage() {
                     <Button
                       onClick={() => setSelectedCategory("all")}
                       variant="outline"
-                      className="border-white/20 text-white bg-transparent hover:bg-white/10"
+                      className="border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50"
                     >
                       Pokaż wszystkie kategorie
                     </Button>
@@ -998,19 +998,19 @@ export function BlogPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section id="newsletter-section" className="py-24 bg-slate-950">
+      <section id="newsletter-section" className="py-24 bg-white">
         <Container>
-          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 p-8 md:p-12">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-blue-500/10"></div>
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+          <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#1a56a0]/20 via-transparent to-[#1a56a0]/10"></div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#1a56a0]/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#1a56a0]/10 rounded-full blur-3xl"></div>
 
             <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-2/3">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  Bądź na bieżąco z <span className="gradient-text">CPR</span>
+                  Bądź na bieżąco z <span className="text-[#1a56a0] font-bold" style={{color: '#7eb3f5'}}>CPR</span>
                 </h2>
-                <p className="text-slate-400 mb-6 leading-relaxed">
+                <p className="text-slate-300 mb-6 leading-relaxed">
                   Zapisz się do naszego newslettera i otrzymuj najnowsze informacje,
                   interpretacje przepisów i praktyczne porady dotyczące Rozporządzenia CPR.
                 </p>
@@ -1031,24 +1031,24 @@ export function BlogPage() {
                     placeholder="Twój adres e-mail"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="flex-grow px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                    className="flex-grow px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:border-white/40 focus:bg-white/15 transition-all"
                     required
                   />
                   <button
                     type="submit"
-                    className="btn-premium px-6 py-3 rounded-xl text-slate-900 font-semibold flex items-center justify-center gap-2"
+                    className="px-6 py-3 rounded-xl bg-white text-[#0d2137] font-semibold flex items-center justify-center gap-2 hover:bg-slate-100 transition-colors"
                   >
                     <Send className="w-4 h-4" />
                     Zapisz się
                   </button>
                 </form>
-                <p className="text-xs text-slate-500 mt-3">
+                <p className="text-xs text-slate-400 mt-3">
                   Zapisując się, zgadzasz się na naszą politykę prywatności. W każdej chwili możesz zrezygnować z subskrypcji.
                 </p>
               </div>
               <div className="md:w-1/3 flex justify-center">
-                <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg shadow-amber-500/30">
-                  <Mail className="w-16 h-16 text-slate-900" />
+                <div className="w-32 h-32 rounded-2xl bg-[#1a56a0] flex items-center justify-center shadow-lg shadow-[#1a56a0]/30">
+                  <Mail className="w-16 h-16 text-white" />
                 </div>
               </div>
             </div>
@@ -1057,29 +1057,29 @@ export function BlogPage() {
       </section>
 
       {/* Quick Links Section */}
-      <section className="py-16 bg-slate-900 border-t border-white/5">
+      <section className="py-16 bg-slate-50 border-t border-slate-100">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="glass-card p-6">
-              <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-amber-400" />
+            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-[#1a56a0]" />
                 O blogu
               </h3>
-              <p className="text-slate-400 text-sm leading-relaxed">
+              <p className="text-slate-500 text-sm leading-relaxed">
                 Dostarczamy ekspercką wiedzę i praktyczne informacje dla producentów wyrobów budowlanych
                 dotyczące Rozporządzenia CPR (EU) 2024/3110.
               </p>
             </div>
-            <div className="glass-card p-6">
-              <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-                <Filter className="w-5 h-5 text-blue-400" />
+            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
+                <Filter className="w-5 h-5 text-[#1a56a0]" />
                 Kategorie
               </h3>
               <div className="flex flex-wrap gap-2">
                 {categories.slice(0, 6).map(category => (
                   <button
                     key={category}
-                    className="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-slate-400 text-sm hover:text-amber-400 hover:border-amber-400/30 transition-all"
+                    className="px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-500 text-sm hover:text-[#1a56a0] hover:border-[#1a56a0]/30 transition-all"
                     onClick={() => {
                       setSelectedCategory(category);
                       document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" });
@@ -1090,17 +1090,17 @@ export function BlogPage() {
                 ))}
               </div>
             </div>
-            <div className="glass-card p-6">
-              <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-                <User className="w-5 h-5 text-emerald-400" />
+            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
+                <User className="w-5 h-5 text-emerald-600" />
                 Kontakt
               </h3>
-              <p className="text-slate-400 text-sm mb-4">
+              <p className="text-slate-500 text-sm mb-4">
                 Masz pytania dotyczące CPR? Skontaktuj się z naszymi ekspertami.
               </p>
               <Button
                 variant="outline"
-                className="border-white/20 text-white bg-transparent hover:bg-white/10"
+                className="border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50"
                 onClick={() => navigate("/services")}
               >
                 Skontaktuj się

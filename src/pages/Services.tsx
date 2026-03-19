@@ -230,90 +230,48 @@ export default function Services() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden pt-32">
-          {/* Hero Photo Background */}
-          <div className="absolute inset-0 pointer-events-none">
-            <img
-              src="/images/hero-bg.jpg"
-              alt=""
-              aria-hidden="true"
-              className="w-full h-full object-cover object-center opacity-[0.28]"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-slate-900/70"></div>
-          </div>
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-1/4 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-float"></div>
-            <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float-delay"></div>
-          </div>
-
+        <section className="pt-32 pb-16 bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
           <Container>
-            <div className="relative z-10 text-center max-w-3xl mx-auto">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-8">
-                <Sparkles className="w-4 h-4 text-amber-400" />
-                <span className="text-amber-400 text-sm font-medium">Przygotowanie do CPR (UE) 2024/3110</span>
+            <div className="text-center max-w-3xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded border border-[#1a56a0]/30 bg-[#1a56a0]/10 mb-6">
+                <Sparkles className="w-3.5 h-3.5 text-[#1a56a0]" />
+                <span className="text-[#1a56a0] text-xs font-medium uppercase tracking-wider">Przygotowanie do CPR (UE) 2024/3110</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                <span className="text-white">Usługi techniczne i audytowe </span>
-                <span className="gradient-text">Multicert</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] leading-tight mb-5">
+                Usługi techniczne i audytowe{" "}
+                <span className="text-[#1a56a0]">Multicert</span>
               </h1>
-              <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
+              <p className="text-lg text-slate-700 mb-8 leading-relaxed">
                 Nowe Rozporządzenie CPR 2024/3110 wchodzi w życie etapami od 2025 roku. Audytorzy{" "}
-                <a
-                  href="https://www.multicert.pl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors"
-                >
+                <a href="https://www.multicert.pl" target="_blank" rel="noopener noreferrer"
+                  className="text-[#1a56a0] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors">
                   Multicert
                 </a>{" "}
                 pomagają producentom, importerom i dystrybutorom wyrobów budowlanych przejść przez ten proces sprawnie i bez ryzyka.
               </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button
-                  size="lg"
-                  onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="group"
-                >
-                  Umów bezpłatną konsultację
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </div>
+              <Button size="lg" onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })} className="group">
+                Umów bezpłatną konsultację
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
             </div>
           </Container>
         </section>
 
         {/* Key Benefits */}
-        <section className="py-16 bg-gradient-to-b from-slate-900 to-slate-950">
+        <section className="py-16 bg-slate-50 border-b border-slate-200">
           <Container>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               {[
-                {
-                  icon: BadgeCheck,
-                  title: "Audytorzy z praktyką",
-                  description: "Usługi realizują certyfikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych i weryfikacji dokumentacji technicznej.",
-                  gradient: "from-amber-400 to-orange-500"
-                },
-                {
-                  icon: Users,
-                  title: "Indywidualne podejście",
-                  description: "Każde wdrożenie jest inne — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów.",
-                  gradient: "from-blue-400 to-cyan-500"
-                },
-                {
-                  icon: ShieldCheck,
-                  title: "Kompletne wsparcie",
-                  description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu.",
-                  gradient: "from-emerald-400 to-green-500"
-                }
+                { icon: BadgeCheck, title: "Audytorzy z praktyką", description: "Usługi realizują certyfikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych i weryfikacji dokumentacji technicznej.", color: "text-[#1a56a0] bg-slate-50 border-slate-200" },
+                { icon: Users, title: "Indywidualne podejście", description: "Każde wdrożenie jest inne — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów.", color: "text-[#1a56a0] bg-slate-50 border-slate-200" },
+                { icon: ShieldCheck, title: "Kompletne wsparcie", description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu.", color: "text-[#1a56a0] bg-slate-50 border-slate-200" }
               ].map((item, idx) => (
-                <div key={idx} className="glass-card p-8 hover-lift card-border-glow text-center group">
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${item.gradient} flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg`}>
-                    <item.icon className="w-8 h-8 text-slate-900" />
+                <div key={idx} className="bg-white border border-slate-200 rounded-lg p-7 shadow-sm text-center">
+                  <div className={`w-14 h-14 rounded-lg border flex items-center justify-center mx-auto mb-5 ${item.color}`}>
+                    <item.icon className="w-7 h-7" />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
-                  <p className="text-slate-400 leading-relaxed">{item.description}</p>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2">{item.title}</h3>
+                  <p className="text-slate-600 leading-relaxed text-sm">{item.description}</p>
                 </div>
               ))}
             </div>
@@ -321,35 +279,35 @@ export default function Services() {
         </section>
 
         {/* Services */}
-        <section className="py-24 bg-slate-950">
+        <section className="py-20 bg-white">
           <Container>
-            <div className="max-w-3xl mx-auto text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Nasze <span className="gradient-text">usługi CPR 2024</span>
+            <div className="max-w-3xl mx-auto text-center mb-14">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
+                Nasze usługi CPR 2024
               </h2>
-              <p className="text-lg text-slate-400">
+              <p className="text-slate-600 leading-relaxed">
                 Realizowane przez audytorów Multicert — dla producentów, importerów i dystrybutorów wyrobów budowlanych przygotowujących się do wymagań CPR (UE) 2024/3110.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
               {services.map((service, idx) => (
-                <div key={idx} className="glass-card p-8 hover-lift card-border-glow">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center shadow-lg flex-shrink-0`}>
-                      <service.icon className="w-6 h-6 text-slate-900" />
+                <div key={idx} className="bg-white border border-slate-200 rounded-lg p-7 shadow-sm hover:shadow-md hover:border-[#1a56a0]/30 transition-all">
+                  <div className="flex items-center gap-4 mb-5">
+                    <div className="w-11 h-11 rounded border border-slate-200 bg-slate-50 flex items-center justify-center flex-shrink-0">
+                      <service.icon className="w-5 h-5 text-[#1a56a0]" />
                     </div>
                     <div>
-                      <span className="text-xs font-mono text-slate-500 block mb-0.5">{service.number}</span>
-                      <h3 className="text-xl font-bold text-white leading-tight">{service.title}</h3>
+                      <span className="text-xs font-mono text-slate-400 block">{service.number}</span>
+                      <h3 className="text-lg font-bold text-slate-900 leading-tight">{service.title}</h3>
                     </div>
                   </div>
-                  <p className="text-slate-400 mb-6 leading-relaxed">{service.description}</p>
-                  <ul className="space-y-3">
+                  <p className="text-slate-600 mb-5 leading-relaxed text-sm">{service.description}</p>
+                  <ul className="space-y-2.5">
                     {service.features.map((feature, fidx) => (
-                      <li key={fidx} className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                        <span className="text-slate-300 text-sm">{feature}</span>
+                      <li key={fidx} className="flex items-start gap-2.5">
+                        <CheckCircle2 className="w-4 h-4 text-[#1a56a0] flex-shrink-0 mt-0.5" />
+                        <span className="text-slate-700 text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -371,22 +329,22 @@ export default function Services() {
         </section>
 
         {/* Dla kogo */}
-        <section className="py-16 bg-slate-900">
+        <section className="py-16 bg-slate-50 border-t border-slate-200">
           <Container>
             <div className="max-w-4xl mx-auto">
-              <div className="glass-card p-8 md:p-12">
+              <div className="bg-white border border-slate-200 rounded-lg p-8 md:p-12 shadow-sm">
                 <div className="flex items-start gap-6 flex-col md:flex-row">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-7 h-7 text-slate-900" />
+                  <div className="w-12 h-12 rounded border border-slate-200 bg-slate-50 flex items-center justify-center flex-shrink-0">
+                    <FileText className="w-6 h-6 text-[#1a56a0]" />
                   </div>
                   <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-4">
                       Dlaczego teraz — zanim pojawi się certyfikacja
                     </h2>
-                    <p className="text-slate-300 leading-relaxed mb-4">
-                      CPR (UE) 2024/3110 wchodzi w życie etapami. Od 8 stycznia 2026 r. obowiązują główne przepisy, ale stary format DoP (305/2011) pozostaje ważny — do czasu przyjęcia nowej normy zharmonizowanej dla danej rodziny wyrobów. Nowy format DoP&C staje się obowiązkowy osobno dla każdej rodziny, co będzie następować sukcesywnie w latach 2026–2029+. Certyfikacja jednostek notyfikowanych pod nowe rozporządzenie dopiero się kształtuje. Obowiązki w zakresie SVHC, zmienione wymagania ZKP i przepisy dotyczące pliku technicznego wchodzą niezależnie od terminu przejścia na nowy format DoP&C.
+                    <p className="text-slate-700 leading-relaxed mb-4">
+                      CPR (UE) 2024/3110 wchodzi w życie etapami. Od 8 stycznia 2026 r. obowiązują główne przepisy, ale stary format DoP (305/2011) pozostaje ważny — do czasu przyjęcia nowej normy zharmonizowanej dla danej rodziny wyrobów. Nowy format DoP&C staje się obowiązkowy osobno dla każdej rodziny, co będzie następować sukcesywnie w latach 2026–2029+.
                     </p>
-                    <p className="text-slate-300 leading-relaxed mb-6">
+                    <p className="text-slate-700 leading-relaxed mb-6">
                       Firmy, które zaczną przygotowanie teraz, unikną chaosu ostatniej chwili, kosztownych błędów w dokumentacji i ryzyk związanych z nadzorem rynku. Usługi Multicert są właśnie pod to przygotowanie — pragmatyczne, oparte na tekście rozporządzenia i prowadzone przez praktyków.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -395,9 +353,9 @@ export default function Services() {
                         { label: "Importerzy i dystrybutorzy", desc: "sprowadzający wyroby pod własną marką" },
                         { label: "Mikroprzedsiębiorstwa i MŚP", desc: "uproszczone ścieżki wdrożenia" }
                       ].map((item, idx) => (
-                        <div key={idx} className="bg-white/5 rounded-xl p-4 border border-white/10">
-                          <p className="text-white font-semibold text-sm mb-1">{item.label}</p>
-                          <p className="text-slate-400 text-xs">{item.desc}</p>
+                        <div key={idx} className="bg-slate-50 rounded p-4 border border-slate-200">
+                          <p className="text-slate-900 font-semibold text-sm mb-1">{item.label}</p>
+                          <p className="text-slate-500 text-xs">{item.desc}</p>
                         </div>
                       ))}
                     </div>
@@ -409,25 +367,20 @@ export default function Services() {
         </section>
 
         {/* Partnerzy */}
-        <section className="py-12 bg-slate-950 border-t border-white/5">
+        <section className="py-10 bg-white border-t border-slate-200">
           <Container>
-            <p className="text-center text-slate-500 text-xs uppercase tracking-widest mb-8">
+            <p className="text-center text-slate-400 text-xs uppercase tracking-widest mb-6">
               Działamy we współpracy z akredytowanymi jednostkami certyfikującymi
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-6">
+            <div className="flex flex-wrap justify-center items-center gap-4">
               {[
                 { name: "Multicert Sp. z o.o.", url: "https://www.multicert.pl" },
                 { name: "ITC Zlín", url: "https://www.itczlin.cz" },
                 { name: "LL-C", url: "https://www.ll-c.com.pl" },
                 { name: "ZDZ Cert (NB 1388)", url: "https://www.zdzcert.pl" },
               ].map((partner) => (
-                <a
-                  key={partner.name}
-                  href={partner.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-white/10 text-slate-400 hover:text-amber-400 hover:border-amber-400/30 transition-all text-sm font-medium"
-                >
+                <a key={partner.name} href={partner.url} target="_blank" rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 px-5 py-2.5 rounded border border-slate-200 text-slate-600 hover:text-[#1a56a0] hover:border-[#1a56a0]/40 transition-all text-sm font-medium">
                   {partner.name}
                   <ExternalLink className="w-3 h-3 opacity-60" />
                 </a>
@@ -437,26 +390,26 @@ export default function Services() {
         </section>
 
         {/* Contact Form */}
-        <section id="contact-section" className="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
+        <section id="contact-section" className="py-24 bg-slate-50">
           <Container>
             <div className="max-w-3xl mx-auto">
-              <div className="glass-card p-8 md:p-12">
+              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 md:p-12">
                 <div className="text-center mb-10">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                    Umów <span className="gradient-text">bezpłatną konsultację</span>
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
+                    Umów <span className="text-[#1a56a0] font-bold">bezpłatną konsultację</span>
                   </h2>
-                  <p className="text-slate-400">
+                  <p className="text-slate-500">
                     Opisz swój wyrób i sytuację — audytor Multicert skontaktuje się z Tobą w ciągu 24 godzin, aby omówić zakres i sposób wsparcia.
                   </p>
                 </div>
 
                 {formStatus === "success" ? (
                   <div className="text-center py-8">
-                    <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center mx-auto mb-4">
-                      <CheckCircle2 className="w-8 h-8 text-emerald-400" />
+                    <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-4">
+                      <CheckCircle2 className="w-8 h-8 text-emerald-600" />
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2">Dziękujemy za wiadomość!</h3>
-                    <p className="text-slate-400">Nasz audytor skontaktuje się z Tobą w ciągu 24 godzin.</p>
+                    <h3 className="text-xl font-bold text-[#0d2137] mb-2">Dziękujemy za wiadomość!</h3>
+                    <p className="text-slate-500">Nasz audytor skontaktuje się z Tobą w ciągu 24 godzin.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit}>
@@ -475,7 +428,7 @@ export default function Services() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Imię i nazwisko *</label>
+                        <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">Imię i nazwisko *</label>
                         <input
                           id="name"
                           name="name"
@@ -483,12 +436,12 @@ export default function Services() {
                           required
                           value={formData.name}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
                           placeholder="Jan Kowalski"
                         />
                       </div>
                       <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">Email *</label>
+                        <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">Email *</label>
                         <input
                           id="email"
                           name="email"
@@ -496,7 +449,7 @@ export default function Services() {
                           required
                           value={formData.email}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
                           placeholder="jan@firma.pl"
                         />
                       </div>
@@ -504,19 +457,19 @@ export default function Services() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                       <div>
-                        <label htmlFor="phone" className="block text-sm font-medium text-slate-300 mb-2">Telefon</label>
+                        <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-2">Telefon</label>
                         <input
                           id="phone"
                           name="phone"
                           type="tel"
                           value={formData.phone}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
                           placeholder="730 668 341"
                         />
                       </div>
                       <div>
-                        <label htmlFor="company" className="block text-sm font-medium text-slate-300 mb-2">Firma *</label>
+                        <label htmlFor="company" className="block text-sm font-medium text-slate-700 mb-2">Firma *</label>
                         <input
                           id="company"
                           name="company"
@@ -524,14 +477,14 @@ export default function Services() {
                           required
                           value={formData.company}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
                           placeholder="Nazwa firmy"
                         />
                       </div>
                     </div>
 
                     <div className="mb-6">
-                      <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">Wiadomość *</label>
+                      <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">Wiadomość *</label>
                       <textarea
                         id="message"
                         name="message"
@@ -539,7 +492,7 @@ export default function Services() {
                         rows={4}
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition-all resize-none"
+                        className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all resize-none"
                         placeholder="Opisz jakimi wyrobami się zajmujesz i w czym możemy pomóc..."
                       ></textarea>
                     </div>
@@ -553,16 +506,16 @@ export default function Services() {
                           required
                           checked={formData.consent}
                           onChange={handleCheckboxChange}
-                          className="h-4 w-4 mt-1 rounded border-white/20 bg-white/5 text-amber-400 focus:ring-amber-400"
+                          className="h-4 w-4 mt-1 rounded border-slate-300 text-[#1a56a0] focus:ring-[#1a56a0]"
                         />
-                        <label htmlFor="consent" className="ml-3 block text-sm text-slate-400">
+                        <label htmlFor="consent" className="ml-3 block text-sm text-slate-500">
                           Wyrażam zgodę na przetwarzanie moich danych osobowych w celu udzielenia odpowiedzi na zapytanie oraz w celach marketingowych zgodnie z Polityką Prywatności. *
                         </label>
                       </div>
                     </div>
 
                     {formStatus === "error" && (
-                      <div className="mb-6 p-4 rounded-lg bg-red-500/10 border border-red-500/30 text-red-400 text-sm text-center">
+                      <div className="mb-6 p-4 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm text-center">
                         Wystąpił błąd podczas wysyłania. Spróbuj ponownie lub napisz bezpośrednio na{" "}
                         <a href="mailto:biuro@multicert.pl" className="underline">biuro@multicert.pl</a>.
                       </div>
@@ -580,26 +533,26 @@ export default function Services() {
 
               {/* Contact Info */}
               <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="glass-card p-6 text-center">
-                  <div className="w-12 h-12 rounded-xl bg-amber-400/10 flex items-center justify-center mx-auto mb-4">
-                    <Phone className="w-6 h-6 text-amber-400" />
+                <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-center">
+                  <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center mx-auto mb-4">
+                    <Phone className="w-6 h-6 text-[#1a56a0]" />
                   </div>
-                  <h3 className="text-white font-semibold mb-2">Telefon</h3>
-                  <a href="tel:+48730668341" className="text-slate-400 hover:text-amber-400 transition-colors">730 668 341</a>
+                  <h3 className="text-[#0d2137] font-semibold mb-2">Telefon</h3>
+                  <a href="tel:+48730668341" className="text-slate-500 hover:text-[#1a56a0] transition-colors">730 668 341</a>
                 </div>
-                <div className="glass-card p-6 text-center">
-                  <div className="w-12 h-12 rounded-xl bg-blue-400/10 flex items-center justify-center mx-auto mb-4">
-                    <Mail className="w-6 h-6 text-blue-400" />
+                <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-center">
+                  <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center mx-auto mb-4">
+                    <Mail className="w-6 h-6 text-[#1a56a0]" />
                   </div>
-                  <h3 className="text-white font-semibold mb-2">Email</h3>
-                  <a href="mailto:biuro@multicert.pl" className="text-slate-400 hover:text-amber-400 transition-colors">biuro@multicert.pl</a>
+                  <h3 className="text-[#0d2137] font-semibold mb-2">Email</h3>
+                  <a href="mailto:biuro@multicert.pl" className="text-slate-500 hover:text-[#1a56a0] transition-colors">biuro@multicert.pl</a>
                 </div>
-                <div className="glass-card p-6 text-center">
-                  <div className="w-12 h-12 rounded-xl bg-emerald-400/10 flex items-center justify-center mx-auto mb-4">
-                    <Building2 className="w-6 h-6 text-emerald-400" />
+                <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-center">
+                  <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center mx-auto mb-4">
+                    <Building2 className="w-6 h-6 text-[#1a56a0]" />
                   </div>
-                  <h3 className="text-white font-semibold mb-2">Siedziba</h3>
-                  <p className="text-slate-400">Multicert Sp. z o.o.</p>
+                  <h3 className="text-[#0d2137] font-semibold mb-2">Siedziba</h3>
+                  <p className="text-slate-500">Multicert Sp. z o.o.</p>
                 </div>
               </div>
             </div>

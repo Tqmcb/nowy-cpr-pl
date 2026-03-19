@@ -20,6 +20,15 @@ const config: Config = {
         },
         extend: {
             colors: {
+                // Paleta "journal techniczny" — Przegląd Budowlany / portal regulacyjny
+                journal: {
+                    navy:    "#0d2137",   // granat — nagłówek, masthead
+                    ink:     "#1a2744",   // ciemny tekst główny
+                    blue:    "#1a56a0",   // niebieski instytucjonalny — akcent, linki
+                    gold:    "#b7860b",   // ciemne złoto — certyfikacja, pieczęć
+                    paper:   "#f8f9fa",   // tło sekcji "papierowe"
+                    rule:    "#e2e8f0",   // linijka separatora
+                },
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",

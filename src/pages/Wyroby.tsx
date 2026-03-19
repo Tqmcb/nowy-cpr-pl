@@ -65,7 +65,7 @@ export default function Wyroby() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white">
       <Helmet>
         <title>Katalog Wyrobów Budowlanych — CPR 2024/3110 | NowyCPR.pl</title>
         <meta name="description" content="Przeszukaj katalog 36 kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu." />
@@ -81,21 +81,21 @@ export default function Wyroby() {
       </Helmet>
       <Header />
       <main className="flex-grow pt-24 pb-20">
-        <section className="relative py-16 overflow-hidden">
+        <section className="relative py-16 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-slate-200">
           <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#1a56a0]/5 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#0d2137]/5 rounded-full blur-3xl" />
           </div>
           <Container>
             <div className="text-center max-w-3xl mx-auto">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 text-amber-400 text-sm font-medium mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-sm font-medium mb-6">
                 <Building2 className="w-4 h-4" />
                 CPR 2024/3110 — Załącznik VII
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold text-[#0d2137] mb-4">
                 36 Rodzin Wyrobów Budowlanych
               </h1>
-              <p className="text-slate-400 text-lg leading-relaxed">
+              <p className="text-slate-500 text-lg leading-relaxed">
                 Kompletny katalog rodzin wyrobów budowlanych objętych Rozporządzeniem CPR (EU) 2024/3110,
                 Załącznik VII. Sprawdź wymagania, systemy AVS i normy zharmonizowane dla każdej rodziny.
               </p>
@@ -103,14 +103,14 @@ export default function Wyroby() {
           </Container>
         </section>
         <Container>
-          <div className="relative mb-6">
+          <div className="relative mb-6 mt-8">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Szukaj wyrobów po nazwie, kategorii..."
-              className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-white/10 rounded-2xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:bg-slate-800 transition-all duration-300"
+              className="w-full pl-12 pr-4 py-4 bg-white border border-slate-200 rounded-2xl text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all duration-300"
             />
           </div>
           <div className="flex flex-wrap gap-2 mb-10">
@@ -119,7 +119,7 @@ export default function Wyroby() {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={"px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 " + (activeCategory === cat ? "bg-amber-400 text-slate-900" : "bg-slate-800/50 border border-white/10 text-slate-300 hover:border-amber-400/50 hover:text-white")}
+                className={"px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 " + (activeCategory === cat ? "bg-[#0d2137] text-white" : "bg-white border border-slate-200 text-slate-600 hover:border-[#1a56a0]/50 hover:text-[#1a56a0]")}
               >
                 {cat}
               </button>
@@ -128,21 +128,21 @@ export default function Wyroby() {
           {loading && (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="bg-slate-800/50 border border-white/10 rounded-2xl p-6 animate-pulse">
-                  <div className="h-6 w-16 bg-slate-700 rounded-full mb-4" />
-                  <div className="h-5 w-3/4 bg-slate-700 rounded mb-3" />
-                  <div className="h-4 w-1/2 bg-slate-700 rounded mb-4" />
-                  <div className="h-4 w-full bg-slate-700 rounded mb-2" />
-                  <div className="h-4 w-5/6 bg-slate-700 rounded" />
+                <div key={i} className="bg-white border border-slate-200 rounded-2xl p-6 animate-pulse">
+                  <div className="h-6 w-16 bg-slate-200 rounded-full mb-4" />
+                  <div className="h-5 w-3/4 bg-slate-200 rounded mb-3" />
+                  <div className="h-4 w-1/2 bg-slate-200 rounded mb-4" />
+                  <div className="h-4 w-full bg-slate-200 rounded mb-2" />
+                  <div className="h-4 w-5/6 bg-slate-200 rounded" />
                 </div>
               ))}
             </div>
           )}
           {!loading && filtered.length === 0 && (
             <div className="text-center py-20">
-              <Building2 className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-white mb-2">Nie znaleziono wyrobów</h3>
-              <p className="text-slate-400">Zmień kryteria wyszukiwania lub wybierz inną kategorię.</p>
+              <Building2 className="w-16 h-16 text-slate-300 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-[#0d2137] mb-2">Nie znaleziono wyrobów</h3>
+              <p className="text-slate-500">Zmień kryteria wyszukiwania lub wybierz inną kategorię.</p>
             </div>
           )}
           {!loading && filtered.length > 0 && (
@@ -150,33 +150,33 @@ export default function Wyroby() {
               {filtered.map((wyrob) => (
                 <div
                   key={wyrob.slug}
-                  className="group bg-slate-800/50 border border-white/10 rounded-2xl p-6 hover:border-amber-400/30 hover:bg-slate-800/80 transition-all duration-300 cursor-pointer flex flex-col"
+                  className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col"
                   onClick={() => goToWyrob(wyrob.slug)}
                 >
                   <div className="flex items-center justify-between mb-4">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-xs font-bold">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-xs font-bold">
                       #{wyrob.family_number}
                     </span>
                     {wyrob.avs_system && (
-                      <span className="text-xs text-slate-400 font-mono bg-slate-700/50 px-2 py-1 rounded">
+                      <span className="text-xs text-slate-500 font-mono bg-slate-100 px-2 py-1 rounded">
                         {wyrob.avs_system}
                       </span>
                     )}
                   </div>
-                  <h2 className="text-white font-semibold text-lg mb-2 group-hover:text-amber-400 transition-colors duration-300 line-clamp-2 flex-grow-0">
+                  <h2 className="text-[#0d2137] font-semibold text-lg mb-2 group-hover:text-[#1a56a0] transition-colors duration-300 line-clamp-2 flex-grow-0">
                     {wyrob.title}
                   </h2>
                   {wyrob.category && (
-                    <span className="inline-block text-xs text-slate-400 bg-slate-700/50 px-2 py-0.5 rounded mb-3 w-fit">
+                    <span className="inline-block text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded mb-3 w-fit">
                       {wyrob.category}
                     </span>
                   )}
-                  <p className="text-slate-400 text-sm leading-relaxed line-clamp-2 flex-grow mb-4">
+                  <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 flex-grow mb-4">
                     {wyrob.excerpt}
                   </p>
                   <button
                     onClick={(e) => { e.stopPropagation(); goToWyrob(wyrob.slug); }}
-                    className="mt-auto flex items-center gap-2 text-amber-400 text-sm font-medium hover:gap-3 transition-all duration-300"
+                    className="mt-auto flex items-center gap-2 text-[#1a56a0] text-sm font-medium hover:gap-3 transition-all duration-300"
                   >
                     Sprawdź wymagania
                     <ChevronRight className="w-4 h-4" />
