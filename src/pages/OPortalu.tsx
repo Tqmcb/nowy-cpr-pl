@@ -6,7 +6,7 @@ import { Info, Shield, Users, FileText, Award, Mail } from "lucide-react";
 
 export default function OPortalu() {
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen section-paper text-slate-900">
       <Helmet>
         <title>O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110</title>
         <meta name="description" content="Dowiedz się więcej o portalu NowyCPR.pl — kompleksowym źródle wiedzy o rozporządzeniu CPR (EU) 2024/3110 dla producentów wyrobów budowlanych." />

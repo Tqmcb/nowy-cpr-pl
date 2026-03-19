@@ -836,7 +836,7 @@ export function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen section-paper">
       <Helmet>
         <title>Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl</title>
         <meta name="description" content="Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych." />

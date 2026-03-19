@@ -233,7 +233,7 @@ export default function CeLabelGenerator() {
         <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 20 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
         <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
       </Helmet>
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col min-h-screen section-paper">
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* Hero */}

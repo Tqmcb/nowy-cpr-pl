@@ -290,7 +290,7 @@ export default function CeWizard() {
         <meta name="description" content="Interaktywny kreator sciezki do oznakowania CE wyrobu budowlanego wg CPR 2024/3110. Odpowiedz na 5 pytan i otrzymaj spersonalizowana checkliste." />
         <link rel="canonical" href="https://www.nowycpr.pl/sciezka-ce" />
       </Helmet>
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col min-h-screen section-paper">
         <Header />
         <main id="main-content" className="flex-grow pt-24 pb-20">
           {/* Hero */}

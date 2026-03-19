@@ -145,7 +145,7 @@ export function ProductSearchTool() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen section-paper">
       <Helmet>
         <title>Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl</title>
         <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011." />

@@ -172,7 +172,7 @@ export default function WyrobDetail() {
           </script>
         )}
       </Helmet>
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col min-h-screen section-paper">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <Container>

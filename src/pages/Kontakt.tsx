@@ -6,7 +6,7 @@ import { Mail, MapPin, Phone, Clock, ArrowRight } from "lucide-react";
 
 export default function Kontakt() {
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen section-paper text-slate-900">
       <Helmet>
         <title>Kontakt — NowyCPR.pl</title>
         <meta name="description" content="Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa." />

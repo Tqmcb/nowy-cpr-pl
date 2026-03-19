@@ -173,7 +173,7 @@ export function DocumentsPage() {
   });
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen section-paper">
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden border-b border-slate-800">
         {/* B&W photo background */}

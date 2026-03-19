@@ -19,7 +19,7 @@ export default function AutorPage() {
 
   if (!author) {
     return (
-      <div className="min-h-screen bg-white text-slate-900 flex flex-col">
+      <div className="min-h-screen section-paper text-slate-900 flex flex-col">
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
@@ -38,7 +38,7 @@ export default function AutorPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 flex flex-col">
+    <div className="min-h-screen section-paper text-slate-900 flex flex-col">
       <Helmet>
         <title>{author.name} – Autor | NowyCPR.pl</title>
         <meta name="description" content={author.shortBio} />

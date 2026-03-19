@@ -335,7 +335,7 @@ export default function FaqPage() {
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
-      <div className="flex flex-col min-h-screen bg-white">
+      <div className="flex flex-col min-h-screen section-paper">
         <Header />
         <main id="main-content" className="flex-grow pb-20">
           {/* ── HERO ── */}

@@ -66,7 +66,7 @@ export default function Wyroby() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen section-paper">
       <Helmet>
         <title>Katalog Wyrobów Budowlanych — CPR 2024/3110 | NowyCPR.pl</title>
         <meta name="description" content="Przeszukaj katalog 36 kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu." />
