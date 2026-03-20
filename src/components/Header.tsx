@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Container } from "./Container";
+import { ScrollProgressBar } from "./ScrollProgressBar";
 import {
   Menu, X, Search, FileText, Home, Building2,
   Briefcase, Newspaper, Calendar, HelpCircle,
@@ -35,6 +36,8 @@ export function Header() {
     }`;
 
   return (
+    <>
+    <ScrollProgressBar />
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "py-2.5 shadow-md" : "py-4"}`}
       style={{ backgroundColor: "#0d2137" }}
@@ -113,5 +116,6 @@ export function Header() {
         </div>
       </Container>
     </header>
+    </>
   );
 }
