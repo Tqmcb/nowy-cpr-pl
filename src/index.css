@@ -252,6 +252,28 @@
   .animate-scale-in {
     animation: scaleIn 0.4s ease-out forwards;
   }
+
+  /* Scroll reveal */
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .revealed {
+    opacity: 1;
+    transform: none;
+  }
+  /* Stagger dla kart w gridzie — ustaw --i jako style inline */
+  .reveal-stagger {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition-delay: calc(var(--i, 0) * 80ms);
+  }
+  .reveal-stagger.revealed {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Glassmorphism */
