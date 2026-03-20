@@ -4,6 +4,8 @@ import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { useNavigate, Link } from "react-router-dom";
+import { useCountUp } from "../hooks/useCountUp";
+import { useReveal } from "../hooks/useReveal";
 import {
   Search,
   FileText,
@@ -34,10 +36,28 @@ interface BlogPost {
   image_url?: string;
 }
 
+function StatCounter({ value, label, icon: Icon }: { value: string; label: string; icon: React.ElementType }) {
+  const num = parseInt(value.replace(/\D/g, ""), 10);
+  const suffix = value.replace(/^\d+/, "");
+  const { count, triggerRef } = useCountUp(num, 1400);
+  return (
+    <div ref={triggerRef as React.RefObject<HTMLDivElement>} className="text-center">
+      <Icon className="w-5 h-5 mx-auto mb-2 text-white/70" />
+      <div className="text-2xl md:text-3xl font-bold text-white">
+        {count}{suffix}
+      </div>
+      <div className="text-sm text-white/70 mt-1">{label}</div>
+    </div>
+  );
+}
+
 function HomePage() {
   const navigate = useNavigate();
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
   const [loadingPosts, setLoadingPosts] = useState(true);
+  const aboutRef = useReveal();
+  const featuresRef = useReveal();
+  const blogRef = useReveal();
 
   // Fetch latest blog posts from markdown files
   useEffect(() => {
@@ -141,11 +161,7 @@ function HomePage() {
                     { value: "27", label: "Krajów UE", icon: Users },
                     { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
                   ].map((stat, idx) => (
-                    <div key={idx} className="text-center">
-                      <stat.icon className="w-5 h-5 mx-auto mb-2 text-white/70" />
-                      <div className="text-2xl md:text-3xl font-bold text-white font-bold">{stat.value}</div>
-                      <div className="text-sm text-white/70 mt-1">{stat.label}</div>
-                    </div>
+                    <StatCounter key={idx} {...stat} />
                   ))}
                 </div>
               </div>
@@ -204,7 +220,7 @@ function HomePage() {
         </section>
 
         {/* About CPR 2024 Section */}
-        <section className="py-24 section-paper relative">
+        <section ref={aboutRef as React.RefObject<HTMLElement>} className="py-24 section-paper relative reveal">
           <Container>
             {/* Section Header */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -344,7 +360,7 @@ function HomePage() {
         </section>
 
         {/* Features Section */}
-        <section className="py-24 section-blueprint">
+        <section ref={featuresRef as React.RefObject<HTMLElement>} className="py-24 section-blueprint reveal">
           <Container>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
@@ -381,7 +397,8 @@ function HomePage() {
               ].map((feature, idx) => (
                 <div
                   key={idx}
-                  className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift group cursor-pointer"
+                  className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift group cursor-pointer reveal-stagger"
+                  style={{ "--i": idx } as React.CSSProperties}
                   onClick={() => navigate(feature.path)}
                 >
                   <div className={`w-16 h-16 rounded-2xl ${feature.iconBg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg`}>
@@ -400,7 +417,7 @@ function HomePage() {
         </section>
 
         {/* Latest Blog Posts Section */}
-        <section className="py-24 section-paper">
+        <section ref={blogRef as React.RefObject<HTMLElement>} className="py-24 section-paper reveal">
           <Container>
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
               <div>
@@ -435,11 +452,12 @@ function HomePage() {
               </div>
             ) : blogPosts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {blogPosts.map((post) => (
+                {blogPosts.map((post, idx) => (
                   <Link
                     key={post.id}
                     to={`/blog/${post.slug}`}
-                    className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 hover-lift group cursor-pointer block no-underline"
+                    className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 hover-lift group cursor-pointer block no-underline reveal-stagger"
+                    style={{ "--i": idx } as React.CSSProperties}
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
