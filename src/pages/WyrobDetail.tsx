@@ -6,7 +6,7 @@ import type { Components } from "react-markdown";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle, Newspaper } from "lucide-react";
+import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle, Newspaper, ExternalLink, CheckCircle2, Scale, ShieldCheck } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
 import type { BlogPost } from "../utils/blogLoader";
 import { Helmet } from "react-helmet-async";
@@ -69,6 +69,44 @@ const KEY_DATES = [
   { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
 ];
 
+interface TopicExpert {
+  name: string;
+  role: string;
+  initials: string;
+}
+
+function getTopicExperts(wyrob: ProductFamily): TopicExpert[] {
+  const text = [wyrob.content, wyrob.title, ...(wyrob.tags ?? [])].join(" ").toLowerCase();
+  const experts: TopicExpert[] = [];
+
+  // Cyfrowy Paszport Produktu / DPP
+  if (/paszport.*produktu|cyfrowy paszport|dpp|digital product passport/.test(text)) {
+    experts.push({
+      name: "Grzegorz Suwara",
+      role: "Ekspert ds. Cyfrowego Paszportu Produktu",
+      initials: "GS",
+    });
+  }
+
+  // EPD / środowisko / LCA / GWP
+  if (/\bepd\b|gwp|ślad węglow|deklaracj.*środowisk|ocen.*środowisk|\blca\b|środowiskow|ökobaudat|en 15804/.test(text)) {
+    experts.push({
+      name: "Mikołaj Junosza Szaniawski",
+      role: "Ekspert ds. EPD i oceny środowiskowej",
+      initials: "MJS",
+    });
+  }
+
+  return experts;
+}
+
+function formatVerifiedDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString("pl-PL", { month: "long", year: "numeric" });
+}
+
 export default function WyrobDetail() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -105,7 +143,6 @@ export default function WyrobDetail() {
     fetchData();
   }, [slug]);
 
-  // Load related blog posts when wyrob is available
   useEffect(() => {
     if (!wyrob) return;
     const fetchRelated = async () => {
@@ -146,6 +183,12 @@ export default function WyrobDetail() {
     "description": pageDesc,
     "url": canonicalUrl,
     "inLanguage": "pl-PL",
+    "dateModified": wyrob.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Multicert Sp. z o.o.",
+      "url": "https://www.multicert.pl"
+    },
     "publisher": { "@id": "https://www.nowycpr.pl/#organization" },
     "about": { "@type": "Thing", "name": "CPR 2024/3110" },
     "keywords": `CPR 2024, ${wyrob.category}, ${wyrob.avs_system}, wyroby budowlane`
@@ -223,6 +266,7 @@ export default function WyrobDetail() {
                 <span className="text-[#0d2137]">{wyrob.title}</span>
               </nav>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                {/* Main content */}
                 <article className="lg:col-span-2">
                   <div className="mb-8">
                     <div className="flex items-center gap-3 mb-4">
@@ -239,54 +283,186 @@ export default function WyrobDetail() {
                       {wyrob.title}
                     </h1>
                     {wyrob.family_name_en && (
-                      <p className="text-slate-500 italic">{wyrob.family_name_en}</p>
+                      <p className="text-slate-500 italic text-sm mb-4">{wyrob.family_name_en}</p>
                     )}
+
+                    {/* ── Credibility bar ── */}
+                    <div className="flex flex-wrap items-center gap-3 mt-5 pt-5 border-t border-slate-200">
+                      {wyrob.date && (
+                        <div className="flex items-center gap-1.5 text-sm bg-emerald-50 border border-emerald-200 text-emerald-800 px-3 py-1.5 rounded-full">
+                          <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                          <span className="font-medium">Zweryfikowano: {formatVerifiedDate(wyrob.date)}</span>
+                        </div>
+                      )}
+                      <div className="flex items-center gap-1.5 text-sm text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-full">
+                        <ShieldCheck className="w-3.5 h-3.5 text-[#1a56a0] shrink-0" />
+                        <span>Weryfikacja: Dział Techniczny <strong className="text-[#0d2137]">Multicert Sp. z o.o.</strong></span>
+                      </div>
+                      <a
+                        href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1.5 text-sm text-[#1a56a0] bg-[#1a56a0]/8 border border-[#1a56a0]/20 px-3 py-1.5 rounded-full hover:bg-[#1a56a0]/15 transition-colors"
+                      >
+                        <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                        <span className="font-medium">EUR-Lex: CPR 2024/3110</span>
+                      </a>
+                    </div>
                   </div>
+
                   <div className="prose-light">
                     <ReactMarkdown remarkPlugins={[remarkGfm]} components={WYROB_COMPONENTS}>
                       {wyrob.content}
                     </ReactMarkdown>
                   </div>
+
+                  {/* ── Disclaimer ── */}
+                  <div className="mt-10 p-5 rounded-2xl bg-amber-50 border border-amber-200">
+                    <p className="text-amber-800 text-sm leading-relaxed">
+                      <strong>Zastrzeżenie:</strong> Treść tej karty ma charakter informacyjny i edukacyjny — nie stanowi porady technicznej ani prawnej.
+                      W przypadku wątpliwości interpretacyjnych wiążący jest tekst rozporządzenia opublikowany w{" "}
+                      <a
+                        href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline font-medium text-amber-900 hover:text-amber-700"
+                      >
+                        Dzienniku Urzędowym UE
+                      </a>
+                      . Dane dotyczące norm i systemów AVS mogą ulec zmianie po publikacji nowych aktów delegowanych KE.
+                    </p>
+                  </div>
                 </article>
-                <aside className="space-y-6">
-                  <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-lg mb-4 flex items-center gap-2">
+
+                {/* Sidebar */}
+                <aside className="space-y-5">
+
+                  {/* ── Info card ── */}
+                  <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
+                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
                       <FileText className="w-5 h-5 text-[#1a56a0]" />
-                      Informacje
+                      Informacje o rodzinie
                     </h3>
                     <dl className="space-y-4">
                       <div>
-                        <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Numer rodziny</dt>
-                        <dd className="text-[#0d2137] font-semibold">#{wyrob.family_number}</dd>
+                        <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Numer rodziny (Zał. VII)</dt>
+                        <dd className="text-[#0d2137] font-bold text-lg">#{wyrob.family_number}</dd>
                       </div>
-                      {wyrob.normy && wyrob.normy.length > 0 && (
-                        <div>
-                          <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Normy</dt>
-                          <dd className="space-y-1">
-                            {wyrob.normy.map((norma) => (
-                              <span key={norma} className="block text-slate-700 text-sm font-mono bg-slate-100 px-2 py-1 rounded">
-                                {norma}
-                              </span>
-                            ))}
-                          </dd>
-                        </div>
-                      )}
                       {wyrob.avs_system && (
                         <div>
                           <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">System AVS</dt>
-                          <dd className="text-[#0d2137] font-semibold">{wyrob.avs_system}</dd>
+                          <dd className="text-[#0d2137] font-semibold text-lg">{wyrob.avs_system}</dd>
                         </div>
                       )}
                       {wyrob.category && (
                         <div>
                           <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
-                          <dd className="text-slate-700">{wyrob.category}</dd>
+                          <dd className="text-slate-700 text-sm">{wyrob.category}</dd>
+                        </div>
+                      )}
+                      {wyrob.date && (
+                        <div className="pt-3 border-t border-slate-100">
+                          <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1.5 flex items-center gap-1">
+                            <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                            Ostatnia weryfikacja
+                          </dt>
+                          <dd className="text-emerald-700 font-semibold text-sm">{formatVerifiedDate(wyrob.date)}</dd>
+                          <dd className="text-slate-500 text-xs mt-0.5">Dział Techniczny Multicert Sp. z o.o.</dd>
                         </div>
                       )}
                     </dl>
                   </div>
-                  <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-lg mb-4 flex items-center gap-2">
+
+                  {/* ── Topic experts card ── */}
+                  {(() => {
+                    const experts = getTopicExperts(wyrob);
+                    if (experts.length === 0) return null;
+                    return (
+                      <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
+                        <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
+                          <ShieldCheck className="w-5 h-5 text-[#1a56a0]" />
+                          Eksperci tematyczni
+                        </h3>
+                        <div className="space-y-4">
+                          {experts.map((expert) => (
+                            <div key={expert.name} className="flex items-start gap-3">
+                              <div className="w-10 h-10 rounded-full bg-[#0d2137] flex items-center justify-center shrink-0 text-white text-xs font-bold tracking-wide">
+                                {expert.initials}
+                              </div>
+                              <div>
+                                <p className="text-[#0d2137] font-semibold text-sm leading-tight">{expert.name}</p>
+                                <p className="text-slate-500 text-xs mt-0.5 leading-snug">{expert.role}</p>
+                                <p className="text-[10px] text-[#1a56a0] font-medium mt-1">Multicert Sp. z o.o.</p>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* ── Legal basis card ── */}
+                  <div className="bg-white border-2 border-[#1a56a0]/25 shadow-md rounded-2xl p-6">
+                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
+                      <Scale className="w-5 h-5 text-[#1a56a0]" />
+                      Podstawa prawna
+                    </h3>
+                    <div className="space-y-4">
+                      <div>
+                        <p className="text-slate-500 text-xs uppercase tracking-wide mb-2">Rozporządzenie</p>
+                        <a
+                          href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-[#1a56a0] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
+                        >
+                          <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                          Rozporządzenie (EU) 2024/3110
+                        </a>
+                        <p className="text-slate-500 text-xs mt-1 ml-5.5">Dziennik Urzędowy UE, EUR-Lex</p>
+                      </div>
+
+                      <div>
+                        <p className="text-slate-500 text-xs uppercase tracking-wide mb-2">Załącznik VII — Rodzina {wyrob.family_number}</p>
+                        <a
+                          href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110#anx_VII"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-[#1a56a0] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
+                        >
+                          <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                          Pełna lista rodzin wyrobów
+                        </a>
+                      </div>
+
+                      {wyrob.normy && wyrob.normy.length > 0 && (
+                        <div>
+                          <p className="text-slate-500 text-xs uppercase tracking-wide mb-2">
+                            Normy zharmonizowane ({wyrob.normy.length})
+                          </p>
+                          <div className="space-y-1.5">
+                            {wyrob.normy.map((norma) => (
+                              <a
+                                key={norma}
+                                href={`https://www.pkn.pl/uslugi/wyszukiwarka-norm?q=${encodeURIComponent(norma)}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-slate-700 text-xs font-mono bg-slate-50 border border-slate-200 px-3 py-2 rounded-lg hover:border-[#1a56a0]/50 hover:text-[#1a56a0] hover:bg-[#1a56a0]/5 transition-all group"
+                              >
+                                <span className="flex-1">{norma}</span>
+                                <ExternalLink className="w-3 h-3 shrink-0 text-slate-400 group-hover:text-[#1a56a0] transition-colors" />
+                              </a>
+                            ))}
+                          </div>
+                          <p className="text-slate-400 text-[11px] mt-2">↗ Wyszukiwarka PKN</p>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* ── Key dates ── */}
+                  <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
+                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
                       <Calendar className="w-5 h-5 text-[#1a56a0]" />
                       Kluczowe daty
                     </h3>
@@ -301,17 +477,19 @@ export default function WyrobDetail() {
                       ))}
                     </ul>
                   </div>
-                  <div className="bg-[#1a56a0]/5 border border-[#1a56a0]/20 rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-lg mb-2 flex items-center gap-2">
-                      <HelpCircle className="w-5 h-5 text-[#1a56a0]" />
+
+                  {/* ── Help ── */}
+                  <div className="bg-[#0d2137] rounded-2xl p-6">
+                    <h3 className="text-white font-semibold text-base mb-2 flex items-center gap-2">
+                      <HelpCircle className="w-5 h-5 text-amber-300" />
                       Potrzebujesz pomocy?
                     </h3>
-                    <p className="text-slate-600 text-sm mb-4">
-                      Nasi eksperci pomogą Ci w certyfikacji i spełnieniu wymagań CPR 2024/3110.
+                    <p className="text-slate-300 text-sm mb-4 leading-relaxed">
+                      Nasi eksperci pomogą Ci w certyfikacji i spełnieniu wymagań CPR 2024/3110 dla tej rodziny wyrobów.
                     </p>
                     <button
                       onClick={() => navigate("/services")}
-                      className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+                      className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors text-sm"
                     >
                       Skontaktuj się z nami
                       <ChevronRight className="w-4 h-4" />
@@ -332,7 +510,7 @@ export default function WyrobDetail() {
                       <Link
                         key={post.slug}
                         to={`/blog/${post.slug}`}
-                        className="group bg-white border border-slate-200 rounded-xl p-4 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300"
+                        className="group bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300"
                       >
                         {post.image_url && (
                           <div className="mb-3 overflow-hidden rounded-lg">

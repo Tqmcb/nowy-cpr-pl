@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Search, Building2, ChevronRight, Filter, Layers, TreePine, Thermometer, Droplets, DoorOpen, Home, Wrench, Gauge, Zap, Flame, Route, Mountain, Hammer, Shield, type LucideIcon } from "lucide-react";
+import { Search, Building2, ChevronRight, Filter, Layers, TreePine, Thermometer, Droplets, DoorOpen, Home, Wrench, Gauge, Zap, Flame, Route, Mountain, Hammer, Shield, CheckCircle2, type LucideIcon } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
 
 function getCategoryIcon(title: string, category: string): LucideIcon {
@@ -258,10 +258,16 @@ export default function Wyroby() {
                       </p>
 
                       {/* CTA */}
-                      <div className="mt-auto pt-3 border-t border-slate-100">
+                      <div className="mt-auto pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+                        {wyrob.date && (
+                          <span className="flex items-center gap-1 text-[10px] text-emerald-700 font-medium">
+                            <CheckCircle2 className="w-3 h-3 shrink-0" />
+                            {new Date(wyrob.date).toLocaleDateString("pl-PL", { month: "short", year: "numeric" })}
+                          </span>
+                        )}
                         <button
                           onClick={(e) => { e.stopPropagation(); goToWyrob(wyrob.slug); }}
-                          className="flex items-center gap-1.5 text-[#1a56a0] text-sm font-semibold group-hover:gap-2.5 transition-all duration-300"
+                          className="flex items-center gap-1.5 text-[#1a56a0] text-sm font-semibold group-hover:gap-2.5 transition-all duration-300 ml-auto"
                         >
                           Sprawdź wymagania
                           <ChevronRight className="w-4 h-4" />

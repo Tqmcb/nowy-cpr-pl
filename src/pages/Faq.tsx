@@ -116,7 +116,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Jak wybrać właściwą jednostkę notyfikowaną (JN)?",
     answer:
-      "Przy wyborze JN sprawdź: **1. Zakres notyfikacji** — JN musi być notyfikowana dla Twojej normy/rodziny wyrobów (sprawdź w bazie NANDO). **2. Akredytacja** — JN powinna być akredytowana przez krajowe ciało akredytacyjne (w PL — PCA). **3. Doświadczenie** — preferuj JN z doświadczeniem w Twojej branży. **4. Czas realizacji** — zapytaj o terminy (audyt, badania, certyfikat). **5. Koszty** — porównaj oferty kilku JN. **6. Język** — komunikacja i dokumentacja w języku zrozumiałym. W Polsce działa kilkanaście JN dla wyrobów budowlanych, m.in. ITB, IMBiGS, Multicert.",
+      "Przy wyborze JN sprawdź: **1. Zakres notyfikacji** — JN musi być notyfikowana dla Twojej normy/rodziny wyrobów (sprawdź w bazie NANDO). **2. Akredytacja** — JN powinna być akredytowana przez krajowe ciało akredytacyjne (w PL — PCA). **3. Doświadczenie** — preferuj JN z doświadczeniem w Twojej branży. **4. Czas realizacji** — zapytaj o terminy (audyt, badania, certyfikat). **5. Koszty** — porównaj oferty kilku JN. **6. Język** — komunikacja i dokumentacja w języku zrozumiałym. W Polsce działa kilkanaście JN dla wyrobów budowlanych — pełną listę znajdziesz w bazie NANDO prowadzonej przez Komisję Europejską.",
     category: "certyfikacja",
     keywords: ["wybór JN", "NANDO", "akredytacja", "PCA", "notyfikacja"],
   },
