@@ -231,26 +231,26 @@ export function DocumentsPage() {
                 </div>
               </div>
               <div className="md:w-1/3">
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-[#1a56a0]/10 flex items-center justify-center">
-                    <FileText className="w-10 h-10 text-[#1a56a0]" />
+                <div className="bg-white/15 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-6">
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
+                    <FileText className="w-10 h-10 text-white" />
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#0d2137] mb-1">{documents.length}</div>
-                    <p className="text-slate-500 text-sm">dokumentów dostępnych</p>
+                    <div className="text-3xl font-bold text-white mb-1">{documents.length}</div>
+                    <p className="text-white/70 text-sm">dokumentów dostępnych</p>
                   </div>
-                  <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-3 gap-2 text-center">
+                  <div className="mt-4 pt-4 border-t border-white/20 grid grid-cols-3 gap-2 text-center">
                     <div>
-                      <div className="text-lg font-bold text-[#0d2137]">HTML</div>
-                      <p className="text-slate-500 text-xs">szablony</p>
+                      <div className="text-lg font-bold text-white">HTML</div>
+                      <p className="text-white/60 text-xs">szablony</p>
                     </div>
                     <div>
-                      <div className="text-lg font-bold text-[#0d2137]">→PDF</div>
-                      <p className="text-slate-500 text-xs">wydruk</p>
+                      <div className="text-lg font-bold text-white">→PDF</div>
+                      <p className="text-white/60 text-xs">wydruk</p>
                     </div>
                     <div>
-                      <div className="text-lg font-bold text-[#0d2137]">PL</div>
-                      <p className="text-slate-500 text-xs">język</p>
+                      <div className="text-lg font-bold text-white">PL</div>
+                      <p className="text-white/60 text-xs">język</p>
                     </div>
                   </div>
                 </div>

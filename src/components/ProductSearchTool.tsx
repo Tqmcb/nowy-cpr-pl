@@ -211,22 +211,22 @@ export function ProductSearchTool() {
               </div>
             </div>
             <div className="md:w-1/3">
-              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-[#1a56a0]/10 flex items-center justify-center">
-                  <Search className="w-10 h-10 text-[#1a56a0]" />
+              <div className="bg-white/15 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-6">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
+                  <Search className="w-10 h-10 text-white" />
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#0d2137] mb-1">{productOptions.length}</div>
-                  <p className="text-slate-500 text-sm">kategorii produktów</p>
+                  <div className="text-3xl font-bold text-white mb-1">{productOptions.length}</div>
+                  <p className="text-white/70 text-sm">kategorii produktów</p>
                 </div>
-                <div className="mt-4 pt-4 border-t border-slate-200 grid grid-cols-2 gap-4 text-center">
+                <div className="mt-4 pt-4 border-t border-white/20 grid grid-cols-2 gap-4 text-center">
                   <div>
-                    <div className="text-lg font-bold text-[#0d2137]">2025</div>
-                    <p className="text-slate-500 text-xs">rok wejścia</p>
+                    <div className="text-lg font-bold text-white">2025</div>
+                    <p className="text-white/60 text-xs">rok wejścia</p>
                   </div>
                   <div>
-                    <div className="text-lg font-bold text-[#0d2137]">EU</div>
-                    <p className="text-slate-500 text-xs">regulacja</p>
+                    <div className="text-lg font-bold text-white">EU</div>
+                    <p className="text-white/60 text-xs">regulacja</p>
                   </div>
                 </div>
               </div>
