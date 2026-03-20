@@ -274,6 +274,22 @@
     opacity: 1;
     transform: none;
   }
+
+  /* Card hover effects */
+  .card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(26, 86, 160, 0.12), 0 2px 8px rgba(0,0,0,0.06);
+    border-color: rgba(139, 26, 60, 0.4);
+  }
+  .card-hover:hover .card-icon {
+    transform: scale(1.15) rotate(4deg);
+  }
+  .card-icon {
+    transition: transform 0.25s ease;
+  }
 }
 
 /* Glassmorphism */

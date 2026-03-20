@@ -190,12 +190,12 @@ export default function Wyroby() {
               {filtered.map((wyrob) => (
                 <div
                   key={wyrob.slug}
-                  className="group bg-white border border-slate-200 border-l-4 border-l-[#1a56a0] rounded-2xl p-6 hover:shadow-lg hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-sm"
+                  className="group card-hover bg-white border border-slate-200 border-l-4 border-l-[#1a56a0] rounded-2xl p-6 hover:shadow-lg hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-sm"
                   onClick={() => goToWyrob(wyrob.slug)}
                 >
                   {/* Category icon */}
                   <div className="flex items-center justify-between mb-4">
-                    {(() => { const Icon = getCategoryIcon(wyrob.title, wyrob.category); return <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors duration-300"><Icon className="w-6 h-6 text-[#1a56a0]" /></div>; })()}
+                    {(() => { const Icon = getCategoryIcon(wyrob.title, wyrob.category); return <div className="card-icon w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors duration-300"><Icon className="w-6 h-6 text-[#1a56a0]" /></div>; })()}
                   </div>
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-xs font-bold">

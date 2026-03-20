@@ -95,7 +95,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
   return (
     <Link
       to={`/blog/${post.slug}`}
-      className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift group cursor-pointer block no-underline"
+      className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift card-hover group cursor-pointer block no-underline"
     >
       {post.image_url && (
         <div className="h-48 overflow-hidden relative">
