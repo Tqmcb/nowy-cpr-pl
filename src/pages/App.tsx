@@ -41,7 +41,7 @@ function StatCounter({ value, label, icon: Icon }: { value: string; label: strin
   const suffix = value.replace(/^\d+/, "");
   const { count, triggerRef } = useCountUp(num, 1400);
   return (
-    <div ref={triggerRef as React.RefObject<HTMLDivElement>} className="text-center">
+    <div ref={triggerRef as React.RefCallback<HTMLDivElement>} className="text-center">
       <Icon className="w-5 h-5 mx-auto mb-2 text-white/70" />
       <div className="text-2xl md:text-3xl font-bold text-white">
         {count}{suffix}
@@ -220,7 +220,7 @@ function HomePage() {
         </section>
 
         {/* About CPR 2024 Section */}
-        <section ref={aboutRef as React.RefObject<HTMLElement>} className="py-24 section-paper relative reveal">
+        <section ref={aboutRef as React.RefCallback<HTMLElement>} className="py-24 section-paper relative reveal">
           <Container>
             {/* Section Header */}
             <div className="max-w-3xl mx-auto text-center mb-16">
@@ -360,7 +360,7 @@ function HomePage() {
         </section>
 
         {/* Features Section */}
-        <section ref={featuresRef as React.RefObject<HTMLElement>} className="py-24 section-blueprint reveal">
+        <section ref={featuresRef as React.RefCallback<HTMLElement>} className="py-24 section-blueprint reveal">
           <Container>
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
@@ -417,7 +417,7 @@ function HomePage() {
         </section>
 
         {/* Latest Blog Posts Section */}
-        <section ref={blogRef as React.RefObject<HTMLElement>} className="py-24 section-paper reveal">
+        <section ref={blogRef as React.RefCallback<HTMLElement>} className="py-24 section-paper reveal">
           <Container>
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
               <div>

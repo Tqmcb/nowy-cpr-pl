@@ -188,7 +188,7 @@ export default function Wyroby() {
             </div>
           )}
           {!loading && filtered.length > 0 && (
-            <div ref={gridRef as React.RefObject<HTMLDivElement>} className="reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div ref={gridRef} className="reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {filtered.map((wyrob, idx) => (
                 <div
                   key={wyrob.slug}

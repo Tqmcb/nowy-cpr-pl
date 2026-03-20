@@ -976,7 +976,7 @@ export function BlogPage() {
             ) : error ? (
               <UnavailableState onRetry={handleRetry} />
             ) : filteredPosts.length > 0 ? (
-              <div ref={gridRef as React.RefObject<HTMLDivElement>} className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div ref={gridRef as React.RefCallback<HTMLDivElement>} className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredPosts.map((post, idx) => (
                   <div key={post.id} className="reveal-stagger" style={{ "--i": idx } as React.CSSProperties}>
                     <BlogPostCard
