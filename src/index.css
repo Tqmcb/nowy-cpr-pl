@@ -374,6 +374,24 @@
   .hover-scale:hover {
     transform: scale(1.02);
   }
+
+  @keyframes blueprintPulse {
+    0%, 100% { opacity: 0.03; }
+    50% { opacity: 0.08; }
+  }
+  .blueprint-pulse::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(26,86,160,1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.04;
+    animation: blueprintPulse 5s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+  }
 }
 
 /* Custom Scrollbar */

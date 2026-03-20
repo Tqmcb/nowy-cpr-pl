@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import { useReveal } from "../hooks/useReveal";
 import { Button } from "@/extensions/shadcn/components/button";
 import { Separator } from "@/extensions/shadcn/components/separator";
 import { useNavigate } from "react-router-dom";
@@ -44,6 +45,9 @@ const Testimonial = ({ quote, author, company }: TestimonialProps) => {
 
 export function ServicesPage() {
   const navigate = useNavigate();
+  const benefitsRef = useReveal();
+  const servicesRef = useReveal();
+  const processRef = useReveal();
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -114,7 +118,7 @@ export function ServicesPage() {
       </section>
 
       {/* Key Benefits Section */}
-      <section className="py-16 px-4">
+      <section ref={benefitsRef as React.RefObject<HTMLElement>} className="reveal py-16 px-4">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">Dlaczego warto wybrać Multicert?</h2>
           
@@ -154,7 +158,7 @@ export function ServicesPage() {
       <Separator />
 
       {/* Services Details Section */}
-      <section className="py-16 px-4 bg-gray-50">
+      <section ref={servicesRef as React.RefObject<HTMLElement>} className="reveal py-16 px-4 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Nasze usługi certyfikacyjne</h2>
           <p className="text-lg text-gray-600 mb-12 max-w-3xl">
@@ -218,7 +222,7 @@ export function ServicesPage() {
       </section>
 
       {/* Case Studies/Testimonials Section */}
-      <section className="py-16 px-4">
+      <section ref={processRef as React.RefObject<HTMLElement>} className="reveal py-16 px-4">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Co mówią nasi klienci</h2>
           <p className="text-lg text-gray-600 mb-12">

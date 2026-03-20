@@ -1,6 +1,7 @@
 import { lazy, type ReactNode, Suspense } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 import { userRoutes } from "./user-routes";
+import { PageTransition } from "./components/PageTransition";
 
 export const SuspenseWrapper = ({ children }: { children: ReactNode }) => {
   return <Suspense>{children}</Suspense>;
@@ -11,21 +12,32 @@ const SomethingWentWrongPage = lazy(
   () => import("./pages/SomethingWentWrongPage"),
 );
 
+const TransitionLayout = () => (
+  <PageTransition>
+    <Outlet />
+  </PageTransition>
+);
+
 export const router = createBrowserRouter(
   [
-    ...userRoutes,
     {
-      path: "*",
-      element: (
-        <SuspenseWrapper>
-          <NotFoundPage />
-        </SuspenseWrapper>
-      ),
-      errorElement: (
-        <SuspenseWrapper>
-          <SomethingWentWrongPage />
-        </SuspenseWrapper>
-      ),
+      element: <TransitionLayout />,
+      children: [
+        ...userRoutes,
+        {
+          path: "*",
+          element: (
+            <SuspenseWrapper>
+              <NotFoundPage />
+            </SuspenseWrapper>
+          ),
+          errorElement: (
+            <SuspenseWrapper>
+              <SomethingWentWrongPage />
+            </SuspenseWrapper>
+          ),
+        },
+      ],
     },
   ]
 );

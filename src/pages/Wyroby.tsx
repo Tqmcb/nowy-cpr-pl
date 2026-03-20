@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { useReveal } from "../hooks/useReveal";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
@@ -46,6 +47,7 @@ export default function Wyroby() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("Wszystkie");
+  const gridRef = useReveal();
 
   useEffect(() => {
     const load = async () => {
@@ -186,11 +188,12 @@ export default function Wyroby() {
             </div>
           )}
           {!loading && filtered.length > 0 && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filtered.map((wyrob) => (
+            <div ref={gridRef as React.RefObject<HTMLDivElement>} className="reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filtered.map((wyrob, idx) => (
                 <div
                   key={wyrob.slug}
-                  className="group card-hover bg-white border border-slate-200 border-l-4 border-l-[#1a56a0] rounded-2xl p-6 hover:shadow-lg hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-sm"
+                  className="reveal-stagger group card-hover bg-white border border-slate-200 border-l-4 border-l-[#1a56a0] rounded-2xl p-6 hover:shadow-lg hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-sm"
+                  style={{ "--i": idx } as React.CSSProperties}
                   onClick={() => goToWyrob(wyrob.slug)}
                 >
                   {/* Category icon */}

@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { useReveal } from "../hooks/useReveal";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
 import { Badge } from "@/extensions/shadcn/components/badge";
@@ -764,6 +765,7 @@ export function BlogPage() {
   const [email, setEmail] = useState("");
   const [newsletterHoneypot, setNewsletterHoneypot] = useState("");
   const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
+  const gridRef = useReveal();
 
   // Pobieranie wpisów bloga z plików markdown
   useEffect(() => {
@@ -846,7 +848,7 @@ export function BlogPage() {
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden border-b border-slate-800">
+      <section className="relative py-24 overflow-hidden border-b border-slate-800 blueprint-pulse">
         {/* B&W photo background */}
         <div
           className="absolute inset-0"
@@ -974,12 +976,13 @@ export function BlogPage() {
             ) : error ? (
               <UnavailableState onRetry={handleRetry} />
             ) : filteredPosts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredPosts.map(post => (
-                  <BlogPostCard
-                    key={post.id}
-                    post={post}
-                  />
+              <div ref={gridRef as React.RefObject<HTMLDivElement>} className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredPosts.map((post, idx) => (
+                  <div key={post.id} className="reveal-stagger" style={{ "--i": idx } as React.CSSProperties}>
+                    <BlogPostCard
+                      post={post}
+                    />
+                  </div>
                 ))}
               </div>
             ) : (

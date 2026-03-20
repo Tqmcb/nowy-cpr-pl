@@ -91,7 +91,7 @@ function HomePage() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24 border-b border-slate-800">
+        <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24 border-b border-slate-800 blueprint-pulse">
           {/* B&W photo background */}
           <div
             className="absolute inset-0"
