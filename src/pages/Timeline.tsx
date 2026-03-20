@@ -460,7 +460,7 @@ export default function TimelinePage() {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <button
-                    onClick={() => navigate("/product-search")}
+                    onClick={() => navigate("/wyszukiwarka")}
                     className="flex items-center gap-2 px-6 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors"
                   >
                     Sprawdź wymagania <ArrowRight className="w-4 h-4" />

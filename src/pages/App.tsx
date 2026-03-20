@@ -138,7 +138,7 @@ function HomePage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
                     size="lg"
-                    onClick={() => navigate("/product-search")}
+                    onClick={() => navigate("/wyszukiwarka")}
                     className="group"
                   >
                     <span>Sprawdź wymagania dla produktu</span>
@@ -348,7 +348,7 @@ function HomePage() {
                 </div>
                 <Button
                   size="lg"
-                  onClick={() => navigate("/product-search")}
+                  onClick={() => navigate("/wyszukiwarka")}
                   className="flex-shrink-0 bg-white text-[#0d2137] hover:bg-slate-100 border-0"
                 >
                   Rozpocznij teraz
@@ -378,7 +378,7 @@ function HomePage() {
                   title: "Wyszukiwarka CPR",
                   description: "Szybko znajdź wymagania i normy zharmonizowane dla Twojego produktu budowlanego",
                   iconBg: "bg-[#0d2137]",
-                  path: "/product-search"
+                  path: "/wyszukiwarka"
                 },
                 {
                   icon: FileText,

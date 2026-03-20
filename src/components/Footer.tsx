@@ -39,7 +39,7 @@ export function Footer() {
             <ul className="space-y-2.5">
               {[
                 { path: "/", label: "Strona Główna", icon: Home },
-                { path: "/product-search", label: "Wyszukiwarka CPR", icon: Search },
+                { path: "/wyszukiwarka", label: "Wyszukiwarka CPR", icon: Search },
                 { path: "/documents", label: "Dokumenty", icon: FileText },
                 { path: "/services", label: "Usługi certyfikacyjne", icon: Award },
                 { path: "/blog", label: "Blog", icon: BookOpen },

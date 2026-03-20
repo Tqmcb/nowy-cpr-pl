@@ -36,6 +36,7 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/blog-post", element: <BlogPost /> },
 	{ path: "/blogpost", element: <BlogPost /> },
 	{ path: "/documents", element: <Documents /> },
+	{ path: "/wyszukiwarka", element: <ProductSearch /> },
 	{ path: "/product-search", element: <ProductSearch /> },
 	{ path: "/productsearch", element: <ProductSearch /> },
 	{ path: "/services", element: <Services /> },

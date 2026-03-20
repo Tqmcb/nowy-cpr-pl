@@ -57,7 +57,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-5" aria-label="Nawigacja główna">
-            <NavLink to="/product-search" className={navLinkClass}><Search className="w-3.5 h-3.5" />Wymagania</NavLink>
+            <NavLink to="/wyszukiwarka" className={navLinkClass}><Search className="w-3.5 h-3.5" />Wymagania</NavLink>
             <NavLink to="/wyroby" className={navLinkClass}><Building2 className="w-3.5 h-3.5" />Katalog wyrobów</NavLink>
             <NavLink to="/documents" className={navLinkClass}><FileText className="w-3.5 h-3.5" />Wzory</NavLink>
 
@@ -97,7 +97,7 @@ export function Header() {
           <div className="border-t border-slate-700 pt-3 pb-2 space-y-0.5">
             {[
               { path: "/", label: "Strona Główna", icon: Home },
-              { path: "/product-search", label: "Wymagania", icon: Search },
+              { path: "/wyszukiwarka", label: "Wymagania", icon: Search },
               { path: "/wyroby", label: "Katalog wyrobów", icon: Building2 },
               { path: "/documents", label: "Wzory", icon: FileText },
               { path: "/services", label: "Usługi", icon: Briefcase },
