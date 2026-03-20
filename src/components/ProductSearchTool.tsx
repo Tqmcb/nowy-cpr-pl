@@ -236,7 +236,7 @@ export function ProductSearchTool() {
       </section>
 
       {/* Search Section */}
-      <section id="search-section" className="py-16 bg-white">
+      <section id="search-section" className="py-16 bg-eng-paper">
         <Container>
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-4">
@@ -492,7 +492,7 @@ export function ProductSearchTool() {
       </section>
 
       {/* About Section */}
-      <section id="about-section" className="py-24 bg-slate-50 border-t border-slate-200">
+      <section id="about-section" className="py-24 section-blueprint border-t border-slate-200">
         <Container>
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">

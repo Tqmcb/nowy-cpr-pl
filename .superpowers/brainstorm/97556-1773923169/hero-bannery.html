@@ -1,0 +1,179 @@
+<h2>Tło bannerów — styl zdjęcia czarno-białe</h2>
+<p class="subtitle">Paleta: granat + niebieski + wiśniowy. Wybierz styl nakładki na hero sekcje.</p>
+
+<style>
+.hero-cards { display: flex; flex-direction: column; gap: 2rem; margin-top: 1.5rem; }
+.hero-card {
+  border: 3px solid #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.hero-card:hover { border-color: #1a56a0; box-shadow: 0 4px 20px rgba(26,86,160,0.18); }
+.hero-card.selected { border-color: #8b1a3c; box-shadow: 0 0 0 3px rgba(139,26,60,0.2); }
+
+/* WSPÓLNE hero */
+.hero-box {
+  position: relative;
+  min-height: 160px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%) contrast(1.1) brightness(0.85);
+}
+.hero-overlay {
+  position: absolute; inset: 0;
+}
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 2rem 2.5rem;
+  width: 100%;
+}
+.hero-content h3 { margin: 0 0 0.4rem; font-size: 1.5rem; font-weight: 700; }
+.hero-content p { margin: 0; font-size: 0.85rem; opacity: 0.85; }
+.hero-content .badge {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+/* OPCJA A — niebieski overlay + wiśniowy pasek dolny */
+.overlay-a { background: linear-gradient(to right, rgba(13,33,55,0.82) 0%, rgba(26,86,160,0.55) 100%); }
+.hero-a .hero-content { color: white; border-left: 5px solid #8b1a3c; padding-left: 2rem; }
+.hero-a .accent-bottom { height: 5px; background: linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%); }
+.hero-a .badge { background: #8b1a3c; color: white; }
+
+/* OPCJA B — wiśniowy overlay mocniejszy */
+.overlay-b { background: linear-gradient(135deg, rgba(13,33,55,0.88) 0%, rgba(100,15,40,0.65) 100%); }
+.hero-b .hero-content { color: white; }
+.hero-b .accent-bottom { height: 5px; background: #1a56a0; }
+.hero-b .badge { background: #1a56a0; color: white; }
+
+/* OPCJA C — 2-panelowy: zdjęcie lewo, kolor prawo */
+.hero-c-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 160px;
+  overflow: hidden;
+}
+.hero-c-photo {
+  position: relative;
+  min-height: 160px;
+}
+.hero-c-photo .hero-bg { position: absolute; inset: 0; }
+.hero-c-photo .overlay-c { position: absolute; inset: 0; background: rgba(13,33,55,0.35); }
+.hero-c-color {
+  background: #0d2137;
+  display: flex;
+  align-items: center;
+  padding: 1.75rem;
+  border-left: 4px solid #8b1a3c;
+}
+.hero-c-color h3 { color: white; margin: 0 0 0.4rem; font-size: 1.3rem; font-weight: 700; }
+.hero-c-color p { color: rgba(255,255,255,0.75); font-size: 0.82rem; margin: 0; }
+.hero-c-color .badge { background: #8b1a3c; color: white; display: inline-block; padding: 0.2rem 0.75rem; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.5rem; }
+.hero-c .accent-bottom { height: 5px; background: linear-gradient(to right, #8b1a3c 50%, #1a56a0 50%); }
+
+/* info bar */
+.info-bar {
+  padding: 0.8rem 2rem;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.78rem;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.chip {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: white; border: 1px solid #e2e8f0;
+  padding: 0.2rem 0.65rem; border-radius: 999px; font-size: 0.72rem; font-weight: 600;
+}
+.dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+</style>
+
+<!-- Unsplash: zdjęcia przemysłowe/budowlane czarno-białe -->
+
+<div class="hero-cards">
+
+  <!-- OPCJA A: B&W + granatowo-niebieski overlay, wiśniowy pasek boczny + dolny -->
+  <div class="hero-card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="hero-box hero-a">
+      <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80');"></div>
+      <div class="hero-overlay overlay-a"></div>
+      <div class="hero-content">
+        <span class="badge">Usługi certyfikacyjne</span>
+        <h3>Ścieżka CE dla producenta</h3>
+        <p>Kompleksowe wsparcie w procesie oznakowania CE wyrobów budowlanych</p>
+      </div>
+    </div>
+    <div class="hero-a accent-bottom"></div>
+    <div class="info-bar">
+      <strong>Styl A — Gradient granat→niebieski, akcentt wiśniowy</strong>
+      <span class="chip"><span class="dot" style="background:#0d2137;"></span> Granat</span>
+      <span class="chip"><span class="dot" style="background:#1a56a0;"></span> Niebieski</span>
+      <span class="chip"><span class="dot" style="background:#8b1a3c;"></span> Wiśniowy</span>
+      <span style="color:#64748b;">Pasek boczny + dolny w wiśniowym · badge kategoria</span>
+    </div>
+  </div>
+
+  <!-- OPCJA B: B&W + głęboki granat/wiśnia, niebieski pasek dolny -->
+  <div class="hero-card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="hero-box hero-b">
+      <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=900&q=80');"></div>
+      <div class="hero-overlay overlay-b"></div>
+      <div class="hero-content">
+        <span class="badge">Usługi certyfikacyjne</span>
+        <h3>Ścieżka CE dla producenta</h3>
+        <p>Kompleksowe wsparcie w procesie oznakowania CE wyrobów budowlanych</p>
+      </div>
+    </div>
+    <div class="hero-b accent-bottom"></div>
+    <div class="info-bar">
+      <strong>Styl B — Gradient granat→wiśniowy, niebieski pasek</strong>
+      <span class="chip"><span class="dot" style="background:#0d2137;"></span> Granat</span>
+      <span class="chip"><span class="dot" style="background:#8b1a3c;"></span> Wiśniowy</span>
+      <span class="chip"><span class="dot" style="background:#1a56a0;"></span> Niebieski</span>
+      <span style="color:#64748b;">Ciemny dramatyczny overlay · pasek niebieski na dole</span>
+    </div>
+  </div>
+
+  <!-- OPCJA C: split — B&W foto lewo + kolor prawo -->
+  <div class="hero-card hero-c" data-choice="c" onclick="toggleSelect(this)">
+    <div class="hero-c-wrap">
+      <div class="hero-c-photo">
+        <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=700&q=80');"></div>
+        <div class="overlay-c"></div>
+      </div>
+      <div class="hero-c-color">
+        <div>
+          <span class="badge">Usługi certyfikacyjne</span>
+          <h3>Ścieżka CE dla producenta</h3>
+          <p>Kompleksowe wsparcie w procesie oznakowania CE wyrobów budowlanych</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-c accent-bottom"></div>
+    <div class="info-bar">
+      <strong>Styl C — Split: foto lewo + granatowy panel prawo</strong>
+      <span class="chip"><span class="dot" style="background:#0d2137;"></span> Granat</span>
+      <span class="chip"><span class="dot" style="background:#8b1a3c;"></span> Wiśniowy</span>
+      <span class="chip"><span class="dot" style="background:#1a56a0;"></span> Niebieski</span>
+      <span style="color:#64748b;">Pasek dwukolorowy · wiśniowy/niebieski 50/50</span>
+    </div>
+  </div>
+
+</div>

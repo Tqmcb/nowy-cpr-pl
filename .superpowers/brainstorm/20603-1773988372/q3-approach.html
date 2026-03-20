@@ -1,0 +1,53 @@
+<h2>Jak to zbudować?</h2>
+<p class="subtitle">3 podejścia techniczne — różny poziom efektów vs. złożoność</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>CSS + IntersectionObserver (bez nowych bibliotek)</h3>
+      <p>Scroll fade-in przez dodanie klasy CSS gdy element wchodzi w viewport. Liczniki — mały hook React. Blueprint pulse — CSS keyframes. <strong>Zero nowych paczek npm.</strong></p>
+      <div style="margin-top:8px;display:flex;gap:12px;font-size:12px">
+        <span style="color:#16a34a">✓ Szybkie ładowanie</span>
+        <span style="color:#16a34a">✓ Nie psuje SEO</span>
+        <span style="color:#dc2626">✗ Mniejsza płynność</span>
+      </div>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Framer Motion (biblioteka animacji)</h3>
+      <p>Spring physics, layout animations, stagger effects dla kart. Najbardziej płynne i profesjonalne animacje w React. <strong>+40KB bundle.</strong></p>
+      <div style="margin-top:8px;display:flex;gap:12px;font-size:12px">
+        <span style="color:#16a34a">✓ Najpiękniejsze efekty</span>
+        <span style="color:#16a34a">✓ Spring physics</span>
+        <span style="color:#dc2626">✗ Większy bundle</span>
+        <span style="color:#dc2626">✗ Refactor komponentów</span>
+      </div>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>⭐ Hybryd — CSS animacje + micro-biblioteki</h3>
+      <p>CSS scroll-reveal (własny hook), <code>countUp</code> (2KB) dla liczników, CSS keyframes dla blueprint. <strong>Optymalny balans efektu i rozmiaru.</strong> Moja rekomendacja.</p>
+      <div style="margin-top:8px;display:flex;gap:12px;font-size:12px">
+        <span style="color:#16a34a">✓ Szybkie ładowanie</span>
+        <span style="color:#16a34a">✓ Piękne efekty</span>
+        <span style="color:#16a34a">✓ Minimalne zależności</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:24px;padding:16px;background:#f0f5fb;border-radius:8px;border-left:4px solid #1a56a0">
+  <strong style="color:#0d2137">Co dostaniesz w każdym podejściu:</strong>
+  <ul style="margin:8px 0 0 16px;color:#334155;font-size:14px;line-height:1.8">
+    <li>Scroll fade-in dla sekcji i kart (wszędzie)</li>
+    <li>Animowane liczniki na homepage (2026 → count up)</li>
+    <li>Hover efekty kart — wiśniowy border + cień</li>
+    <li>Blueprint pulse — animowana siatka w hero</li>
+    <li>Stagger effect — karty wyrobów wchodzą kolejno</li>
+  </ul>
+</div>

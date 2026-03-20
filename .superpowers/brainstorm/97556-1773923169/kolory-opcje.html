@@ -1,0 +1,165 @@
+<h2>Paleta kolorów + tła nagłówków</h2>
+<p class="subtitle">Wybierz kombinację 2 dodatkowych kolorów i styl tła sekcji hero. Kliknij preferowaną opcję.</p>
+
+<style>
+  .palette-cards { display: flex; flex-direction: column; gap: 2rem; margin-top: 1.5rem; }
+  .palette-card {
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .palette-card:hover { border-color: #1a56a0; box-shadow: 0 4px 16px rgba(26,86,160,0.15); }
+  .palette-card.selected { border-color: #1a56a0; box-shadow: 0 0 0 3px rgba(26,86,160,0.2); }
+
+  .hero-preview {
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-height: 110px;
+  }
+  .hero-text h3 { margin: 0 0 0.35rem 0; font-size: 1.4rem; color: inherit; }
+  .hero-text p { margin: 0; font-size: 0.85rem; opacity: 0.75; }
+
+  .swatches { display: flex; gap: 0.5rem; padding: 1rem 2.5rem; background: #f8f9fa; border-top: 1px solid #e2e8f0; align-items: center; flex-wrap: wrap; }
+  .swatch { width: 36px; height: 36px; border-radius: 6px; border: 1px solid rgba(0,0,0,0.1); position: relative; }
+  .swatch-label { font-size: 0.7rem; color: #64748b; margin-left: 0.25rem; margin-right: 1rem; }
+  .swatch-group { display: flex; align-items: center; gap: 0.4rem; }
+  .tag-new { background: #dcfce7; color: #166534; font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+
+  .desc { padding: 0.75rem 2.5rem 1rem; background: white; font-size: 0.82rem; color: #475569; border-top: 1px solid #e2e8f0; }
+  .desc strong { color: #0d2137; }
+
+  /* Option A — Leśna zieleń + ciepły szary kamień */
+  .hero-a {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8f0eb 100%);
+    border-bottom: 4px solid #2d6a4f;
+    color: #0d2137;
+  }
+
+  /* Option B — Ciemna czerwień certyfikacyjna + ciepły krem */
+  .hero-b {
+    background: linear-gradient(135deg, #faf8f5 0%, #f5ede8 100%);
+    border-bottom: 4px solid #9b2335;
+    color: #0d2137;
+  }
+
+  /* Option C — Szaro-niebieski stal + ciepły piasek */
+  .hero-c {
+    background: linear-gradient(135deg, #f1f5f9 0%, #fdf8f0 100%);
+    border-bottom: 4px solid #1a56a0;
+    color: #0d2137;
+  }
+  .hero-c .accent-bar { background: #b07d2e; height: 4px; margin-top: 2px; }
+
+  .label-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+</style>
+
+<div class="palette-cards">
+
+  <!-- OPCJA A -->
+  <div class="palette-card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="hero-a hero-preview">
+      <div class="hero-text">
+        <h3>Generator etykiety CE</h3>
+        <p>Narzędzie do tworzenia etykiet zgodnych z rozporządzeniem CPR 2024/3110</p>
+      </div>
+      <span class="label-badge" style="background:#2d6a4f;color:white;">Narzędzia</span>
+    </div>
+    <div class="swatches">
+      <div class="swatch-group">
+        <div class="swatch" style="background:#0d2137;" title="Navy"></div>
+        <span class="swatch-label">Navy</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#1a56a0;" title="Blue"></div>
+        <span class="swatch-label">Niebieski</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#2d6a4f;" title="Forest Green"></div>
+        <span class="swatch-label" style="color:#2d6a4f;font-weight:600;">+ Leśna zieleń <span class="tag-new">NOWY</span></span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#7a9e7e;" title="Sage"></div>
+        <span class="swatch-label" style="color:#7a9e7e;font-weight:600;">+ Szałwia <span class="tag-new">NOWY</span></span>
+      </div>
+    </div>
+    <div class="desc">
+      <strong>Opcja A — Środowiskowa/ekologiczna.</strong> Zieleń kojarzy się z EPD, LCA, certyfikatami środowiskowymi. Dobra gdy portal ma dużo treści o zrównoważonym budownictwie. Tło hero: subtelny gradient szaro-zielony z zieloną linią akcentu.
+    </div>
+  </div>
+
+  <!-- OPCJA B -->
+  <div class="palette-card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="hero-b hero-preview">
+      <div class="hero-text">
+        <h3>Generator etykiety CE</h3>
+        <p>Narzędzie do tworzenia etykiet zgodnych z rozporządzeniem CPR 2024/3110</p>
+      </div>
+      <span class="label-badge" style="background:#9b2335;color:white;">Narzędzia</span>
+    </div>
+    <div class="swatches">
+      <div class="swatch-group">
+        <div class="swatch" style="background:#0d2137;" title="Navy"></div>
+        <span class="swatch-label">Navy</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#1a56a0;" title="Blue"></div>
+        <span class="swatch-label">Niebieski</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#9b2335;" title="Certyfikacyjna czerwień"></div>
+        <span class="swatch-label" style="color:#9b2335;font-weight:600;">+ Czerwień CE <span class="tag-new">NOWY</span></span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#c8a96e;" title="Złoty piasek"></div>
+        <span class="swatch-label" style="color:#9a7c3e;font-weight:600;">+ Złoty piasek <span class="tag-new">NOWY</span></span>
+      </div>
+    </div>
+    <div class="desc">
+      <strong>Opcja B — Certyfikacyjna/regulacyjna.</strong> Ciemna czerwień to kolor ostrzeżeń, regulacji, norm — bardzo techniczna i poważna (jak DIN, ISO, CE). Złoty piasek daje ciepło. Tło hero: kremowo-różowy gradient z czerwoną linią akcentu na dole.
+    </div>
+  </div>
+
+  <!-- OPCJA C -->
+  <div class="palette-card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="hero-c hero-preview">
+      <div class="hero-text">
+        <h3>Generator etykiety CE</h3>
+        <p>Narzędzie do tworzenia etykiet zgodnych z rozporządzeniem CPR 2024/3110</p>
+      </div>
+      <span class="label-badge" style="background:#1a56a0;color:white;">Narzędzia</span>
+    </div>
+    <div class="swatches">
+      <div class="swatch-group">
+        <div class="swatch" style="background:#0d2137;"></div>
+        <span class="swatch-label">Navy</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#1a56a0;"></div>
+        <span class="swatch-label">Niebieski</span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#b07d2e;"></div>
+        <span class="swatch-label" style="color:#b07d2e;font-weight:600;">+ Złoto (aktywny) <span class="tag-new">NOWY</span></span>
+      </div>
+      <div class="swatch-group">
+        <div class="swatch" style="background:#475569;"></div>
+        <span class="swatch-label" style="color:#475569;font-weight:600;">+ Grafit <span class="tag-new">NOWY</span></span>
+      </div>
+    </div>
+    <div class="desc">
+      <strong>Opcja C — Złoto + grafit (najbliżej Przeglądu Budowlanego).</strong> Złoto na ikonach, znacznikach aktywnych, tagach kategorii. Grafit dla drugorzędnych textów. Tło hero: slate + linia złoto + linia niebieska — jak dwubarwny pasek tytułowy gazety.
+    </div>
+  </div>
+
+</div>

@@ -396,6 +396,89 @@
   }
 }
 
+/* ===== ENGINEERING / BLUEPRINT AESTHETIC ===== */
+@layer utilities {
+
+  /* Engineering graph paper — fine minor grid + bold major grid */
+  .bg-eng-paper {
+    background-color: #f5f8fc;
+    background-image:
+      linear-gradient(rgba(26,86,160,0.12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,0.12) 1px, transparent 1px),
+      linear-gradient(rgba(26,86,160,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,0.04) 1px, transparent 1px);
+    background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+    background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+  }
+
+  /* Cross-hatch diagonal — like technical drawing shade fills */
+  .bg-hatch {
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 14px,
+        rgba(26,86,160,0.045) 14px,
+        rgba(26,86,160,0.045) 15px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 14px,
+        rgba(26,86,160,0.045) 14px,
+        rgba(26,86,160,0.045) 15px
+      );
+  }
+
+  /* Technical corner brackets — add to cards with position:relative */
+  .card-tech::before,
+  .card-tech::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  .card-tech::before {
+    top: 8px;
+    left: 8px;
+    border-top: 1.5px solid #1a56a0;
+    border-left: 1.5px solid #1a56a0;
+  }
+  .card-tech::after {
+    bottom: 8px;
+    right: 8px;
+    border-bottom: 1.5px solid #1a56a0;
+    border-right: 1.5px solid #1a56a0;
+  }
+  .card-tech:hover::before,
+  .card-tech:hover::after {
+    opacity: 0.7;
+  }
+
+  /* Blueprint-tinted bar with measurement ticks along top */
+  .bar-blueprint {
+    background-color: #f5f8fc;
+    background-image:
+      linear-gradient(rgba(26,86,160,0.10) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,0.10) 1px, transparent 1px),
+      linear-gradient(rgba(26,86,160,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,86,160,0.035) 1px, transparent 1px);
+    background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+  }
+
+  /* Dot-matrix blueprint background (for sections) */
+  .bg-blueprint-dots {
+    background-color: #eef3fa;
+    background-image:
+      radial-gradient(circle, rgba(26,86,160,0.22) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+}
+
 /* Custom Scrollbar */
 @layer base {
   ::-webkit-scrollbar {

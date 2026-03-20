@@ -143,8 +143,8 @@ export default function Wyroby() {
           </Container>
         </section>
 
-        {/* Search & filter bar — white strip for clear visual break */}
-        <div className="bg-white border-b-2 border-slate-200 shadow-md">
+        {/* Search & filter bar — engineering paper texture for visual interest */}
+        <div className="bar-blueprint border-b-2 border-slate-300 shadow-md relative overflow-hidden">
           <Container>
             <div className="py-5">
               {/* Search */}
@@ -185,8 +185,8 @@ export default function Wyroby() {
           </Container>
         </div>
 
-        {/* Grid area — distinct blue-gray background */}
-        <div className="py-10" style={{ background: "#dde6f0" }}>
+        {/* Grid area — blueprint dot pattern background */}
+        <div className="py-10 bg-blueprint-dots">
           <Container>
             {loading && (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -217,7 +217,7 @@ export default function Wyroby() {
                   return (
                     <div
                       key={wyrob.slug}
-                      className="reveal-stagger group bg-white border-2 border-slate-200 border-l-[5px] border-l-[#1a56a0] rounded-2xl p-5 hover:shadow-xl hover:border-slate-300 hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-md"
+                      className="reveal-stagger card-tech group relative bg-white border-2 border-slate-200 border-l-[5px] border-l-[#1a56a0] rounded-2xl p-5 hover:shadow-xl hover:border-slate-300 hover:border-l-[#8b1a3c] transition-all duration-300 cursor-pointer flex flex-col shadow-md"
                       style={{ "--i": idx } as React.CSSProperties}
                       onClick={() => goToWyrob(wyrob.slug)}
                     >
