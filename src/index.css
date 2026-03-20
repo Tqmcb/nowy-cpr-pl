@@ -270,7 +270,9 @@
     transition: opacity 0.5s ease, transform 0.5s ease;
     transition-delay: calc(var(--i, 0) * 80ms);
   }
-  .reveal-stagger.revealed {
+  /* Karta dostaje revealed albo bezpośrednio, albo gdy rodzic .revealed */
+  .reveal-stagger.revealed,
+  .revealed .reveal-stagger {
     opacity: 1;
     transform: none;
   }
