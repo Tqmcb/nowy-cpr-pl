@@ -21,6 +21,14 @@ export function useReveal(threshold = 0.15) {
       }
       if (!el) return;
 
+      // Jeśli element już jest w viewport (np. grid po async load) — ujawnij od razu,
+      // bo IntersectionObserver jest async i może spóźnić się o kilka klatek.
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add("revealed");
+        return;
+      }
+
       observerRef.current = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
