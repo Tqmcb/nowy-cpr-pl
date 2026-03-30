@@ -25,7 +25,7 @@ export default function Wyroby() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("Wszystkie");
-  const gridRef = useReveal();
+  const gridRef = useReveal(0);
 
   useEffect(() => {
     const load = async () => {
