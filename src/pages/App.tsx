@@ -139,15 +139,15 @@ function HomePage() {
                   <Button
                     size="lg"
                     onClick={() => navigate("/wyszukiwarka")}
-                    className="group"
+                    className="group bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
                   >
                     <span>Sprawdź wymagania dla produktu</span>
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                   <Button
-                    variant="outline"
                     size="lg"
                     onClick={() => navigate("/documents")}
+                    className="bg-white/15 border border-white/40 text-white hover:bg-white/25 font-semibold"
                   >
                     <FileText className="w-5 h-5 mr-2" />
                     Przeglądaj dokumenty

@@ -5,10 +5,32 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Search, Building2, ChevronRight, Filter, CheckCircle2 } from "lucide-react";
-import { getCategorySketch } from "../components/BlueprintSketches";
+import { Search, Building2, ChevronRight, Filter, CheckCircle2, Layers, TreePine, Thermometer, Droplets, DoorOpen, Home, Wrench, Gauge, Zap, Flame, Route, Mountain, Hammer, Shield, type LucideIcon } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
 
+function getCategoryIcon(title: string, category: string): LucideIcon {
+  const t = (title ?? "").toLowerCase();
+  const c = (category ?? "").toLowerCase();
+  if (/beton|prefabrykat|murowy|cegł|kruszywa|wapno|cement|spoiwa/.test(t)) return Layers;
+  if (/drewno|drewn|płyt.*drewno|clb|glulam|sklejka/.test(t)) return TreePine;
+  if (/izolacja|wełna|styropian|eps|xps|pir|pur|etics/.test(t)) return Thermometer;
+  if (/membran|hydroizol|bitum|papa|uszczel/.test(t)) return Droplets;
+  if (/okna|okno|drzwi|brama|fasad|szkło/.test(t)) return DoorOpen;
+  if (/dach|pokryci/.test(t)) return Home;
+  if (/podłog|posadzk|tynk|gips|okładzin/.test(t)) return Layers;
+  if (/stal|metalow|żelbetow|zbrojeni|łożysk|kotw|łącznik/.test(t)) return Wrench;
+  if (/rur|zbiornik|instalac|kanalizac|komin|armatur|grzewcz|woda pitna/.test(t)) return Gauge;
+  if (/kabel|kable|elektr|detekcj/.test(t)) return Zap;
+  if (/pożar|ogniow|gaśnicz/.test(t)) return Flame;
+  if (/drogowy|drogi|nawierzch/.test(t)) return Route;
+  if (/geosynt|geomembran|geotekst/.test(t)) return Mountain;
+  if (/klej|zaprawa|chemia budowlana/.test(t)) return Hammer;
+  if (/konstrukcj/.test(c)) return Building2;
+  if (/izolac/.test(c)) return Thermometer;
+  if (/ochrona/.test(c)) return Shield;
+  if (/instalac/.test(c)) return Gauge;
+  return Building2;
+}
 
 const MAIN_CATEGORIES = [
   "Wyroby konstrukcyjne",
@@ -191,6 +213,7 @@ export default function Wyroby() {
             {!loading && filtered.length > 0 && (
               <div ref={gridRef} className="reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 {filtered.map((wyrob, idx) => {
+                  const Icon = getCategoryIcon(wyrob.title, wyrob.category);
                   return (
                     <div
                       key={wyrob.slug}
@@ -198,10 +221,10 @@ export default function Wyroby() {
                       style={{ "--i": idx } as React.CSSProperties}
                       onClick={() => goToWyrob(wyrob.slug)}
                     >
-                      {/* Top row: blueprint sketch + AVS badge */}
+                      {/* Top row: icon + AVS badge */}
                       <div className="flex items-start justify-between mb-3">
-                        <div className="card-icon w-11 h-11 rounded-xl bg-[#1a56a0]/8 border border-[#1a56a0]/15 flex items-center justify-center group-hover:bg-[#1a56a0]/15 transition-colors duration-300 overflow-hidden">
-                          {getCategorySketch(wyrob.title, wyrob.category, 44)}
+                        <div className="card-icon w-12 h-12 rounded-xl bg-[#1a56a0]/12 border border-[#1a56a0]/20 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors duration-300">
+                          <Icon className="w-6 h-6 text-[#1a56a0]" />
                         </div>
                         {wyrob.avs_system && (
                           <span className="text-[11px] text-slate-600 font-mono bg-slate-100 border border-slate-300 px-2 py-1 rounded-lg leading-none">
