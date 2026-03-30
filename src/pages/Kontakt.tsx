@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
-import { Mail, MapPin, Phone, Clock, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ArrowRight } from "lucide-react";
 
 export default function Kontakt() {
   return (
