@@ -2,7 +2,7 @@
 title: "System AVS 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną"
 reviewed: "2026-03-31"
 date: "2025-12-03"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
 category: "Środowisko"
 tags: ["AVS 3+", "EPD", "walidacja", "jednostka notyfikowana", "CPR 2024", "LCA"]
 excerpt: "CPR 2024/3110 wprowadza zupełnie nowy system oceny — AVS 3+ — przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy cyklu życia — LCA) przez akredytowaną jednostkę notyfikowaną. To istotna nowość, która zmienia sposób dokumentowania śladu środowiskowego wyrobów budowlanych."

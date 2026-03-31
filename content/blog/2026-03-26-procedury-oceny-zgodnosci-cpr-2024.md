@@ -2,7 +2,7 @@
 title: "Jak wybrać właściwą procedurę oceny zgodności — AVS 1+, 1, 2+, 3+, 3, 4 w CPR 2024"
 reviewed: "2026-03-31"
 date: "2026-03-26"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["procedury oceny zgodności", "AVS", "CPR 2024", "certyfikacja", "jednostka notyfikowana", "ITT", "FPC"]
 excerpt: "Który system AVS dotyczy Twojego wyrobu? CPR 2024 definiuje 6 poziomów oceny zgodności. Przewodnik z diagramem decyzyjnym pomaga wybrać właściwą ścieżkę od ITT przez JN do oznakowania CE."

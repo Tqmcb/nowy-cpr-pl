@@ -2,7 +2,7 @@
 title: "EPD w budownictwie - Deklaracje Środowiskowe Wyrobu"
 reviewed: "2026-03-31"
 date: "2025-05-09"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
 category: "Środowisko"
 tags: ["EPD", "LCA", "środowisko", "EN 15804"]
 excerpt: "Co to jest EPD (Deklaracja Środowiskowa Wyrobu)? CPR 2024 nie wymaga wprost EPD — wymaga deklarowania właściwości środowiskowych (m.in. śladu węglowego). EPD to narzędzie, które pomaga te dane obliczyć i udokumentować. Wyjaśniamy, jak to działa i kiedy warto się przygotować."

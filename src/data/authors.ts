@@ -91,6 +91,135 @@ export const AUTHORS: Record<string, Author> = {
       },
     ],
   },
+
+  "mikolaj-junosza-szaniawski": {
+    slug: "mikolaj-junosza-szaniawski",
+    name: "Mikołaj Junosza-Szaniawski",
+    shortTitle: "Zarządzający programem EPD Polska",
+    shortBio:
+      "Specjalista ESG i zrównoważonego rozwoju. MBA (Carlson School of Management, Univ. of Minnesota), szkolenia LCA w MIT. Przez ponad 25 lat w KPMG jako Dyrektor ds. audytów niefinansowych. Wykładowca ESG na Akademii Leona Koźmińskiego. Zarządzający programem EPD Polska.",
+    fullBio:
+      "Mikołaj Junosza-Szaniawski jest specjalistą w dziedzinie zrównoważonego rozwoju i ESG. Posiada tytuł MBA z Carlson School of Management (University of Minnesota) oraz ukończył specjalistyczne szkolenia z analizy cyklu życia (LCA) w Massachusetts Institute of Technology (MIT).\n\nPrzez ponad 25 lat związany z KPMG, gdzie jako Dyrektor w dziale audytów niefinansowych nadzorował kluczowe projekty z zakresu raportowania zrównoważonego rozwoju. Jest wykładowcą ESG na Akademii Leona Koźmińskiego.\n\nAktualnie zarządza programem EPD Polska — krajowym systemem weryfikacji i rejestracji Deklaracji Środowiskowych Wyrobu dla branży budowlanej.",
+    roles: [
+      "Zarządzający programem EPD Polska",
+      "Wykładowca ESG — Akademia Leona Koźmińskiego",
+      "Były Dyrektor, audyty niefinansowe — KPMG",
+    ],
+    expertise: [
+      "Analiza cyklu życia (LCA)",
+      "Deklaracje środowiskowe EPD",
+      "Raportowanie ESG i zrównoważonego rozwoju",
+      "Audyty niefinansowe",
+      "EN 15804+A2 i normy środowiskowe",
+    ],
+    education: [
+      "Carlson School of Management, University of Minnesota — MBA",
+      "Massachusetts Institute of Technology (MIT) — szkolenia LCA",
+    ],
+    awards: [],
+    publications: [
+      {
+        title: "EPD w budownictwie — Deklaracje Środowiskowe Wyrobu",
+        year: 2025,
+        description: "Jak działa EPD, kiedy jest wymagane i jak zbierać dane do obliczeń LCA.",
+        url: "/blog/epd-w-budownictwie",
+      },
+      {
+        title: "AVS 3+ — walidacja EPD przez jednostkę notyfikowaną",
+        year: 2025,
+        description: "Nowy system weryfikacji danych środowiskowych w CPR 2024/3110 — co oznacza raport walidacyjny i jak różni się od certyfikatu wyrobu.",
+        url: "/blog/avs-3plus-walidacja-epd",
+      },
+      {
+        title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz",
+        year: 2025,
+        description: "Mechanizm uruchamiania obowiązku deklarowania śladu węglowego w powiązaniu z harmonogramem norm zharmonizowanych.",
+        url: "/blog/gwp-obowiazkowe-cpr-2024",
+      },
+    ],
+  },
+
+  "grzegorz-suwara": {
+    slug: "grzegorz-suwara",
+    name: "Grzegorz Suwara",
+    shortTitle: "Prezes zarządu Multicert Sp. z o.o.",
+    shortBio:
+      "Ekspert w zakresie systemów zarządzania (ISO 14001, ISO 50001) i oceny zgodności wyrobów. Ukończył studia doktoranckie na Wydziale Zarządzania UW. Były dyrektor zarządzający w ECO Solution. Prezes zarządu Multicert Sp. z o.o. — akredytowanej jednostki certyfikującej wyroby budowlane.",
+    fullBio:
+      "Grzegorz Suwara jest ekspertem w zakresie systemów zarządzania — w tym ISO 14001 i ISO 50001 — oraz oceny zgodności wyrobów. Ukończył studia doktoranckie na Wydziale Zarządzania Uniwersytetu Warszawskiego.\n\nJako były dyrektor zarządzający w ECO Solution realizował projekty środowiskowe, w tym raporty oddziaływania na środowisko i due diligence dla kluczowych sektorów gospodarki.\n\nAktualnie pełni funkcję Prezesa zarządu Multicert Sp. z o.o. — akredytowanej jednostki certyfikującej wyroby budowlane (PCA nr AC 210), specjalizującej się w certyfikacji ZKP i EPD dla sektora budowlanego.",
+    roles: [
+      "Prezes zarządu — Multicert Sp. z o.o.",
+      "Były dyrektor zarządzający — ECO Solution",
+    ],
+    expertise: [
+      "Ocena zgodności wyrobów budowlanych",
+      "Systemy zarządzania ISO 14001, ISO 50001",
+      "Certyfikacja ZKP wyrobów budowlanych",
+      "Środowiskowe due diligence",
+    ],
+    education: [
+      "Uniwersytet Warszawski, Wydział Zarządzania — studia doktoranckie",
+    ],
+    awards: [],
+    publications: [
+      {
+        title: "CPR 2024/3110 — Nowe Rozporządzenie o Wyrobach Budowlanych",
+        year: 2025,
+        description: "Kompletny przewodnik po CPR 2024/3110 — kluczowe zmiany, harmonogram wdrożenia, nowy system AVS i wymagania środowiskowe.",
+        url: "/blog/cpr-2024-nowe-rozporzadzenie",
+      },
+      {
+        title: "Certyfikacja wyrobów budowlanych krok po kroku",
+        year: 2026,
+        description: "Od badań ITT do oznakowania CE — kompletny przewodnik procesowy dla producentów.",
+        url: "/blog/certyfikacja-krok-po-kroku",
+      },
+    ],
+  },
+
+  "izabela-sztamberek-sochan": {
+    slug: "izabela-sztamberek-sochan",
+    name: "Izabela Sztamberek-Sochan",
+    shortTitle: "Koordynator programu EPD Polska",
+    shortBio:
+      "Doktor nauk środowiskowych, ekspert w dziedzinie gospodarki o obiegu zamkniętym i recyklingu. Doświadczenie z MPO Warszawa i laboratorium Elab. W EPD Polska koordynuje administrację programu i prace Komitetu Technicznego ds. weryfikacji i certyfikacji EPD.",
+    fullBio:
+      "dr Izabela Sztamberek-Sochan jest doktorem nauk środowiskowych i ekspertem w dziedzinie gospodarki o obiegu zamkniętym i recyklingu.\n\nDoświadczenie zawodowe zdobywała m.in. w MPO w Warszawie oraz w laboratorium badawczym Elab, gdzie realizowała projekty z zakresu środowiskowej oceny wyrobów i procesów.\n\nW programie EPD Polska odpowiada za administrację programu oraz koordynację prac Komitetu Technicznego, zapewniając sprawne funkcjonowanie procesów weryfikacji i certyfikacji Deklaracji Środowiskowych Wyrobu.",
+    roles: [
+      "Koordynator programu EPD Polska",
+      "Ekspert ds. gospodarki o obiegu zamkniętym",
+    ],
+    expertise: [
+      "Gospodarka o obiegu zamkniętym (GOZ)",
+      "Recykling i analiza środowiskowa wyrobów",
+      "Weryfikacja i certyfikacja EPD",
+      "Ocena oddziaływania na środowisko",
+    ],
+    education: [
+      "Doktor nauk środowiskowych",
+    ],
+    awards: [],
+    publications: [
+      {
+        title: "EPD w budownictwie — Deklaracje Środowiskowe Wyrobu",
+        year: 2025,
+        description: "Jak działa EPD, kiedy jest wymagane i jak zbierać dane do obliczeń LCA.",
+        url: "/blog/epd-w-budownictwie",
+      },
+      {
+        title: "Oznakowanie ekologiczne wyrobów budowlanych w CPR 2024",
+        year: 2026,
+        description: "Ecodesign, etykiety energetyczne i kryteria środowiskowe w kontekście CPR 2024/3110.",
+        url: "/blog/oznakowanie-ekologiczne-cpr-2024",
+      },
+      {
+        title: "GPP — Zielone Zamówienia Publiczne a CPR 2024",
+        year: 2025,
+        description: "Jak CPR 2024/3110 i dane środowiskowe EPD wspierają spełnienie kryteriów zielonych zamówień publicznych.",
+        url: "/blog/gpp-zielone-zamowienia-publiczne-cpr-2024",
+      },
+    ],
+  },
 };
 
 /** Zwraca autora po slugu lub null */
@@ -103,6 +232,10 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "dr inż. Robert Andrzej Dynarowski": "robert-dynarowski",
   "Robert Dynarowski": "robert-dynarowski",
   "dr inż. Robert, Andrzej Dynarowski": "robert-dynarowski",
+  "dr inż. Robert Dynarowski": "robert-dynarowski",
+  "Mikołaj Junosza-Szaniawski": "mikolaj-junosza-szaniawski",
+  "Grzegorz Suwara": "grzegorz-suwara",
+  "Izabela Sztamberek-Sochan": "izabela-sztamberek-sochan",
 };
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */

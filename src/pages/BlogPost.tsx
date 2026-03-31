@@ -28,21 +28,39 @@ function formatDate(dateString: string) {
   });
 }
 
+const ORGS = new Set(['Redakcja NowyCPR.pl', 'Multicert Sp. z o.o.', 'EPD Polska', 'NowyCPR.pl']);
+
 function AuthorLink({ authorField, className }: { authorField: string; className?: string }) {
   const navigate = useNavigate();
-  const displayName = authorField.split(' | ')[0];
-  const slug = getAuthorSlug(authorField) ?? getAuthorSlug(displayName);
-  if (slug) {
-    return (
-      <button
-        onClick={() => navigate(`/autor/${slug}`)}
-        className={`hover:text-[#1a56a0] underline underline-offset-2 transition-colors cursor-pointer ${className ?? ""}`}
-      >
-        {displayName}
-      </button>
-    );
+  const segments = authorField.split(' | ').map(s => s.trim());
+  const named = segments.filter(s => !ORGS.has(s));
+
+  if (named.length === 0) {
+    return <span className={className}>{segments[0]}</span>;
   }
-  return <span className={className}>{displayName}</span>;
+
+  return (
+    <>
+      {named.map((name, i) => {
+        const slug = getAuthorSlug(name);
+        return (
+          <span key={i} className="inline-flex items-center">
+            {i > 0 && <span className="mx-1 opacity-40">·</span>}
+            {slug ? (
+              <button
+                onClick={() => navigate(`/autor/${slug}`)}
+                className={`hover:text-[#1a56a0] underline underline-offset-2 transition-colors cursor-pointer ${className ?? ""}`}
+              >
+                {name}
+              </button>
+            ) : (
+              <span className={className}>{name}</span>
+            )}
+          </span>
+        );
+      })}
+    </>
+  );
 }
 
 function readingTime(content: string) {
