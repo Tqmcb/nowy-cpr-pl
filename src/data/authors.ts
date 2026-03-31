@@ -220,6 +220,56 @@ export const AUTHORS: Record<string, Author> = {
       },
     ],
   },
+
+  "tomasz-barto": {
+    slug: "tomasz-barto",
+    name: "Tomasz Barto",
+    shortTitle: "Dyrektor ds. Certyfikacji wyrobów budowlanych i systemów zarządzania — Multicert",
+    shortBio:
+      "Członek zarządu i Dyrektor ds. Certyfikacji wyrobów budowlanych i systemów zarządzania w Multicert Sp. z o.o. — akredytowanej jednostce certyfikującej. Specjalista w zakresie oceny zgodności wyrobów budowlanych, systemów AVS/AVCP oraz wdrożeń ZKP i FPC u producentów.",
+    fullBio:
+      "Tomasz Barto pełni funkcję Członka zarządu oraz Dyrektora ds. Certyfikacji wyrobów budowlanych i systemów zarządzania w Multicert Sp. z o.o. (www.multicert.com.pl) — akredytowanej jednostce certyfikującej wyroby budowlane (PCA nr AC 210).\n\nJego obszar odpowiedzialności obejmuje nadzór nad procesami certyfikacji wyrobów budowlanych w systemach AVCP/AVS, audyty Zakładowej Kontroli Produkcji (ZKP/FPC) oraz certyfikację systemów zarządzania. Wieloletnia praktyka w jednostce notyfikowanej pozwala mu łączyć wiedzę regulacyjną z doświadczeniem audytorskim bezpośrednio z zakładów produkcyjnych.\n\nSpecjalizuje się w interpretacji wymagań norm zharmonizowanych, procedurach oceny zgodności CPR 2024/3110 oraz przygotowaniu producentów do inspekcji JN i nadzoru rynku.",
+    roles: [
+      "Członek zarządu — Multicert Sp. z o.o.",
+      "Dyrektor ds. Certyfikacji wyrobów budowlanych i systemów zarządzania — Multicert Sp. z o.o.",
+    ],
+    expertise: [
+      "Certyfikacja wyrobów budowlanych (AVS/AVCP)",
+      "Zakładowa Kontrola Produkcji (ZKP/FPC)",
+      "Systemy zarządzania ISO",
+      "Ocena zgodności CPR 2024/3110",
+      "Audyty jednostki notyfikowanej",
+      "Oznakowanie CE i dokumentacja techniczna",
+    ],
+    education: [],
+    awards: [],
+    publications: [
+      {
+        title: "Oznakowanie CE w 2026 — co zmienia CPR 2024/3110",
+        year: 2025,
+        description: "Obowiązki producenta po wejściu w życie CPR 2024 — nowe wymagania dla oznakowania CE i deklaracji DoP&C.",
+        url: "/blog/oznakowanie-ce-2026",
+      },
+      {
+        title: "Dokumentacja techniczna wyrobu budowlanego w CPR 2024",
+        year: 2026,
+        description: "Kompletny przewodnik po wymaganiach dokumentacyjnych CPR 2024/3110 — co musi zawierać dokumentacja techniczna producenta.",
+        url: "/blog/dokumentacja-techniczna-cpr-2024",
+      },
+      {
+        title: "DoP&C — szablon i wyjaśnienia elementów deklaracji",
+        year: 2026,
+        description: "Jak prawidłowo wypełnić Deklarację Właściwości Użytkowych i Zgodności w świetle CPR 2024/3110.",
+        url: "/blog/dopc-szablon-wyjasnienie",
+      },
+      {
+        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania CPR 2024",
+        year: 2025,
+        description: "Wymagania FPC w CPR 2024/3110 — co musi zawierać system ZKP i jak przebiega inspekcja JN.",
+        url: "/blog/fpc-zakladowa-kontrola-produkcji",
+      },
+    ],
+  },
 };
 
 /** Zwraca autora po slugu lub null */
@@ -236,6 +286,7 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "Mikołaj Junosza-Szaniawski": "mikolaj-junosza-szaniawski",
   "Grzegorz Suwara": "grzegorz-suwara",
   "Izabela Sztamberek-Sochan": "izabela-sztamberek-sochan",
+  "Tomasz Barto": "tomasz-barto",
 };
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */
