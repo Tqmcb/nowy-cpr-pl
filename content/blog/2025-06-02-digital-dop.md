@@ -51,7 +51,7 @@ DoP (Deklaracja Właściwości Użytkowych) to dokument z CPR 305/2011. CPR 2024
 
 | Data | Wymóg |
 |------|-------|
-| **7 stycznia 2025** | Wejście w życie CPR 2024/3110; możliwość dobrowolnego stosowania DoP&C |
+| **8 stycznia 2025** | Wejście w życie CPR 2024/3110; możliwość dobrowolnego stosowania DoP&C |
 | **8 stycznia 2026** | Obowiązek stosowania DoP&C; wymagana dostępność online (min. link/PDF na stronie producenta) |
 | **8 stycznia 2027** | Sankcje za naruszenia (Art. 92 CPR 2024) |
 | **2027–2032** | Obowiązek deklarowania GWP w DoP&C — aktywuje się dla każdej rodziny wyrobów po zakończeniu okresu koegzystencji (12–36 mies.) po publikacji nowej hTS w Dz.U. UE |

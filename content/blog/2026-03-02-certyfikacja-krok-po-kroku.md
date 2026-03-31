@@ -53,7 +53,7 @@ Systemy AVS w CPR 2024:
 | 1+ | ITT, FPC | Certyfikacja wyrobu, inspekcja zakładu, kontrola FPC, pobieranie próbek |
 | 1 | ITT, FPC | Certyfikacja wyrobu, inspekcja zakładu, kontrola FPC |
 | 2+ | ITT, FPC | Certyfikacja FPC, inspekcja zakładu |
-| 3 | ITT (przez laboratorium notyfikowane), FPC | Ocena techniczna dokumentacji ITT |
+| 3 | ITT (przez laboratorium notyfikowane), FPC | Ocena techniczna dokumentacji ITT i wydanie certyfikatu właściwości użytkowych przez JN |
 | 4 | ITT, FPC | Brak zaangażowania JN |
 
 System 1+ obowiązuje dla wyrobów o krytycznym znaczeniu dla bezpieczeństwa (np. kotwy do betonu, wyroby ogniochronne). System 4 dotyczy wyrobów niskiego ryzyka.

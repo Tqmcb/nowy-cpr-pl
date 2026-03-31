@@ -27,7 +27,7 @@ Upoważniony przedstawiciel jest **wymagany zawsze, gdy producent nie ma siedzib
 |---|---|---|
 | Czy kupuje i odsprzedaje wyrób? | Nie — działa w imieniu producenta | Tak — wprowadza towar na własny rachunek |
 | Siedziba | Zawsze w UE | Zawsze w UE |
-| Odpowiedzialność | Solidarna z producentem w zakresie mandat | Jako producent (pełna) |
+| Odpowiedzialność | Solidarna z producentem w zakresie mandatu | Jako producent (pełna) |
 | ITT i FPC | Nie wykonuje — producent | Nie wykonuje — producent |
 | DoP&C | Może wystawiać w imieniu producenta | Wystawia swoją DoP&C |
 | Wyznaczenie | Pisemne pełnomocnictwo od producenta | Brak — rola automatyczna |

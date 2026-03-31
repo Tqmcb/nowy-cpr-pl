@@ -16,7 +16,7 @@ Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopa
 ## Pełny harmonogram wdrożenia
 
 ### Kluczowe daty:
-- **7 stycznia 2025**: Wejście w życie rozporządzenia; Załączniki I, II, VII, IX, X obowiązują od tej daty
+- **8 stycznia 2025**: Wejście w życie rozporządzenia; Załączniki I, II, VII, IX, X obowiązują od tej daty
 - **8 stycznia 2026**: Pełne stosowanie rozporządzenia; CPR 305/2011 zostaje uchylony
 - **8 stycznia 2027**: Art. 92 (sankcje administracyjne) zaczyna obowiązywać
 - **9 stycznia 2031**: Wygasają stare EAD (European Assessment Documents) wydane przed 8.01.2026

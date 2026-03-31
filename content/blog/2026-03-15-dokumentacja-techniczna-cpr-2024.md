@@ -116,10 +116,10 @@ Klientom, dystrybutorowi ani konkurentom dokumentacja techniczna nie jest udost�
 ## Lista kontrolna: czy Twoja dokumentacja jest kompletna?
 
 - [ ] Opis wyrobu — typ, zastosowanie, skład
-- [ ] Aktualny raport ITT (max. 5 lat lub przy każdej istotnej zmianie)
+- [ ] Aktualny raport ITT (aktualizowany przy każdej istotnej zmianie wyrobu, procesu produkcji lub normy)
 - [ ] Certyfikat JN (ważny, obejmujący bieżący zakres produkcji)
 - [ ] Podręcznik FPC z procedurami
-- [ ] Ciągłe zapisy FPC (min. 5 lat wstecz)
+- [ ] Ciągłe zapisy FPC (min. 10 lat wstecz)
 - [ ] Aktualna DoP&C w formacie CPR 2024
 - [ ] Dokumenty dla surowców / dostawców kluczowych komponentów
 - [ ] EPD (jeśli wymagana w systemie AVS 3+)

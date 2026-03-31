@@ -21,7 +21,7 @@ GUNB jest centralnym organem odpowiedzialnym za nadzór rynku wyrobów budowlany
 - Planowanie i koordynowanie kontroli rynku
 - Prowadzenie ogólnopolskiego systemu informatycznego wyrobów budowlanych
 - Współpraca z organami nadzoru innych państw UE
-- Uczestnictwo w systemie wczesnego ostrzegania RAPEX/Safety Gate
+- Uczestnictwo w europejskim systemie wczesnego ostrzegania Safety Gate (dawniej RAPEX)
 
 ## Zakres kontroli
 

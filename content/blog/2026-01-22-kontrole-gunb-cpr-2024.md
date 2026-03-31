@@ -59,7 +59,7 @@ Na podstawie dotychczasowych kontroli GUNB po wejściu w życie CPR 2024, najcz�
 
 **FPC:**
 - Brak aktualnych instrukcji FPC uwzględniających wymagania CPR 2024
-- Zapisy z kontroli jakości przechowywane krócej niż 5 lat
+- Zapisy z kontroli jakości przechowywane krócej niż 10 lat
 
 ## Prawa producenta podczas kontroli
 

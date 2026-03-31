@@ -132,7 +132,7 @@ Załącznik ZA jest kluczowym dokumentem. Zawiera tabelę z:
 | Dokumenty | DoP | DoP&C |
 | Certyfikaty JN | AVCP | AVS (nowe certyfikaty wymagane) |
 
-**Ważna konsekwencja:** Certyfikaty JN wystawione dla AVCP (stary system) **tracą ważność po 8 stycznia 2027**. Producenci muszą uzyskać nowe certyfikaty dla systemu AVS.
+**Ważna uwaga:** Certyfikaty JN wystawione dla AVCP (stary system) **nie wygasają automatycznie 8 stycznia 2027**. Zachowują ważność do swojego naturalnego terminu wygaśnięcia zgodnie z przepisami przejściowymi CPR 2024. Data 8 stycznia 2027 to dzień, od którego zaczyna obowiązywać Art. 92 CPR 2024 (sankcje administracyjne) — nie termin wygaśnięcia certyfikatów AVCP. Producenci powinni skonsultować się ze swoją JN w sprawie aktualizacji certyfikatów na system AVS przy okazji najbliższego przeglądu lub zmiany wyrobu.
 
 ## Pytania i odpowiedzi
 
@@ -153,8 +153,8 @@ A: Nie, system AVS pozostaje taki sam (wynika z normy, nie z konkretnego wyrobu)
 | Termin | Wymaganie |
 |---|---|
 | 8 stycznia 2026 | CPR 2024 w pełni obowiązuje — nowe wyroby muszą mieć DoP&C |
-| 8 stycznia 2027 | Stare certyfikaty AVCP tracą ważność dla wyrobów wprowadzanych na rynek |
-| Do 8 stycznia 2027 | Producenci muszą uzyskać certyfikaty AVS od JN |
+| 8 stycznia 2027 | Art. 92 CPR 2024 (sankcje administracyjne) zaczyna obowiązywać |
+| Przy aktualizacji wyrobu / normy | Zalecane zaktualizowanie certyfikatów AVCP na certyfikaty AVS przy każdej istotnej zmianie — stare certyfikaty AVCP nie wygasają automatycznie |
 
 ---
 

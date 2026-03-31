@@ -29,7 +29,7 @@ GUNB (lub inny organ nadzoru rynku) może zastosować środki naprawcze gdy wyr�
 Inspektor GUNB stwierdza niezgodność podczas:
 - Rutynowej kontroli rynku (planowej lub losowej)
 - Kontroli na podstawie skargi (np. od konsumenta, dystrybutora)
-- Kontroli wynikającej z alertu RAPEX z innego kraju UE
+- Kontroli wynikającej z alertu Safety Gate z innego kraju UE
 
 Po stwierdzeniu niezgodności inspektor sporządza protokół i informuje producenta/dystrybutora.
 
@@ -76,25 +76,25 @@ Producent lub dystrybutor realizujący wycofanie musi:
 
 Po upływie terminu GUNB weryfikuje, czy wycofanie zostało prawidłowo przeprowadzone. Może przeprowadzić ponowną kontrolę i zażądać dokumentacji.
 
-## System RAPEX — szybkie alerty w całej UE
+## System Safety Gate — szybkie alerty w całej UE
 
-**RAPEX (Rapid Alert System for dangerous non-food products)** to europejski system wymiany informacji o niebezpiecznych wyrobach. Od 2021 roku działa jako SAFETY Gate.
+**Safety Gate** (dawniej RAPEX — Rapid Alert System for dangerous non-food products) to europejski system wymiany informacji o niebezpiecznych wyrobach, działający pod obecną nazwą od 2021 roku.
 
-### Kiedy GUNB zgłasza do RAPEX?
+### Kiedy GUNB zgłasza do Safety Gate?
 
-GUNB ma obowiązek zgłoszenia do RAPEX gdy:
+GUNB ma obowiązek zgłoszenia do Safety Gate gdy:
 - Wyrób stwarza **poważne ryzyko** dla zdrowia lub bezpieczeństwa
 - Organ podjął środki naprawcze (wycofanie, zakaz)
 - Wyrób mógł trafić do innych krajów UE
 
-### Co oznacza alert RAPEX dla producenta?
+### Co oznacza alert Safety Gate dla producenta?
 
 - Alert jest **publiczny** — widoczny dla konsumentów, dystrybutorów, mediów
 - Organy innych krajów UE **automatycznie sprawdzają** czy wyrób jest u nich dostępny
 - Może skutkować wycofaniem w **kilkunastu krajach jednocześnie**
-- Wpis w RAPEX pozostaje **trwale** w bazie danych
+- Wpis w Safety Gate pozostaje **trwale** w bazie danych
 
-### Jak sprawdzić alerty RAPEX?
+### Jak sprawdzić alerty Safety Gate?
 
 Baza alertów dostępna jest na stronie **ec.europa.eu/safety-gate-alerts**. Producenci powinni regularnie monitorować bazę w zakresie swoich wyrobów i kategorii.
 
@@ -117,7 +117,7 @@ CPR 2024 i polskie przepisy administracyjne gwarantują producentowi:
 Producent, który **sam stwierdzi niezgodność**, może podjąć dobrowolne wycofanie. Zalety:
 
 - Szybszy przebieg i lepsza kontrola nad procesem
-- Mniejsze ryzyko wpisu do RAPEX (organy mogą nie uznać konieczności alertu)
+- Mniejsze ryzyko wpisu do Safety Gate (organy mogą nie uznać konieczności alertu)
 - Lepsza reputacja (dobrowolna reakcja vs. przymusowe wycofanie)
 - Możliwe złagodzenie potencjalnych sankcji
 
@@ -147,7 +147,7 @@ Koszty wycofania mogą być bardzo wysokie:
 
 - Regularne audyty wewnętrzne zgodności z CPR 2024
 - Aktualizacja DoP&C przy każdej zmianie wyrobu lub normy
-- Monitoring alertów RAPEX w kategorii Twojego wyrobu
+- Monitoring alertów Safety Gate w kategorii Twojego wyrobu
 - Szkolenia personelu produkcyjnego z wymagań FPC
 - Współpraca z akredytowanym laboratorium w ramach bieżących badań
 
