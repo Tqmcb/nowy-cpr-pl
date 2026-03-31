@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
-  Shield, ExternalLink, CheckSquare, Building2,
+  Shield, ExternalLink, CheckSquare, Building2, RefreshCw,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 import { getAuthorSlug } from "../data/authors";
@@ -388,6 +388,15 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
               {formatDate(post.published_at)}
             </dd>
           </div>
+          {post.updated_at && (
+            <div>
+              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Ostatnia aktualizacja</dt>
+              <dd className="text-sm flex items-center gap-2 text-amber-700 font-medium">
+                <RefreshCw className="w-3.5 h-3.5 shrink-0" />
+                {formatDate(post.updated_at)}
+              </dd>
+            </div>
+          )}
           {post.category && (
             <div>
               <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Kategoria</dt>

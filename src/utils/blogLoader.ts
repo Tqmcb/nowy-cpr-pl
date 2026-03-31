@@ -127,6 +127,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
                     content: content,
                     author: metadata.author,
                     published_at: metadata.date,
+                    updated_at: metadata.updated ?? undefined,
                     is_published: true,
                     category: metadata.category,
                     image_url: metadata.image_url,
