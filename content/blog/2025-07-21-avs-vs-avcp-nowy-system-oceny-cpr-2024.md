@@ -71,7 +71,7 @@ System 3+ nie istniał w oryginalnym AVCP z CPR 305/2011. Został wprowadzony na
 **Co robi producent:** przeprowadza ITT i FPC samodzielnie, przeprowadza **analizę cyklu życia (LCA — Life Cycle Assessment)** zgodną z EN 15804+A2 — oblicza ślad węglowy i inne wskaźniki środowiskowe. Opcjonalnie sporządza EPD (Deklarację Środowiskową Wyrobu).
 **Co robi jednostka notyfikowana:** weryfikuje metodykę i dane LCA (nie przeprowadza własnych obliczeń), wydaje **Raport walidacyjny** potwierdzający wiarygodność deklaracji środowiskowych.
 
-System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych w ramach zielonych zamówień (GPP — Green Public Procurement) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/2026-04-03-avs-3plus-walidacja-epd).
+System 3+ jest obecnie **dobrowolny**, ale coraz częściej wymagany przez zamawiających publicznych w ramach zielonych zamówień (GPP — Green Public Procurement) i w przetargach zagranicznych. Komisja Europejska może w przyszłości nałożyć obowiązek deklarowania GWP dla określonych grup wyrobów — wtedy system 3+ stanie się wymogiem. Więcej szczegółów w osobnym artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/avs-3plus-walidacja-epd).
 
 ### AVS 4 — najlżejszy, ale... z niespodzianką
 
@@ -92,7 +92,7 @@ Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa p
 - JN wydaje **Raport walidacyjny** (nie certyfikat wyrobu)
 - Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opcjonalnie opublikować EPD (Deklarację Środowiskową Wyrobu) z niezależną weryfikacją (*third-party verified*)
 
-Szczegółową analizę kosztów, procedury i rynku walidacji danych środowiskowych w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/2026-04-03-avs-3plus-walidacja-epd).
+Szczegółową analizę kosztów, procedury i rynku walidacji danych środowiskowych w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/avs-3plus-walidacja-epd).
 
 ## FPC — czym różni się wymaganie w AVS vs AVCP?
 
