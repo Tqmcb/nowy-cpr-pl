@@ -5,16 +5,18 @@ date: "2025-06-16"
 author: "Tomasz Barto | dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
-excerpt: "Od 8 stycznia 2026 deklaracja właściwości użytkowych staje się DoP&C. Sprawdź co dokładnie musisz zmienić, jakie nowe pola dodać i jak zaktualizować istniejące dokumenty."
+excerpt: "CPR 2024/3110 wprowadza DoP&C — ale przepisy przejściowe pozwalają na dalsze stosowanie starych DoP do czasu aktualizacji normy zharmonizowanej. Wyjaśniamy co się zmieniło, kiedy musisz wystawić DoP&C i co możesz zachować."
 image_url: /images/blog/dop-do-dopc-zmiany-cpr-2024.jpg
 template: "przewodnik"
 ---
 
 # DoP → DoP&C: kompletny przewodnik po zmianach w deklaracji właściwości użytkowych
 
-Od 8 stycznia 2026 roku obowiązuje rozporządzenie CPR (UE) 2024/3110, które zastąpiło stare CPR 305/2011. Jedną z najbardziej namacalnych zmian dla każdego producenta wyrobów budowlanych jest przekształcenie dotychczasowej Deklaracji Właściwości Użytkowych (DoP) w nowy dokument: **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**.
+Od 8 stycznia 2026 roku obowiązuje rozporządzenie CPR (UE) 2024/3110, które zastąpiło stare CPR 305/2011. Jedną z najbardziej namacalnych zmian jest wprowadzenie nowego dokumentu: **Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)**.
 
-Litera „&C" to nie kosmetyczna zmiana nazwy — to istotne rozszerzenie zakresu odpowiedzialności producenta. Ten artykuł wyjaśnia punkt po punkcie co musisz zmienić, co dodać i jak długo możesz korzystać z istniejących dokumentów.
+> **Ważne — przepisy przejściowe (art. 4–9 CPR 305/2011):** Stare DoP wystawione zgodnie z CPR 305/2011 zachowują moc prawną na mocy przepisów przejściowych CPR 2024/3110 — artykuły 4–9 rozporządzenia 305/2011 (w tym wymagania dotyczące DoP i oznakowania CE) pozostają stosowane do **8 stycznia 2040 roku**. Oznacza to, że istniejący DoP dla wyrobu z ważnym certyfikatem AVCP **nie musi być natychmiast zastąpiony**. Praktycznym momentem przejścia na DoP&C będzie aktualizacja normy zharmonizowanej wyrobu na nową hTS lub odnowienie certyfikatu JN.
+
+Litera „&C" to nie kosmetyczna zmiana nazwy — to istotne rozszerzenie zakresu odpowiedzialności producenta. Ten artykuł wyjaśnia co nowego zawiera DoP&C, kiedy staje się obowiązkowy i jak długo możesz korzystać z istniejących dokumentów.
 
 ## Czym jest DoP&C i skąd się wzięła ta zmiana?
 
@@ -74,9 +76,15 @@ Warto wiedzieć, że niektóre elementy **nie ulegają zmianie**:
 
 ## Jak długo można korzystać ze starego DoP?
 
-Stary DoP wystawiony zgodnie z CPR 305/2011 **pozostaje ważny dla wyrobów wprowadzonych do obrotu przed 8 stycznia 2026**. Dla wyrobów wprowadzanych do obrotu **od 8 stycznia 2026** obowiązkowy jest nowy DoP&C zgodny z CPR 2024/3110.
+Na mocy przepisów przejściowych CPR 2024/3110 artykuły 4–9 rozporządzenia 305/2011 — regulujące obowiązek sporządzenia DoP i oznakowania CE — **pozostają w mocy do 8 stycznia 2040 roku**. Stary DoP wystawiony pod CPR 305/2011 zachowuje zatem ważność prawną przez cały okres przejściowy.
 
-Ważne: jeśli nie zmieniasz nic w wyrobie, nie musisz powtarzać badań ITT — możesz oprzeć nowy DoP&C na dotychczasowych raportach z badań, uzupełniając tylko nowe pola wymagane przez CPR 2024.
+**Kiedy DoP&C staje się wymagane w praktyce:**
+
+- przy **pierwszym certyfikowaniu wyrobu** po przejściu danej normy zharmonizowanej na nowy format hTS (planowane etapami do 2029–2040)
+- przy **odnowieniu certyfikatu JN** — jednostki notyfikowane będą stopniowo wydawać certyfikaty zgodnie z nową nomenklaturą AVS
+- **dobrowolnie wcześniej** — producenci, którzy chcą wyraźnie komunikować zgodność z CPR 2024, mogą już dziś wystawiać DoP&C
+
+Ważne: zmiana formatu dokumentu (DoP → DoP&C) **nie wymaga powtarzania badań ITT** — możesz oprzeć nowy DoP&C na dotychczasowych raportach z badań, uzupełniając jedynie nowe pola wymagane przez CPR 2024.
 
 ## Praktyczny plan działania dla producenta
 

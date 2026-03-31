@@ -97,8 +97,8 @@ CPR 2024 precyzuje katalog wyrobów budowlanych objętych rozporządzeniem do **
 ### Krok 1: Audyt obecnej dokumentacji
 Sprawdź czy Twoje obecne DoP (Deklaracje Właściwości Użytkowych) zawierają wszystkie wymagane informacje i czy terminologia jest zgodna z CPR 2024 (AVS, DoP&C).
 
-### Krok 2: Aktualizuj terminologię
-Zmień "AVCP" → "AVS", "DoP" → "DoP&C" we wszystkich dokumentach, na stronie internetowej i w materiałach handlowych. Wymień stare certyfikaty AVCP na nowe certyfikaty AVS (w praktyce: zaktualizuj umowy z jednostkami notyfikowanymi).
+### Krok 2: Zrozum przepisy przejściowe — nie wszystko zmienia się natychmiast
+Artykuły 4–9 CPR 305/2011 (w tym obowiązek DoP i oznakowania CE) **pozostają stosowane do 8 stycznia 2040** na mocy przepisów przejściowych. Stare DoP i certyfikaty AVCP zachowują ważność do naturalnego wygaśnięcia lub aktualizacji normy zharmonizowanej wyrobu. Nie ma obowiązku natychmiastowej wymiany całej dokumentacji. Praktycznym momentem przejścia na nomenklaturę AVS i format DoP&C będzie najbliższe odnowienie certyfikatu lub zmiana wyrobu — skonsultuj termin z jednostką notyfikowaną.
 
 ### Krok 3: Przygotuj dane środowiskowe (jeśli Twoja norma jest w planie aktualizacji)
 Sprawdź, czy norma zharmonizowana Twojego wyrobu jest w planie aktualizacji KE na lata 2026–2028. Jeśli tak — zlecić analizę cyklu życia (LCA) zgodnie z EN 15804+A2, aby obliczyć ślad węglowy (GWP). Opcjonalnie: sporządzić Deklarację Środowiskową Wyrobu (EPD) i zwalidować ją w ramach Systemu AVS 3+.
@@ -118,7 +118,7 @@ Przeszkolenie pracowników odpowiedzialnych za jakość, dokumentację techniczn
 
 ## Podsumowanie
 
-CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu CPR 305/2011 (2013). Producenci powinni skupić się na trzech priorytetach: **aktualizacji dokumentacji** (DoP → DoP&C), **przygotowaniu do deklarowania właściwości środowiskowych** (przede wszystkim śladu węglowego — GWP) oraz **cyfryzacji** (dostęp online do DoP&C). Pełne wdrożenie obowiązuje od 8 stycznia 2026, natomiast sankcje zaczną być stosowane od 8 stycznia 2027.
+CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu CPR 305/2011 (2013). Kluczowy kontekst dla producentów: przepisy przejściowe pozwalają na dalsze stosowanie starych DoP i certyfikatów AVCP — artykuły 4–9 CPR 305/2011 obowiązują do 8 stycznia 2040. Zmiana na nomenklaturę DoP&C i AVS następuje etapami, przy okazji aktualizacji norm zharmonizowanych. Priorytety na najbliższy czas to: **śledzenie harmonogramu aktualizacji normy swojego wyrobu**, **przygotowanie do deklarowania właściwości środowiskowych** (GWP — gdy wejdzie nowa hTS) oraz **zapewnienie cyfrowej dostępności dokumentacji**. Sankcje z art. 92 zaczną obowiązywać od 8 stycznia 2027.
 
 ---
 

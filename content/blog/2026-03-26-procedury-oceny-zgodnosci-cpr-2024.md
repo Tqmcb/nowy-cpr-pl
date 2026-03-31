@@ -156,7 +156,7 @@ A: Nie, system AVS pozostaje taki sam (wynika z normy, nie z konkretnego wyrobu)
 
 | Termin | Wymaganie |
 |---|---|
-| 8 stycznia 2026 | CPR 2024 w pełni obowiązuje — nowe wyroby muszą mieć DoP&C |
+| 8 stycznia 2026 | CPR 2024 w pełni obowiązuje; stare DoP i certyfikaty AVCP zachowują ważność na mocy przepisów przejściowych (art. 4–9 CPR 305/2011 do 2040) |
 | 8 stycznia 2027 | Art. 92 CPR 2024 (sankcje administracyjne) zaczyna obowiązywać |
 | Przy aktualizacji wyrobu / normy | Zalecane zaktualizowanie certyfikatów AVCP na certyfikaty AVS przy każdej istotnej zmianie — stare certyfikaty AVCP nie wygasają automatycznie |
 
