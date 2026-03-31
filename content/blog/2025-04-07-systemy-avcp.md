@@ -27,8 +27,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Cement
 - Wyroby krytyczne dla bezpieczeństwa
 
-**Koszty**: orientacyjnie 25 000–50 000 PLN rocznie (zależnie od jednostki notyfikowanej, zakresu akredytacji i liczby wyrobów)
-
 ---
 
 ### System 1
@@ -42,8 +40,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Drzwi przeciwpożarowe
 - Okna i drzwi zewnętrzne z odpornością ogniową
 - Dachy i pokrycia dachowe
-
-**Koszty**: orientacyjnie 15 000–30 000 PLN rocznie
 
 ---
 
@@ -59,8 +55,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Kruszywa budowlane
 - Elementy murowe
 
-**Koszty**: orientacyjnie 8 000–20 000 PLN rocznie
-
 ---
 
 ### System 3+ (NOWY — wprowadzony przez Rozporządzenie delegowane (UE) 2024/2769, przejęty przez CPR 2024/3110)
@@ -75,8 +69,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Dowolne wyroby, dla których producent chce zwalidować dane środowiskowe przez niezależną jednostkę
 - Wyroby uczestniczące w zamówieniach publicznych z kryteriami zielonymi (GPP — Green Public Procurement)
 - Wyroby wymagające wiarygodnej deklaracji śladu węglowego (GWP) i innych wskaźników środowiskowych
-
-**Koszty**: orientacyjnie 5 000–15 000 PLN za walidację (jednorazowo, ważność 5 lat)
 
 **Kluczowa różnica od pozostałych systemów**: System 3+ nie dotyczy właściwości użytkowych bezpieczeństwa — dotyczy wyłącznie właściwości środowiskowych. Jednostka notyfikowana nie wydaje certyfikatu wyrobu, lecz raport walidacyjny potwierdzający poprawność obliczeń LCA. Raport ten jest elementem DoP&C.
 
@@ -95,8 +87,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Płyty gipsowo-kartonowe
 - Membrany dachowe
 
-**Koszty**: orientacyjnie 5 000–12 000 PLN jednorazowo
-
 ---
 
 ### System 4 (najniższy rygor)
@@ -109,8 +99,6 @@ System AVS (Assessment and Verification Systems) określa **poziom weryfikacji**
 - Armatura sanitarna
 - Osprzęt elektryczny
 - Wyroby o niskim ryzyku
-
-**Koszty**: Tylko koszty wewnętrzne
 
 ---
 
@@ -134,14 +122,14 @@ System AVS **nie jest wybierany przez producenta** - jest określony w:
 
 ## Porównanie systemów
 
-| System | Jednostka notyfikowana | FPC certyfikowana | Badania typu | Koszt/rok |
-|--------|----------------------|------------------|--------------|----------|
-| **1+** | Pełny nadzór | TAK | Jednostka + rynek | 25k-50k |
-| **1** | Pełny nadzór | TAK | Jednostka | 15k-30k |
-| **2+** | Nadzór nad FPC | TAK | Producent | 8k-20k |
-| **3+** ⭐ NOWY | Walidacja danych środow. | NIE | Producent (LCA) | 5k-15k |
-| **3** | Tylko badanie typu | NIE | Jednostka | 5k-12k |
-| **4** | Brak | NIE | Producent | 0 |
+| System | Jednostka notyfikowana | FPC certyfikowana | Badania typu |
+|--------|----------------------|------------------|--------------|
+| **1+** | Pełny nadzór | TAK | Jednostka + rynek |
+| **1** | Pełny nadzór | TAK | Jednostka |
+| **2+** | Nadzór nad FPC | TAK | Producent |
+| **3+** ⭐ NOWY | Walidacja danych środow. | NIE | Producent (LCA) |
+| **3** | Tylko badanie typu | NIE | Jednostka |
+| **4** | Brak | NIE | Producent |
 
 ## Zakładowa Kontrola Produkcji (FPC)
 
@@ -158,7 +146,7 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 - Plan badań
 - Sprzęt firmowy i skalibrowany
 - Działania korygujące
-- Zapisy minimum 5 lat
+- Zapisy minimum 10 lat
 
 ## Zmiany w CPR 2024 względem CPR 305/2011
 
@@ -172,32 +160,9 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 
 > **Uwaga**: CPR 2024 nie zmienia harmonogramu inspekcji — ich częstotliwość określają normy zharmonizowane dla konkretnych wyrobów. Digital DoP&C z CPR 2024 należy odróżniać od Cyfrowego Paszportu Wyrobu (DPP) z rozporządzenia ESPR (EU) 2024/1781 — to dwa różne instrumenty.
 
-## Koszty typowej certyfikacji
-
-> **Zastrzeżenie**: Poniższe kwoty są orientacyjnymi widełkami rynkowymi (dane: 2025/2026, rynek polski). Rzeczywiste koszty zależą od jednostki notyfikowanej, zakresu akredytacji, liczby wyrobów, rodzaju wyrobu i zakresu dokumentacji. Zawsze warto uzyskać wycenę bezpośrednio od wybranej JN.
-
-### System 2+ (przykład: prefabrykaty betonowe)
-
-| Element | Koszt jednorazowy | Koszt roczny |
-|---------|------------------|--------------:|
-| Wstępna inspekcja | 5 000 PLN | - |
-| Certyfikacja FPC | 3 000 PLN | - |
-| Nadzór (2x/rok) | - | 6 000 PLN |
-| Badania laboratoryjne | 2 000 PLN | 3 000 PLN |
-| **SUMA** | **10 000 PLN** | **9 000 PLN** |
-
-### System 3+ (walidacja danych środowiskowych)
-
-| Element | Koszt jednorazowy | Ważność |
-|---------|------------------|---------|
-| Analiza cyklu życia (LCA) / sporządzenie EPD | 8 000 - 20 000 PLN | 5 lat |
-| Walidacja danych przez jednostkę notyfikowaną | 3 000 - 8 000 PLN | 5 lat |
-| Rejestracja EPD w programie (np. EPD-Norge, IBU) — opcjonalnie | 1 000 - 3 000 PLN | 5 lat |
-| **SUMA** | **12 000 - 31 000 PLN** | **5 lat** |
-
 ## Podsumowanie
 
-System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań i kosztów pozwala zaplanować budżet i harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
+System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań pozwala zaplanować harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
 
 ---
 

@@ -65,16 +65,6 @@ Naniesienie oznakowania CE wraz z numerem jednostki notyfikowanej (w formacie: C
 
 EN 14351-1 dopuszcza tzw. kaskadowanie — rozszerzenie deklaracji na wyroby podobne bez konieczności ponownych badań. Warunki kaskadowania określa norma EN 12519.
 
-## Koszty badań ITT
-
-| Zakres badań | Orientacyjny koszt |
-|--------------|-------------------|
-| Pełny zakres (4 właściwości) | 12 000 – 25 000 PLN |
-| Przepuszczalność powietrza + wodoszczelność + wiatr | 6 000 – 12 000 PLN |
-| Izolacyjność termiczna Uw | 3 000 – 5 000 PLN |
-| Izolacyjność akustyczna Rw | 3 500 – 6 000 PLN |
-| Odporność na włamanie RC | 5 000 – 12 000 PLN |
-
 ---
 
 Certyfikacja okien i drzwi to inwestycja, która procentuje w postaci dostępu do wymagających rynków i budowania zaufania klientów. Warto zadbać o kompletność dokumentacji i regularność aktualizacji certyfikatów.

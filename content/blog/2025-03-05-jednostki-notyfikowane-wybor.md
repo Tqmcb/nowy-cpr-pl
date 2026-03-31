@@ -68,16 +68,6 @@ Oficjalna baza jednostek notyfikowanych UE dostępna jest pod adresem: **ec.euro
 
 Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy mogą ulegać zmianom.
 
-## Typowe koszty współpracy (rocznie)
-
-| Typ (CPR 2024) | Certyfikacja wstępna | Nadzór roczny |
-|----------------|---------------------|----------------|
-| AVS 1+ | 20 000 – 50 000 PLN | 8 000 – 15 000 PLN |
-| AVS 1 | 15 000 – 35 000 PLN | 6 000 – 12 000 PLN |
-| AVS 2+ | 8 000 – 20 000 PLN | 4 000 – 8 000 PLN |
-| AVS 3 (badanie ITT przez JN) | 8 000 – 25 000 PLN | – |
-| AVS 3+ (walidacja danych środowiskowych) | 5 000 – 15 000 PLN | – |
-
 ---
 
 Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.

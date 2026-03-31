@@ -127,20 +127,6 @@ Producent, który **sam stwierdzi niezgodność**, może podjąć dobrowolne wyc
 3. Realizuj plan i dokumentuj każdy krok
 4. Złóż sprawozdanie z realizacji
 
-## Koszty wycofania — szacunkowe przykłady
-
-Koszty wycofania mogą być bardzo wysokie:
-
-| Element kosztu | Orientacyjna kwota |
-|---|---|
-| Transport i logistyka | 5 000 – 50 000 zł |
-| Magazynowanie | 1 000 – 10 000 zł/miesiąc |
-| Komunikacja z dystrybutorami | 2 000 – 20 000 zł |
-| Koszty prawne | 10 000 – 100 000 zł |
-| Straty na utylizacji wyrobu | Wartość wycofanej partii |
-| Odszkodowania dla klientów | Indywidualnie negocjowane |
-| Utrata reputacji | Niemierzalne |
-
 ## Jak zapobiegać wycofaniom?
 
 **Prewencja jest wielokrotnie tańsza niż wycofanie:**

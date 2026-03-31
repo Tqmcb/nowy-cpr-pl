@@ -54,13 +54,13 @@ Dla wyrobów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN
 
 **Uwaga:** KOT nie uprawnia do nanoszenia oznakowania CE — jest dokumentem krajowym.
 
-## Koszty i czas realizacji
+## Czas realizacji
 
-| Rodzaj oceny | Czas realizacji | Orientacyjny koszt |
-|--------------|-----------------|-------------------|
-| ETA (nowe EAD) | 18 – 36 miesięcy | 80 000 – 200 000 PLN |
-| ETA (istniejące EAD) | 6 – 12 miesięcy | 30 000 – 80 000 PLN |
-| Krajowa Ocena Techniczna | 3 – 9 miesięcy | 15 000 – 50 000 PLN |
+| Rodzaj oceny | Czas realizacji |
+|--------------|-----------------|
+| ETA (nowe EAD) | 18 – 36 miesięcy |
+| ETA (istniejące EAD) | 6 – 12 miesięcy |
+| Krajowa Ocena Techniczna | 3 – 9 miesięcy |
 
 ---
 

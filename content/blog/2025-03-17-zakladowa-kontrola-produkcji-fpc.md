@@ -56,14 +56,6 @@ Dla systemów AVS 1+, 1 i 2+ – zgodnie z harmonogramem ustalonym z jednostką 
 4. **Brak szkoleń personelu** – pracownicy nieznający wymogów FPC
 5. **Nieaktualne listy dostawców** – brak weryfikacji kwalifikacji podwykonawców
 
-## Koszty wdrożenia i utrzymania
-
-| Element | Koszt |
-|---------|-------|
-| Wdrożenie systemu FPC (od zera) | 15 000 – 40 000 PLN |
-| Utrzymanie roczne (personel + audyty) | 8 000 – 20 000 PLN |
-| Szkolenia pracowników (rocznie) | 3 000 – 8 000 PLN |
-
 ---
 
 Dobrze wdrożony system FPC to nie tylko spełnienie wymogów regulacyjnych — to realne narzędzie poprawy jakości produkcji i redukcji reklamacji. Wdrożenie FPC warto powierzyć firmie z doświadczeniem w branży budowlanej; [Multicert](https://www.multicert.pl) oferuje audyty gotowości, wdrożenie dokumentacji i przygotowanie do inspekcji jednostki notyfikowanej.

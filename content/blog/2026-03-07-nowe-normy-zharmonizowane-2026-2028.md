@@ -58,7 +58,7 @@ Jest to jedna z najważniejszych rodzin norm dla producentów wyrobów budowlany
 **Oczekiwana zmiana:** Komisja Europejska zleciła CEN opracowanie wersji zaktualizowanych, które będą uwzględniały obowiązkową deklarację **śladu węglowego (GWP-total — potencjał globalnego ocieplenia) w zakresie A1–A3** (etap produkcji, zgodnie z EN 15804+A2). Zgodnie z planem prac KE COM(2025) 772, planowane publikacje w OJEU to lata 2027–2029, z okresem koegzystencji wynoszącym 24 miesiące.
 
 **Co to znaczy dla producenta wyrobów izolacyjnych?**
-Będzie konieczne przeprowadzenie **analizy cyklu życia (LCA)** zgodnej z EN 15804+A2, aby obliczyć wartość śladu węglowego (GWP-total). Wyniki mogą być udokumentowane w formie EPD (Deklaracji Środowiskowej Wyrobu) — dokumentu dobrowolnego, ale ułatwiającego spełnienie wymogów. Koszty analizy LCA i sporządzenia EPD wahają się zazwyczaj od 10 000 do 30 000 PLN w zależności od złożoności wyrobu.
+Będzie konieczne przeprowadzenie **analizy cyklu życia (LCA)** zgodnej z EN 15804+A2, aby obliczyć wartość śladu węglowego (GWP-total). Wyniki mogą być udokumentowane w formie EPD (Deklaracji Środowiskowej Wyrobu) — dokumentu dobrowolnego, ale ułatwiającego spełnienie wymogów.
 
 ---
 

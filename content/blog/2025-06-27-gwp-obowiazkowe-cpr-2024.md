@@ -81,7 +81,7 @@ Większość z tych danych powinna być dostępna w Twoim systemie zarządzania 
 - wyspecjalizowane firmy konsultingowe ds. zrównoważonego budownictwa
 - platformy cyfrowe (SimaPro, OpenLCA, GaBi z bazami danych ekoinwentaryzacji)
 
-Koszt obliczeń LCA dla typowego wyrobu budowlanego: **3 000–15 000 PLN** w zależności od złożoności.
+Skontaktuj się z wybranym podmiotem, aby uzyskać wycenę dla swojego wyrobu.
 
 ### Krok 3: Walidacja przez jednostkę notyfikowaną (opcjonalnie — System AVS 3+)
 

@@ -70,15 +70,6 @@ Poniższe wskaźniki opisują wpływ wyrobu na środowisko. CPR 2024 wymaga doce
 | **ADPE** | Wyczerpywanie zasobów nieodnawialnych | kg Sb eq |
 | **ADPF** | Zużycie paliw kopalnych | MJ |
 
-## Koszty EPD
-
-| Element | Koszt |
-|---------|-------|
-| Analiza LCA | 15 000 - 40 000 PLN |
-| Weryfikacja  | 8 000 - 20 000 PLN |
-| Rejestracja w programie | 2 000 - 5 000 PLN |
-| **RAZEM** | **25 000 - 65 000 PLN** |
-
 Ważność EPD: **5 lat**
 
 ## Programy EPD w Polsce i Europie

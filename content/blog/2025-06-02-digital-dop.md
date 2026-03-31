@@ -66,14 +66,6 @@ Nowością w DoP&C jest konieczność uwzględnienia **danych środowiskowych** 
 
 Dane te mogą być weryfikowane przez **System AVS 3+** (nowy system w CPR 2024 przeznaczony do walidacji danych środowiskowych) — jednostka notyfikowana sprawdza poprawność obliczeń LCA i wydaje raport walidacyjny.
 
-## Koszty implementacji
-
-- **Oprogramowanie** do generowania XML DoP&C: 3 000 - 8 000 PLN (jednorazowo)
-- **Hosting repozytorium** i API: 1 000 - 3 000 PLN/rok
-- **QR kody** na etykietach: 0,10 - 0,50 PLN/szt.
-- **Szkolenia** zespołu: 2 000 - 5 000 PLN
-- **Migracja** istniejących DoP do formatu DoP&C: 3 000 - 15 000 PLN
-
 ## Dostawcy rozwiązań Digital DoP&C
 
 Europejskie platformy DoP&C:

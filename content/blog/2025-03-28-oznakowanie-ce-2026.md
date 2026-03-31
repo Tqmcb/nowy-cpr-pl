@@ -110,13 +110,6 @@ Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
 - [ ] Zamówić nowe etykiety CE przed 8 stycznia 2026
 - [ ] Zgłosić zmiany do jednostki notyfikowanej (aktualizacja certyfikatu AVS)
 
-## Koszty przejścia
-
-- Projekt nowej etykiety CE z QR kodem: 2 000 - 5 000 PLN
-- Druk etykiet z QR: +0,15 - 0,40 PLN/szt.
-- Wdrożenie Digital DoP&C (setup + hosting): 3 000 - 10 000 PLN
-- Aktualizacja certyfikatów (AVCP → AVS): uzgodnij z JN
-
 ## Podsumowanie chronologii
 
 | Co? | Kiedy? |

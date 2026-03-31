@@ -89,11 +89,6 @@ Initial Type Testing (ITT) — wstępne badanie typu — to badania wykonywane n
 - Badania mogą być przeprowadzane przez laboratorium notyfikowane (wymagane w systemach 1+, 1, 3) lub przez akredytowane laboratorium wewnętrzne producenta albo zewnętrzne (w systemie 4).
 - Zakres badań określa Załącznik ZA normy.
 
-**Koszty ITT:** Zależą od liczby i rodzaju badań. Przykładowo:
-- Badanie reakcji na ogień wg EN 13501-1: 3 000–8 000 PLN za klasę wyrobu.
-- Kompletne ITT dla stolarki okiennej (EN 14351-1): 15 000–40 000 PLN.
-- ITT dla systemu ociepleń ETICS: 20 000–60 000 PLN.
-
 **Ważne:** Wyniki ITT muszą być udokumentowane w raporcie z badań. Raport ten jest podstawą do sporządzenia DoP&C i stanowi część dokumentacji technicznej, którą producent przechowuje przez 10 lat.
 
 ---
