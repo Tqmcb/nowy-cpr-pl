@@ -4,7 +4,7 @@ date: "2026-03-31"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GPP", "zielone zamówienia publiczne", "GWP", "CPR 2024", "EPD", "przetargi"]
-excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy formalne podstawy do stosowania wskaźników środowiskowych, takich jak GWP, jako kryteriów oceny ofert w przetargach — a producenci bez EPD mogą wkrótce być wykluczani z dużych projektów."
+excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy ramy prawne dla przyszłego obowiązku deklarowania GWP, jednak jego wejście w życie wymaga jeszcze norm zharmonizowanych i aktów delegowanych. Już dziś jednak EPD jest wymagane na rynkach eksportowych i w projektach unijnych — i to niezależnie od CPR."
 image_url: /images/blog/gpp-zielone-zamowienia-publicz.jpg
 template: "analiza"
 ---
@@ -21,11 +21,13 @@ Sektor budowlany odpowiada za około 40% zużycia energii w UE i blisko 36% emis
 
 ## CPR 2024 a podstawy prawne deklarowania właściwości środowiskowych
 
-CPR 2024/3110 wprowadza szereg zmian, które mają bezpośrednie przełożenie na GPP. Najważniejszą z nich jest formalizacja **charakterystyk środowiskowych wyrobu budowlanego** jako pełnoprawnych właściwości użytkowych, które mogą (a w przyszłości — będą musiały) być deklarowane w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
+> **Stan prawny (marzec 2026):** CPR 2024/3110 obowiązuje od 8 stycznia 2026 roku, jednak **obowiązek deklarowania właściwości środowiskowych, w tym GWP, nie jest jeszcze aktywny**. Jego wejście w życie wymaga: (1) przyjęcia przez Komisję Europejską **aktów delegowanych** wskazujących, które wyroby i kiedy muszą deklarować GWP, oraz (2) opublikowania **norm zharmonizowanych** definiujących metodykę obliczeń dla poszczególnych grup wyrobów. Prace nad obiema ścieżkami są w toku, jednak żadna z nich nie została jeszcze zakończona. EPD pozostaje dziś dokumentem **dobrowolnym** — z wyjątkiem wymagań nałożonych przez krajowe przepisy budowlane lub warunki programów finansowania (patrz niżej).
 
-Wśród tych charakterystyk centralne miejsce zajmuje **GWP (ang. *Global Warming Potential*, potencjał globalnego ocieplenia)**, wyrażany w kg CO2 ekwiwalentnym na jednostkę funkcjonalną wyrobu. GWP jest obliczany metodą oceny cyklu życia (LCA) zgodnie z normą EN 15804+A2 i wykazywany w Deklaracji Środowiskowej Wyrobu (EPD).
+CPR 2024/3110 tworzy ramy prawne, które mają bezpośrednie przełożenie na GPP. Rozporządzenie po raz pierwszy formalnie włącza **charakterystyki środowiskowe wyrobu budowlanego** do katalogu właściwości użytkowych — obok nośności, odporności ogniowej czy izolacyjności termicznej. Oznacza to, że gdy stosowne akty delegowane i normy zharmonizowane zostaną przyjęte, producenci będą zobowiązani do deklarowania tych charakterystyk w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C).
 
-Dzięki CPR 2024 dane GWP z EPD zyskują status danych zweryfikowanych przez niezależną stronę trzecią i zawartych w oficjalnym dokumencie regulowanym prawem UE. To przełom: do tej pory EPD były dokumentami dobrowolnymi, często traktowanymi przez zamawiających z rezerwą. Nowe rozporządzenie nadaje im systemową wiarygodność.
+Wśród tych charakterystyk centralne miejsce zajmuje **GWP (ang. *Global Warming Potential*, potencjał globalnego ocieplenia)**, wyrażany w kg CO2 ekwiwalentnym na jednostkę funkcjonalną wyrobu. GWP oblicza się metodą oceny cyklu życia (LCA) zgodnie z normą EN 15804+A2 i wykazuje w Deklaracji Środowiskowej Wyrobu (EPD).
+
+CPR 2024 tworzy więc solidny fundament prawny dla przyszłego obowiązkowego deklarowania GWP — jednak sama deklaracja EPD pozostaje na razie dobrowolna. Presja rynkowa ze strony zamawiających, funduszy unijnych i rynków eksportowych wyprzedza dziś tempo legislacji.
 
 ## Jak GWP staje się kryterium przetargowym
 
@@ -56,7 +58,7 @@ Polski producent nie musi stosować się do tych przepisów na własnym rynku. A
 
 W Polsce podstawą prawną GPP jest **ustawa Prawo zamówień publicznych z 2021 roku** (Dz.U. 2021 poz. 1129 ze zm.). Artykuł 246 PZP nakłada na zamawiających obowiązek stosowania kryterium najlepszego stosunku ceny do jakości, w ramach którego dopuszczalne jest uwzględnianie kryteriów środowiskowych. Ustawa nie narzuca jednak konkretnych wskaźników GWP ani minimalnych progów EPD — ich zastosowanie zależy od decyzji zamawiającego.
 
-Równoległą podstawę stanowi **CPR 2024/3110** jako rozporządzenie UE stosowane bezpośrednio w Polsce od 8 stycznia 2026 roku — bez potrzeby transpozycji do prawa krajowego. CPR 2024 formalizuje GWP jako właściwość użytkową wyrobu budowlanego deklarowaną w DoP&C, co daje zamawiającym publicznym narzędzie do porównywania ofert na podstawie udokumentowanego śladu węglowego.
+Równoległą podstawę stanowi **CPR 2024/3110** jako rozporządzenie UE stosowane bezpośrednio w Polsce od 8 stycznia 2026 roku — bez potrzeby transpozycji do prawa krajowego. CPR 2024 włącza GWP do katalogu właściwości użytkowych wyrobu budowlanego, jednak **obowiązek jego deklarowania w DoP&C stanie się skuteczny dopiero po przyjęciu odpowiednich norm zharmonizowanych i aktów delegowanych**. Zamawiający publiczni mogą już dziś wymagać EPD jako kryterium przetargowego na podstawie PZP — jednak nie wynika to jeszcze wprost z CPR, lecz z autonomicznej decyzji zamawiającego.
 
 **Gdzie GPP pojawia się już dziś w Polsce:**
 
