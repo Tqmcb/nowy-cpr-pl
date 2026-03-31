@@ -268,6 +268,12 @@ export const AUTHORS: Record<string, Author> = {
         description: "Wymagania FPC w CPR 2024/3110 — co musi zawierać system ZKP i jak przebiega inspekcja JN.",
         url: "/blog/fpc-zakladowa-kontrola-produkcji",
       },
+      {
+        title: "Druk 3D i addytywne wytwarzanie wyrobów budowlanych — jak uzyskać CE bez normy zharmonizowanej",
+        year: 2026,
+        description: "Ścieżka certyfikacji ETA dla innowacyjnych wyrobów z druku 3D — betonów drukowanych, prefabrykatów i elementów addytywnych.",
+        url: "/blog/druk-3d-cpr-2024",
+      },
     ],
   },
 };
