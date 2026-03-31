@@ -1,5 +1,6 @@
 ---
 title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i wdrożenie"
+reviewed: "2026-03-31"
 date: "2025-03-17"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
@@ -57,5 +58,17 @@ Dla systemów AVS 1+, 1 i 2+ – zgodnie z harmonogramem ustalonym z jednostką 
 5. **Nieaktualne listy dostawców** – brak weryfikacji kwalifikacji podwykonawców
 
 ---
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+W pracy audytorskiej spotykam dwie skrajne postawy wobec FPC. Pierwsza: FPC traktowana jako zbiór dokumentów do pokazania jednostce notyfikowanej raz w roku — i odkładana na półkę. Druga: FPC wbudowana realnie w procesy produkcyjne, której pracownicy używają na co dzień i którą rozumieją. Różnica w efektach podczas audytu JN jest kolosalna.
+
+Najczęstszy problem, jaki widzę podczas inspekcji wstępnych przed certyfikacją, to **niezgodność dokumentacji FPC z rzeczywistą praktyką produkcyjną**. Procedury są napisane poprawnie, ale zakład produkuje trochę inaczej — bo tak jest szybciej albo bo maszyna już dawno przestała robić to, co napisano w procedurze. JN podczas inspekcji rozmawia z pracownikami linii produkcyjnej, nie tylko z menedżerem jakości. Jeśli pracownik nie zna procedury albo robi coś inaczej, audytor to zauważy.
+
+Drugi element, który systematycznie sprawia kłopoty: kalibracje. Świadectwa wzorcowania przyrządów pomiarowych z przekroczonym terminem ważności to prosta niezgodność, którą można łatwo uniknąć, ustawiając przypomnienie w kalendarzu. A koszt opóźnionej recertyfikacji przyrządu jest wielokrotnie niższy niż koszty opóźnienia certyfikacji całego wyrobu.
 
 Dobrze wdrożony system FPC to nie tylko spełnienie wymogów regulacyjnych — to realne narzędzie poprawy jakości produkcji i redukcji reklamacji. Wdrożenie FPC warto powierzyć firmie z doświadczeniem w branży budowlanej; [Multicert](https://www.multicert.pl) oferuje audyty gotowości, wdrożenie dokumentacji i przygotowanie do inspekcji jednostki notyfikowanej.

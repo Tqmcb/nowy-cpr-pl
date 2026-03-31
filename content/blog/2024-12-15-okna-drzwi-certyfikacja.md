@@ -1,5 +1,6 @@
 ---
 title: "Okna i drzwi - certyfikacja według EN 14351-1"
+reviewed: "2026-03-31"
 date: "2024-12-15"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"

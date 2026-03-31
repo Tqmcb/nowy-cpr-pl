@@ -1,5 +1,6 @@
 ---
 title: "Digital DoP&C - Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (CPR 2024)"
+reviewed: "2026-03-31"
 date: "2025-06-02"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
@@ -7,6 +8,9 @@ tags: ["Digital DoP&C", "DoP&C", "cyfryzacja", "XML", "dokumentacja", "CPR 2024"
 excerpt: "CPR 2024/3110 zastępuje DoP cyfrową DoP&C (Deklaracją Właściwości Użytkowych i Zgodności). Format XML, QR kody, repozytoria cyfrowe. Jak się przygotować i jakie są wymagania techniczne?"
 image_url: /images/blog/digital-dop.jpg
 template: "aktualnosci"
+sources:
+  - Rozporządzenie (UE) 2024/3110 art. 7–9 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - EUR-Lex — akty delegowane KE do CPR 2024|https://eur-lex.europa.eu/search.html?query=2024/3110&DB_TYPE_OF_ACT=regulation
 ---
 
 # Digital DoP&C — Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności

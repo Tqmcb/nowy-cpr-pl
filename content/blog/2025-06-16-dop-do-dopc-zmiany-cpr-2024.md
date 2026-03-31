@@ -1,5 +1,6 @@
 ---
 title: "DoP → DoP&C: co konkretnie się zmieniło w deklaracji właściwości użytkowych w CPR 2024"
+reviewed: "2026-03-31"
 date: "2025-06-16"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

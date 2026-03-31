@@ -1,5 +1,6 @@
 ---
 title: "Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) — szablon i wyjaśnienie każdego pola"
+reviewed: "2026-03-31"
 date: "2026-02-16"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

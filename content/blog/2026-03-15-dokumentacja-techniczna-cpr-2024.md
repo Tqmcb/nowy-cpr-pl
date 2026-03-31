@@ -1,5 +1,6 @@
 ---
 title: "Dokumentacja techniczna wyrobu budowlanego — co musi zawierać i jak długo przechowywać (CPR 2024)"
+reviewed: "2026-03-31"
 date: "2026-03-15"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

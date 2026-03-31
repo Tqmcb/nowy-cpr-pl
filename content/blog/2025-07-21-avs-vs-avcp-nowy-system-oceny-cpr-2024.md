@@ -1,5 +1,6 @@
 ---
 title: "AVS zamiast AVCP — nowy system oceny wyrobów budowlanych w CPR 2024 porównany ze starym"
+reviewed: "2026-03-31"
 date: "2025-07-21"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

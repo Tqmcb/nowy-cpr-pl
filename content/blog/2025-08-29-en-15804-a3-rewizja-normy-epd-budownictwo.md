@@ -1,5 +1,6 @@
 ---
 title: "EN 15804+A3: nadchodząca rewizja kluczowej normy EPD dla budownictwa"
+reviewed: "2026-03-31"
 date: "2025-08-29"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"

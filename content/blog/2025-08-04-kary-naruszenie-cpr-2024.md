@@ -1,5 +1,6 @@
 ---
 title: "Kary za naruszenie CPR 2024 — co grozi producentowi za brak CE i DoP&C"
+reviewed: "2026-03-31"
 date: "2025-08-04"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -85,6 +86,20 @@ Praktyczne działania minimalizujące ryzyko sankcji:
 - **Monitoring zmian normalizacyjnych** — gdy norma zharmonizowana jest aktualizowana, wymagania mogą się zmienić
 - **Archiwizacja** — dokumentacja musi być przechowywana przez minimum 10 lat od daty dostarczenia wyrobu (art. 20 ust. 4 CPR 2024/3110)
 - **Szkolenie pracowników** — osoby odpowiedzialne za certyfikację muszą znać wymagania CPR 2024
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+Sankcje art. 92 CPR 2024 brzmią poważnie — i słusznie. Ale w rozmowach z producentami zauważam, że samo istnienie przepisów sankcyjnych rzadko zmienia zachowanie. Zmienia je dopiero pierwsza kontrola GUNB lub — co gorsza — alert Safety Gate z innego kraju UE dotyczący własnego wyrobu.
+
+Chcę podkreślić jeden aspekt, który jest często pomijany: **kara finansowa to zazwyczaj mniejszy problem niż koszty wycofania wyrobu z rynku**. Jeden produkt z nieprawidłowym oznakowaniem CE, który trafił do 50 dystrybutorów w 5 krajach UE, może generować koszty operacyjne wycofania wielokrotnie wyższe niż sama sankcja administracyjna. Safety Gate działa sprawnie — alert w jednym kraju automatycznie uruchamia weryfikację u pozostałych organów nadzoru.
+
+Szczególnie niepokojące jest to, co obserwuję u małych i średnich producentów: DoP&C jest sporządzona, ale nieaktualizowana od 3–5 lat, mimo zmian w wyrobie lub normie. To właśnie ten scenariusz — nie brak certyfikatu, ale nieaktualna dokumentacja — jest najczęstszym powodem wszczęcia postępowania naprawczego przez GUNB.
+
+Prosty przepis na spokój: wyznaczyć jedną osobę odpowiedzialną za śledzenie zmian norm i aktualizację DoP&C. To zajmuje kilka godzin rocznie i kosztuje wielokrotnie mniej niż jakiekolwiek postępowanie nadzorcze.
 
 ## Podsumowanie
 

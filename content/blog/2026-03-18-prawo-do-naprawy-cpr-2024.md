@@ -1,5 +1,6 @@
 ---
 title: "Prawo do naprawy i trwałość wyrobów budowlanych — nowe obowiązki producenta w CPR 2024"
+reviewed: "2026-03-31"
 date: "2026-03-18"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

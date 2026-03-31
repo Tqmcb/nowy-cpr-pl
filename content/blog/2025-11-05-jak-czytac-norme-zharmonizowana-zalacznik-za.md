@@ -1,5 +1,6 @@
 ---
 title: "Jak czytać normę zharmonizowaną — przewodnik po Załączniku ZA"
+reviewed: "2026-03-31"
 date: "2025-11-05"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

@@ -1,5 +1,6 @@
 ---
 title: "Etykietowanie środowiskowe a CPR 2024 — Ecolabel, EPD i deklaracje środowiskowe"
+reviewed: "2026-03-31"
 date: "2026-02-02"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"

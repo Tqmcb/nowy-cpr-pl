@@ -1,5 +1,6 @@
 ---
 title: "Checklist producenta wyrobów budowlanych na 2026 — co musisz mieć gotowe"
+reviewed: "2026-03-31"
 date: "2025-10-17"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

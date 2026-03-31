@@ -1,5 +1,6 @@
 ---
 title: "CPR 2024 w pełni obowiązuje od 8 stycznia 2026 — co to oznacza dla producentów?"
+reviewed: "2026-03-31"
 date: "2026-01-12"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"

@@ -1,5 +1,6 @@
 ---
 title: "Paszport wyrobu budowlanego — czym jest i kiedy stanie się obowiązkowy"
+reviewed: "2026-03-31"
 date: "2025-04-18"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"

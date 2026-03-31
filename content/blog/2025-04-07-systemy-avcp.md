@@ -1,5 +1,6 @@
 ---
 title: "Systemy AVS – Ocena i Weryfikacja Wyrobów Budowlanych (CPR 2024/3110)"
+reviewed: "2026-03-31"
 date: "2025-04-07"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
@@ -7,6 +8,10 @@ tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane", "CPR 20
 excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego wyrobu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."
 image_url: /images/blog/systemy-avcp.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie delegowane (UE) 2024/2769 — EUR-Lex|https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R2769
+  - Baza NANDO — jednostki notyfikowane|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # Systemy AVS – Ocena i Weryfikacja Wyrobów Budowlanych (CPR 2024/3110)
@@ -159,6 +164,20 @@ Systemy 1+, 1, 2+ wymagają FPC - procedur zapewniających:
 - Obowiązek deklarowania wskaźników środowiskowych — osobno dla każdej rodziny wyrobów, bez jednej globalnej daty granicznej
 
 > **Uwaga**: CPR 2024 nie zmienia harmonogramu inspekcji — ich częstotliwość określają normy zharmonizowane dla konkretnych wyrobów. Digital DoP&C z CPR 2024 należy odróżniać od Cyfrowego Paszportu Wyrobu (DPP) z rozporządzenia ESPR (EU) 2024/1781 — to dwa różne instrumenty.
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+W praktyce certyfikacyjnej najczęściej spotykam się z jednym zasadniczym nieporozumieniem: producenci próbują „wybrać" system AVS, który im odpowiada — zazwyczaj niższy, bo tańszy i szybszy. Tymczasem system AVS nie jest przedmiotem negocjacji. Załącznik ZA normy zharmonizowanej określa go jednoznacznie i nie ma tu pola manewru.
+
+Nowym elementem, który napotykamy coraz częściej w pytaniach ze strony producentów, jest System 3+. Tutaj odwrotnie — wielu producentów nie wie, że w ogóle istnieje albo myśli, że jest obowiązkowy. System 3+ jest **dobrowolny** i służy wyłącznie walidacji danych środowiskowych (LCA). Dla producenta, który stara się o zielone zamówienia publiczne lub buduje swoją pozycję w segmencie budownictwa niskoemisyjnego, może to być realna przewaga — ale trzeba zdawać sobie sprawę, że jednostka notyfikowana wydaje tu raport walidacyjny, a nie certyfikat wyrobu.
+
+Jedno praktyczne spostrzeżenie dotyczące Systemu 2+: audytorzy JN podczas inspekcji FPC szczególnie uważnie sprawdzają **identyfikowalność partii**. Producenci, którzy prowadzą dokumentację w Excelu lub „na karteczkach", mają z tym duże problemy. Inwestycja w prosty system identyfikacji partii produkcyjnej oszczędza czas i nerwy podczas każdej kolejnej wizyty audytora.
+
+---
 
 ## Podsumowanie
 

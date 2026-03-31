@@ -1,5 +1,6 @@
 ---
 title: "Nowe i aktualizowane normy zharmonizowane 2026–2028 — co się zmieni dla których wyrobów"
+reviewed: "2026-03-31"
 date: "2026-03-07"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
@@ -7,6 +8,11 @@ tags: ["normy zharmonizowane", "aktualizacje norm", "CPR 2024", "2027", "2028"]
 excerpt: "Wdrożenie CPR 2024/3110 pociąga za sobą falę aktualizacji norm zharmonizowanych dla wyrobów budowlanych. Zmiany obejmą m.in. wyroby izolacyjne (dodanie wskaźnika GWP), stolarkę okienną i drzwiową oraz wyroby do oceny cyklu życia. Omawiamy, czego spodziewać się w latach 2026–2028 i jak producenci powinni się przygotować."
 image_url: /images/blog/nowe-normy-zharmonizowane-2026.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - CEN — baza norm i plan prac|https://www.cen.eu/work/ENdev/whatisEN/Pages/default.aspx
+  - PKN — wyszukiwarka norm PN-EN|https://www.pkn.pl
+  - EN 15804+A2 — EPD metodologia LCA|https://www.pkn.pl
 ---
 
 ## Dlaczego normy zharmonizowane są aktualizowane — i dlaczego teraz?

@@ -1,5 +1,6 @@
 ---
 title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
+reviewed: "2026-03-31"
 date: "2025-03-05"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
@@ -69,6 +70,18 @@ Oficjalna baza jednostek notyfikowanych UE dostępna jest pod adresem: **ec.euro
 Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy mogą ulegać zmianom.
 
 ---
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+Baza NANDO bywa myląca dla producentów, którzy nie mają doświadczenia z jej obsługą. Zakres notyfikacji jest opisany technicznie — numerami norm EN — i wymaga pewnej wiedzy, żeby prawidłowo zinterpretować, czy dana JN jest uprawniona akurat dla Twojego wyrobu. Widziałem sytuacje, w których producent podpisał umowę z jednostką, która formalnie nie miała odpowiedniej notyfikacji dla jego normy — całą certyfikację trzeba było powtarzać.
+
+Drugi ważny aspekt to różnica między jednostką notyfikowaną a laboratorium akredytowanym. Producenci często mylą te dwie role. Laboratorium może przeprowadzić badania ITT — ale tylko JN z odpowiednią notyfikacją może wydać certyfikat FPC lub certyfikat wyrobu. W systemie AVS 3 to JN (a nie laboratorium badawcze) wydaje certyfikat właściwości użytkowych na podstawie oceny dokumentacji — to istotna zmiana w stosunku do starego AVCP 3.
+
+Z praktycznego punktu widzenia: zawsze warto zapytać potencjalną JN o referencje i liczbę aktywnych certyfikatów w Twojej branży. Jednostka, która ma setki certyfikatów dla podobnych wyrobów, będzie sprawniejsza i zazwyczaj lepiej rozumie specyfikę Twojej produkcji niż taka, dla której to nowy zakres.
 
 Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.
 

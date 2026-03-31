@@ -1,5 +1,6 @@
 ---
 title: "Beton i prefabrykaty betonowe - specyficzne wymagania CPR"
+reviewed: "2026-03-31"
 date: "2025-01-08"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"

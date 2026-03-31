@@ -1,5 +1,6 @@
 ---
 title: "Nadzór rynku GUNB w 2026 — na co zwracają uwagę inspektorzy pod CPR 2024?"
+reviewed: "2026-03-31"
 date: "2026-01-22"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -7,6 +8,10 @@ tags: ["GUNB", "nadzór rynku", "kontrole", "CPR 2024", "oznakowanie CE"]
 excerpt: "GUNB prowadzi kontrole wyrobów budowlanych na podstawie CPR 2024/3110. Poznaj najczęstsze nieprawidłowości, prawa i obowiązki producenta podczas kontroli oraz jak się do niej przygotować."
 image_url: /images/blog/kontrole-gunb-cpr-2024.jpg
 template: "praktyczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
 ---
 
 # Nadzór rynku GUNB 2026 — jak przebiega kontrola?

@@ -1,5 +1,6 @@
 ---
 title: "Nadzór rynku wyrobów budowlanych - GUNB i kontrole"
+reviewed: "2026-03-31"
 date: "2025-02-24"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -85,5 +86,17 @@ Odpowiedzialność karna (do 2 lat pozbawienia wolności) w przypadku:
 4. Prowadź rejestr wyrobów wprowadzanych do obrotu
 
 ---
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+Doradczo uczestniczyłem w kilkunastu kontrolach GUNB po stronie podmiotów kontrolowanych. Z tego doświadczenia wynika jedna zasadnicza obserwacja: większość problemów podczas kontroli nie wynika z faktycznej niezgodności wyrobu, lecz z **niemożności natychmiastowego okazania dokumentów**. Inspektor ma ograniczony czas. Jeśli dokumenty nie są pod ręką, zorganizowane i aktualne, kontrola automatycznie obraca się na niekorzyść kontrolowanego.
+
+Drugi istotny aspekt to kwestia kompetencji osoby, która reprezentuje firmę podczas kontroli. Pracownik nieznający CPR 2024, podstawowych pojęć (DoP&C, AVS, FPC) i zakresu swoich obowiązków może nieświadomie skomplikować sytuację — np. składając nieprecyzyjne wyjaśnienia, które inspektor może interpretować jako niezgodność. Rekomendowałbym każdej firmie wyznaczenie jednej osoby odpowiedzialnej za certyfikację i regularne szkolenie jej z aktualnych wymagań.
+
+Warto też wiedzieć, że GUNB korzysta z informacji z Safety Gate — alertów zgłaszanych przez organy innych państw UE. Wyrób, który wrócił z Niemiec lub Francji z alertem w Safety Gate, może być priorytetem do kontroli w Polsce nawet bez dodatkowej skargi. Monitoring Safety Gate w kategorii własnych wyrobów to dobra praktyka, którą polecam każdemu producentowi.
 
 Kontrole GUNB są nieodłącznym elementem rynku budowlanego. Traktuj je nie jako zagrożenie, ale jako motywację do utrzymywania wysokich standardów dokumentacji i jakości wyrobów.

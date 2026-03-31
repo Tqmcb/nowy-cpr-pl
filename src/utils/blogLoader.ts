@@ -77,11 +77,13 @@ export interface BlogPost {
     author: string;
     published_at: string;
     updated_at?: string;
+    reviewed?: string;
     is_published: boolean;
     category: string;
     image_url: string;
     tags?: string[];
     template?: string;
+    sources?: string[];
 }
 
 export interface BlogMetadata {
@@ -93,6 +95,8 @@ export interface BlogMetadata {
     excerpt: string;
     image_url: string;
     template?: string;
+    reviewed?: string;
+    sources?: string[];
 }
 
 /**
@@ -128,11 +132,13 @@ export async function getAllPosts(): Promise<BlogPost[]> {
                     author: metadata.author,
                     published_at: metadata.date,
                     updated_at: metadata.updated ?? undefined,
+                    reviewed: metadata.reviewed ?? undefined,
                     is_published: true,
                     category: metadata.category,
                     image_url: metadata.image_url,
                     tags: Array.isArray(metadata.tags) ? metadata.tags : [],
                     template: metadata.template,
+                    sources: Array.isArray(metadata.sources) ? metadata.sources : undefined,
                 });
             } catch (err) {
                 console.error(`Error parsing ${path}:`, err);

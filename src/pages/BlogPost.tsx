@@ -397,6 +397,15 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
               </dd>
             </div>
           )}
+          {post.reviewed && (
+            <div>
+              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Zweryfikowano</dt>
+              <dd className="text-sm flex items-center gap-2 text-emerald-700 font-medium">
+                <CheckSquare className="w-3.5 h-3.5 shrink-0" />
+                {formatDate(post.reviewed)}
+              </dd>
+            </div>
+          )}
           {post.category && (
             <div>
               <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
@@ -424,6 +433,31 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
               </span>
             ))}
           </div>
+        </div>
+      )}
+      {post.sources && post.sources.length > 0 && (
+        <div className="bg-white border border-slate-200 rounded-2xl p-5">
+          <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+            <BookOpen className="w-3.5 h-3.5 text-[#1a56a0]" /> Źródła
+          </h4>
+          <ul className="space-y-2">
+            {post.sources.map((source, i) => {
+              const [label, url] = source.includes('|') ? source.split('|') : [source, source];
+              return (
+                <li key={i}>
+                  <a
+                    href={url.trim()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-1.5 text-xs text-[#1a56a0] hover:text-[#1a3d6b] transition-colors leading-snug"
+                  >
+                    <ExternalLink className="w-3 h-3 shrink-0 mt-0.5" />
+                    {label.trim()}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       )}
       <div className="bg-[#1a56a0]/5 border border-[#1a56a0]/20 rounded-2xl p-5">

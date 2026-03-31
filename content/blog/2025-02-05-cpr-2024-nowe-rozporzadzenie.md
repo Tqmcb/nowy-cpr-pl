@@ -1,5 +1,6 @@
 ---
 title: "CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych"
+reviewed: "2026-03-31"
 date: "2025-02-05"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -7,6 +8,10 @@ tags: ["CPR", "2024", "regulacje", "nowe wymagania", "AVS", "DoP&C"]
 excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram wdrożenia do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."
 image_url: /images/blog/cpr-2024-nowe-rozporzadzenie.jpg
 template: "regulacja"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - CPR 305/2011 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - PKN — normy zharmonizowane CPR|https://www.pkn.pl
 ---
 
 # CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych

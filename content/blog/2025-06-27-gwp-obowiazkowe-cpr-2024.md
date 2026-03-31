@@ -1,5 +1,6 @@
 ---
 title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
+reviewed: "2026-03-31"
 date: "2025-06-27"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
@@ -7,6 +8,9 @@ tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe
 excerpt: "CPR 2024/3110 planuje obowiązkowe deklarowanie GWP — ale dopiero po opublikowaniu nowej normy zharmonizowanej dla Twojej grupy wyrobów i zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie wyszła. Dowiedz się jak działa ten mechanizm i dlaczego warto zbierać dane już teraz."
 image_url: /images/blog/gwp-obowiazkowe-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 art. 19–21 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - EN 15804+A2 — metodologia LCA dla wyrobów budowlanych|https://www.pkn.pl
 ---
 
 # GWP w CPR 2024 — jak przygotować się już teraz
@@ -126,6 +130,20 @@ Tak, zmiana kluczowego surowca (np. dostawcy cementu w betonie) może istotnie z
 
 **Gdzie będzie można porównywać GWP różnych wyrobów budowlanych?**
 KE planuje europejski rejestr EPD/DPP, który umożliwi porównywanie wyrobów po wskaźnikach środowiskowych. Polska baza EPD jest w fazie tworzenia.
+
+---
+
+## Komentarz eksperta
+
+*dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
+
+Obserwuję w branży pewne rozchwianie między dwoma skrajnymi postawami wobec GWP. Część producentów bagatelizuje temat: „to jeszcze daleko, normy nie ma, nic nie muszę". Druga część podchodzi panicznie: „muszę mieć EPD już teraz albo stracę rynek". Prawda, jak zwykle, leży pośrodku.
+
+Mechanizm uruchomienia obowiązku GWP jest precyzyjnie opisany w CPR 2024/3110 — aktywuje się dopiero po publikacji zaktualizowanej normy zharmonizowanej dla danej rodziny wyrobów i po zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie weszła jeszcze w życie. To oznacza, że **nie istnieje dziś żaden producent wyrobów budowlanych, który jest prawnie zobowiązany do deklarowania GWP** na mocy CPR 2024/3110.
+
+Jednak — i to jest kluczowe — zbieranie danych do LCA jest procesem długotrwałym i kosztownym. Producenci, którzy zaczną teraz: zbierać faktury energetyczne, weryfikować dane emisyjne dostawców surowców i kontaktować się z centrum badań EPD, będą w nieporównanie lepszej pozycji gdy obowiązek w końcu nadejdzie. Ci, którzy poczekają do ostatniej chwili, zapłacą wielokrotnie więcej i zrobią to pod presją czasu.
+
+Mój praktyczny wniosek: **zacznij zbierać dane energetyczne i surowcowe już teraz**, nawet jeśli formalna EPD jeszcze nie jest wymagana. To inwestycja, która z każdym rokiem procentuje.
 
 ## Podsumowanie
 

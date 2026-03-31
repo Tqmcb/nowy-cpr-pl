@@ -1,5 +1,6 @@
 ---
 title: "Zharmonizowane normy europejskie (hEN) - aktualizacje 2026"
+reviewed: "2026-03-31"
 date: "2025-04-28"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

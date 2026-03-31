@@ -1,5 +1,6 @@
 ---
 title: "FPC — Zakładowa Kontrola Produkcji w małym zakładzie produkcyjnym krok po kroku"
+reviewed: "2026-03-31"
 date: "2025-05-21"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

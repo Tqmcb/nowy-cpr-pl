@@ -1,5 +1,6 @@
 ---
 title: "System AVS 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną"
+reviewed: "2026-03-31"
 date: "2025-12-03"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"

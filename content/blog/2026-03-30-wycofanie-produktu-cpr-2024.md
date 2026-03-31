@@ -1,5 +1,6 @@
 ---
 title: "Wycofanie wyrobu budowlanego z rynku — procedura, RAPEX i środki naprawcze GUNB (CPR 2024)"
+reviewed: "2026-03-31"
 date: "2026-03-30"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -7,6 +8,10 @@ tags: ["wycofanie wyrobu", "RAPEX", "GUNB", "środki naprawcze", "CPR 2024", "na
 excerpt: "GUNB może nakazać wycofanie niezgodnego wyrobu budowlanego z rynku. Poznaj etapy postępowania, system RAPEX i prawa producenta. Dowiedz się, jak się przygotować i co robić gdy otrzymasz decyzję."
 image_url: /images/blog/wycofanie-produktu-cpr-2024.jpg
 template: "praktyczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
+  - Safety Gate — baza alertów KE|https://ec.europa.eu/safety-gate-alerts
 ---
 
 # Wycofanie wyrobu budowlanego z rynku — procedura krok po kroku
