@@ -1,7 +1,7 @@
 import react from "@vitejs/plugin-react";
 import "dotenv/config";
 import path from "node:path";
-import { defineConfig, splitVendorChunkPlugin } from "vite";
+import { defineConfig } from "vite";
 import injectHTML from "vite-plugin-html-inject";
 import tsConfigPaths from "vite-tsconfig-paths";
 
@@ -32,7 +32,50 @@ export default defineConfig({
 		// Polyfill untuk gray-matter dalam przeglądarce
 		global: 'globalThis',
 	},
-	plugins: [react(), splitVendorChunkPlugin(), tsConfigPaths(), injectHTML()],
+	plugins: [react(), tsConfigPaths(), injectHTML()],
+	build: {
+		rollupOptions: {
+			output: {
+				manualChunks(id) {
+					if (!id.includes('node_modules')) return;
+					// Markdown stack — only loaded on blog post / wyrob detail pages
+					if (
+						id.includes('/react-markdown/') ||
+						id.includes('/remark-') ||
+						id.includes('/rehype-') ||
+						id.includes('/unified/') ||
+						id.includes('/micromark') ||
+						id.includes('/mdast-') ||
+						id.includes('/hast-') ||
+						id.includes('/vfile') ||
+						id.includes('/unist-') ||
+						id.includes('/decode-named-character-reference') ||
+						id.includes('/character-entities') ||
+						id.includes('/lowlight') ||
+						id.includes('/highlight.js') ||
+						id.includes('/fault/')
+					) {
+						return 'markdown-vendor';
+					}
+					// React core — changes rarely, strong cache hit
+					if (
+						id.includes('/react/') ||
+						id.includes('/react-dom/') ||
+						id.includes('/react-router') ||
+						id.includes('/scheduler/')
+					) {
+						return 'react-vendor';
+					}
+					// Radix UI components
+					if (id.includes('@radix-ui/')) {
+						return 'radix-vendor';
+					}
+					// Everything else
+					return 'vendor';
+				},
+			},
+		},
+	},
 	server: {
 		host: '127.0.0.1',
 		proxy: {
