@@ -408,3 +408,83 @@ const updatedSitemap = sourceSitemap.replace(
 
 writeFileSync(join(distDir, 'sitemap.xml'), updatedSitemap, 'utf-8');
 console.log(`✓ Sitemap updated: ${blogEntries.length} blog posts (opublikowane do ${today.toISOString().slice(0, 10)})`);
+
+// ── Generate per-post JSON files for fast SPA loading ─────────────────────────
+// Creates:
+//   dist/posts/meta.json      — all posts metadata (no content) for blog listing
+//   dist/posts/<slug>.json    — full post including content, one file per post
+//
+// blogLoader.ts uses these in PROD mode via fetch() instead of import.meta.glob(),
+// reducing data loaded from ~564 KB (all 55 posts) to ~10–15 KB (one post).
+
+function parseFrontmatterFull(src) {
+  const m = src.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+  if (!m) return { data: {}, content: src };
+  const yamlStr = m[1];
+  const content = m[2];
+  const data = {};
+  const lines = yamlStr.split('\n');
+  let currentKey = null;
+  let currentArray = null;
+  for (const line of lines) {
+    const arrayItemMatch = line.match(/^  - (.+)$/);
+    const keyValueMatch = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*):\s*(.*)$/);
+    if (arrayItemMatch && currentKey && currentArray !== null) {
+      currentArray.push(arrayItemMatch[1].trim().replace(/^['"]|['"]$/g, ''));
+    } else if (keyValueMatch) {
+      if (currentKey && currentArray !== null) data[currentKey] = currentArray;
+      currentKey = keyValueMatch[1];
+      const value = keyValueMatch[2].trim();
+      if (value === '') {
+        currentArray = [];
+      } else if (value.startsWith('[') && value.endsWith(']')) {
+        try { data[currentKey] = JSON.parse(value); }
+        catch { data[currentKey] = value.slice(1, -1).split(',').map(s => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean); }
+        currentArray = null;
+      } else {
+        data[currentKey] = value.replace(/^['"]|['"]$/g, '');
+        currentArray = null;
+      }
+    }
+  }
+  if (currentKey && currentArray !== null) data[currentKey] = currentArray;
+  return { data, content };
+}
+
+const postsDataDir = join(distDir, 'posts');
+mkdirSync(postsDataDir, { recursive: true });
+
+const allMeta = [];
+
+for (const file of files) {
+  const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  const src = readFileSync(join(blogContentDir, file), 'utf-8');
+  const { data: meta, content } = parseFrontmatterFull(src);
+
+  const postJson = {
+    id: slug,
+    slug,
+    title: String(meta.title || ''),
+    excerpt: String(meta.excerpt || ''),
+    content,
+    author: String(meta.author || ''),
+    published_at: String(meta.date || ''),
+    reviewed: meta.reviewed ? String(meta.reviewed) : undefined,
+    updated_at: meta.updated ? String(meta.updated) : undefined,
+    is_published: true,
+    category: String(meta.category || ''),
+    image_url: String(meta.image_url || ''),
+    tags: Array.isArray(meta.tags) ? meta.tags : [],
+    template: meta.template ? String(meta.template) : undefined,
+    sources: Array.isArray(meta.sources) ? meta.sources : undefined,
+  };
+
+  writeFileSync(join(postsDataDir, `${slug}.json`), JSON.stringify(postJson), 'utf-8');
+
+  // Meta only (no content) for the listing page
+  const { content: _c, ...metaOnly } = postJson;
+  allMeta.push(metaOnly);
+}
+
+writeFileSync(join(postsDataDir, 'meta.json'), JSON.stringify(allMeta), 'utf-8');
+console.log(`✓ Generated JSON data files: dist/posts/meta.json + ${allMeta.length} individual post files`);

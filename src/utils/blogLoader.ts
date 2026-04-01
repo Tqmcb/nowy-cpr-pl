@@ -1,6 +1,17 @@
 /**
- * Simple browser-compatible frontmatter parser.
- * Replaces gray-matter to avoid Node.js Buffer dependency.
+ * blogLoader.ts
+ *
+ * In PRODUCTION: loads posts via fetch() from pre-generated JSON files
+ *   dist/posts/meta.json      — all metadata, no content (~50 KB total)
+ *   dist/posts/<slug>.json    — individual post with full content (~10-15 KB)
+ *
+ * In DEVELOPMENT: falls back to import.meta.glob() for hot-reload support.
+ *
+ * This reduces data loaded per blog post from ~564 KB (all 55 posts) to ~15 KB.
+ */
+
+/**
+ * Simple browser-compatible frontmatter parser (used in dev mode only).
  */
 function parseFrontmatter(fileContent: string): { data: Record<string, unknown>; content: string } {
     const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
@@ -13,7 +24,6 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
     const yamlStr = match[1];
     const content = match[2];
 
-    // Simple YAML parser for basic key: value pairs and arrays
     const data: Record<string, unknown> = {};
     const lines = yamlStr.split('\n');
     let currentKey: string | null = null;
@@ -26,7 +36,6 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
         if (arrayItemMatch && currentKey && currentArray) {
             currentArray.push(arrayItemMatch[1].trim().replace(/^['"]|['"]$/g, ''));
         } else if (keyValueMatch) {
-            // Save previous array if any
             if (currentKey && currentArray) {
                 data[currentKey] = currentArray;
             }
@@ -34,10 +43,8 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
             const value = keyValueMatch[2].trim();
 
             if (value === '') {
-                // Start of an array (multi-line)
                 currentArray = [];
             } else if (value.startsWith('[') && value.endsWith(']')) {
-                // Inline JSON array like ["item1", "item2"]
                 try {
                     data[currentKey] = JSON.parse(value);
                 } catch {
@@ -60,7 +67,6 @@ function parseFrontmatter(fileContent: string): { data: Record<string, unknown>;
         }
     }
 
-    // Save last array if any
     if (currentKey && currentArray) {
         data[currentKey] = currentArray;
     }
@@ -99,81 +105,126 @@ export interface BlogMetadata {
     sources?: string[];
 }
 
+// ── In-memory cache ────────────────────────────────────────────────────────────
+// Populated on first call, re-used on every subsequent navigation (SPA).
+let metaCache: BlogPost[] | null = null;
+const postCache: Map<string, BlogPost> = new Map();
+
+// ── Dev-mode fallback (import.meta.glob) ──────────────────────────────────────
+
+async function loadAllPostsDev(): Promise<BlogPost[]> {
+    const markdownFiles = import.meta.glob('/content/blog/*.md', {
+        query: '?raw',
+        import: 'default'
+    });
+
+    const posts: BlogPost[] = [];
+
+    for (const path in markdownFiles) {
+        try {
+            const fileContent = await markdownFiles[path]() as string;
+            const { data, content } = parseFrontmatter(fileContent);
+            const metadata = data as unknown as BlogMetadata;
+
+            const filename = path.split('/').pop();
+            const slug = filename?.replace('.md', '').replace(/^\d{4}-\d{2}-\d{2}-/, '') || '';
+
+            posts.push({
+                id: slug,
+                slug,
+                title: metadata.title,
+                excerpt: metadata.excerpt,
+                content: content,
+                author: metadata.author,
+                published_at: metadata.date,
+                updated_at: (metadata as Record<string, unknown>).updated as string ?? undefined,
+                reviewed: metadata.reviewed ?? undefined,
+                is_published: true,
+                category: metadata.category,
+                image_url: metadata.image_url,
+                tags: Array.isArray(metadata.tags) ? metadata.tags : [],
+                template: metadata.template,
+                sources: Array.isArray(metadata.sources) ? metadata.sources : undefined,
+            });
+        } catch (err) {
+            console.error(`Error parsing ${path}:`, err);
+        }
+    }
+
+    const today = new Date();
+    today.setHours(23, 59, 59, 999);
+
+    return posts
+        .filter(post => new Date(post.published_at) <= today)
+        .sort((a, b) =>
+            new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+        );
+}
+
+// ── Public API ────────────────────────────────────────────────────────────────
+
 /**
- * Get all blog posts from markdown files
- * @returns Array of BlogPost objects sorted by date (newest first)
+ * Get all blog posts (metadata only in prod, full posts in dev).
+ * Used for blog listing, category/tag filtering, related posts.
  */
 export async function getAllPosts(): Promise<BlogPost[]> {
-    try {
-        // Import all markdown files from content/blog directory
-        const markdownFiles = import.meta.glob('/content/blog/*.md', {
-            query: '?raw',
-            import: 'default'
-        });
+    if (metaCache) return metaCache;
 
-        const posts: BlogPost[] = [];
+    if (import.meta.env.PROD) {
+        try {
+            const res = await fetch('/posts/meta.json');
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const posts = await res.json() as BlogPost[];
 
-        for (const path in markdownFiles) {
-            try {
-                const fileContent = await markdownFiles[path]() as string;
-                const { data, content } = parseFrontmatter(fileContent);
-                const metadata = data as unknown as BlogMetadata;
+            const today = new Date();
+            today.setHours(23, 59, 59, 999);
 
-                // Extract slug from filename
-                const filename = path.split('/').pop();
-                const slug = filename?.replace('.md', '').replace(/^\d{4}-\d{2}-\d{2}-/, '') || '';
-
-                posts.push({
-                    id: slug,
-                    slug,
-                    title: metadata.title,
-                    excerpt: metadata.excerpt,
-                    content: content,
-                    author: metadata.author,
-                    published_at: metadata.date,
-                    updated_at: metadata.updated ?? undefined,
-                    reviewed: metadata.reviewed ?? undefined,
-                    is_published: true,
-                    category: metadata.category,
-                    image_url: metadata.image_url,
-                    tags: Array.isArray(metadata.tags) ? metadata.tags : [],
-                    template: metadata.template,
-                    sources: Array.isArray(metadata.sources) ? metadata.sources : undefined,
-                });
-            } catch (err) {
-                console.error(`Error parsing ${path}:`, err);
-            }
+            metaCache = posts
+                .filter(post => new Date(post.published_at) <= today)
+                .sort((a, b) =>
+                    new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
+                );
+            return metaCache;
+        } catch (error) {
+            console.error('Error loading posts/meta.json:', error);
+            return [];
         }
-
-        const today = new Date();
-        today.setHours(23, 59, 59, 999);
-
-        // Filter out future posts and sort by date, newest first
-        return posts
-            .filter(post => new Date(post.published_at) <= today)
-            .sort((a, b) =>
-                new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
-            );
-    } catch (error) {
-        console.error('Error loading blog posts:', error);
-        return [];
     }
+
+    // Dev mode: use import.meta.glob
+    const posts = await loadAllPostsDev();
+    metaCache = posts;
+    return posts;
 }
 
 /**
- * Get a single blog post by slug
- * @param slug - The post slug
- * @returns BlogPost object or null if not found
+ * Get a single blog post by slug — includes full markdown content.
+ * In prod: fetches only the requested post's JSON (~10-15 KB).
+ * In dev: loads all posts via glob and filters.
  */
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-    const posts = await getAllPosts();
+    if (postCache.has(slug)) return postCache.get(slug)!;
+
+    if (import.meta.env.PROD) {
+        try {
+            const res = await fetch(`/posts/${slug}.json`);
+            if (!res.ok) return null;
+            const post = await res.json() as BlogPost;
+            postCache.set(slug, post);
+            return post;
+        } catch (error) {
+            console.error(`Error loading posts/${slug}.json:`, error);
+            return null;
+        }
+    }
+
+    // Dev mode: load all and filter
+    const posts = await loadAllPostsDev();
     return posts.find(post => post.slug === slug) || null;
 }
 
 /**
  * Get posts by category
- * @param category - Category name
- * @returns Array of BlogPost objects
  */
 export async function getPostsByCategory(category: string): Promise<BlogPost[]> {
     const posts = await getAllPosts();
@@ -182,8 +233,6 @@ export async function getPostsByCategory(category: string): Promise<BlogPost[]> 
 
 /**
  * Get posts by tag
- * @param tag - Tag name
- * @returns Array of BlogPost objects
  */
 export async function getPostsByTag(tag: string): Promise<BlogPost[]> {
     const posts = await getAllPosts();
@@ -192,7 +241,6 @@ export async function getPostsByTag(tag: string): Promise<BlogPost[]> {
 
 /**
  * Get all unique categories
- * @returns Array of category names
  */
 export async function getAllCategories(): Promise<string[]> {
     const posts = await getAllPosts();
@@ -202,7 +250,6 @@ export async function getAllCategories(): Promise<string[]> {
 
 /**
  * Get all unique tags
- * @returns Array of tag names
  */
 export async function getAllTags(): Promise<string[]> {
     const posts = await getAllPosts();
