@@ -5,7 +5,7 @@ date: "2026-04-01"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS 3+", "KOT", "NUWB", "system krajowy", "EPD", "CPR 2024", "certyfikacja", "wyroby budowlane"]
-excerpt: "AVS 3+ to nowy system weryfikacji EPD wprowadzony przez CPR 2024/3110 — ale dotyczy wyłącznie wyrobów z oznakowaniem CE objętych normami zharmonizowanymi. Czy producentom korzystającym z polskiego systemu krajowego (KOT) też będzie on dotyczył? Odpowiedź nie jest prosta."
+excerpt: "AVS 3+ to nowy system weryfikacji EPD — ale czy dotyczy też wyrobów w systemie 4? Czy przy systemie 2+ będą dwa oddzielne audyty? I co z producentami działającymi w polskim systemie krajowym (KOT)? Odpowiadamy na te pytania krok po kroku."
 image_url: /images/blog/avs-3plus-walidacja-epd.jpg
 template: "przewodnik"
 sources:
@@ -54,6 +54,68 @@ W praktyce dotyczy to m.in.:
 - wielu innych kategorii, gdzie LCA/GWP staje się kluczowym parametrem.
 
 Ale — i to jest sedno odpowiedzi na pytanie producenta z systemem krajowym — **AVS 3+ pojawia się w hTS, a hTS dotyczą wyrobów z CE.**
+
+---
+
+## Czy AVS 3+ dotyczy też wyrobów w systemie 4?
+
+Tak — i to jest pytanie, które wielu producentów zadaje sobie po raz pierwszy dopiero gdy zaczyna planować deklarację środowiskową.
+
+**System 4** to jedyny system AVS, w którym producent działa **wyłącznie samodzielnie**: sam wykonuje badania typu (ITT) i sam prowadzi zakładową kontrolę produkcji (FPC). Żadna jednostka zewnętrzna nie musi być zaangażowana w ocenę właściwości użytkowych.
+
+**AVS 3+ działa na osobnej osi** — nie zastępuje systemu bazowego wyrobu, lecz nakłada się na niego wtedy, gdy hTS dla danej kategorii wyrobów wprowadza obowiązek deklarowania właściwości środowiskowych (GWP i inne wskaźniki LCA).
+
+Oznacza to, że producent wyrobu objętego systemem 4 może jednocześnie podlegać AVS 3+:
+
+| Aspekt | System 4 (bazowy) | System 3+ (środowiskowy) |
+|---|---|---|
+| Kto wykonuje badania właściwości użytkowych? | Producent samodzielnie | Producent samodzielnie |
+| Kto prowadzi FPC? | Producent samodzielnie | Producent samodzielnie |
+| Kto angażuje się zewnętrznie? | **Nikt** | **NTL** — weryfikuje EPD |
+| Kiedy 3+ obowiązuje? | — | gdy hTS przypisze AVS 3+ do deklarowania GWP |
+
+Dla producenta w systemie 4 wejście AVS 3+ oznacza więc **pierwsze w historii zaangażowanie podmiotu zewnętrznego** — ale tylko w zakresie danych środowiskowych, nie samego wyrobu ani produkcji.
+
+---
+
+## Dwa oddzielne audyty — czy tak będzie dla wyrobów w systemach 1+, 1, 2+?
+
+Tak. Dla wyrobów objętych systemami wymagającymi zaangażowania jednostki notyfikowanej (JN) — czyli 1+, 1 i 2+ — **stosowanie AVS 3+ oznacza dwa odrębne procesy certyfikacyjne**, prowadzone przez dwa różne typy podmiotów notyfikowanych.
+
+### Jakie podmioty i co robią?
+
+**Jednostka notyfikowana (JN / Notified Body, NB)**
+- akredytowana do certyfikacji wyrobów i/lub FPC,
+- certyfikuje wyrób i/lub zakładową kontrolę produkcji w ramach systemów 1+, 1 i 2+,
+- prowadzi nadzór (audyty) nad FPC w regularnych cyklach (zazwyczaj co rok),
+- **nie weryfikuje EPD** — to nie jest jej zakres akredytacji.
+
+**Akredytowane laboratorium badawcze (NTL — Notified Testing Laboratory)**
+- akredytowane do weryfikacji deklaracji środowiskowych według EN 15804+A2,
+- weryfikuje dane LCA (ślad węglowy GWP i inne wskaźniki) na podstawie których sporządzono EPD,
+- **nie certyfikuje wyrobu ani FPC** — tylko zatwierdza poprawność metodyczną EPD,
+- weryfikacja odbywa się przy tworzeniu lub odnawianiu EPD (EPD ważna jest 5 lat).
+
+### Harmonogram — czy audyty się nakładają?
+
+Nie muszą. Oba procesy mają **niezależne cykle**:
+
+- **Audyt FPC (system 2+)** — zazwyczaj coroczna wizyta nadzorcza JN w zakładzie + audyt certyfikacyjny co 3–5 lat przy odnowieniu certyfikatu.
+- **Weryfikacja EPD (system 3+)** — jednorazowy proces przy przygotowaniu EPD, ponawiany co 5 lat przy jej odnowieniu.
+
+W praktyce producent może zaplanować weryfikację EPD niezależnie od cyklu audytów JN — np. w roku, w którym nie ma planowanego audytu nadzorczego.
+
+### Zestawienie dla wszystkich systemów
+
+| System bazowy | Zewnętrzny podmiot (system bazowy) | Zewnętrzny podmiot (AVS 3+) | Łączna liczba zewnętrznych zaangażowań |
+|---|---|---|---|
+| AVS 4 | brak | NTL (weryfikacja EPD) | **1** |
+| AVS 3 | NTL (badania typu ITT) | NTL (weryfikacja EPD) | **1–2** (może być ta sama NTL) |
+| AVS 2+ | JN (certyfikacja FPC) | NTL (weryfikacja EPD) | **2** |
+| AVS 1 | JN (certyfikacja wyrobu + FPC) | NTL (weryfikacja EPD) | **2** |
+| AVS 1+ | JN (certyfikacja + nadzór + badania rynku) | NTL (weryfikacja EPD) | **2** |
+
+> **Uwaga dla systemu 3:** zarówno badania typu (ITT w ramach AVS 3) jak i weryfikacja EPD (AVS 3+) leżą w kompetencji NTL. Teoretycznie może to być ta sama jednostka — ale są to dwa odrębne zakresy umowy i dwa odrębne procesy. W praktyce wiele laboratoriów notyfikowanych oferuje oba jako usługi łączone.
 
 ---
 
@@ -141,6 +203,8 @@ Producent z KOT, który dziś nie ma EPD, może wygrywać przetargi — ale z ro
 | Pytanie | Odpowiedź |
 |---|---|
 | Czy AVS 3+ obowiązuje mnie dziś, jeśli mam KOT? | **Nie** — CPR i AVS dotyczą wyrobów z CE |
+| Czy AVS 3+ dotyczy wyrobów w systemie 4? | **Tak**, gdy hTS przypisze 3+ do deklarowania GWP — NTL weryfikuje EPD |
+| Czy przy systemie 2+ będą dwa oddzielne audyty? | **Tak** — JN certyfikuje FPC, NTL weryfikuje EPD (różne podmioty, różne cykle) |
 | Czy NUWB może wprowadzić AVS 3+ do systemu krajowego? | **Tak, może — ale nie musi** |
 | Czy kiedyś będę musiał mieć weryfikację EPD? | **Tak**, gdy pojawi się hTS dla Twojej kategorii i minie koegzystencja |
 | Czy warto przygotować EPD już teraz mimo braku obowiązku? | **Tak** — rynek (GPP, LEED/BREEAM) wymaga EPD coraz częściej |
