@@ -67,7 +67,7 @@ const Document = ({ document, onDownload }: { document: DocumentProps; onDownloa
       <div className="flex items-center justify-between pt-4 border-t border-slate-200">
         <div className="flex items-center gap-2 text-sm text-slate-500">
           <Clock className="w-4 h-4" />
-          {document.updatedAt}
+          <span>Aktualizacja: {document.updatedAt}</span>
         </div>
         <Button
           onClick={() => onDownload(document.id)}

@@ -19,7 +19,7 @@ export const documents: Document[] = [
     icon: "📄",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "tech-card",
@@ -28,7 +28,7 @@ export const documents: Document[] = [
     icon: "📋",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "fpc-manual",
@@ -37,7 +37,7 @@ export const documents: Document[] = [
     icon: "📚",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "ce-marking",
@@ -46,7 +46,7 @@ export const documents: Document[] = [
     icon: "🏷️",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "checklist",
@@ -55,7 +55,7 @@ export const documents: Document[] = [
     icon: "✅",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "edp-template",
@@ -64,7 +64,7 @@ export const documents: Document[] = [
     icon: "🌱",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "dpp-guide",
@@ -73,7 +73,7 @@ export const documents: Document[] = [
     icon: "💻",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "avcp-systems",
@@ -82,7 +82,7 @@ export const documents: Document[] = [
     icon: "📊",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "importer-dopc",
@@ -91,7 +91,7 @@ export const documents: Document[] = [
     icon: "🔵",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "tech-file",
@@ -100,7 +100,7 @@ export const documents: Document[] = [
     icon: "🗂️",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "user-instructions",
@@ -109,7 +109,7 @@ export const documents: Document[] = [
     icon: "📘",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "auth-rep-mandate",
@@ -118,7 +118,7 @@ export const documents: Document[] = [
     icon: "📜",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   },
   {
     id: "commission-work-plan",
@@ -127,7 +127,7 @@ export const documents: Document[] = [
     icon: "📅",
     fileType: "HTML",
     language: "PL",
-    updatedAt: "02.2026"
+    updatedAt: "04.2026"
   }
 ];
 
