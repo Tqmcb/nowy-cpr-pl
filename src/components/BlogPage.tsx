@@ -168,10 +168,12 @@ const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
         <Button
           variant="outline"
           className="px-5 py-2.5 rounded-full border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50 text-sm"
-          onClick={() => window.location.href = "/services"}
+          asChild
         >
-          Skontaktuj się
-          <ArrowRight className="w-4 h-4 ml-2" />
+          <Link to="/services">
+            Skontaktuj się
+            <ArrowRight className="w-4 h-4 ml-2" />
+          </Link>
         </Button>
       </div>
     </div>
@@ -1109,10 +1111,12 @@ export function BlogPage() {
               <Button
                 variant="outline"
                 className="border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50"
-                onClick={() => navigate("/services")}
+                asChild
               >
-                Skontaktuj się
-                <ArrowRight className="w-4 h-4 ml-2" />
+                <Link to="/services">
+                  Skontaktuj się
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
               </Button>
             </div>
           </div>

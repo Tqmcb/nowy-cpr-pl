@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import {
   ArrowLeft,
@@ -24,12 +24,12 @@ export default function AutorPage() {
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <p className="text-slate-500 text-lg mb-6">Nie znaleziono autora.</p>
-            <button
-              onClick={() => navigate("/blog")}
+            <Link
+              to="/blog"
               className="text-[#1a56a0] hover:text-[#1a3d6b] flex items-center gap-2 mx-auto"
             >
               <ArrowLeft className="w-4 h-4" /> Wróć do bloga
-            </button>
+            </Link>
           </div>
         </main>
         <Footer />

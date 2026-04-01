@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { Button } from "components/Button";
 import { Container } from "components/Container";
 import {
@@ -414,8 +414,8 @@ export function ProductSearchTool() {
                     <div>
                       <p className="font-medium text-[#0d2137]">Pobierz wzory dokumentów</p>
                       <p className="text-slate-500 text-sm mb-3">W sekcji "Dokumenty" znajdziesz gotowe szablony wymaganych dokumentów.</p>
-                      <Button variant="outline" size="sm" onClick={() => navigate("/documents")} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
-                        Przejdź do dokumentów
+                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
+                        <Link to="/documents">Przejdź do dokumentów</Link>
                       </Button>
                     </div>
                   </div>
@@ -473,8 +473,8 @@ export function ProductSearchTool() {
                     <div>
                       <p className="font-medium text-[#0d2137]">Potrzebujesz certyfikacji?</p>
                       <p className="text-slate-500 text-sm mb-3">Multicert oferuje kompleksowe usługi certyfikacji zgodnej z CPR (EU) 2024/3110.</p>
-                      <Button variant="outline" size="sm" onClick={() => navigate("/services")} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
-                        Sprawdź nasze usługi
+                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
+                        <Link to="/services">Sprawdź nasze usługi</Link>
                       </Button>
                     </div>
                   </div>
@@ -813,11 +813,13 @@ export function ProductSearchTool() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
-                  onClick={() => navigate("/services")}
+                  asChild
                   className="group px-6 py-3 rounded-xl bg-white hover:bg-slate-100 text-[#0d2137] font-semibold"
                 >
-                  Nasze usługi certyfikacyjne
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <Link to="/services">
+                    Nasze usługi certyfikacyjne
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Link>
                 </Button>
                 <Button
                   variant="outline"

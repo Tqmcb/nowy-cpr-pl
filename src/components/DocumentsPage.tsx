@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
 import { documents, trackLead, downloadDocument } from "../utils/documentHelpers";
 import { Container } from "./Container";
@@ -404,11 +405,13 @@ export function DocumentsPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
+                  asChild
                   className="px-6 py-3 rounded-full bg-white hover:bg-slate-100 text-[#0d2137] font-semibold"
-                  onClick={() => window.location.href = "/services"}
                 >
-                  Poznaj nasze usługi
-                  <ArrowRight className="w-4 h-4 ml-2" />
+                  <Link to="/services">
+                    Poznaj nasze usługi
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
                 </Button>
                 <Button
                   variant="outline"

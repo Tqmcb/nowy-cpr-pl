@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useReveal } from "../hooks/useReveal";
 import { Button } from "@/extensions/shadcn/components/button";
 import { Separator } from "@/extensions/shadcn/components/separator";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 interface ServiceBoxProps {
   title: string;
@@ -96,12 +96,12 @@ export function ServicesPage() {
                 >
                   Umów się na konsultację
                 </Button>
-                <Button 
-                  onClick={() => navigate("/")} 
-                  variant="outline" 
+                <Button
+                  asChild
+                  variant="outline"
                   className="font-medium"
                 >
-                  Dowiedz się więcej o CPR 2024
+                  <Link to="/">Dowiedz się więcej o CPR 2024</Link>
                 </Button>
               </div>
             </div>

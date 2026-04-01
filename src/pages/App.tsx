@@ -138,19 +138,23 @@ function HomePage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
                     size="lg"
-                    onClick={() => navigate("/wyszukiwarka")}
+                    asChild
                     className="group bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
                   >
-                    <span>Sprawdź wymagania dla produktu</span>
-                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    <Link to="/wyszukiwarka">
+                      <span>Sprawdź wymagania dla produktu</span>
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Link>
                   </Button>
                   <Button
                     size="lg"
-                    onClick={() => navigate("/documents")}
+                    asChild
                     className="bg-white/15 border border-white/40 text-white hover:bg-white/25 font-semibold"
                   >
-                    <FileText className="w-5 h-5 mr-2" />
-                    Przeglądaj dokumenty
+                    <Link to="/documents">
+                      <FileText className="w-5 h-5 mr-2" />
+                      Przeglądaj dokumenty
+                    </Link>
                   </Button>
                 </div>
 
@@ -348,11 +352,13 @@ function HomePage() {
                 </div>
                 <Button
                   size="lg"
-                  onClick={() => navigate("/wyszukiwarka")}
+                  asChild
                   className="flex-shrink-0 bg-white text-[#0d2137] hover:bg-slate-100 border-0"
                 >
-                  Rozpocznij teraz
-                  <ArrowRight className="w-5 h-5 ml-2" />
+                  <Link to="/wyszukiwarka">
+                    Rozpocznij teraz
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -395,11 +401,11 @@ function HomePage() {
                   path: "/services"
                 }
               ].map((feature, idx) => (
-                <div
+                <Link
                   key={idx}
-                  className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift group cursor-pointer reveal-stagger"
+                  to={feature.path}
+                  className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift group cursor-pointer reveal-stagger block"
                   style={{ "--i": idx } as React.CSSProperties}
-                  onClick={() => navigate(feature.path)}
                 >
                   <div className={`w-16 h-16 rounded-2xl ${feature.iconBg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg`}>
                     <feature.icon className="w-8 h-8 text-white" />
@@ -410,7 +416,7 @@ function HomePage() {
                     <span>Dowiedz się więcej</span>
                     <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </Container>
@@ -430,11 +436,13 @@ function HomePage() {
               </div>
               <Button
                 variant="outline"
-                onClick={() => navigate("/blog")}
+                asChild
                 className="flex-shrink-0"
               >
-                <BookOpen className="w-4 h-4 mr-2" />
-                Zobacz wszystkie artykuły
+                <Link to="/blog">
+                  <BookOpen className="w-4 h-4 mr-2" />
+                  Zobacz wszystkie artykuły
+                </Link>
               </Button>
             </div>
 
