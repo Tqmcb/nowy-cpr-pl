@@ -31,7 +31,20 @@ Jednostki notyfikowane (JN; ang. Notified Bodies, NB) to organizacje wyznaczone 
 - Kruszywa budowlane
 - Wyroby konstrukcyjne
 
-Multicert jest również przedstawicielem handlowym [ITCZLin](https://www.itczlin.pl) – laboratorium oferującego szeroki zakres badań wyrobów budowlanych.
+Multicert jest oficjalnym przedstawicielem handlowym [ITC Zlín](https://www.itczlin.pl) w Polsce.
+
+### ITC Zlín – Institut pro testování a certifikaci (NB 1020)
+
+[ITC Zlín](https://www.itczlin.pl) (Institut pro testování a certifikaci, a.s.) to czeska jednostka notyfikowana z siedzibą w Zlínie, oferująca certyfikację dla szerokiego zakresu wyrobów budowlanych na rynek UE. Zakres obejmuje m.in.:
+- Wyroby do izolacji cieplnej (wełna mineralna, styropian, XPS)
+- Wyroby ceramiczne (cegły, dachówki, kształtki)
+- Zaprawy budowlane i kleje
+- Wyroby z betonu i betonu komórkowego
+- Okna, drzwi i wyroby przeszklone
+- Rury i złączki z tworzyw sztucznych
+- Geosyntetyki i membrany
+
+ITC Zlín jest notyfikowana w systemie NANDO pod numerem **NB 1020**. Certyfikaty wydawane przez ITC Zlín są uznawane we wszystkich krajach UE. Multicert jako przedstawiciel handlowy ITC w Polsce ułatwia kontakt, koordynację dokumentacji i nadzór nad audytami dla polskich producentów.
 
 ### ICiMB – Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
 
