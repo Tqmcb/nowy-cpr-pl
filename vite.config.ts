@@ -61,14 +61,9 @@ export default defineConfig({
 					if (
 						id.includes('/react/') ||
 						id.includes('/react-dom/') ||
-						id.includes('/react-router') ||
 						id.includes('/scheduler/')
 					) {
 						return 'react-vendor';
-					}
-					// Radix UI components
-					if (id.includes('@radix-ui/')) {
-						return 'radix-vendor';
 					}
 					// Everything else
 					return 'vendor';
