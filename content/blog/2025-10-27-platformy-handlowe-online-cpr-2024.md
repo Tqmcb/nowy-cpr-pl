@@ -8,6 +8,11 @@ tags: ["platformy online", "marketplace", "CPR 2024", "obowiązki", "handel elek
 excerpt: "CPR 2024/3110 po raz pierwszy w historii unijnego prawa budowlanego reguluje rolę platform handlowych online, takich jak Amazon czy Allegro, w łańcuchu obrotu wyrobami budowlanymi. Platformy nie mogą być bierne wobec niezgodnych wyrobów — muszą usuwać oferty po powiadomieniu przez organy nadzoru. Jakie obowiązki ciążą na platformach i co to oznacza dla polskich sprzedawców online?"
 image_url: /images/blog/platformy-handlowe-online-cpr-.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
+  - Rozporządzenie (UE) 2022/2065 — DSA (akt o usługach cyfrowych)|https://eur-lex.europa.eu/eli/reg/2022/2065/oj
 ---
 
 ## Nowa kategoria podmiotów — platforma handlowa online w CPR 2024
@@ -86,7 +91,7 @@ Dla polskich przedsiębiorców sprzedających wyroby budowlane przez internet (A
 
 **Odpowiedzialność dystrybutora.** Sprzedawca działający jako dystrybutor (tzn. nie będący producentem) musi upewnić się, że posiada aktualną DoP&C od producenta i jest w stanie udostępnić ją zarówno platformie, jak i końcowemu nabywcy. Brak DoP&C po stronie dystrybutora nie zwalnia go z odpowiedzialności.
 
-**Możliwość sankcji administracyjnych.** Organy nadzoru rynku — w Polsce głównie Główny Urząd Nadzoru Budowlanego (GUNB) — mogą nakładać sankcje bezpośrednio na sprzedawców, których oferty zostały usunięte z platform ze względu na niezgodność wyrobów.
+**Możliwość sankcji administracyjnych.** Organy nadzoru rynku — w Polsce głównie Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl)) — mogą nakładać sankcje bezpośrednio na sprzedawców, których oferty zostały usunięte z platform ze względu na niezgodność wyrobów.
 
 ## Perspektywa platform — Amazon i Allegro przed nowymi wyzwaniami
 

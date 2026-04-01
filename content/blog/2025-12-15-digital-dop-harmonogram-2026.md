@@ -8,6 +8,9 @@ tags: ["Digital DoP", "DoP&C", "cyfryzacja", "2026", "QR kod"]
 excerpt: "Co w zakresie Digital DoP&C jest już obowiązkowe od 8 stycznia 2026, a co czeka na akty delegowane KE? Wyjaśniamy podział i jakie kroki warto podjąć już teraz."
 image_url: /images/blog/digital-dop-harmonogram-2026.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
 ---
 
 # Digital DoP&C w 2026 — co już wiesz, a co musisz wdrożyć?
@@ -18,11 +21,13 @@ Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C) to je
 
 ### Co już obowiązuje?
 
-CPR 2024/3110 przewiduje, że DoP&C powinna być **dostępna online**. Od 8 stycznia 2026 r. (pełne stosowanie CPR 2024) każdy producent jest zobowiązany do:
+CPR 2024/3110 przewiduje, że DoP&C powinna być **dostępna online**. Od 8 stycznia 2026 r. (pełne stosowanie CPR 2024) producent **wystawiający nową DoP&C** jest zobowiązany do:
 
 - Udostępnienia DoP&C na swojej stronie internetowej w sposób umożliwiający bezpłatny dostęp
 - Przechowywania DoP&C przez 10 lat od daty wprowadzenia wyrobu do obrotu
 - Umożliwienia pobrania DoP&C (format PDF jest akceptowany)
+
+> **Ważne — przepisy przejściowe:** Producenci posiadający stary DoP wystawiony zgodnie z CPR 305/2011 **nie muszą go natychmiast zastępować** DoP&C. Artykuły 4–9 CPR 305/2011 pozostają stosowane do 8 stycznia 2040 (art. 93 CPR 2024/3110). Obowiązek cyfrowej dostępności w pełnym zakresie dotyczy DoP&C — nie starego DoP. Praktycznym momentem przejścia jest aktualizacja normy zharmonizowanej wyrobu (hEN → hTS) lub odnowienie certyfikatu JN.
 
 ### Co jeszcze nie jest obowiązkowe?
 

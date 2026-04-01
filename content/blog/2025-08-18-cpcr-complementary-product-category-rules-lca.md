@@ -8,6 +8,10 @@ tags: ["CPCR", "LCA", "EPD", "EN 15804", "CPR 2024", "PCR", "obliczenia środowi
 excerpt: "CPCR (Complementary Product Category Rules) to zestaw wymagań normatywnych uzupełniających EN 15804+A2, które precyzują zasady obliczania LCA dla konkretnych grup wyrobów budowlanych. Wyjaśniamy, czym są, jak działają i dlaczego stają się kluczowe pod CPR 2024/3110."
 image_url: /images/blog/cpcr-lca-wyroby-budowlane.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - ECO Platform — weryfikowane deklaracje EPD|https://www.eco-platform.org
+  - epd.org.pl — EPD w Polsce|https://epd.org.pl
 ---
 
 # CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych
@@ -85,7 +89,7 @@ Zgodnie z CPR 2024/3110 producenci wyrobów budowlanych będą zobowiązani do d
 
 **EPD oparta na CPCR** jest uznawana jako referencyjny dokument do wykazania tej właściwości. Bez prawidłowego CPCR:
 - EPD może zostać odrzucona przez weryfikatora
-- Deklaracja GWP może być kwestionowana przez organy nadzoru rynku (GUNB)
+- Deklaracja GWP może być kwestionowana przez organy nadzoru rynku ([GUNB](https://www.gunb.gov.pl))
 - Wyrób może nie spełnić wymogów przetargów publicznych (GPP — Green Public Procurement)
 
 ## CPCR a system AVS 3+

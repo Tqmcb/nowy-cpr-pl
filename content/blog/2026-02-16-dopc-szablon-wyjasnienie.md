@@ -8,6 +8,10 @@ tags: ["DoP&C", "deklaracja właściwości", "szablon", "CPR 2024", "oznakowanie
 excerpt: "CPR 2024/3110 zastąpił starą Deklarację Właściwości Użytkowych (DoP) nowym dokumentem — Deklaracją Właściwości Użytkowych i Zgodności (DoP&C). Nowy formularz zawiera dodatkowe pola dotyczące substancji SVHC, śladu węglowego GWP oraz cyfrowej dostępności. Omawiamy każde wymagane pole krok po kroku z praktycznym komentarzem."
 image_url: /images/blog/dopc-szablon-wyjasnienie.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 > 📥 **[Pobierz wzór DoP&C do druku / PDF](/downloads/dopc-wzor-cpr-2024.html)** — interaktywny formularz ze wszystkimi 13 polami, zgodny z CPR 2024/3110. Wypełnij na ekranie i wydrukuj lub zapisz jako PDF (Ctrl+P).
@@ -15,6 +19,8 @@ template: "przewodnik"
 ---
 
 ## Czym jest DoP&C i czym różni się od starego DoP?
+
+> **Przepisy przejściowe:** Istniejące Deklaracje Właściwości Użytkowych (DoP) wystawione zgodnie z CPR 305/2011 **zachowują moc prawną do 8 stycznia 2040** (art. 4–9 CPR 305/2011 stosowane na mocy art. 93 CPR 2024/3110). Nie ma obowiązku natychmiastowego zastąpienia istniejących DoP przez DoP&C. Niniejszy szablon służy producentom **sporządzającym nową deklarację** lub **dobrowolnie przechodzącym na format DoP&C** — np. przy odnowieniu certyfikatu JN lub aktualizacji normy zharmonizowanej wyrobu.
 
 Rozporządzenie CPR 2024/3110 zastępuje rozporządzenie 305/2011 i wraz z nim zmienia nazwę oraz zakres kluczowego dokumentu towarzyszącego oznakowanemu wyrobowi budowlanemu. Dotychczasowa **Deklaracja Właściwości Użytkowych** (DoP — ang. Declaration of Performance) przekształca się w **Deklarację Właściwości Użytkowych i Zgodności** (DoP&C — ang. Declaration of Performance and Conformity).
 
@@ -93,7 +99,7 @@ To pole wskazuje normę EN lub Europejską Ocenę Techniczną (ETA), na podstawi
 
 **Przykład:** `Multicert Sp. z o.o., numer notyfikacji XXXX, zakres: wyroby betonowe`
 
-W systemach AVS 1+, 1 i 2+ w procesie oceny bierze udział jednostka notyfikowana. W DoP&C podaje się nazwę JN, jej numer notyfikacji (z bazy NANDO) oraz opis wykonanych przez nią zadań (np. certyfikacja wyrobu, inspekcja zakładu). W systemach 3 i 4 zadania JN są ograniczone lub nieobecne — w polu wpisuje się wówczas odpowiednią adnotację.
+W systemach AVS 1+, 1 i 2+ w procesie oceny bierze udział jednostka notyfikowana. W DoP&C podaje się nazwę JN, jej numer notyfikacji (z [bazy NANDO](https://ec.europa.eu/growth/tools-databases/nando)) oraz opis wykonanych przez nią zadań (np. certyfikacja wyrobu, inspekcja zakładu). W systemach 3 i 4 zadania JN są ograniczone lub nieobecne — w polu wpisuje się wówczas odpowiednią adnotację.
 
 ---
 

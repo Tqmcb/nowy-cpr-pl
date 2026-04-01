@@ -8,6 +8,9 @@ tags: ["jednostki notyfikowane", "certyfikacja", "NANDO", "Multicert"]
 excerpt: "Kryteria wyboru jednostki notyfikowanej dla certyfikacji wyrobów budowlanych. Lista jednostek w Polsce, zakres akredytacji i koszty współpracy."
 image_url: /images/blog/jednostki-notyfikowane-wybor.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # Jednostki notyfikowane w Polsce
@@ -16,7 +19,7 @@ Wybór właściwej jednostki notyfikowanej to jedna z najważniejszych decyzji w
 
 ## Czym są jednostki notyfikowane?
 
-Jednostki notyfikowane (JN; ang. Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVS. Są one notyfikowane Komisji Europejskiej i wpisane do bazy NANDO.
+Jednostki notyfikowane (JN; ang. Notified Bodies, NB) to organizacje wyznaczone przez państwa członkowskie UE do przeprowadzania oceny zgodności wyrobów budowlanych w ramach procedur AVS. Są one notyfikowane Komisji Europejskiej i wpisane do [bazy NANDO](https://ec.europa.eu/growth/tools-databases/nando).
 
 ## Główne jednostki notyfikowane w Polsce
 
@@ -65,7 +68,7 @@ Instytut Nafty i Gazu. Zakres:
 
 ## Baza NANDO
 
-Oficjalna baza jednostek notyfikowanych UE dostępna jest pod adresem: **ec.europa.eu/growth/tools-databases/nando/**
+Oficjalna baza jednostek notyfikowanych UE dostępna jest pod adresem: **[ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando)**
 
 Przed wyborem zawsze weryfikuj aktualny zakres notyfikacji w NANDO — zakresy mogą ulegać zmianom.
 

@@ -8,12 +8,15 @@ tags: ["QR kod", "kod wyrobu", "CPR 2024", "oznakowanie", "identyfikacja cyfrowa
 excerpt: "CPR 2024/3110 wprowadza wymóg cyfrowej dostępności DoP&C (od 8.01.2026 wystarczy link/URL na stronie producenta) oraz unikalny kod identyfikacyjny wyrobu. Sam kod QR nie jest jeszcze obowiązkowy — stanie się nim po aktach delegowanych KE. Dowiedz się jak wdrożyć te wymogi krok po kroku."
 image_url: /images/blog/qr-kod-unikalny-kod-produktu-c.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
 ---
 
 ## Nowy wymiar oznakowania — cyfryzacja w CPR 2024
 
 > **Stan prawny — marzec 2026:**
-> - ✅ **Dostęp online do DoP&C obowiązkowy od 8.01.2026** — producent musi udostępnić DoP&C bezpłatnie w internecie (link/URL na stronie producenta, PDF do pobrania). Spełnienie tego wymogu nie wymaga kodu QR — wystarczy adres URL w dokumentacji.
+> - ✅ **Dostęp online do DoP&C obowiązkowy od 8.01.2026** — producent wystawiający DoP&C musi udostępnić ją bezpłatnie w internecie (link/URL na stronie producenta, PDF do pobrania). Spełnienie tego wymogu nie wymaga kodu QR — wystarczy adres URL w dokumentacji. *Uwaga: producenci posiadający stary DoP (ważny na mocy przepisów przejściowych do 8.01.2040) nie są zobowiązani do natychmiastowego przejścia na DoP&C.*
 > - ⚠️ **Kod QR na wyrobie/opakowaniu — jeszcze nie obowiązkowy.** QR kod to najwygodniejszy sposób na spełnienie wymogu cyfrowej dostępności, ale obowiązkowy będzie dopiero po opublikowaniu przez KE aktów delegowanych (oczekiwanych nie wcześniej niż 2027).
 > - ⚠️ **Unikalny kod identyfikacyjny wyrobu (UPC)** — wymóg wynika z CPR 2024/3110, jednak realne ryzyko kar jest niskie, gdyż polska Nowa Ustawa o Wyrobach Budowlanych (NUWB) nie została jeszcze uchwalona.
 > - ❌ **Cyfrowy Paszport Produktu (DPP) — nie obowiązuje** do czasu opublikowania nowych norm zharmonizowanych (hTS) i aktów wykonawczych KE.

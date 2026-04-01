@@ -8,6 +8,10 @@ tags: ["SVHC", "REACH", "substancje niebezpieczne", "CPR 2024", "DoP&C"]
 excerpt: "CPR 2024/3110 po raz pierwszy wprowadza do Deklaracji Właściwości Użytkowych i Zgodności obowiązek deklarowania substancji wzbudzających szczególnie duże obawy (SVHC) obecnych w wyrobie powyżej progu 0,1% wagowo. Dowiedz się, czym są SVHC, jak sprawdzić listę kandydacką ECHA i jak powiązać ten wymóg z bazą SCIP."
 image_url: /images/blog/svhc-reach-dopc-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie REACH (WE) 1907/2006 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2006/1907/oj
+  - ECHA — lista kandydatów SVHC|https://echa.europa.eu/candidate-list-table
 ---
 
 ## SVHC w wyrobach budowlanych — nowy obowiązek w CPR 2024
@@ -18,7 +22,7 @@ Ten wymóg stanowi bezpośrednie powiązanie CPR z rozporządzeniem REACH (Rozpo
 
 ## Czym są substancje SVHC?
 
-Substancje wzbudzające szczególnie duże obawy (SVHC) to substancje chemiczne, które ze względu na swoje właściwości zostały zidentyfikowane jako stwarzające poważne zagrożenie dla zdrowia ludzkiego lub dla środowiska. Europejska Agencja Chemikaliów (ECHA) prowadzi tzw. listę kandydacką SVHC, na którą trafiają substancje spełniające co najmniej jedno z następujących kryteriów:
+Substancje wzbudzające szczególnie duże obawy (SVHC) to substancje chemiczne, które ze względu na swoje właściwości zostały zidentyfikowane jako stwarzające poważne zagrożenie dla zdrowia ludzkiego lub dla środowiska. Europejska Agencja Chemikaliów ([ECHA](https://echa.europa.eu)) prowadzi tzw. listę kandydacką SVHC, na którą trafiają substancje spełniające co najmniej jedno z następujących kryteriów:
 
 - **Substancje rakotwórcze, mutagenne lub działające szkodliwie na rozrodczość (CMR)** kategorii 1A lub 1B zgodnie z rozporządzeniem CLP,
 - **Substancje trwałe, bioakumulacyjne i toksyczne (PBT)** zgodnie z kryteriami REACH,

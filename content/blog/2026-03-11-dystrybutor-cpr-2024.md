@@ -8,6 +8,10 @@ tags: ["dystrybutor", "CPR 2024", "obowiązki", "łańcuch dostaw", "wyroby budo
 excerpt: "CPR 2024 nakłada na dystrybutorów wyrobów budowlanych konkretne obowiązki weryfikacyjne i dokumentacyjne. Sprawdź, co musisz sprawdzić przed wprowadzeniem wyrobu do obrotu i jakie kary grożą za zaniedbania."
 image_url: /images/blog/dystrybutor-cpr-2024.jpg
 template: "praktyczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 # Dystrybutor wyrobów budowlanych w CPR 2024 — pełny zakres obowiązków
@@ -60,7 +64,7 @@ Dystrybutor, który dowiedział się lub ma podstawy sądzić, że wyrób jest n
 
 1. Niezwłocznie poinformować producenta lub importera
 2. Nie udostępniać wyrobu do czasu wyjaśnienia sytuacji
-3. Współpracować z GUNB na żądanie organu
+3. Współpracować z [GUNB](https://www.gunb.gov.pl) na żądanie organu
 4. W razie poważnego zagrożenia — poinformować właściwy organ rynku
 
 ### Przechowywanie informacji

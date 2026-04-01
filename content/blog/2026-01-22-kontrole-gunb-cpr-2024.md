@@ -16,7 +16,7 @@ sources:
 
 # Nadzór rynku GUNB 2026 — jak przebiega kontrola?
 
-Główny Urząd Nadzoru Budowlanego (GUNB) jest w Polsce organem odpowiedzialnym za nadzór rynku wyrobów budowlanych w rozumieniu CPR 2024/3110 oraz rozporządzenia (UE) 2019/1020 o nadzorze rynku. Od 2026 roku kontrole prowadzone są już w oparciu o nowe przepisy.
+Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl)) jest w Polsce organem odpowiedzialnym za nadzór rynku wyrobów budowlanych w rozumieniu CPR 2024/3110 oraz rozporządzenia (UE) 2019/1020 o nadzorze rynku. Od 2026 roku kontrole prowadzone są już w oparciu o nowe przepisy.
 
 ## Co sprawdza GUNB podczas kontroli?
 
@@ -53,12 +53,12 @@ Od producenta można zażądać:
 Na podstawie dotychczasowych kontroli GUNB po wejściu w życie CPR 2024, najczęstsze problemy to:
 
 **Dokumentacja:**
-- Stary format DoP zamiast DoP&C przy wyrobach wprowadzanych od 8 stycznia 2026
+- Brak jakiegokolwiek DoP/DoP&C — zarówno stary DoP jak i nowy DoP&C są dopuszczalne w 2026 roku (stary DoP zachowuje ważność na mocy art. 4–9 CPR 305/2011 stosowanych do 8 stycznia 2040)
 - Brak deklaracji wskaźników środowiskowych u producenta, który dobrowolnie wybrał system 3+ i zadeklarował dane środowiskowe w DoP&C, ale nie przeszedł walidacji JN *(uwaga: samo niepodawanie wskaźników środowiskowych nie jest naruszeniem — obowiązek pojawi się dopiero po opublikowaniu nowych hTS)*
-- DoP&C niedostępna online — wymagany jest co najmniej link na stronie producenta
+- Cyfrowa DoP&C niedostępna online — dotyczy producentów, którzy wystawiają nowy format DoP&C; stary DoP nie podlega obowiązkowi cyfrowej dostępności wynikającemu z CPR 2024
 
 **Oznakowanie CE:**
-- Stosowanie starego numeru systemu AVCP zamiast AVS
+- W nowych DoP&C: stosowanie starego numeru systemu AVCP zamiast AVS — przy produktach certyfikowanych nadal pod starą hEN stara terminologia AVCP jest akceptowalna do czasu aktualizacji normy
 - Brak roku nawieszenia oznakowania
 - Symbol CE mniejszy niż 5 mm na opakowaniu
 

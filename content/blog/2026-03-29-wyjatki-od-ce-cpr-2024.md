@@ -8,6 +8,9 @@ tags: ["wyjątki CE", "CPR 2024", "wyłączenia", "zakres CPR", "oznakowanie CE"
 excerpt: "Nie każdy wyrób budowlany wymaga oznakowania CE. CPR 2024 przewiduje wyjątki dla prototypów, wyrobów na zamówienie, produkcji jednostkowej i wyrobów wytwarzanych na placu budowy. Sprawdź, czy Twój wyrób jest objęty."
 image_url: /images/blog/wyjatki-od-ce-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
 ---
 
 # Kiedy CE nie jest wymagane — wyjątki z CPR 2024

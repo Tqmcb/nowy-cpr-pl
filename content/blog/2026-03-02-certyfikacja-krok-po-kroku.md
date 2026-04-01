@@ -32,7 +32,7 @@ Pierwszym i fundamentalnym pytaniem jest: czy dla mojego wyrobu istnieje norma z
 
 - **Baza Dziennika Urzędowego UE** — Komisja Europejska publikuje aktualizowane wykazy norm zharmonizowanych. Szukaj wykazów powiązanych z rozporządzeniem CPR 2024/3110.
 - **Strona PKN** (Polski Komitet Normalizacyjny, www.pkn.pl) — baza norm zawiera informację, czy dana norma EN jest normą zharmonizowaną.
-- **Baza NANDO** (New Approach Notified and Designated Organisations) — umożliwia weryfikację, które jednostki notyfikowane są uprawnione do działania w zakresie danej normy.
+- **[Baza NANDO](https://ec.europa.eu/growth/tools-databases/nando)** (New Approach Notified and Designated Organisations) — umożliwia weryfikację, które jednostki notyfikowane są uprawnione do działania w zakresie danej normy.
 - **Konsultacja z jednostką notyfikowaną** — wiele JN oferuje bezpłatne lub niskokosztowe konsultacje wstępne.
 
 **Jeżeli norma zharmonizowana nie istnieje** lub wyroby nie są objęte jej zakresem stosowania, producent nie ma podstawy do umieszczenia oznakowania CE na podstawie CPR. Może natomiast ubiegać się o Europejską Ocenę Techniczną (ETA) — alternatywną ścieżkę przewidzianą dla wyrobów innowacyjnych lub nieobjętych normami.
@@ -73,7 +73,7 @@ Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikow
 
 **Jak wybrać JN?**
 
-1. Skorzystaj z bazy NANDO (ec.europa.eu/growth/tools-databases/nando) — wyszukaj JN notyfikowane dla odpowiedniej normy EN (pole „Standard/Document").
+1. Skorzystaj z bazy NANDO ([ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando)) — wyszukaj JN notyfikowane dla odpowiedniej normy EN (pole „Standard/Document").
 2. Zidentyfikuj polskie JN — dla wyrobów budowlanych notyfikowane są m.in. Multicert, ICiMB (Instytut Ceramiki i Materiałów Budowlanych), CNBOP-PIB.
 3. Poproś o ofertę cenową od co najmniej 2–3 JN — ceny mogą się znacznie różnić w zależności od zakresu i złożoności badań.
 4. Sprawdź aktualność notyfikacji — zdarza się, że notyfikacja JN wygasa lub jest zawieszona.

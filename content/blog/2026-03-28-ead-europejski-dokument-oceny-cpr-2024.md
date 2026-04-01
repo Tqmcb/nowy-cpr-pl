@@ -8,6 +8,10 @@ tags: ["EAD", "ETA", "EOTA", "CPR 2024", "innowacyjne wyroby", "brak normy", "ce
 excerpt: "Twój wyrób budowlany nie ma normy zharmonizowanej? EAD i ETA to jedyna ścieżka do CE. Dowiedz się, jak przebiega proces opracowania Europejskiego Dokumentu Oceny, ile trwa i co kosztuje."
 image_url: /images/blog/ead-europejski-dokument-oceny-cpr-2024.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - EOTA — baza EAD i ETA|https://www.eota.eu
+  - ocenytechniczne.pl — ETA w Polsce|https://www.ocenytechniczne.pl
 ---
 
 # Europejski Dokument Oceny (EAD) — ścieżka CE dla wyrobów bez normy
@@ -16,7 +20,7 @@ Setki wyrobów budowlanych nie ma norm zharmonizowanych — bo są zbyt innowacy
 
 ## Co to jest EAD?
 
-**Europejski Dokument Oceny (EAD)** to dokument przyjęty przez organizację EOTA (European Organisation for Technical Assessment), który określa metody oceny właściwości użytkowych wyrobu budowlanego nieobjętego normą zharmonizowaną. EAD zastąpił dawne ETAG (European Technical Approval Guideline).
+**Europejski Dokument Oceny (EAD)** to dokument przyjęty przez organizację [EOTA](https://www.eota.eu) (European Organisation for Technical Assessment), który określa metody oceny właściwości użytkowych wyrobu budowlanego nieobjętego normą zharmonizowaną. EAD zastąpił dawne ETAG (European Technical Approval Guideline).
 
 EAD określa:
 - **Zamierzone zastosowanie wyrobu** — gdzie i jak ma być stosowany
@@ -115,9 +119,9 @@ CPR 305/2011 posługiwał się dokumentami ETAG i Aprobatami Technicznymi. Przy 
 |---|---|
 | ETAG (stary EAD) | Traktowany jako EAD do czasu aktualizacji |
 | Krajowe Aprobaty Techniczne (AT) | Wygasają — brak odpowiednika w CPR 2024 |
-| ETA wystawiona przed 2026 | Ważna, ale musi być zaktualizowana do formatu DoP&C |
+| ETA wystawiona przed 2026 | Ważna — zachowuje moc przez pełny okres ważności (art. 95 CPR 2024); stary DoP wystawiony na jej podstawie pozostaje ważny na mocy przepisów przejściowych (art. 4–9 CPR 305/2011) do 8 stycznia 2040 |
 
-**Stare ETA (wystawione przed 8 stycznia 2026):** Są ważne, ale producent musi zaktualizować DoP (stara) na DoP&C (nowa) uwzględniając wymagania CPR 2024.
+**Stare ETA (wystawione przed 8 stycznia 2026):** Zachowują ważność przez pełny okres przewidziany w CPR 2024 — do końca ważności EAD plus 5 lat (art. 95 CPR 2024/3110). Stary DoP wystawiony na podstawie takiej ETA **nie musi być natychmiast zastąpiony** przez DoP&C — przepisy przejściowe (art. 4–9 CPR 305/2011) pozwalają na dalsze stosowanie starych DoP do 8 stycznia 2040. Praktycznym momentem przejścia na DoP&C będzie aktualizacja EAD lub odnowienie certyfikatu JN.
 
 ## Przykłady wyrobów certyfikowanych przez ETA
 

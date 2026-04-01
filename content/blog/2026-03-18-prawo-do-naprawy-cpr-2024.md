@@ -8,6 +8,8 @@ tags: ["prawo do naprawy", "trwałość", "CPR 2024", "cyrkularność", "ESPR", 
 excerpt: "CPR 2024 wprowadza wymogi dotyczące trwałości, naprawialności i cyrkularności wyrobów budowlanych. Dowiedz się, co musi deklarować producent i jak prawo do naprawy wpłynie na projektowanie wyrobów."
 image_url: /images/blog/prawo-do-naprawy-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
 ---
 
 # Prawo do naprawy i trwałość w CPR 2024 — nowy wymiar obowiązków producenta

@@ -8,6 +8,11 @@ tags: ["okna", "drzwi", "EN 14351", "ITT"]
 excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2006+A2:2016. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP&C."
 image_url: /images/blog/okna-drzwi-certyfikacja.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # Okna i drzwi – certyfikacja EN 14351-1

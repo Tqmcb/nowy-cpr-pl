@@ -8,6 +8,10 @@ tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
 excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy."
 image_url: /images/blog/zakladowa-kontrola-produkcji-f.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # Zakładowa Kontrola Produkcji (FPC)

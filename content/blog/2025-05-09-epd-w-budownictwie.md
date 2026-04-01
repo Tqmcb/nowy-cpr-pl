@@ -82,7 +82,7 @@ Ważność EPD: **5 lat**
 - **[EPD Polska](https://www.epd.org.pl)** – program EPD dedykowany rynkowi polskiemu
 - **EPD International** (Szwecja) – największy program globalny
 - **IBU** (Niemcy) – Institut Bauen und Umwelt
-- **ECO Platform** – platforma europejska
+- **[ECO Platform](https://www.eco-platform.org)** – platforma europejska
 
 ## Oprogramowanie do LCA
 

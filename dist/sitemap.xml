@@ -401,6 +401,18 @@
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/implementacja-cpr-2024-kraje-ue</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nowycpr.pl/blog/nuwb-polska-ustawa-wyroby-budowlane</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Katalog wyrobów — 36 stron -->
   <url>

@@ -8,6 +8,10 @@ tags: ["beton", "prefabrykaty", "EN 206", "konstrukcje"]
 excerpt: "Certyfikacja betonu towarowego i prefabrykatów betonowych według CPR 2024. System 2+, normy EN 206 i EN 13369, zakładowa kontrola produkcji."
 image_url: /images/blog/beton-prefabrykaty-wymagania.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # Beton i prefabrykaty betonowe – wymagania CPR 2024

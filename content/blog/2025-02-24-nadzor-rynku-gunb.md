@@ -8,6 +8,10 @@ tags: ["GUNB", "nadzór rynku", "kontrola", "sankcje"]
 excerpt: "Jak działa nadzór rynku wyrobów budowlanych w Polsce? Rola GUNB, procedury kontrolne, najczęstsze nieprawidłowości i sankcje."
 image_url: /images/blog/nadzor-rynku-gunb.jpg
 template: "regulacja"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 # Nadzór rynku wyrobów budowlanych
@@ -22,7 +26,7 @@ GUNB jest centralnym organem odpowiedzialnym za nadzór rynku wyrobów budowlany
 - Planowanie i koordynowanie kontroli rynku
 - Prowadzenie ogólnopolskiego systemu informatycznego wyrobów budowlanych
 - Współpraca z organami nadzoru innych państw UE
-- Uczestnictwo w europejskim systemie wczesnego ostrzegania Safety Gate (dawniej RAPEX)
+- Uczestnictwo w europejskim systemie wczesnego ostrzegania [Safety Gate](https://ec.europa.eu/safety-gate/) (dawniej RAPEX)
 
 ## Zakres kontroli
 

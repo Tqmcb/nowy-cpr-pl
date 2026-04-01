@@ -9,6 +9,11 @@ tags: ["GPP", "zielone zamówienia publiczne", "GWP", "CPR 2024", "EPD", "przeta
 excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy ramy prawne dla przyszłego obowiązku deklarowania GWP, jednak jego wejście w życie wymaga jeszcze norm zharmonizowanych i aktów delegowanych. Już dziś jednak EPD jest wymagane na rynkach eksportowych i w projektach unijnych — i to niezależnie od CPR."
 image_url: /images/blog/gpp-zielone-zamowienia-publicz.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - ECO Platform — weryfikowane deklaracje EPD|https://www.eco-platform.org
+  - epd.org.pl — EPD w Polsce|https://epd.org.pl
+  - Zielone Zamówienia Publiczne — KE|https://ec.europa.eu/environment/gpp/
 ---
 
 ## GPP jako instrument polityki klimatycznej UE

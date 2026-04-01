@@ -8,6 +8,10 @@ tags: ["importer", "CPR 2024", "obowiązki", "weryfikacja zgodności", "wyroby b
 excerpt: "Rozporządzenie CPR 2024/3110 wprowadza istotne zmiany w zakresie obowiązków importerów wyrobów budowlanych spoza UE. Importer musi aktywnie weryfikować zgodność wyrobu przed wprowadzeniem go do obrotu (art. 24 CPR 2024). Poznaj szczegóły nowych przepisów i porównaj je z dotychczasowym stanem prawnym."
 image_url: /images/blog/importer-obowiazki-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 ## Wprowadzenie — dlaczego importerzy znaleźli się pod lupą CPR 2024?

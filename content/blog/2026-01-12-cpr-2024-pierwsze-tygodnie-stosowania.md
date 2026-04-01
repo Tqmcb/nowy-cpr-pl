@@ -8,6 +8,12 @@ tags: ["CPR 2024", "2026", "AVS", "DoP&C", "obowiązki producenta"]
 excerpt: "Od 8 stycznia 2026 rozporządzenie CPR 305/2011 zostało uchylone. CPR 2024/3110 stosuje się w pełni. Co w praktyce zmieniło się dla producentów wyrobów budowlanych?"
 image_url: /images/blog/cpr-2024-pierwsze-tygodnie-sto.jpg
 template: "aktualnosci"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 # CPR 2024 w pełni obowiązuje od 8 stycznia 2026
@@ -57,7 +63,7 @@ W pierwszych tygodniach od 8 stycznia 2026 widoczne są:
 **Pytania producentów:**
 - Czy muszę wymienić wszystkie certyfikaty AVS wydane przez jednostki notyfikowane?
 - Czy stary certyfikat AVCP jest nadal ważny?
-- Kiedy dokładnie GUNB zacznie egzekwować nowe oznakowanie?
+- Kiedy dokładnie [GUNB](https://www.gunb.gov.pl) zacznie egzekwować nowe oznakowanie?
 
 **Odpowiedź:** Certyfikaty wydane na podstawie CPR 305/2011 zachowują ważność do czasu ich wygaśnięcia — nie trzeba ich wymieniać z dnia na dzień. Jednak przy wystawianiu nowego DoP&C dla wyrobu należy już stosować nomenklaturę CPR 2024.
 

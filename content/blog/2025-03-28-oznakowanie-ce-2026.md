@@ -8,6 +8,11 @@ tags: ["CE", "oznakowanie", "etykieta", "wymagania", "CPR 2024", "DoP&C"]
 excerpt: "Rozszerzone wymagania dotyczące oznakowania CE w CPR 2024/3110. Obowiązek cyfrowej DoP&C od 8 stycznia 2026. QR kody, klasy środowiskowe, nowe elementy etykiety CE. Praktyczny przewodnik dla producentów."
 image_url: /images/blog/oznakowanie-ce-2026.jpg
 template: "regulacja"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # Oznakowanie CE — Nowe Wymagania CPR 2024/3110
@@ -93,7 +98,7 @@ CPR 2024 przewiduje **surowe kary** (stosowane od 8 stycznia 2027):
 
 ## Kontrole nadzoru rynku
 
-Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
+Organy kontrolne ([GUNB](https://www.gunb.gov.pl), [UOKiK](https://www.uokik.gov.pl)) sprawdzają m.in.:
 - ✔️ Kompletność oznakowania (w tym QR kod)
 - ✔️ Czytelność i trwałość etykiety
 - ✔️ Zgodność etykiety z cyfrową DoP&C
@@ -108,7 +113,7 @@ Organy kontrolne (GUNB, UOKiK) sprawdzają m.in.:
 - [ ] Sprawdzić czy numer jednostki notyfikowanej widnieje na etykiecie (jeśli dotyczy)
 - [ ] Zaktualizować procesy produkcyjne i dokumentację FPC zgodnie z systemem AVS
 - [ ] Przeszkolić zespół sprzedaży i jakości z nowej terminologii CPR 2024
-- [ ] Zamówić nowe etykiety CE przed 8 stycznia 2026
+- [ ] Przygotować nowe wzory etykiet CE (z terminologią AVS, DoP&C) — stosować przy nowych lub odnawianych certyfikatach; istniejące produkty z ważnymi certyfikatami AVCP mogą kontynuować pod przepisami przejściowymi (do 2040)
 - [ ] Zgłosić zmiany do jednostki notyfikowanej (aktualizacja certyfikatu AVS)
 
 ## Podsumowanie chronologii

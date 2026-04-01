@@ -8,6 +8,9 @@ tags: ["normy", "hEN", "standardy", "EN"]
 excerpt: "Aktualna lista norm zharmonizowanych dla wyrobów budowlanych. Co nowego w 2026 roku, które normy uległy zmianie i jak się przygotować?"
 image_url: /images/blog/normy-zharmonizowane-2026.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # Normy zharmonizowane 2026
@@ -58,7 +61,7 @@ Producenci korzystający z nieaktualnych norm ryzykują:
 - Unieważnienie certyfikatu zgodności
 - Konieczność ponownych badań typu (ITT)
 - Nakaz wycofania wyrobów z rynku
-- Kary finansowe ze strony GUNB
+- Kary finansowe ze strony [GUNB](https://www.gunb.gov.pl)
 
 ---
 

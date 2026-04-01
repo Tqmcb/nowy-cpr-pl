@@ -8,6 +8,10 @@ tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentac
 excerpt: "CPR 2024/3110 wprowadza DoP&C — ale przepisy przejściowe pozwalają na dalsze stosowanie starych DoP do czasu aktualizacji normy zharmonizowanej. Wyjaśniamy co się zmieniło, kiedy musisz wystawić DoP&C i co możesz zachować."
 image_url: /images/blog/dop-do-dopc-zmiany-cpr-2024.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # DoP → DoP&C: kompletny przewodnik po zmianach w deklaracji właściwości użytkowych
@@ -109,7 +113,7 @@ Tak, jeśli badania były przeprowadzone zgodnie z normą zharmonizowaną, któr
 
 Przejście z DoP na DoP&C to więcej niż zmiana nazwy — to rozszerzenie deklarowanej zgodności z samej normy na całe rozporządzenie. Kluczowe różnice to: nowe pola dla właściwości środowiskowych, obowiązek unikalnego kodu wyrobu, cyfrowa dostępność dokumentu i szersza odpowiedzialność producenta.
 
-Producenci, którzy zaktualizują swoje dokumenty szybko i poprawnie, unikną ryzyka kontroli ze strony GUNB oraz zablokowania sprzedaży na rynkach UE od 2026 roku.
+Producenci, którzy zaktualizują swoje dokumenty szybko i poprawnie, unikną ryzyka kontroli ze strony [GUNB](https://www.gunb.gov.pl) oraz zablokowania sprzedaży na rynkach UE od 2026 roku.
 
 ---
 

@@ -8,6 +8,9 @@ tags: ["Ecolabel", "EPD", "etykietowanie środowiskowe", "CPR 2024", "greenwashi
 excerpt: "Rynek wyrobów budowlanych jest zalany różnego rodzaju etykietami, deklaracjami i certyfikatami środowiskowymi. CPR 2024/3110 porządkuje ten krajobraz, nadając normative znaczenie charakterystykom środowiskowym w DoP&C, a nadchodząca Dyrektywa o Ekologicznych Twierdzeniach (Green Claims Directive) zaostry wymagania wobec wszelkich dobrowolnych deklaracji środowiskowych."
 image_url: /images/blog/oznakowanie-ekologiczne-cpr-20.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Zielone Zamówienia Publiczne — KE|https://ec.europa.eu/environment/gpp/
 ---
 
 ## Krajobraz etykietowania środowiskowego w budownictwie
@@ -52,7 +55,7 @@ Kluczowe wskaźniki podawane w EPD (moduł A1–A3 jako minimum dla EPD „od ko
 
 EPD podlegają weryfikacji przez niezależną stronę trzecią — w rozumieniu CPR 2024 jest to system AVS 3+. Weryfikator (jednostka notyfikowana lub akredytowany niezależny weryfikator) wystawia Raport walidacyjny potwierdzający prawidłowość metodologii i danych.
 
-EPD są rejestrowane w programach EPD (np. IBU w Niemczech, EPD Norway w Norwegii, ECO Platform na poziomie europejskim) i publikowane w publicznie dostępnych bazach danych. Ważność EPD wynosi 5 lat.
+EPD są rejestrowane w programach EPD (np. IBU w Niemczech, EPD Norway w Norwegii, [ECO Platform](https://www.eco-platform.org) na poziomie europejskim) i publikowane w publicznie dostępnych bazach danych. Ważność EPD wynosi 5 lat.
 
 ## Własne deklaracje środowiskowe (ISO 14021) — ryzyko greenwashingu
 

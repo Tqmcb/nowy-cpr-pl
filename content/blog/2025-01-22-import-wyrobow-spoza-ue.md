@@ -8,6 +8,10 @@ tags: ["import", "handel", "cło", "dokumentacja"]
 excerpt: "Jak legalnie importować wyroby budowlane z Chin, Turcji czy USA? Obowiązki importera, wymagana dokumentacja i procedury celne."
 image_url: /images/blog/import-wyrobow-spoza-ue.jpg
 template: "regulacja"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 # Import wyrobów budowlanych spoza UE
@@ -62,7 +66,7 @@ Właściwe zaklasyfikowanie wyrobu do kodu CN jest kluczowe — wpływa na wysok
 
 ### Ryzyko reputacyjne
 
-- Publiczne powiadomienia o wyrobach niezgodnych w systemie Safety Gate
+- Publiczne powiadomienia o wyrobach niezgodnych w systemie [Safety Gate](https://ec.europa.eu/safety-gate/)
 - Zakaz prowadzenia działalności importowej
 
 ## Praktyczne wskazówki

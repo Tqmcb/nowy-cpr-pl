@@ -8,6 +8,11 @@ tags: ["ETA", "ocena techniczna", "TAB", "EOTA"]
 excerpt: "Co zrobić gdy wyrób nie jest objęty normą zharmonizowaną? Europejska Ocena Techniczna (ETA), krajowe oceny techniczne i ścieżka do oznakowania CE."
 image_url: /images/blog/eta-krajowe-oceny-techniczne.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - EOTA — baza EAD i ETA|https://www.eota.eu
+  - ocenytechniczne.pl — ETA w Polsce|https://www.ocenytechniczne.pl
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # ETA i krajowe oceny techniczne

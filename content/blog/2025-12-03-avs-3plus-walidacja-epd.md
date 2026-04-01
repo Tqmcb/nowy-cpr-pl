@@ -8,6 +8,11 @@ tags: ["AVS 3+", "EPD", "walidacja", "jednostka notyfikowana", "CPR 2024", "LCA"
 excerpt: "CPR 2024/3110 wprowadza zupełnie nowy system oceny — AVS 3+ — przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy cyklu życia — LCA) przez akredytowaną jednostkę notyfikowaną. To istotna nowość, która zmienia sposób dokumentowania śladu środowiskowego wyrobów budowlanych."
 image_url: /images/blog/avs-3plus-walidacja-epd.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - ECO Platform — weryfikowane deklaracje EPD|https://www.eco-platform.org
+  - epd.org.pl — EPD w Polsce|https://epd.org.pl
 ---
 
 ## Geneza systemu AVS 3+ — odpowiedź na nowe wymagania środowiskowe
@@ -60,8 +65,8 @@ Dla producentów, którzy już wcześniej opracowywali EPD dobrowolnie (poza CPR
 
 W Polsce walidację danych środowiskowych zgodną z EN 15804+A2 i wymaganiami CPR 2024 (system AVS 3+) mogą świadczyć:
 
-- **Jednostki notyfikowane akredytowane przez PCA (Polskie Centrum Akredytacji)** w zakresie walidacji lub weryfikacji środowiskowej — lista dostępna w bazie NANDO (New Approach Notified and Designated Organisations) Komisji Europejskiej,
-- **Operatorzy programów EPD** uznanych na poziomie europejskim, tacy jak Institut Bauen und Umwelt e.V. (IBU, Niemcy), The Norwegian EPD Foundation czy ECO Platform — ich weryfikatorzy mogą działać transgranicznie,
+- **Jednostki notyfikowane akredytowane przez PCA (Polskie Centrum Akredytacji)** w zakresie walidacji lub weryfikacji środowiskowej — lista dostępna w [bazie NANDO](https://ec.europa.eu/growth/tools-databases/nando) (New Approach Notified and Designated Organisations) Komisji Europejskiej,
+- **Operatorzy programów EPD** uznanych na poziomie europejskim, tacy jak Institut Bauen und Umwelt e.V. (IBU, Niemcy), The Norwegian EPD Foundation czy [ECO Platform](https://www.eco-platform.org) — ich weryfikatorzy mogą działać transgranicznie,
 - **Instytuty naukowo-badawcze** posiadające akredytację w zakresie weryfikacji LCA, np. w ramach Instytutu Inżynierii Chemicznej PAN lub innych akredytowanych podmiotów.
 
 Rynek walidacji danych środowiskowych w Polsce dopiero się kształtuje. Wielu producentów korzysta z usług zagranicznych JN — szczególnie z Niemiec i Skandynawii — gdzie doświadczenie w weryfikacji danych LCA jest znacznie dłuższe.

@@ -8,6 +8,11 @@ tags: ["sprzedaż online", "e-commerce", "CPR 2024", "dystrybutor", "obowiązki 
 excerpt: "CPR 2024/3110 po raz pierwszy kompleksowo reguluje sprzedaż wyrobów budowlanych w kanałach online. Dystrybutorzy prowadzący własne sklepy internetowe lub wystawiający wyroby na platformach marketplace muszą spełnić nowe obowiązki informacyjne. Omawiamy, co musi zawierać listing wyrobu, jakie prawa ma nabywca i jak wygląda odpowiedzialność w łańcuchu dostaw."
 image_url: /images/blog/sprzedaz-online-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
+  - Rozporządzenie (UE) 2022/2065 — DSA (akt o usługach cyfrowych)|https://eur-lex.europa.eu/eli/reg/2022/2065/oj
 ---
 
 ## Dlaczego e-commerce wyrobów budowlanych wymaga osobnej analizy?
@@ -68,7 +73,7 @@ Zasada swobodnego przepływu towarów w UE oznacza, że wyrób z oznakowaniem CE
 
 - **Języku DoP&C** — art. 7 CPR 2024 dopuszcza udostępnienie DoP&C w języku wymaganym przez kraj przeznaczenia. Część państw (np. Niemcy, Francja) wymagają DoP&C w języku krajowym; inne akceptują wersję angielską.
 - **Wymogach etykiety** — elementy oznakowania CE na etykiecie lub opakowaniu wyrobu muszą być czytelne i trwałe. Przy sprzedaży online, gdzie fizyczna inspekcja etykiety następuje po dostarczeniu towaru, kluczowe staje się prawidłowe zamieszczenie informacji w listingu.
-- **Krajowych organach nadzoru rynku** — każde państwo UE ma własny organ odpowiedzialny za nadzór rynku wyrobów budowlanych. W Polsce jest to Główny Urząd Nadzoru Budowlanego (GUNB). Kontrole rynku online są coraz częstsze.
+- **Krajowych organach nadzoru rynku** — każde państwo UE ma własny organ odpowiedzialny za nadzór rynku wyrobów budowlanych. W Polsce jest to Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl)). Kontrole rynku online są coraz częstsze.
 
 ---
 

@@ -8,6 +8,10 @@ tags: ["EN 15804", "EPD", "LCA", "rewizja normy", "CEN/TC 350", "AVS 3+", "CPR 2
 excerpt: "CEN/TC 350 pracuje nad trzecią poprawką normy EN 15804 — fundamentu dla deklaracji środowiskowych wyrobów budowlanych. Jakie zmiany przyniesie +A3 i kiedy producenci powinni się przygotować?"
 image_url: /images/blog/en-15804-a3-rewizja-normy-epd-budownictwo.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - ECO Platform — weryfikowane deklaracje EPD|https://www.eco-platform.org
+  - epd.org.pl — EPD w Polsce|https://epd.org.pl
 ---
 
 # EN 15804+A3: nadchodząca rewizja kluczowej normy EPD dla budownictwa
@@ -65,7 +69,7 @@ Art. 75–80 CPR 2024/3110 nakładają obowiązek wdrożenia **Cyfrowego Paszpor
 
 Prace prowadzi **CEN/TC 350 / WG 5** przy współudziale ekspertów z IBU (*Institut Bauen und Umwelt*, Niemcy), BRE (Wielka Brytania), INIES (Francja), EPD Norway oraz SINTEF.
 
-> **Uwaga metodyczna:** Prace nad EN 15804+A3 toczą się wewnątrz CEN/TC 350, jednak na dzień publikacji artykułu CEN nie opublikował oficjalnego komunikatu o uruchomieniu formalnego projektu rewizji. Informacje poniżej oparte są na dokumentach warsztatowych CEN, publikacjach ECO Platform i dyskusjach eksperckich — należy je traktować jako kierunki, nie zatwierdzone postanowienia.
+> **Uwaga metodyczna:** Prace nad EN 15804+A3 toczą się wewnątrz CEN/TC 350, jednak na dzień publikacji artykułu CEN nie opublikował oficjalnego komunikatu o uruchomieniu formalnego projektu rewizji. Informacje poniżej oparte są na dokumentach warsztatowych CEN, publikacjach [ECO Platform](https://www.eco-platform.org) i dyskusjach eksperckich — należy je traktować jako kierunki, nie zatwierdzone postanowienia.
 
 Na podstawie dostępnych materiałów roboczych CEN i wypowiedzi ekspertów WG5 można wskazać następujące obszary zmian:
 

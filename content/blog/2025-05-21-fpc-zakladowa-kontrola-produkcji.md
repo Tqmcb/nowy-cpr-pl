@@ -8,6 +8,10 @@ tags: ["FPC", "zakładowa kontrola produkcji", "CPR 2024", "producent", "certyfi
 excerpt: "Zakładowa Kontrola Produkcji (FPC) to obowiązkowy element systemu oznakowania CE dla wyrobów budowlanych i jeden z najczęstszych powodów problemów podczas audytów jednostek notyfikowanych. Praktyczny przewodnik dla małych producentów wyjaśnia, co musi zawierać dokumentacja FPC i jak przygotować się na wizytę audytorów."
 image_url: /images/blog/fpc-zakladowa-kontrola-produkc.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 ## Czym jest FPC i dlaczego jest niezbędna

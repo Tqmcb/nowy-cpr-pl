@@ -8,11 +8,20 @@ tags: ["checklist", "2026", "producent", "CPR 2024", "przygotowanie do certyfika
 excerpt: "Co faktycznie obowiązuje od 8 stycznia 2026? Przede wszystkim: DoP&C online i UPC na dokumencie. Kody QR, GWP i DPP czekają na nowe normy zharmonizowane. Skorzystaj z checklisty oddzielającej obowiązki już aktywne od tych, które dopiero nadejdą."
 image_url: /images/blog/checklist-producenta-2026.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 ## Dlaczego 2026 to rok kluczowy dla producentów wyrobów budowlanych?
 
-Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza obowiązek cyfrowej dostępności Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) dla pierwszych grup wyrobów, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
+Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza pełne stosowanie CPR 2024, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
+
+> **Przepisy przejściowe:** Istniejące Deklaracje Właściwości Użytkowych (DoP) wystawione zgodnie z CPR 305/2011 oraz certyfikaty AVCP **zachowują ważność do 8 stycznia 2040** (art. 93 CPR 2024/3110). Nie ma obowiązku natychmiastowej wymiany całej dokumentacji. Przejście na DoP&C i AVS następuje etapami — przy okazji aktualizacji normy zharmonizowanej wyrobu lub odnowienia certyfikatu JN. Poniższa checklista zawiera zarówno działania wymagane już teraz (cyfrowa dostępność dokumentów, UPC), jak i te do zaplanowania na przyszłość.
 
 Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w łańcuchu dostaw, problemami z organami nadzoru rynku i utratą certyfikacji. Poniższa checklista została opracowana jako praktyczne narzędzie zarządzania gotowością regulacyjną — przejdź przez każdą sekcję i zaznacz, które działania Twoja firma już podjęła, a które jeszcze wymagają realizacji.
 

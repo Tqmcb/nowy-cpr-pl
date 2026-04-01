@@ -8,6 +8,9 @@ tags: ["paszport wyrobu", "zrównoważoność", "ESG", "cyrkularność"]
 excerpt: "Czym jest paszport wyrobu budowlanego (DPP — Digital Product Passport) i kiedy stanie się obowiązkowy? Na marzec 2026 DPP nie jest jeszcze wymagany — wymaga aktów wykonawczych KE i nowych norm zharmonizowanych. Wyjaśniamy, co CPR 2024 mówi o DPP i jak się przygotować."
 image_url: /images/blog/paszport-produktu.jpg
 template: "aktualnosci"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
 ---
 
 # Paszport wyrobu budowlanego — czym jest i kiedy stanie się obowiązkowy

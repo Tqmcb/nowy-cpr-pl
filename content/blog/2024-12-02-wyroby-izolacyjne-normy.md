@@ -8,6 +8,10 @@ tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
 excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVS."
 image_url: /images/blog/wyroby-izolacyjne-normy.jpg
 template: "techniczny"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 # Wyroby izolacyjne – wymagania CPR 2024

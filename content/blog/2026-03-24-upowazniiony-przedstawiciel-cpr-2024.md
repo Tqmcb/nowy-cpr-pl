@@ -8,6 +8,10 @@ tags: ["upoważniony przedstawiciel", "CPR 2024", "producent spoza UE", "obowią
 excerpt: "Producent spoza UE sprzedający wyroby budowlane w Polsce musi mieć upoważnionego przedstawiciela w UE. CPR 2024 precyzuje jego obowiązki i odpowiedzialność. Sprawdź, kiedy jest wymagany i jak go wyznaczyć."
 image_url: /images/blog/upowazniiony-przedstawiciel-cpr-2024.jpg
 template: "regulacja"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 # Upoważniony przedstawiciel producenta w CPR 2024
@@ -39,7 +43,7 @@ Zakres mandatu UP określa pisemne pełnomocnictwo od producenta. CPR 2024 okre�
 
 ### 1. Udostępnianie dokumentacji organom nadzoru
 
-UP musi być w stanie dostarczyć organom (GUNB i innym) na ich żądanie:
+UP musi być w stanie dostarczyć organom ([GUNB](https://www.gunb.gov.pl) i innym) na ich żądanie:
 - Kopię DoP&C
 - Dokumentację techniczną lub jej wybrane elementy
 - Informacje umożliwiające identyfikację wyrobu i producenta

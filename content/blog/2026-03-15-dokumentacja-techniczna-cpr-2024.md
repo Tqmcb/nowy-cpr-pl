@@ -8,6 +8,11 @@ tags: ["dokumentacja techniczna", "CPR 2024", "archiwizacja", "producent", "GUNB
 excerpt: "CPR 2024 szczegółowo określa, co musi zawierać dokumentacja techniczna wyrobu budowlanego, jak długo ją przechowywać i co sprawdza GUNB podczas kontroli. Kompletny przewodnik z listą kontrolną."
 image_url: /images/blog/dokumentacja-techniczna-cpr-2024.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # Dokumentacja techniczna wyrobu budowlanego w CPR 2024
@@ -78,7 +83,7 @@ CPR 2024 nie wymaga formy papierowej. Dokumentacja techniczna może być przecho
 - W formie hybrydowej (skany + oryginały kluczowych dokumentów)
 - W formacie umożliwiającym odczyt przez organ nadzoru
 
-Ważne: dokumentacja musi być **dostępna w języku zrozumiałym dla organu** — w Polsce GUNB może wymagać tłumaczenia na język polski.
+Ważne: dokumentacja musi być **dostępna w języku zrozumiałym dla organu** — w Polsce [GUNB](https://www.gunb.gov.pl) może wymagać tłumaczenia na język polski.
 
 ## Co sprawdza GUNB podczas kontroli?
 

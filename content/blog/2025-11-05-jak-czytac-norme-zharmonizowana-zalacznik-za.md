@@ -8,6 +8,10 @@ tags: ["norma zharmonizowana", "Załącznik ZA", "AVS", "AVCP", "certyfikacja CP
 excerpt: "Norma zharmonizowana to podstawowy dokument techniczny umożliwiający oznakowanie CE wyrobu budowlanego. Kluczem do jej prawidłowego stosowania jest Załącznik ZA — część wiążąca normę z wymaganiami CPR 2024/3110. Przewodnik wyjaśnia krok po kroku, jak czytać i interpretować ten załącznik."
 image_url: /images/blog/jak-czytac-norme-zharmonizowan.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
 ---
 
 ## Czym jest norma zharmonizowana i dlaczego Załącznik ZA jest kluczowy

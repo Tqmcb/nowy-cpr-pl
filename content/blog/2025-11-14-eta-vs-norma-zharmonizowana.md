@@ -8,6 +8,12 @@ tags: ["ETA", "norma zharmonizowana", "EAD", "EOTA", "certyfikacja", "CPR 2024"]
 excerpt: "Producenci wyrobów budowlanych mają do wyboru dwie główne drogi uzyskania oznakowania CE: przez normę zharmonizowaną lub przez Europejską Ocenę Techniczną. Wybór między nimi nie zawsze jest oczywisty i zależy od charakteru wyrobu, dostępności norm oraz strategii rynkowej producenta."
 image_url: /images/blog/eta-vs-norma-zharmonizowana.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
+  - EOTA — baza EAD i ETA|https://www.eota.eu
+  - ocenytechniczne.pl — ETA w Polsce|https://www.ocenytechniczne.pl
 ---
 
 ## Dwie drogi oznakowania CE — przegląd systemu

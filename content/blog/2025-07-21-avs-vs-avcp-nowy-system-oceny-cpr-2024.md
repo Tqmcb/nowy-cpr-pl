@@ -8,6 +8,11 @@ tags: ["AVS", "AVCP", "system oceny", "CPR 2024", "jednostki notyfikowane", "cer
 excerpt: "CPR 2024/3110 zastępuje stary system AVCP nowym AVS (Assessment and Verification System). Sprawdź co się zmieniło w każdym z poziomów, dlaczego nawet w systemie 4 pojawia się rola jednostki notyfikowanej i co to oznacza dla Twojej certyfikacji."
 image_url: /images/blog/avs-vs-avcp-nowy-system-oceny-.jpg
 template: "przewodnik"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie (UE) 305/2011 (stare CPR) — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2011/305/oj
+  - Baza NANDO — jednostki notyfikowane UE|https://ec.europa.eu/growth/tools-databases/nando
+  - PKN — wyszukiwarka norm zharmonizowanych|https://www.pkn.pl
 ---
 
 # AVS zamiast AVCP — co się zmieniło w systemie oceny wyrobów budowlanych

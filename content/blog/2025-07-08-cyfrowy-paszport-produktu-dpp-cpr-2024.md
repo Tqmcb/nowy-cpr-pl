@@ -8,6 +8,9 @@ tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "
 excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
 image_url: /images/blog/cyfrowy-paszport-produktu-dpp-.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
 ---
 
 # Cyfrowy Paszport Produktu w CPR 2024 — kompletne wyjaśnienie
@@ -58,7 +61,7 @@ Projekt NUWB przewiduje m.in.:
 - aktualizację stawek kar pieniężnych (wzrost o ok. 50% względem poziomów obecnych),
 - dostosowanie do nowych mechanizmów nadzoru rynku wynikających z CPR 2024/3110.
 
-Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru Budowlanego (GUNB)** oraz inspektorzy wojewódzcy.
+Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl))** oraz inspektorzy wojewódzcy.
 
 **Praktyczne ryzyko kar dla polskich producentów — marzec 2026**
 

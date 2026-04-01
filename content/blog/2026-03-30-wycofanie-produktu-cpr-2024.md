@@ -20,7 +20,7 @@ Wycofanie wyrobu z rynku to najdotkliwszy środek nadzorczy, jaki może zastosow
 
 ## Kiedy GUNB może nakazać wycofanie?
 
-GUNB (lub inny organ nadzoru rynku) może zastosować środki naprawcze gdy wyrób:
+[GUNB](https://www.gunb.gov.pl) (lub inny organ nadzoru rynku) może zastosować środki naprawcze gdy wyrób:
 - **Stwarza poważne zagrożenie** dla zdrowia lub bezpieczeństwa użytkowników
 - **Nie spełnia wymagań CPR 2024** — brak CE, nieważna DoP&C, niezgodność właściwości
 - **Narusza inne przepisy** dotyczące wyrobów budowlanych
@@ -34,7 +34,7 @@ GUNB (lub inny organ nadzoru rynku) może zastosować środki naprawcze gdy wyr�
 Inspektor GUNB stwierdza niezgodność podczas:
 - Rutynowej kontroli rynku (planowej lub losowej)
 - Kontroli na podstawie skargi (np. od konsumenta, dystrybutora)
-- Kontroli wynikającej z alertu Safety Gate z innego kraju UE
+- Kontroli wynikającej z alertu [Safety Gate](https://ec.europa.eu/safety-gate/) z innego kraju UE
 
 Po stwierdzeniu niezgodności inspektor sporządza protokół i informuje producenta/dystrybutora.
 

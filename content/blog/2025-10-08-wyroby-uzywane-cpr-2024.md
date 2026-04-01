@@ -8,6 +8,10 @@ tags: ["wyroby używane", "second-hand", "odzysk", "CPR 2024", "gospodarka cyrku
 excerpt: "CPR 2024/3110 jako pierwsze rozporządzenie budowlane UE reguluje wprost obrót wyrobami używanymi, odzyskanymi i odnowionymi. Nowe przepisy określają, kto odpowiada przy odsprzedaży, kiedy pierwotny DoP&C zachowuje ważność i kiedy konieczna jest nowa ocena zgodności. To przełom dla zrównoważonego budownictwa i gospodarki cyrkularnej."
 image_url: /images/blog/wyroby-uzywane-cpr-2024.jpg
 template: "analiza"
+sources:
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - GUNB — Główny Urząd Nadzoru Budowlanego|https://www.gunb.gov.pl
+  - Rozporządzenie (UE) 2019/1020 — nadzór rynku|https://eur-lex.europa.eu/eli/reg/2019/1020/oj
 ---
 
 ## Gospodarka cyrkularna wkracza do przepisów budowlanych

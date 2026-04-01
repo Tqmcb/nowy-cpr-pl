@@ -83,10 +83,10 @@ Digital DoP&C (CPR 2024) będzie zawierać:
 
 ### 5. Wzmocniony nadzór rynku
 
-- Większe uprawnienia organów nadzoru rynku w Polsce (UOKiK, GUNB, GUM)
+- Większe uprawnienia organów nadzoru rynku w Polsce ([UOKiK](https://www.uokik.gov.pl), [GUNB](https://www.gunb.gov.pl), GUM)
 - Możliwość testowania wyrobów z rynku przez organy nadzoru
 - Wzrost kar za niezgodności (od 8 stycznia 2027)
-- System wczesnego ostrzegania Safety Gate (unijny system szybkiego alertu dla niebezpiecznych wyrobów)
+- System wczesnego ostrzegania [Safety Gate](https://ec.europa.eu/safety-gate/) (unijny system szybkiego alertu dla niebezpiecznych wyrobów)
 
 ### 6. 36 rodzin wyrobów (Załącznik VII)
 
