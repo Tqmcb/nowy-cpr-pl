@@ -187,6 +187,12 @@ export async function getAllPosts(): Promise<BlogPost[]> {
             return metaCache;
         } catch (error) {
             console.error('Error loading posts/meta.json:', error);
+            // Reload once on failure — likely stale assets after a new deployment
+            const RELOAD_KEY = 'blogloader_reloaded';
+            if (!sessionStorage.getItem(RELOAD_KEY)) {
+                sessionStorage.setItem(RELOAD_KEY, '1');
+                window.location.reload();
+            }
             return [];
         }
     }
@@ -214,6 +220,11 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
             return post;
         } catch (error) {
             console.error(`Error loading posts/${slug}.json:`, error);
+            const RELOAD_KEY = 'blogloader_reloaded';
+            if (!sessionStorage.getItem(RELOAD_KEY)) {
+                sessionStorage.setItem(RELOAD_KEY, '1');
+                window.location.reload();
+            }
             return null;
         }
     }

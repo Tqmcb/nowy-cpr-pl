@@ -12,6 +12,7 @@ import {
   Shield, ExternalLink, CheckSquare, Building2, RefreshCw,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
+import { getPostBySlug } from "../utils/blogLoader";
 import { getAuthorSlug } from "../data/authors";
 import type { ProductFamily } from "../utils/wyrobLoader";
 
@@ -1215,7 +1216,6 @@ export default function BlogPost() {
       }
       try {
         setLoading(true);
-        const { getPostBySlug } = await import("../utils/blogLoader");
         const foundPost = await getPostBySlug(slug);
         if (foundPost) {
           setPost({ ...foundPost, tags: Array.isArray(foundPost.tags) ? foundPost.tags : [] });

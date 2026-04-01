@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { getAllPosts } from "../utils/blogLoader";
 import { useReveal } from "../hooks/useReveal";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
@@ -776,7 +777,6 @@ export function BlogPage() {
         setLoading(true);
 
         // Importuj i użyj blogLoader
-        const { getAllPosts } = await import('../utils/blogLoader');
         const posts = await getAllPosts();
 
         setBlogPosts(posts);

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { getAllPosts as getBlogPosts } from "../utils/blogLoader";
 import { Button } from "../components/Button";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
@@ -63,8 +64,7 @@ function HomePage() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const { getAllPosts } = await import('../utils/blogLoader');
-        const allPosts = await getAllPosts();
+        const allPosts = await getBlogPosts();
         // Show 3 newest articles on homepage
         setBlogPosts(allPosts.slice(0, 3));
       } catch (error) {
