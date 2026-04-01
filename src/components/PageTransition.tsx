@@ -6,6 +6,9 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
   const location = useLocation();
 
   useEffect(() => {
+    // Scroll to top on every page navigation
+    window.scrollTo(0, 0);
+
     const el = ref.current;
     if (!el) return;
     el.style.opacity = "0";
