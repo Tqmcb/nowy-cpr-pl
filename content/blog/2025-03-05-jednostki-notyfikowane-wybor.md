@@ -33,18 +33,20 @@ Jednostki notyfikowane (JN; ang. Notified Bodies, NB) to organizacje wyznaczone 
 
 Multicert jest oficjalnym przedstawicielem handlowym [ITC Zlín](https://www.itczlin.pl) w Polsce.
 
-### ITC Zlín – Institut pro testování a certifikaci (NB 1020)
+### ITC Zlín – Institut pro testování a certifikaci (NB 1023)
 
-[ITC Zlín](https://www.itczlin.pl) (Institut pro testování a certifikaci, a.s.) to czeska jednostka notyfikowana z siedzibą w Zlínie, oferująca certyfikację dla szerokiego zakresu wyrobów budowlanych na rynek UE. Zakres obejmuje m.in.:
-- Wyroby do izolacji cieplnej (wełna mineralna, styropian, XPS)
-- Wyroby ceramiczne (cegły, dachówki, kształtki)
-- Zaprawy budowlane i kleje
-- Wyroby z betonu i betonu komórkowego
-- Okna, drzwi i wyroby przeszklone
-- Rury i złączki z tworzyw sztucznych
-- Geosyntetyki i membrany
+[ITC Zlín](https://www.itczlin.cz) (Institut pro testování a certifikaci, a.s.) to czeska jednostka notyfikowana z siedzibą w Zlínie, prowadząca działalność w zakresie oceny zgodności wyrobów budowlanych na terenie całej UE. Posiada:
 
-ITC Zlín jest notyfikowana w systemie NANDO pod numerem **NB 1020**. Certyfikaty wydawane przez ITC Zlín są uznawane we wszystkich krajach UE. Multicert jako przedstawiciel handlowy ITC w Polsce ułatwia kontakt, koordynację dokumentacji i nadzór nad audytami dla polskich producentów.
+- **NB 1023** — notyfikacja jako jednostka certyfikująca wyroby budowlane w systemie CPR (Rozporządzenie UE 305/2011 i 2024/3110)
+- **NB 1390** — dodatkowy zakres notyfikacji (NANDO)
+- **AB 224** — jednostka upoważniona do oceny zgodności wg czeskiego prawa krajowego (NV 163/2002)
+- Status **TAB (Technical Assessment Body)** — uprawniona do wydawania Europejskich Ocen Technicznych (ETA) w ramach EOTA
+
+Zakres certyfikacji wyrobów budowlanych obejmuje szerokie kategorie wyrobów objętych normami zharmonizowanymi, w tym wyroby betonowe, ceramiczne, izolacyjne, drzwi i okna oraz inne wyroby budowlane objęte CPR. Szczegółowy zakres notyfikacji dostępny w bazie NANDO pod numerem organizacji EPOS_46625.
+
+Siedziba: třída Tomáše Bati 299, 763 02 Zlín, Republika Czeska · tel. +420 572 779 922 · itc@itczlin.cz
+
+Multicert jako oficjalny przedstawiciel handlowy ITC Zlín w Polsce koordynuje kontakt, dokumentację i nadzór nad audytami dla polskich producentów.
 
 ### ICiMB – Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
 
