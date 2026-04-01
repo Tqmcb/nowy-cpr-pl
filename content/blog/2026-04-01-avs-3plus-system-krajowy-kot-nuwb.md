@@ -85,16 +85,28 @@ Tak. Dla wyrobów objętych systemami wymagającymi zaangażowania jednostki not
 ### Jakie podmioty i co robią?
 
 **Jednostka notyfikowana (JN / Notified Body, NB)**
-- akredytowana do certyfikacji wyrobów i/lub FPC,
-- certyfikuje wyrób i/lub zakładową kontrolę produkcji w ramach systemów 1+, 1 i 2+,
-- prowadzi nadzór (audyty) nad FPC w regularnych cyklach (zazwyczaj co rok),
-- **nie weryfikuje EPD** — to nie jest jej zakres akredytacji.
+- certyfikuje wyrób i/lub zakładową kontrolę produkcji (ZKP/FPC) w ramach systemów 1+, 1 i 2+,
+- akredytowana wg **ISO/IEC 17065** (wymagania dla jednostek certyfikujących wyroby, procesy i usługi),
+- prowadzi audyty nadzorcze ZKP w regularnych cyklach (zazwyczaj co roku),
+- **samodzielnie nie może weryfikować EPD** — wymagana jest osobna notyfikacja jako NTL.
+
+> **Ważna uwaga:** ta sama organizacja (np. duży instytut badawczy) *może* posiadać jednocześnie notyfikację JN i notyfikację NTL — ale są to **dwie odrębne notyfikacje z odrębnymi zakresami**. Weryfikacja EPD wymaga innych kompetencji (LCA, ISO 14040/14044) niż certyfikacja FPC (procesy produkcji, hTS), dlatego nie wynikają one automatycznie jedna z drugiej.
 
 **Akredytowane laboratorium badawcze (NTL — Notified Testing Laboratory)**
-- akredytowane do weryfikacji deklaracji środowiskowych według EN 15804+A2,
-- weryfikuje dane LCA (ślad węglowy GWP i inne wskaźniki) na podstawie których sporządzono EPD,
-- **nie certyfikuje wyrobu ani FPC** — tylko zatwierdza poprawność metodyczną EPD,
+- weryfikuje dane LCA (ślad węglowy GWP i inne wskaźniki) stanowiące podstawę EPD,
+- akredytowane wg **ISO/IEC 17029** (wymagania dla jednostek walidacji i weryfikacji — standard dedykowany temu rodzajowi oceny, obowiązujący od 2019 r.),
+- metodologia LCA, którą weryfikuje, opiera się na **ISO 14040** i **ISO 14044** (cykl życia produktu),
+- EPD musi być sporządzona zgodnie z **ISO 14025** (deklaracje środowiskowe typ III) i **EN 15804+A2** (core rules dla wyrobów budowlanych),
+- **nie certyfikuje wyrobu ani ZKP** — wyłącznie zatwierdza poprawność metodyczną i kompletność danych środowiskowych,
 - weryfikacja odbywa się przy tworzeniu lub odnawianiu EPD (EPD ważna jest 5 lat).
+
+### Normy ISO — zestawienie dla obu procesów
+
+| Proces | Podmiot | Akredytacja podmiotu | Normy metodyczne |
+|---|---|---|---|
+| Certyfikacja ZKP (systemy 1+, 1, 2+) | JN (Notified Body) | **ISO/IEC 17065** | wymagania hTS (Załącznik ZA) |
+| Badania typu ITT (systemy 1, 3) | NTL (Notified Testing Lab) | **ISO/IEC 17025** | normy metod badań |
+| Weryfikacja EPD (system 3+) | NTL (jednostka walidacyjno-weryfikacyjna) | **ISO/IEC 17029** | ISO 14025, ISO 14040, ISO 14044, EN 15804+A2 |
 
 ### Harmonogram — czy audyty się nakładają?
 
