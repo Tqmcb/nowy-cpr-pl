@@ -178,59 +178,20 @@ export function ProductSearchTool() {
         />
 
         <Container>
-          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
-            <div className="md:w-2/3">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
-                <Sparkles className="w-4 h-4 text-white" />
-                <span className="text-white text-sm font-medium">Wyszukiwarka CPR</span>
-              </div>
-
+          <div className="relative z-10 max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Wyszukiwarka wymagań CPR (EU) 2024/3110
               </h1>
-              <p className="text-lg text-white/80 mb-8 leading-relaxed max-w-2xl">
+              <p className="text-lg text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
                 Sprawdź wymagania dla Twojego wyrobu budowlanego. Wybierz kategorię produktu,
-                aby zobaczyć szczegółowe informacje o testach, dokumentacji i zmianach w nowym rozporządzeniu CPR.
+                aby zobaczyć szczegółowe informacje o testach, dokumentacji i zmianach.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button
-                  onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="group px-6 py-3 rounded-full bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold"
-                >
-                  <Search className="w-5 h-5 mr-2" />
-                  Przejdź do wyszukiwarki
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
-                <Button
-                  variant="outline"
-                  onClick={() => document.getElementById("about-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="px-6 py-3 rounded-full border-white/30 text-white bg-white/10 hover:bg-white/20"
-                >
-                  Więcej o CPR 2024
-                </Button>
-              </div>
-            </div>
-            <div className="md:w-1/3">
-              <div className="bg-white/15 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-6">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
-                  <Search className="w-10 h-10 text-white" />
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-white mb-1">{productOptions.length}</div>
-                  <p className="text-white/70 text-sm">kategorii produktów</p>
-                </div>
-                <div className="mt-4 pt-4 border-t border-white/20 grid grid-cols-2 gap-4 text-center">
-                  <div>
-                    <div className="text-lg font-bold text-white">2025</div>
-                    <p className="text-white/60 text-xs">rok wejścia</p>
-                  </div>
-                  <div>
-                    <div className="text-lg font-bold text-white">EU</div>
-                    <p className="text-white/60 text-xs">regulacja</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <Button
+                onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
+                className="px-8 py-3 rounded-full bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
+              >
+                Przejdź do wyszukiwarki
+              </Button>
           </div>
         </Container>
       </section>
