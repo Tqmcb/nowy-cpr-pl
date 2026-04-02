@@ -464,27 +464,39 @@ function HomePage() {
                   <Link
                     key={post.id}
                     to={`/blog/${post.slug}`}
-                    className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 hover-lift group cursor-pointer block no-underline reveal-stagger"
+                    className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift group cursor-pointer block no-underline reveal-stagger"
                     style={{ "--i": idx } as React.CSSProperties}
                   >
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
-                        {post.category}
-                      </span>
-                      <span className="text-slate-600 text-xs flex items-center gap-1">
-                        <Clock className="w-3 h-3" />
-                        {formatDate(post.published_at)}
-                      </span>
-                    </div>
-                    <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
-                      {post.title}
-                    </h3>
-                    <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 mb-4">
-                      {post.excerpt}
-                    </p>
-                    <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
-                      <span>Czytaj więcej</span>
-                      <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                    {post.image_url && (
+                      <div className="h-44 overflow-hidden relative">
+                        <img
+                          src={post.image_url}
+                          alt={post.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0d2137]/50 to-transparent" />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
+                          {post.category}
+                        </span>
+                        <span className="text-slate-600 text-xs flex items-center gap-1">
+                          <Clock className="w-3 h-3" />
+                          {formatDate(post.published_at)}
+                        </span>
+                      </div>
+                      <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
+                        {post.title}
+                      </h3>
+                      <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 mb-4">
+                        {post.excerpt}
+                      </p>
+                      <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
+                        <span>Czytaj więcej</span>
+                        <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                      </div>
                     </div>
                   </Link>
                 ))}
