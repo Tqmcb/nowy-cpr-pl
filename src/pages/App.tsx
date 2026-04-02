@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { getAllPosts as getBlogPosts } from "../utils/blogLoader";
 import { Button } from "../components/Button";
 import { Container } from "../components/Container";
@@ -51,6 +51,35 @@ function StatCounter({ value, label, icon: Icon }: { value: string; label: strin
   );
 }
 
+const ROTATING_PHRASES = [
+  "beton i prefabrykaty",
+  "okna i drzwi",
+  "wyroby izolacyjne",
+  "kruszywa budowlane",
+  "konstrukcje stalowe",
+  "cement i spoiwa",
+  "rury i złączki",
+  "wyroby ceramiczne",
+];
+
+function useRotatingText(phrases: string[], intervalMs = 3000) {
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setVisible(false);
+      setTimeout(() => {
+        setIndex(i => (i + 1) % phrases.length);
+        setVisible(true);
+      }, 400);
+    }, intervalMs);
+    return () => clearInterval(timer);
+  }, [phrases.length, intervalMs]);
+
+  return { text: phrases[index], visible };
+}
+
 function HomePage() {
   const navigate = useNavigate();
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
@@ -58,6 +87,7 @@ function HomePage() {
   const aboutRef = useReveal();
   const featuresRef = useReveal();
   const blogRef = useReveal();
+  const rotating = useRotatingText(ROTATING_PHRASES);
 
   // Fetch latest blog posts from markdown files
   useEffect(() => {
@@ -120,9 +150,20 @@ function HomePage() {
                 <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
               </h1>
 
-              <p className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl text-white/70 mb-4 leading-relaxed max-w-2xl mx-auto">
                 Rozporządzenie (EU) 2024/3110 obowiązuje od stycznia 2026.
-                Sprawdź, co zmienia się dla Twojej branży i kiedy musisz być gotowy.
+                Sprawdź wymagania dla:
+              </p>
+              <p className="text-2xl md:text-3xl font-bold text-white mb-10 h-10">
+                <span
+                  className="inline-block transition-all duration-400"
+                  style={{
+                    opacity: rotating.visible ? 1 : 0,
+                    transform: rotating.visible ? "translateY(0)" : "translateY(8px)",
+                  }}
+                >
+                  {rotating.text}
+                </span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
