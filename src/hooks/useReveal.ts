@@ -9,7 +9,7 @@ import { useCallback, useRef } from "react";
  * CSS: .reveal { opacity:0; transform:translateY(20px); transition:... }
  *       .revealed { opacity:1; transform:none }
  */
-export function useReveal(threshold = 0.15) {
+export function useReveal(threshold = 0) {
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   const callbackRef = useCallback(
