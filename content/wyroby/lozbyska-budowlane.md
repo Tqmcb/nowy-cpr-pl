@@ -4,7 +4,7 @@ family_number: 5
 family_name_en: "STRUCTURAL BEARINGS. PINS FOR STRUCTURAL JOINTS"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1"
+avs_system: "1 / 3+"
 normy: ["EN 1337-1", "EN 1337-3", "EN 1337-5", "EN 1337-6", "EN 1337-7"]
 tags: ["łożyska", "mosty", "konstrukcja", "CPR 2024"]
 excerpt: "Łożyska budowlane i sworznie – rodzina 5 CPR 2024. Łożyska elastomerowe, PTFE, garnkowe dla mostów i budynków. System AVS 1 (najwyższy rygor). Krytyczne dla bezpieczeństwa konstrukcji."

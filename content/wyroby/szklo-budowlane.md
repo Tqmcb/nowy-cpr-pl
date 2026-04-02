@@ -4,7 +4,7 @@ family_number: 30
 family_name_en: "FLAT GLASS, PROFILED GLASS AND GLASS BLOCK PRODUCTS"
 date: "2026-02-25"
 category: "Szkło"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 572-1", "EN 1279-1", "EN 14449", "EN 12150-1", "EN 13024-1"]
 tags: ["szkło", "szyby", "hartowanie", "laminowanie", "izolacyjność", "CPR 2024"]
 excerpt: "Szkło budowlane – rodzina 30 CPR 2024. Szkło float, hartowane, laminowane, zespolone. Bezpieczeństwo, izolacyjność termiczna Ug, akustyczna."

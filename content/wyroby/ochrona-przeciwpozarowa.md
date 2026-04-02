@@ -4,7 +4,7 @@ family_number: 35
 family_name_en: "FIRE STOPPING, FIRE SEALING AND FIRE PROTECTIVE PRODUCTS. FIRE RETARDANT PRODUCTS"
 date: "2026-02-25"
 category: "Ochrona przeciwpożarowa"
-avs_system: "1"
+avs_system: "1 / 3+"
 normy: ["EN 1366-1", "EN 1366-3", "EN 1366-4", "EN 13381-1", "EN 13381-8", "EN 13501-2"]
 tags: ["ochrona przeciwpożarowa", "uszczelnienia ppoż", "intumescencja", "REI", "CNBOP", "CPR 2024"]
 excerpt: "Bierna ochrona przeciwpożarowa – rodzina 35 CPR 2024. Uszczelnienia ppoż, powłoki intumescencyjne, ochrona konstrukcji stalowych i drewnianych. System AVS 1."

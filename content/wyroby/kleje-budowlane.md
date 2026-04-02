@@ -4,7 +4,7 @@ family_number: 25
 family_name_en: "CONSTRUCTION ADHESIVES"
 date: "2026-02-25"
 category: "Chemia budowlana"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 12004-1", "EN 12004-2", "EN 15836-1", "EN 15836-2"]
 tags: ["kleje", "płytki", "chemia budowlana", "CPR 2024"]
 excerpt: "Kleje budowlane – rodzina 25 CPR 2024. Zaprawy klejące do płytek ceramicznych, kleje do parkietu, kleje montażowe. Klasy C, D, R, S."

@@ -4,7 +4,7 @@ family_number: 26
 family_name_en: "PRODUCTS RELATED TO CONCRETE, MORTAR AND GROUT"
 date: "2026-02-25"
 category: "Chemia budowlana"
-avs_system: "2+ / 3"
+avs_system: "2+ / 3 / 3+"
 normy: ["EN 934-2", "EN 934-3", "EN 934-4", "EN 934-5", "EN 480 (seria)", "EN 450-1", "EN 15167-1", "EN 13263-1"]
 tags: ["beton", "domieszki", "plastyfikatory", "CPR 2024", "EN 934"]
 excerpt: "Wyroby do betonu i zapraw – rodzina 26 CPR 2024. Domieszki plastyfikujące, napowietrzające, przyspieszające, opóźniające. EN 934 seria."

@@ -4,7 +4,7 @@ family_number: 27
 family_name_en: "SPACE HEATING APPLIANCES"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 13384-1", "EN 13384-2", "EN 15544", "EN 303-5"]
 tags: ["ogrzewanie", "kotły", "kominy", "efektywność energetyczna", "CPR 2024"]
 excerpt: "Urządzenia grzewcze – rodzina 27 CPR 2024. Kotły na paliwa stałe, gazowe, olejowe. Wymagania dotyczące efektywności energetycznej i emisji."

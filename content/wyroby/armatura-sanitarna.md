@@ -4,7 +4,7 @@ family_number: 11
 family_name_en: "SANITARY APPLIANCES"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 997", "EN 14688", "EN 14527", "EN 13310", "EN 14296"]
 tags: ["armatura", "sanitarna", "łazienka", "CPR 2024"]
 excerpt: "Armatura sanitarna – rodzina 11 CPR 2024. Miski ustępowe, umywalki, wanny, brodziki, zlewy. System AVS 3 lub 4. Wymagania higieniczne i wytrzymałościowe. Nowe wymogi środowiskowe CPR 2024."

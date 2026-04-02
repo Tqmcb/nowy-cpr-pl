@@ -4,7 +4,7 @@ family_number: 31
 family_name_en: "POWER, CONTROL AND COMMUNICATION CABLES"
 date: "2026-02-25"
 category: "Elektryczne"
-avs_system: "3"
+avs_system: "3 / 3+"
 normy: ["EN 50575", "EN 60332-1-2", "EN 50399", "EN IEC 60332-3-24"]
 tags: ["kable", "reakcja na ogień", "EN 50575", "klasy Cca", "CPR 2024"]
 excerpt: "Kable elektroenergetyczne i komunikacyjne – rodzina 31 CPR 2024. Klasy reakcji na ogień Aca-Fca. EN 50575 i obowiązek oznakowania CE od 2017."

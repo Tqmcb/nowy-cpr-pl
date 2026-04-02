@@ -4,7 +4,7 @@ family_number: 2
 family_name_en: "DOORS, WINDOWS, SHUTTERS, GATES AND RELATED BUILDING HARDWARE"
 date: "2026-02-25"
 category: "Wyroby wykończeniowe"
-avs_system: "1 / 3"
+avs_system: "1 / 3 / 3+"
 normy: ["EN 14351-1", "EN 14351-2", "EN 13241", "EN 16034"]
 tags: ["okna", "drzwi", "bramy", "CPR 2024", "certyfikacja"]
 excerpt: "Okna, drzwi zewnętrzne, bramy i okucia – rodzina 2 CPR 2024. System AVS 1 dla wyrobów z odpornością ogniową, AVS 3 dla standardowych. Właściwości termiczne (Uw), akustyczne (Rw) i odporność na włamanie."

@@ -4,7 +4,7 @@ family_number: 12
 family_name_en: "CIRCULATION FIXTURES: ROAD EQUIPMENT"
 date: "2026-02-25"
 category: "Wyroby drogowe"
-avs_system: "1 / 3"
+avs_system: "1 / 3 / 3+"
 normy: ["EN 1317-1", "EN 1317-2", "EN 12767", "EN 40-2", "EN 1463-1"]
 tags: ["bariery drogowe", "znaki", "słupy", "CPR 2024", "bezpieczeństwo"]
 excerpt: "Wyposażenie dróg – rodzina 12 CPR 2024. Bariery ochronne stalowe i betonowe, słupy oświetleniowe i sygnalizacyjne, znaki drogowe. System AVS 1 dla barier, AVS 3 dla wyposażenia."

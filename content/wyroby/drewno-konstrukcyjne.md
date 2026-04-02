@@ -4,7 +4,7 @@ family_number: 13
 family_name_en: "STRUCTURAL TIMBER PRODUCTS/ELEMENTS AND ANCILLARIES"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+"
+avs_system: "1 / 2+ / 3+"
 normy: ["EN 14081-1", "EN 14080", "EN 15497", "EN 1995-1-1"]
 tags: ["drewno", "CLT", "glulam", "LVL", "CPR 2024"]
 excerpt: "Drewno konstrukcyjne – rodzina 13 CPR 2024. Drewno sortowane wytrzymałościowo, klejone warstwowo (GLT/BSH), CLT, LVL. Klasy C16-C30. CPR 2024 traktuje drewno jako materiał nisko- lub zeroemisyjny dzięki sekwestracji węgla."

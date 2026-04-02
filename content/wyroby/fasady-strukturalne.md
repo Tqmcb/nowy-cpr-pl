@@ -4,7 +4,7 @@ family_number: 9
 family_name_en: "CURTAIN WALLING/CLADDING/STRUCTURAL SEALANT GLAZING"
 date: "2026-02-25"
 category: "Wyroby wykończeniowe"
-avs_system: "3"
+avs_system: "3 / 3+"
 normy: ["EN 13830", "EN 15434"]
 tags: ["fasady", "ściany osłonowe", "SSG", "CPR 2024"]
 excerpt: "Fasady wentylowane i systemy SSG – rodzina 9 CPR 2024. Ściany osłonowe aluminiowe, elewacje wentylowane, fasady strukturalne (SSG). EN 13830. Właściwości termiczne, akustyczne i pożarowe."

@@ -4,7 +4,7 @@ family_number: 10
 family_name_en: "FIXED FIRE FIGHTING EQUIPMENT (FIRE ALARM/DETECTION, FIXED FIREFIGHTING, FIRE AND SMOKE CONTROL AND EXPLOSION SUPPRESSION PRODUCT)"
 date: "2026-02-25"
 category: "Ochrona przeciwpożarowa"
-avs_system: "1"
+avs_system: "1 / 3+"
 normy: ["EN 54-1", "EN 12094-1", "EN 12259-1", "EN 12101-2", "EN 16750"]
 tags: ["gaśnicze", "detekcja", "pożar", "CPR 2024", "CNBOP"]
 excerpt: "Stałe urządzenia gaśnicze i detekcja pożaru – rodzina 10 CPR 2024. Systemy tryskaczowe, CO2, gazy inertne, alarmy, oddymianie. System AVS 1. Jednostka notyfikowana CNBOP-PIB (NB 1438)."

@@ -4,7 +4,7 @@ family_number: 29
 family_name_en: "CONSTRUCTION PRODUCTS IN CONTACT WITH WATER INTENDED FOR HUMAN CONSUMPTION"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "1 / 3"
+avs_system: "1 / 3 / 3+"
 normy: ["EN 1452-1", "EN 12201-1", "EN 1254-1", "EN 15161", "EN 15713"]
 tags: ["woda pitna", "rury wodociągowe", "higieniczność", "zdrowie", "CPR 2024"]
 excerpt: "Wyroby w kontakcie z wodą pitną – rodzina 29 CPR 2024. Rury wodociągowe, złączki, zawory, powłoki zbiorników. Higieniczność i bezpieczeństwo zdrowotne."

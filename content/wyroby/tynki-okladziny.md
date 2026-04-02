@@ -4,7 +4,7 @@ family_number: 21
 family_name_en: "INTERNAL AND EXTERNAL WALL AND CEILING FINISHES. INTERNAL PARTITION KITS"
 date: "2026-02-25"
 category: "Wyroby wykończeniowe"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 998-1", "EN 15824", "EN 15825", "EN 13963", "EN 13914-1"]
 tags: ["tynki", "okładziny", "ściany", "gips", "CPR 2024"]
 excerpt: "Tynki, okładziny i ścianki działowe – rodzina 21 CPR 2024. Tynki cementowe, gipsowe, akrylowe, silikonowe; ścianki GK. Kluczowe zmiany CPR 2024: wymagania VOC dla wyrobów wewnętrznych i deklarowanie GWP."

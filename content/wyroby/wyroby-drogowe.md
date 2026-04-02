@@ -4,7 +4,7 @@ family_number: 23
 family_name_en: "ROAD CONSTRUCTION PRODUCTS"
 date: "2026-02-25"
 category: "Wyroby drogowe"
-avs_system: "2+ / 3"
+avs_system: "2+ / 3 / 3+"
 normy: ["EN 13808", "EN 14188-1", "EN 12591", "EN 13043", "EN 1338", "EN 1339", "EN 1340"]
 tags: ["asfalt", "drogi", "kostka brukowa", "krawężniki", "CPR 2024"]
 excerpt: "Wyroby drogowe – rodzina 23 CPR 2024. Asfalty drogowe i modyfikowane, mieszanki asfaltowe, kostka betonowa, krawężniki. System AVS 2+ dla prefabrykatów betonowych, AVS 3 dla asfaltów."

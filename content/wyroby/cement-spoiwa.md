@@ -4,7 +4,7 @@ family_number: 15
 family_name_en: "CEMENT, BUILDING LIMES AND OTHER HYDRAULIC BINDERS"
 date: "2026-02-25"
 category: "Spoiwa"
-avs_system: "1+"
+avs_system: "1+ / 3+"
 normy: ["EN 197-1", "EN 197-5", "EN 413-1", "EN 459-1", "EN 14216"]
 tags: ["cement", "wapno", "spoiwa", "CPR 2024", "AVS 1+"]
 excerpt: "Cement, wapno budowlane i spoiwa hydrauliczne – rodzina 15 CPR 2024. System AVS 1+ (najwyższy rygor). CEM I-V, wapno hydratyzowane, cement murarski. Cement to jeden z największych emitentów CO2 – System 3+ dla danych środowiskowych będzie kluczowy."

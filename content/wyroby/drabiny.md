@@ -4,7 +4,7 @@ family_number: 36
 family_name_en: "ATTACHED LADDERS"
 date: "2026-02-25"
 category: "Wyposażenie budowlane"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN ISO 14122-4", "EN 131-7"]
 tags: ["drabiny", "drabiny pionowe", "drabiny przyścienne", "bezpieczeństwo", "CPR 2024", "nowa rodzina"]
 excerpt: "Drabiny przyścienne – nowa rodzina 36, wprowadzona przez CPR 2024/3110. Drabiny pionowe i skośne trwale mocowane do budynków i obiektów. Bezpieczeństwo i wytrzymałość."

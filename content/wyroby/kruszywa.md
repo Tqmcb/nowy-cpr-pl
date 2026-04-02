@@ -4,7 +4,7 @@ family_number: 24
 family_name_en: "AGGREGATES"
 date: "2026-02-25"
 category: "Kruszywa"
-avs_system: "2+"
+avs_system: "2+ / 3+"
 normy: ["EN 12620", "EN 13043", "EN 13055", "EN 13242", "EN 13383-1"]
 tags: ["kruszywa", "żwir", "piasek", "grys", "CPR 2024"]
 excerpt: "Kruszywa budowlane – rodzina 24 CPR 2024. Kruszywa do betonu (EN 12620), asfaltów (EN 13043), niezwiązanych podbudów (EN 13242), lekkie (EN 13055). System AVS 2+. Wielki potencjał dla naturalnych kruszyw jako surowców o niskim GWP."

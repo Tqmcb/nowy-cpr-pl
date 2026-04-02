@@ -4,7 +4,7 @@ family_number: 19
 family_name_en: "FLOORINGS"
 date: "2026-02-25"
 category: "Wyroby wykończeniowe"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 14041", "EN 14342", "EN 14904", "EN 13748-1", "EN 13748-2"]
 tags: ["podłogi", "panele", "parkiet", "wykładziny", "CPR 2024"]
 excerpt: "Podłogi i posadzki – rodzina 19 CPR 2024. Panele laminowane, parkiet drewniany, wykładziny PVC/LVT, posadzki przemysłowe, terakota. Kluczowe: reakcja na ogień (klasa Bfl/Cfl), poślizg i emisje formaldehyd/VOC."

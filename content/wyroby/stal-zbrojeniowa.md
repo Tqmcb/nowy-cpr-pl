@@ -4,7 +4,7 @@ family_number: 16
 family_name_en: "REINFORCING AND PRESTRESSING STEEL FOR CONCRETE AND ANCILLARIES. POST TENSIONING KITS"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1+"
+avs_system: "1+ / 3+"
 normy: ["EN 10080", "EN ISO 15630-1", "EN 10138-1", "EN 10138-3"]
 tags: ["stal", "zbrojenie", "beton", "sprężanie", "CPR 2024"]
 excerpt: "Stal zbrojeniowa i sprężająca – rodzina 16 CPR 2024. Pręty B500A/B/C, siatki zbrojeniowe, sploty Y1770/Y1860. System AVS 1+. Spawalność, ciągliwość i wytrzymałość krytyczne dla bezpieczeństwa konstrukcji."

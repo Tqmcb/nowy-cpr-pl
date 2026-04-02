@@ -4,7 +4,7 @@ family_number: 28
 family_name_en: "PIPES, TANKS AND ANCILLARIES NOT IN CONTACT WITH WATER INTENDED FOR HUMAN CONSUMPTION"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 1555-1", "EN 1555-2", "EN 1555-3", "EN 13244-1", "EN 13941-1", "EN 12201-1"]
 tags: ["rury", "zbiorniki", "gaz", "ciepłownictwo", "PE", "CPR 2024"]
 excerpt: "Rury i zbiorniki (poza wodą pitną) – rodzina 28 CPR 2024. Rury gazowe PE, ciepłownicze, deszczowe, zbiorniki podziemne."

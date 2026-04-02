@@ -4,7 +4,7 @@ family_number: 32
 family_name_en: "SEALANTS FOR JOINTS"
 date: "2026-02-25"
 category: "Chemia budowlana"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 15651-1", "EN 15651-2", "EN 15651-3", "EN 15651-4", "EN 15651-5"]
 tags: ["uszczelniacze", "silikon", "poliuretan", "fasada", "szczeliny dylatacyjne", "CPR 2024"]
 excerpt: "Uszczelnienia szczelin – rodzina 32 CPR 2024. Uszczelniacze fasadowe, sanitarne, do szyb, drogowe. Odkształcalność i trwałość."

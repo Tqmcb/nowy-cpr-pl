@@ -4,7 +4,7 @@ family_number: 3
 family_name_en: "MEMBRANES, INCLUDING LIQUID APPLIED AND KITS (FOR WATER AND/OR WATER VAPOUR CONTROL)"
 date: "2026-02-25"
 category: "Hydroizolacje"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 13956", "EN 13967", "EN 13969", "EN 14695", "EN 15814"]
 tags: ["membrany", "hydroizolacja", "CPR 2024", "dachy", "fundamenty"]
 excerpt: "Membrany hydroizolacyjne – rodzina 3 CPR 2024. Geomembrany dachowe, izolacje fundamentów, membrany do mostów i tuneli. System AVS 3 lub 4. Warunki odporności na starzenie i trwałości."

@@ -4,7 +4,7 @@ family_number: 22
 family_name_en: "ROOF COVERINGS, ROOF LIGHTS, ROOF WINDOWS AND ANCILLARY PRODUCTS. ROOF KITS"
 date: "2026-02-25"
 category: "Wyroby dachowe"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 490", "EN 1304", "EN 544", "EN 13707", "EN 14783", "EN 14909"]
 tags: ["dach", "dachówki", "papa", "blacha", "CPR 2024"]
 excerpt: "Pokrycia dachowe i okna dachowe – rodzina 22 CPR 2024. Dachówki ceramiczne i betonowe, papy bitumiczne, blachy, membrany dachowe. Odporność ogniowa BROOF(t1-t4) i wodoszczelność."

@@ -4,7 +4,7 @@ family_number: 14
 family_name_en: "WOOD BASED PANELS AND ELEMENTS"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 13986", "EN 309", "EN 300", "EN 312", "EN 316"]
 tags: ["płyty", "OSB", "sklejka", "MDF", "CPR 2024"]
 excerpt: "Płyty drewnopochodne – rodzina 14 CPR 2024. Sklejka, OSB/2/3/4, MDF, HDF, płyty wiórowe. Kluczowa zmiana: nowe wymagania dot. emisji formaldehydu i VOC w CPR 2024."

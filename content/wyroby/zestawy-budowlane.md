@@ -4,7 +4,7 @@ family_number: 34
 family_name_en: "BUILDING KITS, UNITS, AND PREFABRICATED ELEMENTS"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+"
+avs_system: "1 / 2+ / 3+"
 normy: ["EAD (różne)", "EN 15498", "EN 14915", "EN 1168", "EN 14843"]
 tags: ["prefabrykaty", "domy szkieletowe", "budownictwo modułowe", "ETA", "CPR 2024"]
 excerpt: "Prefabrykowane zestawy budowlane – rodzina 34 CPR 2024. Drewniane domy szkieletowe, modułowe systemy ścian, lekkie hale stalowe. ETA lub normy EN."

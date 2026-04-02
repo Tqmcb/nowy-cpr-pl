@@ -4,7 +4,7 @@ family_number: 4
 family_name_en: "THERMAL INSULATION PRODUCTS. COMPOSITE INSULATING KITS/SYSTEMS"
 date: "2026-02-25"
 category: "Izolacje"
-avs_system: "1 / 3"
+avs_system: "1 / 3 / 3+"
 normy: ["EN 13162", "EN 13163", "EN 13164", "EN 13165", "EN 13166", "EN 13170", "EN 13171", "EN 13499", "EN 13500"]
 tags: ["izolacja", "wełna mineralna", "styropian", "XPS", "ETICS", "CPR 2024"]
 excerpt: "Izolacja termiczna i systemy ETICS – rodzina 4 CPR 2024. Wełna mineralna, EPS (styropian), XPS, pianka PUR, perlit. System AVS 1 lub 3. Deklarowanie GWP obowiązkowe po publikacji nowych hTS — kluczowe dla pozycjonowania rynkowego."

@@ -4,7 +4,7 @@ family_number: 17
 family_name_en: "MASONRY AND RELATED PRODUCTS. MASONRY UNITS, MORTARS AND ANCILLARIES"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "2+ / 3 / 4"
+avs_system: "2+ / 3 / 4 / 3+"
 normy: ["EN 771-1", "EN 771-2", "EN 771-3", "EN 771-4", "EN 771-5", "EN 771-6", "EN 998-1", "EN 998-2"]
 tags: ["cegły", "bloczki", "mur", "zaprawy", "CPR 2024"]
 excerpt: "Wyroby murowe – rodzina 17 CPR 2024. Cegły ceramiczne (EN 771-1), silikatowe (EN 771-2), betonowe (EN 771-3), z ABK (EN 771-4), kamień naturalny (EN 771-6). Zaprawy murarskie EN 998. CPR 2024: ceramika ma wysokie GWP ze względu na wypalanie."

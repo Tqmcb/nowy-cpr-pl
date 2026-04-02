@@ -4,7 +4,7 @@ family_number: 20
 family_name_en: "STRUCTURAL METALLIC PRODUCTS AND ANCILLARIES"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+"
+avs_system: "1 / 2+ / 3+"
 normy: ["EN 10025-1", "EN 10210-1", "EN 10219-1", "EN 1090-1", "EN 1090-2"]
 tags: ["stal", "konstrukcja", "EN 1090", "profile", "CPR 2024"]
 excerpt: "Metalowe wyroby konstrukcyjne – rodzina 20 CPR 2024. Profile stalowe, rury zamknięte, blachy. EN 1090 i klasy wykonania EXC1-EXC4. System AVS 1 dla EXC3/EXC4, AVS 2+ dla EXC1/EXC2. Kluczowe: certyfikacja spawalnicza."

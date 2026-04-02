@@ -4,7 +4,7 @@ family_number: 7
 family_name_en: "GYPSUM PRODUCTS"
 date: "2026-02-25"
 category: "Wyroby wykończeniowe"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 520", "EN 13279-1", "EN 13950", "EN 15283-1", "EN 15283-2"]
 tags: ["gips", "płyty GK", "tynki", "CPR 2024"]
 excerpt: "Wyroby gipsowe – rodzina 7 CPR 2024. Płyty gipsowo-kartonowe (GKB, GKF, GKBI), tynki gipsowe, płyty gipsowo-włóknowe. Właściwości pożarowe i akustyczne."

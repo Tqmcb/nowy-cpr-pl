@@ -4,7 +4,7 @@ family_number: 8
 family_name_en: "GEOTEXTILES, GEOMEMBRANES, AND RELATED PRODUCTS"
 date: "2026-02-25"
 category: "Wyroby geotechniczne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 13249", "EN 13250", "EN 13251", "EN 13252", "EN 13253", "EN 13254", "EN 13255", "EN 13256", "EN 13257", "EN 13265"]
 tags: ["geosyntetyki", "geomembrany", "drogownictwo", "geotechnika", "CPR 2024"]
 excerpt: "Geosyntetyki i geomembrany – rodzina 8 CPR 2024. Geotekstylia, geosiatki, geomembrany HDPE. 10 norm zharmonizowanych wg zastosowania. Drogownictwo, hydrotechnika, geotechnika."

@@ -4,7 +4,7 @@ family_number: 6
 family_name_en: "CHIMNEYS, FLUES AND SPECIFIC PRODUCTS"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 1443", "EN 1457-1", "EN 1457-2", "EN 13063-1", "EN 14989-1", "EN 14989-2"]
 tags: ["kominy", "wentylacja", "paliwa stałe", "CPR 2024"]
 excerpt: "Kominy i kanały dymowe – rodzina 6 CPR 2024. Systemy kominowe ceramiczne, stalowe, aluminiowe dla gazu, oleju i paliw stałych. Klasy temperaturowe T80-T600, ciśnieniowe N1/N2/P1/P2."

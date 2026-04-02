@@ -4,7 +4,7 @@ family_number: 18
 family_name_en: "WASTE WATER ENGINEERING PRODUCTS"
 date: "2026-02-25"
 category: "Instalacyjne"
-avs_system: "3 / 4"
+avs_system: "3 / 4 / 3+"
 normy: ["EN 1401-1", "EN 1329-1", "EN 1453-1", "EN 13476-1", "EN 1519-1", "EN 1852-1"]
 tags: ["kanalizacja", "rury", "PVC", "PP", "CPR 2024"]
 excerpt: "Wyroby kanalizacyjne i odwodnieniowe – rodzina 18 CPR 2024. Rury PVC-U, PP, PE, ceramiczne do kanalizacji grawitacyjnej. System AVS 3 lub 4. Klasy sztywności obwodowej SN2-SN16."
