@@ -218,7 +218,9 @@ export function ProductSearchTool() {
         </Container>
       </section>
 
-          {/* Results Section */}
+      {/* Results Section */}
+      <section className="py-12 section-paper">
+        <Container>
           {selectedCategory && (
             <div id="results-section" className="scroll-mt-16">
               <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 mb-8">
