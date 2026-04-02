@@ -236,20 +236,23 @@ export function ProductSearchTool() {
       </section>
 
       {/* Search Section */}
-      <section id="search-section" className="py-16 bg-eng-paper">
+      <section id="search-section" className="py-16 bg-[#0d2137]">
         <Container>
-          <div className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-4">
+          <div className="mb-10 text-center">
+            <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#1a56a0] mb-5">
+              <Search className="w-7 h-7 text-white" />
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
               Znajdź wymagania dla Twojego produktu
             </h2>
-            <p className="text-slate-500 mb-8">
+            <p className="text-slate-300 max-w-xl mx-auto">
               Wybierz kategorię wyrobu budowlanego, aby sprawdzić wymagania zgodne z rozporządzeniem CPR (EU) 2024/3110.
             </p>
           </div>
 
-          <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8 mb-10">
+          <div className="bg-white border border-slate-200 shadow-lg rounded-2xl p-8 mb-10 max-w-2xl mx-auto">
             <div className="max-w-xl mx-auto">
-              <label className="block text-sm font-medium text-slate-700 mb-3">
+              <label className="block text-sm font-semibold text-[#0d2137] mb-3">
                 Wybierz kategorię wyrobu budowlanego:
               </label>
               <div className="relative mb-6">
@@ -257,7 +260,7 @@ export function ProductSearchTool() {
                 <select
                   value={selectedCategoryId}
                   onChange={(e) => handleCategoryChange(e.target.value)}
-                  className="w-full pl-12 pr-4 py-4 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all appearance-none cursor-pointer"
+                  className="w-full pl-12 pr-4 py-4 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0] focus:ring-2 focus:ring-[#1a56a0]/20 transition-all appearance-none cursor-pointer text-base"
                 >
                   <option value="">-- Wybierz kategorię --</option>
                   {productOptions.map((option) => (
@@ -272,7 +275,7 @@ export function ProductSearchTool() {
                 <Button
                   onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
                   disabled={!selectedCategory}
-                  className="group px-6 py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400"
+                  className="group px-8 py-3 rounded-xl bg-[#1a56a0] hover:bg-[#0d2137] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400 text-base"
                 >
                   Pokaż wymagania
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
