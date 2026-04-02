@@ -12,8 +12,17 @@ function isChunkLoadError(error: Error): boolean {
 		error.name === "ChunkLoadError" ||
 		/Loading chunk [\d]+ failed/.test(error.message) ||
 		/Failed to fetch dynamically imported module/.test(error.message) ||
-		/Importing a module script failed/.test(error.message)
+		/Importing a module script failed/.test(error.message) ||
+		/error loading dynamically imported module/i.test(error.message)
 	);
+}
+
+function forceReloadFresh() {
+	// Mobile browsers may serve cached index.html on window.location.reload().
+	// Adding a cache-busting query param forces a fresh fetch from the server.
+	const url = new URL(window.location.href);
+	url.searchParams.set('_r', String(Date.now()));
+	window.location.replace(url.toString());
 }
 
 export const AppWrapper = () => {
@@ -23,8 +32,7 @@ export const AppWrapper = () => {
 				fallback={null}
 				onError={(error) => {
 					if (isChunkLoadError(error)) {
-						// Stale chunk after a new deployment — force reload to get fresh assets
-						window.location.reload();
+						forceReloadFresh();
 						return;
 					}
 					console.error(

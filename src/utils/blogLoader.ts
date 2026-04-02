@@ -110,6 +110,16 @@ export interface BlogMetadata {
 let metaCache: BlogPost[] | null = null;
 const postCache: Map<string, BlogPost> = new Map();
 
+// ── Fetch with automatic cache-bust retry ────────────────────────────────────
+// Mobile browsers aggressively cache resources. If the first fetch fails
+// (stale chunk 404, network error), retry with a cache-busting query param.
+async function fetchWithRetry(url: string): Promise<Response> {
+    const first = await fetch(url);
+    if (first.ok) return first;
+    // Retry with cache-busting param to bypass stale CDN/browser cache
+    return fetch(url + (url.includes('?') ? '&' : '?') + '_=' + Date.now());
+}
+
 // ── Dev-mode fallback (import.meta.glob) ──────────────────────────────────────
 
 async function loadAllPostsDev(): Promise<BlogPost[]> {
@@ -172,7 +182,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
 
     if (import.meta.env.PROD) {
         try {
-            const res = await fetch('/posts/meta.json');
+            const res = await fetchWithRetry('/posts/meta.json');
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const posts = await res.json() as BlogPost[];
 
@@ -187,12 +197,6 @@ export async function getAllPosts(): Promise<BlogPost[]> {
             return metaCache;
         } catch (error) {
             console.error('Error loading posts/meta.json:', error);
-            // Reload once on failure — likely stale assets after a new deployment
-            const RELOAD_KEY = 'blogloader_reloaded';
-            if (!sessionStorage.getItem(RELOAD_KEY)) {
-                sessionStorage.setItem(RELOAD_KEY, '1');
-                window.location.reload();
-            }
             return [];
         }
     }
@@ -213,18 +217,13 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 
     if (import.meta.env.PROD) {
         try {
-            const res = await fetch(`/posts/${slug}.json`);
+            const res = await fetchWithRetry(`/posts/${slug}.json`);
             if (!res.ok) return null;
             const post = await res.json() as BlogPost;
             postCache.set(slug, post);
             return post;
         } catch (error) {
             console.error(`Error loading posts/${slug}.json:`, error);
-            const RELOAD_KEY = 'blogloader_reloaded';
-            if (!sessionStorage.getItem(RELOAD_KEY)) {
-                sessionStorage.setItem(RELOAD_KEY, '1');
-                window.location.reload();
-            }
             return null;
         }
     }
