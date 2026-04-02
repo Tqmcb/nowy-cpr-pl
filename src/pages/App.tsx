@@ -23,7 +23,6 @@ import {
   Users,
   CheckCircle2,
   Info,
-  Sparkles,
   ClipboardList
 } from "lucide-react";
 
@@ -114,103 +113,50 @@ function HomePage() {
           />
 
           <Container>
-            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-              {/* Left Content */}
-              <div className="animate-fade-in-up">
-                {/* Badge */}
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-8">
-                  <Sparkles className="w-4 h-4 text-white" />
-                  <span className="text-white text-sm font-medium">Rozporządzenie CPR w mocy od 2024</span>
-                </div>
+            <div className="relative z-10 max-w-3xl mx-auto text-center animate-fade-in-up">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                <span className="text-white">Nowe </span>
+                <span className="text-white font-bold">Rozporządzenie CPR</span>
+                <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
+              </h1>
 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                  <span className="text-white">Nowe </span>
-                  <span className="text-white font-bold">Rozporządzenie CPR</span>
-                  <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
-                </h1>
+              <p className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
+                Rozporządzenie (EU) 2024/3110 obowiązuje od stycznia 2026.
+                Sprawdź, co zmienia się dla Twojej branży i kiedy musisz być gotowy.
+              </p>
 
-                <p className="text-lg md:text-xl text-white/80 mb-8 leading-relaxed max-w-xl">
-                  CPR (EU) 2024/3110 stosuje się od 8 stycznia 2026. Większość nowych wymogów
-                  (GWP, DPP, EPD) wymaga jeszcze nowych norm zharmonizowanych —
-                  sprawdź harmonogram dla swojej branży.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button
-                    size="lg"
-                    asChild
-                    className="group bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
-                  >
-                    <Link to="/wyszukiwarka">
-                      <span>Sprawdź wymagania dla produktu</span>
-                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Link>
-                  </Button>
-                  <Button
-                    size="lg"
-                    asChild
-                    className="bg-white/15 border border-white/40 text-white hover:bg-white/25 font-semibold"
-                  >
-                    <Link to="/documents">
-                      <FileText className="w-5 h-5 mr-2" />
-                      Przeglądaj dokumenty
-                    </Link>
-                  </Button>
-                </div>
-
-                {/* Stats */}
-                <div className="mt-12 grid grid-cols-3 gap-6">
-                  {[
-                    { value: "2026", label: "Rok stosowania", icon: Calendar },
-                    { value: "27", label: "Krajów UE", icon: Users },
-                    { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
-                  ].map((stat, idx) => (
-                    <StatCounter key={idx} {...stat} />
-                  ))}
-                </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button
+                  size="lg"
+                  asChild
+                  className="group bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
+                >
+                  <Link to="/wyszukiwarka">
+                    <span>Sprawdź wymagania dla produktu</span>
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </Button>
+                <Button
+                  size="lg"
+                  asChild
+                  className="bg-white/15 border border-white/40 text-white hover:bg-white/25 font-semibold"
+                >
+                  <Link to="/documents">
+                    <FileText className="w-5 h-5 mr-2" />
+                    Przeglądaj dokumenty
+                  </Link>
+                </Button>
               </div>
 
-              {/* Right Visual */}
-              <div className="relative animate-fade-in-up-delay-2">
-                <div className="relative bg-white border border-slate-200 shadow-sm rounded-xl p-8">
-                  {/* Subtle border accent */}
-                  <div className="absolute -inset-px bg-gradient-to-r from-[#1a56a0]/10 via-slate-200/50 to-[#0d2137]/10 rounded-2xl"></div>
-
-                  <div className="relative aspect-video rounded-xl overflow-hidden">
-                    {/* Construction site photo */}
-                    <img
-                      src="/images/hero-construction.jpg"
-                      alt="Nowoczesna budowa — wyroby budowlane CPR 2024/3110"
-                      className="absolute inset-0 w-full h-full object-cover object-center"
-                    />
-                    {/* Gradient overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0d2137]/90 via-[#0d2137]/40 to-[#0d2137]/10"></div>
-                    {/* Content overlay */}
-                    <div className="relative flex flex-col items-center justify-end h-full p-6 text-center">
-                      <div className="w-14 h-14 mx-auto mb-3 rounded-xl bg-[#0d2137] flex items-center justify-center shadow-lg shadow-[#1a56a0]/30">
-                        <ClipboardList className="w-7 h-7 text-white" />
-                      </div>
-                      <h3 className="text-lg font-bold text-white mb-1">CPR (EU) 2024/3110</h3>
-                      <p className="text-slate-200 text-xs mb-4">Rozporządzenie w sprawie wyrobów budowlanych</p>
-                      {/* Feature Pills */}
-                      <div className="flex flex-wrap justify-center gap-2">
-                        {["Digital DoP&C", "Oznakowanie CE", "Paszport produktu"].map((tag) => (
-                          <span key={tag} className="px-3 py-1 rounded-full bg-black/40 border border-white/20 text-xs text-slate-200 backdrop-blur-sm">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Floating Elements */}
-                  <div className="absolute -top-4 -right-4 w-16 h-16 rounded-xl bg-[#1a56a0] flex items-center justify-center shadow-lg">
-                    <span className="text-2xl">🇪🇺</span>
-                  </div>
-                  <div className="absolute -bottom-4 -left-4 w-12 h-12 rounded-lg bg-[#1a56a0] flex items-center justify-center shadow-lg">
-                    <CheckCircle2 className="w-6 h-6 text-white" />
-                  </div>
-                </div>
+              {/* Stats */}
+              <div className="mt-14 grid grid-cols-3 gap-6 max-w-lg mx-auto">
+                {[
+                  { value: "2026", label: "Rok stosowania", icon: Calendar },
+                  { value: "27", label: "Krajów UE", icon: Users },
+                  { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
+                ].map((stat, idx) => (
+                  <StatCounter key={idx} {...stat} />
+                ))}
               </div>
             </div>
           </Container>
