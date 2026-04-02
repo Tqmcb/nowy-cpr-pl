@@ -74,55 +74,57 @@ export default function Services() {
     setIsSubmitting(true);
 
     try {
-      const apiKey = import.meta.env.VITE_MAILERLITE_API_KEY;
-      const headers = {
-        "Authorization": `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      };
-
-      // 1. Dodaj subskrybenta do grupy "Zapytania o usługi CPR"
-      const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
+      // 1. Powiadomienie email do biuro@multicert.pl (formsubmit.co) — PRIORYTET
+      const emailRes = await fetch("https://formsubmit.co/ajax/biuro@multicert.pl", {
         method: "POST",
-        headers,
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
+          _subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
+          _template: "table",
+          _captcha: "false",
+          name: formData.name,
           email: formData.email,
-          fields: { name: formData.name, phone: formData.phone || "" },
-          groups: [ML_GROUP_CONTACT],
+          telefon: formData.phone || "—",
+          firma: formData.company || "—",
+          wiadomosc: formData.message,
         }),
       });
 
-      if (res.ok) {
-        const data = await res.json();
-        const subscriberId: string = data?.data?.id;
-
-        // 2. Dodaj notatkę z pełną treścią zapytania
-        if (subscriberId) {
-          const date = new Date().toLocaleString("pl-PL", { timeZone: "Europe/Warsaw" });
-          const noteContent = `Zapytanie o usługę CPR 2024 (${date})\nFirma: ${formData.company || "—"}\nTelefon: ${formData.phone || "—"}\nWiadomość: ${formData.message}`;
-          await fetch(`https://connect.mailerlite.com/api/subscribers/${subscriberId}/notes`, {
+      // 2. MailerLite — opcjonalnie, nie blokuje sukcesu
+      try {
+        const apiKey = import.meta.env.VITE_MAILERLITE_API_KEY;
+        if (apiKey) {
+          const headers = {
+            "Authorization": `Bearer ${apiKey}`,
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+          };
+          const mlRes = await fetch("https://connect.mailerlite.com/api/subscribers", {
             method: "POST",
             headers,
-            body: JSON.stringify({ content: noteContent }),
-          }).catch(() => {});
+            body: JSON.stringify({
+              email: formData.email,
+              fields: { name: formData.name, phone: formData.phone || "" },
+              groups: [ML_GROUP_CONTACT],
+            }),
+          });
+          if (mlRes.ok) {
+            const data = await mlRes.json();
+            const subscriberId: string = data?.data?.id;
+            if (subscriberId) {
+              const date = new Date().toLocaleString("pl-PL", { timeZone: "Europe/Warsaw" });
+              const noteContent = `Zapytanie o usługę CPR 2024 (${date})\nFirma: ${formData.company || "—"}\nTelefon: ${formData.phone || "—"}\nWiadomość: ${formData.message}`;
+              await fetch(`https://connect.mailerlite.com/api/subscribers/${subscriberId}/notes`, {
+                method: "POST",
+                headers,
+                body: JSON.stringify({ content: noteContent }),
+              }).catch(() => {});
+            }
+          }
         }
+      } catch { /* MailerLite failure doesn't block success */ }
 
-        // 3. Powiadomienie email do biuro@multicert.pl (formsubmit.co)
-        await fetch("https://formsubmit.co/ajax/biuro@multicert.pl", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify({
-            _subject: `Nowe zapytanie o usługę CPR 2024 — ${formData.name}`,
-            _template: "table",
-            _captcha: "false",
-            name: formData.name,
-            email: formData.email,
-            telefon: formData.phone || "—",
-            firma: formData.company || "—",
-            wiadomosc: formData.message,
-          }),
-        }).catch(() => {});
-
+      if (emailRes.ok) {
         setFormStatus("success");
         setFormData({ name: "", email: "", phone: "", company: "", message: "", consent: false });
       } else {
