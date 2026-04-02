@@ -128,6 +128,15 @@ export const documents: Document[] = [
     fileType: "HTML",
     language: "PL",
     updatedAt: "04.2026"
+  },
+  {
+    id: "dopc-prefabrykaty-betonowe",
+    title: "DoP&C — Prefabrykaty betonowe (EN 13225 / EN 13369)",
+    description: "Wzorcowy szablon Deklaracji Właściwości Użytkowych i Zgodności dla prefabrykowanych wyrobów z betonu (słupy, belki, płyty, bloczki AAC). Zawiera pełną tabelę właściwości użytkowych (wytrzymałość, odporność ogniowa, trwałość) oraz sekcję GWP z 4 wskaźnikami środowiskowymi A1–A3 wg EN 15804+A2 — gotowy na pierwszy etap wdrożenia CPR 2024.",
+    icon: "🏗️",
+    fileType: "HTML",
+    language: "PL",
+    updatedAt: "04.2026"
   }
 ];
 
@@ -145,7 +154,8 @@ const documentUrls: Record<string, string> = {
   "tech-file":          "/docs/dokumentacja-techniczna-art21.html",
   "user-instructions":  "/docs/instrukcja-uzytkownika-art9.html",
   "auth-rep-mandate":   "/docs/mandat-przedstawiciela-art23.html",
-  "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html"
+  "commission-work-plan":  "/docs/plan-prac-komisji-cpr-2026-2029.html",
+  "dopc-prefabrykaty-betonowe":  "/docs/dopc-prefabrykaty-betonowe.html"
 };
 
 // MailerLite group ID for document leads (group: "Pobrania dokumentów CPR")

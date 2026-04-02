@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DoP&amp;C – Prefabrykaty betonowe (EN 13225 / EN 13369) | CPR 2024/3110</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; font-size: 10pt; color: #1a1a1a; background: #fff; padding: 20mm; }
+  h1 { font-size: 13pt; font-weight: bold; text-align: center; margin-bottom: 4px; }
+  h2 { font-size: 10.5pt; font-weight: bold; margin: 14px 0 6px 0; border-bottom: 1px solid #555; padding-bottom: 3px; }
+  .subtitle { text-align: center; font-size: 9pt; color: #555; margin-bottom: 12px; }
+  .eu-ref { text-align: center; font-size: 8pt; color: #888; margin-bottom: 16px; }
+  .section { margin-bottom: 12px; }
+  .field { margin: 5px 0; display: flex; align-items: baseline; gap: 6px; }
+  .field label { font-weight: bold; min-width: 200px; font-size: 9pt; flex-shrink: 0; }
+  .field .val { font-size: 9pt; color: #1a56a0; }
+  .field-line { border-bottom: 1px solid #bbb; flex-grow: 1; min-width: 60px; height: 16px; }
+  .field-hint { font-size: 7.5pt; color: #888; font-weight: normal; }
+  table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 8.5pt; }
+  th { background: #2d3748; color: #fff; padding: 4px 6px; text-align: left; font-size: 8.5pt; }
+  td { border: 1px solid #ccc; padding: 4px 6px; vertical-align: top; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .example { color: #1a56a0; font-style: italic; }
+  .note { font-size: 7.5pt; color: #555; margin-top: 5px; padding: 5px 7px; background: #f5f5f5; border-left: 3px solid #f59e0b; }
+  .note-green { font-size: 7.5pt; color: #555; margin-top: 5px; padding: 5px 7px; background: #f0fdf4; border-left: 3px solid #22c55e; }
+  .signature-block { margin-top: 20px; display: flex; justify-content: space-between; }
+  .sig-field { width: 45%; }
+  .sig-line { border-bottom: 1px solid #555; margin-top: 28px; }
+  .sig-label { font-size: 8pt; color: #666; margin-top: 3px; }
+  .header-logo { text-align: right; font-size: 8pt; color: #aaa; margin-bottom: 8px; }
+  .badge { display: inline-block; background: #f59e0b; color: #000; font-weight: bold; font-size: 7.5pt; padding: 2px 6px; border-radius: 4px; margin-left: 4px; }
+  .badge-green { background: #22c55e; color: #fff; }
+  .badge-blue { background: #1a56a0; color: #fff; }
+  .important { background: #fff8e1; border: 1px solid #f59e0b; padding: 6px 8px; margin: 8px 0; font-size: 8pt; }
+  .gwp-header { background: #166534; color: #fff; }
+  .gwp-row td { background: #f0fdf4; }
+  @media print {
+    body { padding: 12mm 15mm; }
+    .no-print { display: none; }
+    .page-break { page-break-before: always; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header-logo">NowyCPR.pl <span class="badge">CPR 2024/3110</span> <span class="badge-blue badge">Prefabrykaty betonowe</span></div>
+
+<h1>DEKLARACJA WŁAŚCIWOŚCI UŻYTKOWYCH I ZGODNOŚCI (DoP&amp;C)</h1>
+<div class="subtitle">Prefabrykowane wyroby z betonu zwykłego, lekkiego i autoklawizowanego betonu komórkowego<br>
+Rodzina wyrobów nr 1 wg Załącznika VII CPR (EU) 2024/3110</div>
+<div class="eu-ref">Art. 15–16 Rozporządzenia (UE) 2024/3110 | Załącznik V — format deklaracji | EN 13225 / EN 13369 / EN 1168 / EN 14992 / EN 12602</div>
+
+<div class="important">
+  Niniejszy dokument jest wzorem edukacyjnym DoP&amp;C dla prefabrykatów betonowych. Przed użyciem producent musi uzupełnić pola wartościami właściwymi dla konkretnego wyrobu, potwierdzonymi badaniami typu (ITT) i zakładową kontrolą produkcji (FPC).
+  <br>Wartości oznaczone <span class="example">kursywą niebieską</span> to przykłady — należy zastąpić własnymi danymi.
+</div>
+
+<!-- 1. Identyfikator -->
+<div class="section">
+  <h2>1. Niepowtarzalny kod identyfikacyjny typu wyrobu (art. 22 ust. 5)</h2>
+  <div class="field">
+    <label>Kod identyfikacyjny typu wyrobu:</label>
+    <span class="val example">PB-SL-2026-001</span>
+  </div>
+  <div class="field">
+    <label>Typ wyrobu:</label>
+    <span class="val example">Słup prefabrykowany żelbetowy 300x300 mm</span>
+  </div>
+  <div class="field">
+    <label>Nr partii / serii / data produkcji:</label>
+    <div class="field-line"></div>
+  </div>
+  <div class="note">Kod musi umożliwiać jednoznaczną identyfikację typu wyrobu. Może to być wewnętrzny kod producenta, numer modelu lub kombinacja parametrów (np. wymiar + klasa betonu + zastosowanie).</div>
+</div>
+
+<!-- 2. Zastosowanie -->
+<div class="section">
+  <h2>2. Zamierzone zastosowanie</h2>
+  <div class="field">
+    <label>Zamierzone zastosowanie:</label>
+    <span class="val example">Element konstrukcyjny (słup) do budynków mieszkalnych i przemysłowych</span>
+  </div>
+  <div class="field">
+    <label>Zgodnie z normą zharmonizowaną:</label>
+    <span class="val">EN 13225:2013 — Prefabrykowane wyroby z betonu. Liniowe elementy konstrukcyjne</span>
+  </div>
+  <div class="field">
+    <label>Norma ogólna:</label>
+    <span class="val">EN 13369:2018 — Wspólne zasady dla prefabrykatów z betonu</span>
+  </div>
+</div>
+
+<!-- 3. Producent -->
+<div class="section">
+  <h2>3. Producent (art. 22 ust. 1–2)</h2>
+  <div class="field"><label>Nazwa producenta:</label><div class="field-line"></div></div>
+  <div class="field"><label>Adres siedziby:</label><div class="field-line"></div></div>
+  <div class="field"><label>Adres zakładu produkcyjnego:</label><div class="field-line"></div></div>
+  <div class="field"><label>E-mail / WWW:</label><div class="field-line"></div></div>
+  <div class="field"><label>Upoważniony przedstawiciel (art. 23):</label><div class="field-line"></div></div>
+</div>
+
+<!-- 4. System AVS -->
+<div class="section">
+  <h2>4. System oceny i weryfikacji stałości właściwości użytkowych (AVS)</h2>
+  <div class="field">
+    <label>System AVS dla właściwości użytkowych:</label>
+    <span class="val example">System 1 (certyfikacja wyrobu przez JN)</span>
+  </div>
+  <div class="field">
+    <label>System AVS dla właściwości środowiskowych:</label>
+    <span class="val">System 3+ (weryfikacja EPD przez NTL) — po wejściu w życie nowych hTS</span>
+  </div>
+  <div class="note">
+    Prefabrykaty betonowe podlegają systemowi AVS 1 (elementy konstrukcyjne, np. EN 13225) lub AVS 2+ (elementy niekonstrukcyjne, np. EN 12602 bloczki AAC). System 3+ dotyczy deklaracji środowiskowych (GWP) — obowiązkowy po publikacji nowych hTS dla tej rodziny wyrobów.
+  </div>
+</div>
+
+<!-- 5. Norma -->
+<div class="section">
+  <h2>5. Norma zharmonizowana</h2>
+  <table>
+    <thead><tr><th>Norma</th><th>Tytuł</th><th>Zakres</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>EN 13225:2013</strong></td>
+        <td>Prefabrykowane wyroby z betonu — Liniowe elementy konstrukcyjne</td>
+        <td>Słupy, belki, rygle, podciągi</td>
+      </tr>
+      <tr>
+        <td><strong>EN 1168:2005+A3:2011</strong></td>
+        <td>Prefabrykowane wyroby z betonu — Płyty kanałowe</td>
+        <td>Płyty stropowe sprężone (hollow core)</td>
+      </tr>
+      <tr>
+        <td><strong>EN 14992:2007+A1:2012</strong></td>
+        <td>Prefabrykowane wyroby z betonu — Elementy ścienne</td>
+        <td>Panele ścienne, ściany osłonowe</td>
+      </tr>
+      <tr>
+        <td><strong>EN 12602:2016</strong></td>
+        <td>Prefabrykowane elementy z ABK (AAC)</td>
+        <td>Bloczki, płyty, nadproża z betonu komórkowego</td>
+      </tr>
+      <tr>
+        <td><strong>EN 13369:2018</strong></td>
+        <td>Wspólne zasady dla prefabrykatów z betonu</td>
+        <td>Norma nadrzędna — wymagania wspólne (FPC, tolerancje, trwałość)</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">Producent wskazuje normę właściwą dla swojego wyrobu. Jeśli wyrób podlega wielu normom (np. słup z betonu lekkiego) — podać wszystkie. Numer ETA podać jeśli brak normy hEN.</div>
+</div>
+
+<!-- 6. Jednostka notyfikowana -->
+<div class="section">
+  <h2>6. Jednostka notyfikowana</h2>
+  <table>
+    <thead><tr><th>Rola</th><th>Nazwa jednostki</th><th>Nr NB</th><th>Nr certyfikatu / raportu</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Certyfikacja wyrobu (AVS 1) lub FPC (AVS 2+)</td>
+        <td class="example">Multicert Sp. z o.o.</td>
+        <td class="example">NB XXXX</td>
+        <td class="example">CoCP-2026-XXXX / FPC-2026-XXXX</td>
+      </tr>
+      <tr>
+        <td>Weryfikacja EPD (AVS 3+) <span class="badge-green badge">po wejściu hTS</span></td>
+        <td class="example">—</td>
+        <td class="example">—</td>
+        <td class="example">—</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">W systemie AVS 1: JN wydaje Certyfikat Stałości Właściwości Użytkowych (CoCP). W systemie AVS 2+: JN wydaje Certyfikat ZKP (FPC). W systemie AVS 3+: NTL (akredytowane laboratorium wg ISO/IEC 17029) wydaje raport weryfikacyjny EPD.</div>
+</div>
+
+<!-- 7. Właściwości użytkowe -->
+<div class="section">
+  <h2>7. Deklarowane właściwości użytkowe</h2>
+  <p style="font-size:8.5pt; color:#555; margin-bottom:6px;">Poniższe właściwości dotyczą prefabrykowanych elementów konstrukcyjnych z betonu zwykłego wg EN 13225. Producent deklaruje wartości potwierdzone badaniami typu (ITT) i monitorowane w ramach FPC.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:32%">Zasadnicza charakterystyka</th>
+        <th style="width:26%">Deklarowana wartość / klasa</th>
+        <th style="width:12%">Jednostka</th>
+        <th style="width:30%">Norma badawcza</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Wytrzymałość betonu na ściskanie</strong></td>
+        <td class="example">C40/50</td>
+        <td>klasa</td>
+        <td>EN 206, EN 12390-3</td>
+      </tr>
+      <tr>
+        <td><strong>Stal zbrojeniowa — gatunek</strong></td>
+        <td class="example">B500B (zbr. zwykłe)<br>Y1860S7 (struny sprężające)</td>
+        <td>—</td>
+        <td>EN 10080, EN 10138</td>
+      </tr>
+      <tr>
+        <td><strong>Odporność ogniowa</strong></td>
+        <td class="example">R 60 (słup)<br>REI 120 (strop)</td>
+        <td>klasa</td>
+        <td>EN 13501-2, EN 1992-1-2</td>
+      </tr>
+      <tr>
+        <td><strong>Reakcja na ogień</strong></td>
+        <td>A1 (beton niepalny)</td>
+        <td>euroklasa</td>
+        <td>EN 13501-1 (decyzja KE 96/603/WE)</td>
+      </tr>
+      <tr>
+        <td><strong>Klasa ekspozycji / trwałość</strong></td>
+        <td class="example">XC1 (wewnątrz)<br>XC4/XF1 (na zewnątrz)</td>
+        <td>klasa</td>
+        <td>EN 206, EN 13369 Zał. F</td>
+      </tr>
+      <tr>
+        <td><strong>Otulina zbrojenia</strong></td>
+        <td class="example">c<sub>nom</sub> = 30 mm (XC1)<br>c<sub>nom</sub> = 40 mm (XC4)</td>
+        <td>mm</td>
+        <td>EN 13369, EN 1992-1-1</td>
+      </tr>
+      <tr>
+        <td><strong>Tolerancje wymiarowe</strong></td>
+        <td class="example">Klasa 1 wg EN 13369 tab. 9</td>
+        <td>klasa</td>
+        <td>EN 13369</td>
+      </tr>
+      <tr>
+        <td><strong>Nośność / parametry projektowe</strong></td>
+        <td class="example">N<sub>Rd</sub> = 2400 kN (słup 300x300, C40/50, 4ø20)</td>
+        <td>kN</td>
+        <td>EN 1992-1-1 (Eurokod 2)</td>
+      </tr>
+      <tr>
+        <td><strong>Wodoszczelność</strong> <span class="field-hint">(jeśli wymagana)</span></td>
+        <td class="example">W8</td>
+        <td>klasa</td>
+        <td>EN 12390-8</td>
+      </tr>
+      <tr>
+        <td><strong>Mrozoodporność</strong> <span class="field-hint">(jeśli ekspozycja XF)</span></td>
+        <td class="example">F150 (po 150 cyklach, ubytek ≤ 5%)</td>
+        <td>—</td>
+        <td>EN 13369 Zał. D, PN-B-06265</td>
+      </tr>
+      <tr>
+        <td><strong>Masa elementu</strong></td>
+        <td class="example">1 850 kg</td>
+        <td>kg</td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    „NPD" (No Performance Determined) — jeśli producent nie deklaruje danej właściwości, wpisać NPD zgodnie z art. 15 ust. 3 CPR 2024/3110. NPD nie jest dopuszczalne dla właściwości wymaganych przez przepisy krajowe w państwie przeznaczenia wyrobu.
+  </div>
+</div>
+
+<div class="page-break"></div>
+
+<!-- 7b. Właściwości środowiskowe — GWP -->
+<div class="section">
+  <h2>7a. Deklarowane właściwości środowiskowe — GWP (pierwszy etap wdrożenia)</h2>
+  <p style="font-size:8.5pt; color:#555; margin-bottom:6px;">
+    Wskaźniki potencjału globalnego ocieplenia (GWP) wg EN 15804+A2, moduły A1–A3 (od surowców do bramy fabryki).
+    Obowiązkowe po publikacji nowej hTS dla rodziny 1 i zakończeniu okresu koegzystencji.
+    Weryfikacja przez NTL w ramach systemu AVS 3+.
+  </p>
+
+  <table>
+    <thead>
+      <tr class="gwp-header">
+        <th style="width:38%">Wskaźnik GWP (EN 15804+A2)</th>
+        <th style="width:22%">Wartość</th>
+        <th style="width:16%">Jednostka</th>
+        <th style="width:24%">Uwagi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="gwp-row">
+        <td><strong>GWP-total</strong><br><span class="field-hint">Potencjał globalnego ocieplenia — suma</span></td>
+        <td class="example">2,85 × 10<sup>2</sup></td>
+        <td>kg CO<sub>2</sub> eq. / t</td>
+        <td class="field-hint">A1–A3, suma trzech poniżej</td>
+      </tr>
+      <tr class="gwp-row">
+        <td><strong>GWP-fossil</strong><br><span class="field-hint">GWP z paliw kopalnych</span></td>
+        <td class="example">2,78 × 10<sup>2</sup></td>
+        <td>kg CO<sub>2</sub> eq. / t</td>
+        <td class="field-hint">A1–A3, dominujący składnik (cement)</td>
+      </tr>
+      <tr class="gwp-row">
+        <td><strong>GWP-biogenic</strong><br><span class="field-hint">GWP z surowców biogennych</span></td>
+        <td class="example">4,2</td>
+        <td>kg CO<sub>2</sub> eq. / t</td>
+        <td class="field-hint">A1–A3, deskowania drewniane, dodatki</td>
+      </tr>
+      <tr class="gwp-row">
+        <td><strong>GWP-luluc</strong><br><span class="field-hint">GWP ze zmian użytkowania gruntów</span></td>
+        <td class="example">2,8</td>
+        <td>kg CO<sub>2</sub> eq. / t</td>
+        <td class="field-hint">A1–A3, kruszywa naturalne, transport</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note-green">
+    <strong>Pierwszy etap wdrożenia CPR 2024:</strong> Producent deklaruje 4 wskaźniki GWP dla modułów A1–A3 (cradle-to-gate).
+    Dane muszą pochodzić z EPD sporządzonej wg EN 15804+A2 i zweryfikowanej przez NTL akredytowane wg ISO/IEC 17029.
+    Jednostka deklaracyjna: 1 tona wyrobu (lub 1 m³ betonu — zgodnie z przyszłą hTS).
+    <br><br>
+    <strong>Źródło danych:</strong> EPD nr <span class="example">[numer EPD]</span>, program <span class="example">[np. IBU, EPD Norway, EPD Polska]</span>, data weryfikacji: <span class="example">[data]</span>, ważna do: <span class="example">[data + 5 lat]</span>.
+  </div>
+</div>
+
+<!-- 8. SVHC -->
+<div class="section">
+  <h2>8. Substancje wzbudzające szczególne obawy (SVHC) — art. 15 ust. 6</h2>
+  <div class="field">
+    <label>Czy wyrób zawiera SVHC (&gt;0,1% m/m):</label>
+    <span class="val example">NIE</span>
+  </div>
+  <div class="note">
+    Prefabrykaty z betonu zwykłego z reguły nie zawierają substancji SVHC powyżej progu 0,1% m/m. Producent powinien zweryfikować skład domieszek chemicznych, środków antyadhezyjnych i pigmentów. Aktualna lista kandydatów SVHC: echa.europa.eu (253+ pozycje).
+  </div>
+</div>
+
+<!-- 9. Dokumentacja -->
+<div class="section">
+  <h2>9. Dokumentacja techniczna i dostęp cyfrowy</h2>
+  <div class="field"><label>Lokalizacja dokumentacji technicznej:</label><div class="field-line"></div></div>
+  <div class="field"><label>URL do cyfrowej DoP&amp;C (art. 16):</label><div class="field-line"></div></div>
+  <div class="field"><label>Kod QR / Unikalny identyfikator:</label><div class="field-line"></div></div>
+  <div class="field"><label>Nr EPD (jeśli sporządzona):</label><div class="field-line"></div></div>
+  <div class="note">Producent zobowiązany do przechowywania dokumentacji technicznej przez 10 lat od daty dostarczenia wyrobu (art. 20 ust. 4 CPR 2024/3110). DoP&amp;C musi być udostępniona w formie cyfrowej — format i dostawcy usług zostaną określeni w aktach delegowanych KE.</div>
+</div>
+
+<!-- 10. Podpis -->
+<div class="section">
+  <h2>10. Deklaracja zgodności i podpis</h2>
+  <p style="font-size:8.5pt; margin-bottom:6px;">
+    Niniejszym deklaruję, na wyłączną odpowiedzialność producenta, że opisany powyżej wyrób budowlany jest zgodny
+    z deklarowanymi właściwościami użytkowymi oraz spełnia wymagania Rozporządzenia (UE) 2024/3110 (CPR),
+    w tym wymagania dotyczące oznakowania CE (art. 18–19), dokumentacji technicznej (art. 22) oraz — jeśli dotyczy —
+    obowiązków środowiskowych (art. 22 ust. 2).
+  </p>
+
+  <div class="signature-block">
+    <div class="sig-field">
+      <div class="sig-line"></div>
+      <div class="sig-label">Miejscowość i data wydania</div>
+    </div>
+    <div class="sig-field">
+      <div class="sig-line"></div>
+      <div class="sig-label">Imię, nazwisko, stanowisko i podpis<br>osoby upoważnionej do podpisania w imieniu producenta</div>
+    </div>
+  </div>
+</div>
+
+<!-- Annex: Oznakowanie CE -->
+<div class="section" style="margin-top:20px; padding-top:12px; border-top: 2px solid #2d3748;">
+  <h2>Załącznik: Wymagane elementy oznakowania CE (art. 18–19 CPR 2024/3110)</h2>
+  <table>
+    <tbody>
+      <tr><td style="width:40%"><strong>Symbol CE</strong> (min. 5 mm wys.)</td><td>CE</td></tr>
+      <tr><td><strong>Numer jednostki notyfikowanej</strong></td><td class="example">XXXX (dla AVS 1 i 2+)</td></tr>
+      <tr><td><strong>Nazwa / znak handlowy producenta</strong></td><td class="field-line"></td></tr>
+      <tr><td><strong>Adres producenta</strong></td><td class="field-line"></td></tr>
+      <tr><td><strong>Ostatnie dwie cyfry roku pierwszego oznakowania</strong></td><td class="example">26</td></tr>
+      <tr><td><strong>Nr DoP&amp;C / link do cyfrowej DoP&amp;C</strong></td><td class="example">PB-SL-2026-001</td></tr>
+      <tr><td><strong>Nr normy zharmonizowanej</strong></td><td class="example">EN 13225:2013</td></tr>
+      <tr><td><strong>Zamierzone zastosowanie</strong></td><td class="example">Element konstrukcyjny — słup</td></tr>
+      <tr><td><strong>Deklarowane właściwości użytkowe</strong></td><td class="example">C40/50 · R 60 · XC1 · Klasa tol. 1</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="note" style="margin-top:16px;">
+  <strong>Podstawy prawne:</strong> Rozporządzenie (UE) 2024/3110 (CPR), EN 13225:2013, EN 13369:2018, EN 15804+A2:2019 (EPD/GWP).
+  <br>Szablon przygotowany przez: <strong>NowyCPR.pl</strong> — www.nowycpr.pl | biuro@multicert.pl
+  <br>Wersja: kwiecień 2026 r. Dokument edukacyjny — producent odpowiada za poprawność deklarowanych wartości.
+</div>
+
+<div class="no-print" style="margin-top:16px; padding:8px; background:#f0f4ff; border:1px solid #aac; font-size:9pt;">
+  Aby zapisać jako PDF: Ctrl+P (Cmd+P na Mac) i wybierz "Zapisz jako PDF".
+</div>
+
+</body>
+</html>
