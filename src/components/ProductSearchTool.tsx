@@ -155,7 +155,8 @@ export function ProductSearchTool() {
         <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka" />
       </Helmet>
       {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden border-b border-slate-800">
+      {/* Hero + Search — jedna sekcja, zero scrollowania */}
+      <section id="search-section" className="relative pt-32 pb-16 overflow-hidden border-b border-slate-800">
         {/* B&W photo background */}
         <div
           className="absolute inset-0"
@@ -166,84 +167,56 @@ export function ProductSearchTool() {
             filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
           }}
         />
-        {/* Navy→blue gradient overlay */}
         <div
           className="absolute inset-0"
-          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
+          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.92) 0%, rgba(26,86,160,0.75) 100%)" }}
         />
-        {/* Bottom accent stripe */}
         <div
           className="absolute bottom-0 left-0 right-0 h-[4px]"
           style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
         />
 
         <Container>
-          <div className="relative z-10 max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Wyszukiwarka wymagań CPR (EU) 2024/3110
-              </h1>
-              <p className="text-lg text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
-                Sprawdź wymagania dla Twojego wyrobu budowlanego. Wybierz kategorię produktu,
-                aby zobaczyć szczegółowe informacje o testach, dokumentacji i zmianach.
-              </p>
-              <Button
-                onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
-                className="px-8 py-3 rounded-full bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
-              >
-                Przejdź do wyszukiwarki
-              </Button>
-          </div>
-        </Container>
-      </section>
-
-      {/* Search Section */}
-      <section id="search-section" className="py-16 bg-[#0d2137]">
-        <Container>
-          <div className="mb-10 text-center">
-            <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#1a56a0] mb-5">
-              <Search className="w-7 h-7 text-white" />
-            </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-              Znajdź wymagania dla Twojego produktu
-            </h2>
-            <p className="text-slate-300 max-w-xl mx-auto">
-              Wybierz kategorię wyrobu budowlanego, aby sprawdzić wymagania zgodne z rozporządzeniem CPR (EU) 2024/3110.
+          <div className="relative z-10 max-w-2xl mx-auto text-center mb-10">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
+              Wyszukiwarka wymagań CPR
+            </h1>
+            <p className="text-base md:text-lg text-white/70 leading-relaxed">
+              Wybierz kategorię wyrobu budowlanego, aby zobaczyć wymagania, normy i obowiązki zgodne z CPR (EU) 2024/3110.
             </p>
           </div>
 
-          <div className="bg-white border border-slate-200 shadow-lg rounded-2xl p-8 mb-10 max-w-2xl mx-auto">
-            <div className="max-w-xl mx-auto">
-              <label className="block text-sm font-semibold text-[#0d2137] mb-3">
-                Wybierz kategorię wyrobu budowlanego:
-              </label>
-              <div className="relative mb-6">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-                <select
-                  value={selectedCategoryId}
-                  onChange={(e) => handleCategoryChange(e.target.value)}
-                  className="w-full pl-12 pr-4 py-4 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0] focus:ring-2 focus:ring-[#1a56a0]/20 transition-all appearance-none cursor-pointer text-base"
-                >
-                  <option value="">-- Wybierz kategorię --</option>
-                  {productOptions.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="text-center">
-                <Button
-                  onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
-                  disabled={!selectedCategory}
-                  className="group px-8 py-3 rounded-xl bg-[#1a56a0] hover:bg-[#0d2137] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400 text-base"
-                >
-                  Pokaż wymagania
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </div>
+          <div className="relative z-10 bg-white shadow-2xl rounded-2xl p-6 md:p-8 max-w-xl mx-auto">
+            <label className="block text-sm font-semibold text-[#0d2137] mb-3">
+              Kategoria wyrobu:
+            </label>
+            <div className="relative mb-5">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+              <select
+                value={selectedCategoryId}
+                onChange={(e) => handleCategoryChange(e.target.value)}
+                className="w-full pl-12 pr-4 py-4 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0] focus:ring-2 focus:ring-[#1a56a0]/20 transition-all appearance-none cursor-pointer text-base"
+              >
+                <option value="">-- Wybierz kategorię --</option>
+                {productOptions.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
             </div>
+
+            <Button
+              onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
+              disabled={!selectedCategory}
+              className="w-full py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400 text-base"
+            >
+              Pokaż wymagania
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
           </div>
+        </Container>
+      </section>
 
           {/* Results Section */}
           {selectedCategory && (
