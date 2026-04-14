@@ -14,7 +14,7 @@ sources:
   - EN 15804+A2 — norma EPD dla wyrobów budowlanych|https://www.pkn.pl
   - EN 16757:2022 — PCR dla betonu i elementów betonowych|https://www.pkn.pl
   - GCCA Concrete CO2 Fact Sheet — Global Cement and Concrete Association|https://gccassociation.org
-  - Program EPD Polska — ITB|https://www.itb.pl/epd.html
+  - Program EPD Polska — Multicert|https://www.epd.org.pl
 ---
 
 ## Beton dostaje swój „paszport emisyjny" — klasy GWR w EN 206-1:2026
@@ -109,7 +109,7 @@ EPD indywidualne daje wyższą precyzję i często lepszą klasę GWR, bo uwzgl�
 
 ## Program EPD Polska i certyfikacja Multicert
 
-W Polsce głównym operatorem programu EPD jest **Instytut Techniki Budowlanej (ITB)** w ramach programu **EPD Polska**. Program działa zgodnie z EN 15804+A2 i jest uznawany w europejskiej sieci programów EPD (ECO Platform).
+Operatorem programu **EPD Polska** jest **Multicert Sp. z o.o.** ([www.epd.org.pl](https://www.epd.org.pl)). Program działa zgodnie z EN 15804+A2 i ISO 14025, a Multicert realizuje weryfikację deklaracji w systemie AVS 3+ zgodnie z CPR 2024/3110. Deklaracje wystawiane w programie noszą markę **EPD+** i są publikowane na portalu [www.epdbeton.pl](https://www.epdbeton.pl).
 
 Producent betonu, który chce uzyskać EPD, musi:
 
