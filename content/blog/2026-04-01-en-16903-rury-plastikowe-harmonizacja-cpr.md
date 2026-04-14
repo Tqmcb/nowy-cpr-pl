@@ -5,7 +5,7 @@ date: "2026-04-01"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy"
 tags: ["EN 16903", "rury plastikowe", "normy zharmonizowane", "CPR 2024", "harmonizacja", "hTS", "wyroby budowlane"]
-excerpt: "Sama publikacja normy CEN nie oznacza harmonizacji pod CPR. EN 16903:2026 to nowa norma dla rur z tworzyw sztucznych — ale zanim CE stanie się wymagane, norma musi przejść przez mandatowanie KE, akt wykonawczy i Dziennik Urzędowy. Wyjaśniamy cały proces krok po kroku."
+excerpt: "Sama publikacja normy CEN nie oznacza harmonizacji pod CPR. EN 16903:2026 to norma PCR dla deklaracji środowiskowych EPD rur z tworzyw sztucznych (komplementarna do EN 15804) — ale zanim CE stanie się wymagane, norma musi przejść przez mandatowanie KE, akt wykonawczy i Dziennik Urzędowy. Wyjaśniamy cały proces krok po kroku."
 image_url: /images/blog/en-13476-rury-plastikowe-harmonizacja.jpg
 template: "przewodnik"
 sources:
@@ -14,6 +14,7 @@ sources:
   - CEN — europejski komitet normalizacyjny|https://www.cen.eu
   - Wykaz norm zharmonizowanych CPR — OJEU|https://eur-lex.europa.eu/search.html?qid=&text=harmonised+standards+construction+products&scope=EURLEX&type=quick&lang=en
   - TEPPFA — Construction Products Regulation|https://www.teppfa.eu/standards-legislation/cpr/
+  - EPD Polska — program deklaracji środowiskowych|https://www.epd.org.pl
 ---
 
 ## Nowa norma CEN, stara rzeczywistość — rury plastikowe a brak harmonizacji pod CPR
@@ -28,20 +29,15 @@ Odpowiedź brzmi: **nie — i to z bardzo konkretnego powodu.** Sama publikacja 
 
 ## Co to jest EN 16903 i czego dotyczy?
 
-**EN 16903** to nowa norma europejska opracowana przez **CEN/TC 155 — Systemy rurociągów i przewodów z tworzyw sztucznych**. Norma dotyczy systemów rurowych z tworzyw sztucznych i jest kolejnym dokumentem w obszernej rodzinie europejskich norm dla tego sektora.
+**EN 16903** (*Plastics piping systems — Environmental product declarations — Product category rules complementary to EN 15804, for buried piping systems outside the building structure*) to norma europejska opracowana przez **CEN/TC 155 — Systemy rurociągów i przewodów z tworzyw sztucznych**. Norma definiuje **zasady kategorii produktów (PCR)** dla opracowywania **deklaracji środowiskowych EPD** systemów rurowych z tworzyw sztucznych zakopanych poza budynkiem — jako uzupełnienie normy EN 15804.
 
-Rodzina norm CEN/TC 155 obejmuje dziesiątki norm dla rur z PVC-U, PP, PE i innych tworzyw — od systemów kanalizacyjnych, przez instalacje wody pitnej, aż po rury do gazów przemysłowych. Normy te definiują wymagania jakościowe, wymiary, metody badań i oznakowanie techniczne.
+EN 16903 nie jest normą definiującą wymagania techniczne dla samych rur (wymiary, wytrzymałość, metody badań) — od tego służą inne normy z rodziny CEN/TC 155 (np. EN 13476, EN 12201). EN 16903 określa natomiast reguły prowadzenia analiz cyklu życia (LCA) i tworzenia EPD dla tej kategorii wyrobów, w tym zakres etapów cyklu życia, jednostki funkcjonalne i scenariusze końca życia.
 
 ### Czy EN 16903 jest na liście norm zharmonizowanych pod CPR?
 
-**Nie.** Zgodnie z aktualnym wykazem norm zharmonizowanych publikowanym przez Komisję Europejską w Dzienniku Urzędowym UE: *do tej pory żadna norma dla plastikowych systemów rurociągowych nie uzyskała statusu normy zharmonizowanej pod CPR.* Dotyczy to w szczególności:
+**Nie.** Zgodnie z aktualnym wykazem norm zharmonizowanych publikowanym przez Komisję Europejską w Dzienniku Urzędowym UE: *do tej pory żadna norma dla plastikowych systemów rurociągowych — ani techniczna, ani dotycząca EPD/PCR — nie uzyskała statusu normy zharmonizowanej pod CPR.* Dotyczy to zarówno norm wyrobowych (EN 13476, EN 12201 itp.), jak i normy PCR EN 16903.
 
-- rur bezciśnieniowych do kanalizacji i odwodnienia,
-- rur do odprowadzania wody brudnej i deszczowej,
-- rur ciśnieniowych do wody i innych mediów,
-- rur do instalacji wewnętrznych (zimna i gorąca woda).
-
-Oznacza to, że producenci rur z tworzyw sztucznych **nie mogą dziś wystawić Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C) ani umieścić oznakowania CE** na podstawie norm serii CEN/TC 155 — bo te normy nie są zharmonizowane. Wyroby te są wprowadzane na rynek na podstawie norm technicznych i wymagań krajowych poszczególnych państw członkowskich UE.
+Oznacza to, że producenci rur z tworzyw sztucznych **nie mogą dziś wystawić Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C) ani umieścić oznakowania CE** na podstawie norm serii CEN/TC 155 — bo te normy nie są zharmonizowane. Wyroby te są wprowadzane na rynek na podstawie norm technicznych i wymagań krajowych poszczególnych państw członkowskich UE. EPD dla rur z tworzyw sztucznych mogą być opracowywane dobrowolnie zgodnie z EN 16903 i EN 15804 — np. w ramach programu [EPD Polska](https://www.epd.org.pl) — ale nie stanowią one obowiązkowej deklaracji pod CPR.
 
 ---
 
@@ -68,7 +64,7 @@ Po otrzymaniu mandatu właściwy **komitet techniczny CEN** (dla rur plastikowyc
 - przypisany system AVS dla każdej właściwości,
 - wymagania dotyczące oznakowania CE.
 
-Norma EN 16903:2026, opublikowana przez CEN, **nie zawiera Załącznika ZA** — bo nie powstała na podstawie mandatu CPR. Jest normą techniczną, nie zharmonizowaną. Opracowanie normy z Załącznikiem ZA, spełniającym wymagania CPR 2024 (w tym nowe wymogi środowiskowe i dotyczące SVHC), trwa zazwyczaj od 2 do 5 lat.
+Norma EN 16903:2026, opublikowana przez CEN, **nie zawiera Załącznika ZA** — bo nie powstała na podstawie mandatu CPR. Jest normą PCR do celów EPD, nie normą zharmonizowaną pod CPR. Opracowanie normy z Załącznikiem ZA, spełniającym wymagania CPR 2024 (w tym nowe wymogi środowiskowe i dotyczące SVHC), trwa zazwyczaj od 2 do 5 lat.
 
 ### Krok 3: Ocena Załącznika ZA przez Komisję Europejską
 
@@ -113,11 +109,11 @@ To dopiero po tym kroku producent rur — lub jakiegokolwiek innego wyrobu budow
 
 Po opublikowaniu normy przez CEN (kwiecień 2026 r.) sytuacja EN 16903 przedstawia się następująco:
 
-**EN 16903:2026** to aktualnie obowiązująca norma techniczna CEN. Jest to w pełni aktualna norma techniczna — ale **nie jest ona normą zharmonizowaną pod CPR 305/2011 ani pod CPR 2024/3110.**
+**EN 16903:2026** to aktualnie obowiązująca norma PCR opracowana przez CEN/TC 155. Określa zasady kategorii produktów (PCR) dla deklaracji środowiskowych EPD rur z tworzyw sztucznych zakopanych poza budynkiem, jako uzupełnienie EN 15804 — ale **nie jest ona normą zharmonizowaną pod CPR 305/2011 ani pod CPR 2024/3110.**
 
 Norma nie zawiera Załącznika ZA — bo nie powstała na podstawie mandatu normalizacyjnego KE do celów CPR. Jej publikacja w OJEU jako normy zharmonizowanej nie miała miejsca. Komisja Europejska nie wydała aktu wykonawczego wprowadzającego EN 16903 do wykazu norm zharmonizowanych dla wyrobów budowlanych.
 
-**Wniosek praktyczny:** Producenci wyrobów objętych EN 16903:2026 **nie muszą dziś uzyskiwać oznakowania CE** na podstawie tej normy. Wyroby te nie podlegają obowiązkowi CPR w zakresie CE — co nie oznacza, że nie podlegają żadnym wymaganiom, ale te wymagania wynikają z przepisów krajowych, nie z CPR.
+**Wniosek praktyczny:** EN 16903:2026 może być stosowana dobrowolnie do opracowywania EPD dla rur z tworzyw sztucznych (np. w ramach programu [EPD Polska](https://www.epd.org.pl)), ale **nie nakłada obowiązku oznakowania CE**. Wyroby te nie podlegają obowiązkowi CPR w zakresie CE — co nie oznacza, że nie podlegają żadnym wymaganiom, ale te wymagania wynikają z przepisów krajowych, nie z CPR.
 
 ---
 
@@ -130,7 +126,7 @@ CPR 2024/3110 wprowadził nową koncepcję normy zharmonizowanej — **hTS (harm
 - **wymogi dotyczące trwałości i serwisowania** przez cały cykl życia wyrobu,
 - nowe wymagania w zakresie **identyfikowalności i cyfrowej dokumentacji**.
 
-Norma EN 16903:2026 opracowana przez CEN/TC 155 jest normą techniczną — bez mandatu CPR nie zawiera tych elementów. Gdyby jednak KE wydała mandat normalizacyjny dla tej kategorii wyrobów w ramach CPR 2024, komitet CEN/TC 155 musiałby opracować nową wersję normy lub znaczący suplement z wymaganym Załącznikiem ZA oraz elementami środowiskowymi.
+Norma EN 16903:2026 opracowana przez CEN/TC 155 jest normą PCR do celów EPD — bez mandatu CPR nie zawiera elementów wymaganych przez hTS. Gdyby jednak KE wydała mandat normalizacyjny dla tej kategorii wyrobów w ramach CPR 2024, komitet CEN/TC 155 musiałby opracować nową wersję normy lub znaczący suplement z wymaganym Załącznikiem ZA oraz elementami środowiskowymi.
 
 Realny termin harmonizacji tej kategorii wyrobów: optymistycznie **2028–2030**, przy założeniu że KE zdecyduje się na wydanie mandatu.
 
@@ -187,9 +183,9 @@ Dla kontrastu:
 
 - **EN 14351-1** (okna i drzwi zewnętrzne) — figuruje w wykazie norm zharmonizowanych pod CPR opublikowanym w OJEU od 2004 r. Producenci okien i drzwi są zobowiązani do CE.
 - **EN 13162** (wełna mineralna) — norma zharmonizowana pod CPR 305/2011; producenci wełny mineralnej stosują CE obligatoryjnie.
-- **EN 16903:2026** (rury z tworzyw sztucznych) — norma CEN, technicznie aktualna, branżowo uznana, ale **nie jest normą zharmonizowaną pod CPR**. Oznakowanie CE na podstawie tej normy jest niemożliwe — jej opublikowanie przez CEN niczego w tej kwestii nie zmienia.
+- **EN 16903:2026** (zasady kategorii produktów PCR dla EPD rur z tworzyw sztucznych zakopanych poza budynkiem, komplementarna do EN 15804) — norma CEN, branżowo uznana do celów dobrowolnych EPD, ale **nie jest normą zharmonizowaną pod CPR**. Oznakowanie CE na podstawie tej normy jest niemożliwe — jej opublikowanie przez CEN niczego w tej kwestii nie zmienia.
 
-**EN 16903 leży dziś poza systemem CPR** — jest normą techniczną CEN, której harmonizacja pod CPR jest teoretycznie możliwa, ale niepewna i odległa w czasie.
+**EN 16903 leży dziś poza systemem CPR** — jest normą PCR do celów EPD, której harmonizacja pod CPR jest teoretycznie możliwa, ale niepewna i odległa w czasie.
 
 ---
 

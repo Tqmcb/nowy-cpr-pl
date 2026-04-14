@@ -39,7 +39,6 @@ Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1
 3. **Wynik** – JN wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU/COCPC)
 
 W Polsce certyfikację cementu prowadzą m.in.:
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), specjalizacja w cemencie i ceramice
 - [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących
 
 ## Kluczowe wymagania CPR 2024
@@ -96,7 +95,7 @@ Producenci cementu są obowiązkowo objęci certyfikacją JN – bez ważnego ce
 
 Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66–80% żużla wielkopiecowego) z klasą wytrzymałości 42,5 N. Zakres działań pod CPR 2024:
 1. Badania wstępne ITT wg EN 197-1 (wytrzymałość, czas wiązania, stałość objętości, zawartość SO3 i Cl)
-2. Certyfikacja ZKP przez [ICiMB](https://www.icimb.pl) (NB 1454) lub [Multicert](https://www.multicert.com.pl) – uzyskanie CSPU
+2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – uzyskanie CSPU
 3. Zlecenie opracowania EPD z wynikiem GWP ~350 kg CO2eq/t (vs ~900 kg CO2eq/t dla CEM I)
 4. Walidacja danych środowiskowych w Systemie AVS 3+ – uzyskanie raportu walidacyjnego od JN
 5. Wystawienie DoP&C z deklaracją: CEM III/B 42,5 N, GWP, zawartość chromu(VI)
@@ -105,7 +104,7 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 197-1, EN 197-5, EN 413-1, EN 459-1 lub EN 14216)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([ICiMB](https://www.icimb.pl) NB 1454 lub [Multicert](https://www.multicert.com.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.com.pl))
 - [ ] Przeprowadzenie badań wstępnych ITT w laboratorium JN
 - [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
@@ -118,5 +117,4 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 
 ## Gdzie szukać wsparcia
 
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych, jednostka notyfikowana NB 1454, specjalizacja w certyfikacji cementu, wapna i spoiw hydraulicznych
 - [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących

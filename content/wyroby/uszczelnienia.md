@@ -44,7 +44,7 @@ Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
 - **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – dla walidacji danych środowiskowych (wyników LCA). Istotny dla uszczelniaczy silikonowych (produkcja silikonu jest energochłonna) i poliuretanowych (izocyjaniany i ich wpływ na środowisko).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -104,6 +104,7 @@ Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniacz
 - [ ] Przeprowadzić badania emisji VOC dla zastosowań wewnętrznych
 - [ ] Ocenić GWP i zawartość substancji niebezpiecznych (izocyjaniany, siloksany) – BWR 7
 - [ ] Wdrożyć ZKP i prowadzić dokumentację kontroli partii produkcyjnych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C w formacie CPR 2024 i umieścić oznakowanie CE
 - [ ] Zaktualizować SDS (kartę charakterystyki) z informacjami o SVHC
 

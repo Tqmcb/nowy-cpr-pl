@@ -58,7 +58,7 @@ Dla rodziny 34 stosuje się systemy AVS (Assessment and Verification of Constanc
 - **System AVS 2+** – dla prefabrykowanych elementów z częściowo znormalizowanymi właściwościami: jednostka notyfikowana certyfikuje ZKP, producent przeprowadza ITT.
 - **Ścieżka ETA** – dla systemów innowacyjnych lub nieposiadających hEN: pełna ocena przez TAB, następnie certyfikacja AVS 1. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** po uzyskaniu ETA i certyfikatu.
 
-**System 3+** – dla walidacji danych środowiskowych (wyników LCA) zestawu budowlanego jako całości. Zestawy drewniane mają zazwyczaj ujemny ślad węglowy (sekwestracja CO2 w drewnie) i mogą to prezentować przez zwalidowane dane środowiskowe w EPD.
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -118,6 +118,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 - [ ] Wdrożyć ZKP w fabryce i poddać ją audytom zewnętrznym
 - [ ] Opracować EPD systemu i rozważyć walidację danych środowiskowych (system 3+) – szczególnie dla drewna
 - [ ] Przygotować cyfrowy paszport wyrobu z DoP&C dostępną przez kod QR
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C i oznaczyć system CE
 - [ ] Opracować instrukcję montażu zgodną z wymaganiami CPR 2024
 

@@ -39,7 +39,9 @@ Systemy kominowe podlegają systemowi **AVS 3 lub AVS 4**, w zależności od kon
 
 **System AVS 4** może mieć zastosowanie dla prostszych elementów uzupełniających (czapki kominowe, przewody elastyczne do zastosowań mniej krytycznych), gdzie producent samodzielnie wykonuje ITT bez zaangażowania jednostki notyfikowanej.
 
-Ceramiczne wkłady kominowe i kształtki wymagają badań w laboratoriach wyspecjalizowanych w ceramice budowlanej. W Polsce kompetencje w tym zakresie posiada [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych, który prowadzi badania wyrobów ceramicznych i ogniotrwałych. Dla metalowych systemów kominowych właściwe jest [ITCZLin](https://www.itczlin.pl).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
+Ceramiczne wkłady kominowe i kształtki wymagają badań w laboratoriach wyspecjalizowanych w ceramice budowlanej. Dla systemów kominowych właściwe jest akredytowane laboratorium [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -78,7 +80,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Przykłady wyrobów
 
-**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do NTL (np. ICiMB), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
+**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do NTL (np. ITCZLin), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
 
 **Stalowy elastyczny wkład kominowy**: Przewód ze stali kwasoodpornej 316L, DN 130 mm, klasa T120 N1 W, przeznaczony do kotłów gazowych. EN 1856-2, system AVS 3. Producent deklaruje szczelność, odporność korozyjną, zakres temperatur pracy.
 
@@ -88,10 +90,11 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 - [ ] Zidentyfikować właściwe normy EN dla każdego elementu kominowego i systemu (EN 1457, EN 1856, EN 14989, EN 13063)
 - [ ] Ustalić kompletną klasyfikację wyrobu według EN 1443 (klasa T, ciśnienie, wilgoć, korozja, sadza)
-- [ ] Przeprowadzić ITT w akredytowanym laboratorium (ceramika: [ICiMB](https://www.icimb.pl); metale: [ITCZLin](https://www.itczlin.pl))
+- [ ] Przeprowadzić ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Dla systemów zestawowych (EN 13063) – upewnić się, że wszystkie komponenty zestawu są objęte jedną DoP&C lub mają oddzielne deklaracje
 - [ ] Sporządzić DoP&C (zmiana z DoP) z pełną klasyfikacją kominową i udostępnić cyfrowo
 - [ ] Wdrożyć FPC z kontrolą surowców (glina, szamot, stal nierdzewna) i wyrobów gotowych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Sprawdzić oznakowanie CE – każdy element musi mieć etykietę z klasyfikacją kominową
 - [ ] Zebrać dane środowiskowe (skład materiałowy, trwałość) pod kątem przyszłej EPD
 - [ ] Zaktualizować karty techniczne i karty danych bezpieczeństwa zgodnie z wymaganiami CPR 2024
@@ -99,7 +102,6 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Gdzie szukać wsparcia
 
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; kluczowe centrum kompetencji dla ceramicznych wyrobów kominowych i ogniotrwałych; badania ITT i konsultacje techniczne
-- [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań metalowych systemów kominowych i instalacyjnych; badania szczelności, odporności korozyjnej i termicznej
+- [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań systemów kominowych i instalacyjnych; badania szczelności, odporności korozyjnej i termicznej
 - [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i doradztwo w zakresie CPR 2024 dla producentów elementów instalacyjnych i kominowych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kominowych o specjalnych właściwościach lub nowych konfiguracjach (np. systemy kominowe do pomp ciepła, hybrydowych urządzeń grzewczych)

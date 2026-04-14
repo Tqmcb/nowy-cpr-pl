@@ -45,7 +45,9 @@ Dla rodziny 26 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
 - **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
 
-W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla danych środowiskowych (wyników LCA) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
+W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik.
+
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i jest wymagana przez CPR 2024/3110 dla wszystkich deklaracji środowiskowych.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -96,6 +98,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 - [ ] Wybrać system AVS (2+ lub 3) i zlecić audyt ZKP lub ITT jednostce notyfikowanej
 - [ ] Uzyskać certyfikat ZKP od jednostki notyfikowanej (system AVS 2+)
 - [ ] Przeprowadzić badania chlorków, alkaliów i substancji szkodliwych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Sporządzić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE
 - [ ] Ocenić i zadeklarować GWP wyrobu (BWR 7)
 - [ ] Sprawdzić zawartość substancji SVHC i zarejestrować w bazie SCIP

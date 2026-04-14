@@ -47,7 +47,7 @@ Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constanc
 
 System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 
-**System 3+** dla oceny środowiskowej: walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -101,6 +101,7 @@ System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpoś
 - [ ] Zadeklarować właściwości mechaniczne: MOP, MRS, SCG, SN (stosownie do wyrobu)
 - [ ] Ocenić i zadeklarować GWP (BWR 7) oraz emisję do gruntu (BWR 6 dla zbiorników)
 - [ ] Sprawdzić kompatybilność z gazami odnawialnymi (biometan, wodór) jeśli dotyczy
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C w formacie CPR 2024 i umieścić oznakowanie CE
 - [ ] Sprawdzić zawartość substancji SVHC w materiale rury/zbiornika
 

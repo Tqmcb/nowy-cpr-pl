@@ -33,6 +33,8 @@ Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikow
 
 Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Należy podkreślić, że dla systemów fasadowych z elementami o odporności ogniowej (np. ściana osłonowa z klasą EI 30 lub REI 60) powiązana norma ogniowa wymaga zaangażowania jednostki notyfikowanej z kompetencjami pożarowymi – system może wówczas de facto wymagać AVS 1 lub certyfikacji ogniowej.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -91,6 +93,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 - [ ] Sprawdzić klasę ogniową okładzin – zaktualizować badania i dokumentację dla okładzin ACM (rdzeń PE vs. FR)
 - [ ] Zebrać dane środowiskowe o zawartości aluminium z recyklingu w profilach od dostawców
 - [ ] Przygotować EPD lub dane wejściowe do EPD branżowej dla systemów aluminiowych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wdrożyć cyfrowe udostępnianie DoP&C z QR kodem na elementach systemu i w dokumentacji projektowej
 - [ ] Przeszkolić dział techniczny z wymagań CPR 2024 dotyczących dokumentacji projektowej i DoP&C
 

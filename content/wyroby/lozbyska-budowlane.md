@@ -42,6 +42,8 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej jest najszerszy:
 - **Certyfikat stałości właściwości użytkowych (CoCP)**: Jednostka notyfikowana wydaje certyfikat potwierdzający stałość deklarowanych właściwości
 - **Ciągły nadzór**: Regularne audyty zakładu (co najmniej raz w roku) i kontrole procesu produkcji przez cały okres ważności certyfikatu
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikację CoCP w systemie AVS 1 oferuje [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -100,6 +102,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 - [ ] Wdrożyć cyfrowy system identyfikowalności – każde łożysko musi być identyfikowalne do partii produkcyjnej, certyfikatu i wyników badań
 - [ ] Zebrać dane środowiskowe (zawartość stali z recyklingu, GWP procesu) na potrzeby przyszłej EPD
 - [ ] Sprawdzić zgodność dokumentacji z wymaganiami DPP i przygotować infrastrukturę do cyfrowego paszportu wyrobu
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Zaktualizować oznakowanie CE i etykiety zgodnie z nową terminologią CPR 2024 (DoP&C, AVS)
 
 ## Gdzie szukać wsparcia

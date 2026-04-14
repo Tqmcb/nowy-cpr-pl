@@ -66,7 +66,7 @@ Rygoryzm systemu AVS 1 dla BOP wynika bezpośrednio z podstawowego wymagania BWR
 **Kluczowa jednostka notyfikowana w Polsce:**
 [CNBOP-PIB (Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej)](https://www.cnbop.pl) jest notyfikowaną jednostką certyfikującą i badającą wyroby ochrony ppoż. na rynku polskim. Posiada akredytacje PCA i notyfikację KE dla norm z rodziny EN 1366 i EN 13381.
 
-**System 3+** – dla deklaracji środowiskowych powłok intumescencyjnych i impregnantów ognioochronnych (substancje aktywne, GWP).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -127,6 +127,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 - [ ] Uzyskać certyfikat zgodności AVS 1 od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP i poddać ją stałemu nadzorowi jednostki notyfikowanej
 - [ ] Wystawić DoP&C z certyfikatem jako obowiązkowym załącznikiem
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznaczyć wyrób CE i udostępnić DoP&C cyfrowo (kod QR)
 - [ ] Ocenić substancje niebezpieczne w składzie i zadeklarować w kontekście BWR 7
 - [ ] Przygotować instrukcję montażu zgodną z zakresem badanym (Field of Application)

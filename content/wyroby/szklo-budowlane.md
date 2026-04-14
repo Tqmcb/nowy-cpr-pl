@@ -47,7 +47,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
 - **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-**System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -111,6 +111,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 - [ ] Przeprowadzić testy udarowe wg EN 12600 i zadeklarować klasę bezpieczeństwa
 - [ ] Ocenić GWP i udział stłuczki z recyklingu (BWR 7)
 - [ ] Wystawić DoP&C w formacie CPR 2024 i oznaczyć wyrób CE
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Sprawdzić kwalifikację szkła ognioodpornego (dodatkowy system AVS 1)
 
 ## Gdzie szukać wsparcia

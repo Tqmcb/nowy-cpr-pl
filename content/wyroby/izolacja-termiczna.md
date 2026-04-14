@@ -41,6 +41,8 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 
 **System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i jest wymagana przez CPR 2024/3110 dla wszystkich deklaracji środowiskowych.
+
 Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -104,6 +106,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 - [ ] Rozważyć walidację danych środowiskowych przez jednostkę notyfikowaną (System 3+) dla wzmocnienia pozycji rynkowej
 - [ ] Sprawdzić zawartość SVHC (PolyFR zamiast HBCD w EPS, HFO zamiast HFC w XPS)
 - [ ] Udostępnić DoP&C cyfrowo – wdrożyć QR kody na opakowaniach palet i fakturach
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) — po publikacji aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)
 
 ## Gdzie szukać wsparcia

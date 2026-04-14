@@ -37,6 +37,8 @@ Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 4** dotyczy tynków gipsowych i mas szpachlowych (EN 13279-1) oraz prostszych elementów gipsowych. Producent samodzielnie przeprowadza ITT, zarządza FPC i wydaje DoP&C bez zaangażowania jednostki notyfikowanej.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Badania właściwości wyrobów gipsowych (ognioodporność, izolacyjność akustyczna, wytrzymałość, reakcja na wilgoć) wykonują laboratoria akredytowane takie jak [ITCZLin](https://www.itczlin.pl). Kompleksowa certyfikacja dostępna jest przez [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -99,10 +101,10 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ ] Zebrać dane środowiskowe do EPD: GWP gipsu kalcynowanego, kartonu, kleju – zlecić EPD
 - [ ] Sprawdzić zawartość pierwiastków promieniotwórczych w gipsie syntetycznym FGD (indeks aktywności I)
 - [ ] Przygotować materiały informacyjne dla dystrybutorów o nowych wymaganiach DoP&C CPR 2024
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Zaplanować wdrożenie DPP (cyfrowego paszportu wyrobu) z QR kodami na paletach i opakowaniach
 
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie badań płyt gipsowych i tynków; badania ITT wymagane przed wydaniem DoP&C
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty z ITT i wsparcie przy wdrożeniu FPC dla producentów wyrobów gipsowych
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; kompetencje w zakresie badań materiałów mineralnych, w tym gipsu i anhydrytu; wsparcie przy badaniach fizykochemicznych i termicznych

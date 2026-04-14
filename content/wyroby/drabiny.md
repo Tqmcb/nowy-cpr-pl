@@ -64,6 +64,8 @@ Dla rodziny 36 obowiązują systemy AVS (Assessment and Verification of Constanc
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących właściwości środowiskowe drabin stalowych lub aluminiowych (GWP stali i aluminium, udział metali z recyklingu).
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 ## Kluczowe wymagania CPR 2024
 
 **Nośność i wytrzymałość konstrukcyjna (BWR 1):**
@@ -130,6 +132,7 @@ Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm do
 - [ ] Zadeklarować wymiary bezpieczeństwa (prześwit, wymiary szczebli, kosz/szyna)
 - [ ] Ocenić klasę korozyjności środowiska i dobrać odpowiednią ochronę antykorozyjną
 - [ ] Ocenić GWP drabiny i zawartość metali z recyklingu (BWR 7)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C w formacie CPR 2024 i oznaczyć wyrób CE
 - [ ] Opracować instrukcję montażu zgodną z EN ISO 14122-4 i CPR 2024
 - [ ] Monitorować postępy prac nad normą zharmonizowaną dedykowaną rodzinie 36

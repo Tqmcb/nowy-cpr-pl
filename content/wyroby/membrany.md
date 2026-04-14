@@ -39,6 +39,8 @@ Membrany hydroizolacyjne podlegają systemowi AVS 3 lub AVS 4, w zależności od
 
 **System AVS 4** jest najmniej restrykcyjny i dotyczy membran do mniej krytycznych zastosowań (np. paroizolacje wewnętrzne EN 13984, folie wstępnego krycia EN 13859). Producent samodzielnie deklaruje wszystkie właściwości i prowadzi FPC bez zaangażowania jednostki notyfikowanej. Wyłącznie sam przeprowadza badania ITT.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Kluczową rolę w badaniach membran hydroizolacyjnych pełnią laboratoria akredytowane, takie jak [ITCZLin](https://www.itczlin.pl). Kompleksową certyfikację wyrobów izolacyjnych oferuje [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -94,6 +96,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 - [ ] Sporządzić DoP&C z wszystkimi wymaganymi normą właściwościami i udostępnić cyfrowo
 - [ ] Przegląd składu wyrobu pod kątem SVHC (szczególnie plastyfikatory w PVC, PAH w bitumie)
 - [ ] Zebrać dane środowiskowe od dostawców bitumu i polimerów do przyszłej EPD (GWP obowiązkowe po publikacji nowych hTS)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznakować wyroby (rolki, opakowania) znakiem CE z wymaganymi informacjami
 - [ ] Zaplanować harmonogram odnawiania badań ITT (typowo co 5 lat lub przy zmianach receptury)
 

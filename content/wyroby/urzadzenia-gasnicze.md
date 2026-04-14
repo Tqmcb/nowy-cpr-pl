@@ -45,6 +45,8 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej obejmuje:
 - **Certyfikat stałości właściwości użytkowych (CoCP)**: Wydawany przez jednostkę notyfikowaną po pozytywnej ocenie ITT i FPC
 - **Ciągły nadzór**: Regularne audyty (co najmniej raz w roku) obejmujące kontrolę FPC, wyniki badań wewnętrznych i losowe badania próbek pobranych z rynku lub zakładu
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Kluczową polską jednostką notyfikowaną dla wyrobów przeciwpożarowych jest [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego w Józefowie (numer notyfikacji NB 1438). CNBOP-PIB posiada kompleksowe laboratoria ppoż. i jest uznawane za wiodące centrum kompetencji w zakresie ochrony przeciwpożarowej w Polsce i Europie Środkowej.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -108,6 +110,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 - [ ] Wdrożyć system FPC z kompletną dokumentacją procesu produkcji i badań kontrolnych
 - [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna JN z kompetencjami ppoż.)
 - [ ] Sporządzić DoP&C (zmiana z DoP) w języku polskim i udostępnić cyfrowo
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem JN (1438 dla CNBOP-PIB)
 - [ ] Przeprowadzić przegląd substancji gaśniczych pod kątem GWP (wycofywanie HFC w systemach gazowych)
 - [ ] Monitorować zmiany w normach serii EN 54 (aktywny komitet CEN/TC 72) – możliwe aktualizacje norm

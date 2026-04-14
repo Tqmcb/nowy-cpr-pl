@@ -42,6 +42,8 @@ Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na
 
 **System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów drogowych oferuje [Multicert](https://www.multicert.pl). Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -114,6 +116,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 - [ ] Zebrać dane o zawartości stali z recyklingu od hut dostawczych (pod kątem EPD i wymagań GPP GDDKiA)
 - [ ] Przygotować EPD lub dane do EPD branżowej dla barier stalowych (we współpracy ze Stalowym Związkiem lub EUPJ)
 - [ ] Sprawdzić wymagania specyfikacji GDDKiA i PKP PLK dotyczące EPD i deklaracji środowiskowych w przetargach
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Zaktualizować etykiety CE i dokumentację techniczną z nową terminologią CPR 2024 (DoP&C, AVS)
 
 ## Gdzie szukać wsparcia

@@ -40,6 +40,8 @@ W systemie AVS 1 jednostka notyfikowana przeprowadza: wstępne badanie typu (ITT
 
 W systemie AVS 2+ jednostka notyfikowana certyfikuje system FPC producenta (wydaje certyfikat systemu FPC), natomiast producent samodzielnie przeprowadza ITT.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i jest wymagana przez CPR 2024/3110 dla wszystkich deklaracji środowiskowych.
+
 Kluczową polską jednostką notyfikowaną dla prefabrykatów betonowych jest [Multicert](https://www.multicert.com.pl) – posiada akredytację PCA i notyfikację do certyfikacji zgodności prefabrykatów z betonu zwykłego, lekkiego i komórkowego. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -91,6 +93,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 - [ ] Opracować i wdrożyć podręcznik zakładowej kontroli produkcji (FPC Manual) zgodny z wymaganiami normy
 - [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl)) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
 - [ ] Sporządzić DoP&C (Deklarację Właściwości Użytkowych i Zgodności) w języku polskim i udostępnić ją w formie cyfrowej
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVS i numer jednostki notyfikowanej
 - [ ] Rozpocząć przygotowania do deklarowania GWP – nawiązać kontakt z dostawcami cementu i kruszyw w sprawie danych środowiskowych do EPD
 - [ ] Skonfigurować system archiwizacji dokumentacji technicznej (DoP&C przechowywana minimum 10 lat)

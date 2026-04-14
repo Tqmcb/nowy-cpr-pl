@@ -48,13 +48,6 @@ Siedziba: třída Tomáše Bati 299, 763 02 Zlín, Republika Czeska · tel. +420
 
 Multicert jako oficjalny przedstawiciel handlowy ITC Zlín w Polsce koordynuje kontakt, dokumentację i nadzór nad audytami dla polskich producentów.
 
-### ICiMB – Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
-
-Specjalizuje się w:
-- Wyrobach ceramicznych (cegły, dachówki, płytki)
-- Cemencie i spoiwach hydraulicznych
-- Kruszywach budowlanych
-
 ### CNBOP-PIB (NB 1438)
 
 Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej. Zakres:

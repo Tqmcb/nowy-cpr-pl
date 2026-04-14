@@ -42,7 +42,7 @@ Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 - **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów dążących do deklarowania GWP.
 
-W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl).
+W Polsce certyfikację wyrobów murowych prowadzi [Multicert](https://www.multicert.com.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -97,7 +97,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 
 Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z piórem i wpustem, szer. 38 cm) przeznaczone do ścian nośnych jednowarstwowych:
 1. Badania ITT wg EN 771-1: wytrzymałość na ściskanie (min. fb 10 N/mm² dla klasy CSIII), przewodność cieplna λ, gęstość, mrozoodporność F2 (odporna na zamrażanie i odmrażanie)
-2. Certyfikacja ZKP przez [ICiMB](https://www.icimb.pl) (NB 1454) – System AVS 2+
+2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
 3. Opracowanie EPD z deklaracją GWP ~180 kg CO2eq/t
 4. Wystawienie DoP&C: fb 10 N/mm², klasa gęstości LD, λ 0,12 W/(m·K), klasa A1
 
@@ -105,8 +105,8 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 
 - [ ] Identyfikacja normy wyrobu (EN 771-1 do EN 771-6 lub EN 998-1/-2)
 - [ ] Ustalenie systemu AVS (2+ dla nośnych, 3/4 dla nienośnych)
-- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl))
-- [ ] Certyfikacja ZKP przez JN ([ICiMB](https://www.icimb.pl), [Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
+- [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
+- [ ] Certyfikacja ZKP przez JN ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
 - [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
 - [ ] Sprawdzenie zawartości substancji niebezpiecznych (SVHC, REACH)
@@ -117,5 +117,4 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 
 ## Gdzie szukać wsparcia
 
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), lider w certyfikacji ceramicznych wyrobów murowych i elementów z ABK
-- [Multicert](https://www.multicert.com.pl) – certyfikacja elementów betonowych i silikatowych do murowania
+- [Multicert](https://www.multicert.com.pl) – certyfikacja wyrobów murowych: elementów ceramicznych, betonowych i silikatowych

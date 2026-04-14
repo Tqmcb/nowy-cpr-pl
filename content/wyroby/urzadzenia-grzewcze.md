@@ -46,6 +46,8 @@ Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constanc
 
 **System 3+** – dla walidacji danych środowiskowych (wyników LCA) dotyczących GWP urządzenia grzewczego i spalania paliw.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 ## Kluczowe wymagania CPR 2024
 
 **Efektywność energetyczna:**
@@ -100,6 +102,7 @@ Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constanc
 - [ ] Wdrożyć zakładową kontrolę produkcji (ZKP) i prowadzić jej dokumentację
 - [ ] Sporządzić DoP&C w nowym formacie CPR 2024 z deklaracją wszystkich wymaganych właściwości
 - [ ] Ocenić GWP urządzenia i ująć w DoP&C (BWR 7)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Umieścić oznakowanie CE na urządzeniu i w dokumentacji sprzedażowej
 - [ ] Zaktualizować instrukcję montażu i użytkowania zgodnie z wymaganiami CPR 2024
 - [ ] Sprawdzić powiązanie deklaracji z etykietą energetyczną ErP (brak duplikacji badań)

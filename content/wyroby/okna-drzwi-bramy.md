@@ -37,6 +37,8 @@ System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcj
 
 **System AVS 3** stosuje się dla standardowych okien zewnętrznych, drzwi balkonowych (EN 14351-1 bez EN 16034) oraz bram (EN 13241) nieposiadających odporności ogniowej. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie wydaje DoP&C i prowadzi FPC na własną odpowiedzialność bez zewnętrznego nadzoru stałego; numer JN pojawia się w oznakowaniu CE.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Dla wyrobów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -93,6 +95,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 - [ ] Udostępnić DoP&C w formie cyfrowej – wdrożyć system QR kodów lub linków na etykietach
 - [ ] Zebrać dane środowiskowe od dostawców profili (PVC, aluminium, drewno) pod kątem przyszłej deklaracji GWP
 - [ ] Przygotować dokumentację techniczną do przechowywania przez minimum 10 lat
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Zaktualizować etykiety CE, karty wyrobów i specyfikacje handlowe zgodnie z nową terminologią DoP&C
 
 ## Gdzie szukać wsparcia

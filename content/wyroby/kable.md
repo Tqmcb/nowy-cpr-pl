@@ -48,7 +48,7 @@ Dla rodziny 31 obowiązuje wyłącznie **system AVS 3**:
 
 Brak tutaj systemu AVS 1 lub 2+ – wszystkie kable budowlane objęte są systemem 3. Oznacza to, że jednostka notyfikowana **nie certyfikuje wyrobu końcowego**, a jedynie przeprowadza badania wstępne. Nadzór nad ciągłością właściwości leży po stronie producenta i jego ZKP.
 
-**System 3+** – nowy w CPR 2024 – dla walidacji danych środowiskowych (wyników LCA). Dotyczy kabli z tworzyw sztucznych (PVC, XLPE, LSZH), gdzie produkcja jest materiałochłonna i energochłonna.
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -107,6 +107,7 @@ Do klas B1ca–Dca dochodzą dodatkowe podklasy:
 - [ ] Zlecić ITT w laboratorium notyfikowanym wg EN 50399 i EN 60332
 - [ ] Uzyskać raport ITT i oznaczyć klasę (np. Cca-s1b,d0,a1) w DoP&C
 - [ ] Wdrożyć ZKP i monitorować ciągłość właściwości w produkcji
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C w formacie CPR 2024 i umieścić oznakowanie CE
 - [ ] Ocenić zawartość halogenów (LSZH) i zadeklarować odpowiednią podklasę dymu
 - [ ] Ocenić GWP kabla i zawartość miedzi z recyklingu (BWR 7)

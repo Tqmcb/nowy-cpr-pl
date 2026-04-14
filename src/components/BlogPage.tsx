@@ -494,9 +494,8 @@ Factory Production Control (FPC) to udokumentowany, stały i wewnętrzny system 
 Jednostki notyfikowane (Notified Bodies) to organizacje wyznaczone przez państwa członkowskie do przeprowadzania oceny zgodności wyrobów budowlanych.
 
 ## Jednostki w Polsce
-1. **ICiMB** - Instytut Ceramiki i Materiałów Budowlanych (NB 1454)
-2. **CNBOP-PIB** - Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej (NB 1438)
-3. **IGNiG-PIB** - Instytut Nafty i Gazu (NB 1453)
+1. **CNBOP-PIB** - Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej (NB 1438)
+2. **IGNiG-PIB** - Instytut Nafty i Gazu (NB 1453)
 
 ## Kryteria wyboru
 - Zakres notyfikacji (normy, produkty)

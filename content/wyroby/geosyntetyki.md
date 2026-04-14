@@ -40,6 +40,8 @@ Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczn
 
 **System AVS 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Badania laboratoryjne geosyntetyków wykonują laboratoria wyspecjalizowane w badaniach polimerów i materiałów geotechnicznych. W Polsce [ITCZLin](https://www.itczlin.pl) posiada odpowiednie wyposażenie. Certyfikacja systemu FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
@@ -107,6 +109,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 - [ ] Udostępnić DoP&C cyfrowo – QR kod na rolce lub fakturze
 - [ ] Zebrać dane środowiskowe od dostawców granulatu (GWP, zawartość rPP/rPE) na potrzeby EPD
 - [ ] Sprawdzić zawartość SVHC w plastyfikatorach i stabilizatorach (szczególnie w PVC geomembranach)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Przygotować dokumentację trwałości wyrobu (deklaracja projektowanego okresu eksploatacji)
 - [ ] Śledzić wymagania GPP GDDKiA i PKP PLK w zakresie geosyntetyków (tendencja do wymagania EPD)
 

@@ -47,6 +47,8 @@ Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **sys
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA); istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higienicznych** – właściwości migracyjnych materiałów (uwalnianie metali ciężkich, substancji organicznych, zapachu i smaku). Do 2026 roku obowiązywały w Europie cztery rozbieżne systemy krajowe: **system 4MS** (Francja, Niemcy, Holandia i Wielka Brytania – po Brexicie bez UK), **KIWA** (Holandia), **DVGW** (Niemcy) i **ACS** (Francja). CPR 2024 tworzy jednolite europejskie wymagania higieniczne, eliminując bariery techniczne wynikające z rozbieżności systemów krajowych.
 
 ## Kluczowe wymagania CPR 2024
@@ -100,6 +102,7 @@ Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higieni
 - [ ] Zweryfikować zawartość ołowiu w stopach metali (limit 0,3–0,5% Pb)
 - [ ] Wdrożyć ZKP i uzyskać certyfikat ZKP (AVS 1) lub samodzielnie certyfikować (AVS 3)
 - [ ] Wystawić DoP&C w formacie CPR 2024 z pełną deklaracją właściwości higienicznych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznaczyć wyrób znakiem CE i udostępnić DoP&C w języku polskim
 - [ ] Ocenić GWP materiału i możliwość recyklingu po demontażu (BWR 7)
 - [ ] Sprawdzić zgodność z limitami migracji wg Dyrektywy o wodzie pitnej 2020/2184/UE

@@ -37,7 +37,7 @@ Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
 - **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych – jednostka notyfikowana weryfikuje dane środowiskowe (wyniki LCA) i wydaje raport walidacyjny, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -89,6 +89,7 @@ Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dok
 - [ ] Wdrożyć i udokumentować zakładową kontrolę produkcji (ZKP) zgodną z CPR 2024
 - [ ] Przeprowadzić badania emisji VOC i zawrzeć wyniki w DoP&C
 - [ ] Ocenić właściwości środowiskowe wg BWR 7 (GWP, zawartość recyklatu, trwałość)
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE na opakowaniu
 - [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z rozporządzeniem CLP i REACH
 - [ ] Sprawdzić zawartość substancji SVHC i ujawnić informacje w bazie SCIP (ECHA)

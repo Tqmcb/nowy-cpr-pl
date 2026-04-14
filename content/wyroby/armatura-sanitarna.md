@@ -40,7 +40,9 @@ Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 4** może być stosowany dla prostszych wyrobów i akcesoriów sanitarnych, gdzie producent samodzielnie przeprowadza ITT i zarządza całą dokumentacją. Dotyczy to m.in. zlewów ze stali nierdzewnej (EN 13310), prostych brodzików z tworzyw sztucznych.
 
-Badania właściwości wyrobów sanitarnych (wytrzymałość, odporność na zabrudzenia, właściwości higieniczne, odporność chemiczna) wymagają wyspecjalizowanych laboratoriów. [ITCZLin](https://www.itczlin.pl) posiada akredytację dla badań wyrobów ceramicznych i sanitarnych. Ceramiczne wyroby sanitarne badane są również przez [ICiMB](https://www.icimb.pl). Certyfikacja FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
+Badania właściwości wyrobów sanitarnych (wytrzymałość, odporność na zabrudzenia, właściwości higieniczne, odporność chemiczna) wymagają wyspecjalizowanych laboratoriów. [ITCZLin](https://www.itczlin.pl) posiada akredytację dla badań wyrobów ceramicznych i sanitarnych. Certyfikacja FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -91,7 +93,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 ## Przykłady wyrobów
 
-**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVS 3.
+**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVS 3.
 
 **Wanna akrylowa 170×75 cm**: Wanna z akrylu ABS 4 mm (wzmocnienie spodnie), długość 170 cm ±10 mm, ugięcie pod 150 kg ≤ 8 mm, odporność na detergenty potwierdzona, Ra ≤ 0,1 µm. EN 14527, system AVS 3. DoP&C zawiera deklarację materiałową i wartości wytrzymałościowe.
 
@@ -107,12 +109,12 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 - [ ] Wdrożyć FPC z kontrolą wymiarów, jakości glazury i wyników badań partii produkcyjnych
 - [ ] Zebrać dane o zużyciu wody dla muszli WC (litry/spłukiwanie) i przygotować deklarację środowiskową
 - [ ] Sprawdzić substancje niebezpieczne w uszczelkach (ftalany w PVC), powłokach i barwnikach ceramicznych
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Przygotować dane CAD i wymiarowe do DPP (cyfrowego paszportu wyrobu) dostępnego z QR kodu
 - [ ] Zapewnić dostępność części zamiennych (zawory, uszczelki, stelaże) przez minimum 7–10 lat po sprzedaży wyrobu
 
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie ceramiki budowlanej i armatury sanitarnej; badania ITT wymagane w systemie AVS 3
-- [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; specjalistyczne laboratorium ceramiczne; badania glazur, składu chemicznego, higieny powierzchni ceramiki sanitarnej
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy wdrożeniu FPC dla producentów armatury sanitarnej
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla wyrobów sanitarnych nieobjętych normami zharmonizowanymi (systemy prysznicowe nowej generacji, innowacyjne zbiorniki spłukujące)

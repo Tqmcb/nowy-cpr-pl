@@ -81,7 +81,7 @@ Większość z tych danych powinna być dostępna w Twoim systemie zarządzania 
 
 **LCA (Life Cycle Assessment — analiza cyklu życia)** to metoda obliczania wpływu wyrobu na środowisko „od kołyski do grobu" — od wydobycia surowców po utylizację. Obliczenia muszą być zgodne z normą **EN 15804+A2** i **ISO 14044**. Nie są to obliczenia, które można wykonać samodzielnie bez specjalistycznej wiedzy. W Polsce działają firmy oferujące usługi LCA dla wyrobów budowlanych, m.in.:
 
-- instytuty badawcze (ICiMB, ITCZLin)
+- instytuty badawcze (ITCZLin)
 - wyspecjalizowane firmy konsultingowe ds. zrównoważonego budownictwa
 - platformy cyfrowe (SimaPro, OpenLCA, GaBi z bazami danych ekoinwentaryzacji)
 

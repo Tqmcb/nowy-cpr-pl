@@ -59,6 +59,8 @@ Dla łączników na podstawie ETA obowiązuje **system AVS 1** – najwyższy po
 
 W Polsce funkcjonuje jednostka oceny technicznej (TAB) wpisana do organizacji [EOTA](https://www.eota.eu). Procedury opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Inne europejskie TAB (np. DIBt w Niemczech, CSTB we Francji) mogą wystawiać ETA uznawane w całej UE.
 
+**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
+
 **Metody obliczeniowe dla projektantów:**
 ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe** (NRd, VRd) zgodne z:
 - TR 029 (EOTA Technical Report) – metoda oceny nośności kotew
@@ -116,6 +118,7 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 - [ ] Uzyskać Europejską Ocenę Techniczną (ETA) od TAB
 - [ ] Uzyskać certyfikat wyrobu od jednostki notyfikowanej (system AVS 1)
 - [ ] Wdrożyć ZKP i poddać ją nadzorowi jednostki notyfikowanej
+- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C na podstawie ETA i certyfikatu, umieścić oznakowanie CE
 - [ ] Ocenić GWP i trwałość antykorozyjną łącznika (BWR 7)
 - [ ] Opracować dane do projektowania wg EN 1992-4 (Eurokod 2, część 4)
