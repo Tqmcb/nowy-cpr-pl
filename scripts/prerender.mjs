@@ -215,6 +215,62 @@ const staticPages = [
     canonical: 'https://www.nowycpr.pl/dostepnosc',
     schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Deklaracja dostępności NowyCPR.pl', url: 'https://www.nowycpr.pl/dostepnosc' },
   },
+  {
+    path: 'wyszukiwarka',
+    title: 'Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj normy, systemy AVS i obowiązki.',
+    canonical: 'https://www.nowycpr.pl/wyszukiwarka',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wyszukiwarka Wymagań CPR', url: 'https://www.nowycpr.pl/wyszukiwarka' },
+  },
+  {
+    path: 'harmonogram',
+    title: 'Harmonogram CPR 2024/3110 — Kluczowe daty i terminy | NowyCPR.pl',
+    desc: 'Kluczowe daty, terminy przejściowe i kamienie milowe wdrożenia rozporządzenia CPR 2024/3110 o wyrobach budowlanych.',
+    canonical: 'https://www.nowycpr.pl/harmonogram',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Harmonogram CPR 2024/3110', url: 'https://www.nowycpr.pl/harmonogram' },
+  },
+  {
+    path: 'faq',
+    title: 'FAQ — Najczęstsze pytania o CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Odpowiedzi na najczęstsze pytania o rozporządzeniu CPR 2024/3110: DoP&C, systemy AVS, oznakowanie CE, DPP i obowiązki producenta.',
+    canonical: 'https://www.nowycpr.pl/faq',
+    schema: { '@context': 'https://schema.org', '@type': 'FAQPage', name: 'FAQ CPR 2024/3110', url: 'https://www.nowycpr.pl/faq' },
+  },
+  {
+    path: 'sciezka-ce',
+    title: 'Ścieżka do oznakowania CE — Kreator checklisty | NowyCPR.pl',
+    desc: 'Interaktywny kreator checklisty do oznakowania CE wyrobów budowlanych zgodnie z CPR 2024/3110. Sprawdź krok po kroku co musisz zrobić.',
+    canonical: 'https://www.nowycpr.pl/sciezka-ce',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Ścieżka do CE', url: 'https://www.nowycpr.pl/sciezka-ce' },
+  },
+  {
+    path: 'generator-ce',
+    title: 'Generator etykiety CE - CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Wygeneruj etykietę oznakowania CE zgodną z Art. 8 CPR 2024/3110. Wypełnij formularz i pobierz gotową etykietę do wydruku.',
+    canonical: 'https://www.nowycpr.pl/generator-ce',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Generator etykiety CE', url: 'https://www.nowycpr.pl/generator-ce' },
+  },
+  {
+    path: 'polca',
+    title: 'poLCA — Polski wskaźnik emisyjności energii elektrycznej | NowyCPR.pl',
+    desc: 'poLCA to polski wskaźnik emisyjności energii elektrycznej dla potrzeb LCA/EPD. Katalog danych, technologie, normy.',
+    canonical: 'https://www.nowycpr.pl/polca',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'poLCA', url: 'https://www.nowycpr.pl/polca' },
+  },
+  {
+    path: 'polityka-prywatnosci',
+    title: 'Polityka prywatności — NowyCPR.pl',
+    desc: 'Polityka prywatności portalu NowyCPR.pl.',
+    canonical: 'https://www.nowycpr.pl/polityka-prywatnosci',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Polityka prywatności', url: 'https://www.nowycpr.pl/polityka-prywatnosci' },
+  },
+  {
+    path: 'regulamin',
+    title: 'Regulamin — NowyCPR.pl',
+    desc: 'Regulamin korzystania z portalu NowyCPR.pl.',
+    canonical: 'https://www.nowycpr.pl/regulamin',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Regulamin', url: 'https://www.nowycpr.pl/regulamin' },
+  },
 ];
 
 // ── Body content data for static pages ───────────────────────────────────
