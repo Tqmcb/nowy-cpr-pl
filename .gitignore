@@ -17,3 +17,6 @@ dist/
 .firecrawl/
 .review-result.md
 __pycache__
+
+# Prywatne materiały szkoleniowe (nie commitować)
+_training_itb/
