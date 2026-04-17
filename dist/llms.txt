@@ -21,7 +21,7 @@
 - **SVHC** — Substancje Wzbudzające Szczególne Obawy (lista kandydatów ECHA); jeśli >0,1% w/w w wyrobie, producent obowiązkowo ujawnia to w DoP&C i DPP (art. 15 ust. 6)
 - **DPP** — Cyfrowy Paszport Produktu (art. 75–80 CPR 2024/3110); etapowe wdrożenie po 2027 r. na podstawie aktów delegowanych KE; uzupełnia DoP&C o dane środowiskowe i cyklu życia
 - **EPD** — Deklaracja Środowiskowa Produktu (Environmental Product Declaration); norma EN 15804+A2; stosowana w systemie AVS 3+
-- **Jednostki notyfikowane (JN)** — organy certyfikujące upoważnione przez państwa członkowskie; wymagane w systemach AVS 1+, 1, 2+
+- **Jednostki notyfikowane (JN)** — organy certyfikujące upoważnione przez państwa członkowskie; wymagane w systemach AVS 1+, 1, 2+, 3
 - **NTL** — Notyfikowane Laboratorium (Notified Testing Laboratory); wymagane w systemie AVS 3+ do weryfikacji EPD
 - **ETA** — Europejska Ocena Techniczna; dla wyrobów bez normy zharmonizowanej; wydawana przez TAB (Technical Assessment Body)
 - **Unikalny identyfikator produktu** — art. 22 ust. 5 CPR 2024/3110; każdy wyrób musi mieć kod QR/RFID/EAN prowadzący do DPP i DoP&C

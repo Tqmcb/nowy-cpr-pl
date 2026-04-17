@@ -63,7 +63,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 **Właściwości środowiskowe – obowiązek deklarowania GWP po publikacji nowych hTS**: Po opublikowaniu nowej normy zharmonizowanej (hTS) dla prefabrykatów betonowych i zakończeniu okresu koegzystencji producenci będą zobowiązani do deklarowania wskaźnika globalnego ocieplenia (GWP – Global Warming Potential) wyrażonego w kg CO₂ eq/m³ lub kg CO₂ eq/element. Wymaga to sporządzenia Deklaracji Środowiskowej Wyrobu (EPD) według EN 15804. Na dzień publikacji żadna nowa hTS nie została jeszcze opublikowana.
 
-**System 3+ – nowość w CPR 2024**: Dla elementów, w których producent chce wykazać spełnienie wymagań środowiskowych (np. wartość GWP), możliwe jest skorzystanie z nowego Systemu 3+. Jednostka notyfikowana wydaje raport walidacyjny potwierdzający poprawność danych środowiskowych. To nie jest certyfikat, lecz raport walidacyjny – kluczowa różnica formalna.
+**System 3+ – nowość w CPR 2024**: Dla elementów, w których producent chce wykazać spełnienie wymagań środowiskowych (np. wartość GWP), możliwe jest skorzystanie z nowego Systemu 3+. Notyfikowane laboratorium techniczne (NTL) wydaje raport walidacyjny potwierdzający poprawność danych środowiskowych. To nie jest certyfikat, lecz raport walidacyjny – kluczowa różnica formalna.
 
 **Cyfrowy paszport wyrobu**: CPR 2024 wprowadza obowiązek tworzenia cyfrowych paszportów wyrobów (Digital Product Passport – DPP), które będą zawierać wszystkie informacje o właściwościach użytkowych, DoP&C oraz dane środowiskowe w formacie czytelnym maszynowo.
 

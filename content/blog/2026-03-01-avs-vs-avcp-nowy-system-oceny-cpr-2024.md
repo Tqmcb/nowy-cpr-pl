@@ -87,8 +87,8 @@ To oznacza, że producent w systemie AVS 4 nadal nie musi angażować JN do cert
 Jak opisano wyżej, System 3+ to zupełnie nowa kategoria oceny. Szczegółowa procedura walidacji wygląda następująco:
 
 - Producent samodzielnie oblicza **ślad węglowy (GWP)** i inne wskaźniki środowiskowe metodą analizy cyklu życia (LCA) zgodnie z EN 15804+A2
-- Jednostka notyfikowana **weryfikuje metodykę i dane** LCA — nie przeprowadza własnych obliczeń
-- JN wydaje **Raport walidacyjny** (nie certyfikat wyrobu)
+- Notyfikowane laboratorium techniczne (NTL) **weryfikuje metodykę i dane** LCA — nie przeprowadza własnych obliczeń
+- NTL wydaje **Raport walidacyjny** (nie certyfikat wyrobu)
 - Na tej podstawie producent może umieścić w DoP&C zwalidowane dane środowiskowe i opcjonalnie opublikować EPD (Deklarację Środowiskową Wyrobu) z niezależną weryfikacją (*third-party verified*)
 
 Szczegółową analizę kosztów, procedury i rynku walidacji danych środowiskowych w Polsce znajdziesz w artykule: [System AVS 3+ — walidacja danych środowiskowych](/blog/2026-04-03-avs-3plus-walidacja-epd).

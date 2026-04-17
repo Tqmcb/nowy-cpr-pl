@@ -442,15 +442,16 @@
     <div class="field">
       <div class="field-header">
         <div class="field-number">6</div>
-        <div class="field-title">System oceny i weryfikacji stałości właściwości użytkowych (AVCP)</div>
+        <div class="field-title">System oceny i weryfikacji stałości właściwości użytkowych (AVS)</div>
       </div>
       <div class="field-body">
-        <div class="field-hint">Numer systemu wynika z Załącznika ZA normy zharmonizowanej dla danego wyrobu i zastosowania</div>
+        <div class="field-hint">Numer systemu wynika z Załącznika ZA normy zharmonizowanej (lub Załącznika IX CPR 2024/3110) dla danego wyrobu i zastosowania</div>
         <div class="avcp-row">
           <label class="avcp-option"><input type="radio" name="avcp" value="1plus" /> System 1+</label>
           <label class="avcp-option"><input type="radio" name="avcp" value="1" /> System 1</label>
           <label class="avcp-option"><input type="radio" name="avcp" value="2plus" /> System 2+</label>
           <label class="avcp-option"><input type="radio" name="avcp" value="3" /> System 3</label>
+          <label class="avcp-option"><input type="radio" name="avcp" value="3plus" /> System 3+ (EPD)</label>
           <label class="avcp-option"><input type="radio" name="avcp" value="4" /> System 4</label>
         </div>
       </div>
@@ -475,7 +476,7 @@
         <div class="field-title">Dane jednostki notyfikowanej (JN)</div>
       </div>
       <div class="field-body">
-        <div class="field-hint">Dla systemów AVCP 1+, 1 i 2+: nazwa JN, numer notyfikacji (z bazy NANDO) i opis wykonanych zadań. Dla systemów 3 i 4 wpisz odpowiednią adnotację (nie dotyczy / nie wymagana).</div>
+        <div class="field-hint">Dla systemów AVS 1+, 1 i 2+: nazwa JN, numer notyfikacji (z bazy NANDO) i opis wykonanych zadań. Dla systemu 3: dane NTL (badania ITT) i JN (certyfikat właściwości). Dla systemu 3+: dane NTL (weryfikacja EPD). Dla systemu 4: wpisz „nie dotyczy".</div>
         <textarea class="fill-area" placeholder="Wpisz dane jednostki notyfikowanej lub adnotację 'nie dotyczy'…"></textarea>
       </div>
     </div>

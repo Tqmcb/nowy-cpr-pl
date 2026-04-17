@@ -15,11 +15,11 @@ Stare rozporządzenie CPR (305/2011) zostało zaprojektowane w epoce, gdy zrówn
 
 Tymczasem CPR 2024/3110 formalnie włącza **właściwości środowiskowe** (ang. *environmental characteristics*) do zakresu oceny wyrobu budowlanego. Producenci deklarujący charakterystyki środowiskowe w Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) muszą oprzeć je na wiarygodnych danych. Jednak dane z analizy cyklu życia (LCA) są z natury bardziej złożone i mniej obiektywizowalne niż wynik badania wytrzymałościowego w laboratorium.
 
-Odpowiedzią na tę potrzebę jest **system AVS 3+** — nowa kategoria oceny, która nie certyfikuje wyrobu, lecz **waliduje metodologię i dane środowiskowe** (wyniki obliczeń LCA). Stanowi formalne uzupełnienie systemu 3 (w którym JN przeprowadza wstępne badanie typu wyrobu), tworząc odrębną ścieżkę dla oceny środowiskowej. Wyniki walidacji mogą być następnie wykorzystane w Deklaracji Środowiskowej Wyrobu (EPD), jeśli producent zdecyduje się ją opublikować — sam dokument EPD pozostaje dobrowolny.
+Odpowiedzią na tę potrzebę jest **system AVS 3+** — nowa kategoria oceny, która nie certyfikuje wyrobu, lecz **waliduje metodologię i dane środowiskowe** (wyniki obliczeń LCA). Stanowi formalne uzupełnienie systemu 3 (w którym NTL przeprowadza wstępne badanie typu wyrobu, a JN wydaje certyfikat), tworząc odrębną ścieżkę dla oceny środowiskowej. Wyniki walidacji mogą być następnie wykorzystane w Deklaracji Środowiskowej Wyrobu (EPD), jeśli producent zdecyduje się ją opublikować — sam dokument EPD pozostaje dobrowolny.
 
-## Co robi jednostka notyfikowana w systemie AVS 3+
+## Co robi NTL w systemie AVS 3+
 
-Rola jednostki notyfikowanej (JN) w systemie 3+ jest zasadniczo różna od jej roli w systemach 1, 1+, 2+ czy 3. JN w systemie 3+ nie:
+Rola notyfikowanego laboratorium technicznego (NTL) w systemie 3+ jest zasadniczo różna od roli JN w systemach 1, 1+, 2+ czy 3. NTL w systemie 3+ nie:
 
 - bada właściwości użytkowych wyrobu (wytrzymałości, odporności ogniowej itp.),
 - certyfikuje wyrobu ani zakładowej kontroli produkcji (FPC),
@@ -85,4 +85,4 @@ Już teraz warto traktować inwestycję w walidację danych środowiskowych (sys
 
 ## Podsumowanie
 
-System AVS 3+ to logiczne uzupełnienie nowej architektury CPR 2024 — narzędzie precyzyjnie dostosowane do walidacji danych środowiskowych (wyników LCA), bez zbędnego rozszerzania na certyfikację właściwości technicznych. JN w tym systemie pełni rolę niezależnego audytora metodologicznego, a jej Raport walidacyjny podnosi wiarygodność deklaracji środowiskowych w DoP&C. Producenci, którzy wcześnie wdrożą system 3+, zyskają wiarygodność i przewagę w segmencie rynku, który rośnie najszybciej.
+System AVS 3+ to logiczne uzupełnienie nowej architektury CPR 2024 — narzędzie precyzyjnie dostosowane do walidacji danych środowiskowych (wyników LCA), bez zbędnego rozszerzania na certyfikację właściwości technicznych. NTL w tym systemie pełni rolę niezależnego audytora metodologicznego, a jego Raport walidacyjny podnosi wiarygodność deklaracji środowiskowych w DoP&C. Producenci, którzy wcześnie wdrożą system 3+, zyskają wiarygodność i przewagę w segmencie rynku, który rośnie najszybciej.
