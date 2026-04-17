@@ -31,18 +31,28 @@ Zastosowania łożysk budowlanych obejmują: mosty drogowe i kolejowe (wszystkie
 | Łożyska – ochrona i uszczelnienie | EN 1337-8 |
 | Sworznie do węzłów konstrukcyjnych | EN 1337-1 (ogólnie) |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Łożyska budowlane podlegają wyłącznie **systemowi AVS 1** – najwyższemu poziomowi rygoru w CPR 2024. Wynika to z krytycznej roli tych wyrobów w zapewnieniu nośności i stateczności konstrukcji: awaria łożyska mostowego może prowadzić do katastrofy budowlanej.
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 5 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (seria EN 1337). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-W systemie AVS 1 zakres zadań jednostki notyfikowanej jest najszerszy:
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm EN 1337)
+
+Łożyska budowlane podlegają **systemowi AVCP 1** – najwyższemu poziomowi rygoru w CPR 305/2011. Wynika to z krytycznej roli tych wyrobów w zapewnieniu nośności i stateczności konstrukcji: awaria łożyska mostowego może prowadzić do katastrofy budowlanej. System AVCP 1 potwierdzony jest decyzją Komisji Europejskiej wydaną na podstawie Art. 20(2) Dyrektywy 89/106/EWG.
+
+W systemie AVCP 1 zakres zadań jednostki notyfikowanej (JN) jest najszerszy:
 
 - **Wstępne badanie typu (ITT)**: Jednostka notyfikowana przeprowadza lub nadzoruje kompletne badania ITT obejmujące wszystkie deklarowane właściwości użytkowe
-- **Inspekcja wstępna zakładu i FPC**: Przed wydaniem certyfikatu przeprowadzana jest inspekcja zakładu produkcyjnego i ocena wdrożonego systemu FPC (zakładowej kontroli produkcji)
+- **Inspekcja wstępna zakładu i ZKP**: Przed wydaniem certyfikatu przeprowadzana jest inspekcja zakładu produkcyjnego i ocena wdrożonego systemu ZKP (zakładowej kontroli produkcji)
 - **Certyfikat stałości właściwości użytkowych (CoCP)**: Jednostka notyfikowana wydaje certyfikat potwierdzający stałość deklarowanych właściwości
 - **Ciągły nadzór**: Regularne audyty zakładu (co najmniej raz w roku) i kontrole procesu produkcji przez cały okres ważności certyfikatu
 
-Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikację CoCP w systemie AVS 1 oferuje [Multicert](https://www.multicert.pl).
+Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikację CoCP w systemie AVCP 1 oferuje [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Po opublikowaniu nowej hTS dla rodziny 5 system AVCP zostanie zastąpiony przez AVS z CPR 2024/3110. Ze względu na krytyczne znaczenie łożysk budowlanych dla bezpieczeństwa konstrukcji nowa hTS najprawdopodobniej utrzyma poziom **AVS 1**. Konkretny zakres wymagań zostanie określony w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości mechanicznych, producenci deklarujący właściwości środowiskowe (GWP/LCA) będą mogli korzystać z **Systemu AVS 3+** do walidacji danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -69,7 +79,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 **Cyfrowy paszport wyrobu (DPP)**: Każde łożysko budowlane, które jest elementem krytycznym infrastruktury, będzie musiało posiadać DPP z pełną dokumentacją techniczną dostępną cyfrowo. Jest to szczególnie istotne dla zarządców infrastruktury (GDDKiA, PKP PLK) prowadzących elektroniczne rejestry obiektów.
 
-**Brak zmian w systemie AVS**: Dla łożysk budowlanych system AVS 1 obowiązywał już w CPR 305/2011 i pozostaje niezmieniony w CPR 2024.
+**Ciągłość systemu AVCP/AVS**: Dla łożysk budowlanych system AVCP 1 obowiązuje od początku stosowania CPR 305/2011. CPR 2024 nie zmienia przewidywanego poziomu certyfikacji — nowa hTS dla rodziny 5 najprawdopodobniej utrzyma system AVS 1.
 
 ## Harmonogram wdrożenia
 
@@ -83,7 +93,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 ## Przykłady wyrobów
 
-**Łożysko elastomerowe zbrojone do mostu drogowego**: Łożysko z elastomeru naturalnego lub neoprenowego, wulkanizowane ze zbrojeniem ze stalowych blach, typ B wg EN 1337-3. Nośność pionowa: 1 000–5 000 kN, przemieszczenie poziome: ±30–100 mm. Stosowane w mostach drogowych o rozpiętości 20–50 m. Producent musi posiadać CoCP od jednostki notyfikowanej (AVS 1), a każda partia produkcyjna powinna być opatrzona protokołem odbioru z wynikami badań kontrolnych (twardość, wymiary, odchyłki).
+**Łożysko elastomerowe zbrojone do mostu drogowego**: Łożysko z elastomeru naturalnego lub neoprenowego, wulkanizowane ze zbrojeniem ze stalowych blach, typ B wg EN 1337-3. Nośność pionowa: 1 000–5 000 kN, przemieszczenie poziome: ±30–100 mm. Stosowane w mostach drogowych o rozpiętości 20–50 m. Producent musi posiadać CoCP od jednostki notyfikowanej (AVCP 1), a każda partia produkcyjna powinna być opatrzona protokołem odbioru z wynikami badań kontrolnych (twardość, wymiary, odchyłki).
 
 **Łożysko garnkowe (pot bearing) do wiaduktu kolejowego**: Łożysko typ D wg EN 1337-6 z elastomerem zamkniętym w cylindrycznym garnku stalowym, nośność do 30 000 kN. Stosowane w dużych obiektach mostowych przy wysokich obciążeniach. Wymagana certyfikacja zakładu produkcyjnego i pełna dokumentacja każdego sztuki łożyska.
 
@@ -92,7 +102,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 ## Checklist producenta
 
 - [ ] Potwierdzić, które typy łożysk produkowane są według norm z serii EN 1337 (EN 1337-2 do EN 1337-8)
-- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. [Multicert](https://www.multicert.pl))
+- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVCP 1 – np. [Multicert](https://www.multicert.pl))
 - [ ] Przeprowadzić lub zaktualizować badania ITT dla wszystkich deklarowanych właściwości użytkowych
 - [ ] Prowadzić zakładową kontrolę produkcji (FPC) z udokumentowanymi wynikami badań dla każdej partii
 - [ ] Sporządzić DoP&C w aktualnej formie (zmiana z DoP) dla każdego wyrobu lub grupy wyrobów
@@ -104,7 +114,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – jednostka notyfikowana oferująca certyfikację CoCP w systemie AVS 1, inspekcje FPC i doradztwo w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
+- [Multicert](https://www.multicert.pl) – jednostka notyfikowana oferująca certyfikację CoCP w systemie AVCP 1, inspekcje ZKP i doradztwo w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z zapleczem do testów materiałów (elastomerów, PTFE) i badań mechanicznych; wykonuje badania wstępne ITT wymagane przed certyfikacją
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – European Technical Assessments (ETA) dla innowacyjnych systemów łożysk nieposiadających pełnej normy zharmonizowanej (np. izolatory sejsmiczne nowych generacji)
 
