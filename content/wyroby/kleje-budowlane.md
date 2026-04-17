@@ -66,7 +66,7 @@ CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych �
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dokumentacji technicznej, aktualizację DoP&C oraz wdrożenie nowych procedur ZKP zgodnych z wymaganiami CPR 2024.

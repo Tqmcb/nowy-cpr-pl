@@ -105,7 +105,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

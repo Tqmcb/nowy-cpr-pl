@@ -83,7 +83,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane z obowiązkowym GWP dla geosyntetyków |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |

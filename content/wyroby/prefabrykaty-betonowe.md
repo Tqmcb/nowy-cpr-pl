@@ -71,7 +71,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92 CPR 2024) |
 | 9 stycznia 2031 | Wygasają stare EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA |

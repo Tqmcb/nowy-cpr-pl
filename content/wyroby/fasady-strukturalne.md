@@ -67,7 +67,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD; systemy na ETA muszą mieć nowe ETA lub normę |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla innowacyjnych systemów |

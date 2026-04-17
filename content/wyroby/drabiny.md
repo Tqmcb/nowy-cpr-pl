@@ -105,10 +105,10 @@ Rodzina 36 jest **całkowicie nową rodziną** – nie istniała w CPR 305/2011.
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 (pierwsze rozporządzenie z rodziną 36) | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
-Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm dotychczas nie podlegało CPR. Konieczne jest pilne dostosowanie do wymagań certyfikacyjnych przed 8 stycznia 2026.
+Producenci drabin trwałych wchodzą na nowy rynek regulacyjny — wiele firm dotychczas nie podlegało CPR. Obowiązek DoP&C i systemu AVS wejdzie w życie dopiero po opublikowaniu nowej hTS dla rodziny drabin. Do tego czasu należy stosować dotychczasowe wymagania EN 1090 / AVCP.
 
 ## Przykłady wyrobów i zastosowania
 

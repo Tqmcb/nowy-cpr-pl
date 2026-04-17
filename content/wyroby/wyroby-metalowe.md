@@ -7,7 +7,7 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1 / 2+"
 normy: ["EN 10025-1", "EN 10210-1", "EN 10219-1", "EN 1090-1", "EN 1090-2"]
 tags: ["stal", "konstrukcja", "EN 1090", "profile", "CPR 2024"]
-excerpt: "Metalowe wyroby konstrukcyjne – rodzina 20 CPR 2024. Profile stalowe, rury zamknięte, blachy. EN 1090 i klasy wykonania EXC1-EXC4. System AVS 1 dla EXC3/EXC4, AVS 2+ dla EXC1/EXC2. Kluczowe: certyfikacja spawalnicza."
+excerpt: "Metalowe wyroby konstrukcyjne – rodzina 20 CPR 2024. Profile stalowe, rury zamknięte, blachy. EN 1090 i klasy wykonania EXC1-EXC4. Obecnie AVCP 1 (EXC3/4) i AVCP 2+ (EXC1/2) — docelowo AVS po publikacji hTS. Kluczowe: certyfikacja spawalnicza."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -32,25 +32,45 @@ Rodzina 20 wyróżnia się tym, że **certyfikacja EN 1090 dotyczy nie tylko pro
 | EN 1090-3:2019 | Wymagania techniczne dot. aluminiowych elementów konstrukcyjnych |
 | EN 15088:2005 | Aluminium i stopy aluminium – wyroby konstrukcyjne |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Rodzina 20 stosuje dwa poziomy nadzoru, zależne od klasy wykonania (EXC):
+> ⚠️ **Ważne rozróżnienie:** Do momentu opublikowania nowej zharmonizowanej specyfikacji technicznej (hTS) dla rodziny 20 obowiązuje stary system **AVCP** z CPR 305/2011 i normy EN 1090-1:2009+A1:2011. Nowy system **AVS** z CPR 2024/3110 wejdzie w życie dla tej rodziny dopiero po publikacji hTS — prawdopodobnie nie wcześniej niż 2028–2030 r. Do tego czasu wytwórnie posługują się dotychczasowymi certyfikatami ZKP i wystawiają DoP (nie DoP&C).
 
-**System AVS 1 – klasy wykonania EXC3 i EXC4:**
-- EXC3: Mosty, hale przemysłowe o skomplikowanej geometrii, stadiony, maszty
-- EXC4: Instalacje off-shore, elementy narażone na oddziaływania sejsmiczne, budowle specjalne
-- W systemie 1: Jednostka notyfikowana certyfikuje ZKP (audyt wytwórni), wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU). Producent prowadzi ZKP i przeprowadza badania ITT wyrobów wyjściowych.
+### TERAZ — system AVCP (CPR 305/2011 + EN 1090-1 Załącznik ZA)
 
-**System AVS 2+ – klasy wykonania EXC1 i EXC2:**
-- EXC1: Proste elementy ze stali S235 i S275, obciążenia statyczne, budownictwo ogólne
-- EXC2: Standardowe hale, konstrukcje biurowe, elementy powtarzalne
-- W systemie 2+: JN certyfikuje ZKP (audyt), lecz nie prowadzi audit sampling ante market.
+Aktualnie obowiązujący system oceny wynika z **Załącznika ZA normy EN 1090-1:2009+A1:2011** i decyzji Komisji Europejskiej. Dla metalowych wyrobów konstrukcyjnych stosuje się dwa poziomy nadzoru w zależności od klasy wykonania (EXC):
 
-Certyfikację EN 1090 dla wytwórni stalowych wykonują w Polsce:
-- [Multicert](https://www.multicert.pl) – certyfikacja EXC1-EXC4
-- [ITCZLin](https://www.itczlin.pl) – badania wyrobów stalowych i materiałów wyjściowych
+**AVCP 1 — klasy wykonania EXC3 i EXC4:**
+- EXC3: mosty, stadiony, maszty, hale o skomplikowanej geometrii
+- EXC4: off-shore, instalacje sejsmiczne, budowle specjalne
+- **Zadania JN:** audyt i certyfikacja ZKP + **audit sampling** (pobieranie próbek przed dopuszczeniem do obrotu) + niezależne badania próbek. JN wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU).
+- **Numer NB** pojawia się w oznakowaniu CE.
+- Producent prowadzi ZKP i badania ITT.
 
-## Kluczowe wymagania CPR 2024
+**AVCP 2+ — klasy wykonania EXC1 i EXC2:**
+- EXC1: proste elementy ze stali S235/S275, obciążenia statyczne
+- EXC2: standardowe hale, konstrukcje biurowe, elementy powtarzalne
+- **Zadania JN:** audyt i certyfikacja ZKP — **bez** audit sampling ante-market.
+- **Numer NB** pojawia się w oznakowaniu CE.
+- Producent prowadzi ZKP i samodzielnie przeprowadza badania ITT.
+
+### W PRZYSZŁOŚCI — system AVS (CPR 2024/3110 + nowe hTS)
+
+Po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla rodziny 20 system AVCP zostanie zastąpiony przez AVS. Na podstawie struktury CPR 2024/3110 (Załącznik IX) można spodziewać się analogicznego podziału:
+
+| System | Klasa EXC | Rola JN |
+|---|---|---|
+| **AVS 1** | EXC3, EXC4 | Certyfikacja ZKP + certyfikat właściwości i zgodności |
+| **AVS 2+** | EXC1, EXC2 | Certyfikacja ZKP (bez audit sampling) |
+| **AVS 3+** | Wszystkie | Walidacja danych środowiskowych (LCA/EPD) przez NTL — dobrowolne lub wymagane w zamówieniach publicznych |
+
+**Nowe obowiązki producenta po wejściu hTS:**
+- Deklaracja DoP&C zamiast DoP (w formie cyfrowej, art. 16 CPR 2024)
+- Obowiązkowe deklarowanie GWP (potencjał globalnego ocieplenia) w DoP&C
+- Ujawnianie substancji SVHC w powłokach i materiałach (art. 15 ust. 6)
+- Kod QR/unikalny identyfikator prowadzący do DoP&C (art. 22 ust. 5)
+
+## Kluczowe wymagania
 
 **Klasy wykonania (EXC) wg EN 1090-2:**
 
@@ -65,66 +85,68 @@ Przypisanie elementu do klasy wykonania zależy od kombinacji:
 - S355JR/J0/J2/K2 – stal wysokowytrzymała (Re ≥355 MPa), najpopularniejsza w Polsce
 - S420M/ML, S460M/ML/Q/QL/QL1 – stale najwyższej wytrzymałości
 
-**Wymagania spawalnicze – kluczowe dla CPR 2024:**
+**Wymagania spawalnicze — kluczowe dla certyfikacji:**
 
 Wytwórnia musi posiadać:
 - Kwalifikowane procedury spawania (WPQR wg EN ISO 15614-1)
 - Kwalifikowanych spawaczy (wg EN ISO 9606-1)
-- Personel nadzoru spawalniczego (EN ISO 14731): Inżynier Spawalnik (IWE), Technolog Spawalnik (IWT) lub Inspektor (IWI) – zależnie od klasy EXC
+- Personel nadzoru spawalniczego (EN ISO 14731): Inżynier Spawalnik (IWE), Technolog Spawalnik (IWT) lub Inspektor (IWI) — zależnie od klasy EXC
 - Dla EXC3/4: wymagany Inżynier Spawalnik (IWE)
 - Dla EXC2: wymagany co najmniej Technolog Spawalnik (IWT)
 
-**Wymagania środowiskowe (CPR 2024):**
+**Wymagania środowiskowe (po wejściu hTS):**
 - Stal z elektrycznego pieca łukowego (EAF, 100% złom): GWP ~0,4–0,6 kg CO2eq/kg
 - Stal z wielkiego pieca (BF): GWP ~1,8–2,2 kg CO2eq/kg
 - Aluminium pierwotne: GWP ~8–12 kg CO2eq/kg
 - Aluminium wtórne (z recyklingu): GWP ~0,5–0,8 kg CO2eq/kg
 
-Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla hut stosujących EAF lub produkujących aluminium z recyklingu.
+## Zmiany CPR 2024/3110 względem CPR 305/2011
 
-## Zmiany względem CPR 305/2011
-
-1. **Obowiązkowe deklarowanie GWP** – producenci stali i aluminium konstrukcyjnego muszą ujmować ślad węglowy w DoP&C.
-2. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez NTL, szczególnie istotna w kontekście zamówień publicznych (dyrektywy UE o zrównoważonym zamówieniu).
-3. **Substancje niebezpieczne** – powłoki antykorozyjne (cynkowanie, farby epoksydowe) muszą być sprawdzone pod kątem SVHC; chromowy(VI) w powłokach jest ograniczony przez REACH.
-4. **DoP&C zamiast DoP** – zintegrowana deklaracja.
-5. **Trwałość i korozja** – CPR 2024 wymaga deklarowania klasy korozyjności (wg EN ISO 12944) i trwałości powłok ochronnych.
+1. **Obowiązkowe deklarowanie GWP** — po publikacji hTS producenci stali i aluminium konstrukcyjnego będą musieli ujmować ślad węglowy w DoP&C.
+2. **System AVS 3+ dla danych środowiskowych** — walidacja danych środowiskowych (wyników LCA) przez NTL, szczególnie istotna w kontekście zamówień publicznych.
+3. **Substancje niebezpieczne** — powłoki antykorozyjne (cynkowanie, farby epoksydowe) muszą być sprawdzone pod kątem SVHC; chrom(VI) w powłokach jest ograniczony przez REACH.
+4. **DoP&C zamiast DoP** — zintegrowana i cyfrowa deklaracja.
+5. **Trwałość i korozja** — CPR 2024 wymaga deklarowania klasy korozyjności (wg EN ISO 12944) i trwałości powłok ochronnych.
 
 ## Harmonogram wdrożenia
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 |
-| 8 stycznia 2027 | Wejście w życie sankcji |
-| 9 stycznia 2031 | Wygaśnięcie EAD wydanych pod CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
-
-Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 muszą zaktualizować DoP (do DoP&C) i certyfikat ZKP do wymagań CPR 2024 przed 8 stycznia 2026.
+| **Teraz (do hTS)** | Obowiązuje EN 1090-1:2009+A1:2011 + system AVCP 1 / AVCP 2+ |
+| 8 stycznia 2026 | Wejście w życie przepisów ramowych CPR 2024; stara hEN i AVCP nadal obowiązują |
+| 8 stycznia 2027 | Wejście w życie sankcji za naruszenie CPR 2024 |
+| ~2028–2030 | Spodziewana publikacja nowej hTS dla rodziny 20 — wówczas wchodzi system AVS i obowiązek DoP&C |
+| 7 stycznia 2040 | Koniec okresu przejściowego CPR 2024 |
 
 ## Przykłady wyrobów
 
-**Przykład: Wytwórnia konstrukcji stalowej EXC2**
+**Przykład: Wytwórnia konstrukcji stalowej EXC2 (TERAZ)**
 
 Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2, stal S355J2):
-1. Posiadanie WPS/WPQR dla spawania MIG/MAG stali S355J2 wg EN ISO 15614-1
-2. Certyfikacja ZKP przez jednostkę notyfikowaną (np. [Multicert](https://www.multicert.pl)) – System AVS 2+
-3. Personel nadzoru spawalniczego na poziomie IWT (Technolog Spawalnik IWT/EWT)
-4. Opracowanie DoP&C dla elementów prefabrykowanych: klasa EXC2, S355J2, tolerancje EN 1090-2, powłoka antykorozyjna klasa C3 (EN ISO 12944)
-5. Deklaracja GWP dla stali EAF: ~0,55 kg CO2eq/kg
+1. Certyfikacja ZKP przez JN (np. [Multicert](https://www.multicert.pl)) — System AVCP 2+
+2. Personel nadzoru spawalniczego na poziomie IWT (Technolog Spawalnik IWT/EWT)
+3. WPQR dla spawania MIG/MAG stali S355J2 wg EN ISO 15614-1
+4. Kwalifikacja spawaczy wg EN ISO 9606-1
+5. Wystawienie DoP dla elementów prefabrykowanych: klasa EXC2, S355J2, tolerancje EN 1090-2, powłoka antykorozyjna klasa C3 (EN ISO 12944)
+6. Oznakowanie CE z numerem NB (certyfikat ZKP od JN) i numer CSPU w DoP
 
-## Checklist producenta
+## Checklist producenta (stan obecny — AVCP)
 
-- [ ] Ustalenie klas wykonania EXC dla produkowanych elementów
-- [ ] Wybór systemu AVS (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej JN
+- [ ] Ustalenie klas wykonania EXC dla produkowanych elementów (na podstawie EC0/EC1)
+- [ ] Wybór systemu AVCP (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej JN
 - [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl)
 - [ ] Przygotowanie procedur spawania (WPS/WPQR wg EN ISO 15614)
 - [ ] Zatrudnienie personelu nadzoru spawalniczego (IWE/IWT) odpowiedniego dla EXC
-- [ ] Kwalifikacja spawaczy wg EN ISO 9606-1 (ważność certyfikatów spawaczy co 2 lata)
-- [ ] Uzyskanie certyfikatu ZKP EN 1090 i wystawienie DoP&C
-- [ ] Deklarowanie GWP i klasy korozyjności powłok w DoP&C
-- [ ] Sprawdzenie powłok antykorozyjnych pod kątem SVHC (chrom VI)
-- [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) jeśli konieczne dla zamówień publicznych
+- [ ] Kwalifikacja spawaczy wg EN ISO 9606-1 (ważność certyfikatów co 2 lata)
+- [ ] Uzyskanie certyfikatu ZKP EN 1090 i wystawienie DoP (obecna deklaracja)
+- [ ] Oznakowanie CE z numerem NB i odniesieniem do DoP
 - [ ] Coroczne audyty nadzorcze ZKP przez JN
+- [ ] Sprawdzenie powłok antykorozyjnych pod kątem SVHC (chrom VI) — wymóg REACH już teraz
+
+**Przygotowanie do przyszłych wymagań AVS/hTS:**
+- [ ] Śledzenie postępów prac CEN nad nową hTS dla rodziny 20
+- [ ] Przygotowanie danych LCA/GWP dla stalowych elementów konstrukcyjnych
+- [ ] Rozważenie walidacji EPD przez NTL (System AVS 3+) dla przetargów publicznych
 
 ## Gdzie szukać wsparcia
 

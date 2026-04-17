@@ -94,7 +94,7 @@ Systemy GK (płyty gipsowo-kartonowe) są najczęściej testowane jako zestawy (
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – DoP&C z deklaracją VOC |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD dla systemów ETICS z CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

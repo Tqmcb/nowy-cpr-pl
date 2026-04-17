@@ -78,7 +78,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Przepisy ramowe CPR 2024; stara hEN i AVCP nadal obowiązują do publikacji hTS |
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92); EPD i GWP w przygotowaniu |
 | ~2028–2029 | Obowiązkowe deklarowanie GWP — po publikacji nowych hTS i upływie koegzystencji |
 | 2027–2028 | Rozbudowa bazy EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
