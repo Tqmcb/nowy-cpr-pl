@@ -57,17 +57,17 @@ Wyroby o umiarkowanym znaczeniu dla bezpieczeństwa lub specyficznych wymaganiac
 
 ---
 
-### AVS 3+ — weryfikacja właściwości środowiskowych przez JN
+### AVS 3+ — weryfikacja właściwości środowiskowych przez NTL
 
 **Kto uczestniczy:**
 - Producent: ITT + FPC + badania próbek z rynku
-- Jednostka notyfikowana: walidacja danych środowiskowych (wyników LCA, w tym GWP)
+- Notyfikowane laboratorium techniczne (NTL): walidacja danych środowiskowych (wyników LCA, w tym GWP)
 
 **Kiedy stosowany:**
-System specyficzny dla CPR 2024 — dotyczy wyrobów, dla których deklarowane są właściwości środowiskowe (np. GWP, zawartość substancji niebezpiecznych). JN nie certyfikuje mechanicznych właściwości użytkowych, lecz weryfikuje dane środowiskowe.
+System specyficzny dla CPR 2024 — dotyczy wyrobów, dla których deklarowane są właściwości środowiskowe (np. GWP, zawartość substancji niebezpiecznych). NTL nie certyfikuje mechanicznych właściwości użytkowych, lecz weryfikuje dane środowiskowe.
 
 **W praktyce:**
-Producent samodzielnie wykonuje ITT dla właściwości mechanicznych. Dla właściwości środowiskowych wymagana jest walidacja przez JN.
+Producent samodzielnie wykonuje ITT dla właściwości mechanicznych. Dla właściwości środowiskowych wymagana jest walidacja przez NTL.
 
 ---
 

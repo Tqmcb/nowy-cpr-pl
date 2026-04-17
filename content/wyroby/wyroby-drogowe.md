@@ -85,7 +85,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 
 1. **Deklarowanie GWP** – po publikacji nowych hTS producenci asfaltu i prefabrykatów drogowych będą musieli ujmować ślad węglowy w DoP&C.
 2. **Cyrkulacja i RAP** – CPR 2024 wprowadza możliwość i zachętę do deklarowania udziału granulatu asfaltowego (RAP) i kruszyw z recyklingu. EPD z RAP będą miały niższy GWP.
-3. **System 3+ dla danych środowiskowych** – walidacja wyników LCA przez JN, ważna dla zamówień publicznych (drogi finansowane z UE będą wymagać deklaracji środowiskowych po wejściu w życie nowych hTS).
+3. **System 3+ dla danych środowiskowych** – walidacja wyników LCA przez NTL, ważna dla zamówień publicznych (drogi finansowane z UE będą wymagać deklaracji środowiskowych po wejściu w życie nowych hTS).
 4. **Substancje niebezpieczne** – poliaromatyczne węglowodory (PAH) w asfaltach – limitowane przez REACH Rozporządzenie (WE) nr 1272/2008; konieczna kontrola zawartości benzo[a]pirenu.
 5. **DoP&C zamiast DoP** – rozszerzona deklaracja.
 
@@ -128,7 +128,7 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
 - [ ] Wystawienie DoP&C z deklaracją klas właściwości, GWP i cyrkulacyjnych wskaźników
 - [ ] Oznakowanie CE na paletach kostki/krawężników lub w dokumentach dostawy asfaltu
-- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla zamówień publicznych z wymaganiami środowiskowymi
+- [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) dla zamówień publicznych z wymaganiami środowiskowymi
 - [ ] Monitorowanie zawartości PAH w każdej partii lepiszcza
 
 ## Gdzie szukać wsparcia

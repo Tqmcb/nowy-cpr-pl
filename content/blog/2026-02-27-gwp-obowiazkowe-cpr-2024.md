@@ -83,9 +83,9 @@ Większość z tych danych powinna być dostępna w Twoim systemie zarządzania 
 
 Koszt obliczeń LCA dla typowego wyrobu budowlanego: **3 000–15 000 PLN** w zależności od złożoności.
 
-### Krok 3: Walidacja przez jednostkę notyfikowaną (opcjonalnie — System AVS 3+)
+### Krok 3: Walidacja przez NTL (opcjonalnie — System AVS 3+)
 
-CPR 2024 wprowadził nowy **System AVS 3+** — system oceny i weryfikacji przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy LCA). Jednostka notyfikowana sprawdza poprawność obliczeń i wydaje raport walidacyjny. Walidacja nie jest obowiązkowa, ale:
+CPR 2024 wprowadził nowy **System AVS 3+** — system oceny i weryfikacji przeznaczony wyłącznie do walidacji danych środowiskowych (wyników analizy LCA). Notyfikowane laboratorium techniczne (NTL) sprawdza poprawność obliczeń i wydaje raport walidacyjny. Walidacja nie jest obowiązkowa, ale:
 - podnosi wiarygodność deklaracji GWP
 - jest wymagana w części przetargów publicznych z kryteriami GPP
 - otwiera dostęp do rynków skandynawskich, gdzie EPD są de facto standardem

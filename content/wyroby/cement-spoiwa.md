@@ -98,7 +98,7 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 1. Badania wstępne ITT wg EN 197-1 (wytrzymałość, czas wiązania, stałość objętości, zawartość SO3 i Cl)
 2. Certyfikacja ZKP przez [ICiMB](https://www.icimb.pl) (NB 1454) lub [Multicert](https://www.multicert.com.pl) – uzyskanie CSPU
 3. Zlecenie opracowania EPD z wynikiem GWP ~350 kg CO2eq/t (vs ~900 kg CO2eq/t dla CEM I)
-4. Walidacja danych środowiskowych w Systemie AVS 3+ – uzyskanie raportu walidacyjnego od JN
+4. Walidacja danych środowiskowych w Systemie AVS 3+ – uzyskanie raportu walidacyjnego od NTL
 5. Wystawienie DoP&C z deklaracją: CEM III/B 42,5 N, GWP, zawartość chromu(VI)
 6. Zastosowanie oznakowania CE na workach i dokumentach dostawy luzem
 
@@ -110,7 +110,7 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 - [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
 - [ ] Opracowanie EPD zgodnej z EN 15804+A2 (GWP, AP, EP, ODP i in.)
-- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) – uzyskanie raportu walidacyjnego
+- [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) – uzyskanie raportu walidacyjnego
 - [ ] Wystawienie DoP&C z deklaracją GWP, zawartości chromu(VI) i klasy wyrobu
 - [ ] Umieszczenie oznakowania CE na workach i dokumentach dostawy (luzem – w dokumentach)
 - [ ] Regularne przeglądy certyfikatu ZKP (audyty JN co 12 miesięcy)

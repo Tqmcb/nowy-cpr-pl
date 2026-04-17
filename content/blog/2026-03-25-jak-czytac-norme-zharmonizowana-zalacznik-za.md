@@ -50,8 +50,8 @@ System AVS (Assessment and Verification System — System Oceny i Weryfikacji) �
 - **System 1+** — najwyższy rygor; jednostka notyfikowana certyfikuje wyrób i zakładową kontrolę produkcji (FPC); stosowany m.in. dla wyrobów do ochrony przed ogniem,
 - **System 1** — certyfikacja przez JN obejmuje próbki wyrobu (wstępne badanie typu) oraz FPC,
 - **System 2+** — JN certyfikuje FPC; producent sam przeprowadza wstępne badania,
-- **System 3** — JN wykonuje lub zleca wstępne badanie typu (ITT); producent zarządza FPC bez certyfikacji JN,
-- **System 3+** — nowość w CPR 2024; JN waliduje dane środowiskowe (LCA/EPD) bez certyfikowania samego wyrobu,
+- **System 3** — NTL przeprowadza wstępne badanie typu (ITT); JN wydaje certyfikat właściwości użytkowych i zgodności; producent zarządza FPC,
+- **System 3+** — nowość w CPR 2024; NTL waliduje dane środowiskowe (LCA/EPD) bez certyfikowania samego wyrobu,
 - **System 4** — producent samodzielnie deklaruje właściwości na podstawie własnych badań i obliczeń.
 
 Gdy czytasz tabelę ZA.2, dla każdej charakterystyki znajdziesz cyfrę lub cyfrę z symbolem „+" w kolumnie „System AVS". Np. „1" przy odporności ogniowej oznacza, że badanie i certyfikację musi przeprowadzić lub nadzorować akredytowana jednostka notyfikowana. Natomiast „4" przy deklaracji wymiarów wskazuje, że producent może sam kontrolować i deklarować tę właściwość.

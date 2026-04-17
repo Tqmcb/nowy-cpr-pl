@@ -49,7 +49,7 @@ Na podstawie dotychczasowych kontroli GUNB po wejściu w życie CPR 2024, najcz�
 
 **Dokumentacja:**
 - Stary format DoP zamiast DoP&C przy wyrobach wprowadzanych od 8 stycznia 2026
-- Brak deklaracji wskaźników środowiskowych u producenta, który dobrowolnie wybrał system 3+ i zadeklarował dane środowiskowe w DoP&C, ale nie przeszedł walidacji JN *(uwaga: samo niepodawanie wskaźników środowiskowych nie jest naruszeniem — obowiązek pojawi się dopiero po opublikowaniu nowych hTS)*
+- Brak deklaracji wskaźników środowiskowych u producenta, który dobrowolnie wybrał system 3+ i zadeklarował dane środowiskowe w DoP&C, ale nie przeszedł walidacji NTL *(uwaga: samo niepodawanie wskaźników środowiskowych nie jest naruszeniem — obowiązek pojawi się dopiero po opublikowaniu nowych hTS)*
 - DoP&C niedostępna online — wymagany jest co najmniej link na stronie producenta
 
 **Oznakowanie CE:**

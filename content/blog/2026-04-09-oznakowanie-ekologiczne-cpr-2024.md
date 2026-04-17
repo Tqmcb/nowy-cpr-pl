@@ -49,7 +49,7 @@ Kluczowe wskaźniki podawane w EPD (moduł A1–A3 jako minimum dla EPD „od ko
 - Wskaźniki zużycia energii pierwotnej (odnawialnej i nieodnawialnej),
 - Wskaźniki materiałowe (odpad niebezpieczny, recykling, odzysk energii).
 
-EPD podlegają weryfikacji przez niezależną stronę trzecią — w rozumieniu CPR 2024 jest to system AVS 3+. Weryfikator (jednostka notyfikowana lub akredytowany niezależny weryfikator) wystawia Raport walidacyjny potwierdzający prawidłowość metodologii i danych.
+EPD podlegają weryfikacji przez niezależną stronę trzecią — w rozumieniu CPR 2024 jest to system AVS 3+. Weryfikator (notyfikowane laboratorium techniczne — NTL, lub akredytowany niezależny weryfikator) wystawia Raport walidacyjny potwierdzający prawidłowość metodologii i danych.
 
 EPD są rejestrowane w programach EPD (np. IBU w Niemczech, EPD Norway w Norwegii, ECO Platform na poziomie europejskim) i publikowane w publicznie dostępnych bazach danych. Ważność EPD wynosi 5 lat.
 

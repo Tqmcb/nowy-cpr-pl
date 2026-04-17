@@ -79,7 +79,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czy potrzebuję jednostki notyfikowanej (JN) do certyfikacji?",
     answer:
-      "To zalezy od systemu oceny przypisanego do Twojego wyrobu. **Uwaga**: Nowy system AVS (z CPR 2024) zacznie obowiazywac dla danego wyrobu dopiero po publikacji odpowiedniej hTS. Do tego czasu obowiazuje dotychczasowy system AVCP z CPR 305/2011. Docelowo w systemie **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu wydanego przez jednostke notyfikowana (JN). W systemie **AVS 3** — JN wykonuje badania typu (ITT). W systemie **AVS 4** — producent samodzielnie deklaruje wlasciwosci. System AVCP/AVS danego wyrobu znajdziesz w obowiazujacej normie hEN lub w Zalaczniku V do CPR 2024.",
+      "To zalezy od systemu oceny przypisanego do Twojego wyrobu. **Uwaga**: Nowy system AVS (z CPR 2024) zacznie obowiazywac dla danego wyrobu dopiero po publikacji odpowiedniej hTS. Do tego czasu obowiazuje dotychczasowy system AVCP z CPR 305/2011. Docelowo w systemie **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu wydanego przez jednostke notyfikowana (JN). W systemie **AVS 3** — NTL wykonuje badania typu (ITT), a JN wydaje certyfikat. W systemie **AVS 4** — producent samodzielnie deklaruje wlasciwosci. System AVCP/AVS danego wyrobu znajdziesz w obowiazujacej normie hEN lub w Zalaczniku V do CPR 2024.",
     category: "producent",
     keywords: ["jednostka notyfikowana", "JN", "certyfikat", "AVS 1+", "AVS 1", "AVS 3", "AVS 4"],
   },
@@ -109,7 +109,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czym system AVS różni się od starego AVCP?",
     answer:
-      "System AVS (Assessment and Verification of Constancy of Performance) **docelowo zastapi** stary AVCP z CPR 305/2011 — ale dopiero po publikacji nowych hTS dla danej rodziny wyrobow. Do tego czasu obowiazuja dotychczasowe systemy AVCP. Glowne roznice miedzy AVS a AVCP: **Nowe nazewnictwo**: AVS 1+, 1, 2, 3, 4 zamiast 1+, 1, 2+, 3, 4. **Stary system 2+ znika** — jest zastapiony przez AVS 2. **Rozszerzony zakres JN**: w AVS 1+ JN certyfikuje wyrob + nadzoruje ZKP, w AVS 1 certyfikuje wyrob. **AVS 3**: JN wykonuje ITT (nie tylko badania probek). **AVS 4**: producent odpowiada za wszystko sam.",
+      "System AVS (Assessment and Verification System) **docelowo zastapi** stary AVCP z CPR 305/2011 — ale dopiero po publikacji nowych hTS dla danej rodziny wyrobow. Do tego czasu obowiazuja dotychczasowe systemy AVCP. **Roznice miedzy AVS (CPR 2024) a AVCP (CPR 305/2011)**: AVCP mial 5 systemow: 1+, 1, 2+, 3, 4. AVS ma 6 systemow: **1+, 1, 2+, 3, 3+, 4** — system 3+ jest zupelnie nowy i dotyczy walidacji danych srodowiskowych (EPD/LCA). **System 2+** — zostaje, ale zmienia sie zakres obowiazkow JN. **AVS 3** — JN potwierdza okreslenie typu produktu przez producenta (zmiana wzgledem AVCP 3). **AVS 3+** (nowy) — NTL waliduje dane srodowiskowe (LCA/EPD). **AVS 4** — producent odpowiada za wszystko samodzielnie.",
     category: "certyfikacja",
     keywords: ["AVS", "AVCP", "system oceny", "1+", "2+", "2", "zmiana"],
   },
@@ -139,7 +139,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Jak prawidłowo oznaczyć wyrób znakiem CE?",
     answer:
-      "Oznakowanie CE na wyrobie budowlanym musi zawierać (Art. 20 CPR 2024): **1.** Litery \u201ECE\u201D w odpowiedniej proporcji (min. 5 mm). **2.** Numer identyfikacyjny JN (dla AVS 1+, 1, 2). **3.** Nazwę i adres producenta. **4.** Ostatnie dwie cyfry roku, w którym oznakowanie zostało po raz pierwszy umieszczone. **5.** Numer referencyjny DoP&C. **6.** Numer normy zharmonizowanej lub EAD. **7.** Deklarowane właściwości użytkowe. **8.** Odniesienie do DoP&C (np. link, QR kod). Oznakowanie umieszcza się na wyrobie, opakowaniu lub dokumentach towarzyszących.",
+      "Oznakowanie CE na wyrobie budowlanym musi zawierać (Art. 20 CPR 2024): **1.** Litery \u201ECE\u201D w odpowiedniej proporcji (min. 5 mm). **2.** Numer identyfikacyjny JN (dla AVS 1+, 1, 2+, 3). **3.** Nazwę i adres producenta. **4.** Ostatnie dwie cyfry roku, w którym oznakowanie zostało po raz pierwszy umieszczone. **5.** Numer referencyjny DoP&C. **6.** Numer normy zharmonizowanej lub EAD. **7.** Deklarowane właściwości użytkowe. **8.** Odniesienie do DoP&C (np. link, QR kod). Oznakowanie umieszcza się na wyrobie, opakowaniu lub dokumentach towarzyszących.",
     category: "dokumentacja",
     keywords: ["CE", "oznakowanie", "etykieta", "symbol", "znak"],
   },

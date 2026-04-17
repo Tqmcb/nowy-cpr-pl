@@ -25,33 +25,33 @@ Rola jednostki notyfikowanej (JN) w systemie 3+ jest zasadniczo różna od jej r
 - certyfikuje wyrobu ani zakładowej kontroli produkcji (FPC),
 - wydaje certyfikatu wyrobu.
 
-Zamiast tego JN w systemie 3+ wykonuje **walidację**, która obejmuje:
+Zamiast tego NTL (notyfikowane laboratorium techniczne) w systemie 3+ wykonuje **walidację**, która obejmuje:
 
 **1. Przegląd zakresu systemu LCA**
-JN sprawdza, czy granice systemu przyjęte w obliczeniach LCA są zgodne z normą EN 15804+A2 oraz ewentualnymi PCR (Product Category Rules) dla danej grupy wyrobów. Obejmuje to weryfikację, które moduły cyklu życia (A1–A5, B1–B7, C1–C4, D) zostały uwzględnione i czy jest to zgodne z wymaganiami.
+NTL sprawdza, czy granice systemu przyjęte w obliczeniach LCA są zgodne z normą EN 15804+A2 oraz ewentualnymi PCR (Product Category Rules) dla danej grupy wyrobów. Obejmuje to weryfikację, które moduły cyklu życia (A1–A5, B1–B7, C1–C4, D) zostały uwzględnione i czy jest to zgodne z wymaganiami.
 
 **2. Weryfikację danych wejściowych i źródeł**
-JN ocenia wiarygodność i aktualność danych pierwotnych (ang. *foreground data*) dostarczonych przez producenta — zużycia energii, surowców, emisji bezpośrednich — oraz danych tłowych (ang. *background data*) z baz danych LCA (np. ecoinvent, GaBi/Sphera). Sprawdza, czy dane nie są starsze niż 10 lat (wymóg EN 15804+A2) oraz czy są reprezentatywne dla rzeczywistego procesu produkcji.
+NTL ocenia wiarygodność i aktualność danych pierwotnych (ang. *foreground data*) dostarczonych przez producenta — zużycia energii, surowców, emisji bezpośrednich — oraz danych tłowych (ang. *background data*) z baz danych LCA (np. ecoinvent, GaBi/Sphera). Sprawdza, czy dane nie są starsze niż 10 lat (wymóg EN 15804+A2) oraz czy są reprezentatywne dla rzeczywistego procesu produkcji.
 
 **3. Weryfikację obliczeń i wyników**
-JN kontroluje poprawność obliczeń wskaźników wpływu środowiskowego: GWP (Global Warming Potential), ODP (Ozone Depletion Potential), AP (Acidification Potential), EP (Eutrophication Potential), POCP oraz wskaźników zużycia zasobów. Sprawdza spójność wyników z danymi wejściowymi.
+NTL kontroluje poprawność obliczeń wskaźników wpływu środowiskowego: GWP (Global Warming Potential), ODP (Ozone Depletion Potential), AP (Acidification Potential), EP (Eutrophication Potential), POCP oraz wskaźników zużycia zasobów. Sprawdza spójność wyników z danymi wejściowymi.
 
 **4. Ocenę zgodności z PCR**
-Jeśli dla danej grupy wyrobów istnieje Product Category Rule (opracowana przez program EPD lub operatora platformy), JN weryfikuje, czy EPD jest z nią zgodna.
+Jeśli dla danej grupy wyrobów istnieje Product Category Rule (opracowana przez program EPD lub operatora platformy), NTL weryfikuje, czy EPD jest z nią zgodna.
 
 **5. Wydanie Raportu walidacyjnego**
-Efektem pracy JN w systemie 3+ jest **Raport walidacyjny** (ang. *Validation Report* lub *Verification Statement*). Dokument ten potwierdza, że metodologia i dane środowiskowe zostały niezależnie zweryfikowane. Raport stanowi załącznik do DoP&C i podnosi wiarygodność deklaracji środowiskowych w oczach zamawiających, specyfikantów i nabywców. Jeśli producent publikuje również EPD, raport walidacyjny może być do niego dołączony.
+Efektem pracy NTL w systemie 3+ jest **Raport walidacyjny** (ang. *Validation Report* lub *Verification Statement*). Dokument ten potwierdza, że metodologia i dane środowiskowe zostały niezależnie zweryfikowane. Raport stanowi załącznik do DoP&C i podnosi wiarygodność deklaracji środowiskowych w oczach zamawiających, specyfikantów i nabywców. Jeśli producent publikuje również EPD, raport walidacyjny może być do niego dołączony.
 
 ## Porównanie kosztów: System AVS 3+ vs System 3
 
 System 3 w rozumieniu CPR 2024 dotyczy właściwości technicznych i polega na tym, że JN przeprowadza lub zleca wstępne badanie typu (ITT) wyrobu. Koszt systemu 3 dla właściwości technicznych zależy od rodzaju badania i może wynosić od kilku tysięcy do kilkudziesięciu tysięcy złotych za badanie jednej właściwości (np. odporność ogniowa to bardzo kosztowne badanie; badanie przewodności cieplnej — wielokrotnie tańsze).
 
-System 3+ dotyczy wyłącznie walidacji danych środowiskowych (wyników LCA). Orientacyjne koszty walidacji przez akredytowaną JN wynoszą w Europie od **3 000 do 15 000 EUR**, w zależności od:
+System 3+ dotyczy wyłącznie walidacji danych środowiskowych (wyników LCA). Orientacyjne koszty walidacji przez akredytowane NTL wynoszą w Europie od **3 000 do 15 000 EUR**, w zależności od:
 
 - złożoności procesu produkcji i liczby badanych modułów cyklu życia,
 - dostępności i jakości danych pierwotnych dostarczonych przez producenta,
 - konieczności rozstrzygania wątpliwości metodologicznych (co wydłuża czas pracy weryfikatora),
-- doświadczenia JN w danej kategorii wyrobów.
+- doświadczenia NTL w danej kategorii wyrobów.
 
 Dla producentów, którzy już wcześniej opracowywali EPD dobrowolnie (poza CPR), koszty te mogą być niższe, ponieważ posiadają dobrze udokumentowane dane i sprawdzone bazy LCA.
 
@@ -63,7 +63,7 @@ W Polsce walidację danych środowiskowych zgodną z EN 15804+A2 i wymaganiami C
 - **Operatorzy programów EPD** uznanych na poziomie europejskim, tacy jak Institut Bauen und Umwelt e.V. (IBU, Niemcy), The Norwegian EPD Foundation czy ECO Platform — ich weryfikatorzy mogą działać transgranicznie,
 - **Instytuty naukowo-badawcze** posiadające akredytację w zakresie weryfikacji LCA, np. w ramach Instytutu Inżynierii Chemicznej PAN lub innych akredytowanych podmiotów.
 
-Rynek walidacji danych środowiskowych w Polsce dopiero się kształtuje. Wielu producentów korzysta z usług zagranicznych JN — szczególnie z Niemiec i Skandynawii — gdzie doświadczenie w weryfikacji danych LCA jest znacznie dłuższe.
+Rynek walidacji danych środowiskowych w Polsce dopiero się kształtuje. Wielu producentów korzysta z usług zagranicznych NTL — szczególnie z Niemiec i Skandynawii — gdzie doświadczenie w weryfikacji danych LCA jest znacznie dłuższe.
 
 ## Kiedy warto inwestować w walidację systemu 3+
 
@@ -73,7 +73,7 @@ Nie każdy producent musi natychmiast stosować system 3+. Warto rozważyć wali
 
 **Eksport do krajów z dojrzałym rynkiem GPP** — Skandynawia, Niemcy, Francja, Niderlandy; w tych krajach niezweryfikowane dane środowiskowe budzą wątpliwości po stronie specyfikantów i inwestorów.
 
-**Wyroby o niskim GWP jako atut marketingowy** — jeśli producent może pochwalić się wyjątkowo niskim śladem węglowym i chce uczynić z tego element komunikacji rynkowej, walidacja JN uwiarygadnia te twierdzenia i chroni przed zarzutem greenwashingu.
+**Wyroby o niskim GWP jako atut marketingowy** — jeśli producent może pochwalić się wyjątkowo niskim śladem węglowym i chce uczynić z tego element komunikacji rynkowej, walidacja NTL uwiarygadnia te twierdzenia i chroni przed zarzutem greenwashingu.
 
 **Komunikacja inwestorska i ESG** — firmy notowane na giełdzie lub raportujące zgodnie ze standardami CSRD (Corporate Sustainability Reporting Directive) potrzebują wiarygodnych, zweryfikowanych danych środowiskowych dla swoich wyrobów.
 

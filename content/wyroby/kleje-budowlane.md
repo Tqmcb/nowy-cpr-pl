@@ -37,7 +37,7 @@ Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
 - **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych – jednostka notyfikowana weryfikuje dane środowiskowe (wyniki LCA) i wydaje raport walidacyjny, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
+CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych – notyfikowane laboratorium techniczne (NTL) weryfikuje dane środowiskowe (wyniki LCA) i wydaje raport walidacyjny, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
 
 ## Kluczowe wymagania CPR 2024
 

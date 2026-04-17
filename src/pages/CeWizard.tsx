@@ -83,7 +83,7 @@ function getAvsLevel(product: ProductOption, needsFire: boolean | null): string 
 }
 
 function needsNotifiedBody(avs: string): boolean {
-  return ["1+", "1", "2+"].includes(avs);
+  return ["1+", "1", "2+", "3"].includes(avs);
 }
 
 interface ChecklistItem {
@@ -129,9 +129,9 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
     items.push({
       step: stepNum++,
       title: avs === "3"
-        ? "Zlec badania typu (ITT) w laboratorium JN"
+        ? "Zlec badania typu (ITT) w NTL — JN wyda certyfikat"
         : "Zlec badania typu (ITT) w akredytowanym laboratorium JN",
-      description: `W systemie AVS ${avs} badania typu muszą być wykonane ${avs === "3" ? "przez laboratorium jednostki notyfikowanej" : "pod nadzorem jednostki notyfikowanej"}. Badania obejmują właściwości wymienione w Załączniku ZA normy: ${product.mainNorms[0] || ""}.`,
+      description: `W systemie AVS ${avs} badania typu muszą być wykonane ${avs === "3" ? "przez notyfikowane laboratorium techniczne (NTL). Na podstawie wyników JN wydaje certyfikat właściwości użytkowych i zgodności — numer NB pojawi się w oznakowaniu CE" : "pod nadzorem jednostki notyfikowanej"}. Badania obejmują właściwości wymienione w Załączniku ZA normy: ${product.mainNorms[0] || ""}.`,
       duration: "4-12 tygodni",
       critical: true,
     });

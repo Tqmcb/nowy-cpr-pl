@@ -53,7 +53,7 @@ Dokumentacja techniczna to zbiór dokumentów potwierdzających, że wyrób budo
 
 - **Deklaracja Środowiskowa Wyrobu (EPD)** — jeśli wymagana lub deklarowana
 - **Dane wejściowe do EPD** (LCA data)
-- **Dokumenty walidacji przez JN** (w przypadku AVS 3+)
+- **Dokumenty walidacji przez NTL** (w przypadku AVS 3+)
 
 ## Jak długo przechowywać dokumentację?
 

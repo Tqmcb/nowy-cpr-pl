@@ -66,7 +66,7 @@ Dla tynków gipsowych (EN 13279-1):
 
 Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowych hTS) będzie korzystne dla gipsu: typowe GWP dla 1 m² płyty GKB 12,5 mm wynosi ok. 2,5–4,0 kg CO₂ eq/m², co jest niskie w porównaniu z alternatywnymi rozwiązaniami.
 
-**System 3+ dla walidacji danych środowiskowych**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji danych środowiskowych (wyników LCA) przez System 3+ – wydania raportu walidacyjnego przez jednostkę notyfikowaną, co podnosi wiarygodność danych w zamówieniach publicznych GPP.
+**System 3+ dla walidacji danych środowiskowych**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji danych środowiskowych (wyników LCA) przez System 3+ – wydania raportu walidacyjnego przez notyfikowane laboratorium techniczne (NTL), co podnosi wiarygodność danych w zamówieniach publicznych GPP.
 
 **Cyfrowy paszport wyrobu**: Dla płyt GK o unikalnych kodach produktowych (SKU) możliwe jest wdrożenie DPP na poziomie palety lub partii produkcyjnej. Kod QR na palecie prowadzi do DoP&C, EPD i instrukcji montażu w formacie cyfrowym.
 

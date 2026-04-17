@@ -61,7 +61,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 **Właściwości środowiskowe – nowe pola deklaracji**: CPR 2024 wymaga, aby w DoP&C pojawiły się pola dla właściwości środowiskowych. Dla membran kluczowe są: zawartość surowców z recyklingu (regranulet PVC, recyklingowany bitum – tzw. granulat asfaltowy RAP), trwałość wyrobu (gwarantowany czas eksploatacji [lata]), dane dotyczące możliwości recyklingu po zakończeniu użytkowania. Od 2027 oczekiwane jest obowiązkowe deklarowanie GWP według EN 15804.
 
-**System 3+ dla danych środowiskowych**: Producenci membran PVC-P dążący do udziału w przetargach z kryteriami zielonymi (GPP – Green Public Procurement) mogą skorzystać z Systemu 3+ do walidacji danych środowiskowych (wyników LCA). Jednostka notyfikowana waliduje dane środowiskowe i wydaje raport walidacyjny – nie certyfikat. Walidacja wzmacnia pozycję rynkową w zamówieniach publicznych, gdzie GWP staje się kryterium wyboru.
+**System 3+ dla danych środowiskowych**: Producenci membran PVC-P dążący do udziału w przetargach z kryteriami zielonymi (GPP – Green Public Procurement) mogą skorzystać z Systemu 3+ do walidacji danych środowiskowych (wyników LCA). Notyfikowane laboratorium techniczne (NTL) waliduje dane środowiskowe i wydaje raport walidacyjny – nie certyfikat. Walidacja wzmacnia pozycję rynkową w zamówieniach publicznych, gdzie GWP staje się kryterium wyboru.
 
 **Zawartość substancji szczególnie niebezpiecznych (SVHC)**: CPR 2024 zaostrza wymagania dotyczące deklarowania substancji z listy REACH SVHC. Dotyczy to szczególnie membran PVC zawierających ftalaninowe plastyfikatory (DEHP, DBP, BBP) – podlegają ograniczeniom, a producenci muszą uwzględnić to w DoP&C oraz dokumentacji technicznej.
 

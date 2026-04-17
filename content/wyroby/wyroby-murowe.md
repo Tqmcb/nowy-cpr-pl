@@ -77,7 +77,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 ## Zmiany względem CPR 305/2011
 
 1. **Obowiązek deklarowania GWP** – producenci elementów murowych muszą uwzględnić właściwości środowiskowe w DoP&C.
-2. **System 3+ dla walidacji danych środowiskowych** – jednostka notyfikowana wydaje raport walidacyjny, co umożliwia stosowanie zwalidowanych danych środowiskowych w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
+2. **System 3+ dla walidacji danych środowiskowych** – notyfikowane laboratorium techniczne (NTL) wydaje raport walidacyjny, co umożliwia stosowanie zwalidowanych danych środowiskowych w zamówieniach publicznych i systemach oceny budynków (BREEAM, LEED, DGNB).
 3. **Substancje niebezpieczne** – obowiązek sprawdzenia i deklarowania braku SVHC (substancje wzbudzające szczególnie duże obawy wg REACH) w zastosowanych surowcach i dodatkach.
 4. **DoP&C** – zintegrowany dokument zamiast odrębnych deklaracji.
 5. **Trwałość** – CPR 2024 kładzie nacisk na deklarowanie przewidywanej trwałości i warunków ekspozycji (klasy ekspozycji wg EN 1996).
@@ -111,7 +111,7 @@ Cegielnia produkująca pustaki ceramiczne poryzowane 25-38-24 P+W (pustak z pió
 - [ ] Deklaracja wytrzymałości na ściskanie (klasa fb), gęstości, λ10,dry
 - [ ] Sprawdzenie zawartości substancji niebezpiecznych (SVHC, REACH)
 - [ ] Opracowanie EPD (opcjonalnie, ale zalecane dla zamówień publicznych)
-- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla rzetelności deklaracji GWP
+- [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) dla rzetelności deklaracji GWP
 - [ ] Oznakowanie CE na wyrobie lub etykiecie zbiorczej (paleta)
 - [ ] Coroczne audyty nadzorcze JN (dla Systemu AVS 2+)
 

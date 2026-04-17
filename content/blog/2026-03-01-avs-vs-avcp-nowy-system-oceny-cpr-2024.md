@@ -117,7 +117,7 @@ To jedna z najważniejszych zmian! W starym systemie wystarczył raport z badań
 Twoje podstawowe obowiązki się nie zmieniają — nadal samodzielnie certyfikujesz. Ale bądź świadomy, że GUNB i WINB (wojewódzkie inspektoraty nadzoru budowlanego) mają teraz silniejsze narzędzia do weryfikacji rynkowej wyrobów z systemu 4. Upewnij się, że Twoje raporty z ITT i dokumentacja FPC są kompletne i aktualne.
 
 **Jeśli planujesz deklarować dane środowiskowe (ślad węglowy):**
-Rozważ System 3+. Walidacja danych środowiskowych (wyników LCA) przez JN nie jest droga (porównywalna z kosztem systemu 3), a podnosi wiarygodność deklaracji i otwiera rynki z wymaganiami zielonych zamówień publicznych (GPP).
+Rozważ System 3+. Walidacja danych środowiskowych (wyników LCA) przez NTL nie jest droga (porównywalna z kosztem systemu 3), a podnosi wiarygodność deklaracji i otwiera rynki z wymaganiami zielonych zamówień publicznych (GPP).
 
 ## Podsumowanie zmian AVS vs AVCP
 

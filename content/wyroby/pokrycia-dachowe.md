@@ -83,7 +83,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 1. **Deklarowanie GWP** – obowiązkowe dla wszystkich wyrobów dachowych w DoP&C.
 2. **Cyrkulacja** – deklarowanie możliwości recyklingu, szczególnie ważne dla metali i PVC (membrany).
 3. **Substancje niebezpieczne** – papy z modyfikatorami polimerowymi (APP, SBS) muszą być sprawdzone pod kątem SVHC; membrany PVC – bez ftalanów z listy REACH.
-4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez NTL (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
 5. **DoP&C** – rozszerzona deklaracja zamiast DoP.
 
 ## Harmonogram wdrożenia
@@ -125,7 +125,7 @@ Producent membran TPO do dachów płaskich:
 - [ ] Deklarowanie GWP i udziału materiału z recyklingu
 - [ ] Oznakowanie CE na wyrobie lub opakowaniu zbiorczym
 - [ ] Dla okien dachowych i systemów świetlikowych: rozważenie ETA ([ocenytechniczne.pl](https://www.ocenytechniczne.pl))
-- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla producentów deklarujących recykling
+- [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) dla producentów deklarujących recykling
 
 ## Gdzie szukać wsparcia
 

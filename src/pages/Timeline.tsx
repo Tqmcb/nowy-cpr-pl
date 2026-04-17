@@ -102,7 +102,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-06-01",
     title: "System AVS i DoP&C — po publikacji nowych hTS",
     description:
-      "Nowy system Oceny i Weryfikacji Stalosci Wlasciwosci Uzytkowych (AVS) z 5 poziomami (1+, 1, 2, 3, 4) oraz nowa Deklaracja Wlasciwosci Uzytkowych i Zgodnosci (DoP&C) zaczna obowiazywac dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiazuja systemy AVCP i stare DoP.",
+      "Nowy system Oceny i Weryfikacji (AVS) z 6 systemami (1+, 1, 2+, 3, 3+, 4) oraz nowa Deklaracja Wlasciwosci Uzytkowych i Zgodnosci (DoP&C) zaczna obowiazywac dla danej rodziny wyrobow dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). System 3+ jest zupelnie nowy — dotyczy walidacji danych srodowiskowych (EPD/LCA). Do tego czasu obowiazuja systemy AVCP i stare DoP.",
     phase: "przyszlosc",
     category: ["jn", "producent"],
     icon: Shield,

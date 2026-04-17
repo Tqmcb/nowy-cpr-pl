@@ -27,7 +27,7 @@ W dokumentach technicznych i etykietach CE stosowanych do nowych wyrobów należ
 |----------------------|----------------------|
 | AVCP | AVS |
 | DoP | DoP&C |
-| System oceny 1, 2+, 3, 4 | System AVS 1+, 1, 2+, 3+, 3, 4 |
+| System oceny 1+, 1, 2+, 3, 4 (5 systemów) | System AVS 1+, 1, 2+, 3, 3+, 4 (6 systemów) |
 | Jednostka notyfikowana (JN) | Jednostka notyfikowana (JN) — bez zmian |
 
 ### Nowy system 3+ — realna nowość
