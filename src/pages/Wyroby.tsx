@@ -159,7 +159,7 @@ export default function Wyroby() {
                     </span>
                     {wyrob.avs_system && (
                       <span className="text-xs text-slate-400 font-mono bg-slate-700/50 px-2 py-1 rounded">
-                        {wyrob.avs_system}
+                        AVCP {wyrob.avs_system}
                       </span>
                     )}
                   </div>

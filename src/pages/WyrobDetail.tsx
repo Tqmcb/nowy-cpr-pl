@@ -126,7 +126,7 @@ export default function WyrobDetail() {
     ? `${wyrob.title} — Wymagania CPR 2024/3110 | NowyCPR.pl`
     : "Wyrób budowlany — CPR 2024/3110 | NowyCPR.pl";
   const pageDesc = wyrob?.excerpt
-    ? `${wyrob.excerpt} Sprawdź normy, system ${wyrob.avs_system}, certyfikację i wymagania DoP&C.`
+    ? `${wyrob.excerpt} Sprawdź normy, system AVCP ${wyrob.avs_system}, certyfikację i wymagania DoP&C.`
     : "Szczegółowe wymagania CPR 2024/3110 dla wyrobów budowlanych.";
 
   const breadcrumbSchema = wyrob ? {
@@ -148,7 +148,7 @@ export default function WyrobDetail() {
     "inLanguage": "pl-PL",
     "publisher": { "@id": "https://www.nowycpr.pl/#organization" },
     "about": { "@type": "Thing", "name": "CPR 2024/3110" },
-    "keywords": `CPR 2024, ${wyrob.category}, ${wyrob.avs_system}, wyroby budowlane`
+    "keywords": `CPR 2024, ${wyrob.category}, AVCP ${wyrob.avs_system}, wyroby budowlane`
   } : null;
 
   return (
@@ -273,7 +273,7 @@ export default function WyrobDetail() {
                       )}
                       {wyrob.avs_system && (
                         <div>
-                          <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">System AVS</dt>
+                          <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">System AVCP (teraz)</dt>
                           <dd className="text-white font-semibold">{wyrob.avs_system}</dd>
                         </div>
                       )}

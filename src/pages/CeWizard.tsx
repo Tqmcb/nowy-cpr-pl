@@ -131,7 +131,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
       title: avs === "3"
         ? "Zlec badania typu (ITT) w NTL — JN wyda certyfikat"
         : "Zlec badania typu (ITT) w akredytowanym laboratorium JN",
-      description: `W systemie AVS ${avs} badania typu muszą być wykonane ${avs === "3" ? "przez notyfikowane laboratorium techniczne (NTL). Na podstawie wyników JN wydaje certyfikat właściwości użytkowych i zgodności — numer NB pojawi się w oznakowaniu CE" : "pod nadzorem jednostki notyfikowanej"}. Badania obejmują właściwości wymienione w Załączniku ZA normy: ${product.mainNorms[0] || ""}.`,
+      description: `W systemie AVCP ${avs} (po publikacji hTS: AVS ${avs}) badania typu muszą być wykonane ${avs === "3" ? "przez notyfikowane laboratorium techniczne (NTL). Na podstawie wyników JN wydaje certyfikat właściwości użytkowych i zgodności — numer NB pojawi się w oznakowaniu CE" : "pod nadzorem jednostki notyfikowanej"}. Badania obejmują właściwości wymienione w Załączniku ZA normy: ${product.mainNorms[0] || ""}.`,
       duration: "4-12 tygodni",
       critical: true,
     });
@@ -140,7 +140,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
       step: stepNum++,
       title: "Wykonaj badania typu (ITT) samodzielnie lub w laboratorium",
       description:
-        "W systemie AVS 4 producent sam odpowiada za badania. Możesz zlecić je laboratorium lub wykonać samodzielnie, pod warunkiem posiadania odpowiedniego sprzętu i kompetencji.",
+        "W systemie AVCP 4 (po publikacji hTS: AVS 4) producent sam odpowiada za badania. Możesz zlecić je laboratorium lub wykonać samodzielnie, pod warunkiem posiadania odpowiedniego sprzętu i kompetencji.",
       duration: "2-6 tygodni",
     });
   }
@@ -150,7 +150,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
     items.push({
       step: stepNum++,
       title: "Uzyskaj certyfikat od Jednostki Notyfikowanej (JN)",
-      description: `System AVS ${avs} wymaga certyfikatu stałości właściwości użytkowych wydanego przez JN. ${avs === "1+" ? "JN przeprowadzi również inspekcję wstępną zakładu i próbki wyrobu." : "JN oceni dokumentację techniczną i wyniki badań."}`,
+      description: `System AVCP ${avs} (po publikacji hTS: AVS ${avs}) wymaga certyfikatu stałości właściwości użytkowych wydanego przez JN. ${avs === "1+" ? "JN przeprowadzi również inspekcję wstępną zakładu i próbki wyrobu." : "JN oceni dokumentację techniczną i wyniki badań."}`,
       link: { label: "Jak wybrać JN", to: "/faq" },
       duration: "2-4 tygodnie",
       critical: true,
@@ -160,7 +160,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
       step: stepNum++,
       title: "Uzyskaj certyfikat ZKP od Jednostki Notyfikowanej",
       description:
-        "W systemie AVS 2+ JN certyfikuje Twój system ZKP (nie wyrób). JN przeprowadzi inspekcję wstępną, a następnie nadzór okresowy (co 12-24 miesiące).",
+        "W systemie AVCP 2+ (po publikacji hTS: AVS 2+) JN certyfikuje Twój system ZKP (nie wyrób). JN przeprowadzi inspekcję wstępną, a następnie nadzór okresowy (co 12-24 miesiące).",
       duration: "2-4 tygodnie",
       critical: true,
     });
@@ -352,7 +352,7 @@ export default function CeWizard() {
                               <span className="font-medium text-sm">{opt.label}</span>
                               {opt.avs !== "?" && (
                                 <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-slate-500">
-                                  AVS {opt.avs}
+                                  AVCP {opt.avs}
                                 </span>
                               )}
                             </div>
@@ -462,7 +462,7 @@ export default function CeWizard() {
                         <FileText className="w-5 h-5 text-amber-400" />
                         Czy masz wdrożony system ZKP (FPC)?
                       </h2>
-                      <p className="text-slate-400 text-sm mb-6">Zakladowa Kontrola Produkcji jest obowiazkowa dla wszystkich systemow AVS.</p>
+                      <p className="text-slate-400 text-sm mb-6">Zakladowa Kontrola Produkcji jest obowiazkowa dla wszystkich systemow AVCP / AVS.</p>
                       <div className="space-y-3">
                         {([
                           { value: true, label: "Tak", desc: "Mam udokumentowany system ZKP" },
@@ -492,7 +492,7 @@ export default function CeWizard() {
                         <AlertTriangle className="w-5 h-5 text-amber-400" />
                         Czy wyrob wymaga odpornosci ogniowej?
                       </h2>
-                      <p className="text-slate-400 text-sm mb-6">Wyroby z deklarowana odpornoscia ogniowa wymagaja systemu AVS 1.</p>
+                      <p className="text-slate-400 text-sm mb-6">Wyroby z deklarowana odpornoscia ogniowa wymagaja systemu AVCP 1 (po publikacji hTS: AVS 1).</p>
                       <div className="space-y-3">
                         {([
                           { value: true, label: "Tak", desc: "Wyrób ma deklarowaną odporność ogniową (EI, REI, EW)" },
@@ -552,7 +552,7 @@ export default function CeWizard() {
                           {state.product!.label}
                         </span>
                         <span className="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-slate-400">
-                          AVS {getAvsLevel(state.product!, state.needsFireResistance)}
+                          AVCP {getAvsLevel(state.product!, state.needsFireResistance)}
                         </span>
                         {needsNotifiedBody(getAvsLevel(state.product!, state.needsFireResistance)) && (
                           <span className="text-xs px-3 py-1 rounded-full bg-sky-400/15 border border-sky-400/30 text-sky-400">

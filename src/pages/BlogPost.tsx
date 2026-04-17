@@ -890,7 +890,7 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
 function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   const CHECKLIST = [
     "Sprawdź wymagania CPR dla swojego wyrobu",
-    "Zidentyfikuj właściwy system AVS",
+    "Zidentyfikuj właściwy system AVCP / AVS",
     "Skontaktuj się z jednostką notyfikowaną",
     "Przygotuj dokumentację techniczną",
     "Wystaw Deklarację Właściwości Użytkowych (DoP&C)",

@@ -285,10 +285,12 @@ Nieprawidłowe oznakowanie CE może skutkować:
   },
   {
     id: "4",
-    title: "System AVS - Ocena i weryfikacja stałości właściwości użytkowych",
+    title: "System AVCP / AVS - Ocena i weryfikacja stałości właściwości użytkowych",
     slug: "system-avcp",
-    excerpt: "Kompletny przegląd systemów oceny AVS 1+, 1, 2+, 3 i 4. Który system dotyczy Twojego produktu, jakie są wymagania i koszty certyfikacji?",
-    content: `# Systemy AVS w CPR 2024
+    excerpt: "Kompletny przegląd systemów oceny 1+, 1, 2+, 3 i 4. Do czasu publikacji nowej hTS obowiązuje AVCP z CPR 305/2011; po publikacji hTS — AVS z CPR 2024 (z dodatkowym systemem 3+ dla walidacji EPD).",
+    content: `# Systemy AVCP (teraz) i AVS (po publikacji hTS)
+
+> ⚠️ Do czasu publikacji nowej hTS obowiązuje **AVCP** z CPR 305/2011 (5 systemów: 1+, 1, 2+, 3, 4). Po publikacji hTS dla danej rodziny wyrobów obowiązywać będzie **AVS** z CPR 2024 (6 systemów, w tym nowy **3+** dla walidacji danych środowiskowych).
 
 ## Przegląd systemów
 
@@ -635,7 +637,7 @@ Zgodnie z CPR 2024, importer musi:
 
 ## Beton towarowy
 ### Norma: EN 206:2013+A2:2021
-- System AVS: 2+
+- System AVCP: 2+ (po publikacji hTS: AVS 2+)
 - Wymagana certyfikacja FPC przez jednostkę notyfikowaną
 
 ### Kluczowe właściwości
@@ -651,7 +653,7 @@ Zgodnie z CPR 2024, importer musi:
 - EN 13224 - Płyty żebrowe
 - EN 1168 - Płyty kanałowe
 
-### System AVS
+### System AVCP (teraz) / AVS (po publikacji hTS)
 - System 2+ dla większości prefabrykatów
 - System 4 dla niektórych elementów wykończeniowych
 
@@ -677,7 +679,7 @@ Zgodnie z CPR 2024, importer musi:
 ## Zakres normy EN 14351-1:2006+A2:2016
 Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
 
-## System AVS: 3
+## System AVCP: 3 (po publikacji hTS: AVS 3)
 - Badania typu (ITT) przez jednostkę notyfikowaną
 - Zakładowa kontrola produkcji przez producenta
 
@@ -710,25 +712,25 @@ Okna i drzwi zewnętrzne do budynków mieszkalnych i niemieszkalnych.
     id: "15",
     title: "Wyroby izolacyjne - przegląd norm i wymagań CPR",
     slug: "wyroby-izolacyjne-normy",
-    excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVS.",
+    excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVCP / AVS.",
     content: `# Wyroby izolacyjne - wymagania CPR
 
 ## Główne normy zharmonizowane
 
 ### Wełna mineralna - EN 13162
-- System AVS: 3 (1 dla reakcji na ogień)
+- System AVCP: 3 (1 dla reakcji na ogień) — po publikacji hTS: AVS 3 / 1
 - Właściwości termiczne, akustyczne, ogniowe
 
 ### Styropian EPS - EN 13163
-- System AVS: 3 (1 dla ETICS)
+- System AVCP: 3 (1 dla ETICS) — po publikacji hTS: AVS 3 / 1
 - Klasy lambda: od 030 do 045
 
 ### Styrodur XPS - EN 13164
-- System AVS: 3
+- System AVCP: 3 (po publikacji hTS: AVS 3)
 - Zastosowanie: fundamenty, dachy odwrócone
 
 ### Pianka PIR/PUR - EN 13165
-- System AVS: 3
+- System AVCP: 3 (po publikacji hTS: AVS 3)
 - Najlepsze parametry termiczne
 
 ## Kluczowe właściwości
