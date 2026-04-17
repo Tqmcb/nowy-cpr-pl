@@ -112,7 +112,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 Polska cegielnia produkująca dachówki ceramiczne dachówkowe (łukowe) w różnych kolorach angobowanych:
 1. Badania ITT wg EN 1304: wytrzymałość na zginanie, absorpcja wody, mrozoodporność (F2 – 150 cykli), masy pozornej
 2. Klasyfikacja BROOF(t2) lub t4 – badania ogniowe w laboratorium JN ([ITCZLin](https://www.itczlin.pl))
-3. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
+3. System AVCP 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 4. EPD z GWP 280 kg CO2eq/t – dachówka ceramiczna może być deklarowana jako wyrób trwały (min. 50 lat) z niskim GWP na rok użytkowania
 5. DoP&C: klasa BROOF(t2), absorpcja wody <15%, klasa mrozoodporności F2, trwałość 50+ lat
 
@@ -127,7 +127,7 @@ Producent membran TPO do dachów płaskich:
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 490, EN 1304, EN 544, EN 13707, EN 14783 lub inne)
-- [ ] Ustalenie systemu AVS (3 dla wyrobów z deklarowaną klasą BROOF, 4 dla pomocniczych)
+- [ ] Ustalenie systemu AVCP (3 dla wyrobów z deklarowaną klasą BROOF, 4 dla pomocniczych)
 - [ ] Przeprowadzenie badań ITT – wytrzymałość mechaniczna, wodoszczelność, mrozoodporność
 - [ ] Klasyfikacja BROOF(t2) lub BROOF(t4) w laboratorium JN ([ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP i wystawienie DoP&C z deklaracją klasy BROOF i wodoszczelności

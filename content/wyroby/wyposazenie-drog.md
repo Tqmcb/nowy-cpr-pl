@@ -7,7 +7,7 @@ category: "Wyroby drogowe"
 avs_system: "1 / 3"
 normy: ["EN 1317-1", "EN 1317-2", "EN 12767", "EN 40-2", "EN 1463-1"]
 tags: ["bariery drogowe", "znaki", "słupy", "CPR 2024", "bezpieczeństwo"]
-excerpt: "Wyposażenie dróg – rodzina 12 CPR 2024. Bariery ochronne stalowe i betonowe, słupy oświetleniowe i sygnalizacyjne, znaki drogowe. System AVS 1 dla barier, AVS 3 dla wyposażenia."
+excerpt: "Wyposażenie dróg – rodzina 12 CPR 2024. Bariery ochronne stalowe i betonowe, słupy oświetleniowe i sygnalizacyjne, znaki drogowe. System AVCP 1 dla barier, AVCP 3 dla wyposażenia."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -107,18 +107,18 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 
 ## Przykłady wyrobów
 
-**Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVS 1 – producent posiada CoCP od jednostki notyfikowanej potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
+**Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVCP 1 – producent posiada CoCP od jednostki notyfikowanej potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
 
-**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – NTL przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy), JN wydaje certyfikat, producent wystawia DoP&C.
+**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVCP 3 – NTL przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy), JN wydaje certyfikat, producent wystawia DoP&C.
 
-**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVS 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do NTL (laboratorium fotometryczne), uzyskuje certyfikat od JN i wystawia DoP&C.
+**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVCP 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do NTL (laboratorium fotometryczne), uzyskuje certyfikat od JN i wystawia DoP&C.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę EN (EN 1317-2 dla barier, EN 12767 dla słupów, EN 1463-1 dla folii) dla każdego wyrobu
-- [ ] Ustalić system AVS: AVS 1 dla barier ochronnych, AVS 3 dla słupów i znaków
-- [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
-- [ ] Uzyskać certyfikat CoCP (bariery, AVS 1) lub certyfikat właściwości użytkowych i zgodności (słupy, znaki, AVS 3) od JN
+- [ ] Ustalić system AVS: AVCP 1 dla barier ochronnych, AVCP 3 dla słupów i znaków
+- [ ] Dla barier (AVCP 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
+- [ ] Uzyskać certyfikat CoCP (bariery, AVCP 1) lub certyfikat właściwości użytkowych i zgodności (słupy, znaki, AVCP 3) od JN
 - [ ] Wdrożyć FPC z kontrolą stali (skład chemiczny, grubość), cynkowania (grubość powłoki) i wymiarów
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) z klasyfikacją EN 1317 lub EN 12767 i udostępnić cyfrowo
 - [ ] Zebrać dane o zawartości stali z recyklingu od hut dostawczych (pod kątem EPD i wymagań GPP GDDKiA)
@@ -128,7 +128,7 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego; certyfikacja CoCP dla barier drogowych (AVS 1), raporty ITT dla słupów (AVS 3)
+- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego; certyfikacja CoCP dla barier drogowych (AVCP 1), raporty ITT dla słupów (AVCP 3)
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze; badania właściwości mechanicznych stali i aluminium; badania fotometryczne folii retrorefleksyjnych i znaków drogowych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów ochrony drogowej (kompozytowe bariery drogowe, mobilne bariery ze stali dupleks, ekrany akustyczne nowych generacji)
 

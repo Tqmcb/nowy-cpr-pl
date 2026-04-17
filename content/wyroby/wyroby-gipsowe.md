@@ -92,18 +92,18 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 
 ## Przykłady wyrobów
 
-**Płyta GKF 12,5 mm ognioodporna**: Płyta gipsowo-kartonowa z rdzeniem gipsowym z włóknami szklanymi, grubość 12,5 mm, masa powierzchniowa ~14 kg/m², EN 520 typ F (fire resistant). Klasa reakcji na ogień A2-s1,d0. Producent deklaruje wytrzymałość na zginanie, twardość, wymiary, klasę ogniową. System AVS 3.
+**Płyta GKF 12,5 mm ognioodporna**: Płyta gipsowo-kartonowa z rdzeniem gipsowym z włóknami szklanymi, grubość 12,5 mm, masa powierzchniowa ~14 kg/m², EN 520 typ F (fire resistant). Klasa reakcji na ogień A2-s1,d0. Producent deklaruje wytrzymałość na zginanie, twardość, wymiary, klasę ogniową. System AVCP 3.
 
-**Tynk gipsowy maszynowy B3**: Masa tynkarska do natrysku mechanicznego, klasa B3 (tynk gładki do nakładania maszynowego), wytrzymałość na ściskanie ≥ 2,0 MPa, czas wiązania 90–180 min. EN 13279-1, system AVS 4 – producent samodzielnie przeprowadza ITT i wydaje DoP&C.
+**Tynk gipsowy maszynowy B3**: Masa tynkarska do natrysku mechanicznego, klasa B3 (tynk gładki do nakładania maszynowego), wytrzymałość na ściskanie ≥ 2,0 MPa, czas wiązania 90–180 min. EN 13279-1, system AVCP 4 – producent samodzielnie przeprowadza ITT i wydaje DoP&C.
 
-**Kompozytowy panel GK + EPS**: Płyta gipsowo-kartonowa 12,5 mm laminowana z EPS 60 mm λ=0,038 W/mK. EN 13950. System AVS 3. Stosowana do ocieplania ścian od wewnątrz (izolacja w systemie suchej zabudowy).
+**Kompozytowy panel GK + EPS**: Płyta gipsowo-kartonowa 12,5 mm laminowana z EPS 60 mm λ=0,038 W/mK. EN 13950. System AVCP 3. Stosowana do ocieplania ścian od wewnątrz (izolacja w systemie suchej zabudowy).
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu gipsowego (EN 520 dla GK, EN 13279-1 dla tynków)
 - [ ] Ustalić typ i klasę wyrobu wg EN 520 (A, D, E, F, H, I, P, R) i odpowiednio opisać w DoP&C
 - [ ] Przeprowadzić lub zaktualizować ITT w akredytowanym laboratorium (badania ogniowe, mechaniczne, wilgotnościowe)
-- [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVS 3: np. [Multicert](https://www.multicert.pl))
+- [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVCP 3: np. [Multicert](https://www.multicert.pl))
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) i wdrożyć system cyfrowego udostępniania dokumentów
 - [ ] Wdrożyć FPC z kontrolą jakości surowców (gips, karton, dodatki) i wyrobów gotowych
 - [ ] Zebrać dane środowiskowe do EPD: GWP gipsu kalcynowanego, kartonu, kleju – zlecić EPD

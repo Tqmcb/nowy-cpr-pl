@@ -7,13 +7,13 @@ category: "Ochrona przeciwpożarowa"
 avs_system: "1"
 normy: ["EN 1366-1", "EN 1366-3", "EN 1366-4", "EN 13381-1", "EN 13381-8", "EN 13501-2"]
 tags: ["ochrona przeciwpożarowa", "uszczelnienia ppoż", "intumescencja", "REI", "CNBOP", "CPR 2024"]
-excerpt: "Bierna ochrona przeciwpożarowa – rodzina 35 CPR 2024. Uszczelnienia ppoż, powłoki intumescencyjne, ochrona konstrukcji stalowych i drewnianych. System AVS 1."
+excerpt: "Bierna ochrona przeciwpożarowa – rodzina 35 CPR 2024. Uszczelnienia ppoż, powłoki intumescencyjne, ochrona konstrukcji stalowych i drewnianych. System AVCP 1."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
 # Bierna ochrona przeciwpożarowa – rodzina wyrobów 35 wg CPR 2024/3110
 
-Bierna ochrona przeciwpożarowa (BOP) obejmuje wyroby, których zadaniem jest spowolnienie lub zatrzymanie rozprzestrzeniania się ognia i dymu w budynku oraz ochrona konstrukcji nośnej przed utratą nośności w pożarze. Rodzina 35 CPR 2024/3110 obejmuje ten strategiczny dla bezpieczeństwa segment rynku wyrobów budowlanych, a wszystkie wyroby objęte są systemem AVS 1 – najwyższym poziomem nadzoru.
+Bierna ochrona przeciwpożarowa (BOP) obejmuje wyroby, których zadaniem jest spowolnienie lub zatrzymanie rozprzestrzeniania się ognia i dymu w budynku oraz ochrona konstrukcji nośnej przed utratą nośności w pożarze. Rodzina 35 CPR 2024/3110 obejmuje ten strategiczny dla bezpieczeństwa segment rynku wyrobów budowlanych, a wszystkie wyroby objęte są systemem AVCP 1 – najwyższym poziomem nadzoru.
 
 ## O rodzinie wyrobów
 
@@ -130,11 +130,11 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 
 ## Checklist producenta
 
-- [ ] Potwierdzić, że wyrób podlega systemowi AVS 1 (cała rodzina 35)
+- [ ] Potwierdzić, że wyrób podlega systemowi AVCP 1 (cała rodzina 35)
 - [ ] Zidentyfikować właściwą normę badawczą i klasyfikacyjną (EN 1366, EN 13381, EN 13501-2)
 - [ ] Zlecić badania ognioodporności w jednostce notyfikowanej (CNBOP-PIB lub inna)
 - [ ] Opracować tablice zastosowań (Field of Application) dla wszystkich deklarowanych konfiguracji
-- [ ] Uzyskać certyfikat zgodności AVS 1 od jednostki notyfikowanej
+- [ ] Uzyskać certyfikat zgodności AVCP 1 od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP i poddać ją stałemu nadzorowi jednostki notyfikowanej
 - [ ] Wystawić DoP&C z certyfikatem jako obowiązkowym załącznikiem
 - [ ] Oznaczyć wyrób CE i udostępnić DoP&C cyfrowo (kod QR)
@@ -143,4 +143,4 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 
 ## Gdzie szukać wsparcia
 
-Badania i certyfikację wyrobów ochrony ppoż. w Polsce prowadzi [CNBOP-PIB](https://www.cnbop.pl). Normy z serii EN 1366 i EN 13381 dostępne są przez [PKN](https://www.pkn.pl). Wytyczne techniczne dla projektantów systemów BOP publikuje [SFPE (Society of Fire Protection Engineers)](https://www.sfpe.org). Pełne informacje o CPR 2024 i systemie AVS 1 dla BOP dostępne są na [nowycpr.pl](https://www.nowycpr.pl).
+Badania i certyfikację wyrobów ochrony ppoż. w Polsce prowadzi [CNBOP-PIB](https://www.cnbop.pl). Normy z serii EN 1366 i EN 13381 dostępne są przez [PKN](https://www.pkn.pl). Wytyczne techniczne dla projektantów systemów BOP publikuje [SFPE (Society of Fire Protection Engineers)](https://www.sfpe.org). Pełne informacje o CPR 2024 i systemie AVCP 1 dla BOP dostępne są na [nowycpr.pl](https://www.nowycpr.pl).

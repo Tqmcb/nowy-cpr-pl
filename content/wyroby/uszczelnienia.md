@@ -109,7 +109,7 @@ Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniacz
 
 - [ ] Określić klasę zastosowania (F/G/S/P/R) i właściwą normę z serii EN 15651
 - [ ] Określić wymaganą klasę odkształcalności (12,5 / 12,5E / 25) i moduł Young'a
-- [ ] Wybrać system AVS (3 lub 4) i zlecić ITT laboratatorium notyfikowanemu (AVS 3)
+- [ ] Wybrać system AVCP (3 lub 4) i zlecić ITT laboratatorium notyfikowanemu (AVCP 3)
 - [ ] Przetestować przyczepność do podłoży referencyjnych (beton, szkło, aluminium, PVC)
 - [ ] Przeprowadzić badania emisji VOC dla zastosowań wewnętrznych
 - [ ] Ocenić GWP i zawartość substancji niebezpiecznych (izocyjaniany, siloksany) – BWR 7

@@ -7,7 +7,7 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1 / 2+"
 normy: ["EN 13369", "EN 13225", "EN 1168", "EN 14843", "EN 14992", "EN 13230"]
 tags: ["prefabrykaty", "beton", "CPR 2024", "certyfikacja", "AVS"]
-excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika VII CPR 2024/3110. System AVS 1 lub 2+ w zależności od zastosowania. Deklarowanie właściwości środowiskowych obowiązkowe po publikacji nowych hTS. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
+excerpt: "Prefabrykaty betonowe to rodzina 1 wg Załącznika VII CPR 2024/3110. System AVCP 1 lub 2+ w zależności od zastosowania. Deklarowanie właściwości środowiskowych obowiązkowe po publikacji nowych hTS. Sprawdź wymagania dla stropów, słupów, schodów i bloczków AAC."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -89,19 +89,19 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 ## Przykłady wyrobów
 
-**Płyty kanałowe sprężone (hollow core slabs)**: Najczęściej stosowany prefabrykat w Polsce. Producent wytwarzający płyty o wysokości 20–40 cm i rozpiętości do 14 m, stosowane w stropach budynków mieszkalnych i przemysłowych, podlega normie EN 1168 i systemowi AVS 1. Musi uzyskać certyfikat CoCP od jednostki notyfikowanej, prowadzić FPC z udokumentowanymi wynikami badań betonu (co najmniej 1 próba na 50 m³), a każda dostawa musi być opatrzona DoP&C i etykietą CE.
+**Płyty kanałowe sprężone (hollow core slabs)**: Najczęściej stosowany prefabrykat w Polsce. Producent wytwarzający płyty o wysokości 20–40 cm i rozpiętości do 14 m, stosowane w stropach budynków mieszkalnych i przemysłowych, podlega normie EN 1168 i systemowi AVCP 1. Musi uzyskać certyfikat CoCP od jednostki notyfikowanej, prowadzić FPC z udokumentowanymi wynikami badań betonu (co najmniej 1 próba na 50 m³), a każda dostawa musi być opatrzona DoP&C i etykietą CE.
 
-**Bloczki AAC (autoklawizowany beton komórkowy)**: Bloczki ścienne typu ytong/siporex produkowane według EN 12602 podlegają zazwyczaj systemowi AVS 2+. Producent certyfikuje FPC, sam przeprowadza ITT (lub zleca laboratorium), a następnie wystawia DoP&C z deklarowaną gęstością objętościową (np. 400–700 kg/m³), klasą wytrzymałości na ściskanie (CS2, CS4) i wartością lambda (0,09–0,14 W/mK).
+**Bloczki AAC (autoklawizowany beton komórkowy)**: Bloczki ścienne typu ytong/siporex produkowane według EN 12602 podlegają zazwyczaj systemowi AVCP 2+. Producent certyfikuje FPC, sam przeprowadza ITT (lub zleca laboratorium), a następnie wystawia DoP&C z deklarowaną gęstością objętościową (np. 400–700 kg/m³), klasą wytrzymałości na ściskanie (CS2, CS4) i wartością lambda (0,09–0,14 W/mK).
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę zharmonizowaną dla każdego produkowanego wyrobu (EN 13225, EN 1168, EN 12602 itd.)
-- [ ] Ustalić system AVS (1 lub 2+) na podstawie klasy zagrożenia w normie wyrobu
+- [ ] Ustalić system AVCP (1 lub 2+) na podstawie klasy zagrożenia w normie wyrobu
 - [ ] Przeprowadzić lub zlecić badanie wstępne typu (ITT) w akredytowanym laboratorium
 - [ ] Opracować i wdrożyć podręcznik zakładowej kontroli produkcji (FPC Manual) zgodny z wymaganiami normy
-- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl)) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
+- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl)) i uzyskać certyfikat CoCP (AVCP 1) lub certyfikat FPC (AVCP 2+)
 - [ ] Sporządzić DoP&C (Deklarację Właściwości Użytkowych i Zgodności) w języku polskim i udostępnić ją w formie cyfrowej
-- [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVS i numer jednostki notyfikowanej
+- [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVCP i numer jednostki notyfikowanej
 - [ ] Rozpocząć przygotowania do deklarowania GWP – nawiązać kontakt z dostawcami cementu i kruszyw w sprawie danych środowiskowych do EPD
 - [ ] Skonfigurować system archiwizacji dokumentacji technicznej (DoP&C przechowywana minimum 10 lat)
 - [ ] Zaplanować wdrożenie cyfrowego paszportu wyrobu (DPP) przed rokiem 2027
@@ -110,7 +110,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 Producenci prefabrykatów betonowych mogą korzystać z następujących źródeł wsparcia technicznego i certyfikacyjnego w Polsce:
 
-- [Multicert](https://www.multicert.com.pl) – jednostka notyfikowana akredytowana przez PCA, specjalizująca się w certyfikacji prefabrykatów z betonu zwykłego, lekkiego i komórkowego; oferuje pełen zakres usług dla systemu AVS 1 i 2+
+- [Multicert](https://www.multicert.com.pl) – jednostka notyfikowana akredytowana przez PCA, specjalizująca się w certyfikacji prefabrykatów z betonu zwykłego, lekkiego i komórkowego; oferuje pełen zakres usług dla systemu AVCP 1 i 2+
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z szerokim zakresem akredytacji dla wyrobów betonowych; wykonuje badania ITT i badania próbek FPC
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie w zakresie Europejskich Ocen Technicznych (ETA) dla wyrobów nieobjętych normami zharmonizowanymi lub wyrobów innowacyjnych
 

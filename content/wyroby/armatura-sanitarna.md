@@ -7,7 +7,7 @@ category: "Instalacyjne"
 avs_system: "3 / 4"
 normy: ["EN 997", "EN 14688", "EN 14527", "EN 13310", "EN 14296"]
 tags: ["armatura", "sanitarna", "łazienka", "CPR 2024"]
-excerpt: "Armatura sanitarna – rodzina 11 CPR 2024. Miski ustępowe, umywalki, wanny, brodziki, zlewy. System AVS 3 lub 4. Wymagania higieniczne i wytrzymałościowe. Nowe wymogi środowiskowe CPR 2024."
+excerpt: "Armatura sanitarna – rodzina 11 CPR 2024. Miski ustępowe, umywalki, wanny, brodziki, zlewy. System AVCP 3 lub 4. Wymagania higieniczne i wytrzymałościowe. Nowe wymogi środowiskowe CPR 2024."
 image_url: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800"
 ---
 
@@ -101,17 +101,17 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 ## Przykłady wyrobów
 
-**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVS 3.
+**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ICiMB](https://www.icimb.pl) lub [ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVCP 3.
 
-**Wanna akrylowa 170×75 cm**: Wanna z akrylu ABS 4 mm (wzmocnienie spodnie), długość 170 cm ±10 mm, ugięcie pod 150 kg ≤ 8 mm, odporność na detergenty potwierdzona, Ra ≤ 0,1 µm. EN 14527, system AVS 3. DoP&C zawiera deklarację materiałową i wartości wytrzymałościowe.
+**Wanna akrylowa 170×75 cm**: Wanna z akrylu ABS 4 mm (wzmocnienie spodnie), długość 170 cm ±10 mm, ugięcie pod 150 kg ≤ 8 mm, odporność na detergenty potwierdzona, Ra ≤ 0,1 µm. EN 14527, system AVCP 3. DoP&C zawiera deklarację materiałową i wartości wytrzymałościowe.
 
-**Zlewozmywak ze stali nierdzewnej 1,5×0,5 m**: Stal nierdzewna 304 (18/10), grubość 0,9 mm, wymiary 1500×500 mm, EN 13310. System AVS 4 – producent samodzielnie przeprowadza ITT (pomiary szorstkości, test obciążeniowy) i wydaje DoP&C.
+**Zlewozmywak ze stali nierdzewnej 1,5×0,5 m**: Stal nierdzewna 304 (18/10), grubość 0,9 mm, wymiary 1500×500 mm, EN 13310. System AVCP 4 – producent samodzielnie przeprowadza ITT (pomiary szorstkości, test obciążeniowy) i wydaje DoP&C.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu sanitarnego (EN 997, EN 14688, EN 14527, EN 13310)
-- [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT w akredytowanym laboratorium
-- [ ] Dla AVS 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN ([Multicert](https://www.multicert.pl))
+- [ ] Ustalić system AVCP (3 lub 4) i przeprowadzić ITT w akredytowanym laboratorium
+- [ ] Dla AVCP 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN ([Multicert](https://www.multicert.pl))
 - [ ] Sprawdzić skład glazur ceramicznych – wykluczyć ołów i kadm powyżej limitów EN 1388
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) dla każdego wyrobu i wdrożyć cyfrowe udostępnianie
 - [ ] Wdrożyć FPC z kontrolą wymiarów, jakości glazury i wyników badań partii produkcyjnych
@@ -122,7 +122,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 ## Gdzie szukać wsparcia
 
-- [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie ceramiki budowlanej i armatury sanitarnej; badania ITT wymagane w systemie AVS 3
+- [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie ceramiki budowlanej i armatury sanitarnej; badania ITT wymagane w systemie AVCP 3
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych; specjalistyczne laboratorium ceramiczne; badania glazur, składu chemicznego, higieny powierzchni ceramiki sanitarnej
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy wdrożeniu FPC dla producentów armatury sanitarnej
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla wyrobów sanitarnych nieobjętych normami zharmonizowanymi (systemy prysznicowe nowej generacji, innowacyjne zbiorniki spłukujące)

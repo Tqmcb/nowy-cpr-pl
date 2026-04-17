@@ -7,13 +7,13 @@ category: "Ochrona przeciwpożarowa"
 avs_system: "1"
 normy: ["EN 54-1", "EN 12094-1", "EN 12259-1", "EN 12101-2", "EN 16750"]
 tags: ["gaśnicze", "detekcja", "pożar", "CPR 2024", "CNBOP"]
-excerpt: "Stałe urządzenia gaśnicze i detekcja pożaru – rodzina 10 CPR 2024. Systemy tryskaczowe, CO2, gazy inertne, alarmy, oddymianie. System AVS 1. Jednostka notyfikowana CNBOP-PIB (NB 1438)."
+excerpt: "Stałe urządzenia gaśnicze i detekcja pożaru – rodzina 10 CPR 2024. Systemy tryskaczowe, CO2, gazy inertne, alarmy, oddymianie. System AVCP 1. Jednostka notyfikowana CNBOP-PIB (NB 1438)."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
 ## O rodzinie wyrobów
 
-Rodzina 10 według Załącznika VII CPR 2024/3110 obejmuje stałe urządzenia gaśnicze i systemy ochrony przeciwpożarowej przeznaczone do wbudowania w budynki i obiekty budowlane. Jest to jedna z rodzin o najwyższym rygorze certyfikacyjnym – bezpośredni związek z ochroną życia ludzkiego uzasadnia stosowanie systemu AVS 1 dla wszystkich wyrobów w tej rodzinie.
+Rodzina 10 według Załącznika VII CPR 2024/3110 obejmuje stałe urządzenia gaśnicze i systemy ochrony przeciwpożarowej przeznaczone do wbudowania w budynki i obiekty budowlane. Jest to jedna z rodzin o najwyższym rygorze certyfikacyjnym – bezpośredni związek z ochroną życia ludzkiego uzasadnia stosowanie systemu AVCP 1 dla wszystkich wyrobów w tej rodzinie.
 
 Rodzina obejmuje: systemy sygnalizacji pożarowej (SSP) – centrale, czujniki dymu (jonizacyjne i optyczne), czujniki ciepła, ręczne ostrzegacze pożarowe, moduły i syreny alarmowe, stałe urządzenia gaśnicze wodne tryskaczowe (sprinkler systems) – tryskacze, zawory, rurociągi i zestawy zasilające, stałe urządzenia gaśnicze gazowe (CO₂, Novec 1230, FM-200/HFC-227ea, gazy inertne IG-541/Inergen), stałe urządzenia gaśnicze pianowe, proszkowe i aerozolowe, systemy wentylacji pożarowej i oddymiania (klapa dymowa, wentylator oddymiający, klapy odcinające), systemy kontroli rozgorzenia i tłumienia wybuchu.
 
@@ -114,7 +114,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 - [ ] Zidentyfikować właściwą normę EN (EN 54-x, EN 12259-x, EN 12094-x, EN 12101-x, EN 16750) dla każdego wyrobu
 - [ ] Nawiązać kontakt z [CNBOP-PIB](https://www.cnbop.pl) (NB 1438) jako wiodącą polską jednostką notyfikowaną dla wyrobów ppoż.
-- [ ] Przeprowadzić pełne badanie ITT pod nadzorem jednostki notyfikowanej (AVS 1)
+- [ ] Przeprowadzić pełne badanie ITT pod nadzorem jednostki notyfikowanej (AVCP 1)
 - [ ] Wdrożyć system FPC z kompletną dokumentacją procesu produkcji i badań kontrolnych
 - [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna JN z kompetencjami ppoż.)
 - [ ] Sporządzić DoP&C (zmiana z DoP) w języku polskim i udostępnić cyfrowo

@@ -101,17 +101,17 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 ## Przykłady wyrobów
 
-**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (wzmocnienie gruntu). System AVS 3 dla nasypów drogowych. Producent zleca ITT do NTL, uzyskuje certyfikat od JN, prowadzi FPC z kontrolą gramaturą i wytrzymałości.
+**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (wzmocnienie gruntu). System AVCP 3 dla nasypów drogowych. Producent zleca ITT do NTL, uzyskuje certyfikat od JN, prowadzi FPC z kontrolą gramaturą i wytrzymałości.
 
-**Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13257. System AVS 3. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
+**Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13257. System AVCP 3. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
 
-**Geotkanina nietkana do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVS 3.
+**Geotkanina nietkana do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVCP 3.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwe normy EN (EN 13249–EN 13265) dla każdego wyrobu i zastosowania
-- [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT dla wszystkich deklarowanych właściwości
-- [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej i uzyskać raport z ITT
+- [ ] Ustalić system AVCP (3 lub 4) i przeprowadzić ITT dla wszystkich deklarowanych właściwości
+- [ ] Dla AVCP 3 – złożyć dokumentację do jednostki notyfikowanej i uzyskać raport z ITT
 - [ ] Wdrożyć FPC z kontrolą surowców polimerowych (gramatura, MFI, zawartość sadzy) i wyrobów gotowych
 - [ ] Sporządzić DoP&C (aktualizacja z DoP) dla każdego wyrobu z pełnym zestawem deklarowanych właściwości
 - [ ] Udostępnić DoP&C cyfrowo – QR kod na rolce lub fakturze
@@ -122,6 +122,6 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 ## Gdzie szukać wsparcia
 
-- [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVS 3
+- [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVCP 3
 - [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i wsparcie w zakresie CPR 2024; raporty z ITT dla producentów geosyntetyków
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych geosyntetyków nieobjętych normami zharmonizowanymi (np. georuszty z włókna bazaltowego, biodegradowalne maty erozyjochronne)

@@ -7,7 +7,7 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1+"
 normy: ["EN 10080", "EN ISO 15630-1", "EN 10138-1", "EN 10138-3"]
 tags: ["stal", "zbrojenie", "beton", "sprężanie", "CPR 2024"]
-excerpt: "Stal zbrojeniowa i sprężająca – rodzina 16 CPR 2024. Pręty B500A/B/C, siatki zbrojeniowe, sploty Y1770/Y1860. System AVS 1+. Spawalność, ciągliwość i wytrzymałość krytyczne dla bezpieczeństwa konstrukcji."
+excerpt: "Stal zbrojeniowa i sprężająca – rodzina 16 CPR 2024. Pręty B500A/B/C, siatki zbrojeniowe, sploty Y1770/Y1860. System AVCP 1+. Spawalność, ciągliwość i wytrzymałość krytyczne dla bezpieczeństwa konstrukcji."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -15,7 +15,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 Rodzina 16 w Załączniku VII CPR 2024/3110 obejmuje stal zbrojeniową i sprężającą do betonu oraz wyroby pomocnicze, w tym systemy sprężania post-tensioning. Są to wyroby o kluczowym znaczeniu dla bezpieczeństwa konstrukcji – zbrojenie przenosi siły rozciągające w elementach żelbetowych, a stale sprężające (o wytrzymałości 3–5-krotnie wyższej niż zbrojeniowe) są stosowane w mostach, halach sprężonych i stropach bezbelkowych.
 
-System AVS 1+ dla tej rodziny wynika z bezpośredniego wpływu jakości zbrojenia na bezpieczeństwo konstrukcji żelbetowych. Niski poziom ciągliwości lub spawalności pręta zbrojeniowego może prowadzić do kruchego zniszczenia bez wcześniejszego ostrzeżenia – czyli do katastrofy budowlanej. CPR 2024/3110 nie obniża wymagań dotyczących nadzoru, a wręcz wzmacnia je przez wprowadzenie obowiązkowej deklaracji właściwości środowiskowych.
+System AVCP 1+ dla tej rodziny wynika z bezpośredniego wpływu jakości zbrojenia na bezpieczeństwo konstrukcji żelbetowych. Niski poziom ciągliwości lub spawalności pręta zbrojeniowego może prowadzić do kruchego zniszczenia bez wcześniejszego ostrzeżenia – czyli do katastrofy budowlanej. CPR 2024/3110 nie obniża wymagań dotyczących nadzoru, a wręcz wzmacnia je przez wprowadzenie obowiązkowej deklaracji właściwości środowiskowych.
 
 ## Normy zharmonizowane
 
@@ -105,7 +105,7 @@ Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu z�
 Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% złom stalowy):
 1. Audyt ZKP przez JN ([ITCZLin](https://www.itczlin.pl)) – weryfikacja procedur pobierania próbek z każdego wytopu
 2. Pobieranie próbek ante market – JN bada próbki z wybranych wytopów przed wydaniem certyfikatu
-3. Uzyskanie CSPU – certyfikat stałości właściwości użytkowych (System AVS 1+)
+3. Uzyskanie CSPU – certyfikat stałości właściwości użytkowych (System AVCP 1+)
 4. Opracowanie EPD: GWP = 0,52 kg CO2eq/kg (metoda EAF, recykling złomu)
 5. Walidacja danych środowiskowych przez NTL w Systemie 3+ – raport walidacyjny
 6. DoP&C z deklaracją: klasa B500B, klasa ciągliwości B, CE 0,46, GWP 0,52 kg CO2eq/kg
@@ -115,7 +115,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 - [ ] Identyfikacja normy (EN 10080 dla zbrojenia, EN 10138-x dla stali sprężającej)
 - [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl))
 - [ ] Wdrożenie ZKP z kontrolą każdego wytopu (skład chemiczny, właściwości mechaniczne)
-- [ ] Uzyskanie CSPU w ramach Systemu AVS 1+ (audyt ante-market)
+- [ ] Uzyskanie CSPU w ramach Systemu AVCP 1+ (audyt ante-market)
 - [ ] Zapewnienie pełnej identyfikowalności (traceability) od wytopu do wyrobu gotowego
 - [ ] Opracowanie EPD z uwzględnieniem metody produkcji (EAF vs BF) i GWP
 - [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+)

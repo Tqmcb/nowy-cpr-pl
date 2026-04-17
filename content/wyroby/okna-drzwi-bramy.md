@@ -7,7 +7,7 @@ category: "Wyroby wykończeniowe"
 avs_system: "1 / 3"
 normy: ["EN 14351-1", "EN 14351-2", "EN 13241", "EN 16034"]
 tags: ["okna", "drzwi", "bramy", "CPR 2024", "certyfikacja"]
-excerpt: "Okna, drzwi zewnętrzne, bramy i okucia – rodzina 2 CPR 2024. System AVS 1 dla wyrobów z odpornością ogniową, AVS 3 dla standardowych. Właściwości termiczne (Uw), akustyczne (Rw) i odporność na włamanie."
+excerpt: "Okna, drzwi zewnętrzne, bramy i okucia – rodzina 2 CPR 2024. System AVCP 1 dla wyrobów z odpornością ogniową, AVCP 3 dla standardowych. Właściwości termiczne (Uw), akustyczne (Rw) i odporność na włamanie."
 image_url: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
 ---
 
@@ -35,7 +35,7 @@ Rodzina obejmuje: okna i drzwi zewnętrzne (w tym balkonowe i tarasowe), okna i 
 
 ### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcji bezpieczeństwa danego wyrobu:
+System AVCP stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcji bezpieczeństwa danego wyrobu:
 
 **System AVCP 1** obowiązuje dla drzwi, okien, bram i żaluzji z charakterystyką odporności ogniowej lub dymoszczelności (norma EN 16034 w połączeniu z EN 14351-1, EN 14351-2 lub EN 13241). W systemie AVCP 1 jednostka notyfikowana przeprowadza wstępne badanie ITT, certyfikuje zakładową kontrolę produkcji FPC oraz wydaje certyfikat stałości właściwości użytkowych (CoCP). Nadzór nad FPC jest ciągły (audyty roczne).
 
@@ -86,18 +86,18 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 ## Przykłady wyrobów
 
-**Okna PVC trójszybowe**: Producent okien PVC z profilu 6-komorowego, szyba o Ug = 0,6 W/m²K, Uw całego okna ≈ 0,8 W/m²K. Podlega EN 14351-1, system AVS 3. Zleca ITT w laboratorium akredytowanym (badania przepuszczalności powietrza, wodoszczelności, obciążenia wiatrem). Samodzielnie prowadzi FPC, wystawia DoP&C z wartościami: Uw = 0,8 W/(m²K), klasa powietrzna 4, klasa wodoszczelna 7A, klasa wiatrowa 3.
+**Okna PVC trójszybowe**: Producent okien PVC z profilu 6-komorowego, szyba o Ug = 0,6 W/m²K, Uw całego okna ≈ 0,8 W/m²K. Podlega EN 14351-1, system AVCP 3. Zleca ITT w laboratorium akredytowanym (badania przepuszczalności powietrza, wodoszczelności, obciążenia wiatrem). Samodzielnie prowadzi FPC, wystawia DoP&C z wartościami: Uw = 0,8 W/(m²K), klasa powietrzna 4, klasa wodoszczelna 7A, klasa wiatrowa 3.
 
-**Drzwi ognioodporne EI 30**: Drzwi stalowe z wypełnieniem mineralnym, klasyfikowane jako EI 30 (odporność ogniowa 30 minut z integralnością i izolacyjnością). Podlega EN 16034 + EN 14351-2, system AVS 1. Wymaga certyfikatu CoCP od jednostki notyfikowanej. Badanie ogniowe przeprowadza się w akredytowanym laboratorium pożarowym.
+**Drzwi ognioodporne EI 30**: Drzwi stalowe z wypełnieniem mineralnym, klasyfikowane jako EI 30 (odporność ogniowa 30 minut z integralnością i izolacyjnością). Podlega EN 16034 + EN 14351-2, system AVCP 1. Wymaga certyfikatu CoCP od jednostki notyfikowanej. Badanie ogniowe przeprowadza się w akredytowanym laboratorium pożarowym.
 
-**Brama segmentowa garażowa**: Brama stalowa segmentowa do garażu prywatnego. EN 13241, system AVS 3. Producent deklaruje obciążenie wiatrem, bezpieczne użytkowanie (siły zetknięcia z przeszkodą ≤ 150 N), trwałość cykli (> 25 000 cykli dla klasy 3).
+**Brama segmentowa garażowa**: Brama stalowa segmentowa do garażu prywatnego. EN 13241, system AVCP 3. Producent deklaruje obciążenie wiatrem, bezpieczne użytkowanie (siły zetknięcia z przeszkodą ≤ 150 N), trwałość cykli (> 25 000 cykli dla klasy 3).
 
 ## Checklist producenta
 
 - [ ] Ustalić właściwą normę zharmonizowaną dla każdego wyrobu (EN 14351-1, -2, EN 13241 lub EN 16034)
-- [ ] Określić system AVS: AVS 1 dla wyrobów z odpornością ogniową/dymoszczelnością, AVS 3 dla pozostałych
+- [ ] Określić system AVS: AVCP 1 dla wyrobów z odpornością ogniową/dymoszczelnością, AVCP 3 dla pozostałych
 - [ ] Przeprowadzić badanie ITT (w akredytowanym laboratorium lub jednostce notyfikowanej) dla wszystkich badanych właściwości
-- [ ] Dla AVS 1 – zawrzeć umowę z jednostką notyfikowaną, uzyskać certyfikat CoCP
+- [ ] Dla AVCP 1 – zawrzeć umowę z jednostką notyfikowaną, uzyskać certyfikat CoCP
 - [ ] Opracować podręcznik FPC i wdrożyć procedury kontroli produkcji (częstotliwość badań, instrukcje pomiarowe)
 - [ ] Sporządzić DoP&C (Deklarację Właściwości Użytkowych i Zgodności) dla każdego wyrobu lub grupy wyrobów
 - [ ] Udostępnić DoP&C w formie cyfrowej – wdrożyć system QR kodów lub linków na etykietach
@@ -107,6 +107,6 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 ## Gdzie szukać wsparcia
 
-- [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze oferujące testy okien i drzwi (EN 1026, EN 1027, EN 12211); wykonuje badania ITT wymagane w systemie AVS 3
+- [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze oferujące testy okien i drzwi (EN 1026, EN 1027, EN 12211); wykonuje badania ITT wymagane w systemie AVCP 3
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca certyfikację wyrobów okienno-drzwiowych; doradztwo w zakresie CPR 2024
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie dla producentów ubiegających się o ETA dla innowacyjnych rozwiązań okienno-drzwiowych nieposiadających normy zharmonizowanej

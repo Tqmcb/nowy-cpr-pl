@@ -6,14 +6,14 @@ date: "2026-02-25"
 category: "Spoiwa"
 avs_system: "1+"
 normy: ["EN 197-1", "EN 197-5", "EN 413-1", "EN 459-1", "EN 14216"]
-tags: ["cement", "wapno", "spoiwa", "CPR 2024", "AVS 1+"]
-excerpt: "Cement, wapno budowlane i spoiwa hydrauliczne – rodzina 15 CPR 2024. System AVS 1+ (najwyższy rygor). CEM I-V, wapno hydratyzowane, cement murarski. Cement to jeden z największych emitentów CO2 – System 3+ dla danych środowiskowych będzie kluczowy."
+tags: ["cement", "wapno", "spoiwa", "CPR 2024", "AVCP 1+"]
+excerpt: "Cement, wapno budowlane i spoiwa hydrauliczne – rodzina 15 CPR 2024. System AVCP 1+ (najwyższy rygor). CEM I-V, wapno hydratyzowane, cement murarski. Cement to jeden z największych emitentów CO2 – System 3+ dla danych środowiskowych będzie kluczowy."
 image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 ---
 
 ## O rodzinie wyrobów
 
-Rodzina 15 według Załącznika VII CPR 2024/3110 obejmuje cement, wapno budowlane i inne spoiwa hydrauliczne. Jest to jedna z nielicznych rodzin, dla których obowiązuje System AVS 1+ – najwyższy możliwy poziom nadzoru w nowym rozporządzeniu. Wynika to z fundamentalnej roli spoiw hydraulicznych w bezpieczeństwie konstrukcji budowlanych: cement jest podstawowym składnikiem betonu, zapraw i wielu systemów naprawczych.
+Rodzina 15 według Załącznika VII CPR 2024/3110 obejmuje cement, wapno budowlane i inne spoiwa hydrauliczne. Jest to jedna z nielicznych rodzin, dla których obowiązuje System AVCP 1+ – najwyższy możliwy poziom nadzoru w nowym rozporządzeniu. Wynika to z fundamentalnej roli spoiw hydraulicznych w bezpieczeństwie konstrukcji budowlanych: cement jest podstawowym składnikiem betonu, zapraw i wielu systemów naprawczych.
 
 Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośród wszystkich rodzin w CPR 2024/3110. Produkcja klinkieru portlandzkiego generuje około **0,83–0,95 kg CO2 na kilogram** cementu – co sprawia, że przemysł cementowy odpowiada globalnie za około 7–8% całkowitej emisji CO2. CPR 2024 po raz pierwszy oficjalnie wymaga deklarowania tych wartości w ramach DoP&C, a System 3+ umożliwia niezależną walidację danych środowiskowych przez jednostkę notyfikowaną.
 
@@ -117,7 +117,7 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 - [ ] Identyfikacja normy wyrobu (EN 197-1, EN 197-5, EN 413-1, EN 459-1 lub EN 14216)
 - [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([ICiMB](https://www.icimb.pl) NB 1454 lub [Multicert](https://www.multicert.com.pl))
 - [ ] Przeprowadzenie badań wstępnych ITT w laboratorium JN
-- [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
+- [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVCP 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
 - [ ] Opracowanie EPD zgodnej z EN 15804+A2 (GWP, AP, EP, ODP i in.)
 - [ ] Walidacja danych środowiskowych przez NTL (System AVS 3+) – uzyskanie raportu walidacyjnego

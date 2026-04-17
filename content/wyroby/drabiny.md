@@ -134,8 +134,8 @@ Producenci drabin trwałych wchodzą na nowy rynek regulacyjny — wiele firm do
 
 - [ ] Potwierdzić, że drabina jest trwale mocowana do obiektu (zakres rodziny 36 CPR)
 - [ ] Zidentyfikować właściwą normę (EN ISO 14122-4 lub EN 131-7) lub ścieżkę ETA
-- [ ] Wybrać system AVS (3 lub 4) stosownie do wysokości i zastosowania
-- [ ] Zlecić ITT w laboratorium notyfikowanym (AVS 3): nośność szczebli, podłużnic, mocowań
+- [ ] Wybrać system AVCP (3 lub 4) stosownie do wysokości i zastosowania
+- [ ] Zlecić ITT w laboratorium notyfikowanym (AVCP 3): nośność szczebli, podłużnic, mocowań
 - [ ] Wdrożyć ZKP w zakładzie produkcyjnym i udokumentować procesy kontroli
 - [ ] Zadeklarować wymiary bezpieczeństwa (prześwit, wymiary szczebli, kosz/szyna)
 - [ ] Ocenić klasę korozyjności środowiska i dobrać odpowiednią ochronę antykorozyjną

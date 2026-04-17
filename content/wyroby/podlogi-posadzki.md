@@ -115,7 +115,7 @@ Producent paneli laminowanych klasy AC4 (biura, sklepy) wprowadza je na rynek zg
 1. Badania ITT wg EN 13329 i EN 14041: ścieralność (klasa AC4), odporność na uderzenie, grubość spęcznienia po zamoczeniu, szczelność połączeń
 2. Pomiar emisji formaldehydu wg EN 717-1: wynik E1 (0,05 mg/m² h)
 3. Pomiar TVOC wg EN ISO 16000-6: TVOC po 28 dniach = 0,08 mg/m³ (poniżej progu AgBB)
-4. System AVS 3 – badania ITT przez NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
+4. System AVCP 3 – badania ITT przez NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
 5. DoP&C: klasa AC4, klasa Dfl-s1, E1, TVOC 0,08 mg/m³, GWP -0,3 kg CO2eq/kg (ujemny – sekwestracja węgla w drewnie rdzennym)
 
 **Przykład: Producent LVT (Luxury Vinyl Tile)**
@@ -128,7 +128,7 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 14041, EN 14342, EN 13329, EN 14904 lub inne)
-- [ ] Ustalenie systemu AVS (3 dla obiektów publicznych, 4 dla mieszkalnych)
+- [ ] Ustalenie systemu AVCP (3 dla obiektów publicznych, 4 dla mieszkalnych)
 - [ ] Badania ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Pomiar emisji formaldehydu (EN 717-1) i VOC (EN ISO 16000-6)
 - [ ] Sprawdzenie składu pod kątem ftalanów SVHC (dotyczy LVT/PVC)

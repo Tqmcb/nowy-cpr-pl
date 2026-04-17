@@ -7,7 +7,7 @@ category: "Kruszywa"
 avs_system: "2+"
 normy: ["EN 12620", "EN 13043", "EN 13055", "EN 13242", "EN 13383-1"]
 tags: ["kruszywa", "żwir", "piasek", "grys", "CPR 2024"]
-excerpt: "Kruszywa budowlane – rodzina 24 CPR 2024. Kruszywa do betonu (EN 12620), asfaltów (EN 13043), niezwiązanych podbudów (EN 13242), lekkie (EN 13055). System AVS 2+. Wielki potencjał dla naturalnych kruszyw jako surowców o niskim GWP."
+excerpt: "Kruszywa budowlane – rodzina 24 CPR 2024. Kruszywa do betonu (EN 12620), asfaltów (EN 13043), niezwiązanych podbudów (EN 13242), lekkie (EN 13055). System AVCP 2+. Wielki potencjał dla naturalnych kruszyw jako surowców o niskim GWP."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -119,7 +119,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 
 Kopalnia żwiru rzecznego produkuje kruszywo 0/4 (piasek), 4/8 i 8/16 do betonu towarowego:
 1. Badania ITT wg EN 12620: uziarnienie, SI, LA, absorpcja wody, zawartość chlorków, siarczanów, ASR (petrografia wg EN 932-3 + szybki test chemiczny wg EN 1744-2)
-2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
+2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVCP 2+
 3. Opracowanie EPD: GWP = 0,006 kg CO2eq/kg (wydobycie + załadunek + transport 25 km)
 4. DoP&C: klasy uziarnienia GC85/20, SF 0/4, LA20, SI20, chlorki Cl 0,01%, GWP 0,006 kg CO2eq/kg
 
@@ -128,7 +128,7 @@ Kopalnia żwiru rzecznego produkuje kruszywo 0/4 (piasek), 4/8 i 8/16 do betonu 
 Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i 4/16:
 1. Badania składu: zawartość zaprawy cementowej, absorpcja wody (~6%), gęstość (~2250 kg/m³)
 2. Kontrola zanieczyszczeń: azbest (poniżej progu), PCB, metale ciężkie – deklaracja w DoP&C
-3. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
+3. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVCP 2+
 4. EPD: GWP = 0,003 kg CO2eq/kg (tylko koszty kruszenia i przesiewania bez wydobycia)
 5. DoP&C ze wskazaniem kruszywo z recyklingu RCA, absorpcja woda WA10 = 6%, GWP 0,003 kg CO2eq/kg
 
@@ -139,7 +139,7 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 - [ ] Przeprowadzenie badań ITT: uziarnienie, kształt (SI), wytrzymałość (LA, MDE), mrozoodporność
 - [ ] Badania chemiczne: chlorki, siarczany, reaktywność alkaliczna (ASR)
 - [ ] Dla RCA/RMA: badanie zawartości zaprawy, zanieczyszczeń, absorpcji wody
-- [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C z System AVS 2+
+- [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C z System AVCP 2+
 - [ ] Deklarowanie GWP i ewentualnego udziału kruszywa z recyklingu
 - [ ] Oznakowanie CE na dokumencie dostawy lub na etykiecie na silosie/hałdzie
 - [ ] Coroczne audyty nadzorcze ZKP przez JN

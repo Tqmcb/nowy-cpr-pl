@@ -85,9 +85,9 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 ## Przykłady wyrobów
 
-**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVS 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
+**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVCP 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
 
-**Elewacja wentylowana z płytami HPL/ceramicznymi**: Podkonstrukcja aluminiowa z okładzinami z płyt HPL (High Pressure Laminate) lub dużoformatowej ceramiki, z pustką wentylacyjną 40 mm. Klasa ogniowa okładziny: A2-s1,d0 (ceramika) lub B-s2,d0 (HPL klasy ogniowej). ETA lub EN 13830 + dokumentacja szczegółowa. System AVS 3.
+**Elewacja wentylowana z płytami HPL/ceramicznymi**: Podkonstrukcja aluminiowa z okładzinami z płyt HPL (High Pressure Laminate) lub dużoformatowej ceramiki, z pustką wentylacyjną 40 mm. Klasa ogniowa okładziny: A2-s1,d0 (ceramika) lub B-s2,d0 (HPL klasy ogniowej). ETA lub EN 13830 + dokumentacja szczegółowa. System AVCP 3.
 
 **System SSG strukturalny (frameless)**: Fasada bez widocznych opraw – szyby mocowane wyłącznie silikonem strukturalnym. EN 15434, EN 13830. Wymaga szczegółowych obliczeń statycznych spoiny silikonowej oraz potwierdzenia trwałości adhezji do podłoża.
 
@@ -96,7 +96,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 - [ ] Określić zastosowaną normę zharmonizowaną (EN 13830) lub podstawę ETA dla systemu fasadowego
 - [ ] Ustalić pełny zestaw właściwości do deklarowania (przepuszczalność, wodoszczelność, wiatr, ciepło, hałas, ogień)
 - [ ] Przeprowadzić ITT w akredytowanej komorze badawczej ([ITCZLin](https://www.itczlin.pl) lub laboratorium zagraniczne)
-- [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVS 3: [Multicert](https://www.multicert.pl))
+- [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVCP 3: [Multicert](https://www.multicert.pl))
 - [ ] Sporządzić DoP&C z możliwością konfiguracji dla projektów indywidualnych (warianty szybowania, izolacji)
 - [ ] Sprawdzić klasę ogniową okładzin – zaktualizować badania i dokumentację dla okładzin ACM (rdzeń PE vs. FR)
 - [ ] Zebrać dane środowiskowe o zawartości aluminium z recyklingu w profilach od dostawców

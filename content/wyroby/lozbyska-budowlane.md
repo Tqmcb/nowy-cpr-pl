@@ -7,7 +7,7 @@ category: "Wyroby konstrukcyjne"
 avs_system: "1"
 normy: ["EN 1337-1", "EN 1337-3", "EN 1337-5", "EN 1337-6", "EN 1337-7"]
 tags: ["łożyska", "mosty", "konstrukcja", "CPR 2024"]
-excerpt: "Łożyska budowlane i sworznie – rodzina 5 CPR 2024. Łożyska elastomerowe, PTFE, garnkowe dla mostów i budynków. System AVS 1 (najwyższy rygor). Krytyczne dla bezpieczeństwa konstrukcji."
+excerpt: "Łożyska budowlane i sworznie – rodzina 5 CPR 2024. Łożyska elastomerowe, PTFE, garnkowe dla mostów i budynków. System AVCP 1 (najwyższy rygor). Krytyczne dla bezpieczeństwa konstrukcji."
 image_url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
 ---
 

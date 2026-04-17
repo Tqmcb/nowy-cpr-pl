@@ -7,7 +7,7 @@ category: "Izolacje"
 avs_system: "1 / 3"
 normy: ["EN 13162", "EN 13163", "EN 13164", "EN 13165", "EN 13166", "EN 13170", "EN 13171", "EN 13499", "EN 13500"]
 tags: ["izolacja", "wełna mineralna", "styropian", "XPS", "ETICS", "CPR 2024"]
-excerpt: "Izolacja termiczna i systemy ETICS – rodzina 4 CPR 2024. Wełna mineralna, EPS (styropian), XPS, pianka PUR, perlit. System AVS 1 lub 3. Deklarowanie GWP obowiązkowe po publikacji nowych hTS — kluczowe dla pozycjonowania rynkowego."
+excerpt: "Izolacja termiczna i systemy ETICS – rodzina 4 CPR 2024. Wełna mineralna, EPS (styropian), XPS, pianka PUR, perlit. System AVCP 1 lub 3. Deklarowanie GWP obowiązkowe po publikacji nowych hTS — kluczowe dla pozycjonowania rynkowego."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -97,16 +97,16 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 ## Przykłady wyrobów
 
-**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od JN, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
+**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVCP 3. Producent zleca ITT, uzyskuje Raport z ITT od JN, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
 
-**Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
+**Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVCP 1 (jako część systemu ogniochronnego) lub AVCP 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 
-**System ETICS na EPS z tynkiem silikonowym**: Kompletny zestaw: klej, EPS, kołki, zaprawa wzmacniająca, siatka z włókna szklanego, grunt, tynk silikonowy. Wprowadzany na podstawie ETA (np. ETA-xx/yyyy wydana przez TAB). System AVS 1. Producent musi odnowić ETA w świetle CPR 2024; stare ETA ważne do 9 stycznia 2036.
+**System ETICS na EPS z tynkiem silikonowym**: Kompletny zestaw: klej, EPS, kołki, zaprawa wzmacniająca, siatka z włókna szklanego, grunt, tynk silikonowy. Wprowadzany na podstawie ETA (np. ETA-xx/yyyy wydana przez TAB). System AVCP 1. Producent musi odnowić ETA w świetle CPR 2024; stare ETA ważne do 9 stycznia 2036.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu termoizolacyjnego (EN 13162 dla MW, EN 13163 dla EPS itd.)
-- [ ] Ustalić system AVS (1 lub 3) i przeprowadzić lub zaktualizować badanie ITT w akredytowanym laboratorium
+- [ ] Ustalić system AVCP (1 lub 3) i przeprowadzić lub zaktualizować badanie ITT w akredytowanym laboratorium
 - [ ] Sprawdzić deklarowane klasy reakcji na ogień – czy odpowiadają aktualnym badaniom (klasy A1/A2 vs E)?
 - [ ] Sporządzić lub zaktualizować DoP&C (zmiana z DoP) z uzupełnionymi polami środowiskowymi
 - [ ] Uruchomić zbieranie danych środowiskowych od dostawców surowców (granulki PS, włókna, lepiszcze)
@@ -118,7 +118,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 ## Gdzie szukać wsparcia
 
-- [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań wyrobów termoizolacyjnych; badania λ, CS, reakcji na ogień, nasiąkliwości wodą; wykonuje badania ITT dla AVS 3
+- [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań wyrobów termoizolacyjnych; badania λ, CS, reakcji na ogień, nasiąkliwości wodą; wykonuje badania ITT dla AVCP 3
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; badania i certyfikacja wyrobów izolacyjnych; raporty ITT i wsparcie w przygotowaniu DoP&C
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie przy uzyskiwaniu ETA dla innowacyjnych systemów izolacyjnych i ETICS
 

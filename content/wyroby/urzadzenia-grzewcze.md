@@ -105,8 +105,8 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 ## Checklist producenta
 
 - [ ] Potwierdzić, że urządzenie podlega CPR (trwale wbudowane), a nie dyrektywie ErP lub GAR
-- [ ] Wybrać właściwy system AVS (3 lub 4) i odpowiednią normę zharmonizowaną
-- [ ] Zlecić badania ITT w laboratorium notyfikowanym (AVS 3): sprawność, NOx, CO, PM
+- [ ] Wybrać właściwy system AVCP (3 lub 4) i odpowiednią normę zharmonizowaną
+- [ ] Zlecić badania ITT w laboratorium notyfikowanym (AVCP 3): sprawność, NOx, CO, PM
 - [ ] Wdrożyć zakładową kontrolę produkcji (ZKP) i prowadzić jej dokumentację
 - [ ] Sporządzić DoP&C w nowym formacie CPR 2024 z deklaracją wszystkich wymaganych właściwości
 - [ ] Ocenić GWP urządzenia i ująć w DoP&C (BWR 7)

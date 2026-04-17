@@ -7,7 +7,7 @@ category: "Hydroizolacje"
 avs_system: "3 / 4"
 normy: ["EN 13956", "EN 13967", "EN 13969", "EN 14695", "EN 15814"]
 tags: ["membrany", "hydroizolacja", "CPR 2024", "dachy", "fundamenty"]
-excerpt: "Membrany hydroizolacyjne – rodzina 3 CPR 2024. Geomembrany dachowe, izolacje fundamentów, membrany do mostów i tuneli. System AVS 3 lub 4. Warunki odporności na starzenie i trwałości."
+excerpt: "Membrany hydroizolacyjne – rodzina 3 CPR 2024. Geomembrany dachowe, izolacje fundamentów, membrany do mostów i tuneli. System AVCP 3 lub 4. Warunki odporności na starzenie i trwałości."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -88,18 +88,18 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 ## Przykłady wyrobów
 
-**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. System AVS 3 – producent zleca badanie ITT (wodoszczelność, wytrzymałość na rozciąganie, odporność na uderzenie) w laboratorium takim jak ITCZLin, następnie uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
+**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. System AVCP 3 – producent zleca badanie ITT (wodoszczelność, wytrzymałość na rozciąganie, odporność na uderzenie) w laboratorium takim jak ITCZLin, następnie uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
 
-**Membrana PVC-P do fundamentów**: Folia PVC-P grubości 1,5 mm bez wzmocnienia, przeznaczona do izolacji fundamentów i ścian piwnic w kontakcie z gruntem. EN 13969, system AVS 3. Producent musi deklarować odporność na chemikalia glebowe (kwasy humusowe), wodoszczelność i wytrzymałość mechaniczną.
+**Membrana PVC-P do fundamentów**: Folia PVC-P grubości 1,5 mm bez wzmocnienia, przeznaczona do izolacji fundamentów i ścian piwnic w kontakcie z gruntem. EN 13969, system AVCP 3. Producent musi deklarować odporność na chemikalia glebowe (kwasy humusowe), wodoszczelność i wytrzymałość mechaniczną.
 
-**Ciekła membrana poliuretanowa do balkonów**: Dwukomponentowa masa poliuretanowa nakładana na zimno, tworząca bezspoinową warstwę izolacyjną. EN 15814 (dla mas bitumicznych) lub ocena techniczna (ETA). System AVS 3. Zastosowanie: balkony, tarasy, garaże podziemne.
+**Ciekła membrana poliuretanowa do balkonów**: Dwukomponentowa masa poliuretanowa nakładana na zimno, tworząca bezspoinową warstwę izolacyjną. EN 15814 (dla mas bitumicznych) lub ocena techniczna (ETA). System AVCP 3. Zastosowanie: balkony, tarasy, garaże podziemne.
 
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę zharmonizowaną (EN 13956, EN 13967, EN 13969, EN 15814) dla każdego wyrobu
-- [ ] Ustalić system AVS (3 lub 4) na podstawie wymagań normy wyrobu
+- [ ] Ustalić system AVCP (3 lub 4) na podstawie wymagań normy wyrobu
 - [ ] Przeprowadzić kompletne badanie ITT w akredytowanym laboratorium dla wszystkich deklarowanych właściwości
-- [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej (np. [Multicert](https://www.multicert.pl)) w celu uzyskania raportu z badania ITT
+- [ ] Dla AVCP 3 – złożyć dokumentację do jednostki notyfikowanej (np. [Multicert](https://www.multicert.pl)) w celu uzyskania raportu z badania ITT
 - [ ] Opracować i wdrożyć procedury FPC (kontrola surowców, kontrola procesu, badania wyrobu gotowego)
 - [ ] Sporządzić DoP&C z wszystkimi wymaganymi normą właściwościami i udostępnić cyfrowo
 - [ ] Przegląd składu wyrobu pod kątem SVHC (szczególnie plastyfikatory w PVC, PAH w bitumie)
@@ -110,5 +110,5 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z akredytacją do badań membran hydroizolacyjnych; wykonuje testy wodoszczelności, wytrzymałości mechanicznej, odporności na starzenie i ogień
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca usługi w zakresie systemu AVS 3 dla membran; raporty z ITT oraz wsparcie we wdrożeniu FPC
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca usługi w zakresie systemu AVCP 3 dla membran; raporty z ITT oraz wsparcie we wdrożeniu FPC
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – europejskie oceny techniczne (ETA) dla systemów hydroizolacyjnych nieobjętych normami zharmonizowanymi (np. nowe technologie nakładane natryskowo)

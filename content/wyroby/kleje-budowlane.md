@@ -94,8 +94,8 @@ Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dok
 ## Checklist producenta
 
 - [ ] Zidentyfikować klasę kleju wg EN 12004-1, EN 12004-2, EN 15836-1 lub EN 15836-2
-- [ ] Wybrać właściwy system AVS (3 lub 4) dla każdego wyrobu w asortymencie
-- [ ] Zlecić badania ITT w akredytowanym laboratorium notyfikowanym (system AVS 3)
+- [ ] Wybrać właściwy system AVCP (3 lub 4) dla każdego wyrobu w asortymencie
+- [ ] Zlecić badania ITT w akredytowanym laboratorium notyfikowanym (system AVCP 3)
 - [ ] Wdrożyć i udokumentować zakładową kontrolę produkcji (ZKP) zgodną z CPR 2024
 - [ ] Przeprowadzić badania emisji VOC i zawrzeć wyniki w DoP&C
 - [ ] Ocenić właściwości środowiskowe wg BWR 7 (GWP, zawartość recyklatu, trwałość)

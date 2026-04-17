@@ -7,7 +7,7 @@ category: "Instalacyjne"
 avs_system: "3 / 4"
 normy: ["EN 1401-1", "EN 1329-1", "EN 1453-1", "EN 13476-1", "EN 1519-1", "EN 1852-1"]
 tags: ["kanalizacja", "rury", "PVC", "PP", "CPR 2024"]
-excerpt: "Wyroby kanalizacyjne i odwodnieniowe – rodzina 18 CPR 2024. Rury PVC-U, PP, PE, ceramiczne do kanalizacji grawitacyjnej. System AVS 3 lub 4. Klasy sztywności obwodowej SN2-SN16."
+excerpt: "Wyroby kanalizacyjne i odwodnieniowe – rodzina 18 CPR 2024. Rury PVC-U, PP, PE, ceramiczne do kanalizacji grawitacyjnej. System AVCP 3 lub 4. Klasy sztywności obwodowej SN2-SN16."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -99,7 +99,7 @@ Tworzywa sztuczne charakteryzują się znacznym GWP (~1,5–3,0 kg CO2eq/kg dla 
 
 Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z palisadą zewnętrznie) z PP do kanalizacji deszczowej w pasach drogowych:
 1. Badania ITT wg EN 13476-3: sztywność obwodowa SN8, szczelność połączeń (test B), udarność, wymiary
-2. System AVS 3 – NTL ([ITCZLin](https://www.itczlin.pl)) przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
+2. System AVCP 3 – NTL ([ITCZLin](https://www.itczlin.pl)) przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 3. Badanie składu chemicznego – brak plastyfikatorów ftalanowych, brak metali ciężkich
 4. Opracowanie EPD z uwzględnieniem udziału recyklatu PP (25% recyklat post-produkcyjny)
 5. DoP&C: SN 8, klasa pierścieniowa, szczelność typ B, GWP 2,1 kg CO2eq/kg
@@ -107,9 +107,9 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 ## Checklist producenta
 
 - [ ] Identyfikacja właściwej normy (EN 1401-1, EN 1329-1, EN 1453-1, EN 13476 seria, EN 1519-1, EN 1852-1)
-- [ ] Ustalenie systemu AVS (3 dla kanalizacji zewnętrznej/nośnej, 4 dla pomocniczej)
+- [ ] Ustalenie systemu AVCP (3 dla kanalizacji zewnętrznej/nośnej, 4 dla pomocniczej)
 - [ ] Przeprowadzenie badań ITT (sztywność, szczelność, odporność chemiczna, wymiary)
-- [ ] Skontaktowanie się z NTL ([ITCZLin](https://www.itczlin.pl)) w celu przeprowadzenia ITT i z JN w celu uzyskania certyfikatu (System AVS 3)
+- [ ] Skontaktowanie się z NTL ([ITCZLin](https://www.itczlin.pl)) w celu przeprowadzenia ITT i z JN w celu uzyskania certyfikatu (System AVCP 3)
 - [ ] Wdrożenie ZKP z kontrolą każdej partii produkcyjnej
 - [ ] Sprawdzenie składu chemicznego surowców pod kątem REACH i RoHS
 - [ ] Wystawienie DoP&C z deklaracją SN, szczelności, klasy materiału

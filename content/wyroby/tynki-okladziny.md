@@ -115,7 +115,7 @@ Systemy GK (płyty gipsowo-kartonowe) są najczęściej testowane jako zestawy (
 
 Producent tynku silikonowego ziarnistego (baranek 1,5 mm) przeznaczonego do wykończeń elewacyjnych:
 1. Badania ITT wg EN 15824: wytrzymałość na ściskanie, przyczepność, przepuszczalność pary, absorpcja wody, mrozoodporność, trwałość powłoki
-2. System AVS 4 – producent przeprowadza badania samodzielnie w akredytowanym laboratorium
+2. System AVCP 4 – producent przeprowadza badania samodzielnie w akredytowanym laboratorium
 3. Deklaracja zawartości VOC: tynk silikonowy na bazie wodnej – TVOC 8 g/l (poniżej progu dyrektywy 42/CE)
 4. Sprawdzenie biocydów stosowanych do ochrony przed algami i grzybami (REACH/BPR)
 5. DoP&C: CS II, W1, V2, klasa A1 (niepalny), TVOC 8 g/l, GWP 1,1 kg CO2eq/kg
@@ -124,14 +124,14 @@ Producent tynku silikonowego ziarnistego (baranek 1,5 mm) przeznaczonego do wyko
 
 Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoinowa):
 1. Badania ogniowe zestawu wg EN 1364-1 w akredytowanym laboratorium – uzyskany wynik EI 60
-2. System AVS 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
+2. System AVCP 3 – NTL przeprowadza ITT, JN wydaje certyfikat, producent prowadzi ZKP
 3. Klasyfikacja wg EN 13501-2: EI 60
 4. DoP&C dla zestawu: EI 60, odporność akustyczna Rw=45dB, A2-s1,d0
 
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 998-1, EN 15824, EN 15825, EN 13963, EN 520 lub inne)
-- [ ] Ustalenie systemu AVS (3 dla wyrobów z deklarowaną odpornością ogniową lub zewnętrznych, 4 dla pozostałych)
+- [ ] Ustalenie systemu AVCP (3 dla wyrobów z deklarowaną odpornością ogniową lub zewnętrznych, 4 dla pozostałych)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Badania emisji VOC i substancji niebezpiecznych dla tynków wewnętrznych
 - [ ] Sprawdzenie biocydów stosowanych w tynkach elewacyjnych (Rozporządzenie BPR)

@@ -114,14 +114,14 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 ## Checklist producenta
 
 - [ ] Zidentyfikować typ wyrobu i właściwą normę (EN 572, EN 12150, EN 14449, EN 1279 lub inna)
-- [ ] Wybrać system AVS (3 lub 4) adekwatny do deklarowanych właściwości
+- [ ] Wybrać system AVCP (3 lub 4) adekwatny do deklarowanych właściwości
 - [ ] Zlecić ITT w laboratorium notyfikowanym dla szkła bezpiecznego, hartowanego, laminowanego
 - [ ] Wdrożyć ZKP i prowadzić dokumentację procesu hartowania lub laminowania
 - [ ] Zadeklarować Ug, Rw, g-value, LT w DoP&C zgodnie z EN 673, EN 140, EN 410
 - [ ] Przeprowadzić testy udarowe wg EN 12600 i zadeklarować klasę bezpieczeństwa
 - [ ] Ocenić GWP i udział stłuczki z recyklingu (BWR 7)
 - [ ] Wystawić DoP&C w formacie CPR 2024 i oznaczyć wyrób CE
-- [ ] Sprawdzić kwalifikację szkła ognioodpornego (dodatkowy system AVS 1)
+- [ ] Sprawdzić kwalifikację szkła ognioodpornego (dodatkowy system AVCP 1)
 
 ## Gdzie szukać wsparcia
 

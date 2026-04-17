@@ -124,7 +124,7 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 - [ ] Wybrać właściwą jednostkę oceny technicznej (TAB) z [EOTA](https://www.eota.eu)
 - [ ] Przeprowadzić kompletny program badań wg EAD (wyrwanie, ścinanie, sejsmika, korozja)
 - [ ] Uzyskać Europejską Ocenę Techniczną (ETA) od TAB
-- [ ] Uzyskać certyfikat wyrobu od jednostki notyfikowanej (system AVS 1)
+- [ ] Uzyskać certyfikat wyrobu od jednostki notyfikowanej (system AVCP 1)
 - [ ] Wdrożyć ZKP i poddać ją nadzorowi jednostki notyfikowanej
 - [ ] Wystawić DoP&C na podstawie ETA i certyfikatu, umieścić oznakowanie CE
 - [ ] Ocenić GWP i trwałość antykorozyjną łącznika (BWR 7)

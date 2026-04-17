@@ -88,11 +88,11 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Przykłady wyrobów
 
-**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do NTL (np. ICiMB), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
+**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVCP 3 – producent zleca ITT do NTL (np. ICiMB), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
 
-**Stalowy elastyczny wkład kominowy**: Przewód ze stali kwasoodpornej 316L, DN 130 mm, klasa T120 N1 W, przeznaczony do kotłów gazowych. EN 1856-2, system AVS 3. Producent deklaruje szczelność, odporność korozyjną, zakres temperatur pracy.
+**Stalowy elastyczny wkład kominowy**: Przewód ze stali kwasoodpornej 316L, DN 130 mm, klasa T120 N1 W, przeznaczony do kotłów gazowych. EN 1856-2, system AVCP 3. Producent deklaruje szczelność, odporność korozyjną, zakres temperatur pracy.
 
-**System powietrzno-spalinowy (LAS) dla kotła kondensacyjnego**: Kompletny zestaw koaxialny PP/PP DN 60/100 mm do kotłów kondensacyjnych do 30 kW. EN 14989-1, klasy szczelności na kondensację, odporność na kwasy. System AVS 3 lub ocena techniczna (ETA) dla innowacyjnych konfiguracji.
+**System powietrzno-spalinowy (LAS) dla kotła kondensacyjnego**: Kompletny zestaw koaxialny PP/PP DN 60/100 mm do kotłów kondensacyjnych do 30 kW. EN 14989-1, klasy szczelności na kondensację, odporność na kwasy. System AVCP 3 lub ocena techniczna (ETA) dla innowacyjnych konfiguracji.
 
 ## Checklist producenta
 

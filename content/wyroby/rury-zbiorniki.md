@@ -106,7 +106,7 @@ Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarują
 
 - [ ] Potwierdzić klasyfikację wyrobu do rodziny 28 (nie 29 – woda pitna) wg kryterium przeznaczenia
 - [ ] Zidentyfikować właściwą normę zharmonizowaną (EN 1555, EN 13941, EN 13244 lub inna)
-- [ ] Wybrać system AVS (3 lub 4) i zlecić ITT jednostce notyfikowanej (AVS 3)
+- [ ] Wybrać system AVCP (3 lub 4) i zlecić ITT jednostce notyfikowanej (AVCP 3)
 - [ ] Wdrożyć ZKP i prowadzić dokumentację zgodną z wybraną normą
 - [ ] Zadeklarować właściwości mechaniczne: MOP, MRS, SCG, SN (stosownie do wyrobu)
 - [ ] Ocenić i zadeklarować GWP (BWR 7) oraz emisję do gruntu (BWR 6 dla zbiorników)

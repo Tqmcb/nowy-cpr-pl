@@ -115,7 +115,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 
 **Lekki dom szkieletowy (timber frame) wg ETA** – budynki jednorodzinne do 2 kondygnacji; prefabrikacja ścian w fabryce; montaż na budowie w 3–5 dni; U ściany ≤ 0,15 W/m²K z izolacją wełnianą.
 
-**Płyty stropowe kanałowe HC (EN 1168)** – rozpiętości 6–16 m; obciążenie użytkowe 5–10 kN/m²; budownictwo wielorodzinne, biurowe, przemysłowe; system AVS 2+.
+**Płyty stropowe kanałowe HC (EN 1168)** – rozpiętości 6–16 m; obciążenie użytkowe 5–10 kN/m²; budownictwo wielorodzinne, biurowe, przemysłowe; system AVCP 2+.
 
 **Systemowa hala stalowa LSF** – słupy i dźwigary z profili gorącowalcowanych; obudowa z paneli sandwich (EN 14509); ETA lub normy EN dla poszczególnych elementów.
 
@@ -124,7 +124,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 - [ ] Zidentyfikować, czy dla systemu istnieje hEN czy konieczna jest ścieżka ETA
 - [ ] Wybrać TAB (jednostkę oceny technicznej z [EOTA](https://www.eota.eu)) i złożyć wniosek o ETA jeśli potrzebna
 - [ ] Przeprowadzić obliczenia nośności wg Eurokodów i badania laboratoryjne
-- [ ] Wybrać system AVS (1 lub 2+) i uzyskać certyfikat od jednostki notyfikowanej
+- [ ] Wybrać system AVCP (1 lub 2+) i uzyskać certyfikat od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP w fabryce i poddać ją audytom zewnętrznym
 - [ ] Opracować EPD systemu i rozważyć walidację danych środowiskowych (system 3+) – szczególnie dla drewna
 - [ ] Przygotować cyfrowy paszport wyrobu z DoP&C dostępną przez kod QR

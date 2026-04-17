@@ -7,7 +7,7 @@ category: "Wyroby drogowe"
 avs_system: "2+ / 3"
 normy: ["EN 13808", "EN 14188-1", "EN 12591", "EN 13043", "EN 1338", "EN 1339", "EN 1340"]
 tags: ["asfalt", "drogi", "kostka brukowa", "krawężniki", "CPR 2024"]
-excerpt: "Wyroby drogowe – rodzina 23 CPR 2024. Asfalty drogowe i modyfikowane, mieszanki asfaltowe, kostka betonowa, krawężniki. System AVS 2+ dla prefabrykatów betonowych, AVS 3 dla asfaltów."
+excerpt: "Wyroby drogowe – rodzina 23 CPR 2024. Asfalty drogowe i modyfikowane, mieszanki asfaltowe, kostka betonowa, krawężniki. System AVCP 2+ dla prefabrykatów betonowych, AVCP 3 dla asfaltów."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -114,7 +114,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 
 Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 1. Badania ITT wg EN 1338: wytrzymałość T≥3,6 MPa, ścieralność klasa 1, PSV≥44, mrozoodporność D
-2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
+2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVCP 2+
 3. Opracowanie EPD z deklaracją GWP 155 kg CO2eq/t (10% kruszywa z recyklingu betonu w składzie)
 4. Walidacja danych środowiskowych w Systemie AVS 3+ – raport walidacyjny
 5. DoP&C: EN 1338, klasa T, PSV ≥44, klasa mrozoodporności D, GWP 155 kg CO2eq/t
@@ -123,17 +123,17 @@ Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 
 Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 1. Badania ITT wg EN 14023: penetracja, punkt mięknienia, odporność na starzenie RTFOT+PAV
-2. System AVS 3 – badania ITT w NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
+2. System AVCP 3 – badania ITT w NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
 3. Sprawdzenie zawartości PAH (poliaromatycznych węglowodorów) wg REACH
 4. DoP&C: PMB 45/80-55, zawartość polimeru min. 3,5% SBS, brak PAH ponad limity REACH
 
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 12591, EN 14023, EN 13808, EN 1338, EN 1339, EN 1340)
-- [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
+- [ ] Ustalenie systemu AVCP (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
-- [ ] Certyfikacja ZKP przez JN ([Multicert](https://www.multicert.com.pl)) dla Systemu AVS 2+
-- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
+- [ ] Certyfikacja ZKP przez JN ([Multicert](https://www.multicert.com.pl)) dla Systemu AVCP 2+
+- [ ] Dla asfaltów (AVCP 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
 - [ ] Wystawienie DoP&C z deklaracją klas właściwości, GWP i cyrkulacyjnych wskaźników

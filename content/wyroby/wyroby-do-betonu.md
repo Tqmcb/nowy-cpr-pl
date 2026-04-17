@@ -103,8 +103,8 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 ## Checklist producenta
 
 - [ ] Zidentyfikować właściwą normę z serii EN 934 lub EN 450/EN 15167/EN 13263
-- [ ] Wybrać system AVS (2+ lub 3) i zlecić audyt ZKP lub ITT jednostce notyfikowanej
-- [ ] Uzyskać certyfikat ZKP od jednostki notyfikowanej (system AVS 2+)
+- [ ] Wybrać system AVCP (2+ lub 3) i zlecić audyt ZKP lub ITT jednostce notyfikowanej
+- [ ] Uzyskać certyfikat ZKP od jednostki notyfikowanej (system AVCP 2+)
 - [ ] Przeprowadzić badania chlorków, alkaliów i substancji szkodliwych
 - [ ] Sporządzić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE
 - [ ] Ocenić i zadeklarować GWP wyrobu (BWR 7)
