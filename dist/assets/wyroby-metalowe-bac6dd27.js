@@ -4,10 +4,10 @@ family_number: 20
 family_name_en: "STRUCTURAL METALLIC PRODUCTS AND ANCILLARIES"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+"
+avs_system: "2+"
 normy: ["EN 10025-1", "EN 10210-1", "EN 10219-1", "EN 1090-1", "EN 1090-2"]
 tags: ["stal", "konstrukcja", "EN 1090", "profile", "CPR 2024"]
-excerpt: "Metalowe wyroby konstrukcyjne – rodzina 20 CPR 2024. Profile stalowe, rury zamknięte, blachy. EN 1090 i klasy wykonania EXC1-EXC4. Obecnie AVCP 1 (EXC3/4) i AVCP 2+ (EXC1/2) — docelowo AVS po publikacji hTS. Kluczowe: certyfikacja spawalnicza."
+excerpt: "Metalowe wyroby konstrukcyjne – rodzina 20 CPR 2024. Profile stalowe, rury zamknięte, blachy. EN 1090 i klasy wykonania EXC1-EXC4. Obecnie AVCP 2+ (wszystkie EXC) — docelowo AVS po publikacji hTS. Kluczowe: certyfikacja spawalnicza."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -38,31 +38,20 @@ Rodzina 20 wyróżnia się tym, że **certyfikacja EN 1090 dotyczy nie tylko pro
 
 ### TERAZ — system AVCP (CPR 305/2011 + EN 1090-1 Załącznik ZA)
 
-Aktualnie obowiązujący system oceny wynika z **Załącznika ZA normy EN 1090-1:2009+A1:2011** i decyzji Komisji Europejskiej. Dla metalowych wyrobów konstrukcyjnych stosuje się dwa poziomy nadzoru w zależności od klasy wykonania (EXC):
+Aktualnie obowiązujący system oceny wynika z **Załącznika ZA normy EN 1090-1:2009+A1:2011** i decyzji Komisji Europejskiej.
 
-**AVCP 1 — klasy wykonania EXC3 i EXC4:**
-- EXC3: mosty, stadiony, maszty, hale o skomplikowanej geometrii
-- EXC4: off-shore, instalacje sejsmiczne, budowle specjalne
-- **Zadania JN:** audyt i certyfikacja ZKP + **audit sampling** (pobieranie próbek przed dopuszczeniem do obrotu) + niezależne badania próbek. JN wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU).
+**AVCP 2+ — dla wszystkich klas wykonania (EXC1–EXC4):**
+- **Zadania JN:** wstępna inspekcja zakładu + certyfikacja ZKP + nadzór ciągły (audyty co 12 mies.)
 - **Numer NB** pojawia się w oznakowaniu CE.
-- Producent prowadzi ZKP i badania ITT.
+- Producent prowadzi ZKP, samodzielnie przeprowadza badania ITT i deklaruje właściwości w DoP.
 
-**AVCP 2+ — klasy wykonania EXC1 i EXC2:**
-- EXC1: proste elementy ze stali S235/S275, obciążenia statyczne
-- EXC2: standardowe hale, konstrukcje biurowe, elementy powtarzalne
-- **Zadania JN:** audyt i certyfikacja ZKP — **bez** audit sampling ante-market.
-- **Numer NB** pojawia się w oznakowaniu CE.
-- Producent prowadzi ZKP i samodzielnie przeprowadza badania ITT.
+Klasa wykonania (EXC) **nie zmienia poziomu systemu AVCP** — jest zawsze 2+. Klasa EXC wpływa natomiast na wymagania techniczne: poziom kwalifikacji spawalniczej (IWE dla EXC3/4, IWT dla EXC2), zakres badań NDT, tolerancje geometryczne i wymagania dokumentacyjne.
 
 ### W PRZYSZŁOŚCI — system AVS (CPR 2024/3110 + nowe hTS)
 
-Po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla rodziny 20 system AVCP zostanie zastąpiony przez AVS. Na podstawie struktury CPR 2024/3110 (Załącznik IX) można spodziewać się analogicznego podziału:
+Po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla rodziny 20 system AVCP zostanie zastąpiony przez AVS (Załącznik IX CPR 2024/3110). Konkretny poziom AVS dla poszczególnych klas EXC zostanie określony w Załączniku ZA nowej hTS — na dziś nie jest jeszcze znany. CPR 2024 definiuje 6 systemów AVS: **1+, 1, 2+, 3, 3+, 4**.
 
-| System | Klasa EXC | Rola JN |
-|---|---|---|
-| **AVS 1** | EXC3, EXC4 | Certyfikacja ZKP + certyfikat właściwości i zgodności |
-| **AVS 2+** | EXC1, EXC2 | Certyfikacja ZKP (bez audit sampling) |
-| **AVS 3+** | Wszystkie | Walidacja danych środowiskowych (LCA/EPD) przez NTL — dobrowolne lub wymagane w zamówieniach publicznych |
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł (lub w niektórych przypadkach będzie musiał) skorzystać z **Systemu AVS 3+** — walidacja danych LCA/EPD przez notyfikowane laboratorium techniczne (NTL). System 3+ jest niezależny od systemu głównego wyrobu i dotyczy wyłącznie danych środowiskowych.
 
 **Nowe obowiązki producenta po wejściu hTS:**
 - Deklaracja DoP&C zamiast DoP (w formie cyfrowej, art. 16 CPR 2024)
@@ -133,7 +122,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 ## Checklist producenta (stan obecny — AVCP)
 
 - [ ] Ustalenie klas wykonania EXC dla produkowanych elementów (na podstawie EC0/EC1)
-- [ ] Wybór systemu AVCP (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej JN
+- [ ] System AVCP 2+ (wszystkie klasy EXC) — wybór akredytowanej JN
 - [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl)
 - [ ] Przygotowanie procedur spawania (WPS/WPQR wg EN ISO 15614)
 - [ ] Zatrudnienie personelu nadzoru spawalniczego (IWE/IWT) odpowiedniego dla EXC
