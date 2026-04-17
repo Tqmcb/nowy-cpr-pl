@@ -101,7 +101,7 @@ Wytwórnia musi posiadać:
 
 | Data | Wydarzenie |
 |---|---|
-| **Teraz (do hTS)** | Obowiązuje EN 1090-1:2009+A1:2011 + system AVCP 1 / AVCP 2+ |
+| **Teraz (do hTS)** | Obowiązuje EN 1090-1:2009+A1:2011 + system AVCP 2+ (wszystkie klasy EXC) |
 | 8 stycznia 2026 | Wejście w życie przepisów ramowych CPR 2024; stara hEN i AVCP nadal obowiązują |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenie CPR 2024 |
 | ~2028–2030 | Spodziewana publikacja nowej hTS dla rodziny 20 — wówczas wchodzi system AVS i obowiązek DoP&C |
