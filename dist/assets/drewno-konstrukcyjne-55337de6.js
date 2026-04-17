@@ -4,7 +4,7 @@ family_number: 13
 family_name_en: "STRUCTURAL TIMBER PRODUCTS/ELEMENTS AND ANCILLARIES"
 date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
-avs_system: "1 / 2+"
+avs_system: "2+"
 normy: ["EN 14081-1", "EN 14080", "EN 15497", "EN 1995-1-1"]
 tags: ["drewno", "CLT", "glulam", "LVL", "CPR 2024"]
 excerpt: "Drewno konstrukcyjne – rodzina 13 CPR 2024. Drewno sortowane wytrzymałościowo, klejone warstwowo (GLT/BSH), CLT, LVL. Klasy C16-C30. CPR 2024 traktuje drewno jako materiał nisko- lub zeroemisyjny dzięki sekwestracji węgla."
@@ -29,13 +29,25 @@ Drewno jest jednym z najstarszych materiałów konstrukcyjnych, lecz CPR 2024/31
 | EN 14279:2004 | LVL – definicje, klasyfikacja i specyfikacja |
 | EN 16351:2015+A1:2021 | Drewno CLT (cross-laminated timber) |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Dla drewna konstrukcyjnego z rodziny 13 obowiązuje:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 13 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 14081-1, EN 14080, EN 16351). Nowy system AVS wejdzie w życie dopiero po publikacji hTS.
 
-- **System AVS 1** – dla drewna sortowanego wytrzymałościowo maszynowo (klasy MSo) oraz dla elementów GLT/CLT/LVL przeznaczonych do zastosowań nośnych. W systemie 1 producent przeprowadza wewnętrzną kontrolę produkcji (ZKP), a jednostka notyfikowana (JN) wydaje certyfikat zgodności ZKP po przeprowadzeniu audytu oraz niezależnych badań próbek.
-- **System AVS 2+** – dla drewna sortowanego wizualnie lub dla elementów o niższym poziomie krytyczności.
-- **System AVS 3+** – nowy system w CPR 2024/3110, dedykowany walidacji danych środowiskowych (wyników LCA). Notyfikowane laboratorium techniczne (NTL) wydaje **raport walidacyjny** (nie certyfikat), potwierdzający prawidłowość obliczeń GWP i innych wskaźników środowiskowych.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+**AVCP 2+ — dla wszystkich wyrobów z drewna konstrukcyjnego (EN 14081-1, EN 14080, EN 16351, EN 15497):**
+
+Dotyczy zarówno drewna sortowanego wizualnie, jak i maszynowo (MSo), a także GLT/BSH, CLT i LVL. EN 14081-1 Załącznik ZA specyfikuje AVCP 2+ dla wszystkich kategorii — nie ma rozróżnienia na System 1 w tej normie.
+
+- **Zadania JN:** wstępna inspekcja zakładu + certyfikacja ZKP + coroczne audyty nadzorcze
+- **Numer NB** w oznakowaniu CE
+- Producent prowadzi ZKP i samodzielnie przeprowadza badania ITT
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 13 określi poziom AVS. Na podstawie charakterystyki ryzyka (drewno konstrukcyjne nośne) można spodziewać się AVS 2+ lub potencjalnie wyższego dla niektórych zastosowań — zależnie od zapisów nowej hTS.
+
+**System AVS 3+** — po wejściu hTS — dla walidacji danych środowiskowych (EPD/LCA). Notyfikowane laboratorium techniczne (NTL) wydaje raport walidacyjny potwierdzający prawidłowość obliczeń GWP. Dla drewna szczególnie istotne ze względu na ujemne GWP (sekwestracja węgla).
 
 Producenci CLT i GLT powinni skontaktować się z jednostką notyfikowaną, taką jak [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl), w celu certyfikacji ZKP.
 
@@ -85,7 +97,7 @@ Producenci, którzy uzyskali certyfikację pod CPR 305/2011, muszą śledzić pu
 Firma produkująca panele CLT do budownictwa modularnego przechodzi z CPR 305/2011 na CPR 2024/3110. Zakres działań:
 1. Aktualizacja zakładowej kontroli produkcji (ZKP) wg EN 16351
 2. Zlecenie badań typu ITT do akredytowanego laboratorium
-3. Uzyskanie certyfikatu ZKP od jednostki notyfikowanej (System AVS 1)
+3. Uzyskanie certyfikatu ZKP od jednostki notyfikowanej (System AVCP 2+)
 4. Zlecenie opracowania EPD (ISO 14040/14044) z uwzględnieniem ujemnego GWP
 5. Walidacja danych środowiskowych przez NTL w Systemie 3+ – uzyskanie raportu walidacyjnego
 6. Wystawienie DoP&C z deklaracją GWP (~-0,9 kg CO2eq/kg po odjęciu emisji produkcji od sekwestracji)
@@ -96,7 +108,7 @@ Oceny techniczne (ETA) dla innowacyjnych systemów CLT można uzyskać poprzez [
 
 - [ ] Zidentyfikowanie właściwej normy zharmonizowanej (EN 14081-1, EN 14080, EN 16351, EN 15497)
 - [ ] Przeprowadzenie badań wstępnych ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
-- [ ] Wdrożenie zakładowej kontroli produkcji (ZKP) zgodnej z wymogami systemu AVS 1 lub 2+
+- [ ] Wdrożenie zakładowej kontroli produkcji (ZKP) zgodnej z wymogami systemu AVCP 2+
 - [ ] Uzyskanie certyfikatu ZKP od akredytowanej jednostki notyfikowanej
 - [ ] Opracowanie EPD i walidacja danych środowiskowych zgodnie z EN 15804+A2 (System AVS 3+)
 - [ ] Wystawienie Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)

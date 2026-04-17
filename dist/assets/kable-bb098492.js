@@ -4,7 +4,7 @@ family_number: 31
 family_name_en: "POWER, CONTROL AND COMMUNICATION CABLES"
 date: "2026-02-25"
 category: "Elektryczne"
-avs_system: "3"
+avs_system: "1+ / 3"
 normy: ["EN 50575", "EN 60332-1-2", "EN 50399", "EN IEC 60332-3-24"]
 tags: ["kable", "reakcja na ogień", "EN 50575", "klasy Cca", "CPR 2024"]
 excerpt: "Kable elektroenergetyczne i komunikacyjne – rodzina 31 CPR 2024. Klasy reakcji na ogień Aca-Fca. EN 50575 i obowiązek oznakowania CE od 2017."
@@ -38,15 +38,25 @@ Szczególną cechą tej rodziny jest fakt, że norma EN 50575 i system certyfika
 | Klasyfikacja kabli i ocena wiązek przy paleniu | EN 50399:2011+A1:2016 |
 | Badanie wiązek kabli – kategoria C | EN IEC 60332-3-24:2018 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Dla rodziny 31 obowiązuje wyłącznie **system AVS 3**:
+> ⚠️ Kable weszły pod CPR już od 2017 r. (EN 50575 + Rozporządzenie delegowane (UE) 2016/364). To jedyna rodzina wyrobów, dla której CPR 2024 nie zmienia zasadniczo systemu certyfikacji — EN 50575 pozostaje obowiązującą normą do czasu publikacji nowej hTS.
 
-- Jednostka notyfikowana wykonuje wstępne badanie typu (ITT) obejmujące testy reakcji na ogień (pionowe, wiązkowe), wytwarzania dymu, spalania kapiącego i kwasowości spalin.
-- Producent wdraża zakładową kontrolę produkcji (ZKP) i prowadzi jej dokumentację.
-- Na podstawie raportu ITT i ZKP producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**.
+### TERAZ — system AVCP (EN 50575 + Rozporządzenie (UE) 2016/364)
 
-Brak tutaj systemu AVS 1 lub 2+ – wszystkie kable budowlane objęte są systemem 3. Oznacza to, że jednostka notyfikowana **nie certyfikuje wyrobu końcowego**, a jedynie przeprowadza badania wstępne. Nadzór nad ciągłością właściwości leży po stronie producenta i jego ZKP.
+System AVCP zależy od **klasy reakcji na ogień** deklarowanej przez producenta:
+
+| Klasy | System AVCP | Rola JN |
+|---|---|---|
+| **Aca, B1ca, B2ca, Cca** | **AVCP 1+** | JN przeprowadza ITT + certyfikuje ZKP + ciągły nadzór. Numer NB w oznakowaniu CE. |
+| **Dca** | **AVCP 3** | JN (NTL) przeprowadza ITT. Producent prowadzi ZKP samodzielnie. Brak numeru NB w CE. |
+| **Eca, Fca** | **AVCP 4** | Producent samodzielnie. Brak udziału JN. |
+
+Jeśli producent **nie deklaruje** klasy ogniowej (NPD – No Performance Declared), stosuje AVCP 4.
+
+### W PRZYSZŁOŚCI — po publikacji hTS
+
+Nowa hTS dla rodziny 31 (gdy zostanie opublikowana) zastąpi EN 50575. System AVCP zmieni się w AVS zgodnie z CPR 2024/3110 Załącznik IX — podział wg klas ogniowych prawdopodobnie zostanie zachowany.
 
 **System 3+** – nowy w CPR 2024 – dla walidacji danych środowiskowych (wyników LCA). Dotyczy kabli z tworzyw sztucznych (PVC, XLPE, LSZH), gdzie produkcja jest materiałochłonna i energochłonna.
 
