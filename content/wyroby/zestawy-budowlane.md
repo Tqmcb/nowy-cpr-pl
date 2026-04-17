@@ -50,15 +50,25 @@ Rodzina 34 obejmuje kompleksowe systemy i zestawy elementów, które razem tworz
 
 **Ważna uwaga:** Dla kompleksowych zestawów budowlanych (pełne domy, systemy modułowe) często **nie istnieje norma zharmonizowana obejmująca cały zestaw** – producent musi wówczas uzyskać **indywidualną Europejską Ocenę Techniczną (ETA)** opracowaną przez TAB na podstawie dedykowanego EAD lub metodą ad hoc.
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 34 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EAD (różne), EN 15498, EN 14915). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 34 stosuje się systemy AVS (Assessment and Verification of Constancy of Performance) **1, 2+** lub **ETA** zależnie od wyrobu:
 
-- **System AVS 1** – dla systemów nośnych, które bezpośrednio wpływają na stabilność budynku (ściany nośne, stropy): jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP.
-- **System AVS 2+** – dla prefabrykowanych elementów z częściowo znormalizowanymi właściwościami: jednostka notyfikowana certyfikuje ZKP, producent przeprowadza ITT.
-- **Ścieżka ETA** – dla systemów innowacyjnych lub nieposiadających hEN: pełna ocena przez TAB, następnie certyfikacja AVS 1. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** po uzyskaniu ETA i certyfikatu.
+- **System AVCP 1** – dla systemów nośnych, które bezpośrednio wpływają na stabilność budynku (ściany nośne, stropy): jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP.
+- **System AVCP 2+** – dla prefabrykowanych elementów z częściowo znormalizowanymi właściwościami: jednostka notyfikowana certyfikuje ZKP, producent przeprowadza ITT.
+- **Ścieżka ETA** – dla systemów innowacyjnych lub nieposiadających hEN: pełna ocena przez TAB, następnie certyfikacja AVCP 1. Producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** po uzyskaniu ETA i certyfikatu.
 
 **System 3+** – dla walidacji danych środowiskowych (wyników LCA) zestawu budowlanego jako całości. Zestawy drewniane mają zazwyczaj ujemny ślad węglowy (sekwestracja CO2 w drewnie) i mogą to prezentować przez zwalidowane dane środowiskowe w EPD.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 34 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1 / 2+) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

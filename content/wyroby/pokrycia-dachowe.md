@@ -34,15 +34,25 @@ Jedną ze specyfik rodziny 22 jest klasa odporności ogniowej **BROOF** – klas
 | EN 13501-5 | Klasyfikacja reakcji na ogień – dachy (zewnętrzne) |
 | EN 12210 | Okna i drzwi – odporność na obciążenie wiatrem |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 22 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 490, EN 1304, EN 544). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla wyrobów z rodziny 22 obowiązuje:
 
-- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
+- **System AVCP 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 
 Badania dachowe (BROOF, wodoszczelność, wytrzymałość mechaniczna) wykonuje m.in. [ITCZLin](https://www.itczlin.pl), który posiada stanowiska do badań pokryć dachowych.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 22 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

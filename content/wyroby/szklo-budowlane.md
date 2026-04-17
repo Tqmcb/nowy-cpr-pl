@@ -40,14 +40,24 @@ Rodzina 30 obejmuje następujące kategorie wyrobów szklanych:
 | Szkło cieplnie wzmocnione | EN 1863-1:2011 |
 | Pustakowce szklane | EN 1051-1:2003+A1:2013 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 30 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 572-1, EN 1279-1, EN 14449). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
-- **System AVS 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
-- **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
+- **System AVCP 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
 **System 3+** – nowy w CPR 2024 – dla walidacji deklaracji środowiskowych. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 30 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

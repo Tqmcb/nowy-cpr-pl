@@ -33,16 +33,26 @@ Z perspektywy środowiskowej ceramika murowa (cegły wypalane) należy do materi
 | EN 998-2:2016 | Zaprawy murarskie – do murowania (masonry mortar) |
 | EN 845-1 do -3 | Wyroby pomocnicze – kotwy, zbrojenie spoin, nadproża prefabrykowane |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 17 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 771-1, EN 771-2, EN 771-3). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 
-- **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez JN jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
-- **System AVS 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
+- **System AVCP 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez JN jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
+- **System AVCP 3** – dla elementów nienośnych lub dekoracyjnych: notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla elementów o minimalnych wymaganiach bezpieczeństwa (dekoracyjne kamienie okładzinowe, elementy architektoniczne bez funkcji nośnej).
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów dążących do deklarowania GWP.
 
 W Polsce certyfikację ceramicznych wyrobów murowych prowadzi [ICiMB](https://www.icimb.pl) (NB 1454). Dla elementów betonowych i silikatowych właściwym podmiotem jest [Multicert](https://www.multicert.com.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 17 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (2+ / 3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

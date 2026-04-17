@@ -37,14 +37,24 @@ Główne właściwości użytkowe deklarowane w DoP&C obejmują: sprawność ene
 | Piece do ogrzewania pomieszczeń – określanie mocy | EN 15544:2008 |
 | Kotły grzewcze na paliwa stałe, moc do 500 kW | EN 303-5:2012 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 27 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13384-1, EN 13384-2, EN 15544). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
-- **System AVS 4** – dla urządzeń grzewczych niższej klasy, o prostszym profilu właściwości deklarowanych, stosowanych w standardowych warunkach budowlanych: producent samodzielnie przeprowadza badanie typu i zakładową kontrolę produkcji (ZKP).
-- **System AVS 3** – dla urządzeń z rozszerzonymi deklaracjami (emisje, efektywność energetyczna, odporność ogniowa): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** stanowiący podstawę DoP&C. Numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla urządzeń grzewczych niższej klasy, o prostszym profilu właściwości deklarowanych, stosowanych w standardowych warunkach budowlanych: producent samodzielnie przeprowadza badanie typu i zakładową kontrolę produkcji (ZKP).
+- **System AVCP 3** – dla urządzeń z rozszerzonymi deklaracjami (emisje, efektywność energetyczna, odporność ogniowa): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** stanowiący podstawę DoP&C. Numer JN pojawia się w oznakowaniu CE.
 
 **System 3+** – dla walidacji danych środowiskowych (wyników LCA) dotyczących GWP urządzenia grzewczego i spalania paliw.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 27 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

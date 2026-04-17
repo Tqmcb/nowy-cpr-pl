@@ -31,15 +31,25 @@ Rodzina obejmuje: elastyczne membrany dachowe bitumiczne (APP i SBS) oraz polime
 | Folia wstępnego krycia (wiatroizolacja) | EN 13859-1 |
 | Membrany do tuneli | EN 13491 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Membrany hydroizolacyjne podlegają systemowi AVS 3 lub AVS 4, w zależności od wymagań konkretnej normy zharmonizowanej i zamierzonego zastosowania:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 3 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13956, EN 13967, EN 13969). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** stosuje się dla membran dachowych (EN 13956), membran fundamentowych (EN 13967, EN 13969) oraz membran do obiektów inżynierskich (EN 14695, EN 13491), gdy przepisy krajowe lub normy wyrobu wskazują na wyższe wymagania – np. gdy wyrób jest przeznaczony do zastosowania w budynkach użyteczności publicznej lub obiektach, których awaria mogłaby powodować poważne konsekwencje. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-**System AVS 4** jest najmniej restrykcyjny i dotyczy membran do mniej krytycznych zastosowań (np. paroizolacje wewnętrzne EN 13984, folie wstępnego krycia EN 13859). Producent samodzielnie deklaruje wszystkie właściwości i prowadzi FPC bez zaangażowania jednostki notyfikowanej. Wyłącznie sam przeprowadza badania ITT.
+Membrany hydroizolacyjne podlegają systemowi AVCP 3 lub AVCP 4, w zależności od wymagań konkretnej normy zharmonizowanej i zamierzonego zastosowania:
+
+**System AVCP 3** stosuje się dla membran dachowych (EN 13956), membran fundamentowych (EN 13967, EN 13969) oraz membran do obiektów inżynierskich (EN 14695, EN 13491), gdy przepisy krajowe lub normy wyrobu wskazują na wyższe wymagania – np. gdy wyrób jest przeznaczony do zastosowania w budynkach użyteczności publicznej lub obiektach, których awaria mogłaby powodować poważne konsekwencje. W systemie AVCP 3 notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
+
+**System AVCP 4** jest najmniej restrykcyjny i dotyczy membran do mniej krytycznych zastosowań (np. paroizolacje wewnętrzne EN 13984, folie wstępnego krycia EN 13859). Producent samodzielnie deklaruje wszystkie właściwości i prowadzi FPC bez zaangażowania jednostki notyfikowanej. Wyłącznie sam przeprowadza badania ITT.
 
 Kluczową rolę w badaniach membran hydroizolacyjnych pełnią laboratoria akredytowane, takie jak [ITCZLin](https://www.itczlin.pl). Kompleksową certyfikację wyrobów izolacyjnych oferuje [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 3 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

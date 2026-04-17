@@ -29,15 +29,25 @@ Rodzina obejmuje: płyty gipsowo-kartonowe (GKB – standardowe, GKF – ogniood
 | Elementy gipsowe do ścian działowych | EN 12859 |
 | Płyty sufitowe z gipsu | EN 14190 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 7 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 520, EN 13279-1, EN 13950). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-**System AVS 4** dotyczy tynków gipsowych i mas szpachlowych (EN 13279-1) oraz prostszych elementów gipsowych. Producent samodzielnie przeprowadza ITT, zarządza FPC i wydaje DoP&C bez zaangażowania jednostki notyfikowanej.
+Wyroby gipsowe podlegają systemowi **AVCP 3 lub AVCP 4**:
+
+**System AVCP 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
+
+**System AVCP 4** dotyczy tynków gipsowych i mas szpachlowych (EN 13279-1) oraz prostszych elementów gipsowych. Producent samodzielnie przeprowadza ITT, zarządza FPC i wydaje DoP&C bez zaangażowania jednostki notyfikowanej.
 
 Badania właściwości wyrobów gipsowych (ognioodporność, izolacyjność akustyczna, wytrzymałość, reakcja na wilgoć) wykonują laboratoria akredytowane takie jak [ITCZLin](https://www.itczlin.pl). Kompleksowa certyfikacja dostępna jest przez [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 7 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

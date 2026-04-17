@@ -32,17 +32,27 @@ Rodzina obejmuje: bariery ochronne stalowe (Highway Restraint Systems) – barie
 | Retrorefleksyjne znaki drogowe (folie retrorefleksyjne) | EN 1463-1 |
 | Znaki drogowe stałe (folie i materiały) | EN 1436 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 12 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1317-1, EN 1317-2, EN 12767). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Rodzina 12 jest zróżnicowana pod względem systemu AVS:
 
-**System AVS 1** obowiązuje dla **barier ochronnych** (EN 1317-2, EN 1317-3, EN 1317-6) ze względu na krytyczną funkcję ochrony życia uczestników ruchu drogowego. W systemie AVS 1 jednostka notyfikowana przeprowadza lub nadzoruje pełne badania ITT – w tym testy zderzeniowe (crash tests) przeprowadzane z udziałem rzeczywistych pojazdów na torach badawczych, certyfikuje FPC producenta i wydaje certyfikat CoCP. Ciągły nadzór obejmuje regularne audyty zakładu.
+**System AVCP 1** obowiązuje dla **barier ochronnych** (EN 1317-2, EN 1317-3, EN 1317-6) ze względu na krytyczną funkcję ochrony życia uczestników ruchu drogowego. W systemie AVCP 1 jednostka notyfikowana przeprowadza lub nadzoruje pełne badania ITT – w tym testy zderzeniowe (crash tests) przeprowadzane z udziałem rzeczywistych pojazdów na torach badawczych, certyfikuje FPC producenta i wydaje certyfikat CoCP. Ciągły nadzór obejmuje regularne audyty zakładu.
 
 Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na akredytowanych torach badawczych. W Europie funkcjonuje kilka laboratoriów zdolnych do przeprowadzenia testów wg EN 1317 z pełnym monitoringiem (akcelerometry, kamery szybkie, pomiary odkształceń). Wyniki testów zderzeniowych stanowią podstawę raportu z klasyfikacji.
 
-**System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+**System AVCP 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów drogowych oferuje [Multicert](https://www.multicert.pl). Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 12 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1 / 3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

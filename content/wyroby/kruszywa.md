@@ -34,9 +34,13 @@ CPR 2024/3110 wprowadza szczególnie istotne zmiany dla kruszyw z recyklingu –
 | EN 13450:2002 | Kruszywa na podsypkę kolejową |
 | EN 12407:2019 | Metody badań kamienia naturalnego |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 24 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 12620, EN 13043, EN 13055). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVCP 2+**:
 
 1. **Producent** – wdraża i prowadzi zakładową kontrolę produkcji (ZKP) obejmującą regularną kontrolę uziarnienia, właściwości geometrycznych, fizycznych i chemicznych kruszywa. Częstotliwości badań określone są w normie wyrobu (np. EN 12620).
 2. **Jednostka notyfikowana (JN)** – certyfikuje ZKP: przeprowadza audyt wytwórni (kopalni, zakładu przeróbki) i ocenia system kontroli produkcji. Wydaje certyfikat ZKP.
@@ -45,6 +49,12 @@ Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
 W Polsce certyfikację ZKP dla producentów kruszyw prowadzi:
 - [Multicert](https://www.multicert.com.pl) – specjalizacja w certyfikacji kruszyw betonowych, drogowych i specjalnych
 - [ICiMB](https://www.icimb.pl) – dla kruszyw ceramicznych i lekkich ekspandowanych (keramzyt)
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 24 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (2+) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

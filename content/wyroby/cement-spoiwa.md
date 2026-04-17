@@ -28,9 +28,13 @@ Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośr
 | EN 14216:2015 | Cement specjalny o bardzo niskim cieple hydratacji VLH |
 | EN 15743:2010 | Cement siarczanoodporny – skład i wymagania |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1+** – najwyższy stopień nadzoru zewnętrznego:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 15 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 197-1, EN 197-5, EN 413-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVCP 1+** – najwyższy stopień nadzoru zewnętrznego:
 
 1. **Producent** – ustanawia i prowadzi zakładową kontrolę produkcji (ZKP) zgodnie z wymaganiami normy EN 197-1 lub właściwej normy wyrobu.
 2. **Jednostka notyfikowana (JN)** – przeprowadza:
@@ -41,6 +45,12 @@ Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1
 W Polsce certyfikację cementu prowadzą m.in.:
 - [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych (NB 1454), specjalizacja w cemencie i ceramice
 - [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 15 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1+) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

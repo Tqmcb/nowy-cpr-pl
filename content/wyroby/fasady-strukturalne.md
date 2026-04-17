@@ -27,13 +27,23 @@ Rodzina obejmuje: aluminiowe systemy ścian osłonowych słupkowo-ryglowych (mul
 
 Wiele systemów fasadowych wprowadzanych jest na rynek na podstawie Europejskich Ocen Technicznych (ETA) wydawanych przez Jednostki Oceny Technicznej (TAB). Wynika to z faktu, że EN 13830 nie pokrywa wszystkich wariantów systemów fasadowych (np. punkt-fix, BIPV, panele kompozytowe ACM), a producenci muszą indywidualnie wykazać spełnienie wymagań.
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wystawia DoP&C.
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 9 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13830, EN 15434). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Systemy fasadowe podlegają wyłącznie **systemowi AVCP 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wystawia DoP&C.
 
 Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
-Należy podkreślić, że dla systemów fasadowych z elementami o odporności ogniowej (np. ściana osłonowa z klasą EI 30 lub REI 60) powiązana norma ogniowa wymaga zaangażowania jednostki notyfikowanej z kompetencjami pożarowymi – system może wówczas de facto wymagać AVS 1 lub certyfikacji ogniowej.
+Należy podkreślić, że dla systemów fasadowych z elementami o odporności ogniowej (np. ściana osłonowa z klasą EI 30 lub REI 60) powiązana norma ogniowa wymaga zaangażowania jednostki notyfikowanej z kompetencjami pożarowymi – system może wówczas de facto wymagać AVCP 1 lub certyfikacji ogniowej.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 9 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

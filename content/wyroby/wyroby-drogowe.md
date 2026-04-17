@@ -34,17 +34,27 @@ Rodzina 23 jest istotna z perspektywy środowiskowej ze względu na duże wolume
 | EN 1343:2012 | Kamienne krawężniki uliczne – wymagania |
 | EN 13748-2:2004 | Płyty chodnikowe z kamienia naturalnego – do zastosowań zewnętrznych |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 23 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13808, EN 14188-1, EN 12591). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
 
-**System AVS 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
+**System AVCP 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
 
-**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
+**System AVCP 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
 
 **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 
 W Polsce certyfikację betonowych wyrobów drogowych prowadzi [Multicert](https://www.multicert.com.pl). Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 23 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (2+ / 3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

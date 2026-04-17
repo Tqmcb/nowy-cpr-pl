@@ -34,15 +34,25 @@ Rodzina 21 obejmuje również **systemy ETICS** (ang. External Thermal Insulatio
 | EN 15283-1:2008 | Płyty gipsowo-włóknowe – wymagania, definicje |
 | EN 14190:2014 | Wtórnie przetworzone wyroby gipsowe |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 21 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 998-1, EN 15824, EN 15825). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla wyrobów z rodziny 21 obowiązuje:
 
-- **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
+- **System AVCP 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników środowiskowych.
 
 Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 21 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

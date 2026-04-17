@@ -48,13 +48,17 @@ W odróżnieniu od większości rodzin CPR 2024, dla łączników **brakuje szer
 | Kołki rozporowe z tworzyw sztucznych | ETAG 020 (zastąpiony EAD) |
 | Kotwy wstrzeliwane | EAD 330154-00-0601 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Dla łączników na podstawie ETA obowiązuje **system AVS 1** – najwyższy poziom nadzoru:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 33 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EAD 330232-00-0601, EAD 330499-00-0601, EAD 330087-00-0601). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Dla łączników na podstawie ETA obowiązuje **system AVCP 1** – najwyższy poziom nadzoru:
 
 - Jednostka oceny technicznej (TAB – Technical Assessment Body) przeprowadza pełną ocenę techniczną wyrobu i wydaje **Europejską Ocenę Techniczną (ETA)**.
 - ETA zawiera Deklarację Właściwości Użytkowych i Zgodności (DoP&C) – producent może ją wystawić po uzyskaniu ETA.
-- Jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP (system AVS 1).
+- Jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP (system AVCP 1).
 - Oznakowanie CE możliwe jest wyłącznie po uzyskaniu ETA i certyfikatu zgodności.
 
 W Polsce funkcjonuje jednostka oceny technicznej (TAB) wpisana do organizacji [EOTA](https://www.eota.eu). Procedury opisane są na [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Inne europejskie TAB (np. DIBt w Niemczech, CSTB we Francji) mogą wystawiać ETA uznawane w całej UE.
@@ -64,6 +68,12 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 - TR 029 (EOTA Technical Report) – metoda oceny nośności kotew
 - Fib Design Guide for Anchorages
 - EN 1992-4:2018 (Eurokod 2, część 4) – projektowanie połączeń kotwionych
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 33 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

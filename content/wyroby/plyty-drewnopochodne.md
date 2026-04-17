@@ -40,15 +40,25 @@ Norma zharmonizowana EN 13986 stanowi punkt wyjścia dla oznakowania CE wszystki
 | EN 634-1 i -2 | Płyty wiórowo-cementowe – wymagania |
 | EN 13501-1 | Klasyfikacja reakcji na ogień |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 14 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13986, EN 309, EN 300). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla płyt drewnopochodnych z rodziny 14 obowiązuje jeden z dwóch systemów:
 
-- **System AVS 3** – dla płyt stosowanych w miejscach krytycznych pod względem nośności lub bezpieczeństwa pożarowego. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wykonuje ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla płyt niskiego ryzyka (np. dekoracyjne, nieobciążone nośnie). Producent samodzielnie deklaruje właściwości na podstawie własnych badań i ZKP.
+- **System AVCP 3** – dla płyt stosowanych w miejscach krytycznych pod względem nośności lub bezpieczeństwa pożarowego. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wykonuje ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla płyt niskiego ryzyka (np. dekoracyjne, nieobciążone nośnie). Producent samodzielnie deklaruje właściwości na podstawie własnych badań i ZKP.
 - **System AVS 3+** – stosowany do walidacji danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną; szczególnie istotny ze względu na emisje formaldehydu i VOC.
 
 Badania płyt drewnopochodnych (oznaczanie emisji formaldehydu, badania mechaniczne, reakcja na ogień) wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 14 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

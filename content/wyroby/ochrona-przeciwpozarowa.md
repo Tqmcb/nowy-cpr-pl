@@ -53,20 +53,30 @@ Rodzina 35 dzieli się na cztery główne podkategorie:
 | Ochrona konstrukcji stalowych – powłoki reaktywne (intumescencja) | EN 13381-8:2013 |
 | Klasyfikacja odporności ogniowej | EN 13501-2:2016 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Rodzina 35 jako całość objęta jest **systemem AVS 1** – jednym z najbardziej rygorystycznych w CPR:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 35 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1366-1, EN 1366-3, EN 1366-4). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Rodzina 35 jako całość objęta jest **systemem AVCP 1** – jednym z najbardziej rygorystycznych w CPR:
 
 - Jednostka notyfikowana (certyfikujący organ kontroli) przeprowadza **certyfikację wyrobu** obejmującą: wstępne badanie typu (ITT), audyt zakładowej kontroli produkcji (ZKP) i stały nadzór.
 - Producent nie może wystawić **Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)** bez uprzedniego uzyskania **certyfikatu zgodności** od jednostki notyfikowanej.
-- Oznakowanie CE możliwe jest wyłącznie po uzyskaniu certyfikatu AVS 1.
+- Oznakowanie CE możliwe jest wyłącznie po uzyskaniu certyfikatu AVCP 1.
 
-Rygoryzm systemu AVS 1 dla BOP wynika bezpośrednio z podstawowego wymagania BWR 2 (Bezpieczeństwo pożarowe) – wyroby ochrony ppoż. decydują dosłownie o życiu i śmierci użytkowników budynku w sytuacji pożaru.
+Rygoryzm systemu AVCP 1 dla BOP wynika bezpośrednio z podstawowego wymagania BWR 2 (Bezpieczeństwo pożarowe) – wyroby ochrony ppoż. decydują dosłownie o życiu i śmierci użytkowników budynku w sytuacji pożaru.
 
 **Kluczowa jednostka notyfikowana w Polsce:**
 [CNBOP-PIB (Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej)](https://www.cnbop.pl) jest notyfikowaną jednostką certyfikującą i badającą wyroby ochrony ppoż. na rynku polskim. Posiada akredytacje PCA i notyfikację KE dla norm z rodziny EN 1366 i EN 13381.
 
 **System 3+** – dla deklaracji środowiskowych powłok intumescencyjnych i impregnantów ognioochronnych (substancje aktywne, GWP).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 35 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

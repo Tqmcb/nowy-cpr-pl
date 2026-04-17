@@ -55,14 +55,24 @@ Komisja Europejska pracuje nad dedykowaną normą zharmonizowaną dla drabin prz
 **Uwaga dot. przyszłości rodziny 36:**
 Komisja Europejska sygnalizuje, że rodzina 36 może zostać połączona z rodziną 34 (zestawy budowlane) w przyszłych nowelizacjach CPR. Aktualnie (stan na 2026 r.) rodzina 36 funkcjonuje jako samodzielna. Producenci powinni monitorować dalsze prace legislacyjne.
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 36 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN ISO 14122-4, EN 131-7). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 36 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
-- **System AVS 4** – dla drabin o prostszym profilu właściwości (drabiny do niskich instalacji, standardowe stalowe bez systemu bezpieczeństwa): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla drabin na znacznych wysokościach (> 3 m), z koszem ochronnym lub szyną bezpieczeństwa, w obiektach użyteczności publicznej: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla drabin o prostszym profilu właściwości (drabiny do niskich instalacji, standardowe stalowe bez systemu bezpieczeństwa): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
+- **System AVCP 3** – dla drabin na znacznych wysokościach (> 3 m), z koszem ochronnym lub szyną bezpieczeństwa, w obiektach użyteczności publicznej: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących właściwości środowiskowe drabin stalowych lub aluminiowych (GWP stali i aluminium, udział metali z recyklingu).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 36 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

@@ -38,14 +38,24 @@ Do rodziny 26 należą również wyroby do naprawy betonu (zaprawy naprawcze wg 
 | Granulowany żużel wielkopiecowy (GGBS) | EN 15167-1:2006 |
 | Pył krzemionkowy (mikrosilika) | EN 13263-1:2005+A1:2009 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 26 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 934-2, EN 934-3, EN 934-4). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 26 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **2+** i **3**:
 
-- **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
-- **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
+- **System AVCP 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
+- **System AVCP 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
 
-W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla danych środowiskowych (wyników LCA) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
+W systemie AVCP 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik. Dla danych środowiskowych (wyników LCA) zastosowanie ma nowy **system 3+** – walidacja przez jednostkę notyfikowaną.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 26 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (2+ / 3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

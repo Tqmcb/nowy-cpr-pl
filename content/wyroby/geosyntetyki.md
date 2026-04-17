@@ -32,15 +32,25 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 | Geosyntetyki do składowisk odpadów (uszczelnienie) | EN 13257 |
 | Geosyntetyki do składowisk odpadów ciekłych | EN 13265 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczności zastosowania i wymagań normy:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 8 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13249, EN 13250, EN 13251). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-**System AVS 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
+Geosyntetyki podlegają systemowi **AVCP 3 lub AVCP 4** w zależności od krytyczności zastosowania i wymagań normy:
+
+**System AVCP 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
+
+**System AVCP 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
 
 Badania laboratoryjne geosyntetyków wykonują laboratoria wyspecjalizowane w badaniach polimerów i materiałów geotechnicznych. W Polsce [ITCZLin](https://www.itczlin.pl) posiada odpowiednie wyposażenie. Certyfikacja systemu FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 8 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

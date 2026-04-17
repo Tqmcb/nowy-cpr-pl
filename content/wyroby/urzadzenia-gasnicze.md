@@ -34,11 +34,15 @@ Rodzina obejmuje: systemy sygnalizacji pożarowej (SSP) – centrale, czujniki d
 | Dysze zraszaczowe | EN 12259-3 |
 | Stałe urządzenia pianowe | EN 13565-1 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Wszystkie wyroby z rodziny 10 podlegają **systemowi AVS 1** – najwyższemu poziomowi rygoru certyfikacyjnego. Wynika to wprost z podstawowego wymagania bezpieczeństwa nr 2 CPR: „Bezpieczeństwo pożarowe" – urządzenia ochrony ppoż. muszą działać niezawodnie w sytuacji zagrożenia życia.
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 10 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 54-1, EN 12094-1, EN 12259-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-W systemie AVS 1 zakres zadań jednostki notyfikowanej obejmuje:
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Wszystkie wyroby z rodziny 10 podlegają **systemowi AVCP 1** – najwyższemu poziomowi rygoru certyfikacyjnego. Wynika to wprost z podstawowego wymagania bezpieczeństwa nr 2 CPR: „Bezpieczeństwo pożarowe" – urządzenia ochrony ppoż. muszą działać niezawodnie w sytuacji zagrożenia życia.
+
+W systemie AVCP 1 zakres zadań jednostki notyfikowanej obejmuje:
 
 - **Wstępne badanie ITT**: Pełne badanie typowe przeprowadzone lub nadzorowane przez jednostkę notyfikowaną; zakres testów jest rozległy – niezawodność działania, funkcjonalność w ekstremalnych warunkach środowiskowych (temperatura, wilgotność, wibracje, EMC)
 - **Wstępna inspekcja zakładu i FPC**: Ocena systemu zarządzania jakością produkcji przed wydaniem certyfikatu
@@ -46,6 +50,12 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej obejmuje:
 - **Ciągły nadzór**: Regularne audyty (co najmniej raz w roku) obejmujące kontrolę FPC, wyniki badań wewnętrznych i losowe badania próbek pobranych z rynku lub zakładu
 
 Kluczową polską jednostką notyfikowaną dla wyrobów przeciwpożarowych jest [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego w Józefowie (numer notyfikacji NB 1438). CNBOP-PIB posiada kompleksowe laboratoria ppoż. i jest uznawane za wiodące centrum kompetencji w zakresie ochrony przeciwpożarowej w Polsce i Europie Środkowej.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 10 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

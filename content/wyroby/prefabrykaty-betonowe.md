@@ -32,15 +32,25 @@ Do rodziny tej zalicza się szerokie spectrum wyrobów: belki i podciągi sprę�
 | Ogólne wymagania bazowe | EN 13369 |
 | Lekkie prefabrykaty kruszywowe | EN 15435 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Prefabrykaty betonowe podlegają systemowi AVS 1 lub 2+, w zależności od klasy zagrożenia zdefiniowanej w danej normie zharmonizowanej. System AVS 1 (najwyższy rygor) obowiązuje dla elementów konstrukcyjnych o klasie zagrożenia wyższej – typowo belki i słupy stosowane jako elementy nośne, płyty kanałowe stropowe w budynkach wielokondygnacyjnych oraz konstrukcje mostowe. System AVS 2+ stosuje się dla elementów o niższej klasie zagrożenia, takich jak ogrodzenia, elementy ogrodowe lub ściany działowe nienośne.
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 1 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13369, EN 13225, EN 1168). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-W systemie AVS 1 jednostka notyfikowana przeprowadza: wstępne badanie typu (ITT – Initial Type Testing), inspekcję wstępną zakładu produkcyjnego i zakładowej kontroli produkcji (FPC), a następnie prowadzi ciągły nadzór nad FPC producenta. Producent jest odpowiedzialny za ITT i prowadzenie FPC zgodnie z zatwierdzonym podręcznikiem. Zakres certyfikacji obejmuje wystawienie certyfikatu stałości właściwości użytkowych (Certificate of Constancy of Performance, CoCP).
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-W systemie AVS 2+ jednostka notyfikowana certyfikuje system FPC producenta (wydaje certyfikat systemu FPC), natomiast producent samodzielnie przeprowadza ITT.
+Prefabrykaty betonowe podlegają systemowi AVCP 1 lub 2+, w zależności od klasy zagrożenia zdefiniowanej w danej normie zharmonizowanej. System AVCP 1 (najwyższy rygor) obowiązuje dla elementów konstrukcyjnych o klasie zagrożenia wyższej – typowo belki i słupy stosowane jako elementy nośne, płyty kanałowe stropowe w budynkach wielokondygnacyjnych oraz konstrukcje mostowe. System AVCP 2+ stosuje się dla elementów o niższej klasie zagrożenia, takich jak ogrodzenia, elementy ogrodowe lub ściany działowe nienośne.
+
+W systemie AVCP 1 jednostka notyfikowana przeprowadza: wstępne badanie typu (ITT – Initial Type Testing), inspekcję wstępną zakładu produkcyjnego i zakładowej kontroli produkcji (FPC), a następnie prowadzi ciągły nadzór nad FPC producenta. Producent jest odpowiedzialny za ITT i prowadzenie FPC zgodnie z zatwierdzonym podręcznikiem. Zakres certyfikacji obejmuje wystawienie certyfikatu stałości właściwości użytkowych (Certificate of Constancy of Performance, CoCP).
+
+W systemie AVCP 2+ jednostka notyfikowana certyfikuje system FPC producenta (wydaje certyfikat systemu FPC), natomiast producent samodzielnie przeprowadza ITT.
 
 Kluczową polską jednostką notyfikowaną dla prefabrykatów betonowych jest [Multicert](https://www.multicert.com.pl) – posiada akredytację PCA i notyfikację do certyfikacji zgodności prefabrykatów z betonu zwykłego, lekkiego i komórkowego. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 1 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1 / 2+) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

@@ -31,15 +31,25 @@ Rodzina obejmuje: systemy kominowe ceramiczne (kamionkowe wkłady kominowe), sys
 | Elastyczne metalowe wkłady kominowe | EN 1856-2 |
 | Przewody ceramiczne (kształtki kominowe) | EN 1806 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Systemy kominowe podlegają systemowi **AVS 3 lub AVS 4**, w zależności od konkretnej normy zharmonizowanej i kategorii wyrobu:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 6 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1443, EN 1457-1, EN 1457-2). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-**System AVS 4** może mieć zastosowanie dla prostszych elementów uzupełniających (czapki kominowe, przewody elastyczne do zastosowań mniej krytycznych), gdzie producent samodzielnie wykonuje ITT bez zaangażowania jednostki notyfikowanej.
+Systemy kominowe podlegają systemowi **AVCP 3 lub AVCP 4**, w zależności od konkretnej normy zharmonizowanej i kategorii wyrobu:
+
+**System AVCP 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
+
+**System AVCP 4** może mieć zastosowanie dla prostszych elementów uzupełniających (czapki kominowe, przewody elastyczne do zastosowań mniej krytycznych), gdzie producent samodzielnie wykonuje ITT bez zaangażowania jednostki notyfikowanej.
 
 Ceramiczne wkłady kominowe i kształtki wymagają badań w laboratoriach wyspecjalizowanych w ceramice budowlanej. W Polsce kompetencje w tym zakresie posiada [ICiMB](https://www.icimb.pl) – Instytut Ceramiki i Materiałów Budowlanych, który prowadzi badania wyrobów ceramicznych i ogniotrwałych. Dla metalowych systemów kominowych właściwe jest [ITCZLin](https://www.itczlin.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 6 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

@@ -35,13 +35,23 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 | System ETICS z wełną mineralną (tynk mineralny) | EN 13500 |
 | Wyroby do izolacji instalacji (w budynkach) | EN 14303–14315 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-**System AVS 1** obowiązuje dla wyrobów izolacyjnych stosowanych w ogniochronnych systemach izolacji, jeśli norma wyrobu lub przepis krajowy wskazuje na zastosowanie krytyczne (np. izolacja o funkcji ogniochronnej). W praktyce AVS 1 dotyczy wyrobów z wełny mineralnej deklarowanych jako materiał klasy A1/A2 stosowany w systemach ogniochronnych, gdzie jednostka notyfikowana certyfikuje FPC i wydaje CoCP.
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 4 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 13162, EN 13163, EN 13164). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+**System AVCP 1** obowiązuje dla wyrobów izolacyjnych stosowanych w ogniochronnych systemach izolacji, jeśli norma wyrobu lub przepis krajowy wskazuje na zastosowanie krytyczne (np. izolacja o funkcji ogniochronnej). W praktyce AVCP 1 dotyczy wyrobów z wełny mineralnej deklarowanych jako materiał klasy A1/A2 stosowany w systemach ogniochronnych, gdzie jednostka notyfikowana certyfikuje FPC i wydaje CoCP.
+
+**System AVCP 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
 Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 4 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1 / 3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 

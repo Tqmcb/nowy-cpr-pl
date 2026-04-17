@@ -38,16 +38,26 @@ Kluczowym kryterium rozgraniczającym rodziny 28 i 29 jest **przeznaczenie mediu
 | Sieci ciepłownicze preizolowane | EN 13941-1:2019 |
 | Rury PE – zastosowania ogólne bez wody pitnej | EN 12201-1 (cz. bez kontaktu z wodą pitną) |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 28 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1555-1, EN 1555-2, EN 1555-3). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
-- **System AVS 4** – dla rur i zbiorników o niższym ryzyku (kanalizacja deszczowa, niepodciśnieniowe rury odpływowe): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla rur i zbiorników o niższym ryzyku (kanalizacja deszczowa, niepodciśnieniowe rury odpływowe): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
+- **System AVCP 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
-System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
+System AVCP 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 
 **System 3+** dla oceny środowiskowej: walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną dotyczy w szczególności rur PE (wytwarzanych z kopalnych surowców petrochemicznych) i preizolowanych rur ciepłowniczych (pianka PUR z blowing agents).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 28 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

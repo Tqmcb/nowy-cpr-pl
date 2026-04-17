@@ -37,14 +37,24 @@ Chemicznie uszczelniacze dzielą się na: **silikonowe** (najwyższa trwałość
 | Uszczelniacze drogowe (R) | EN 15651-4:2012 |
 | Uszczelniacze basenowe (P) | EN 15651-5:2017 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 32 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 15651-1, EN 15651-2, EN 15651-3). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
-- **System AVS 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
+- **System AVCP 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
 **System 3+** – dla walidacji danych środowiskowych (wyników LCA). Istotny dla uszczelniaczy silikonowych (produkcja silikonu jest energochłonna) i poliuretanowych (izocyjaniany i ich wpływ na środowisko).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 32 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

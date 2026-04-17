@@ -34,15 +34,25 @@ Wyróżniające cechy rodziny 19 z perspektywy CPR 2024/3110:
 | EN 14085 | Wyroby z kamienia naturalnego – posadzki |
 | EN 13813:2002 | Podkłady podłogowe i masy wylewne |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 19 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 14041, EN 14342, EN 14904). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla wyrobów z rodziny 19 obowiązuje:
 
-- **System AVS 3** – dla podłóg stosowanych w obiektach użyteczności publicznej, gdzie wymagania bezpieczeństwa pożarowego i antypoślizgowości są krytyczne. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
+- **System AVCP 3** – dla podłóg stosowanych w obiektach użyteczności publicznej, gdzie wymagania bezpieczeństwa pożarowego i antypoślizgowości są krytyczne. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
 
 Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 19 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

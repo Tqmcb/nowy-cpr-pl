@@ -32,9 +32,13 @@ System AVS 1+ dla tej rodziny wynika z bezpośredniego wpływu jakości zbrojeni
 
 Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich Ocen Technicznych (ETA), ponieważ nie objęto ich normą zharmonizowaną – [ocenytechniczne.pl](https://www.ocenytechniczne.pl) pośredniczy w uzyskaniu ETA dla takich systemów.
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-**System AVS 1+** dla stali zbrojeniowej i sprężającej oznacza:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 16 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 10080, EN ISO 15630-1, EN 10138-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+**System AVCP 1+** dla stali zbrojeniowej i sprężającej oznacza:
 
 1. **Producent** – wdraża ZKP zgodnie z wymaganiami EN 10080 i normy wyrobu. Obejmuje to kontrolę składu chemicznego (spectrometryczna analiza wytopów), właściwości mechanicznych (próba rozciągania, próba gięcia, próba zmęczeniowa), geometrii żeber i karbów, spawalności (ekwiwalent węglowy CE).
 2. **Jednostka notyfikowana** – przeprowadza:
@@ -45,6 +49,12 @@ Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich 
 3. **Audyty nadzorcze** – co 12 miesięcy lub przy zmianie procesu produkcji
 
 W Polsce certyfikację stali zbrojeniowej prowadzi m.in. [ITCZLin](https://www.itczlin.pl) oraz [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 16 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1+) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

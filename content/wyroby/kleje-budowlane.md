@@ -30,14 +30,24 @@ Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C
 | Kleje do parkietu i posadzek drewnianych – cementowe i dyspersyjne | EN 15836-1:2017 |
 | Kleje do parkietu – reaktywne | EN 15836-2:2017 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 25 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 12004-1, EN 12004-2, EN 15836-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**, zależnie od klasy wyrobu i deklarowanego zastosowania.
 
-- **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
-- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
+- **System AVCP 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
 
 CPR 2024 wprowadza ponadto **system 3+** dla walidacji danych środowiskowych – notyfikowane laboratorium techniczne (NTL) weryfikuje dane środowiskowe (wyniki LCA) i wydaje raport walidacyjny, potwierdzając rzetelność danych środowiskowych zadeklarowanych przez producenta.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 25 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

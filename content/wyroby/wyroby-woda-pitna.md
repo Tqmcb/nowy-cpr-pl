@@ -38,16 +38,26 @@ Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału 
 | Armatura – wymagania przepływu i szczelności | EN 15161:2007 |
 | Wymagania dotyczące higieny instalacji wodnych | EN 15713 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **systemem AVS 1** – najwyższym poziomem nadzoru nad stałością właściwości użytkowych:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 29 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1452-1, EN 12201-1, EN 1254-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-- **System AVS 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Producent może wystawić **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** dopiero po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
-- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP i wystawia DoP&C.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
+
+Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **systemem AVCP 1** – najwyższym poziomem nadzoru nad stałością właściwości użytkowych:
+
+- **System AVCP 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Producent może wystawić **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** dopiero po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
+- **System AVCP 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP i wystawia DoP&C.
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA); istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
 
 Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higienicznych** – właściwości migracyjnych materiałów (uwalnianie metali ciężkich, substancji organicznych, zapachu i smaku). Do 2026 roku obowiązywały w Europie cztery rozbieżne systemy krajowe: **system 4MS** (Francja, Niemcy, Holandia i Wielka Brytania – po Brexicie bez UK), **KIWA** (Holandia), **DVGW** (Niemcy) i **ACS** (Francja). CPR 2024 tworzy jednolite europejskie wymagania higieniczne, eliminując bariery techniczne wynikające z rozbieżności systemów krajowych.
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 29 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (1 / 3) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

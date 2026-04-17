@@ -34,15 +34,25 @@ CPR 2024/3110 kładzie w tej rodzinie szczególny nacisk na dwa wymagania podsta
 | EN 295-1 | Rurociągi ceramiczne z kamionki do kanalizacji |
 | EN 13252 | Geowłókniny – wymagania dla systemów drenarskich |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
+
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 18 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 1401-1, EN 1329-1, EN 1453-1). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
+
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
 Wyroby z rodziny 18 stosują:
 
-- **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
-- **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
+- **System AVCP 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
+- **System AVCP 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 
 Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 18 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024
 

@@ -32,15 +32,25 @@ Rodzina obejmuje: miski ustępowe (WC) – podwieszane i stojące, zbiorniki sp�
 | Wanny żeliwne | EN 232 |
 | Brodziki ceramiczne | EN 251 |
 
-## System AVS i certyfikacja
+## System oceny zgodności — OBECNY i PRZYSZŁY
 
-Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
+> ⚠️ Do czasu publikacji nowej hTS dla rodziny 11 obowiązuje AVCP z CPR 305/2011 i aktualne normy zharmonizowane (EN 997, EN 14688, EN 14527). Nowy system AVS wejdzie w życie dla tej rodziny dopiero po publikacji hTS.
 
-**System AVS 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+### TERAZ — system AVCP (CPR 305/2011 + Załącznik ZA norm)
 
-**System AVS 4** może być stosowany dla prostszych wyrobów i akcesoriów sanitarnych, gdzie producent samodzielnie przeprowadza ITT i zarządza całą dokumentacją. Dotyczy to m.in. zlewów ze stali nierdzewnej (EN 13310), prostych brodzików z tworzyw sztucznych.
+Wyroby sanitarne podlegają systemowi **AVCP 3 lub AVCP 4**:
+
+**System AVCP 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+
+**System AVCP 4** może być stosowany dla prostszych wyrobów i akcesoriów sanitarnych, gdzie producent samodzielnie przeprowadza ITT i zarządza całą dokumentacją. Dotyczy to m.in. zlewów ze stali nierdzewnej (EN 13310), prostych brodzików z tworzyw sztucznych.
 
 Badania właściwości wyrobów sanitarnych (wytrzymałość, odporność na zabrudzenia, właściwości higieniczne, odporność chemiczna) wymagają wyspecjalizowanych laboratoriów. [ITCZLin](https://www.itczlin.pl) posiada akredytację dla badań wyrobów ceramicznych i sanitarnych. Ceramiczne wyroby sanitarne badane są również przez [ICiMB](https://www.icimb.pl). Certyfikacja FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
+
+### W PRZYSZŁOŚCI — system AVS (po publikacji hTS)
+
+Nowa hTS dla rodziny 11 określi poziom AVS. Na podstawie dotychczasowego systemu AVCP (3 / 4) można spodziewać się zbliżonego poziomu rygoru — konkretne wymagania zostaną określone w Załączniku ZA nowej hTS.
+
+Niezależnie od poziomu AVS dla właściwości użytkowych, producent deklarujący właściwości środowiskowe (GWP/LCA) w DoP&C będzie mógł korzystać z **Systemu AVS 3+** — walidacja danych EPD przez notyfikowane laboratorium techniczne (NTL).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
