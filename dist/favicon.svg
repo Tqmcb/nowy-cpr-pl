@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Tło: dark slate -->
-  <rect width="32" height="32" rx="6" fill="#0F172A"/>
-  <!-- Litera N - amber -->
-  <text x="16" y="23" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" text-anchor="middle" fill="#F59E0B">N</text>
-  <!-- Dolna kreska akcentująca -->
-  <rect x="6" y="27" width="20" height="2" rx="1" fill="#F59E0B" opacity="0.6"/>
+  <rect width="32" height="32" rx="3" fill="#ffffff"/>
+  <rect x="0" y="0" width="12" height="3" fill="#b63d1a"/>
+  <text x="16" y="24" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="600" font-size="22" text-anchor="middle" fill="#1f2a3d">N</text>
 </svg>
