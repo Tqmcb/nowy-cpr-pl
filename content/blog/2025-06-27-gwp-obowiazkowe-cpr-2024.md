@@ -1,6 +1,6 @@
 ---
 title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
-reviewed: "2026-03-31"
+reviewed: "2026-04-20"
 date: "2025-06-27"
 author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
@@ -39,7 +39,7 @@ Harmonogram wygląda następująco:
 
 | Etap | Termin | Co się dzieje |
 |---|---|---|
-| GWP obowiązkowe dla wyrobów z nową hTS | po zakończeniu okresu koegzystencji po publikacji hTS w Dz.U. UE (typowo 12–36 mies. po publikacji) | Wyroby objęte zaktualizowaną normą zharmonizowaną muszą deklarować wskaźniki GWP (Załącznik II, pkt a–d) w DoP&C — **na marzec 2026 żadna nowa hTS z CPR 2024/3110 nie została jeszcze opublikowana** |
+| GWP obowiązkowe dla wyrobów z nową hTS | po zakończeniu okresu koegzystencji po publikacji hTS w Dz.U. UE (typowo 12–36 mies. po publikacji) | Wyroby objęte zaktualizowaną normą zharmonizowaną muszą deklarować wskaźniki GWP (Załącznik II, pkt a–d) w DoP&C — **na kwiecień 2026 żadna nowa hTS z CPR 2024/3110 nie została jeszcze opublikowana** |
 | Pełna lista wskaźników środowiskowych | 9 stycznia 2030 | Wszystkie podstawowe wskaźniki z Załącznika II (pkt e–m) |
 | Pełne raportowanie cyklu życia | 9 stycznia 2032 | Wszystkie wskaźniki z Załącznika II obowiązkowe |
 
@@ -139,7 +139,7 @@ KE planuje europejski rejestr EPD/DPP, który umożliwi porównywanie wyrobów p
 
 Obserwuję w branży pewne rozchwianie między dwoma skrajnymi postawami wobec GWP. Część producentów bagatelizuje temat: „to jeszcze daleko, normy nie ma, nic nie muszę". Druga część podchodzi panicznie: „muszę mieć EPD już teraz albo stracę rynek". Prawda, jak zwykle, leży pośrodku.
 
-Mechanizm uruchomienia obowiązku GWP jest precyzyjnie opisany w CPR 2024/3110 — aktywuje się dopiero po publikacji zaktualizowanej normy zharmonizowanej dla danej rodziny wyrobów i po zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie weszła jeszcze w życie. To oznacza, że **nie istnieje dziś żaden producent wyrobów budowlanych, który jest prawnie zobowiązany do deklarowania GWP** na mocy CPR 2024/3110.
+Mechanizm uruchomienia obowiązku GWP jest precyzyjnie opisany w CPR 2024/3110 — aktywuje się dopiero po publikacji zaktualizowanej normy zharmonizowanej dla danej rodziny wyrobów i po zakończeniu okresu koegzystencji. Na kwiecień 2026 żadna taka norma nie weszła jeszcze w życie. To oznacza, że **nie istnieje dziś żaden producent wyrobów budowlanych, który jest prawnie zobowiązany do deklarowania GWP** na mocy CPR 2024/3110.
 
 Jednak — i to jest kluczowe — zbieranie danych do LCA jest procesem długotrwałym i kosztownym. Producenci, którzy zaczną teraz: zbierać faktury energetyczne, weryfikować dane emisyjne dostawców surowców i kontaktować się z centrum badań EPD, będą w nieporównanie lepszej pozycji gdy obowiązek w końcu nadejdzie. Ci, którzy poczekają do ostatniej chwili, zapłacą wielokrotnie więcej i zrobią to pod presją czasu.
 
@@ -147,7 +147,7 @@ Mój praktyczny wniosek: **zacznij zbierać dane energetyczne i surowcowe już t
 
 ## Podsumowanie
 
-GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowiązek deklarowania wskaźników GWP (Załącznik II, pkt a–d) aktywuje się dla każdej rodziny wyrobów **po zakończeniu okresu koegzystencji następującego po publikacji zaktualizowanej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE** (zazwyczaj 12–36 miesięcy od publikacji hTS) — nie ma jednej globalnej daty dla wszystkich wyrobów. Na dzień publikacji tego artykułu (marzec 2026) żadna nowa hTS wynikająca z CPR 2024/3110 nie została jeszcze opublikowana. Pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do 9 stycznia 2032 r. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
+GWP przestaje być dobrowolnym wyróżnieniem — staje się obowiązkiem. Obowiązek deklarowania wskaźników GWP (Załącznik II, pkt a–d) aktywuje się dla każdej rodziny wyrobów **po zakończeniu okresu koegzystencji następującego po publikacji zaktualizowanej normy zharmonizowanej (hTS) w Dzienniku Urzędowym UE** (zazwyczaj 12–36 miesięcy od publikacji hTS) — nie ma jednej globalnej daty dla wszystkich wyrobów. Na kwiecień 2026 żadna nowa hTS wynikająca z CPR 2024/3110 nie została jeszcze opublikowana. Pełne wdrożenie środowiskowych wymagań CPR 2024 nastąpi do 9 stycznia 2032 r. Producenci, którzy zaczną zbierać dane i obliczać GWP teraz, będą gotowi na termin i zyskają przewagę w zielonych przetargach.
 
 ---
 

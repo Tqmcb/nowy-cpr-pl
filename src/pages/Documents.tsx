@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { DocumentsPage } from "components/DocumentsPage";
 import { Header } from "components/Header";
 import { Footer } from "components/Footer";
+import { RelatedPages } from "components/PageHeader";
 
 export default function Documents() {
   return (
@@ -22,6 +23,7 @@ export default function Documents() {
       </Helmet>
       <Header />
       <DocumentsPage />
+      <RelatedPages />
       <Footer />
     </>
   );

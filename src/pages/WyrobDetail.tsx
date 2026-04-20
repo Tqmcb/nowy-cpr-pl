@@ -12,14 +12,14 @@ import type { BlogPost } from "../utils/blogLoader";
 import { Helmet } from "react-helmet-async";
 
 const WYROB_COMPONENTS: Components = {
-  h1: ({ children }) => <h1 className="text-3xl font-bold text-[#0d2137] my-6 leading-tight">{children}</h1>,
-  h2: ({ children }) => <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>,
-  h3: ({ children }) => <h3 className="text-lg font-semibold text-[#1a56a0] mt-6 mb-3">{children}</h3>,
+  h1: ({ children }) => <h1 className="text-3xl font-bold text-[oklch(20% .03 264)] my-6 leading-tight">{children}</h1>,
+  h2: ({ children }) => <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>,
+  h3: ({ children }) => <h3 className="text-lg font-semibold text-[oklch(55% .22 27)] mt-6 mb-3">{children}</h3>,
   p: ({ children }) => <p className="text-slate-700 leading-relaxed my-4 text-[15px]">{children}</p>,
-  strong: ({ children }) => <strong className="text-[#0d2137] font-semibold">{children}</strong>,
+  strong: ({ children }) => <strong className="text-[oklch(20% .03 264)] font-semibold">{children}</strong>,
   em: ({ children }) => <em className="text-slate-500 italic">{children}</em>,
   a: ({ children, href }) => (
-    <a href={href} className="text-[#1a56a0] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+    <a href={href} className="text-[oklch(55% .22 27)] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   ),
@@ -28,22 +28,22 @@ const WYROB_COMPONENTS: Components = {
   li: ({ children, ordered, index }) => (
     <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
       {ordered ? (
-        <span className="text-[#1a56a0] font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">{(index ?? 0) + 1}.</span>
+        <span className="text-[oklch(55% .22 27)] font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">{(index ?? 0) + 1}.</span>
       ) : (
-        <span className="text-[#1a56a0] mt-2 shrink-0 text-xs">▪</span>
+        <span className="text-[oklch(55% .22 27)] mt-2 shrink-0 text-xs">▪</span>
       )}
       <span>{children}</span>
     </li>
   ),
   blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-[#1a56a0]/40 bg-[#1a56a0]/5 pl-5 py-3 my-5 rounded-r-lg">
+    <blockquote className="border-l-4 border-[oklch(55% .22 27)]/40 bg-[oklch(55% .22 27)]/5 pl-5 py-3 my-5 rounded-r-lg">
       <div className="text-slate-600 italic text-[15px]">{children}</div>
     </blockquote>
   ),
   hr: () => <hr className="border-slate-200 my-8" />,
   code: ({ children, className }) => {
-    if (className) return <code className={`${className} text-[#1a56a0] text-sm font-mono`}>{children}</code>;
-    return <code className="bg-slate-100 text-[#1a56a0] px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
+    if (className) return <code className={`${className} text-[oklch(55% .22 27)] text-sm font-mono`}>{children}</code>;
+    return <code className="bg-slate-100 text-[oklch(55% .22 27)] px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
   },
   pre: ({ children }) => (
     <pre className="bg-slate-50 border border-slate-200 rounded-xl p-5 overflow-x-auto my-6 text-sm font-mono leading-relaxed">{children}</pre>
@@ -53,7 +53,7 @@ const WYROB_COMPONENTS: Components = {
       <table className="w-full border-collapse text-sm">{children}</table>
     </div>
   ),
-  thead: ({ children }) => <thead className="bg-[#0d2137]">{children}</thead>,
+  thead: ({ children }) => <thead className="bg-[oklch(20% .03 264)]">{children}</thead>,
   tbody: ({ children }) => <tbody className="divide-y divide-slate-200">{children}</tbody>,
   tr: ({ children }) => <tr className="hover:bg-slate-50 transition-colors">{children}</tr>,
   th: ({ children }) => (
@@ -215,13 +215,13 @@ export default function WyrobDetail() {
           </script>
         )}
       </Helmet>
-      <div className="flex flex-col min-h-screen section-paper">
+      <div className="flex flex-col min-h-screen bg-white">
       <Header />
       <main className="flex-grow pt-24 pb-20">
         <Container>
           <button
             onClick={() => navigate("/wyroby")}
-            className="flex items-center gap-2 text-slate-500 hover:text-[#1a56a0] transition-colors mb-6 group"
+            className="flex items-center gap-2 text-slate-500 hover:text-[oklch(55% .22 27)] transition-colors mb-6 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             Wszystkie wyroby
@@ -243,10 +243,10 @@ export default function WyrobDetail() {
           {!loading && error && (
             <div className="text-center py-20">
               <Building2 className="w-16 h-16 text-slate-300 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-[#0d2137] mb-2">{error}</h3>
+              <h3 className="text-xl font-semibold text-[oklch(20% .03 264)] mb-2">{error}</h3>
               <button
                 onClick={() => navigate("/wyroby")}
-                className="mt-4 px-6 py-3 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors"
+                className="mt-4 px-6 py-3 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors"
               >
                 Wróć do katalogu
               </button>
@@ -255,22 +255,22 @@ export default function WyrobDetail() {
           {!loading && wyrob && (
             <>
               <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8">
-                <button onClick={() => navigate("/")} className="hover:text-[#1a56a0] transition-colors">
+                <button onClick={() => navigate("/")} className="hover:text-[oklch(55% .22 27)] transition-colors">
                   Strona główna
                 </button>
                 <ChevronRight className="w-3 h-3" />
-                <button onClick={() => navigate("/wyroby")} className="hover:text-[#1a56a0] transition-colors">
+                <button onClick={() => navigate("/wyroby")} className="hover:text-[oklch(55% .22 27)] transition-colors">
                   Wyroby
                 </button>
                 <ChevronRight className="w-3 h-3" />
-                <span className="text-[#0d2137]">{wyrob.title}</span>
+                <span className="text-[oklch(20% .03 264)]">{wyrob.title}</span>
               </nav>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 {/* Main content */}
                 <article className="lg:col-span-2">
                   <div className="mb-8">
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-sm font-bold">
+                      <span className="px-3 py-1 rounded-full bg-[oklch(55% .22 27)]/10 border border-[oklch(55% .22 27)]/20 text-[oklch(55% .22 27)] text-sm font-bold">
                         Rodzina #{wyrob.family_number}
                       </span>
                       {wyrob.category && (
@@ -279,7 +279,7 @@ export default function WyrobDetail() {
                         </span>
                       )}
                     </div>
-                    <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-3">
+                    <h1 className="text-3xl md:text-4xl font-bold text-[oklch(20% .03 264)] mb-3">
                       {wyrob.title}
                     </h1>
                     {wyrob.family_name_en && (
@@ -295,14 +295,14 @@ export default function WyrobDetail() {
                         </div>
                       )}
                       <div className="flex items-center gap-1.5 text-sm text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1.5 rounded-full">
-                        <ShieldCheck className="w-3.5 h-3.5 text-[#1a56a0] shrink-0" />
-                        <span>Weryfikacja: Dział Techniczny <strong className="text-[#0d2137]">Multicert Sp. z o.o.</strong></span>
+                        <ShieldCheck className="w-3.5 h-3.5 text-[oklch(55% .22 27)] shrink-0" />
+                        <span>Weryfikacja: Dział Techniczny <strong className="text-[oklch(20% .03 264)]">Multicert Sp. z o.o.</strong></span>
                       </div>
                       <a
                         href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-1.5 text-sm text-[#1a56a0] bg-[#1a56a0]/8 border border-[#1a56a0]/20 px-3 py-1.5 rounded-full hover:bg-[#1a56a0]/15 transition-colors"
+                        className="flex items-center gap-1.5 text-sm text-[oklch(55% .22 27)] bg-[oklch(55% .22 27)]/8 border border-[oklch(55% .22 27)]/20 px-3 py-1.5 rounded-full hover:bg-[oklch(55% .22 27)]/15 transition-colors"
                       >
                         <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                         <span className="font-medium">EUR-Lex: CPR 2024/3110</span>
@@ -339,19 +339,19 @@ export default function WyrobDetail() {
 
                   {/* ── Info card ── */}
                   <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
-                      <FileText className="w-5 h-5 text-[#1a56a0]" />
+                    <h3 className="text-[oklch(20% .03 264)] font-semibold text-base mb-4 flex items-center gap-2">
+                      <FileText className="w-5 h-5 text-[oklch(55% .22 27)]" />
                       Informacje o rodzinie
                     </h3>
                     <dl className="space-y-4">
                       <div>
                         <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Numer rodziny (Zał. VII)</dt>
-                        <dd className="text-[#0d2137] font-bold text-lg">#{wyrob.family_number}</dd>
+                        <dd className="text-[oklch(20% .03 264)] font-bold text-lg">#{wyrob.family_number}</dd>
                       </div>
                       {wyrob.avs_system && (
                         <div>
                           <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">System AVS</dt>
-                          <dd className="text-[#0d2137] font-semibold text-lg">{wyrob.avs_system}</dd>
+                          <dd className="text-[oklch(20% .03 264)] font-semibold text-lg">{wyrob.avs_system}</dd>
                         </div>
                       )}
                       {wyrob.category && (
@@ -379,20 +379,20 @@ export default function WyrobDetail() {
                     if (experts.length === 0) return null;
                     return (
                       <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
-                        <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
-                          <ShieldCheck className="w-5 h-5 text-[#1a56a0]" />
+                        <h3 className="text-[oklch(20% .03 264)] font-semibold text-base mb-4 flex items-center gap-2">
+                          <ShieldCheck className="w-5 h-5 text-[oklch(55% .22 27)]" />
                           Eksperci tematyczni
                         </h3>
                         <div className="space-y-4">
                           {experts.map((expert) => (
                             <div key={expert.name} className="flex items-start gap-3">
-                              <div className="w-10 h-10 rounded-full bg-[#0d2137] flex items-center justify-center shrink-0 text-white text-xs font-bold tracking-wide">
+                              <div className="w-10 h-10 rounded-full bg-[oklch(20% .03 264)] flex items-center justify-center shrink-0 text-white text-xs font-bold tracking-wide">
                                 {expert.initials}
                               </div>
                               <div>
-                                <p className="text-[#0d2137] font-semibold text-sm leading-tight">{expert.name}</p>
+                                <p className="text-[oklch(20% .03 264)] font-semibold text-sm leading-tight">{expert.name}</p>
                                 <p className="text-slate-500 text-xs mt-0.5 leading-snug">{expert.role}</p>
-                                <p className="text-[10px] text-[#1a56a0] font-medium mt-1">Multicert Sp. z o.o.</p>
+                                <p className="text-[10px] text-[oklch(55% .22 27)] font-medium mt-1">Multicert Sp. z o.o.</p>
                               </div>
                             </div>
                           ))}
@@ -402,9 +402,9 @@ export default function WyrobDetail() {
                   })()}
 
                   {/* ── Legal basis card ── */}
-                  <div className="bg-white border-2 border-[#1a56a0]/25 shadow-md rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
-                      <Scale className="w-5 h-5 text-[#1a56a0]" />
+                  <div className="bg-white border-2 border-[oklch(55% .22 27)]/25 shadow-md rounded-2xl p-6">
+                    <h3 className="text-[oklch(20% .03 264)] font-semibold text-base mb-4 flex items-center gap-2">
+                      <Scale className="w-5 h-5 text-[oklch(55% .22 27)]" />
                       Podstawa prawna
                     </h3>
                     <div className="space-y-4">
@@ -414,7 +414,7 @@ export default function WyrobDetail() {
                           href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-2 text-[#1a56a0] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
+                          className="flex items-center gap-2 text-[oklch(55% .22 27)] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
                         >
                           <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                           Rozporządzenie (EU) 2024/3110
@@ -428,7 +428,7 @@ export default function WyrobDetail() {
                           href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110#anx_VII"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center gap-2 text-[#1a56a0] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
+                          className="flex items-center gap-2 text-[oklch(55% .22 27)] font-semibold text-sm hover:text-[#1a3d6b] hover:underline transition-colors"
                         >
                           <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                           Pełna lista rodzin wyrobów
@@ -447,10 +447,10 @@ export default function WyrobDetail() {
                                 href={`https://www.pkn.pl/uslugi/wyszukiwarka-norm?q=${encodeURIComponent(norma)}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-slate-700 text-xs font-mono bg-slate-50 border border-slate-200 px-3 py-2 rounded-lg hover:border-[#1a56a0]/50 hover:text-[#1a56a0] hover:bg-[#1a56a0]/5 transition-all group"
+                                className="flex items-center gap-2 text-slate-700 text-xs font-mono bg-slate-50 border border-slate-200 px-3 py-2 rounded-lg hover:border-[oklch(55% .22 27)]/50 hover:text-[oklch(55% .22 27)] hover:bg-[oklch(55% .22 27)]/5 transition-all group"
                               >
                                 <span className="flex-1">{norma}</span>
-                                <ExternalLink className="w-3 h-3 shrink-0 text-slate-400 group-hover:text-[#1a56a0] transition-colors" />
+                                <ExternalLink className="w-3 h-3 shrink-0 text-slate-400 group-hover:text-[oklch(55% .22 27)] transition-colors" />
                               </a>
                             ))}
                           </div>
@@ -462,14 +462,14 @@ export default function WyrobDetail() {
 
                   {/* ── Key dates ── */}
                   <div className="bg-white border-2 border-slate-200 shadow-md rounded-2xl p-6">
-                    <h3 className="text-[#0d2137] font-semibold text-base mb-4 flex items-center gap-2">
-                      <Calendar className="w-5 h-5 text-[#1a56a0]" />
+                    <h3 className="text-[oklch(20% .03 264)] font-semibold text-base mb-4 flex items-center gap-2">
+                      <Calendar className="w-5 h-5 text-[oklch(55% .22 27)]" />
                       Kluczowe daty
                     </h3>
                     <ul className="space-y-3">
                       {KEY_DATES.map((item) => (
                         <li key={item.date} className="flex items-start gap-3">
-                          <span className="text-[#1a56a0] font-mono text-xs font-bold mt-0.5 whitespace-nowrap">
+                          <span className="text-[oklch(55% .22 27)] font-mono text-xs font-bold mt-0.5 whitespace-nowrap">
                             {item.date}
                           </span>
                           <span className="text-slate-600 text-sm">{item.label}</span>
@@ -479,7 +479,7 @@ export default function WyrobDetail() {
                   </div>
 
                   {/* ── Help ── */}
-                  <div className="bg-[#0d2137] rounded-2xl p-6">
+                  <div className="bg-[oklch(20% .03 264)] rounded-2xl p-6">
                     <h3 className="text-white font-semibold text-base mb-2 flex items-center gap-2">
                       <HelpCircle className="w-5 h-5 text-amber-300" />
                       Potrzebujesz pomocy?
@@ -489,7 +489,7 @@ export default function WyrobDetail() {
                     </p>
                     <button
                       onClick={() => navigate("/services")}
-                      className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors text-sm"
+                      className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-white text-[oklch(20% .03 264)] font-semibold rounded-xl hover:bg-slate-100 transition-colors text-sm"
                     >
                       Skontaktuj się z nami
                       <ChevronRight className="w-4 h-4" />
@@ -501,8 +501,8 @@ export default function WyrobDetail() {
               {/* Related blog posts */}
               {relatedPosts.length > 0 && (
                 <section className="mt-12 pt-8 border-t border-slate-200">
-                  <h2 className="text-xl font-semibold text-[#0d2137] mb-6 flex items-center gap-2">
-                    <Newspaper className="w-5 h-5 text-[#1a56a0]" />
+                  <h2 className="text-xl font-semibold text-[oklch(20% .03 264)] mb-6 flex items-center gap-2">
+                    <Newspaper className="w-5 h-5 text-[oklch(55% .22 27)]" />
                     Powiązane artykuły
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -510,7 +510,7 @@ export default function WyrobDetail() {
                       <Link
                         key={post.slug}
                         to={`/blog/${post.slug}`}
-                        className="group bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300"
+                        className="group bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[oklch(55% .22 27)]/30 hover:shadow-md transition-all duration-300"
                       >
                         {post.image_url && (
                           <div className="mb-3 overflow-hidden rounded-lg">
@@ -521,8 +521,8 @@ export default function WyrobDetail() {
                             />
                           </div>
                         )}
-                        <span className="text-xs text-[#1a56a0] font-medium">{post.category}</span>
-                        <h3 className="text-sm font-semibold text-[#0d2137] mt-1 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
+                        <span className="text-xs text-[oklch(55% .22 27)] font-medium">{post.category}</span>
+                        <h3 className="text-sm font-semibold text-[oklch(20% .03 264)] mt-1 group-hover:text-[oklch(55% .22 27)] transition-colors line-clamp-2">
                           {post.title}
                         </h3>
                         <p className="text-xs text-slate-500 mt-2 line-clamp-2">{post.excerpt}</p>

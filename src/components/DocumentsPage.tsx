@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
 import { documents, trackLead, downloadDocument } from "../utils/documentHelpers";
 import { Container } from "./Container";
+import { PageHeader } from "./PageHeader";
 import {
   Search,
   Download,
@@ -40,7 +41,7 @@ const getFileIcon = (fileType: string) => {
     case 'xlsx':
       return <File className="w-6 h-6 text-green-600" />;
     case 'html':
-      return <FileText className="w-6 h-6 text-[#1a56a0]" />;
+      return <FileText className="w-6 h-6 text-[oklch(55% .22 27)]" />;
     default:
       return <FileText className="w-6 h-6 text-slate-400" />;
   }
@@ -48,7 +49,7 @@ const getFileIcon = (fileType: string) => {
 
 const Document = ({ document, onDownload }: { document: DocumentProps; onDownload: (id: string) => void }) => {
   return (
-    <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 flex flex-col h-full hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300 group">
+    <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 flex flex-col h-full hover:border-[oklch(55% .22 27)]/30 hover:shadow-md transition-all duration-300 group">
       <div className="flex items-start justify-between mb-4">
         <div className="flex-1">
           <div className="flex items-center gap-3 mb-3">
@@ -56,11 +57,11 @@ const Document = ({ document, onDownload }: { document: DocumentProps; onDownloa
               {getFileIcon(document.fileType)}
             </div>
             <div>
-              <span className="px-2 py-1 rounded bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">{document.fileType}</span>
+              <span className="px-2 py-1 rounded bg-[oklch(55% .22 27)]/10 text-[oklch(55% .22 27)] text-xs font-medium">{document.fileType}</span>
               <span className="px-2 py-1 rounded bg-slate-100 text-slate-500 text-xs ml-2">{document.language}</span>
             </div>
           </div>
-          <h3 className="text-lg font-bold text-[#0d2137] group-hover:text-[#1a56a0] transition-colors">{document.title}</h3>
+          <h3 className="text-lg font-bold text-[oklch(20% .03 264)] group-hover:text-[oklch(55% .22 27)] transition-colors">{document.title}</h3>
         </div>
       </div>
       <p className="text-slate-500 text-sm mb-4 flex-grow leading-relaxed">{document.description}</p>
@@ -72,7 +73,7 @@ const Document = ({ document, onDownload }: { document: DocumentProps; onDownloa
         <Button
           onClick={() => onDownload(document.id)}
           size="sm"
-          className="px-4 py-2 rounded-lg bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-medium text-sm"
+          className="px-4 py-2 rounded-lg bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-medium text-sm"
         >
           <Download className="w-4 h-4 mr-2" />
           Pobierz
@@ -174,133 +175,69 @@ export function DocumentsPage() {
   });
 
   return (
-    <div className="min-h-screen section-paper">
-      {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden border-b border-slate-800">
-        {/* B&W photo background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1400&q=80')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-          }}
-        />
-        {/* Navy→blue gradient overlay */}
-        <div
-          className="absolute inset-0"
-          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-        />
-        {/* Bottom accent stripe */}
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[4px]"
-          style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-        />
-
-        <Container>
-          <div className="relative z-10">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-              <div className="md:w-2/3">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
-                  <Sparkles className="w-4 h-4 text-white" />
-                  <span className="text-white text-sm font-medium">Dokumentacja CPR</span>
-                </div>
-                <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                  Szablony Dokumentów CPR
-                </h1>
-                <p className="text-lg text-white/80 mb-8 leading-relaxed max-w-2xl">
-                  Profesjonalnie przygotowane wzory dokumentów zgodne z wymaganiami Rozporządzenia CPR (EU) 2024/3110.
-                  Zaoszczędź czas i uniknij błędów korzystając z naszych szablonów.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button
-                    onClick={() => document.getElementById("documents-section")?.scrollIntoView({ behavior: "smooth" })}
-                    className="px-6 py-3 rounded-full bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold"
-                  >
-                    <FileText className="w-5 h-5 mr-2" />
-                    Przeglądaj dokumenty
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="px-6 py-3 rounded-full border-white/30 text-white bg-white/10 hover:bg-white/20"
-                    onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
-                  >
-                    <HelpCircle className="w-5 h-5 mr-2" />
-                    Najczęstsze pytania
-                  </Button>
-                </div>
-              </div>
-              <div className="md:w-1/3">
-                <div className="bg-white/15 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-6">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-white/20 flex items-center justify-center">
-                    <FileText className="w-10 h-10 text-white" />
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white mb-1">{documents.length}</div>
-                    <p className="text-white/70 text-sm">dokumentów dostępnych</p>
-                  </div>
-                  <div className="mt-4 pt-4 border-t border-white/20 grid grid-cols-3 gap-2 text-center">
-                    <div>
-                      <div className="text-lg font-bold text-white">HTML</div>
-                      <p className="text-white/60 text-xs">szablony</p>
-                    </div>
-                    <div>
-                      <div className="text-lg font-bold text-white">→PDF</div>
-                      <p className="text-white/60 text-xs">wydruk</p>
-                    </div>
-                    <div>
-                      <div className="text-lg font-bold text-white">PL</div>
-                      <p className="text-white/60 text-xs">język</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div className="min-h-screen bg-white">
+      <PageHeader>
+        <div className="flex flex-wrap items-baseline gap-8">
+          <div>
+            <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{documents.length}</span>
+            <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>dokumentów dostępnych</span>
           </div>
-        </Container>
-      </section>
+          <div className="flex gap-3">
+            <Button
+              onClick={() => document.getElementById("documents-section")?.scrollIntoView({ behavior: "smooth" })}
+              className="text-white font-semibold px-6 py-3 transition-all"
+              style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
+            >
+              <FileText className="w-4 h-4 mr-2" />
+              Przeglądaj dokumenty
+            </Button>
+            <Button
+              variant="outline"
+              className="font-semibold px-6 py-3 transition-all"
+              style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
+              onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              <HelpCircle className="w-4 h-4 mr-2" />
+              Najczęstsze pytania
+            </Button>
+          </div>
+        </div>
+      </PageHeader>
 
-      {/* Documents Section */}
-      <section id="documents-section" className="py-16 bg-white">
+      {/* Documents Section — editorial */}
+      <section id="documents-section" className="py-20 md:py-24 bg-white">
         <Container>
-          <div className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-2">
-              Dokumenty do pobrania
-            </h2>
-            <p className="text-slate-500 mb-6">Wybierz i pobierz potrzebne szablony dokumentów</p>
-
-            {/* Info Alert */}
-            <div className="bg-[#1a56a0]/5 border border-[#1a56a0]/20 rounded-xl p-4 mb-8 flex items-start gap-3">
-              <Info className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-sm text-[#0d2137] font-medium mb-1">Jak korzystać z dokumentów?</p>
-                <p className="text-sm text-slate-600">
-                  Dokumenty otwierają się w przeglądarce jako strona HTML gotowa do wydruku.
-                  Aby zapisać jako PDF: otwórz dokument → naciśnij <strong className="text-slate-800">Ctrl+P</strong> → wybierz <strong className="text-slate-800">„Zapisz jako PDF"</strong>.
-                  Szablony są edukacyjne — dostosuj je do swojego wyrobu i normy zharmonizowanej przed użyciem.
-                </p>
-              </div>
+          <div className="max-w-6xl mx-auto">
+            {/* Info note */}
+            <div className="mb-12 p-6" style={{ borderLeft: "2px solid oklch(55% .22 27)", backgroundColor: "oklch(98% .005 264)" }}>
+              <div className="editorial-kicker mb-2" style={{ color: "oklch(55% .22 27)" }}>Jak korzystać</div>
+              <p className="text-sm leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
+                Dokumenty otwierają się w przeglądarce jako strona HTML gotowa do wydruku.
+                Aby zapisać jako PDF: <strong style={{ color: "oklch(20% .03 264)", fontWeight: 600 }}>Ctrl+P</strong> → <strong style={{ color: "oklch(20% .03 264)", fontWeight: 600 }}>Zapisz jako PDF</strong>.
+                Szablony są edukacyjne — dostosuj do swojego wyrobu i normy zharmonizowanej przed użyciem.
+              </p>
             </div>
 
             {/* Filters */}
-            <div className="flex flex-col md:flex-row gap-4 mb-8">
+            <div className="flex flex-col md:flex-row gap-4 mb-10 pb-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
               <div className="flex-grow relative">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
                 <input
                   type="text"
                   placeholder="Szukaj dokumentów..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
+                  className="w-full pl-12 pr-4 py-3 bg-white focus:outline-none transition-all font-serif"
+                  style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
                 />
               </div>
               <div className="md:w-48 relative">
-                <Filter className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                <Filter className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
                 <select
                   value={filterType}
                   onChange={(e) => setFilterType(e.target.value)}
-                  className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all appearance-none cursor-pointer"
+                  className="w-full pl-12 pr-4 py-3 bg-white focus:outline-none transition-all appearance-none cursor-pointer font-serif"
+                  style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
                 >
                   <option value="all">Wszystkie typy</option>
                   <option value="HTML">HTML (→ PDF)</option>
@@ -322,28 +259,32 @@ export function DocumentsPage() {
                 ))}
               </div>
             ) : (
-              <div className="text-center py-16 bg-white border border-slate-200 rounded-2xl">
-                <Search className="w-16 h-16 mx-auto text-slate-300 mb-4" />
-                <h3 className="text-xl font-bold text-[#0d2137] mb-2">Brak wyników</h3>
-                <p className="text-slate-500">Nie znaleziono dokumentów spełniających kryteria wyszukiwania.</p>
+              <div className="py-16 text-center" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+                <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Brak wyników</h3>
+                <p style={{ color: "oklch(42% .02 264)" }}>Nie znaleziono dokumentów spełniających kryteria.</p>
               </div>
             )}
           </div>
         </Container>
       </section>
 
-      {/* FAQ Section */}
-      <section id="faq-section" className="py-24 bg-slate-50 border-t border-slate-200">
+      {/* FAQ Section — editorial */}
+      <section id="faq-section" className="py-20 md:py-24" style={{ backgroundColor: "oklch(98% .005 264)" }}>
         <Container>
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-4">
-                Najczęściej zadawane pytania
-              </h2>
-              <p className="text-slate-500">Odpowiedzi na najczęstsze pytania dotyczące dokumentacji CPR</p>
+          <div className="max-w-5xl mx-auto">
+            <div className="flex items-baseline gap-6 mb-12">
+              <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
+              <div className="flex items-center gap-3 pt-4">
+                <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                <span className="editorial-kicker">FAQ</span>
+              </div>
             </div>
+            <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] leading-[1] mb-16" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+              Najczęściej<br/>
+              <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>zadawane pytania</span>
+            </h2>
 
-            <div className="space-y-4">
+            <div className="space-y-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
               {[
                 {
                   question: "Jak wypełnić deklarację właściwości użytkowych i zgodności (DoP&C)?",
@@ -362,24 +303,29 @@ export function DocumentsPage() {
                   answer: "Wszystkie nasze szablony są regularnie aktualizowane, aby odzwierciedlać najnowsze interpretacje przepisów i wymagania CPR. Data ostatniej aktualizacji jest zawsze widoczna przy każdym dokumencie."
                 }
               ].map((faq, idx) => (
-                <div key={idx} className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-[#0d2137] mb-3 flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
-                    {faq.question}
-                  </h3>
-                  <p className="text-slate-600 leading-relaxed pl-8">{faq.answer}</p>
+                <div key={idx} className="grid grid-cols-12 gap-6 py-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+                  <span className="col-span-1 editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <div className="col-span-11">
+                    <h3 className="font-serif text-xl md:text-2xl mb-3 leading-[1.25]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                      {faq.question}
+                    </h3>
+                    <p className="text-base leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>{faq.answer}</p>
+                  </div>
                 </div>
               ))}
             </div>
 
-            <div className="mt-12 text-center">
-              <p className="text-slate-500 mb-4">
+            <div className="mt-12">
+              <p className="text-sm mb-4" style={{ color: "oklch(42% .02 264)" }}>
                 Masz więcej pytań dotyczące dokumentacji zgodnej z CPR?
               </p>
               <Button
                 onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
                 variant="outline"
-                className="border-slate-200 text-slate-700 bg-white hover:bg-slate-50 hover:border-[#1a56a0]/40"
+                className="font-semibold px-6 py-3 transition-all"
+                style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Skontaktuj się z nami
@@ -389,34 +335,34 @@ export function DocumentsPage() {
         </Container>
       </section>
 
-      {/* Contact CTA Section */}
-      <section id="contact-section" className="py-16 bg-white border-t border-slate-200">
+      {/* Contact CTA — editorial dark banner */}
+      <section id="contact-section" className="py-20 md:py-24 bg-white">
         <Container>
-          <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="max-w-6xl mx-auto">
+            <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+              <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
-            <div className="relative z-10 text-center max-w-2xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Potrzebujesz pomocy z dokumentacją?
-              </h2>
-              <p className="text-slate-300 mb-8">
-                Nasi eksperci są gotowi pomóc Ci w przygotowaniu dokumentacji zgodnej z CPR (EU) 2024/3110.
-                Oferujemy usługi przygotowania i weryfikacji dokumentów oraz ocenę zgodności z wymaganiami CPR 2024/3110.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button
-                  asChild
-                  className="px-6 py-3 rounded-full bg-white hover:bg-slate-100 text-[#0d2137] font-semibold"
-                >
+              <div className="max-w-2xl">
+                <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Potrzebujesz pomocy</div>
+                <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white mb-4" style={{ fontWeight: 500 }}>
+                  Dokumentacja CPR —<br/>
+                  <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>pomożemy ją przygotować.</span>
+                </h2>
+                <p className="text-white/70 leading-[1.6]">
+                  Audytorzy Multicert weryfikują i przygotowują dokumenty zgodne z CPR (EU) 2024/3110.
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+                <Button asChild className="bg-white font-semibold px-6 py-3 transition-all hover:bg-slate-100"
+                  style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}>
                   <Link to="/services">
-                    Poznaj nasze usługi
+                    Poznaj usługi
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </Button>
-                <Button
-                  variant="outline"
-                  className="px-6 py-3 rounded-full border-white/20 text-white hover:bg-white/10"
-                >
+                <Button variant="outline"
+                  className="font-semibold px-6 py-3 transition-all hover:bg-white/10"
+                  style={{ border: "1px solid rgba(255,255,255,0.3)", color: "white", backgroundColor: "transparent", borderRadius: "2px" }}>
                   <Mail className="w-4 h-4 mr-2" />
                   Umów konsultację
                 </Button>
@@ -433,7 +379,7 @@ export function DocumentsPage() {
             {!downloadSuccess ? (
               <>
                 <div className="flex justify-between items-start mb-6">
-                  <h3 className="text-xl font-bold text-[#0d2137]">Pobierz dokument</h3>
+                  <h3 className="text-xl font-bold text-[oklch(20% .03 264)]">Pobierz dokument</h3>
                   <button
                     onClick={closeModal}
                     className="text-slate-400 hover:text-slate-700 transition-colors"
@@ -468,7 +414,7 @@ export function DocumentsPage() {
                       id="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
+                      className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[oklch(55% .22 27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30 transition-all"
                       placeholder="twoj@email.pl"
                     />
                     {formError && <p className="text-red-600 text-sm mt-2">{formError}</p>}
@@ -479,7 +425,7 @@ export function DocumentsPage() {
                       id="consent"
                       name="consent"
                       type="checkbox"
-                      className="h-4 w-4 mt-1 rounded border-slate-300 bg-white text-[#1a56a0] focus:ring-[#1a56a0]"
+                      className="h-4 w-4 mt-1 rounded border-slate-300 bg-white text-[oklch(55% .22 27)] focus:ring-[oklch(55% .22 27)]"
                       required
                     />
                     <label htmlFor="consent" className="ml-3 block text-sm text-slate-600">
@@ -487,7 +433,7 @@ export function DocumentsPage() {
                     </label>
                   </div>
 
-                  <Button type="submit" className="w-full py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold">
+                  <Button type="submit" className="w-full py-3 rounded-xl bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-semibold">
                     <Download className="w-4 h-4 mr-2" />
                     Pobierz dokument
                   </Button>
@@ -498,9 +444,9 @@ export function DocumentsPage() {
                 <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle2 className="w-8 h-8 text-emerald-600" />
                 </div>
-                <h3 className="text-xl font-bold text-[#0d2137] mb-2">Dziękujemy!</h3>
+                <h3 className="text-xl font-bold text-[oklch(20% .03 264)] mb-2">Dziękujemy!</h3>
                 <p className="text-slate-600 mb-6">
-                  Dokument <span className="font-semibold text-[#0d2137]">{selectedDocument?.title}</span> otworzył się w nowej karcie.
+                  Dokument <span className="font-semibold text-[oklch(20% .03 264)]">{selectedDocument?.title}</span> otworzył się w nowej karcie.
                   Użyj <strong className="text-slate-800">Ctrl+P → Zapisz jako PDF</strong> aby zapisać.
                 </p>
                 <div className="flex flex-col gap-3">
@@ -518,7 +464,7 @@ export function DocumentsPage() {
                   </Button>
                   <Button
                     onClick={closeModal}
-                    className="py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold"
+                    className="py-3 rounded-xl bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-semibold"
                   >
                     Zamknij
                   </Button>

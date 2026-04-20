@@ -19,14 +19,14 @@ export default function AutorPage() {
 
   if (!author) {
     return (
-      <div className="min-h-screen section-paper text-slate-900 flex flex-col">
+      <div className="min-h-screen bg-white text-slate-900 flex flex-col">
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <p className="text-slate-500 text-lg mb-6">Nie znaleziono autora.</p>
             <Link
               to="/blog"
-              className="text-[#1a56a0] hover:text-[#1a3d6b] flex items-center gap-2 mx-auto"
+              className="text-[oklch(55% .22 27)] hover:text-[#1a3d6b] flex items-center gap-2 mx-auto"
             >
               <ArrowLeft className="w-4 h-4" /> Wróć do bloga
             </Link>
@@ -38,7 +38,7 @@ export default function AutorPage() {
   }
 
   return (
-    <div className="min-h-screen section-paper text-slate-900 flex flex-col">
+    <div className="min-h-screen bg-white text-slate-900 flex flex-col">
       <Helmet>
         <title>{author.name} – Autor | NowyCPR.pl</title>
         <meta name="description" content={author.shortBio} />
@@ -46,62 +46,47 @@ export default function AutorPage() {
 
       <Header />
 
-      <main className="flex-1">
-        {/* Hero */}
-        <div className="relative overflow-hidden border-b border-slate-800 py-16">
-          {/* B&W photo background */}
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-            }}
-          />
-          {/* Navy→blue gradient overlay */}
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-          />
-          {/* Bottom accent stripe */}
-          <div
-            className="absolute bottom-0 left-0 right-0 h-[4px]"
-            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-          />
-          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="flex-1 bg-white">
+        {/* Hero — editorial */}
+        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-white">
+          <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+          <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+          <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+
+          <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
             <button
               onClick={() => navigate(-1)}
-              className="text-white/70 hover:text-white flex items-center gap-2 text-sm mb-8 transition-colors"
+              className="editorial-kicker flex items-center gap-2 mt-6 mb-10 transition-colors hover:text-black"
+              style={{ color: "oklch(60% .015 264)" }}
             >
               <ArrowLeft className="w-4 h-4" /> Wróć
             </button>
 
-            <div className="flex items-start gap-6">
-              {/* Avatar placeholder */}
-              <div className="w-20 h-20 rounded-full bg-white/15 border-2 border-white/30 flex items-center justify-center flex-shrink-0">
-                <span className="text-2xl font-bold text-white">
-                  {author.name
-                    .split(" ")
-                    .filter((w) => /^[A-ZŁŚÓĄĘŹŻĆŃ]/.test(w))
-                    .slice(0, 2)
-                    .map((w) => w[0])
-                    .join("")}
-                </span>
+            <div className="flex items-baseline gap-6 mb-8">
+              <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
+              <div className="flex items-center gap-3 pt-4">
+                <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                <span className="editorial-kicker">Autor</span>
               </div>
+            </div>
 
-              <div>
-                <p className="text-white/80 text-sm font-medium uppercase tracking-wider mb-1">
-                  Autor
-                </p>
-                <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-2">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+              <div className="lg:col-span-2 flex justify-start">
+                <div className="w-24 h-24 flex items-center justify-center" style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px" }}>
+                  <span className="font-serif text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>
+                    {author.name.split(" ").filter((w) => /^[A-ZŁŚÓĄĘŹŻĆŃ]/.test(w)).slice(0, 2).map((w) => w[0]).join("")}
+                  </span>
+                </div>
+              </div>
+              <div className="lg:col-span-10">
+                <h1 className="font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1.05] mb-3" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                   {author.name}
                 </h1>
-                <p className="text-white/70 text-base">{author.shortTitle}</p>
+                <p className="text-base md:text-lg italic font-serif" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>{author.shortTitle}</p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
           {/* Bio */}
@@ -117,8 +102,8 @@ export default function AutorPage() {
 
           {/* Roles */}
           <section>
-            <h2 className="text-[#0d2137] font-semibold text-lg flex items-center gap-2 mb-4">
-              <Briefcase className="w-5 h-5 text-[#1a56a0]" /> Funkcje i role
+            <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
+              <Briefcase className="w-5 h-5 text-[oklch(55% .22 27)]" /> Funkcje i role
             </h2>
             <ul className="space-y-2">
               {author.roles.map((role, i) => (
@@ -126,7 +111,7 @@ export default function AutorPage() {
                   key={i}
                   className="flex items-start gap-3 text-slate-700 text-sm"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#1a56a0] mt-2 flex-shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[oklch(55% .22 27)] mt-2 flex-shrink-0" />
                   {role}
                 </li>
               ))}
@@ -135,14 +120,14 @@ export default function AutorPage() {
 
           {/* Expertise */}
           <section>
-            <h2 className="text-[#0d2137] font-semibold text-lg flex items-center gap-2 mb-4">
-              <BookOpen className="w-5 h-5 text-[#1a56a0]" /> Obszary ekspertyzy
+            <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
+              <BookOpen className="w-5 h-5 text-[oklch(55% .22 27)]" /> Obszary ekspertyzy
             </h2>
             <div className="flex flex-wrap gap-2">
               {author.expertise.map((area, i) => (
                 <span
                   key={i}
-                  className="text-sm px-3 py-1.5 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] border border-[#1a56a0]/20"
+                  className="text-sm px-3 py-1.5 rounded-full bg-[oklch(55% .22 27)]/10 text-[oklch(55% .22 27)] border border-[oklch(55% .22 27)]/20"
                 >
                   {area}
                 </span>
@@ -152,8 +137,8 @@ export default function AutorPage() {
 
           {/* Education */}
           <section>
-            <h2 className="text-[#0d2137] font-semibold text-lg flex items-center gap-2 mb-4">
-              <GraduationCap className="w-5 h-5 text-[#1a56a0]" /> Wykształcenie
+            <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
+              <GraduationCap className="w-5 h-5 text-[oklch(55% .22 27)]" /> Wykształcenie
             </h2>
             <ul className="space-y-2">
               {author.education.map((edu, i) => (
@@ -171,8 +156,8 @@ export default function AutorPage() {
           {/* Awards */}
           {author.awards.length > 0 && (
             <section>
-              <h2 className="text-[#0d2137] font-semibold text-lg flex items-center gap-2 mb-4">
-                <Award className="w-5 h-5 text-[#1a56a0]" /> Nagrody i wyróżnienia
+              <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
+                <Award className="w-5 h-5 text-[oklch(55% .22 27)]" /> Nagrody i wyróżnienia
               </h2>
               <ul className="space-y-2">
                 {author.awards.map((award, i) => (
@@ -180,7 +165,7 @@ export default function AutorPage() {
                     key={i}
                     className="flex items-start gap-3 text-slate-700 text-sm"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#1a56a0] mt-2 flex-shrink-0" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[oklch(55% .22 27)] mt-2 flex-shrink-0" />
                     {award}
                   </li>
                 ))}
@@ -191,8 +176,8 @@ export default function AutorPage() {
           {/* Publications */}
           {author.publications.length > 0 && (
             <section>
-              <h2 className="text-[#0d2137] font-semibold text-lg flex items-center gap-2 mb-4">
-                <FileText className="w-5 h-5 text-[#1a56a0]" /> Publikacje i opracowania
+              <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
+                <FileText className="w-5 h-5 text-[oklch(55% .22 27)]" /> Publikacje i opracowania
               </h2>
               <div className="space-y-4">
                 {author.publications.map((pub, i) => (
@@ -200,11 +185,11 @@ export default function AutorPage() {
                     key={i}
                     className="bg-white border border-slate-200 shadow-sm rounded-xl p-5"
                   >
-                    <p className="text-[#0d2137] font-medium mb-1">
+                    <p className="text-[oklch(20% .03 264)] font-medium mb-1">
                       {pub.url ? (
                         <a
                           href={pub.url}
-                          className="hover:text-[#1a56a0] transition-colors"
+                          className="hover:text-[oklch(55% .22 27)] transition-colors"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -214,7 +199,7 @@ export default function AutorPage() {
                         pub.title
                       )}
                     </p>
-                    <p className="text-[#1a56a0] text-xs mb-2">{pub.year}</p>
+                    <p className="text-[oklch(55% .22 27)] text-xs mb-2">{pub.year}</p>
                     <p className="text-slate-500 text-sm">{pub.description}</p>
                   </div>
                 ))}

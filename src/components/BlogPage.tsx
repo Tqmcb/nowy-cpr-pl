@@ -3,6 +3,7 @@ import { getAllPosts } from "../utils/blogLoader";
 import { useReveal } from "../hooks/useReveal";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/extensions/shadcn/components/button";
+import { PageHeader } from "./PageHeader";
 import { Badge } from "@/extensions/shadcn/components/badge";
 import { Skeleton } from "@/extensions/shadcn/components/skeleton";
 import { subscribeToNewsletter, validateEmail } from "utils/newsletterHelpers";
@@ -44,7 +45,7 @@ interface BlogPost {
 const EmptyState = () => (
   <div className="text-center py-16 bg-white border border-slate-200 shadow-sm rounded-xl">
     <BookOpen className="h-16 w-16 mx-auto text-slate-400 mb-4" />
-    <h3 className="text-lg font-medium text-[#0d2137] mb-2">Brak artykułów</h3>
+    <h3 className="text-lg font-medium text-[oklch(20% .03 264)] mb-2">Brak artykułów</h3>
     <p className="text-slate-700">Nie znaleziono artykułów spełniających kryteria wyszukiwania.</p>
   </div>
 );
@@ -97,45 +98,45 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
   return (
     <Link
       to={`/blog/${post.slug}`}
-      className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift card-hover group cursor-pointer block no-underline"
+      className="group cursor-pointer block no-underline transition-all hover:bg-slate-50"
+      style={{ border: "1px solid oklch(92% .008 264)", borderRadius: "2px" }}
     >
       {post.image_url && (
-        <div className="h-48 overflow-hidden relative">
+        <div className="h-48 overflow-hidden relative" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
           <img
             src={post.image_url}
             alt={post.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            style={{ filter: "grayscale(0.15)" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0d2137]/60 to-transparent"></div>
         </div>
       )}
       <div className="p-6">
-        <div className="flex items-center justify-between mb-4">
-          <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
-            {post.category}
-          </span>
-          <div className="flex items-center text-sm text-slate-600 gap-3">
-            <span className="flex items-center gap-1">
-              <Clock className="w-4 h-4" />
-              {readingTime} min
+        {/* Category tag + reading time */}
+        <div className="flex items-center justify-between mb-5">
+          <div className="flex items-center gap-2">
+            <div className="h-px w-6" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+            <span className="editorial-kicker" style={{ color: "oklch(55% .22 27)" }}>
+              {post.category}
             </span>
           </div>
+          <span className="editorial-kicker flex items-center gap-1" style={{ color: "oklch(60% .015 264)" }}>
+            <Clock className="w-3 h-3" />
+            {readingTime} min
+          </span>
         </div>
-        <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
+
+        <h3 className="font-serif text-xl md:text-[1.5rem] mb-4 leading-[1.2] line-clamp-3 group-hover:italic transition-all" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
           {post.title}
         </h3>
-        <p className="text-slate-700 text-sm mb-4 line-clamp-3 leading-relaxed">{post.excerpt}</p>
-        <div className="flex justify-between items-center pt-4 border-t border-slate-200">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-[#0d2137] flex items-center justify-center">
-              <User className="w-4 h-4 text-white" />
-            </div>
-            <div>
-              <span className="text-sm text-slate-900">{post.author.split(' | ')[0]}</span>
-              <p className="text-xs text-slate-500">{formatDate(post.published_at)}</p>
-            </div>
+        <p className="text-sm leading-[1.65] mb-5 line-clamp-3" style={{ color: "oklch(42% .02 264)" }}>{post.excerpt}</p>
+
+        <div className="flex justify-between items-end pt-4" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+          <div>
+            <span className="editorial-kicker" style={{ color: "oklch(20% .03 264)" }}>{post.author.split(' | ')[0]}</span>
+            <p className="text-xs mt-1" style={{ color: "oklch(60% .015 264)" }}>{formatDate(post.published_at)}</p>
           </div>
-          <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
+          <div className="editorial-kicker flex items-center gap-1 group-hover:gap-2 transition-all" style={{ color: "oklch(55% .22 27)" }}>
             <span>Czytaj</span>
             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </div>
@@ -152,7 +153,7 @@ const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
       <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center">
         <RefreshCw className="w-8 h-8 text-slate-500" />
       </div>
-      <h3 className="text-xl font-bold text-[#0d2137] mb-3">
+      <h3 className="text-xl font-bold text-[oklch(20% .03 264)] mb-3">
         Aktualności tymczasowo niedostępne
       </h3>
       <p className="text-slate-700 text-sm leading-relaxed mb-8">
@@ -161,7 +162,7 @@ const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <Button
           onClick={onRetry}
-          className="px-5 py-2.5 rounded-full bg-[#0d2137] text-white font-semibold text-sm hover:bg-[#1a3d6b]"
+          className="px-5 py-2.5 rounded-full bg-[oklch(20% .03 264)] text-white font-semibold text-sm hover:bg-[#1a3d6b]"
         >
           <RefreshCw className="w-4 h-4 mr-2" />
           Odśwież
@@ -839,7 +840,7 @@ export function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen section-paper">
+    <div className="min-h-screen bg-white">
       <Helmet>
         <title>Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl</title>
         <meta name="description" content="Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych." />
@@ -848,247 +849,199 @@ export function BlogPage() {
         <meta property="og:url" content="https://www.nowycpr.pl/blog" />
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
-      {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden border-b border-slate-800 blueprint-pulse">
-        {/* B&W photo background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=80')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-          }}
-        />
-        {/* Navy→blue gradient overlay */}
-        <div
-          className="absolute inset-0"
-          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-        />
-        {/* Bottom accent stripe */}
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[4px]"
-          style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-        />
+      <PageHeader>
+        <div className="flex flex-wrap items-baseline gap-8">
+          <div>
+            <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{blogPosts.length}</span>
+            <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>artykułów · {categories.length} kategorii</span>
+          </div>
+          <div className="flex gap-3">
+            <Button
+              onClick={() => document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" })}
+              className="text-white font-semibold px-6 py-3 transition-all"
+              style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
+            >
+              <BookOpen className="w-4 h-4 mr-2" />
+              Przeglądaj artykuły
+            </Button>
+            <Button
+              variant="outline"
+              className="font-semibold px-6 py-3 transition-all"
+              style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
+              onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              <Mail className="w-4 h-4 mr-2" />
+              Newsletter
+            </Button>
+          </div>
+        </div>
+      </PageHeader>
 
+      {/* Blog List Section — editorial */}
+      <section id="blog-list" className="py-20 md:py-24 bg-white">
         <Container>
-          <div className="relative z-10">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-              <div className="md:w-2/3">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
-                  <Sparkles className="w-4 h-4 text-white" />
-                  <span className="text-white text-sm font-medium">Blog CPR</span>
-                </div>
-                <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                  <span className="text-white">Aktualności i </span>
-                  <span className="text-white font-bold">Wiedza CPR</span>
-                </h1>
-                <p className="text-lg text-white/80 mb-8 leading-relaxed max-w-2xl">
-                  Najnowsze informacje, interpretacje i poradniki dotyczące Rozporządzenia CPR (EU) 2024/3110.
-                  Bądź na bieżąco ze wszystkimi zmianami prawnymi i najlepszymi praktykami w branży.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button
-                    onClick={() => document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" })}
-                    className="px-6 py-3 rounded-full bg-[#0d2137] text-white font-semibold hover:bg-[#1a3d6b]"
-                  >
-                    <BookOpen className="w-5 h-5 mr-2" />
-                    Przeglądaj artykuły
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="px-6 py-3 rounded-full border-white/30 text-white bg-white/10 hover:bg-white/20"
-                    onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
-                  >
-                    <Mail className="w-5 h-5 mr-2" />
-                    Newsletter
-                  </Button>
-                </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-baseline gap-6 mb-12">
+              <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
+              <div className="flex items-center gap-3 pt-4">
+                <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                <span className="editorial-kicker">Archiwum</span>
               </div>
-              <div className="md:w-1/3">
-                <div className="bg-white/10 border border-white/20 rounded-xl p-6 backdrop-blur-sm">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-2xl bg-white/15 flex items-center justify-center">
-                    <FileText className="w-10 h-10 text-white" />
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-white mb-1">{blogPosts.length}</div>
-                    <p className="text-white/70 text-sm">artykułów dostępnych</p>
-                  </div>
-                  <div className="mt-4 pt-4 border-t border-white/20 grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <div className="text-xl font-bold text-white">{categories.length}</div>
-                      <p className="text-white/70 text-xs">kategorii</p>
-                    </div>
-                    <div>
-                      <div className="text-xl font-bold text-white">2026</div>
-                      <p className="text-white/70 text-xs">aktualny rok</p>
-                    </div>
-                  </div>
-                </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 pb-8" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+              <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                Najnowsze<br/>
+                <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>artykuły</span>
+              </h2>
+              <p className="text-sm md:text-base" style={{ color: "oklch(42% .02 264)" }}>Wybierz kategorię lub wyszukaj interesujący Cię temat.</p>
+            </div>
+
+            {/* Filters */}
+            <div className="flex flex-col md:flex-row gap-4 mb-10">
+              <div className="flex-grow relative">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
+                <input
+                  type="text"
+                  placeholder="Szukaj artykułów..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full pl-12 pr-4 py-3 bg-white focus:outline-none transition-all font-serif"
+                  style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
+                />
               </div>
+              <div className="md:w-64 relative">
+                <Filter className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="w-full pl-12 pr-4 py-3 bg-white focus:outline-none transition-all appearance-none cursor-pointer font-serif"
+                  style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
+                >
+                  <option value="all">Wszystkie kategorie</option>
+                  {categories.map(category => (
+                    <option key={category} value={category}>{category}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Posts Grid */}
+            <div id="blog-posts-grid">
+              {loading ? (
+                <LoadingState />
+              ) : loadFailed ? (
+                <UnavailableState onRetry={handleRetry} />
+              ) : error ? (
+                <UnavailableState onRetry={handleRetry} />
+              ) : filteredPosts.length > 0 ? (
+                <div ref={gridRef as React.RefCallback<HTMLDivElement>} className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {filteredPosts.map((post, idx) => (
+                    <div key={post.id} className="reveal-stagger" style={{ "--i": idx } as React.CSSProperties}>
+                      <BlogPostCard
+                        post={post}
+                      />
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div>
+                  <EmptyState />
+                  {selectedCategory !== "all" && (
+                    <div className="text-center mt-6">
+                      <Button
+                        onClick={() => setSelectedCategory("all")}
+                        variant="outline"
+                        className="font-semibold px-6 py-3 transition-all"
+                        style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
+                      >
+                        Pokaż wszystkie kategorie
+                      </Button>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </Container>
       </section>
 
-      {/* Blog List Section */}
-      <section id="blog-list" className="py-16 section-paper">
+      {/* Newsletter — editorial dark banner */}
+      <section id="newsletter-section" className="py-20 md:py-24 bg-white">
         <Container>
-          <div className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0d2137] mb-2">
-              Najnowsze <span className="text-[#0d2137] font-bold">artykuły</span>
-            </h2>
-            <p className="text-slate-700">Wybierz kategorię lub wyszukaj interesujący Cię temat</p>
-          </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="relative py-12 md:py-16 px-8 md:px-12" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+              <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
-          {/* Filters */}
-          <div className="flex flex-col md:flex-row gap-4 mb-8">
-            <div className="flex-grow relative">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
-              <input
-                type="text"
-                placeholder="Szukaj artykułów..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all"
-              />
-            </div>
-            <div className="md:w-64 relative">
-              <Filter className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
-              <select
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all appearance-none cursor-pointer"
-              >
-                <option value="all" className="bg-white">Wszystkie kategorie</option>
-                {categories.map(category => (
-                  <option key={category} value={category} className="bg-white">{category}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          {/* Posts Grid */}
-          <div id="blog-posts-grid">
-            {loading ? (
-              <LoadingState />
-            ) : loadFailed ? (
-              <UnavailableState onRetry={handleRetry} />
-            ) : error ? (
-              <UnavailableState onRetry={handleRetry} />
-            ) : filteredPosts.length > 0 ? (
-              <div ref={gridRef as React.RefCallback<HTMLDivElement>} className="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredPosts.map((post, idx) => (
-                  <div key={post.id} className="reveal-stagger" style={{ "--i": idx } as React.CSSProperties}>
-                    <BlogPostCard
-                      post={post}
-                    />
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div>
-                <EmptyState />
-                {selectedCategory !== "all" && (
-                  <div className="text-center mt-6">
-                    <Button
-                      onClick={() => setSelectedCategory("all")}
-                      variant="outline"
-                      className="border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50"
-                    >
-                      Pokaż wszystkie kategorie
-                    </Button>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-        </Container>
-      </section>
-
-      {/* Newsletter Section */}
-      <section id="newsletter-section" className="py-24 section-blueprint">
-        <Container>
-          <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1a56a0]/20 via-transparent to-[#1a56a0]/10"></div>
-            <div className="absolute top-0 right-0 w-64 h-64 bg-[#1a56a0]/10 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#1a56a0]/10 rounded-full blur-3xl"></div>
-
-            <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
-              <div className="md:w-2/3">
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  Bądź na bieżąco z <span className="text-[#1a56a0] font-bold" style={{color: '#7eb3f5'}}>CPR</span>
-                </h2>
-                <p className="text-slate-300 mb-6 leading-relaxed">
-                  Zapisz się do naszego newslettera i otrzymuj najnowsze informacje,
-                  interpretacje przepisów i praktyczne porady dotyczące Rozporządzenia CPR.
-                </p>
-                <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-3">
-                  {/* Honeypot — niewidoczne dla użytkowników */}
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+                <div className="lg:col-span-7">
+                  <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Newsletter</div>
+                  <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white mb-4" style={{ fontWeight: 500 }}>
+                    Bądź na bieżąco<br/>
+                    <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>z CPR.</span>
+                  </h2>
+                  <p className="text-white/70 leading-[1.6] max-w-xl">
+                    Najnowsze informacje, interpretacje przepisów i praktyczne porady dotyczące Rozporządzenia CPR.
+                  </p>
+                </div>
+                <form onSubmit={handleNewsletterSubmit} className="lg:col-span-5 flex flex-col sm:flex-row gap-3">
                   <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }}>
-                    <input
-                      name="website"
-                      type="text"
-                      tabIndex={-1}
-                      autoComplete="off"
-                      value={newsletterHoneypot}
-                      onChange={(e) => setNewsletterHoneypot(e.target.value)}
-                    />
+                    <input name="website" type="text" tabIndex={-1} autoComplete="off" value={newsletterHoneypot} onChange={(e) => setNewsletterHoneypot(e.target.value)} />
                   </div>
                   <input
                     type="email"
-                    placeholder="Twój adres e-mail"
+                    placeholder="Twój e-mail"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="flex-grow px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:border-white/40 focus:bg-white/15 transition-all"
+                    className="flex-grow px-4 py-3 bg-transparent text-white placeholder-white/50 focus:outline-none transition-all font-serif"
+                    style={{ border: "1px solid rgba(255,255,255,0.3)", borderRadius: "2px" }}
                     required
                   />
                   <button
                     type="submit"
-                    className="px-6 py-3 rounded-xl bg-white text-[#0d2137] font-semibold flex items-center justify-center gap-2 hover:bg-slate-100 transition-colors"
+                    className="px-6 py-3 text-white font-semibold flex items-center justify-center gap-2 transition-all hover:opacity-90"
+                    style={{ backgroundColor: "oklch(55% .22 27)", borderRadius: "2px" }}
                   >
                     <Send className="w-4 h-4" />
                     Zapisz się
                   </button>
                 </form>
-                <p className="text-xs text-slate-400 mt-3">
-                  Zapisując się, zgadzasz się na naszą politykę prywatności. W każdej chwili możesz zrezygnować z subskrypcji.
-                </p>
               </div>
-              <div className="md:w-1/3 flex justify-center">
-                <div className="w-32 h-32 rounded-2xl bg-[#1a56a0] flex items-center justify-center shadow-lg shadow-[#1a56a0]/30">
-                  <Mail className="w-16 h-16 text-white" />
-                </div>
-              </div>
+              <p className="editorial-kicker mt-6" style={{ color: "rgba(255,255,255,0.5)" }}>
+                Zapisując się, zgadzasz się na naszą politykę prywatności. W każdej chwili możesz zrezygnować.
+              </p>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* Quick Links Section */}
-      <section className="py-16 section-paper border-t border-slate-100">
+      {/* Quick Links — editorial */}
+      <section className="py-20 md:py-24" style={{ backgroundColor: "oklch(98% .005 264)" }}>
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-[#1a56a0]" />
-                O blogu
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+            <div className="p-8" style={{
+              borderRight: "1px solid oklch(92% .008 264)",
+              borderBottom: "1px solid oklch(92% .008 264)"
+            }}>
+              <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>O blogu</div>
+              <h3 className="font-serif text-xl md:text-2xl mb-3 leading-[1.2]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                Ekspercka <span className="italic" style={{ color: "oklch(55% .22 27)" }}>wiedza</span>
               </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                Dostarczamy ekspercką wiedzę i praktyczne informacje dla producentów wyrobów budowlanych
-                dotyczące Rozporządzenia CPR (EU) 2024/3110.
+              <p className="text-sm leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
+                Praktyczne informacje dla producentów wyrobów budowlanych dotyczące CPR (EU) 2024/3110.
               </p>
             </div>
-            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
-                <Filter className="w-5 h-5 text-[#1a56a0]" />
-                Kategorie
-              </h3>
-              <div className="flex flex-wrap gap-2">
+            <div className="p-8" style={{
+              borderRight: "1px solid oklch(92% .008 264)",
+              borderBottom: "1px solid oklch(92% .008 264)"
+            }}>
+              <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Kategorie</div>
+              <div className="flex flex-wrap gap-2 mt-2">
                 {categories.slice(0, 6).map(category => (
                   <button
                     key={category}
-                    className="px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-slate-500 text-sm hover:text-[#1a56a0] hover:border-[#1a56a0]/30 transition-all"
+                    className="px-3 py-1.5 text-sm font-serif transition-all hover:bg-white"
+                    style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(42% .02 264)" }}
                     onClick={() => {
                       setSelectedCategory(category);
                       document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" });
@@ -1099,24 +1052,18 @@ export function BlogPage() {
                 ))}
               </div>
             </div>
-            <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-[#0d2137] mb-4 flex items-center gap-2">
-                <User className="w-5 h-5 text-emerald-600" />
-                Kontakt
+            <div className="p-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+              <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Kontakt</div>
+              <h3 className="font-serif text-xl md:text-2xl mb-3 leading-[1.2]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                Masz <span className="italic" style={{ color: "oklch(55% .22 27)" }}>pytania?</span>
               </h3>
-              <p className="text-slate-700 text-sm mb-4">
-                Masz pytania dotyczące CPR? Skontaktuj się z naszymi ekspertami.
+              <p className="text-sm leading-[1.65] mb-4" style={{ color: "oklch(42% .02 264)" }}>
+                Skontaktuj się z naszymi ekspertami CPR.
               </p>
-              <Button
-                variant="outline"
-                className="border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50"
-                asChild
-              >
-                <Link to="/services">
-                  Skontaktuj się
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-              </Button>
+              <Link to="/services" className="editorial-kicker flex items-center gap-2 transition-all hover:gap-3" style={{ color: "oklch(20% .03 264)" }}>
+                Skontaktuj się
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </Container>

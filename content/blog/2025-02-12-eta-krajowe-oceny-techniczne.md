@@ -17,16 +17,19 @@ sources:
 
 # ETA i krajowe oceny techniczne
 
-Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych wyrobów lub tych, które istotnie odbiegają od istniejących norm, istnieje alternatywna droga do oznakowania CE — Europejska Ocena Techniczna (ETA).
+Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych wyrobów lub tych, które w ogóle nie są objęte normą zharmonizowaną, istnieje alternatywna droga do oznakowania CE — Europejska Ocena Techniczna (ETA).
 
 ## Kiedy potrzebna ETA?
 
-Europejska Ocena Techniczna jest wymagana lub zalecana gdy:
+Europejska Ocena Techniczna jest możliwa wyłącznie gdy wyrób **nie jest objęty** żadną z poniższych podstaw oceny (CPR 2024/3110):
 
-- **Brak normy zharmonizowanej (hEN)** dla danego wyrobu lub zastosowania
-- **Wyrób znacząco odbiega** od zakresu lub wymagań istniejącej normy
-- **Innowacyjny wyrób budowlany** nieujęty w żadnym mandacie normalizacyjnym
-- Producent chce uzyskać **europejskie uznanie** dla krajowej oceny technicznej
+- **Brak obowiązkowej normy zharmonizowanej (hEN)** — tj. normy, której stosowanie stało się obowiązkowe na mocy aktu wykonawczego (art. 5 ust. 8)
+- **Brak aktu wykonawczego** określającego zasadnicze charakterystyki i metody oceny (art. 6 ust. 1)
+- **Brak normy zharmonizowanej opracowywanej w ciągu roku** od złożenia wniosku o normalizację (art. 5 ust. 2)
+
+> **Ważna zmiana względem CPR 305/2011:** Pod starym rozporządzeniem EAD można było uzyskać dla wyrobu „nie w pełni objętego hEN". CPR 2024 ten zapis usunął — EAD jest dostępny wyłącznie gdy wyrób w ogóle nie jest objęty żadną obowiązkową hEN ani aktem wykonawczym. Produkt częściowo objęty hEN co do zasady nie może być objęty EAD.
+
+Innowacyjny wyrób budowlany nieujęty w żadnej normie zharmonizowanej i żadnym akcie wykonawczym może więc korzystać ze ścieżki EAD/ETA. Producent chcący uzyskać **europejskie uznanie** dla wyrobu bez hEN składa wniosek do jednostki TAB.
 
 ## Proces uzyskania ETA
 

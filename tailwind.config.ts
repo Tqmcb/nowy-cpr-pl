@@ -19,15 +19,25 @@ const config: Config = {
             },
         },
         extend: {
+            fontFamily: {
+                serif: ['Wittgenstein', 'ui-serif', 'Georgia', 'serif'],
+                sans: ['"Schibsted Grotesk"', 'system-ui', '-apple-system', 'sans-serif'],
+                display: ['Wittgenstein', 'ui-serif', 'Georgia', 'serif'],
+            },
             colors: {
-                // Paleta "journal techniczny" — Przegląd Budowlany / portal regulacyjny
+                // Paleta Multicert Design System (oklch, spójne z multicert.pl)
                 journal: {
-                    navy:    "#0d2137",   // granat — nagłówek, masthead
-                    ink:     "#1a2744",   // ciemny tekst główny
-                    blue:    "#1a56a0",   // niebieski instytucjonalny — akcent, linki
-                    wisnia:  "#8b1a3c",   // wiśniowy — akcent hero, badge kategorii
-                    paper:   "#f8f9fa",   // tło sekcji "papierowe"
-                    rule:    "#e2e8f0",   // linijka separatora
+                    navy:    "#0d2137",   // legacy - header
+                    ink:     "oklch(20% .03 264)",  // text-heading
+                    body:    "oklch(42% .02 264)",  // text-body
+                    muted:   "oklch(60% .015 264)", // text-muted
+                    blue:    "#1a56a0",   // legacy niebieski — linki
+                    accent:  "oklch(55% .22 27)",   // brand-red rust/terracotta — GŁÓWNY akcent Multicert
+                    wisnia:  "#8b1a3c",   // legacy
+                    paper:   "#ffffff",   // tło białe (nie kremowe!)
+                    soft:    "oklch(98% .005 264)", // bg-soft
+                    rule:    "oklch(86% .012 264)", // border-strong
+                    line:    "oklch(92% .008 264)", // border
                 },
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",

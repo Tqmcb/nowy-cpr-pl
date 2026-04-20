@@ -7,40 +7,32 @@ import { Home, ArrowLeft, Search } from "lucide-react";
 
 export default function NotFoundPage() {
   return (
-    <div className="min-h-screen section-paper text-slate-900">
+    <div className="min-h-screen bg-white text-slate-900">
       <Helmet>
         <title>Strona nie znaleziona — NowyCPR.pl</title>
       </Helmet>
       <Header />
       <main id="main-content" className="pb-24">
-        <section className="relative overflow-hidden border-b border-slate-800">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1400&q=80')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              filter: "grayscale(100%) contrast(1.1) brightness(0.7)",
-            }}
-          />
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.92) 0%, rgba(26,86,160,0.70) 100%)" }}
-          />
-          <div
-            className="absolute bottom-0 left-0 right-0 h-[4px]"
-            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-          />
+        <section className="relative pt-32 pb-20 bg-white">
+          <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+          <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+          <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
           <Container>
-            <div className="relative z-10 pt-28 pb-16 text-center">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/30 mb-6">
-                <span className="text-white/70 text-sm font-mono">404</span>
+            <div className="max-w-6xl mx-auto">
+              <div className="flex items-baseline gap-6 mb-10">
+                <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
+                <div className="flex items-center gap-3 pt-4">
+                  <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                  <span className="editorial-kicker">Błąd 404</span>
+                </div>
               </div>
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 font-mono tracking-tight">
+              <div className="editorial-numeral text-[10rem] md:text-[14rem] leading-[0.8] mb-6" style={{ color: "oklch(20% .03 264)", fontWeight: 300 }}>
                 404
+              </div>
+              <h1 className="font-serif text-3xl md:text-4xl leading-[1.1] mb-3" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                Strona nie została <span className="italic" style={{ color: "oklch(55% .22 27)" }}>znaleziona</span>.
               </h1>
-              <p className="text-xl text-white/80 mb-2">Strona nie została znaleziona</p>
-              <p className="text-white/60 max-w-md mx-auto">
+              <p className="text-base md:text-lg max-w-xl" style={{ color: "oklch(42% .02 264)" }}>
                 Podana strona nie istnieje lub została przeniesiona pod inny adres.
               </p>
             </div>
@@ -48,44 +40,33 @@ export default function NotFoundPage() {
         </section>
 
         <Container>
-          <div className="max-w-lg mx-auto pt-16 text-center space-y-6">
-            <p className="text-slate-600">Co możesz teraz zrobić:</p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <Link
-                to="/"
-                className="flex flex-col items-center gap-3 p-5 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#1a56a0] hover:shadow-md transition-all group"
-              >
-                <div className="w-10 h-10 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors">
-                  <Home className="w-5 h-5 text-[#1a56a0]" />
-                </div>
-                <span className="text-sm font-semibold text-[#0d2137]">Strona główna</span>
-              </Link>
-
-              <Link
-                to="/wyroby"
-                className="flex flex-col items-center gap-3 p-5 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#1a56a0] hover:shadow-md transition-all group"
-              >
-                <div className="w-10 h-10 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors">
-                  <ArrowLeft className="w-5 h-5 text-[#1a56a0]" />
-                </div>
-                <span className="text-sm font-semibold text-[#0d2137]">Katalog wyrobów</span>
-              </Link>
-
-              <Link
-                to="/wyszukiwarka"
-                className="flex flex-col items-center gap-3 p-5 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#1a56a0] hover:shadow-md transition-all group"
-              >
-                <div className="w-10 h-10 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center group-hover:bg-[#1a56a0]/20 transition-colors">
-                  <Search className="w-5 h-5 text-[#1a56a0]" />
-                </div>
-                <span className="text-sm font-semibold text-[#0d2137]">Wyszukiwarka CPR</span>
-              </Link>
+          <div className="max-w-6xl mx-auto pt-12">
+            <div className="editorial-kicker mb-6" style={{ color: "oklch(60% .015 264)" }}>Co możesz teraz zrobić</div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+              {[
+                { to: "/", icon: Home, label: "Strona główna" },
+                { to: "/wyroby", icon: ArrowLeft, label: "Katalog wyrobów" },
+                { to: "/wyszukiwarka", icon: Search, label: "Wyszukiwarka CPR" },
+              ].map((item, idx) => (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className="group p-8 transition-all hover:bg-slate-50"
+                  style={{
+                    borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
+                    borderBottom: "1px solid oklch(92% .008 264)"
+                  }}
+                >
+                  <item.icon className="w-6 h-6 mb-4" style={{ color: "oklch(20% .03 264)" }} />
+                  <h3 className="font-serif text-xl md:text-2xl leading-[1.2] group-hover:italic transition-all" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                    {item.label}
+                  </h3>
+                </Link>
+              ))}
             </div>
-
-            <p className="text-slate-500 text-sm pt-4">
+            <p className="text-sm mt-10" style={{ color: "oklch(60% .015 264)" }}>
               Jeśli uważasz, że to błąd — napisz do nas:{" "}
-              <a href="mailto:biuro@multicert.pl" className="text-[#1a56a0] hover:underline">
+              <a href="mailto:biuro@multicert.pl" className="underline" style={{ color: "oklch(55% .22 27)" }}>
                 biuro@multicert.pl
               </a>
             </p>

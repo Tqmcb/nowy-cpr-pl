@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { PageHeader, RelatedPages } from "../components/PageHeader";
 import { Container } from "../components/Container";
 import {
   ChevronRight,
@@ -233,52 +234,17 @@ export default function CeLabelGenerator() {
         <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 8 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
         <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
       </Helmet>
-      <div className="flex flex-col min-h-screen section-paper">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main id="main-content" className="flex-grow pt-24 pb-20">
-          {/* Hero */}
-          <section className="relative overflow-hidden border-b border-slate-800">
-            {/* B&W photo background */}
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1400&q=80')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-              }}
-            />
-            {/* Navy→blue gradient overlay */}
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-            />
-            {/* Bottom accent stripe */}
-            <div
-              className="absolute bottom-0 left-0 right-0 h-[4px]"
-              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-            />
-            <Container>
-              <div className="relative z-10 pt-8 pb-6">
-                <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
-                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">Strona glowna</button>
-                  <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">Generator etykiety CE</span>
-                </nav>
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Generator etykiety CE</h1>
-                <p className="text-white/80 text-lg max-w-2xl">
-                  Wypelnij formularz i wygeneruj etykiete oznakowania CE zgodna z Art. 8 CPR 2024/3110.
-                </p>
-              </div>
-            </Container>
-          </section>
+        <main id="main-content" className="flex-grow">
+          <PageHeader />
 
           <Container>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
               {/* ── FORM ── */}
               <div className="space-y-5">
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 space-y-4">
-                  <h2 className="text-lg font-semibold text-[#0d2137] mb-2">Dane producenta</h2>
+                <div className="bg-white border border-slate-200 shadow-sm rounded-[2px] p-6 space-y-4">
+                  <h2 className="text-lg font-semibold text-[oklch(20%_.03_264)] mb-2">Dane producenta</h2>
 
                   <div>
                     <label className="block text-xs text-slate-500 mb-1.5">Nazwa producenta *</label>
@@ -287,7 +253,7 @@ export default function CeLabelGenerator() {
                       value={data.producerName}
                       onChange={(e) => update("producerName", e.target.value)}
                       placeholder="np. ABC Budowlana Sp. z o.o."
-                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                     />
                   </div>
 
@@ -298,13 +264,13 @@ export default function CeLabelGenerator() {
                       value={data.producerAddress}
                       onChange={(e) => update("producerAddress", e.target.value)}
                       placeholder="np. ul. Przemyslowa 15, 00-001 Warszawa"
-                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                     />
                   </div>
                 </div>
 
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 space-y-4">
-                  <h2 className="text-lg font-semibold text-[#0d2137] mb-2">Dane wyrobu</h2>
+                <div className="bg-white border border-slate-200 shadow-sm rounded-[2px] p-6 space-y-4">
+                  <h2 className="text-lg font-semibold text-[oklch(20%_.03_264)] mb-2">Dane wyrobu</h2>
 
                   <div>
                     <label className="block text-xs text-slate-500 mb-1.5">Nazwa wyrobu *</label>
@@ -313,7 +279,7 @@ export default function CeLabelGenerator() {
                       value={data.productName}
                       onChange={(e) => update("productName", e.target.value)}
                       placeholder="np. Okno PVC 3-szybowe OKN-150"
-                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                     />
                   </div>
 
@@ -325,7 +291,7 @@ export default function CeLabelGenerator() {
                         value={data.notifiedBodyNumber}
                         onChange={(e) => update("notifiedBodyNumber", e.target.value)}
                         placeholder="np. 1234"
-                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                       />
                     </div>
                     <div>
@@ -336,7 +302,7 @@ export default function CeLabelGenerator() {
                         onChange={(e) => update("year", e.target.value.replace(/\D/g, "").slice(0, 2))}
                         placeholder="26"
                         maxLength={2}
-                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                       />
                     </div>
                   </div>
@@ -349,7 +315,7 @@ export default function CeLabelGenerator() {
                         value={data.dopcNumber}
                         onChange={(e) => update("dopcNumber", e.target.value)}
                         placeholder="np. DoPC-2026-001"
-                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                       />
                     </div>
                     <div>
@@ -359,7 +325,7 @@ export default function CeLabelGenerator() {
                         value={data.harmonizedStandard}
                         onChange={(e) => update("harmonizedStandard", e.target.value)}
                         placeholder="np. EN 14351-1:2006+A2:2016"
-                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30"
+                        className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                       />
                     </div>
                   </div>
@@ -373,7 +339,7 @@ export default function CeLabelGenerator() {
                       onChange={(e) => update("declaredProperties", e.target.value)}
                       placeholder={"Uw = 0,9 W/(m2K)\nRw = 35 dB\nKlasa 4 - przepuszczalnosc powietrza"}
                       rows={4}
-                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 resize-y"
+                      className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30 resize-y"
                     />
                   </div>
                 </div>
@@ -382,21 +348,21 @@ export default function CeLabelGenerator() {
                 <div className="flex flex-wrap gap-3">
                   <button
                     onClick={handlePrint}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-[oklch(20%_.03_264)] text-white font-semibold rounded-[2px] hover:bg-[#1a3d6b] transition-colors text-sm"
                   >
                     <Printer className="w-4 h-4" />
                     Drukuj
                   </button>
                   <button
                     onClick={handleDownloadSvg}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:border-[#1a56a0]/40 hover:text-[#1a56a0] transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-[2px] hover:border-[oklch(55%_.22_27)]/40 hover:text-[oklch(55%_.22_27)] transition-colors text-sm"
                   >
                     <Download className="w-4 h-4" />
                     Pobierz SVG
                   </button>
                   <button
                     onClick={() => setData(EXAMPLE)}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:border-[#1a56a0]/40 hover:text-[#1a56a0] transition-colors text-sm"
+                    className="flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-slate-700 font-semibold rounded-[2px] hover:border-[oklch(55%_.22_27)]/40 hover:text-[oklch(55%_.22_27)] transition-colors text-sm"
                   >
                     <Eye className="w-4 h-4" />
                     Wczytaj przyklad
@@ -415,12 +381,12 @@ export default function CeLabelGenerator() {
               <div>
                 <div className="sticky top-28">
                   <div className="flex items-center gap-2 mb-4">
-                    <Eye className="w-4 h-4 text-[#1a56a0]" />
-                    <h2 className="text-lg font-semibold text-[#0d2137]">Podglad etykiety</h2>
+                    <Eye className="w-4 h-4 text-[oklch(55%_.22_27)]" />
+                    <h2 className="text-lg font-semibold text-[oklch(20%_.03_264)]">Podglad etykiety</h2>
                   </div>
                   <div
                     ref={svgContainerRef}
-                    className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm"
+                    className="bg-white rounded-[2px] p-6 border border-slate-200 shadow-sm"
                   >
                     <CeLabelPreview data={data} />
                   </div>
@@ -434,6 +400,7 @@ export default function CeLabelGenerator() {
             </div>
           </Container>
         </main>
+        <RelatedPages />
         <Footer />
       </div>
     </>

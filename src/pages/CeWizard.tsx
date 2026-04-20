@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { PageHeader, RelatedPages } from "../components/PageHeader";
 import { Container } from "../components/Container";
 import {
   ChevronRight,
@@ -290,43 +291,10 @@ export default function CeWizard() {
         <meta name="description" content="Interaktywny kreator sciezki do oznakowania CE wyrobu budowlanego wg CPR 2024/3110. Odpowiedz na 5 pytan i otrzymaj spersonalizowana checkliste." />
         <link rel="canonical" href="https://www.nowycpr.pl/sciezka-ce" />
       </Helmet>
-      <div className="flex flex-col min-h-screen section-paper">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main id="main-content" className="flex-grow pt-24 pb-20">
-          {/* Hero */}
-          <section className="relative overflow-hidden border-b border-slate-800">
-            {/* B&W photo background */}
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-              }}
-            />
-            {/* Navy→blue gradient overlay */}
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-            />
-            {/* Bottom accent stripe */}
-            <div
-              className="absolute bottom-0 left-0 right-0 h-[4px]"
-              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-            />
-            <Container>
-              <div className="relative z-10 pt-8 pb-6">
-                <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
-                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">Strona glowna</button>
-                  <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">Sciezka do CE</span>
-                </nav>
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Sciezka do CE</h1>
-                <p className="text-white/80 text-lg">Odpowiedz na kilka pytan i otrzymaj spersonalizowana checkliste krok po kroku.</p>
-              </div>
-            </Container>
-          </section>
+        <main id="main-content" className="flex-grow">
+          <PageHeader />
 
           <Container>
             {!isResult ? (
@@ -335,7 +303,7 @@ export default function CeWizard() {
                 <div className="flex items-center gap-2 mb-8">
                   {Array.from({ length: effectiveTotalSteps }, (_, i) => (
                     <div key={i} className="flex items-center gap-2 flex-1">
-                      <div className={`w-full h-1.5 rounded-full transition-all duration-300 ${i + 1 <= state.step ? "bg-[#1a56a0]" : "bg-slate-200"}`} />
+                      <div className={`w-full h-1.5 rounded-full transition-all duration-300 ${i + 1 <= state.step ? "bg-[oklch(55%_.22_27)]" : "bg-slate-200"}`} />
                     </div>
                   ))}
                   <span className="text-xs text-slate-500 shrink-0 ml-2">
@@ -349,16 +317,16 @@ export default function CeWizard() {
                   {state.step === 1 && (
                     <div>
                       {/* Upfront hTS warning */}
-                      <div className="flex items-start gap-3 p-4 rounded-xl bg-[#1a56a0]/8 border border-[#1a56a0]/25 mb-6">
-                        <AlertTriangle className="w-5 h-5 text-[#1a56a0] shrink-0 mt-0.5" />
+                      <div className="flex items-start gap-3 p-4 rounded-[2px] bg-[oklch(55%_.22_27)]/8 border border-[oklch(55%_.22_27)]/25 mb-6">
+                        <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)] shrink-0 mt-0.5" />
                         <div className="text-sm text-slate-700 leading-relaxed">
-                          <strong className="text-[#1a56a0]">Na marzec 2026 żadne nowe normy zharmonizowane (hTS) pod CPR 2024 nie zostały opublikowane.</strong>{" "}
+                          <strong className="text-[oklch(55%_.22_27)]">Na marzec 2026 żadne nowe normy zharmonizowane (hTS) pod CPR 2024 nie zostały opublikowane.</strong>{" "}
                           Obowiązują nadal stare normy hEN i system AVCP/certyfikacji wg CPR 305/2011.
                           Kreator pokazuje <strong>docelową ścieżkę wg CPR 2024</strong> — pomaga przygotować się na zmiany, które wejdą w życie po publikacji hTS (najwcześniej 2027–2029).
                         </div>
                       </div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <Building2 className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <Building2 className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Co produkujesz?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Wybierz rodzaj wyrobu budowlanego.</p>
@@ -367,10 +335,10 @@ export default function CeWizard() {
                           <button
                             key={opt.id}
                             onClick={() => setField("product", opt)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.product?.id === opt.id
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40 text-[#0d2137]"
-                                : "bg-white border-slate-200 text-slate-700 hover:border-[#1a56a0]/30 hover:bg-slate-50"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40 text-[oklch(20%_.03_264)]"
+                                : "bg-white border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27)]/30 hover:bg-slate-50"
                             }`}
                           >
                             <div className="flex items-center justify-between">
@@ -390,8 +358,8 @@ export default function CeWizard() {
                   {/* Step 2: Market */}
                   {state.step === 2 && (
                     <div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <Globe className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <Globe className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Gdzie sprzedajesz wyrob?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Zakres rynku okreslony w CPR.</p>
@@ -404,13 +372,13 @@ export default function CeWizard() {
                           <button
                             key={opt.value}
                             onClick={() => setField("market", opt.value)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.market === opt.value
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40"
-                                : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40"
+                                : "bg-white border-slate-200 hover:border-[oklch(55%_.22_27)]/30"
                             }`}
                           >
-                            <div className="font-medium text-sm text-[#0d2137]">{opt.label}</div>
+                            <div className="font-medium text-sm text-[oklch(20%_.03_264)]">{opt.label}</div>
                             <div className="text-xs text-slate-500 mt-1">{opt.desc}</div>
                           </button>
                         ))}
@@ -421,8 +389,8 @@ export default function CeWizard() {
                   {/* Step 3: Company size */}
                   {state.step === 3 && (
                     <div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <Building2 className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <Building2 className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Jaka jest wielkość Twojej firmy?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Mikroprzedsiebiorstwa moga korzystac z uproszczeń.</p>
@@ -435,13 +403,13 @@ export default function CeWizard() {
                           <button
                             key={opt.value}
                             onClick={() => setField("companySize", opt.value)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.companySize === opt.value
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40"
-                                : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40"
+                                : "bg-white border-slate-200 hover:border-[oklch(55%_.22_27)]/30"
                             }`}
                           >
-                            <div className="font-medium text-sm text-[#0d2137]">{opt.label}</div>
+                            <div className="font-medium text-sm text-[oklch(20%_.03_264)]">{opt.label}</div>
                             <div className="text-xs text-slate-500 mt-1">{opt.desc}</div>
                           </button>
                         ))}
@@ -452,8 +420,8 @@ export default function CeWizard() {
                   {/* Step 4: Existing cert */}
                   {state.step === 4 && (
                     <div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <Shield className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <Shield className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Czy posiadasz certyfikat?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Istniejace certyfikaty mogą uproscic przejscie na CPR 2024.</p>
@@ -465,13 +433,13 @@ export default function CeWizard() {
                           <button
                             key={opt.value}
                             onClick={() => setField("hasCert", opt.value)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.hasCert === opt.value
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40"
-                                : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40"
+                                : "bg-white border-slate-200 hover:border-[oklch(55%_.22_27)]/30"
                             }`}
                           >
-                            <div className="font-medium text-sm text-[#0d2137]">{opt.label}</div>
+                            <div className="font-medium text-sm text-[oklch(20%_.03_264)]">{opt.label}</div>
                             <div className="text-xs text-slate-500 mt-1">{opt.desc}</div>
                           </button>
                         ))}
@@ -482,8 +450,8 @@ export default function CeWizard() {
                   {/* Step 5: ZKP */}
                   {state.step === 5 && (
                     <div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <FileText className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <FileText className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Czy masz wdrożony system ZKP (FPC)?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Zakladowa Kontrola Produkcji jest obowiazkowa dla wszystkich systemow AVS.</p>
@@ -495,13 +463,13 @@ export default function CeWizard() {
                           <button
                             key={String(opt.value)}
                             onClick={() => setField("hasZkp", opt.value)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.hasZkp === opt.value
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40"
-                                : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40"
+                                : "bg-white border-slate-200 hover:border-[oklch(55%_.22_27)]/30"
                             }`}
                           >
-                            <div className="font-medium text-sm text-[#0d2137]">{opt.label}</div>
+                            <div className="font-medium text-sm text-[oklch(20%_.03_264)]">{opt.label}</div>
                             <div className="text-xs text-slate-500 mt-1">{opt.desc}</div>
                           </button>
                         ))}
@@ -512,8 +480,8 @@ export default function CeWizard() {
                   {/* Step 6: Fire resistance (conditional) */}
                   {state.step === 6 && showFireStep && (
                     <div>
-                      <h2 className="text-xl font-semibold text-[#0d2137] mb-2 flex items-center gap-2">
-                        <AlertTriangle className="w-5 h-5 text-[#1a56a0]" />
+                      <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
+                        <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Czy wyrob wymaga odpornosci ogniowej?
                       </h2>
                       <p className="text-slate-500 text-sm mb-6">Wyroby z deklarowana odpornoscia ogniowa wymagaja systemu AVS 1.</p>
@@ -525,13 +493,13 @@ export default function CeWizard() {
                           <button
                             key={String(opt.value)}
                             onClick={() => setField("needsFireResistance", opt.value)}
-                            className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${
+                            className={`w-full text-left p-4 rounded-[2px] border transition-all duration-200 ${
                               state.needsFireResistance === opt.value
-                                ? "bg-[#1a56a0]/10 border-[#1a56a0]/40"
-                                : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
+                                ? "bg-[oklch(55%_.22_27)]/10 border-[oklch(55%_.22_27)]/40"
+                                : "bg-white border-slate-200 hover:border-[oklch(55%_.22_27)]/30"
                             }`}
                           >
-                            <div className="font-medium text-sm text-[#0d2137]">{opt.label}</div>
+                            <div className="font-medium text-sm text-[oklch(20%_.03_264)]">{opt.label}</div>
                             <div className="text-xs text-slate-500 mt-1">{opt.desc}</div>
                           </button>
                         ))}
@@ -543,7 +511,7 @@ export default function CeWizard() {
                   <div className="flex items-center justify-between mt-8">
                     <button
                       onClick={state.step === 1 ? () => navigate("/") : prev}
-                      className="flex items-center gap-2 text-slate-500 hover:text-[#0d2137] transition-colors text-sm"
+                      className="flex items-center gap-2 text-slate-500 hover:text-[oklch(20%_.03_264)] transition-colors text-sm"
                     >
                       <ChevronLeft className="w-4 h-4" />
                       {state.step === 1 ? "Strona glowna" : "Wstecz"}
@@ -551,9 +519,9 @@ export default function CeWizard() {
                     <button
                       onClick={handleNext}
                       disabled={!canProceed()}
-                      className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all ${
+                      className={`flex items-center gap-2 px-6 py-3 rounded-[2px] font-semibold text-sm transition-all ${
                         canProceed()
-                          ? "bg-[#1a56a0] text-white hover:bg-[#1a3d6b]"
+                          ? "bg-[oklch(55%_.22_27)] text-white hover:bg-[#1a3d6b]"
                           : "bg-slate-200 text-slate-400 cursor-not-allowed"
                       }`}
                     >
@@ -567,19 +535,19 @@ export default function CeWizard() {
               /* ── RESULTS ── */
               <div>
                 {/* Summary header */}
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 mb-8">
+                <div className="bg-slate-50 border border-slate-200 rounded-[2px] p-6 mb-8">
                   <div className="flex flex-wrap items-start justify-between gap-4">
                     <div>
-                      <h2 className="text-xl font-bold text-[#0d2137] mb-2">Twoja sciezka do CE</h2>
+                      <h2 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Twoja sciezka do CE</h2>
                       <div className="flex flex-wrap gap-2">
-                        <span className="text-xs px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/30 text-[#1a56a0] font-bold">
+                        <span className="text-xs px-3 py-1 rounded-full bg-[oklch(55%_.22_27)]/10 border border-[oklch(55%_.22_27)]/30 text-[oklch(55%_.22_27)] font-bold">
                           {state.product!.label}
                         </span>
                         <span className="text-xs px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-slate-600">
                           AVS {getAvsLevel(state.product!, state.needsFireResistance)}
                         </span>
                         {needsNotifiedBody(getAvsLevel(state.product!, state.needsFireResistance)) && (
-                          <span className="text-xs px-3 py-1 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0]">
+                          <span className="text-xs px-3 py-1 rounded-full bg-[oklch(55%_.22_27)]/10 border border-[oklch(55%_.22_27)]/20 text-[oklch(55%_.22_27)]">
                             Wymaga JN
                           </span>
                         )}
@@ -592,7 +560,7 @@ export default function CeWizard() {
                     </div>
                     <button
                       onClick={reset}
-                      className="flex items-center gap-2 px-4 py-2 text-sm text-slate-500 hover:text-[#0d2137] border border-slate-200 rounded-xl hover:border-slate-300 transition-colors"
+                      className="flex items-center gap-2 px-4 py-2 text-sm text-slate-500 hover:text-[oklch(20%_.03_264)] border border-slate-200 rounded-[2px] hover:border-slate-300 transition-colors"
                     >
                       <RotateCcw className="w-3.5 h-3.5" />
                       Zacznij od nowa
@@ -601,10 +569,10 @@ export default function CeWizard() {
                 </div>
 
                 {/* hTS disclaimer */}
-                <div className="flex items-start gap-3 p-4 rounded-xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 mb-6">
-                  <AlertTriangle className="w-5 h-5 text-[#1a56a0] shrink-0 mt-0.5" />
+                <div className="flex items-start gap-3 p-4 rounded-[2px] bg-[oklch(55%_.22_27)]/5 border border-[oklch(55%_.22_27)]/20 mb-6">
+                  <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)] shrink-0 mt-0.5" />
                   <div className="text-sm text-slate-700 leading-relaxed">
-                    <strong className="text-[#1a56a0]">Wazne:</strong> Ponizsze kroki opisuja docelowy proces wg CPR 2024. Nowe obowiazki (DoP&C, AVS, nowe oznakowanie CE) wchodza w zycie <strong>dopiero po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS)</strong> dla danej rodziny wyrobow. Do tego czasu stosuj dotychczasowe normy hEN i system AVCP. Checklista pomoze Ci przygotowac sie na nadchodzace zmiany.
+                    <strong className="text-[oklch(55%_.22_27)]">Wazne:</strong> Ponizsze kroki opisuja docelowy proces wg CPR 2024. Nowe obowiazki (DoP&C, AVS, nowe oznakowanie CE) wchodza w zycie <strong>dopiero po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS)</strong> dla danej rodziny wyrobow. Do tego czasu stosuj dotychczasowe normy hEN i system AVCP. Checklista pomoze Ci przygotowac sie na nadchodzace zmiany.
                   </div>
                 </div>
 
@@ -613,20 +581,20 @@ export default function CeWizard() {
                   {generateChecklist(state).map((item) => (
                     <div
                       key={item.step}
-                      className={`relative pl-12 py-4 pr-5 rounded-xl border transition-all ${
+                      className={`relative pl-12 py-4 pr-5 rounded-[2px] border transition-all ${
                         item.critical
-                          ? "bg-[#1a56a0]/5 border-[#1a56a0]/20"
+                          ? "bg-[oklch(55%_.22_27)]/5 border-[oklch(55%_.22_27)]/20"
                           : "bg-white border-slate-200"
                       }`}
                     >
                       {/* Step number */}
-                      <div className="absolute left-4 top-4 w-6 h-6 rounded-full bg-[#1a56a0]/15 flex items-center justify-center">
-                        <span className="text-xs font-bold text-[#1a56a0]">{item.step}</span>
+                      <div className="absolute left-4 top-4 w-6 h-6 rounded-full bg-[oklch(55%_.22_27)]/15 flex items-center justify-center">
+                        <span className="text-xs font-bold text-[oklch(55%_.22_27)]">{item.step}</span>
                       </div>
 
-                      <h3 className="font-semibold text-[#0d2137] text-sm mb-1.5 flex items-center gap-2">
+                      <h3 className="font-semibold text-[oklch(20%_.03_264)] text-sm mb-1.5 flex items-center gap-2">
                         {item.title}
-                        {item.critical && <AlertTriangle className="w-3.5 h-3.5 text-[#1a56a0]" />}
+                        {item.critical && <AlertTriangle className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" />}
                       </h3>
                       <p className="text-slate-600 text-sm leading-relaxed">{item.description}</p>
 
@@ -640,7 +608,7 @@ export default function CeWizard() {
                         {item.link && (
                           <Link
                             to={item.link.to}
-                            className="flex items-center gap-1.5 text-xs text-[#1a56a0] hover:text-[#1a3d6b] transition-colors"
+                            className="flex items-center gap-1.5 text-xs text-[oklch(55%_.22_27)] hover:text-[#1a3d6b] transition-colors"
                           >
                             {item.link.label}
                             <ArrowRight className="w-3 h-3" />
@@ -655,27 +623,27 @@ export default function CeWizard() {
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
                   <Link
                     to="/documents"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-white border border-slate-200 hover:border-[#1a56a0]/30 hover:shadow-sm transition-all group"
+                    className="flex items-center gap-3 p-4 rounded-[2px] bg-white border border-slate-200 hover:border-[oklch(55%_.22_27)]/30 hover:shadow-sm transition-all group"
                   >
-                    <Download className="w-5 h-5 text-[#1a56a0]" />
+                    <Download className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                     <div>
-                      <div className="text-sm font-semibold text-[#0d2137] group-hover:text-[#1a56a0] transition-colors">Pobierz szablony</div>
+                      <div className="text-sm font-semibold text-[oklch(20%_.03_264)] group-hover:text-[oklch(55%_.22_27)] transition-colors">Pobierz szablony</div>
                       <div className="text-xs text-slate-500">DoP&C, ZKP, checklista</div>
                     </div>
                   </Link>
                   <Link
                     to="/generator-ce"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-white border border-slate-200 hover:border-[#1a56a0]/30 hover:shadow-sm transition-all group"
+                    className="flex items-center gap-3 p-4 rounded-[2px] bg-white border border-slate-200 hover:border-[oklch(55%_.22_27)]/30 hover:shadow-sm transition-all group"
                   >
-                    <FileText className="w-5 h-5 text-[#1a56a0]" />
+                    <FileText className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                     <div>
-                      <div className="text-sm font-semibold text-[#0d2137] group-hover:text-[#1a56a0] transition-colors">Generator etykiety CE</div>
+                      <div className="text-sm font-semibold text-[oklch(20%_.03_264)] group-hover:text-[oklch(55%_.22_27)] transition-colors">Generator etykiety CE</div>
                       <div className="text-xs text-slate-500">Wygeneruj oznakowanie</div>
                     </div>
                   </Link>
                   <Link
                     to="/services"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-[#0d2137] border border-[#0d2137] hover:bg-[#1a3d6b] transition-all group"
+                    className="flex items-center gap-3 p-4 rounded-[2px] bg-[oklch(20%_.03_264)] border border-[oklch(20% .03 264)] hover:bg-[#1a3d6b] transition-all group"
                   >
                     <Newspaper className="w-5 h-5 text-white" />
                     <div>
@@ -688,6 +656,7 @@ export default function CeWizard() {
             )}
           </Container>
         </main>
+        <RelatedPages />
         <Footer />
       </div>
     </>

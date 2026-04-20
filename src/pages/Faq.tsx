@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { PageHeader, RelatedPages } from "../components/PageHeader";
 import { Container } from "../components/Container";
 import {
   Search,
@@ -41,7 +42,7 @@ interface FaqItem {
 }
 
 const CATEGORY_CONFIG: Record<FaqCategory, { label: string; icon: React.ComponentType<{ className?: string }>; color: string }> = {
-  ogolne: { label: "Ogólne", icon: HelpCircle, color: "text-[#1a56a0]" },
+  ogolne: { label: "Ogólne", icon: HelpCircle, color: "text-[oklch(55% .22 27)]" },
   producent: { label: "Producent", icon: Building2, color: "text-sky-600" },
   certyfikacja: { label: "Certyfikacja i AVS", icon: Shield, color: "text-emerald-600" },
   dokumentacja: { label: "Dokumentacja", icon: FileText, color: "text-orange-600" },
@@ -335,232 +336,187 @@ export default function FaqPage() {
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
-      <div className="flex flex-col min-h-screen section-paper">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main id="main-content" className="flex-grow pb-20">
-          {/* ── HERO ── */}
-          <section className="relative overflow-hidden border-b border-slate-800">
-            {/* B&W photo background */}
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1400&q=80')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-              }}
-            />
-            {/* Navy→blue gradient overlay */}
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-            />
-            {/* Bottom accent stripe */}
-            <div
-              className="absolute bottom-0 left-0 right-0 h-[4px]"
-              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-            />
-            <Container>
-              <div className="relative z-10 pt-28 pb-10">
-                <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
-                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">
-                    Strona główna
-                  </button>
-                  <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">FAQ</span>
-                </nav>
+        <main id="main-content" className="flex-grow">
+          <PageHeader>
+            <span className="editorial-kicker" style={{ color: "oklch(55% .22 27)" }}>{FAQ_DATA.length} pytań w bazie</span>
+          </PageHeader>
 
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/15 border border-white/30 text-white">
-                    <HelpCircle className="w-3 h-3" /> FAQ
-                  </span>
-                  <span className="text-xs text-white/70">{FAQ_DATA.length} pytań</span>
+          {/* ── SEARCH BAR ── */}
+          <section className="py-12 md:py-16 bg-white">
+            <Container>
+              <div className="max-w-6xl mx-auto">
+                <div className="relative mb-8">
+                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
+                  <input
+                    type="text"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    placeholder="Szukaj pytania — np. &quot;DoP&C&quot;, &quot;koszt certyfikacji&quot;, &quot;ETA&quot;..."
+                    className="w-full pl-12 pr-4 py-4 bg-white focus:outline-none transition-all text-sm font-serif"
+                    style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
+                  />
+                  {search && (
+                    <button
+                      onClick={() => setSearch("")}
+                      className="absolute right-4 top-1/2 -translate-y-1/2 editorial-kicker transition-colors hover:text-black"
+                      style={{ color: "oklch(60% .015 264)" }}
+                    >
+                      Wyczyść
+                    </button>
+                  )}
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-4">
-                  Najczęstsze pytania o CPR 2024
-                </h1>
-                <p className="text-white/80 text-lg max-w-2xl">
-                  Odpowiedzi na pytania producentów, importerów i dystrybutorów wyrobów budowlanych.
-                </p>
+                {/* ── CATEGORY FILTERS ── */}
+                <div className="flex flex-wrap gap-2 mb-10 pb-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+                  <button
+                    onClick={() => setActiveCategory("all")}
+                    className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] transition-all"
+                    style={{
+                      backgroundColor: activeCategory === "all" ? "oklch(20% .03 264)" : "white",
+                      color: activeCategory === "all" ? "white" : "oklch(42% .02 264)",
+                      border: "1px solid " + (activeCategory === "all" ? "oklch(20% .03 264)" : "oklch(86% .012 264)"),
+                      borderRadius: "2px",
+                    }}
+                  >
+                    Wszystkie
+                    <span className="opacity-60">({categoryCounts.all})</span>
+                  </button>
+                  {(Object.entries(CATEGORY_CONFIG) as [FaqCategory, typeof CATEGORY_CONFIG.ogolne][]).map(
+                    ([cat, config]) => {
+                      const Icon = config.icon;
+                      const isActive = activeCategory === cat;
+                      return (
+                        <button
+                          key={cat}
+                          onClick={() => setActiveCategory(cat)}
+                          className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] transition-all"
+                          style={{
+                            backgroundColor: isActive ? "oklch(20% .03 264)" : "white",
+                            color: isActive ? "white" : "oklch(42% .02 264)",
+                            border: "1px solid " + (isActive ? "oklch(20% .03 264)" : "oklch(86% .012 264)"),
+                            borderRadius: "2px",
+                          }}
+                        >
+                          <Icon className="w-3 h-3" />
+                          {config.label}
+                          <span className="opacity-60">({categoryCounts[cat]})</span>
+                        </button>
+                      );
+                    }
+                  )}
+                </div>
+
+                {/* ── FAQ ACCORDION — editorial ── */}
+                {filtered.length === 0 ? (
+                  <div className="py-16 text-center">
+                    <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Brak wyników</h3>
+                    <p className="text-sm" style={{ color: "oklch(42% .02 264)" }}>
+                      Nie znaleziono pytań pasujących do „{search}".{" "}
+                      <button onClick={() => { setSearch(""); setActiveCategory("all"); }} className="underline" style={{ color: "oklch(55% .22 27)" }}>
+                        Wyczyść filtry
+                      </button>
+                    </p>
+                  </div>
+                ) : (
+                  <div className="space-y-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+                    {filtered.map((item, index) => {
+                      const globalIndex = FAQ_DATA.indexOf(item);
+                      const isOpen = openItems.has(globalIndex);
+                      const catConfig = CATEGORY_CONFIG[item.category];
+
+                      return (
+                        <div key={globalIndex} style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+                          <button
+                            onClick={() => toggleItem(globalIndex)}
+                            className="w-full grid grid-cols-12 gap-4 py-6 text-left group"
+                            aria-expanded={isOpen}
+                          >
+                            <span className="col-span-1 editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
+                              {String(globalIndex + 1).padStart(2, "0")}
+                            </span>
+                            <div className="col-span-10">
+                              <div className="editorial-kicker mb-2" style={{ color: "oklch(55% .22 27)" }}>
+                                {catConfig.label}
+                              </div>
+                              <h3 className="font-serif text-lg md:text-xl leading-[1.25] transition-all group-hover:italic" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                                {item.question}
+                              </h3>
+                            </div>
+                            <ChevronDown
+                              className="col-span-1 justify-self-end shrink-0 w-5 h-5 mt-1 transition-transform duration-300"
+                              style={{
+                                transform: isOpen ? "rotate(180deg)" : "none",
+                                color: isOpen ? "oklch(55% .22 27)" : "oklch(60% .015 264)",
+                              }}
+                            />
+                          </button>
+                          <div
+                            className="overflow-hidden transition-all duration-300"
+                            style={{ maxHeight: isOpen ? "800px" : "0", opacity: isOpen ? 1 : 0 }}
+                          >
+                            <div className="grid grid-cols-12 gap-4 pb-6">
+                              <div className="col-span-1" />
+                              <div className="col-span-11 text-base leading-[1.7] whitespace-pre-line" style={{ color: "oklch(42% .02 264)" }}>
+                                {item.answer.split(/(\*\*.*?\*\*)/).map((part, i) => {
+                                  if (part.startsWith("**") && part.endsWith("**")) {
+                                    return (
+                                      <strong key={i} style={{ color: "oklch(20% .03 264)", fontWeight: 600 }}>
+                                        {part.slice(2, -2)}
+                                      </strong>
+                                    );
+                                  }
+                                  return <span key={i}>{part}</span>;
+                                })}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             </Container>
           </section>
 
-          {/* ── SEARCH BAR ── */}
-          <Container>
-            <div className="relative mb-8">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
-              <input
-                type="text"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder="Szukaj pytania, np. &quot;DoP&C&quot;, &quot;koszt certyfikacji&quot;, &quot;ETA&quot;..."
-                className="w-full pl-12 pr-4 py-4 bg-white border border-slate-200 rounded-2xl text-slate-900 placeholder-slate-400 focus:outline-none focus:border-[#1a56a0]/50 focus:ring-1 focus:ring-[#1a56a0]/30 transition-all text-sm"
-              />
-              {search && (
-                <button
-                  onClick={() => setSearch("")}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-700 transition-colors text-xs"
-                >
-                  Wyczyść
-                </button>
-              )}
-            </div>
-          </Container>
-
-          {/* ── CATEGORY FILTERS ── */}
-          <Container>
-            <div className="flex flex-wrap gap-2 mb-8">
-              <button
-                onClick={() => setActiveCategory("all")}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
-                  activeCategory === "all"
-                    ? "bg-[#0d2137] border-[#0d2137] text-white"
-                    : "bg-white border-slate-200 text-slate-600 hover:border-[#1a56a0]/50 hover:text-[#1a56a0]"
-                }`}
-              >
-                Wszystkie
-                <span className="text-[10px] opacity-60">({categoryCounts.all})</span>
-              </button>
-              {(Object.entries(CATEGORY_CONFIG) as [FaqCategory, typeof CATEGORY_CONFIG.ogolne][]).map(
-                ([cat, config]) => {
-                  const Icon = config.icon;
-                  return (
-                    <button
-                      key={cat}
-                      onClick={() => setActiveCategory(cat)}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
-                        activeCategory === cat
-                          ? "bg-[#0d2137] border-[#0d2137] text-white"
-                          : "bg-white border-slate-200 text-slate-600 hover:border-[#1a56a0]/50 hover:text-[#1a56a0]"
-                      }`}
-                    >
-                      <Icon className="w-3 h-3" />
-                      {config.label}
-                      <span className="text-[10px] opacity-60">({categoryCounts[cat]})</span>
-                    </button>
-                  );
-                }
-              )}
-            </div>
-          </Container>
-
-          {/* ── FAQ ACCORDION ── */}
-          <Container>
-            {filtered.length === 0 ? (
-              <div className="text-center py-16">
-                <HelpCircle className="w-12 h-12 text-slate-300 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold text-[#0d2137] mb-2">Brak wyników</h3>
-                <p className="text-slate-500 text-sm">
-                  Nie znaleziono pytań pasujących do &bdquo;{search}&rdquo;.{" "}
-                  <button onClick={() => { setSearch(""); setActiveCategory("all"); }} className="text-[#1a56a0] hover:underline">
-                    Wyczyść filtry
-                  </button>
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-3">
-                {filtered.map((item, index) => {
-                  const globalIndex = FAQ_DATA.indexOf(item);
-                  const isOpen = openItems.has(globalIndex);
-                  const catConfig = CATEGORY_CONFIG[item.category];
-                  const CatIcon = catConfig.icon;
-
-                  return (
-                    <div
-                      key={globalIndex}
-                      className={`border rounded-2xl transition-all duration-300 ${
-                        isOpen
-                          ? "bg-white border-[#1a56a0]/20 shadow-md"
-                          : "bg-white border-slate-200 hover:border-[#1a56a0]/30"
-                      }`}
-                    >
-                      <button
-                        onClick={() => toggleItem(globalIndex)}
-                        className="w-full flex items-start gap-4 p-5 text-left"
-                        aria-expanded={isOpen}
-                      >
-                        <div className={`shrink-0 mt-0.5 w-8 h-8 rounded-lg flex items-center justify-center ${isOpen ? "bg-[#1a56a0]/10" : "bg-slate-100"}`}>
-                          <CatIcon className={`w-4 h-4 ${isOpen ? "text-[#1a56a0]" : catConfig.color}`} />
-                        </div>
-                        <div className="flex-grow min-w-0">
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className={`text-[10px] px-2 py-0.5 rounded-full border ${isOpen ? "bg-[#1a56a0]/10 border-[#1a56a0]/20 text-[#1a56a0]" : "bg-slate-100 border-slate-200 text-slate-500"}`}>
-                              {catConfig.label}
-                            </span>
-                          </div>
-                          <h3
-                            className={`font-semibold text-[15px] leading-snug transition-colors ${
-                              isOpen ? "text-[#0d2137]" : "text-slate-800"
-                            }`}
-                          >
-                            {item.question}
-                          </h3>
-                        </div>
-                        <ChevronDown
-                          className={`shrink-0 w-5 h-5 mt-1 transition-transform duration-300 ${
-                            isOpen ? "rotate-180 text-[#1a56a0]" : "text-slate-400"
-                          }`}
-                        />
-                      </button>
-
-                      {/* Answer */}
-                      <div
-                        className={`overflow-hidden transition-all duration-300 ${
-                          isOpen ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"
-                        }`}
-                      >
-                        <div className="px-5 pb-5 pl-[4.25rem]">
-                          <div className="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
-                            {item.answer.split(/(\*\*.*?\*\*)/).map((part, i) => {
-                              if (part.startsWith("**") && part.endsWith("**")) {
-                                return (
-                                  <strong key={i} className="text-[#0d2137] font-semibold">
-                                    {part.slice(2, -2)}
-                                  </strong>
-                                );
-                              }
-                              return <span key={i}>{part}</span>;
-                            })}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </Container>
-
-          {/* ── CTA ── */}
-          <section className="mt-16">
+          {/* ── CTA — editorial dark ── */}
+          <section className="py-20 md:py-24 bg-white">
             <Container>
-              <div className="bg-[#0d2137] rounded-2xl p-8 md:p-12 text-center">
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                  Nie znalazłeś odpowiedzi?
-                </h2>
-                <p className="text-slate-300 max-w-xl mx-auto mb-6">
-                  Skontaktuj się z naszymi ekspertami — pomożemy rozwiązać każdy problem związany z CPR 2024.
-                </p>
-                <div className="flex flex-wrap justify-center gap-4">
-                  <button
-                    onClick={() => navigate("/kontakt")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors"
-                  >
-                    Zadaj pytanie <ChevronRight className="w-4 h-4" />
-                  </button>
-                  <button
-                    onClick={() => navigate("/services")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors"
-                  >
-                    Usługi certyfikacyjne <Shield className="w-4 h-4" />
-                  </button>
+              <div className="max-w-6xl mx-auto">
+                <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+                  <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+
+                  <div className="max-w-2xl">
+                    <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Nie znalazłeś odpowiedzi?</div>
+                    <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white" style={{ fontWeight: 500 }}>
+                      Zadaj pytanie<br/>
+                      <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>naszym ekspertom.</span>
+                    </h2>
+                  </div>
+                  <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+                    <button
+                      onClick={() => navigate("/kontakt")}
+                      className="flex items-center gap-2 px-6 py-3 bg-white font-semibold transition-all hover:bg-slate-100"
+                      style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}
+                    >
+                      Zadaj pytanie <ChevronRight className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={() => navigate("/services")}
+                      className="flex items-center gap-2 px-6 py-3 font-semibold transition-all hover:bg-white/10"
+                      style={{ border: "1px solid rgba(255,255,255,0.3)", color: "white", backgroundColor: "transparent", borderRadius: "2px" }}
+                    >
+                      Usługi certyfikacyjne <Shield className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </Container>
           </section>
         </main>
+        <RelatedPages />
         <Footer />
       </div>
     </>

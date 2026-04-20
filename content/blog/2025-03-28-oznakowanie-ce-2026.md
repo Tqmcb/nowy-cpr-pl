@@ -125,7 +125,7 @@ Organy kontrolne ([GUNB](https://www.gunb.gov.pl), [UOKiK](https://www.uokik.gov
 | Obowiązkowy QR kod na etykiecie (wymaga aktów delegowanych) | **nie wcześniej niż 2027** |
 | Sankcje administracyjne za naruszenia (Art. 92) | **8 stycznia 2027** |
 | Koniec możliwości stosowania starych ETA | **9 stycznia 2036** |
-| Koniec okresu przejściowego | **7 stycznia 2040** |
+| Koniec okresu przejściowego | **8 stycznia 2040** |
 
 ---
 

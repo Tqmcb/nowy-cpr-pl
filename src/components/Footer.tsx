@@ -5,20 +5,44 @@ import { MapPin, Mail, Send, Linkedin, Twitter, Facebook, Home, Search, FileText
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
+  const textBody = "oklch(70% .015 264)";
+  const textMuted = "oklch(55% .015 264)";
+  const borderCol = "oklch(30% .03 264)";
+  const brandRed = "oklch(55% .22 27)";
 
   return (
-    <footer role="contentinfo" className="bg-[#0d2137] border-t border-slate-700 pt-16 pb-8">
+    <footer role="contentinfo" className="relative pt-20 pb-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+      {/* Brand-red top rule — sygnatura */}
+      <div className="absolute top-0 left-0 h-[5px] w-28" style={{ backgroundColor: brandRed }} />
+
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        {/* Masthead band — section numerals */}
+        <div className="max-w-6xl mx-auto mb-14">
+          <div className="flex items-baseline gap-6 pb-6" style={{ borderBottom: `1px solid ${borderCol}` }}>
+            <span className="editorial-numeral text-5xl md:text-6xl" style={{ color: brandRed, fontWeight: 300 }}>06</span>
+            <div className="flex items-center gap-3 pt-3">
+              <div className="h-[2px] w-10" style={{ backgroundColor: brandRed }} />
+              <span className="editorial-kicker" style={{ color: textBody }}>Stopka redakcyjna</span>
+            </div>
+            <div className="ml-auto pt-3 editorial-kicker hidden md:block" style={{ color: textMuted }}>
+              Wydanie ciągłe · {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-4">
-              <span className="text-xl font-bold text-white">NowyCPR</span>
-              <span className="text-xl font-bold text-slate-500">.pl</span>
+            <div className="mb-5 flex items-baseline">
+              <span className="text-2xl font-serif italic" style={{ color: "white", fontWeight: 600 }}>Nowy</span>
+              <span className="text-2xl font-serif" style={{ color: "white", fontWeight: 600 }}>CPR</span>
+              <span className="text-2xl font-serif" style={{ color: brandRed, fontWeight: 600 }}>.pl</span>
             </div>
-            <p className="text-slate-400 text-sm leading-relaxed mb-5">
-              Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście Rozporządzenia CPR (EU) 2024/3110. Portal wydawany przez Multicert Sp. z o.o.
+            <p className="text-sm leading-[1.7] mb-6" style={{ color: textBody }}>
+              Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście Rozporządzenia CPR (EU) 2024/3110.
             </p>
+            <p className="editorial-kicker mb-4" style={{ color: textMuted }}>Wydawca</p>
+            <p className="font-serif text-base italic mb-6" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>
             <div className="flex gap-2">
               {[
                 { href: "https://www.linkedin.com/company/multicert-certyfikacja-wyrobow/", label: "LinkedIn", Icon: Linkedin },
@@ -26,7 +50,8 @@ export function Footer() {
                 { href: "https://www.facebook.com/MulticertCertyfikacja", label: "Facebook", Icon: Facebook },
               ].map(({ href, label, Icon }) => (
                 <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={`Multicert na ${label}`}
-                  className="w-9 h-9 rounded border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-500 transition-colors">
+                  className="w-9 h-9 flex items-center justify-center transition-colors hover:bg-white/10"
+                  style={{ border: `1px solid ${borderCol}`, color: textBody, borderRadius: "2px" }}>
                   <Icon className="w-4 h-4" />
                 </a>
               ))}
@@ -35,8 +60,8 @@ export function Footer() {
 
           {/* Linki */}
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-4 pb-2 border-b border-slate-700">Przydatne linki</h3>
-            <ul className="space-y-2.5">
+            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Przydatne linki</h3>
+            <ul className="space-y-3">
               {[
                 { path: "/", label: "Strona Główna", icon: Home },
                 { path: "/wyszukiwarka", label: "Wyszukiwarka CPR", icon: Search },
@@ -46,8 +71,8 @@ export function Footer() {
                 { path: "/o-portalu", label: "O portalu", icon: Info },
               ].map(link => (
                 <li key={link.path}>
-                  <Link to={link.path} className="text-slate-400 hover:text-white transition-colors text-sm flex items-center gap-2 group">
-                    <link.icon className="w-3.5 h-3.5" />{link.label}
+                  <Link to={link.path} className="text-sm flex items-center gap-2.5 transition-colors hover:text-white" style={{ color: textBody }}>
+                    <link.icon className="w-3.5 h-3.5 opacity-60" />{link.label}
                   </Link>
                 </li>
               ))}
@@ -56,35 +81,37 @@ export function Footer() {
 
           {/* Kontakt */}
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-4 pb-2 border-b border-slate-700">Kontakt</h3>
-            <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-2.5 text-slate-400">
-                <MapPin className="w-4 h-4 text-slate-500 mt-0.5 flex-shrink-0" />
+            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Kontakt</h3>
+            <ul className="space-y-4 text-sm">
+              <li className="flex items-start gap-2.5" style={{ color: textBody }}>
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 opacity-60" />
                 <div>
-                  <p className="text-white font-medium">Multicert Sp. z o.o.</p>
+                  <p className="font-serif italic text-base mb-1" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>
                   <p>Mydlarska 47, 04-690 Warszawa</p>
                 </div>
               </li>
               <li>
-                <a href="mailto:biuro@multicert.pl" className="flex items-center gap-2.5 text-slate-400 hover:text-white transition-colors">
-                  <Mail className="w-4 h-4" />biuro@multicert.pl
+                <a href="mailto:biuro@multicert.pl" className="flex items-center gap-2.5 transition-colors hover:text-white" style={{ color: textBody }}>
+                  <Mail className="w-4 h-4 opacity-60" />biuro@multicert.pl
                 </a>
               </li>
             </ul>
-            <div className="mt-5 p-3 rounded border border-blue-800 bg-blue-950/30">
+            <div className="mt-6 p-4" style={{ border: `1px solid ${borderCol}`, borderLeft: `2px solid ${brandRed}` }}>
               <a href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R3110" target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-2 text-xs text-blue-400 hover:text-blue-300 transition-colors">
+                className="flex items-center gap-2 text-xs transition-colors hover:opacity-80" style={{ color: brandRed }}>
                 <Shield className="w-3.5 h-3.5" />
-                <span>Oficjalny tekst CPR (EU) 2024/3110</span>
-                <ExternalLink className="w-3 h-3" />
+                <span className="editorial-kicker" style={{ color: brandRed }}>Oficjalny tekst CPR</span>
+                <ExternalLink className="w-3 h-3 ml-auto" />
               </a>
             </div>
           </div>
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-4 pb-2 border-b border-slate-700">Newsletter</h3>
-            <p className="text-slate-400 text-sm mb-4">Bądź na bieżąco ze zmianami w przepisach CPR i terminami wdrożeń</p>
+            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Newsletter</h3>
+            <p className="font-serif text-lg italic leading-[1.35] mb-5" style={{ color: "white", fontWeight: 500 }}>
+              Bądź na bieżąco ze zmianami w przepisach CPR.
+            </p>
             <form onSubmit={(e) => {
               e.preventDefault();
               const form = e.target as HTMLFormElement;
@@ -109,24 +136,30 @@ export function Footer() {
                 </div>
                 <label htmlFor="newsletter-name" className="sr-only">Twoje imię</label>
                 <input id="newsletter-name" type="text" placeholder="Twoje imię"
-                  className="w-full px-3 py-2.5 text-sm bg-slate-800 border border-slate-700 rounded text-white placeholder-slate-500 focus:outline-none focus:border-slate-500 transition-colors" />
+                  className="w-full px-3 py-2.5 text-sm focus:outline-none transition-colors"
+                  style={{ backgroundColor: "transparent", border: `1px solid ${borderCol}`, color: "white", borderRadius: "2px" }} />
                 <label htmlFor="newsletter-email" className="sr-only">Twój e-mail</label>
                 <input id="newsletter-email" type="email" placeholder="Twój e-mail" required
-                  className="w-full px-3 py-2.5 text-sm bg-slate-800 border border-slate-700 rounded text-white placeholder-slate-500 focus:outline-none focus:border-slate-500 transition-colors" />
-                <button type="submit" className="w-full py-2.5 rounded text-sm font-semibold text-white bg-[#1a56a0] hover:bg-[#1a3d6b] transition-colors flex items-center justify-center gap-2">
+                  className="w-full px-3 py-2.5 text-sm focus:outline-none transition-colors"
+                  style={{ backgroundColor: "transparent", border: `1px solid ${borderCol}`, color: "white", borderRadius: "2px" }} />
+                <button type="submit"
+                  className="w-full py-3 text-sm font-semibold text-white transition-all flex items-center justify-center gap-2 hover:opacity-90"
+                  style={{ backgroundColor: brandRed, borderRadius: "2px" }}>
                   <Send className="w-3.5 h-3.5" />Zapisz się
                 </button>
               </div>
-              <p className="text-xs text-slate-600 mt-2">Twoje dane będą użyte wyłącznie do wysyłki newslettera.</p>
+              <p className="text-xs mt-3" style={{ color: textMuted }}>Dane wyłącznie do wysyłki newslettera.</p>
             </form>
           </div>
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-6 border-t border-slate-800">
+        <div className="max-w-6xl mx-auto pt-6" style={{ borderTop: `1px solid ${borderCol}` }}>
           <div className="flex flex-col md:flex-row justify-between items-center gap-3">
-            <div className="text-slate-500 text-xs">© {currentYear} NowyCPR.pl. Wszystkie prawa zastrzeżone.</div>
-            <div className="text-slate-600 text-xs">Wydawca: <span className="text-slate-400">Multicert Sp. z o.o.</span> | Portal informacyjny</div>
+            <div className="editorial-kicker" style={{ color: textMuted }}>© {currentYear} NowyCPR.pl</div>
+            <div className="text-xs font-serif italic" style={{ color: textBody }}>
+              Wydawca: <span style={{ color: "white" }}>Multicert Sp. z o.o.</span> · Portal informacyjny
+            </div>
             <div className="flex items-center gap-5 text-xs">
               {[
                 { to: "/polityka-prywatnosci", label: "Polityka prywatności" },
@@ -135,7 +168,7 @@ export function Footer() {
                 { to: "/o-portalu", label: "O portalu" },
                 { to: "/dostepnosc", label: "Dostępność" },
               ].map(l => (
-                <Link key={l.to} to={l.to} className="text-slate-500 hover:text-slate-300 transition-colors">{l.label}</Link>
+                <Link key={l.to} to={l.to} className="transition-colors hover:text-white" style={{ color: textMuted }}>{l.label}</Link>
               ))}
             </div>
           </div>

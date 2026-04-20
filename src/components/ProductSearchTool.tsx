@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "components/Button";
 import { Container } from "components/Container";
+import { PageHeader } from "components/PageHeader";
 import {
   Search,
   Sparkles,
@@ -145,7 +146,7 @@ export function ProductSearchTool() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen section-paper">
+    <div className="flex flex-col min-h-screen bg-white">
       <Helmet>
         <title>Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl</title>
         <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011." />
@@ -154,84 +155,56 @@ export function ProductSearchTool() {
         <meta property="og:url" content="https://www.nowycpr.pl/wyszukiwarka" />
         <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka" />
       </Helmet>
-      {/* Hero Section */}
-      {/* Hero + Search — jedna sekcja, zero scrollowania */}
-      <section id="search-section" className="relative pt-32 pb-16 overflow-hidden border-b border-slate-800">
-        {/* B&W photo background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1400&q=80')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-          }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{ background: "linear-gradient(to right, rgba(13,33,55,0.92) 0%, rgba(26,86,160,0.75) 100%)" }}
-        />
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[4px]"
-          style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-        />
 
-        <Container>
-          <div className="relative z-10 max-w-2xl mx-auto text-center mb-10">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              Wyszukiwarka wymagań CPR
-            </h1>
-            <p className="text-base md:text-lg text-white/70 leading-relaxed">
-              Wybierz kategorię wyrobu budowlanego, aby zobaczyć wymagania, normy i obowiązki zgodne z CPR (EU) 2024/3110.
-            </p>
-          </div>
-
-          <div className="relative z-10 bg-white shadow-2xl rounded-2xl p-6 md:p-8 max-w-xl mx-auto">
-            <label className="block text-sm font-semibold text-[#0d2137] mb-3">
-              Kategoria wyrobu:
-            </label>
-            <div className="relative mb-5">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-              <select
-                value={selectedCategoryId}
-                onChange={(e) => handleCategoryChange(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 focus:outline-none focus:border-[#1a56a0] focus:ring-2 focus:ring-[#1a56a0]/20 transition-all appearance-none cursor-pointer text-base"
-              >
-                <option value="">-- Wybierz kategorię --</option>
-                {productOptions.map((option) => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <Button
-              onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
-              disabled={!selectedCategory}
-              className="w-full py-3 rounded-xl bg-[#0d2137] hover:bg-[#1a3d6b] text-white font-semibold disabled:bg-slate-200 disabled:text-slate-400 text-base"
+      <PageHeader>
+        {/* Search input — editorial style */}
+        <div id="search-section" className="max-w-3xl">
+          <label className="editorial-kicker mb-4 block" style={{ color: "oklch(20% .03 264)" }}>
+            Kategoria wyrobu
+          </label>
+          <div className="relative mb-5">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
+            <select
+              value={selectedCategoryId}
+              onChange={(e) => handleCategoryChange(e.target.value)}
+              className="w-full pl-12 pr-4 py-4 text-base bg-white focus:outline-none appearance-none cursor-pointer transition-all font-serif"
+              style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
             >
-              Pokaż wymagania
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
+              <option value="">-- Wybierz kategorię --</option>
+              {productOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
           </div>
-        </Container>
-      </section>
+
+          <Button
+            onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
+            disabled={!selectedCategory}
+            className="px-8 py-4 text-sm font-semibold transition-all disabled:opacity-40"
+            style={{ backgroundColor: "oklch(20% .03 264)", color: "white", borderRadius: "2px" }}
+          >
+            Pokaż wymagania
+            <ArrowRight className="w-4 h-4 ml-2" />
+          </Button>
+        </div>
+      </PageHeader>
 
       {/* Results Section */}
-      <section className="py-12 section-paper">
+      <section className="py-12 bg-white">
         <Container>
           {selectedCategory && (
             <div id="results-section" className="scroll-mt-16">
-              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-6 mb-8">
+              <div className="bg-white border border-[oklch(92%_.008_264)] p-6 mb-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-[#1a56a0]/10 flex items-center justify-center">
-                    <Building2 className="w-6 h-6 text-[#1a56a0]" />
+                  <div className="w-12 h-12 rounded-[2px] bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center">
+                    <Building2 className="w-6 h-6 text-[oklch(55%_.22_27)]" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-[#0d2137]">{selectedCategory.name}</h3>
+                    <h3 className="text-2xl font-bold text-[oklch(20%_.03_264)]">{selectedCategory.name}</h3>
                     <p className="text-slate-500">
-                      Kod kategorii: <span className="text-[#1a56a0] font-semibold">{selectedCategory.code}</span>
+                      Kod kategorii: <span className="text-[oklch(55%_.22_27)] font-semibold">{selectedCategory.code}</span>
                     </p>
                   </div>
                 </div>
@@ -244,8 +217,8 @@ export function ProductSearchTool() {
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
                     className={`flex items-center gap-2 py-2 px-4 text-sm font-medium rounded-lg transition-all ${activeTab === tab.id
-                        ? "bg-[#0d2137] text-white"
-                        : "bg-white border border-slate-200 text-slate-600 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]"
+                        ? "bg-[oklch(20%_.03_264)] text-white"
+                        : "bg-white border border-slate-200 text-slate-600 hover:border-[oklch(55%_.22_27/0.4)] hover:text-[oklch(55%_.22_27)]"
                       }`}
                   >
                     <tab.icon className="w-4 h-4" />
@@ -256,14 +229,14 @@ export function ProductSearchTool() {
 
               {/* Tab Content */}
               {activeTab === "overview" && (
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-4">{selectedCategory.requirements.title}</h3>
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-4">{selectedCategory.requirements.title}</h3>
                   <p className="text-slate-600 mb-8 leading-relaxed">{selectedCategory.requirements.description}</p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-                      <h4 className="font-bold text-[#0d2137] mb-4 flex items-center gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-[#1a56a0]" />
+                    <div className="bg-slate-50 p-6 rounded-[2px] border border-slate-200">
+                      <h4 className="font-bold text-[oklch(20%_.03_264)] mb-4 flex items-center gap-2">
+                        <CheckCircle2 className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Kluczowe wymagania
                       </h4>
                       <ul className="space-y-3">
@@ -276,7 +249,7 @@ export function ProductSearchTool() {
                       </ul>
                     </div>
 
-                    <div className="bg-emerald-50 p-6 rounded-xl border border-emerald-200">
+                    <div className="bg-emerald-50 p-6 rounded-[2px] border border-emerald-200">
                       <h4 className="font-bold text-emerald-700 mb-4 flex items-center gap-2">
                         <Sparkles className="w-5 h-5" />
                         Nowości w CPR 2024
@@ -295,20 +268,20 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "tests" && (
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Wymagane badania</h3>
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Wymagane badania</h3>
                   <p className="text-slate-500 mb-6">
                     Wyroby z kategorii "{selectedCategory.name}" muszą przejść następujące badania:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.mandatoryTests.map((test, index) => (
-                      <li key={index} className="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                      <li key={index} className="bg-slate-50 p-4 rounded-[2px] border border-slate-200">
                         <div className="flex items-start gap-4">
-                          <div className="w-8 h-8 rounded-lg bg-[#1a56a0]/10 flex items-center justify-center text-sm font-bold text-[#1a56a0]">
+                          <div className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center text-sm font-bold text-[oklch(55%_.22_27)]">
                             {index + 1}
                           </div>
                           <div>
-                            <p className="font-medium text-[#0d2137]">{test}</p>
+                            <p className="font-medium text-[oklch(20%_.03_264)]">{test}</p>
                             {test.includes("nowe") && (
                               <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
                                 <Sparkles className="w-3 h-3" />
@@ -324,18 +297,18 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "documentation" && (
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Wymagana dokumentacja</h3>
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Wymagana dokumentacja</h3>
                   <p className="text-slate-500 mb-6">
                     Producenci wyrobów z kategorii "{selectedCategory.name}" muszą przygotować:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.documentationRequired.map((doc, index) => (
-                      <li key={index} className="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                      <li key={index} className="bg-slate-50 p-4 rounded-[2px] border border-slate-200">
                         <div className="flex items-start gap-4">
                           <FileText className="w-6 h-6 text-slate-400 flex-shrink-0" />
                           <div>
-                            <p className="font-medium text-[#0d2137]">{doc}</p>
+                            <p className="font-medium text-[oklch(20%_.03_264)]">{doc}</p>
                             {doc.includes("nowy") && (
                               <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
                                 <Sparkles className="w-3 h-3" />
@@ -348,12 +321,12 @@ export function ProductSearchTool() {
                     ))}
                   </ul>
 
-                  <div className="mt-6 p-4 rounded-xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 flex items-start gap-3">
-                    <Info className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
+                  <div className="mt-6 p-4 rounded-[2px] bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] flex items-start gap-3">
+                    <Info className="w-5 h-5 text-[oklch(55%_.22_27)] flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-medium text-[#0d2137]">Pobierz wzory dokumentów</p>
+                      <p className="font-medium text-[oklch(20%_.03_264)]">Pobierz wzory dokumentów</p>
                       <p className="text-slate-500 text-sm mb-3">W sekcji "Dokumenty" znajdziesz gotowe szablony wymaganych dokumentów.</p>
-                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
+                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27/0.4)] hover:text-[oklch(55%_.22_27)]">
                         <Link to="/documents">Przejdź do dokumentów</Link>
                       </Button>
                     </div>
@@ -362,14 +335,14 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "changes" && (
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Zmiany w rozporządzeniu CPR (EU) 2024/3110</h3>
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Zmiany w rozporządzeniu CPR (EU) 2024/3110</h3>
                   <p className="text-slate-500 mb-6">
                     Najważniejsze modyfikacje dla kategorii "{selectedCategory.name}" w porównaniu z poprzednim rozporządzeniem:
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.cprChanges.map((change, index) => (
-                      <li key={index} className="bg-emerald-50 p-4 rounded-xl border border-emerald-200">
+                      <li key={index} className="bg-emerald-50 p-4 rounded-[2px] border border-emerald-200">
                         <div className="flex items-start gap-4">
                           <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center text-sm font-bold text-emerald-700">
                             {index + 1}
@@ -383,17 +356,17 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "certification" && (
-                <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-2">Systemy oceny i weryfikacji stałości właściwości użytkowych</h3>
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Systemy oceny i weryfikacji stałości właściwości użytkowych</h3>
                   <p className="text-slate-500 mb-6">
                     Dla wyrobów z kategorii "{selectedCategory.name}" obowiązują następujące systemy certyfikacji:
                   </p>
                   <div className="space-y-4">
                     {selectedCategory.requirements.certificationSystems.map((system, index) => (
-                      <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                      <div key={index} className="bg-slate-50 p-6 rounded-[2px] border border-slate-200">
                         <div className="flex items-center gap-3 mb-3">
-                          <Shield className="w-6 h-6 text-[#1a56a0]" />
-                          <h4 className="font-bold text-[#0d2137] text-lg">{system}</h4>
+                          <Shield className="w-6 h-6 text-[oklch(55%_.22_27)]" />
+                          <h4 className="font-bold text-[oklch(20%_.03_264)] text-lg">{system}</h4>
                         </div>
                         <p className="text-slate-600 text-sm leading-relaxed">
                           {system === "System 1+" && "Najwyższy poziom kontroli - wymaga certyfikacji przez jednostkę notyfikowaną, stałego nadzoru i badań próbek z rynku."}
@@ -407,12 +380,12 @@ export function ProductSearchTool() {
                     ))}
                   </div>
 
-                  <div className="mt-6 p-4 rounded-xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 flex items-start gap-3">
-                    <Award className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
+                  <div className="mt-6 p-4 rounded-[2px] bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] flex items-start gap-3">
+                    <Award className="w-5 h-5 text-[oklch(55%_.22_27)] flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-medium text-[#0d2137]">Potrzebujesz certyfikacji?</p>
+                      <p className="font-medium text-[oklch(20%_.03_264)]">Potrzebujesz certyfikacji?</p>
                       <p className="text-slate-500 text-sm mb-3">Multicert oferuje kompleksowe usługi certyfikacji zgodnej z CPR (EU) 2024/3110.</p>
-                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]">
+                      <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27/0.4)] hover:text-[oklch(55%_.22_27)]">
                         <Link to="/services">Sprawdź nasze usługi</Link>
                       </Button>
                     </div>
@@ -421,7 +394,7 @@ export function ProductSearchTool() {
               )}
 
               <div className="mt-10 text-center">
-                <Button variant="outline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40">
+                <Button variant="outline" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27/0.4)]">
                   Powrót do wyszukiwarki
                 </Button>
               </div>
@@ -431,11 +404,11 @@ export function ProductSearchTool() {
       </section>
 
       {/* About Section */}
-      <section id="about-section" className="py-24 section-blueprint border-t border-slate-200">
+      <section id="about-section" className="py-24 bg-white border-t border-slate-200">
         <Container>
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[oklch(20%_.03_264)] mb-6">
                 O rozporządzeniu CPR (EU) 2024/3110
               </h2>
               <p className="text-slate-700 mb-4 leading-relaxed">
@@ -443,7 +416,7 @@ export function ProductSearchTool() {
                   href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110#anx_III"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#1a56a0] hover:text-[#1a3d6b] underline transition-colors"
+                  className="text-[oklch(55%_.22_27)] hover:text-[#1a3d6b] underline transition-colors"
                 >
                   Rozporządzenie CPR (EU) 2024/3110
                 </a>{" "}
@@ -461,7 +434,7 @@ export function ProductSearchTool() {
                   "Wprowadzenie cyfrowego paszportu produktu"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#1a56a0] flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[oklch(55%_.22_27)] flex-shrink-0 mt-0.5" />
                     <span className="text-slate-700">{item}</span>
                   </li>
                 ))}
@@ -469,16 +442,16 @@ export function ProductSearchTool() {
               <Button
                 onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
                 variant="outline"
-                className="border-slate-200 text-slate-700 hover:border-[#1a56a0]/40 hover:text-[#1a56a0]"
+                className="border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27/0.4)] hover:text-[oklch(55%_.22_27)]"
               >
                 Sprawdź wymagania dla Twojego produktu
               </Button>
             </div>
 
             <div className="lg:w-1/2">
-              <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-8">
-                <h3 className="text-xl font-bold text-[#0d2137] mb-6 flex items-center gap-3">
-                  <Calendar className="w-6 h-6 text-[#1a56a0]" />
+              <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-6 flex items-center gap-3">
+                  <Calendar className="w-6 h-6 text-[oklch(55%_.22_27)]" />
                   Harmonogram wdrażania CPR
                 </h3>
                 <div className="space-y-6">
@@ -490,19 +463,19 @@ export function ProductSearchTool() {
                     { year: "7 sty 2040", title: "Pełne wygaśnięcie CPR 305/2011", desc: "Ostateczny koniec okresu przejściowego — wszystkie wyroby budowlane objęte wyłącznie nowym CPR 2024/3110" }
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-4">
-                      <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-[#1a56a0]' : 'text-slate-400'}`}>
+                      <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-[oklch(55%_.22_27)]' : 'text-slate-400'}`}>
                         {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
                         {item.year}
                       </div>
                       <div className="flex-1">
-                        <p className="font-semibold text-[#0d2137]">{item.title}</p>
+                        <p className="font-semibold text-[oklch(20%_.03_264)]">{item.title}</p>
                         <p className="text-slate-500 text-sm">{item.desc}</p>
                       </div>
                     </div>
                   ))}
                 </div>
 
-                <div className="mt-8 p-4 rounded-xl bg-amber-50 border border-amber-200">
+                <div className="mt-8 p-4 rounded-[2px] bg-amber-50 border border-amber-200">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
                     <p className="text-amber-800 text-sm font-medium">
@@ -520,11 +493,11 @@ export function ProductSearchTool() {
       <section className="py-24 bg-white border-t border-slate-200">
         <Container>
           <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] text-sm font-medium mb-5">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] text-[oklch(55%_.22_27)] text-sm font-medium mb-5">
               <Globe className="w-4 h-4" />
               Oficjalne źródła informacji o CPR
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-[oklch(20%_.03_264)] mb-4">
               Weryfikuj wymagania bezpośrednio u źródła
             </h2>
             <p className="text-slate-500 max-w-2xl mx-auto">
@@ -537,8 +510,8 @@ export function ProductSearchTool() {
             {/* Krajowe */}
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <MapPin className="w-5 h-5 text-[#1a56a0]" />
-                <h3 className="text-lg font-semibold text-[#0d2137]">Źródła krajowe</h3>
+                <MapPin className="w-5 h-5 text-[oklch(55%_.22_27)]" />
+                <h3 className="text-lg font-semibold text-[oklch(20%_.03_264)]">Źródła krajowe</h3>
               </div>
               <div className="space-y-4">
 
@@ -547,16 +520,16 @@ export function ProductSearchTool() {
                   href="https://www.multicert.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-[#1a56a0]/5 border border-[#1a56a0]/20 hover:border-[#1a56a0]/40 hover:bg-[#1a56a0]/8 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] hover:border-[oklch(55%_.22_27/0.4)] hover:bg-[oklch(55% .22 27)]/8 transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-[#1a56a0]/15 flex items-center justify-center shrink-0 mt-0.5">
-                    <Star className="w-4 h-4 text-[#1a56a0]" />
+                  <div className="w-9 h-9 rounded-lg bg-[oklch(55% .22 27)]/15 flex items-center justify-center shrink-0 mt-0.5">
+                    <Star className="w-4 h-4 text-[oklch(55%_.22_27)]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">Multicert Sp. z o.o.</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/15 text-[#1a56a0] font-medium">Certyfikacja CPR</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#1a56a0] transition-colors ml-auto shrink-0" />
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">Multicert Sp. z o.o.</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55% .22 27)]/15 text-[oklch(55%_.22_27)] font-medium">Certyfikacja CPR</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
                       Akredytowana jednostka certyfikująca wyroby budowlane. Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej zgodnie z CPR (UE) 2024/3110.
@@ -569,14 +542,14 @@ export function ProductSearchTool() {
                   href="https://www.gunb.gov.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-sky-100 flex items-center justify-center shrink-0 mt-0.5">
                     <Shield className="w-4 h-4 text-sky-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">GUNB</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">GUNB</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700 font-medium">Organ nadzoru rynku</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-sky-600 transition-colors ml-auto shrink-0" />
                     </div>
@@ -591,14 +564,14 @@ export function ProductSearchTool() {
                   href="https://www.pkn.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
                     <FileText className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">PKN</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">PKN</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Normy EN</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
@@ -613,14 +586,14 @@ export function ProductSearchTool() {
                   href="https://ocenytechniczne.pl/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 mt-0.5">
                     <Building2 className="w-4 h-4 text-emerald-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">ocenytechniczne.pl</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">ocenytechniczne.pl</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-medium">EOT / ETA</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 transition-colors ml-auto shrink-0" />
                     </div>
@@ -636,8 +609,8 @@ export function ProductSearchTool() {
             {/* Europejskie */}
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <Globe className="w-5 h-5 text-[#1a56a0]" />
-                <h3 className="text-lg font-semibold text-[#0d2137]">Źródła europejskie</h3>
+                <Globe className="w-5 h-5 text-[oklch(55%_.22_27)]" />
+                <h3 className="text-lg font-semibold text-[oklch(20%_.03_264)]">Źródła europejskie</h3>
               </div>
               <div className="space-y-4">
 
@@ -646,16 +619,16 @@ export function ProductSearchTool() {
                   href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-[#1a56a0]/30 hover:bg-[#1a56a0]/5 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-[oklch(55% .22 27)]/30 hover:bg-[oklch(55%_.22_27/0.05)] transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-[#1a56a0]/10 flex items-center justify-center shrink-0 mt-0.5">
-                    <FileText className="w-4 h-4 text-[#1a56a0]" />
+                  <div className="w-9 h-9 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center shrink-0 mt-0.5">
+                    <FileText className="w-4 h-4 text-[oklch(55%_.22_27)]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">EUR-Lex</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] font-medium">Tekst CPR 2024/3110</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#1a56a0] transition-colors ml-auto shrink-0" />
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">EUR-Lex</span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] font-medium">Tekst CPR 2024/3110</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
                       Oficjalny Dziennik Urzędowy UE — pełny tekst Rozporządzenia (UE) 2024/3110 w języku polskim. Jedyne miarodajne źródło prawa.
@@ -668,14 +641,14 @@ export function ProductSearchTool() {
                   href="https://ec.europa.eu/growth/tools-databases/nando/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
                     <ListChecks className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">NANDO</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">NANDO</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Jednostki notyfikowane UE</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
@@ -690,14 +663,14 @@ export function ProductSearchTool() {
                   href="https://www.eota.eu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
                     <Award className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">EOTA</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">EOTA</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">ETA / EAD</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
@@ -712,14 +685,14 @@ export function ProductSearchTool() {
                   href="https://www.cencenelec.eu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 group"
                 >
                   <div className="w-9 h-9 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 mt-0.5">
                     <Globe className="w-4 h-4 text-slate-600" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <span className="text-[#0d2137] font-semibold text-sm">CEN/CENELEC</span>
+                      <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">CEN/CENELEC</span>
                       <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">Normy europejskie EN</span>
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-slate-700 transition-colors ml-auto shrink-0" />
                     </div>
@@ -739,7 +712,7 @@ export function ProductSearchTool() {
       {/* Help Section */}
       <section className="py-24 bg-slate-50 border-t border-slate-200">
         <Container>
-          <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
+          <div className="relative overflow-hidden rounded-[2px] bg-[oklch(20%_.03_264)] p-8 md:p-12">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">
@@ -753,7 +726,7 @@ export function ProductSearchTool() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   asChild
-                  className="group px-6 py-3 rounded-xl bg-white hover:bg-slate-100 text-[#0d2137] font-semibold"
+                  className="group px-6 py-3 rounded-[2px] bg-white hover:bg-slate-100 text-[oklch(20%_.03_264)] font-semibold"
                 >
                   <Link to="/services">
                     Nasze usługi certyfikacyjne
@@ -763,7 +736,7 @@ export function ProductSearchTool() {
                 <Button
                   variant="outline"
                   onClick={() => document.getElementById("search-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="px-6 py-3 rounded-xl border-white/20 text-white hover:bg-white/10"
+                  className="px-6 py-3 rounded-[2px] border-white/20 text-white hover:bg-white/10"
                 >
                   Sprawdź wymagania
                 </Button>

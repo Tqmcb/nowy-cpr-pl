@@ -1,12 +1,12 @@
 ---
 title: "Zielone zamówienia publiczne (GPP) a CPR 2024 — jak GWP staje się kryterium przetargowym"
-reviewed: "2026-03-31"
+reviewed: "2026-04-20"
 date: "2025-11-24"
-updated: "2026-03-31"
+updated: "2026-04-20"
 author: "Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
 category: "Środowisko"
 tags: ["GPP", "zielone zamówienia publiczne", "GWP", "CPR 2024", "EPD", "przetargi"]
-excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy ramy prawne dla przyszłego obowiązku deklarowania GWP, jednak jego wejście w życie wymaga jeszcze norm zharmonizowanych i aktów delegowanych. Już dziś jednak EPD jest wymagane na rynkach eksportowych i w projektach unijnych — i to niezależnie od CPR."
+excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy ramy prawne, a propozycja Industrial Accelerator Act (marzec 2026) wprowadza od 2029 obowiązkowe minimalne progi niskoemisyjności dla stali, betonu i aluminium w zamówieniach publicznych. Producenci powinni przygotować EPD już teraz."
 image_url: /images/blog/gpp-zielone-zamowienia-publicz.jpg
 template: "analiza"
 sources:
@@ -74,7 +74,13 @@ Równoległą podstawę stanowi **CPR 2024/3110** jako rozporządzenie UE stosow
 - **Przetargi infrastrukturalne GDDKiA i PKP PLK** — w wybranych postępowaniach na roboty drogowe i kolejowe pojawiają się już wymagania dokumentacji środowiskowej dla materiałów (beton, stal, asfalt), choć na razie głównie jako warunek punktowany, nie eliminacyjny.
 - **Generalny wykonawca eksportujący** — polskie firmy wykonawcze realizujące kontrakty w Niemczech, Austrii czy krajach Beneluksu sami wymuszają na polskich dostawcach posiadanie EPD zgodnych z EN 15804+A2.
 
-**Perspektywa na lata 2026–2028:** Komisja Europejska zapowiedziała zaostrzenie obowiązków GPP w ramach Green Deal i rewizji dyrektywy o zamówieniach publicznych. Należy oczekiwać, że kryteria środowiskowe — w tym GWP — stopniowo przejdą z kategorii opcjonalnych do obowiązkowych w zamówieniach powyżej progów unijnych.
+**Perspektywa na lata 2026–2029 — Industrial Accelerator Act:** W marcu 2026 roku Komisja Europejska opublikowała konkretną propozycję legislacyjną — **Industrial Accelerator Act** (COM(2026) 100 final) — która **zmienia CPR 2024/3110** i wprowadza **obowiązkowe minimalne progi niskoemisyjności** dla kluczowych materiałów budowlanych stosowanych w zamówieniach publicznych i programach wsparcia publicznego. Propozycja zakłada, że od **1 stycznia 2029 roku** co najmniej:
+
+- **25% stali** stosowanej w projektach publicznych musi spełniać kryterium niskoemisyjności,
+- **5% betonu i zapraw** musi być jednocześnie niskoemisyjne i wytwarzane w UE,
+- **25% aluminium** musi być jednocześnie niskoemisyjne i wytwarzane w UE.
+
+Propozycja jest na etapie negocjacji w Parlamencie Europejskim i Radzie UE. Definicja „niskoemisyjności" dla wyrobów budowlanych będzie ustalana poprzez akty delegowane do CPR 2024/3110. Szacowany koszt dla sektora budowlanego to wzrost kosztu budowy o ok. 0,45%, przy jednoczesnym zmniejszeniu emisji GHG o ok. 30,6 Mton CO₂ eq. w 2030 roku. To konkretne potwierdzenie kierunku, w jakim zmierza obowiązkowe GPP dla materiałów niskoemisyjnych — co oznacza, że producenci stali, betonu i aluminium powinni już teraz przygotowywać dane emisyjne i EPD.
 
 Producenci polskich wyrobów budowlanych — wyrobów izolacyjnych, betonu komórkowego, ceramiki, okien, stali — powinni traktować uzyskanie EPD nie jako koszt, ale jako inwestycję warunkującą dostęp do rosnącego segmentu zamówień publicznych w Polsce i na rynkach eksportowych.
 

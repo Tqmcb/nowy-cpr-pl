@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Container } from "../components/Container";
+import { PageHeader, RelatedPages } from "../components/PageHeader";
 import {
   Calendar,
   ChevronRight,
@@ -199,9 +200,9 @@ const PHASE_CONFIG: Record<TimelinePhase, { label: string; color: string; bgColo
   },
   teraz: {
     label: "Obowiazuje",
-    color: "text-[#1a56a0]",
-    bgColor: "bg-[#1a56a0]/10",
-    borderColor: "border-[#1a56a0]/30",
+    color: "text-[oklch(55% .22 27)]",
+    bgColor: "bg-[oklch(55% .22 27)]/10",
+    borderColor: "border-[oklch(55% .22 27)]/30",
   },
   przyszlosc: {
     label: "Nadchodzi",
@@ -252,230 +253,187 @@ export default function TimelinePage() {
         <meta property="og:type" content="website" />
       </Helmet>
 
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main id="main-content" className="flex-grow pt-24 pb-20">
-          {/* ── HERO ── */}
-          <section className="relative overflow-hidden border-b border-slate-800">
-            {/* B&W photo background */}
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-              }}
-            />
-            {/* Navy→blue gradient overlay */}
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-            />
-            {/* Bottom accent stripe */}
-            <div
-              className="absolute bottom-0 left-0 right-0 h-[4px]"
-              style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-            />
+        <main id="main-content" className="flex-grow">
+          <PageHeader>
+            {/* Phase indicators as secondary content */}
+            <div className="flex flex-wrap gap-3 pt-2">
+              {(Object.entries(PHASE_CONFIG) as [TimelinePhase, typeof PHASE_CONFIG.teraz][]).map(
+                ([phase, config]) => (
+                  <div
+                    key={phase}
+                    className="flex items-center gap-2 px-4 py-2"
+                    style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px" }}
+                  >
+                    <span className={`w-2 h-2 rounded-full ${phase === "teraz" ? "animate-pulse" : ""}`} style={{ backgroundColor: phase === "teraz" ? "oklch(55% .22 27)" : phase === "przeszlosc" ? "oklch(60% .015 264)" : "oklch(20% .03 264)" }} />
+                    <span className="editorial-kicker" style={{ color: "oklch(20% .03 264)" }}>{config.label}</span>
+                  </div>
+                )
+              )}
+            </div>
+          </PageHeader>
+
+          {/* ── FILTER — editorial ── */}
+          <section className="py-10 bg-white">
             <Container>
-              <div className="relative z-10 pt-8 pb-12">
-                <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
-                  <button onClick={() => navigate("/")} className="hover:text-white transition-colors">
-                    Strona główna
+              <div className="max-w-6xl mx-auto flex items-center gap-3 flex-wrap">
+                <Filter className="w-4 h-4" style={{ color: "oklch(60% .015 264)" }} />
+                <span className="editorial-kicker mr-2">Filtruj</span>
+                {(Object.entries(CATEGORY_LABELS) as [TimelineCategory, string][]).map(([cat, label]) => (
+                  <button
+                    key={cat}
+                    onClick={() => setFilter(cat)}
+                    className="px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] transition-all"
+                    style={{
+                      backgroundColor: filter === cat ? "oklch(20% .03 264)" : "white",
+                      color: filter === cat ? "white" : "oklch(42% .02 264)",
+                      border: "1px solid " + (filter === cat ? "oklch(20% .03 264)" : "oklch(86% .012 264)"),
+                      borderRadius: "2px",
+                    }}
+                  >
+                    {label}
                   </button>
-                  <ChevronRight className="w-3 h-3" />
-                  <span className="text-white">Harmonogram</span>
-                </nav>
+                ))}
+              </div>
+            </Container>
+          </section>
 
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/15 border border-white/30 text-white">
-                    <Calendar className="w-3 h-3" /> Harmonogram
-                  </span>
-                </div>
+          {/* ── TIMELINE — editorial vertical rail ── */}
+          <section className="pb-20 bg-white">
+            <Container>
+              <div className="max-w-6xl mx-auto relative">
+                {/* Vertical line centered */}
+                <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-px" style={{ backgroundColor: "oklch(86% .012 264)" }} />
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl mb-4">
-                  Harmonogram CPR 2024/3110
-                </h1>
-                <p className="text-white/80 text-lg max-w-2xl">
-                  Kluczowe daty, terminy przejściowe i kamienie milowe wdrożenia nowego rozporządzenia o wyrobach budowlanych.
-                </p>
+                <div className="space-y-0">
+                  {filtered.map((event, index) => {
+                    const isLeft = index % 2 === 0;
+                    const Icon = event.icon;
 
-                {/* Phase indicators */}
-                <div className="flex flex-wrap gap-3 mt-8">
-                  {(Object.entries(PHASE_CONFIG) as [TimelinePhase, typeof PHASE_CONFIG.teraz][]).map(
-                    ([phase, config]) => (
-                      <div
-                        key={phase}
-                        className={`flex items-center gap-2 px-4 py-2 rounded-full border ${config.borderColor} ${config.bgColor}`}
-                      >
-                        <span className={`w-2 h-2 rounded-full ${phase === "teraz" ? "bg-[#1a56a0] animate-pulse" : phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`} />
-                        <span className={`text-sm font-medium ${config.color}`}>{config.label}</span>
+                    const isNow =
+                      event.phase === "teraz" &&
+                      (index === 0 ||
+                        filtered[index - 1]?.phase === "przeszlosc");
+
+                    const phaseDot = event.phase === "teraz" ? "oklch(55% .22 27)" : event.phase === "przeszlosc" ? "oklch(60% .015 264)" : "oklch(20% .03 264)";
+
+                    return (
+                      <div key={`${event.sortDate}-${event.title}`}>
+                        {/* NOW marker — editorial */}
+                        {isNow && (
+                          <div className="relative flex items-center justify-center py-6">
+                            <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-3 h-3 z-10 animate-pulse" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                            <span className="hidden md:block editorial-kicker px-4 py-1 z-10 bg-white" style={{ color: "oklch(55% .22 27)", border: "1px solid oklch(55% .22 27)" }}>
+                              · Teraz ·
+                            </span>
+                          </div>
+                        )}
+
+                        <div
+                          className={`relative flex items-start gap-6 py-8 ${
+                            isLeft ? "md:flex-row" : "md:flex-row-reverse"
+                          }`}
+                        >
+                          {/* Dot on line */}
+                          <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-2.5 h-2.5 z-10 mt-2" style={{
+                            backgroundColor: event.important ? phaseDot : "white",
+                            border: `2px solid ${phaseDot}`,
+                          }} />
+
+                          {/* Content card — editorial */}
+                          <div className={`ml-12 md:ml-0 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-8" : "md:pl-8"}`}>
+                            <div className="group p-6 transition-all hover:bg-slate-50" style={{
+                              backgroundColor: "white",
+                              border: "1px solid oklch(92% .008 264)",
+                              borderLeft: event.important ? `3px solid oklch(55% .22 27)` : "1px solid oklch(92% .008 264)",
+                              borderRadius: "2px",
+                            }}>
+                              {/* Date + article */}
+                              <div className="flex items-baseline gap-3 mb-4 flex-wrap">
+                                <span className="editorial-kicker" style={{ color: event.important ? "oklch(55% .22 27)" : "oklch(60% .015 264)" }}>
+                                  {event.date}
+                                </span>
+                                {event.article && (
+                                  <span className="editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
+                                    · {event.article}
+                                  </span>
+                                )}
+                              </div>
+
+                              {/* Title + icon */}
+                              <div className="flex items-start gap-3">
+                                <Icon className="w-4 h-4 mt-1.5 shrink-0" style={{ color: event.important ? "oklch(55% .22 27)" : "oklch(42% .02 264)" }} />
+                                <div>
+                                  <h3 className="font-serif text-lg md:text-xl mb-2 leading-[1.2]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                                    {event.title}
+                                  </h3>
+                                  <p className="text-sm leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
+                                    {event.description}
+                                  </p>
+                                </div>
+                              </div>
+
+                              {/* Category tags */}
+                              <div className="flex flex-wrap gap-2 mt-4 ml-7">
+                                {event.category
+                                  .filter((c) => c !== "all")
+                                  .map((cat) => (
+                                    <span
+                                      key={cat}
+                                      className="editorial-kicker px-2 py-0.5"
+                                      style={{ color: "oklch(60% .015 264)", border: "1px solid oklch(92% .008 264)" }}
+                                    >
+                                      {CATEGORY_LABELS[cat]}
+                                    </span>
+                                  ))}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    )
-                  )}
+                    );
+                  })}
                 </div>
               </div>
             </Container>
           </section>
 
-          {/* ── FILTER ── */}
-          <Container>
-            <div className="flex items-center gap-2 mb-10 flex-wrap">
-              <Filter className="w-4 h-4 text-slate-500" />
-              <span className="text-slate-500 text-sm mr-2">Filtruj:</span>
-              {(Object.entries(CATEGORY_LABELS) as [TimelineCategory, string][]).map(([cat, label]) => (
-                <button
-                  key={cat}
-                  onClick={() => setFilter(cat)}
-                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 border ${
-                    filter === cat
-                      ? "bg-[#1a56a0]/10 border-[#1a56a0]/30 text-[#1a56a0]"
-                      : "bg-white border-slate-200 text-slate-600 hover:text-[#0d2137] hover:border-slate-300"
-                  }`}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-          </Container>
-
-          {/* ── TIMELINE ── */}
-          <Container>
-            <div className="relative">
-              {/* Vertical line */}
-              <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-0.5 bg-gradient-to-b from-slate-300 via-[#1a56a0]/40 to-sky-400/30" />
-
-              <div className="space-y-0">
-                {filtered.map((event, index) => {
-                  const phaseConfig = PHASE_CONFIG[event.phase];
-                  const isLeft = index % 2 === 0;
-                  const Icon = event.icon;
-
-                  // Check if this is the "current" marker
-                  const isNow =
-                    event.phase === "teraz" &&
-                    (index === 0 ||
-                      filtered[index - 1]?.phase === "przeszlosc");
-
-                  return (
-                    <div key={`${event.sortDate}-${event.title}`}>
-                      {/* NOW marker */}
-                      {isNow && (
-                        <div className="relative flex items-center justify-center py-4">
-                          <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-[#1a56a0] shadow-lg shadow-[#1a56a0]/40 z-10 animate-pulse" />
-                          <span className="hidden md:block bg-[#1a56a0] text-white text-xs font-bold uppercase tracking-widest px-4 py-1 rounded-full z-10">
-                            Teraz
-                          </span>
-                        </div>
-                      )}
-
-                      <div
-                        className={`relative flex items-start gap-6 py-6 ${
-                          isLeft ? "md:flex-row" : "md:flex-row-reverse"
-                        }`}
-                      >
-                        {/* Dot on line */}
-                        <div
-                          className={`absolute left-4 md:left-1/2 -translate-x-1/2 w-3 h-3 rounded-full border-2 z-10 mt-2 ${
-                            event.important
-                              ? `${phaseConfig.borderColor.replace("/30", "/80")} ${event.phase === "teraz" ? "bg-[#1a56a0]" : event.phase === "przeszlosc" ? "bg-slate-400" : "bg-sky-400"}`
-                              : "bg-white border-slate-300"
-                          }`}
-                        />
-
-                        {/* Content card */}
-                        <div className={`ml-12 md:ml-0 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-8" : "md:pl-8"}`}>
-                          <div
-                            className={`group p-5 rounded-2xl border transition-all duration-300 hover:shadow-lg ${
-                              event.important
-                                ? `${phaseConfig.bgColor} ${phaseConfig.borderColor}`
-                                : "bg-white border-slate-200 hover:border-slate-300"
-                            }`}
-                          >
-                            {/* Date + phase badge */}
-                            <div className="flex items-center gap-3 mb-3 flex-wrap">
-                              <span className={`text-xs font-mono font-bold ${phaseConfig.color}`}>
-                                {event.date}
-                              </span>
-                              {event.article && (
-                                <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-slate-500">
-                                  {event.article}
-                                </span>
-                              )}
-                            </div>
-
-                            {/* Title + icon */}
-                            <div className="flex items-start gap-3">
-                              <div
-                                className={`shrink-0 w-8 h-8 rounded-lg flex items-center justify-center ${phaseConfig.bgColor}`}
-                              >
-                                <Icon className={`w-4 h-4 ${phaseConfig.color}`} />
-                              </div>
-                              <div>
-                                <h3
-                                  className={`font-semibold text-base mb-1.5 ${
-                                    event.important ? "text-[#0d2137]" : "text-slate-700"
-                                  }`}
-                                >
-                                  {event.title}
-                                </h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                  {event.description}
-                                </p>
-                              </div>
-                            </div>
-
-                            {/* Category tags */}
-                            <div className="flex flex-wrap gap-1.5 mt-3 ml-11">
-                              {event.category
-                                .filter((c) => c !== "all")
-                                .map((cat) => (
-                                  <span
-                                    key={cat}
-                                    className="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200"
-                                  >
-                                    {CATEGORY_LABELS[cat]}
-                                  </span>
-                                ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </Container>
-
-          {/* ── CTA ── */}
-          <section className="mt-16">
+          {/* ── CTA — editorial dark banner ── */}
+          <section className="py-20 md:py-24 bg-white">
             <Container>
-              <div className="bg-[#0d2137] rounded-2xl p-8 md:p-12 text-center">
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                  Przygotuj się na CPR 2024
-                </h2>
-                <p className="text-slate-300 max-w-xl mx-auto mb-6">
-                  Sprawdź wymagania dla Twojego wyrobu i pobierz szablony dokumentów, aby płynnie przejść na nowe przepisy.
-                </p>
-                <div className="flex flex-wrap justify-center gap-4">
-                  <button
-                    onClick={() => navigate("/wyszukiwarka")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white text-[#0d2137] font-semibold rounded-xl hover:bg-slate-100 transition-colors"
-                  >
-                    Sprawdź wymagania <ArrowRight className="w-4 h-4" />
+              <div className="max-w-6xl mx-auto">
+                <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+                  <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                  <div className="max-w-2xl">
+                    <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Przygotuj się</div>
+                    <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white" style={{ fontWeight: 500 }}>
+                      Sprawdź co dotyczy<br/>
+                      <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>Twojego wyrobu.</span>
+                    </h2>
+                  </div>
+                  <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+                    <button
+                      onClick={() => navigate("/wyszukiwarka")}
+                      className="flex items-center gap-2 px-6 py-3 bg-white font-semibold transition-all hover:bg-slate-100"
+                      style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}
+                    >
+                      Sprawdź wymagania <ArrowRight className="w-4 h-4" />
                   </button>
-                  <button
-                    onClick={() => navigate("/documents")}
-                    className="flex items-center gap-2 px-6 py-3 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors"
-                  >
-                    Pobierz szablony <FileText className="w-4 h-4" />
-                  </button>
+                    <button
+                      onClick={() => navigate("/documents")}
+                      className="flex items-center gap-2 px-6 py-3 font-semibold transition-all hover:bg-white/10"
+                      style={{ border: "1px solid rgba(255,255,255,0.3)", color: "white", backgroundColor: "transparent", borderRadius: "2px" }}
+                    >
+                      Pobierz szablony <FileText className="w-4 h-4" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </Container>
           </section>
         </main>
+        <RelatedPages />
         <Footer />
       </div>
     </>

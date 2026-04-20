@@ -51,6 +51,20 @@ function StatCounter({ value, label, icon: Icon }: { value: string; label: strin
   );
 }
 
+function EditorialStat({ value, label }: { value: string; label: string }) {
+  const num = parseInt(value.replace(/\D/g, ""), 10);
+  const suffix = value.replace(/^\d+/, "");
+  const { count, triggerRef } = useCountUp(num, 1400);
+  return (
+    <div ref={triggerRef as React.RefCallback<HTMLDivElement>} className="flex flex-col">
+      <div className="editorial-numeral text-5xl md:text-6xl" style={{ color: "oklch(20% .03 264)" }}>
+        {count}{suffix}
+      </div>
+      <div className="editorial-kicker mt-2">{label}</div>
+    </div>
+  );
+}
+
 const ROTATING_PHRASES = [
   "beton i prefabrykaty",
   "okna i drzwi",
@@ -119,226 +133,226 @@ function HomePage() {
       <Header />
 
       <main className="flex-grow">
-        {/* Hero Section */}
-        <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24 border-b border-slate-800 blueprint-pulse">
-          {/* B&W photo background */}
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-            }}
-          />
-          {/* Navy→blue gradient overlay */}
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, rgba(13,33,55,0.88) 0%, rgba(26,86,160,0.65) 100%)" }}
-          />
-          {/* Bottom accent stripe */}
-          <div
-            className="absolute bottom-0 left-0 right-0 h-[4px]"
-            style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-          />
+        {/* Editorial Hero — Multicert brand system */}
+        <section className="relative pt-28 pb-20 md:pt-32 md:pb-28 overflow-hidden bg-white">
+          {/* Thin top rule — masthead */}
+          <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+          <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
+
+          {/* Brand-red kreska akcentu — sygnatura Multicert */}
+          <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
           <Container>
-            <div className="relative z-10 max-w-3xl mx-auto text-center animate-fade-in-up">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                <span className="text-white">Nowe </span>
-                <span className="text-white font-bold">Rozporządzenie CPR</span>
-                <span className="text-white"> – Co i kiedy Cię dotyczy?</span>
-              </h1>
-
-              <p className="text-lg md:text-xl text-white/70 mb-4 leading-relaxed max-w-2xl mx-auto">
-                Rozporządzenie (EU) 2024/3110 obowiązuje od stycznia 2026.
-                Sprawdź wymagania dla:
-              </p>
-              <p className="text-2xl md:text-3xl font-bold text-white mb-10 h-10">
-                <span
-                  className="inline-block transition-all duration-400"
-                  style={{
-                    opacity: rotating.visible ? 1 : 0,
-                    transform: rotating.visible ? "translateY(0)" : "translateY(8px)",
-                  }}
-                >
-                  {rotating.text}
-                </span>
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button
-                  size="lg"
-                  asChild
-                  className="bg-white text-[#0d2137] hover:bg-slate-100 font-bold"
-                >
-                  <Link to="/wyszukiwarka">
-                    Sprawdź wymagania dla produktu
-                  </Link>
-                </Button>
-                <Button
-                  size="lg"
-                  asChild
-                  className="bg-white/15 border border-white/40 text-white hover:bg-white/25 font-semibold"
-                >
-                  <Link to="/documents">
-                    Przeglądaj dokumenty
-                  </Link>
-                </Button>
+            <div className="relative z-10 max-w-6xl mx-auto">
+              {/* Masthead metadata row */}
+              <div className="flex items-center justify-between text-[0.7rem] uppercase tracking-[0.18em] font-semibold mb-10 md:mb-14 animate-fade-in-up" style={{ color: "oklch(20% .03 264)" }}>
+                <span>NowyCPR · Wydanie #04 · Kwiecień 2026</span>
+                <span className="hidden sm:inline" style={{ color: "oklch(60% .015 264)" }}>Portal regulacyjny dla wyrobów budowlanych</span>
+                <span style={{ color: "oklch(55% .22 27)" }}>Stan: obowiązuje od 8·I·2026</span>
               </div>
 
-              {/* Stats */}
-              <div className="mt-14 grid grid-cols-3 gap-6 max-w-lg mx-auto">
-                {[
-                  { value: "2026", label: "Rok stosowania", icon: Calendar },
-                  { value: "27", label: "Krajów UE", icon: Users },
-                  { value: "2028+", label: "Realne GWP / DPP", icon: TrendingUp }
-                ].map((stat, idx) => (
-                  <StatCounter key={idx} {...stat} />
-                ))}
+              {/* Main hero grid */}
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+                {/* Left: oversized numeral */}
+                <div className="lg:col-span-4 animate-fade-in-up">
+                  <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>ROZPORZĄDZENIE</div>
+                  <div className="editorial-numeral text-[7rem] md:text-[8.5rem] lg:text-[10rem] leading-[0.8]" style={{ color: "oklch(20% .03 264)" }}>
+                    2024
+                  </div>
+                  <div className="editorial-numeral text-4xl md:text-5xl mt-3" style={{ color: "oklch(55% .22 27)" }}>/3110</div>
+                  <div className="mt-8 flex items-center gap-3 text-sm">
+                    <div className="h-px flex-1" style={{ backgroundColor: "oklch(86% .012 264)" }} />
+                    <span className="editorial-kicker">UE · EUR-Lex</span>
+                  </div>
+                  <p className="mt-6 text-sm leading-relaxed max-w-xs" style={{ color: "oklch(42% .02 264)" }}>
+                    Rozporządzenie Parlamentu Europejskiego i Rady ustanawiające zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych.
+                  </p>
+                </div>
+
+                {/* Right: title + lede + CTA */}
+                <div className="lg:col-span-8 animate-fade-in-up-delay-1">
+                  <h1 className="font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                    Nowe CPR —<br/>
+                    <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>co i kiedy</span><br/>
+                    Cię dotyczy?
+                  </h1>
+
+                  <p className="drop-cap text-lg md:text-xl leading-[1.6] max-w-2xl mb-6" style={{ color: "oklch(42% .02 264)" }}>
+                    Od 8 stycznia 2026 obowiązuje nowe Rozporządzenie (EU) 2024/3110. Ramy prawne wchodzą teraz, ale GWP, EPD i paszport produktu pojawią się oddzielnie dla każdej grupy wyrobów — razem z nowymi hTS. Sprawdź co dotyczy{" "}
+                    <span
+                      className="inline-block font-serif italic transition-all duration-400"
+                      style={{
+                        color: "oklch(55% .22 27)",
+                        opacity: rotating.visible ? 1 : 0,
+                        transform: rotating.visible ? "translateY(0)" : "translateY(6px)",
+                        fontWeight: 500,
+                      }}
+                    >
+                      {rotating.text}
+                    </span>
+                    .
+                  </p>
+
+                  <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                    <Button
+                      size="lg"
+                      asChild
+                      className="text-white font-semibold px-8 py-6 transition-colors hover:opacity-90"
+                      style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
+                    >
+                      <Link to="/wyszukiwarka">
+                        Sprawdź wymagania <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                    <Button
+                      size="lg"
+                      asChild
+                      className="bg-transparent font-semibold px-8 py-6 transition-colors hover:bg-slate-50"
+                      style={{ color: "oklch(20% .03 264)", border: "1px solid oklch(20% .03 264)", borderRadius: "2px" }}
+                    >
+                      <Link to="/documents">
+                        Dokumenty źródłowe
+                      </Link>
+                    </Button>
+                  </div>
+
+                  {/* Stats in editorial row */}
+                  <div className="mt-14 pt-8 grid grid-cols-3 gap-6 md:gap-10" style={{ borderTop: "1px solid oklch(86% .012 264)" }}>
+                    <EditorialStat value="2026" label="Rok stosowania" />
+                    <EditorialStat value="27" label="Krajów UE" />
+                    <EditorialStat value="2028+" label="Realne GWP · DPP" />
+                  </div>
+                </div>
               </div>
             </div>
           </Container>
-
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center p-2">
-              <div className="w-1 h-2 bg-white/60 rounded-full animate-pulse"></div>
-            </div>
-          </div>
         </section>
 
-        {/* About CPR 2024 Section */}
-        <section ref={aboutRef as React.RefCallback<HTMLElement>} className="py-24 section-paper relative reveal">
+        {/* About CPR 2024 Section — editorial magazyn */}
+        <section ref={aboutRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 relative reveal bg-white">
           <Container>
-            {/* Section Header */}
-            <div className="max-w-3xl mx-auto text-center mb-16">
-              {/* Info Alert */}
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-4 mb-8 inline-flex items-start gap-3 text-left">
-                <div className="w-8 h-8 rounded-lg bg-[#1a56a0]/10 flex items-center justify-center flex-shrink-0">
-                  <Info className="w-4 h-4 text-[#1a56a0]" />
+            {/* Section label + number */}
+            <div className="max-w-6xl mx-auto mb-12 md:mb-16">
+              <div className="flex items-baseline gap-6 mb-10">
+                <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>01</span>
+                <div className="flex items-center gap-3 pt-4">
+                  <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                  <span className="editorial-kicker">Kontekst regulacyjny</span>
                 </div>
-                <p className="text-sm text-slate-700">
-                  <span className="text-[#1a56a0] font-semibold">Ważne:</span> Rozporządzenie CPR (EU) 2024/3110 zostało opublikowane{" "}
-                  <a
-                    href="https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202403110"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1a56a0] hover:text-[#1a3d6b] underline transition-colors"
-                  >
-                    w Dzienniku Urzędowym UE
-                  </a>{" "}
-                  i wchodzi do pełnego stosowania od 8 stycznia 2026 roku.
-                </p>
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-6">
-                Czym jest <span className="text-[#1a56a0] font-bold">rozporządzenie CPR?</span>
-              </h2>
-              <p className="text-lg text-slate-700 leading-relaxed">
-                Rozporządzenie w sprawie wyrobów budowlanych (CPR) ustanawia zharmonizowane warunki
-                wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując
-                dotychczasowe przepisy z 2011 roku.
-              </p>
-            </div>
-
-            {/* Status wymagań CPR 2024 — kluczowa informacja */}
-            <div className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden mb-16 border-l-4 border-l-[#1a56a0]">
-              <div className="px-6 py-4 bg-slate-100 border-b border-slate-200 flex items-center gap-2">
-                <Info className="w-4 h-4 text-[#1a56a0] flex-shrink-0" />
-                <span className="text-sm font-semibold text-[#0d2137]">
-                  Co obowiązuje teraz — status {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
-                </span>
-              </div>
-              <div className="p-6 md:p-8">
-                <p className="text-slate-700 leading-relaxed text-base md:text-lg">
-                  <span className="font-semibold text-[#0d2137]">CPR 2024 obowiązuje od 8 stycznia 2026</span>,
-                  ale <span className="font-semibold text-[#1a56a0]">GWP, EPD i paszport produktu (DPP) jeszcze nie są obowiązkowe</span> — i nie będą
-                  dla nikogo w tym samym momencie. Obowiązek wchodzi <span className="font-semibold text-[#0d2137]">oddzielnie dla każdej grupy wyrobów</span>,
-                  dopiero gdy CEN opublikuje nową normę zharmonizowaną (hTS) w Dzienniku Urzędowym UE — a po publikacji
-                  jest jeszcze <span className="font-semibold text-[#0d2137]">12–36 miesięcy okresu przejściowego</span>.
-                </p>
-                <p className="mt-4 text-slate-700 leading-relaxed text-base md:text-lg">
-                  Na dziś <span className="font-semibold text-[#1a56a0]">żadna nowa hTS nie wyszła</span>.
-                  Pierwsze spodziewane są najwcześniej 2027–2029 (zgodnie z planem prac KE), więc
-                  realny obowiązek dla większości wyrobów to <span className="font-semibold text-[#0d2137]">najwcześniej 2029–2031</span>.
-                </p>
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+                <h2 className="lg:col-span-7 font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1] mb-0" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                  Czym jest<br/>
+                  <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>rozporządzenie</span> CPR?
+                </h2>
+                <div className="lg:col-span-5 lg:pt-6">
+                  <p className="drop-cap text-lg md:text-xl leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
+                    Rozporządzenie w sprawie wyrobów budowlanych ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując dotychczasowe przepisy z 2011 roku.
+                  </p>
+                </div>
               </div>
             </div>
 
-            {/* Cards Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-              {/* Timeline Card */}
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-[#0d2137] flex items-center justify-center">
-                    <Calendar className="w-6 h-6 text-white" />
+            {/* Pull quote — status key info */}
+            <div className="max-w-6xl mx-auto mb-20 md:mb-24">
+              <div className="relative py-10 md:py-14" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(86% .012 264)" }}>
+                <div className="editorial-kicker absolute -top-3 left-0 bg-white pr-4">
+                  Status — {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                  <div className="lg:col-span-7">
+                    <p className="font-serif text-2xl md:text-3xl lg:text-[2.25rem] leading-[1.25] italic" style={{ color: "oklch(20% .03 264)", fontWeight: 400 }}>
+                      „CPR 2024 obowiązuje od 8 stycznia 2026, ale <span style={{ color: "oklch(55% .22 27)", fontStyle: "normal", fontWeight: 500 }}>GWP, EPD i paszport produktu jeszcze nie są obowiązkowe</span> — i nie będą dla nikogo w tym samym momencie."
+                    </p>
                   </div>
-                  <h3 className="text-xl font-bold text-[#0d2137]">Kluczowe daty</h3>
+                  <div className="lg:col-span-5 lg:border-l lg:pl-8" style={{ borderColor: "oklch(86% .012 264)" }}>
+                    <p className="text-base leading-[1.7] mb-4" style={{ color: "oklch(42% .02 264)" }}>
+                      Obowiązek wchodzi <strong style={{ color: "oklch(20% .03 264)", fontWeight: 600 }}>oddzielnie dla każdej grupy wyrobów</strong>, dopiero gdy CEN opublikuje nową normę zharmonizowaną (hTS). Po publikacji jeszcze 12–36 miesięcy okresu przejściowego.
+                    </p>
+                    <p className="text-base leading-[1.7]" style={{ color: "oklch(42% .02 264)" }}>
+                      Na dziś żadna nowa hTS nie wyszła. Pierwsze spodziewane 2027–2029 — realny obowiązek dla większości wyrobów <strong style={{ color: "oklch(55% .22 27)", fontWeight: 600 }}>najwcześniej 2029–2031</strong>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Timeline + Changes — editorial two column */}
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 mb-20">
+              {/* Timeline */}
+              <div>
+                <div className="flex items-baseline gap-4 mb-8 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+                  <span className="editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)" }}>02</span>
+                  <h3 className="font-serif text-2xl md:text-3xl" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                    Kluczowe <span className="italic" style={{ color: "oklch(55% .22 27)" }}>daty</span>
+                  </h3>
                 </div>
 
-                <div className="space-y-4">
+                <div className="divide-y" style={{ borderColor: "oklch(92% .008 264)" }}>
                   {[
-                    { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", active: true, done: true },
-                    { year: "7 sty 2025", text: "Wejście w życie — 20 dni po publikacji w Dz.U. UE", active: true, done: true },
-                    { year: "8 sty 2026", text: "Przepisy ramowe CPR; stare hEN i AVCP nadal obowiązują do publikacji hTS", active: true, done: true },
+                    { year: "Grudzień 2024", text: "Publikacja rozporządzenia (EU) 2024/3110", done: true },
+                    { year: "7·I·2025", text: "Wejście w życie — 20 dni po publikacji w Dz.U. UE", done: true },
+                    { year: "8·I·2026", text: "Przepisy ramowe CPR; stare hEN i AVCP nadal obowiązują do publikacji hTS", done: true },
                     { year: "2027–2028+", text: "Pierwsze hTS, DoP&C, system AVS, cyfrowy paszport produktu (DPP)" }
                   ].map((item, idx) => (
-                    <div key={idx} className="flex gap-4 items-start">
-                      <div className={`w-28 flex-shrink-0 text-sm font-semibold flex items-center gap-2 ${item.active ? 'text-[#1a56a0]' : 'text-slate-500'}`}>
-                        {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
-                        {item.year}
+                    <div key={idx} className="flex gap-6 items-start py-5" style={{ borderTop: idx === 0 ? "none" : "1px solid oklch(92% .008 264)" }}>
+                      <div className="w-32 flex-shrink-0 flex items-center gap-2">
+                        <span className="editorial-kicker" style={{ color: item.done ? "oklch(55% .22 27)" : "oklch(60% .015 264)" }}>{item.year}</span>
                       </div>
-                      <div className="flex-1 text-slate-700 text-sm leading-relaxed">{item.text}</div>
+                      <div className="flex-1 text-sm leading-[1.6]" style={{ color: "oklch(42% .02 264)" }}>{item.text}</div>
+                      {item.done && <CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "oklch(55% .14 155)" }} />}
                     </div>
                   ))}
                 </div>
               </div>
 
-              {/* Changes Card */}
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-xl bg-[#1a56a0] flex items-center justify-center">
-                    <ListChecks className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#0d2137]">Główne zmiany w CPR</h3>
+              {/* Changes */}
+              <div>
+                <div className="flex items-baseline gap-4 mb-8 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+                  <span className="editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)" }}>03</span>
+                  <h3 className="font-serif text-2xl md:text-3xl" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                    Główne <span className="italic" style={{ color: "oklch(55% .22 27)" }}>zmiany</span>
+                  </h3>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-0">
                   {[
-                    { text: "Obowiązkowe cyfrowe deklaracje właściwości użytkowych i zgodności (Digital DoP&C)", icon: FileText, color: "text-[#1a56a0]" },
-                    { text: "Nowe wymagania środowiskowe i wskaźniki zrównoważonego rozwoju", icon: TrendingUp, color: "text-emerald-600" },
-                    { text: "Rozszerzone obowiązki dla producentów, importerów i dystrybutorów", icon: Users, color: "text-[#1a56a0]" },
-                    { text: "Cyfrowy paszport produktu integrujący dokumentację", icon: ClipboardList, color: "text-[#1a56a0]" },
-                    { text: "Bardziej rygorystyczne wymagania dotyczące oznakowania CE", icon: Shield, color: "text-[#1a56a0]" }
+                    { text: "Obowiązkowe cyfrowe deklaracje właściwości użytkowych i zgodności (Digital DoP&C)" },
+                    { text: "Nowe wymagania środowiskowe i wskaźniki zrównoważonego rozwoju" },
+                    { text: "Rozszerzone obowiązki dla producentów, importerów i dystrybutorów" },
+                    { text: "Cyfrowy paszport produktu integrujący dokumentację" },
+                    { text: "Bardziej rygorystyczne wymagania dotyczące oznakowania CE" }
                   ].map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-3 group">
-                      <item.icon className={`w-5 h-5 mt-0.5 ${item.color} group-hover:scale-110 transition-transform`} />
-                      <span className="text-slate-700 text-sm leading-relaxed group-hover:text-slate-900 transition-colors">{item.text}</span>
+                    <div key={idx} className="flex items-start gap-5 py-5 group" style={{ borderTop: idx === 0 ? "none" : "1px solid oklch(92% .008 264)" }}>
+                      <span className="editorial-numeral text-2xl" style={{ color: "oklch(55% .22 27)", fontWeight: 400, minWidth: "2rem" }}>
+                        {String(idx + 1).padStart(2, "0")}
+                      </span>
+                      <span className="flex-1 text-base leading-[1.6] pt-1" style={{ color: "oklch(42% .02 264)" }}>{item.text}</span>
                     </div>
                   ))}
                 </div>
               </div>
             </div>
 
-            {/* CTA Banner */}
-            <div className="relative overflow-hidden rounded-2xl bg-[#0d2137] p-8 md:p-12">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#1a56a0]/20 via-transparent to-[#1a56a0]/10"></div>
-              <div className="absolute top-0 right-0 w-64 h-64 bg-[#1a56a0]/10 rounded-full blur-3xl"></div>
+            {/* CTA Banner — editorial */}
+            <div className="max-w-6xl mx-auto">
+              <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+                {/* Brand-red accent corner */}
+                <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
-              <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-                <div>
-                  <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
-                    Gotowy sprawdzić wymagania dla Twojego produktu?
+                <div className="max-w-2xl">
+                  <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Wyszukiwarka wymagań</div>
+                  <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white" style={{ fontWeight: 500 }}>
+                    Sprawdź co dotyczy<br/>
+                    <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>Twojego produktu.</span>
                   </h3>
-                  <p className="text-slate-300">
-                    Skorzystaj z naszej wyszukiwarki i dowiedz się więcej o wymaganiach CPR dla Twoich wyrobów.
-                  </p>
                 </div>
                 <Button
                   size="lg"
                   asChild
-                  className="flex-shrink-0 bg-white text-[#0d2137] hover:bg-slate-100 border-0"
+                  className="flex-shrink-0 bg-white font-semibold px-8 py-6 transition-all hover:bg-slate-100"
+                  style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}
                 >
                   <Link to="/wyszukiwarka">
                     Rozpocznij teraz
@@ -350,149 +364,181 @@ function HomePage() {
           </Container>
         </section>
 
-        {/* Features Section */}
-        <section ref={featuresRef as React.RefCallback<HTMLElement>} className="py-24 section-blueprint reveal">
+        {/* Features Section — editorial */}
+        <section ref={featuresRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 reveal" style={{ backgroundColor: "oklch(98% .005 264)" }}>
           <Container>
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4">
-                Dlaczego <span className="text-[#1a56a0] font-bold">NowyCPR.pl?</span>
-              </h2>
-              <p className="text-slate-700 max-w-2xl mx-auto">
-                Kompleksowe wsparcie w przygotowaniu do wymagań rozporządzenia CPR
-              </p>
-            </div>
+            <div className="max-w-6xl mx-auto">
+              <div className="flex items-baseline gap-6 mb-12">
+                <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>04</span>
+                <div className="flex items-center gap-3 pt-4">
+                  <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                  <span className="editorial-kicker">Narzędzia</span>
+                </div>
+              </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {[
-                {
-                  icon: Search,
-                  title: "Wyszukiwarka CPR",
-                  description: "Szybko znajdź wymagania i normy zharmonizowane dla Twojego produktu budowlanego",
-                  iconBg: "bg-[#0d2137]",
-                  path: "/wyszukiwarka"
-                },
-                {
-                  icon: FileText,
-                  title: "Baza dokumentów",
-                  description: "Dostęp do aktualnych dokumentów, wytycznych i norm związanych z CPR",
-                  iconBg: "bg-[#1a56a0]",
-                  path: "/documents"
-                },
-                {
-                  icon: Award,
-                  title: "Usługi certyfikacyjne",
-                  description: "Profesjonalne wsparcie w procesie certyfikacji i przygotowania dokumentacji",
-                  iconBg: "bg-[#1a56a0]",
-                  path: "/services"
-                }
-              ].map((feature, idx) => (
-                <Link
-                  key={idx}
-                  to={feature.path}
-                  className="bg-white border border-slate-200 shadow-sm rounded-xl p-8 hover-lift group cursor-pointer reveal-stagger block"
-                  style={{ "--i": idx } as React.CSSProperties}
-                >
-                  <div className={`w-16 h-16 rounded-2xl ${feature.iconBg} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg`}>
-                    <feature.icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#0d2137] mb-3">{feature.title}</h3>
-                  <p className="text-slate-700 leading-relaxed">{feature.description}</p>
-                  <div className="mt-6 flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-3 transition-all">
-                    <span>Dowiedz się więcej</span>
-                    <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </Container>
-        </section>
-
-        {/* Latest Blog Posts Section */}
-        <section ref={blogRef as React.RefCallback<HTMLElement>} className="py-24 section-paper reveal">
-          <Container>
-            <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-4">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-2">
-                  Najnowsze <span className="text-[#0d2137] font-bold">artykuły</span>
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16 items-end">
+                <h2 className="lg:col-span-8 font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                  Dlaczego<br/>
+                  <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>NowyCPR</span>?
                 </h2>
-                <p className="text-slate-700">
-                  Aktualności i przewodniki dotyczące rozporządzenia CPR
+                <p className="lg:col-span-4 text-base md:text-lg leading-[1.6]" style={{ color: "oklch(42% .02 264)" }}>
+                  Kompleksowe wsparcie w przygotowaniu do wymagań rozporządzenia CPR — od weryfikacji wymagań po certyfikację.
                 </p>
               </div>
-              <Button
-                variant="outline"
-                asChild
-                className="flex-shrink-0"
-              >
-                <Link to="/blog">
-                  <BookOpen className="w-4 h-4 mr-2" />
-                  Zobacz wszystkie artykuły
-                </Link>
-              </Button>
-            </div>
 
-            {loadingPosts ? (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {[1, 2, 3].map((i) => (
-                  <div key={i} className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 animate-pulse">
-                    <div className="h-4 bg-slate-200 rounded w-1/3 mb-4"></div>
-                    <div className="h-6 bg-slate-200 rounded w-full mb-2"></div>
-                    <div className="h-6 bg-slate-200 rounded w-3/4 mb-4"></div>
-                    <div className="h-4 bg-slate-200 rounded w-full mb-2"></div>
-                    <div className="h-4 bg-slate-200 rounded w-2/3"></div>
-                  </div>
-                ))}
-              </div>
-            ) : blogPosts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {blogPosts.map((post, idx) => (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+                {[
+                  {
+                    icon: Search,
+                    title: "Wyszukiwarka CPR",
+                    description: "Szybko znajdź wymagania i normy zharmonizowane dla Twojego produktu budowlanego.",
+                    path: "/wyszukiwarka",
+                    num: "01"
+                  },
+                  {
+                    icon: FileText,
+                    title: "Baza dokumentów",
+                    description: "Dostęp do aktualnych dokumentów, wytycznych i norm związanych z CPR.",
+                    path: "/documents",
+                    num: "02"
+                  },
+                  {
+                    icon: Award,
+                    title: "Usługi certyfikacyjne",
+                    description: "Profesjonalne wsparcie w procesie certyfikacji i przygotowania dokumentacji.",
+                    path: "/services",
+                    num: "03"
+                  }
+                ].map((feature, idx) => (
                   <Link
-                    key={post.id}
-                    to={`/blog/${post.slug}`}
-                    className="bg-white border border-slate-200 shadow-sm rounded-xl overflow-hidden hover-lift group cursor-pointer block no-underline reveal-stagger"
-                    style={{ "--i": idx } as React.CSSProperties}
+                    key={idx}
+                    to={feature.path}
+                    className="group cursor-pointer reveal-stagger block p-8 md:p-10 transition-all hover:bg-white"
+                    style={{
+                      "--i": idx,
+                      borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
+                      borderBottom: "1px solid oklch(92% .008 264)"
+                    } as React.CSSProperties}
                   >
-                    {post.image_url && (
-                      <div className="h-44 overflow-hidden relative">
-                        <img
-                          src={post.image_url}
-                          alt={post.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#0d2137]/50 to-transparent" />
-                      </div>
-                    )}
-                    <div className="p-6">
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="px-3 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] text-xs font-medium">
-                          {post.category}
-                        </span>
-                        <span className="text-slate-600 text-xs flex items-center gap-1">
-                          <Clock className="w-3 h-3" />
-                          {formatDate(post.published_at)}
-                        </span>
-                      </div>
-                      <h3 className="text-lg font-bold text-[#0d2137] mb-3 group-hover:text-[#1a56a0] transition-colors line-clamp-2">
-                        {post.title}
-                      </h3>
-                      <p className="text-slate-700 text-sm leading-relaxed line-clamp-3 mb-4">
-                        {post.excerpt}
-                      </p>
-                      <div className="flex items-center text-[#1a56a0] text-sm font-medium group-hover:gap-2 transition-all">
-                        <span>Czytaj więcej</span>
-                        <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                      </div>
+                    <div className="flex items-start justify-between mb-6">
+                      <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{feature.num}</span>
+                      <feature.icon className="w-6 h-6 transition-transform group-hover:scale-110" style={{ color: "oklch(20% .03 264)" }} />
+                    </div>
+                    <h3 className="font-serif text-2xl md:text-3xl mb-4 leading-[1.1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                      {feature.title}
+                    </h3>
+                    <p className="text-base leading-[1.6] mb-6" style={{ color: "oklch(42% .02 264)" }}>
+                      {feature.description}
+                    </p>
+                    <div className="editorial-kicker flex items-center group-hover:gap-3 transition-all" style={{ color: "oklch(55% .22 27)" }}>
+                      <span>Dowiedz się więcej</span>
+                      <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </Link>
                 ))}
               </div>
-            ) : (
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-12 text-center">
-                <BookOpen className="w-12 h-12 mx-auto text-slate-400 mb-4" />
-                <h3 className="text-lg font-semibold text-[#0d2137] mb-2">Brak artykułów</h3>
-                <p className="text-slate-700">Nowe artykuły pojawią się wkrótce.</p>
+            </div>
+          </Container>
+        </section>
+
+        {/* Latest Blog Posts — editorial magazyn */}
+        <section ref={blogRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 reveal bg-white">
+          <Container>
+            <div className="max-w-6xl mx-auto">
+              <div className="flex items-baseline gap-6 mb-12">
+                <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>05</span>
+                <div className="flex items-center gap-3 pt-4">
+                  <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                  <span className="editorial-kicker">Najnowsze wydania</span>
+                </div>
               </div>
-            )}
+
+              <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
+                <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                  Najnowsze<br/>
+                  <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>artykuły</span>
+                </h2>
+                <Link to="/blog" className="editorial-kicker flex items-center gap-2 pb-3 transition-colors hover:opacity-70" style={{ color: "oklch(20% .03 264)" }}>
+                  Zobacz wszystkie
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+
+              {loadingPosts ? (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+                  {[1, 2, 3].map((i) => (
+                    <div key={i} className="p-8 animate-pulse" style={{ borderRight: i < 3 ? "1px solid oklch(92% .008 264)" : "none", borderBottom: "1px solid oklch(92% .008 264)" }}>
+                      <div className="h-4 w-16 mb-6" style={{ backgroundColor: "oklch(92% .008 264)" }}></div>
+                      <div className="h-8 mb-3" style={{ backgroundColor: "oklch(92% .008 264)" }}></div>
+                      <div className="h-8 w-3/4 mb-6" style={{ backgroundColor: "oklch(92% .008 264)" }}></div>
+                      <div className="h-4 mb-2" style={{ backgroundColor: "oklch(96% .008 264)" }}></div>
+                      <div className="h-4 w-2/3" style={{ backgroundColor: "oklch(96% .008 264)" }}></div>
+                    </div>
+                  ))}
+                </div>
+              ) : blogPosts.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+                  {blogPosts.map((post, idx) => (
+                    <Link
+                      key={post.id}
+                      to={`/blog/${post.slug}`}
+                      className="group cursor-pointer block no-underline reveal-stagger transition-all hover:bg-slate-50"
+                      style={{
+                        "--i": idx,
+                        borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
+                        borderBottom: "1px solid oklch(92% .008 264)"
+                      } as React.CSSProperties}
+                    >
+                      {post.image_url && (
+                        <div className="h-48 overflow-hidden relative" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+                          <img
+                            src={post.image_url}
+                            alt={post.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            style={{ filter: "grayscale(0.15)" }}
+                          />
+                        </div>
+                      )}
+                      <div className="p-6 md:p-8">
+                        {/* Article number + metadata */}
+                        <div className="flex items-baseline justify-between mb-5">
+                          <span className="editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
+                            № {String(idx + 1).padStart(2, "0")}
+                          </span>
+                          <span className="editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
+                            {formatDate(post.published_at)}
+                          </span>
+                        </div>
+
+                        {/* Category tag — thin rule style */}
+                        <div className="flex items-center gap-2 mb-5">
+                          <div className="h-px w-6" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+                          <span className="editorial-kicker" style={{ color: "oklch(55% .22 27)" }}>
+                            {post.category}
+                          </span>
+                        </div>
+
+                        <h3 className="font-serif text-2xl md:text-[1.75rem] mb-4 leading-[1.15] line-clamp-3 group-hover:italic transition-all" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                          {post.title}
+                        </h3>
+                        <p className="text-sm leading-[1.65] line-clamp-3 mb-6" style={{ color: "oklch(42% .02 264)" }}>
+                          {post.excerpt}
+                        </p>
+                        <div className="editorial-kicker flex items-center group-hover:gap-3 transition-all" style={{ color: "oklch(20% .03 264)" }}>
+                          <span>Czytaj więcej</span>
+                          <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <div className="p-16 text-center" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(92% .008 264)" }}>
+                  <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Brak artykułów</h3>
+                  <p style={{ color: "oklch(42% .02 264)" }}>Nowe artykuły pojawią się wkrótce.</p>
+                </div>
+              )}
+            </div>
           </Container>
         </section>
       </main>

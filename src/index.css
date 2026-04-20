@@ -73,11 +73,11 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-family: 'Schibsted Grotesk', system-ui, -apple-system, sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
-    background-color: #f8fafc;
-    background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
-    background-size: 22px 22px;
+    background-color: #ffffff;
+    background-image: none;
+    color: oklch(42% .02 264);
   }
 
   /* Sekcje z subtelną siatką — alternatywa dla czystego bg-white */
@@ -97,11 +97,67 @@
 
   h1,
   h2,
-  h3,
+  h3 {
+    font-family: 'Wittgenstein', ui-serif, Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: oklch(20% .03 264);
+  }
   h4,
   h5,
   h6 {
-    font-family: 'Outfit Variable', 'Outfit', sans-serif;
+    font-family: 'Schibsted Grotesk', system-ui, sans-serif;
+  }
+
+  /* Editorial prose — first paragraph drop cap for blog posts */
+  .prose-editorial > p:first-of-type::first-letter {
+    font-family: 'Wittgenstein', serif;
+    font-weight: 500;
+    font-size: 5.5rem;
+    line-height: 0.82;
+    float: left;
+    margin: 0.35rem 0.55rem 0 -0.1rem;
+    color: oklch(55% .22 27);
+  }
+
+  .prose-editorial > p:first-of-type {
+    font-size: 1.2rem;
+    line-height: 1.55;
+  }
+
+  /* Selection color */
+  .prose-editorial ::selection {
+    background: oklch(55% .22 27 / 0.2);
+    color: oklch(20% .03 264);
+  }
+
+  /* Editorial drop cap — Multicert brand-red */
+  .drop-cap::first-letter {
+    font-family: 'Wittgenstein', serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 0.85;
+    float: left;
+    margin: 0.35rem 0.6rem 0 0;
+    color: oklch(55% .22 27);
+  }
+
+  /* Editorial oversized numeral */
+  .editorial-numeral {
+    font-family: 'Wittgenstein', serif;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 0.85;
+  }
+
+  /* Editorial kicker — Multicert section label */
+  .editorial-kicker {
+    font-family: 'Schibsted Grotesk', system-ui, sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: oklch(60% .015 264);
   }
 }
 

@@ -8,7 +8,7 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import {
   ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
-  BarChart2, Wrench, Newspaper, ChevronRight, FileText, HelpCircle,
+  BarChart2, Wrench, Newspaper, ChevronRight, ChevronDown, FileText, HelpCircle,
   Shield, ExternalLink, CheckSquare, Building2, RefreshCw,
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
@@ -50,7 +50,7 @@ function AuthorLink({ authorField, className }: { authorField: string; className
             {slug ? (
               <button
                 onClick={() => navigate(`/autor/${slug}`)}
-                className={`hover:text-[#1a56a0] underline underline-offset-2 transition-colors cursor-pointer ${className ?? ""}`}
+                className={`hover:text-[oklch(55% .22 27)] underline underline-offset-2 transition-colors cursor-pointer ${className ?? ""}`}
               >
                 {name}
               </button>
@@ -75,75 +75,90 @@ function readingTime(content: string) {
 
 const DARK_COMPONENTS: Components = {
   h1: ({ children }) => (
-    <h1 className="text-3xl font-bold text-[#0d2137] my-6 leading-tight">{children}</h1>
+    <h1 className="font-serif text-[2.5rem] md:text-[3rem] leading-[1.05] mt-16 mb-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+      {children}
+    </h1>
   ),
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>
+    <h2 className="font-serif text-[2rem] md:text-[2.4rem] leading-[1.1] mt-16 mb-6 pt-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500, borderTop: "2px solid oklch(20% .03 264)" }}>
+      {children}
+    </h2>
   ),
   h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-[#1a56a0] mt-6 mb-3">{children}</h3>
+    <h3 className="font-serif italic text-[1.5rem] md:text-[1.75rem] leading-[1.2] mt-12 mb-4" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>
+      {children}
+    </h3>
   ),
   p: ({ children }) => (
-    <p className="text-slate-700 leading-relaxed my-4 text-[15px]">{children}</p>
+    <p className="my-5 text-[17px] md:text-[18px] leading-[1.75]" style={{ color: "oklch(25% .02 264)", fontFeatureSettings: '"kern" 1, "liga" 1' }}>
+      {children}
+    </p>
   ),
   strong: ({ children }) => (
-    <strong className="text-slate-900 font-semibold">{children}</strong>
+    <strong style={{ color: "oklch(20% .03 264)", fontWeight: 600, backgroundImage: "linear-gradient(transparent 60%, oklch(55% .22 27 / 0.15) 60%)" }}>
+      {children}
+    </strong>
   ),
-  em: ({ children }) => <em className="text-slate-500 italic">{children}</em>,
+  em: ({ children }) => <em className="font-serif italic" style={{ color: "oklch(55% .22 27)" }}>{children}</em>,
   a: ({ children, href }) => (
-    <a href={href} className="text-[#1a56a0] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+    <a href={href} className="underline underline-offset-[3px] decoration-[1.5px] transition-colors hover:opacity-70" style={{ color: "oklch(55% .22 27)", textDecorationColor: "oklch(55% .22 27 / 0.4)" }} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   ),
-  ul: ({ children }) => <ul className="my-4 space-y-2">{children}</ul>,
-  ol: ({ children }) => <ol className="my-4 space-y-2">{children}</ol>,
+  ul: ({ children }) => <ul className="my-6 space-y-3 pl-0">{children}</ul>,
+  ol: ({ children }) => <ol className="my-6 space-y-3 pl-0">{children}</ol>,
   li: ({ children, ordered, index }) => (
-    <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
+    <li className="flex items-baseline gap-4 text-[17px] leading-[1.65]" style={{ color: "oklch(25% .02 264)" }}>
       {ordered ? (
-        <span className="text-[#1a56a0] font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
-          {(index ?? 0) + 1}.
+        <span className="editorial-numeral text-[1.4rem] min-w-[2rem] shrink-0" style={{ color: "oklch(55% .22 27)", fontWeight: 400 }}>
+          {String((index ?? 0) + 1).padStart(2, "0")}
         </span>
       ) : (
-        <span className="text-[#1a56a0] mt-2 shrink-0 text-xs">▪</span>
+        <span className="shrink-0 mt-[0.6em] w-3 h-[2px]" style={{ backgroundColor: "oklch(55% .22 27)" }} />
       )}
-      <span>{children}</span>
+      <span className="flex-1">{children}</span>
     </li>
   ),
   blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-[#1a56a0]/60 bg-[#1a56a0]/5 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-slate-600 italic text-[15px]">{children}</div>
+    <blockquote className="my-12 relative">
+      <div className="absolute left-0 top-0 font-serif text-[5rem] leading-[0.5] -translate-x-2" style={{ color: "oklch(55% .22 27 / 0.3)", fontWeight: 500 }}>
+        "
+      </div>
+      <div className="font-serif italic text-[1.6rem] md:text-[1.85rem] leading-[1.35] pl-10 pr-4 py-4" style={{ color: "oklch(20% .03 264)", fontWeight: 400, borderLeft: "3px solid oklch(55% .22 27)" }}>
+        {children}
+      </div>
     </blockquote>
   ),
-  hr: () => <hr className="border-slate-200 my-8" />,
+  hr: () => <hr className="my-12 border-0 h-[2px] w-16 mx-auto" style={{ backgroundColor: "oklch(55% .22 27)" }} />,
   code: ({ children, className }) => {
     if (className) {
-      return <code className={`${className} text-[#1a56a0] text-sm font-mono`}>{children}</code>;
+      return <code className={`${className} text-sm font-mono`} style={{ color: "oklch(55% .22 27)" }}>{children}</code>;
     }
     return (
-      <code className="bg-slate-100 text-[#1a56a0] px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">
+      <code className="px-1.5 py-0.5 text-[0.9em] font-mono" style={{ backgroundColor: "oklch(55% .22 27 / 0.08)", color: "oklch(55% .22 27)", borderRadius: "2px" }}>
         {children}
       </code>
     );
   },
   pre: ({ children }) => (
-    <pre className="bg-slate-900 border border-slate-200 rounded-xl p-5 overflow-x-auto my-6 text-sm font-mono leading-relaxed text-slate-200">
+    <pre className="p-6 overflow-x-auto my-8 text-sm font-mono leading-relaxed text-slate-200" style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}>
       {children}
     </pre>
   ),
   table: ({ children }) => (
-    <div className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-md">
-      <table className="w-full border-collapse text-sm">{children}</table>
+    <div className="overflow-x-auto my-10" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "2px solid oklch(20% .03 264)" }}>
+      <table className="w-full border-collapse text-[15px]">{children}</table>
     </div>
   ),
-  thead: ({ children }) => <thead className="bg-[#0d2137]">{children}</thead>,
-  tbody: ({ children }) => <tbody className="divide-y divide-slate-100">{children}</tbody>,
-  tr: ({ children }) => <tr className="hover:bg-slate-50 transition-colors">{children}</tr>,
+  thead: ({ children }) => <thead style={{ borderBottom: "1px solid oklch(20% .03 264)" }}>{children}</thead>,
+  tbody: ({ children }) => <tbody>{children}</tbody>,
+  tr: ({ children }) => <tr style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>{children}</tr>,
   th: ({ children }) => (
-    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
+    <th className="editorial-kicker text-left px-4 py-3 whitespace-nowrap" style={{ color: "oklch(20% .03 264)" }}>
       {children}
     </th>
   ),
-  td: ({ children }) => <td className="text-slate-700 px-4 py-3 text-[13px]">{children}</td>,
+  td: ({ children }) => <td className="px-4 py-4 text-[15px] leading-[1.55]" style={{ color: "oklch(25% .02 264)" }}>{children}</td>,
 };
 
 const LIGHT_COMPONENTS: Components = {
@@ -222,7 +237,7 @@ const LIGHT_COMPONENTS: Components = {
 const EMERALD_COMPONENTS: Components = {
   ...DARK_COMPONENTS,
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-emerald-200">{children}</h2>
+    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-emerald-200">{children}</h2>
   ),
   h3: ({ children }) => (
     <h3 className="text-lg font-semibold text-emerald-700 mt-6 mb-3">{children}</h3>
@@ -263,7 +278,7 @@ const EMERALD_COMPONENTS: Components = {
 const ORANGE_COMPONENTS: Components = {
   ...DARK_COMPONENTS,
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-orange-200">{children}</h2>
+    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-orange-200">{children}</h2>
   ),
   h3: ({ children }) => (
     <h3 className="text-lg font-semibold text-orange-700 mt-6 mb-3">{children}</h3>
@@ -304,7 +319,7 @@ const ORANGE_COMPONENTS: Components = {
 const ROSE_COMPONENTS: Components = {
   ...DARK_COMPONENTS,
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-rose-200">{children}</h2>
+    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-rose-200">{children}</h2>
   ),
   h3: ({ children }) => (
     <h3 className="text-lg font-semibold text-rose-700 mt-6 mb-3">{children}</h3>
@@ -345,7 +360,7 @@ const ROSE_COMPONENTS: Components = {
 const TEAL_COMPONENTS: Components = {
   ...DARK_COMPONENTS,
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[#0d2137] mt-8 mb-4 pb-2 border-b border-teal-200">{children}</h2>
+    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-teal-200">{children}</h2>
   ),
   h3: ({ children }) => (
     <h3 className="text-lg font-semibold text-teal-700 mt-6 mb-3">{children}</h3>
@@ -390,27 +405,25 @@ const TEAL_COMPONENTS: Components = {
 function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (path: string) => void }) {
   return (
     <>
-      <div className="bg-white border border-slate-200 rounded-2xl p-5">
-        <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
-        <dl className="space-y-3">
+      <div className="sticky top-24 pt-6" style={{ borderTop: "3px solid oklch(55% .22 27)" }}>
+        <h4 className="editorial-kicker mb-5" style={{ color: "oklch(55% .22 27)" }}>Informacje</h4>
+        <dl className="space-y-5">
           <div>
-            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
-            <dd className="text-slate-700 text-sm flex items-center gap-2">
-              <User className="w-3.5 h-3.5 text-[#1a56a0]" />
+            <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Autor</dt>
+            <dd className="font-serif italic text-base flex items-center gap-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
               <AuthorLink authorField={post.author} />
             </dd>
           </div>
           <div>
-            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Data publikacji</dt>
-            <dd className="text-slate-700 text-sm flex items-center gap-2">
-              <Calendar className="w-3.5 h-3.5 text-[#1a56a0]" />
+            <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Data publikacji</dt>
+            <dd className="text-sm" style={{ color: "oklch(42% .02 264)" }}>
               {formatDate(post.published_at)}
             </dd>
           </div>
           {post.updated_at && (
             <div>
-              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Ostatnia aktualizacja</dt>
-              <dd className="text-sm flex items-center gap-2 text-amber-700 font-medium">
+              <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Ostatnia aktualizacja</dt>
+              <dd className="text-sm flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
                 <RefreshCw className="w-3.5 h-3.5 shrink-0" />
                 {formatDate(post.updated_at)}
               </dd>
@@ -418,8 +431,8 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           )}
           {post.reviewed && (
             <div>
-              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Zweryfikowano</dt>
-              <dd className="text-sm flex items-center gap-2 text-emerald-700 font-medium">
+              <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Zweryfikowano</dt>
+              <dd className="text-sm flex items-center gap-2" style={{ color: "oklch(55% .14 155)" }}>
                 <CheckSquare className="w-3.5 h-3.5 shrink-0" />
                 {formatDate(post.reviewed)}
               </dd>
@@ -427,27 +440,27 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           )}
           {post.category && (
             <div>
-              <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Kategoria</dt>
-              <dd className="text-slate-700 text-sm">{post.category}</dd>
+              <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Kategoria</dt>
+              <dd className="text-sm" style={{ color: "oklch(20% .03 264)" }}>{post.category}</dd>
             </div>
           )}
           <div>
-            <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
-            <dd className="text-slate-700 text-sm flex items-center gap-2">
-              <Clock className="w-3.5 h-3.5 text-[#1a56a0]" />
+            <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Czas czytania</dt>
+            <dd className="text-sm flex items-center gap-2" style={{ color: "oklch(42% .02 264)" }}>
+              <Clock className="w-3.5 h-3.5" style={{ color: "oklch(55% .22 27)" }} />
               ok. {readingTime(post.content)} min
             </dd>
           </div>
         </dl>
       </div>
       {post.tags && post.tags.length > 0 && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-5">
-          <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-            <Tag className="w-3.5 h-3.5 text-[#1a56a0]" /> Tagi
+        <div className="pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+          <h4 className="editorial-kicker mb-4 flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
+            <Tag className="w-3 h-3" /> Tagi
           </h4>
           <div className="flex flex-wrap gap-2">
             {post.tags.map((tag) => (
-              <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] border border-[#1a56a0]/20">
+              <span key={tag} className="editorial-kicker px-2.5 py-1" style={{ color: "oklch(42% .02 264)", border: "1px solid oklch(86% .012 264)" }}>
                 {tag}
               </span>
             ))}
@@ -455,11 +468,11 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
         </div>
       )}
       {post.sources && post.sources.length > 0 && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-5">
-          <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-            <BookOpen className="w-3.5 h-3.5 text-[#1a56a0]" /> Źródła
+        <div className="pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+          <h4 className="editorial-kicker mb-4 flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
+            <BookOpen className="w-3 h-3" /> Źródła
           </h4>
-          <ul className="space-y-2">
+          <ul className="space-y-3">
             {post.sources.map((source, i) => {
               const [label, url] = source.includes('|') ? source.split('|') : [source, source];
               return (
@@ -468,7 +481,8 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
                     href={url.trim()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-start gap-1.5 text-xs text-[#1a56a0] hover:text-[#1a3d6b] transition-colors leading-snug"
+                    className="flex items-start gap-1.5 text-xs transition-colors leading-snug hover:opacity-70"
+                    style={{ color: "oklch(55% .22 27)" }}
                   >
                     <ExternalLink className="w-3 h-3 shrink-0 mt-0.5" />
                     {label.trim()}
@@ -479,14 +493,14 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           </ul>
         </div>
       )}
-      <div className="bg-[#1a56a0]/5 border border-[#1a56a0]/20 rounded-2xl p-5">
-        <h4 className="text-[#0d2137] font-semibold mb-2 flex items-center gap-2">
-          <HelpCircle className="w-4 h-4 text-[#1a56a0]" /> Potrzebujesz pomocy?
+      <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
+        <h4 className="text-[oklch(20% .03 264)] font-semibold mb-2 flex items-center gap-2">
+          <HelpCircle className="w-4 h-4 text-[oklch(55% .22 27)]" /> Potrzebujesz pomocy?
         </h4>
         <p className="text-slate-500 text-sm mb-4">Nasi eksperci pomogą Ci spełnić wymagania CPR 2024/3110.</p>
         <button
           onClick={() => navigate("/services")}
-          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
         >
           Kontakt <ChevronRight className="w-4 h-4" />
         </button>
@@ -503,8 +517,8 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
 function MulticertBoxDark() {
   return (
     <div className="bg-white border border-slate-200 rounded-2xl p-5">
-      <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-        <Shield className="w-3.5 h-3.5 text-[#1a56a0]" /> Wydawca
+      <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+        <Shield className="w-3.5 h-3.5 text-[oklch(55% .22 27)]" /> Wydawca
       </h4>
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
@@ -512,7 +526,7 @@ function MulticertBoxDark() {
           Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
         </p>
         <div className="flex items-center gap-2 mt-2">
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/10 text-[#1a56a0] border border-[#1a56a0]/25 font-mono">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55% .22 27)]/10 text-[oklch(55% .22 27)] border border-[oklch(55% .22 27)]/25 font-mono">
             PCA nr AC 210
           </span>
         </div>
@@ -520,7 +534,7 @@ function MulticertBoxDark() {
           href="https://www.multicert.com.pl"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-xs text-[#1a56a0] hover:text-[#1a3d6b] transition-colors mt-2"
+          className="flex items-center gap-1.5 text-xs text-[oklch(55% .22 27)] hover:text-[#1a3d6b] transition-colors mt-2"
         >
           <ExternalLink className="w-3 h-3" /> www.multicert.com.pl
         </a>
@@ -572,9 +586,9 @@ type TemplateBaseProps = {
 type HeroConfig = {
   /** Pełne klasy Tailwind dla badge'a — muszą być literalami (Tailwind purging) */
   badgeClasses: string;
-  /** Klasa koloru dla ikon w meta (User, Calendar, Clock) np. "text-[#1a56a0]" */
+  /** Klasa koloru dla ikon w meta (User, Calendar, Clock) np. "text-[oklch(55% .22 27)]" */
   iconAccentClass: string;
-  /** Klasa hover dla przycisku "Powrót do bloga" np. "hover:text-[#1a56a0]" */
+  /** Klasa hover dla przycisku "Powrót do bloga" np. "hover:text-[oklch(55% .22 27)]" */
   buttonHoverClass: string;
   /** Etykieta badge'a np. "Regulacja", "Przewodnik" */
   badgeLabel: string;
@@ -602,67 +616,81 @@ function SharedHero({
     bottomBg = "to-slate-900",
   } = config;
 
-  const photoBg = post.image_url || "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=80";
-
   return (
-    <div className="relative overflow-hidden">
-      {/* B&W photo background */}
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url('${photoBg}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          filter: "grayscale(100%) contrast(1.1) brightness(0.75)",
-        }}
-      />
-      {/* Navy→blue gradient overlay */}
-      <div
-        className="absolute inset-0"
-        style={{ background: "linear-gradient(to bottom, rgba(13,33,55,0.50) 0%, rgba(13,33,55,0.78) 100%)" }}
-      />
-      {/* Bottom accent stripe: wiśniowy → niebieski */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-[4px]"
-        style={{ background: "linear-gradient(to right, #8b1a3c 30%, #1a56a0 100%)" }}
-      />
-      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-28 pb-14">
-        <button
-          onClick={() => navigate("/blog")}
-          className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-8 group text-sm"
-        >
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          Powrót do bloga
-        </button>
+    <section
+      className="relative pt-24 pb-10 md:pt-28 md:pb-12 overflow-hidden"
+      style={{ backgroundColor: "oklch(20% .03 264)" }}
+    >
+      {/* Photo background */}
+      {post.image_url && (
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url('${post.image_url}')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+      )}
+      {/* Dark overlay — readability */}
+      {post.image_url && (
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to bottom, oklch(20% .03 264 / 0.55) 0%, oklch(20% .03 264 / 0.92) 100%)",
+          }}
+        />
+      )}
+
+      {/* Masthead rules — white on dark */}
+      <div className="absolute top-24 left-0 right-0 h-px bg-white/20" />
+      <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px bg-white/20" />
+      <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
+
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs mt-5 mb-6 text-white/60">
+          <button onClick={() => navigate("/")} className="uppercase tracking-[0.12em] font-semibold transition-colors hover:text-white">Strona główna</button>
+          <span className="opacity-50">›</span>
+          <button onClick={() => navigate("/blog")} className="uppercase tracking-[0.12em] font-semibold transition-colors hover:opacity-80" style={{ color: "oklch(75% .15 27)" }}>05 · Aktualności</button>
+          {post.category && (<>
+            <span className="opacity-50">›</span>
+            <span className="uppercase tracking-[0.12em] font-semibold text-white">{post.category}</span>
+          </>)}
+        </nav>
+
         <div className="flex items-center gap-3 mb-4">
-          <span className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#8b1a3c] text-white border border-[#8b1a3c]">
-            <BadgeIcon className="w-3 h-3" /> {badgeLabel}
-          </span>
-          {post.category && (
-            <span className="text-xs text-white/80 bg-white/15 border border-white/30 px-3 py-1 rounded-full">
-              {post.category}
-            </span>
-          )}
+          <span className="editorial-numeral text-3xl" style={{ color: "oklch(75% .15 27)", fontWeight: 300 }}>05</span>
+          <div className="h-[2px] w-8" style={{ backgroundColor: "oklch(75% .15 27)" }} />
+          <span className="editorial-kicker text-white/70">{badgeLabel}</span>
         </div>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-3xl">
+
+        <h1 className="font-serif text-[2rem] md:text-[2.75rem] lg:text-[3.5rem] leading-[1.08] max-w-4xl mb-6 text-white" style={{ fontWeight: 500 }}>
           {post.title}
         </h1>
-        <p className="text-white/70 mt-4 text-sm flex items-center gap-4 flex-wrap">
-          <span className="flex items-center gap-1.5">
-            <User className="w-3.5 h-3.5 text-white/60" />
+
+        <div className="flex items-center gap-5 flex-wrap pt-4 border-t border-white/20">
+          <span className="editorial-kicker flex items-center gap-2 text-white">
+            <User className="w-3.5 h-3.5" />
             <AuthorLink authorField={post.author} />
           </span>
-          <span className="flex items-center gap-1.5">
-            <Calendar className="w-3.5 h-3.5 text-white/60" />
+          <span className="editorial-kicker flex items-center gap-2 text-white/60">
+            <Calendar className="w-3.5 h-3.5" />
             {formatDate(post.published_at)}
           </span>
-          <span className="flex items-center gap-1.5">
-            <Clock className="w-3.5 h-3.5 text-white/60" />
-            ok. {readingTime(post.content)} min czytania
+          <span className="editorial-kicker flex items-center gap-2 text-white/60">
+            <Clock className="w-3.5 h-3.5" />
+            ok. {readingTime(post.content)} min
           </span>
-        </p>
+        </div>
       </div>
-    </div>
+
+      {/* Scroll hint — brand-red indicator */}
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 animate-pulse">
+        <span className="editorial-kicker text-white/60" style={{ fontSize: "0.65rem" }}>Czytaj</span>
+        <ChevronDown className="w-4 h-4 text-white/60" />
+      </div>
+    </section>
   );
 }
 
@@ -679,7 +707,7 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
     { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
   ];
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
@@ -687,8 +715,8 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
           navigate={navigate}
           config={{
             badgeClasses: "bg-red-100 border border-red-300 text-red-700",
-            iconAccentClass: "text-[#1a56a0]",
-            buttonHoverClass: "hover:text-[#1a56a0]",
+            iconAccentClass: "text-[oklch(55% .22 27)]",
+            buttonHoverClass: "hover:text-[oklch(55% .22 27)]",
             badgeLabel: "Regulacja",
             BadgeIcon: Scale,
             bottomBg: "to-slate-50",
@@ -696,21 +724,21 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-6">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
-                <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-[#1a56a0]" /> Harmonogram
+                <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <Calendar className="w-4 h-4 text-[oklch(55% .22 27)]" /> Harmonogram
                 </h4>
                 <ol className="space-y-3">
                   {KEY_DATES.map((item) => (
                     <li key={item.date} className="flex items-start gap-3">
-                      <span className="text-[#1a56a0] font-mono text-xs font-bold mt-0.5 shrink-0">{item.date}</span>
+                      <span className="text-[oklch(55% .22 27)] font-mono text-xs font-bold mt-0.5 shrink-0">{item.date}</span>
                       <span className="text-slate-500 text-xs">{item.label}</span>
                     </li>
                   ))}
@@ -733,33 +761,33 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
 
 function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
           post={post}
           navigate={navigate}
           config={{
-            badgeClasses: "bg-[#1a56a0]/10 border border-[#1a56a0]/30 text-[#1a56a0]",
-            iconAccentClass: "text-[#1a56a0]",
-            buttonHoverClass: "hover:text-[#1a56a0]",
+            badgeClasses: "bg-[oklch(55% .22 27)]/10 border border-[oklch(55% .22 27)]/30 text-[oklch(55% .22 27)]",
+            iconAccentClass: "text-[oklch(55% .22 27)]",
+            buttonHoverClass: "hover:text-[oklch(55% .22 27)]",
             badgeLabel: "Przewodnik",
             BadgeIcon: BookOpen,
           }}
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               {/* TL;DR — streszczenie posta */}
               {post.excerpt && (
-                <div className="bg-[#1a56a0]/5 border border-[#1a56a0]/20 rounded-2xl p-5">
-                  <h4 className="text-[#1a56a0] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
+                  <h4 className="text-[oklch(55% .22 27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                     <FileText className="w-4 h-4" /> TL;DR
                   </h4>
                   <p className="text-slate-700 text-sm leading-relaxed">{post.excerpt}</p>
@@ -782,7 +810,7 @@ function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 
 function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
@@ -798,15 +826,15 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={EMERALD_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
-                <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
+                <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
                 <dl className="space-y-3">
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
@@ -840,7 +868,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               </div>
               {post.tags && post.tags.length > 0 && (
                 <div className="bg-white border border-slate-200 rounded-2xl p-5">
-                  <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                     <Tag className="w-3.5 h-3.5 text-emerald-700" /> Tagi
                   </h4>
                   <div className="flex flex-wrap gap-2">
@@ -854,7 +882,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               )}
               {post.sources && post.sources.length > 0 && (
                 <div className="bg-white border border-slate-200 rounded-2xl p-5">
-                  <h4 className="text-[#0d2137] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                     <BookOpen className="w-3.5 h-3.5 text-emerald-700" /> Źródła
                   </h4>
                   <ul className="space-y-2">
@@ -873,13 +901,13 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
                 </div>
               )}
               <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5">
-                <h4 className="text-[#0d2137] font-semibold mb-2 flex items-center gap-2">
+                <h4 className="text-[oklch(20% .03 264)] font-semibold mb-2 flex items-center gap-2">
                   <HelpCircle className="w-4 h-4 text-emerald-700" /> Potrzebujesz pomocy?
                 </h4>
                 <p className="text-slate-500 text-sm mb-4">Przeprowadzimy analizę i doradzimy odpowiednie rozwiązanie.</p>
                 <button
                   onClick={() => navigate("/services")}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
                 >
                   Kontakt <ChevronRight className="w-4 h-4" />
                 </button>
@@ -901,7 +929,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
 
 function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
@@ -917,13 +945,13 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ORANGE_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5">
                 <h4 className="text-orange-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
@@ -958,7 +986,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 
 function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
@@ -974,13 +1002,13 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ROSE_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               {/* Co musisz wiedzieć */}
               {post.excerpt && (
                 <div className="bg-rose-50 border border-rose-200 rounded-2xl p-5">
@@ -1015,7 +1043,7 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
     "Umieść oznakowanie CE na wyrobie",
   ];
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
         <SharedHero
@@ -1031,13 +1059,13 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={TEAL_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               {/* Lista kontrolna */}
               <div className="bg-teal-50 border border-teal-200 rounded-2xl p-5">
                 <h4 className="text-teal-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
@@ -1069,35 +1097,28 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 
 function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
       <main className="flex-grow pb-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <button
-            onClick={() => navigate("/blog")}
-            className="flex items-center gap-2 text-slate-500 hover:text-[#1a56a0] transition-colors mb-8 group text-sm"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            Powrót do bloga
-          </button>
-          {post.image_url && (
-            <div className="mb-8 overflow-hidden rounded-2xl">
-              <img src={post.image_url} alt={post.title} className="w-full h-64 object-cover" />
-            </div>
-          )}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <article className="lg:col-span-2">
-              <h1 className="text-3xl md:text-4xl font-bold text-[#0d2137] mb-4 leading-tight">{post.title}</h1>
-              <div className="flex items-center gap-4 text-slate-500 text-sm mb-8 pb-6 border-b border-slate-200 flex-wrap">
-                <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-[#1a56a0]" /><AuthorLink authorField={post.author} /></span>
-                <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5 text-[#1a56a0]" />{formatDate(post.published_at)}</span>
-                <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-[#1a56a0]" />ok. {readingTime(post.content)} min</span>
-              </div>
+        <SharedHero
+          post={post}
+          navigate={navigate}
+          config={{
+            badgeClasses: "",
+            iconAccentClass: "text-[oklch(55% .22 27)]",
+            buttonHoverClass: "hover:text-[oklch(55% .22 27)]",
+            badgeLabel: "Artykuł",
+            BadgeIcon: Newspaper,
+          }}
+        />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+            <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {post.content}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-5">
+            <aside className="space-y-8">
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
@@ -1153,8 +1174,8 @@ function RelatedWyrobySection({ wyroby }: { wyroby: ProductFamily[] }) {
   return (
     <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-12">
       <div className="border-t border-slate-200 pt-8">
-        <h2 className="text-xl font-semibold text-[#0d2137] mb-6 flex items-center gap-2">
-          <Building2 className="w-5 h-5 text-[#1a56a0]" />
+        <h2 className="text-xl font-semibold text-[oklch(20% .03 264)] mb-6 flex items-center gap-2">
+          <Building2 className="w-5 h-5 text-[oklch(55% .22 27)]" />
           Powiązane wyroby budowlane
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -1162,15 +1183,15 @@ function RelatedWyrobySection({ wyroby }: { wyroby: ProductFamily[] }) {
             <Link
               key={w.slug}
               to={`/wyrob?slug=${w.slug}`}
-              className="group bg-white border border-slate-200 rounded-xl p-4 hover:border-[#1a56a0]/30 hover:shadow-md transition-all duration-300"
+              className="group bg-white border border-slate-200 rounded-xl p-4 hover:border-[oklch(55% .22 27)]/30 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-xs px-2 py-0.5 rounded-full bg-[#1a56a0]/10 border border-[#1a56a0]/20 text-[#1a56a0] font-bold">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55% .22 27)]/10 border border-[oklch(55% .22 27)]/20 text-[oklch(55% .22 27)] font-bold">
                   #{w.family_number}
                 </span>
                 <span className="text-xs text-slate-500">{w.category}</span>
               </div>
-              <h3 className="text-sm font-semibold text-[#0d2137] group-hover:text-[#1a56a0] transition-colors line-clamp-2">
+              <h3 className="text-sm font-semibold text-[oklch(20% .03 264)] group-hover:text-[oklch(55% .22 27)] transition-colors line-clamp-2">
                 {w.title}
               </h3>
               <p className="text-xs text-slate-500 mt-2 line-clamp-2">{w.excerpt}</p>
@@ -1257,10 +1278,10 @@ export default function BlogPost() {
         <Header />
         <main className="flex-grow flex items-center justify-center">
           <div className="text-center py-12 px-4">
-            <h3 className="text-xl font-semibold text-[#0d2137] mb-2">{error ?? "Nie znaleziono artykułu"}</h3>
+            <h3 className="text-xl font-semibold text-[oklch(20% .03 264)] mb-2">{error ?? "Nie znaleziono artykułu"}</h3>
             <button
               onClick={() => navigate("/blog")}
-              className="mt-4 px-6 py-3 bg-[#0d2137] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors"
+              className="mt-4 px-6 py-3 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors"
             >
               Wróć do bloga
             </button>

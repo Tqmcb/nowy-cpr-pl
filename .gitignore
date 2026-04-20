@@ -16,3 +16,4 @@ firebase-debug.log
 dist/
 .firecrawl/
 .review-result.md
+.vercel
