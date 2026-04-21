@@ -42,8 +42,12 @@ export function Header() {
     <>
     <ScrollProgressBar />
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "py-2.5 shadow-sm" : "py-4"}`}
-      style={{ backgroundColor: "#ffffff", borderBottom: scrolled ? "1px solid oklch(92% .008 264)" : "1px solid transparent" }}
+      className="fixed top-0 left-0 right-0 z-50 py-3 transition-shadow duration-200"
+      style={{
+        backgroundColor: "#ffffff",
+        borderBottom: "1px solid oklch(92% .008 264)",
+        boxShadow: scrolled ? "0 1px 3px rgba(0,0,0,0.04)" : "none",
+      }}
     >
       {/* Brand-red top rule — sygnatura Multicert */}
       <div className="absolute top-0 left-0 h-[3px] w-20" style={{ backgroundColor: "oklch(55% .22 27)" }} />

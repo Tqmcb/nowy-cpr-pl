@@ -16,14 +16,14 @@ export function ScrollProgressBar() {
 
   return (
     <div
-      className="fixed top-[72px] left-0 right-0 z-40 h-[3px] pointer-events-none"
+      className="fixed top-0 left-0 right-0 z-[60] h-[2px] pointer-events-none"
       aria-hidden
     >
       <div
         className="h-full transition-[width] duration-75"
         style={{
           width: `${progress}%`,
-          background: "linear-gradient(to right, #8b1a3c, #1a56a0)",
+          backgroundColor: "oklch(55% .22 27)",
         }}
       />
     </div>
