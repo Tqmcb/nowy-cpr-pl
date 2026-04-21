@@ -40,13 +40,11 @@ export function Header() {
 
   return (
     <>
-    <ScrollProgressBar />
     <header
       className="fixed top-0 left-0 right-0 z-50 py-3 transition-shadow duration-200"
       style={{
         backgroundColor: "#ffffff",
-        borderBottom: "1px solid oklch(92% .008 264)",
-        boxShadow: scrolled ? "0 1px 3px rgba(0,0,0,0.04)" : "none",
+        boxShadow: scrolled ? "0 1px 3px rgba(0,0,0,0.06)" : "none",
       }}
     >
       {/* Brand-red top rule — sygnatura Multicert */}
