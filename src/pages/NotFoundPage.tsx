@@ -14,9 +14,6 @@ export default function NotFoundPage() {
       <Header />
       <main id="main-content" className="pb-24">
         <section className="relative pt-32 pb-20 bg-white">
-          <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
-          <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
-          <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
           <Container>
             <div className="max-w-6xl mx-auto">
               <div className="flex items-baseline gap-6 mb-10">

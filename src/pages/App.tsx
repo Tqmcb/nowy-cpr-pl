@@ -136,11 +136,8 @@ function HomePage() {
         {/* Editorial Hero — Multicert brand system */}
         <section className="relative pt-28 pb-20 md:pt-32 md:pb-28 overflow-hidden bg-white">
           {/* Thin top rule — masthead */}
-          <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
-          <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
 
           {/* Brand-red kreska akcentu — sygnatura Multicert */}
-          <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
           <Container>
             <div className="relative z-10 max-w-6xl mx-auto">

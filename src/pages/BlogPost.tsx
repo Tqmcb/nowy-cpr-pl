@@ -644,9 +644,6 @@ function SharedHero({
       )}
 
       {/* Masthead rules — white on dark */}
-      <div className="absolute top-24 left-0 right-0 h-px bg-white/20" />
-      <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px bg-white/20" />
-      <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs mt-5 mb-6 text-white/60">

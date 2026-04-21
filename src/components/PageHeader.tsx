@@ -33,9 +33,6 @@ export function PageHeader({
   return (
     <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-white">
       {/* Masthead top rules */}
-      <div className="absolute top-24 left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
-      <div className="absolute top-[calc(6rem+4px)] left-0 right-0 h-px" style={{ backgroundColor: "oklch(20% .03 264)" }} />
-      <div className="absolute top-24 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
       <Container>
         <div className="max-w-6xl mx-auto">
