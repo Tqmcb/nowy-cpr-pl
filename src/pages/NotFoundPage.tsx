@@ -13,7 +13,7 @@ export default function NotFoundPage() {
       </Helmet>
       <Header />
       <main id="main-content" className="pb-24">
-        <section className="relative pt-32 pb-20 bg-white">
+        <section className="relative pt-20 pb-20 bg-white">
           <Container>
             <div className="max-w-6xl mx-auto">
               <div className="flex items-baseline gap-6 mb-10">

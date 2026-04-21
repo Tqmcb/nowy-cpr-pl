@@ -31,7 +31,7 @@ export function PageHeader({
   const resolvedLabel = label ?? pageMeta?.label;
 
   return (
-    <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-white">
+    <section className="relative pt-16 pb-12 md:pt-20 md:pb-16 bg-white">
       {/* Masthead top rules */}
 
       <Container>

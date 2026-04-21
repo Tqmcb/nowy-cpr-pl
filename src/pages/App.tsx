@@ -134,7 +134,7 @@ function HomePage() {
 
       <main className="flex-grow">
         {/* Editorial Hero — Multicert brand system */}
-        <section className="relative pt-28 pb-20 md:pt-32 md:pb-28 overflow-hidden bg-white">
+        <section className="relative pt-16 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-white">
           {/* Thin top rule — masthead */}
 
           {/* Brand-red kreska akcentu — sygnatura Multicert */}

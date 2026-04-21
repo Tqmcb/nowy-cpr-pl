@@ -618,7 +618,7 @@ function SharedHero({
 
   return (
     <section
-      className="relative pt-24 pb-10 md:pt-28 md:pb-12 overflow-hidden"
+      className="relative pt-14 pb-10 md:pt-16 md:pb-12 overflow-hidden"
       style={{ backgroundColor: "oklch(20% .03 264)" }}
     >
       {/* Photo background */}

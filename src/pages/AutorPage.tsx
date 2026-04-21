@@ -48,7 +48,7 @@ export default function AutorPage() {
 
       <main className="flex-1 bg-white">
         {/* Hero — editorial */}
-        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 bg-white">
+        <section className="relative pt-16 pb-12 md:pt-20 md:pb-16 bg-white">
 
           <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
             <button
