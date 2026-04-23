@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "components/Button";
 import { Container } from "components/Container";
 import { PageHeader } from "components/PageHeader";
 import { findProductCategoryById, getProductCategoryOptions, type ProductCategory } from "utils/productData";
+import type { ProductFamily } from "utils/wyrobLoader";
+import { buildWyrobSnapshot } from "utils/wyrobSummaries";
 import {
   Search,
   Sparkles,
@@ -22,7 +24,9 @@ import {
   ExternalLink,
   Globe,
   MapPin,
-  Star
+  Star,
+  ClipboardList,
+  BookOpenText
 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
@@ -30,8 +34,35 @@ export function ProductSearchTool() {
   const [selectedCategoryId, setSelectedCategoryId] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | null>(null);
   const [activeTab, setActiveTab] = useState("overview");
+  const [wyroby, setWyroby] = useState<ProductFamily[]>([]);
 
   const productOptions = getProductCategoryOptions();
+
+  useEffect(() => {
+    const loadWyroby = async () => {
+      try {
+        const { getAllWyroby } = await import("../utils/wyrobLoader");
+        const data = await getAllWyroby();
+        setWyroby(data);
+      } catch (error) {
+        console.error("Error loading wyroby for search tool:", error);
+      }
+    };
+
+    loadWyroby();
+  }, []);
+
+  const selectedWyrob = useMemo(() => {
+    if (!selectedCategory) {
+      return null;
+    }
+
+    return wyroby.find((wyrob) => wyrob.family_number === Number(selectedCategory.code)) ?? null;
+  }, [selectedCategory, wyroby]);
+
+  const wyrobSnapshot = useMemo(() => buildWyrobSnapshot(selectedWyrob), [selectedWyrob]);
+  const visibleChanges = wyrobSnapshot?.changes.length ? wyrobSnapshot.changes : selectedCategory?.requirements.cprChanges ?? [];
+  const visibleActions = wyrobSnapshot?.actions.length ? wyrobSnapshot.actions : selectedCategory?.requirements.documentationRequired.slice(0, 5) ?? [];
 
   const handleCategoryChange = (value: string) => {
     setSelectedCategoryId(value);
@@ -116,8 +147,79 @@ export function ProductSearchTool() {
                     </p>
                   </div>
                 </div>
-                <p className="max-w-4xl text-slate-700 leading-relaxed">{selectedCategory.description}</p>
-                <p className="mt-3 max-w-4xl text-slate-500 leading-relaxed">{selectedCategory.requirements.description}</p>
+                <p className="max-w-4xl text-slate-700 leading-relaxed">
+                  {wyrobSnapshot?.familySummary || selectedCategory.description}
+                </p>
+                <p className="mt-3 max-w-4xl text-slate-500 leading-relaxed">
+                  {wyrobSnapshot?.currentStatus || selectedCategory.requirements.description}
+                </p>
+                {selectedWyrob && (
+                  <>
+                    <div className="mt-5 flex flex-wrap gap-2">
+                      {selectedWyrob.normy.slice(0, 5).map((norma) => (
+                        <span
+                          key={norma}
+                          className="inline-flex items-center rounded-full border border-[oklch(92%_.008_264)] bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600"
+                        >
+                          {norma}
+                        </span>
+                      ))}
+                      {selectedWyrob.avs_system && (
+                        <span className="inline-flex items-center rounded-full border border-[oklch(55%_.22_27/0.18)] bg-[oklch(55%_.22_27/0.06)] px-3 py-1 text-xs font-semibold text-[oklch(55%_.22_27)]">
+                          AVS/AVCP: {selectedWyrob.avs_system}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="mt-6 grid gap-4 md:grid-cols-3">
+                      <div className="rounded-[2px] border border-slate-200 bg-slate-50 p-5">
+                        <div className="mb-3 flex items-center gap-2 text-[oklch(20%_.03_264)]">
+                          <BookOpenText className="h-4 w-4 text-[oklch(55%_.22_27)]" />
+                          <h4 className="text-sm font-semibold">Co realnie się zmienia</h4>
+                        </div>
+                        <ul className="space-y-2">
+                          {visibleChanges.slice(0, 3).map((item) => (
+                            <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
+                              <ArrowRight className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(55%_.22_27)]" />
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <div className="rounded-[2px] border border-slate-200 bg-white p-5">
+                        <div className="mb-3 flex items-center gap-2 text-[oklch(20%_.03_264)]">
+                          <ClipboardList className="h-4 w-4 text-[oklch(55%_.22_27)]" />
+                          <h4 className="text-sm font-semibold">Co producent powinien zrobić teraz</h4>
+                        </div>
+                        <ul className="space-y-2">
+                          {visibleActions.slice(0, 4).map((item) => (
+                            <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
+                              <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(55%_.22_27)]" />
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <div className="rounded-[2px] border border-[oklch(55%_.22_27/0.18)] bg-[oklch(55%_.22_27/0.05)] p-5">
+                        <div className="mb-3 flex items-center gap-2 text-[oklch(20%_.03_264)]">
+                          <Info className="h-4 w-4 text-[oklch(55%_.22_27)]" />
+                          <h4 className="text-sm font-semibold">Pełna karta rodziny</h4>
+                        </div>
+                        <p className="mb-4 text-sm leading-relaxed text-slate-700">
+                          Dla tej rodziny jest już dostępna pełna karta z normami, systemem oceny, checklistą i przykładami wyrobów.
+                        </p>
+                        <Button asChild className="gap-2 whitespace-nowrap px-4 py-2 text-sm" style={{ backgroundColor: "oklch(55%_.22_27)", color: "white", borderRadius: "2px" }}>
+                          <Link to={`/wyrob?slug=${selectedWyrob.slug}`}>
+                            Otwórz pełną kartę
+                            <ArrowRight className="h-4 w-4 shrink-0" />
+                          </Link>
+                        </Button>
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
 
               {/* Tabs */}
@@ -140,17 +242,23 @@ export function ProductSearchTool() {
               {/* Tab Content */}
               {activeTab === "overview" && (
                 <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
-                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-4">{selectedCategory.requirements.title}</h3>
-                  <p className="text-slate-600 mb-8 leading-relaxed">{selectedCategory.requirements.description}</p>
+                  <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-4">
+                    {selectedWyrob ? `Najważniejsze dla rodziny ${selectedCategory.code}` : selectedCategory.requirements.title}
+                  </h3>
+                  <p className="text-slate-600 mb-8 leading-relaxed">
+                    {selectedWyrob
+                      ? "Ten widok zbiera najważniejsze informacje z pełnej karty wyrobu: co dziś obowiązuje, co zmieni CPR 2024 dla tej rodziny i jakie działania warto przygotować już teraz."
+                      : selectedCategory.requirements.description}
+                  </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-slate-50 p-6 rounded-[2px] border border-slate-200">
                       <h4 className="font-bold text-[oklch(20%_.03_264)] mb-4 flex items-center gap-2">
                         <CheckCircle2 className="w-5 h-5 text-[oklch(55%_.22_27)]" />
-                        Kluczowe wymagania
+                        Kluczowe wymagania i normy
                       </h4>
                       <ul className="space-y-3">
-                        {selectedCategory.requirements.mandatoryTests.slice(0, 3).map((test, index) => (
+                        {(selectedWyrob?.normy.length ? selectedWyrob.normy : selectedCategory.requirements.mandatoryTests).slice(0, 4).map((test, index) => (
                           <li key={index} className="flex items-start gap-3">
                             <ChevronRight className="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
                             <span className="text-slate-700 text-sm">{test}</span>
@@ -162,10 +270,10 @@ export function ProductSearchTool() {
                     <div className="bg-[oklch(55%_.22_27/0.05)] p-6 rounded-[2px] border border-[oklch(55%_.22_27/0.18)]">
                       <h4 className="font-bold text-[oklch(55%_.22_27)] mb-4 flex items-center gap-2">
                         <Sparkles className="w-5 h-5" />
-                        Nowości w CPR 2024
+                        Co zmienia się dla tej rodziny
                       </h4>
                       <ul className="space-y-3">
-                        {selectedCategory.requirements.cprChanges.slice(0, 3).map((change, index) => (
+                        {visibleChanges.slice(0, 4).map((change, index) => (
                           <li key={index} className="flex items-start gap-3">
                             <ArrowRight className="w-4 h-4 text-[oklch(55%_.22_27)] mt-0.5 flex-shrink-0" />
                             <span className="text-slate-700 text-sm">{change}</span>
@@ -212,6 +320,19 @@ export function ProductSearchTool() {
                   <p className="text-slate-500 mb-6">
                     Producenci wyrobów z kategorii "{selectedCategory.name}" muszą przygotować:
                   </p>
+                  {visibleActions.length > 0 && (
+                    <div className="mb-6 rounded-[2px] border border-[oklch(55%_.22_27/0.18)] bg-[oklch(55%_.22_27/0.05)] p-5">
+                      <p className="mb-3 font-medium text-[oklch(20%_.03_264)]">Najpilniejsze działania organizacyjne</p>
+                      <ul className="space-y-2">
+                        {visibleActions.slice(0, 4).map((item) => (
+                          <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
+                            <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(55%_.22_27)]" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   <ul className="space-y-4">
                     {selectedCategory.requirements.documentationRequired.map((doc, index) => (
                       <li key={index} className="bg-slate-50 p-4 rounded-[2px] border border-slate-200">
@@ -251,7 +372,7 @@ export function ProductSearchTool() {
                     Najważniejsze modyfikacje dla kategorii "{selectedCategory.name}" w porównaniu z poprzednim rozporządzeniem:
                   </p>
                   <ul className="space-y-4">
-                    {selectedCategory.requirements.cprChanges.map((change, index) => (
+                    {visibleChanges.map((change, index) => (
                       <li key={index} className="bg-[oklch(55%_.22_27/0.05)] p-4 rounded-[2px] border border-[oklch(55%_.22_27/0.18)]">
                         <div className="flex items-start gap-4">
                           <div className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center text-sm font-bold text-[oklch(55%_.22_27)]">
@@ -271,6 +392,16 @@ export function ProductSearchTool() {
                   <p className="text-slate-500 mb-6">
                     Dla wyrobów z kategorii "{selectedCategory.name}" obowiązują następujące systemy certyfikacji:
                   </p>
+                  {selectedWyrob && (
+                    <div className="mb-6 rounded-[2px] border border-slate-200 bg-slate-50 p-5">
+                      <p className="font-medium text-[oklch(20%_.03_264)]">
+                        Karta rodziny wskazuje dla tej grupy: <span className="text-[oklch(55%_.22_27)]">{selectedWyrob.avs_system || "sprawdzenie właściwej normy wyrobu"}</span>
+                      </p>
+                      <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                        W praktyce poziom udziału jednostki notyfikowanej zależy od funkcji wyrobu, normy bazowej oraz tego, czy mówimy o stanie obecnym pod hEN/AVCP, czy o modelu docelowym po wdrożeniu odpowiedniej hTS.
+                      </p>
+                    </div>
+                  )}
                   <div className="space-y-4">
                     {selectedCategory.requirements.certificationSystems.map((system, index) => (
                       <div key={index} className="bg-slate-50 p-6 rounded-[2px] border border-slate-200">
