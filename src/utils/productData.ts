@@ -22,7 +22,7 @@ export interface ProductCategory {
 const placeholderRequirements: ProductRequirement = {
   id: "placeholder-req",
   title: "Wymagania podstawowe",
-  description: "Szczegółowe wymagania dla tej kategorii produktów są obecnie opracowywane. Skontaktuj się z Multicert, aby uzyskać szczegółowe informacje.",
+  description: "Pełna karta tej rodziny wyrobów jest jeszcze rozwijana. Już teraz warto jednak zweryfikować właściwą normę zharmonizowaną lub ETA, zakres badań typu, wymagania dla zakładowej kontroli produkcji oraz plan przejścia z DoP na DoP&C po publikacji odpowiedniej hTS.",
   mandatoryTests: [
     "Badania wstępne typu",
     "Ocena zgodności z normami zharmonizowanymi",
@@ -40,6 +40,31 @@ const placeholderRequirements: ProductRequirement = {
     "Nowe systemy oceny i weryfikacji stałości właściwości użytkowych"
   ],
   certificationSystems: ["System 2+", "System 3"]
+};
+
+const placeholderCategoryOverviews: Record<string, string> = {
+  "structural-bearings": "Rodzina obejmuje łożyska budowlane i sworznie stosowane w ustrojach mostowych, halach, prefabrykacji oraz innych połączeniach konstrukcyjnych. Kluczowe są tu nośność, odkształcalność, trwałość zmęczeniowa i zgodność z wymaganiami projektowymi dla konkretnego zastosowania.",
+  "chimneys": "Rodzina obejmuje kominy, systemy kominowe, przewody spalinowe i dymowe oraz wkłady i akcesoria współpracujące z urządzeniami grzewczymi. W praktyce trzeba ocenić przede wszystkim odporność termiczną, szczelność, odporność na pożar sadzy i trwałość w kontakcie z kondensatem.",
+  "geotextiles": "Rodzina obejmuje geowłókniny, geotkaniny, geomembrany i wyroby pokrewne stosowane w drogownictwie, geotechnice, hydrotechnice i ochronie środowiska. Najważniejsze są funkcje filtracji, separacji, drenażu, zbrojenia i szczelności w zależności od zastosowania projektowego.",
+  "curtain-walls": "Rodzina obejmuje ściany osłonowe, systemy fasadowe i oszklenia ze spoiwem konstrukcyjnym. Dla producenta istotne są nośność pod obciążeniem wiatru, wodoszczelność, przepuszczalność powietrza, bezpieczeństwo użytkowania i właściwości ogniowe całego układu.",
+  "fire-equipment": "Rodzina obejmuje stałe urządzenia gaśnicze oraz wyroby do wykrywania i sygnalizacji pożaru. To segment o wysokiej odpowiedzialności, w którym zwykle kluczowe są badania funkcjonalne, niezawodność systemu oraz udział jednostki notyfikowanej w ocenie zgodności.",
+  "sanitary-ware": "Rodzina obejmuje urządzenia sanitarne przeznaczone do trwałego wbudowania w obiekty budowlane, takie jak miski ustępowe, umywalki, brodziki czy wanny. W praktyce ocenia się trwałość, higienę, łatwość utrzymania, odporność na obciążenia i zgodność wymiarową.",
+  "road-equipment": "Rodzina obejmuje wyposażenie dróg i urządzenia bezpieczeństwa ruchu, takie jak bariery, ekrany, oznakowanie pionowe i elementy ograniczające skutki kolizji. Liczą się tu odporność na uderzenie, trwałość zewnętrzna, widoczność i zachowanie parametrów w całym okresie eksploatacji.",
+  "sewage-products": "Rodzina obejmuje wyroby do usuwania i oczyszczania ścieków, w tym zbiorniki, studzienki, separatory i elementy kanalizacji sanitarnej. Kluczowe są szczelność, odporność chemiczna, trwałość w gruncie i bezpieczeństwo eksploatacji całego systemu.",
+  "aggregates": "Rodzina obejmuje kruszywa do betonu, zapraw, mieszanek bitumicznych, robót ziemnych i zastosowań kolejowych. W praktyce trzeba potwierdzić m.in. uziarnienie, odporność na rozdrabnianie, mrozoodporność, czystość oraz przydatność do konkretnego zastosowania.",
+  "heating-devices": "Rodzina obejmuje urządzenia do ogrzewania pomieszczeń współpracujące z wymaganiami budowlanymi, w tym kominki, piece, wkłady i wybrane urządzenia spalające paliwa. Najczęściej ocenia się bezpieczeństwo użytkowania, emisje, sprawność, odporność termiczną i warunki montażu.",
+  "pipes-nondrinking": "Rodzina obejmuje rury, zbiorniki i wyroby pomocnicze niestykające się z wodą przeznaczoną do spożycia przez ludzi, np. dla kanalizacji, odwodnień lub instalacji technicznych. Kluczowe są szczelność, wytrzymałość mechaniczna, odporność chemiczna i trwałość długoterminowa.",
+  "cables": "Rodzina obejmuje kable zasilające, sterujące i komunikacyjne przeznaczone do wbudowania w obiekty budowlane. Dla CPR najważniejsza jest reakcja na ogień, wydzielanie dymu, płonących kropli i gazów kwaśnych oraz prawidłowe oznakowanie klasy kablowej.",
+  "joint-sealants": "Rodzina obejmuje uszczelniacze do szczelin, dylatacji i połączeń budowlanych stosowane na elewacjach, w pomieszczeniach i strefach sanitarnych. W praktyce liczą się przyczepność, odkształcalność, trwałość, odporność na warunki środowiskowe i emisje do powietrza wewnętrznego.",
+  "fixings": "Rodzina obejmuje kotwy, łączniki mechaniczne i chemiczne oraz wyroby do przenoszenia obciążeń między elementami budowlanymi. Najistotniejsze są nośność, zachowanie w betonie lub murze, trwałość korozyjna i warunki stosowania potwierdzone badaniami lub ETA.",
+  "building-kits": "Rodzina obejmuje zestawy budowlane i systemy składane z wielu komponentów wprowadzanych jako jedno rozwiązanie funkcjonalne. Ocenie podlega nie tylko pojedynczy element, ale działanie kompletnego zestawu, kompatybilność komponentów i zasady montażu.",
+  "fire-stopping": "Rodzina obejmuje wyroby do ochrony przeciwpożarowej biernej, takie jak uszczelnienia przejść, farby pęczniejące, okładziny i systemy zabezpieczeń konstrukcji. Kluczowe są klasy odporności ogniowej, zakres zastosowania oraz poprawna identyfikacja konfiguracji objętej oceną.",
+  "fixed-ladders": "Rodzina obejmuje drabiny mocowane na stałe do budynków i obiektów technicznych. W praktyce trzeba sprawdzić nośność, geometrię użytkową, odporność korozyjną, bezpieczeństwo wejścia oraz wymagania montażowe dla całego układu."
+};
+
+const buildPlaceholderDescription = (family: { id: string; name: string; description: string }) => {
+  return placeholderCategoryOverviews[family.id]
+    ?? `${family.name} obejmują ${family.description.toLowerCase()}. Dla tej rodziny trzeba potwierdzić właściwą ścieżkę oceny zgodności, zakres badań typu, wymagania dla ZKP oraz sposób przejścia na nowe obowiązki CPR 2024 po publikacji odpowiedniej hTS.`;
 };
 
 // Detailed requirements for plumbing products
@@ -1252,16 +1277,19 @@ const buildFullProductCategoryList = () => {
     if (existingCategory) {
       return existingCategory;
     } else {
+      const placeholderDescription = buildPlaceholderDescription(family);
+
       // Return a new category with placeholder requirements
       return {
         id: family.id,
         name: family.name,
         code: family.code,
-        description: family.description,
+        description: placeholderDescription,
         requirements: {
           ...placeholderRequirements,
           id: `req-${family.id}`,
-          title: `Wymagania dla kategorii: ${family.name}`
+          title: `Wymagania dla kategorii: ${family.name}`,
+          description: `${placeholderDescription} Na tym etapie warto ustalić, czy dla wyrobu podstawą jest hEN, ETA lub dokument krajowy, jakie właściwości trzeba zadeklarować oraz czy dana rodzina będzie wymagała udziału jednostki notyfikowanej.`
         }
       };
     }

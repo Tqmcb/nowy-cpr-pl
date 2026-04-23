@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "components/Button";
 import { Container } from "components/Container";
 import { PageHeader } from "components/PageHeader";
+import { findProductCategoryById, getProductCategoryOptions, type ProductCategory } from "utils/productData";
 import {
   Search,
   Sparkles,
@@ -25,116 +26,23 @@ import {
 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
-// Merged product data type to match the component expectations
-interface ProductCategory {
-  id: string;
-  name: string;
-  code: string;
-  description: string;
-  requirements: {
-    id: string;
-    title: string;
-    description: string;
-    mandatoryTests: string[];
-    documentationRequired: string[];
-    cprChanges: string[];
-    certificationSystems: string[];
-  };
-};
-
-// Fallback data for when the Supabase integration isn't configured
-const placeholderRequirements = {
-  id: "placeholder-req",
-  title: "Wymagania podstawowe",
-  description: "Szczegółowe wymagania dla tej kategorii produktów są obecnie opracowywane. Skontaktuj się z Multicert, aby uzyskać szczegółowe informacje.",
-  mandatoryTests: [
-    "Badania wstępne typu",
-    "Ocena zgodności z normami zharmonizowanymi",
-    "Raportowanie środowiskowe (nowe z CPR 2024)"
-  ],
-  documentationRequired: [
-    "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
-    "Oznakowanie CE",
-    "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
-  ],
-  cprChanges: [
-    "Cyfryzacja dokumentacji i oznaczeń",
-    "Zwiększone wymagania środowiskowe",
-    "Nowe systemy oceny i weryfikacji stałości właściwości użytkowych"
-  ],
-  certificationSystems: ["System 2+", "System 3"]
-};
-
-// Complete list of 36 product families per CPR 2024/3110 Annex IV Table 1
-const buildFullProductCategoryList = () => {
-  return [
-    { value: "concrete-prefab", label: "Wyroby prefabrykowane z betonu (01)" },
-    { value: "doors-windows", label: "Drzwi, okna i okucia (02)" },
-    { value: "membranes", label: "Membrany izolacyjne (03)" },
-    { value: "insulation", label: "Materiały termoizolacyjne (04)" },
-    { value: "structural-bearings", label: "Łożyska konstrukcyjne (05)" },
-    { value: "chimneys", label: "Kominy i przewody (06)" },
-    { value: "gypsum-products", label: "Wyroby gipsowe (07)" },
-    { value: "geotextiles", label: "Geowłókniny i geomembrany (08)" },
-    { value: "curtain-walls", label: "Ściany osłonowe (09)" },
-    { value: "fire-equipment", label: "Urządzenia przeciwpożarowe (10)" },
-    { value: "sanitary-ware", label: "Urządzenia sanitarne (11)" },
-    { value: "road-equipment", label: "Urządzenia drogowe (12)" },
-    { value: "timber-structural", label: "Konstrukcje drewniane (13)" },
-    { value: "wood-panels", label: "Płyty drewnopochodne (14)" },
-    { value: "cement", label: "Cement i spoiwa (15)" },
-    { value: "steel", label: "Stal zbrojeniowa (16)" },
-    { value: "bricks", label: "Wyroby murarskie (17)" },
-    { value: "sewage-products", label: "Oczyszczanie ścieków (18)" },
-    { value: "flooring", label: "Wyroby podłogowe (19)" },
-    { value: "metal-structural", label: "Konstrukcje metalowe (20)" },
-    { value: "wall-finishes", label: "Wykończenia ścian i sufitów (21)" },
-    { value: "roofing", label: "Pokrycia dachowe (22)" },
-    { value: "road-construction", label: "Budowa dróg (23)" },
-    { value: "aggregates", label: "Kruszywa (24)" },
-    { value: "construction-adhesives", label: "Kleje budowlane (25)" },
-    { value: "concrete-related", label: "Wyroby betonowe (26)" },
-    { value: "heating-devices", label: "Urządzenia grzewcze (27)" },
-    { value: "pipes-nondrinking", label: "Rury i zbiorniki (28)" },
-    { value: "pipes-drinking", label: "Wyroby do wody pitnej (29)" },
-    { value: "glass-products", label: "Wyroby szklane (30)" },
-    { value: "cables", label: "Kable i przewody (31)" },
-    { value: "joint-sealants", label: "Uszczelniacze (32)" },
-    { value: "fixings", label: "Mocowania i łączniki (33)" },
-    { value: "building-kits", label: "Zestawy budowlane (34)" },
-    { value: "fire-stopping", label: "Ochrona przeciwpożarowa (35)" },
-    { value: "fixed-ladders", label: "Drabiny stałe (36)" }
-  ];
-};
-
 export function ProductSearchTool() {
-  const navigate = useNavigate();
   const [selectedCategoryId, setSelectedCategoryId] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | null>(null);
   const [activeTab, setActiveTab] = useState("overview");
 
-  const [productOptions] = useState<{ value: string, label: string }[]>(buildFullProductCategoryList());
+  const productOptions = getProductCategoryOptions();
 
   const handleCategoryChange = (value: string) => {
     setSelectedCategoryId(value);
+    setActiveTab("overview");
+
     if (!value) {
       setSelectedCategory(null);
       return;
     }
 
-    const categoryOption = productOptions.find(opt => opt.value === value);
-    const name = categoryOption ? categoryOption.label.split('(')[0].trim() : value;
-    const code = categoryOption && categoryOption.label.includes('(') ?
-      categoryOption.label.split('(')[1].replace(')', '') : '';
-
-    setSelectedCategory({
-      id: value,
-      name,
-      code,
-      description: `${name} - szczegółowy opis kategorii`,
-      requirements: placeholderRequirements
-    });
+    setSelectedCategory(findProductCategoryById(value) ?? null);
   };
 
   const tabs = [
@@ -208,6 +116,8 @@ export function ProductSearchTool() {
                     </p>
                   </div>
                 </div>
+                <p className="max-w-4xl text-slate-700 leading-relaxed">{selectedCategory.description}</p>
+                <p className="mt-3 max-w-4xl text-slate-500 leading-relaxed">{selectedCategory.requirements.description}</p>
               </div>
 
               {/* Tabs */}
