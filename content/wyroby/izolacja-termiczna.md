@@ -41,7 +41,7 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 
 **System AVS 1** obowiązuje dla wyrobów izolacyjnych stosowanych w ogniochronnych systemach izolacji, jeśli norma wyrobu lub przepis krajowy wskazuje na zastosowanie krytyczne (np. izolacja o funkcji ogniochronnej). W praktyce AVS 1 dotyczy wyrobów z wełny mineralnej deklarowanych jako materiał klasy A1/A2 stosowany w systemach ogniochronnych, gdzie jednostka notyfikowana certyfikuje FPC i wydaje CoCP.
 
-**System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** będzie w modelu docelowym standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 3+** – walidacja danych środowiskowych. Jeżeli producent będzie deklarował w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki mogą wymagać walidacji w systemie 3+ po opublikowaniu odpowiednich hTS i aktów wykonawczych. Walidacja potwierdza rzetelność obliczeń LCA.
 

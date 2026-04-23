@@ -62,7 +62,7 @@ Komisja Europejska sygnalizuje, że rodzina 36 może zostać połączona z rodzi
 Dla rodziny 36 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla drabin o prostszym profilu właściwości (drabiny do niskich instalacji, standardowe stalowe bez systemu bezpieczeństwa): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla drabin na znacznych wysokościach (> 3 m), z koszem ochronnym lub szyną bezpieczeństwa, w obiektach użyteczności publicznej: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – w modelu docelowym będzie dotyczył drabin na znacznych wysokościach (> 3 m), z koszem ochronnym lub szyną bezpieczeństwa, w obiektach użyteczności publicznej. Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących właściwości środowiskowe drabin stalowych lub aluminiowych (GWP stali i aluminium, udział metali z recyklingu).
 

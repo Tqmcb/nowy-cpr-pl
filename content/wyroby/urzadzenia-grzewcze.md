@@ -44,7 +44,7 @@ Główne właściwości użytkowe deklarowane w DoP&C obejmują: sprawność ene
 Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla urządzeń grzewczych niższej klasy, o prostszym profilu właściwości deklarowanych, stosowanych w standardowych warunkach budowlanych: producent samodzielnie przeprowadza badanie typu i zakładową kontrolę produkcji (ZKP).
-- **System AVS 3** – dla urządzeń z rozszerzonymi deklaracjami (emisje, efektywność energetyczna, odporność ogniowa): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** stanowiący podstawę DoP&C. Numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – w modelu docelowym będzie dotyczył urządzeń z rozszerzonymi deklaracjami (emisje, efektywność energetyczna, odporność ogniowa). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP; nowy układ dokumentacji i oznakowania będzie wynikał z przyszłej specyfikacji.
 
 **System 3+** – dla walidacji danych środowiskowych (wyników LCA) dotyczących GWP urządzenia grzewczego i spalania paliw.
 

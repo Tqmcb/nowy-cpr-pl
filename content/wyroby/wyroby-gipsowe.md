@@ -35,7 +35,7 @@ Rodzina obejmuje: płyty gipsowo-kartonowe (GKB – standardowe, GKF – ogniood
 
 Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
 
-**System AVS 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
+**System AVS 3** będzie w modelu docelowym stosowany dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP. Jest to kierunek właściwy dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
 
 **System AVS 4** dotyczy tynków gipsowych i mas szpachlowych (EN 13279-1) oraz prostszych elementów gipsowych. Producent samodzielnie przeprowadza ITT, zarządza FPC i wydaje DoP&C bez zaangażowania jednostki notyfikowanej.
 

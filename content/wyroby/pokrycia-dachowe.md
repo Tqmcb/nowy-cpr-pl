@@ -40,7 +40,7 @@ Jedną ze specyfik rodziny 22 jest klasa odporności ogniowej **BROOF** – klas
 
 Dla wyrobów z rodziny 22 obowiązuje:
 
-- **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – w modelu docelowym będzie dotyczył dachówek ceramicznych i betonowych, pap bitumicznych i membran dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu, w tym w klasyfikacji BROOF. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 - **System AVS 4** – dla wyrobów pomocniczych (podkłady, folie, elementy uzupełniające), wykładzin dachowych do zastosowań nieobciążonych ogniowo oraz wyrobów do budynków mieszkalnych bez szczególnych wymagań pożarowych.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie dla blach metalowych (nieskończona recyklowalność metali).
 

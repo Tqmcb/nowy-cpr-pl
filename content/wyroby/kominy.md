@@ -37,7 +37,7 @@ Rodzina obejmuje: systemy kominowe ceramiczne (kamionkowe wkłady kominowe), sys
 
 Systemy kominowe podlegają systemowi **AVS 3 lub AVS 4**, w zależności od konkretnej normy zharmonizowanej i kategorii wyrobu:
 
-**System AVS 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** będzie w modelu docelowym stosowany dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 4** może mieć zastosowanie dla prostszych elementów uzupełniających (czapki kominowe, przewody elastyczne do zastosowań mniej krytycznych), gdzie producent samodzielnie wykonuje ITT bez zaangażowania jednostki notyfikowanej.
 

@@ -42,7 +42,7 @@ Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
 
 **System AVS 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
 
-**System AVS 3** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** – w modelu docelowym będzie dotyczył asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 

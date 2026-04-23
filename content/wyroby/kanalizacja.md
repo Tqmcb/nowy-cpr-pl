@@ -40,7 +40,7 @@ CPR 2024/3110 kładzie w tej rodzinie szczególny nacisk na dwa wymagania podsta
 
 Wyroby z rodziny 18 stosują:
 
-- **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – w modelu docelowym będzie dotyczył rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 - **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 

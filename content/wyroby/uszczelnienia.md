@@ -44,7 +44,7 @@ Chemicznie uszczelniacze dzielą się na: **silikonowe** (najwyższa trwałość
 Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
+- **System AVS 3** – w modelu docelowym będzie dotyczył uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej. Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP; nowy układ dokumentacji i oznakowania CE będzie wynikał z przyszłej specyfikacji.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 

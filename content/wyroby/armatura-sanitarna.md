@@ -38,7 +38,7 @@ Rodzina obejmuje: miski ustępowe (WC) – podwieszane i stojące, zbiorniki sp�
 
 Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
 
-**System AVS 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** będzie w modelu docelowym stosowany dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 4** może być stosowany dla prostszych wyrobów i akcesoriów sanitarnych, gdzie producent samodzielnie przeprowadza ITT i zarządza całą dokumentacją. Dotyczy to m.in. zlewów ze stali nierdzewnej (EN 13310), prostych brodzików z tworzyw sztucznych.
 

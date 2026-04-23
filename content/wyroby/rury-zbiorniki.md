@@ -45,7 +45,7 @@ Kluczowym kryterium rozgraniczającym rodziny 28 i 29 jest **przeznaczenie mediu
 Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla rur i zbiorników o niższym ryzyku (kanalizacja deszczowa, niepodciśnieniowe rury odpływowe): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
+- **System AVS 3** – w modelu docelowym będzie dotyczył rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych. Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP; nowy układ dokumentacji i oznakowania CE będzie wynikał z przyszłej specyfikacji.
 
 System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 

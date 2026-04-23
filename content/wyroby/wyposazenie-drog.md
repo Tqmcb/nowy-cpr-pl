@@ -42,7 +42,7 @@ Rodzina 12 jest zróżnicowana pod względem systemu AVS:
 
 Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na akredytowanych torach badawczych. W Europie funkcjonuje kilka laboratoriów zdolnych do przeprowadzenia testów wg EN 1317 z pełnym monitoringiem (akcelerometry, kamery szybkie, pomiary odkształceń). Wyniki testów zderzeniowych stanowią podstawę raportu z klasyfikacji.
 
-**System AVS 3** stosuje się dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** będzie w modelu docelowym stosowany dla **bezpiecznych słupów drogowych** (EN 12767), **słupów oświetleniowych** (EN 40-2) i **znaków drogowych** (EN 1463-1, EN 12966). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 

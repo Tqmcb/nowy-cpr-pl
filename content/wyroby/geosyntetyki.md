@@ -38,7 +38,7 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 
 Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczności zastosowania i wymagań normy:
 
-**System AVS 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
+**System AVS 3** będzie w modelu docelowym stosowany dla geosyntetyków używanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
 
 **System AVS 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
 
