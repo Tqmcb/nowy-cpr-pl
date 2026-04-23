@@ -43,13 +43,13 @@ interface FaqItem {
 
 const CATEGORY_CONFIG: Record<FaqCategory, { label: string; icon: React.ComponentType<{ className?: string }>; color: string }> = {
   ogolne: { label: "Ogólne", icon: HelpCircle, color: "text-[oklch(55% .22 27)]" },
-  producent: { label: "Producent", icon: Building2, color: "text-sky-600" },
-  certyfikacja: { label: "Certyfikacja i AVS", icon: Shield, color: "text-emerald-600" },
-  dokumentacja: { label: "Dokumentacja", icon: FileText, color: "text-orange-600" },
-  "eta-normy": { label: "ETA i normy", icon: Scale, color: "text-violet-600" },
-  srodowisko: { label: "Środowisko / GWP", icon: Leaf, color: "text-green-600" },
-  import: { label: "Import i eksport", icon: Globe, color: "text-cyan-600" },
-  sankcje: { label: "Sankcje i nadzór", icon: AlertTriangle, color: "text-rose-600" },
+  producent: { label: "Producent", icon: Building2, color: "text-[oklch(55% .22 27)]" },
+  certyfikacja: { label: "Certyfikacja i AVS", icon: Shield, color: "text-[oklch(55% .22 27)]" },
+  dokumentacja: { label: "Dokumentacja", icon: FileText, color: "text-[oklch(55% .22 27)]" },
+  "eta-normy": { label: "ETA i normy", icon: Scale, color: "text-[oklch(55% .22 27)]" },
+  srodowisko: { label: "Środowisko / GWP", icon: Leaf, color: "text-[oklch(55% .22 27)]" },
+  import: { label: "Import i eksport", icon: Globe, color: "text-[oklch(55% .22 27)]" },
+  sankcje: { label: "Sankcje i nadzór", icon: AlertTriangle, color: "text-[oklch(55% .22 27)]" },
 };
 
 const FAQ_DATA: FaqItem[] = [

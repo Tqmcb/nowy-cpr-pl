@@ -16,9 +16,9 @@ export default function PolitykaPrywatnosci() {
         <Container>
           {/* Page header */}
           <div className="max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
-              <Shield className="w-4 h-4 text-amber-400" />
-              <span className="text-amber-400 text-sm font-medium">Ochrona danych osobowych</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] mb-6">
+              <Shield className="w-4 h-4 text-[oklch(75%_.15_27)]" />
+              <span className="text-[oklch(75%_.15_27)] text-sm font-medium">Ochrona danych osobowych</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Polityka Prywatności
@@ -34,7 +34,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 1 */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-amber-400/20 flex items-center justify-center text-amber-400 font-bold text-sm flex-shrink-0">1</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">1</span>
                 Administrator danych osobowych
               </h2>
               <p className="text-slate-300 leading-relaxed mb-4">
@@ -45,14 +45,14 @@ export default function PolitykaPrywatnosci() {
                 <p className="text-slate-400">ul. Mydlarska 47, 04-690 Warszawa</p>
                 <p className="text-slate-400">
                   E-mail:{" "}
-                  <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+                  <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                     biuro@multicert.pl
                   </a>
                 </p>
               </div>
               <p className="text-slate-400 mt-4 leading-relaxed">
                 Multicert Sp. z o.o. jest wydawcą portalu informacyjnego NowyCPR.pl, dostępnego pod adresem{" "}
-                <a href="https://www.nowycpr.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+                <a href="https://www.nowycpr.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                   www.nowycpr.pl
                 </a>.
               </p>
@@ -61,7 +61,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 2 */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-blue-400/20 flex items-center justify-center text-blue-400 font-bold text-sm flex-shrink-0">2</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">2</span>
                 Cele i podstawy prawne przetwarzania danych
               </h2>
               <p className="text-slate-300 leading-relaxed mb-6">
@@ -100,7 +100,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 3 */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-emerald-400/20 flex items-center justify-center text-emerald-400 font-bold text-sm flex-shrink-0">3</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">3</span>
                 Okres przechowywania danych
               </h2>
               <div className="space-y-3 text-slate-300 leading-relaxed">
@@ -112,7 +112,7 @@ export default function PolitykaPrywatnosci() {
                     "Dane analityczne (cookies) — zgodnie z polityką dostawcy narzędzia analitycznego (Google Analytics), co do zasady nie dłużej niż 14 miesięcy (w wersji GA4 standardowej; maksymalnie 26 miesięcy dotyczy wyłącznie GA4 360).",
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <ArrowRight className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
+                      <ArrowRight className="w-4 h-4 text-[oklch(75%_.15_27)] flex-shrink-0 mt-0.5" />
                       <span className="text-sm">{item}</span>
                     </li>
                   ))}
@@ -123,7 +123,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 4 — Rights */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-purple-400/20 flex items-center justify-center text-purple-400 font-bold text-sm flex-shrink-0">4</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">4</span>
                 Prawa osoby, której dane dotyczą
               </h2>
               <p className="text-slate-300 mb-6 leading-relaxed">
@@ -131,12 +131,12 @@ export default function PolitykaPrywatnosci() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { icon: Eye, title: "Prawo dostępu", desc: "Prawo do uzyskania informacji o przetwarzanych danych oraz ich kopii (art. 15 RODO).", color: "text-blue-400", bg: "bg-blue-400/10" },
-                  { icon: RefreshCw, title: "Prawo do sprostowania", desc: "Prawo do żądania poprawienia nieprawidłowych lub uzupełnienia niekompletnych danych (art. 16 RODO).", color: "text-emerald-400", bg: "bg-emerald-400/10" },
-                  { icon: Trash2, title: "Prawo do usunięcia", desc: "Prawo do żądania usunięcia danych (\"prawo do bycia zapomnianym\") w przypadkach określonych w art. 17 RODO.", color: "text-red-400", bg: "bg-red-400/10" },
-                  { icon: Lock, title: "Prawo do ograniczenia", desc: "Prawo do żądania ograniczenia przetwarzania danych w przypadkach określonych w art. 18 RODO.", color: "text-amber-400", bg: "bg-amber-400/10" },
-                  { icon: FileText, title: "Prawo do przenoszenia", desc: "Prawo do otrzymania danych w ustrukturyzowanym formacie i przeniesienia ich do innego administratora (art. 20 RODO).", color: "text-purple-400", bg: "bg-purple-400/10" },
-                  { icon: Shield, title: "Prawo do sprzeciwu", desc: "Prawo do sprzeciwu wobec przetwarzania danych opartego na prawnie uzasadnionym interesie Administratora (art. 21 RODO).", color: "text-pink-400", bg: "bg-pink-400/10" },
+                  { icon: Eye, title: "Prawo dostępu", desc: "Prawo do uzyskania informacji o przetwarzanych danych oraz ich kopii (art. 15 RODO).", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
+                  { icon: RefreshCw, title: "Prawo do sprostowania", desc: "Prawo do żądania poprawienia nieprawidłowych lub uzupełnienia niekompletnych danych (art. 16 RODO).", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
+                  { icon: Trash2, title: "Prawo do usunięcia", desc: "Prawo do żądania usunięcia danych (\"prawo do bycia zapomnianym\") w przypadkach określonych w art. 17 RODO.", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
+                  { icon: Lock, title: "Prawo do ograniczenia", desc: "Prawo do żądania ograniczenia przetwarzania danych w przypadkach określonych w art. 18 RODO.", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
+                  { icon: FileText, title: "Prawo do przenoszenia", desc: "Prawo do otrzymania danych w ustrukturyzowanym formacie i przeniesienia ich do innego administratora (art. 20 RODO).", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
+                  { icon: Shield, title: "Prawo do sprzeciwu", desc: "Prawo do sprzeciwu wobec przetwarzania danych opartego na prawnie uzasadnionym interesie Administratora (art. 21 RODO).", color: "text-[oklch(75%_.15_27)]", bg: "bg-[oklch(55%_.22_27/0.12)]" },
                 ].map((right, idx) => (
                   <div key={idx} className="rounded-xl bg-slate-800/60 border border-white/10 p-4">
                     <div className="flex items-center gap-3 mb-2">
@@ -149,42 +149,42 @@ export default function PolitykaPrywatnosci() {
                   </div>
                 ))}
               </div>
-              <div className="mt-6 rounded-xl bg-amber-400/10 border border-amber-400/20 p-4">
+              <div className="mt-6 rounded-xl bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] p-4">
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  <span className="text-amber-400 font-semibold">Jak skorzystać z praw?</span>{" "}
+                  <span className="text-[oklch(75%_.15_27)] font-semibold">Jak skorzystać z praw?</span>{" "}
                   Wniosek w sprawie realizacji praw należy kierować na adres e-mail:{" "}
-                  <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors font-medium">
+                  <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors font-medium">
                     biuro@multicert.pl
                   </a>. Administrator rozpatrzy wniosek bez zbędnej zwłoki, nie później niż w ciągu 30 dni od jego otrzymania.
                 </p>
               </div>
               <p className="text-slate-400 text-sm mt-4 leading-relaxed">
-                W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy RODO, przysługuje Państwu prawo wniesienia skargi do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych (ul. Moniuszki 1A, 00-014 Warszawa, <a href="https://www.uodo.gov.pl" className="text-amber-400 hover:text-amber-300 transition-colors">www.uodo.gov.pl</a>).
+                W przypadku uznania, że przetwarzanie danych osobowych narusza przepisy RODO, przysługuje Państwu prawo wniesienia skargi do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych (ul. Moniuszki 1A, 00-014 Warszawa, <a href="https://www.uodo.gov.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">www.uodo.gov.pl</a>).
               </p>
             </section>
 
             {/* Section 5 — Cookies */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-orange-400/20 flex items-center justify-center text-orange-400 font-bold text-sm flex-shrink-0">5</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">5</span>
                 Pliki cookies
               </h2>
               <p className="text-slate-300 leading-relaxed mb-6">
                 Portal NowyCPR.pl korzysta z plików cookies (ciasteczek) — małych plików tekstowych zapisywanych na urządzeniu użytkownika. Stosujemy dwa rodzaje plików cookies:
               </p>
               <div className="space-y-4">
-                <div className="rounded-xl bg-slate-800/60 border border-emerald-400/20 p-5">
+                <div className="rounded-xl bg-slate-800/60 border border-[oklch(55%_.22_27/0.2)] p-5">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="px-2 py-0.5 rounded-full bg-emerald-400/20 text-emerald-400 text-xs font-semibold">Niezbędne</span>
+                    <span className="px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.12)] text-[oklch(75%_.15_27)] text-xs font-semibold">Niezbędne</span>
                     <span className="text-slate-500 text-xs">— nie wymagają zgody</span>
                   </div>
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Cookies niezbędne do prawidłowego funkcjonowania serwisu (np. zapamiętanie preferencji wyświetlania). Są automatycznie instalowane podczas wizyty na portalu i nie mogą zostać wyłączone bez zakłócenia działania serwisu.
                   </p>
                 </div>
-                <div className="rounded-xl bg-slate-800/60 border border-amber-400/20 p-5">
+                <div className="rounded-xl bg-slate-800/60 border border-[oklch(55%_.22_27/0.2)] p-5">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-400 text-xs font-semibold">Analityczne</span>
+                    <span className="px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.12)] text-[oklch(75%_.15_27)] text-xs font-semibold">Analityczne</span>
                     <span className="text-slate-500 text-xs">— wymagają zgody</span>
                   </div>
                   <p className="text-slate-400 text-sm leading-relaxed">
@@ -200,7 +200,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 6 — External links */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-cyan-400/20 flex items-center justify-center text-cyan-400 font-bold text-sm flex-shrink-0">6</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">6</span>
                 Odesłania do zewnętrznych serwisów
               </h2>
               <p className="text-slate-300 leading-relaxed">
@@ -211,7 +211,7 @@ export default function PolitykaPrywatnosci() {
             {/* Section 7 — Recipients */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-rose-400/20 flex items-center justify-center text-rose-400 font-bold text-sm flex-shrink-0">7</span>
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center text-[oklch(75%_.15_27)] font-bold text-sm flex-shrink-0">7</span>
                 Odbiorcy danych
               </h2>
               <p className="text-slate-300 leading-relaxed mb-4">
@@ -225,7 +225,7 @@ export default function PolitykaPrywatnosci() {
                   "Podmiotom uprawnionym do uzyskania danych na podstawie obowiązujących przepisów prawa.",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-slate-400 text-sm">
-                    <ArrowRight className="w-4 h-4 text-rose-400 flex-shrink-0 mt-0.5" />
+                    <ArrowRight className="w-4 h-4 text-[oklch(75%_.15_27)] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -236,16 +236,16 @@ export default function PolitykaPrywatnosci() {
             </section>
 
             {/* Contact for data protection */}
-            <div className="rounded-2xl border border-amber-400/20 bg-amber-400/5 p-8">
+            <div className="rounded-2xl border border-[oklch(55%_.22_27/0.2)] bg-[oklch(55%_.22_27/0.05)] p-8">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-amber-400/20 flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-5 h-5 text-amber-400" />
+                <div className="w-10 h-10 rounded-xl bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-5 h-5 text-[oklch(75%_.15_27)]" />
                 </div>
                 <div>
                   <h2 className="text-lg font-bold text-white mb-2">Kontakt w sprawach ochrony danych</h2>
                   <p className="text-slate-300 text-sm leading-relaxed">
                     We wszelkich sprawach dotyczących ochrony danych osobowych prosimy o kontakt pod adresem e-mail:{" "}
-                    <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors font-medium">
+                    <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors font-medium">
                       biuro@multicert.pl
                     </a>{" "}
                     lub pisemnie na adres siedziby Administratora: ul. Mydlarska 47, 04-690 Warszawa.

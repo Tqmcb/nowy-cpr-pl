@@ -136,9 +136,9 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
             <span className="editorial-kicker" style={{ color: "oklch(20% .03 264)" }}>{post.author.split(' | ')[0]}</span>
             <p className="text-xs mt-1" style={{ color: "oklch(60% .015 264)" }}>{formatDate(post.published_at)}</p>
           </div>
-          <div className="editorial-kicker flex items-center gap-1 group-hover:gap-2 transition-all" style={{ color: "oklch(55% .22 27)" }}>
+          <div className="editorial-kicker inline-flex items-center gap-2 group-hover:gap-2 transition-all whitespace-nowrap" style={{ color: "oklch(55% .22 27)" }}>
             <span>Czytaj</span>
-            <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            <ChevronRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
           </div>
         </div>
       </div>
@@ -1060,9 +1060,9 @@ export function BlogPage() {
               <p className="text-sm leading-[1.65] mb-4" style={{ color: "oklch(42% .02 264)" }}>
                 Skontaktuj się z naszymi ekspertami CPR.
               </p>
-              <Link to="/services" className="editorial-kicker flex items-center gap-2 transition-all hover:gap-3" style={{ color: "oklch(20% .03 264)" }}>
+              <Link to="/services" className="editorial-kicker inline-flex items-center gap-2 transition-all hover:gap-3 whitespace-nowrap" style={{ color: "oklch(20% .03 264)" }}>
                 Skontaktuj się
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 shrink-0" />
               </Link>
             </div>
           </div>

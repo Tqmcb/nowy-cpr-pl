@@ -13,7 +13,7 @@ const sections = [
       <div className="space-y-3 text-slate-300 text-sm leading-relaxed">
         <p>
           1. Portal internetowy NowyCPR.pl (dalej: „Portal" lub „Serwis"), dostępny pod adresem{" "}
-          <a href="https://www.nowycpr.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+          <a href="https://www.nowycpr.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
             www.nowycpr.pl
           </a>
           , jest prowadzony przez <span className="text-white font-medium">Multicert Sp. z o.o.</span> z siedzibą
@@ -111,7 +111,7 @@ const sections = [
             "cytowanie nie może naruszać normalnego korzystania z Serwisu ani godzić w interesy Wydawcy."
           ].map((item, idx) => (
             <li key={idx} className="flex items-start gap-2">
-              <ArrowRight className="w-3.5 h-3.5 text-purple-400 flex-shrink-0 mt-0.5" />
+              <ArrowRight className="w-3.5 h-3.5 text-[oklch(75%_.15_27)] flex-shrink-0 mt-0.5" />
               <span>{item}</span>
             </li>
           ))}
@@ -194,14 +194,14 @@ const sections = [
           3. Użytkownik może zrezygnować z subskrypcji newslettera w dowolnym momencie,
           klikając link „Wypisz się" zawarty w każdej wiadomości lub kontaktując się
           z Wydawcą pod adresem{" "}
-          <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+          <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
             biuro@multicert.pl
           </a>.
         </p>
         <p>
           4. Szczegółowe zasady przetwarzania danych subskrybentów newslettera określa
           Polityka Prywatności dostępna pod adresem{" "}
-          <a href="/polityka-prywatnosci" className="text-amber-400 hover:text-amber-300 transition-colors">
+          <a href="/polityka-prywatnosci" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
             /polityka-prywatnosci
           </a>.
         </p>
@@ -269,9 +269,9 @@ export default function Regulamin() {
         <Container>
           {/* Page header */}
           <div className="max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
-              <FileText className="w-4 h-4 text-amber-400" />
-              <span className="text-amber-400 text-sm font-medium">Zasady korzystania z serwisu</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] mb-6">
+              <FileText className="w-4 h-4 text-[oklch(75%_.15_27)]" />
+              <span className="text-[oklch(75%_.15_27)] text-sm font-medium">Zasady korzystania z serwisu</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">Regulamin serwisu NowyCPR.pl</h1>
             <p className="text-slate-400">
@@ -281,7 +281,7 @@ export default function Regulamin() {
 
           {/* Intro notice */}
           <div className="max-w-3xl mx-auto mb-10">
-            <div className="rounded-2xl border border-amber-400/20 bg-amber-400/5 p-6">
+            <div className="rounded-2xl border border-[oklch(55%_.22_27/0.2)] bg-[oklch(55%_.22_27/0.05)] p-6">
               <p className="text-slate-300 text-sm leading-relaxed">
                 Niniejszy Regulamin określa zasady korzystania z portalu informacyjnego NowyCPR.pl,
                 prowadzonego przez Multicert Sp. z o.o. Przed skorzystaniem z Serwisu prosimy
@@ -307,7 +307,7 @@ export default function Regulamin() {
             {/* Footer note */}
             <p className="text-slate-500 text-sm text-center pt-4">
               Wydawca: Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa &bull;{" "}
-              <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+              <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                 biuro@multicert.pl
               </a>
             </p>

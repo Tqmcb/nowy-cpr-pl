@@ -352,9 +352,9 @@ function HomePage() {
                   className="flex-shrink-0 bg-white font-semibold px-8 py-6 transition-all hover:bg-slate-100"
                   style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}
                 >
-                  <Link to="/wyszukiwarka">
-                    Rozpocznij teraz
-                    <ArrowRight className="w-5 h-5 ml-2" />
+                  <Link to="/wyszukiwarka" className="inline-flex items-center gap-2 whitespace-nowrap">
+                    <span>Rozpocznij teraz</span>
+                    <ArrowRight className="w-5 h-5 shrink-0" />
                   </Link>
                 </Button>
               </div>
@@ -428,9 +428,9 @@ function HomePage() {
                     <p className="text-base leading-[1.6] mb-6" style={{ color: "oklch(42% .02 264)" }}>
                       {feature.description}
                     </p>
-                    <div className="editorial-kicker flex items-center group-hover:gap-3 transition-all" style={{ color: "oklch(55% .22 27)" }}>
+                    <div className="editorial-kicker inline-flex items-center gap-2 group-hover:gap-3 transition-all whitespace-nowrap" style={{ color: "oklch(55% .22 27)" }}>
                       <span>Dowiedz się więcej</span>
-                      <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                      <ChevronRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </Link>
                 ))}
@@ -456,9 +456,9 @@ function HomePage() {
                   Najnowsze<br/>
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>artykuły</span>
                 </h2>
-                <Link to="/blog" className="editorial-kicker flex items-center gap-2 pb-3 transition-colors hover:opacity-70" style={{ color: "oklch(20% .03 264)" }}>
+                <Link to="/blog" className="editorial-kicker inline-flex items-center gap-2 pb-3 transition-colors hover:opacity-70 whitespace-nowrap" style={{ color: "oklch(20% .03 264)" }}>
                   Zobacz wszystkie
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4 shrink-0" />
                 </Link>
               </div>
 
@@ -522,9 +522,9 @@ function HomePage() {
                         <p className="text-sm leading-[1.65] line-clamp-3 mb-6" style={{ color: "oklch(42% .02 264)" }}>
                           {post.excerpt}
                         </p>
-                        <div className="editorial-kicker flex items-center group-hover:gap-3 transition-all" style={{ color: "oklch(20% .03 264)" }}>
+                        <div className="editorial-kicker inline-flex items-center gap-2 group-hover:gap-3 transition-all whitespace-nowrap" style={{ color: "oklch(20% .03 264)" }}>
                           <span>Czytaj więcej</span>
-                          <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                          <ChevronRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </div>
                     </Link>

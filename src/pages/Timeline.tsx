@@ -206,9 +206,9 @@ const PHASE_CONFIG: Record<TimelinePhase, { label: string; color: string; bgColo
   },
   przyszlosc: {
     label: "Nadchodzi",
-    color: "text-sky-400",
-    bgColor: "bg-sky-400/10",
-    borderColor: "border-sky-400/30",
+    color: "text-[oklch(20%_.03_264)]",
+    bgColor: "bg-[oklch(20%_.03_264/0.08)]",
+    borderColor: "border-[oklch(20%_.03_264/0.18)]",
   },
 };
 

@@ -169,7 +169,7 @@ const LIGHT_COMPONENTS: Components = {
     <h2 className="text-2xl font-semibold text-slate-800 mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>
   ),
   h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-blue-700 mt-6 mb-3">{children}</h3>
+    <h3 className="text-lg font-semibold text-[oklch(55%_.22_27)] mt-6 mb-3">{children}</h3>
   ),
   p: ({ children }) => (
     <p className="text-slate-600 leading-relaxed my-4 text-[15px]">{children}</p>
@@ -179,7 +179,7 @@ const LIGHT_COMPONENTS: Components = {
   ),
   em: ({ children }) => <em className="text-slate-500 italic">{children}</em>,
   a: ({ children, href }) => (
-    <a href={href} className="text-blue-600 hover:text-blue-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
+    <a href={href} className="text-[oklch(55%_.22_27)] hover:text-[#1a3d6b] underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   ),
@@ -188,27 +188,27 @@ const LIGHT_COMPONENTS: Components = {
   li: ({ children, ordered, index }) => (
     <li className="flex items-start gap-3 text-slate-600 text-[15px]">
       {ordered ? (
-        <span className="text-blue-600 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
+        <span className="text-[oklch(55%_.22_27)] font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
           {(index ?? 0) + 1}.
         </span>
       ) : (
-        <span className="text-blue-500 mt-1 shrink-0">✓</span>
+        <span className="text-[oklch(55%_.22_27)] mt-1 shrink-0">✓</span>
       )}
       <span>{children}</span>
     </li>
   ),
   blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-blue-500 bg-blue-50 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-blue-800 italic text-[15px]">{children}</div>
+    <blockquote className="border-l-4 border-[oklch(55%_.22_27/0.5)] bg-[oklch(55%_.22_27/0.05)] pl-5 py-3 my-5 rounded-r-lg">
+      <div className="text-[oklch(20%_.03_264)] italic text-[15px]">{children}</div>
     </blockquote>
   ),
   hr: () => <hr className="border-slate-200 my-8" />,
   code: ({ children, className }) => {
     if (className) {
-      return <code className={`${className} text-blue-700 text-sm font-mono`}>{children}</code>;
+      return <code className={`${className} text-[oklch(55%_.22_27)] text-sm font-mono`}>{children}</code>;
     }
     return (
-      <code className="bg-slate-100 text-blue-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">
+      <code className="bg-slate-100 text-[oklch(55%_.22_27)] px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">
         {children}
       </code>
     );
@@ -223,9 +223,9 @@ const LIGHT_COMPONENTS: Components = {
       <table className="w-full border-collapse text-sm">{children}</table>
     </div>
   ),
-  thead: ({ children }) => <thead className="bg-blue-600">{children}</thead>,
+  thead: ({ children }) => <thead className="bg-[oklch(20%_.03_264)]">{children}</thead>,
   tbody: ({ children }) => <tbody className="divide-y divide-slate-100">{children}</tbody>,
-  tr: ({ children }) => <tr className="hover:bg-blue-50 transition-colors even:bg-slate-50/60">{children}</tr>,
+  tr: ({ children }) => <tr className="hover:bg-[oklch(55%_.22_27/0.04)] transition-colors even:bg-slate-50/60">{children}</tr>,
   th: ({ children }) => (
     <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
       {children}
@@ -234,169 +234,10 @@ const LIGHT_COMPONENTS: Components = {
   td: ({ children }) => <td className="text-slate-700 px-4 py-3 text-[13px]">{children}</td>,
 };
 
-const EMERALD_COMPONENTS: Components = {
-  ...DARK_COMPONENTS,
-  h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-emerald-200">{children}</h2>
-  ),
-  h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-emerald-700 mt-6 mb-3">{children}</h3>
-  ),
-  li: ({ children, ordered, index }) => (
-    <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
-      {ordered ? (
-        <span className="text-emerald-700 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
-          {(index ?? 0) + 1}.
-        </span>
-      ) : (
-        <span className="text-emerald-600 mt-2 shrink-0 text-xs">▪</span>
-      )}
-      <span>{children}</span>
-    </li>
-  ),
-  a: ({ children, href }) => (
-    <a href={href} className="text-emerald-700 hover:text-emerald-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
-      {children}
-    </a>
-  ),
-  blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-emerald-500/60 bg-emerald-50 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-emerald-800 italic text-[15px]">{children}</div>
-    </blockquote>
-  ),
-  th: ({ children }) => (
-    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
-      {children}
-    </th>
-  ),
-  code: ({ children, className }) => {
-    if (className) return <code className={`${className} text-emerald-700 text-sm font-mono`}>{children}</code>;
-    return <code className="bg-slate-100 text-emerald-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
-  },
-};
-
-const ORANGE_COMPONENTS: Components = {
-  ...DARK_COMPONENTS,
-  h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-orange-200">{children}</h2>
-  ),
-  h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-orange-700 mt-6 mb-3">{children}</h3>
-  ),
-  li: ({ children, ordered, index }) => (
-    <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
-      {ordered ? (
-        <span className="text-orange-700 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
-          {(index ?? 0) + 1}.
-        </span>
-      ) : (
-        <span className="text-orange-600 mt-2 shrink-0 text-xs">▪</span>
-      )}
-      <span>{children}</span>
-    </li>
-  ),
-  a: ({ children, href }) => (
-    <a href={href} className="text-orange-700 hover:text-orange-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
-      {children}
-    </a>
-  ),
-  blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-orange-400/60 bg-orange-50 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-orange-800 italic text-[15px]">{children}</div>
-    </blockquote>
-  ),
-  th: ({ children }) => (
-    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
-      {children}
-    </th>
-  ),
-  code: ({ children, className }) => {
-    if (className) return <code className={`${className} text-orange-700 text-sm font-mono`}>{children}</code>;
-    return <code className="bg-slate-100 text-orange-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
-  },
-};
-
-const ROSE_COMPONENTS: Components = {
-  ...DARK_COMPONENTS,
-  h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-rose-200">{children}</h2>
-  ),
-  h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-rose-700 mt-6 mb-3">{children}</h3>
-  ),
-  li: ({ children, ordered, index }) => (
-    <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
-      {ordered ? (
-        <span className="text-rose-700 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
-          {(index ?? 0) + 1}.
-        </span>
-      ) : (
-        <span className="text-rose-600 mt-2 shrink-0 text-xs">▪</span>
-      )}
-      <span>{children}</span>
-    </li>
-  ),
-  a: ({ children, href }) => (
-    <a href={href} className="text-rose-700 hover:text-rose-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
-      {children}
-    </a>
-  ),
-  blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-rose-400/60 bg-rose-50 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-rose-800 italic text-[15px]">{children}</div>
-    </blockquote>
-  ),
-  th: ({ children }) => (
-    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
-      {children}
-    </th>
-  ),
-  code: ({ children, className }) => {
-    if (className) return <code className={`${className} text-rose-700 text-sm font-mono`}>{children}</code>;
-    return <code className="bg-slate-100 text-rose-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
-  },
-};
-
-const TEAL_COMPONENTS: Components = {
-  ...DARK_COMPONENTS,
-  h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-[oklch(20% .03 264)] mt-8 mb-4 pb-2 border-b border-teal-200">{children}</h2>
-  ),
-  h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-teal-700 mt-6 mb-3">{children}</h3>
-  ),
-  li: ({ children, ordered, index }) => (
-    <li className="flex items-start gap-2.5 text-slate-700 text-[15px]">
-      {ordered ? (
-        <span className="text-teal-700 font-bold mt-0.5 min-w-[1.4rem] text-sm shrink-0">
-          {(index ?? 0) + 1}.
-        </span>
-      ) : (
-        <span className="text-teal-600 mt-2 shrink-0 text-xs">▪</span>
-      )}
-      <span>{children}</span>
-    </li>
-  ),
-  a: ({ children, href }) => (
-    <a href={href} className="text-teal-700 hover:text-teal-800 underline underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">
-      {children}
-    </a>
-  ),
-  blockquote: ({ children }) => (
-    <blockquote className="border-l-4 border-teal-400/60 bg-teal-50 pl-5 py-3 my-5 rounded-r-lg">
-      <div className="text-teal-800 italic text-[15px]">{children}</div>
-    </blockquote>
-  ),
-  th: ({ children }) => (
-    <th className="text-white font-semibold text-left px-4 py-3 text-xs uppercase tracking-widest whitespace-nowrap">
-      {children}
-    </th>
-  ),
-  code: ({ children, className }) => {
-    if (className) return <code className={`${className} text-teal-700 text-sm font-mono`}>{children}</code>;
-    return <code className="bg-slate-100 text-teal-700 px-1.5 py-0.5 rounded text-[13px] font-mono border border-slate-200">{children}</code>;
-  },
-};
+const EMERALD_COMPONENTS: Components = DARK_COMPONENTS;
+const ORANGE_COMPONENTS: Components = DARK_COMPONENTS;
+const ROSE_COMPONENTS: Components = DARK_COMPONENTS;
+const TEAL_COMPONENTS: Components = DARK_COMPONENTS;
 
 // ────────────────────────────────────────────────────────────────────────────
 // SHARED SIDEBAR CARDS
@@ -502,7 +343,8 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           onClick={() => navigate("/services")}
           className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
         >
-          Kontakt <ChevronRight className="w-4 h-4" />
+          <span>Kontakt</span>
+          <ChevronRight className="w-4 h-4 shrink-0" />
         </button>
       </div>
       <MulticertBoxDark />
@@ -547,7 +389,7 @@ function MulticertBoxLight() {
   return (
     <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5">
       <h4 className="text-slate-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-        <Shield className="w-3.5 h-3.5 text-blue-600" /> Wydawca
+        <Shield className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" /> Wydawca
       </h4>
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
@@ -555,7 +397,7 @@ function MulticertBoxLight() {
           Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
         </p>
         <div className="flex items-center gap-2 mt-2">
-          <span className="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200 font-mono">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] border border-[oklch(55%_.22_27/0.2)] font-mono">
             PCA nr AC 210
           </span>
         </div>
@@ -563,7 +405,7 @@ function MulticertBoxLight() {
           href="https://www.multicert.com.pl"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-xs text-blue-600 hover:text-blue-700 transition-colors mt-2"
+          className="flex items-center gap-1.5 text-xs text-[oklch(55%_.22_27)] hover:text-[#1a3d6b] transition-colors mt-2"
         >
           <ExternalLink className="w-3 h-3" /> www.multicert.com.pl
         </a>
@@ -814,9 +656,9 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
           post={post}
           navigate={navigate}
           config={{
-            badgeClasses: "bg-emerald-100 border border-emerald-300 text-emerald-700",
-            iconAccentClass: "text-emerald-700",
-            buttonHoverClass: "hover:text-emerald-700",
+            badgeClasses: "bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.25)] text-[oklch(55%_.22_27)]",
+            iconAccentClass: "text-[oklch(55%_.22_27)]",
+            buttonHoverClass: "hover:text-[oklch(55%_.22_27)]",
             badgeLabel: "Analiza",
             BadgeIcon: BarChart2,
           }}
@@ -836,26 +678,26 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
                     <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <User className="w-3.5 h-3.5 text-emerald-700" />
+                      <User className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" />
                       <AuthorLink authorField={post.author} />
                     </dd>
                   </div>
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Opublikowano</dt>
                     <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <Calendar className="w-3.5 h-3.5 text-emerald-700" />{formatDate(post.published_at)}
+                      <Calendar className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" />{formatDate(post.published_at)}
                     </dd>
                   </div>
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Czas czytania</dt>
                     <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <Clock className="w-3.5 h-3.5 text-emerald-700" />ok. {readingTime(post.content)} min
+                      <Clock className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" />ok. {readingTime(post.content)} min
                     </dd>
                   </div>
                   {post.reviewed && (
                     <div>
                       <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Zweryfikowano</dt>
-                      <dd className="text-sm flex items-center gap-2 text-emerald-700 font-medium">
+                      <dd className="text-sm flex items-center gap-2 text-[oklch(55%_.22_27)] font-medium">
                         <CheckSquare className="w-3.5 h-3.5 shrink-0" />
                         {formatDate(post.reviewed)}
                       </dd>
@@ -866,11 +708,11 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               {post.tags && post.tags.length > 0 && (
                 <div className="bg-white border border-slate-200 rounded-2xl p-5">
                   <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <Tag className="w-3.5 h-3.5 text-emerald-700" /> Tagi
+                    <Tag className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" /> Tagi
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {post.tags.map((tag) => (
-                      <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                      <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-[oklch(55%_.22_27/0.08)] text-[oklch(55%_.22_27)] border border-[oklch(55%_.22_27/0.18)]">
                         {tag}
                       </span>
                     ))}
@@ -880,7 +722,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               {post.sources && post.sources.length > 0 && (
                 <div className="bg-white border border-slate-200 rounded-2xl p-5">
                   <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <BookOpen className="w-3.5 h-3.5 text-emerald-700" /> Źródła
+                    <BookOpen className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" /> Źródła
                   </h4>
                   <ul className="space-y-2">
                     {post.sources.map((source, i) => {
@@ -888,7 +730,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
                       return (
                         <li key={i}>
                           <a href={url.trim()} target="_blank" rel="noopener noreferrer"
-                            className="flex items-start gap-1.5 text-xs text-emerald-700 hover:text-emerald-900 transition-colors leading-snug">
+                            className="flex items-start gap-1.5 text-xs text-[oklch(55%_.22_27)] hover:text-[#1a3d6b] transition-colors leading-snug">
                             <ExternalLink className="w-3 h-3 shrink-0 mt-0.5" />{label.trim()}
                           </a>
                         </li>
@@ -897,16 +739,16 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
                   </ul>
                 </div>
               )}
-              <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5">
+              <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold mb-2 flex items-center gap-2">
-                  <HelpCircle className="w-4 h-4 text-emerald-700" /> Potrzebujesz pomocy?
+                  <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Potrzebujesz pomocy?
                 </h4>
                 <p className="text-slate-500 text-sm mb-4">Przeprowadzimy analizę i doradzimy odpowiednie rozwiązanie.</p>
                 <button
                   onClick={() => navigate("/services")}
                   className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
                 >
-                  Kontakt <ChevronRight className="w-4 h-4" />
+                  Kontakt <ChevronRight className="w-4 h-4 shrink-0" />
                 </button>
               </div>
               <MulticertBoxDark />
@@ -933,9 +775,9 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
           post={post}
           navigate={navigate}
           config={{
-            badgeClasses: "bg-orange-100 border border-orange-300 text-orange-700",
-            iconAccentClass: "text-orange-700",
-            buttonHoverClass: "hover:text-orange-700",
+            badgeClasses: "bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.25)] text-[oklch(55%_.22_27)]",
+            iconAccentClass: "text-[oklch(55%_.22_27)]",
+            buttonHoverClass: "hover:text-[oklch(55%_.22_27)]",
             badgeLabel: "Techniczny",
             BadgeIcon: Wrench,
           }}
@@ -949,8 +791,8 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
-              <div className="bg-orange-50 border border-orange-200 rounded-2xl p-5">
-                <h4 className="text-orange-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+              <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
+                <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
                 </h4>
                 <p className="text-slate-500 text-xs leading-relaxed">
@@ -959,7 +801,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
                 {post.tags && post.tags.length > 0 && (
                   <div className="flex flex-wrap gap-1.5 mt-3">
                     {post.tags.map((tag) => (
-                      <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700 border border-orange-200">
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.08)] text-[oklch(55%_.22_27)] border border-[oklch(55%_.22_27/0.18)]">
                         {tag}
                       </span>
                     ))}
@@ -990,9 +832,9 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
           post={post}
           navigate={navigate}
           config={{
-            badgeClasses: "bg-rose-100 border border-rose-300 text-rose-700",
-            iconAccentClass: "text-rose-700",
-            buttonHoverClass: "hover:text-rose-700",
+            badgeClasses: "bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.25)] text-[oklch(55%_.22_27)]",
+            iconAccentClass: "text-[oklch(55%_.22_27)]",
+            buttonHoverClass: "hover:text-[oklch(55%_.22_27)]",
             badgeLabel: "Aktualności",
             BadgeIcon: Newspaper,
           }}
@@ -1008,8 +850,8 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
             <aside className="space-y-8">
               {/* Co musisz wiedzieć */}
               {post.excerpt && (
-                <div className="bg-rose-50 border border-rose-200 rounded-2xl p-5">
-                  <h4 className="text-rose-800 font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
+                <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
+                  <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                     <Newspaper className="w-4 h-4" /> Co musisz wiedzieć
                   </h4>
                   <p className="text-slate-700 text-sm leading-relaxed">{post.excerpt}</p>
@@ -1047,9 +889,9 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
           post={post}
           navigate={navigate}
           config={{
-            badgeClasses: "bg-teal-100 border border-teal-300 text-teal-700",
-            iconAccentClass: "text-teal-700",
-            buttonHoverClass: "hover:text-teal-700",
+            badgeClasses: "bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.25)] text-[oklch(55%_.22_27)]",
+            iconAccentClass: "text-[oklch(55%_.22_27)]",
+            buttonHoverClass: "hover:text-[oklch(55%_.22_27)]",
             badgeLabel: "Praktyczny",
             BadgeIcon: CheckSquare,
           }}
@@ -1064,14 +906,14 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
             </article>
             <aside className="space-y-8">
               {/* Lista kontrolna */}
-              <div className="bg-teal-50 border border-teal-200 rounded-2xl p-5">
-                <h4 className="text-teal-800 font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+              <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
+                <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                   <CheckSquare className="w-4 h-4" /> Lista kontrolna
                 </h4>
                 <ol className="space-y-2.5">
                   {CHECKLIST.map((item, i) => (
                     <li key={i} className="flex items-start gap-2.5">
-                      <span className="text-teal-700 font-mono text-xs font-bold mt-0.5 shrink-0">{i + 1}.</span>
+                      <span className="text-[oklch(55%_.22_27)] font-mono text-xs font-bold mt-0.5 shrink-0">{i + 1}.</span>
                       <span className="text-slate-500 text-xs leading-relaxed">{item}</span>
                     </li>
                   ))}

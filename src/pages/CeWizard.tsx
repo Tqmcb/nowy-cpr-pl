@@ -552,7 +552,7 @@ export default function CeWizard() {
                           </span>
                         )}
                         {state.companySize === "mikro" && (
-                          <span className="text-xs px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700">
+                          <span className="text-xs px-3 py-1 rounded-full bg-[oklch(55%_.22_27)]/10 border border-[oklch(55%_.22_27)]/20 text-[oklch(55%_.22_27)]">
                             Uproszczenia Art. 8
                           </span>
                         )}

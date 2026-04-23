@@ -149,8 +149,7 @@ export default function Services() {
         "Ocena systemu ZKP/FPC względem Art. 20 CPR 2024",
         "Analiza dokumentacji: obowiązująca DoP / przyszła DoP&C, plik techniczny, instrukcje",
         "Raport z mapą ryzyk i priorytetową ścieżką wdrożenia"
-      ],
-      gradient: "from-amber-400 to-orange-500"
+      ]
     },
     {
       number: "02",
@@ -162,8 +161,7 @@ export default function Services() {
         "Weryfikacja dostosowania do systemu AVS klienta",
         "Przegląd ZKP dla mikroprzedsiębiorstw (Art. 60)",
         "Wytyczne przed inspekcją jednostki notyfikowanej (NB)"
-      ],
-      gradient: "from-blue-400 to-cyan-500"
+      ]
     },
     {
       number: "03",
@@ -175,8 +173,7 @@ export default function Services() {
         "Wewnętrzny plik techniczny — Art. 22 ust. 3",
         "Instrukcja dla użytkowników profesjonalnych — Art. 9",
         "Mandat upoważnionego przedstawiciela — Art. 23"
-      ],
-      gradient: "from-emerald-400 to-green-500"
+      ]
     },
     {
       number: "04",
@@ -188,8 +185,7 @@ export default function Services() {
         "Walidacja wyników vs deklarowane właściwości w DoP&C",
         "Ocena oprogramowania własnego i zewnętrznego (BIM, CAD, kalkulatory)",
         "Raport walidacyjny do pliku technicznego"
-      ],
-      gradient: "from-purple-400 to-violet-500"
+      ]
     },
     {
       number: "05",
@@ -201,8 +197,7 @@ export default function Services() {
         "Śledzenie etapów Milestones 0–IV wg Planu Prac KE",
         "Plan działań z konkretnymi datami przejściowymi",
         "Monitoring zmian w Dzienniku Urzędowym UE (usługa ciągła)"
-      ],
-      gradient: "from-rose-400 to-pink-500"
+      ]
     },
     {
       number: "06",
@@ -214,8 +209,7 @@ export default function Services() {
         "Warsztat DoP&C — jak wypełnić, SVHC, QR kod, dostęp cyfrowy",
         "ZKP dla działu jakości i produkcji — praktyczny przegląd wymagań",
         "Cyfrowy Paszport Produktu — planowanie wdrożenia (Art. 75–80)"
-      ],
-      gradient: "from-teal-400 to-cyan-500"
+      ]
     }
   ];
 

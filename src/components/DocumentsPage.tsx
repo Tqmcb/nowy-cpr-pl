@@ -35,11 +35,11 @@ interface DocumentProps {
 const getFileIcon = (fileType: string) => {
   switch (fileType.toLowerCase()) {
     case 'pdf':
-      return <FileText className="w-6 h-6 text-red-500" />;
+      return <FileText className="w-6 h-6 text-[oklch(55%_.22_27)]" />;
     case 'docx':
-      return <File className="w-6 h-6 text-blue-500" />;
+      return <File className="w-6 h-6 text-[oklch(20%_.03_264)]" />;
     case 'xlsx':
-      return <File className="w-6 h-6 text-green-600" />;
+      return <File className="w-6 h-6 text-[oklch(20%_.03_264)]" />;
     case 'html':
       return <FileText className="w-6 h-6 text-[oklch(55% .22 27)]" />;
     default:
@@ -446,8 +446,8 @@ export function DocumentsPage() {
               </>
             ) : (
               <div className="text-center py-4">
-                <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-emerald-600" />
+                <div className="w-16 h-16 rounded-full bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 className="w-8 h-8 text-[oklch(55%_.22_27)]" />
                 </div>
                 <h3 className="text-xl font-bold text-[oklch(20% .03 264)] mb-2">Dziękujemy!</h3>
                 <p className="text-slate-600 mb-6">

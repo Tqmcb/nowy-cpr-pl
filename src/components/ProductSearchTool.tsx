@@ -249,15 +249,15 @@ export function ProductSearchTool() {
                       </ul>
                     </div>
 
-                    <div className="bg-emerald-50 p-6 rounded-[2px] border border-emerald-200">
-                      <h4 className="font-bold text-emerald-700 mb-4 flex items-center gap-2">
+                    <div className="bg-[oklch(55%_.22_27/0.05)] p-6 rounded-[2px] border border-[oklch(55%_.22_27/0.18)]">
+                      <h4 className="font-bold text-[oklch(55%_.22_27)] mb-4 flex items-center gap-2">
                         <Sparkles className="w-5 h-5" />
                         Nowości w CPR 2024
                       </h4>
                       <ul className="space-y-3">
                         {selectedCategory.requirements.cprChanges.slice(0, 3).map((change, index) => (
                           <li key={index} className="flex items-start gap-3">
-                            <ArrowRight className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                            <ArrowRight className="w-4 h-4 text-[oklch(55%_.22_27)] mt-0.5 flex-shrink-0" />
                             <span className="text-slate-700 text-sm">{change}</span>
                           </li>
                         ))}
@@ -283,7 +283,7 @@ export function ProductSearchTool() {
                           <div>
                             <p className="font-medium text-[oklch(20%_.03_264)]">{test}</p>
                             {test.includes("nowe") && (
-                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
+                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-[oklch(55%_.22_27/0.08)] text-[oklch(55%_.22_27)] text-xs">
                                 <Sparkles className="w-3 h-3" />
                                 Nowy wymóg CPR 2024
                               </span>
@@ -310,7 +310,7 @@ export function ProductSearchTool() {
                           <div>
                             <p className="font-medium text-[oklch(20%_.03_264)]">{doc}</p>
                             {doc.includes("nowy") && (
-                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-emerald-100 text-emerald-700 text-xs">
+                              <span className="inline-flex items-center gap-1 mt-2 px-2 py-1 rounded bg-[oklch(55%_.22_27/0.08)] text-[oklch(55%_.22_27)] text-xs">
                                 <Sparkles className="w-3 h-3" />
                                 Nowy wymóg CPR 2024
                               </span>
@@ -342,9 +342,9 @@ export function ProductSearchTool() {
                   </p>
                   <ul className="space-y-4">
                     {selectedCategory.requirements.cprChanges.map((change, index) => (
-                      <li key={index} className="bg-emerald-50 p-4 rounded-[2px] border border-emerald-200">
+                      <li key={index} className="bg-[oklch(55%_.22_27/0.05)] p-4 rounded-[2px] border border-[oklch(55%_.22_27/0.18)]">
                         <div className="flex items-start gap-4">
-                          <div className="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center text-sm font-bold text-emerald-700">
+                          <div className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center text-sm font-bold text-[oklch(55%_.22_27)]">
                             {index + 1}
                           </div>
                           <p className="font-medium text-slate-700">{change}</p>
@@ -464,7 +464,7 @@ export function ProductSearchTool() {
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-4">
                       <div className={`w-16 flex-shrink-0 text-sm font-bold flex items-center gap-2 ${item.active || item.done ? 'text-[oklch(55%_.22_27)]' : 'text-slate-400'}`}>
-                        {item.done && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
+                        {item.done && <CheckCircle2 className="w-4 h-4 text-[oklch(55%_.22_27)]" />}
                         {item.year}
                       </div>
                       <div className="flex-1">
@@ -475,10 +475,10 @@ export function ProductSearchTool() {
                   ))}
                 </div>
 
-                <div className="mt-8 p-4 rounded-[2px] bg-amber-50 border border-amber-200">
+                <div className="mt-8 p-4 rounded-[2px] bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.18)]">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                    <p className="text-amber-800 text-sm font-medium">
+                    <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)] flex-shrink-0 mt-0.5" />
+                    <p className="text-[oklch(20%_.03_264)] text-sm font-medium">
                       Działaj już teraz, nie czekaj na ostatni moment! Proces dostosowania do CPR (EU) 2024/3110 może być długotrwały.
                     </p>
                   </div>
@@ -542,16 +542,16 @@ export function ProductSearchTool() {
                   href="https://www.gunb.gov.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-[oklch(55%_.22_27/0.3)] hover:bg-[oklch(55%_.22_27/0.04)] transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-sky-100 flex items-center justify-center shrink-0 mt-0.5">
-                    <Shield className="w-4 h-4 text-sky-600" />
+                  <div className="w-9 h-9 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center shrink-0 mt-0.5">
+                    <Shield className="w-4 h-4 text-[oklch(55%_.22_27)]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">GUNB</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-700 font-medium">Organ nadzoru rynku</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-sky-600 transition-colors ml-auto shrink-0" />
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] font-medium">Organ nadzoru rynku</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
                       Główny Urząd Nadzoru Budowlanego — organ odpowiedzialny za nadzór rynku wyrobów budowlanych w Polsce. Rejestr wyrobów, decyzje, kontrole.
@@ -586,16 +586,16 @@ export function ProductSearchTool() {
                   href="https://ocenytechniczne.pl/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-all duration-300 group"
+                  className="flex items-start gap-4 p-5 rounded-[2px] bg-white border border-slate-200 hover:border-[oklch(55%_.22_27/0.3)] hover:bg-[oklch(55%_.22_27/0.04)] transition-all duration-300 group"
                 >
-                  <div className="w-9 h-9 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0 mt-0.5">
-                    <Building2 className="w-4 h-4 text-emerald-600" />
+                  <div className="w-9 h-9 rounded-lg bg-[oklch(55%_.22_27/0.1)] flex items-center justify-center shrink-0 mt-0.5">
+                    <Building2 className="w-4 h-4 text-[oklch(55%_.22_27)]" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-[oklch(20%_.03_264)] font-semibold text-sm">ocenytechniczne.pl</span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-medium">EOT / ETA</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 transition-colors ml-auto shrink-0" />
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] font-medium">EOT / ETA</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
                       Multicert — Europejskie Oceny Techniczne (EOT) dla wyrobów budowlanych nieobj­ętych normami zharmonizowanymi. Pełen zakres usług: ocena zgodności, badania, ekspertyzy.

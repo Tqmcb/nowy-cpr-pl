@@ -16,9 +16,9 @@ export default function Dostepnosc() {
         <Container>
           {/* Page header */}
           <div className="max-w-3xl mx-auto mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-400/10 border border-amber-400/20 mb-6">
-              <Accessibility className="w-4 h-4 text-amber-400" />
-              <span className="text-amber-400 text-sm font-medium">Dostępność cyfrowa</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] mb-6">
+              <Accessibility className="w-4 h-4 text-[oklch(75%_.15_27)]" />
+              <span className="text-[oklch(75%_.15_27)] text-sm font-medium">Dostępność cyfrowa</span>
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Deklaracja dostępności
@@ -40,7 +40,7 @@ export default function Dostepnosc() {
               <p className="text-slate-300 leading-relaxed">
                 Niniejsza deklaracja dostępności dotyczy serwisu internetowego dostępnego
                 pod adresem{" "}
-                <a href="https://www.nowycpr.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+                <a href="https://www.nowycpr.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                   www.nowycpr.pl
                 </a>.
               </p>
@@ -49,8 +49,8 @@ export default function Dostepnosc() {
             {/* Status */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-green-400/20 flex items-center justify-center">
-                  <CheckCircle className="w-4 h-4 text-green-400" />
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center">
+                  <CheckCircle className="w-4 h-4 text-[oklch(75%_.15_27)]" />
                 </span>
                 Status dostępności
               </h2>
@@ -66,8 +66,8 @@ export default function Dostepnosc() {
             {/* Compliances */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-blue-400/20 flex items-center justify-center">
-                  <CheckCircle className="w-4 h-4 text-blue-400" />
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center">
+                  <CheckCircle className="w-4 h-4 text-[oklch(75%_.15_27)]" />
                 </span>
                 Dostępne elementy
               </h2>
@@ -83,7 +83,7 @@ export default function Dostepnosc() {
                   "Język strony jest zadeklarowany w znaczniku HTML (lang=\"pl\")",
                 ].map((item) => (
                   <li key={item} className="flex gap-3">
-                    <CheckCircle className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-[oklch(75%_.15_27)] mt-0.5 flex-shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -91,10 +91,10 @@ export default function Dostepnosc() {
             </section>
 
             {/* Known issues */}
-            <section className="rounded-2xl border border-amber-400/20 bg-amber-400/5 p-8">
+            <section className="rounded-2xl border border-[oklch(55%_.22_27/0.2)] bg-[oklch(55%_.22_27/0.05)] p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-amber-400/20 flex items-center justify-center">
-                  <AlertCircle className="w-4 h-4 text-amber-400" />
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center">
+                  <AlertCircle className="w-4 h-4 text-[oklch(75%_.15_27)]" />
                 </span>
                 Znane ograniczenia
               </h2>
@@ -104,7 +104,7 @@ export default function Dostepnosc() {
                   "Wbudowane infografiki mogą nie być w pełni opisane tekstem alternatywnym.",
                 ].map((item) => (
                   <li key={item} className="flex gap-3">
-                    <AlertCircle className="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" />
+                    <AlertCircle className="w-4 h-4 text-[oklch(75%_.15_27)] mt-0.5 flex-shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -114,8 +114,8 @@ export default function Dostepnosc() {
             {/* Feedback */}
             <section className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-amber-400/20 flex items-center justify-center">
-                  <Mail className="w-4 h-4 text-amber-400" />
+                <span className="w-8 h-8 rounded-lg bg-[oklch(55%_.22_27/0.12)] flex items-center justify-center">
+                  <Mail className="w-4 h-4 text-[oklch(75%_.15_27)]" />
                 </span>
                 Zgłaszanie problemów z dostępnością
               </h2>
@@ -128,7 +128,7 @@ export default function Dostepnosc() {
                 <p className="text-slate-400">ul. Mydlarska 47, 04-690 Warszawa</p>
                 <p className="text-slate-400">
                   E-mail:{" "}
-                  <a href="mailto:biuro@multicert.pl" className="text-amber-400 hover:text-amber-300 transition-colors">
+                  <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                     biuro@multicert.pl
                   </a>
                 </p>

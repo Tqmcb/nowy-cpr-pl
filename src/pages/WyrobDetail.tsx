@@ -289,7 +289,7 @@ export default function WyrobDetail() {
                     {/* ── Credibility bar ── */}
                     <div className="flex flex-wrap items-center gap-3 mt-5 pt-5 border-t border-slate-200">
                       {wyrob.date && (
-                        <div className="flex items-center gap-1.5 text-sm bg-emerald-50 border border-emerald-200 text-emerald-800 px-3 py-1.5 rounded-full">
+                        <div className="flex items-center gap-1.5 text-sm bg-[oklch(55%_.22_27/0.08)] border border-[oklch(55%_.22_27/0.18)] text-[oklch(55%_.22_27)] px-3 py-1.5 rounded-full">
                           <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
                           <span className="font-medium">Zweryfikowano: {formatVerifiedDate(wyrob.date)}</span>
                         </div>
@@ -317,15 +317,15 @@ export default function WyrobDetail() {
                   </div>
 
                   {/* ── Disclaimer ── */}
-                  <div className="mt-10 p-5 rounded-2xl bg-amber-50 border border-amber-200">
-                    <p className="text-amber-800 text-sm leading-relaxed">
+                  <div className="mt-10 p-5 rounded-2xl bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.18)]">
+                    <p className="text-[oklch(20%_.03_264)] text-sm leading-relaxed">
                       <strong>Zastrzeżenie:</strong> Treść tej karty ma charakter informacyjny i edukacyjny — nie stanowi porady technicznej ani prawnej.
                       W przypadku wątpliwości interpretacyjnych wiążący jest tekst rozporządzenia opublikowany w{" "}
                       <a
                         href="https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="underline font-medium text-amber-900 hover:text-amber-700"
+                        className="underline font-medium text-[oklch(55%_.22_27)] hover:text-[#1a3d6b]"
                       >
                         Dzienniku Urzędowym UE
                       </a>
@@ -363,10 +363,10 @@ export default function WyrobDetail() {
                       {wyrob.date && (
                         <div className="pt-3 border-t border-slate-100">
                           <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1.5 flex items-center gap-1">
-                            <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                            <CheckCircle2 className="w-3 h-3 text-[oklch(55%_.22_27)]" />
                             Ostatnia weryfikacja
                           </dt>
-                          <dd className="text-emerald-700 font-semibold text-sm">{formatVerifiedDate(wyrob.date)}</dd>
+                          <dd className="text-[oklch(55%_.22_27)] font-semibold text-sm">{formatVerifiedDate(wyrob.date)}</dd>
                           <dd className="text-slate-500 text-xs mt-0.5">Dział Techniczny Multicert Sp. z o.o.</dd>
                         </div>
                       )}
@@ -481,7 +481,7 @@ export default function WyrobDetail() {
                   {/* ── Help ── */}
                   <div className="bg-[oklch(20% .03 264)] rounded-2xl p-6">
                     <h3 className="text-white font-semibold text-base mb-2 flex items-center gap-2">
-                      <HelpCircle className="w-5 h-5 text-amber-300" />
+                      <HelpCircle className="w-5 h-5 text-[oklch(75%_.15_27)]" />
                       Potrzebujesz pomocy?
                     </h3>
                     <p className="text-slate-300 text-sm mb-4 leading-relaxed">
@@ -491,8 +491,8 @@ export default function WyrobDetail() {
                       onClick={() => navigate("/services")}
                       className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-white text-[oklch(20% .03 264)] font-semibold rounded-xl hover:bg-slate-100 transition-colors text-sm"
                     >
-                      Skontaktuj się z nami
-                      <ChevronRight className="w-4 h-4" />
+                      <span>Skontaktuj się z nami</span>
+                      <ChevronRight className="w-4 h-4 shrink-0" />
                     </button>
                   </div>
                 </aside>
