@@ -1,5 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="3" fill="#ffffff"/>
-  <rect x="0" y="0" width="12" height="3" fill="#b63d1a"/>
-  <text x="16" y="24" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="600" font-size="22" text-anchor="middle" fill="#1f2a3d">N</text>
+  <rect width="32" height="32" rx="7" fill="#14243a"/>
+  <rect x="0" y="0" width="15" height="3" rx="1.5" fill="#bf4d2d"/>
+  <text
+    x="14.5"
+    y="23.5"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="700"
+    font-size="22"
+    text-anchor="middle"
+    fill="#f7f3ec"
+  >
+    N
+  </text>
+  <circle cx="24.5" cy="22.5" r="3.2" fill="#bf4d2d"/>
 </svg>
