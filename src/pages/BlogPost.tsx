@@ -405,7 +405,7 @@ const TEAL_COMPONENTS: Components = {
 function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (path: string) => void }) {
   return (
     <>
-      <div className="sticky top-24 pt-6" style={{ borderTop: "3px solid oklch(55% .22 27)" }}>
+      <div className="pt-6" style={{ borderTop: "3px solid oklch(55% .22 27)" }}>
         <h4 className="editorial-kicker mb-5" style={{ color: "oklch(55% .22 27)" }}>Informacje</h4>
         <dl className="space-y-5">
           <div>
