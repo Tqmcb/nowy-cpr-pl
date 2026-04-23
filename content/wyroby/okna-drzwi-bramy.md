@@ -31,6 +31,8 @@ Rodzina obejmuje: okna i drzwi zewnętrzne (w tym balkonowe i tarasowe), okna i 
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcji bezpieczeństwa danego wyrobu:
 
 **System AVS 1** obowiązuje dla drzwi, okien, bram i żaluzji z charakterystyką odporności ogniowej lub dymoszczelności (norma EN 16034 w połączeniu z EN 14351-1, EN 14351-2 lub EN 13241). W systemie AVS 1 jednostka notyfikowana przeprowadza wstępne badanie ITT, certyfikuje zakładową kontrolę produkcji FPC oraz wydaje certyfikat stałości właściwości użytkowych (CoCP). Nadzór nad FPC jest ciągły (audyty roczne).
@@ -58,19 +60,19 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C i cyfryzacja**: Zmiana nazwy z Deklaracji Właściwości Użytkowych (DoP) na Deklarację Właściwości Użytkowych i Zgodności (DoP&C) oznacza konieczność aktualizacji wszystkich dotychczasowych dokumentów. DoP&C musi być dostępna w formie cyfrowej (QR kod na wyrobie lub opakowaniu prowadzący do dokumentu online).
+**DoP → DoP&C i cyfryzacja**: Docelowo DoP&C zastąpi DoP dla tej rodziny wyrobów po publikacji odpowiedniej hTS. Do tego momentu producenci co do zasady posługują się dotychczasową DoP. Już teraz warto przygotować wzór przyszłego DoP&C oraz sposób jego cyfrowego udostępniania (np. link lub kod QR prowadzący do dokumentu online).
 
 **Właściwości środowiskowe ram**: CPR 2024 wprowadza obowiązek uwzględnienia właściwości środowiskowych w DoP&C. W kontekście okien i drzwi oznacza to konieczność gromadzenia danych dotyczących: zawartości surowców wtórnych w profilach PVC (rePVC), śladu węglowego profili aluminiowych (aluminium pierwotne vs. wtórne emituje kilkukrotnie mniej CO₂), trwałości drewna (certyfikat FSC/PEFC) oraz możliwości recyklingu po zakończeniu eksploatacji. Od roku 2027 oczekuje się wprowadzenia obowiązkowego deklarowania GWP dla ram okiennych.
 
 **System 3+ dla danych środowiskowych**: Producenci, którzy chcą zwalidować dane środowiskowe (wyniki LCA) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja danych środowiskowych przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
 
-**Paszport cyfrowy wyrobu**: Każde okno i drzwi będzie musiało posiadać cyfrowy paszport wyrobu (DPP) dostępny przez kod QR lub podobny identyfikator. DPP zawiera m.in.: DoP&C, dane o składzie materiałowym, instrukcję montażu i demontażu, dane środowiskowe.
+**Paszport cyfrowy wyrobu**: DPP jest rozwiązaniem docelowym, które dla tej rodziny wyrobów będzie wdrażane etapami po publikacji odpowiednich hTS i aktów wykonawczych. W praktyce warto już teraz przygotowywać dane, które docelowo mogą trafić do DPP: DoP&C, informacje o składzie materiałowym, instrukcję montażu i demontażu oraz dane środowiskowe.
 
 ## Harmonogram wdrożenia
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Oczekiwane akty delegowane z obowiązkiem deklarowania GWP |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -78,7 +80,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 ## Przykłady wyrobów
 
-**Okna PVC trójszybowe**: Producent okien PVC z profilu 6-komorowego, szyba o Ug = 0,6 W/m²K, Uw całego okna ≈ 0,8 W/m²K. Podlega EN 14351-1, system AVS 3. Zleca ITT w laboratorium akredytowanym (badania przepuszczalności powietrza, wodoszczelności, obciążenia wiatrem). Samodzielnie prowadzi FPC, wystawia DoP&C z wartościami: Uw = 0,8 W/(m²K), klasa powietrzna 4, klasa wodoszczelna 7A, klasa wiatrowa 3.
+**Okna PVC trójszybowe**: Producent okien PVC z profilu 6-komorowego, szyba o Ug = 0,6 W/m²K, Uw całego okna ≈ 0,8 W/m²K. Podlega EN 14351-1. Na obecnym etapie stosuje wymagania wynikające z hEN i DoP, a docelowo po publikacji odpowiedniej hTS będzie przygotowywał DoP&C z wartościami: Uw = 0,8 W/(m²K), klasa powietrzna 4, klasa wodoszczelna 7A, klasa wiatrowa 3.
 
 **Drzwi ognioodporne EI 30**: Drzwi stalowe z wypełnieniem mineralnym, klasyfikowane jako EI 30 (odporność ogniowa 30 minut z integralnością i izolacyjnością). Podlega EN 16034 + EN 14351-2, system AVS 1. Wymaga certyfikatu CoCP od jednostki notyfikowanej. Badanie ogniowe przeprowadza się w akredytowanym laboratorium pożarowym.
 
@@ -91,8 +93,8 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 - [ ] Przeprowadzić badanie ITT (w akredytowanym laboratorium lub jednostce notyfikowanej) dla wszystkich badanych właściwości
 - [ ] Dla AVS 1 – zawrzeć umowę z jednostką notyfikowaną, uzyskać certyfikat CoCP
 - [ ] Opracować podręcznik FPC i wdrożyć procedury kontroli produkcji (częstotliwość badań, instrukcje pomiarowe)
-- [ ] Sporządzić DoP&C (Deklarację Właściwości Użytkowych i Zgodności) dla każdego wyrobu lub grupy wyrobów
-- [ ] Udostępnić DoP&C w formie cyfrowej – wdrożyć system QR kodów lub linków na etykietach
+- [ ] Przygotować wzór DoP&C dla każdego wyrobu lub grupy wyrobów oraz plan przejścia z DoP po publikacji odpowiedniej hTS
+- [ ] Przygotować cyfrowe udostępnianie dokumentów (linki lub kody QR), tak aby po wejściu właściwych obowiązków można było łatwo wdrożyć DoP&C
 - [ ] Zebrać dane środowiskowe od dostawców profili (PVC, aluminium, drewno) pod kątem przyszłej deklaracji GWP
 - [ ] Przygotować dokumentację techniczną do przechowywania przez minimum 10 lat
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C

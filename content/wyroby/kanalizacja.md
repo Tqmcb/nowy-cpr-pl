@@ -36,6 +36,8 @@ CPR 2024/3110 kładzie w tej rodzinie szczególny nacisk na dwa wymagania podsta
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Wyroby z rodziny 18 stosują:
 
 - **System AVS 3** – dla rur i kształtek do kanalizacji zewnętrznej (w ziemi) lub wewnętrznej o istotnym znaczeniu dla bezpieczeństwa użytkowania. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne (ITT), a producent prowadzi ZKP samodzielnie. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu** — numer JN pojawia się w oznakowaniu CE.
@@ -78,7 +80,7 @@ Tworzywa sztuczne charakteryzują się znacznym GWP (~1,5–3,0 kg CO2eq/kg dla 
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych pod CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

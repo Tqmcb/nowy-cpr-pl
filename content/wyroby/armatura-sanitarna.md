@@ -34,6 +34,8 @@ Rodzina obejmuje: miski ustępowe (WC) – podwieszane i stojące, zbiorniki sp�
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 3** stosuje się dla ceramiki sanitarnej (misy WC EN 997, umywalki EN 14688) i złożonych wyrobów akrylowych (wanny EN 14527, brodziki). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
@@ -85,7 +87,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie oszczędności wody i GWP dla armatury |
 | 9 stycznia 2031 | Wygasają EAD (dot. innowacyjnych materiałów sanitarnych) |
@@ -93,7 +95,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 ## Przykłady wyrobów
 
-**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ITCZLin](https://www.itczlin.pl)), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C. System AVS 3.
+**Miska WC podwieszana z dual-flush 3/6 l**: Ceramiczna miska WC do montażu podwieszanego, klasa spłukiwania A (EN 997), spłukiwanie 3/6 litrów, wytrzymałość siedziska ≥ 200 kg. Producent (np. Koło, Cersanit, Roca, Duravit) zleca ITT do laboratorium akredytowanego ([ITCZLin](https://www.itczlin.pl)) i uzyskuje certyfikat właściwości użytkowych i zgodności od JN. Na obecnym etapie stosuje wymagania wynikające z hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C. System AVS 3.
 
 **Wanna akrylowa 170×75 cm**: Wanna z akrylu ABS 4 mm (wzmocnienie spodnie), długość 170 cm ±10 mm, ugięcie pod 150 kg ≤ 8 mm, odporność na detergenty potwierdzona, Ra ≤ 0,1 µm. EN 14527, system AVS 3. DoP&C zawiera deklarację materiałową i wartości wytrzymałościowe.
 
@@ -105,7 +107,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 - [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT w akredytowanym laboratorium
 - [ ] Dla AVS 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN ([Multicert](https://www.multicert.pl))
 - [ ] Sprawdzić skład glazur ceramicznych – wykluczyć ołów i kadm powyżej limitów EN 1388
-- [ ] Sporządzić DoP&C (aktualizacja z DoP) dla każdego wyrobu i wdrożyć cyfrowe udostępnianie
+- [ ] Przygotować wzór przyszłego DoP&C dla każdego wyrobu oraz plan cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Wdrożyć FPC z kontrolą wymiarów, jakości glazury i wyników badań partii produkcyjnych
 - [ ] Zebrać dane o zużyciu wody dla muszli WC (litry/spłukiwanie) i przygotować deklarację środowiskową
 - [ ] Sprawdzić substancje niebezpieczne w uszczelkach (ftalany w PVC), powłokach i barwnikach ceramicznych

@@ -34,6 +34,8 @@ Rodzina 20 wyróżnia się tym, że **certyfikacja EN 1090 dotyczy nie tylko pro
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Rodzina 20 stosuje dwa poziomy nadzoru, zależne od klasy wykonania (EXC):
 
 **System AVS 1 – klasy wykonania EXC3 i EXC4:**
@@ -94,12 +96,12 @@ Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych pod CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |
 
-Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 muszą zaktualizować DoP (do DoP&C) i certyfikat ZKP do wymagań CPR 2024 przed 8 stycznia 2026.
+Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 nie muszą automatycznie przechodzić na DoP&C z dniem 8 stycznia 2026. W praktyce termin przejścia będzie zależał od publikacji odpowiedniej hTS, okresu koegzystencji i odnowienia certyfikacji.
 
 ## Przykłady wyrobów
 

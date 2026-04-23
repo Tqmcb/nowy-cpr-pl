@@ -236,16 +236,16 @@ export default function Services() {
           <Button
             size="lg"
             onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
-            className="group text-white font-semibold px-8 py-4 transition-all"
+            className="group text-white font-semibold px-8 py-4 whitespace-nowrap transition-all"
             style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
           >
             Umów bezpłatną konsultację
-            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-4 h-4 ml-2 shrink-0 group-hover:translate-x-1 transition-transform" />
           </Button>
         </PageHeader>
 
         {/* Key Benefits — editorial three-column */}
-        <section className="py-20 md:py-24 bg-white">
+        <section className="pt-10 pb-20 md:pt-12 md:pb-24 bg-white">
           <Container>
             <div className="max-w-6xl mx-auto">
               <div className="flex items-baseline gap-4 mb-10 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
@@ -328,11 +328,11 @@ export default function Services() {
                 <Button
                   size="lg"
                   onClick={() => document.getElementById("contact-section")?.scrollIntoView({ behavior: "smooth" })}
-                  className="group text-white font-semibold px-8 py-4 transition-all"
+                  className="group text-white font-semibold px-8 py-4 whitespace-nowrap transition-all"
                   style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
                 >
                   Zapytaj o wycenę
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-4 h-4 ml-2 shrink-0 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
             </div>

@@ -55,6 +55,8 @@ Rodzina 35 dzieli się na cztery główne podkategorie:
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Rodzina 35 jako całość objęta jest **systemem AVS 1** – jednym z najbardziej rygorystycznych w CPR:
 
 - Jednostka notyfikowana (certyfikujący organ kontroli) przeprowadza **certyfikację wyrobu** obejmującą: wstępne badanie typu (ITT), audyt zakładowej kontroli produkcji (ZKP) i stały nadzór.
@@ -105,7 +107,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania
@@ -126,7 +128,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 - [ ] Opracować tablice zastosowań (Field of Application) dla wszystkich deklarowanych konfiguracji
 - [ ] Uzyskać certyfikat zgodności AVS 1 od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP i poddać ją stałemu nadzorowi jednostki notyfikowanej
-- [ ] Wystawić DoP&C z certyfikatem jako obowiązkowym załącznikiem
+- [ ] Przygotować wzór przyszłego DoP&C z miejscem na certyfikat jako załącznik po publikacji odpowiedniej hTS
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznaczyć wyrób CE i udostępnić DoP&C cyfrowo (kod QR)
 - [ ] Ocenić substancje niebezpieczne w składzie i zadeklarować w kontekście BWR 7

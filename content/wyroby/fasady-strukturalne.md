@@ -29,7 +29,9 @@ Wiele systemów fasadowych wprowadzanych jest na rynek na podstawie Europejskich
 
 ## System AVS i certyfikacja
 
-Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC i wystawia DoP&C.
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
+Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; do tego czasu co do zasady działa według hEN i DoP.
 
 Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
@@ -69,7 +71,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD; systemy na ETA muszą mieć nowe ETA lub normę |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla innowacyjnych systemów |
@@ -77,7 +79,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 ## Przykłady wyrobów
 
-**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVS 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
+**System słupkowo-ryglowy aluminiowy**: System aluminiowy fasadowy z wypełnieniem szklanym (Ug = 0,6 W/m²K), profil z przerwą termiczną, Ucw ≈ 1,2 W/m²K, klasa A3 (powietrzna), klasa RE 1050, klasa wiatrowa SW2. EN 13830, system AVS 3. Producent (np. Ponzio, Schüco, Reynaers) zleca badania ITT w dużej komorze klimatycznej, uzyskuje certyfikat właściwości użytkowych i zgodności od JN i na obecnym etapie działa według hEN i DoP. Po publikacji odpowiedniej hTS będzie przechodził na model DoP&C.
 
 **Elewacja wentylowana z płytami HPL/ceramicznymi**: Podkonstrukcja aluminiowa z okładzinami z płyt HPL (High Pressure Laminate) lub dużoformatowej ceramiki, z pustką wentylacyjną 40 mm. Klasa ogniowa okładziny: A2-s1,d0 (ceramika) lub B-s2,d0 (HPL klasy ogniowej). ETA lub EN 13830 + dokumentacja szczegółowa. System AVS 3.
 
@@ -89,7 +91,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 - [ ] Ustalić pełny zestaw właściwości do deklarowania (przepuszczalność, wodoszczelność, wiatr, ciepło, hałas, ogień)
 - [ ] Przeprowadzić ITT w akredytowanej komorze badawczej ([ITCZLin](https://www.itczlin.pl) lub laboratorium zagraniczne)
 - [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVS 3: [Multicert](https://www.multicert.pl))
-- [ ] Sporządzić DoP&C z możliwością konfiguracji dla projektów indywidualnych (warianty szybowania, izolacji)
+- [ ] Przygotować wzór przyszłego DoP&C z możliwością konfiguracji dla projektów indywidualnych (warianty szybowania, izolacji)
 - [ ] Sprawdzić klasę ogniową okładzin – zaktualizować badania i dokumentację dla okładzin ACM (rdzeń PE vs. FR)
 - [ ] Zebrać dane środowiskowe o zawartości aluminium z recyklingu w profilach od dostawców
 - [ ] Przygotować EPD lub dane wejściowe do EPD branżowej dla systemów aluminiowych

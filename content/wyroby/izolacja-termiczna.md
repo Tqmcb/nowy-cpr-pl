@@ -37,11 +37,13 @@ Rodzina obejmuje: wyroby z wełny mineralnej skalnej i szklanej (MW), styropian 
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 **System AVS 1** obowiązuje dla wyrobów izolacyjnych stosowanych w ogniochronnych systemach izolacji, jeśli norma wyrobu lub przepis krajowy wskazuje na zastosowanie krytyczne (np. izolacja o funkcji ogniochronnej). W praktyce AVS 1 dotyczy wyrobów z wełny mineralnej deklarowanych jako materiał klasy A1/A2 stosowany w systemach ogniochronnych, gdzie jednostka notyfikowana certyfikuje FPC i wydaje CoCP.
 
 **System AVS 3** jest standardem dla większości wyrobów termoizolacyjnych: EPS, XPS, PUR/PIR, szkło komórkowe, wełna drzewna. Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE.
 
-**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i jest wymagana przez CPR 2024/3110 dla wszystkich deklaracji środowiskowych.
+**System AVS 3+** – walidacja danych środowiskowych. Jeżeli producent będzie deklarował w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki mogą wymagać walidacji w systemie 3+ po opublikowaniu odpowiednich hTS i aktów wykonawczych. Walidacja potwierdza rzetelność obliczeń LCA.
 
 Systemy ETICS (EN 13499, EN 13500) często wprowadzane są na rynek na podstawie Europejskich Ocen Technicznych (ETA), a nie norm zharmonizowanych, ponieważ normalizacja systemów kompozytowych jest opóźniona względem rynku. ETA wydaje się przez Jednostki Oceny Technicznej (TAB).
 
@@ -80,7 +82,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92); EPD i GWP w przygotowaniu |
 | ~2028–2029 | Obowiązkowe deklarowanie GWP — po publikacji nowych hTS i upływie koegzystencji |
 | 2027–2028 | Rozbudowa bazy EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
@@ -89,7 +91,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 ## Przykłady wyrobów
 
-**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163, system AVS 3. Producent zleca ITT, uzyskuje Raport z ITT od JN, samodzielnie wystawia DoP&C. Kluczowe zadanie: zlecenie EPD już teraz (przed wejściem nowych hTS przewidzianym na 2027–2029).
+**Styropian EPS 100 fasadowy**: Płyta EPS o gęstości 18–20 kg/m³, λD = 0,038 W/mK, klasa CS(10)100, reakcja na ogień: klasa E. Norma EN 13163. Producent stosuje dziś wymagania wynikające z obowiązujących hEN, a docelowo po publikacji odpowiedniej hTS będzie przechodził na model DoP&C. Kluczowe zadanie już teraz to przygotowanie danych środowiskowych i ewentualne zlecenie EPD.
 
 **Wełna skalna lamelowa do ETICS**: Płyta lamelowa z wełny skalnej 50 mm, λD = 0,040 W/mK, klasa A1. EN 13162, system AVS 1 (jako część systemu ogniochronnego) lub AVS 3 (jako samodzielny wyrób). GWP wełny skalnej jest korzystniejszy niż XPS, co stanie się argumentem handlowym po wejściu w życie nowych hTS.
 

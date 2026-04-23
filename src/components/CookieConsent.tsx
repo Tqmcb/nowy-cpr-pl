@@ -102,24 +102,24 @@ export function CookieConsent() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 flex-shrink-0">
             <button
               onClick={() => setExpanded((prev) => !prev)}
-              className="editorial-kicker flex items-center justify-center gap-1.5 px-4 py-3 transition-all hover:bg-slate-50"
+              className="editorial-kicker flex items-center justify-center gap-1.5 px-4 py-3 whitespace-nowrap transition-all hover:bg-slate-50"
               style={{ color: "oklch(42% .02 264)", border: "1px solid oklch(86% .012 264)", borderRadius: "2px" }}
               aria-expanded={expanded}
               aria-controls="cookie-preferences-panel"
             >
               Zarządzaj preferencjami
-              {expanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+              {expanded ? <ChevronUp className="w-3.5 h-3.5 shrink-0" /> : <ChevronDown className="w-3.5 h-3.5 shrink-0" />}
             </button>
             <button
               onClick={acceptNecessary}
-              className="editorial-kicker px-4 py-3 transition-all hover:bg-slate-50"
+              className="editorial-kicker px-4 py-3 whitespace-nowrap transition-all hover:bg-slate-50"
               style={{ color: "oklch(20% .03 264)", border: "1px solid oklch(20% .03 264)", borderRadius: "2px" }}
             >
               Tylko niezbędne
             </button>
             <button
               onClick={acceptAll}
-              className="editorial-kicker text-white px-5 py-3 transition-all hover:opacity-90"
+              className="editorial-kicker text-white px-5 py-3 whitespace-nowrap transition-all hover:opacity-90"
               style={{ backgroundColor: "oklch(55% .22 27)", borderRadius: "2px" }}
             >
               Zaakceptuj wszystkie

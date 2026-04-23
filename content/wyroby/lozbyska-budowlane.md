@@ -33,6 +33,8 @@ Zastosowania łożysk budowlanych obejmują: mosty drogowe i kolejowe (wszystkie
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Łożyska budowlane podlegają wyłącznie **systemowi AVS 1** – najwyższemu poziomowi rygoru w CPR 2024. Wynika to z krytycznej roli tych wyrobów w zapewnieniu nośności i stateczności konstrukcji: awaria łożyska mostowego może prowadzić do katastrofy budowlanej.
 
 W systemie AVS 1 zakres zadań jednostki notyfikowanej jest najszerszy:
@@ -69,7 +71,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 **System 3+ dla danych środowiskowych**: Producenci łożysk budowlanych stosowanych w inwestycjach infrastrukturalnych finansowanych ze środków UE (gdzie stosowane są kryteria zielone GPP) mogą korzystać z Systemu 3+ do walidacji danych środowiskowych (wyników LCA). Dla łożysk stalowych kluczowym parametrem środowiskowym jest zawartość stali z recyklingu oraz GWP procesu vulkanizacji gumy.
 
-**Cyfrowy paszport wyrobu (DPP)**: Każde łożysko budowlane, które jest elementem krytycznym infrastruktury, będzie musiało posiadać DPP z pełną dokumentacją techniczną dostępną cyfrowo. Jest to szczególnie istotne dla zarządców infrastruktury (GDDKiA, PKP PLK) prowadzących elektroniczne rejestry obiektów.
+**Cyfrowy paszport wyrobu (DPP)**: DPP jest rozwiązaniem docelowym, które dla tej rodziny wyrobów będzie wdrażane etapami. Już teraz warto przygotowywać pełną dokumentację techniczną w formie cyfrowej, co jest szczególnie istotne dla zarządców infrastruktury (GDDKiA, PKP PLK) prowadzących elektroniczne rejestry obiektów.
 
 **Brak zmian w systemie AVS**: Dla łożysk budowlanych system AVS 1 obowiązywał już w CPR 305/2011 i pozostaje niezmieniony w CPR 2024.
 
@@ -77,7 +79,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA (dot. innowacyjnych łożysk) |
@@ -97,7 +99,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 - [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. [Multicert](https://www.multicert.pl))
 - [ ] Przeprowadzić lub zaktualizować badania ITT dla wszystkich deklarowanych właściwości użytkowych
 - [ ] Prowadzić zakładową kontrolę produkcji (FPC) z udokumentowanymi wynikami badań dla każdej partii
-- [ ] Sporządzić DoP&C w aktualnej formie (zmiana z DoP) dla każdego wyrobu lub grupy wyrobów
+- [ ] Przygotować wzór DoP&C dla każdego wyrobu lub grupy wyrobów oraz plan przejścia z DoP po publikacji odpowiedniej hTS
 - [ ] Przygotować dokumentację techniczną zawierającą obliczenia projektowe dla każdego indywidualnego zamówienia
 - [ ] Wdrożyć cyfrowy system identyfikowalności – każde łożysko musi być identyfikowalne do partii produkcyjnej, certyfikatu i wyników badań
 - [ ] Zebrać dane środowiskowe (zawartość stali z recyklingu, GWP procesu) na potrzeby przyszłej EPD

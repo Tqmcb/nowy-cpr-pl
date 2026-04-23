@@ -26,7 +26,7 @@ Rodzina 29 obejmuje wszelkie wyroby budowlane, które w warunkach normalnego uż
 - **Powłoki wewnętrzne zbiorników** i rurociągów wodociągowych (cementy, żywice epoksydowe, polietylen)
 - **Uszczelnienia** złączy instalacji wodociągowych mających kontakt z wodą
 
-Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału objęta jest rodziną 29 jeśli transportuje wodę pitną, a rodziną 28 jeśli transportuje gaz lub inne media. Zakres stosowania musi być wyraźnie zadeklarowany w DoP&C.
+Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału objęta jest rodziną 29 jeśli transportuje wodę pitną, a rodziną 28 jeśli transportuje gaz lub inne media. Zakres stosowania musi być wyraźnie zadeklarowany w dokumentacji wyrobu; docelowo po publikacji odpowiedniej hTS będzie ujmowany w DoP&C.
 
 ## Normy zharmonizowane
 
@@ -40,10 +40,12 @@ Kluczowe kryterium to **przeznaczenie** – rura PE-100 identycznego materiału 
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Rodzina 29 jest jedną z nielicznych rodzin wyrobów budowlanych objętych **systemem AVS 1** – najwyższym poziomem nadzoru nad stałością właściwości użytkowych:
 
-- **System AVS 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Producent może wystawić **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** dopiero po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
-- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP i wystawia DoP&C.
+- **System AVS 1** – dla wyrobów o krytycznym znaczeniu dla zdrowia publicznego (rury magistralne, armatura do wody pitnej w instalacjach publicznych): jednostka notyfikowana przeprowadza certyfikację wyrobu (product certification), wstępne badanie typu (ITT) oraz nadzoruje ZKP. Po publikacji odpowiedniej hTS producent będzie przechodził na **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)** po uzyskaniu certyfikatu wyrobu od jednostki notyfikowanej.
+- **System AVS 3** – dla wyrobów o niższym profilu ryzyka (np. indywidualne zawory odcinające w instalacjach mieszkaniowych): notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C.
 
 **System 3+** – walidacja danych środowiskowych (wyników LCA); istotna dla producentów deklarujących właściwości wg BWR 7 (np. trwałość rur miedzianych i możliwość odzysku metalu po demontażu instalacji).
 
@@ -80,7 +82,7 @@ Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higieni
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania
@@ -101,7 +103,7 @@ Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higieni
 - [ ] Przeprowadzić testy higieniczne: organoleptyczne, migracji metali, biostymulacji
 - [ ] Zweryfikować zawartość ołowiu w stopach metali (limit 0,3–0,5% Pb)
 - [ ] Wdrożyć ZKP i uzyskać certyfikat ZKP (AVS 1) lub samodzielnie certyfikować (AVS 3)
-- [ ] Wystawić DoP&C w formacie CPR 2024 z pełną deklaracją właściwości higienicznych
+- [ ] Przygotować wzór przyszłego DoP&C z pełną deklaracją właściwości higienicznych oraz plan przejścia po publikacji odpowiedniej hTS
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznaczyć wyrób znakiem CE i udostępnić DoP&C w języku polskim
 - [ ] Ocenić GWP materiału i możliwość recyklingu po demontażu (BWR 7)

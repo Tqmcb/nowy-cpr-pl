@@ -37,11 +37,11 @@ export function PageHeader({
       <Container>
         <div className="max-w-6xl mx-auto">
           {/* Breadcrumbs */}
-          <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs mb-10 mt-6" style={{ color: "oklch(60% .015 264)" }}>
-            <Link to="/" className="transition-colors hover:text-black uppercase tracking-[0.12em] font-semibold">Strona główna</Link>
+          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs mb-10 mt-6" style={{ color: "oklch(60% .015 264)" }}>
+            <Link to="/" className="transition-colors hover:text-black uppercase tracking-[0.12em] font-semibold whitespace-nowrap">Strona główna</Link>
             {resolvedSection && (
               <>
-                <ChevronRight className="w-3 h-3 opacity-50" />
+                <ChevronRight className="w-3 h-3 opacity-50 shrink-0" />
                 <span className="uppercase tracking-[0.12em] font-semibold" style={{ color: "oklch(55% .22 27)" }}>
                   {resolvedSection.num} · {resolvedSection.label}
                 </span>
@@ -49,8 +49,8 @@ export function PageHeader({
             )}
             {resolvedLabel && (
               <>
-                <ChevronRight className="w-3 h-3 opacity-50" />
-                <span className="uppercase tracking-[0.12em] font-semibold" style={{ color: "oklch(20% .03 264)" }}>{resolvedLabel}</span>
+                <ChevronRight className="w-3 h-3 opacity-50 shrink-0" />
+                <span className="uppercase tracking-[0.12em] font-semibold min-w-0" style={{ color: "oklch(20% .03 264)" }}>{resolvedLabel}</span>
               </>
             )}
           </nav>
@@ -70,7 +70,7 @@ export function PageHeader({
 
           {/* Title + description */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end mb-8">
-            <h1 className="lg:col-span-8 font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+            <h1 className="lg:col-span-8 font-serif text-[2.2rem] sm:text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1.02] break-words" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
               {resolvedTitle}
               {resolvedAccent && (
                 <>

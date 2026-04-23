@@ -87,7 +87,7 @@ Do klas B1ca–Dca dochodzą dodatkowe podklasy:
 |---|---|
 | Obowiązkowe CE dla kabli (EN 50575) | 1 lipca 2017 |
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie CPR 2024 | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych CPR 2024 | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

@@ -68,7 +68,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-01-08",
     title: "Stosowanie przepisów instytucjonalnych CPR 2024",
     description:
-      "Zaczynaja obowiazywac przepisy ramowe rozporządzenia: nowe definicje, ramy dla jednostek notyfikowanych, przepisy o nadzorze rynku i sankcjach. Jednak bez opublikowanych nowych zharmonizowanych specyfikacji technicznych (hTS) producenci nadal stosuja dotychczasowe normy zharmonizowane (hEN) i wystawiaja DoP na starych zasadach.",
+      "Zaczynają obowiązywać przepisy ramowe rozporządzenia: nowe definicje, ramy dla jednostek notyfikowanych oraz przepisy o nadzorze rynku i sankcjach. Jednak bez opublikowanych nowych zharmonizowanych specyfikacji technicznych (hTS) producenci nadal stosują dotychczasowe normy zharmonizowane (hEN) i wystawiają DoP na starych zasadach.",
     phase: "teraz",
     category: ["prawo"],
     icon: Scale,
@@ -78,9 +78,9 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
   {
     date: "8 stycznia 2026",
     sortDate: "2026-01-08",
-    title: "Okres przejsciowy — stare hEN nadal obowiazuja",
+    title: "Okres przejściowy — stare hEN nadal obowiązują",
     description:
-      "Dopóki Komisja nie opublikuje nowych hTS dla danej rodziny wyrobów, producenci stosuja dotychczasowe normy hEN i systemy AVCP. Nowe obowiazki (DoP&C, AVS, oznakowanie CE wg Art. 20) wejda w zycie dopiero wraz z publikacja odpowiednich hTS. Przejscie nastepuje stopniowo, rodzina po rodzinie.",
+      "Dopóki Komisja nie opublikuje nowych hTS dla danej rodziny wyrobów, producenci stosują dotychczasowe normy hEN i systemy AVCP. Nowe obowiązki (DoP&C, AVS, oznakowanie CE wg art. 20) wejdą w życie dopiero wraz z publikacją odpowiednich hTS. Przejście następuje stopniowo, rodzina po rodzinie.",
     phase: "teraz",
     category: ["prawo", "producent"],
     icon: Clock,
@@ -92,7 +92,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-01-08",
     title: "Nowe ramy dla importerów i dystrybutorów",
     description:
-      "Rozporządzenie wprowadza rozszerzone obowiazki importerów i dystrybutorów (Art. 22-23). Praktyczne stosowanie tych przepisów zalezy jednak od publikacji hTS — do tego czasu obowiazuja dotychczasowe zasady.",
+      "Rozporządzenie wprowadza rozszerzone obowiązki importerów i dystrybutorów (art. 22-23). Praktyczne stosowanie tych przepisów zależy jednak od publikacji hTS — do tego czasu obowiązują dotychczasowe zasady.",
     phase: "teraz",
     category: ["prawo"],
     icon: Building2,
@@ -103,7 +103,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-06-01",
     title: "System AVS i DoP&C — po publikacji nowych hTS",
     description:
-      "Nowy system Oceny i Weryfikacji Stalosci Wlasciwosci Uzytkowych (AVS) z 5 poziomami (1+, 1, 2, 3, 4) oraz nowa Deklaracja Wlasciwosci Uzytkowych i Zgodnosci (DoP&C) zaczna obowiazywac dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiazuja systemy AVCP i stare DoP.",
+      "Nowy system Oceny i Weryfikacji Stałości Właściwości Użytkowych (AVS) z 5 poziomami (1+, 1, 2, 3, 4) oraz nowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) zaczną obowiązywać dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiązują systemy AVCP i stare DoP.",
     phase: "przyszlosc",
     category: ["jn", "producent"],
     icon: Shield,
@@ -415,17 +415,17 @@ export default function TimelinePage() {
                   <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
                     <button
                       onClick={() => navigate("/wyszukiwarka")}
-                      className="flex items-center gap-2 px-6 py-3 bg-white font-semibold transition-all hover:bg-slate-100"
+                      className="flex items-center justify-center gap-2 px-6 py-3 bg-white font-semibold whitespace-nowrap transition-all hover:bg-slate-100"
                       style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}
                     >
-                      Sprawdź wymagania <ArrowRight className="w-4 h-4" />
+                      Sprawdź wymagania <ArrowRight className="w-4 h-4 shrink-0" />
                   </button>
                     <button
                       onClick={() => navigate("/documents")}
-                      className="flex items-center gap-2 px-6 py-3 font-semibold transition-all hover:bg-white/10"
+                      className="flex items-center justify-center gap-2 px-6 py-3 font-semibold whitespace-nowrap transition-all hover:bg-white/10"
                       style={{ border: "1px solid rgba(255,255,255,0.3)", color: "white", backgroundColor: "transparent", borderRadius: "2px" }}
                     >
-                      Pobierz szablony <FileText className="w-4 h-4" />
+                      Pobierz szablony <FileText className="w-4 h-4 shrink-0" />
                     </button>
                   </div>
                 </div>

@@ -40,10 +40,12 @@ Kluczowym kryterium rozgraniczającym rodziny 28 i 29 jest **przeznaczenie mediu
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 28 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla rur i zbiorników o niższym ryzyku (kanalizacja deszczowa, niepodciśnieniowe rury odpływowe): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – dla rur gazowych, preizolowanych ciepłowniczych i zbiorników podziemnych: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
 
 System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpośrednie zagrożenie bezpieczeństwa publicznego (BWR 2 – Bezpieczeństwo pożarowe i wybuchowe).
 
@@ -79,7 +81,7 @@ System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpoś
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

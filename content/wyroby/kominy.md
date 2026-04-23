@@ -33,6 +33,8 @@ Rodzina obejmuje: systemy kominowe ceramiczne (kamionkowe wkłady kominowe), sys
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Systemy kominowe podlegają systemowi **AVS 3 lub AVS 4**, w zależności od konkretnej normy zharmonizowanej i kategorii wyrobu:
 
 **System AVS 3** stosuje się dla wkładów ceramicznych (EN 1457-1, EN 1457-2), systemów zestawowych (EN 13063-1) i metalowych wkładów kominowych (EN 1856-1, EN 1856-2). Notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
@@ -60,7 +62,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C**: Zmiana oznaczenia dokumentu jest obowiązkowa od 8 stycznia 2026. Producenci systemów kominowych muszą zaktualizować wszystkie istniejące deklaracje. DoP&C musi być dostępna cyfrowo – zalecane jest umieszczenie kodu QR na każdym elemencie kominowym lub przynajmniej na opakowaniu.
+**DoP → DoP&C**: Dla tej rodziny wyrobów DoP&C będzie rozwiązaniem docelowym, stosowanym po publikacji odpowiedniej hTS. Do tego czasu producenci co do zasady pozostają przy DoP. Rozsądne jest jednak wcześniejsze przygotowanie wzoru DoP&C oraz sposobu cyfrowego udostępniania dokumentów, np. przez link lub kod QR na opakowaniu.
 
 **Właściwości środowiskowe**: CPR 2024 otwiera ścieżkę do deklarowania właściwości środowiskowych dla systemów kominowych. W kontekście tej rodziny kluczowe są: trwałość systemu (projektowany okres eksploatacji – minimum 50 lat dla ceramiki, minimum 25 lat dla stali nierdzewnej), możliwość czyszczenia i konserwacji (wpływa na długowieczność i efektywność energetyczną urządzeń grzewczych), skład materiałowy pod kątem recyklingu ceramiki i metali.
 
@@ -72,7 +74,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane Komisji w zakresie właściwości środowiskowych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -80,7 +82,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 ## Przykłady wyrobów
 
-**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. System AVS 3 – producent zleca ITT do NTL (np. ITCZLin), uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C z pełną klasyfikacją.
+**Ceramiczny wkład kominowy do paliw stałych**: Rura ceramiczna okrągła DN 180 mm, długość 1000 mm, klasa temperaturowa T400, ciśnienie N2, odporność na wilgoć W, odporność na korozję V2, odporność na sadzę G. Produkowana według EN 1457-1. Producent stosuje dziś wymagania wynikające z hEN, a docelowo po publikacji odpowiedniej hTS będzie przygotowywał DoP&C z pełną klasyfikacją.
 
 **Stalowy elastyczny wkład kominowy**: Przewód ze stali kwasoodpornej 316L, DN 130 mm, klasa T120 N1 W, przeznaczony do kotłów gazowych. EN 1856-2, system AVS 3. Producent deklaruje szczelność, odporność korozyjną, zakres temperatur pracy.
 
@@ -92,7 +94,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 - [ ] Ustalić kompletną klasyfikację wyrobu według EN 1443 (klasa T, ciśnienie, wilgoć, korozja, sadza)
 - [ ] Przeprowadzić ITT w akredytowanym laboratorium ([ITCZLin](https://www.itczlin.pl))
 - [ ] Dla systemów zestawowych (EN 13063) – upewnić się, że wszystkie komponenty zestawu są objęte jedną DoP&C lub mają oddzielne deklaracje
-- [ ] Sporządzić DoP&C (zmiana z DoP) z pełną klasyfikacją kominową i udostępnić cyfrowo
+- [ ] Przygotować wzór DoP&C z pełną klasyfikacją kominową oraz plan przejścia z DoP po publikacji odpowiedniej hTS
 - [ ] Wdrożyć FPC z kontrolą surowców (glina, szamot, stal nierdzewna) i wyrobów gotowych
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Sprawdzić oznakowanie CE – każdy element musi mieć etykietę z klasyfikacją kominową

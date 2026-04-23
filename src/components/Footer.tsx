@@ -160,7 +160,7 @@ export function Footer() {
             <div className="text-xs font-serif italic" style={{ color: textBody }}>
               Wydawca: <span style={{ color: "white" }}>Multicert Sp. z o.o.</span> · Portal informacyjny
             </div>
-            <div className="flex items-center gap-5 text-xs">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs">
               {[
                 { to: "/polityka-prywatnosci", label: "Polityka prywatności" },
                 { to: "/regulamin", label: "Regulamin" },

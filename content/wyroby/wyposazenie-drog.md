@@ -34,6 +34,8 @@ Rodzina obejmuje: bariery ochronne stalowe (Highway Restraint Systems) – barie
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Rodzina 12 jest zróżnicowana pod względem systemu AVS:
 
 **System AVS 1** obowiązuje dla **barier ochronnych** (EN 1317-2, EN 1317-3, EN 1317-6) ze względu na krytyczną funkcję ochrony życia uczestników ruchu drogowego. W systemie AVS 1 jednostka notyfikowana przeprowadza lub nadzoruje pełne badania ITT – w tym testy zderzeniowe (crash tests) przeprowadzane z udziałem rzeczywistych pojazdów na torach badawczych, certyfikuje FPC producenta i wydaje certyfikat CoCP. Ciągły nadzór obejmuje regularne audyty zakładu.
@@ -91,7 +93,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie GWP i trwałości dla wyposażenia dróg |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -101,9 +103,9 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 **Bariera stalowa SP-04 klasy N2/W4/A**: Stalowa bariera bezpieczeństwa jednostronna, typ W-bariera, klasa powstrzymywania N2, szerokość robocza W4 (≤ 1,3 m), ASI klasy A. EN 1317-2. Produkowana z blachy stalowej S355MC 4 mm, cynkowanie ogniowe 85 µm. System AVS 1 – producent posiada CoCP od jednostki notyfikowanej potwierdzający wyniki testu zderzeniowego TB32 (900 kg, 100 km/h, 20°) i TB11 (1500 kg, 100 km/h, 20°).
 
-**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – NTL przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy), JN wydaje certyfikat, producent wystawia DoP&C.
+**Stalowy słup oświetleniowy 8 m, klasa CE**: Słup conical stalowy wysokości 8 m, grubość ścianki 4 mm, klasa pasywnego bezpieczeństwa LE (Low Energy, 70 km/h), EN 12767 i EN 40-2. Cynkowanie ogniowe wg EN ISO 1461. System AVS 3 – NTL przeprowadza ITT (obliczenia statyczne, badanie grubości cynku, test uderzeniowy), JN wydaje certyfikat, a producent na obecnym etapie stosuje wymagania wynikające z hEN i DoP. Po publikacji odpowiedniej hTS będzie przechodził na model DoP&C.
 
-**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVS 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do NTL (laboratorium fotometryczne), uzyskuje certyfikat od JN i wystawia DoP&C.
+**Folia retrorefleksyjna klasy RA2**: Folia mikropryzmatyczna do znaków drogowych, klasa retrorefleksji RA2, R2, trwałość 10 lat gwarantowana, EN 1463-1. System AVS 3 – producent (3M, ORAFOL, Avery Dennison) zleca ITT do NTL (laboratorium fotometryczne), uzyskuje certyfikat od JN i na obecnym etapie stosuje wymagania wynikające z hEN i DoP. Po publikacji odpowiedniej hTS będzie przechodził na model DoP&C.
 
 ## Checklist producenta
 
@@ -112,7 +114,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 - [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
 - [ ] Uzyskać certyfikat CoCP (bariery, AVS 1) lub certyfikat właściwości użytkowych i zgodności (słupy, znaki, AVS 3) od JN
 - [ ] Wdrożyć FPC z kontrolą stali (skład chemiczny, grubość), cynkowania (grubość powłoki) i wymiarów
-- [ ] Sporządzić DoP&C (aktualizacja z DoP) z klasyfikacją EN 1317 lub EN 12767 i udostępnić cyfrowo
+- [ ] Przygotować wzór przyszłego DoP&C z klasyfikacją EN 1317 lub EN 12767 oraz plan jego cyfrowego udostępniania
 - [ ] Zebrać dane o zawartości stali z recyklingu od hut dostawczych (pod kątem EPD i wymagań GPP GDDKiA)
 - [ ] Przygotować EPD lub dane do EPD branżowej dla barier stalowych (we współpracy ze Stalowym Związkiem lub EUPJ)
 - [ ] Sprawdzić wymagania specyfikacji GDDKiA i PKP PLK dotyczące EPD i deklaracji środowiskowych w przetargach

@@ -52,13 +52,13 @@ function StatCounter({ value, label, icon: Icon }: { value: string; label: strin
 }
 
 function EditorialStat({ value, label }: { value: string; label: string }) {
-  const num = parseInt(value.replace(/\D/g, ""), 10);
-  const suffix = value.replace(/^\d+/, "");
-  const { count, triggerRef } = useCountUp(num, 1400);
   return (
-    <div ref={triggerRef as React.RefCallback<HTMLDivElement>} className="flex flex-col">
-      <div className="editorial-numeral text-5xl md:text-6xl" style={{ color: "oklch(20% .03 264)" }}>
-        {count}{suffix}
+    <div className="flex flex-col">
+      <div
+        className="text-[3.25rem] md:text-[4rem] leading-none tracking-[-0.03em]"
+        style={{ color: "oklch(20% .03 264)", fontFamily: '"Schibsted Grotesk", system-ui, sans-serif', fontWeight: 500 }}
+      >
+        {value}
       </div>
       <div className="editorial-kicker mt-2">{label}</div>
     </div>
@@ -169,7 +169,7 @@ function HomePage() {
                 {/* Right: title + lede + CTA */}
                 <div className="lg:col-span-8 animate-fade-in-up-delay-1">
                   <h1 className="font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
-                    Nowe CPR —<br/>
+                    Nowy CPR —<br/>
                     <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>co i kiedy</span><br/>
                     Cię dotyczy?
                   </h1>

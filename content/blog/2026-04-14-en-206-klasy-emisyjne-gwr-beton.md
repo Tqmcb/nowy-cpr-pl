@@ -73,7 +73,7 @@ Relacja orientacyjna między systemami:
 
 Tu zaczyna się najbardziej praktyczna część dla producentów. Klasy GWR nie funkcjonują w izolacji normy EN 206. Łączą się bezpośrednio z **nowym rozporządzeniem CPR 2024/3110** i jego wymaganiem dotyczącym **Deklaracji Właściwości Użytkowych i Środowiskowych (DoPC — Declaration of Performance and Conformity)**.
 
-W starym CPR 305/2011 producent wystawiał DoP — deklarację obejmującą wyłącznie właściwości użytkowe (wytrzymałość, trwałość, reakcja na ogień itd.). Nowe CPR 2024/3110 rozszerza tę deklarację o **sekcję środowiskową**, w której producent musi podać dane dotyczące śladu węglowego wyrobu.
+W starym CPR 305/2011 producent wystawiał DoP — deklarację obejmującą wyłącznie właściwości użytkowe (wytrzymałość, trwałość, reakcja na ogień itd.). Nowy CPR 2024/3110 rozszerza tę deklarację o **sekcję środowiskową**, w której producent musi podać dane dotyczące śladu węglowego wyrobu.
 
 Klasa GWR betonu staje się jednym z parametrów tej sekcji środowiskowej DoPC. Oznacza to, że:
 

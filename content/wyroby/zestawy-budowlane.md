@@ -52,6 +52,8 @@ Rodzina 34 obejmuje kompleksowe systemy i zestawy elementów, które razem tworz
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 34 stosuje się systemy AVS (Assessment and Verification of Constancy of Performance) **1, 2+** lub **ETA** zależnie od wyrobu:
 
 - **System AVS 1** – dla systemów nośnych, które bezpośrednio wpływają na stabilność budynku (ściany nośne, stropy): jednostka notyfikowana certyfikuje wyrób i nadzoruje ZKP.
@@ -96,7 +98,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

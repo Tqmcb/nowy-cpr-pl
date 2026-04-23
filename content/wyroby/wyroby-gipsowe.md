@@ -31,6 +31,8 @@ Rodzina obejmuje: płyty gipsowo-kartonowe (GKB – standardowe, GKF – ogniood
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 3** stosuje się dla płyt gipsowo-kartonowych (EN 520), płyt gipsowo-włóknowych (EN 15283-1, EN 15283-2) i kompozytowych paneli gipsowych (EN 13950). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie zarządza FPC i wydaje DoP&C; numer JN pojawia się w oznakowaniu CE. Jest to właściwy system dla wiodących producentów (Knauf, Saint-Gobain/Rigips, Siniat) operujących w trybie ciągłej produkcji masowej.
@@ -62,7 +64,7 @@ Dla tynków gipsowych (EN 13279-1):
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C**: Konieczna aktualizacja wszystkich istniejących deklaracji. DoP&C musi zawierać sekcje środowiskowe i być dostępna cyfrowo. Dla wielkich producentów (Knauf, Rigips) to zadanie systemowe: setki wyrobów i wariantów muszą mieć zaktualizowane dokumenty.
+**DoP → DoP&C**: Docelowo DoP&C zastąpi DoP po publikacji odpowiedniej hTS dla tej rodziny wyrobów. Do tego czasu producenci co do zasady pozostają przy DoP, ale dla dużych producentów (Knauf, Rigips) już teraz rozsądne jest przygotowanie wzorów DoP&C i sposobu cyfrowego udostępniania dokumentów.
 
 **Właściwości środowiskowe – gips ma przewagę**: CPR 2024 jest szansą dla producentów gipsu. Gips jako materiał wykazuje szereg korzystnych cech środowiskowych: pełna możliwość recyklingu (gips z rozbiórki może być przetworzony i użyty ponownie – zamknięta pętla recyklingu Knauf, Rigips), niskie GWP w porównaniu z alternatywnymi wyrobami ściennymi, zdolność do regulacji wilgotności (pasywna klimatyzacja wnętrz), naturalny surowiec (anhydryt, alabaster) lub produkt uboczny odsiarczania (FGD gypsum – gips syntetyczny z elektrowni).
 
@@ -76,7 +78,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92); przygotowanie EPD intensywne |
 | ~2027 | Akty delegowane z obowiązkowym GWP dla wyrobów gipsowych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -96,7 +98,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ ] Ustalić typ i klasę wyrobu wg EN 520 (A, D, E, F, H, I, P, R) i odpowiednio opisać w DoP&C
 - [ ] Przeprowadzić lub zaktualizować ITT w akredytowanym laboratorium (badania ogniowe, mechaniczne, wilgotnościowe)
 - [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVS 3: np. [Multicert](https://www.multicert.pl))
-- [ ] Sporządzić DoP&C (aktualizacja z DoP) i wdrożyć system cyfrowego udostępniania dokumentów
+- [ ] Przygotować wzór DoP&C i plan przejścia z DoP oraz wdrożyć gotowość do cyfrowego udostępniania dokumentów
 - [ ] Wdrożyć FPC z kontrolą jakości surowców (gips, karton, dodatki) i wyrobów gotowych
 - [ ] Zebrać dane środowiskowe do EPD: GWP gipsu kalcynowanego, kartonu, kleju – zlecić EPD
 - [ ] Sprawdzić zawartość pierwiastków promieniotwórczych w gipsie syntetycznym FGD (indeks aktywności I)

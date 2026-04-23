@@ -82,10 +82,10 @@ export default function Kontakt() {
               </p>
               <a
                 href="/services"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-semibold rounded-xl transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-semibold whitespace-nowrap rounded-xl transition-colors"
               >
                 Nasze usługi certyfikacyjne
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 shrink-0" />
               </a>
             </section>
 

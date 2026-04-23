@@ -34,6 +34,8 @@ Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich 
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 **System AVS 1+** dla stali zbrojeniowej i sprężającej oznacza:
 
 1. **Producent** – wdraża ZKP zgodnie z wymaganiami EN 10080 i normy wyrobu. Obejmuje to kontrolę składu chemicznego (spectrometryczna analiza wytopów), właściwości mechanicznych (próba rozciągania, próba gięcia, próba zmęczeniowa), geometrii żeber i karbów, spawalności (ekwiwalent węglowy CE).
@@ -83,7 +85,7 @@ Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu z�
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD dla systemów post-tensioning (CPR 305/2011) |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

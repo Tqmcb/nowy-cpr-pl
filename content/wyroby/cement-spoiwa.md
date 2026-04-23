@@ -30,6 +30,8 @@ Jednocześnie rodzina 15 stoi przed największym wyzwaniem środowiskowym spośr
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1+** – najwyższy stopień nadzoru zewnętrznego:
 
 1. **Producent** – ustanawia i prowadzi zakładową kontrolę produkcji (ZKP) zgodnie z wymaganiami normy EN 197-1 lub właściwej normy wyrobu.
@@ -82,7 +84,7 @@ Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród 
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – obowiązkowa DoP&C |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

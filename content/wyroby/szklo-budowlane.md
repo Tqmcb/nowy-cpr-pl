@@ -42,10 +42,12 @@ Rodzina 30 obejmuje następujące kategorie wyrobów szklanych:
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla szkła bazowego (float, walcowanego) i pustakowców bez deklaracji szczególnych właściwości bezpieczeństwa: producent samodzielnie przeprowadza badania wstępne i ZKP.
-- **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – dla szkła hartowanego, laminowanego bezpiecznego, szyb zespolonych z deklaracją Ug i szkła ognioodpornego: notyfikowane laboratorium techniczne (NTL) wykonuje wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C. Jest to szczególnie istotne dla szkła, gdzie produkcja jest bardzo energochłonna (temperatura topienia > 1550°C), a ślad węglowy wyrobu wysoki (ok. 0,8–1,2 kg CO2/kg szkła float).
 
@@ -78,7 +80,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowa deklaracja GWP** – po raz pierwszy w CPR szkło musi być ocenione pod kątem śladu węglowego (producent może to robić dobrowolnie lub w systemie 3+).
+1. **Deklaracja GWP** – po raz pierwszy CPR tworzy ramy do systemowego oceniania szkła pod kątem śladu węglowego; obowiązek będzie wdrażany po publikacji odpowiednich hTS i aktów wykonawczych.
 2. **Rozszerzone wymagania dla szyb zespolonych** – EN 1279 z 2018 r. zaostrzyła wymagania trwałościowe (argon retention test), które teraz są egzekwowane przez rynek poprzez CPR 2024.
 3. **Koordynacja z EPBD** – CPR 2024 lepiej integruje wymagania szklane z Dyrektywą o charakterystyce energetycznej budynków, wskazując wartości graniczne Ug jako parametry projektowe wyrobu.
 4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
@@ -88,7 +90,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

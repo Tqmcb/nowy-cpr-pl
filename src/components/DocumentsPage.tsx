@@ -73,7 +73,8 @@ const Document = ({ document, onDownload }: { document: DocumentProps; onDownloa
         <Button
           onClick={() => onDownload(document.id)}
           size="sm"
-          className="px-4 py-2 rounded-lg bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-medium text-sm"
+          className="px-4 py-2 rounded-lg border-0 text-white font-medium text-sm shadow-sm transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "oklch(55% .22 27)" }}
         >
           <Download className="w-4 h-4 mr-2" />
           Pobierz
@@ -182,22 +183,22 @@ export function DocumentsPage() {
             <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{documents.length}</span>
             <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>dokumentów dostępnych</span>
           </div>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <Button
               onClick={() => document.getElementById("documents-section")?.scrollIntoView({ behavior: "smooth" })}
-              className="text-white font-semibold px-6 py-3 transition-all"
+              className="w-full sm:w-auto justify-center text-white font-semibold px-6 py-3 transition-all whitespace-nowrap"
               style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
             >
-              <FileText className="w-4 h-4 mr-2" />
+              <FileText className="w-4 h-4 mr-2 shrink-0" />
               Przeglądaj dokumenty
             </Button>
             <Button
               variant="outline"
-              className="font-semibold px-6 py-3 transition-all"
+              className="w-full sm:w-auto justify-center font-semibold px-6 py-3 transition-all whitespace-nowrap"
               style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
               onClick={() => document.getElementById("faq-section")?.scrollIntoView({ behavior: "smooth" })}
             >
-              <HelpCircle className="w-4 h-4 mr-2" />
+              <HelpCircle className="w-4 h-4 mr-2 shrink-0" />
               Najczęstsze pytania
             </Button>
           </div>
@@ -433,7 +434,11 @@ export function DocumentsPage() {
                     </label>
                   </div>
 
-                  <Button type="submit" className="w-full py-3 rounded-xl bg-[oklch(20% .03 264)] hover:bg-[#1a3d6b] text-white font-semibold">
+                  <Button
+                    type="submit"
+                    className="w-full py-3 rounded-xl border-0 text-white font-semibold shadow-sm transition-opacity hover:opacity-90"
+                    style={{ backgroundColor: "oklch(55% .22 27)" }}
+                  >
                     <Download className="w-4 h-4 mr-2" />
                     Pobierz dokument
                   </Button>
@@ -457,7 +462,7 @@ export function DocumentsPage() {
                       }
                     }}
                     variant="outline"
-                    className="border-slate-200 text-slate-700 bg-white hover:bg-slate-50"
+                    className="border-[oklch(55%_.22_27/0.25)] text-[oklch(55%_.22_27)] bg-white hover:bg-[oklch(55%_.22_27/0.06)]"
                   >
                     <RefreshCw className="w-4 h-4 mr-2" />
                     Pobierz ponownie

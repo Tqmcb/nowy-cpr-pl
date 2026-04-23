@@ -34,6 +34,8 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczności zastosowania i wymagań normy:
 
 **System AVS 3** stosuje się dla geosyntetyków stosowanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Notyfikowane laboratorium techniczne (NTL) przeprowadza ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
@@ -73,7 +75,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C**: Standardowa zmiana nazewnictwa z koniecznością aktualizacji dokumentacji. DoP&C musi uwzględniać nowe pola środowiskowe. Cyfrowe udostępnianie DoP&C jest obowiązkowe od 8 stycznia 2026.
+**DoP → DoP&C**: To docelowa zmiana nazewnictwa i dokumentacji, która dla tej rodziny wyrobów będzie wdrażana po publikacji odpowiedniej hTS. Już teraz warto przygotować szablon przyszłego DoP&C oraz sposób jego cyfrowego udostępniania.
 
 **Właściwości środowiskowe – wyzwanie dla polymerów**: CPR 2024 otwiera trudne pytania dla producentów geosyntetyków wykonanych z polimerów kopalnych (PP, PE, PVC). Mikrodrobiny plastiku i biodegradowalność geosyntetyków po zakończeniu eksploatacji stają się coraz ważniejszym tematem. Nowe wymagania CPR 2024 w zakresie trwałości i właściwości środowiskowych będą wymagały deklarowania projektowanego okresu eksploatacji (design working life) dla kluczowych zastosowań (50 lat dla składowisk, nasypów drogowych).
 
@@ -85,7 +87,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane z obowiązkowym GWP dla geosyntetyków |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -105,7 +107,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 - [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT dla wszystkich deklarowanych właściwości
 - [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej i uzyskać raport z ITT
 - [ ] Wdrożyć FPC z kontrolą surowców polimerowych (gramatura, MFI, zawartość sadzy) i wyrobów gotowych
-- [ ] Sporządzić DoP&C (aktualizacja z DoP) dla każdego wyrobu z pełnym zestawem deklarowanych właściwości
+- [ ] Przygotować wzór przyszłego DoP&C dla każdego wyrobu z pełnym zestawem deklarowanych właściwości
 - [ ] Udostępnić DoP&C cyfrowo – QR kod na rolce lub fakturze
 - [ ] Zebrać dane środowiskowe od dostawców granulatu (GWP, zawartość rPP/rPE) na potrzeby EPD
 - [ ] Sprawdzić zawartość SVHC w plastyfikatorach i stabilizatorach (szczególnie w PVC geomembranach)

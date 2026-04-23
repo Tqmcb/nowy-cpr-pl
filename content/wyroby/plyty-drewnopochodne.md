@@ -42,6 +42,8 @@ Norma zharmonizowana EN 13986 stanowi punkt wyjścia dla oznakowania CE wszystki
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla płyt drewnopochodnych z rodziny 14 obowiązuje jeden z dwóch systemów:
 
 - **System AVS 3** – dla płyt stosowanych w miejscach krytycznych pod względem nośności lub bezpieczeństwa pożarowego. Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT. Na podstawie wyników NTL jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wykonuje ZKP samodzielnie; numer JN pojawia się w oznakowaniu CE.
@@ -85,7 +87,7 @@ Większość płyt drewnopochodnych klasyfikuje się jako:
 
 1. **Obowiązkowa deklaracja formaldehydu i VOC** – w CPR 305/2011 deklarowanie emisji było opcjonalne dla wielu zastosowań. CPR 2024/3110 czyni to obowiązkowym elementem DoP&C.
 2. **Nowa klasa E0** – oficjalne uznanie klasy E0 w systemie oceny zgodności UE (wcześniej obecna jedynie w standardach krajowych i CARB w USA).
-3. **Wymagania środowiskowe (GWP)** – obowiązek deklarowania wskaźnika GWP i innych parametrów EPD (EN 15804+A2) dla głównych wyrobów.
+3. **Wymagania środowiskowe (GWP)** – po publikacji odpowiednich hTS i aktów wykonawczych trzeba będzie deklarować wskaźnik GWP i inne parametry EPD (EN 15804+A2) dla głównych wyrobów.
 4. **DoP&C zamiast DoP** – rozszerzona deklaracja obejmuje właściwości użytkowe i środowiskowe.
 5. **Precyzyjniejsze wymagania dla klejów** – kleje stosowane do płyt muszą spełniać wymagania dotyczące substancji niebezpiecznych, w tym SVHC z listy REACH.
 
@@ -93,12 +95,12 @@ Większość płyt drewnopochodnych klasyfikuje się jako:
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – wymagane DoP&C z deklaracją emisji |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |
 
-Producenci, którzy stosowali stare formularze DoP bez deklaracji formaldehydu lub VOC, muszą zaktualizować dokumentację do formatu DoP&C przed 8 stycznia 2026.
+Producenci, którzy stosowali stare formularze DoP bez deklaracji formaldehydu lub VOC, powinni już teraz przygotować dane i szablony pod przyszłe DoP&C. Sam moment przejścia będzie jednak zależał od publikacji odpowiedniej hTS i zakończenia okresu koegzystencji.
 
 ## Przykłady wyrobów
 

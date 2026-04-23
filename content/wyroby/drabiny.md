@@ -57,6 +57,8 @@ Komisja Europejska sygnalizuje, że rodzina 36 może zostać połączona z rodzi
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 36 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla drabin o prostszym profilu właściwości (drabiny do niskich instalacji, standardowe stalowe bez systemu bezpieczeństwa): producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
@@ -107,10 +109,10 @@ Rodzina 36 jest **całkowicie nową rodziną** – nie istniała w CPR 305/2011.
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 (pierwsze rozporządzenie z rodziną 36) | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
-Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm dotychczas nie podlegało CPR. Konieczne jest pilne dostosowanie do wymagań certyfikacyjnych przed 8 stycznia 2026.
+Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm dotychczas nie podlegało CPR. W praktyce już teraz warto uporządkować dokumentację, badania i proces certyfikacji, ale zakres obowiązków produktowych będzie zależał od publikacji odpowiedniej hTS i harmonogramu wdrożenia dla tej rodziny.
 
 ## Przykłady wyrobów i zastosowania
 

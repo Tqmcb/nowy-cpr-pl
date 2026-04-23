@@ -100,7 +100,7 @@ GCD po wejściu w życie (spodziewany termin wdrożenia do prawa krajowego: 2027
 
 ## Jakie twierdzenia są dozwolone, a jakie wymagają weryfikacji
 
-Na podstawie projektu GCD i istniejących wytycznych Komisji Europejskiej, poniżej zarys dopuszczalności:
+Na podstawie projektu GCD i istniejących wytycznych Komisji Europejskiej poniżej przedstawiono zarys dopuszczalności:
 
 **Twierdzenia dozwolone bez dodatkowej weryfikacji (poza wynikającą z systemu CPR):**
 - Deklarowanie konkretnych wartości z zarejestrowanego i zweryfikowanego EPD (np. „GWP: 3,2 kg CO2 eq./m² — dane z EPD nr XYZ"),

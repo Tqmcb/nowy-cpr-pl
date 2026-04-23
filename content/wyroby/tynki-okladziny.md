@@ -36,6 +36,8 @@ Rodzina 21 obejmuje również **systemy ETICS** (ang. External Thermal Insulatio
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla wyrobów z rodziny 21 obowiązuje:
 
 - **System AVS 3** – dla tynków zewnętrznych stosowanych w obiektach o wymaganiach ogniowych lub konstrukcyjnych, oraz dla zestawów ścianek działowych o deklarowanej odporności ogniowej (EI 30, EI 60, EI 120). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania ITT (w tym badania ogniowe), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**; numer JN pojawia się w oznakowaniu CE.
@@ -94,7 +96,7 @@ Systemy GK (płyty gipsowo-kartonowe) są najczęściej testowane jako zestawy (
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – DoP&C z deklaracją VOC |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD dla systemów ETICS z CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

@@ -36,6 +36,8 @@ Rodzina obejmuje: systemy sygnalizacji pożarowej (SSP) – centrale, czujniki d
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Wszystkie wyroby z rodziny 10 podlegają **systemowi AVS 1** – najwyższemu poziomowi rygoru certyfikacyjnego. Wynika to wprost z podstawowego wymagania bezpieczeństwa nr 2 CPR: „Bezpieczeństwo pożarowe" – urządzenia ochrony ppoż. muszą działać niezawodnie w sytuacji zagrożenia życia.
 
 W systemie AVS 1 zakres zadań jednostki notyfikowanej obejmuje:
@@ -88,7 +90,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie GWP dla substancji gaśniczych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -96,7 +98,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 ## Przykłady wyrobów
 
-**Czujnik dymu optyczny EN 54-7**: Detektor optyczny punktowy, klasa A, temperatura pracy -10°C do +55°C, zgodny z EN 54-7. CNBOP-PIB (NB 1438) przeprowadza pełne badania ITT obejmujące czułość detekcji dymu, odporność EMC, stabilność termiczną i wilgotnościową. Producent uzyskuje CoCP i wystawia DoP&C.
+**Czujnik dymu optyczny EN 54-7**: Detektor optyczny punktowy, klasa A, temperatura pracy -10°C do +55°C, zgodny z EN 54-7. CNBOP-PIB (NB 1438) przeprowadza pełne badania ITT obejmujące czułość detekcji dymu, odporność EMC, stabilność termiczną i wilgotnościową. Producent uzyskuje CoCP i na obecnym etapie stosuje wymagania wynikające z hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C.
 
 **Tryskacz standardowy K80, T=68°C**: Tryskacz przyścienny, K-faktor K80, temperatura zadziałania 68°C (klasa N – normalna), obudowa mosiężna, powłoka chromowa, EN 12259-1. Każda seria produkcyjna podlega kontroli FPC z badaniem ciśnienia wybuchu i K-faktoru w statystycznie dobranych próbkach.
 
@@ -109,7 +111,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 - [ ] Przeprowadzić pełne badanie ITT pod nadzorem jednostki notyfikowanej (AVS 1)
 - [ ] Wdrożyć system FPC z kompletną dokumentacją procesu produkcji i badań kontrolnych
 - [ ] Uzyskać certyfikat CoCP od jednostki notyfikowanej (CNBOP-PIB lub inna JN z kompetencjami ppoż.)
-- [ ] Sporządzić DoP&C (zmiana z DoP) w języku polskim i udostępnić cyfrowo
+- [ ] Przygotować wzór przyszłego DoP&C w języku polskim oraz sposób jego cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem JN (1438 dla CNBOP-PIB)
 - [ ] Przeprowadzić przegląd substancji gaśniczych pod kątem GWP (wycofywanie HFC w systemach gazowych)

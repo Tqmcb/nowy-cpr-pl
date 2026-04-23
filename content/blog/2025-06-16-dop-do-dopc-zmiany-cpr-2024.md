@@ -20,7 +20,7 @@ Od 8 stycznia 2026 roku obowiązuje rozporządzenie CPR (UE) 2024/3110, które z
 
 > **Ważne — przepisy przejściowe (art. 4–9 CPR 305/2011):** Stare DoP wystawione zgodnie z CPR 305/2011 zachowują moc prawną na mocy przepisów przejściowych CPR 2024/3110 — artykuły 4–9 rozporządzenia 305/2011 (w tym wymagania dotyczące DoP i oznakowania CE) pozostają stosowane do **8 stycznia 2040 roku**. Oznacza to, że istniejący DoP dla wyrobu z ważnym certyfikatem AVCP **nie musi być natychmiast zastąpiony**. Praktycznym momentem przejścia na DoP&C będzie aktualizacja normy zharmonizowanej wyrobu na nową hTS lub odnowienie certyfikatu JN.
 
-Litera „&C" to nie kosmetyczna zmiana nazwy — to istotne rozszerzenie zakresu odpowiedzialności producenta. Ten artykuł wyjaśnia co nowego zawiera DoP&C, kiedy staje się obowiązkowy i jak długo możesz korzystać z istniejących dokumentów.
+Litera „&C” to nie kosmetyczna zmiana nazwy — to istotne rozszerzenie zakresu odpowiedzialności producenta. Ten artykuł wyjaśnia, co nowego zawiera DoP&C, kiedy staje się obowiązkowy i jak długo możesz korzystać z istniejących dokumentów.
 
 ## Czym jest DoP&C i skąd się wzięła ta zmiana?
 
@@ -92,11 +92,11 @@ Ważne: zmiana formatu dokumentu (DoP → DoP&C) **nie wymaga powtarzania badań
 
 ## Praktyczny plan działania dla producenta
 
-1. **Audyt istniejących DoP** — sprawdź które wyroby mają DoP zgodny z CPR 305/2011 i które należy zaktualizować
+1. **Audyt istniejących DoP** — sprawdź, które wyroby mają DoP zgodny z CPR 305/2011 i które należy zaktualizować
 2. **Aktualizacja szablonu dokumentu** — zmień nazwę, dodaj pola dla unikalnego kodu, danych importera, właściwości środowiskowych (nawet jeśli na razie NPD)
 3. **Uruchom cyfrową dostępność** — wygeneruj stronę lub link (URL) dla każdego DoP&C; możesz też dobrowolnie umieścić QR kod na etykiecie (obowiązkowy dopiero po aktach delegowanych KE ~2027)
 4. **Zaktualizuj treść podpisu** — upewnij się, że osoba podpisująca DoP&C ma odpowiednie pełnomocnictwo i świadomość zakresu odpowiedzialności
-5. **Poinformuj importerów** — jeśli Twoje wyroby są importowane do UE, upewnij się że importer rozumie że jego dane muszą figurować w DoP&C
+5. **Poinformuj importerów** — jeśli Twoje wyroby są importowane do UE, upewnij się, że importer rozumie, że jego dane muszą figurować w DoP&C
 
 ## Najczęściej zadawane pytania
 

@@ -30,7 +30,7 @@ Zrozumienie, która droga jest właściwa dla konkretnego wyrobu, ma fundamental
 
 ETA jest obligatoryjna w sytuacji, gdy dla danego wyrobu budowlanego nie istnieje żadna właściwa norma zharmonizowana i nie ma perspektyw jej opracowania w rozsądnym czasie. Dotyczy to w szczególności wyrobów innowacyjnych — takich jak nowe systemy mocowania, kompozytowe elementy konstrukcyjne, systemy izolacji o niekonwencjonalnym składzie chemicznym czy inteligentne systemy fasadowe.
 
-Producent wyrobu innowacyjnego, który chce sprzedawać go na terenie UE i legalnie afiszować znakiem CE, musi złożyć wniosek o EAD do wybranego TAB. Jeśli EAD dla danego wyrobu lub grupy wyrobów już istnieje (jest opublikowany na stronie EOTA), TAB przystępuje do oceny bezpośrednio. Jeśli nie — inicjuje się proces opracowania nowego EAD, co jest bardziej czasochłonne.
+Producent wyrobu innowacyjnego, który chce sprzedawać go na terenie UE i legalnie oznaczać znakiem CE, musi złożyć wniosek o EAD do wybranego TAB. Jeśli EAD dla danego wyrobu lub grupy wyrobów już istnieje (jest opublikowany na stronie EOTA), TAB przystępuje do oceny bezpośrednio. Jeśli nie — inicjuje się proces opracowania nowego EAD, co jest bardziej czasochłonne.
 
 ## Kiedy ETA jest opcją dobrowolną
 

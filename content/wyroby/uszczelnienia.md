@@ -39,10 +39,12 @@ Chemicznie uszczelniacze dzielą się na: **silikonowe** (najwyższa trwałość
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla uszczelniaczy sanitarnych klasy 12,5 w zastosowaniach wewnętrznych standardowych: producent samodzielnie wykonuje badania wstępne i prowadzi ZKP.
-- **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – dla uszczelniaczy fasadowych, szklarskich i drogowych, a także uszczelniaczy klasy 25 i wyżej: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
@@ -53,7 +55,7 @@ Dla rodziny 32 obowiązują systemy AVS (Assessment and Verification of Constanc
 - **25** – ±25% szerokości (fasady z dużymi ruchami termicznymi, szczeliny przy płytach balkonowych)
 - **12,5E** – ±12,5% dla zastosowań z obciążeniem mimośrodowym
 
-Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniaczy i musi być wyraźnie zadeklarowana w DoP&C.
+Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniaczy i musi być wyraźnie zadeklarowana w dokumentacji wyrobu; docelowo po publikacji odpowiedniej hTS będzie ujmowana w DoP&C.
 
 **Przyczepność do podłoży (adhezja):**
 - Badanie metodą H lub T wg EN ISO 8339/8340
@@ -82,7 +84,7 @@ Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniacz
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania

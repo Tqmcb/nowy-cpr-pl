@@ -35,6 +35,8 @@ Z perspektywy środowiskowej ceramika murowa (cegły wypalane) należy do materi
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Rodzina 17 stosuje zróżnicowane systemy AVS zależnie od zastosowania:
 
 - **System AVS 2+** – dla elementów murowych stosowanych w murach nośnych. Jednostka notyfikowana certyfikuje ZKP producenta. Certyfikat ZKP wystawiany przez JN jest wymagany do oznakowania CE wyrobu przeznaczonego do zastosowań nośnych.
@@ -86,7 +88,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – wymagana DoP&C |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD na podstawie CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

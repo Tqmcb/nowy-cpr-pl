@@ -32,10 +32,12 @@ Klasyfikacja klejów do płytek wg EN 12004-1 obejmuje trzy grupy chemiczne: **C
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**, zależnie od klasy wyrobu i deklarowanego zastosowania.
 
 - **System AVS 4** – kleje klasy C1 i D1 w standardowych zastosowaniach wewnętrznych: producent samodzielnie przeprowadza badanie wstępne i prowadzi zakładową kontrolę produkcji (ZKP) bez udziału jednostki notyfikowanej.
-- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent wystawia DoP&C na podstawie certyfikatu JN; numer JN pojawia się w oznakowaniu CE.
+- **System AVS 3** – kleje ulepszone (C2, D2), reaktywne (R1/R2), odkształcalne (S1/S2) oraz do zastosowań zewnętrznych i stref mokrych: notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent na obecnym etapie działa według hEN i DoP, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; numer JN pojawi się wtedy w oznakowaniu CE zgodnym z nowym modelem.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
@@ -66,10 +68,10 @@ Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constanc
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
-Producenci klejów budowlanych mają czas do 8 stycznia 2026 na dostosowanie dokumentacji technicznej, aktualizację DoP&C oraz wdrożenie nowych procedur ZKP zgodnych z wymaganiami CPR 2024.
+Producenci klejów budowlanych powinni wykorzystać ten okres na przygotowanie dokumentacji technicznej, szablonów przyszłego DoP&C oraz procedur ZKP zgodnych z CPR 2024. Sam moment przejścia będzie zależał od publikacji odpowiedniej hTS i zakończenia okresu koegzystencji.
 
 ## Przykłady wyrobów i zastosowania
 

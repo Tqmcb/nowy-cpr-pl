@@ -134,7 +134,7 @@ export default function Wyroby() {
                   <button
                     key={cat}
                     onClick={() => setActiveCategory(cat)}
-                    className="px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] transition-all"
+                    className="px-3 sm:px-4 py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.12em] transition-all"
                     style={{
                       backgroundColor: activeCategory === cat ? "oklch(20% .03 264)" : "white",
                       color: activeCategory === cat ? "white" : "oklch(42% .02 264)",
@@ -146,7 +146,7 @@ export default function Wyroby() {
                   </button>
                 ))}
                 {filtered.length > 0 && !loading && (
-                  <span className="ml-auto editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
+                  <span className="w-full sm:w-auto mt-2 sm:mt-0 sm:ml-auto editorial-kicker text-right" style={{ color: "oklch(60% .015 264)" }}>
                     {filtered.length} wyrobów
                   </span>
                 )}
@@ -239,7 +239,7 @@ export default function Wyroby() {
                         </p>
 
                         {/* CTA */}
-                        <div className="mt-auto pt-4 flex items-center justify-between gap-2" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+                        <div className="mt-auto pt-4 flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-3" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
                           {wyrob.date && (
                             <span className="editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
                               {new Date(wyrob.date).toLocaleDateString("pl-PL", { month: "short", year: "numeric" })}
@@ -247,11 +247,11 @@ export default function Wyroby() {
                           )}
                           <button
                             onClick={(e) => { e.stopPropagation(); goToWyrob(wyrob.slug); }}
-                            className="editorial-kicker flex items-center gap-1.5 group-hover:gap-2.5 transition-all ml-auto"
+                            className="editorial-kicker flex w-full sm:w-auto items-center justify-between sm:justify-end gap-1.5 group-hover:gap-2.5 transition-all self-stretch sm:self-auto sm:ml-auto whitespace-nowrap"
                             style={{ color: "oklch(55% .22 27)" }}
                           >
                             Sprawdź wymagania
-                            <ChevronRight className="w-4 h-4" />
+                            <ChevronRight className="w-4 h-4 shrink-0" />
                           </button>
                         </div>
                       </div>

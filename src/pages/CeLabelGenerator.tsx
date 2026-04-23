@@ -41,13 +41,13 @@ const EMPTY: LabelData = {
 
 const EXAMPLE: LabelData = {
   producerName: "ABC Budowlana Sp. z o.o.",
-  producerAddress: "ul. Przemyslowa 15, 00-001 Warszawa",
+  producerAddress: "ul. Przemysłowa 15, 00-001 Warszawa",
   productName: "Okno PVC 3-szybowe OKN-150",
   notifiedBodyNumber: "1234",
   dopcNumber: "DoPC-2026-001",
   year: new Date().getFullYear().toString().slice(-2),
   harmonizedStandard: "EN 14351-1:2006+A2:2016",
-  declaredProperties: "Uw = 0,9 W/(m²K)\nRw = 35 dB\nKlasa 4 - przepuszczalnosc powietrza",
+  declaredProperties: "Uw = 0,9 W/(m²K)\nRw = 35 dB\nKlasa 4 - przepuszczalność powietrza",
 };
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -144,7 +144,7 @@ function CeLabelPreview({ data }: { data: LabelData }) {
 
       {/* Declared properties */}
       <text x="20" y="278" fontSize="10" fill="#94a3b8">
-        Deklarowane wlasciwosci uzytkowe
+        Deklarowane właściwości użytkowe
       </text>
       {lines.length > 0 ? (
         lines.map((line, i) => (
@@ -154,7 +154,7 @@ function CeLabelPreview({ data }: { data: LabelData }) {
         ))
       ) : (
         <text x="20" y="296" fontSize="11" fill="#94a3b8" fontStyle="italic">
-          (wpisz wlasciwosci)
+          (wpisz właściwości)
         </text>
       )}
 
@@ -193,7 +193,7 @@ export default function CeLabelGenerator() {
       <!DOCTYPE html>
       <html>
       <head>
-        <title>Etykieta CE - ${data.productName || "wyrob"}</title>
+        <title>Etykieta CE - ${data.productName || "wyrób"}</title>
         <style>
           body { margin: 0; display: flex; justify-content: center; align-items: flex-start; padding: 20mm; }
           svg { max-width: 100mm; height: auto; }
@@ -225,13 +225,13 @@ export default function CeLabelGenerator() {
     URL.revokeObjectURL(url);
   };
 
-  const pageTitle = "Generator etykiety CE - CPR 2024/3110 | NowyCPR.pl";
+  const pageTitle = "Generator etykiety CE — CPR 2024/3110 | NowyCPR.pl";
 
   return (
     <>
       <Helmet>
         <title>{pageTitle}</title>
-        <meta name="description" content="Wygeneruj etykiete oznakowania CE wyrobu budowlanego zgodna z Art. 8 CPR 2024/3110. Podglad na zywo, druk i pobranie SVG." />
+        <meta name="description" content="Wygeneruj etykietę oznakowania CE wyrobu budowlanego zgodną z art. 8 CPR 2024/3110. Podgląd na żywo, druk i pobranie SVG." />
         <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
       </Helmet>
       <div className="flex flex-col min-h-screen bg-white">
@@ -263,7 +263,7 @@ export default function CeLabelGenerator() {
                       type="text"
                       value={data.producerAddress}
                       onChange={(e) => update("producerAddress", e.target.value)}
-                      placeholder="np. ul. Przemyslowa 15, 00-001 Warszawa"
+                      placeholder="np. ul. Przemysłowa 15, 00-001 Warszawa"
                       className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30"
                     />
                   </div>
@@ -332,12 +332,12 @@ export default function CeLabelGenerator() {
 
                   <div>
                     <label className="block text-xs text-slate-500 mb-1.5">
-                      Deklarowane wlasciwosci uzytkowe (kazda w nowej linii)
+                      Deklarowane właściwości użytkowe (każda w nowej linii)
                     </label>
                     <textarea
                       value={data.declaredProperties}
                       onChange={(e) => update("declaredProperties", e.target.value)}
-                      placeholder={"Uw = 0,9 W/(m2K)\nRw = 35 dB\nKlasa 4 - przepuszczalnosc powietrza"}
+                      placeholder={"Uw = 0,9 W/(m2K)\nRw = 35 dB\nKlasa 4 - przepuszczalność powietrza"}
                       rows={4}
                       className="w-full px-4 py-2.5 bg-white border border-slate-200 rounded-[2px] text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-[oklch(55%_.22_27)]/50 focus:ring-1 focus:ring-[oklch(55% .22 27)]/30 resize-y"
                     />
@@ -382,7 +382,7 @@ export default function CeLabelGenerator() {
                 <div className="sticky top-28">
                   <div className="flex items-center gap-2 mb-4">
                     <Eye className="w-4 h-4 text-[oklch(55%_.22_27)]" />
-                    <h2 className="text-lg font-semibold text-[oklch(20%_.03_264)]">Podglad etykiety</h2>
+                    <h2 className="text-lg font-semibold text-[oklch(20%_.03_264)]">Podgląd etykiety</h2>
                   </div>
                   <div
                     ref={svgContainerRef}

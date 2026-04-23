@@ -40,14 +40,16 @@ Do rodziny 26 należą również wyroby do naprawy betonu (zaprawy naprawcze wg 
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 26 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **2+** i **3**:
 
-- **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Certyfikat ZKP jest wymagany – bez niego nie można wystawić DoP&C.
+- **System AVS 2+** – dla domieszek do betonu (EN 934-2) i kluczowych dodatków mineralnych: jednostka notyfikowana przeprowadza certyfikację zakładowej kontroli produkcji (ZKP), a producent wykonuje wstępne badanie typu. Po publikacji odpowiedniej hTS certyfikat ZKP będzie warunkiem przejścia na model DoP&C.
 - **System AVS 3** – dla domieszek do zapraw murarskich (EN 934-3) i betonu natryskowego (EN 934-5): notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie typu (ITT), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi ZKP.
 
-W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną stanowi jej obowiązkowy załącznik.
+W modelu docelowym CPR 2024/3110 producent będzie wystawiał **Deklarację Właściwości Użytkowych i Zgodności (DoP&C)**, a certyfikat ZKP wystawiony przez jednostkę notyfikowaną będzie stanowił jej załącznik. Do czasu publikacji odpowiedniej hTS co do zasady stosuje się dotychczasowe dokumenty wynikające z hEN.
 
-**System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i jest wymagana przez CPR 2024/3110 dla wszystkich deklaracji środowiskowych.
+**System AVS 3+** – walidacja danych środowiskowych. Jeżeli producent będzie deklarował w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki mogą wymagać walidacji w systemie 3+ po opublikowaniu odpowiednich hTS i aktów wykonawczych. Walidacja potwierdza rzetelność obliczeń LCA.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -58,7 +60,7 @@ W systemie AVS 2+ producent wystawia **Deklarację Właściwości Użytkowych i 
 - Opóźnianie: czas wiązania wydłużony o ≥ 90 minut
 
 **Właściwości środowiskowe – priorytet CPR 2024:**
-- Potencjał globalnego ocieplenia (GWP) – deklaracja obowiązkowa dla dodatków mineralnych
+- Potencjał globalnego ocieplenia (GWP) – parametr docelowo deklarowany dla dodatków mineralnych po publikacji odpowiednich hTS
 - Zawartość substancji regulowanych (chlorki, alkalia) – limity wpływające na trwałość zbrojenia
 - Biodegradowalność składników organicznych domieszek
 
@@ -77,7 +79,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania
@@ -99,7 +101,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 - [ ] Uzyskać certyfikat ZKP od jednostki notyfikowanej (system AVS 2+)
 - [ ] Przeprowadzić badania chlorków, alkaliów i substancji szkodliwych
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
-- [ ] Sporządzić DoP&C w nowym formacie CPR 2024 i umieścić oznakowanie CE
+- [ ] Przygotować wzór DoP&C i plan przejścia z DoP po publikacji odpowiedniej hTS oraz odpowiednio zaktualizować oznakowanie CE
 - [ ] Ocenić i zadeklarować GWP wyrobu (BWR 7)
 - [ ] Sprawdzić zawartość substancji SVHC i zarejestrować w bazie SCIP
 - [ ] Zaktualizować kartę charakterystyki (SDS) zgodnie z CLP i REACH

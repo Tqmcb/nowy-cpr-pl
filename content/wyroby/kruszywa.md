@@ -36,6 +36,8 @@ CPR 2024/3110 wprowadza szczególnie istotne zmiany dla kruszyw z recyklingu –
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
 
 1. **Producent** – wdraża i prowadzi zakładową kontrolę produkcji (ZKP) obejmującą regularną kontrolę uziarnienia, właściwości geometrycznych, fizycznych i chemicznych kruszywa. Częstotliwości badań określone są w normie wyrobu (np. EN 12620).
@@ -97,7 +99,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – DoP&C z deklaracją GWP |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

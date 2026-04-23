@@ -70,7 +70,7 @@ CPR 2024/3110 precyzuje krąg podmiotów odpowiedzialnych:
 
 ## Jak przebiega postępowanie nadzorcze w Polsce?
 
-Organem nadzoru rynku wyrobów budowlanych w Polsce jest **[GUNB](https://www.gunb.gov.pl)** (Główny Urząd Nadzoru Budowlanego) oraz **WINBy** (Wojewódzkie Inspektoraty Nadzoru Budowlanego).
+Organami nadzoru rynku wyrobów budowlanych w Polsce są **[GUNB](https://www.gunb.gov.pl)** (Główny Urząd Nadzoru Budowlanego) oraz **WINB** (wojewódzkie inspektoraty nadzoru budowlanego).
 
 Typowe postępowanie:
 1. Inspektor pobiera próbki z rynku lub sklepu internetowego

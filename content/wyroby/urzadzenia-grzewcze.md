@@ -39,6 +39,8 @@ Główne właściwości użytkowe deklarowane w DoP&C obejmują: sprawność ene
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constancy of Performance) nr **3** i **4**:
 
 - **System AVS 4** – dla urządzeń grzewczych niższej klasy, o prostszym profilu właściwości deklarowanych, stosowanych w standardowych warunkach budowlanych: producent samodzielnie przeprowadza badanie typu i zakładową kontrolę produkcji (ZKP).
@@ -81,7 +83,7 @@ Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constanc
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania
@@ -100,7 +102,7 @@ Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constanc
 - [ ] Wybrać właściwy system AVS (3 lub 4) i odpowiednią normę zharmonizowaną
 - [ ] Zlecić badania ITT w laboratorium notyfikowanym (AVS 3): sprawność, NOx, CO, PM
 - [ ] Wdrożyć zakładową kontrolę produkcji (ZKP) i prowadzić jej dokumentację
-- [ ] Sporządzić DoP&C w nowym formacie CPR 2024 z deklaracją wszystkich wymaganych właściwości
+- [ ] Przygotować wzór przyszłego DoP&C z deklaracją wszystkich wymaganych właściwości oraz plan przejścia po publikacji odpowiedniej hTS
 - [ ] Ocenić GWP urządzenia i ująć w DoP&C (BWR 7)
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Umieścić oznakowanie CE na urządzeniu i w dokumentacji sprzedażowej

@@ -199,7 +199,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
       step: stepNum++,
       title: "Zaktualizuj dokumentację z CPR 305/2011 na CPR 2024",
       description:
-        "Przygotuj sie na przejscie: gdy zostanie opublikowana hTS dla Twojej rodziny wyrobow, bedziesz musial zamienic stara DoP na nowa DoP&C i zaktualizowac oznakowanie CE wg Art. 20. Juz teraz mozesz dostosowywac dokumentacje ZKP. Istniejace certyfikaty JN moga byc podstawa do uproszczonej procedury.",
+        "Przygotuj się na przejście: gdy zostanie opublikowana hTS dla Twojej rodziny wyrobów, będziesz musiał zamienić starą DoP na nową DoP&C i zaktualizować oznakowanie CE zgodnie z art. 20. Już teraz możesz dostosowywać dokumentację ZKP. Istniejące certyfikaty JN mogą być podstawą do uproszczonej procedury.",
       critical: true,
     });
   }
@@ -208,7 +208,7 @@ function generateChecklist(state: WizardState): ChecklistItem[] {
   if (state.companySize === "mikro") {
     items.push({
       step: stepNum++,
-      title: "Skorzystaj z uproszczeń dla mikroprzedsiebiorstw (Art. 8)",
+      title: "Skorzystaj z uproszczeń dla mikroprzedsiębiorstw (art. 8)",
       description:
         "Jako mikroprzedsiębiorstwo możesz: stosować uproszczone procedury oceny, korzystać z uproszczonej dokumentacji technicznej. Skonsultuj szczegóły z JN.",
     });
@@ -282,13 +282,13 @@ export default function CeWizard() {
     }
   };
 
-  const pageTitle = "Sciezka do CE - Wizard certyfikacji CPR 2024 | NowyCPR.pl";
+  const pageTitle = "Ścieżka do CE — kreator certyfikacji CPR 2024 | NowyCPR.pl";
 
   return (
     <>
       <Helmet>
         <title>{pageTitle}</title>
-        <meta name="description" content="Interaktywny kreator sciezki do oznakowania CE wyrobu budowlanego wg CPR 2024/3110. Odpowiedz na 5 pytan i otrzymaj spersonalizowana checkliste." />
+        <meta name="description" content="Interaktywny kreator ścieżki do oznakowania CE wyrobu budowlanego wg CPR 2024/3110. Odpowiedz na 5 pytań i otrzymaj spersonalizowaną checklistę." />
         <link rel="canonical" href="https://www.nowycpr.pl/sciezka-ce" />
       </Helmet>
       <div className="flex flex-col min-h-screen bg-white">
@@ -360,9 +360,9 @@ export default function CeWizard() {
                     <div>
                       <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
                         <Globe className="w-5 h-5 text-[oklch(55%_.22_27)]" />
-                        Gdzie sprzedajesz wyrob?
+                        Gdzie sprzedajesz wyrób?
                       </h2>
-                      <p className="text-slate-500 text-sm mb-6">Zakres rynku okreslony w CPR.</p>
+                      <p className="text-slate-500 text-sm mb-6">Zakres rynku określony w CPR.</p>
                       <div className="space-y-3">
                         {([
                           { value: "ue" as MarketScope, label: "Rynek UE / EOG", desc: "Sprzedaż na terenie Unii Europejskiej lub Europejskiego Obszaru Gospodarczego" },
@@ -393,12 +393,12 @@ export default function CeWizard() {
                         <Building2 className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Jaka jest wielkość Twojej firmy?
                       </h2>
-                      <p className="text-slate-500 text-sm mb-6">Mikroprzedsiebiorstwa moga korzystac z uproszczeń.</p>
+                      <p className="text-slate-500 text-sm mb-6">Mikroprzedsiębiorstwa mogą korzystać z uproszczeń.</p>
                       <div className="space-y-3">
                         {([
-                          { value: "mikro" as CompanySize, label: "Mikroprzedsiebiorstwo", desc: "<10 pracownikow, obroty <2 mln EUR" },
-                          { value: "msp" as CompanySize, label: "Małe / średnie przedsiebiorstwo", desc: "10-250 pracownikow" },
-                          { value: "duza" as CompanySize, label: "Duże przedsiebiorstwo", desc: ">250 pracownikow" },
+                          { value: "mikro" as CompanySize, label: "Mikroprzedsiębiorstwo", desc: "<10 pracowników, obroty <2 mln EUR" },
+                          { value: "msp" as CompanySize, label: "Małe / średnie przedsiębiorstwo", desc: "10-250 pracowników" },
+                          { value: "duza" as CompanySize, label: "Duże przedsiębiorstwo", desc: ">250 pracowników" },
                         ]).map((opt) => (
                           <button
                             key={opt.value}
@@ -424,7 +424,7 @@ export default function CeWizard() {
                         <Shield className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Czy posiadasz certyfikat?
                       </h2>
-                      <p className="text-slate-500 text-sm mb-6">Istniejace certyfikaty mogą uproscic przejscie na CPR 2024.</p>
+                      <p className="text-slate-500 text-sm mb-6">Istniejące certyfikaty mogą uprościć przejście na CPR 2024.</p>
                       <div className="space-y-3">
                         {([
                           { value: "tak-305" as HasExistingCert, label: "Tak, certyfikat wg CPR 305/2011 (stary system)", desc: "Posiadam certyfikat AVCP / hEN wydany na podstawie CPR 305/2011" },
@@ -454,7 +454,7 @@ export default function CeWizard() {
                         <FileText className="w-5 h-5 text-[oklch(55%_.22_27)]" />
                         Czy masz wdrożony system ZKP (FPC)?
                       </h2>
-                      <p className="text-slate-500 text-sm mb-6">Zakladowa Kontrola Produkcji jest obowiazkowa dla wszystkich systemow AVS.</p>
+                      <p className="text-slate-500 text-sm mb-6">Zakładowa Kontrola Produkcji jest obowiązkowa dla wszystkich systemów AVS.</p>
                       <div className="space-y-3">
                         {([
                           { value: true, label: "Tak", desc: "Mam udokumentowany system ZKP" },
@@ -482,9 +482,9 @@ export default function CeWizard() {
                     <div>
                       <h2 className="text-xl font-semibold text-[oklch(20%_.03_264)] mb-2 flex items-center gap-2">
                         <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)]" />
-                        Czy wyrob wymaga odpornosci ogniowej?
+                        Czy wyrób wymaga odporności ogniowej?
                       </h2>
-                      <p className="text-slate-500 text-sm mb-6">Wyroby z deklarowana odpornoscia ogniowa wymagaja systemu AVS 1.</p>
+                      <p className="text-slate-500 text-sm mb-6">Wyroby z deklarowaną odpornością ogniową wymagają systemu AVS 1.</p>
                       <div className="space-y-3">
                         {([
                           { value: true, label: "Tak", desc: "Wyrób ma deklarowaną odporność ogniową (EI, REI, EW)" },
@@ -514,7 +514,7 @@ export default function CeWizard() {
                       className="flex items-center gap-2 text-slate-500 hover:text-[oklch(20%_.03_264)] transition-colors text-sm"
                     >
                       <ChevronLeft className="w-4 h-4" />
-                      {state.step === 1 ? "Strona glowna" : "Wstecz"}
+                      {state.step === 1 ? "Strona główna" : "Wstecz"}
                     </button>
                     <button
                       onClick={handleNext}
@@ -538,7 +538,7 @@ export default function CeWizard() {
                 <div className="bg-slate-50 border border-slate-200 rounded-[2px] p-6 mb-8">
                   <div className="flex flex-wrap items-start justify-between gap-4">
                     <div>
-                      <h2 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Twoja sciezka do CE</h2>
+                      <h2 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Twoja ścieżka do CE</h2>
                       <div className="flex flex-wrap gap-2">
                         <span className="text-xs px-3 py-1 rounded-full bg-[oklch(55%_.22_27)]/10 border border-[oklch(55%_.22_27)]/30 text-[oklch(55%_.22_27)] font-bold">
                           {state.product!.label}
@@ -572,7 +572,7 @@ export default function CeWizard() {
                 <div className="flex items-start gap-3 p-4 rounded-[2px] bg-[oklch(55%_.22_27)]/5 border border-[oklch(55%_.22_27)]/20 mb-6">
                   <AlertTriangle className="w-5 h-5 text-[oklch(55%_.22_27)] shrink-0 mt-0.5" />
                   <div className="text-sm text-slate-700 leading-relaxed">
-                    <strong className="text-[oklch(55%_.22_27)]">Wazne:</strong> Ponizsze kroki opisuja docelowy proces wg CPR 2024. Nowe obowiazki (DoP&C, AVS, nowe oznakowanie CE) wchodza w zycie <strong>dopiero po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS)</strong> dla danej rodziny wyrobow. Do tego czasu stosuj dotychczasowe normy hEN i system AVCP. Checklista pomoze Ci przygotowac sie na nadchodzace zmiany.
+                    <strong className="text-[oklch(55%_.22_27)]">Ważne:</strong> Poniższe kroki opisują docelowy proces według CPR 2024. Nowe obowiązki (DoP&C, AVS, nowe oznakowanie CE) wchodzą w życie <strong>dopiero po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS)</strong> dla danej rodziny wyrobów. Do tego czasu stosuj dotychczasowe normy hEN i system AVCP. Checklista pomoże Ci przygotować się na nadchodzące zmiany.
                   </div>
                 </div>
 

@@ -63,7 +63,7 @@ CPR 2024 nie działa w próżni prawnej — nakłada się na szerszy system regu
 | Podmioty zobowiązane | Platformy online (w tym marketplace) | Platformy handlowe online sprzedające wyroby budowlane |
 | Duże platformy (VLOP) | Dodatkowe obowiązki (audyty ryzyka, przejrzystość reklamy) | Brak odrębnych przepisów dla VLOP w CPR 2024 |
 | Sankcje | Do 6% globalnego obrotu rocznego | Sankcje krajowe (polskie przepisy implementacyjne) |
-| Koordynacja | Koordynatorzy ds. Usług Cyfrowych (DSC) | Organy nadzoru rynku budowlanego (GUNB, IJHARS, etc.) |
+| Koordynacja | Koordynatorzy ds. Usług Cyfrowych (DSC) | Organy nadzoru rynku budowlanego (GUNB, IJHARS itd.) |
 
 CPR 2024 uzupełnia DSA — tam gdzie DSA jest ogólną regulacją o treściach i produktach nielegalnych, CPR 2024 tworzy specyficzny reżim dla wyrobów budowlanych, z jasno określonymi organami (inspektoraty nadzoru budowlanego) uprawnionymi do wydawania nakazów usunięcia ofert.
 
@@ -102,7 +102,7 @@ Duże platformy marketplace, takie jak Amazon i Allegro, muszą dostosować swoj
 - Wdrożenie procedur szybkiego reagowania na powiadomienia organów nadzoru rynku,
 - Szkolenie zespołów odpowiedzialnych za compliance w zakresie wymagań CPR 2024.
 
-Dla platform, które działają w wielu krajach UE, wyzwaniem jest ujednolicenie procedur przy jednoczesnym uwzględnieniu krajowych specyfik implementacji CPR 2024 (różne organy nadzoru, różne języki wymagań).
+Dla platform, które działają w wielu krajach UE, wyzwaniem jest ujednolicenie procedur przy jednoczesnym uwzględnieniu krajowej specyfiki wdrożenia CPR 2024 (różne organy nadzoru, różne języki wymagań).
 
 ## Podsumowanie
 

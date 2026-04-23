@@ -36,6 +36,8 @@ Jedną ze specyfik rodziny 22 jest klasa odporności ogniowej **BROOF** – klas
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla wyrobów z rodziny 22 obowiązuje:
 
 - **System AVS 3** – dla dachówek ceramicznych i betonowych, papach bitumicznych i membranach dachowych stosowanych w budynkach o wymaganiach pożarowych (klasa BROOF). Notyfikowane laboratorium techniczne (NTL) przeprowadza badania wstępne ITT (w tym klasyfikację BROOF), a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent prowadzi ZKP; numer JN pojawia się w oznakowaniu CE.
@@ -80,7 +82,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 
 ## Zmiany względem CPR 305/2011
 
-1. **Deklarowanie GWP** – obowiązkowe dla wszystkich wyrobów dachowych w DoP&C.
+1. **Deklarowanie GWP** – docelowo będzie wymagane w DoP&C po publikacji odpowiednich hTS i aktów wykonawczych.
 2. **Cyrkulacja** – deklarowanie możliwości recyklingu, szczególnie ważne dla metali i PVC (membrany).
 3. **Substancje niebezpieczne** – papy z modyfikatorami polimerowymi (APP, SBS) muszą być sprawdzone pod kątem SVHC; membrany PVC – bez ftalanów z listy REACH.
 4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
@@ -90,7 +92,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 (np. dla systemów okien dachowych) |
 | 7 stycznia 2040 | Koniec okresu przejściowego |

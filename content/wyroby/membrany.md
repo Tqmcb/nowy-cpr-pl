@@ -33,6 +33,8 @@ Rodzina obejmuje: elastyczne membrany dachowe bitumiczne (APP i SBS) oraz polime
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Membrany hydroizolacyjne podlegają systemowi AVS 3 lub AVS 4, w zależności od wymagań konkretnej normy zharmonizowanej i zamierzonego zastosowania:
 
 **System AVS 3** stosuje się dla membran dachowych (EN 13956), membran fundamentowych (EN 13967, EN 13969) oraz membran do obiektów inżynierskich (EN 14695, EN 13491), gdy przepisy krajowe lub normy wyrobu wskazują na wyższe wymagania – np. gdy wyrób jest przeznaczony do zastosowania w budynkach użyteczności publicznej lub obiektach, których awaria mogłaby powodować poważne konsekwencje. W systemie AVS 3 notyfikowane laboratorium techniczne (NTL) przeprowadza wstępne badanie ITT, a jednostka notyfikowana (JN) wydaje **certyfikat właściwości użytkowych i zgodności wyrobu**. Producent samodzielnie prowadzi FPC i wystawia DoP&C; numer JN pojawia się w oznakowaniu CE.
@@ -59,7 +61,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 ## Zmiany względem CPR 305/2011
 
-**DoP → DoP&C i cyfryzacja**: Zmiana nazewnictwa wiąże się z obowiązkiem aktualizacji dokumentacji. Wszystkie DoP muszą zostać przekształcone w DoP&C zawierające nowe sekcje zgodności. Obowiązek udostępnienia w formie cyfrowej (link lub QR kod na etykiecie rolki) wchodzi w życie z dniem 8 stycznia 2026.
+**DoP → DoP&C i cyfryzacja**: Docelowo DoP&C zastąpi DoP po publikacji odpowiedniej hTS dla tej rodziny wyrobów. Do tego czasu producenci co do zasady posługują się DoP, ale warto już teraz przygotować wzór przyszłego DoP&C oraz sposób cyfrowego udostępniania dokumentów, np. przez link lub kod QR na etykiecie rolki.
 
 **Właściwości środowiskowe – nowe pola deklaracji**: CPR 2024 wymaga, aby w DoP&C pojawiły się pola dla właściwości środowiskowych. Dla membran kluczowe są: zawartość surowców z recyklingu (regranulet PVC, recyklingowany bitum – tzw. granulat asfaltowy RAP), trwałość wyrobu (gwarantowany czas eksploatacji [lata]), dane dotyczące możliwości recyklingu po zakończeniu użytkowania. Od 2027 oczekiwane jest obowiązkowe deklarowanie GWP według EN 15804.
 
@@ -71,7 +73,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 | Data | Zdarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne wejście w życie CPR 2024/3110 |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Oczekiwane akty delegowane dotyczące obowiązkowego GWP |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
@@ -80,7 +82,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 ## Przykłady wyrobów
 
-**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. System AVS 3 – producent zleca badanie ITT (wodoszczelność, wytrzymałość na rozciąganie, odporność na uderzenie) w laboratorium takim jak ITCZLin, następnie uzyskuje certyfikat właściwości użytkowych i zgodności od JN i wystawia DoP&C.
+**Membrana bitumiczna SBS dachowa**: Rolka membrany grubości 4,2 mm, nośnik z tkaniny z włókna szklanego + poliester, modyfikacja SBS, górna posypka łupkowa. Produkowana według EN 13956. Producent stosuje dziś wymagania właściwe dla hEN, a po publikacji odpowiedniej hTS będzie przechodził na docelowy model DoP&C.
 
 **Membrana PVC-P do fundamentów**: Folia PVC-P grubości 1,5 mm bez wzmocnienia, przeznaczona do izolacji fundamentów i ścian piwnic w kontakcie z gruntem. EN 13969, system AVS 3. Producent musi deklarować odporność na chemikalia glebowe (kwasy humusowe), wodoszczelność i wytrzymałość mechaniczną.
 
@@ -93,7 +95,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 - [ ] Przeprowadzić kompletne badanie ITT w akredytowanym laboratorium dla wszystkich deklarowanych właściwości
 - [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej (np. [Multicert](https://www.multicert.pl)) w celu uzyskania raportu z badania ITT
 - [ ] Opracować i wdrożyć procedury FPC (kontrola surowców, kontrola procesu, badania wyrobu gotowego)
-- [ ] Sporządzić DoP&C z wszystkimi wymaganymi normą właściwościami i udostępnić cyfrowo
+- [ ] Przygotować wzór DoP&C z właściwościami wymaganymi dla tej rodziny wyrobów oraz plan jego cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Przegląd składu wyrobu pod kątem SVHC (szczególnie plastyfikatory w PVC, PAH w bitumie)
 - [ ] Zebrać dane środowiskowe od dostawców bitumu i polimerów do przyszłej EPD (GWP obowiązkowe po publikacji nowych hTS)
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C

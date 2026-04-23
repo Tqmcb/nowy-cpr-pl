@@ -31,6 +31,8 @@ Drewno jest jednym z najstarszych materiałów konstrukcyjnych, lecz CPR 2024/31
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla drewna konstrukcyjnego z rodziny 13 obowiązuje:
 
 - **System AVS 1** – dla drewna sortowanego wytrzymałościowo maszynowo (klasy MSo) oraz dla elementów GLT/CLT/LVL przeznaczonych do zastosowań nośnych. W systemie 1 producent przeprowadza wewnętrzną kontrolę produkcji (ZKP), a jednostka notyfikowana (JN) wydaje certyfikat zgodności ZKP po przeprowadzeniu audytu oraz niezależnych badań próbek.
@@ -71,12 +73,12 @@ Najistotniejsze zmiany dla producentów drewna konstrukcyjnego wynikające z CPR
 
 | Data | Wydarzenie |
 |---|---|
-| 8 stycznia 2026 | Pełne stosowanie CPR 2024/3110 – wymagane DoP&C |
+| 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia przepisów |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
 | 7 stycznia 2040 | Koniec okresu przejściowego |
 
-Producenci, którzy uzyskali certyfikację pod CPR 305/2011, muszą zaktualizować dokumentację i DoP do formatu DoP&C najpóźniej do 8 stycznia 2026.
+Producenci, którzy uzyskali certyfikację pod CPR 305/2011, nie muszą automatycznie przechodzić na DoP&C z dniem 8 stycznia 2026. W praktyce moment przejścia będzie zależał od publikacji odpowiedniej hTS dla danej rodziny wyrobów oraz odnowienia certyfikacji.
 
 ## Przykłady wyrobów
 

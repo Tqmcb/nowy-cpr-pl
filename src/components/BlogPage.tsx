@@ -855,22 +855,22 @@ export function BlogPage() {
             <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{blogPosts.length}</span>
             <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>artykułów · {categories.length} kategorii</span>
           </div>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <Button
               onClick={() => document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" })}
-              className="text-white font-semibold px-6 py-3 transition-all"
+              className="w-full sm:w-auto justify-center text-white font-semibold px-6 py-3 transition-all whitespace-nowrap"
               style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
             >
-              <BookOpen className="w-4 h-4 mr-2" />
+              <BookOpen className="w-4 h-4 mr-2 shrink-0" />
               Przeglądaj artykuły
             </Button>
             <Button
               variant="outline"
-              className="font-semibold px-6 py-3 transition-all"
+              className="w-full sm:w-auto justify-center font-semibold px-6 py-3 transition-all whitespace-nowrap"
               style={{ border: "1px solid oklch(20% .03 264)", color: "oklch(20% .03 264)", borderRadius: "2px" }}
               onClick={() => document.getElementById("newsletter-section")?.scrollIntoView({ behavior: "smooth" })}
             >
-              <Mail className="w-4 h-4 mr-2" />
+              <Mail className="w-4 h-4 mr-2 shrink-0" />
               Newsletter
             </Button>
           </div>

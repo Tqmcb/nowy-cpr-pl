@@ -50,6 +50,8 @@ W odróżnieniu od większości rodzin CPR 2024, dla łączników **brakuje szer
 
 ## System AVS i certyfikacja
 
+> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+
 Dla łączników na podstawie ETA obowiązuje **system AVS 1** – najwyższy poziom nadzoru:
 
 - Jednostka oceny technicznej (TAB – Technical Assessment Body) przeprowadza pełną ocenę techniczną wyrobu i wydaje **Europejską Ocenę Techniczną (ETA)**.
@@ -97,7 +99,7 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 | Etap | Data |
 |---|---|
 | Wejście w życie CPR 2024/3110 | 8 stycznia 2025 |
-| Pełne stosowanie przepisów | **8 stycznia 2026** |
+| Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
 ## Przykłady wyrobów i zastosowania
