@@ -9,6 +9,7 @@ import { Container } from "../components/Container";
 import { Building2, ChevronRight, Calendar, ArrowLeft, FileText, HelpCircle, Newspaper, ExternalLink, CheckCircle2, Scale, ShieldCheck } from "lucide-react";
 import type { ProductFamily } from "../utils/wyrobLoader";
 import type { BlogPost } from "../utils/blogLoader";
+import { buildWyrobSnapshot } from "../utils/wyrobSummaries";
 import { Helmet } from "react-helmet-async";
 
 const WYROB_COMPONENTS: Components = {
@@ -193,6 +194,7 @@ export default function WyrobDetail() {
     "about": { "@type": "Thing", "name": "CPR 2024/3110" },
     "keywords": `CPR 2024, ${wyrob.category}, ${wyrob.avs_system}, wyroby budowlane`
   } : null;
+  const wyrobSnapshot = wyrob ? buildWyrobSnapshot(wyrob) : null;
 
   return (
     <>
@@ -309,6 +311,58 @@ export default function WyrobDetail() {
                       </a>
                     </div>
                   </div>
+
+                  {wyrobSnapshot && (
+                    <section className="mb-8 rounded-2xl border border-[oklch(92%_.008_264)] bg-white p-6 shadow-sm">
+                      <div className="mb-5">
+                        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[oklch(55%_.22_27)]">
+                          Szybki obraz sytuacji
+                        </p>
+                        <p className="mt-3 text-[15px] leading-relaxed text-slate-700">
+                          {wyrobSnapshot.familySummary}
+                        </p>
+                      </div>
+
+                      <div className="grid gap-4 md:grid-cols-3">
+                        <div className="rounded-xl border border-slate-200 bg-slate-50 p-5">
+                          <h2 className="mb-3 text-base font-semibold text-[oklch(20%_.03_264)]">
+                            Co obowiązuje dziś
+                          </h2>
+                          <p className="text-sm leading-relaxed text-slate-600">
+                            {wyrobSnapshot.currentStatus}
+                          </p>
+                        </div>
+
+                        <div className="rounded-xl border border-[oklch(55%_.22_27/0.18)] bg-[oklch(55%_.22_27/0.05)] p-5">
+                          <h2 className="mb-3 text-base font-semibold text-[oklch(20%_.03_264)]">
+                            Co zmieni się dla tej rodziny
+                          </h2>
+                          <ul className="space-y-2">
+                            {wyrobSnapshot.changes.slice(0, 4).map((item) => (
+                              <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
+                                <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(55%_.22_27)]" />
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <div className="rounded-xl border border-slate-200 bg-white p-5">
+                          <h2 className="mb-3 text-base font-semibold text-[oklch(20%_.03_264)]">
+                            Co zrobić teraz
+                          </h2>
+                          <ul className="space-y-2">
+                            {wyrobSnapshot.actions.slice(0, 5).map((item) => (
+                              <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
+                                <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(55%_.22_27)]" />
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                  )}
 
                   <div className="prose-light">
                     <ReactMarkdown remarkPlugins={[remarkGfm]} components={WYROB_COMPONENTS}>
