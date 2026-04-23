@@ -109,13 +109,13 @@ EPD indywidualne daje wyższą precyzję i często lepszą klasę GWR, bo uwzgl�
 
 ## Program EPD Polska i certyfikacja Multicert
 
-Operatorem programu **EPD Polska** jest **Multicert Sp. z o.o.** ([www.epd.org.pl](https://www.epd.org.pl)). Program działa zgodnie z EN 15804+A2 i ISO 14025, a Multicert realizuje weryfikację deklaracji w systemie AVS 3+ zgodnie z CPR 2024/3110. Deklaracje wystawiane w programie noszą markę **EPD+** i są publikowane na portalu [www.epdbeton.pl](https://www.epdbeton.pl).
+Operatorem programu **EPD Polska** jest **Multicert Sp. z o.o.** ([www.epd.org.pl](https://www.epd.org.pl)). Program działa zgodnie z EN 15804+A2 i ISO 14025, a deklaracje publikowane w tym systemie mogą stanowić praktyczną bazę do przyszłego wykorzystania danych środowiskowych w modelu CPR 2024/3110. Deklaracje wystawiane w programie noszą markę **EPD+** i są publikowane na portalu [www.epdbeton.pl](https://www.epdbeton.pl).
 
 Producent betonu, który chce uzyskać EPD, musi:
 
 1. **Przeprowadzić analizę LCA** swoich receptur — zebrać dane o emisjach z cementu, kruszyw, dodatków, wody, transportu i energii zużywanej w wytwórni.
 2. **Sporządzić raport LCA** zgodnie z EN 15804+A2 i EN 16757:2022.
-3. **Poddać EPD weryfikacji** przez niezależnego weryfikatora — w systemie AVS 3+ (wprowadzonym przez CPR 2024/3110) jest to akredytowane laboratorium badawcze (NTL).
+3. **Poddać EPD weryfikacji** przez niezależnego weryfikatora programu EPD; odrębnie CPR 2024 przewiduje przyszłą walidację danych środowiskowych w systemie AVS 3+.
 4. **Zarejestrować EPD** w programie EPD Polska lub innym uznanym programie europejskim.
 
 **Multicert** jako jednostka certyfikująca wspiera producentów betonu w całym tym procesie — od zbierania danych wejściowych do LCA, przez opracowanie raportu, aż po przygotowanie do weryfikacji i rejestracji EPD.

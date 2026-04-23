@@ -74,7 +74,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 **System 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie danych środowiskowych (wyników LCA) do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja danych środowiskowych przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
 
-**Cyfrowy paszport wyrobu (DPP)**: Każdy wyrób termoizolacyjny objęty będzie obowiązkiem posiadania DPP zawierającego: DoP&C, dane środowiskowe (GWP, EPD), skład materiałowy (ważne dla recyklingu), instrukcję montażu i demontażu. Format cyfrowy (QR kod, link) musi być dostępny od etapu etykietowania.
+**Cyfrowy paszport wyrobu (DPP)**: W modelu docelowym każdy wyrób termoizolacyjny objęty nowymi wymogami może zostać włączony do systemu DPP zawierającego: DoP&C, dane środowiskowe (GWP, EPD), skład materiałowy (ważne dla recyklingu) oraz instrukcję montażu i demontażu. Obowiązek ten będzie jednak zależał od nowych hTS i aktów delegowanych KE, więc nie należy traktować go jako automatycznie aktywnego już dziś dla całej rodziny.
 
 **Substancje niebezpieczne**: CPR 2024 zaostrza monitorowanie SVHC. Producenci EPS korzystający z trudnopalnych środków chemicznych muszą zapewnić aktualną dokumentację o braku regulowanych substancji; producenci XPS muszą wykazać przejście na środki spieniające HFO zamiast HFC (wymóg rozporządzenia F-gaz).
 

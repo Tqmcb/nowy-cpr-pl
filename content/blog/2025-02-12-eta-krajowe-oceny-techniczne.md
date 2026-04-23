@@ -17,7 +17,7 @@ sources:
 
 # ETA i krajowe oceny techniczne
 
-Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych wyrobów lub tych, które w ogóle nie są objęte normą zharmonizowaną, istnieje alternatywna droga do oznakowania CE — Europejska Ocena Techniczna (ETA).
+Nie każdy wyrób budowlany jest objęty normą zharmonizowaną (hEN). Dla innowacyjnych wyrobów lub tych, które w ogóle nie są objęte normą zharmonizowaną, istnieje ścieżka **Europejskiej Oceny Technicznej (ETA)** opartej na **Europejskim Dokumencie Oceny (EAD)**. W praktyce jest to droga do europejskiej oceny wyrobu poza klasyczną ścieżką hEN; skutki dla oznakowania CE zależą jednak od podstawy prawnej EAD oraz przepisów przejściowych CPR.
 
 ## Kiedy potrzebna ETA?
 
@@ -49,9 +49,9 @@ Na podstawie EAD przeprowadzane są badania i ocena właściwości użytkowych w
 
 TAB wydaje Europejską Ocenę Techniczną zawierającą zestaw właściwości użytkowych wyrobu, które producent może deklarować.
 
-### Krok 5: Certyfikacja zgodnie z systemem AVS
+### Krok 5: Ocena zgodności i dalsze skutki rynkowe
 
-Po uzyskaniu ETA producent przeprowadza ocenę zgodności zgodnie z systemem AVS określonym w EAD, wystawia DoP&C i nanosi oznakowanie CE.
+Po uzyskaniu ETA producent stosuje właściwy system AVS określony w EAD i przygotowuje dokumentację odpowiadającą aktualnej podstawie prawnej wyrobu. W zależności od tego, czy mamy do czynienia z EAD/ETA funkcjonującym jeszcze w reżimie CPR 305/2011, czy z nowym EAD cytowanym zgodnie z CPR 2024, skutki dla DoP, DoP&C i oznakowania CE mogą się różnić. Nie należy więc traktować ETA jako automatycznego odpowiednika natychmiastowego CE w każdym przypadku.
 
 ## Jednostki TAB w Europie
 

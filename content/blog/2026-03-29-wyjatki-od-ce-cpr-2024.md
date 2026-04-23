@@ -97,14 +97,14 @@ Wyjątki **nie dotyczą** wyrobów:
 - Importowanych i stosowanych w UE (niezależnie od ilości)
 - Stosowanych w "normalnym" budownictwie (nie zabytkowym)
 
-## Dobrowolne CE
+## Ścieżka ETA/EAD
 
-Producent może **dobrowolnie** nanieść oznakowanie CE na wyrób, dla którego nie istnieje hEN ani EAD — ale wyłącznie poprzez uzyskanie ETA. Dobrowolne CE bez ETA jest niezgodne z prawem.
+Jeżeli wyrób nie jest objęty hEN, producent może rozważyć ścieżkę **ETA/EAD**. Nie jest to jednak prosty mechanizm „dobrowolnego CE”. Pod CPR 2024 skutki dla oznakowania CE zależą od rodzaju EAD, dat jego publikacji oraz przepisów przejściowych. Samo hasło „mam ETA, więc mogę dowolnie nanieść CE” jest zbyt daleko idącym uproszczeniem.
 
-Dobrowolne CE ma sens gdy:
-- Producent chce wejść na rynki innych krajów UE wymagające CE
-- Klient (inwestor, projektant) preferuje wyrób z CE
-- Producent buduje reputację marki
+Ścieżka ETA/EAD ma sens gdy:
+- Producent chce uzyskać europejską podstawę oceny dla wyrobu nieobjętego hEN
+- Klient lub projektant oczekuje technicznie opisanej, europejskiej oceny wyrobu
+- Producent przygotowuje się do wejścia na szerszy rynek UE, ale chce działać zgodnie z aktualnym stanem prawnym
 
 ## Krajowe regulacje a brak CE
 

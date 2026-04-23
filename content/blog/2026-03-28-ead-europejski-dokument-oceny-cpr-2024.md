@@ -16,7 +16,7 @@ sources:
 
 # Europejski Dokument Oceny (EAD) — ścieżka CE dla wyrobów bez normy
 
-Setki wyrobów budowlanych nie ma norm zharmonizowanych — bo są zbyt innowacyjne, zbyt niszowe lub ich technologia jest zbyt nowa na opracowanie normy europejskiej. Dla nich jedyną drogą do oznakowania CE jest **Europejska Ocena Techniczna (ETA) oparta na Europejskim Dokumencie Oceny (EAD)**.
+Setki wyrobów budowlanych nie ma norm zharmonizowanych — bo są zbyt innowacyjne, zbyt niszowe lub ich technologia jest zbyt nowa na opracowanie normy europejskiej. Dla nich dostępna jest ścieżka **Europejskiej Oceny Technicznej (ETA) opartej na Europejskim Dokumencie Oceny (EAD)**. To podstawowy mechanizm europejskiej oceny wyrobu poza klasyczną ścieżką hEN, ale nie należy go upraszczać do hasła „ETA = automatyczne CE”, bo pod CPR 2024 znaczenie mają również przepisy przejściowe i status samego EAD.
 
 ## Co to jest EAD?
 
@@ -31,12 +31,12 @@ EAD określa:
 
 ## Co to jest ETA?
 
-**Europejska Ocena Techniczna (ETA)** to dokument wystawiony przez Jednostkę Oceny Technicznej (TAB — Technical Assessment Body) na podstawie EAD. Pełni tę samą rolę co certyfikat — potwierdza właściwości użytkowe konkretnego wyrobu konkretnego producenta.
+**Europejska Ocena Techniczna (ETA)** to dokument wystawiony przez Jednostkę Oceny Technicznej (TAB — Technical Assessment Body) na podstawie EAD. Potwierdza właściwości użytkowe konkretnego wyrobu konkretnego producenta i stanowi podstawę dalszych działań regulacyjnych producenta.
 
 Na podstawie ETA producent:
-- Wystawia Deklarację Właściwości Użytkowych i Zgodności (DoP&C)
-- Nanosi oznakowanie CE na wyrób
-- Wprowadza wyrób na rynek całej UE
+- Stosuje właściwy system AVS wskazany w EAD
+- Przygotowuje dokumentację odpowiadającą aktualnemu reżimowi CPR i przepisom przejściowym
+- Może korzystać z europejskiej podstawy oceny wyrobu w obrocie na rynku UE
 
 **ETA ≠ EAD:**
 - EAD jest dokumentem ogólnym (metody dla kategorii wyrobów)

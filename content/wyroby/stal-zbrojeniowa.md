@@ -71,12 +71,12 @@ Klasy ciągliwości (plastyczności):
 **Ekwiwalent węglowy (spawalność):** pręty B500B i B500C muszą mieć CE ≤0,52 (wg EN 10080), co umożliwia spawanie w węzłach zbrojenia prefabrykowanego.
 
 **Wymagania środowiskowe (CPR 2024):**
-Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu złomu charakteryzuje się GWP ~0,4–0,6 kg CO2eq/kg, co jest 3–4-krotnie niższą wartością niż przy produkcji metodą wielkopiecową (BF, ~1,8–2,2 kg CO2eq/kg). CPR 2024/3110 wymaga deklarowania GWP w DoP&C.
+Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu złomu charakteryzuje się GWP ~0,4–0,6 kg CO2eq/kg, co jest 3–4-krotnie niższą wartością niż przy produkcji metodą wielkopiecową (BF, ~1,8–2,2 kg CO2eq/kg). CPR 2024/3110 tworzy ramy do docelowego deklarowania GWP w nowym modelu dokumentacji, ale obowiązek dla tej rodziny będzie zależał od wdrożenia odpowiedniej hTS i okresu koegzystencji.
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowe deklarowanie GWP** – producenci stali zbrojeniowej muszą ujmować ślad węglowy w DoP&C i mogą zwalidować dane środowiskowe przez JN (System 3+).
-2. **DoP&C zamiast DoP** – poszerzony zakres deklaracji o właściwości środowiskowe.
+1. **Docelowe deklarowanie GWP** – producenci stali zbrojeniowej będą ujmować ślad węglowy w nowym modelu dokumentacji po wdrożeniu wymagań dla rodziny; już dziś warto przygotować dane i LCA.
+2. **DoP&C jako model docelowy** – poszerzony zakres deklaracji o właściwości środowiskowe zacznie mieć znaczenie produktowe dopiero po przejściu rodziny na nową specyfikację.
 3. **Wymóg traceability (identyfikowalności)** – CPR 2024 wzmacnia wymagania dotyczące identyfikowalności partii produkcyjnych od wytopu do końcowego wyrobu.
 4. **Systemy post-tensioning** – pozostają w obszarze ETA, ale EAD wydane pod CPR 305/2011 tracą ważność 9 stycznia 2031.
 5. **Systemy prefabrykowane** – zbrojenie stosowane w prefabrykacji podlega zarówno EN 10080 (materiał) jak i normom prefabrykatów (np. EN 14651 dla belek).

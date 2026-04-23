@@ -70,13 +70,13 @@ W Polsce certyfikację cementu prowadzą m.in.:
 - HL 2, HL 3,5, HL 5 – wapno hydrauliczne
 
 **Wymagania środowiskowe (kluczowe dla CPR 2024):**
-Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród wszystkich materiałów budowlanych (~850–950 kg CO2eq/t). CPR 2024/3110 wymaga deklarowania GWP w DoP&C. Cementy niskowęglowe (CEM III z żużlem, CEM VI, geopolimery) mają GWP o 30–60% niższe – co staje się kluczową przewagą rynkową.
+Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród wszystkich materiałów budowlanych (~850–950 kg CO2eq/t). CPR 2024/3110 tworzy ramy do docelowego deklarowania GWP w dokumentacji wyrobu, ale obowiązek produktowy dla danej rodziny aktywuje się dopiero po publikacji odpowiedniej hTS i zakończeniu okresu koegzystencji. Cementy niskowęglowe (CEM III z żużlem, CEM VI, geopolimery) mają GWP o 30–60% niższe – co już dziś staje się ważną przewagą rynkową.
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowe deklarowanie GWP** – producenci cementu po raz pierwszy muszą deklarować ślad węglowy wyrobu w DoP&C (dotychczas było to dobrowolne w EPD).
-2. **System 3+ dla danych środowiskowych** – jednostka notyfikowana wydaje raport walidacyjny, co podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych.
-3. **DoP&C zamiast DoP** – rozszerzona deklaracja łączy właściwości użytkowe z właściwościami środowiskowymi.
+1. **Docelowe deklarowanie GWP** – CPR 2024 przygotowuje grunt pod obowiązkowe deklarowanie śladu węglowego wyrobu, ale dla cementu stanie się to wymaganiem dopiero po publikacji odpowiedniej hTS i wdrożeniu nowych zasad dla tej rodziny.
+2. **System 3+ dla danych środowiskowych** – nowy system walidacji danych środowiskowych wzmacnia wiarygodność deklaracji, ale jego praktyczne zastosowanie zależy od dalszych aktów KE i wdrożenia wymogów środowiskowych w specyfikacjach dla rodziny.
+3. **DoP&C jako model docelowy** – nowa deklaracja docelowo połączy właściwości użytkowe z danymi środowiskowymi; do czasu przejścia rodziny na hTS producenci cementu nadal zasadniczo działają na bazie hEN i DoP.
 4. **Nacisk na cementy niskoemisyjne** – CPR 2024 promuje stosowanie materiałów o niskim GWP, co w praktyce oznacza przewagę konkurencyjną dla CEM III, CEM V i CEM VI.
 5. **Substancje niebezpieczne** – obowiązek deklarowania zawartości chromu(VI) (dotyczy cementu – max 2 mg/kg suchej masy dla gotowych wyrobów).
 
@@ -99,9 +99,9 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 1. Badania wstępne ITT wg EN 197-1 (wytrzymałość, czas wiązania, stałość objętości, zawartość SO3 i Cl)
 2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – uzyskanie CSPU
 3. Zlecenie opracowania EPD z wynikiem GWP ~350 kg CO2eq/t (vs ~900 kg CO2eq/t dla CEM I)
-4. Walidacja danych środowiskowych w Systemie AVS 3+ – uzyskanie raportu walidacyjnego od JN
-5. Wystawienie DoP&C z deklaracją: CEM III/B 42,5 N, GWP, zawartość chromu(VI)
-6. Zastosowanie oznakowania CE na workach i dokumentach dostawy luzem
+4. Przygotowanie się do przyszłej walidacji danych środowiskowych w Systemie AVS 3+ po wdrożeniu wymogów dla tej rodziny
+5. Na obecnym etapie: wystawianie DoP i oznakowanie CE zgodnie z obowiązującą hEN; równolegle przygotowanie wzoru przyszłego DoP&C
+6. Monitorowanie publikacji nowych hTS i decyzji KE dotyczących środowiskowej części CPR
 
 ## Checklist producenta
 
@@ -111,8 +111,8 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 - [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
 - [ ] Opracowanie EPD zgodnej z EN 15804+A2 (GWP, AP, EP, ODP i in.)
-- [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) – uzyskanie raportu walidacyjnego
-- [ ] Wystawienie DoP&C z deklaracją GWP, zawartości chromu(VI) i klasy wyrobu
+- [ ] Przygotowanie danych środowiskowych do przyszłej walidacji przez JN (System AVS 3+) po wdrożeniu wymogów dla rodziny
+- [ ] Przygotowanie wzoru przyszłego DoP&C z deklaracją GWP, zawartości chromu(VI) i klasy wyrobu
 - [ ] Umieszczenie oznakowania CE na workach i dokumentach dostawy (luzem – w dokumentach)
 - [ ] Regularne przeglądy certyfikatu ZKP (audyty JN co 12 miesięcy)
 - [ ] Monitorowanie zawartości chromu(VI) w ramach ZKP (max 2 mg/kg)

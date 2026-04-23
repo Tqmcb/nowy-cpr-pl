@@ -84,9 +84,9 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowa deklaracja emisji VOC** – CPR 2024/3110 formalizuje wymaganie deklarowania emisji lotnych związków organicznych w DoP&C dla wszystkich wyrobów podłogowych do zastosowań wewnętrznych.
+1. **Docelowa deklaracja emisji VOC** – CPR 2024 wzmacnia znaczenie emisji lotnych związków organicznych dla wyrobów podłogowych do zastosowań wewnętrznych, ale obowiązek produktowy będzie zależał od wdrożenia odpowiedniej hTS dla rodziny.
 2. **Klasa E0 oficjalnie uznana** – obok E1 i E2.
-3. **Obowiązkowe deklarowanie GWP** – nowe dla całej rodziny.
+3. **Docelowe deklarowanie GWP** – nowe dla całej rodziny, ale aktywowane dopiero po publikacji odpowiedniej hTS i zakończeniu okresu koegzystencji.
 4. **Substancje SVHC** – producenci LVT (PVC) muszą sprawdzić i zadeklarować brak ftalanów DEHP, DBP, DIBP i BBP (wpisanych na listę SVHC REACH).
 5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia wyrobu.
 
@@ -103,16 +103,16 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 
 **Przykład: Producent paneli laminowanych (EN 13329)**
 
-Producent paneli laminowanych klasy AC4 (biura, sklepy) wprowadza je na rynek zgodnie z CPR 2024:
+Producent paneli laminowanych klasy AC4 (biura, sklepy) przygotowuje się do modelu docelowego CPR 2024:
 1. Badania ITT wg EN 13329 i EN 14041: ścieralność (klasa AC4), odporność na uderzenie, grubość spęcznienia po zamoczeniu, szczelność połączeń
 2. Pomiar emisji formaldehydu wg EN 717-1: wynik E1 (0,05 mg/m² h)
 3. Pomiar TVOC wg EN ISO 16000-6: TVOC po 28 dniach = 0,08 mg/m³ (poniżej progu AgBB)
 4. System AVS 3 – badania ITT przez NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
-5. DoP&C: klasa AC4, klasa Dfl-s1, E1, TVOC 0,08 mg/m³, GWP -0,3 kg CO2eq/kg (ujemny – sekwestracja węgla w drewnie rdzennym)
+5. Na obecnym etapie: DoP zgodnie z obowiązującą normą; równolegle przygotowanie danych do przyszłego DoP&C: klasa AC4, klasa Dfl-s1, E1, TVOC 0,08 mg/m³, GWP -0,3 kg CO2eq/kg
 
 **Przykład: Producent LVT (Luxury Vinyl Tile)**
 
-Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przygotowuje DoP&C:
+Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przygotowuje dane do modelu docelowego CPR 2024:
 - Deklaracja klasy Cfl-s1, TVOC po 28 dniach ≤0,05 mg/m³
 - Deklaracja braku ftalanów z listy SVHC
 - GWP 2,8 kg CO2eq/kg (produkcja PVC), ale z deklaracją 15% udziału PVC z recyklingu
@@ -126,8 +126,8 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 - [ ] Sprawdzenie składu pod kątem ftalanów SVHC (dotyczy LVT/PVC)
 - [ ] Badanie antypoślizgowości wg EN 13893 dla wyrobów do obiektów publicznych
 - [ ] Wdrożenie ZKP z monitoringiem emisji i właściwości mechanicznych
-- [ ] Wystawienie DoP&C z deklaracją: klasa reakcji na ogień (fl), emisje, antypoślizgowość
-- [ ] Deklarowanie GWP w DoP&C (w tym ujemny GWP dla parkietu/paneli drewnianych)
+- [ ] Wystawianie DoP zgodnie z aktualną normą i przygotowanie wzoru przyszłego DoP&C z deklaracją: klasa reakcji na ogień (fl), emisje, antypoślizgowość
+- [ ] Zebranie danych do przyszłego deklarowania GWP w DoP&C (w tym ujemny GWP dla parkietu/paneli drewnianych)
 - [ ] Oznakowanie CE na wyrobie, opakowaniu lub etykiecie paletowej
 - [ ] Rozważenie certyfikatu ekologicznego (EU Ecolabel, Blue Angel) dla rynków premium
 

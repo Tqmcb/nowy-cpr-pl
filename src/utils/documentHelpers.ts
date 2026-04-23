@@ -60,7 +60,7 @@ export const documents: Document[] = [
   {
     id: "edp-template",
     title: "Szablon deklaracji środowiskowej produktu (EPD)",
-    description: "Wzór EPD zgodny z normą EN 15804+A2 i wymaganiami CPR (UE) 2024/3110. Zawiera wszystkie wskaźniki środowiskowe (GWP, ODP, AP, EP, POCP i inne) wymagane w systemie AVS 3+ z weryfikacją przez notyfikowane laboratorium.",
+    description: "Wzór EPD zgodny z normą EN 15804+A2 i przygotowany pod przyszłe wymagania środowiskowe CPR (UE) 2024/3110. Zawiera wskaźniki środowiskowe (GWP, ODP, AP, EP, POCP i inne), które mogą być później wykorzystane przy walidacji danych środowiskowych w systemie AVS 3+.",
     icon: "🌱",
     fileType: "HTML",
     language: "PL",

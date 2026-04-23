@@ -86,10 +86,10 @@ Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla
 
 ## Zmiany względem CPR 305/2011
 
-1. **Obowiązkowe deklarowanie GWP** – producenci stali i aluminium konstrukcyjnego muszą ujmować ślad węglowy w DoP&C.
-2. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez JN, szczególnie istotna w kontekście zamówień publicznych (dyrektywy UE o zrównoważonym zamówieniu).
+1. **Docelowe deklarowanie GWP** – producenci stali i aluminium konstrukcyjnego będą ujmować ślad węglowy w nowym modelu dokumentacji po wdrożeniu odpowiedniej hTS dla rodziny.
+2. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez JN będzie istotna wraz z wdrożeniem wymogów środowiskowych; już dziś może mieć znaczenie rynkowe, zwłaszcza w zamówieniach publicznych.
 3. **Substancje niebezpieczne** – powłoki antykorozyjne (cynkowanie, farby epoksydowe) muszą być sprawdzone pod kątem SVHC; chromowy(VI) w powłokach jest ograniczony przez REACH.
-4. **DoP&C zamiast DoP** – zintegrowana deklaracja.
+4. **DoP&C jako model docelowy** – zintegrowana deklaracja zastąpi obecny model po przejściu rodziny na nową specyfikację.
 5. **Trwałość i korozja** – CPR 2024 wymaga deklarowania klasy korozyjności (wg EN ISO 12944) i trwałości powłok ochronnych.
 
 ## Harmonogram wdrożenia

@@ -89,11 +89,11 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 
 ## Zmiany względem CPR 305/2011
 
-1. **Kruszywa z recyklingu – nowe wymogi** – CPR 2024/3110 wymaga deklarowania udziału kruszyw z recyklingu i ich właściwości specyficznych (absorpcja, zawartość zaprawy cementowej w RCA).
-2. **Obowiązkowe deklarowanie GWP** – producenci kruszyw muszą ujmować wskaźnik klimatyczny w DoP&C.
-3. **Substancje niebezpieczne** – kruszywa z recyklingu mogą zawierać zanieczyszczenia (azbest, PCB, metale ciężkie) – konieczna kontrola składu chemicznego deklarowanego w DoP&C.
-4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN, ważna dla zamówień publicznych i certyfikatów zrównoważonego budownictwa.
-5. **DoP&C zamiast DoP** – rozszerzona deklaracja z właściwościami środowiskowymi.
+1. **Kruszywa z recyklingu – kierunek zmian** – CPR 2024 wzmacnia znaczenie identyfikacji udziału kruszyw z recyklingu i ich właściwości specyficznych (absorpcja, zawartość zaprawy cementowej w RCA), ale obowiązki produktowe będą zależeć od wdrożenia odpowiedniej hTS.
+2. **Docelowe deklarowanie GWP** – wskaźnik klimatyczny ma wejść do nowego modelu dokumentacji, lecz nie jest jeszcze automatycznie obowiązkowy dla całej rodziny.
+3. **Substancje niebezpieczne** – dla kruszyw z recyklingu rośnie znaczenie kontroli zanieczyszczeń (azbest, PCB, metale ciężkie), zwłaszcza przy przygotowaniu do przyszłych wymogów dokumentacyjnych.
+4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN może być przydatna rynkowo już dziś, a obowiązkowa stanie się dopiero wraz z wdrożeniem nowych wymagań środowiskowych dla rodziny.
+5. **DoP&C jako model docelowy** – rozszerzona deklaracja zastąpi stary model dopiero po przejściu rodziny na nową specyfikację.
 
 ## Harmonogram wdrożenia
 
@@ -112,7 +112,7 @@ Kopalnia żwiru rzecznego produkuje kruszywo 0/4 (piasek), 4/8 i 8/16 do betonu 
 1. Badania ITT wg EN 12620: uziarnienie, SI, LA, absorpcja wody, zawartość chlorków, siarczanów, ASR (petrografia wg EN 932-3 + szybki test chemiczny wg EN 1744-2)
 2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
 3. Opracowanie EPD: GWP = 0,006 kg CO2eq/kg (wydobycie + załadunek + transport 25 km)
-4. DoP&C: klasy uziarnienia GC85/20, SF 0/4, LA20, SI20, chlorki Cl 0,01%, GWP 0,006 kg CO2eq/kg
+4. Na obecnym etapie: DoP zgodnie z obowiązującą hEN; równolegle przygotowanie danych do przyszłego DoP&C z klasami uziarnienia i wskaźnikiem GWP
 
 **Przykład 2: Zakład recyklingu betonu – kruszywa RCA (EN 12620)**
 
@@ -121,7 +121,7 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 2. Kontrola zanieczyszczeń: azbest (poniżej progu), PCB, metale ciężkie – deklaracja w DoP&C
 3. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
 4. EPD: GWP = 0,003 kg CO2eq/kg (tylko koszty kruszenia i przesiewania bez wydobycia)
-5. DoP&C ze wskazaniem kruszywo z recyklingu RCA, absorpcja woda WA10 = 6%, GWP 0,003 kg CO2eq/kg
+5. Na obecnym etapie: DoP i CE wg obowiązującej hEN; równolegle przygotowanie dokumentacji pod przyszłe ujęcie RCA, WA10 i GWP w nowym modelu
 
 ## Checklist producenta
 
@@ -130,8 +130,8 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 - [ ] Przeprowadzenie badań ITT: uziarnienie, kształt (SI), wytrzymałość (LA, MDE), mrozoodporność
 - [ ] Badania chemiczne: chlorki, siarczany, reaktywność alkaliczna (ASR)
 - [ ] Dla RCA/RMA: badanie zawartości zaprawy, zanieczyszczeń, absorpcji wody
-- [ ] Uzyskanie certyfikatu ZKP i wystawienie DoP&C z System AVS 2+
-- [ ] Deklarowanie GWP i ewentualnego udziału kruszywa z recyklingu
+- [ ] Uzyskanie certyfikatu ZKP i wystawianie DoP zgodnie z aktualną hEN; równolegle przygotowanie do przyszłego DoP&C
+- [ ] Zebranie danych do przyszłego deklarowania GWP i ewentualnego udziału kruszywa z recyklingu
 - [ ] Oznakowanie CE na dokumencie dostawy lub na etykiecie na silosie/hałdzie
 - [ ] Coroczne audyty nadzorcze ZKP przez JN
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla zamówień publicznych wymagających deklaracji środowiskowych
