@@ -356,9 +356,9 @@ export function DocumentsPage() {
               <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
                 <Button asChild className="bg-white font-semibold px-6 py-3 transition-all hover:bg-slate-100"
                   style={{ color: "oklch(20% .03 264)", borderRadius: "2px" }}>
-                  <Link to="/services">
-                    Poznaj usługi
-                    <ArrowRight className="w-4 h-4 ml-2" />
+                  <Link to="/services" className="inline-flex items-center gap-2 whitespace-nowrap">
+                    <span>Poznaj usługi</span>
+                    <ArrowRight className="w-4 h-4 shrink-0" />
                   </Link>
                 </Button>
                 <Button variant="outline"

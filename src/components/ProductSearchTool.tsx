@@ -182,11 +182,11 @@ export function ProductSearchTool() {
           <Button
             onClick={() => document.getElementById("results-section")?.scrollIntoView({ behavior: "smooth" })}
             disabled={!selectedCategory}
-            className="px-8 py-4 text-sm font-semibold transition-all disabled:opacity-40"
+            className="px-8 py-4 text-sm font-semibold transition-all disabled:opacity-40 gap-2 whitespace-nowrap"
             style={{ backgroundColor: "oklch(20% .03 264)", color: "white", borderRadius: "2px" }}
           >
             Pokaż wymagania
-            <ArrowRight className="w-4 h-4 ml-2" />
+            <ArrowRight className="w-4 h-4 shrink-0" />
           </Button>
         </div>
       </PageHeader>
@@ -728,9 +728,9 @@ export function ProductSearchTool() {
                   asChild
                   className="group px-6 py-3 rounded-[2px] bg-white hover:bg-slate-100 text-[oklch(20%_.03_264)] font-semibold"
                 >
-                  <Link to="/services">
-                    Nasze usługi certyfikacyjne
-                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  <Link to="/services" className="inline-flex items-center gap-2 whitespace-nowrap">
+                    <span>Nasze usługi certyfikacyjne</span>
+                    <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
                 <Button

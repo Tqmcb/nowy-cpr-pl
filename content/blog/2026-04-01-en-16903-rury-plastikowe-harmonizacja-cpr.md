@@ -37,7 +37,7 @@ EN 16903 nie jest normą definiującą wymagania techniczne dla samych rur (wymi
 
 **Nie.** Zgodnie z aktualnym wykazem norm zharmonizowanych publikowanym przez Komisję Europejską w Dzienniku Urzędowym UE: *do tej pory żadna norma dla plastikowych systemów rurociągowych — ani techniczna, ani dotycząca EPD/PCR — nie uzyskała statusu normy zharmonizowanej pod CPR.* Dotyczy to zarówno norm wyrobowych (EN 13476, EN 12201 itp.), jak i normy PCR EN 16903.
 
-Oznacza to, że producenci rur z tworzyw sztucznych **nie mogą dziś wystawić Deklaracji Właściwości Użytkowych i Środowiskowych (DoP&C) ani umieścić oznakowania CE** na podstawie norm serii CEN/TC 155 — bo te normy nie są zharmonizowane. Wyroby te są wprowadzane na rynek na podstawie norm technicznych i wymagań krajowych poszczególnych państw członkowskich UE. EPD dla rur z tworzyw sztucznych mogą być opracowywane dobrowolnie zgodnie z EN 16903 i EN 15804 — np. w ramach programu [EPD Polska](https://www.epd.org.pl) — ale nie stanowią one obowiązkowej deklaracji pod CPR.
+Oznacza to, że producenci rur z tworzyw sztucznych **nie mogą dziś wystawić Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) ani umieścić oznakowania CE** na podstawie norm serii CEN/TC 155 — bo te normy nie są zharmonizowane. Wyroby te są wprowadzane na rynek na podstawie norm technicznych i wymagań krajowych poszczególnych państw członkowskich UE. EPD dla rur z tworzyw sztucznych mogą być opracowywane dobrowolnie zgodnie z EN 16903 i EN 15804 — np. w ramach programu [EPD Polska](https://www.epd.org.pl) — ale nie stanowią one obowiązkowej deklaracji pod CPR.
 
 ---
 

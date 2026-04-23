@@ -172,9 +172,9 @@ const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
           className="px-5 py-2.5 rounded-full border-slate-200 text-slate-700 bg-transparent hover:bg-slate-50 text-sm"
           asChild
         >
-          <Link to="/services">
-            Skontaktuj się
-            <ArrowRight className="w-4 h-4 ml-2" />
+          <Link to="/services" className="inline-flex items-center gap-2 whitespace-nowrap">
+            <span>Skontaktuj się</span>
+            <ArrowRight className="w-4 h-4 shrink-0" />
           </Link>
         </Button>
       </div>

@@ -197,8 +197,9 @@ function HomePage() {
                       className="text-white font-semibold px-8 py-6 transition-colors hover:opacity-90"
                       style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
                     >
-                      <Link to="/wyszukiwarka">
-                        Sprawdź wymagania <ArrowRight className="w-4 h-4 ml-2" />
+                      <Link to="/wyszukiwarka" className="inline-flex items-center gap-2 whitespace-nowrap">
+                        <span>Sprawdź wymagania</span>
+                        <ArrowRight className="w-4 h-4 shrink-0" />
                       </Link>
                     </Button>
                     <Button

@@ -247,10 +247,10 @@ export default function Wyroby() {
                           )}
                           <button
                             onClick={(e) => { e.stopPropagation(); goToWyrob(wyrob.slug); }}
-                            className="editorial-kicker flex w-full sm:w-auto items-center justify-between sm:justify-end gap-1.5 group-hover:gap-2.5 transition-all self-stretch sm:self-auto sm:ml-auto whitespace-nowrap"
+                            className="editorial-kicker inline-flex w-full sm:w-auto items-center justify-between sm:justify-end gap-2 flex-nowrap leading-none group-hover:gap-2.5 transition-all self-stretch sm:self-auto sm:ml-auto whitespace-nowrap"
                             style={{ color: "oklch(55% .22 27)" }}
                           >
-                            Sprawdź wymagania
+                            <span>Sprawdź wymagania</span>
                             <ChevronRight className="w-4 h-4 shrink-0" />
                           </button>
                         </div>
