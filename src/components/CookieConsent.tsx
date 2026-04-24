@@ -78,17 +78,17 @@ export function CookieConsent() {
       {/* Brand-red top rule */}
       <div className="absolute top-0 left-0 h-[3px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-        <div className="flex flex-col lg:flex-row lg:items-start gap-5">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-5">
+        <div className="flex flex-col lg:flex-row lg:items-start gap-3 sm:gap-5">
           <div className="flex-1 min-w-0">
-            <div className="editorial-kicker mb-2" style={{ color: "oklch(55% .22 27)" }}>
+            <div className="editorial-kicker mb-1 sm:mb-2" style={{ color: "oklch(55% .22 27)" }}>
               Pliki cookie
             </div>
-            <h3 className="font-serif text-xl leading-[1.2] mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+            <h3 className="font-serif text-lg sm:text-xl leading-[1.15] mb-1 sm:mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
               Używamy plików <span className="italic" style={{ color: "oklch(55% .22 27)" }}>cookie</span>
             </h3>
-            <p className="text-sm leading-[1.6] max-w-2xl" style={{ color: "oklch(42% .02 264)" }}>
-              Używamy plików cookie, aby zapewnić prawidłowe działanie serwisu, analizować ruch i personalizować treści. Więcej informacji w{" "}
+            <p className="text-xs sm:text-sm leading-[1.45] sm:leading-[1.6] max-w-2xl" style={{ color: "oklch(42% .02 264)" }}>
+              Niezbędne pliki działają zawsze. Analityczne i marketingowe włączamy tylko po zgodzie. Szczegóły w{" "}
               <a
                 href="/polityka-prywatnosci"
                 className="underline underline-offset-2 transition-colors hover:opacity-70"
@@ -99,27 +99,29 @@ export function CookieConsent() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 flex-shrink-0">
+          <div className="grid w-full min-w-0 grid-cols-2 sm:flex sm:flex-row items-stretch sm:items-center gap-2 lg:w-auto lg:flex-shrink-0">
             <button
               onClick={() => setExpanded((prev) => !prev)}
-              className="editorial-kicker flex items-center justify-center gap-1.5 px-4 py-3 whitespace-nowrap transition-all hover:bg-slate-50"
+              className="editorial-kicker flex min-w-0 items-center justify-center gap-1.5 overflow-hidden px-3 sm:px-4 py-2.5 sm:py-3 whitespace-nowrap transition-all hover:bg-slate-50"
               style={{ color: "oklch(42% .02 264)", border: "1px solid oklch(86% .012 264)", borderRadius: "2px" }}
               aria-expanded={expanded}
               aria-controls="cookie-preferences-panel"
             >
-              Zarządzaj preferencjami
+              <span className="sm:hidden">Opcje</span>
+              <span className="hidden sm:inline">Zarządzaj preferencjami</span>
               {expanded ? <ChevronUp className="w-3.5 h-3.5 shrink-0" /> : <ChevronDown className="w-3.5 h-3.5 shrink-0" />}
             </button>
             <button
               onClick={acceptNecessary}
-              className="editorial-kicker px-4 py-3 whitespace-nowrap transition-all hover:bg-slate-50"
+              className="editorial-kicker min-w-0 overflow-hidden px-3 sm:px-4 py-2.5 sm:py-3 whitespace-nowrap transition-all hover:bg-slate-50"
               style={{ color: "oklch(20% .03 264)", border: "1px solid oklch(20% .03 264)", borderRadius: "2px" }}
             >
-              Tylko niezbędne
+              <span className="sm:hidden">Min.</span>
+              <span className="hidden sm:inline">Tylko niezbędne</span>
             </button>
             <button
               onClick={acceptAll}
-              className="editorial-kicker text-white px-5 py-3 whitespace-nowrap transition-all hover:opacity-90"
+              className="editorial-kicker col-span-2 min-w-0 text-white px-4 sm:px-5 py-2.5 sm:py-3 whitespace-nowrap transition-all hover:opacity-90"
               style={{ backgroundColor: "oklch(55% .22 27)", borderRadius: "2px" }}
             >
               Zaakceptuj wszystkie
@@ -131,12 +133,12 @@ export function CookieConsent() {
         <div
           id="cookie-preferences-panel"
           className={`overflow-hidden transition-all duration-300 ease-in-out ${
-            expanded ? "max-h-[600px] opacity-100 mt-6" : "max-h-0 opacity-0"
+            expanded ? "max-h-[600px] opacity-100 mt-4 sm:mt-6" : "max-h-0 opacity-0"
           }`}
           aria-hidden={!expanded}
         >
-          <div className="pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
-            <p className="text-sm mb-6 leading-[1.6] max-w-3xl" style={{ color: "oklch(42% .02 264)" }}>
+          <div className="pt-4 sm:pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+            <p className="text-xs sm:text-sm mb-4 sm:mb-6 leading-[1.55] max-w-3xl" style={{ color: "oklch(42% .02 264)" }}>
               Poniżej możesz dostosować kategorie plików cookie. Pliki niezbędne zawsze pozostają aktywne.
             </p>
 
@@ -148,13 +150,13 @@ export function CookieConsent() {
               ].map((cat, idx) => (
                 <div
                   key={cat.key}
-                  className="p-6"
+                  className="p-4 sm:p-6"
                   style={{
                     borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
                     borderBottom: "1px solid oklch(92% .008 264)",
                   }}
                 >
-                  <div className="flex items-start justify-between mb-3">
+                  <div className="flex items-start justify-between mb-2 sm:mb-3">
                     <div className="flex items-center gap-2">
                       <span className="editorial-numeral text-2xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
                         {String(idx + 1).padStart(2, "0")}
@@ -163,20 +165,20 @@ export function CookieConsent() {
                     <ToggleSwitch id={`toggle-${cat.key}`} checked={cat.checked} onChange={cat.onChange} disabled={cat.disabled} />
                   </div>
                   <div className="flex items-center gap-2 mb-2">
-                    <h4 className="font-serif text-lg" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>{cat.title}</h4>
+                    <h4 className="font-serif text-base sm:text-lg" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>{cat.title}</h4>
                     {cat.badge && (
                       <span className="editorial-kicker" style={{ color: "oklch(55% .14 155)" }}>· {cat.badge}</span>
                     )}
                   </div>
-                  <p className="text-sm leading-[1.55]" style={{ color: "oklch(42% .02 264)" }}>{cat.desc}</p>
+                  <p className="text-xs sm:text-sm leading-[1.5] sm:leading-[1.55]" style={{ color: "oklch(42% .02 264)" }}>{cat.desc}</p>
                 </div>
               ))}
             </div>
 
-            <div className="flex justify-end mt-6">
+            <div className="flex justify-end mt-4 sm:mt-6">
               <button
                 onClick={savePreferences}
-                className="editorial-kicker text-white px-5 py-3 transition-all hover:opacity-90"
+                className="editorial-kicker text-white px-5 py-2.5 sm:py-3 transition-all hover:opacity-90"
                 style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
               >
                 Zapisz preferencje
