@@ -1,20 +1,20 @@
 # NowyCPR.pl
 
-> NowyCPR.pl to polski portal informacyjny o Rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2024/3110 (CPR 2024/3110) — nowym prawie dotyczącym wyrobów budowlanych obowiązującym w całej UE od 8 stycznia 2026 roku. Portal prowadzony jest przez Multicert Sp. z o.o. i kierowany do producentów, importerów oraz dystrybutorów wyrobów budowlanych w Polsce i Unii Europejskiej.
+> NowyCPR.pl to polski portal informacyjny o Rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2024/3110 (CPR 2024/3110) — nowym prawie dotyczącym wyrobów budowlanych, które weszło w życie 7 stycznia 2025 r. i jest stosowane etapowo od 8 stycznia 2026 r. Portal prowadzony jest przez Multicert Sp. z o.o. i kierowany do producentów, importerów oraz dystrybutorów wyrobów budowlanych w Polsce i Unii Europejskiej.
 
 ## Główne sekcje portalu
 
 - [Strona główna](https://www.nowycpr.pl/) — wprowadzenie do CPR 2024/3110, kluczowe terminy, linki do zasobów dla producentów
 - [Wyszukiwarka CPR](https://www.nowycpr.pl/product-search) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
 - [Dokumenty do pobrania](https://www.nowycpr.pl/documents) — 8 bezpłatnych szablonów HTML zgodnych z CPR 2024/3110 (DoP&C, karta techniczna, FPC, oznakowanie CE, lista kontrolna, EPD, DPP, AVS)
-- [Blog](https://www.nowycpr.pl/blog) — ok. 30 artykułów eksperckich o CPR 2024/3110, publikowanych od IX 2025
+- [Blog](https://www.nowycpr.pl/blog) — 57 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
 - [Wyroby](https://www.nowycpr.pl/wyroby) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
 
 ## Kluczowe tematy i definicje
 
-- **CPR 2024/3110** — Rozporządzenie (UE) 2024/3110 z 23.10.2024 r. uchyla CPR 305/2011; stosuje się od 8 stycznia 2026 r.; reguluje wprowadzanie wyrobów budowlanych do obrotu w UE
+- **CPR 2024/3110** — Rozporządzenie (UE) 2024/3110 z 27.11.2024 r., opublikowane w Dz.U. UE 18.12.2024 r.; uchyla CPR 305/2011 i reguluje wprowadzanie wyrobów budowlanych do obrotu w UE
 - **DoP&C** — Deklaracja Właściwości Użytkowych i Zgodności (ang. Declaration of Performance and Conformity); wymagana art. 15–16 CPR 2024/3110; od 8.01.2026 obowiązkowo w formie cyfrowej
-- **Oznakowanie CE** — obowiązkowe dla wyrobów budowlanych objętych normami zharmonizowanymi (art. 18–19 CPR 2024/3110); musi zawierać kod QR prowadzący do cyfrowej DoP&C
+- **Oznakowanie CE** — obowiązkowe dla wyrobów budowlanych objętych właściwą zharmonizowaną specyfikacją techniczną; CPR 2024/3110 rozwija obowiązki informacyjne, cyfrowe i identyfikacyjne przy oznakowaniu
 - **AVS** — Systemy Oceny i Weryfikacji Stałości Właściwości Użytkowych (dawniej AVCP w CPR 305/2011); nowe systemy: 1+, 1, 2+, 3, 3+ (nowy — tylko EPD), 4 (Załącznik IX CPR 2024/3110)
 - **System 3+** — nowy system AVS (bez odpowiednika w AVCP); obejmuje weryfikację Deklaracji Środowiskowej Produktu (EPD) przez notyfikowane laboratorium (NTL)
 - **FPC** — Zakładowa Kontrola Produkcji (art. 20 ust. 3 CPR 2024/3110); obowiązkowa dla wszystkich producentów; uproszczona dla mikroprzedsiębiorstw
@@ -24,7 +24,17 @@
 - **Jednostki notyfikowane (JN)** — organy certyfikujące upoważnione przez państwa członkowskie; wymagane w systemach AVS 1+, 1, 2+
 - **NTL** — Notyfikowane Laboratorium (Notified Testing Laboratory); wymagane w systemie AVS 3+ do weryfikacji EPD
 - **ETA** — Europejska Ocena Techniczna; dla wyrobów bez normy zharmonizowanej; wydawana przez TAB (Technical Assessment Body)
-- **Unikalny identyfikator produktu** — art. 22 ust. 5 CPR 2024/3110; każdy wyrób musi mieć kod QR/RFID/EAN prowadzący do DPP i DoP&C
+- **Unikalny identyfikator produktu** — element cyfrowej identyfikowalności wyrobu; praktycznie może być powiązany z linkiem, kodem QR lub innym nośnikiem danych do dokumentacji cyfrowej
+
+## Główne klastry tematyczne bloga
+
+- **CPR 2024/3110 i przejście z CPR 305/2011** — nowe rozporządzenie, harmonogram, okresy przejściowe, wdrożenie w Polsce i UE
+- **Certyfikacja i AVS** — systemy AVS 1+, 1, 2+, 3+, 3 i 4, jednostki notyfikowane, FPC, ITT, ETA, EAD, procedury oceny zgodności
+- **Deklaracje i dokumentacja** — DoP&C, dokumentacja techniczna, oznakowanie CE, kody identyfikacyjne, cyfrowa dostępność dokumentów
+- **Środowisko i LCA** — GWP, EPD, EN 15804, CPCR, AVS 3+, etykietowanie środowiskowe, zielone zamówienia publiczne
+- **Cyfryzacja** — Digital DoP&C, DPP, QR, traceability, sprzedaż online i obowiązki platform marketplace
+- **Prawo i nadzór rynku** — GUNB, kary, wycofanie wyrobu, RAPEX/Safety Gate, ADCO, importerzy, dystrybutorzy i upoważnieni przedstawiciele
+- **Rodziny wyrobów i normy** — beton, prefabrykaty, rury z tworzyw, izolacje, okna i drzwi, wyroby używane, druk 3D, normy zharmonizowane
 
 ## Dostępne szablony dokumentów (bezpłatne)
 
@@ -39,18 +49,24 @@
 
 ## Wybrane artykuły blogowe
 
-- [CPR 2024/3110 — kompletny przewodnik](https://www.nowycpr.pl/blog/2026-01-15-cpr-2024-nowe-rozporzadzenie)
-- [Cyfrowa DoP&C — jak wdrożyć](https://www.nowycpr.pl/blog/2026-01-10-digital-dop)
-- [AVS vs AVCP — co się zmieniło](https://www.nowycpr.pl/blog/2026-03-01-avs-vs-avcp-nowy-system-oceny-cpr-2024)
-- [Oznakowanie CE 2026 — nowe wymagania](https://www.nowycpr.pl/blog/2026-01-08-oznakowanie-ce-2026)
-- [DPP — Cyfrowy Paszport Produktu](https://www.nowycpr.pl/blog/2026-02-28-cyfrowy-paszport-produktu-dpp-cpr-2024)
-- [SVHC i REACH w DoP&C](https://www.nowycpr.pl/blog/2026-03-13-svhc-reach-dopc-cpr-2024)
-- [FPC — Zakładowa Kontrola Produkcji](https://www.nowycpr.pl/blog/2026-04-06-fpc-zakladowa-kontrola-produkcji)
-- [EPD i AVS 3+](https://www.nowycpr.pl/blog/2026-04-03-avs-3plus-walidacja-epd)
-- [Obowiązki importera CPR 2024](https://www.nowycpr.pl/blog/2026-03-07-importer-obowiazki-cpr-2024)
-- [Małe firmy a CPR 2024/3110](https://www.nowycpr.pl/blog/2026-04-12-mala-firma-cpr-2024)
-- [QR kod i unikalny identyfikator produktu](https://www.nowycpr.pl/blog/2026-03-10-qr-kod-unikalny-kod-produktu-cpr-2024)
-- [Kary za naruszenie CPR 2024](https://www.nowycpr.pl/blog/2026-03-04-kary-naruszenie-cpr-2024)
+- [CPR 2024/3110 — kompletne omówienie nowego rozporządzenia](https://www.nowycpr.pl/blog/cpr-2024-nowe-rozporzadzenie)
+- [DoP → DoP&C: co zmienia się w deklaracji właściwości użytkowych](https://www.nowycpr.pl/blog/dop-do-dopc-zmiany-cpr-2024)
+- [Deklaracja DoP&C — szablon i wyjaśnienie pól](https://www.nowycpr.pl/blog/dopc-szablon-wyjasnienie)
+- [AVS zamiast AVCP — nowy system oceny zgodności](https://www.nowycpr.pl/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024)
+- [AVS 3+ w systemie krajowym, KOT i NUWB](https://www.nowycpr.pl/blog/avs-3plus-system-krajowy-kot-nuwb)
+- [GWP w CPR 2024 — kiedy stanie się obowiązkowe](https://www.nowycpr.pl/blog/gwp-obowiazkowe-cpr-2024)
+- [EPD w budownictwie — deklaracje środowiskowe wyrobu](https://www.nowycpr.pl/blog/epd-w-budownictwie)
+- [Cyfrowy Paszport Produktu DPP w CPR 2024](https://www.nowycpr.pl/blog/cyfrowy-paszport-produktu-dpp-cpr-2024)
+- [QR kod i unikalny kod identyfikacyjny wyrobu](https://www.nowycpr.pl/blog/qr-kod-unikalny-kod-produktu-cpr-2024)
+- [FPC — Zakładowa Kontrola Produkcji krok po kroku](https://www.nowycpr.pl/blog/fpc-zakladowa-kontrola-produkcji)
+- [Importer wyrobów budowlanych — obowiązki w CPR 2024](https://www.nowycpr.pl/blog/importer-obowiazki-cpr-2024)
+- [Dystrybutor wyrobów budowlanych — obowiązki i odpowiedzialność](https://www.nowycpr.pl/blog/dystrybutor-cpr-2024)
+- [Sprzedaż online i marketplace w CPR 2024](https://www.nowycpr.pl/blog/sprzedaz-online-cpr-2024)
+- [Kary za naruszenie CPR 2024](https://www.nowycpr.pl/blog/kary-naruszenie-cpr-2024)
+- [NUWB — nowa ustawa o wyrobach budowlanych](https://www.nowycpr.pl/blog/nuwb-polska-ustawa-wyroby-budowlane)
+- [EN 206-1:2026 i klasy emisyjne GWR dla betonu](https://www.nowycpr.pl/blog/en-206-klasy-emisyjne-gwr-beton)
+- [EN 16903 i rury z tworzyw sztucznych — harmonizacja pod CPR](https://www.nowycpr.pl/blog/en-16903-rury-plastikowe-harmonizacja-cpr)
+- [EAD — Europejski Dokument Oceny dla wyrobów bez normy zharmonizowanej](https://www.nowycpr.pl/blog/ead-europejski-dokument-oceny-cpr-2024)
 
 ## Informacje o wydawcy
 

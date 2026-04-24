@@ -27,7 +27,22 @@ function parseFrontmatter(src) {
   const data = {};
   for (const line of m[1].split('\n')) {
     const kv = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*):\s*(.+)$/);
-    if (kv) data[kv[1]] = kv[2].trim().replace(/^["']|["']$/g, '');
+    if (kv) {
+      const rawValue = kv[2].trim();
+      if (rawValue.startsWith('[') && rawValue.endsWith(']')) {
+        try {
+          data[kv[1]] = JSON.parse(rawValue);
+        } catch {
+          data[kv[1]] = rawValue
+            .slice(1, -1)
+            .split(',')
+            .map(item => item.trim().replace(/^["']|["']$/g, ''))
+            .filter(Boolean);
+        }
+      } else {
+        data[kv[1]] = rawValue.replace(/^["']|["']$/g, '');
+      }
+    }
   }
   return data;
 }
@@ -59,10 +74,12 @@ for (const file of files) {
   const title      = escapeHtml(meta.title ? `${meta.title} | NowyCPR.pl` : 'NowyCPR.pl — CPR 2024/3110');
   const desc       = escapeHtml(meta.excerpt || meta.title || 'Artykuł o CPR 2024/3110 na portalu NowyCPR.pl');
   const imageUrl   = meta.image_url
-    ? `https://www.nowycpr.pl${meta.image_url}`
+    ? (meta.image_url.startsWith('http') ? meta.image_url : `https://www.nowycpr.pl${meta.image_url}`)
     : 'https://www.nowycpr.pl/og-image.jpg';
   const canonical  = `https://www.nowycpr.pl/blog/${slug}`;
   const datePublished = meta.date || '';
+  const dateModified = meta.updated || meta.reviewed || datePublished;
+  const keywords = Array.isArray(meta.tags) ? meta.tags.join(', ') : (meta.tags || '');
 
   // Schema.org BlogPosting JSON-LD
   const jsonLd = JSON.stringify({
@@ -72,6 +89,7 @@ for (const file of files) {
     description: meta.excerpt || '',
     image: imageUrl,
     datePublished,
+    dateModified,
     author: {
       '@type': 'Organization',
       name: 'NowyCPR.pl — Multicert Sp. z o.o.',
@@ -83,7 +101,15 @@ for (const file of files) {
       logo: { '@type': 'ImageObject', url: 'https://www.nowycpr.pl/og-image.jpg' }
     },
     url: canonical,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical }
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+    articleSection: meta.category || 'CPR 2024',
+    keywords,
+    inLanguage: 'pl-PL',
+    about: {
+      '@type': 'Thing',
+      name: 'Rozporządzenie (UE) 2024/3110',
+      sameAs: 'https://eur-lex.europa.eu/eli/reg/2024/3110/oj'
+    }
   });
 
   let html = templateHtml
@@ -135,6 +161,11 @@ for (const file of files) {
     .replace(
       /<meta name="twitter:image"[^>]*>/,
       `<meta name="twitter:image" content="${imageUrl}" />`
+    )
+    // article timestamps
+    .replace(
+      '</head>',
+      `<meta property="article:published_time" content="${escapeHtml(datePublished)}" />\n<meta property="article:modified_time" content="${escapeHtml(dateModified)}" />\n<meta property="article:section" content="${escapeHtml(meta.category || 'CPR 2024')}" />\n</head>`
     )
     // inject BlogPosting JSON-LD before </head>
     .replace(
@@ -457,14 +488,15 @@ const blogEntries = files
     const src = readFileSync(join(blogContentDir, file), 'utf-8');
     const meta = parseFrontmatter(src);
     const date = meta.date || '';
-    return { slug, date };
+    const lastmod = meta.updated || meta.reviewed || date;
+    return { slug, date, lastmod };
   })
   .filter(({ date }) => date && new Date(date) <= today)
   .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-const blogXml = blogEntries.map(({ slug, date }) => `  <url>
+const blogXml = blogEntries.map(({ slug, lastmod }) => `  <url>
     <loc>https://www.nowycpr.pl/blog/${slug}</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>`).join('\n');

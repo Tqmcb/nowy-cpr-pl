@@ -1135,12 +1135,16 @@ export default function BlogPost() {
   const canonicalUrl = `https://www.nowycpr.pl/blog/${slug}`;
   const pageTitle = `${post.title} | NowyCPR.pl`;
   const description = post.excerpt || post.content.slice(0, 160).replace(/[#*`]/g, "").trim();
+  const modifiedDate = post.updated_at || post.reviewed || post.published_at;
+  const imageUrl = post.image_url
+    ? (post.image_url.startsWith("http") ? post.image_url : `https://www.nowycpr.pl${post.image_url}`)
+    : "https://www.nowycpr.pl/og-image.jpg";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.title,
     "description": description,
-    "image": post.image_url || "https://www.nowycpr.pl/og-default.jpg",
+    "image": imageUrl,
     "author": {
       "@type": "Person",
       "name": post.author,
@@ -1160,7 +1164,7 @@ export default function BlogPost() {
       }
     },
     "datePublished": post.published_at,
-    "dateModified": post.published_at,
+    "dateModified": modifiedDate,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": canonicalUrl
@@ -1184,14 +1188,16 @@ export default function BlogPost() {
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
-      {post.image_url && <meta property="og:image" content={post.image_url} />}
+      <meta property="og:image" content={imageUrl} />
       <meta property="og:site_name" content="NowyCPR.pl" />
       <meta property="og:locale" content="pl_PL" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={description} />
-      {post.image_url && <meta name="twitter:image" content={post.image_url} />}
+      <meta name="twitter:image" content={imageUrl} />
       <meta name="article:published_time" content={post.published_at} />
+      <meta name="article:modified_time" content={modifiedDate} />
+      <meta property="article:section" content={post.category || "CPR 2024"} />
       <meta name="article:author" content={post.author} />
       {Array.isArray(post.tags) && post.tags.map((tag) => (
         <meta key={tag} property="article:tag" content={tag} />
