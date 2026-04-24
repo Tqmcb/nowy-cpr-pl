@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useReveal } from "../hooks/useReveal";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -44,11 +44,20 @@ const CATEGORIES = ["Wszystkie", ...MAIN_CATEGORIES, "Inne"];
 
 export default function Wyroby() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [wyroby, setWyroby] = useState<ProductFamily[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("Wszystkie");
   const gridRef = useReveal(0);
+
+  useEffect(() => {
+    const legacySlug = searchParams.get("slug");
+
+    if (legacySlug) {
+      navigate(`/wyrob?slug=${encodeURIComponent(legacySlug)}`, { replace: true });
+    }
+  }, [navigate, searchParams]);
 
   useEffect(() => {
     const load = async () => {
@@ -87,7 +96,7 @@ export default function Wyroby() {
       "@type": "ListItem",
       "position": idx + 1,
       "name": w.title,
-      "url": `https://www.nowycpr.pl/wyroby?slug=${w.slug}`
+      "url": `https://www.nowycpr.pl/wyrob?slug=${w.slug}`
     }))
   };
 

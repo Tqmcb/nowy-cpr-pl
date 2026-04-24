@@ -92,8 +92,10 @@ export function buildWyrobSnapshot(wyrob: ProductFamily | null): WyrobSnapshot |
   const checklistSection = extractMarkdownSection(wyrob.content, ["checklist producenta"]);
 
   const familyParagraphs = extractParagraphs(familySection, 2);
-  const changes = extractListItems(changesSection, 4);
-  const actions = extractListItems(checklistSection, 5);
+  const changeListItems = extractListItems(changesSection, 4);
+  const checklistItems = extractListItems(checklistSection, 5);
+  const changes = changeListItems.length > 0 ? changeListItems : extractParagraphs(changesSection, 4);
+  const actions = checklistItems.length > 0 ? checklistItems : extractParagraphs(checklistSection, 5);
 
   return {
     familySummary: familyParagraphs.join(" ").trim() || wyrob.excerpt,
