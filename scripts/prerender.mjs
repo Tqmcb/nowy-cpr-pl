@@ -408,6 +408,11 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.tit
 <p>Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&amp;C, FPC/ZKP i certyfikacja.</p>
 <p>Dla każdej kategorii znajdziesz obowiązkowe badania i normy zharmonizowane, wymagany system AVS, dokumentację oraz kluczowe zmiany względem CPR 305/2011.</p>`,
 
+  wyszukiwarka: `
+<h1>Wymagania CPR dla wyrobu budowlanego — wyszukiwarka</h1>
+<p>Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&amp;C, FPC/ZKP i certyfikacja.</p>
+<p>Dla każdej kategorii znajdziesz obowiązkowe badania i normy zharmonizowane, wymagany system AVS, dokumentację oraz kluczowe zmiany względem CPR 305/2011.</p>`,
+
   documents: `
 <h1>Wzory DoP&amp;C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110</h1>
 <p>Bezpłatne wzory dokumentów CPR 2024/3110: DoP&amp;C, oznakowanie CE, FPC/ZKP, karta techniczna, EPD, DPP, AVS, importer i lista kontrolna producenta.</p>
@@ -437,6 +442,16 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.tit
   <li><strong>Weryfikacja oprogramowania obliczeniowego</strong> — raport walidacyjny do pliku technicznego Art. 21</li>
   <li><strong>Analiza norm i harmonogram wdrożenia</strong> — normy zharmonizowane, Plan Prac KE (Milestones 0–IV, 2026–2029)</li>
   <li><strong>Szkolenia CPR 2024/3110</strong> — warsztaty dla producentów i dystrybutorów wyrobów budowlanych</li>
+</ul>`,
+
+  harmonogram: `
+<h1>Terminy CPR 2024/3110: DoP&amp;C, GWP, DPP i sankcje</h1>
+<p>Harmonogram CPR 2024/3110 obejmuje daty stosowania, okresy przejściowe, terminy DoP&amp;C, GWP, EPD, DPP, nowe hTS, sankcje i obowiązki producentów.</p>
+<ul>
+  <li>7 stycznia 2025 — wejście w życie CPR 2024/3110.</li>
+  <li>8 stycznia 2026 — rozpoczęcie stosowania przepisów ramowych.</li>
+  <li>2027+ — akty delegowane, nowe hTS, GWP, EPD i DPP dla kolejnych grup wyrobów.</li>
+  <li>2027+ — krajowe sankcje i intensyfikacja nadzoru rynku.</li>
 </ul>`,
 
   'o-portalu': `
