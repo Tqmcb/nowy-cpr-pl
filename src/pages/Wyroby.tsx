@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useReveal } from "../hooks/useReveal";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -51,13 +51,11 @@ export default function Wyroby() {
   const [activeCategory, setActiveCategory] = useState<string>("Wszystkie");
   const gridRef = useReveal(0);
 
-  useEffect(() => {
-    const legacySlug = searchParams.get("slug");
+  const legacySlug = searchParams.get("slug");
 
-    if (legacySlug) {
-      navigate(`/wyrob?slug=${encodeURIComponent(legacySlug)}`, { replace: true });
-    }
-  }, [navigate, searchParams]);
+  if (legacySlug) {
+    return <Navigate to={`/wyrob?slug=${encodeURIComponent(legacySlug)}`} replace />;
+  }
 
   useEffect(() => {
     const load = async () => {

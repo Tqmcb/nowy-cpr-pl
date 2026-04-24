@@ -174,6 +174,13 @@ const staticPages = [
     schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Katalog Wyrobów Budowlanych CPR 2024/3110', url: 'https://www.nowycpr.pl/wyroby' },
   },
   {
+    path: 'wyrob',
+    title: 'Karta rodziny wyrobu — CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Szczegółowe wymagania CPR 2024/3110 dla wybranej rodziny wyrobów budowlanych: normy, systemy AVS, dokumentacja i kluczowe zmiany.',
+    canonical: 'https://www.nowycpr.pl/wyrob',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Karta rodziny wyrobu CPR 2024/3110', url: 'https://www.nowycpr.pl/wyrob' },
+  },
+  {
     path: 'product-search',
     title: 'Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl',
     desc: 'Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011.',
@@ -315,6 +322,13 @@ ${publishedPosts.map(p => `  <li><a href="/blog/${p.slug}">${escapeHtml(p.title)
   wyroby: `
 <h1>Katalog Wyrobów Budowlanych — CPR 2024/3110</h1>
 <p>36 kategorii wyrobów budowlanych objętych Rozporządzeniem (UE) 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu.</p>
+<ul>
+${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
+</ul>`,
+
+  wyrob: `
+<h1>Karta rodziny wyrobu — CPR 2024/3110</h1>
+<p>Ta strona obsługuje szczegółowe karty rodzin wyrobów budowlanych w formacie <code>/wyrob?slug=nazwa-rodziny</code>. Znajdziesz tu wymagania, normy zharmonizowane, systemy AVS oraz checklisty działań dla wybranej rodziny.</p>
 <ul>
 ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
 </ul>`,
