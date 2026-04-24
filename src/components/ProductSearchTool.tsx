@@ -87,10 +87,11 @@ export function ProductSearchTool() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <Helmet>
-        <title>Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl</title>
-        <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011." />
-        <meta property="og:title" content="Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl" />
-        <meta property="og:description" content="Interaktywna wyszukiwarka wymagań dla 36 kategorii wyrobów budowlanych objętych CPR 2024/3110." />
+        <title>Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl</title>
+        <meta name="description" content="Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja." />
+        <meta name="keywords" content="wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego" />
+        <meta property="og:title" content="Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl" />
+        <meta property="og:description" content="Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych: AVS, hEN, badania, DoP&C i FPC." />
         <meta property="og:url" content="https://www.nowycpr.pl/wyszukiwarka" />
         <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka" />
       </Helmet>

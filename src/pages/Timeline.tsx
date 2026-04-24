@@ -237,15 +237,16 @@ export default function TimelinePage() {
   );
 
   const canonicalUrl = "https://www.nowycpr.pl/harmonogram";
-  const pageTitle = "Harmonogram CPR 2024/3110 — Kluczowe daty i terminy | NowyCPR.pl";
+  const pageTitle = "Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje | NowyCPR.pl";
   const pageDesc =
-    "Interaktywna oś czasu z kluczowymi datami wdrożenia nowego rozporządzenia CPR (UE) 2024/3110. Sprawdź terminy przejściowe, sankcje, GWP i DPP.";
+    "Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, terminy DoP&C, GWP, EPD, DPP, nowe hTS, sankcje i obowiązki producentów.";
 
   return (
     <>
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDesc} />
+        <meta name="keywords" content="harmonogram CPR 2024/3110, terminy CPR, DoP&C 2026, GWP CPR, DPP CPR, okres przejściowy CPR, sankcje CPR, hTS" />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />

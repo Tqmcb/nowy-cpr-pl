@@ -5,8 +5,8 @@
 ## Główne sekcje portalu
 
 - [Strona główna](https://www.nowycpr.pl/) — wprowadzenie do CPR 2024/3110, kluczowe terminy, linki do zasobów dla producentów
-- [Wyszukiwarka CPR](https://www.nowycpr.pl/product-search) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
-- [Dokumenty do pobrania](https://www.nowycpr.pl/documents) — 8 bezpłatnych szablonów HTML zgodnych z CPR 2024/3110 (DoP&C, karta techniczna, FPC, oznakowanie CE, lista kontrolna, EPD, DPP, AVS)
+- [Wyszukiwarka CPR](https://www.nowycpr.pl/wyszukiwarka) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
+- [Dokumenty do pobrania](https://www.nowycpr.pl/documents) — bezpłatne szablony HTML zgodne z CPR 2024/3110 (DoP&C, karta techniczna, FPC/ZKP, oznakowanie CE, lista kontrolna, EPD, DPP, AVS, importer, przedstawiciel)
 - [Blog](https://www.nowycpr.pl/blog) — 57 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
 - [Wyroby](https://www.nowycpr.pl/wyroby) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
 
@@ -35,6 +35,15 @@
 - **Cyfryzacja** — Digital DoP&C, DPP, QR, traceability, sprzedaż online i obowiązki platform marketplace
 - **Prawo i nadzór rynku** — GUNB, kary, wycofanie wyrobu, RAPEX/Safety Gate, ADCO, importerzy, dystrybutorzy i upoważnieni przedstawiciele
 - **Rodziny wyrobów i normy** — beton, prefabrykaty, rury z tworzyw, izolacje, okna i drzwi, wyroby używane, druk 3D, normy zharmonizowane
+
+## Priorytetowe frazy i intencje wyszukiwania
+
+- **Informacyjna / prawna:** CPR 2024/3110, nowe rozporządzenie CPR, CPR 305/2011 a CPR 2024/3110, od kiedy obowiązuje CPR 2024/3110, harmonogram CPR, okres przejściowy CPR
+- **Dokumentacyjna:** wzór DoP&C, szablon deklaracji właściwości użytkowych i zgodności, oznakowanie CE wyrobu budowlanego, dokumentacja techniczna CPR, karta techniczna wyrobu budowlanego
+- **Certyfikacyjna / komercyjna:** certyfikacja wyrobów budowlanych, audyt ZKP, audyt FPC, jednostka certyfikująca wyroby budowlane, system AVS, AVS 1+, AVS 2+, AVS 3+
+- **Środowiskowa:** GWP w CPR, EPD wyrobów budowlanych, EN 15804, AVS 3+, CPCR, deklaracja środowiskowa produktu
+- **Cyfrowa:** cyfrowy paszport produktu DPP, Digital DoP&C, QR kod CPR, unikalny identyfikator produktu, dokumentacja cyfrowa CPR
+- **Łańcuch dostaw:** obowiązki producenta CPR, obowiązki importera wyrobów budowlanych, obowiązki dystrybutora CPR, sprzedaż online wyrobów budowlanych, marketplace CPR
 
 ## Dostępne szablony dokumentów (bezpłatne)
 

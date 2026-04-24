@@ -187,22 +187,44 @@ console.log(`\n✓ Pre-rendered ${count} blog posts into dist/blog/*/index.html`
 
 const staticPages = [
   {
-    path: '',  // root — overwrite dist/index.html in-place (already correct, skip)
-    skip: true,
+    path: '',
+    title: 'CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl',
+    desc: 'NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
+    keywords: 'CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
+    canonical: 'https://www.nowycpr.pl/',
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'NowyCPR.pl',
+      url: 'https://www.nowycpr.pl/',
+      inLanguage: 'pl-PL',
+      publisher: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
+      description: 'NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
+      keywords: 'CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
+      about: [
+        { '@type': 'Thing', name: 'Rozporządzenie (UE) 2024/3110' },
+        { '@type': 'Thing', name: 'Deklaracja Właściwości Użytkowych i Zgodności' },
+        { '@type': 'Thing', name: 'Oznakowanie CE wyrobów budowlanych' },
+        { '@type': 'Thing', name: 'Systemy AVS' },
+        { '@type': 'Thing', name: 'Cyfrowy Paszport Produktu' },
+      ],
+    },
   },
   {
     path: 'blog',
-    title: 'Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl',
-    desc: 'Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych.',
+    title: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły | NowyCPR.pl',
+    desc: 'Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku.',
+    keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE, wyroby budowlane, importer, dystrybutor, GUNB',
     canonical: 'https://www.nowycpr.pl/blog',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Aktualności CPR 2024/3110', url: 'https://www.nowycpr.pl/blog', description: 'Artykuły i analizy prawne o CPR 2024/3110 na NowyCPR.pl' },
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły', url: 'https://www.nowycpr.pl/blog', description: 'Artykuły i analizy o CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.', keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE' },
   },
   {
     path: 'wyroby',
-    title: 'Katalog Wyrobów Budowlanych — CPR 2024/3110 | NowyCPR.pl',
-    desc: 'Przeszukaj katalog 36 kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu.',
+    title: 'Wyroby budowlane CPR: normy hEN, AVS i certyfikacja | NowyCPR.pl',
+    desc: 'Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane hEN, systemy AVS, badania, FPC/ZKP i wymagania certyfikacyjne.',
+    keywords: 'wyroby budowlane CPR, katalog wyrobów budowlanych, normy zharmonizowane hEN, system AVS, certyfikacja wyrobów, FPC, ZKP, DoP&C',
     canonical: 'https://www.nowycpr.pl/wyroby',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Katalog Wyrobów Budowlanych CPR 2024/3110', url: 'https://www.nowycpr.pl/wyroby' },
+    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wyroby budowlane CPR: normy hEN, AVS i certyfikacja', url: 'https://www.nowycpr.pl/wyroby', description: 'Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110.', keywords: 'wyroby budowlane CPR, normy hEN, system AVS, certyfikacja wyrobów' },
   },
   {
     path: 'wyrob',
@@ -213,24 +235,27 @@ const staticPages = [
   },
   {
     path: 'product-search',
-    title: 'Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl',
-    desc: 'Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj obowiązkowe badania, dokumentację i zmiany względem CPR 305/2011.',
-    canonical: 'https://www.nowycpr.pl/product-search',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wyszukiwarka Wymagań CPR 2024/3110', url: 'https://www.nowycpr.pl/product-search' },
+    title: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl',
+    desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
+    keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
+    canonical: 'https://www.nowycpr.pl/wyszukiwarka',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.' },
   },
   {
     path: 'documents',
-    title: 'Szablony Dokumentów CPR 2024/3110 — bezpłatne wzory | NowyCPR.pl',
-    desc: '13 bezpłatnych szablonów dokumentów CPR 2024/3110: DoP&C, karta techniczna, FPC, oznakowanie CE, EPD, DPP, paszport produktu. Zgodne z Rozporządzeniem (UE) 2024/3110.',
+    title: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110 | NowyCPR.pl',
+    desc: 'Bezpłatne wzory dokumentów CPR 2024/3110: DoP&C, oznakowanie CE, FPC/ZKP, karta techniczna, EPD, DPP, AVS, importer i lista kontrolna producenta.',
+    keywords: 'wzór DoP&C, szablon DoP&C, deklaracja właściwości użytkowych i zgodności, oznakowanie CE wzór, FPC, ZKP, EPD, DPP, dokumenty CPR 2024/3110',
     canonical: 'https://www.nowycpr.pl/documents',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Szablony Dokumentów CPR 2024/3110', url: 'https://www.nowycpr.pl/documents' },
+    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110', url: 'https://www.nowycpr.pl/documents', description: 'Bezpłatne wzory dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych.', keywords: 'wzór DoP&C, szablon DoP&C, oznakowanie CE wzór, FPC, ZKP, EPD, DPP' },
   },
   {
     path: 'services',
-    title: 'Usługi Certyfikacyjne CPR 2024/3110 — Multicert | NowyCPR.pl',
-    desc: 'Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej i audyty zgodności z CPR 2024/3110. Multicert — akredytowana jednostka certyfikująca wyroby budowlane.',
+    title: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert | NowyCPR.pl',
+    desc: 'Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.',
+    keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane',
     canonical: 'https://www.nowycpr.pl/services',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Usługi Certyfikacyjne CPR 2024/3110 — Multicert', url: 'https://www.nowycpr.pl/services' },
+    schema: { '@context': 'https://schema.org', '@type': 'Service', name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert', provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' }, url: 'https://www.nowycpr.pl/services', areaServed: 'PL', description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.', keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C' },
   },
   {
     path: 'o-portalu',
@@ -255,17 +280,19 @@ const staticPages = [
   },
   {
     path: 'wyszukiwarka',
-    title: 'Wyszukiwarka Wymagań CPR 2024/3110 | NowyCPR.pl',
-    desc: 'Sprawdź wymagania CPR 2024/3110 dla swojego wyrobu budowlanego. Wybierz kategorię i poznaj normy, systemy AVS i obowiązki.',
+    title: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl',
+    desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
+    keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
     canonical: 'https://www.nowycpr.pl/wyszukiwarka',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wyszukiwarka Wymagań CPR', url: 'https://www.nowycpr.pl/wyszukiwarka' },
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', keywords: 'wymagania CPR dla wyrobu, system AVS, norma hEN, DoP&C, FPC' },
   },
   {
     path: 'harmonogram',
-    title: 'Harmonogram CPR 2024/3110 — Kluczowe daty i terminy | NowyCPR.pl',
-    desc: 'Kluczowe daty, terminy przejściowe i kamienie milowe wdrożenia rozporządzenia CPR 2024/3110 o wyrobach budowlanych.',
+    title: 'Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje | NowyCPR.pl',
+    desc: 'Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, terminy DoP&C, GWP, EPD, DPP, nowe hTS, sankcje i obowiązki producentów.',
+    keywords: 'harmonogram CPR 2024/3110, terminy CPR, DoP&C 2026, GWP CPR, DPP CPR, okres przejściowy CPR, sankcje CPR, hTS',
     canonical: 'https://www.nowycpr.pl/harmonogram',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Harmonogram CPR 2024/3110', url: 'https://www.nowycpr.pl/harmonogram' },
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje', url: 'https://www.nowycpr.pl/harmonogram', description: 'Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, DoP&C, GWP, EPD, DPP, hTS i sankcje.', keywords: 'harmonogram CPR 2024/3110, terminy CPR, DoP&C, GWP, DPP, sankcje CPR' },
   },
   {
     path: 'faq',
@@ -343,16 +370,28 @@ const publishedPosts = files
 
 // Body HTML per path — injected hidden inside <body> for crawlers
 const bodyContentMap = {
+  '': `
+<h1>CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&amp;C, CE</h1>
+<p>NowyCPR.pl wyjaśnia wymagania Rozporządzenia (UE) 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.</p>
+<p>Główne tematy: DoP&amp;C, oznakowanie CE, systemy AVS, FPC/ZKP, GWP, EPD, cyfrowy paszport produktu DPP, dokumentacja techniczna i terminy wdrożenia CPR.</p>
+<ul>
+  <li><a href="/wyszukiwarka">Wyszukiwarka wymagań CPR dla wyrobu budowlanego</a></li>
+  <li><a href="/documents">Wzory DoP&amp;C, CE, FPC, EPD i DPP</a></li>
+  <li><a href="/services">Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C</a></li>
+  <li><a href="/blog">Artykuły o CPR 2024/3110, AVS, GWP, EPD i DPP</a></li>
+  <li><a href="/harmonogram">Terminy CPR 2024/3110: DoP&amp;C, GWP, DPP i sankcje</a></li>
+</ul>`,
+
   blog: `
-<h1>Aktualności CPR 2024/3110 — Artykuły i Analizy</h1>
-<p>Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych.</p>
+<h1>CPR 2024/3110: DoP&amp;C, AVS, GWP, DPP — artykuły</h1>
+<p>Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&amp;C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku.</p>
 <ul>
 ${publishedPosts.map(p => `  <li><a href="/blog/${p.slug}">${escapeHtml(p.title)}</a></li>`).join('\n')}
 </ul>`,
 
   wyroby: `
-<h1>Katalog Wyrobów Budowlanych — CPR 2024/3110</h1>
-<p>36 kategorii wyrobów budowlanych objętych Rozporządzeniem (UE) 2024/3110. Sprawdź normy zharmonizowane, systemy AVS i wymagania certyfikacyjne dla swojego produktu.</p>
+<h1>Wyroby budowlane CPR: normy hEN, AVS i certyfikacja</h1>
+<p>Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane hEN, systemy AVS, badania, FPC/ZKP i wymagania certyfikacyjne.</p>
 <ul>
 ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
 </ul>`,
@@ -365,13 +404,13 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.tit
 </ul>`,
 
   'product-search': `
-<h1>Wyszukiwarka Wymagań CPR 2024/3110</h1>
-<p>Sprawdź wymagania Rozporządzenia (UE) 2024/3110 dla swojego wyrobu budowlanego. Narzędzie obejmuje 36 rodzin wyrobów z Załącznika VII CPR 2024/3110.</p>
-<p>Dla każdej kategorii znajdziesz: obowiązkowe badania i normy zharmonizowane, wymagany system AVS (Assessment and Verification of Constancy of Performance), wymaganą dokumentację (DoP&amp;C, plik techniczny, ZKP/FPC) oraz kluczowe zmiany względem poprzedniego CPR 305/2011.</p>`,
+<h1>Wymagania CPR dla wyrobu budowlanego — wyszukiwarka</h1>
+<p>Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&amp;C, FPC/ZKP i certyfikacja.</p>
+<p>Dla każdej kategorii znajdziesz obowiązkowe badania i normy zharmonizowane, wymagany system AVS, dokumentację oraz kluczowe zmiany względem CPR 305/2011.</p>`,
 
   documents: `
-<h1>Szablony Dokumentów CPR 2024/3110 — bezpłatne wzory</h1>
-<p>13 bezpłatnych szablonów dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych. Wszystkie wzory zgodne z Rozporządzeniem (UE) 2024/3110.</p>
+<h1>Wzory DoP&amp;C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110</h1>
+<p>Bezpłatne wzory dokumentów CPR 2024/3110: DoP&amp;C, oznakowanie CE, FPC/ZKP, karta techniczna, EPD, DPP, AVS, importer i lista kontrolna producenta.</p>
 <ul>
   <li>Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&amp;C) — Załącznik V CPR 2024/3110</li>
   <li>Szablon karty technicznej wyrobu budowlanego</li>
@@ -389,8 +428,8 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.tit
 </ul>`,
 
   services: `
-<h1>Usługi Certyfikacyjne CPR 2024/3110 — Multicert</h1>
-<p>Multicert Sp. z o.o. — akredytowana jednostka certyfikująca wyroby budowlane z siedzibą w Warszawie. Oferujemy kompleksowe usługi zgodności z Rozporządzeniem (UE) 2024/3110.</p>
+<h1>Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C — Multicert</h1>
+<p>Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&amp;C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.</p>
 <ul>
   <li><strong>Audyt gotowości CPR 2024</strong> — identyfikacja systemu AVS, ocena ZKP/FPC, analiza dokumentacji DoP&amp;C, mapa ryzyk</li>
   <li><strong>Przegląd systemu ZKP (Art. 20 CPR 2024)</strong> — ocena dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), uproszczenie dla mikroprzedsiębiorstw (Art. 60)</li>
@@ -422,6 +461,7 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.tit
 function renderStaticPage(page) {
   const title     = escapeHtml(page.title);
   const desc      = escapeHtml(page.desc);
+  const keywords  = escapeHtml(page.keywords || 'CPR 2024/3110, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP');
   const canonical = page.canonical;
   const jsonLd    = JSON.stringify(page.schema);
   const body      = bodyContentMap[page.path] || '';
@@ -433,9 +473,15 @@ function renderStaticPage(page) {
       /<meta name="description"\s+content="[^"]*"\s*\/>/,
       `<meta name="description" content="${desc}" />`
     )
+    .replace(
+      /\s*<meta name="keywords"[\s\S]*?\/>/,
+      `\n  <meta name="keywords" content="${keywords}" />`
+    )
     .replace(/<meta property="og:title"[^>]*>/, `<meta property="og:title" content="${title}" />`)
     .replace(/<meta property="og:description"[^>]*>/, `<meta property="og:description" content="${desc}" />`)
     .replace(/<meta property="og:url"[^>]*>/, `<meta property="og:url" content="${canonical}" />`)
+    .replace(/<meta name="twitter:title"[^>]*>/, `<meta name="twitter:title" content="${title}" />`)
+    .replace(/<meta name="twitter:description"[^>]*>/, `<meta name="twitter:description" content="${desc}" />`)
     .replace('</head>', `<script type="application/ld+json">${jsonLd}</script>\n</head>`);
 
   // Inject static body content directly into #root.
@@ -454,7 +500,6 @@ function renderStaticPage(page) {
 
 let staticCount = 0;
 for (const page of staticPages) {
-  if (page.skip) continue;
   const outDir = join(distDir, page.path);
   mkdirSync(outDir, { recursive: true });
   writeFileSync(join(outDir, 'index.html'), renderStaticPage(page), 'utf-8');

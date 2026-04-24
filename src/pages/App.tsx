@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { Helmet } from "react-helmet-async";
 import { getAllPosts as getBlogPosts } from "../utils/blogLoader";
 import { Button } from "../components/Button";
 import { Container } from "../components/Container";
@@ -128,8 +129,49 @@ function HomePage() {
     });
   };
 
+  const canonicalUrl = "https://www.nowycpr.pl/";
+  const pageTitle = "CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl";
+  const pageDesc =
+    "NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.";
+  const pageKeywords =
+    "CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych";
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NowyCPR.pl",
+    "url": canonicalUrl,
+    "inLanguage": "pl-PL",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Multicert Sp. z o.o.",
+      "url": "https://www.multicert.pl"
+    },
+    "description": pageDesc,
+    "keywords": pageKeywords,
+    "about": [
+      { "@type": "Thing", "name": "Rozporządzenie (UE) 2024/3110" },
+      { "@type": "Thing", "name": "Deklaracja Właściwości Użytkowych i Zgodności" },
+      { "@type": "Thing", "name": "Oznakowanie CE wyrobów budowlanych" },
+      { "@type": "Thing", "name": "Systemy AVS" },
+      { "@type": "Thing", "name": "Cyfrowy Paszport Produktu" }
+    ]
+  };
+
   return (
     <div className="flex flex-col min-h-screen section-paper">
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDesc} />
+        <meta name="keywords" content={pageKeywords} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">
+          {JSON.stringify(homeSchema)}
+        </script>
+      </Helmet>
       <Header />
 
       <main className="flex-grow">

@@ -216,10 +216,11 @@ export default function Services() {
   return (
     <div className="flex flex-col min-h-screen">
       <Helmet>
-        <title>Usługi Certyfikacyjne CPR 2024/3110 — Multicert | NowyCPR.pl</title>
-        <meta name="description" content="Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej i audyty zgodności z CPR 2024/3110. Multicert — akredytowana jednostka certyfikująca wyroby budowlane." />
-        <meta property="og:title" content="Usługi Certyfikacyjne CPR 2024/3110 — Multicert" />
-        <meta property="og:description" content="Certyfikacja ZKP, DoP&C, audyty CPR 2024/3110 — Multicert, akredytowana NB w Polsce." />
+        <title>Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert | NowyCPR.pl</title>
+        <meta name="description" content="Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110." />
+        <meta name="keywords" content="certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane" />
+        <meta property="og:title" content="Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert" />
+        <meta property="og:description" content="Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych." />
         <meta property="og:url" content="https://www.nowycpr.pl/services" />
         <link rel="canonical" href="https://www.nowycpr.pl/services" />
       </Helmet>

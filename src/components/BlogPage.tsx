@@ -842,10 +842,11 @@ export function BlogPage() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Aktualności CPR 2024/3110 — Artykuły i Analizy | NowyCPR.pl</title>
-        <meta name="description" content="Artykuły, analizy prawne i przewodniki techniczne o CPR 2024/3110 dla producentów wyrobów budowlanych. Śledź zmiany w rozporządzeniu UE o wyrobach budowlanych." />
-        <meta property="og:title" content="Aktualności CPR 2024/3110 | NowyCPR.pl" />
-        <meta property="og:description" content="Artykuły i analizy o nowym rozporządzeniu CPR 2024/3110 dla producentów wyrobów budowlanych." />
+        <title>CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły | NowyCPR.pl</title>
+        <meta name="description" content="Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku." />
+        <meta name="keywords" content="CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE, wyroby budowlane, importer, dystrybutor, GUNB" />
+        <meta property="og:title" content="CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły | NowyCPR.pl" />
+        <meta property="og:description" content="Przewodniki i analizy o nowym CPR dla producentów, importerów i dystrybutorów wyrobów budowlanych." />
         <meta property="og:url" content="https://www.nowycpr.pl/blog" />
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
