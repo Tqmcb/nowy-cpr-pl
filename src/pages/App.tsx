@@ -176,7 +176,7 @@ function HomePage() {
 
       <main className="flex-grow">
         {/* Editorial Hero — Multicert brand system */}
-        <section className="relative pt-16 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-white">
+        <section className="relative pt-6 pb-10 md:pt-8 md:pb-12 overflow-hidden bg-white">
           {/* Thin top rule — masthead */}
 
           {/* Brand-red kreska akcentu — sygnatura Multicert */}
@@ -184,7 +184,7 @@ function HomePage() {
           <Container>
             <div className="relative z-10 max-w-6xl mx-auto">
               {/* Masthead metadata row */}
-              <div className="flex items-center justify-between text-[0.7rem] uppercase tracking-[0.18em] font-semibold mb-10 md:mb-14 animate-fade-in-up" style={{ color: "oklch(20% .03 264)" }}>
+              <div className="flex items-center justify-between text-[0.7rem] uppercase tracking-[0.18em] font-semibold mb-6 md:mb-8 animate-fade-in-up" style={{ color: "oklch(20% .03 264)" }}>
                 <span>NowyCPR · Wydanie #04 · Kwiecień 2026</span>
                 <span className="hidden sm:inline" style={{ color: "oklch(60% .015 264)" }}>Portal regulacyjny dla wyrobów budowlanych</span>
                 <span style={{ color: "oklch(55% .22 27)" }}>Stan: obowiązuje od 8·I·2026</span>
@@ -199,18 +199,18 @@ function HomePage() {
                     2024
                   </div>
                   <div className="editorial-numeral text-4xl md:text-5xl mt-3" style={{ color: "oklch(55% .22 27)" }}>/3110</div>
-                  <div className="mt-8 flex items-center gap-3 text-sm">
+                  <div className="mt-6 flex items-center gap-3 text-sm">
                     <div className="h-px flex-1" style={{ backgroundColor: "oklch(86% .012 264)" }} />
                     <span className="editorial-kicker">UE · EUR-Lex</span>
                   </div>
-                  <p className="mt-6 text-sm leading-relaxed max-w-xs" style={{ color: "oklch(42% .02 264)" }}>
+                  <p className="mt-4 text-sm leading-relaxed max-w-xs" style={{ color: "oklch(42% .02 264)" }}>
                     Rozporządzenie Parlamentu Europejskiego i Rady ustanawiające zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych.
                   </p>
                 </div>
 
                 {/* Right: title + lede + CTA */}
                 <div className="lg:col-span-8 animate-fade-in-up-delay-1">
-                  <h1 className="font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                  <h1 className="font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-6" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                     Nowy CPR —<br/>
                     <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>co i kiedy</span><br/>
                     Cię dotyczy?
@@ -232,7 +232,7 @@ function HomePage() {
                     .
                   </p>
 
-                  <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                  <div className="flex flex-col sm:flex-row gap-3 mt-6">
                     <Button
                       size="lg"
                       asChild
@@ -257,7 +257,7 @@ function HomePage() {
                   </div>
 
                   {/* Stats in editorial row */}
-                  <div className="mt-14 pt-8 grid grid-cols-3 gap-6 md:gap-10" style={{ borderTop: "1px solid oklch(86% .012 264)" }}>
+                  <div className="mt-6 pt-5 grid grid-cols-3 gap-6 md:gap-10" style={{ borderTop: "1px solid oklch(86% .012 264)" }}>
                     <EditorialStat value="2026" label="Rok stosowania" />
                     <EditorialStat value="27" label="Krajów UE" />
                     <EditorialStat value="2028+" label="Realne GWP · DPP" />
@@ -269,10 +269,10 @@ function HomePage() {
         </section>
 
         {/* About CPR 2024 Section — editorial magazyn */}
-        <section ref={aboutRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 relative reveal bg-white">
+        <section ref={aboutRef as React.RefCallback<HTMLElement>} className="pt-8 pb-12 md:pt-10 md:pb-14 relative reveal bg-white">
           <Container>
             {/* Section label + number */}
-            <div className="max-w-6xl mx-auto mb-12 md:mb-16">
+            <div className="max-w-6xl mx-auto mb-8 md:mb-10">
               <div className="flex items-baseline gap-6 mb-10">
                 <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>01</span>
                 <div className="flex items-center gap-3 pt-4">
@@ -295,8 +295,8 @@ function HomePage() {
             </div>
 
             {/* Pull quote — status key info */}
-            <div className="max-w-6xl mx-auto mb-20 md:mb-24">
-              <div className="relative py-10 md:py-14" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(86% .012 264)" }}>
+            <div className="max-w-6xl mx-auto mb-10 md:mb-8">
+              <div className="relative py-7 md:py-9" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(86% .012 264)" }}>
                 <div className="editorial-kicker absolute -top-3 left-0 bg-white pr-4">
                   Status — {new Date().toLocaleDateString('pl-PL', { month: 'long', year: 'numeric' })}
                 </div>
@@ -319,7 +319,7 @@ function HomePage() {
             </div>
 
             {/* Timeline + Changes — editorial two column */}
-            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 mb-20">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 mb-10">
               {/* Timeline */}
               <div>
                 <div className="flex items-baseline gap-4 mb-8 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
@@ -377,7 +377,7 @@ function HomePage() {
 
             {/* CTA Banner — editorial */}
             <div className="max-w-6xl mx-auto">
-              <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+              <div className="relative py-8 md:py-10 px-6 md:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
                 {/* Brand-red accent corner */}
                 <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
@@ -405,10 +405,10 @@ function HomePage() {
         </section>
 
         {/* Features Section — editorial */}
-        <section ref={featuresRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 reveal" style={{ backgroundColor: "oklch(98% .005 264)" }}>
+        <section ref={featuresRef as React.RefCallback<HTMLElement>} className="py-14 md:py-16 reveal" style={{ backgroundColor: "oklch(98% .005 264)" }}>
           <Container>
             <div className="max-w-6xl mx-auto">
-              <div className="flex items-baseline gap-6 mb-12">
+              <div className="flex items-baseline gap-6 mb-8">
                 <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>04</span>
                 <div className="flex items-center gap-3 pt-4">
                   <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
@@ -416,7 +416,7 @@ function HomePage() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16 items-end">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-10 items-end">
                 <h2 className="lg:col-span-8 font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                   Dlaczego<br/>
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>NowyCPR</span>?
@@ -453,7 +453,7 @@ function HomePage() {
                   <Link
                     key={idx}
                     to={feature.path}
-                    className="group cursor-pointer reveal-stagger block p-8 md:p-10 transition-all hover:bg-white"
+                    className="group cursor-pointer reveal-stagger block p-6 md:p-7 transition-all hover:bg-white"
                     style={{
                       "--i": idx,
                       borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
@@ -482,10 +482,10 @@ function HomePage() {
         </section>
 
         {/* Latest Blog Posts — editorial magazyn */}
-        <section ref={blogRef as React.RefCallback<HTMLElement>} className="py-24 md:py-32 reveal bg-white">
+        <section ref={blogRef as React.RefCallback<HTMLElement>} className="py-14 md:py-16 reveal bg-white">
           <Container>
             <div className="max-w-6xl mx-auto">
-              <div className="flex items-baseline gap-6 mb-12">
+              <div className="flex items-baseline gap-6 mb-8">
                 <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>05</span>
                 <div className="flex items-center gap-3 pt-4">
                   <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
@@ -493,7 +493,7 @@ function HomePage() {
                 </div>
               </div>
 
-              <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
+              <div className="flex flex-col md:flex-row items-end justify-between mb-10 gap-6">
                 <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                   Najnowsze<br/>
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>artykuły</span>

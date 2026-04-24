@@ -369,7 +369,7 @@ export default function FaqPage() {
                 </div>
 
                 {/* ── CATEGORY FILTERS ── */}
-                <div className="flex flex-wrap gap-2 mb-10 pb-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+                <div className="flex flex-wrap gap-2 mb-6 pb-5" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
                   <button
                     onClick={() => setActiveCategory("all")}
                     className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] transition-all"
@@ -410,7 +410,7 @@ export default function FaqPage() {
 
                 {/* ── FAQ ACCORDION — editorial ── */}
                 {filtered.length === 0 ? (
-                  <div className="py-16 text-center">
+                  <div className="py-10 text-center">
                     <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Brak wyników</h3>
                     <p className="text-sm" style={{ color: "oklch(42% .02 264)" }}>
                       Nie znaleziono pytań pasujących do „{search}".{" "}
@@ -482,10 +482,10 @@ export default function FaqPage() {
           </section>
 
           {/* ── CTA — editorial dark ── */}
-          <section className="py-20 md:py-24 bg-white">
+          <section className="py-12 md:py-14 bg-white">
             <Container>
               <div className="max-w-6xl mx-auto">
-                <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+                <div className="relative py-8 md:py-10 px-6 md:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6" style={{ backgroundColor: "oklch(20% .03 264)" }}>
                   <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
                   <div className="max-w-2xl">

@@ -240,10 +240,10 @@ export default function Services() {
         </PageHeader>
 
         {/* Key Benefits — editorial three-column */}
-        <section className="pt-10 pb-20 md:pt-12 md:pb-24 bg-white">
+        <section className="pt-4 pb-10 md:pt-6 md:pb-12 bg-white">
           <Container>
             <div className="max-w-6xl mx-auto">
-              <div className="flex items-baseline gap-4 mb-10 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+              <div className="flex items-baseline gap-4 mb-6 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
                 <span className="editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
                 <h2 className="font-serif text-2xl md:text-3xl" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                   Co nas <span className="italic" style={{ color: "oklch(55% .22 27)" }}>wyróżnia</span>
@@ -255,7 +255,7 @@ export default function Services() {
                   { icon: Users, title: "Indywidualne podejście", description: "Każde wdrożenie jest inne — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów." },
                   { icon: ShieldCheck, title: "Kompletne wsparcie", description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu." }
                 ].map((item, idx) => (
-                  <div key={idx} className="p-8 md:p-10" style={{
+                  <div key={idx} className="p-6 md:p-10" style={{
                     borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
                     borderBottom: "1px solid oklch(92% .008 264)"
                   }}>
@@ -273,10 +273,10 @@ export default function Services() {
         </section>
 
         {/* Services list — editorial */}
-        <section className="py-20 md:py-24" style={{ backgroundColor: "oklch(98% .005 264)" }}>
+        <section className="py-10 md:py-12" style={{ backgroundColor: "oklch(98% .005 264)" }}>
           <Container>
             <div className="max-w-6xl mx-auto">
-              <div className="flex items-baseline gap-6 mb-12">
+              <div className="flex items-baseline gap-6 mb-8">
                 <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
                 <div className="flex items-center gap-3 pt-4">
                   <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
@@ -284,7 +284,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end mb-16">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-end mb-10">
                 <h2 className="lg:col-span-8 font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                   Nasze usługi<br/>
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>CPR 2024</span>
@@ -296,7 +296,7 @@ export default function Services() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
                 {services.map((service, idx) => (
-                  <div key={idx} className="p-8 md:p-10 transition-all hover:bg-white" style={{
+                  <div key={idx} className="p-6 md:p-10 transition-all hover:bg-white" style={{
                     borderRight: idx % 2 === 0 ? "1px solid oklch(92% .008 264)" : "none",
                     borderBottom: "1px solid oklch(92% .008 264)",
                     backgroundColor: "white"
@@ -335,12 +335,12 @@ export default function Services() {
         </section>
 
         {/* Pull quote — Dlaczego teraz */}
-        <section className="py-20 md:py-24 bg-white">
+        <section className="py-12 md:py-14 bg-white">
           <Container>
             <div className="max-w-6xl mx-auto">
               <div className="relative py-10 md:py-14" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(86% .012 264)" }}>
                 <div className="editorial-kicker absolute -top-3 left-0 bg-white pr-4">Dlaczego teraz</div>
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   <div className="lg:col-span-7">
                     <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.15] mb-6" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                       Zanim pojawi się<br/>
@@ -365,7 +365,7 @@ export default function Services() {
                   { label: "Importerzy i dystrybutorzy", desc: "sprowadzający wyroby pod własną marką" },
                   { label: "Mikroprzedsiębiorstwa i MŚP", desc: "uproszczone ścieżki wdrożenia" }
                 ].map((item, idx) => (
-                  <div key={idx} className="p-6 md:p-8" style={{
+                  <div key={idx} className="p-6 md:p-6" style={{
                     borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
                     borderBottom: "1px solid oklch(92% .008 264)"
                   }}>
@@ -408,10 +408,10 @@ export default function Services() {
         </section>
 
         {/* Contact Form — editorial */}
-        <section id="contact-section" className="py-20 md:py-28 bg-white">
+        <section id="contact-section" className="py-12 md:py-16 bg-white">
           <Container>
             <div className="max-w-5xl mx-auto">
-              <div className="flex items-baseline gap-6 mb-10">
+              <div className="flex items-baseline gap-6 mb-6">
                 <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
                 <div className="flex items-center gap-3 pt-4">
                   <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
@@ -422,7 +422,7 @@ export default function Services() {
                 Umów<br/>
                 <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>bezpłatną konsultację</span>
               </h2>
-              <p className="text-base md:text-lg leading-[1.6] mb-12 max-w-2xl" style={{ color: "oklch(42% .02 264)" }}>
+              <p className="text-base md:text-lg leading-[1.6] mb-8 max-w-2xl" style={{ color: "oklch(42% .02 264)" }}>
                 Opisz swój wyrób i sytuację — audytor Multicert skontaktuje się w ciągu 24 godzin.
               </p>
 

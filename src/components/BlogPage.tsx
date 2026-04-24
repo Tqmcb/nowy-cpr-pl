@@ -148,7 +148,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
 
 // Komponent pokazywany gdy ładowanie artykułów nie powiodło się
 const UnavailableState = ({ onRetry }: { onRetry: () => void }) => (
-  <div className="flex flex-col items-center justify-center py-20 px-4">
+  <div className="flex flex-col items-center justify-center py-12 px-4">
     <div className="bg-white border border-slate-200 shadow-sm rounded-xl max-w-md w-full p-10 text-center">
       <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-slate-100 border border-slate-200 flex items-center justify-center">
         <RefreshCw className="w-8 h-8 text-slate-500" />
@@ -851,12 +851,12 @@ export function BlogPage() {
         <link rel="canonical" href="https://www.nowycpr.pl/blog" />
       </Helmet>
       <PageHeader>
-        <div className="flex flex-wrap items-baseline gap-8">
-          <div>
+        <div className="flex flex-wrap items-baseline gap-5 min-w-0">
+          <div className="min-w-0">
             <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{blogPosts.length}</span>
             <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>artykułów · {categories.length} kategorii</span>
           </div>
-          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto min-w-0">
             <Button
               onClick={() => document.getElementById("blog-list")?.scrollIntoView({ behavior: "smooth" })}
               className="w-full sm:w-auto justify-center text-white font-semibold px-6 py-3 transition-all whitespace-nowrap"
@@ -879,10 +879,10 @@ export function BlogPage() {
       </PageHeader>
 
       {/* Blog List Section — editorial */}
-      <section id="blog-list" className="py-20 md:py-24 bg-white">
+      <section id="blog-list" className="pt-6 pb-10 md:pt-8 md:pb-12 bg-white">
         <Container>
           <div className="max-w-6xl mx-auto">
-            <div className="flex items-baseline gap-6 mb-12">
+            <div className="flex items-baseline gap-6 mb-8">
               <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
               <div className="flex items-center gap-3 pt-4">
                 <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
@@ -890,7 +890,7 @@ export function BlogPage() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 pb-8" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8 pb-5" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
               <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] leading-[1]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                 Najnowsze<br/>
                 <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>artykuły</span>
@@ -899,7 +899,7 @@ export function BlogPage() {
             </div>
 
             {/* Filters */}
-            <div className="flex flex-col md:flex-row gap-4 mb-10">
+            <div className="flex flex-col md:flex-row gap-4 mb-6">
               <div className="flex-grow relative">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
                 <input
@@ -968,13 +968,13 @@ export function BlogPage() {
       </section>
 
       {/* Newsletter — editorial dark banner */}
-      <section id="newsletter-section" className="py-20 md:py-24 bg-white">
+      <section id="newsletter-section" className="py-12 md:py-14 bg-white">
         <Container>
           <div className="max-w-6xl mx-auto">
-            <div className="relative py-12 md:py-16 px-8 md:px-12" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+            <div className="relative py-8 md:py-10 px-6 md:px-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
               <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-end">
                 <div className="lg:col-span-7">
                   <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Newsletter</div>
                   <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white mb-4" style={{ fontWeight: 500 }}>
@@ -1017,10 +1017,10 @@ export function BlogPage() {
       </section>
 
       {/* Quick Links — editorial */}
-      <section className="py-20 md:py-24" style={{ backgroundColor: "oklch(98% .005 264)" }}>
+      <section className="py-12 md:py-14" style={{ backgroundColor: "oklch(98% .005 264)" }}>
         <Container>
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
-            <div className="p-8" style={{
+            <div className="p-6" style={{
               borderRight: "1px solid oklch(92% .008 264)",
               borderBottom: "1px solid oklch(92% .008 264)"
             }}>
@@ -1032,7 +1032,7 @@ export function BlogPage() {
                 Praktyczne informacje dla producentów wyrobów budowlanych dotyczące CPR (EU) 2024/3110.
               </p>
             </div>
-            <div className="p-8" style={{
+            <div className="p-6" style={{
               borderRight: "1px solid oklch(92% .008 264)",
               borderBottom: "1px solid oklch(92% .008 264)"
             }}>
@@ -1053,7 +1053,7 @@ export function BlogPage() {
                 ))}
               </div>
             </div>
-            <div className="p-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+            <div className="p-6" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
               <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Kontakt</div>
               <h3 className="font-serif text-xl md:text-2xl mb-3 leading-[1.2]" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                 Masz <span className="italic" style={{ color: "oklch(55% .22 27)" }}>pytania?</span>

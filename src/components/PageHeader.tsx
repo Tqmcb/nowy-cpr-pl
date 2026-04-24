@@ -31,13 +31,13 @@ export function PageHeader({
   const resolvedLabel = label ?? pageMeta?.label;
 
   return (
-    <section className="relative pt-16 pb-12 md:pt-20 md:pb-16 bg-white">
+    <section className="relative pt-6 pb-5 md:pt-8 md:pb-7 bg-white">
       {/* Masthead top rules */}
 
       <Container>
         <div className="max-w-6xl mx-auto">
           {/* Breadcrumbs */}
-          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs mb-10 mt-6" style={{ color: "oklch(60% .015 264)" }}>
+          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs mb-5" style={{ color: "oklch(60% .015 264)" }}>
             <Link to="/" className="transition-colors hover:text-black uppercase tracking-[0.12em] font-semibold whitespace-nowrap">Strona główna</Link>
             {resolvedSection && (
               <>
@@ -57,8 +57,8 @@ export function PageHeader({
 
           {/* Section numeral + kicker */}
           {resolvedSection && (
-            <div className="flex items-baseline gap-6 mb-8">
-              <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
+            <div className="flex items-baseline gap-4 mb-4">
+              <span className="editorial-numeral text-5xl md:text-6xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
                 {resolvedSection.num}
               </span>
               <div className="flex items-center gap-3 pt-4">
@@ -69,8 +69,8 @@ export function PageHeader({
           )}
 
           {/* Title + description */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end mb-8">
-            <h1 className="lg:col-span-8 font-serif text-[2.2rem] sm:text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1.02] break-words" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-8 items-end mb-5">
+            <h1 className="lg:col-span-8 min-w-0 font-serif text-[2.2rem] sm:text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1.02] break-words" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
               {resolvedTitle}
               {resolvedAccent && (
                 <>
@@ -80,7 +80,7 @@ export function PageHeader({
               )}
             </h1>
             {resolvedDescription && (
-              <p className="lg:col-span-4 text-base md:text-lg leading-[1.6]" style={{ color: "oklch(42% .02 264)" }}>
+              <p className="lg:col-span-4 min-w-0 text-base md:text-lg leading-[1.6] break-words" style={{ color: "oklch(42% .02 264)" }}>
                 {resolvedDescription}
               </p>
             )}
@@ -88,7 +88,7 @@ export function PageHeader({
 
           {/* Optional slot for filters, CTA, etc. */}
           {children && (
-            <div className="pt-6" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
+            <div className="pt-3" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
               {children}
             </div>
           )}
@@ -109,10 +109,10 @@ export function RelatedPages() {
   if (siblings.length === 0) return null;
 
   return (
-    <section className="py-20 md:py-24 bg-white" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+    <section className="py-12 md:py-14 bg-white" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
       <Container>
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-baseline gap-4 mb-10 pb-4" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
+          <div className="flex items-baseline gap-4 mb-6 pb-3" style={{ borderBottom: "2px solid oklch(20% .03 264)" }}>
             <span className="editorial-numeral text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>
               {section.num}
             </span>
@@ -126,7 +126,7 @@ export function RelatedPages() {
               <Link
                 key={p.path}
                 to={p.path}
-                className="group block p-6 md:p-8 transition-all hover:bg-slate-50"
+                className="group block p-5 md:p-6 transition-all hover:bg-slate-50"
                 style={{
                   borderRight: idx % 3 !== 2 ? "1px solid oklch(92% .008 264)" : "none",
                   borderBottom: "1px solid oklch(92% .008 264)",
@@ -151,7 +151,7 @@ export function RelatedPages() {
             ))}
           </div>
 
-          <div className="mt-10 flex items-center gap-3 editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
+          <div className="mt-6 flex items-center gap-3 editorial-kicker" style={{ color: "oklch(60% .015 264)" }}>
             <Link to="/" className="transition-colors hover:text-black flex items-center gap-2">
               <ChevronRight className="w-3 h-3 rotate-180" />
               Wróć na stronę główną

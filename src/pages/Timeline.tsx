@@ -301,7 +301,7 @@ export default function TimelinePage() {
           </section>
 
           {/* ── TIMELINE — editorial vertical rail ── */}
-          <section className="pb-20 bg-white">
+          <section className="pb-12 md:pb-16 bg-white">
             <Container>
               <div className="max-w-6xl mx-auto relative">
                 {/* Vertical line centered */}
@@ -401,10 +401,10 @@ export default function TimelinePage() {
           </section>
 
           {/* ── CTA — editorial dark banner ── */}
-          <section className="py-20 md:py-24 bg-white">
+          <section className="py-12 md:py-14 bg-white">
             <Container>
               <div className="max-w-6xl mx-auto">
-                <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+                <div className="relative py-8 md:py-10 px-6 md:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6" style={{ backgroundColor: "oklch(20% .03 264)" }}>
                   <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
                   <div className="max-w-2xl">
                     <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Przygotuj się</div>

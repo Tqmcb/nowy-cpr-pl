@@ -178,7 +178,7 @@ export function DocumentsPage() {
   return (
     <div className="min-h-screen bg-white">
       <PageHeader>
-        <div className="flex flex-wrap items-baseline gap-8">
+        <div className="flex flex-wrap items-baseline gap-6">
           <div>
             <span className="editorial-numeral text-4xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>{documents.length}</span>
             <span className="editorial-kicker ml-3" style={{ color: "oklch(60% .015 264)" }}>dokumentów dostępnych</span>
@@ -206,11 +206,11 @@ export function DocumentsPage() {
       </PageHeader>
 
       {/* Documents Section — editorial */}
-      <section id="documents-section" className="py-20 md:py-24 bg-white">
+      <section id="documents-section" className="py-12 md:py-14 bg-white">
         <Container>
           <div className="max-w-6xl mx-auto">
             {/* Info note */}
-            <div className="mb-12 p-6" style={{ borderLeft: "2px solid oklch(55% .22 27)", backgroundColor: "oklch(98% .005 264)" }}>
+            <div className="mb-8 p-6" style={{ borderLeft: "2px solid oklch(55% .22 27)", backgroundColor: "oklch(98% .005 264)" }}>
               <div className="editorial-kicker mb-2" style={{ color: "oklch(55% .22 27)" }}>Jak korzystać</div>
               <p className="text-sm leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
                 Dokumenty otwierają się w przeglądarce jako strona HTML gotowa do wydruku.
@@ -220,7 +220,7 @@ export function DocumentsPage() {
             </div>
 
             {/* Filters */}
-            <div className="flex flex-col md:flex-row gap-4 mb-10 pb-8" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
+            <div className="flex flex-col md:flex-row gap-4 mb-6 pb-5" style={{ borderBottom: "1px solid oklch(92% .008 264)" }}>
               <div className="flex-grow relative">
                 <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: "oklch(60% .015 264)" }} />
                 <input
@@ -260,7 +260,7 @@ export function DocumentsPage() {
                 ))}
               </div>
             ) : (
-              <div className="py-16 text-center" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+              <div className="py-10 text-center" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
                 <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Brak wyników</h3>
                 <p style={{ color: "oklch(42% .02 264)" }}>Nie znaleziono dokumentów spełniających kryteria.</p>
               </div>
@@ -270,17 +270,17 @@ export function DocumentsPage() {
       </section>
 
       {/* FAQ Section — editorial */}
-      <section id="faq-section" className="py-20 md:py-24" style={{ backgroundColor: "oklch(98% .005 264)" }}>
+      <section id="faq-section" className="py-12 md:py-14" style={{ backgroundColor: "oklch(98% .005 264)" }}>
         <Container>
           <div className="max-w-5xl mx-auto">
-            <div className="flex items-baseline gap-6 mb-12">
+            <div className="flex items-baseline gap-6 mb-8">
               <span className="editorial-numeral text-6xl md:text-7xl" style={{ color: "oklch(55% .22 27)", fontWeight: 300 }}>—</span>
               <div className="flex items-center gap-3 pt-4">
                 <div className="h-[2px] w-10" style={{ backgroundColor: "oklch(55% .22 27)" }} />
                 <span className="editorial-kicker">FAQ</span>
               </div>
             </div>
-            <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] leading-[1] mb-16" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+            <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] leading-[1] mb-10" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
               Najczęściej<br/>
               <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>zadawane pytania</span>
             </h2>
@@ -337,10 +337,10 @@ export function DocumentsPage() {
       </section>
 
       {/* Contact CTA — editorial dark banner */}
-      <section id="contact-section" className="py-20 md:py-24 bg-white">
+      <section id="contact-section" className="py-12 md:py-14 bg-white">
         <Container>
           <div className="max-w-6xl mx-auto">
-            <div className="relative py-12 md:py-16 px-8 md:px-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+            <div className="relative py-8 md:py-10 px-6 md:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6" style={{ backgroundColor: "oklch(20% .03 264)" }}>
               <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
               <div className="max-w-2xl">

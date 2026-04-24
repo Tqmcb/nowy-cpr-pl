@@ -184,7 +184,7 @@ export default function Wyroby() {
                 </div>
               )}
               {!loading && filtered.length === 0 && (
-                <div className="py-20 text-center" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(92% .008 264)" }}>
+                <div className="py-12 text-center" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "1px solid oklch(92% .008 264)" }}>
                   <h3 className="font-serif text-2xl mb-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>Nie znaleziono wyrobów</h3>
                   <p style={{ color: "oklch(42% .02 264)" }}>Zmień kryteria wyszukiwania lub wybierz inną kategorię.</p>
                 </div>
@@ -197,7 +197,7 @@ export default function Wyroby() {
                     return (
                       <div
                         key={wyrob.slug}
-                        className="reveal-stagger group cursor-pointer flex flex-col p-6 md:p-8 transition-all hover:bg-slate-50"
+                        className="reveal-stagger group cursor-pointer flex flex-col p-6 md:p-6 transition-all hover:bg-slate-50"
                         style={{
                           "--i": idx,
                           borderRight: colMod !== 2 ? "1px solid oklch(92% .008 264)" : "none",

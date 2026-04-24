@@ -69,6 +69,7 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
@@ -78,6 +79,7 @@
     background-color: #ffffff;
     background-image: none;
     color: oklch(42% .02 264);
+    overflow-x: hidden;
   }
 
   /* Sekcje z subtelną siatką — alternatywa dla czystego bg-white */

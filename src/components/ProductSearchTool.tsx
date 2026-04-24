@@ -242,7 +242,7 @@ export function ProductSearchTool() {
 
               {/* Tab Content */}
               {activeTab === "overview" && (
-                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                   <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-4">
                     {selectedWyrob ? `Najważniejsze dla rodziny ${selectedCategory.code}` : selectedCategory.requirements.title}
                   </h3>
@@ -287,7 +287,7 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "tests" && (
-                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                   <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Wymagane badania</h3>
                   <p className="text-slate-500 mb-6">
                     Wyroby z kategorii "{selectedCategory.name}" muszą przejść następujące badania:
@@ -316,7 +316,7 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "documentation" && (
-                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                   <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Wymagana dokumentacja</h3>
                   <p className="text-slate-500 mb-6">
                     Producenci wyrobów z kategorii "{selectedCategory.name}" muszą przygotować:
@@ -367,7 +367,7 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "changes" && (
-                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                   <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Zmiany w rozporządzeniu CPR (EU) 2024/3110</h3>
                   <p className="text-slate-500 mb-6">
                     Najważniejsze modyfikacje dla kategorii "{selectedCategory.name}" w porównaniu z poprzednim rozporządzeniem:
@@ -388,7 +388,7 @@ export function ProductSearchTool() {
               )}
 
               {activeTab === "certification" && (
-                <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+                <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                   <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-2">Systemy oceny i weryfikacji stałości właściwości użytkowych</h3>
                   <p className="text-slate-500 mb-6">
                     Dla wyrobów z kategorii "{selectedCategory.name}" obowiązują następujące systemy certyfikacji:
@@ -446,7 +446,7 @@ export function ProductSearchTool() {
       </section>
 
       {/* About Section */}
-      <section id="about-section" className="py-24 bg-white border-t border-slate-200">
+      <section id="about-section" className="py-14 bg-white border-t border-slate-200">
         <Container>
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">
@@ -491,7 +491,7 @@ export function ProductSearchTool() {
             </div>
 
             <div className="lg:w-1/2">
-              <div className="bg-white border border-[oklch(92%_.008_264)] p-8">
+              <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                 <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-6 flex items-center gap-3">
                   <Calendar className="w-6 h-6 text-[oklch(55%_.22_27)]" />
                   Harmonogram wdrażania CPR
@@ -532,7 +532,7 @@ export function ProductSearchTool() {
       </section>
 
       {/* Źródła krajowe i europejskie */}
-      <section className="py-24 bg-white border-t border-slate-200">
+      <section className="py-14 bg-white border-t border-slate-200">
         <Container>
           <div className="text-center mb-14">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] text-[oklch(55%_.22_27)] text-sm font-medium mb-5">
@@ -752,9 +752,9 @@ export function ProductSearchTool() {
       </section>
 
       {/* Help Section */}
-      <section className="py-24 bg-slate-50 border-t border-slate-200">
+      <section className="py-14 bg-slate-50 border-t border-slate-200">
         <Container>
-          <div className="relative overflow-hidden rounded-[2px] bg-[oklch(20%_.03_264)] p-8 md:p-12">
+          <div className="relative overflow-hidden rounded-[2px] bg-[oklch(20%_.03_264)] p-6 md:p-12">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">

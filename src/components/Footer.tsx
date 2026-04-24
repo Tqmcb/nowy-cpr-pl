@@ -11,15 +11,15 @@ export function Footer() {
   const brandRed = "oklch(55% .22 27)";
 
   return (
-    <footer role="contentinfo" className="relative pt-20 pb-8" style={{ backgroundColor: "oklch(20% .03 264)" }}>
+    <footer role="contentinfo" className="relative pt-12 pb-6" style={{ backgroundColor: "oklch(20% .03 264)" }}>
       {/* Brand-red top rule — sygnatura */}
       <div className="absolute top-0 left-0 h-[5px] w-28" style={{ backgroundColor: brandRed }} />
 
       <Container>
         {/* Masthead band — section numerals */}
-        <div className="max-w-6xl mx-auto mb-14">
-          <div className="flex items-baseline gap-6 pb-6" style={{ borderBottom: `1px solid ${borderCol}` }}>
-            <span className="editorial-numeral text-5xl md:text-6xl" style={{ color: brandRed, fontWeight: 300 }}>06</span>
+        <div className="max-w-6xl mx-auto mb-8">
+          <div className="flex items-baseline gap-4 pb-4" style={{ borderBottom: `1px solid ${borderCol}` }}>
+            <span className="editorial-numeral text-4xl md:text-5xl" style={{ color: brandRed, fontWeight: 300 }}>06</span>
             <div className="flex items-center gap-3 pt-3">
               <div className="h-[2px] w-10" style={{ backgroundColor: brandRed }} />
               <span className="editorial-kicker" style={{ color: textBody }}>Stopka redakcyjna</span>
@@ -30,19 +30,19 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-5 flex items-baseline">
+            <div className="mb-3 flex items-baseline">
               <span className="text-2xl font-serif italic" style={{ color: "white", fontWeight: 600 }}>Nowy</span>
               <span className="text-2xl font-serif" style={{ color: "white", fontWeight: 600 }}>CPR</span>
               <span className="text-2xl font-serif" style={{ color: brandRed, fontWeight: 600 }}>.pl</span>
             </div>
-            <p className="text-sm leading-[1.7] mb-6" style={{ color: textBody }}>
+            <p className="text-sm leading-[1.55] mb-3" style={{ color: textBody }}>
               Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście Rozporządzenia CPR (EU) 2024/3110.
             </p>
-            <p className="editorial-kicker mb-4" style={{ color: textMuted }}>Wydawca</p>
-            <p className="font-serif text-base italic mb-6" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>
+            <p className="editorial-kicker mb-3" style={{ color: textMuted }}>Wydawca</p>
+            <p className="font-serif text-base italic mb-4" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>
             <div className="flex gap-2">
               {[
                 { href: "https://www.linkedin.com/company/multicert-certyfikacja-wyrobow/", label: "LinkedIn", Icon: Linkedin },
@@ -60,8 +60,8 @@ export function Footer() {
 
           {/* Linki */}
           <div>
-            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Przydatne linki</h3>
-            <ul className="space-y-3">
+            <h3 className="editorial-kicker mb-3 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Przydatne linki</h3>
+            <ul className="space-y-2">
               {[
                 { path: "/", label: "Strona Główna", icon: Home },
                 { path: "/wyszukiwarka", label: "Wyszukiwarka CPR", icon: Search },
@@ -81,7 +81,7 @@ export function Footer() {
 
           {/* Kontakt */}
           <div>
-            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Kontakt</h3>
+            <h3 className="editorial-kicker mb-3 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Kontakt</h3>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-2.5" style={{ color: textBody }}>
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 opacity-60" />
@@ -108,8 +108,8 @@ export function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h3 className="editorial-kicker mb-5 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Newsletter</h3>
-            <p className="font-serif text-lg italic leading-[1.35] mb-5" style={{ color: "white", fontWeight: 500 }}>
+            <h3 className="editorial-kicker mb-3 pb-3" style={{ color: "white", borderBottom: `1px solid ${borderCol}` }}>Newsletter</h3>
+            <p className="font-serif text-lg italic leading-[1.35] mb-3" style={{ color: "white", fontWeight: 500 }}>
               Bądź na bieżąco ze zmianami w przepisach CPR.
             </p>
             <form onSubmit={(e) => {
