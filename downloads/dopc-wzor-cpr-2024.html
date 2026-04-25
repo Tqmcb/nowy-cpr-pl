@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wzór DoP&amp;C — Deklaracja Właściwości Użytkowych i Zgodności (CPR 2024/3110)</title>
+  <style>
+    /* ── Reset & base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    /* ── Page wrapper ── */
+    .page {
+      max-width: 840px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 40px 50px;
+    }
+
+    /* ── Header ── */
+    .doc-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border-bottom: 3px solid #003399;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+      gap: 20px;
+    }
+
+    .doc-header-left h1 {
+      font-size: 16pt;
+      font-weight: bold;
+      color: #003399;
+      line-height: 1.3;
+    }
+
+    .doc-header-left .subtitle {
+      font-size: 10pt;
+      color: #555;
+      margin-top: 4px;
+    }
+
+    .doc-header-right {
+      text-align: right;
+      min-width: 180px;
+    }
+
+    .ce-mark {
+      font-size: 42pt;
+      font-weight: bold;
+      color: #003399;
+      line-height: 1;
+    }
+
+    .ce-label {
+      font-size: 8pt;
+      color: #555;
+      margin-top: 2px;
+    }
+
+    /* ── Regulation badge ── */
+    .regulation-badge {
+      background: #003399;
+      color: #fff;
+      font-size: 9pt;
+      font-weight: bold;
+      text-align: center;
+      padding: 6px 12px;
+      border-radius: 4px;
+      margin-bottom: 28px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Section / field ── */
+    .field {
+      margin-bottom: 18px;
+      border: 1px solid #d0d0d0;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .field-header {
+      background: #eef2ff;
+      padding: 7px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid #d0d0d0;
+    }
+
+    .field-number {
+      background: #003399;
+      color: #fff;
+      font-size: 9pt;
+      font-weight: bold;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .field-title {
+      font-size: 10pt;
+      font-weight: bold;
+      color: #003399;
+      line-height: 1.3;
+    }
+
+    .field-new {
+      background: #ff6b00;
+      color: #fff;
+      font-size: 7.5pt;
+      font-weight: bold;
+      padding: 2px 7px;
+      border-radius: 10px;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
+    .field-body {
+      padding: 10px 14px;
+    }
+
+    .field-hint {
+      font-size: 8.5pt;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+
+    .fill-line {
+      border: none;
+      border-bottom: 1px solid #aaa;
+      width: 100%;
+      height: 26px;
+      font-size: 10.5pt;
+      color: #1a1a1a;
+      background: transparent;
+      outline: none;
+      padding: 2px 4px;
+    }
+
+    .fill-area {
+      border: 1px solid #aaa;
+      width: 100%;
+      min-height: 54px;
+      font-size: 10.5pt;
+      color: #1a1a1a;
+      background: transparent;
+      outline: none;
+      padding: 4px 6px;
+      resize: vertical;
+      font-family: inherit;
+      border-radius: 2px;
+    }
+
+    /* ── Table — Pole 9 ── */
+    .perf-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.5pt;
+      margin-top: 6px;
+    }
+
+    .perf-table th {
+      background: #003399;
+      color: #fff;
+      padding: 6px 10px;
+      text-align: left;
+      font-weight: bold;
+      border: 1px solid #003399;
+    }
+
+    .perf-table td {
+      border: 1px solid #bbb;
+      padding: 5px 10px;
+      vertical-align: top;
+    }
+
+    .perf-table tr:nth-child(even) td {
+      background: #f7f9ff;
+    }
+
+    .perf-table .input-cell {
+      padding: 2px 4px;
+    }
+
+    .perf-table input[type="text"] {
+      width: 100%;
+      border: none;
+      border-bottom: 1px dashed #999;
+      font-size: 9.5pt;
+      background: transparent;
+      outline: none;
+      padding: 2px 2px;
+      color: #1a1a1a;
+      font-family: inherit;
+    }
+
+    .add-row-hint {
+      font-size: 8pt;
+      color: #888;
+      font-style: italic;
+      margin-top: 4px;
+    }
+
+    /* ── Signature block ── */
+    .signature-block {
+      display: flex;
+      gap: 30px;
+      margin-top: 8px;
+    }
+
+    .signature-item {
+      flex: 1;
+    }
+
+    .signature-item label {
+      font-size: 8.5pt;
+      color: #555;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .sig-line {
+      border-bottom: 1.5px solid #333;
+      height: 60px;
+      width: 100%;
+    }
+
+    /* ── Footer ── */
+    .doc-footer {
+      margin-top: 32px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 8pt;
+      color: #888;
+    }
+
+    /* ── Download / print bar (screen only) ── */
+    .action-bar {
+      max-width: 840px;
+      margin: 0 auto 16px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .btn-print {
+      background: #003399;
+      color: #fff;
+      font-size: 10.5pt;
+      font-weight: bold;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-print:hover { background: #0044cc; }
+
+    .btn-back {
+      background: #fff;
+      color: #003399;
+      font-size: 10.5pt;
+      font-weight: bold;
+      padding: 10px 24px;
+      border: 2px solid #003399;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-back:hover { background: #eef2ff; }
+
+    .hint-bar {
+      font-size: 8.5pt;
+      color: #666;
+      margin-left: 4px;
+    }
+
+    /* ── AVCP checkboxes ── */
+    .avcp-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    .avcp-option {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10pt;
+    }
+
+    .avcp-option input[type="radio"] {
+      width: 16px;
+      height: 16px;
+      accent-color: #003399;
+    }
+
+    /* ── SVHC radio ── */
+    .svhc-row {
+      display: flex;
+      gap: 20px;
+      margin-top: 6px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .svhc-row label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10pt;
+    }
+
+    .svhc-row input[type="radio"] {
+      width: 15px;
+      height: 15px;
+      accent-color: #003399;
+    }
+
+    /* ── Print styles ── */
+    @media print {
+      body { background: #fff; padding: 0; font-size: 10pt; }
+      .action-bar { display: none; }
+      .page { border: none; padding: 20px; max-width: 100%; }
+      .fill-line, .fill-area, .perf-table input[type="text"] { border-color: #555; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Action bar (screen only) ── -->
+  <div class="action-bar">
+    <button class="btn-print" onclick="window.print()">🖨️ Drukuj / Zapisz jako PDF</button>
+    <a class="btn-back" href="/blog/dopc-szablon-wyjasnienie">← Wróć do artykułu</a>
+    <span class="hint-bar">Wypełnij formularz na ekranie, a następnie wydrukuj lub zapisz jako PDF (Ctrl+P → Zapisz jako PDF)</span>
+  </div>
+
+  <!-- ── Document ── -->
+  <div class="page">
+
+    <!-- Header -->
+    <div class="doc-header">
+      <div class="doc-header-left">
+        <h1>Deklaracja Właściwości Użytkowych i Zgodności</h1>
+        <div class="subtitle">Declaration of Performance and Conformity (DoP&amp;C)</div>
+      </div>
+      <div class="doc-header-right">
+        <div class="ce-mark">CE</div>
+        <div class="ce-label">Oznakowanie CE</div>
+      </div>
+    </div>
+
+    <div class="regulation-badge">Rozporządzenie (UE) 2024/3110 (CPR 2024) — Rozporządzenie o wyrobach budowlanych</div>
+
+    <!-- Pole 1 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">1</div>
+        <div class="field-title">Unikalny kod identyfikacyjny typu wyrobu</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Np. XYZ-BETON-2026-001 — kod nadawany przez producenta, stały dla danego typu wyrobu</div>
+        <input class="fill-line" type="text" placeholder="Wpisz kod identyfikacyjny…" />
+      </div>
+    </div>
+
+    <!-- Pole 2 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">2</div>
+        <div class="field-title">Typ wyrobu, partia lub numer seryjny</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Handlowa nazwa, typ techniczny lub opis umożliwiający identyfikację wyrobu; dla produkcji seryjnej — numer partii/serii</div>
+        <input class="fill-line" type="text" placeholder="Wpisz nazwę/typ wyrobu…" />
+      </div>
+    </div>
+
+    <!-- Pole 3 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">3</div>
+        <div class="field-title">Zamierzone zastosowanie lub zastosowania</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Np. Ściana wewnętrzna nienośna w budynkach mieszkalnych i użyteczności publicznej — zgodnie z normą zharmonizowaną</div>
+        <textarea class="fill-area" placeholder="Wpisz zamierzone zastosowanie…"></textarea>
+      </div>
+    </div>
+
+    <!-- Pole 4 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">4</div>
+        <div class="field-title">Nazwa, firma i adres kontaktowy producenta</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Pełna nazwa prawna, zarejestrowana nazwa handlowa lub znak towarowy + adres siedziby. Dla producentów spoza UE — dane upoważnionego przedstawiciela w Polu 5.</div>
+        <textarea class="fill-area" placeholder="Wpisz nazwę i adres producenta…"></textarea>
+      </div>
+    </div>
+
+    <!-- Pole 5 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">5</div>
+        <div class="field-title">Upoważniony przedstawiciel (jeśli dotyczy)</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Wymagane wyłącznie, gdy producent ma siedzibę poza UE. Przedstawiciel przejmuje odpowiedzialność prawną za wyrób na terytorium UE.</div>
+        <textarea class="fill-area" placeholder="Wpisz dane upoważnionego przedstawiciela lub pozostaw puste…" style="min-height:40px;"></textarea>
+      </div>
+    </div>
+
+    <!-- Pole 6 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">6</div>
+        <div class="field-title">System oceny i weryfikacji stałości właściwości użytkowych (AVCP)</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Numer systemu wynika z Załącznika ZA normy zharmonizowanej dla danego wyrobu i zastosowania</div>
+        <div class="avcp-row">
+          <label class="avcp-option"><input type="radio" name="avcp" value="1plus" /> System 1+</label>
+          <label class="avcp-option"><input type="radio" name="avcp" value="1" /> System 1</label>
+          <label class="avcp-option"><input type="radio" name="avcp" value="2plus" /> System 2+</label>
+          <label class="avcp-option"><input type="radio" name="avcp" value="3" /> System 3</label>
+          <label class="avcp-option"><input type="radio" name="avcp" value="4" /> System 4</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pole 7 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">7</div>
+        <div class="field-title">Odniesienie do zharmonizowanej specyfikacji technicznej</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Numer i data normy EN lub Europejskiej Oceny Technicznej (ETA), na podstawie której sporządzono DoP&amp;C</div>
+        <input class="fill-line" type="text" placeholder="Np. EN 771-1:2011+A1:2015 lub ETA-XX/XXXX z dnia…" />
+      </div>
+    </div>
+
+    <!-- Pole 8 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">8</div>
+        <div class="field-title">Dane jednostki notyfikowanej (JN)</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Dla systemów AVCP 1+, 1 i 2+: nazwa JN, numer notyfikacji (z bazy NANDO) i opis wykonanych zadań. Dla systemów 3 i 4 wpisz odpowiednią adnotację (nie dotyczy / nie wymagana).</div>
+        <textarea class="fill-area" placeholder="Wpisz dane jednostki notyfikowanej lub adnotację 'nie dotyczy'…"></textarea>
+      </div>
+    </div>
+
+    <!-- Pole 9 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">9</div>
+        <div class="field-title">Deklarowane właściwości użytkowe</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Wypełnij dla każdej zasadniczej charakterystyki wymaganej przez normę. Wpisz NPD (Właściwość Nieustalona), jeśli nie deklarujesz danej właściwości.</div>
+        <table class="perf-table">
+          <thead>
+            <tr>
+              <th style="width:35%">Zasadnicza charakterystyka</th>
+              <th style="width:30%">Właściwość użytkowa / Klasa</th>
+              <th style="width:35%">Norma/metoda badania</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="np. Reakcja na ogień" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. Klasa A1 / NPD" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. EN 13501-1" /></td>
+            </tr>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="np. Wytrzymałość na ściskanie" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. 10 N/mm² / NPD" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. EN 772-1" /></td>
+            </tr>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="np. Przewodność cieplna" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. 0,27 W/(m·K) / NPD" /></td>
+              <td class="input-cell"><input type="text" placeholder="np. EN 1745" /></td>
+            </tr>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+            </tr>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+            </tr>
+            <tr>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+              <td class="input-cell"><input type="text" placeholder="…" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="add-row-hint">Przy druku: dodaj/usuń wiersze zgodnie z liczbą deklarowanych właściwości.</div>
+      </div>
+    </div>
+
+    <!-- Pole 10 — NOWOŚĆ -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">10</div>
+        <div class="field-title">Deklaracja dotycząca substancji SVHC (art. 15 ust. 6 CPR 2024)</div>
+        <span class="field-new">NOWOŚĆ CPR 2024</span>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Wybierz odpowiednią opcję i uzupełnij szczegóły. Obowiązek wynikający z rozporządzenia REACH (art. 31 lub art. 33).</div>
+        <div class="svhc-row">
+          <label><input type="radio" name="svhc" value="brak" /> Wyrób nie zawiera substancji SVHC powyżej 0,1% wag.</label>
+          <label><input type="radio" name="svhc" value="zawiera" /> Wyrób zawiera substancje SVHC — szczegóły poniżej</label>
+        </div>
+        <textarea class="fill-area" placeholder="Jeśli wyrób zawiera SVHC: wpisz nazwy substancji, stężenia i numery CAS zgodnie z listą kandydacką ECHA…" style="min-height:42px;"></textarea>
+      </div>
+    </div>
+
+    <!-- Pole 11 — GWP -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">11</div>
+        <div class="field-title">Wskaźnik potencjału globalnego ocieplenia — GWP (jeśli dotyczy)</div>
+        <span class="field-new">NOWOŚĆ CPR 2024</span>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Wymagane, gdy norma zharmonizowana lub akt delegowany Komisji tego wymaga (np. wyroby z serii EN 13162–13171). Wartość GWP-total dla etapu A1–A3 wg EN 15804.</div>
+        <input class="fill-line" type="text" placeholder="Np. GWP-total (A1–A3): 120 kg CO₂ eq./m³ — lub wpisz 'nie dotyczy'" />
+      </div>
+    </div>
+
+    <!-- Pole 12 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">12</div>
+        <div class="field-title">Miejsce i data wystawienia</div>
+      </div>
+      <div class="field-body">
+        <div style="display:flex;gap:20px;">
+          <div style="flex:1;">
+            <div class="field-hint">Miejsce</div>
+            <input class="fill-line" type="text" placeholder="Np. Warszawa" />
+          </div>
+          <div style="flex:1;">
+            <div class="field-hint">Data</div>
+            <input class="fill-line" type="date" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pole 13 -->
+    <div class="field">
+      <div class="field-header">
+        <div class="field-number">13</div>
+        <div class="field-title">Dane i podpis upoważnionego sygnatariusza</div>
+      </div>
+      <div class="field-body">
+        <div class="field-hint">Imię, nazwisko i stanowisko osoby upoważnionej do reprezentowania producenta. Podpis elektroniczny (eIDAS) jest równorzędny z odręcznym.</div>
+        <div style="display:flex;gap:20px;margin-bottom:12px;">
+          <div style="flex:2;">
+            <div class="field-hint">Imię i nazwisko</div>
+            <input class="fill-line" type="text" placeholder="Jan Kowalski" />
+          </div>
+          <div style="flex:2;">
+            <div class="field-hint">Stanowisko / funkcja</div>
+            <input class="fill-line" type="text" placeholder="Np. Prezes Zarządu" />
+          </div>
+        </div>
+        <div class="signature-block">
+          <div class="signature-item">
+            <label>Podpis:</label>
+            <div class="sig-line"></div>
+          </div>
+          <div class="signature-item">
+            <label>Pieczęć firmy (jeśli stosowana):</label>
+            <div class="sig-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="doc-footer">
+      <span>Wzór DoP&amp;C zgodny z Rozporządzeniem (UE) 2024/3110 (CPR 2024)</span>
+      <span>Źródło: <strong>NowyCPR.pl</strong> — materiał informacyjny, nie stanowi dokumentu prawnego</span>
+    </div>
+
+  </div><!-- /.page -->
+
+  <div style="max-width:840px;margin:16px auto;font-size:8.5pt;color:#888;text-align:center;">
+    ℹ️ Ten formularz jest wzorem poglądowym. Ostateczna treść DoP&amp;C powinna być opracowana przez wykwalifikowanego specjalistę w oparciu o obowiązującą normę zharmonizowaną i przepisy CPR 2024/3110.<br/>
+    Więcej informacji: <a href="https://www.nowycpr.pl/blog/dopc-szablon-wyjasnienie" style="color:#003399;">NowyCPR.pl — Deklaracja DoP&amp;C: szablon i wyjaśnienie</a>
+    &nbsp;|&nbsp; Certyfikacja wyrobów: <a href="https://www.multicert.pl" style="color:#003399;">Multicert.pl</a>
+  </div>
+
+</body>
+</html>
