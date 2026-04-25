@@ -3,6 +3,7 @@
  *
  * 1. Creates dist/blog/<slug>/index.html for every content/blog/*.md file.
  * 2. Creates dist/<path>/index.html for every static page (/, /blog, /wyroby, …).
+ * 3. Creates dist/wyrob/<slug>/index.html for every product family.
  *
  * Each file gets the correct <title>, <meta description>, og:* and
  * canonical tags so Google can index them WITHOUT executing JavaScript.
@@ -55,6 +56,12 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
+function productSeoTitle(title) {
+  return /\bCPR\b|wymagania/i.test(title)
+    ? title
+    : `${title} — wymagania CPR 2024/3110`;
+}
+
 // ── main ──────────────────────────────────────────────────────────────────────
 
 const templateHtml = readFileSync(join(distDir, 'index.html'), 'utf-8');
@@ -76,7 +83,7 @@ for (const file of files) {
   const imageUrl   = meta.image_url
     ? (meta.image_url.startsWith('http') ? meta.image_url : `https://www.nowycpr.pl${meta.image_url}`)
     : 'https://www.nowycpr.pl/og-image.jpg';
-  const canonical  = `https://www.nowycpr.pl/blog/${slug}`;
+  const canonical  = `https://www.nowycpr.pl/blog/${slug}/`;
   const datePublished = meta.date || '';
   const dateModified = meta.updated || meta.reviewed || datePublished;
   const keywords = Array.isArray(meta.tags) ? meta.tags.join(', ') : (meta.tags || '');
@@ -215,126 +222,126 @@ const staticPages = [
     title: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły | NowyCPR.pl',
     desc: 'Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku.',
     keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE, wyroby budowlane, importer, dystrybutor, GUNB',
-    canonical: 'https://www.nowycpr.pl/blog',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły', url: 'https://www.nowycpr.pl/blog', description: 'Artykuły i analizy o CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.', keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE' },
+    canonical: 'https://www.nowycpr.pl/blog/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły', url: 'https://www.nowycpr.pl/blog/', description: 'Artykuły i analizy o CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.', keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE' },
   },
   {
     path: 'wyroby',
     title: 'Wyroby budowlane CPR: normy hEN, AVS i certyfikacja | NowyCPR.pl',
     desc: 'Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane hEN, systemy AVS, badania, FPC/ZKP i wymagania certyfikacyjne.',
     keywords: 'wyroby budowlane CPR, katalog wyrobów budowlanych, normy zharmonizowane hEN, system AVS, certyfikacja wyrobów, FPC, ZKP, DoP&C',
-    canonical: 'https://www.nowycpr.pl/wyroby',
-    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wyroby budowlane CPR: normy hEN, AVS i certyfikacja', url: 'https://www.nowycpr.pl/wyroby', description: 'Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110.', keywords: 'wyroby budowlane CPR, normy hEN, system AVS, certyfikacja wyrobów' },
+    canonical: 'https://www.nowycpr.pl/wyroby/',
+    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wyroby budowlane CPR: normy hEN, AVS i certyfikacja', url: 'https://www.nowycpr.pl/wyroby/', description: 'Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110.', keywords: 'wyroby budowlane CPR, normy hEN, system AVS, certyfikacja wyrobów' },
   },
   {
     path: 'wyrob',
     title: 'Karta rodziny wyrobu — CPR 2024/3110 | NowyCPR.pl',
     desc: 'Szczegółowe wymagania CPR 2024/3110 dla wybranej rodziny wyrobów budowlanych: normy, systemy AVS, dokumentacja i kluczowe zmiany.',
-    canonical: 'https://www.nowycpr.pl/wyrob',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Karta rodziny wyrobu CPR 2024/3110', url: 'https://www.nowycpr.pl/wyrob' },
+    canonical: 'https://www.nowycpr.pl/wyrob/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Karta rodziny wyrobu CPR 2024/3110', url: 'https://www.nowycpr.pl/wyrob/' },
   },
   {
     path: 'product-search',
     title: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl',
     desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
     keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
-    canonical: 'https://www.nowycpr.pl/wyszukiwarka',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.' },
+    canonical: 'https://www.nowycpr.pl/wyszukiwarka/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.' },
   },
   {
     path: 'documents',
     title: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110 | NowyCPR.pl',
     desc: 'Bezpłatne wzory dokumentów CPR 2024/3110: DoP&C, oznakowanie CE, FPC/ZKP, karta techniczna, EPD, DPP, AVS, importer i lista kontrolna producenta.',
     keywords: 'wzór DoP&C, szablon DoP&C, deklaracja właściwości użytkowych i zgodności, oznakowanie CE wzór, FPC, ZKP, EPD, DPP, dokumenty CPR 2024/3110',
-    canonical: 'https://www.nowycpr.pl/documents',
-    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110', url: 'https://www.nowycpr.pl/documents', description: 'Bezpłatne wzory dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych.', keywords: 'wzór DoP&C, szablon DoP&C, oznakowanie CE wzór, FPC, ZKP, EPD, DPP' },
+    canonical: 'https://www.nowycpr.pl/documents/',
+    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110', url: 'https://www.nowycpr.pl/documents/', description: 'Bezpłatne wzory dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych.', keywords: 'wzór DoP&C, szablon DoP&C, oznakowanie CE wzór, FPC, ZKP, EPD, DPP' },
   },
   {
     path: 'services',
     title: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert | NowyCPR.pl',
     desc: 'Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.',
     keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane',
-    canonical: 'https://www.nowycpr.pl/services',
-    schema: { '@context': 'https://schema.org', '@type': 'Service', name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert', provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' }, url: 'https://www.nowycpr.pl/services', areaServed: 'PL', description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.', keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C' },
+    canonical: 'https://www.nowycpr.pl/services/',
+    schema: { '@context': 'https://schema.org', '@type': 'Service', name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert', provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' }, url: 'https://www.nowycpr.pl/services/', areaServed: 'PL', description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.', keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C' },
   },
   {
     path: 'o-portalu',
     title: 'O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110',
     desc: 'Dowiedz się więcej o portalu NowyCPR.pl — kompleksowym źródle wiedzy o rozporządzeniu CPR (EU) 2024/3110 dla producentów wyrobów budowlanych.',
-    canonical: 'https://www.nowycpr.pl/o-portalu',
-    schema: { '@context': 'https://schema.org', '@type': 'AboutPage', name: 'O portalu NowyCPR.pl', url: 'https://www.nowycpr.pl/o-portalu' },
+    canonical: 'https://www.nowycpr.pl/o-portalu/',
+    schema: { '@context': 'https://schema.org', '@type': 'AboutPage', name: 'O portalu NowyCPR.pl', url: 'https://www.nowycpr.pl/o-portalu/' },
   },
   {
     path: 'kontakt',
     title: 'Kontakt — NowyCPR.pl',
     desc: 'Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa.',
-    canonical: 'https://www.nowycpr.pl/kontakt',
-    schema: { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Kontakt — NowyCPR.pl', url: 'https://www.nowycpr.pl/kontakt' },
+    canonical: 'https://www.nowycpr.pl/kontakt/',
+    schema: { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Kontakt — NowyCPR.pl', url: 'https://www.nowycpr.pl/kontakt/' },
   },
   {
     path: 'dostepnosc',
     title: 'Deklaracja dostępności — NowyCPR.pl',
     desc: 'Deklaracja dostępności cyfrowej portalu NowyCPR.pl zgodnie z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.',
-    canonical: 'https://www.nowycpr.pl/dostepnosc',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Deklaracja dostępności NowyCPR.pl', url: 'https://www.nowycpr.pl/dostepnosc' },
+    canonical: 'https://www.nowycpr.pl/dostepnosc/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Deklaracja dostępności NowyCPR.pl', url: 'https://www.nowycpr.pl/dostepnosc/' },
   },
   {
     path: 'wyszukiwarka',
     title: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl',
     desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
     keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
-    canonical: 'https://www.nowycpr.pl/wyszukiwarka',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', keywords: 'wymagania CPR dla wyrobu, system AVS, norma hEN, DoP&C, FPC' },
+    canonical: 'https://www.nowycpr.pl/wyszukiwarka/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', keywords: 'wymagania CPR dla wyrobu, system AVS, norma hEN, DoP&C, FPC' },
   },
   {
     path: 'harmonogram',
     title: 'Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje | NowyCPR.pl',
     desc: 'Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, terminy DoP&C, GWP, EPD, DPP, nowe hTS, sankcje i obowiązki producentów.',
     keywords: 'harmonogram CPR 2024/3110, terminy CPR, DoP&C 2026, GWP CPR, DPP CPR, okres przejściowy CPR, sankcje CPR, hTS',
-    canonical: 'https://www.nowycpr.pl/harmonogram',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje', url: 'https://www.nowycpr.pl/harmonogram', description: 'Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, DoP&C, GWP, EPD, DPP, hTS i sankcje.', keywords: 'harmonogram CPR 2024/3110, terminy CPR, DoP&C, GWP, DPP, sankcje CPR' },
+    canonical: 'https://www.nowycpr.pl/harmonogram/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje', url: 'https://www.nowycpr.pl/harmonogram/', description: 'Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, DoP&C, GWP, EPD, DPP, hTS i sankcje.', keywords: 'harmonogram CPR 2024/3110, terminy CPR, DoP&C, GWP, DPP, sankcje CPR' },
   },
   {
     path: 'faq',
     title: 'FAQ — Najczęstsze pytania o CPR 2024/3110 | NowyCPR.pl',
     desc: 'Odpowiedzi na najczęstsze pytania o rozporządzeniu CPR 2024/3110: DoP&C, systemy AVS, oznakowanie CE, DPP i obowiązki producenta.',
-    canonical: 'https://www.nowycpr.pl/faq',
-    schema: { '@context': 'https://schema.org', '@type': 'FAQPage', name: 'FAQ CPR 2024/3110', url: 'https://www.nowycpr.pl/faq' },
+    canonical: 'https://www.nowycpr.pl/faq/',
+    schema: { '@context': 'https://schema.org', '@type': 'FAQPage', name: 'FAQ CPR 2024/3110', url: 'https://www.nowycpr.pl/faq/' },
   },
   {
     path: 'sciezka-ce',
     title: 'Ścieżka do oznakowania CE — Kreator checklisty | NowyCPR.pl',
     desc: 'Interaktywny kreator checklisty do oznakowania CE wyrobów budowlanych zgodnie z CPR 2024/3110. Sprawdź krok po kroku co musisz zrobić.',
-    canonical: 'https://www.nowycpr.pl/sciezka-ce',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Ścieżka do CE', url: 'https://www.nowycpr.pl/sciezka-ce' },
+    canonical: 'https://www.nowycpr.pl/sciezka-ce/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Ścieżka do CE', url: 'https://www.nowycpr.pl/sciezka-ce/' },
   },
   {
     path: 'generator-ce',
     title: 'Generator etykiety CE - CPR 2024/3110 | NowyCPR.pl',
     desc: 'Wygeneruj etykietę oznakowania CE zgodną z Art. 8 CPR 2024/3110. Wypełnij formularz i pobierz gotową etykietę do wydruku.',
-    canonical: 'https://www.nowycpr.pl/generator-ce',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Generator etykiety CE', url: 'https://www.nowycpr.pl/generator-ce' },
+    canonical: 'https://www.nowycpr.pl/generator-ce/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Generator etykiety CE', url: 'https://www.nowycpr.pl/generator-ce/' },
   },
   {
     path: 'polca',
     title: 'poLCA — Polski wskaźnik emisyjności energii elektrycznej | NowyCPR.pl',
     desc: 'poLCA to polski wskaźnik emisyjności energii elektrycznej dla potrzeb LCA/EPD. Katalog danych, technologie, normy.',
-    canonical: 'https://www.nowycpr.pl/polca',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'poLCA', url: 'https://www.nowycpr.pl/polca' },
+    canonical: 'https://www.nowycpr.pl/polca/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'poLCA', url: 'https://www.nowycpr.pl/polca/' },
   },
   {
     path: 'polityka-prywatnosci',
     title: 'Polityka prywatności — NowyCPR.pl',
     desc: 'Polityka prywatności portalu NowyCPR.pl.',
-    canonical: 'https://www.nowycpr.pl/polityka-prywatnosci',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Polityka prywatności', url: 'https://www.nowycpr.pl/polityka-prywatnosci' },
+    canonical: 'https://www.nowycpr.pl/polityka-prywatnosci/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Polityka prywatności', url: 'https://www.nowycpr.pl/polityka-prywatnosci/' },
   },
   {
     path: 'regulamin',
     title: 'Regulamin — NowyCPR.pl',
     desc: 'Regulamin korzystania z portalu NowyCPR.pl.',
-    canonical: 'https://www.nowycpr.pl/regulamin',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Regulamin', url: 'https://www.nowycpr.pl/regulamin' },
+    canonical: 'https://www.nowycpr.pl/regulamin/',
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Regulamin', url: 'https://www.nowycpr.pl/regulamin/' },
   },
 ];
 
@@ -351,7 +358,10 @@ const wyrobyItems = readdirSync(wyrobyContentDir)
     return {
       slug,
       title: String(meta.title || slug),
+      excerpt: String(meta.excerpt || `Wymagania CPR 2024/3110 dla rodziny wyrobów: ${meta.title || slug}.`),
+      category: String(meta.category || 'Wyroby budowlane'),
       avs: String(meta.avs_system || ''),
+      date: String(meta.date || '2026-04-25'),
     };
   });
 
@@ -386,21 +396,21 @@ const bodyContentMap = {
 <h1>CPR 2024/3110: DoP&amp;C, AVS, GWP, DPP — artykuły</h1>
 <p>Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&amp;C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku.</p>
 <ul>
-${publishedPosts.map(p => `  <li><a href="/blog/${p.slug}">${escapeHtml(p.title)}</a></li>`).join('\n')}
+${publishedPosts.map(p => `  <li><a href="/blog/${p.slug}/">${escapeHtml(p.title)}</a></li>`).join('\n')}
 </ul>`,
 
   wyroby: `
 <h1>Wyroby budowlane CPR: normy hEN, AVS i certyfikacja</h1>
 <p>Katalog kategorii wyrobów budowlanych objętych CPR 2024/3110. Sprawdź normy zharmonizowane hEN, systemy AVS, badania, FPC/ZKP i wymagania certyfikacyjne.</p>
 <ul>
-${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
+${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
 </ul>`,
 
   wyrob: `
 <h1>Karta rodziny wyrobu — CPR 2024/3110</h1>
-<p>Ta strona obsługuje szczegółowe karty rodzin wyrobów budowlanych w formacie <code>/wyrob?slug=nazwa-rodziny</code>. Znajdziesz tu wymagania, normy zharmonizowane, systemy AVS oraz checklisty działań dla wybranej rodziny.</p>
+<p>Ta strona obsługuje szczegółowe karty rodzin wyrobów budowlanych w formacie <code>/wyrob/nazwa-rodziny/</code>. Znajdziesz tu wymagania, normy zharmonizowane, systemy AVS oraz checklisty działań dla wybranej rodziny.</p>
 <ul>
-${wyrobyItems.map(w => `  <li><a href="/wyrob?slug=${w.slug}">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
+${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}</a>${w.avs ? ` — System AVS: ${escapeHtml(w.avs)}` : ''}</li>`).join('\n')}
 </ul>`,
 
   'product-search': `
@@ -523,6 +533,49 @@ for (const page of staticPages) {
 }
 console.log(`\n✓ Pre-rendered ${staticCount} static pages into dist/*/index.html`);
 
+let productCount = 0;
+for (const item of wyrobyItems) {
+  const path = `wyrob/${item.slug}`;
+  const canonical = `https://www.nowycpr.pl/${path}/`;
+  const desc = item.excerpt;
+  const seoTitle = productSeoTitle(item.title);
+  bodyContentMap[path] = `
+<h1>${escapeHtml(seoTitle)}</h1>
+<p>${escapeHtml(desc)}</p>
+<ul>
+  <li>Kategoria: ${escapeHtml(item.category)}</li>
+  ${item.avs ? `<li>System AVS: ${escapeHtml(item.avs)}</li>` : ''}
+  <li><a href="/wyroby/">Powrót do katalogu wyrobów budowlanych CPR</a></li>
+  <li><a href="/services/">Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C</a></li>
+</ul>`;
+
+  const outDir = join(distDir, 'wyrob', item.slug);
+  mkdirSync(outDir, { recursive: true });
+  writeFileSync(join(outDir, 'index.html'), renderStaticPage({
+    path,
+    title: `${seoTitle} | NowyCPR.pl`,
+    desc,
+    keywords: `${item.title}, CPR 2024/3110, wyroby budowlane, system AVS, DoP&C, FPC, ZKP`,
+    canonical,
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'TechArticle',
+      headline: seoTitle,
+      description: desc,
+      url: canonical,
+      inLanguage: 'pl-PL',
+      dateModified: item.date,
+      articleSection: item.category,
+      publisher: { '@type': 'Organization', name: 'NowyCPR.pl — Multicert Sp. z o.o.' },
+      about: { '@type': 'Thing', name: 'Rozporządzenie (UE) 2024/3110' },
+      keywords: `${item.title}, CPR 2024/3110, system AVS, DoP&C, FPC`
+    },
+  }), 'utf-8');
+  productCount++;
+  console.log(`  ✓ /${path}/`);
+}
+console.log(`\n✓ Pre-rendered ${productCount} product pages into dist/wyrob/*/index.html`);
+
 // ── GitHub Pages SPA fallback ─────────────────────────────────────────────
 // Copy index.html → 404.html so GitHub Pages serves the React app for any
 // unknown URL (e.g. /blog, /blog/:slug when navigating directly or refreshing).
@@ -555,21 +608,31 @@ const blogEntries = files
   .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
 const blogXml = blogEntries.map(({ slug, lastmod }) => `  <url>
-    <loc>https://www.nowycpr.pl/blog/${slug}</loc>
+    <loc>https://www.nowycpr.pl/blog/${slug}/</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>`).join('\n');
 
-// Replace the entire blog section in the source sitemap
-// (everything between <!-- Blog posts --> and <!-- Katalog)
-const updatedSitemap = sourceSitemap.replace(
+const productXml = wyrobyItems.map(item => `  <url>
+    <loc>https://www.nowycpr.pl/wyrob/${item.slug}/</loc>
+    <lastmod>${item.date}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>`).join('\n');
+
+// Replace generated sections in the source sitemap.
+let updatedSitemap = sourceSitemap.replace(
   /<!-- Blog posts -->[\s\S]*?(?=<!-- Katalog)/,
   `<!-- Blog posts — auto-generated by prerender.mjs, tylko opublikowane -->\n${blogXml}\n\n  `
 );
+updatedSitemap = updatedSitemap.replace(
+  /<!-- Katalog wyrobów[\s\S]*?(?=<\/urlset>)/,
+  `<!-- Katalog wyrobów — auto-generated by prerender.mjs -->\n${productXml}\n`
+);
 
 writeFileSync(join(distDir, 'sitemap.xml'), updatedSitemap, 'utf-8');
-console.log(`✓ Sitemap updated: ${blogEntries.length} blog posts (opublikowane do ${today.toISOString().slice(0, 10)})`);
+console.log(`✓ Sitemap updated: ${blogEntries.length} blog posts, ${wyrobyItems.length} product pages (opublikowane do ${today.toISOString().slice(0, 10)})`);
 
 // ── Generate per-post JSON files for fast SPA loading ─────────────────────────
 // Creates:

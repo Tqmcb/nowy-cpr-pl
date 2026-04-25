@@ -97,7 +97,7 @@ const BlogPostCard = ({ post }: { post: BlogPost }) => {
 
   return (
     <Link
-      to={`/blog/${post.slug}`}
+      to={`/blog/${post.slug}/`}
       className="group cursor-pointer block no-underline transition-all hover:bg-slate-50"
       style={{ border: "1px solid oklch(92% .008 264)", borderRadius: "2px" }}
     >
@@ -806,7 +806,7 @@ export function BlogPage() {
 
   // Przekierowanie do strony szczegółów posta
   const navigateToPost = (slug: string) => {
-    navigate(`/blog/${slug}`);
+    navigate(`/blog/${slug}/`);
   };
 
   // Filtrowanie artykułów
@@ -847,8 +847,8 @@ export function BlogPage() {
         <meta name="keywords" content="CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE, wyroby budowlane, importer, dystrybutor, GUNB" />
         <meta property="og:title" content="CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły | NowyCPR.pl" />
         <meta property="og:description" content="Przewodniki i analizy o nowym CPR dla producentów, importerów i dystrybutorów wyrobów budowlanych." />
-        <meta property="og:url" content="https://www.nowycpr.pl/blog" />
-        <link rel="canonical" href="https://www.nowycpr.pl/blog" />
+        <meta property="og:url" content="https://www.nowycpr.pl/blog/" />
+        <link rel="canonical" href="https://www.nowycpr.pl/blog/" />
       </Helmet>
       <PageHeader>
         <div className="flex flex-wrap items-baseline gap-5 min-w-0">

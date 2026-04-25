@@ -304,7 +304,7 @@ export default function FaqPage() {
     return counts;
   }, [search]);
 
-  const canonicalUrl = "https://www.nowycpr.pl/faq";
+  const canonicalUrl = "https://www.nowycpr.pl/faq/";
   const pageTitle = "FAQ — Najczęstsze pytania o CPR 2024/3110 | NowyCPR.pl";
   const pageDesc =
     "Odpowiedzi na najczęstsze pytania producentów o CPR 2024/3110: certyfikacja, DoP&C, AVS, koszty, ETA, GWP i więcej.";

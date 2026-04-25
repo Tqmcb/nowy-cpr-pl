@@ -41,6 +41,7 @@ export const userRoutes: RouteObject[] = [
 	{ path: "/productsearch", element: <ProductSearch /> },
 	{ path: "/services", element: <Services /> },
 	{ path: "/wyroby", element: <Wyroby /> },
+	{ path: "/wyrob/:slug", element: <WyrobDetail /> },
 	{ path: "/wyrob", element: <WyrobDetail /> },
 	{ path: "/polityka-prywatnosci", element: <PolitykaPrywatnosci /> },
 	{ path: "/regulamin", element: <Regulamin /> },

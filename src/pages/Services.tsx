@@ -221,8 +221,8 @@ export default function Services() {
         <meta name="keywords" content="certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane" />
         <meta property="og:title" content="Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert" />
         <meta property="og:description" content="Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych." />
-        <meta property="og:url" content="https://www.nowycpr.pl/services" />
-        <link rel="canonical" href="https://www.nowycpr.pl/services" />
+        <meta property="og:url" content="https://www.nowycpr.pl/services/" />
+        <link rel="canonical" href="https://www.nowycpr.pl/services/" />
       </Helmet>
       <Header />
 

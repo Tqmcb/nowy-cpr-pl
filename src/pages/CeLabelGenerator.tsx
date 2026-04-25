@@ -232,7 +232,7 @@ export default function CeLabelGenerator() {
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content="Wygeneruj etykietę oznakowania CE wyrobu budowlanego zgodną z art. 8 CPR 2024/3110. Podgląd na żywo, druk i pobranie SVG." />
-        <link rel="canonical" href="https://www.nowycpr.pl/generator-ce" />
+        <link rel="canonical" href="https://www.nowycpr.pl/generator-ce/" />
       </Helmet>
       <div className="flex flex-col min-h-screen bg-white">
         <Header />

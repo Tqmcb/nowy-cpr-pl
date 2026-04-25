@@ -1021,7 +1021,7 @@ function RelatedWyrobySection({ wyroby }: { wyroby: ProductFamily[] }) {
           {wyroby.map((w) => (
             <Link
               key={w.slug}
-              to={`/wyrob?slug=${w.slug}`}
+              to={`/wyrob/${w.slug}/`}
               className="group bg-white border border-slate-200 rounded-xl p-4 hover:border-[oklch(55% .22 27)]/30 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-2 mb-2">
@@ -1132,7 +1132,7 @@ export default function BlogPost() {
   }
 
   // SEO / GEO meta tags
-  const canonicalUrl = `https://www.nowycpr.pl/blog/${slug}`;
+  const canonicalUrl = `https://www.nowycpr.pl/blog/${slug}/`;
   const pageTitle = `${post.title} | NowyCPR.pl`;
   const description = post.excerpt || post.content.slice(0, 160).replace(/[#*`]/g, "").trim();
   const modifiedDate = post.updated_at || post.reviewed || post.published_at;

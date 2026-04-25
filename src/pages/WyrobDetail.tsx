@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useSearchParams, Link } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
@@ -110,12 +110,20 @@ function formatVerifiedDate(dateStr: string): string {
 
 export default function WyrobDetail() {
   const navigate = useNavigate();
+  const { slug: routeSlug } = useParams<{ slug?: string }>();
   const [searchParams] = useSearchParams();
-  const slug = searchParams.get("slug");
+  const querySlug = searchParams.get("slug");
+  const slug = routeSlug ?? querySlug;
   const [wyrob, setWyrob] = useState<ProductFamily | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [relatedPosts, setRelatedPosts] = useState<BlogPost[]>([]);
+
+  useEffect(() => {
+    if (!routeSlug && querySlug) {
+      navigate(`/wyrob/${encodeURIComponent(querySlug)}/`, { replace: true });
+    }
+  }, [navigate, querySlug, routeSlug]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -159,9 +167,15 @@ export default function WyrobDetail() {
     fetchRelated();
   }, [wyrob]);
 
-  const canonicalUrl = `https://www.nowycpr.pl/wyrob?slug=${wyrob?.slug ?? slug}`;
+  const canonicalSlug = wyrob?.slug ?? slug;
+  const canonicalUrl = canonicalSlug
+    ? `https://www.nowycpr.pl/wyrob/${canonicalSlug}/`
+    : "https://www.nowycpr.pl/wyrob/";
+  const wyrobTitle = wyrob
+    ? (/\bCPR\b|wymagania/i.test(wyrob.title) ? wyrob.title : `${wyrob.title} — Wymagania CPR 2024/3110`)
+    : null;
   const pageTitle = wyrob
-    ? `${wyrob.title} — Wymagania CPR 2024/3110 | NowyCPR.pl`
+    ? `${wyrobTitle} | NowyCPR.pl`
     : "Wyrób budowlany — CPR 2024/3110 | NowyCPR.pl";
   const pageDesc = wyrob?.excerpt
     ? `${wyrob.excerpt} Sprawdź normy, system ${wyrob.avs_system}, certyfikację i wymagania DoP&C.`
@@ -172,15 +186,15 @@ export default function WyrobDetail() {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://www.nowycpr.pl/" },
-      { "@type": "ListItem", "position": 2, "name": "Katalog wyrobów", "item": "https://www.nowycpr.pl/wyroby" },
-      { "@type": "ListItem", "position": 3, "name": wyrob.title }
+      { "@type": "ListItem", "position": 2, "name": "Katalog wyrobów", "item": "https://www.nowycpr.pl/wyroby/" },
+      { "@type": "ListItem", "position": 3, "name": wyrob.title, "item": canonicalUrl }
     ]
   } : null;
 
   const techArticleSchema = wyrob ? {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": `${wyrob.title} — Wymagania CPR 2024/3110`,
+    "headline": wyrobTitle ?? wyrob.title,
     "description": pageDesc,
     "url": canonicalUrl,
     "inLanguage": "pl-PL",
@@ -563,7 +577,7 @@ export default function WyrobDetail() {
                     {relatedPosts.map((post) => (
                       <Link
                         key={post.slug}
-                        to={`/blog/${post.slug}`}
+                        to={`/blog/${post.slug}/`}
                         className="group bg-white border-2 border-slate-200 rounded-xl p-4 hover:border-[oklch(55% .22 27)]/30 hover:shadow-md transition-all duration-300"
                       >
                         {post.image_url && (

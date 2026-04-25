@@ -236,7 +236,7 @@ export default function TimelinePage() {
     filter === "all" ? true : e.category.includes(filter)
   );
 
-  const canonicalUrl = "https://www.nowycpr.pl/harmonogram";
+  const canonicalUrl = "https://www.nowycpr.pl/harmonogram/";
   const pageTitle = "Terminy CPR 2024/3110: DoP&C, GWP, DPP i sankcje | NowyCPR.pl";
   const pageDesc =
     "Harmonogram CPR 2024/3110: daty stosowania, okresy przejściowe, terminy DoP&C, GWP, EPD, DPP, nowe hTS, sankcje i obowiązki producentów.";

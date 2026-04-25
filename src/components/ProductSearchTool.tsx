@@ -92,8 +92,8 @@ export function ProductSearchTool() {
         <meta name="keywords" content="wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego" />
         <meta property="og:title" content="Wymagania CPR dla wyrobu budowlanego — wyszukiwarka | NowyCPR.pl" />
         <meta property="og:description" content="Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych: AVS, hEN, badania, DoP&C i FPC." />
-        <meta property="og:url" content="https://www.nowycpr.pl/wyszukiwarka" />
-        <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka" />
+        <meta property="og:url" content="https://www.nowycpr.pl/wyszukiwarka/" />
+        <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka/" />
       </Helmet>
 
       <PageHeader>
@@ -212,7 +212,7 @@ export function ProductSearchTool() {
                           Dla tej rodziny jest już dostępna pełna karta z normami, systemem oceny, checklistą i przykładami wyrobów.
                         </p>
                         <Button asChild className="gap-2 whitespace-nowrap px-4 py-2 text-sm" style={{ backgroundColor: "oklch(55%_.22_27)", color: "white", borderRadius: "2px" }}>
-                          <Link to={`/wyrob?slug=${selectedWyrob.slug}`}>
+                          <Link to={`/wyrob/${selectedWyrob.slug}/`}>
                             Otwórz pełną kartę
                             <ArrowRight className="h-4 w-4 shrink-0" />
                           </Link>

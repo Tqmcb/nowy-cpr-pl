@@ -521,7 +521,7 @@ function HomePage() {
                   {blogPosts.map((post, idx) => (
                     <Link
                       key={post.id}
-                      to={`/blog/${post.slug}`}
+                      to={`/blog/${post.slug}/`}
                       className="group cursor-pointer block no-underline reveal-stagger transition-all hover:bg-slate-50"
                       style={{
                         "--i": idx,

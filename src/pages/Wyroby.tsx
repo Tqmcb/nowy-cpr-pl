@@ -54,7 +54,7 @@ export default function Wyroby() {
   const legacySlug = searchParams.get("slug");
 
   if (legacySlug) {
-    return <Navigate to={`/wyrob?slug=${encodeURIComponent(legacySlug)}`} replace />;
+    return <Navigate to={`/wyrob/${encodeURIComponent(legacySlug)}/`} replace />;
   }
 
   useEffect(() => {
@@ -81,20 +81,20 @@ export default function Wyroby() {
     return matchesSearch && matchesCategory;
   });
 
-  const goToWyrob = (slug: string) => navigate("/wyrob?slug=" + slug);
+  const goToWyrob = (slug: string) => navigate(`/wyrob/${slug}/`);
 
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "Katalog wyrobów budowlanych CPR 2024/3110",
     "description": "36 kategorii wyrobów budowlanych objętych Rozporządzeniem CPR (UE) 2024/3110",
-    "url": "https://www.nowycpr.pl/wyroby",
+    "url": "https://www.nowycpr.pl/wyroby/",
     "numberOfItems": wyroby.length,
     "itemListElement": wyroby.map((w, idx) => ({
       "@type": "ListItem",
       "position": idx + 1,
       "name": w.title,
-      "url": `https://www.nowycpr.pl/wyrob?slug=${w.slug}`
+      "url": `https://www.nowycpr.pl/wyrob/${w.slug}/`
     }))
   };
 
@@ -106,8 +106,8 @@ export default function Wyroby() {
         <meta name="keywords" content="wyroby budowlane CPR, katalog wyrobów budowlanych, normy zharmonizowane hEN, system AVS, certyfikacja wyrobów, FPC, ZKP, DoP&C" />
         <meta property="og:title" content="Wyroby budowlane CPR: normy hEN, AVS i certyfikacja | NowyCPR.pl" />
         <meta property="og:description" content="Kategorie wyrobów budowlanych, normy hEN, systemy AVS, certyfikacja, FPC/ZKP i DoP&C." />
-        <meta property="og:url" content="https://www.nowycpr.pl/wyroby" />
-        <link rel="canonical" href="https://www.nowycpr.pl/wyroby" />
+        <meta property="og:url" content="https://www.nowycpr.pl/wyroby/" />
+        <link rel="canonical" href="https://www.nowycpr.pl/wyroby/" />
         {wyroby.length > 0 && (
           <script type="application/ld+json">
             {JSON.stringify(itemListSchema)}
