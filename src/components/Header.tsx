@@ -54,7 +54,7 @@ export function Header() {
         Przejdź do treści głównej
       </a>
       <Container>
-        <div className="flex items-center justify-between">
+        <div className="mx-auto flex max-w-6xl items-center justify-between">
           <Link to="/" className="cursor-pointer group flex items-center gap-2.5">
             <div className="flex items-baseline">
               <span className="text-xl tracking-tight font-serif italic transition-colors duration-200" style={{ color: "oklch(20% .03 264)", fontWeight: 600 }}>Nowy</span>
@@ -102,7 +102,7 @@ export function Header() {
           </button>
         </div>
 
-        <div id="mobile-menu" className={`lg:hidden overflow-hidden transition-all duration-300 ${mobileMenuOpen ? "max-h-[600px] opacity-100 mt-4" : "max-h-0 opacity-0"}`}>
+        <div id="mobile-menu" className={`mx-auto max-w-6xl lg:hidden overflow-hidden transition-all duration-300 ${mobileMenuOpen ? "max-h-[600px] opacity-100 mt-4" : "max-h-0 opacity-0"}`}>
           <div className="pt-3 pb-2 space-y-0.5" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
             {[
               { path: "/", label: "Strona Główna", icon: Home },
