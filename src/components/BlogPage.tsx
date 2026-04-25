@@ -189,11 +189,11 @@ const _fallbackPosts: BlogPost[] = [
     id: "1",
     title: "Rozporządzenie CPR (EU) 2024/3110 - Kompletny przewodnik dla producentów",
     slug: "cpr-2024-przewodnik",
-    excerpt: "Wszystko co musisz wiedzieć o nowym rozporządzeniu w sprawie wyrobów budowlanych. Kluczowe zmiany, terminy wejścia w życie od 8 stycznia 2025 i obowiązki producentów.",
+    excerpt: "Wszystko co musisz wiedzieć o nowym rozporządzeniu w sprawie wyrobów budowlanych. Kluczowe zmiany, wejście w życie 7 stycznia 2025, stosowanie etapowe od 8 stycznia 2026 i obowiązki producentów.",
     content: `# Rozporządzenie CPR (EU) 2024/3110 - Kompletny przewodnik
 
 ## Wprowadzenie
-Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 13 grudnia 2024 r. ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych. Weszło w życie **8 stycznia 2025 roku**.
+Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 27 listopada 2024 r. ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych. Weszło w życie **7 stycznia 2025 roku**.
 
 ## Kluczowe zmiany
 1. **Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C)** — nowy format, obowiązkowy po publikacji nowych norm zharmonizowanych (hTS)
@@ -202,7 +202,7 @@ Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 13 grudnia
 4. **Wymagania środowiskowe (GWP)** — obowiązkowe dopiero po wejściu w życie nowych hTS dla danej rodziny wyrobów
 
 ## Terminy wdrożenia
-- 8 stycznia 2025 — wejście w życie (wybrane przepisy)
+- 7 stycznia 2025 — wejście w życie
 - 8 stycznia 2026 — stosowanie głównych przepisów CPR
 - 2026–2029+ — publikacja nowych hTS przez CEN; GWP i DPP obowiązkowe dopiero po zakończeniu okresu koegzystencji dla danej rodziny wyrobów
 

@@ -56,7 +56,7 @@ function EditorialStat({ value, label }: { value: string; label: string }) {
   return (
     <div className="flex flex-col">
       <div
-        className="text-[3.25rem] md:text-[4rem] leading-none tracking-[-0.03em]"
+        className="text-[2.55rem] sm:text-[3.25rem] md:text-[4rem] leading-none tracking-[-0.03em]"
         style={{ color: "oklch(20% .03 264)", fontFamily: '"Schibsted Grotesk", system-ui, sans-serif', fontWeight: 500 }}
       >
         {value}
@@ -184,24 +184,24 @@ function HomePage() {
           <Container>
             <div className="relative z-10 max-w-6xl mx-auto">
               {/* Masthead metadata row */}
-              <div className="flex items-center justify-between text-[0.7rem] uppercase tracking-[0.18em] font-semibold mb-6 md:mb-8 animate-fade-in-up" style={{ color: "oklch(20% .03 264)" }}>
-                <span>NowyCPR · Wydanie #04 · Kwiecień 2026</span>
+              <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 text-[0.7rem] uppercase tracking-[0.18em] font-semibold mb-6 md:mb-8 animate-fade-in-up" style={{ color: "oklch(20% .03 264)" }}>
+                <span className="min-w-0 break-words">NowyCPR · Wydanie #04 · Kwiecień 2026</span>
                 <span className="hidden sm:inline" style={{ color: "oklch(60% .015 264)" }}>Portal regulacyjny dla wyrobów budowlanych</span>
-                <span style={{ color: "oklch(55% .22 27)" }}>Stan: obowiązuje od 8·I·2026</span>
+                <span className="min-w-0 break-words" style={{ color: "oklch(55% .22 27)" }}>Stan: obowiązuje od 8·I·2026</span>
               </div>
 
               {/* Main hero grid */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+              <div className="grid min-w-0 grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                 {/* Left: oversized numeral */}
-                <div className="lg:col-span-4 animate-fade-in-up">
+                <div className="min-w-0 max-w-[calc(100vw-2rem)] lg:col-span-4 lg:max-w-none animate-fade-in-up">
                   <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>ROZPORZĄDZENIE</div>
                   <div className="editorial-numeral text-[7rem] md:text-[8.5rem] lg:text-[10rem] leading-[0.8]" style={{ color: "oklch(20% .03 264)" }}>
                     2024
                   </div>
                   <div className="editorial-numeral text-4xl md:text-5xl mt-3" style={{ color: "oklch(55% .22 27)" }}>/3110</div>
-                  <div className="mt-6 flex items-center gap-3 text-sm">
-                    <div className="h-px flex-1" style={{ backgroundColor: "oklch(86% .012 264)" }} />
-                    <span className="editorial-kicker">UE · EUR-Lex</span>
+                  <div className="mt-6 flex min-w-0 items-center gap-3 overflow-hidden text-sm">
+                    <div className="h-px min-w-0 flex-1" style={{ backgroundColor: "oklch(86% .012 264)" }} />
+                    <span className="editorial-kicker hidden shrink-0 sm:inline">UE · EUR-Lex</span>
                   </div>
                   <p className="mt-4 text-sm leading-relaxed max-w-xs" style={{ color: "oklch(42% .02 264)" }}>
                     Rozporządzenie Parlamentu Europejskiego i Rady ustanawiające zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych.
@@ -209,14 +209,14 @@ function HomePage() {
                 </div>
 
                 {/* Right: title + lede + CTA */}
-                <div className="lg:col-span-8 animate-fade-in-up-delay-1">
-                  <h1 className="font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-6" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
+                <div className="min-w-0 w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] lg:col-span-8 lg:w-auto lg:max-w-none animate-fade-in-up-delay-1">
+                  <h1 className="min-w-0 break-words font-serif text-[3rem] md:text-[4rem] lg:text-[5.5rem] leading-[0.95] mb-6" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
                     Nowy CPR —<br/>
                     <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>co i kiedy</span><br/>
                     Cię dotyczy?
                   </h1>
 
-                  <p className="drop-cap text-lg md:text-xl leading-[1.6] max-w-2xl mb-6" style={{ color: "oklch(42% .02 264)" }}>
+                  <p className="drop-cap min-w-0 w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] break-words text-lg md:w-auto md:max-w-2xl md:text-xl leading-[1.6] mb-6" style={{ color: "oklch(42% .02 264)" }}>
                     Od 8 stycznia 2026 obowiązuje nowe Rozporządzenie (EU) 2024/3110. Ramy prawne wchodzą teraz, ale GWP, EPD i paszport produktu pojawią się oddzielnie dla każdej grupy wyrobów — razem z nowymi hTS. Sprawdź co dotyczy{" "}
                     <span
                       className="inline-block font-serif italic transition-all duration-400"
@@ -257,7 +257,7 @@ function HomePage() {
                   </div>
 
                   {/* Stats in editorial row */}
-                  <div className="mt-6 pt-5 grid grid-cols-3 gap-6 md:gap-10" style={{ borderTop: "1px solid oklch(86% .012 264)" }}>
+                  <div className="mt-6 pt-5 grid min-w-0 grid-cols-3 gap-3 sm:gap-6 md:gap-10 overflow-hidden" style={{ borderTop: "1px solid oklch(86% .012 264)" }}>
                     <EditorialStat value="2026" label="Rok stosowania" />
                     <EditorialStat value="27" label="Krajów UE" />
                     <EditorialStat value="2028+" label="Realne GWP · DPP" />

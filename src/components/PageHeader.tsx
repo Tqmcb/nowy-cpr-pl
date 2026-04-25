@@ -42,7 +42,7 @@ export function PageHeader({
             {resolvedSection && (
               <>
                 <ChevronRight className="w-3 h-3 opacity-50 shrink-0" />
-                <span className="uppercase tracking-[0.12em] font-semibold" style={{ color: "oklch(55% .22 27)" }}>
+                <span className="min-w-0 break-words uppercase tracking-[0.12em] font-semibold" style={{ color: "oklch(55% .22 27)" }}>
                   {resolvedSection.num} · {resolvedSection.label}
                 </span>
               </>
@@ -50,7 +50,7 @@ export function PageHeader({
             {resolvedLabel && (
               <>
                 <ChevronRight className="w-3 h-3 opacity-50 shrink-0" />
-                <span className="uppercase tracking-[0.12em] font-semibold min-w-0" style={{ color: "oklch(20% .03 264)" }}>{resolvedLabel}</span>
+                <span className="min-w-0 break-words uppercase tracking-[0.12em] font-semibold" style={{ color: "oklch(20% .03 264)" }}>{resolvedLabel}</span>
               </>
             )}
           </nav>

@@ -144,6 +144,17 @@
     color: oklch(55% .22 27);
   }
 
+  @media (max-width: 639px) {
+    .drop-cap::first-letter {
+      float: none;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+      color: inherit;
+    }
+  }
+
   /* Editorial oversized numeral */
   .editorial-numeral {
     font-family: 'Wittgenstein', serif;
