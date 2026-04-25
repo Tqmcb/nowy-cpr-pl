@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "postbuild": "node scripts/prerender.mjs",
+    "gsc": "node scripts/search-console.mjs",
     "start": "node server.js",
     "preview": "vite preview"
   },
