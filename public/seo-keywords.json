@@ -1,0 +1,90 @@
+{
+  "site": "https://www.nowycpr.pl/",
+  "language": "pl-PL",
+  "updated": "2026-04-25",
+  "clusters": [
+    {
+      "intent": "informational",
+      "primary_url": "https://www.nowycpr.pl/",
+      "primary_keywords": [
+        "CPR 2024/3110",
+        "nowe rozporządzenie CPR",
+        "rozporządzenie o wyrobach budowlanych",
+        "CPR 305/2011 a CPR 2024/3110"
+      ],
+      "long_tail": [
+        "od kiedy obowiązuje CPR 2024/3110",
+        "co zmienia nowe CPR dla producenta wyrobów budowlanych",
+        "czy CPR 2024/3110 dotyczy mojego wyrobu"
+      ]
+    },
+    {
+      "intent": "product-requirements",
+      "primary_url": "https://www.nowycpr.pl/wyszukiwarka/",
+      "primary_keywords": [
+        "wymagania CPR dla wyrobu",
+        "norma hEN dla wyrobu budowlanego",
+        "system AVS dla wyrobu budowlanego"
+      ],
+      "long_tail": [
+        "jak sprawdzić wymagania CPR dla wyrobu budowlanego",
+        "jakie badania CPR dla okien i drzwi",
+        "jaki system AVS dla prefabrykatów betonowych",
+        "jakie normy CPR dla kabli budowlanych"
+      ]
+    },
+    {
+      "intent": "documentation",
+      "primary_url": "https://www.nowycpr.pl/documents/",
+      "primary_keywords": [
+        "wzór DoP&C",
+        "szablon deklaracji właściwości użytkowych i zgodności",
+        "oznaczenie CE wyrobu budowlanego",
+        "dokumentacja techniczna CPR"
+      ],
+      "long_tail": [
+        "jak przygotować deklarację DoP&C",
+        "co musi zawierać oznakowanie CE według CPR 2024/3110",
+        "lista kontrolna dokumentacji CPR dla producenta"
+      ]
+    },
+    {
+      "intent": "commercial",
+      "primary_url": "https://www.nowycpr.pl/services/",
+      "primary_keywords": [
+        "certyfikacja wyrobów budowlanych",
+        "audyt ZKP",
+        "audyt FPC",
+        "jednostka certyfikująca wyroby budowlane"
+      ],
+      "long_tail": [
+        "ile trwa certyfikacja wyrobu budowlanego",
+        "jak przygotować zakładową kontrolę produkcji do audytu",
+        "weryfikacja dokumentacji DoP&C i oznakowania CE"
+      ]
+    },
+    {
+      "intent": "environmental",
+      "primary_url": "https://www.nowycpr.pl/blog/gwp-obowiazkowe-cpr-2024/",
+      "primary_keywords": [
+        "GWP w CPR",
+        "EPD wyrobów budowlanych",
+        "AVS 3+",
+        "EN 15804"
+      ],
+      "long_tail": [
+        "kiedy GWP będzie obowiązkowe w CPR 2024/3110",
+        "czy EPD wymaga weryfikacji przez jednostkę notyfikowaną",
+        "system AVS 3+ dla danych środowiskowych"
+      ]
+    }
+  ],
+  "priority_product_urls": [
+    "https://www.nowycpr.pl/wyrob/okna-drzwi-bramy/",
+    "https://www.nowycpr.pl/wyrob/prefabrykaty-betonowe/",
+    "https://www.nowycpr.pl/wyrob/kable/",
+    "https://www.nowycpr.pl/wyrob/membrany/",
+    "https://www.nowycpr.pl/wyrob/izolacja-termiczna/",
+    "https://www.nowycpr.pl/wyrob/cement-spoiwa/"
+  ]
+}

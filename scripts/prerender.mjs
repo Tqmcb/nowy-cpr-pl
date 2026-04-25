@@ -62,6 +62,12 @@ function productSeoTitle(title) {
     : `${title} — wymagania CPR 2024/3110`;
 }
 
+const siteSearchAction = {
+  '@type': 'SearchAction',
+  target: 'https://www.nowycpr.pl/wyszukiwarka/?q={search_term_string}',
+  'query-input': 'required name=search_term_string',
+};
+
 // ── main ──────────────────────────────────────────────────────────────────────
 
 const templateHtml = readFileSync(join(distDir, 'index.html'), 'utf-8');
@@ -208,6 +214,7 @@ const staticPages = [
       publisher: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
       description: 'NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
       keywords: 'CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
+      potentialAction: siteSearchAction,
       about: [
         { '@type': 'Thing', name: 'Rozporządzenie (UE) 2024/3110' },
         { '@type': 'Thing', name: 'Deklaracja Właściwości Użytkowych i Zgodności' },
@@ -246,7 +253,7 @@ const staticPages = [
     desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
     keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
     canonical: 'https://www.nowycpr.pl/wyszukiwarka/',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.' },
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', potentialAction: siteSearchAction },
   },
   {
     path: 'documents',
@@ -291,7 +298,7 @@ const staticPages = [
     desc: 'Sprawdź wymagania CPR 2024/3110 dla konkretnego wyrobu budowlanego: norma hEN, system AVS, badania, dokumentacja, DoP&C, FPC/ZKP i certyfikacja.',
     keywords: 'wymagania CPR dla wyrobu, wyroby budowlane CPR, system AVS, norma zharmonizowana hEN, DoP&C, FPC, certyfikacja wyrobu budowlanego',
     canonical: 'https://www.nowycpr.pl/wyszukiwarka/',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', keywords: 'wymagania CPR dla wyrobu, system AVS, norma hEN, DoP&C, FPC' },
+    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Wymagania CPR dla wyrobu budowlanego — wyszukiwarka', url: 'https://www.nowycpr.pl/wyszukiwarka/', description: 'Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych.', keywords: 'wymagania CPR dla wyrobu, system AVS, norma hEN, DoP&C, FPC', potentialAction: siteSearchAction },
   },
   {
     path: 'harmonogram',

@@ -148,6 +148,11 @@ function HomePage() {
     },
     "description": pageDesc,
     "keywords": pageKeywords,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.nowycpr.pl/wyszukiwarka/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
     "about": [
       { "@type": "Thing", "name": "Rozporządzenie (UE) 2024/3110" },
       { "@type": "Thing", "name": "Deklaracja Właściwości Użytkowych i Zgodności" },

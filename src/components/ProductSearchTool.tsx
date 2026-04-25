@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { Button } from "components/Button";
 import { Container } from "components/Container";
 import { PageHeader } from "components/PageHeader";
-import { findProductCategoryById, getProductCategoryOptions, type ProductCategory } from "utils/productData";
+import { getAllProductCategories, type ProductCategory } from "utils/productData";
 import type { ProductFamily } from "utils/wyrobLoader";
 import { buildWyrobSnapshot } from "utils/wyrobSummaries";
 import {
@@ -30,13 +30,26 @@ import {
 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
+const normalizeSearchQuery = (value: string) =>
+  value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
 export function ProductSearchTool() {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [selectedCategoryId, setSelectedCategoryId] = useState<string>("");
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | null>(null);
   const [activeTab, setActiveTab] = useState("overview");
   const [wyroby, setWyroby] = useState<ProductFamily[]>([]);
 
-  const productOptions = getProductCategoryOptions();
+  const productCategories = useMemo(() => getAllProductCategories(), []);
+  const productOptions = useMemo(() => productCategories.map(category => ({
+    value: category.id,
+    label: `${category.name} (${category.code})`,
+  })), [productCategories]);
 
   useEffect(() => {
     const loadWyroby = async () => {
@@ -51,6 +64,34 @@ export function ProductSearchTool() {
 
     loadWyroby();
   }, []);
+
+  useEffect(() => {
+    if (selectedCategoryId) {
+      return;
+    }
+
+    const query = searchParams.get("q");
+    if (!query) {
+      return;
+    }
+
+    const normalizedQuery = normalizeSearchQuery(query);
+    const matchedCategory = productCategories.find((category) => {
+      const haystack = normalizeSearchQuery([
+        category.id,
+        category.name,
+        category.code,
+        category.description,
+        category.requirements.title,
+      ].join(" "));
+      return haystack.includes(normalizedQuery) || normalizedQuery.includes(normalizeSearchQuery(category.name));
+    });
+
+    if (matchedCategory) {
+      setSelectedCategoryId(matchedCategory.id);
+      setSelectedCategory(matchedCategory);
+    }
+  }, [productCategories, searchParams, selectedCategoryId]);
 
   const selectedWyrob = useMemo(() => {
     if (!selectedCategory) {
@@ -70,10 +111,16 @@ export function ProductSearchTool() {
 
     if (!value) {
       setSelectedCategory(null);
+      setSearchParams({}, { replace: true });
       return;
     }
 
-    setSelectedCategory(findProductCategoryById(value) ?? null);
+    const category = productCategories.find((item) => item.id === value) ?? null;
+    setSelectedCategory(category);
+
+    if (category) {
+      setSearchParams({ q: category.name.toLowerCase() }, { replace: true });
+    }
   };
 
   const tabs = [
@@ -83,6 +130,20 @@ export function ProductSearchTool() {
     { id: "changes", label: "Zmiany CPR 2024", icon: Sparkles },
     { id: "certification", label: "Certyfikacja", icon: Award }
   ];
+
+  const searchPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Wyszukiwarka wymagań CPR dla wyrobu budowlanego",
+    "url": "https://www.nowycpr.pl/wyszukiwarka/",
+    "description": "Narzędzie do sprawdzania wymagań CPR 2024/3110 dla konkretnych rodzin wyrobów budowlanych.",
+    "inLanguage": "pl-PL",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.nowycpr.pl/wyszukiwarka/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -94,6 +155,7 @@ export function ProductSearchTool() {
         <meta property="og:description" content="Interaktywna wyszukiwarka wymagań CPR dla kategorii wyrobów budowlanych: AVS, hEN, badania, DoP&C i FPC." />
         <meta property="og:url" content="https://www.nowycpr.pl/wyszukiwarka/" />
         <link rel="canonical" href="https://www.nowycpr.pl/wyszukiwarka/" />
+        <script type="application/ld+json">{JSON.stringify(searchPageSchema)}</script>
       </Helmet>
 
       <PageHeader>

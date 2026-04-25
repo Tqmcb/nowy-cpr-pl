@@ -5,10 +5,11 @@
 ## Główne sekcje portalu
 
 - [Strona główna](https://www.nowycpr.pl/) — wprowadzenie do CPR 2024/3110, kluczowe terminy, linki do zasobów dla producentów
-- [Wyszukiwarka CPR](https://www.nowycpr.pl/wyszukiwarka) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
-- [Dokumenty do pobrania](https://www.nowycpr.pl/documents) — bezpłatne szablony HTML zgodne z CPR 2024/3110 (DoP&C, karta techniczna, FPC/ZKP, oznakowanie CE, lista kontrolna, EPD, DPP, AVS, importer, przedstawiciel)
-- [Blog](https://www.nowycpr.pl/blog) — 57 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
-- [Wyroby](https://www.nowycpr.pl/wyroby) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
+- [Wyszukiwarka CPR](https://www.nowycpr.pl/wyszukiwarka/) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
+- [Dokumenty do pobrania](https://www.nowycpr.pl/documents/) — bezpłatne szablony HTML zgodne z CPR 2024/3110 (DoP&C, karta techniczna, FPC/ZKP, oznakowanie CE, lista kontrolna, EPD, DPP, AVS, importer, przedstawiciel)
+- [Blog](https://www.nowycpr.pl/blog/) — 57 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
+- [Wyroby](https://www.nowycpr.pl/wyroby/) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
+- [Mapa SEO/GEO](https://www.nowycpr.pl/seo-keywords.json) — priorytetowe klastry fraz, intencje wyszukiwania i strony docelowe
 
 ## Kluczowe tematy i definicje
 
@@ -45,6 +46,16 @@
 - **Cyfrowa:** cyfrowy paszport produktu DPP, Digital DoP&C, QR kod CPR, unikalny identyfikator produktu, dokumentacja cyfrowa CPR
 - **Łańcuch dostaw:** obowiązki producenta CPR, obowiązki importera wyrobów budowlanych, obowiązki dystrybutora CPR, sprzedaż online wyrobów budowlanych, marketplace CPR
 
+## Long-tail i strony docelowe
+
+- **wymagania CPR dla okien i drzwi:** https://www.nowycpr.pl/wyrob/okna-drzwi-bramy/
+- **CPR dla prefabrykatów betonowych:** https://www.nowycpr.pl/wyrob/prefabrykaty-betonowe/
+- **CPR dla kabli i przewodów:** https://www.nowycpr.pl/wyrob/kable/
+- **CPR dla membran hydroizolacyjnych:** https://www.nowycpr.pl/wyrob/membrany/
+- **normy hEN i system AVS dla wyrobu:** https://www.nowycpr.pl/wyszukiwarka/
+- **wzór deklaracji DoP&C:** https://www.nowycpr.pl/documents/
+- **audyt ZKP/FPC i certyfikacja CPR:** https://www.nowycpr.pl/services/
+
 ## Dostępne szablony dokumentów (bezpłatne)
 
 1. [Szablon Deklaracji DoP&C](https://www.nowycpr.pl/docs/dopc-szablon.html) — roboczy wzór deklaracji wg Załącznika V CPR 2024/3110, art. 15–16, do wykorzystania przy przygotowaniu do nowych hTS
@@ -58,24 +69,24 @@
 
 ## Wybrane artykuły blogowe
 
-- [CPR 2024/3110 — kompletne omówienie nowego rozporządzenia](https://www.nowycpr.pl/blog/cpr-2024-nowe-rozporzadzenie)
-- [DoP → DoP&C: co zmienia się w deklaracji właściwości użytkowych](https://www.nowycpr.pl/blog/dop-do-dopc-zmiany-cpr-2024)
-- [Deklaracja DoP&C — szablon i wyjaśnienie pól](https://www.nowycpr.pl/blog/dopc-szablon-wyjasnienie)
-- [AVS zamiast AVCP — nowy system oceny zgodności](https://www.nowycpr.pl/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024)
-- [AVS 3+ w systemie krajowym, KOT i NUWB](https://www.nowycpr.pl/blog/avs-3plus-system-krajowy-kot-nuwb)
-- [GWP w CPR 2024 — kiedy stanie się obowiązkowe](https://www.nowycpr.pl/blog/gwp-obowiazkowe-cpr-2024)
-- [EPD w budownictwie — deklaracje środowiskowe wyrobu](https://www.nowycpr.pl/blog/epd-w-budownictwie)
-- [Cyfrowy Paszport Produktu DPP w CPR 2024](https://www.nowycpr.pl/blog/cyfrowy-paszport-produktu-dpp-cpr-2024)
-- [QR kod i unikalny kod identyfikacyjny wyrobu](https://www.nowycpr.pl/blog/qr-kod-unikalny-kod-produktu-cpr-2024)
-- [FPC — Zakładowa Kontrola Produkcji krok po kroku](https://www.nowycpr.pl/blog/fpc-zakladowa-kontrola-produkcji)
-- [Importer wyrobów budowlanych — obowiązki w CPR 2024](https://www.nowycpr.pl/blog/importer-obowiazki-cpr-2024)
-- [Dystrybutor wyrobów budowlanych — obowiązki i odpowiedzialność](https://www.nowycpr.pl/blog/dystrybutor-cpr-2024)
-- [Sprzedaż online i marketplace w CPR 2024](https://www.nowycpr.pl/blog/sprzedaz-online-cpr-2024)
-- [Kary za naruszenie CPR 2024](https://www.nowycpr.pl/blog/kary-naruszenie-cpr-2024)
-- [NUWB — nowa ustawa o wyrobach budowlanych](https://www.nowycpr.pl/blog/nuwb-polska-ustawa-wyroby-budowlane)
-- [EN 206-1:2026 i klasy emisyjne GWR dla betonu](https://www.nowycpr.pl/blog/en-206-klasy-emisyjne-gwr-beton)
-- [EN 16903 i rury z tworzyw sztucznych — harmonizacja pod CPR](https://www.nowycpr.pl/blog/en-16903-rury-plastikowe-harmonizacja-cpr)
-- [EAD — Europejski Dokument Oceny dla wyrobów bez normy zharmonizowanej](https://www.nowycpr.pl/blog/ead-europejski-dokument-oceny-cpr-2024)
+- [CPR 2024/3110 — kompletne omówienie nowego rozporządzenia](https://www.nowycpr.pl/blog/cpr-2024-nowe-rozporzadzenie/)
+- [DoP → DoP&C: co zmienia się w deklaracji właściwości użytkowych](https://www.nowycpr.pl/blog/dop-do-dopc-zmiany-cpr-2024/)
+- [Deklaracja DoP&C — szablon i wyjaśnienie pól](https://www.nowycpr.pl/blog/dopc-szablon-wyjasnienie/)
+- [AVS zamiast AVCP — nowy system oceny zgodności](https://www.nowycpr.pl/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024/)
+- [AVS 3+ w systemie krajowym, KOT i NUWB](https://www.nowycpr.pl/blog/avs-3plus-system-krajowy-kot-nuwb/)
+- [GWP w CPR 2024 — kiedy stanie się obowiązkowe](https://www.nowycpr.pl/blog/gwp-obowiazkowe-cpr-2024/)
+- [EPD w budownictwie — deklaracje środowiskowe wyrobu](https://www.nowycpr.pl/blog/epd-w-budownictwie/)
+- [Cyfrowy Paszport Produktu DPP w CPR 2024](https://www.nowycpr.pl/blog/cyfrowy-paszport-produktu-dpp-cpr-2024/)
+- [QR kod i unikalny kod identyfikacyjny wyrobu](https://www.nowycpr.pl/blog/qr-kod-unikalny-kod-produktu-cpr-2024/)
+- [FPC — Zakładowa Kontrola Produkcji krok po kroku](https://www.nowycpr.pl/blog/fpc-zakladowa-kontrola-produkcji/)
+- [Importer wyrobów budowlanych — obowiązki w CPR 2024](https://www.nowycpr.pl/blog/importer-obowiazki-cpr-2024/)
+- [Dystrybutor wyrobów budowlanych — obowiązki i odpowiedzialność](https://www.nowycpr.pl/blog/dystrybutor-cpr-2024/)
+- [Sprzedaż online i marketplace w CPR 2024](https://www.nowycpr.pl/blog/sprzedaz-online-cpr-2024/)
+- [Kary za naruszenie CPR 2024](https://www.nowycpr.pl/blog/kary-naruszenie-cpr-2024/)
+- [NUWB — nowa ustawa o wyrobach budowlanych](https://www.nowycpr.pl/blog/nuwb-polska-ustawa-wyroby-budowlane/)
+- [EN 206-1:2026 i klasy emisyjne GWR dla betonu](https://www.nowycpr.pl/blog/en-206-klasy-emisyjne-gwr-beton/)
+- [EN 16903 i rury z tworzyw sztucznych — harmonizacja pod CPR](https://www.nowycpr.pl/blog/en-16903-rury-plastikowe-harmonizacja-cpr/)
+- [EAD — Europejski Dokument Oceny dla wyrobów bez normy zharmonizowanej](https://www.nowycpr.pl/blog/ead-europejski-dokument-oceny-cpr-2024/)
 
 ## Informacje o wydawcy
 
