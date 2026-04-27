@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { createServer } from 'http';
 import { join } from 'path';
+import { randomBytes } from 'crypto';
 
 const DEFAULT_SITE_URL = 'https://www.nowycpr.pl/';
 const DEFAULT_SITEMAP_URL = 'https://www.nowycpr.pl/sitemap.xml';
@@ -26,17 +28,20 @@ function usage() {
   console.log(`Search Console helper
 
 Auth options:
-  npm run gsc -- auth --client-id "179285900611-...apps.googleusercontent.com"
+  npm run gsc -- auth-local --client-id "..." --client-secret "..."
   GSC_ACCESS_TOKEN="ya29..." npm run gsc -- submit-sitemap
 
 Optional:
   GSC_CLIENT_ID      OAuth client ID for auth command
+  GSC_CLIENT_SECRET  OAuth client secret for auth-local command
+  GSC_OAUTH_PORT     default: 53682
   GSC_SITE_URL       default: ${DEFAULT_SITE_URL}
   GSC_SITEMAP_URL    default: ${DEFAULT_SITEMAP_URL}
   GSC_LANGUAGE_CODE  default: ${DEFAULT_LANGUAGE}
 
 Commands:
-  npm run gsc -- auth --client-id "..."
+  npm run gsc -- auth-local --client-id "..." --client-secret "..."
+  npm run gsc -- auth-device --client-id "..."
   npm run gsc -- submit-sitemap
   npm run gsc -- get-sitemap
   npm run gsc -- inspect https://www.nowycpr.pl/wyrob/membrany/
@@ -44,7 +49,8 @@ Commands:
   npm run gsc -- list-sites
 
 Notes:
-  auth uses Google's device flow and writes tokens to .gsc-token.json.
+  auth-local uses a localhost OAuth redirect and writes tokens to .gsc-token.json.
+  auth-device is available for scopes that Google permits in device flow, but Search Console's webmasters scope is not currently accepted there.
   .gsc-token.json must stay local and must not be committed.
 `);
 }
@@ -59,6 +65,8 @@ function config() {
   return {
     token: process.env.GSC_ACCESS_TOKEN,
     clientId: getArgValue('--client-id', process.env.GSC_CLIENT_ID || ''),
+    clientSecret: getArgValue('--client-secret', process.env.GSC_CLIENT_SECRET || ''),
+    oauthPort: Number(getArgValue('--port', process.env.GSC_OAUTH_PORT || '53682')),
     siteUrl: getArgValue('--site', process.env.GSC_SITE_URL || DEFAULT_SITE_URL),
     sitemapUrl: getArgValue('--sitemap', process.env.GSC_SITEMAP_URL || DEFAULT_SITEMAP_URL),
     languageCode: getArgValue('--language', process.env.GSC_LANGUAGE_CODE || DEFAULT_LANGUAGE),
@@ -103,11 +111,14 @@ async function refreshAccessToken(tokens) {
     throw new Error('Missing refresh_token/client_id in .gsc-token.json. Run auth again.');
   }
 
-  const refreshed = await tokenRequest({
+  const params = {
     client_id: tokens.client_id,
     refresh_token: tokens.refresh_token,
     grant_type: 'refresh_token',
-  });
+  };
+  if (tokens.client_secret) params.client_secret = tokens.client_secret;
+
+  const refreshed = await tokenRequest(params);
 
   const updated = {
     ...tokens,
@@ -167,6 +178,80 @@ async function googleRequest(url, options = {}) {
   }
 
   return data;
+}
+
+async function authLocalFlow() {
+  const { clientId, clientSecret, oauthPort } = config();
+  if (!clientId || !clientSecret) {
+    usage();
+    throw new Error('Missing --client-id/--client-secret or GSC_CLIENT_ID/GSC_CLIENT_SECRET.');
+  }
+
+  const redirectUri = `http://127.0.0.1:${oauthPort}/oauth2callback`;
+  const state = randomBytes(16).toString('hex');
+  const authUrl = new URL('https://accounts.google.com/o/oauth2/v2/auth');
+  authUrl.searchParams.set('client_id', clientId);
+  authUrl.searchParams.set('redirect_uri', redirectUri);
+  authUrl.searchParams.set('response_type', 'code');
+  authUrl.searchParams.set('scope', DEFAULT_SCOPE);
+  authUrl.searchParams.set('access_type', 'offline');
+  authUrl.searchParams.set('prompt', 'consent');
+  authUrl.searchParams.set('state', state);
+
+  const code = await new Promise((resolve, reject) => {
+    const server = createServer((req, res) => {
+      try {
+        const requestUrl = new URL(req.url || '/', redirectUri);
+        if (requestUrl.pathname !== '/oauth2callback') {
+          res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+          res.end('Not found');
+          return;
+        }
+
+        const receivedState = requestUrl.searchParams.get('state');
+        const receivedCode = requestUrl.searchParams.get('code');
+        const error = requestUrl.searchParams.get('error');
+
+        if (error) throw new Error(`Google OAuth error: ${error}`);
+        if (receivedState !== state) throw new Error('OAuth state mismatch.');
+        if (!receivedCode) throw new Error('Missing OAuth code.');
+
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+        res.end('<p>Authorization complete. You can close this tab and return to the terminal.</p>');
+        server.close();
+        resolve(receivedCode);
+      } catch (error) {
+        res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end(error.message);
+        server.close();
+        reject(error);
+      }
+    });
+
+    server.once('error', reject);
+    server.listen(oauthPort, '127.0.0.1', () => {
+      console.log('\nOpen this URL in your browser and approve access:\n');
+      console.log(authUrl.toString());
+      console.log(`\nWaiting on ${redirectUri} ...\n`);
+    });
+  });
+
+  const tokenData = await tokenRequest({
+    client_id: clientId,
+    client_secret: clientSecret,
+    code,
+    redirect_uri: redirectUri,
+    grant_type: 'authorization_code',
+  });
+
+  writeTokenFile({
+    ...tokenData,
+    client_id: clientId,
+    client_secret: clientSecret,
+    scope: tokenData.scope || DEFAULT_SCOPE,
+    expires_at: Date.now() + (tokenData.expires_in || 3600) * 1000,
+  });
+  console.log(`Authorized. Tokens saved locally to ${TOKEN_FILE}`);
 }
 
 async function authDeviceFlow() {
@@ -304,6 +389,10 @@ async function main() {
   try {
     switch (command) {
       case 'auth':
+      case 'auth-local':
+        await authLocalFlow();
+        break;
+      case 'auth-device':
         await authDeviceFlow();
         break;
       case 'submit-sitemap':
