@@ -99,7 +99,7 @@ function stripMarkdownInline(text: string) {
 }
 
 function extractTableOfContents(content: string) {
-  const items: Array<{ id: string; text: string; level: 2 | 3 }> = [];
+  const items: Array<{ id: string; text: string }> = [];
   let inCodeBlock = false;
 
   for (const line of content.split("\n")) {
@@ -109,13 +109,13 @@ function extractTableOfContents(content: string) {
     }
     if (inCodeBlock) continue;
 
-    const match = /^(#{2,3})\s+(.+)$/.exec(line);
+    const match = /^##\s+(.+)$/.exec(line);
     if (!match) continue;
 
-    const text = stripMarkdownInline(match[2]);
+    const text = stripMarkdownInline(match[1]);
     const id = slugifyHeading(text);
     if (text && id) {
-      items.push({ id, text, level: match[1].length as 2 | 3 });
+      items.push({ id, text });
     }
   }
 
@@ -418,12 +418,10 @@ function PostToc({ post }: { post: BlogPostType }) {
       <nav aria-label="Spis treści artykułu">
         <ol className="space-y-2">
           {items.map((item) => (
-            <li key={`${item.level}-${item.id}`}>
+            <li key={item.id}>
               <a
                 href={`#${item.id}`}
-                className={`block border-l py-1.5 text-sm leading-snug transition-colors hover:text-[oklch(55%_.22_27)] hover:border-[oklch(55%_.22_27)] ${
-                  item.level === 3 ? "pl-6 text-slate-500" : "pl-3 text-slate-700 font-medium"
-                }`}
+                className="block border-l pl-3 py-1.5 text-sm leading-snug text-slate-700 font-medium transition-colors hover:text-[oklch(55%_.22_27)] hover:border-[oklch(55%_.22_27)]"
               >
                 {item.text}
               </a>
