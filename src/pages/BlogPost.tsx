@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { Children, isValidElement, useEffect, useState } from "react";
+import type { ReactNode } from "react";
 import { Helmet } from "react-helmet-async";
 import { useNavigate, useLocation, useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
@@ -69,6 +70,58 @@ function readingTime(content: string) {
   return Math.ceil(words / 200);
 }
 
+function textFromNode(node: ReactNode): string {
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(textFromNode).join("");
+  if (isValidElement(node)) return textFromNode(node.props.children as ReactNode);
+  return Children.toArray(node).map(textFromNode).join("");
+}
+
+function slugifyHeading(text: string) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function headingIdFromChildren(children: ReactNode) {
+  return slugifyHeading(textFromNode(children));
+}
+
+function stripMarkdownInline(text: string) {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/[`*_~]/g, "")
+    .replace(/\s+#+$/g, "")
+    .trim();
+}
+
+function extractTableOfContents(content: string) {
+  const items: Array<{ id: string; text: string; level: 2 | 3 }> = [];
+  let inCodeBlock = false;
+
+  for (const line of content.split("\n")) {
+    if (line.trim().startsWith("```")) {
+      inCodeBlock = !inCodeBlock;
+      continue;
+    }
+    if (inCodeBlock) continue;
+
+    const match = /^(#{2,3})\s+(.+)$/.exec(line);
+    if (!match) continue;
+
+    const text = stripMarkdownInline(match[2]);
+    const id = slugifyHeading(text);
+    if (text && id) {
+      items.push({ id, text, level: match[1].length as 2 | 3 });
+    }
+  }
+
+  return items;
+}
+
 // ────────────────────────────────────────────────────────────────────────────
 // MARKDOWN COMPONENT SETS
 // ────────────────────────────────────────────────────────────────────────────
@@ -80,12 +133,12 @@ const DARK_COMPONENTS: Components = {
     </h1>
   ),
   h2: ({ children }) => (
-    <h2 className="font-serif text-[2rem] md:text-[2.4rem] leading-[1.1] mt-16 mb-6 pt-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500, borderTop: "2px solid oklch(20% .03 264)" }}>
+    <h2 id={headingIdFromChildren(children)} className="scroll-mt-24 font-serif text-[2rem] md:text-[2.4rem] leading-[1.1] mt-16 mb-6 pt-8" style={{ color: "oklch(20% .03 264)", fontWeight: 500, borderTop: "2px solid oklch(20% .03 264)" }}>
       {children}
     </h2>
   ),
   h3: ({ children }) => (
-    <h3 className="font-serif italic text-[1.5rem] md:text-[1.75rem] leading-[1.2] mt-12 mb-4" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>
+    <h3 id={headingIdFromChildren(children)} className="scroll-mt-24 font-serif italic text-[1.5rem] md:text-[1.75rem] leading-[1.2] mt-12 mb-4" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>
       {children}
     </h3>
   ),
@@ -166,10 +219,10 @@ const LIGHT_COMPONENTS: Components = {
     <h1 className="text-3xl font-bold text-slate-900 my-6 leading-tight">{children}</h1>
   ),
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold text-slate-800 mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>
+    <h2 id={headingIdFromChildren(children)} className="scroll-mt-24 text-2xl font-semibold text-slate-800 mt-8 mb-4 pb-2 border-b border-slate-200">{children}</h2>
   ),
   h3: ({ children }) => (
-    <h3 className="text-lg font-semibold text-[oklch(55%_.22_27)] mt-6 mb-3">{children}</h3>
+    <h3 id={headingIdFromChildren(children)} className="scroll-mt-24 text-lg font-semibold text-[oklch(55%_.22_27)] mt-6 mb-3">{children}</h3>
   ),
   p: ({ children }) => (
     <p className="text-slate-600 leading-relaxed my-4 text-[15px]">{children}</p>
@@ -349,6 +402,36 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
       </div>
       <MulticertBoxDark />
     </>
+  );
+}
+
+function PostToc({ post }: { post: BlogPostType }) {
+  const items = extractTableOfContents(post.content);
+  if (items.length === 0) return null;
+
+  return (
+    <div className="lg:sticky lg:top-24 bg-white border border-slate-200 rounded-lg p-5 shadow-sm">
+      <h4 className="editorial-kicker mb-4 flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
+        <BookOpen className="w-3.5 h-3.5" />
+        Spis treści
+      </h4>
+      <nav aria-label="Spis treści artykułu">
+        <ol className="space-y-2">
+          {items.map((item) => (
+            <li key={`${item.level}-${item.id}`}>
+              <a
+                href={`#${item.id}`}
+                className={`block border-l py-1.5 text-sm leading-snug transition-colors hover:text-[oklch(55%_.22_27)] hover:border-[oklch(55%_.22_27)] ${
+                  item.level === 3 ? "pl-6 text-slate-500" : "pl-3 text-slate-700 font-medium"
+                }`}
+              >
+                {item.text}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </div>
   );
 }
 
@@ -570,6 +653,7 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                   <Calendar className="w-4 h-4 text-[oklch(55% .22 27)]" /> Harmonogram
@@ -623,11 +707,12 @@ function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               {/* TL;DR — streszczenie posta */}
               {post.excerpt && (
                 <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
                   <h4 className="text-[oklch(55% .22 27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <FileText className="w-4 h-4" /> TL;DR
+                    <FileText className="w-4 h-4" /> W skrócie
                   </h4>
                   <p className="text-slate-700 text-sm leading-relaxed">{post.excerpt}</p>
                 </div>
@@ -672,6 +757,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
                 <dl className="space-y-3">
@@ -791,6 +877,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
@@ -848,6 +935,7 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               {/* Co musisz wiedzieć */}
               {post.excerpt && (
                 <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
@@ -905,6 +993,7 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               {/* Lista kontrolna */}
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
@@ -958,6 +1047,7 @@ function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
+              <PostToc post={post} />
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
