@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'fs';
 import { createServer } from 'http';
 import { join } from 'path';
 import { randomBytes } from 'crypto';
@@ -51,6 +51,7 @@ Commands:
   npm run gsc -- queries-report
   npm run gsc -- pages-report
   npm run gsc -- opportunities-report
+  npm run gsc -- seo-actions-report
   npm run gsc -- inspect https://www.nowycpr.pl/wyrob/membrany/
   npm run gsc -- inspect-priority
   npm run gsc -- list-sites
@@ -361,7 +362,7 @@ async function listSites() {
   console.log(JSON.stringify(data, null, 2));
 }
 
-async function searchAnalytics(dimensions) {
+async function fetchSearchAnalytics(dimensions) {
   const { siteUrl, startDate, endDate, rowLimit } = config();
   const url = `https://www.googleapis.com/webmasters/v3/sites/${encodePathValue(siteUrl)}/searchAnalytics/query`;
   const data = await googleRequest(url, {
@@ -389,13 +390,267 @@ async function searchAnalytics(dimensions) {
     return item;
   });
 
-  console.log(JSON.stringify({
+  return {
     siteUrl,
     startDate,
     endDate,
     dimensions,
     rows,
-  }, null, 2));
+  };
+}
+
+async function searchAnalytics(dimensions) {
+  console.log(JSON.stringify(await fetchSearchAnalytics(dimensions), null, 2));
+}
+
+function parseFrontmatter(fileContent) {
+  const match = fileContent.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return {};
+
+  const meta = {};
+  for (const line of match[1].split('\n')) {
+    const separatorIndex = line.indexOf(':');
+    if (separatorIndex === -1) continue;
+
+    const key = line.slice(0, separatorIndex).trim();
+    const rawValue = line.slice(separatorIndex + 1).trim();
+    meta[key] = rawValue.replace(/^['"]|['"]$/g, '');
+  }
+  return meta;
+}
+
+function canonicalizePageUrl(page) {
+  try {
+    const url = new URL(page);
+    url.hash = '';
+
+    if (url.pathname === '/wyrob' || url.pathname === '/wyrob/') {
+      const slug = url.searchParams.get('slug');
+      if (slug) {
+        url.pathname = `/wyrob/${slug}/`;
+        url.search = '';
+      }
+    } else {
+      url.search = '';
+    }
+
+    if (url.pathname !== '/' && !url.pathname.endsWith('/')) {
+      url.pathname = `${url.pathname}/`;
+    }
+
+    return url.toString();
+  } catch {
+    return page;
+  }
+}
+
+function loadPageIndex() {
+  const index = new Map();
+  const blogDir = join(process.cwd(), 'content', 'blog');
+  const wyrobyDir = join(process.cwd(), 'content', 'wyroby');
+
+  if (existsSync(blogDir)) {
+    for (const file of readdirSync(blogDir)) {
+      if (!file.endsWith('.md')) continue;
+      const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+      const meta = parseFrontmatter(readFileSync(join(blogDir, file), 'utf-8'));
+      index.set(`https://www.nowycpr.pl/blog/${slug}/`, {
+        type: 'blog',
+        file: `content/blog/${file}`,
+        title: meta.title || slug,
+      });
+    }
+  }
+
+  if (existsSync(wyrobyDir)) {
+    for (const file of readdirSync(wyrobyDir)) {
+      if (!file.endsWith('.md')) continue;
+      const slug = file.replace(/\.md$/, '');
+      const meta = parseFrontmatter(readFileSync(join(wyrobyDir, file), 'utf-8'));
+      index.set(`https://www.nowycpr.pl/wyrob/${slug}/`, {
+        type: 'wyrob',
+        file: `content/wyroby/${file}`,
+        title: meta.title || slug,
+      });
+    }
+  }
+
+  index.set('https://www.nowycpr.pl/', {
+    type: 'page',
+    file: 'src/pages/Index.tsx',
+    title: 'Strona główna',
+  });
+  index.set('https://www.nowycpr.pl/blog/', {
+    type: 'page',
+    file: 'src/pages/Blog.tsx',
+    title: 'Blog',
+  });
+  index.set('https://www.nowycpr.pl/wyszukiwarka/', {
+    type: 'page',
+    file: 'src/components/ProductSearchTool.tsx',
+    title: 'Wyszukiwarka wyrobów',
+  });
+
+  return index;
+}
+
+function aggregateRows(rows) {
+  const grouped = new Map();
+
+  for (const row of rows) {
+    const page = canonicalizePageUrl(row.page);
+    const key = `${row.query}\n${page}`;
+    const current = grouped.get(key) || {
+      query: row.query,
+      page,
+      clicks: 0,
+      impressions: 0,
+      positionWeight: 0,
+    };
+    current.clicks += row.clicks;
+    current.impressions += row.impressions;
+    current.positionWeight += row.position * row.impressions;
+    grouped.set(key, current);
+  }
+
+  return [...grouped.values()].map(row => ({
+    query: row.query,
+    page: row.page,
+    clicks: row.clicks,
+    impressions: row.impressions,
+    ctr: row.impressions ? Number(((row.clicks / row.impressions) * 100).toFixed(2)) : 0,
+    position: row.impressions ? Number((row.positionWeight / row.impressions).toFixed(2)) : 0,
+  }));
+}
+
+function classifyOpportunity(row) {
+  if (row.impressions >= 2 && row.position <= 5 && row.ctr === 0) {
+    return {
+      priority: 1,
+      label: 'wysoka pozycja, brak kliknięć',
+      action: 'Popraw tytuł strony i opis w wynikach Google, bo strona już jest wysoko, ale użytkownicy nie klikają.',
+    };
+  }
+
+  if (row.impressions >= 5 && row.position > 5 && row.position <= 12) {
+    return {
+      priority: 2,
+      label: 'szybka wygrana',
+      action: 'Dopisz krótki akapit odpowiadający dokładnie na zapytanie i dodaj linki wewnętrzne z powiązanych wpisów.',
+    };
+  }
+
+  if (row.impressions >= 3 && row.position > 12 && row.position <= 30) {
+    return {
+      priority: 3,
+      label: 'brakujące dopasowanie treści',
+      action: 'Rozbuduj treść o osobną sekcję pod tę frazę albo przygotuj nowy wpis wspierający.',
+    };
+  }
+
+  if (row.impressions >= 8 && row.clicks === 0) {
+    return {
+      priority: 4,
+      label: 'dużo wyświetleń bez kliknięć',
+      action: 'Sprawdź, czy intencja zapytania pasuje do strony; jeśli tak, popraw lead i nagłówki pod język użytkownika.',
+    };
+  }
+
+  return null;
+}
+
+function findQueryConflicts(rows) {
+  const byQuery = new Map();
+  for (const row of rows) {
+    if (row.impressions < 2) continue;
+    const list = byQuery.get(row.query) || [];
+    list.push(row);
+    byQuery.set(row.query, list);
+  }
+
+  return [...byQuery.entries()]
+    .map(([query, queryRows]) => ({
+      query,
+      pages: queryRows.sort((a, b) => b.impressions - a.impressions),
+      totalImpressions: queryRows.reduce((sum, row) => sum + row.impressions, 0),
+    }))
+    .filter(item => item.pages.length > 1)
+    .sort((a, b) => b.totalImpressions - a.totalImpressions)
+    .slice(0, 10);
+}
+
+function formatSeoActionsReport(report, pageIndex) {
+  const lines = [
+    `# Raport działań SEO z Google Search Console`,
+    ``,
+    `Zakres danych: ${report.startDate} - ${report.endDate}`,
+    ``,
+    `CTR = współczynnik klikalności w wynikach Google.`,
+    ``,
+    `## Najważniejsze działania`,
+    ``,
+  ];
+
+  if (!report.opportunities.length) {
+    lines.push('Brak wystarczających danych do rekomendacji.');
+  }
+
+  for (const item of report.opportunities.slice(0, 20)) {
+    const page = pageIndex.get(item.page);
+    lines.push(`### ${item.label}: "${item.query}"`);
+    lines.push(`- Strona: ${item.page}`);
+    if (page) lines.push(`- Plik: ${page.file}`);
+    if (page?.title) lines.push(`- Tytuł: ${page.title}`);
+    lines.push(`- Dane: ${item.impressions} wyświetleń, ${item.clicks} kliknięć, CTR ${item.ctr}%, pozycja ${item.position}`);
+    lines.push(`- Działanie: ${item.action}`);
+    lines.push('');
+  }
+
+  lines.push(`## Możliwa kanibalizacja zapytań`);
+  lines.push('');
+
+  if (!report.queryConflicts.length) {
+    lines.push('Brak istotnych konfliktów między stronami.');
+  }
+
+  for (const conflict of report.queryConflicts) {
+    lines.push(`### "${conflict.query}"`);
+    for (const row of conflict.pages.slice(0, 4)) {
+      lines.push(`- ${row.page} — ${row.impressions} wyświetleń, pozycja ${row.position}`);
+    }
+    lines.push('');
+  }
+
+  return `${lines.join('\n').trim()}\n`;
+}
+
+async function seoActionsReport() {
+  const analytics = await fetchSearchAnalytics(['query', 'page']);
+  const rows = aggregateRows(analytics.rows);
+  const pageIndex = loadPageIndex();
+
+  const opportunities = rows
+    .map(row => {
+      const classification = classifyOpportunity(row);
+      if (!classification) return null;
+      return {
+        ...classification,
+        ...row,
+        score: Number((classification.priority * 1000 - row.impressions - Math.max(0, 30 - row.position)).toFixed(2)),
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.score - b.score || b.impressions - a.impressions);
+
+  const report = {
+    siteUrl: analytics.siteUrl,
+    startDate: analytics.startDate,
+    endDate: analytics.endDate,
+    opportunities,
+    queryConflicts: findQueryConflicts(rows),
+  };
+
+  console.log(formatSeoActionsReport(report, pageIndex));
 }
 
 async function inspectUrl(inspectionUrl) {
@@ -465,6 +720,9 @@ async function main() {
         break;
       case 'opportunities-report':
         await searchAnalytics(['query', 'page']);
+        break;
+      case 'seo-actions-report':
+        await seoActionsReport();
         break;
       case 'inspect':
         if (!process.argv[3]) throw new Error('Missing URL to inspect.');
