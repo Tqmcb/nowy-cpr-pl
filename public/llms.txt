@@ -7,7 +7,7 @@
 - [Strona główna](https://www.nowycpr.pl/) — wprowadzenie do CPR 2024/3110, kluczowe terminy, linki do zasobów dla producentów
 - [Wyszukiwarka CPR](https://www.nowycpr.pl/wyszukiwarka/) — interaktywne narzędzie do sprawdzania wymagań CPR dla konkretnych wyrobów budowlanych
 - [Dokumenty do pobrania](https://www.nowycpr.pl/documents/) — bezpłatne szablony HTML zgodne z CPR 2024/3110 (DoP&C, karta techniczna, FPC/ZKP, oznakowanie CE, lista kontrolna, EPD, DPP, AVS, importer, przedstawiciel)
-- [Blog](https://www.nowycpr.pl/blog/) — 57 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
+- [Blog](https://www.nowycpr.pl/blog/) — 58 artykułów eksperckich o CPR 2024/3110, DoP&C, AVS, GWP, DPP, EPD, FPC, hTS, nadzorze rynku i obowiązkach uczestników łańcucha dostaw
 - [Wyroby](https://www.nowycpr.pl/wyroby/) — baza wyrobów budowlanych z informacjami o wymaganiach CPR
 - [Mapa SEO/GEO](https://www.nowycpr.pl/seo-keywords.json) — priorytetowe klastry fraz, intencje wyszukiwania i strony docelowe
 
@@ -35,7 +35,7 @@
 - **Środowisko i LCA** — GWP, EPD, EN 15804, CPCR, AVS 3+, etykietowanie środowiskowe, zielone zamówienia publiczne
 - **Cyfryzacja** — Digital DoP&C, DPP, QR, traceability, sprzedaż online i obowiązki platform marketplace
 - **Prawo i nadzór rynku** — GUNB, kary, wycofanie wyrobu, RAPEX/Safety Gate, ADCO, importerzy, dystrybutorzy i upoważnieni przedstawiciele
-- **Rodziny wyrobów i normy** — beton, prefabrykaty, rury z tworzyw, izolacje, okna i drzwi, wyroby używane, druk 3D, normy zharmonizowane
+- **Rodziny wyrobów i normy** — Plan Prac CPR 2026-2029, hTS, beton, prefabrykaty, rury z tworzyw, izolacje, okna i drzwi, wyroby używane, druk 3D, normy zharmonizowane
 
 ## Priorytetowe frazy i intencje wyszukiwania
 
@@ -70,6 +70,7 @@
 ## Wybrane artykuły blogowe
 
 - [CPR 2024/3110 — kompletne omówienie nowego rozporządzenia](https://www.nowycpr.pl/blog/cpr-2024-nowe-rozporzadzenie/)
+- [Plan Prac CPR 2026-2029 — kolejność nowych hTS dla rodzin wyrobów](https://www.nowycpr.pl/blog/plan-prac-cpr-2026-2029/)
 - [DoP → DoP&C: co zmienia się w deklaracji właściwości użytkowych](https://www.nowycpr.pl/blog/dop-do-dopc-zmiany-cpr-2024/)
 - [Deklaracja DoP&C — szablon i wyjaśnienie pól](https://www.nowycpr.pl/blog/dopc-szablon-wyjasnienie/)
 - [AVS zamiast AVCP — nowy system oceny zgodności](https://www.nowycpr.pl/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024/)

@@ -1,6 +1,6 @@
 ---
 title: "NUWB — Nowa Ustawa o Wyrobach Budowlanych: co Polska musi uchwalić wdrażając CPR 2024"
-reviewed: "2026-04-01"
+reviewed: "2026-04-27"
 date: "2026-04-01"
 author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
@@ -10,6 +10,7 @@ image_url: /images/blog/nuwb-polska-ustawa-wyroby-budowlane.jpg
 template: "regulacja"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
+  - KPRM — Projekt ustawy o wyrobach budowlanych, UC117|https://www.gov.pl/web/premier/projekt-ustawy-o-wyrobach-budowlanych
   - Ustawa o wyrobach budowlanych z 2004 r. — ISAP|https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20040920881
   - Projekt NUWB — SK&S Legal Alert|https://skslegal.pl/en/polski-legal-alert-nowa-ustawa-o-wyrobach-budowlanych-kluczowe-zmiany/
   - Projekt NUWB — szczegóły PerfectQuality|https://perfectquality.pl/nowy-projekt-ustawy-o-wyrobach-budowlanych/
@@ -50,7 +51,7 @@ Sytuacja jest zatem następująca: stara ustawa obowiązuje, ale odwołuje się 
 
 ### Status prac nad NUWB
 
-**21 października 2025 r.** Ministerstwo Finansów i Gospodarki (MFiG, następca MRiT w obszarze wyrobów budowlanych) opublikowało projekt nowej Ustawy o wyrobach budowlanych — NUWB. Projekt zakłada:
+W wykazie prac legislacyjnych Rady Ministrów projekt funkcjonuje jako **UC117 — Projekt ustawy o wyrobach budowlanych**. Pierwsza publikacja w serwisie KPRM nastąpiła **23 września 2025 r.**, a organem odpowiedzialnym jest **Minister Finansów i Gospodarki**. Projekt zakłada:
 
 - zastąpienie ustawy z 2004 r. nowym aktem kompleksowo wdrażającym CPR 2024/3110 oraz rozporządzenie (UE) 2019/1020 o nadzorze rynku,
 - **zwiększenie kar finansowych o około 50%** w stosunku do obecnego poziomu (dostosowanie do inflacji i skali rynku),
@@ -58,7 +59,7 @@ Sytuacja jest zatem następująca: stara ustawa obowiązuje, ale odwołuje się 
 - nowe regulacje dotyczące jakościowej kontroli wyrobów budowlanych z obowiązkową analizą ryzyka przed każdą kontrolą,
 - rozszerzony zakres Krajowej Oceny Technicznej (KOT) dla innowacyjnych wyrobów bez normy zharmonizowanej.
 
-Projekt trafił do konsultacji publicznych i prac parlamentarnych. Planowane wejście w życie NUWB to **2027 r.** — co oznacza, że przez rok lub dłużej Polska będzie funkcjonować w reżimie bezpośredniego stosowania CPR 2024 bez w pełni dostosowanego prawa krajowego.
+Projekt jest aktem wdrażającym prawo UE i ma dostosować krajowe przepisy do CPR 2024/3110 oraz rozporządzenia 2019/1020. Planowane wejście w życie NUWB to **2027 r.** — co oznacza, że przez okres przejściowy Polska funkcjonuje w reżimie bezpośredniego stosowania CPR 2024 bez w pełni dostosowanej ustawy krajowej.
 
 ---
 
@@ -98,7 +99,7 @@ Co praktycznie oznacza brak NUWB?
 
 Na podstawie dostępnych informacji:
 
-- **21 października 2025 r.** — MFiG opublikował projekt NUWB i wszczął konsultacje publiczne.
+- **23 września 2025 r.** — publikacja projektu UC117 w wykazie prac legislacyjnych Rady Ministrów.
 - **8 grudnia 2026 r.** — deadline notyfikacji przepisów sankcyjnych do KE (wymóg art. 92 CPR 2024).
 - **Planowany rok wejścia w życie NUWB: 2027** — takie sygnały płyną z procesu legislacyjnego.
 

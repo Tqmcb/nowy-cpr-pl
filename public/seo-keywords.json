@@ -1,7 +1,7 @@
 {
   "site": "https://www.nowycpr.pl/",
   "language": "pl-PL",
-  "updated": "2026-04-25",
+  "updated": "2026-04-27",
   "clusters": [
     {
       "intent": "informational",
@@ -16,6 +16,22 @@
         "od kiedy obowiązuje CPR 2024/3110",
         "co zmienia nowe CPR dla producenta wyrobów budowlanych",
         "czy CPR 2024/3110 dotyczy mojego wyrobu"
+      ]
+    },
+    {
+      "intent": "implementation-roadmap",
+      "primary_url": "https://www.nowycpr.pl/blog/plan-prac-cpr-2026-2029/",
+      "primary_keywords": [
+        "Plan Prac CPR 2026-2029",
+        "CPR Working Plan 2026-2029",
+        "nowe hTS CPR",
+        "zharmonizowane specyfikacje techniczne CPR"
+      ],
+      "long_tail": [
+        "które rodziny wyrobów dostaną nowe hTS jako pierwsze",
+        "harmonogram nowych norm CPR 2026 2029",
+        "kiedy DoP&C będzie obowiązkowe dla rodziny wyrobów",
+        "CPR Acquis milestone hTS producent wyrobów budowlanych"
       ]
     },
     {
