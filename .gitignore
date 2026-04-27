@@ -6,6 +6,7 @@ node_modules
 .env
 .env.local
 .env.*.local
+.gsc-token.json
 
 # Logi i artefakty sesji deweloperskiej
 firebase-debug.log
