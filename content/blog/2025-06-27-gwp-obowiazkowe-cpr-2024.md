@@ -6,7 +6,7 @@ author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja Now
 category: "Środowisko"
 tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe", "LCA"]
 excerpt: "CPR 2024/3110 planuje obowiązkowe deklarowanie GWP — ale dopiero po opublikowaniu nowej normy zharmonizowanej dla Twojej grupy wyrobów i zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie wyszła. Dowiedz się jak działa ten mechanizm i dlaczego warto zbierać dane już teraz."
-image_url: /images/blog/gwp-obowiazkowe-cpr-2024.jpg
+image_url: /images/blog/gwp-obowiazkowe-cpr-2024-v2.jpg
 template: "analiza"
 sources:
   - Rozporządzenie (UE) 2024/3110 art. 19–21 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj

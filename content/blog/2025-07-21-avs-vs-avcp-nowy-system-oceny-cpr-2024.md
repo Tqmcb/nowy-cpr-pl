@@ -6,7 +6,7 @@ author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o.
 category: "Certyfikacja"
 tags: ["AVS", "AVCP", "system oceny", "CPR 2024", "jednostki notyfikowane", "certyfikacja"]
 excerpt: "CPR 2024/3110 zastępuje stary system AVCP nowym AVS (Assessment and Verification System). Sprawdź co się zmieniło w każdym z poziomów, dlaczego nawet w systemie 4 pojawia się rola jednostki notyfikowanej i co to oznacza dla Twojej certyfikacji."
-image_url: /images/blog/avs-vs-avcp-nowy-system-oceny-.jpg
+image_url: /images/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024-v2.jpg
 template: "przewodnik"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj

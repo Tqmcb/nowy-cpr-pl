@@ -6,7 +6,7 @@ author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja Now
 category: "Cyfryzacja"
 tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability", "GUNB", "Polska", "kary"]
 excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
-image_url: /images/blog/cyfrowy-paszport-produktu-dpp-.jpg
+image_url: /images/blog/cyfrowy-paszport-produktu-dpp-cpr-2024-v2.jpg
 template: "analiza"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj

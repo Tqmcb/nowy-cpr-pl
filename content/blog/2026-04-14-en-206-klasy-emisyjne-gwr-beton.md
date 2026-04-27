@@ -6,7 +6,7 @@ author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i przepisy"
 tags: ["EN 206", "GWR", "klasy emisyjne", "beton", "CPR 2024", "EPD", "EN 15804", "EN 16757", "GCCA", "ślad węglowy", "DoPC"]
 excerpt: "Norma EN 206-1:2026 wprowadza obowiązkowe klasy emisyjne GWR (Global Warming Rating) dla betonu — od GWR 1 do GWR 6. Wyjaśniamy, jak działają, skąd pochodzą wartości referencyjne, jak łączą się z CPR 2024/3110 i EPD, oraz co producenci betonu powinni zrobić już teraz."
-image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=1200&fit=crop"
+image_url: /images/blog/en-206-klasy-emisyjne-gwr-beton-v2.jpg
 template: "przewodnik"
 sources:
   - EN 206-1:2026 — Beton. Wymagania, właściwości użytkowe, produkcja i zgodność|https://www.pkn.pl

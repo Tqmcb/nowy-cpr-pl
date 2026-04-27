@@ -6,7 +6,7 @@ author: "Tomasz Barto | dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multi
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
 excerpt: "CPR 2024/3110 wprowadza DoP&C — ale przepisy przejściowe pozwalają na dalsze stosowanie starych DoP do czasu aktualizacji normy zharmonizowanej. Wyjaśniamy co się zmieniło, kiedy musisz wystawić DoP&C i co możesz zachować."
-image_url: /images/blog/dop-do-dopc-zmiany-cpr-2024.jpg
+image_url: /images/blog/dop-do-dopc-zmiany-cpr-2024-v2.jpg
 template: "przewodnik"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
