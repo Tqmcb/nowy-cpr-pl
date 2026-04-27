@@ -10,6 +10,7 @@ const DEFAULT_SITEMAP_URL = 'https://www.nowycpr.pl/sitemap.xml';
 const DEFAULT_LANGUAGE = 'pl-PL';
 const DEFAULT_SCOPE = 'https://www.googleapis.com/auth/webmasters';
 const TOKEN_FILE = join(process.cwd(), '.gsc-token.json');
+const DEFAULT_ANALYTICS_DAYS = 28;
 
 const PRIORITY_URLS = [
   'https://www.nowycpr.pl/',
@@ -38,12 +39,18 @@ Optional:
   GSC_SITE_URL       default: ${DEFAULT_SITE_URL}
   GSC_SITEMAP_URL    default: ${DEFAULT_SITEMAP_URL}
   GSC_LANGUAGE_CODE  default: ${DEFAULT_LANGUAGE}
+  GSC_START_DATE     default: 28 days before GSC_END_DATE
+  GSC_END_DATE       default: yesterday
+  GSC_ROW_LIMIT      default: 25
 
 Commands:
   npm run gsc -- auth-local --client-id "..." --client-secret "..."
   npm run gsc -- auth-device --client-id "..."
   npm run gsc -- submit-sitemap
   npm run gsc -- get-sitemap
+  npm run gsc -- queries-report
+  npm run gsc -- pages-report
+  npm run gsc -- opportunities-report
   npm run gsc -- inspect https://www.nowycpr.pl/wyrob/membrany/
   npm run gsc -- inspect-priority
   npm run gsc -- list-sites
@@ -61,7 +68,16 @@ function getArgValue(name, fallback) {
   return process.argv[index + 1];
 }
 
+function formatDate(date) {
+  return date.toISOString().slice(0, 10);
+}
+
 function config() {
+  const defaultEndDate = new Date();
+  defaultEndDate.setDate(defaultEndDate.getDate() - 1);
+  const defaultStartDate = new Date(defaultEndDate);
+  defaultStartDate.setDate(defaultStartDate.getDate() - DEFAULT_ANALYTICS_DAYS);
+
   return {
     token: process.env.GSC_ACCESS_TOKEN,
     clientId: getArgValue('--client-id', process.env.GSC_CLIENT_ID || ''),
@@ -70,6 +86,9 @@ function config() {
     siteUrl: getArgValue('--site', process.env.GSC_SITE_URL || DEFAULT_SITE_URL),
     sitemapUrl: getArgValue('--sitemap', process.env.GSC_SITEMAP_URL || DEFAULT_SITEMAP_URL),
     languageCode: getArgValue('--language', process.env.GSC_LANGUAGE_CODE || DEFAULT_LANGUAGE),
+    startDate: getArgValue('--start-date', process.env.GSC_START_DATE || formatDate(defaultStartDate)),
+    endDate: getArgValue('--end-date', process.env.GSC_END_DATE || formatDate(defaultEndDate)),
+    rowLimit: Number(getArgValue('--limit', process.env.GSC_ROW_LIMIT || '25')),
   };
 }
 
@@ -217,14 +236,14 @@ async function authLocalFlow() {
         if (!receivedCode) throw new Error('Missing OAuth code.');
 
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-        res.end('<p>Authorization complete. You can close this tab and return to the terminal.</p>');
-        server.close();
-        resolve(receivedCode);
+        res.end('<p>Authorization complete. You can close this tab and return to the terminal.</p>', () => {
+          server.close(() => resolve(receivedCode));
+        });
       } catch (error) {
         res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
-        res.end(error.message);
-        server.close();
-        reject(error);
+        res.end(error.message, () => {
+          server.close(() => reject(error));
+        });
       }
     });
 
@@ -342,6 +361,43 @@ async function listSites() {
   console.log(JSON.stringify(data, null, 2));
 }
 
+async function searchAnalytics(dimensions) {
+  const { siteUrl, startDate, endDate, rowLimit } = config();
+  const url = `https://www.googleapis.com/webmasters/v3/sites/${encodePathValue(siteUrl)}/searchAnalytics/query`;
+  const data = await googleRequest(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      startDate,
+      endDate,
+      dimensions,
+      rowLimit,
+      searchType: 'web',
+      dataState: 'all',
+    }),
+  });
+
+  const rows = (data.rows || []).map(row => {
+    const item = {
+      clicks: row.clicks || 0,
+      impressions: row.impressions || 0,
+      ctr: Number(((row.ctr || 0) * 100).toFixed(2)),
+      position: Number((row.position || 0).toFixed(2)),
+    };
+    dimensions.forEach((dimension, index) => {
+      item[dimension] = row.keys?.[index] || '';
+    });
+    return item;
+  });
+
+  console.log(JSON.stringify({
+    siteUrl,
+    startDate,
+    endDate,
+    dimensions,
+    rows,
+  }, null, 2));
+}
+
 async function inspectUrl(inspectionUrl) {
   const { siteUrl, languageCode } = config();
   const data = await googleRequest('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
@@ -400,6 +456,15 @@ async function main() {
         break;
       case 'get-sitemap':
         await getSitemap();
+        break;
+      case 'queries-report':
+        await searchAnalytics(['query']);
+        break;
+      case 'pages-report':
+        await searchAnalytics(['page']);
+        break;
+      case 'opportunities-report':
+        await searchAnalytics(['query', 'page']);
         break;
       case 'inspect':
         if (!process.argv[3]) throw new Error('Missing URL to inspect.');

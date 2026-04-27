@@ -198,6 +198,51 @@ console.log(`\n✓ Pre-rendered ${count} blog posts into dist/blog/*/index.html`
 // ── Static pages pre-rendering ─────────────────────────────────────────────
 // Creates dist/<path>/index.html for each main static page with correct meta.
 
+const todayForSchema = new Date();
+todayForSchema.setHours(23, 59, 59, 999);
+
+const blogSchemaItems = files
+  .map(file => {
+    const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+    const src = readFileSync(join(blogContentDir, file), 'utf-8');
+    const meta = parseFrontmatter(src);
+    return {
+      slug,
+      title: String(meta.title || slug),
+      excerpt: String(meta.excerpt || meta.title || ''),
+      date: String(meta.date || ''),
+      updated: String(meta.updated || meta.reviewed || meta.date || ''),
+      category: String(meta.category || 'CPR 2024'),
+    };
+  })
+  .filter(({ date }) => date && new Date(date) <= todayForSchema)
+  .sort((a, b) => b.date.localeCompare(a.date));
+
+const documentSchemaItems = [
+  'Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)',
+  'Szablon karty technicznej wyrobu budowlanego',
+  'Poradnik zakładowej kontroli produkcji (FPC/ZKP)',
+  'Wzór oznakowania CE zgodny z CPR 2024/3110',
+  'Lista kontrolna zgodności z CPR 2024/3110',
+  'Szablon deklaracji środowiskowej produktu (EPD)',
+  'Przewodnik po cyfrowym paszporcie produktu (DPP)',
+  'Przewodnik po systemach AVS',
+  'Szablon DoP&C dla importera',
+  'Struktura dokumentacji technicznej',
+  'Instrukcja dla profesjonalnych użytkowników',
+  'Mandat upoważnionego przedstawiciela',
+  'Plan Prac Komisji Europejskiej dla CPR 2024/3110',
+];
+
+const serviceSchemaItems = [
+  'Audyt gotowości CPR 2024',
+  'Przegląd systemu ZKP/FPC',
+  'Dokumentacja techniczna CPR 2024',
+  'Weryfikacja i walidacja oprogramowania obliczeniowego',
+  'Analiza norm i harmonogram wdrożenia',
+  'Szkolenia i warsztaty CPR 2024/3110',
+];
+
 const staticPages = [
   {
     path: '',
@@ -230,7 +275,50 @@ const staticPages = [
     desc: 'Artykuły i analizy o CPR 2024/3110 dla producentów wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy, dystrybutorzy i nadzór rynku.',
     keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE, wyroby budowlane, importer, dystrybutor, GUNB',
     canonical: 'https://www.nowycpr.pl/blog/',
-    schema: { '@context': 'https://schema.org', '@type': 'WebPage', name: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły', url: 'https://www.nowycpr.pl/blog/', description: 'Artykuły i analizy o CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.', keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE' },
+    schema: {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CollectionPage',
+          '@id': 'https://www.nowycpr.pl/blog/#collection',
+          name: 'CPR 2024/3110: DoP&C, AVS, GWP, DPP — artykuły',
+          url: 'https://www.nowycpr.pl/blog/',
+          description: 'Artykuły i analizy o CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.',
+          inLanguage: 'pl-PL',
+          isPartOf: { '@id': 'https://www.nowycpr.pl/#website' },
+          mainEntity: { '@id': 'https://www.nowycpr.pl/blog/#itemlist' },
+          keywords: 'CPR 2024/3110, DoP&C, AVS, GWP, EPD, DPP, FPC, oznakowanie CE'
+        },
+        {
+          '@type': 'Blog',
+          '@id': 'https://www.nowycpr.pl/blog/#blog',
+          name: 'Blog NowyCPR.pl',
+          url: 'https://www.nowycpr.pl/blog/',
+          inLanguage: 'pl-PL',
+          blogPost: blogSchemaItems.slice(0, 20).map(post => ({
+            '@type': 'BlogPosting',
+            headline: post.title,
+            description: post.excerpt,
+            datePublished: post.date,
+            dateModified: post.updated,
+            articleSection: post.category,
+            url: `https://www.nowycpr.pl/blog/${post.slug}/`
+          }))
+        },
+        {
+          '@type': 'ItemList',
+          '@id': 'https://www.nowycpr.pl/blog/#itemlist',
+          name: 'Najnowsze artykuły CPR 2024/3110',
+          numberOfItems: blogSchemaItems.length,
+          itemListElement: blogSchemaItems.slice(0, 20).map((post, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: post.title,
+            url: `https://www.nowycpr.pl/blog/${post.slug}/`
+          }))
+        }
+      ]
+    },
   },
   {
     path: 'wyroby',
@@ -261,7 +349,38 @@ const staticPages = [
     desc: 'Bezpłatne wzory dokumentów CPR 2024/3110: DoP&C, oznakowanie CE, FPC/ZKP, karta techniczna, EPD, DPP, AVS, importer i lista kontrolna producenta.',
     keywords: 'wzór DoP&C, szablon DoP&C, deklaracja właściwości użytkowych i zgodności, oznakowanie CE wzór, FPC, ZKP, EPD, DPP, dokumenty CPR 2024/3110',
     canonical: 'https://www.nowycpr.pl/documents/',
-    schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110', url: 'https://www.nowycpr.pl/documents/', description: 'Bezpłatne wzory dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych.', keywords: 'wzór DoP&C, szablon DoP&C, oznakowanie CE wzór, FPC, ZKP, EPD, DPP' },
+    schema: {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CollectionPage',
+          '@id': 'https://www.nowycpr.pl/documents/#collection',
+          name: 'Wzory DoP&C, CE, FPC, EPD i DPP — dokumenty CPR 2024/3110',
+          url: 'https://www.nowycpr.pl/documents/',
+          description: 'Bezpłatne wzory dokumentów CPR 2024/3110 dla producentów wyrobów budowlanych.',
+          inLanguage: 'pl-PL',
+          mainEntity: { '@id': 'https://www.nowycpr.pl/documents/#itemlist' },
+          keywords: 'wzór DoP&C, szablon DoP&C, oznakowanie CE wzór, FPC, ZKP, EPD, DPP'
+        },
+        {
+          '@type': 'ItemList',
+          '@id': 'https://www.nowycpr.pl/documents/#itemlist',
+          name: 'Wzory dokumentów CPR 2024/3110',
+          numberOfItems: documentSchemaItems.length,
+          itemListElement: documentSchemaItems.map((name, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            item: {
+              '@type': 'DigitalDocument',
+              name,
+              inLanguage: 'pl-PL',
+              isAccessibleForFree: true,
+              about: { '@type': 'Thing', name: 'Rozporządzenie (UE) 2024/3110' }
+            }
+          }))
+        }
+      ]
+    },
   },
   {
     path: 'services',
@@ -269,7 +388,36 @@ const staticPages = [
     desc: 'Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.',
     keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane',
     canonical: 'https://www.nowycpr.pl/services/',
-    schema: { '@context': 'https://schema.org', '@type': 'Service', name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert', provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' }, url: 'https://www.nowycpr.pl/services/', areaServed: 'PL', description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.', keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C' },
+    schema: {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Service',
+          '@id': 'https://www.nowycpr.pl/services/#service',
+          name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert',
+          provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
+          url: 'https://www.nowycpr.pl/services/',
+          areaServed: { '@type': 'Country', name: 'Polska' },
+          serviceType: 'Certyfikacja i doradztwo CPR dla wyrobów budowlanych',
+          description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.',
+          keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C',
+          hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: 'Usługi CPR 2024/3110',
+            itemListElement: serviceSchemaItems.map((name, index) => ({
+              '@type': 'Offer',
+              position: index + 1,
+              itemOffered: {
+                '@type': 'Service',
+                name,
+                areaServed: { '@type': 'Country', name: 'Polska' },
+                provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.' }
+              }
+            }))
+          }
+        }
+      ]
+    },
   },
   {
     path: 'o-portalu',
