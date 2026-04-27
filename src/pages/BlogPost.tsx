@@ -122,6 +122,79 @@ function extractTableOfContents(content: string) {
   return items;
 }
 
+const GLOSSARY_TERMS = [
+  { term: "DoP&C", explanation: "deklaracja właściwości użytkowych i zgodności", aliases: ["Declaration of Performance and Conformity"] },
+  { term: "DoPC", explanation: "deklaracja właściwości użytkowych i zgodności" },
+  { term: "AVCP", explanation: "stary system oceny i weryfikacji stałości właściwości użytkowych" },
+  { term: "CPR", explanation: "rozporządzenie w sprawie wyrobów budowlanych" },
+  { term: "hTS", explanation: "zharmonizowana specyfikacja techniczna" },
+  { term: "AVS", explanation: "system oceny i weryfikacji stałości właściwości użytkowych" },
+  { term: "FPC", explanation: "zakładowa kontrola produkcji", aliases: ["Factory Production Control"] },
+  { term: "ZKP", explanation: "zakładowa kontrola produkcji" },
+  { term: "EPD", explanation: "deklaracja środowiskowa wyrobu", aliases: ["Environmental Product Declaration"] },
+  { term: "DPP", explanation: "cyfrowy paszport produktu" },
+  { term: "GWP", explanation: "potencjał tworzenia efektu cieplarnianego" },
+  { term: "GWR", explanation: "klasa emisyjna betonu", aliases: ["Global Warming Rating"] },
+  { term: "LCA", explanation: "ocena cyklu życia", aliases: ["Life Cycle Assessment"] },
+  { term: "EAD", explanation: "europejski dokument oceny" },
+  { term: "ETA", explanation: "europejska ocena techniczna" },
+  { term: "SVHC", explanation: "substancje wzbudzające szczególnie duże obawy" },
+  { term: "REACH", explanation: "unijne rozporządzenie chemiczne" },
+  { term: "GUNB", explanation: "Główny Urząd Nadzoru Budowlanego" },
+  { term: "JN", explanation: "jednostka notyfikowana" },
+  { term: "NTL", explanation: "notyfikowane laboratorium badawcze" },
+  { term: "DWU", explanation: "deklaracja właściwości użytkowych" },
+];
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function expandGlossaryTerms(content: string) {
+  const seen = new Set<string>();
+  let inCodeBlock = false;
+
+  return content
+    .split("\n")
+    .map((line) => {
+      if (line.trim().startsWith("```")) {
+        inCodeBlock = !inCodeBlock;
+        return line;
+      }
+
+      const trimmedLine = line.trim();
+      if (inCodeBlock || trimmedLine.startsWith("#") || trimmedLine.startsWith("|")) return line;
+
+      let nextLine = line;
+      for (const { term, explanation, aliases } of GLOSSARY_TERMS) {
+        if (seen.has(term)) continue;
+
+        const alias = aliases?.find((value) => nextLine.includes(`${term} (${value})`));
+        if (alias) {
+          nextLine = nextLine.replace(`${term} (${alias})`, `${term} (${alias}, ${explanation})`);
+          seen.add(term);
+          continue;
+        }
+
+        const pattern = new RegExp(`(^|[^\\p{L}\\p{N}&])(${escapeRegExp(term)})(?![\\p{L}\\p{N}&])`, "u");
+        nextLine = nextLine.replace(pattern, (fullMatch, prefix: string, matchedTerm: string, offset: number, source: string) => {
+          const termStart = offset + prefix.length;
+          const rest = source.slice(termStart + matchedTerm.length);
+          seen.add(term);
+
+          if (prefix === "(" || /^\s*(?:\(|—|-)/.test(rest)) {
+            return fullMatch;
+          }
+
+          return `${prefix}${matchedTerm} (${explanation})`;
+        });
+      }
+
+      return nextLine;
+    })
+    .join("\n");
+}
+
 // ────────────────────────────────────────────────────────────────────────────
 // MARKDOWN COMPONENT SETS
 // ────────────────────────────────────────────────────────────────────────────
@@ -502,6 +575,7 @@ function MulticertBoxLight() {
 
 type TemplateBaseProps = {
   post: BlogPostType;
+  articleContent: string;
   navigate: (p: string) => void;
   bottomSection?: React.ReactNode;
 };
@@ -618,7 +692,7 @@ function SharedHero({
 // TEMPLATE 1: REGULACJA — dark navy, legal/EU document style
 // ────────────────────────────────────────────────────────────────────────────
 
-function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function RegulacjaTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   const KEY_DATES = [
     { date: "7 sty 2025", label: "Wejście w życie CPR 2024/3110" },
     { date: "8 sty 2026", label: "Pełne stosowanie rozporządzenia" },
@@ -647,7 +721,7 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -680,7 +754,7 @@ function RegulacjaTemplate({ post, navigate, bottomSection }: TemplateBaseProps)
 // TEMPLATE 2: PRZEWODNIK — light, step-by-step guide style
 // ────────────────────────────────────────────────────────────────────────────
 
-function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function PrzewodnikTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
@@ -701,7 +775,7 @@ function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -730,7 +804,7 @@ function PrzewodnikTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 // TEMPLATE 3: ANALIZA — dark, data-driven, emerald accents
 // ────────────────────────────────────────────────────────────────────────────
 
-function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
@@ -751,7 +825,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={EMERALD_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -850,7 +924,7 @@ function AnalizaTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
 // TEMPLATE 4: TECHNICZNY — dark industrial, orange accents
 // ────────────────────────────────────────────────────────────────────────────
 
-function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function TechnicznyTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
@@ -871,7 +945,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ORANGE_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -908,7 +982,7 @@ function TechnicznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 // TEMPLATE 5: AKTUALNOŚCI — magazine style, full-width hero, white content
 // ────────────────────────────────────────────────────────────────────────────
 
-function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function AktualnosciTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
@@ -929,7 +1003,7 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ROSE_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -958,7 +1032,7 @@ function AktualnosciTemplate({ post, navigate, bottomSection }: TemplateBaseProp
 // TEMPLATE 6: PRAKTYCZNY — dark teal, action-oriented, checklist sidebar
 // ────────────────────────────────────────────────────────────────────────────
 
-function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function PraktycznyTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   const CHECKLIST = [
     "Sprawdź wymagania CPR dla swojego wyrobu",
     "Zidentyfikuj właściwy system AVS",
@@ -987,7 +1061,7 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={TEAL_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -1021,7 +1095,7 @@ function PraktycznyTemplate({ post, navigate, bottomSection }: TemplateBaseProps
 // DEFAULT TEMPLATE — generic dark template for untagged posts
 // ────────────────────────────────────────────────────────────────────────────
 
-function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
+function DefaultTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <Header />
@@ -1041,7 +1115,7 @@ function DefaultTemplate({ post, navigate, bottomSection }: TemplateBaseProps) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
             <article className="prose-editorial max-w-[680px]">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
-                {post.content}
+                {articleContent}
               </ReactMarkdown>
             </article>
             <aside className="space-y-8">
@@ -1296,8 +1370,9 @@ export default function BlogPost() {
 
   // Shared related wyroby section passed to all templates
   const relatedSection = <RelatedWyrobySection wyroby={relatedWyroby} />;
+  const articleContent = expandGlossaryTerms(post.content);
 
-  const templateProps: TemplateBaseProps = { post, navigate, bottomSection: relatedSection };
+  const templateProps: TemplateBaseProps = { post, articleContent, navigate, bottomSection: relatedSection };
 
   // Route to correct template
   switch (post.template) {
