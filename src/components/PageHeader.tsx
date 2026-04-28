@@ -75,7 +75,7 @@ export function PageHeader({
               {resolvedAccent && (
                 <>
                   {" "}
-                  <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>{resolvedAccent}</span>
+                  <span className="block sm:inline italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>{resolvedAccent}</span>
                 </>
               )}
             </h1>
