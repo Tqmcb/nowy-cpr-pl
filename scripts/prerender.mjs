@@ -246,9 +246,9 @@ const serviceSchemaItems = [
 const staticPages = [
   {
     path: '',
-    title: 'CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl',
-    desc: 'NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
-    keywords: 'CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
+    title: 'Rozporządzenie CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl',
+    desc: 'Co oznacza rozporządzenie CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
+    keywords: 'rozporządzenie CPR, CPR 2024/3110, rozporządzenie 2024/3110, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
     canonical: 'https://www.nowycpr.pl/',
     schema: {
       '@context': 'https://schema.org',
@@ -257,8 +257,8 @@ const staticPages = [
       url: 'https://www.nowycpr.pl/',
       inLanguage: 'pl-PL',
       publisher: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
-      description: 'NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
-      keywords: 'CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
+      description: 'Co oznacza rozporządzenie CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.',
+      keywords: 'rozporządzenie CPR, CPR 2024/3110, rozporządzenie 2024/3110, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych',
       potentialAction: siteSearchAction,
       about: [
         { '@type': 'Thing', name: 'Rozporządzenie (UE) 2024/3110' },
@@ -536,8 +536,8 @@ const publishedPosts = files
 // Body HTML per path — injected hidden inside <body> for crawlers
 const bodyContentMap = {
   '': `
-<h1>CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&amp;C, CE</h1>
-<p>NowyCPR.pl wyjaśnia wymagania Rozporządzenia (UE) 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.</p>
+<h1>Rozporządzenie CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&amp;C, CE</h1>
+<p>NowyCPR.pl wyjaśnia, co oznacza rozporządzenie CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.</p>
 <p>Główne tematy: DoP&amp;C, oznakowanie CE, systemy AVS, FPC/ZKP, GWP, EPD, cyfrowy paszport produktu DPP, dokumentacja techniczna i terminy wdrożenia CPR.</p>
 <ul>
   <li><a href="/wyszukiwarka">Wyszukiwarka wymagań CPR dla wyrobu budowlanego</a></li>

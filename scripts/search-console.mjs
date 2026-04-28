@@ -477,7 +477,7 @@ function loadPageIndex() {
 
   index.set('https://www.nowycpr.pl/', {
     type: 'page',
-    file: 'src/pages/Index.tsx',
+    file: 'src/pages/App.tsx',
     title: 'Strona główna',
   });
   index.set('https://www.nowycpr.pl/blog/', {

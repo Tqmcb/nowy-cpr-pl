@@ -130,11 +130,11 @@ function HomePage() {
   };
 
   const canonicalUrl = "https://www.nowycpr.pl/";
-  const pageTitle = "CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl";
+  const pageTitle = "Rozporządzenie CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&C, CE | NowyCPR.pl";
   const pageDesc =
-    "NowyCPR.pl wyjaśnia wymagania CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.";
+    "Co oznacza rozporządzenie CPR 2024/3110 dla wyrobów budowlanych: DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, importerzy i dystrybutorzy.";
   const pageKeywords =
-    "CPR 2024/3110, rozporządzenie CPR, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych";
+    "rozporządzenie CPR, CPR 2024/3110, rozporządzenie 2024/3110, wyroby budowlane, DoP&C, oznakowanie CE, AVS, FPC, GWP, EPD, DPP, certyfikacja wyrobów budowlanych";
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -222,7 +222,7 @@ function HomePage() {
                   </h1>
 
                   <p className="drop-cap min-w-0 w-[calc(100vw-2rem)] max-w-[calc(100vw-2rem)] break-words text-lg md:w-auto md:max-w-2xl md:text-xl leading-[1.6] mb-6" style={{ color: "oklch(42% .02 264)" }}>
-                    Od 8 stycznia 2026 obowiązuje nowe Rozporządzenie (EU) 2024/3110. Ramy prawne wchodzą teraz, ale GWP, EPD i paszport produktu pojawią się oddzielnie dla każdej grupy wyrobów — razem z nowymi hTS. Sprawdź co dotyczy{" "}
+                    Od 8 stycznia 2026 stosuje się nowe rozporządzenie CPR 2024/3110 dotyczące wyrobów budowlanych. Ramy prawne wchodzą teraz, ale GWP, EPD i paszport produktu pojawią się oddzielnie dla każdej grupy wyrobów — razem z nowymi hTS. Sprawdź co dotyczy{" "}
                     <span
                       className="inline-block font-serif italic transition-all duration-400"
                       style={{
@@ -293,7 +293,7 @@ function HomePage() {
                 </h2>
                 <div className="lg:col-span-5 lg:pt-6">
                   <p className="drop-cap text-lg md:text-xl leading-[1.65]" style={{ color: "oklch(42% .02 264)" }}>
-                    Rozporządzenie w sprawie wyrobów budowlanych ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując dotychczasowe przepisy z 2011 roku.
+                    Rozporządzenie CPR 2024/3110 w sprawie wyrobów budowlanych ustanawia zharmonizowane warunki wprowadzania do obrotu wyrobów budowlanych w całej Unii Europejskiej, zastępując dotychczasowe przepisy z 2011 roku.
                   </p>
                 </div>
               </div>
