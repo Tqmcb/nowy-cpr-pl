@@ -195,7 +195,7 @@ export function ProductSearchTool() {
 
       {/* Results Section */}
       <section className="py-12 bg-white">
-        <Container>
+        <Container className="max-w-6xl">
           {selectedCategory && (
             <div id="results-section" className="scroll-mt-16">
               <div className="bg-white border border-[oklch(92%_.008_264)] p-6 mb-8">
@@ -509,7 +509,7 @@ export function ProductSearchTool() {
 
       {/* About Section */}
       <section id="about-section" className="py-14 bg-white border-t border-slate-200">
-        <Container>
+        <Container className="max-w-6xl">
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-[oklch(20%_.03_264)] mb-6">
@@ -595,7 +595,7 @@ export function ProductSearchTool() {
 
       {/* Źródła krajowe i europejskie */}
       <section className="py-14 bg-white border-t border-slate-200">
-        <Container>
+        <Container className="max-w-6xl">
           <div className="text-center mb-14">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[oklch(55%_.22_27/0.1)] border border-[oklch(55%_.22_27/0.2)] text-[oklch(55%_.22_27)] text-sm font-medium mb-5">
               <Globe className="w-4 h-4" />
@@ -815,7 +815,7 @@ export function ProductSearchTool() {
 
       {/* Help Section */}
       <section className="py-14 bg-slate-50 border-t border-slate-200">
-        <Container>
+        <Container className="max-w-6xl">
           <div className="relative overflow-hidden rounded-[2px] bg-[oklch(20%_.03_264)] p-6 md:p-12">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
 
