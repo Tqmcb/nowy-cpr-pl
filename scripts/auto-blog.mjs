@@ -23,6 +23,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir   = join(__dirname, '..');
 const blogDir   = join(rootDir, 'content', 'blog');
+const draftDir  = join(rootDir, 'content', 'drafts');
 
 const GEMINI_API_KEY  = process.env.GEMINI_API_KEY;
 const CF_ACCOUNT_ID   = process.env.CF_ACCOUNT_ID;
@@ -386,11 +387,33 @@ writeFileSync(reviewPath, `# Recenzja: ${title}\n\n${reviewResult}\n`, 'utf-8');
 
 // ── Generuj obrazek i zapisz artykuł ─────────────────────────────────────────
 
-await generateAndSaveImage(title, imgSlug);
+const reviewDecision = reviewResult.match(/^OCENA:\s*([A-Z_]+)/m)?.[1] || 'BRAK_OCENY';
+const publishReady = reviewDecision === 'OK';
 
-writeFileSync(filepath, articleContent, 'utf-8');
+if (!publishReady) {
+  mkdirSync(draftDir, { recursive: true });
+}
 
-console.log(`\n✅ Nowy artykuł: content/blog/${filename}`);
+const outputDir = publishReady ? blogDir : draftDir;
+const outputPath = join(outputDir, filename);
+const outputLabel = publishReady ? `content/blog/${filename}` : `content/drafts/${filename}`;
+
+if (existsSync(outputPath)) {
+  console.log(`⚠️  Plik ${outputLabel} już istnieje — pomijam`);
+  process.exit(0);
+}
+
+if (publishReady) {
+  await generateAndSaveImage(title, imgSlug);
+} else {
+  console.log(`⚠️  Recenzja faktów: ${reviewDecision}. Zapisuję jako szkic, bez publikacji na blogu.`);
+}
+
+writeFileSync(outputPath, articleContent, 'utf-8');
+
+console.log(`\n✅ Nowa treść: ${outputLabel}`);
 console.log(`📰 Tytuł: ${title}`);
 console.log(`📅 Data: ${dateStr}`);
-console.log(`\n👉 Artykuł trafi do Pull Request do ręcznej akceptacji.`);
+console.log(publishReady
+  ? `\n👉 Artykuł trafi do Pull Request do ręcznej akceptacji.`
+  : `\n👉 Szkic trafi do Pull Request, ale nie opublikuje się na portalu bez ręcznego przeniesienia do content/blog/.`);

@@ -37,6 +37,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add content/blog/ public/images/blog/
+          if [ -d content/drafts ]; then
+            git add content/drafts/
+          fi
 
           if git diff --staged --quiet; then
             echo "ℹ️ Brak nowych postów do dodania"
@@ -44,7 +47,7 @@ jobs:
           fi
 
           # Nazwa brancha z datą
-          BRANCH="auto-blog/$(date +%Y-%m-%d)"
+          BRANCH="auto-blog/$(date +%Y-%m-%d)-${GITHUB_RUN_ID}"
           git checkout -b "$BRANCH"
           git commit -m "🤖 Auto blog: $(date +%Y-%m-%d)"
           git push -u origin "$BRANCH"
@@ -59,11 +62,13 @@ jobs:
 
           # Stwórz PR z recenzją w opisie
           gh pr create \
-            --title "🤖 Nowy post: $(date +%Y-%m-%d)" \
+            --title "🤖 Przegląd treści CPR: $(date +%Y-%m-%d)" \
             --body "$(cat <<EOF
           ## Automatycznie wygenerowany artykuł
 
-          Ten post został wygenerowany przez Gemini i wymaga **ręcznej weryfikacji** przed merge.
+          Ten materiał został wygenerowany automatycznie i wymaga **ręcznej weryfikacji** przed merge.
+
+          Jeżeli plik trafił do \`content/drafts/\`, nie jest publikowany na portalu. Po akceptacji trzeba go ręcznie przenieść do \`content/blog/\`.
 
           ### 🔍 Recenzja automatyczna (Gemini)
 
@@ -75,7 +80,7 @@ jobs:
           - [ ] Daty i status norm są aktualne
           - [ ] Nie twierdzi że GWP/DPP już obowiązuje (brak hTS!)
           - [ ] Numery artykułów CPR prawidłowe
-          - [ ] Zdjęcie wygenerowane i adekwatne
+          - [ ] Zdjęcie wygenerowane i adekwatne, jeśli materiał jest gotowy do publikacji
 
           ---
           🤖 Wygenerowano automatycznie przez [auto-blog.mjs]
