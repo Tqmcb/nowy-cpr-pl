@@ -13,6 +13,7 @@ sources:
   - CEN — baza norm i plan prac|https://www.cen.eu/work/ENdev/whatisEN/Pages/default.aspx
   - PKN — wyszukiwarka norm PN-EN|https://www.pkn.pl
   - EN 15804+A2 — EPD metodologia LCA|https://www.pkn.pl
+  - BS EN 206-1:2026 — Concrete. Specification, performance, production and conformity|https://knowledge.bsigroup.com
 ---
 
 ## Dlaczego normy zharmonizowane są aktualizowane — i dlaczego teraz?
@@ -46,6 +47,21 @@ Gdy Komisja Europejska publikuje w Dzienniku Urzędowym UE (OJEU) odniesienie do
 ---
 
 ## Kluczowe aktualizacje norm w latach 2026–2028
+
+### Normy już opublikowane z elementami środowiskowymi, ale jeszcze bez statusu hTS w OJEU
+
+W 2026 roku pojawiają się już normy i wydania norm, które są praktycznie zgodne z kierunkiem CPR 2024/3110, bo wprowadzają dane środowiskowe, klasy emisji albo metodologię potrzebną do deklarowania GWP. Nie wolno jednak mylić tego z formalnym statusem hTS.
+
+Najważniejszy przykład to **EN 206-1:2026 dla betonu**. Norma wprowadza klasy **GWR (Global Warming Reduction — redukcja potencjału globalnego ocieplenia)**, które pozwalają opisać beton według redukcji GWP względem betonu referencyjnego opartego na CEM I. W praktyce producent powinien przygotować:
+
+- wartość **GWP-total A1–A3** w `kg CO2 eq./m3`,
+- klasę **GWR 0–9** wynikającą z redukcji względem wartości referencyjnej,
+- podstawę obliczeń LCA zgodną z EN 15804+A2 i EN 16757:2022,
+- EPD lub równoważną dokumentację danych środowiskowych, jeżeli wymaga tego zamawiający.
+
+To jest informacja bardzo ważna dla rynku betonu już teraz, bo inwestorzy i generalni wykonawcy mogą zacząć wpisywać GWR do specyfikacji. **Nie oznacza to jednak automatycznie, że obowiązek CPR 2024 dla betonu został już uruchomiony.** Formalne obowiązki DoP&C w zakresie danych środowiskowych zależą od publikacji właściwej hTS w Dzienniku Urzędowym UE i od zakończenia okresu koegzystencji.
+
+Takie normy warto śledzić osobno: jako „normy przygotowujące rynek do CPR 2024", a nie jako „normy już aktywujące obowiązek CPR".
 
 ### 1. Seria EN 13162–13171 — wyroby izolacji cieplnej
 
