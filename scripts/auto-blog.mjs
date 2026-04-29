@@ -29,6 +29,60 @@ const GEMINI_API_KEY  = process.env.GEMINI_API_KEY;
 const CF_ACCOUNT_ID   = process.env.CF_ACCOUNT_ID;
 const CF_AI_TOKEN     = process.env.CF_AI_TOKEN;
 
+const OFFICIAL_SOURCES = [
+  {
+    name: 'Komisja Europejska — Construction Products Regulation',
+    url: 'https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr_en',
+    tier: 'official-eu',
+  },
+  {
+    name: 'EUR-Lex — Regulation (EU) 2024/3110',
+    url: 'https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R3110',
+    tier: 'official-law',
+  },
+  {
+    name: 'GUNB — aktualności',
+    url: 'https://www.gov.pl/gunb/',
+    tier: 'official-pl',
+  },
+  {
+    name: 'GUNB — wyroby budowlane',
+    url: 'https://www.gov.pl/web/gunb/wyroby-budowlane',
+    tier: 'official-pl',
+  },
+  {
+    name: 'ITB — dokumenty UE',
+    url: 'https://www.itb.pl/dokumenty-ue/',
+    tier: 'official-pl',
+  },
+  {
+    name: 'CEN-CENELEC — news',
+    url: 'https://www.cencenelec.eu/news-and-events/news/',
+    tier: 'standardisation',
+  },
+  {
+    name: 'EOTA — news',
+    url: 'https://www.eota.eu/en-GB/content/news/15/',
+    tier: 'technical-assessment',
+  },
+  {
+    name: 'ECHA — New Construction Product Regulation',
+    url: 'https://echa.europa.eu/legislation-profile/-/legislationprofile/EU-NEW_CONSTRUCTION',
+    tier: 'official-eu',
+  },
+];
+
+const SIGNAL_QUERIES = [
+  'CPR+2024+wyroby+budowlane',
+  'rozporządzenie+budowlane+UE+2024',
+  'Construction+Products+Regulation+2024+EU',
+  'CPR+2024/3110+implementation',
+  'Digital+Product+Passport+construction',
+  'site:youtube.com+CPR+2024/3110',
+  'site:linkedin.com+Construction+Products+Regulation+2024/3110',
+  'forum+CPR+2024/3110+wyroby+budowlane',
+];
+
 if (!GEMINI_API_KEY) {
   console.error('❌ Brak GEMINI_API_KEY w environment');
   process.exit(1);
@@ -68,32 +122,79 @@ function getExistingTitles() {
     .filter(Boolean);
 }
 
+function decodeHtml(value = '') {
+  return value
+    .replace(/<!\[CDATA\[|\]\]>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(parseInt(code, 16)));
+}
+
+function textFromHtml(html) {
+  return decodeHtml(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extractPageSnapshot(html, maxChars = 900) {
+  const title = decodeHtml(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/\s+/g, ' ').trim();
+  const headings = [...html.matchAll(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/gi)]
+    .map((match) => textFromHtml(match[1]))
+    .filter(Boolean)
+    .slice(0, 8);
+  const body = textFromHtml(html).slice(0, maxChars);
+  return { title, headings, body };
+}
+
 // ── Google News RSS (darmowy, bez API key) ────────────────────────────────────
 
 async function fetchNewsHeadlines() {
-  const queries = [
-    'CPR+2024+wyroby+budowlane',
-    'rozporządzenie+budowlane+UE+2024',
-    'Construction+Products+Regulation+2024+EU',
-    'CPR+2024/3110+implementation',
-    'Digital+Product+Passport+construction',
-  ];
-
   const headlines = [];
-  for (const q of queries) {
+  for (const q of SIGNAL_QUERIES) {
     try {
       const url = `https://news.google.com/rss/search?q=${q}&hl=pl&gl=PL&ceid=PL:pl`;
       const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
       if (!res.ok) continue;
       const xml = await res.text();
       // wyciągnij tytuły i opisy z RSS
-      const items = [...xml.matchAll(/<item>[\s\S]*?<title><!\[CDATA\[(.*?)\]\]><\/title>[\s\S]*?<description><!\[CDATA\[(.*?)\]\]><\/description>[\s\S]*?<pubDate>(.*?)<\/pubDate>[\s\S]*?<\/item>/g)];
+      const items = [...xml.matchAll(/<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<description>([\s\S]*?)<\/description>[\s\S]*?<pubDate>(.*?)<\/pubDate>[\s\S]*?<\/item>/g)];
       for (const [, title, desc, date] of items.slice(0, 3)) {
-        headlines.push(`[${date?.trim()}] ${title?.trim()} — ${desc?.trim()?.slice(0, 120)}`);
+        headlines.push(`[sygnał: ${q.replace(/\+/g, ' ')}] [${date?.trim()}] ${decodeHtml(title).trim()} — ${textFromHtml(desc).slice(0, 160)}`);
       }
     } catch { /* ignoruj błędy pojedynczych feedów */ }
   }
-  return headlines.slice(0, 15); // max 15 nagłówków
+  return headlines.slice(0, 20); // max 20 sygnałów
+}
+
+async function fetchOfficialSourceSnapshots() {
+  const snapshots = [];
+  for (const source of OFFICIAL_SOURCES) {
+    try {
+      const res = await fetch(source.url, {
+        headers: {
+          Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'User-Agent': 'NowyCPR.pl editorial monitor (+https://www.nowycpr.pl)',
+        },
+      });
+      if (!res.ok) {
+        snapshots.push({ ...source, error: `HTTP ${res.status}` });
+        continue;
+      }
+      const html = await res.text();
+      snapshots.push({ ...source, ...extractPageSnapshot(html) });
+    } catch (err) {
+      snapshots.push({ ...source, error: err.message });
+    }
+  }
+  return snapshots;
 }
 
 // ── Gemini API ────────────────────────────────────────────────────────────────
@@ -227,12 +328,25 @@ const dateStr = today.toISOString().slice(0, 10);
 const existingTitles = getExistingTitles();
 
 console.log('📰 Pobieram aktualności z Google News RSS...');
+console.log('🏛️  Pobieram migawki źródeł oficjalnych...');
+const officialSnapshots = await fetchOfficialSourceSnapshots();
 const headlines = await fetchNewsHeadlines();
+console.log(`   Sprawdziłem ${officialSnapshots.length} źródeł oficjalnych`);
 console.log(`   Znalazłem ${headlines.length} nagłówków`);
 
+const officialContext = officialSnapshots.length > 0
+  ? `═══ ŹRÓDŁA OFICJALNE I INSTYTUCJONALNE — NAJWAŻNIEJSZA WARSTWA WERYFIKACJI ═══\n${officialSnapshots.map((source, i) => {
+      if (source.error) {
+        return `${i + 1}. [${source.tier}] ${source.name}\nURL: ${source.url}\nSTATUS: niedostępne w tym przebiegu (${source.error})`;
+      }
+      const headings = source.headings?.length ? `\nNagłówki: ${source.headings.join(' | ')}` : '';
+      return `${i + 1}. [${source.tier}] ${source.name}\nURL: ${source.url}\nTytuł: ${source.title || '(brak tytułu)'}${headings}\nFragment: ${source.body}`;
+    }).join('\n\n')}`
+  : '(brak migawek źródeł oficjalnych)';
+
 const newsContext = headlines.length > 0
-  ? `═══ AKTUALNE WIADOMOŚCI Z GOOGLE NEWS (ostatnie tygodnie) ═══\n${headlines.map((h, i) => `${i + 1}. ${h}`).join('\n')}`
-  : '(brak aktualnych nagłówków — napisz artykuł oparty na wiedzy o CPR 2024/3110)';
+  ? `═══ SYGNAŁY Z MEDIÓW, SOCIALI, YOUTUBE I FORÓW — NIE SĄ ŹRÓDŁEM PRAWDY ═══\n${headlines.map((h, i) => `${i + 1}. ${h}`).join('\n')}`
+  : '(brak aktualnych sygnałów z mediów/sociali)';
 
 const prompt = `
 Jesteś redaktorem portalu NowyCPR.pl prowadzonego przez Multicert Sp. z o.o. —
@@ -254,19 +368,25 @@ Zamiast tego używaj: "certyfikacja", "ocena zgodności", "przegląd dokumentacj
 ═══ ISTNIEJĄCE ARTYKUŁY (nie powtarzaj) ═══
 ${existingTitles.map(t => `• ${t}`).join('\n')}
 
+${officialContext}
+
 ${newsContext}
 
 ═══ ZADANIE ═══
-1. Na podstawie powyższych aktualności wybierz JEDEN konkretny temat, który:
+1. Najpierw oceń źródła oficjalne. Dopiero potem używaj sygnałów z mediów, YouTube, LinkedIn lub forów.
+2. Na podstawie powyższych informacji wybierz JEDEN konkretny temat, który:
    - Jest nowy (nie pokrywa się z istniejącymi artykułami powyżej)
    - Dotyczy CPR 2024/3110, wyrobów budowlanych, norm EN, DPP, AVCP lub jednostek notyfikowanych
-   - Może pochodzić z Komisji Europejskiej, EUR-Lex, LinkedIn, EOTA, CEN lub mediów branżowych
+   - Ma potwierdzenie w źródle oficjalnym albo jest wyraźnie oznaczony jako szkic wymagający ręcznej weryfikacji
 
-2. Jeśli nie ma nic nowego w nagłówkach — wybierz ważny temat CPR 2024/3110 jeszcze nieomówiony.
+3. Jeżeli temat pochodzi tylko z YouTube, forum, LinkedIn lub mediów branżowych, NIE traktuj go jako faktu.
+   Użyj go wyłącznie jako inspiracji i napisz wprost, jakie źródło oficjalne musi to potwierdzić.
 
-3. Wybierz JEDEN konkretny, aktualny temat (nie ma w istniejących artykułach powyżej).
+4. Jeśli nie ma nic nowego w źródłach oficjalnych — wybierz ważny temat CPR 2024/3110 jeszcze nieomówiony albo przygotuj krótką aktualizację istniejącego wpisu.
 
-3. Napisz profesjonalny artykuł po POLSKU (minimum 700 słów) w formacie:
+5. Wybierz JEDEN konkretny, aktualny temat (nie ma w istniejących artykułach powyżej).
+
+6. Napisz profesjonalny artykuł po POLSKU (minimum 700 słów) w formacie:
 
 ---
 title: "TYTUŁ ARTYKUŁU"
@@ -285,6 +405,9 @@ template: "techniczny"
 
 Jeśli temat pochodzi z anglojęzycznego źródła (LinkedIn, KE, EUR-Lex) —
 napisz artykuł po polsku, ale dodaj sekcję "Źródła" na końcu z linkami.
+
+Źródła oficjalne mają pierwszeństwo przed mediami, YouTube, forami i wpisami social media.
+Nie podawaj jako obowiązującego prawa niczego, czego nie potwierdza Komisja Europejska, EUR-Lex, GUNB, PKN/CEN, EOTA, ECHA lub inna instytucja publiczna.
 
 ═══ WAŻNE ═══
 Odpowiedz WYŁĄCZNIE samym artykułem zaczynającym się od ---. Żadnych wstępów ani komentarzy.
