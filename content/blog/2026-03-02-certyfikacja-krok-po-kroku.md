@@ -1,6 +1,6 @@
 ---
 title: "Certyfikacja wyrobów budowlanych krok po kroku — od badań ITT do oznakowania CE"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2026-03-02"
 author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

@@ -1,6 +1,6 @@
 ---
 title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i wdrożenie"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-03-17"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

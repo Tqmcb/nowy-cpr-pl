@@ -1,6 +1,6 @@
 ---
 title: "Digital DoP&C — aktualny harmonogram i co producenci muszą zrobić już teraz"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-12-15"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"

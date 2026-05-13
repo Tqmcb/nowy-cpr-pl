@@ -1,6 +1,6 @@
 ---
 title: "Oznakowanie CE - Nowe Wymagania CPR 2024/3110"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-03-28"
 author: "Tomasz Barto | dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

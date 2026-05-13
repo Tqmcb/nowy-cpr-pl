@@ -1,6 +1,6 @@
 ---
 title: "CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-08-18"
 author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"

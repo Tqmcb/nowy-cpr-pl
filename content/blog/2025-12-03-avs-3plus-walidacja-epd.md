@@ -1,6 +1,6 @@
 ---
 title: "System AVS 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-12-03"
 author: "Mikołaj Junosza-Szaniawski | Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
 category: "Środowisko"

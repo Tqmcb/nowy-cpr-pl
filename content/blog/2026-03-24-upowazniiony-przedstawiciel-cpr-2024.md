@@ -1,6 +1,6 @@
 ---
 title: "Upoważniony przedstawiciel producenta w CPR 2024 — kiedy wymagany i jakie ma obowiązki"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2026-03-24"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

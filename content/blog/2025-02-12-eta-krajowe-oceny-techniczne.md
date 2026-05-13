@@ -1,6 +1,6 @@
 ---
 title: "Wyroby nieobjęte normami zharmonizowanymi - ETA i krajowe oceny techniczne"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-02-12"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

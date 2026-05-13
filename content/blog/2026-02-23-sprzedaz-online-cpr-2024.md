@@ -1,6 +1,6 @@
 ---
 title: "Sprzedaż wyrobów budowlanych online — obowiązki sprzedawcy w CPR 2024"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2026-02-23"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

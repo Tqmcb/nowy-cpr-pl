@@ -1,6 +1,6 @@
 ---
 title: "SVHC i REACH w nowej DoP&C — co deklarować i kiedy"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-09-29"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

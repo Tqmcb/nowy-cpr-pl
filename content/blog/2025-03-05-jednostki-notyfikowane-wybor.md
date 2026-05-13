@@ -1,6 +1,6 @@
 ---
 title: "Jednostki notyfikowane - jak wybrać partnera do certyfikacji?"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-03-05"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

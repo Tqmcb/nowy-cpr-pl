@@ -1,6 +1,6 @@
 ---
 title: "ETA czy norma zharmonizowana — kiedy wybrać Europejską Ocenę Techniczną"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-11-14"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

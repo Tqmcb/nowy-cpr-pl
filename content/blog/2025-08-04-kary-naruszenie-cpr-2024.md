@@ -1,6 +1,6 @@
 ---
 title: "Kary za naruszenie CPR 2024 — co grozi producentowi za brak CE i DoP&C"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-08-04"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

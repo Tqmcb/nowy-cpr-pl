@@ -1,6 +1,6 @@
 ---
 title: "Amazon, Allegro i platformy handlowe w CPR 2024 — nowe obowiązki marketplace"
-reviewed: "2026-05-13"
+reviewed: "2026-03-31"
 date: "2025-10-27"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
