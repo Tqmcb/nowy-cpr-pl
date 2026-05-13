@@ -1,6 +1,6 @@
 ---
 title: "Nowe i aktualizowane normy zharmonizowane 2026–2028 — co się zmieni dla których wyrobów"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2026-03-07"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

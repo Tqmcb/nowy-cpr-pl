@@ -1,6 +1,6 @@
 ---
 title: "Importer wyrobów budowlanych w CPR 2024 — nowe obowiązki i wzmocniona odpowiedzialność"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2025-09-08"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

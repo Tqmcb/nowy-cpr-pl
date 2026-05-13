@@ -99,6 +99,29 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 22-23",
   },
   {
+    date: "Maj 2026",
+    sortDate: "2026-05-13",
+    title: "Stan implementacji — projekt aktu delegowanego KE o AVS",
+    description:
+      "Komisja Europejska prowadzi prace nad aktem delegowanym przypisującym systemy AVS do rodzin wyrobów z Załącznika VII. Pierwszy projekt skierowano do konsultacji państw członkowskich w lipcu 2025; zrewidowaną wersję opublikowano w grudniu 2025 (po uwagach m.in. EuroWindoor, European Aluminium, EPPA, Glass for Europe i SBS proponujących nowy system AVS 4+). Akt nie został jeszcze formalnie przyjęty.",
+    phase: "teraz",
+    category: ["prawo"],
+    icon: Clock,
+    article: "Art. 36 ust. 5",
+  },
+  {
+    date: "Maj 2026",
+    sortDate: "2026-05-13",
+    title: "Stan implementacji — pierwszy CPR Working Plan i brak hTS",
+    description:
+      "Komisja Europejska miała opublikować pierwszy CPR Working Plan (program prac dla nowych hTS) do 8 stycznia 2026 r. Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe Art. 93 ust. 8–9).",
+    phase: "teraz",
+    category: ["prawo", "producent"],
+    icon: Clock,
+    important: true,
+    article: "Art. 6, Art. 93",
+  },
+  {
     date: "Po publikacji hTS",
     sortDate: "2026-06-01",
     title: "System AVS i DoP&C — po publikacji nowych hTS",

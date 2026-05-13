@@ -1,6 +1,6 @@
 ---
 title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024 — co to jest, kiedy obowiązkowy i dla których wyrobów"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2025-07-08"
 author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"

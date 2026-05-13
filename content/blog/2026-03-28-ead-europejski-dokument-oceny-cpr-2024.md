@@ -1,6 +1,6 @@
 ---
 title: "EAD — Europejski Dokument Oceny dla wyrobów bez normy zharmonizowanej w CPR 2024"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2026-03-28"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

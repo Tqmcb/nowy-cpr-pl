@@ -1,6 +1,6 @@
 ---
 title: "Wyroby izolacyjne - przegląd norm i wymagań CPR"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2024-12-02"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"

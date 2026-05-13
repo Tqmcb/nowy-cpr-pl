@@ -1,6 +1,6 @@
 ---
 title: "Wycofanie wyrobu budowlanego z rynku — procedura, RAPEX i środki naprawcze GUNB (CPR 2024)"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2026-03-30"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

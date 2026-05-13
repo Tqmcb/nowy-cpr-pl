@@ -1,6 +1,6 @@
 ---
 title: "Nadzór rynku GUNB w 2026 — na co zwracają uwagę inspektorzy pod CPR 2024?"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2026-01-22"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"

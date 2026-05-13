@@ -1,6 +1,6 @@
 ---
 title: "Wyroby używane i z odzysku w CPR 2024 — nowe przepisy dla drugiego obiegu"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2025-10-08"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"

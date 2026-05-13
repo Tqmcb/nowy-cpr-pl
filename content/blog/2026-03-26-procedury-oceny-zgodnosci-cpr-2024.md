@@ -1,6 +1,6 @@
 ---
 title: "Jak wybrać właściwą procedurę oceny zgodności — AVS 1+, 1, 2+, 3+, 3, 4 w CPR 2024"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2026-03-26"
 author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
