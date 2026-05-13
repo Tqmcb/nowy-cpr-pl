@@ -103,7 +103,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-05-13",
     title: "Stan implementacji — projekt aktu delegowanego KE o AVS",
     description:
-      "Komisja Europejska prowadzi prace nad aktem delegowanym przypisującym systemy AVS do rodzin wyrobów z Załącznika VII. Pierwszy projekt skierowano do konsultacji państw członkowskich w lipcu 2025; zrewidowaną wersję opublikowano w grudniu 2025 (po uwagach m.in. EuroWindoor, European Aluminium, EPPA, Glass for Europe i SBS proponujących nowy system AVS 4+). Akt nie został jeszcze formalnie przyjęty.",
+      "Komisja Europejska prowadzi prace nad aktem delegowanym przypisującym systemy AVS (1+, 1, 2+, 3+, 3, 4) do rodzin wyrobów z Załącznika VII. Pierwszy projekt skierowano do konsultacji państw członkowskich w lipcu 2025; zrewidowaną wersję opublikowano w grudniu 2025. Akt nie został jeszcze formalnie przyjęty.",
     phase: "teraz",
     category: ["prawo"],
     icon: Clock,
