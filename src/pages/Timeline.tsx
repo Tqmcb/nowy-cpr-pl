@@ -110,16 +110,28 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 36 ust. 5",
   },
   {
+    date: "16 grudnia 2025",
+    sortDate: "2025-12-16",
+    title: "Pierwszy CPR Working Plan 2026–2029",
+    description:
+      "Komisja Europejska opublikowała pierwszy CPR Working Plan dla lat 2026–2029 (COM(2025) 772 final) — mapę kolejności prac nad nowymi hTS dla rodzin wyrobów z Załącznika VII. Priorytetowo traktowane są wyroby o wysokim wpływie środowiskowym: beton, stal, izolacja. Plan będzie odnawiany co najmniej co 3 lata, z raportami rocznymi od końca 2026.",
+    phase: "przeszlosc",
+    category: ["prawo"],
+    icon: FileText,
+    important: true,
+    article: "Art. 6",
+  },
+  {
     date: "Maj 2026",
     sortDate: "2026-05-13",
-    title: "Stan implementacji — pierwszy CPR Working Plan i brak hTS",
+    title: "Stan implementacji — brak jeszcze pierwszych hTS",
     description:
-      "Komisja Europejska miała opublikować pierwszy CPR Working Plan (program prac dla nowych hTS) do 8 stycznia 2026 r. Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe Art. 93 ust. 8–9).",
+      "Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana w Dz.U. UE — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe Art. 93 ust. 8–9). Pierwsze nowe hTS spodziewane są w latach 2027–2029 zgodnie z Working Planem COM(2025) 772.",
     phase: "teraz",
     category: ["prawo", "producent"],
     icon: Clock,
     important: true,
-    article: "Art. 6, Art. 93",
+    article: "Art. 93 ust. 8–9",
   },
   {
     date: "Po publikacji hTS",
