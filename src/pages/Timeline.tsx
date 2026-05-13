@@ -146,6 +146,64 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 36, Zał. IX",
   },
 
+  // ── PRZYSZLOSC (2026+) ──
+  {
+    date: "2026 (oczekiwany)",
+    sortDate: "2026-06-15",
+    title: "Mandat KE do CEN — okna, drzwi, bramy, świetliki, okiennice",
+    description:
+      "Komisja Europejska planuje wysłanie do CEN pierwszego mandatu standaryzacyjnego pod CPR 2024 — dotyczyć ma rodziny okien, drzwi, bram, świetlików i okiennic (obecnie EN 14351). Mandat zapoczątkuje prace nad pierwszą nową hTS pod nowym rozporządzeniem.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 6, Working Plan 2026–2029",
+  },
+  {
+    date: "19 lipca 2026",
+    sortDate: "2026-07-19",
+    title: "Uruchomienie Rejestru DPP przez KE",
+    description:
+      "Komisja Europejska zobowiązana jest do uruchomienia centralnego Rejestru DPP (Digital Product Passport), który będzie przechowywał co najmniej unikalne identyfikatory wyrobów objętych paszportem.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 78",
+  },
+  {
+    date: "26 lipca 2026",
+    sortDate: "2026-07-26",
+    title: "Wytyczne KE dotyczące DPP (termin przedłużony)",
+    description:
+      "Termin opublikowania przez Komisję Europejską wytycznych w sprawie Cyfrowego Paszportu Produktu został przedłużony o rok — do 26 lipca 2026 r. Wytyczne mają określić szczegóły techniczne i praktyczne dla producentów.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 78–79",
+  },
+  {
+    date: "18 sierpnia 2026",
+    sortDate: "2026-08-18",
+    title: "Akt wykonawczy KE w sprawie DPP",
+    description:
+      "Komisja Europejska zobowiązana jest do przyjęcia aktu wykonawczego określającego szczegółowe wymagania dla Cyfrowego Paszportu Produktu (DPP) dla wyrobów budowlanych.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    important: true,
+    article: "Art. 78–79",
+  },
+  {
+    date: "Q4 2026 (oczekiwany)",
+    sortDate: "2026-10-01",
+    title: "Akt delegowany — DPP Service Providers",
+    description:
+      "Komisja Europejska planuje przyjęcie aktu delegowanego określającego zasady działania DPP Service Providers — podmiotów świadczących usługi prowadzenia paszportu w imieniu producenta.",
+    phase: "przyszlosc",
+    category: ["prawo"],
+    icon: FileText,
+    article: "Art. 78",
+  },
+
   // ── PRZYSZLOSC (2027+) ──
   {
     date: "8 stycznia 2027",
