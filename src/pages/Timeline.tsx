@@ -41,8 +41,8 @@ interface TimelineEvent {
 const TIMELINE_EVENTS: TimelineEvent[] = [
   // ── PRZESZLOSC ──
   {
-    date: "9 grudnia 2024",
-    sortDate: "2024-12-09",
+    date: "18 grudnia 2024",
+    sortDate: "2024-12-18",
     title: "Publikacja w Dzienniku Urzędowym UE",
     description:
       "Rozporządzenie (UE) 2024/3110 (CPR 2024) zostało opublikowane w Dz.U. UE L 2024/3110, zastępując Rozporządzenie 305/2011.",
@@ -103,12 +103,12 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-06-01",
     title: "System AVS i DoP&C — po publikacji nowych hTS",
     description:
-      "Nowy system Oceny i Weryfikacji Stałości Właściwości Użytkowych (AVS) z 5 poziomami (1+, 1, 2, 3, 4) oraz nowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) zaczną obowiązywać dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiązują systemy AVCP i stare DoP.",
+      "Nowy system Oceny i Weryfikacji Stałości Właściwości Użytkowych (AVS) z 6 poziomami (1+, 1, 2+, 3+, 3, 4) oraz nowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) zaczną obowiązywać dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiązują systemy AVCP i stare DoP. Systemy AVS zdefiniowane są w Załączniku IX, a wzór DoP&C w Załączniku V.",
     phase: "przyszlosc",
     category: ["jn", "producent"],
     icon: Shield,
     important: true,
-    article: "Art. 36, Zał. V",
+    article: "Art. 36, Zał. IX",
   },
 
   // ── PRZYSZLOSC (2027+) ──
@@ -170,11 +170,11 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 6, Art. 93 ust. 6",
   },
   {
-    date: "7 stycznia 2040",
-    sortDate: "2040-01-07",
+    date: "8 stycznia 2040",
+    sortDate: "2040-01-08",
     title: "Koniec okresu przejściowego",
     description:
-      "Wszystkie wyroby budowlane muszą w pełni spełniać CPR 2024. Kończy się okres przejściowy dla wyrobów wprowadzanych na podstawie starych norm zharmonizowanych (hEN).",
+      "Wszystkie wyroby budowlane muszą w pełni spełniać CPR 2024. Kończy się okres przejściowy dla wyrobów wprowadzanych na podstawie starych norm zharmonizowanych (hEN) — pełne uchylenie CPR 305/2011.",
     phase: "przyszlosc",
     category: ["prawo", "producent"],
     icon: CheckCircle2,
