@@ -41,8 +41,8 @@ interface TimelineEvent {
 const TIMELINE_EVENTS: TimelineEvent[] = [
   // ── PRZESZLOSC ──
   {
-    date: "9 grudnia 2024",
-    sortDate: "2024-12-09",
+    date: "18 grudnia 2024",
+    sortDate: "2024-12-18",
     title: "Publikacja w Dzienniku Urzędowym UE",
     description:
       "Rozporządzenie (UE) 2024/3110 (CPR 2024) zostało opublikowane w Dz.U. UE L 2024/3110, zastępując Rozporządzenie 305/2011.",
@@ -99,16 +99,109 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 22-23",
   },
   {
+    date: "Maj 2026",
+    sortDate: "2026-05-13",
+    title: "Stan implementacji — projekt aktu delegowanego KE o AVS",
+    description:
+      "Komisja Europejska prowadzi prace nad aktem delegowanym przypisującym systemy AVS do rodzin wyrobów z Załącznika VII. Pierwszy projekt skierowano do konsultacji państw członkowskich w lipcu 2025; zrewidowaną wersję opublikowano w grudniu 2025 (po uwagach m.in. EuroWindoor, European Aluminium, EPPA, Glass for Europe i SBS proponujących nowy system AVS 4+). Akt nie został jeszcze formalnie przyjęty.",
+    phase: "teraz",
+    category: ["prawo"],
+    icon: Clock,
+    article: "Art. 36 ust. 5",
+  },
+  {
+    date: "16 grudnia 2025",
+    sortDate: "2025-12-16",
+    title: "Pierwszy CPR Working Plan 2026–2029",
+    description:
+      "Komisja Europejska opublikowała pierwszy CPR Working Plan dla lat 2026–2029 (COM(2025) 772 final) — mapę kolejności prac nad nowymi hTS dla rodzin wyrobów z Załącznika VII. Priorytetowo traktowane są wyroby o wysokim wpływie środowiskowym: beton, stal, izolacja. Plan będzie odnawiany co najmniej co 3 lata, z raportami rocznymi od końca 2026.",
+    phase: "przeszlosc",
+    category: ["prawo"],
+    icon: FileText,
+    important: true,
+    article: "Art. 6",
+  },
+  {
+    date: "Maj 2026",
+    sortDate: "2026-05-13",
+    title: "Stan implementacji — brak jeszcze pierwszych hTS",
+    description:
+      "Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana w Dz.U. UE — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe Art. 93 ust. 8–9). Pierwsze nowe hTS spodziewane są w latach 2027–2029 zgodnie z Working Planem COM(2025) 772.",
+    phase: "teraz",
+    category: ["prawo", "producent"],
+    icon: Clock,
+    important: true,
+    article: "Art. 93 ust. 8–9",
+  },
+  {
     date: "Po publikacji hTS",
     sortDate: "2026-06-01",
     title: "System AVS i DoP&C — po publikacji nowych hTS",
     description:
-      "Nowy system Oceny i Weryfikacji Stałości Właściwości Użytkowych (AVS) z 5 poziomami (1+, 1, 2, 3, 4) oraz nowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) zaczną obowiązywać dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiązują systemy AVCP i stare DoP.",
+      "Nowy system Oceny i Weryfikacji Stałości Właściwości Użytkowych (AVS) z 6 poziomami (1+, 1, 2+, 3+, 3, 4) oraz nowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C) zaczną obowiązywać dla danej rodziny wyrobów dopiero po opublikowaniu odpowiedniej zharmonizowanej specyfikacji technicznej (hTS). Do tego czasu obowiązują systemy AVCP i stare DoP. Systemy AVS zdefiniowane są w Załączniku IX, a wzór DoP&C w Załączniku V.",
     phase: "przyszlosc",
     category: ["jn", "producent"],
     icon: Shield,
     important: true,
-    article: "Art. 36, Zał. V",
+    article: "Art. 36, Zał. IX",
+  },
+
+  // ── PRZYSZLOSC (2026+) ──
+  {
+    date: "2026 (oczekiwany)",
+    sortDate: "2026-06-15",
+    title: "Mandat KE do CEN — okna, drzwi, bramy, świetliki, okiennice",
+    description:
+      "Komisja Europejska planuje wysłanie do CEN pierwszego mandatu standaryzacyjnego pod CPR 2024 — dotyczyć ma rodziny okien, drzwi, bram, świetlików i okiennic (obecnie EN 14351). Mandat zapoczątkuje prace nad pierwszą nową hTS pod nowym rozporządzeniem.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 6, Working Plan 2026–2029",
+  },
+  {
+    date: "19 lipca 2026",
+    sortDate: "2026-07-19",
+    title: "Uruchomienie Rejestru DPP przez KE",
+    description:
+      "Komisja Europejska zobowiązana jest do uruchomienia centralnego Rejestru DPP (Digital Product Passport), który będzie przechowywał co najmniej unikalne identyfikatory wyrobów objętych paszportem.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 78",
+  },
+  {
+    date: "26 lipca 2026",
+    sortDate: "2026-07-26",
+    title: "Wytyczne KE dotyczące DPP (termin przedłużony)",
+    description:
+      "Termin opublikowania przez Komisję Europejską wytycznych w sprawie Cyfrowego Paszportu Produktu został przedłużony o rok — do 26 lipca 2026 r. Wytyczne mają określić szczegóły techniczne i praktyczne dla producentów.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    article: "Art. 78–79",
+  },
+  {
+    date: "18 sierpnia 2026",
+    sortDate: "2026-08-18",
+    title: "Akt wykonawczy KE w sprawie DPP",
+    description:
+      "Komisja Europejska zobowiązana jest do przyjęcia aktu wykonawczego określającego szczegółowe wymagania dla Cyfrowego Paszportu Produktu (DPP) dla wyrobów budowlanych.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    important: true,
+    article: "Art. 78–79",
+  },
+  {
+    date: "Q4 2026 (oczekiwany)",
+    sortDate: "2026-10-01",
+    title: "Akt delegowany — DPP Service Providers",
+    description:
+      "Komisja Europejska planuje przyjęcie aktu delegowanego określającego zasady działania DPP Service Providers — podmiotów świadczących usługi prowadzenia paszportu w imieniu producenta.",
+    phase: "przyszlosc",
+    category: ["prawo"],
+    icon: FileText,
+    article: "Art. 78",
   },
 
   // ── PRZYSZLOSC (2027+) ──
@@ -170,11 +263,11 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 6, Art. 93 ust. 6",
   },
   {
-    date: "7 stycznia 2040",
-    sortDate: "2040-01-07",
+    date: "8 stycznia 2040",
+    sortDate: "2040-01-08",
     title: "Koniec okresu przejściowego",
     description:
-      "Wszystkie wyroby budowlane muszą w pełni spełniać CPR 2024. Kończy się okres przejściowy dla wyrobów wprowadzanych na podstawie starych norm zharmonizowanych (hEN).",
+      "Wszystkie wyroby budowlane muszą w pełni spełniać CPR 2024. Kończy się okres przejściowy dla wyrobów wprowadzanych na podstawie starych norm zharmonizowanych (hEN) — pełne uchylenie CPR 305/2011.",
     phase: "przyszlosc",
     category: ["prawo", "producent"],
     icon: CheckCircle2,

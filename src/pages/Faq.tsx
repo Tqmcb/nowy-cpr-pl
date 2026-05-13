@@ -64,7 +64,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Kiedy nowe przepisy CPR 2024 zaczęły obowiązywać?",
     answer:
-      "CPR 2024 wszedł w życie 7 stycznia 2025 r. (20 dni po publikacji w Dz.U. UE). Od 8 stycznia 2026 r. stosuje się przepisy ramowe: definicje, ramy instytucjonalne oraz zasady nadzoru rynku. **Jednak konkretne obowiązki produktowe** — wystawianie DoP&C zamiast DoP, stosowanie systemu AVS i nowe oznakowanie CE — wchodzą w życie **dopiero po opublikowaniu nowych zharmonizowanych specyfikacji technicznych (hTS)** dla danej rodziny wyrobów. Do tego czasu producenci stosują dotychczasowe normy hEN i wystawiają DoP na starych zasadach. Sankcje za naruszenia obowiązują od 8 stycznia 2027 r. Okres przejściowy kończy się 7 stycznia 2040 r.",
+      "CPR 2024 wszedł w życie 7 stycznia 2025 r. (20 dni po publikacji w Dz.U. UE w dniu 18 grudnia 2024 r.). Od 8 stycznia 2026 r. stosuje się przepisy ramowe: definicje, ramy instytucjonalne oraz zasady nadzoru rynku. **Jednak konkretne obowiązki produktowe** — wystawianie DoP&C zamiast DoP, stosowanie systemu AVS i nowe oznakowanie CE — wchodzą w życie **dopiero po opublikowaniu nowych zharmonizowanych specyfikacji technicznych (hTS)** dla danej rodziny wyrobów. Do tego czasu producenci stosują dotychczasowe normy hEN i wystawiają DoP na starych zasadach. Sankcje za naruszenia obowiązują od 8 stycznia 2027 r. Okres przejściowy kończy się 8 stycznia 2040 r. (pełne uchylenie CPR 305/2011).",
     category: "ogolne",
     keywords: ["termin", "data", "wejście w życie", "okres przejściowy", "2025", "2026"],
   },
@@ -80,7 +80,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czy potrzebuję jednostki notyfikowanej (JN) do certyfikacji?",
     answer:
-      "To zależy od systemu oceny przypisanego do Twojego wyrobu. **Uwaga**: Nowy system AVS (z CPR 2024) zacznie obowiązywać dla danego wyrobu dopiero po publikacji odpowiedniej hTS. Do tego czasu obowiązuje dotychczasowy system AVCP z CPR 305/2011. Docelowo w systemie **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu wydanego przez jednostkę notyfikowaną (JN). W systemie **AVS 3** — JN wykonuje badania typu (ITT). W systemie **AVS 4** — producent samodzielnie deklaruje właściwości. System AVCP/AVS danego wyrobu znajdziesz w obowiązującej normie hEN lub w Załączniku V do CPR 2024.",
+      "To zależy od systemu oceny przypisanego do Twojego wyrobu. **Uwaga**: Nowy system AVS (z CPR 2024) zacznie obowiązywać dla danego wyrobu dopiero po publikacji odpowiedniej hTS. Do tego czasu obowiązuje dotychczasowy system AVCP z CPR 305/2011. Docelowo w systemach **AVS 1+** i **AVS 1** — tak, potrzebujesz certyfikatu właściwości użytkowych i zgodności wydanego przez jednostkę notyfikowaną (JN). W **AVS 2+** — JN certyfikuje system FPC. W **AVS 3** — JN wydaje certyfikat wyrobu na podstawie ITT przeprowadzonego przez notyfikowane laboratorium (NTL). W nowym **AVS 3+** — JN wydaje raport walidacyjny danych środowiskowych (LCA). W **AVS 4** — producent samodzielnie deklaruje właściwości. System AVCP/AVS danego wyrobu znajdziesz w obowiązującej normie hEN lub w Załączniku IX do CPR 2024.",
     category: "producent",
     keywords: ["jednostka notyfikowana", "JN", "certyfikat", "AVS 1+", "AVS 1", "AVS 3", "AVS 4"],
   },
@@ -110,9 +110,9 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Czym system AVS różni się od starego AVCP?",
     answer:
-      "System AVS (Assessment and Verification of Constancy of Performance) **docelowo zastąpi** stary AVCP z CPR 305/2011, ale dopiero po publikacji nowych hTS dla danej rodziny wyrobów. Do tego czasu obowiązują dotychczasowe systemy AVCP. Główne różnice między AVS a AVCP są następujące: **Nowe nazewnictwo**: AVS 1+, 1, 2, 3, 4 zamiast 1+, 1, 2+, 3, 4. **Stary system 2+ znika** — zostaje zastąpiony przez AVS 2. **Rozszerzony zakres JN**: w AVS 1+ JN certyfikuje wyrób i nadzoruje ZKP, a w AVS 1 certyfikuje wyrób. **AVS 3**: JN wykonuje ITT, a nie tylko badania próbek. **AVS 4**: producent odpowiada za wszystko sam.",
+      "System AVS (Assessment and Verification System) **docelowo zastąpi** stary AVCP z CPR 305/2011, ale dopiero po publikacji nowych hTS dla danej rodziny wyrobów. Do tego czasu obowiązują dotychczasowe systemy AVCP. Główne różnice między AVS a AVCP są następujące: **Nowy system 3+** — szósty poziom (wcześniej w AVCP było 5: 1+, 1, 2+, 3, 4) przeznaczony do walidacji danych środowiskowych (LCA, GWP, EPD); JN wydaje raport walidacyjny zamiast certyfikatu wyrobu. **Nowa rola JN w AVS 3**: JN wydaje pełny certyfikat właściwości użytkowych i zgodności wyrobu (w starym AVCP 3 NTL wydawało tylko raport z badań — bez certyfikatu i bez numeru JN w oznakowaniu CE). **AVS 4 z elementem nadzoru rynku**: producent nadal deklaruje sam, ale organy nadzoru mogą zlecić JN badanie próbek po wprowadzeniu wyrobu do obrotu. Systemy 1+, 1 i 2+ działają zasadniczo jak w AVCP. Wszystkie systemy AVS są zdefiniowane w Załączniku IX CPR 2024. **Uwaga (maj 2026)**: w ramach konsultacji projektu aktu delegowanego KE o przypisaniu AVS do rodzin wyrobów (rewizja XII 2025) stowarzyszenia branżowe — EuroWindoor, European Aluminium, EPPA, Glass for Europe i SBS — zaproponowały dodanie **nowego systemu AVS 4+** dla wyrobów o niskim ryzyku, ale wymagających dodatkowej walidacji danych. Akt delegowany nie został jeszcze formalnie przyjęty.",
     category: "certyfikacja",
-    keywords: ["AVS", "AVCP", "system oceny", "1+", "2+", "2", "zmiana"],
+    keywords: ["AVS", "AVCP", "system oceny", "1+", "2+", "3+", "zmiana"],
   },
   {
     question: "Jak wybrać właściwą jednostkę notyfikowaną (JN)?",
@@ -133,7 +133,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Co to jest DoP&C i czym różni się od starego DoP?",
     answer:
-      "DoP&C (Deklaracja Właściwości Użytkowych i Zgodności) to nowy dokument wprowadzony przez CPR 2024, który **docelowo zastąpi** dotychczasową Deklarację Właściwości Użytkowych (DoP). **Ważne**: Obowiązek wystawiania DoP&C zamiast DoP wchodzi w życie dopiero po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla danej rodziny wyrobów. Do tego czasu producenci wystawiają DoP na dotychczasowych zasadach. **Kluczowe różnice między DoP&C a DoP**: DoP&C łączy deklarację właściwości użytkowych z deklaracją zgodności. Zawiera dodatkowe informacje o substancjach niebezpiecznych (SVHC), danych środowiskowych (GWP — po wejściu w życie hTS) oraz danych do DPP. Format DoP&C jest ustandaryzowany w Załączniku III CPR 2024.",
+      "DoP&C (Deklaracja Właściwości Użytkowych i Zgodności) to nowy dokument wprowadzony przez CPR 2024, który **docelowo zastąpi** dotychczasową Deklarację Właściwości Użytkowych (DoP). **Ważne**: Obowiązek wystawiania DoP&C zamiast DoP wchodzi w życie dopiero po opublikowaniu nowej zharmonizowanej specyfikacji technicznej (hTS) dla danej rodziny wyrobów. Do tego czasu producenci wystawiają DoP na dotychczasowych zasadach. **Kluczowe różnice między DoP&C a DoP**: DoP&C łączy deklarację właściwości użytkowych z deklaracją zgodności. Zawiera dodatkowe informacje o substancjach niebezpiecznych (SVHC), danych środowiskowych (GWP — po wejściu w życie hTS) oraz danych do DPP. Wzór DoP&C jest ustandaryzowany w Załączniku V CPR 2024.",
     category: "dokumentacja",
     keywords: ["DoP&C", "DoP", "deklaracja", "deklaracja zgodności", "wzór"],
   },

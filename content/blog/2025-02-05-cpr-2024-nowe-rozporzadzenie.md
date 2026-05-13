@@ -1,6 +1,6 @@
 ---
 title: "CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych"
-reviewed: "2026-03-31"
+reviewed: "2026-05-13"
 date: "2025-02-05"
 author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
