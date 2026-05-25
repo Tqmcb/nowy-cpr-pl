@@ -114,4 +114,4 @@ Dla producentów drewna konstrukcyjnego szczególnie przydatne są:
 
 - [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
 - [ITCZLin](https://www.itczlin.pl) – badania i certyfikacja wyrobów z drewna i tworzyw drzewnych
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – oceny techniczne ETA dla innowacyjnych systemów konstrukcyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)
+- [ocenytechniczne.pl – EOT dla drewna klejonego konstrukcyjnego](https://www.ocenytechniczne.pl/wyroby/drewno-klejone-konstrukcyjne/) – oceny techniczne ETA dla innowacyjnych systemów konstrukcyjnych z drewna (np. CLT z łącznikami, systemy szkieletowe)

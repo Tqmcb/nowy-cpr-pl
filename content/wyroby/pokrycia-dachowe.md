@@ -133,4 +133,4 @@ Producent membran TPO do dachów płaskich:
 
 - [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów dachowych
 - [ITCZLin](https://www.itczlin.pl) – badania materiałów dachowych i membran
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów okien dachowych, świetlików i innowacyjnych systemów dachowych
+- [ocenytechniczne.pl – EOT dla membran i hydroizolacji dachowych](https://www.ocenytechniczne.pl/wyroby/membrany-i-hydroizolacje/) – ETA dla systemów okien dachowych, świetlików i innowacyjnych systemów dachowych

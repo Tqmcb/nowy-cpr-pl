@@ -106,4 +106,4 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z akredytacją do badań membran hydroizolacyjnych; wykonuje testy wodoszczelności, wytrzymałości mechanicznej, odporności na starzenie i ogień
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca usługi w zakresie systemu AVS 3 dla membran; raporty z ITT oraz wsparcie we wdrożeniu FPC
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – europejskie oceny techniczne (ETA) dla systemów hydroizolacyjnych nieobjętych normami zharmonizowanymi (np. nowe technologie nakładane natryskowo)
+- [ocenytechniczne.pl – EOT dla membran i hydroizolacji](https://www.ocenytechniczne.pl/wyroby/membrany-i-hydroizolacje/) – europejskie oceny techniczne (ETA) dla systemów hydroizolacyjnych nieobjętych normami zharmonizowanymi (np. nowe technologie nakładane natryskowo)

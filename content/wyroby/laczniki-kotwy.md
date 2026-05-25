@@ -127,4 +127,4 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 
 ## Gdzie szukać wsparcia
 
-Procedury uzyskiwania ETA dla łączników opisane są na portalu [ocenytechniczne.pl](https://www.ocenytechniczne.pl). Pełna lista EAD dostępna jest na stronie [EOTA](https://www.eota.eu). Norma EN 1992-4 (projektowanie kotwień) dostępna jest przez [PKN](https://www.pkn.pl). Wsparcie merytoryczne i interpretację przepisów CPR 2024 oferuje [nowycpr.pl](https://www.nowycpr.pl).
+Procedury uzyskiwania ETA dla łączników opisane są na portalu [ocenytechniczne.pl – EOT dla łączników i kotew](https://www.ocenytechniczne.pl/wyroby/laczniki-budowlane/). Pełna lista EAD dostępna jest na stronie [EOTA](https://www.eota.eu). Norma EN 1992-4 (projektowanie kotwień) dostępna jest przez [PKN](https://www.pkn.pl). Wsparcie merytoryczne i interpretację przepisów CPR 2024 oferuje [nowycpr.pl](https://www.nowycpr.pl).

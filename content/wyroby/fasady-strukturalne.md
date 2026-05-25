@@ -103,4 +103,4 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z komorami do badań klimatycznych okien i fasad; wstępne badanie typu (ITT) dla systemów fasadowych wg EN 13830
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy DoP&C dla producentów systemów fasadowych
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – europejskie oceny techniczne dla systemów fasadowych bez pełnego pokrycia normą EN 13830 (innowacyjne konfiguracje, nowe materiały okładzinowe)
+- [ocenytechniczne.pl – EOT dla systemów fasadowych i paneli warstwowych](https://www.ocenytechniczne.pl/wyroby/systemy-fasadowe-i-panele-warstwowe/) – europejskie oceny techniczne dla systemów fasadowych bez pełnego pokrycia normą EN 13830 (innowacyjne konfiguracje, nowe materiały okładzinowe)
