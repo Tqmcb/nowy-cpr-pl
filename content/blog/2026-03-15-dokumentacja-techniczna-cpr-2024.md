@@ -2,7 +2,7 @@
 title: "Dokumentacja techniczna wyrobu budowlanego — co musi zawierać i jak długo przechowywać (CPR 2024)"
 reviewed: "2026-03-31"
 date: "2026-03-15"
-author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["dokumentacja techniczna", "CPR 2024", "archiwizacja", "producent", "GUNB", "wyroby budowlane"]
 excerpt: "CPR 2024 szczegółowo określa, co musi zawierać dokumentacja techniczna wyrobu budowlanego, jak długo ją przechowywać i co sprawdza GUNB podczas kontroli. Kompletny przewodnik z listą kontrolną."

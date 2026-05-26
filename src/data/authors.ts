@@ -221,6 +221,60 @@ export const AUTHORS: Record<string, Author> = {
     ],
   },
 
+  "violetta-gladysz-oczalska": {
+    slug: "violetta-gladysz-oczalska",
+    name: "Violetta Gładysz-Oczalska",
+    shortTitle: "Niezależna audytorka i ekspert techniczny — wyroby budowlane CPR 2024",
+    shortBio:
+      "Mgr inż. chemik, absolwentka Akademii Górniczo-Hutniczej w Krakowie. Niezależna audytorka i ekspert techniczny z ponad dwudziestoletnim doświadczeniem w polskim i międzynarodowym sektorze certyfikacji wyrobów budowlanych. Specjalizuje się w ocenie zgodności pod CPR 2024/3110 oraz audytach Zakładowej Kontroli Produkcji (ZKP/FPC).",
+    fullBio:
+      "Violetta Gładysz-Oczalska — mgr inż. chemik, absolwentka Akademii Górniczo-Hutniczej w Krakowie. Niezależna audytorka i ekspert z ponad dwudziestoletnim doświadczeniem zawodowym w polskim i międzynarodowym sektorze certyfikacji.\n\nWspółpracuje jako audytor zewnętrzny i niezależny ekspert techniczny z wieloma jednostkami certyfikującymi w Polsce i za granicą — wśród nich z Multicert Sp. z o.o. (akredytowana przez PCA, AC 210) oraz w ekosystemie jednostki notyfikowanej ITC Zlín (NB 1023). Niezależny status oznacza, że nie jest związana z jednym podmiotem — jej oceny audytowe są przenoszalne i porównywalne między różnymi jednostkami w UE.\n\nSpecjalizuje się w ocenie zgodności wyrobów budowlanych pod CPR 2024/3110 oraz w audytach zakładowej kontroli produkcji (ZKP/FPC). Praktyka audytorska obejmuje wizyty na zakładach produkcyjnych w Polsce i za granicą, badania wyrobów pod kątem zasadniczych charakterystyk, weryfikację dokumentacji DoP/DoP&C oraz ocenę zgodności systemów wewnętrznej kontroli produkcji z wymaganiami norm zharmonizowanych.\n\nWykształcenie chemiczne stanowi techniczny fundament jej kompetencji audytorskich — pozwala na merytoryczną ocenę procesów produkcyjnych w branżach, w których właściwości wyrobu zależą od chemii surowców i przebiegu procesu technologicznego: cement, beton, prefabrykaty betonowe, chemia budowlana, wyroby izolacyjne, ceramika budowlana.\n\nZgodnie z ISO/IEC 17021-1 §5 i ISO/IEC 17065 §4.2 zachowuje pełną bezstronność wobec klientów audytowanych — nie świadczy usług doradczych dla podmiotów, których ocenia.",
+    roles: [
+      "Niezależna audytorka — wyroby budowlane CPR 2024/3110",
+      "Ekspert techniczny współpracujący z jednostkami certyfikującymi w Polsce i UE",
+      "Audytor zewnętrzny — Multicert Sp. z o.o. (PCA AC 210)",
+      "Audytor w ekosystemie jednostki notyfikowanej ITC Zlín (NB 1023)",
+    ],
+    expertise: [
+      "Ocena zgodności wyrobów budowlanych pod CPR 2024/3110",
+      "Audyty Zakładowej Kontroli Produkcji (ZKP/FPC)",
+      "Weryfikacja dokumentacji DoP/DoP&C",
+      "Cement, beton i prefabrykaty betonowe",
+      "Chemia budowlana i wyroby izolacyjne",
+      "Ceramika budowlana",
+    ],
+    education: [
+      "Akademia Górniczo-Hutnicza w Krakowie — mgr inż. (chemia)",
+    ],
+    awards: [],
+    publications: [
+      {
+        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania i wdrożenie",
+        year: 2025,
+        description: "Wymagania ZKP/FPC według CPR 2024/3110 z perspektywy audytora zewnętrznego prowadzącego inspekcje u producentów wyrobów budowlanych.",
+        url: "/blog/zakladowa-kontrola-produkcji-fpc",
+      },
+      {
+        title: "EN 206-1:2026 — klasy GWR dla betonu i dane GWP",
+        year: 2026,
+        description: "Klasy emisyjne GWR dla betonu, deklarowanie danych GWP i dokumentacja pod CPR 2024 — z perspektywy chemika i audytora.",
+        url: "/blog/en-206-klasy-emisyjne-gwr-beton",
+      },
+      {
+        title: "Dokumentacja techniczna wyrobu budowlanego w CPR 2024",
+        year: 2026,
+        description: "Co musi zawierać dokumentacja techniczna z perspektywy audytora prowadzącego ocenę zgodności i inspekcji jednostki certyfikującej.",
+        url: "/blog/dokumentacja-techniczna-cpr-2024",
+      },
+      {
+        title: "Jednostki notyfikowane — jak wybrać partnera do certyfikacji?",
+        year: 2025,
+        description: "Praktyczna perspektywa niezależnego audytora współpracującego z wieloma jednostkami notyfikowanymi w Polsce i za granicą.",
+        url: "/blog/jednostki-notyfikowane-wybor",
+      },
+    ],
+  },
+
   "tomasz-barto": {
     slug: "tomasz-barto",
     name: "Tomasz Barto",
@@ -293,6 +347,9 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "Grzegorz Suwara": "grzegorz-suwara",
   "Izabela Sztamberek-Sochan": "izabela-sztamberek-sochan",
   "Tomasz Barto": "tomasz-barto",
+  "Violetta Gładysz-Oczalska": "violetta-gladysz-oczalska",
+  "Violetta Gładysz": "violetta-gladysz-oczalska",
+  "mgr inż. Violetta Gładysz-Oczalska": "violetta-gladysz-oczalska",
 };
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */

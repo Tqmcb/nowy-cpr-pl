@@ -2,7 +2,7 @@
 title: "EN 206-1:2026 — klasy GWR dla betonu i dane GWP. Co wpisywać w dokumentacji?"
 reviewed: "2026-04-29"
 date: "2026-04-14"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i przepisy"
 tags: ["EN 206", "GWR", "klasy emisyjne", "beton", "CPR 2024", "EPD", "EN 15804", "EN 16757", "ślad węglowy", "DoP&C"]
 excerpt: "EN 206-1:2026 wprowadza klasy GWR (Global Warming Reduction) dla betonu, oparte na redukcji GWP względem wartości referencyjnej. Wyjaśniamy, co można już przygotować i czego nie wolno mylić z formalnym obowiązkiem hTS pod CPR 2024/3110."
