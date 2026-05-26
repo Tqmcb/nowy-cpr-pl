@@ -2,7 +2,7 @@
 title: "Wyroby izolacyjne - przegląd norm i wymagań CPR"
 reviewed: "2026-03-31"
 date: "2024-12-02"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["izolacja", "EPS", "wełna", "termoizolacja"]
 excerpt: "Kompleksowy przegląd wymagań dla materiałów izolacyjnych: wełna mineralna, EPS, XPS, PIR. Normy, właściwości deklarowane i system AVS."

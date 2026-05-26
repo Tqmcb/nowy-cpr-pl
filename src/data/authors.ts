@@ -221,6 +221,57 @@ export const AUTHORS: Record<string, Author> = {
     ],
   },
 
+  "slawomir-slowik": {
+    slug: "slawomir-slowik",
+    name: "Sławomir Słowik",
+    shortTitle: "Lead Audytor ISO i ZKP — Multicert Sp. z o.o.",
+    shortBio:
+      "Lead Audytor ISO i ZKP w Multicert Sp. z o.o. (PCA AC 210). Specjalizuje się w certyfikacji wyrobów budowlanych pod CPR 2024/3110, audytach Zakładowej Kontroli Produkcji (ZKP/FPC) i audytach systemów zarządzania. Aktywny członek Grupy Roboczej IBDiM ds. opracowania cPCR dla mieszanek mineralno-asfaltowych.",
+    fullBio:
+      "Sławomir Słowik jest Lead Audytorem ISO i ZKP w Multicert Sp. z o.o. — akredytowanej jednostce certyfikującej wyroby budowlane (PCA AC 210). Prowadzi audyty certyfikacyjne w systemie CPR 2024/3110, audyty Zakładowej Kontroli Produkcji (ZKP/FPC) oraz audyty systemów zarządzania zgodnie z normami ISO 9001, ISO 14001 i ISO 45001.\n\nAktywny członek Grupy Roboczej IBDiM ds. opracowania cPCR (complementary Product Category Rules) dla mieszanek mineralno-asfaltowych — branżowego forum łączącego producentów asfaltów, drogowców (GDDKiA, ZDW), instytucje naukowe (IBDiM) oraz jednostki certyfikujące przy opracowaniu polskich zasad deklaracji środowiskowych dla wyrobów drogowych. Udział w pracach normalizacyjnych daje mu z pierwszej ręki wiedzę o kierunkach rozwoju regulacji CPR dla tej branży.\n\nSpecjalizuje się w branżach: drogi i autostrady, asfalty i mieszanki mineralno-asfaltowe (MMA), kruszywa, chemia budowlana (uszczelnienia, membrany), wyroby izolacyjne oraz wyroby z tworzyw sztucznych pod CPR 2024. Łączy praktykę audytową z dogłębną znajomością norm specjalistycznych — w tym EN 13108, EN 16903 oraz norm zharmonizowanych dla wyrobów drogowych i izolacyjnych.\n\nZgodnie z ISO/IEC 17021-1 §5 oraz ISO/IEC 17065 §4.2 zachowuje pełną bezstronność wobec klientów audytowanych — nie świadczy usług doradczych dla podmiotów, których ocenia.",
+    roles: [
+      "Lead Audytor ISO i ZKP — Multicert Sp. z o.o. (PCA AC 210)",
+      "Członek Grupy Roboczej IBDiM ds. opracowania cPCR dla mieszanek mineralno-asfaltowych",
+    ],
+    expertise: [
+      "Audyty Zakładowej Kontroli Produkcji (ZKP/FPC) wyrobów budowlanych",
+      "Certyfikacja wyrobów drogowych pod CPR 2024/3110",
+      "Mieszanki mineralno-asfaltowe (MMA) i wyroby drogowe",
+      "Audyty systemów zarządzania ISO 9001/14001/45001",
+      "Wyroby izolacyjne i chemia budowlana",
+      "Wyroby z tworzyw sztucznych pod CPR (EN 16903)",
+      "Opracowywanie cPCR (complementary Product Category Rules)",
+    ],
+    education: [],
+    awards: [],
+    publications: [
+      {
+        title: "EN 16903:2026 i rury z tworzyw sztucznych — kiedy naprawdę będzie wymagane CE?",
+        year: 2026,
+        description: "Harmonizacja normy EN 16903:2026 pod CPR 2024/3110 dla rur z tworzyw sztucznych — pełna ścieżka od mandatu KE do publikacji w Dz.U. UE z perspektywy audytora.",
+        url: "/blog/en-16903-rury-plastikowe-harmonizacja-cpr",
+      },
+      {
+        title: "Wyroby izolacyjne — przegląd norm i wymagań CPR",
+        year: 2024,
+        description: "Normy zharmonizowane dla wyrobów izolacyjnych w nowym CPR 2024/3110 — wymagania, systemy AVS i przygotowanie do audytu ZKP.",
+        url: "/blog/wyroby-izolacyjne-normy",
+      },
+      {
+        title: "Digital DoP&C — Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności",
+        year: 2025,
+        description: "Cyfrowy format DoP&C wprowadzony przez CPR 2024/3110 — co musi zawierać, jak go udostępnić i jakie błędy najczęściej widzi audytor.",
+        url: "/blog/digital-dop",
+      },
+      {
+        title: "Kiedy wyrób budowlany NIE musi mieć oznakowania CE — wyjątki i wyłączenia z CPR 2024",
+        year: 2026,
+        description: "Wyjątki od obowiązku CE: prototypy, produkcja jednostkowa, wyroby na placu budowy, zabytki — z perspektywy audytora oceniającego dokumentację techniczną.",
+        url: "/blog/wyjatki-od-ce-cpr-2024",
+      },
+    ],
+  },
+
   "violetta-gladysz-oczalska": {
     slug: "violetta-gladysz-oczalska",
     name: "Violetta Gładysz-Oczalska",
@@ -350,6 +401,8 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "Violetta Gładysz-Oczalska": "violetta-gladysz-oczalska",
   "Violetta Gładysz": "violetta-gladysz-oczalska",
   "mgr inż. Violetta Gładysz-Oczalska": "violetta-gladysz-oczalska",
+  "Sławomir Słowik": "slawomir-slowik",
+  "Slawomir Slowik": "slawomir-slowik",
 };
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */
