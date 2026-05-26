@@ -418,22 +418,21 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
               ok. {readingTime(post.content)} min
             </dd>
           </div>
-          <div>
-            <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Wersja PDF</dt>
-            <dd className="text-sm">
-              <a
-                href={`/blog/${post.slug}/article.pdf`}
-                download
-                className="inline-flex items-center gap-2 transition-colors hover:underline"
-                style={{ color: "oklch(55% .22 27)" }}
-                aria-label={`Pobierz artykuł ${post.title} w formacie PDF`}
-              >
-                <FileText className="w-3.5 h-3.5 shrink-0" />
-                Pobierz PDF
-              </a>
-            </dd>
-          </div>
         </dl>
+        <a
+          href={`/blog/${post.slug}/article.pdf`}
+          download
+          className="mt-4 w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold rounded-xl transition-colors hover:opacity-90"
+          style={{
+            backgroundColor: "oklch(55% .22 27)",
+            color: "white",
+            border: "1px solid oklch(45% .22 27)"
+          }}
+          aria-label={`Pobierz artykuł ${post.title} w formacie PDF`}
+        >
+          <FileText className="w-4 h-4 shrink-0" />
+          Pobierz artykuł w PDF
+        </a>
       </div>
       {post.tags && post.tags.length > 0 && (
         <div className="pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
@@ -475,14 +474,14 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           </ul>
         </div>
       )}
-      <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
-        <h4 className="text-[oklch(20% .03 264)] font-semibold mb-2 flex items-center gap-2">
-          <HelpCircle className="w-4 h-4 text-[oklch(55% .22 27)]" /> Potrzebujesz pomocy?
+      <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
+        <h4 className="text-[oklch(20%_.03_264)] font-semibold mb-2 flex items-center gap-2">
+          <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Potrzebujesz pomocy?
         </h4>
         <p className="text-slate-500 text-sm mb-4">Nasi eksperci pomogą Ci spełnić wymagania CPR 2024/3110.</p>
         <button
           onClick={() => navigate("/services")}
-          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+          className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20%_.03_264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
         >
           <span>Kontakt</span>
           <ChevronRight className="w-4 h-4 shrink-0" />
@@ -913,13 +912,13 @@ function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: Temp
                 </div>
               )}
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
-                <h4 className="text-[oklch(20% .03 264)] font-semibold mb-2 flex items-center gap-2">
+                <h4 className="text-[oklch(20%_.03_264)] font-semibold mb-2 flex items-center gap-2">
                   <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Potrzebujesz pomocy?
                 </h4>
                 <p className="text-slate-500 text-sm mb-4">Przeprowadzimy analizę i doradzimy odpowiednie rozwiązanie.</p>
                 <button
                   onClick={() => navigate("/services")}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20% .03 264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
+                  className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20%_.03_264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
                 >
                   Kontakt <ChevronRight className="w-4 h-4 shrink-0" />
                 </button>
