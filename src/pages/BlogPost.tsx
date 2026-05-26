@@ -418,6 +418,21 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
               ok. {readingTime(post.content)} min
             </dd>
           </div>
+          <div>
+            <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Wersja PDF</dt>
+            <dd className="text-sm">
+              <a
+                href={`/blog/${post.slug}/article.pdf`}
+                download
+                className="inline-flex items-center gap-2 transition-colors hover:underline"
+                style={{ color: "oklch(55% .22 27)" }}
+                aria-label={`Pobierz artykuł ${post.title} w formacie PDF`}
+              >
+                <FileText className="w-3.5 h-3.5 shrink-0" />
+                Pobierz PDF
+              </a>
+            </dd>
+          </div>
         </dl>
       </div>
       {post.tags && post.tags.length > 0 && (

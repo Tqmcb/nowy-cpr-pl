@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "node scripts/prerender.mjs",
+    "postbuild": "node scripts/prerender.mjs && node scripts/generate-blog-pdfs.mjs",
     "gsc": "node scripts/search-console.mjs",
     "start": "node server.js",
     "preview": "vite preview"
@@ -37,6 +37,7 @@
     "date-fns": "^3.6.0",
     "express": "^4.18.2",
     "gray-matter": "^4.0.3",
+    "marked": "^13.0.3",
     "lucide-react": "^0.439.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -59,6 +60,7 @@
     "@types/react-dom": "18.2.7",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.20",
+    "playwright": "^1.48.0",
     "dotenv": "^16.4.5",
     "postcss": "^8.4.45",
     "sharp": "^0.34.5",
