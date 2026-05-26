@@ -4,6 +4,7 @@
  * 1. Creates dist/blog/<slug>/index.html for every content/blog/*.md file.
  * 2. Creates dist/<path>/index.html for every static page (/, /blog, /wyroby, …).
  * 3. Creates dist/wyrob/<slug>/index.html for every product family.
+ * 4. Creates dist/autor/<slug>/index.html for every author in src/data/authors.ts.
  *
  * Each file gets the correct <title>, <meta description>, og:* and
  * canonical tags so Google can index them WITHOUT executing JavaScript.
@@ -670,8 +671,8 @@ function renderStaticPage(page) {
   // Minimal flash for users — acceptable trade-off for full crawlability.
   if (body) {
     html = html.replace(
-      '<div id="root"></div>',
-      `<div id="root"><main>${body}\n</main></div>`
+      /<div id="root">[\s\S]*?<\/div>(\s*<\/body>)/,
+      `<div id="root"><main>${body}\n</main></div>$1`
     );
   }
 
@@ -731,6 +732,162 @@ for (const item of wyrobyItems) {
 }
 console.log(`\n✓ Pre-rendered ${productCount} product pages into dist/wyrob/*/index.html`);
 
+// ── Author pages pre-rendering ────────────────────────────────────────────
+// Loads AUTHORS from src/data/authors.ts (TypeScript source) by stripping
+// TS type annotations and executing the resulting JS via new Function().
+// Generates dist/autor/<slug>/index.html for each author with full bio,
+// Person schema.org JSON-LD, and links to their publications.
+
+function loadAuthorsData() {
+  const authorsPath = join(rootDir, 'src', 'data', 'authors.ts');
+  const tsSrc = readFileSync(authorsPath, 'utf-8');
+
+  // Strip TypeScript syntax that doesn't run in plain JS:
+  //   - interface declarations
+  //   - generic type params on the AUTHORS constant
+  //   - JSDoc-style block comments above functions
+  //   - TS function param/return type annotations
+  //   - `export` keywords on const and function declarations
+  let jsSrc = tsSrc
+    .replace(/^export\s+interface\s+\w+\s*\{[\s\S]*?\n\}/gm, '')
+    .replace(/:\s*Record<[^>]+>\s*=/g, ' =')
+    .replace(/^\/\*\*[\s\S]*?\*\//gm, '')
+    // Strip type annotations on function parameters: (slug: string) → (slug)
+    .replace(/(\([^)]*?)(\w+):\s*\w+(\s*[,)])/g, '$1$2$3')
+    // Strip function return types: function x(...): string | null { → function x(...) {
+    .replace(/(\)\s*):\s*[\w| ]+(\s*\{)/g, '$1$2')
+    .replace(/^export\s+const\s+/gm, 'const ')
+    .replace(/^export\s+function\s+/gm, 'function ');
+
+  const fn = new Function(jsSrc + '\nreturn { AUTHORS, AUTHOR_NAME_TO_SLUG };');
+  return fn();
+}
+
+const { AUTHORS, AUTHOR_NAME_TO_SLUG } = loadAuthorsData();
+
+// Build a map: author slug → list of their blog posts (slug, title, date, excerpt)
+// using AUTHOR_NAME_TO_SLUG which already lists all known name variants.
+const blogPostsByAuthor = {};
+for (const file of files) {
+  const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  const src = readFileSync(join(blogContentDir, file), 'utf-8');
+  const meta = parseFrontmatter(src);
+  const authorField = String(meta.author || '');
+
+  // Track which slugs were already matched for this article (avoid duplicates
+  // when multiple variants of the same name are listed in AUTHOR_NAME_TO_SLUG)
+  const matchedSlugs = new Set();
+  for (const [nameVariant, authorSlug] of Object.entries(AUTHOR_NAME_TO_SLUG)) {
+    if (matchedSlugs.has(authorSlug)) continue;
+    if (authorField.includes(nameVariant)) {
+      matchedSlugs.add(authorSlug);
+      if (!blogPostsByAuthor[authorSlug]) blogPostsByAuthor[authorSlug] = [];
+      blogPostsByAuthor[authorSlug].push({
+        slug,
+        title: String(meta.title || slug),
+        date: String(meta.date || ''),
+        excerpt: String(meta.excerpt || ''),
+      });
+    }
+  }
+}
+// Sort each author's posts by date desc
+for (const slug of Object.keys(blogPostsByAuthor)) {
+  blogPostsByAuthor[slug].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+let authorCount = 0;
+for (const [authorSlug, author] of Object.entries(AUTHORS)) {
+  const canonical = `https://www.nowycpr.pl/autor/${authorSlug}/`;
+  const seoTitle = `${author.name} — ${author.shortTitle} | NowyCPR.pl`;
+  const seoDesc = author.shortBio || `${author.name} — autorka portalu NowyCPR.pl o rozporządzeniu CPR 2024/3110.`;
+  const posts = blogPostsByAuthor[authorSlug] || [];
+
+  // Schema.org Person JSON-LD
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: author.name,
+    jobTitle: author.shortTitle,
+    description: author.shortBio,
+    url: canonical,
+    knowsAbout: author.expertise || [],
+    alumniOf: (author.education || []).map(e => ({ '@type': 'EducationalOrganization', name: e })),
+    worksFor: { '@type': 'Organization', name: 'NowyCPR.pl — Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
+  };
+
+  // Body HTML for crawlers (Google, AI bots) — replaced by React on hydration
+  const bioParagraphs = (author.fullBio || author.shortBio || '')
+    .split('\n\n')
+    .map(p => `<p>${escapeHtml(p.trim())}</p>`)
+    .join('\n');
+  const rolesList = (author.roles || []).map(r => `  <li>${escapeHtml(r)}</li>`).join('\n');
+  const expertiseList = (author.expertise || []).map(e => `  <li>${escapeHtml(e)}</li>`).join('\n');
+  const educationList = (author.education || []).map(e => `  <li>${escapeHtml(e)}</li>`).join('\n');
+  const postsList = posts.slice(0, 20)
+    .map(p => `  <li><a href="/blog/${p.slug}/">${escapeHtml(p.title)}</a></li>`)
+    .join('\n');
+
+  const body = `
+<article>
+<h1>${escapeHtml(author.name)}</h1>
+<p><strong>${escapeHtml(author.shortTitle)}</strong></p>
+${bioParagraphs}
+${rolesList ? `<h2>Role i funkcje</h2>\n<ul>\n${rolesList}\n</ul>` : ''}
+${expertiseList ? `<h2>Kompetencje</h2>\n<ul>\n${expertiseList}\n</ul>` : ''}
+${educationList ? `<h2>Wykształcenie</h2>\n<ul>\n${educationList}\n</ul>` : ''}
+${posts.length ? `<h2>Artykuły na NowyCPR.pl</h2>\n<ul>\n${postsList}\n</ul>` : ''}
+</article>`;
+
+  let html = templateHtml
+    .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(seoTitle)}</title>`)
+    .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${canonical}" />`)
+    .replace(
+      /<meta name="description"\s+content="[^"]*"\s*\/>/,
+      `<meta name="description" content="${escapeHtml(seoDesc)}" />`
+    )
+    .replace(
+      /<meta property="og:title"[^>]*>/,
+      `<meta property="og:title" content="${escapeHtml(seoTitle)}" />`
+    )
+    .replace(
+      /<meta property="og:description"[^>]*>/,
+      `<meta property="og:description" content="${escapeHtml(seoDesc)}" />`
+    )
+    .replace(
+      /<meta property="og:url"[^>]*>/,
+      `<meta property="og:url" content="${canonical}" />`
+    )
+    .replace(
+      /<meta property="og:type" content="[^"]*" \/>/,
+      `<meta property="og:type" content="profile" />`
+    )
+    .replace(
+      /<meta name="twitter:title"[^>]*>/,
+      `<meta name="twitter:title" content="${escapeHtml(seoTitle)}" />`
+    )
+    .replace(
+      /<meta name="twitter:description"[^>]*>/,
+      `<meta name="twitter:description" content="${escapeHtml(seoDesc)}" />`
+    )
+    .replace(
+      '</head>',
+      `<script type="application/ld+json">${JSON.stringify(personSchema)}</script>\n</head>`
+    )
+    .replace(
+      /<div id="root">[\s\S]*?<\/div>(\s*<\/body>)/,
+      `<div id="root"><main>${body}\n</main></div>$1`
+    );
+
+  const outDir = join(distDir, 'autor', authorSlug);
+  mkdirSync(outDir, { recursive: true });
+  writeFileSync(join(outDir, 'index.html'), html, 'utf-8');
+  authorCount++;
+  console.log(`  ✓ /autor/${authorSlug}/`);
+}
+
+console.log(`\n✓ Pre-rendered ${authorCount} author pages into dist/autor/*/index.html`);
+
 // ── GitHub Pages SPA fallback ─────────────────────────────────────────────
 // Copy index.html → 404.html so GitHub Pages serves the React app for any
 // unknown URL (e.g. /blog, /blog/:slug when navigating directly or refreshing).
@@ -776,6 +933,14 @@ const productXml = wyrobyItems.map(item => `  <url>
     <priority>0.7</priority>
   </url>`).join('\n');
 
+const todayStr = today.toISOString().slice(0, 10);
+const authorXml = Object.keys(AUTHORS).map(slug => `  <url>
+    <loc>https://www.nowycpr.pl/autor/${slug}/</loc>
+    <lastmod>${todayStr}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>`).join('\n');
+
 // Replace generated sections in the source sitemap.
 let updatedSitemap = sourceSitemap.replace(
   /<!-- Blog posts[\s\S]*?(?=<!-- Katalog)/,
@@ -783,11 +948,11 @@ let updatedSitemap = sourceSitemap.replace(
 );
 updatedSitemap = updatedSitemap.replace(
   /<!-- Katalog wyrobów[\s\S]*?(?=<\/urlset>)/,
-  `<!-- Katalog wyrobów — auto-generated by prerender.mjs -->\n${productXml}\n`
+  `<!-- Katalog wyrobów — auto-generated by prerender.mjs -->\n${productXml}\n\n  <!-- Strony autorów — auto-generated by prerender.mjs -->\n${authorXml}\n`
 );
 
 writeFileSync(join(distDir, 'sitemap.xml'), updatedSitemap, 'utf-8');
-console.log(`✓ Sitemap updated: ${blogEntries.length} blog posts, ${wyrobyItems.length} product pages (opublikowane do ${today.toISOString().slice(0, 10)})`);
+console.log(`✓ Sitemap updated: ${blogEntries.length} blog posts, ${wyrobyItems.length} product pages, ${Object.keys(AUTHORS).length} author pages (opublikowane do ${todayStr})`);
 
 // ── Generate per-post JSON files for fast SPA loading ─────────────────────────
 // Creates:
