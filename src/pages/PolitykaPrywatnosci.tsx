@@ -42,7 +42,7 @@ export default function PolitykaPrywatnosci() {
               </p>
               <div className="rounded-xl bg-slate-800/60 border border-white/10 p-5 space-y-1">
                 <p className="text-white font-semibold">Multicert Sp. z o.o.</p>
-                <p className="text-slate-400">ul. Mydlarska 47, 04-690 Warszawa</p>
+                <p className="text-slate-400">ul. Mydlarska 47A, 04-690 Warszawa</p>
                 <p className="text-slate-400">
                   E-mail:{" "}
                   <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
@@ -248,7 +248,7 @@ export default function PolitykaPrywatnosci() {
                     <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors font-medium">
                       biuro@multicert.pl
                     </a>{" "}
-                    lub pisemnie na adres siedziby Administratora: ul. Mydlarska 47, 04-690 Warszawa.
+                    lub pisemnie na adres siedziby Administratora: ul. Mydlarska 47A, 04-690 Warszawa.
                   </p>
                 </div>
               </div>

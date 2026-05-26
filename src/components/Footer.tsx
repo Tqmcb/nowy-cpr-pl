@@ -87,7 +87,7 @@ export function Footer() {
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 opacity-60" />
                 <div>
                   <p className="font-serif italic text-base mb-1" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>
-                  <p>Mydlarska 47, 04-690 Warszawa</p>
+                  <p>Mydlarska 47A, 04-690 Warszawa</p>
                 </div>
               </li>
               <li>

@@ -10,7 +10,7 @@ export default function Kontakt() {
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>Kontakt — NowyCPR.pl</title>
-        <meta name="description" content="Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa." />
+        <meta name="description" content="Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47A, 04-690 Warszawa." />
       </Helmet>
       <Header />
       <main id="main-content" className="pb-20">
@@ -46,7 +46,7 @@ export default function Kontakt() {
                 <div>
                   <p className="text-slate-500 text-sm mb-1">Adres</p>
                   <p className="text-[oklch(20% .03 264)] font-semibold">Multicert Sp. z o.o.</p>
-                  <p className="text-slate-700">ul. Mydlarska 47</p>
+                  <p className="text-slate-700">ul. Mydlarska 47A</p>
                   <p className="text-slate-700">04-690 Warszawa</p>
                 </div>
               </div>

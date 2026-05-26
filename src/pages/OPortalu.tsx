@@ -91,7 +91,7 @@ export default function OPortalu() {
               </p>
               <div className="rounded-xl bg-slate-50 border border-slate-200 p-5 space-y-2">
                 <p className="text-[oklch(20% .03 264)] font-semibold">Multicert Sp. z o.o.</p>
-                <p className="text-slate-500">ul. Mydlarska 47, 04-690 Warszawa</p>
+                <p className="text-slate-500">ul. Mydlarska 47A, 04-690 Warszawa</p>
                 <p className="text-slate-500">
                   E-mail:{" "}
                   <a href="mailto:biuro@multicert.pl" className="text-[oklch(55% .22 27)] hover:text-[#1a3d6b] transition-colors">

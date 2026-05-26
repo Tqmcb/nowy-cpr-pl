@@ -463,7 +463,7 @@ export default function Services() {
                         <input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange}
                           className="w-full px-4 py-3 bg-white focus:outline-none transition-all font-serif"
                           style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
-                          placeholder="730 668 341" />
+                          placeholder="22 308 67 47" />
                       </div>
                       <div>
                         <label htmlFor="company" className="editorial-kicker block mb-2" style={{ color: "oklch(20% .03 264)" }}>Firma *</label>
@@ -510,7 +510,7 @@ export default function Services() {
               {/* Contact Info — editorial row */}
               <div className="mt-20 pt-12 grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
                 {[
-                  { icon: Phone, label: "Telefon", value: "730 668 341", href: "tel:+48730668341" },
+                  { icon: Phone, label: "Telefon", value: "22 308 67 47", href: "tel:+48223086747" },
                   { icon: Mail, label: "Email", value: "biuro@multicert.pl", href: "mailto:biuro@multicert.pl" },
                   { icon: Building2, label: "Siedziba", value: "Multicert Sp. z o.o." },
                 ].map((item, idx) => (

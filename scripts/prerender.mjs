@@ -430,7 +430,7 @@ const staticPages = [
   {
     path: 'kontakt',
     title: 'Kontakt — NowyCPR.pl',
-    desc: 'Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa.',
+    desc: 'Skontaktuj się z zespołem NowyCPR.pl. Multicert Sp. z o.o., ul. Mydlarska 47A, 04-690 Warszawa.',
     canonical: 'https://www.nowycpr.pl/kontakt/',
     schema: { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Kontakt — NowyCPR.pl', url: 'https://www.nowycpr.pl/kontakt/' },
   },
@@ -623,14 +623,14 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}
   'o-portalu': `
 <h1>O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110</h1>
 <p>NowyCPR.pl to kompleksowe źródło wiedzy o Rozporządzeniu (UE) 2024/3110 w sprawie wyrobów budowlanych (CPR) dla producentów, importerów i dystrybutorów działających na rynku polskim i europejskim.</p>
-<p>Portal prowadzony jest przez Multicert Sp. z o.o. — akredytowaną jednostkę certyfikującą wyroby budowlane z siedzibą w Warszawie (ul. Mydlarska 47, 04-690 Warszawa).</p>
+<p>Portal prowadzony jest przez Multicert Sp. z o.o. — akredytowaną jednostkę certyfikującą wyroby budowlane z siedzibą w Warszawie (ul. Mydlarska 47A, 04-690 Warszawa).</p>
 <p>Co oferujemy: artykuły prawne i techniczne o CPR 2024/3110, katalog 36 rodzin wyrobów budowlanych (Załącznik VII), 13 bezpłatnych szablonów dokumentów (DoP&amp;C, ZKP/FPC, EPD, DPP), wyszukiwarka wymagań dla kategorii wyrobów.</p>`,
 
   kontakt: `
 <h1>Kontakt — NowyCPR.pl</h1>
 <address>
   <p><strong>Multicert Sp. z o.o.</strong></p>
-  <p>ul. Mydlarska 47, 04-690 Warszawa</p>
+  <p>ul. Mydlarska 47A, 04-690 Warszawa</p>
   <p>Email: <a href="mailto:biuro@multicert.pl">biuro@multicert.pl</a></p>
 </address>`,
 

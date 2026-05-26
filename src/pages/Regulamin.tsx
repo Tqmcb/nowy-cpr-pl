@@ -306,7 +306,7 @@ export default function Regulamin() {
 
             {/* Footer note */}
             <p className="text-slate-500 text-sm text-center pt-4">
-              Wydawca: Multicert Sp. z o.o., ul. Mydlarska 47, 04-690 Warszawa &bull;{" "}
+              Wydawca: Multicert Sp. z o.o., ul. Mydlarska 47A, 04-690 Warszawa &bull;{" "}
               <a href="mailto:biuro@multicert.pl" className="text-[oklch(75%_.15_27)] hover:text-white transition-colors">
                 biuro@multicert.pl
               </a>
