@@ -8,6 +8,7 @@
     "build": "vite build",
     "postbuild": "node scripts/prerender.mjs && node scripts/generate-blog-pdfs.mjs",
     "gsc": "node scripts/search-console.mjs",
+    "validate-cpr": "node scripts/validate-cpr-content.mjs",
     "start": "node server.js",
     "preview": "vite preview"
   },

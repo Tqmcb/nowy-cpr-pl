@@ -30,6 +30,9 @@ jobs:
       - name: Install Playwright Chromium (dla generate-blog-pdfs.mjs)
         run: npx playwright install --with-deps chromium
 
+      - name: Validate CPR content (daty vs Working Plan COM(2025) 772)
+        run: npm run validate-cpr
+
       - name: Build
         run: npm run build
         env:
