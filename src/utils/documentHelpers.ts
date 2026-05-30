@@ -15,7 +15,7 @@ export const documents: Document[] = [
   {
     id: "dop-template",
     title: "Szablon Deklaracji Właściwości Użytkowych i Zgodności (DoP&C)",
-    description: "Wzór deklaracji DoP&C zgodny z Załącznikiem V Rozporządzenia (UE) 2024/3110 (CPR). Zawiera wszystkie obowiązkowe elementy wymagane przez art. 15–16, w tym sekcję substancji SVHC i cyfrowy dostęp.",
+    description: "Wzór deklaracji DoP&C zgodny z Załącznikiem V Rozporządzenia (UE) 2024/3110 (CPR). Zawiera wszystkie obowiązkowe elementy wymagane przez art. 18–19, w tym sekcję substancji SVHC i cyfrowy dostęp.",
     icon: "📄",
     fileType: "HTML",
     language: "PL",

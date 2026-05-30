@@ -31,8 +31,8 @@ CPR 2024/3110 rozdziela to na **dwa odrębne obszary regulacji**:
 
 | Obszar | Co reguluje | Kto wydaje akt nadrzędny |
 |---|---|---|
-| Performance | Metody i kryteria oceny właściwości użytkowych | Akt wykonawczy Komisji (procedura doradcza) |
-| Product requirements | Wymagania dot. samego wyrobu (Załącznik III) | Akt delegowany Komisji |
+| Właściwości użytkowe | Metody i kryteria oceny właściwości użytkowych | Akt wykonawczy Komisji (procedura doradcza) |
+| Wymagania dotyczące wyrobów | Wymagania dot. samego wyrobu (Załącznik III) | Akt delegowany Komisji |
 
 I dla każdego z tych obszarów daje **dwie ścieżki** — jedną przez normalizację europejską (CEN/CENELEC/ETSI), drugą jako instrument awaryjny gdy CEN nie nadąża. Stąd cztery artykuły CPR (5, 6, 7, 8) i cztery różne znaczenia tego, co potocznie nazywamy „normą zharmonizowaną".
 
@@ -61,7 +61,7 @@ Komisja może sięgnąć po ten instrument tylko gdy spełnione są łącznie dw
 
 Skutek prawny dla producenta jest **identyczny jak dla normy z art. 5** — akt wykonawczy z art. 6 określa zasadnicze charakterystyki i metody oceny, które producent musi stosować. To **alternatywa technokratyczna** dla normalizacji.
 
-Co ważne — art. 6 ust. 4 stanowi, że gdy CEN finalnie dostarczy normę pokrywającą ten sam zakres, Komisja wycofuje swój akt wykonawczy z art. 6. Pierwszeństwo ma normalizacja europejska, akt z art. 6 to jedynie tymczasowy „placeholder".
+Co ważne — art. 6 ust. 4 stanowi, że gdy CEN finalnie dostarczy normę pokrywającą ten sam zakres, Komisja wycofuje swój akt wykonawczy z art. 6. Pierwszeństwo ma normalizacja europejska, akt z art. 6 to jedynie rozwiązanie tymczasowe.
 
 ## Ścieżka 3 — Dobrowolne normy zharmonizowane stanowiące podstawę domniemania zgodności (art. 7)
 
@@ -96,26 +96,26 @@ W skrócie: art. 8 jest do art. 7 tym, czym art. 6 jest do art. 5 — alternatyw
 
 | # | Artykuł | Co reguluje | Akt nadrzędny | Status normy | Kto opracowuje |
 |---|---|---|---|---|---|
-| **1** | Art. 5 | Metody oceny **właściwości użytkowych** | Akt wykonawczy „made mandatory" (art. 5 ust. 8) | **Obowiązkowa** | CEN / CENELEC / ETSI |
+| **1** | Art. 5 | Metody oceny **właściwości użytkowych** | Akt wykonawczy wprowadzający obowiązek stosowania (art. 5 ust. 8) | **Obowiązkowa** | CEN / CENELEC / ETSI |
 | **2** | Art. 6 | Metody oceny **właściwości użytkowych** (alternatywa do art. 5) | Akt wykonawczy Komisji | **Obowiązkowa**, tymczasowa do czasu pojawienia się hEN | Komisja Europejska |
 | **3** | Art. 7 | **Wymagania dotyczące wyrobów** (Załącznik III) | Akt delegowany Komisji (wymagania) + opcjonalne odniesienie w OJ EU (norma) | **Dobrowolna norma** — wymagania obowiązkowe, ale norma daje tylko *domniemanie zgodności* | CEN / CENELEC / ETSI |
 | **4** | Art. 8 | **Wymagania dotyczące wyrobów** (alternatywa do art. 7) | Akt wykonawczy Komisji | **Dobrowolna** — daje domniemanie zgodności | Komisja Europejska |
 
 ## Praktyczne konsekwencje dla producenta
 
-**Po pierwsze — performance assessment to inny obszar niż product requirements.** Wyrób budowlany musi przejść ocenę zgodności (AVS) używając metod z art. 5 lub 6 — tu nie ma wyboru. Równolegle, jeśli akt delegowany z art. 7 ust. 1 ustanawia dla danej rodziny wyrobów wymagania (np. dotyczące trwałości czy naprawialności), wyrób musi je spełnić — tu też nie ma wyboru. Wybór jest tylko **w drodze do udowodnienia zgodności**: dobrowolna hEN z art. 7, CS z art. 8, albo dokumentacja własna.
+**Po pierwsze — ocena właściwości użytkowych to inny obszar niż wymagania dotyczące wyrobów.** Wyrób budowlany musi przejść ocenę zgodności (AVS) używając metod z art. 5 lub 6 — tu nie ma wyboru. Równolegle, jeśli akt delegowany z art. 7 ust. 1 ustanawia dla danej rodziny wyrobów wymagania (np. dotyczące trwałości czy naprawialności), wyrób musi je spełnić — tu też nie ma wyboru. Wybór jest tylko **w drodze do udowodnienia zgodności**: dobrowolna hEN z art. 7, CS z art. 8, albo dokumentacja własna.
 
-**Po drugie — terminy publikacji w OJ UE mają różne znaczenie.** Akt wykonawczy z art. 5 ust. 8 oznacza, że dana norma performance staje się **obowiązkowa po roku**. Z kolei publikacja odniesienia do normy z art. 7 ust. 5 oznacza, że dana **dobrowolna norma daje domniemanie zgodności** od momentu publikacji. To dwie różne procedury — producent musi rozróżnić.
+**Po drugie — terminy publikacji w OJ UE mają różne znaczenie.** Akt wykonawczy z art. 5 ust. 8 oznacza, że dana norma dotycząca właściwości użytkowych staje się **obowiązkowa po roku**. Z kolei publikacja odniesienia do normy z art. 7 ust. 5 oznacza, że dana **dobrowolna norma daje domniemanie zgodności** od momentu publikacji. To dwie różne procedury — producent musi rozróżnić.
 
-**Po trzecie — śledzenie Dziennika Urzędowego UE wymaga uwagi.** Akt wykonawczy z art. 6 oznacza nowy obowiązek dla performance assessment, nawet bez normy zharmonizowanej. Akt wykonawczy z art. 8 oznacza nowy domniemany sposób spełnienia wymagań dot. wyrobów. Bez śledzenia obu rodzajów aktów producent może przegapić zmianę reżimu prawnego dla swojej rodziny wyrobów.
+**Po trzecie — śledzenie Dziennika Urzędowego UE wymaga uwagi.** Akt wykonawczy z art. 6 oznacza nowy obowiązek dla oceny właściwości użytkowych, nawet bez normy zharmonizowanej. Akt wykonawczy z art. 8 oznacza nowy domniemany sposób spełnienia wymagań dot. wyrobów. Bez śledzenia obu rodzajów aktów producent może przegapić zmianę reżimu prawnego dla swojej rodziny wyrobów.
 
-**Po czwarte — w komunikacji z [jednostką notyfikowaną](/blog/jednostki-notyfikowane-wybor) warto używać precyzyjnej terminologii.** „Norma zharmonizowana" bez doprecyzowania może oznaczać każdą z czterech ścieżek. JN musi wiedzieć, czy mówimy o performance hEN (gdzie nie ma wyboru), czy o dobrowolnej hEN z art. 7 (gdzie jest opcja alternatywna). Niedopowiedzenia tu generują realne ryzyko niezgodności.
+**Po czwarte — w komunikacji z [jednostką notyfikowaną](/blog/jednostki-notyfikowane-wybor) warto używać precyzyjnej terminologii.** „Norma zharmonizowana" bez doprecyzowania może oznaczać każdą z czterech ścieżek. JN musi wiedzieć, czy mówimy o obowiązkowej hEN dotyczącej właściwości użytkowych (gdzie nie ma wyboru), czy o dobrowolnej hEN z art. 7 (gdzie jest opcja alternatywna). Niedopowiedzenia tu generują realne ryzyko niezgodności.
 
 **Po piąte — dokumentacja techniczna producenta powinna wyraźnie wskazywać, którą ścieżkę zgodności wybrano dla każdego elementu.** Audyt [zakładowej kontroli produkcji (FPC/ZKP)](/blog/fpc-zakladowa-kontrola-produkcji) sprawdzi, czy zadeklarowane podstawy zgodności rzeczywiście istnieją w OJ UE i czy są aktualne. Mylne wskazanie typu normy w DoP&C może być powodem nieuznania deklaracji.
 
 ## Czy to wszystko teraz obowiązuje
 
-Nie. Zacytujmy ostrożnie: **CPR 2024/3110 zaczął się stosować 8 stycznia 2026 roku** (art. 96), ale **nowych obowiązkowych norm performance hEN, aktów wykonawczych z art. 6, aktów delegowanych z art. 7 ust. 1 ani CS z art. 8 — Komisja w większości jeszcze nie wydała**. Trwa okres przejściowy, w którym stare normy z reżimu CPR 305/2011 pozostają w mocy do czasu zastąpienia ich nowymi instrumentami.
+Nie. Zacytujmy ostrożnie: **CPR 2024/3110 zaczął się stosować 8 stycznia 2026 roku** (art. 96), ale **nowych obowiązkowych norm zharmonizowanych dotyczących właściwości użytkowych, aktów wykonawczych z art. 6, aktów delegowanych z art. 7 ust. 1 ani CS z art. 8 — Komisja w większości jeszcze nie wydała**. Trwa okres przejściowy, w którym stare normy z reżimu CPR 305/2011 pozostają w mocy do czasu zastąpienia ich nowymi instrumentami.
 
 Plan tej wymiany — kolejność wyrobów, których normy będą w pierwszej kolejności aktualizowane — zawiera [Plan Prac CPR 2026-2029](/blog/plan-prac-cpr-2026-2029) (COM(2025) 772 final z 16.12.2025). Producent powinien sprawdzić, w której fazie Planu Prac znajdzie się jego rodzina wyrobów — to determinuje, kiedy realnie będzie musiał wybrać między ścieżkami z art. 5–8.
 
@@ -123,14 +123,14 @@ Plan tej wymiany — kolejność wyrobów, których normy będą w pierwszej kol
 
 Cztery ścieżki harmonizacji w CPR 2024/3110:
 
-1. **Art. 5 — performance hEN (obowiązkowa)**: klasyczna norma CEN, opisuje jak ocenić właściwości użytkowe. Obowiązkowa po wydaniu aktu wykonawczego „made mandatory".
-2. **Art. 6 — performance via akt wykonawczy KE (obowiązkowy)**: instrument awaryjny, gdy CEN nie nadąża. Komisja wydaje techniczną specyfikację samodzielnie.
-3. **Art. 7 — voluntary hEN dla product requirements (dobrowolna)**: norma która opisuje jak spełnić obowiązkowe wymagania z aktu delegowanego (Załącznik III). Producent może użyć normy albo udowodnić zgodność inaczej.
-4. **Art. 8 — Common Specifications (dobrowolna)**: instrument awaryjny dla art. 7. Komisja wydaje wspólne specyfikacje jako alternatywę dla dobrowolnej hEN gdy CEN zawiedzie.
+1. **Art. 5 — obowiązkowa hEN dotycząca właściwości użytkowych**: klasyczna norma CEN, opisuje jak ocenić właściwości użytkowe. Obowiązkowa po wydaniu aktu wykonawczego wprowadzającego obowiązek stosowania.
+2. **Art. 6 — właściwości użytkowe przez akt wykonawczy KE (obowiązkowy)**: instrument awaryjny, gdy CEN nie nadąża. Komisja wydaje techniczną specyfikację samodzielnie.
+3. **Art. 7 — dobrowolna hEN dla wymagań dotyczących wyrobów**: norma która opisuje jak spełnić obowiązkowe wymagania z aktu delegowanego (Załącznik III). Producent może użyć normy albo udowodnić zgodność inaczej.
+4. **Art. 8 — wspólne specyfikacje (dobrowolna)**: instrument awaryjny dla art. 7. Komisja wydaje wspólne specyfikacje jako alternatywę dla dobrowolnej hEN gdy CEN zawiedzie.
 
 Dwa najważniejsze rozróżnienia, które producent powinien sobie utrwalić:
 
-- **Performance** (art. 5–6) ≠ **Product requirements** (art. 7–8). To dwa różne obszary regulacji o różnym zakresie i charakterze.
+- **Właściwości użytkowe** (art. 5–6) ≠ **Wymagania dotyczące wyrobów** (art. 7–8). To dwa różne obszary regulacji o różnym zakresie i charakterze.
 - **Norma „obowiązkowa"** (art. 5–6) ≠ **Norma „dobrowolna"** (art. 7–8). Pierwsze są wyłącznymi drogami zgodności. Drugie są opcjonalnymi drogami do udowodnienia spełnienia obowiązkowych wymagań.
 
 Mylenie tych pojęć — szczególnie w dokumentacji DoP&C, kontaktach z JN i komunikacji z nadzorem rynku — generuje realne ryzyko niezgodności. Warto zainwestować chwilę w opanowanie tej taksonomii, zanim akty delegowane i wykonawcze zaczną się pojawiać masowo w 2026–2029.
@@ -140,10 +140,10 @@ Mylenie tych pojęć — szczególnie w dokumentacji DoP&C, kontaktach z JN i ko
 Oferujemy:
 
 - Analizę aktualnej dokumentacji DoP/DoP&C pod kątem prawidłowego wskazania podstaw normatywnych (która ścieżka z art. 5–8)
-- Monitoring publikacji w Dzienniku Urzędowym UE dla Państwa rodzin wyrobów — performance hEN, akty z art. 6, akty delegowane z art. 7 ust. 1, CS z art. 8
+- Monitoring publikacji w Dzienniku Urzędowym UE dla Państwa rodzin wyrobów — normy zharmonizowane dot. właściwości użytkowych, akty z art. 6, akty delegowane z art. 7 ust. 1, CS z art. 8
 - Audyty zakładowej kontroli produkcji (FPC/ZKP) z weryfikacją zgodności stosowanej dokumentacji z aktualnym reżimem normatywnym
 - Wsparcie w wyborze [jednostki notyfikowanej](/blog/jednostki-notyfikowane-wybor) i przygotowaniu do oceny zgodności w nowym systemie [AVS](/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024)
 
 ---
 
-*Twój wyrób wymaga oceny pod CPR 2024/3110, ale nie wiesz, czy obowiązuje Cię performance hEN (art. 5), akt wykonawczy KE (art. 6), wymagania z aktu delegowanego (art. 7) czy wspólne specyfikacje (art. 8)? Napisz do nas: biuro@multicert.pl*
+*Twój wyrób wymaga oceny pod CPR 2024/3110, ale nie wiesz, czy obowiązuje Cię obowiązkowa hEN dotycząca właściwości użytkowych (art. 5), akt wykonawczy KE (art. 6), wymagania z aktu delegowanego (art. 7) czy wspólne specyfikacje (art. 8)? Napisz do nas: biuro@multicert.pl*

@@ -78,7 +78,7 @@ export const AUTHORS: Record<string, Author> = {
         url: "/blog/nadzor-rynku-gunb",
       },
       {
-        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania i wdrożenie",
+        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania i audyt",
         year: 2025,
         description: "Wymagania FPC według CPR 2024/3110 z analizą najczęstszych błędów stwierdzanych podczas inspekcji jednostek notyfikowanych.",
         url: "/blog/zakladowa-kontrola-produkcji-fpc",
@@ -301,7 +301,7 @@ export const AUTHORS: Record<string, Author> = {
     awards: [],
     publications: [
       {
-        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania i wdrożenie",
+        title: "Zakładowa Kontrola Produkcji (FPC) — wymagania i audyt",
         year: 2025,
         description: "Wymagania ZKP/FPC według CPR 2024/3110 z perspektywy audytora zewnętrznego prowadzącego inspekcje u producentów wyrobów budowlanych.",
         url: "/blog/zakladowa-kontrola-produkcji-fpc",

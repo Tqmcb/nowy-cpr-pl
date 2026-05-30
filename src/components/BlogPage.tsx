@@ -445,7 +445,7 @@ EPD jest ważna przez 5 lat od daty weryfikacji.`,
   },
   {
     id: "8",
-    title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i wdrożenie",
+    title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i audyt",
     slug: "zakładowa-kontrola-produkcji-fpc",
     excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy.",
     content: `# Zakładowa Kontrola Produkcji (FPC)

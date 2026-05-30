@@ -252,7 +252,7 @@ export default function Services() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
                 {[
                   { icon: BadgeCheck, title: "Audytorzy z praktyką", description: "Usługi realizują certyfikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych i weryfikacji dokumentacji technicznej." },
-                  { icon: Users, title: "Indywidualne podejście", description: "Każde wdrożenie jest inne — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów." },
+                  { icon: Users, title: "Indywidualne podejście", description: "Każda ocena jest inna — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów." },
                   { icon: ShieldCheck, title: "Kompletne wsparcie", description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu." }
                 ].map((item, idx) => (
                   <div key={idx} className="p-6 md:p-10" style={{
