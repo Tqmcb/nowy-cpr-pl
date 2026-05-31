@@ -226,4 +226,4 @@ Kluczowy wniosek: **AVS 3+ nie jest dziś Twoim obowiązkiem, jeśli działasz t
 
 ---
 
-*Masz pytania o to, czy Twoje wyroby wchodzą w zakres CPR 2024/3110 czy polskiego systemu krajowego? Multicert pomaga producentom w wyborze właściwej ścieżki certyfikacji. Kontakt: biuro@multicert.pl*
+*Macie pytania, czy Wasze wyroby wchodzą w zakres CPR 2024/3110, czy polskiego systemu krajowego? Chętnie pomożemy wybrać właściwą ścieżkę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

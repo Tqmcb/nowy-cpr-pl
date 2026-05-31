@@ -121,4 +121,4 @@ Warto pamiętać, że w Polsce równolegle toczą się prace nad nowelizacją Pr
 
 ---
 
-*Multicert śledzi na bieżąco postęp prac nad NUWB i aktualizuje swoich klientów o każdej istotnej zmianie projektu. W razie pytań dotyczących dostosowania dokumentacji do CPR 2024 lub oceny ryzyka regulacyjnego — zapraszamy do kontaktu: [biuro@multicert.pl](mailto:biuro@multicert.pl)*
+*Na bieżąco śledzimy postęp prac nad nową ustawą o wyrobach budowlanych. Macie pytania o dostosowanie dokumentacji do CPR 2024 albo ocenę ryzyka regulacyjnego? Napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), bez zobowiązań.*

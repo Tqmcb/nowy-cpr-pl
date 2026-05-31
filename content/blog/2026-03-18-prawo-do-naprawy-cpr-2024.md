@@ -137,4 +137,4 @@ Wymagania dotyczące naprawialności i trwałości stają się nieuchronne. Prod
 
 ---
 
-*Potrzebujesz wsparcia w przygotowaniu dokumentacji środowiskowej i trwałościowej? Multicert pomaga producentom dostosować się do wymagań CPR 2024 i ESPR. Kontakt: biuro@multicert.pl*
+*Przygotowujecie dokumentację środowiskową i trwałościową pod CPR 2024 i ESPR? Chętnie wskażemy, na co zwrócić uwagę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

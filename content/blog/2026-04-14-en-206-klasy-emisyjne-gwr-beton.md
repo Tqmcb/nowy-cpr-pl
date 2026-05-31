@@ -214,4 +214,4 @@ Ci, którzy będą czekać do ostatniej chwili, będą musieli to wszystko nadro
 
 ---
 
-*Potrzebujesz wsparcia w obliczeniu klas GWR dla swoich receptur lub w przygotowaniu EPD? Multicert pomaga producentom betonu na każdym etapie — od zbierania danych LCA po rejestrację EPD w programie EPD Polska. Kontakt: biuro@multicert.pl*
+*Liczycie klasy GWR dla swoich receptur albo przygotowujecie EPD? Chętnie pomożemy — od zebrania danych po rejestrację deklaracji w programie EPD Polska. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

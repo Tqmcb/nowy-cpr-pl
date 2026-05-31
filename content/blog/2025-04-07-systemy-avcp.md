@@ -185,4 +185,4 @@ System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozu
 
 ---
 
-**Potrzebujesz wsparcia w certyfikacji?** Firmy takie jak [Multicert](https://www.multicert.pl) specjalizują się w kompleksowym wsparciu — od doboru systemu AVS, przez przygotowanie dokumentacji FPC, po kontakt z jednostką notyfikowaną. Dla producentów betonu, cementu i prefabrykatów betonowych certyfikacją w systemie 2+ zajmuje się [Multicert](https://www.multicert.com.pl) — jednostka akredytowana właśnie dla tej grupy wyrobów. W zakresie walidacji danych środowiskowych (system 3+) i sporządzania EPD wsparcie oferuje [epd.org.pl](https://www.epd.org.pl).
+**Macie pytania o właściwy system oceny?** Chętnie pomożemy dobrać system AVS, przygotować dokumentację FPC i ustalić kontakt z jednostką notyfikowaną. Certyfikację wyrobów betonowych w systemie 2+ prowadzimy jako [Multicert](https://www.multicert.com.pl) — jednostka akredytowana dla tej grupy wyrobów. Walidację danych środowiskowych (system 3+) i deklaracje EPD prowadzimy w [programie EPD Polska](https://www.epd.org.pl). Napiszcie na biuro@multicert.pl, bez zobowiązań.

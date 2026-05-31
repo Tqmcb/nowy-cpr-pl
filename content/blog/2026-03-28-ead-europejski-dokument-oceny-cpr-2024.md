@@ -155,4 +155,4 @@ ETA jest kosztowna i czasochłonna. Rozważ alternatywy gdy:
 
 ---
 
-*Planujesz uzyskać ETA dla swojego wyrobu? Multicert pomaga w całym procesie — od analizy zakresu EAD po uzyskanie ETA. Kontakt: biuro@multicert.pl*
+*Planujecie uzyskać ETA dla swojego wyrobu? Chętnie omówimy z Wami cały proces — od zakresu EAD po ocenę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

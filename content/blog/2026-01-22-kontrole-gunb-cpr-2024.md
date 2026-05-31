@@ -96,4 +96,4 @@ CPR 2024 zobowiązuje państwa członkowskie do ustanowienia skutecznych, propor
 
 ---
 
-*Potrzebujesz audytu zgodności z CPR 2024 przed kontrolą GUNB? Skontaktuj się z Multicert: biuro@multicert.pl*
+*Chcecie sprawdzić zgodność z CPR 2024 przed kontrolą GUNB? Chętnie przejrzymy z Wami dokumentację i wskażemy, co warto domknąć. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

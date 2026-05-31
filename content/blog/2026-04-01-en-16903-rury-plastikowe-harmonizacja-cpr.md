@@ -202,4 +202,4 @@ Dla kontrastu:
 
 ---
 
-*Śledzisz zmiany w normach dla swojej branży? Multicert monitoruje aktualizacje hEN/hTS i informuje klientów o harmonogramach certyfikacji. Kontakt: biuro@multicert.pl*
+*Śledzicie zmiany w normach dla swojej branży? My też — i chętnie podpowiemy, co aktualizacje hEN/hTS oznaczają dla harmonogramu Waszej certyfikacji. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
