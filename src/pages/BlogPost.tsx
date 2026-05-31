@@ -8,7 +8,7 @@ import type { Components } from "react-markdown";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import {
-  ArrowLeft, Calendar, User, Tag, Clock, Scale, BookOpen,
+  ArrowLeft, Calendar, Tag, Clock, Scale, BookOpen,
   BarChart2, Wrench, Newspaper, ChevronRight, ChevronDown, FileText, HelpCircle,
   Shield, ExternalLink, CheckSquare, Building2, RefreshCw,
 } from "lucide-react";
@@ -688,8 +688,7 @@ function SharedHero({
 
         <div className="flex items-center gap-5 flex-wrap pt-4 border-t border-white/20">
           <span className="editorial-kicker flex items-center gap-2 text-white">
-            <User className="w-3.5 h-3.5" />
-            <AuthorLink authorField={post.author} />
+            <AuthorLink authorField={post.author} withSigil />
           </span>
           <span className="editorial-kicker flex items-center gap-2 text-white/60">
             <Calendar className="w-3.5 h-3.5" />
@@ -859,8 +858,7 @@ function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: Temp
                   <div>
                     <dt className="text-slate-500 text-xs uppercase tracking-wide mb-1">Autor</dt>
                     <dd className="text-slate-700 text-sm flex items-center gap-2">
-                      <User className="w-3.5 h-3.5 text-[oklch(55%_.22_27)]" />
-                      <AuthorLink authorField={post.author} />
+                      <AuthorLink authorField={post.author} withSigil />
                     </dd>
                   </div>
                   <div>
