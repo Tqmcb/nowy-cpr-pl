@@ -66,4 +66,4 @@ Kruszywa i mieszanki mineralno-asfaltowe są w środku harmonogramu CPR: treść
 
 ---
 
-*Produkujesz kruszywa lub mieszanki mineralno-asfaltowe i chcesz przygotować deklarację środowiskową oraz walidację w systemie oceny 3+? Napisz do nas: biuro@multicert.pl*
+*Masz kruszywa lub mieszanki mineralno-asfaltowe do oceny pod CPR 2024/3110? Napisz do nas — pomożemy ustalić właściwy system AVS i spokojnie przygotować dane do deklaracji środowiskowej, w tempie Waszego harmonogramu. Bez zobowiązań: biuro@multicert.pl*

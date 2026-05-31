@@ -55,4 +55,4 @@ W okresie koegzystencji nie ma jednej daty, po której obowiązują nowe normy �
 
 ---
 
-*Nie masz pewności, która podstawa normatywna obowiązuje Twój wyrób w okresie przejściowym i czy Twoja dokumentacja jest aktualna? Napisz do nas: biuro@multicert.pl*
+*Masz pytanie z praktyki do tego tematu albo widzisz coś, co wymaga doprecyzowania? A może jest wątek, który powinniśmy opisać? Napisz do nas — chętnie odpowiemy, a wartościowe tematy rozwiniemy w kolejnych materiałach: biuro@multicert.pl*
