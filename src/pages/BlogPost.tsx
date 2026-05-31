@@ -32,7 +32,7 @@ function formatDate(dateString: string) {
 
 const ORGS = new Set(['Redakcja NowyCPR.pl', 'Multicert Sp. z o.o.', 'EPD Polska', 'NowyCPR.pl']);
 
-function AuthorLink({ authorField, className }: { authorField: string; className?: string }) {
+function AuthorLink({ authorField, className, withSigil }: { authorField: string; className?: string; withSigil?: boolean }) {
   const navigate = useNavigate();
   const segments = authorField.split(' | ').map(s => s.trim());
   const named = segments.filter(s => !ORGS.has(s));
@@ -48,6 +48,15 @@ function AuthorLink({ authorField, className }: { authorField: string; className
         return (
           <span key={i} className="inline-flex items-center">
             {i > 0 && <span className="mx-1 opacity-40">·</span>}
+            {withSigil && slug && (
+              <img
+                src={`/images/authors/${slug}.svg`}
+                alt=""
+                aria-hidden="true"
+                className="w-8 h-8 mr-2.5 shrink-0 rounded-full"
+                style={{ border: "1px solid oklch(86% .012 264)" }}
+              />
+            )}
             {slug ? (
               <button
                 onClick={() => navigate(`/autor/${slug}`)}
@@ -378,7 +387,7 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
           <div>
             <dt className="editorial-kicker mb-1.5" style={{ color: "oklch(60% .015 264)" }}>Autor</dt>
             <dd className="font-serif italic text-base flex items-center gap-2" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
-              <AuthorLink authorField={post.author} />
+              <AuthorLink authorField={post.author} withSigil />
             </dd>
           </div>
           <div>

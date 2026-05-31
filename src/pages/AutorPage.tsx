@@ -69,11 +69,12 @@ export default function AutorPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
               <div className="lg:col-span-2 flex justify-start">
-                <div className="w-24 h-24 flex items-center justify-center" style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px" }}>
-                  <span className="font-serif text-3xl" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>
-                    {author.name.split(" ").filter((w) => /^[A-ZŁŚÓĄĘŹŻĆŃ]/.test(w)).slice(0, 2).map((w) => w[0]).join("")}
-                  </span>
-                </div>
+                <img
+                  src={`/images/authors/${author.slug}.svg`}
+                  alt={`Sygnet autora ${author.name}`}
+                  className="w-24 h-24 rounded-full"
+                  style={{ border: "1px solid oklch(86% .012 264)" }}
+                />
               </div>
               <div className="lg:col-span-10">
                 <h1 className="font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1.05] mb-3" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>

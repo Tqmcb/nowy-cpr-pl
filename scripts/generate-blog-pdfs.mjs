@@ -14,7 +14,7 @@
 
 import { chromium } from 'playwright';
 import { marked } from 'marked';
-import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -22,6 +22,30 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
 const distDir = join(rootDir, 'dist');
 const blogContentDir = join(rootDir, 'content', 'blog');
+const sigilDir = join(rootDir, 'public', 'images', 'authors');
+
+// Mapowanie nazwy autora (pierwszy segment bylines) → slug sygnetu
+const AUTHOR_SLUGS = {
+  'Robert Dynarowski': 'robert-dynarowski',
+  'Mikołaj Junosza-Szaniawski': 'mikolaj-junosza-szaniawski',
+  'Sławomir Słowik': 'slawomir-slowik',
+  'Violetta Gładysz-Oczalska': 'violetta-gladysz-oczalska',
+  'Izabela Sztamberek-Sochan': 'izabela-sztamberek-sochan',
+  'Tomasz Barto': 'tomasz-barto',
+  'Grzegorz Suwara': 'grzegorz-suwara',
+};
+
+// Zwraca inline SVG sygnetu autora (lub '' gdy brak profilu/pliku)
+function authorSigilSvg(authorField) {
+  const first = (authorField || '').split('|')[0].trim();
+  let slug = null;
+  for (const [name, s] of Object.entries(AUTHOR_SLUGS)) {
+    if (first.includes(name)) { slug = s; break; }
+  }
+  if (!slug) return '';
+  const p = join(sigilDir, `${slug}.svg`);
+  return existsSync(p) ? readFileSync(p, 'utf-8') : '';
+}
 
 function escapeHtml(str) {
   return (str || '')
@@ -64,7 +88,7 @@ function formatDate(d) {
   return m ? `${m[3]}.${m[2]}.${m[1]}` : (d || '');
 }
 
-function buildHtml({ title, author, category, date, sources, htmlBody }) {
+function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg }) {
   const byline = (author || '').replace(/\s*\|\s*/g, '  ·  ');
   const dateFmt = formatDate(date);
   const metaBits = [byline, dateFmt].filter(Boolean).join('  ·  ');
@@ -156,7 +180,10 @@ function buildHtml({ title, author, category, date, sources, htmlBody }) {
     font-size: 9pt; color: var(--muted); font-weight: 500;
     padding-bottom: 13pt; border-bottom: 0.75pt solid var(--border-mid);
     letter-spacing: 0.1pt;
+    display: flex; align-items: center; gap: 8pt;
   }
+  .byline-sigil { flex-shrink: 0; line-height: 0; }
+  .byline-sigil svg { width: 30pt; height: 30pt; display: block; }
 
   /* ── Treść ────────────────────────────────────────────── */
   .content { margin-top: 16pt; }
@@ -264,7 +291,7 @@ function buildHtml({ title, author, category, date, sources, htmlBody }) {
     <div class="mast-rule"></div>
     ${category ? `<div class="eyebrow">${escapeHtml(category)}</div>` : '<div style="height:13pt"></div>'}
     <h1>${escapeHtml(title)}</h1>
-    ${metaBits ? `<div class="byline">${metaBits}</div>` : ''}
+    ${metaBits ? `<div class="byline">${sigilSvg ? `<span class="byline-sigil">${sigilSvg}</span>` : ''}<span>${metaBits}</span></div>` : ''}
   </header>
   <div class="content">
 ${htmlBody}
@@ -296,6 +323,7 @@ export function renderPostHtml(src, slug) {
     date: meta.date || meta.reviewed || '',
     sources: meta.sources || [],
     htmlBody,
+    sigilSvg: authorSigilSvg(meta.author || ''),
   });
 }
 
