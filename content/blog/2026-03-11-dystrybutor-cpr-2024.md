@@ -126,4 +126,4 @@ Przed każdą partią wyrobów budowlanych sprawdź:
 
 ---
 
-*Masz wątpliwości co do zgodności wyrobów, które dystrybujesz? Multicert oferuje audyty łańcucha dostaw dla dystrybutorów. Kontakt: biuro@multicert.pl*
+*Macie wątpliwości co do zgodności wyrobów, które dystrybujecie? Chętnie pomożemy ustalić, na co zwrócić uwagę w łańcuchu dostaw. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

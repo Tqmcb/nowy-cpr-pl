@@ -136,4 +136,4 @@ Producent musi niezwłocznie wyznaczyć nowego UP lub zaprzestać wprowadzania w
 
 ---
 
-*Potrzebujesz wsparcia w roli upoważnionego przedstawiciela lub szukasz UP dla Twojego zakładu spoza UE? Multicert oferuje usługi AR dla wyrobów budowlanych. Kontakt: biuro@multicert.pl*
+*Ustalacie rolę upoważnionego przedstawiciela dla zakładu spoza UE? Chętnie wskażemy, jak to poukładać zgodnie z CPR. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

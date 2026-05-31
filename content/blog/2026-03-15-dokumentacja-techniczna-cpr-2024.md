@@ -133,4 +133,4 @@ Klientom, dystrybutorowi ani konkurentom dokumentacja techniczna nie jest udost�
 
 ---
 
-*Potrzebujesz audytu dokumentacji technicznej przed kontrolą GUNB? Multicert oferuje kompleksowe przeglądy zgodności. Kontakt: biuro@multicert.pl*
+*Porządkujecie dokumentację techniczną przed kontrolą GUNB i chcecie sprawdzić, czy niczego nie brakuje? Chętnie przejrzymy z Wami wymagania. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

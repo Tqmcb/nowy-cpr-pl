@@ -126,4 +126,4 @@ A: Tak, jeśli sam go wbudowujesz w ten sam obiekt. Ale jeśli dostarczasz beton
 
 ---
 
-*Nie jesteś pewien, czy Twój wyrób wymaga oznakowania CE? Multicert oferuje bezpłatną wstępną analizę zakresu CPR. Kontakt: biuro@multicert.pl*
+*Nie jesteście pewni, czy Wasz wyrób w ogóle wymaga oznakowania CE? Chętnie pomożemy ustalić zakres CPR dla konkretnego przypadku. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
