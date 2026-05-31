@@ -70,9 +70,13 @@ export default function AutorPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
               <div className="lg:col-span-2 flex justify-start">
                 <img
-                  src={`/images/authors/${author.slug}.svg`}
-                  alt={`Sygnet autora ${author.name}`}
-                  className="w-24 h-24 rounded-full"
+                  src={`/images/authors/${author.slug}.jpg`}
+                  onError={(e) => {
+                    const t = e.currentTarget;
+                    if (!t.dataset.fb) { t.dataset.fb = "1"; t.src = `/images/authors/${author.slug}.svg`; }
+                  }}
+                  alt={`Autor ${author.name}`}
+                  className="w-24 h-24 rounded-full object-cover"
                   style={{ border: "1px solid oklch(86% .012 264)" }}
                 />
               </div>

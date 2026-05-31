@@ -50,10 +50,14 @@ function AuthorLink({ authorField, className, withSigil }: { authorField: string
             {i > 0 && <span className="mx-1 opacity-40">·</span>}
             {withSigil && slug && (
               <img
-                src={`/images/authors/${slug}.svg`}
+                src={`/images/authors/${slug}.jpg`}
+                onError={(e) => {
+                  const t = e.currentTarget;
+                  if (!t.dataset.fb) { t.dataset.fb = "1"; t.src = `/images/authors/${slug}.svg`; }
+                }}
                 alt=""
                 aria-hidden="true"
-                className="w-8 h-8 mr-2.5 shrink-0 rounded-full"
+                className="w-8 h-8 mr-2.5 shrink-0 rounded-full object-cover"
                 style={{ border: "1px solid oklch(86% .012 264)" }}
               />
             )}

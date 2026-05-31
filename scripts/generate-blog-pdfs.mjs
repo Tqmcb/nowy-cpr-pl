@@ -35,7 +35,7 @@ const AUTHOR_SLUGS = {
   'Grzegorz Suwara': 'grzegorz-suwara',
 };
 
-// Zwraca inline SVG sygnetu autora (lub '' gdy brak profilu/pliku)
+// Zwraca avatar autora: zdjęcie (jpg jako data URI) lub sygnet SVG, lub '' gdy brak
 function authorSigilSvg(authorField) {
   const first = (authorField || '').split('|')[0].trim();
   let slug = null;
@@ -43,8 +43,13 @@ function authorSigilSvg(authorField) {
     if (first.includes(name)) { slug = s; break; }
   }
   if (!slug) return '';
-  const p = join(sigilDir, `${slug}.svg`);
-  return existsSync(p) ? readFileSync(p, 'utf-8') : '';
+  const jpg = join(sigilDir, `${slug}.jpg`);
+  if (existsSync(jpg)) {
+    const b64 = readFileSync(jpg).toString('base64');
+    return `<img src="data:image/jpeg;base64,${b64}" alt="">`;
+  }
+  const svg = join(sigilDir, `${slug}.svg`);
+  return existsSync(svg) ? readFileSync(svg, 'utf-8') : '';
 }
 
 function escapeHtml(str) {
@@ -183,7 +188,7 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
     display: flex; align-items: center; gap: 8pt;
   }
   .byline-sigil { flex-shrink: 0; line-height: 0; }
-  .byline-sigil svg { width: 30pt; height: 30pt; display: block; }
+  .byline-sigil svg, .byline-sigil img { width: 30pt; height: 30pt; display: block; border-radius: 50%; object-fit: cover; }
 
   /* ── Treść ────────────────────────────────────────────── */
   .content { margin-top: 16pt; }
