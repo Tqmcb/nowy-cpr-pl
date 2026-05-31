@@ -2,7 +2,7 @@
 title: "Kruszywa i mieszanki mineralno-asfaltowe pod CPR 2024 — harmonogram norm i okres przejściowy"
 reviewed: "2026-06-22"
 date: "2026-06-22"
-author: "Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Branże i wyroby"
 tags: ["CPR 2024", "kruszywa", "mieszanki mineralno-asfaltowe", "wyroby drogowe", "Plan Prac CPR", "EPD", "AVS 3+"]
 excerpt: "Kruszywa i mieszanki mineralno-asfaltowe mają w Planie Prac CPR własne, rozłożone w czasie kamienie milowe. Pokazujemy harmonogram obu rodzin, co znaczy okres przejściowy dla branży drogowej i jak przygotować deklarację środowiskową wyrobu."

@@ -2,7 +2,7 @@
 title: "Stal konstrukcyjna w nowym CPR — obowiązkowa norma i akt delegowany już w drugim kwartale 2026"
 reviewed: "2026-06-08"
 date: "2026-06-08"
-author: "Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "stal konstrukcyjna", "wyroby metalowe", "Plan Prac CPR", "norma zharmonizowana", "akt delegowany", "ocena zgodności"]
 excerpt: "Konstrukcyjne wyroby metalowe to pierwsza rodzina, dla której Plan Prac CPR przewiduje obowiązkową normę i akt delegowany — w drugim kwartale 2026. Wyjaśniamy, co to znaczy dla producentów stali i jak odróżnić obowiązkowość normy od momentu zmiany jej powołania."

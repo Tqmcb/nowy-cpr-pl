@@ -403,6 +403,7 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "Violetta Gładysz": "violetta-gladysz-oczalska",
   "mgr inż. Violetta Gładysz-Oczalska": "violetta-gladysz-oczalska",
   "Sławomir Słowik": "slawomir-slowik",
+  "mgr inż. Sławomir Słowik": "slawomir-slowik",
   "Slawomir Slowik": "slawomir-slowik",
 };
 
