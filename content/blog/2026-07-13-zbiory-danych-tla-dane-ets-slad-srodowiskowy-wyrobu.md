@@ -2,7 +2,7 @@
 title: "Obowiązkowe europejskie zbiory danych tła i dane z systemu handlu emisjami — jak zmienią obliczanie śladu środowiskowego wyrobu"
 reviewed: "2026-07-13"
 date: "2026-07-13"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko i LCA"
 tags: ["CPR 2024", "zbiory danych tła", "system handlu emisjami", "ślad środowiskowy", "EPD", "AVS 3+", "dane LCA"]
 excerpt: "Komisja zapowiada dwa narzędzia, które zmienią sposób liczenia śladu środowiskowego wyrobu budowlanego: obowiązkowe konserwatywne europejskie zbiory danych tła oraz uznanie danych z unijnego systemu handlu emisjami za dopuszczalny wsad. Wyjaśniamy, co to oznacza dla producenta i jego deklaracji."

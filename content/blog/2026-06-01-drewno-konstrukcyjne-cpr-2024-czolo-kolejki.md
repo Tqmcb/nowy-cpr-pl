@@ -2,7 +2,7 @@
 title: "Drewno konstrukcyjne na czele kolejki CPR 2024 — scalona rodzina i wniosek normalizacyjny w trzecim kwartale 2026"
 reviewed: "2026-06-01"
 date: "2026-06-01"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Branże i wyroby"
 tags: ["CPR 2024", "drewno konstrukcyjne", "płyty drewnopochodne", "Plan Prac CPR", "norma zharmonizowana", "wniosek normalizacyjny", "ocena zgodności"]
 excerpt: "Konstrukcyjne wyroby drewniane ruszają w Planie Prac CPR wcześnie — z wnioskiem normalizacyjnym w trzecim kwartale 2026 i dostawą norm w 2029 roku. Wyjaśniamy, dlaczego scalono je z płytami drewnopochodnymi i co harmonogram oznacza dla producentów w okresie przejściowym."

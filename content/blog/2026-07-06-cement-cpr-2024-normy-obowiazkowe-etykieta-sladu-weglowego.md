@@ -2,7 +2,7 @@
 title: "Cement pod CPR 2024 — nowe normy obowiązkowe i etykieta śladu węglowego (cel czwarty kwartał 2027)"
 reviewed: "2026-07-06"
 date: "2026-07-06"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Branże i wyroby"
 tags: ["CPR 2024", "cement", "spoiwa", "etykieta śladu węglowego", "Plan Prac CPR", "norma zharmonizowana", "EPD"]
 excerpt: "Cement i spoiwa budowlane czeka pod CPR podwójna zmiana: nowe normy nadane obowiązkowymi oraz obowiązkowa etykieta śladu węglowego, oba z celem na czwarty kwartał 2027. Wyjaśniamy harmonogram dla tej rodziny i co etykieta oznacza dla producentów spoiw."

@@ -2,7 +2,7 @@
 title: "Ślad węglowy wyrobu (CPR) a raportowanie emisji budynku (EPBD) — dwa różne reżimy, których nie wolno mylić"
 reviewed: "2026-06-29"
 date: "2026-06-29"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko i LCA"
 tags: ["GWP", "CPR 2024", "EPBD", "ślad węglowy", "EPD", "AVS 3+", "deklaracja środowiskowa"]
 excerpt: "Ślad węglowy wyrobu rozliczany pod CPR i raportowanie emisji budynku wymagane przez dyrektywę EPBD to dwa odrębne reżimy, które rynek nagminnie myli. Rozdzielamy je i wyjaśniamy trzy nowości z Planu Prac Komisji: dane z systemu handlu emisjami, zbiory danych tła i etykietę śladu węglowego na cemencie."
