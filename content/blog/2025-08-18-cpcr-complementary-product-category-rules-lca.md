@@ -2,7 +2,7 @@
 title: "CPCR — Complementary Product Category Rules w obliczeniach LCA dla wyrobów budowlanych"
 reviewed: "2026-03-31"
 date: "2025-08-18"
-author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["CPCR", "LCA", "EPD", "EN 15804", "CPR 2024", "PCR", "obliczenia środowiskowe"]
 excerpt: "CPCR (Complementary Product Category Rules) to zestaw wymagań normatywnych uzupełniających EN 15804+A2, które precyzują zasady obliczania LCA dla konkretnych grup wyrobów budowlanych. Wyjaśniamy, czym są, jak działają i dlaczego stają się kluczowe pod CPR 2024/3110."

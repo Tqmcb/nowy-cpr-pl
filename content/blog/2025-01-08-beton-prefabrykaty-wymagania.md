@@ -2,7 +2,7 @@
 title: "Beton i prefabrykaty betonowe - specyficzne wymagania CPR"
 reviewed: "2026-03-31"
 date: "2025-01-08"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["beton", "prefabrykaty", "EN 206", "konstrukcje"]
 excerpt: "Certyfikacja betonu towarowego i prefabrykatów betonowych według CPR 2024. System 2+, normy EN 206 i EN 13369, zakładowa kontrola produkcji."

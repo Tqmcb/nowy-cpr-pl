@@ -2,7 +2,7 @@
 title: "Kiedy wyrób budowlany NIE musi mieć oznakowania CE — wyjątki i wyłączenia z CPR 2024"
 reviewed: "2026-03-31"
 date: "2026-03-29"
-author: "Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["wyjątki CE", "CPR 2024", "wyłączenia", "zakres CPR", "oznakowanie CE", "producent"]
 excerpt: "Nie każdy wyrób budowlany wymaga oznakowania CE. CPR 2024 przewiduje wyjątki dla prototypów, wyrobów na zamówienie, produkcji jednostkowej i wyrobów wytwarzanych na placu budowy. Sprawdź, czy Twój wyrób jest objęty."

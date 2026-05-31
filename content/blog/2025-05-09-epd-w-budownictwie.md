@@ -2,7 +2,7 @@
 title: "EPD w budownictwie - deklaracja środowiskowa na wyroby budowlane"
 reviewed: "2026-04-28"
 date: "2025-05-09"
-author: "Mikołaj Junosza-Szaniawski | Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["EPD", "LCA", "środowisko", "EN 15804", "deklaracja środowiskowa", "chemia budowlana", "systemy ociepleń", "zaprawa", "prefabrykaty betonowe"]
 excerpt: "Deklaracja środowiskowa na wyroby budowlane, czyli EPD, pomaga udokumentować ślad węglowy i dane środowiskowe pod CPR 2024. Wyjaśniamy, kiedy EPD ma sens dla chemii budowlanej, systemów ociepleń, zapraw i prefabrykatów betonowych."

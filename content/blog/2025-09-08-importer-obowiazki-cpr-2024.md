@@ -2,7 +2,7 @@
 title: "Importer wyrobów budowlanych w CPR 2024 — nowe obowiązki i wzmocniona odpowiedzialność"
 reviewed: "2026-03-31"
 date: "2025-09-08"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["importer", "CPR 2024", "obowiązki", "weryfikacja zgodności", "wyroby budowlane"]
 excerpt: "Rozporządzenie CPR 2024/3110 wprowadza istotne zmiany w zakresie obowiązków importerów wyrobów budowlanych spoza UE. Importer musi aktywnie weryfikować zgodność wyrobu przed wprowadzeniem go do obrotu (art. 24 CPR 2024). Poznaj szczegóły nowych przepisów i porównaj je z dotychczasowym stanem prawnym."

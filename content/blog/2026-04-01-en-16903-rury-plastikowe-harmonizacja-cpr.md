@@ -2,7 +2,7 @@
 title: "EN 16903:2026 i rury z tworzyw sztucznych — kiedy naprawdę będzie wymagane CE?"
 reviewed: "2026-04-01"
 date: "2026-04-01"
-author: "Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Sławomir Słowik | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy"
 tags: ["EN 16903", "rury plastikowe", "normy zharmonizowane", "CPR 2024", "harmonizacja", "hTS", "wyroby budowlane"]
 excerpt: "Sama publikacja normy CEN nie oznacza harmonizacji pod CPR. EN 16903:2026 to norma PCR dla deklaracji środowiskowych EPD rur z tworzyw sztucznych (komplementarna do EN 15804) — ale zanim CE stanie się wymagane, norma musi przejść przez mandatowanie KE, akt wykonawczy i Dziennik Urzędowy. Wyjaśniamy cały proces krok po kroku."

@@ -2,7 +2,7 @@
 title: "Amazon, Allegro i platformy handlowe w CPR 2024 — nowe obowiązki marketplace"
 reviewed: "2026-03-31"
 date: "2025-10-27"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["platformy online", "marketplace", "CPR 2024", "obowiązki", "handel elektroniczny"]
 excerpt: "CPR 2024/3110 po raz pierwszy w historii unijnego prawa budowlanego reguluje rolę platform handlowych online, takich jak Amazon czy Allegro, w łańcuchu obrotu wyrobami budowlanymi. Platformy nie mogą być bierne wobec niezgodnych wyrobów — muszą usuwać oferty po powiadomieniu przez organy nadzoru. Jakie obowiązki ciążą na platformach i co to oznacza dla polskich sprzedawców online?"

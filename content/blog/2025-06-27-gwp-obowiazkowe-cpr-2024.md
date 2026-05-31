@@ -2,7 +2,7 @@
 title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
 reviewed: "2026-04-20"
 date: "2025-06-27"
-author: "dr inż. Robert Dynarowski | Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GWP", "ślad węglowy", "EPD", "CPR 2024", "właściwości środowiskowe", "LCA"]
 excerpt: "CPR 2024/3110 planuje obowiązkowe deklarowanie GWP — ale dopiero po opublikowaniu nowej normy zharmonizowanej dla Twojej grupy wyrobów i zakończeniu okresu koegzystencji. Na marzec 2026 żadna taka norma nie wyszła. Dowiedz się jak działa ten mechanizm i dlaczego warto zbierać dane już teraz."

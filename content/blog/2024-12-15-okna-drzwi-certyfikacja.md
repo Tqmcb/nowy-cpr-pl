@@ -2,7 +2,7 @@
 title: "Okna i drzwi - certyfikacja według EN 14351-1"
 reviewed: "2026-03-31"
 date: "2024-12-15"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Materiały"
 tags: ["okna", "drzwi", "EN 14351", "ITT"]
 excerpt: "Pełny proces certyfikacji okien i drzwi zewnętrznych zgodnie z EN 14351-1:2006+A2:2016. Badania ITT, klasyfikacje, oznakowanie CE i Digital DoP&C."

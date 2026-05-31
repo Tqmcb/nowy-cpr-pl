@@ -3,7 +3,7 @@ title: "Zielone zamówienia publiczne (GPP) a CPR 2024 — jak GWP staje się kr
 reviewed: "2026-04-20"
 date: "2025-11-24"
 updated: "2026-04-20"
-author: "Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | EPD Polska"
+author: "Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
 tags: ["GPP", "zielone zamówienia publiczne", "GWP", "CPR 2024", "EPD", "przetargi"]
 excerpt: "Zielone zamówienia publiczne stają się coraz silniejszym narzędziem polityki klimatycznej UE w sektorze budowlanym. CPR 2024/3110 tworzy ramy prawne, a propozycja Industrial Accelerator Act (marzec 2026) wprowadza od 2029 obowiązkowe minimalne progi niskoemisyjności dla stali, betonu i aluminium w zamówieniach publicznych. Producenci powinni przygotować EPD już teraz."

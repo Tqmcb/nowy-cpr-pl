@@ -2,7 +2,7 @@
 title: "Checklist producenta wyrobów budowlanych na 2026 — co musisz mieć gotowe"
 reviewed: "2026-03-31"
 date: "2025-10-17"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["checklist", "2026", "producent", "CPR 2024", "przygotowanie do certyfikacji"]
 excerpt: "Co faktycznie obowiązuje od 8 stycznia 2026? Przede wszystkim: DoP&C online i UPC na dokumencie. Kody QR, GWP i DPP czekają na nowe normy zharmonizowane. Skorzystaj z checklisty oddzielającej obowiązki już aktywne od tych, które dopiero nadejdą."

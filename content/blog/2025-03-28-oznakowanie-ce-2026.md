@@ -2,7 +2,7 @@
 title: "Oznakowanie CE - Nowe Wymagania CPR 2024/3110"
 reviewed: "2026-03-31"
 date: "2025-03-28"
-author: "Tomasz Barto | dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["CE", "oznakowanie", "etykieta", "wymagania", "CPR 2024", "DoP&C"]
 excerpt: "Rozszerzone wymagania dotyczące oznakowania CE w CPR 2024/3110. Obowiązek cyfrowej DoP&C od 8 stycznia 2026. QR kody, klasy środowiskowe, nowe elementy etykiety CE. Praktyczny przewodnik dla producentów."

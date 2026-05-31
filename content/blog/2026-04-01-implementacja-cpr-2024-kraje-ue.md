@@ -2,7 +2,7 @@
 title: "Jak inne kraje UE wdrażają CPR 2024/3110 — przegląd regulacji krajowych"
 reviewed: "2026-04-01"
 date: "2026-04-01"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["implementacja", "kraje UE", "CPR 2024", "regulacje krajowe", "Niemcy", "Francja", "rynek europejski"]
 excerpt: "CPR 2024/3110 obowiązuje w całej UE bezpośrednio, ale każde państwo musi uchwalić własne przepisy krajowe o karach, organach i procedurach. Sprawdzamy jak sobie z tym radzą Niemcy, Francja, Belgia i inne kluczowe rynki — i co to oznacza dla polskich producentów eksportujących."

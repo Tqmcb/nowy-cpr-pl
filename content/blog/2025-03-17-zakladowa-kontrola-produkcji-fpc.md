@@ -2,7 +2,7 @@
 title: "Zakładowa Kontrola Produkcji (FPC) - wymagania i wdrożenie"
 reviewed: "2026-03-31"
 date: "2025-03-17"
-author: "dr inż. Robert Dynarowski | mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["FPC", "kontrola produkcji", "jakość", "audyt"]
 excerpt: "Jak wdrożyć i utrzymać system Zakładowej Kontroli Produkcji zgodny z CPR 2024? Dokumentacja, procedury, audyty i najczęstsze błędy."

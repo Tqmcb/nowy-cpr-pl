@@ -2,7 +2,7 @@
 title: "Nowe i aktualizowane normy zharmonizowane 2026–2028 — co się zmieni dla których wyrobów"
 reviewed: "2026-03-31"
 date: "2026-03-07"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["normy zharmonizowane", "aktualizacje norm", "CPR 2024", "2027", "2028"]
 excerpt: "Wdrożenie CPR 2024/3110 pociąga za sobą falę aktualizacji norm zharmonizowanych dla wyrobów budowlanych. Zmiany obejmą m.in. wyroby izolacyjne (dodanie wskaźnika GWP), stolarkę okienną i drzwiową oraz wyroby do oceny cyklu życia. Omawiamy, czego spodziewać się w latach 2026–2028 i jak producenci powinni się przygotować."

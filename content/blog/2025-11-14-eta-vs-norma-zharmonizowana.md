@@ -2,7 +2,7 @@
 title: "ETA czy norma zharmonizowana — kiedy wybrać Europejską Ocenę Techniczną"
 reviewed: "2026-03-31"
 date: "2025-11-14"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["ETA", "norma zharmonizowana", "EAD", "EOTA", "certyfikacja", "CPR 2024"]
 excerpt: "Producenci wyrobów budowlanych mają do wyboru dwie główne drogi uzyskania oznakowania CE: przez normę zharmonizowaną lub przez Europejską Ocenę Techniczną. Wybór między nimi nie zawsze jest oczywisty i zależy od charakteru wyrobu, dostępności norm oraz strategii rynkowej producenta."

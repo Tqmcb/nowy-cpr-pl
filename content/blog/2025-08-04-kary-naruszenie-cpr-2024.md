@@ -2,7 +2,7 @@
 title: "Kary za naruszenie CPR 2024 — co grozi producentowi za brak CE i DoP&C"
 reviewed: "2026-03-31"
 date: "2025-08-04"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["kary", "sankcje", "CPR 2024", "nadzór rynku", "GUNB", "naruszenie"]
 excerpt: "CPR 2024/3110 zobowiązuje państwa do surowszych sankcji za naruszenia — brak CE, brak DoP&C, brak UPC. Kary za GWP i DPP mogą nastąpić dopiero gdy te wymogi staną się obowiązkowe (po nowych normach zharmonizowanych). Sprawdź co grozi już teraz, a co dopiero."

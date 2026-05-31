@@ -2,7 +2,7 @@
 title: "Jak czytać normę zharmonizowaną — przewodnik po Załączniku ZA"
 reviewed: "2026-03-31"
 date: "2025-11-05"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["norma zharmonizowana", "Załącznik ZA", "AVS", "AVCP", "certyfikacja CPR"]
 excerpt: "Norma zharmonizowana to podstawowy dokument techniczny umożliwiający oznakowanie CE wyrobu budowlanego. Kluczem do jej prawidłowego stosowania jest Załącznik ZA — część wiążąca normę z wymaganiami CPR 2024/3110. Przewodnik wyjaśnia krok po kroku, jak czytać i interpretować ten załącznik."

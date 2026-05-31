@@ -2,7 +2,7 @@
 title: "Dystrybutor wyrobów budowlanych w CPR 2024 — obowiązki i odpowiedzialność"
 reviewed: "2026-03-31"
 date: "2026-03-11"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["dystrybutor", "CPR 2024", "obowiązki", "łańcuch dostaw", "wyroby budowlane", "odpowiedzialność"]
 excerpt: "CPR 2024 nakłada na dystrybutorów wyrobów budowlanych konkretne obowiązki weryfikacyjne i dokumentacyjne. Sprawdź, co musisz sprawdzić przed wprowadzeniem wyrobu do obrotu i jakie kary grożą za zaniedbania."

@@ -2,7 +2,7 @@
 title: "CPR 2024 od 8 stycznia 2026 — co działa od razu, a co czeka na nowe hTS?"
 reviewed: "2026-04-27"
 date: "2026-01-12"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"
 tags: ["CPR 2024", "2026", "AVS", "DoP&C", "obowiązki producenta"]
 excerpt: "Od 8 stycznia 2026 CPR 2024/3110 zastąpiło stare CPR 305/2011, ale obowiązki dla konkretnych rodzin wyrobów uruchamiają się przez nowe zharmonizowane specyfikacje techniczne. Wyjaśniamy, co działa od razu, co pozostaje w okresie przejściowym i kiedy producent nadal stosuje stare hEN."

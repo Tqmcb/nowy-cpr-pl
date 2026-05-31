@@ -2,7 +2,7 @@
 title: "Systemy AVS – Ocena i Weryfikacja Wyrobów Budowlanych (CPR 2024/3110)"
 reviewed: "2026-03-31"
 date: "2025-04-07"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS", "systemy oceny", "certyfikacja", "jednostki notyfikowane", "CPR 2024"]
 excerpt: "Kompletny przegląd systemów AVS 1+, 1, 2+, 3+, 3 i 4 według CPR 2024/3110. Który system dotyczy Twojego wyrobu, jakie są wymagania i koszty certyfikacji? Nowy System 3+ dla oceny środowiskowej."

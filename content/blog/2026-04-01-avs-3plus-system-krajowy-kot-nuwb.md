@@ -2,7 +2,7 @@
 title: "AVS 3+ w systemie krajowym — czy KOT i NUWB przejmą nowy system weryfikacji EPD?"
 reviewed: "2026-04-01"
 date: "2026-04-01"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["AVS 3+", "KOT", "NUWB", "system krajowy", "EPD", "CPR 2024", "certyfikacja", "wyroby budowlane"]
 excerpt: "AVS 3+ to nowy system weryfikacji EPD — ale czy dotyczy też wyrobów w systemie 4? Czy przy systemie 2+ będą dwa oddzielne audyty? I co z producentami działającymi w polskim systemie krajowym (KOT)? Odpowiadamy na te pytania krok po kroku."

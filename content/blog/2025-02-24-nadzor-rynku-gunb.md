@@ -2,7 +2,7 @@
 title: "Nadzór rynku wyrobów budowlanych - GUNB i kontrole"
 reviewed: "2026-03-31"
 date: "2025-02-24"
-author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Tomasz Barto | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["GUNB", "nadzór rynku", "kontrola", "sankcje"]
 excerpt: "Jak działa nadzór rynku wyrobów budowlanych w Polsce? Rola GUNB, procedury kontrolne, najczęstsze nieprawidłowości i sankcje."

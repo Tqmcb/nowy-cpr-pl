@@ -2,7 +2,7 @@
 title: "Upoważniony przedstawiciel producenta w CPR 2024 — kiedy wymagany i jakie ma obowiązki"
 reviewed: "2026-03-31"
 date: "2026-03-24"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["upoważniony przedstawiciel", "CPR 2024", "producent spoza UE", "obowiązki", "odpowiedzialność", "wyroby budowlane"]
 excerpt: "Producent spoza UE sprzedający wyroby budowlane w Polsce musi mieć upoważnionego przedstawiciela w UE. CPR 2024 precyzuje jego obowiązki i odpowiedzialność. Sprawdź, kiedy jest wymagany i jak go wyznaczyć."

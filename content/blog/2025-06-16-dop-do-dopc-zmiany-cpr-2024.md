@@ -2,7 +2,7 @@
 title: "DoP → DoP&C: co konkretnie się zmieniło w deklaracji właściwości użytkowych w CPR 2024"
 reviewed: "2026-03-31"
 date: "2025-06-16"
-author: "Tomasz Barto | dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "mgr inż. Violetta Gładysz-Oczalska | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["DoP&C", "deklaracja właściwości użytkowych", "CPR 2024", "dokumentacja", "certyfikacja"]
 excerpt: "CPR 2024/3110 wprowadza DoP&C — ale przepisy przejściowe pozwalają na dalsze stosowanie starych DoP do czasu aktualizacji normy zharmonizowanej. Wyjaśniamy co się zmieniło, kiedy musisz wystawić DoP&C i co możesz zachować."

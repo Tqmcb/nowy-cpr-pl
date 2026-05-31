@@ -2,7 +2,7 @@
 title: "EAD — Europejski Dokument Oceny dla wyrobów bez normy zharmonizowanej w CPR 2024"
 reviewed: "2026-03-31"
 date: "2026-03-28"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Certyfikacja"
 tags: ["EAD", "ETA", "EOTA", "CPR 2024", "innowacyjne wyroby", "brak normy", "certyfikacja", "TAB"]
 excerpt: "Twój wyrób budowlany nie ma normy zharmonizowanej? EAD i ETA to jedyna ścieżka do CE. Dowiedz się, jak przebiega proces opracowania Europejskiego Dokumentu Oceny, ile trwa i co kosztuje."

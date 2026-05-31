@@ -2,7 +2,7 @@
 title: "Prawo do naprawy i trwałość wyrobów budowlanych — nowe obowiązki producenta w CPR 2024"
 reviewed: "2026-03-31"
 date: "2026-03-18"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Izabela Sztamberek-Sochan | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["prawo do naprawy", "trwałość", "CPR 2024", "cyrkularność", "ESPR", "gospodarka cyrkularna", "producent"]
 excerpt: "CPR 2024 wprowadza wymogi dotyczące trwałości, naprawialności i cyrkularności wyrobów budowlanych. Dowiedz się, co musi deklarować producent i jak prawo do naprawy wpłynie na projektowanie wyrobów."
