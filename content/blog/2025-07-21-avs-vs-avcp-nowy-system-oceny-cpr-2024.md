@@ -146,3 +146,7 @@ Producenci, którzy mają aktualne certyfikaty i raporty z JN, mogą kontynuowa�
 - NANDO — baza jednostek notyfikowanych UE — [ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando/)
 - Rozporządzenie delegowane (UE) 2024/2769 (wprowadzenie systemu 3+ do CPR 305/2011) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402769)
 - EuroWindoor — stanowisko dot. rozbieżności w interpretacji AVS 3 (XI/2025) — [eurowindoor.eu](https://www.eurowindoor.eu/publications/eurowindoor-information-on-the-implementation-and-involvement-of-notified-bodies-nb-in-new-avs-3-different-understanding-by-nb/)
+
+---
+
+*Jeśli porównanie systemu AVS ze starym AVCP nasuwa Wam pytania, chętnie je wyjaśnimy. Zapraszamy do kontaktu z Redakcją na biuro@multicert.pl.*

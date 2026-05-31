@@ -191,3 +191,7 @@ Oznakowanie CE musi być umieszczone na wyrobie, jego etykiecie, opakowaniu lub 
 ## Podsumowanie
 
 Certyfikacja wyrobu budowlanego zgodnie z CPR 2024/3110 to inwestycja czasowa i finansowa, która jednak otwiera dostęp do całego rynku wewnętrznego UE. Kluczem do sprawnego procesu jest właściwe przygotowanie dokumentacji ITT, konsekwentne wdrożenie FPC oraz wybór doświadczonej jednostki notyfikowanej. Producenci, którzy traktują certyfikację jako jednorazowe działanie, a nie ciągły proces zarządzania, prędzej czy później napotkają problemy podczas audytów nadzoru lub kontroli organów rynku.
+
+---
+
+*Jeśli planujecie ścieżkę od ITT do oznakowania CE i chcecie ją omówić dla swojego wyrobu, chętnie pomożemy ją zaplanować. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

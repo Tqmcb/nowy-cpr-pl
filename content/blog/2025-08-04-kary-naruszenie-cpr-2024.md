@@ -115,3 +115,7 @@ Rok 2027 to punkt zwrotny dla egzekucji CPR w Polsce. Producenci i importerzy, k
 - Rozporządzenie (UE) 2024/3110, art. 92 (sankcje) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - GUNB — nadzór rynku wyrobów budowlanych — [gov.pl/web/gunb](https://www.gov.pl/web/gunb)
 - Ministerstwo Rozwoju i Technologii — rewizja CPR — [gov.pl](https://www.gov.pl/web/rozwoj-technologia/wprowadzanie-wyrobow-budowlanych---rewizja-przepisow)
+
+---
+
+*Jeśli temat kar za naruszenie CPR budzi Wasze wątpliwości albo chcecie doprecyzować konkretny przypadek, chętnie odpowiemy. Napiszcie do Redakcji na biuro@multicert.pl.*

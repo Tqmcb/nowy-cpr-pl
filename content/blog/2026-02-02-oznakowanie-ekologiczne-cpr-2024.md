@@ -130,3 +130,7 @@ W praktyce producent wyrobów budowlanych, chcąc prowadzić legalną i wiarygod
 ## Podsumowanie
 
 CPR 2024/3110 i nadchodząca Green Claims Directive tworzą razem nową architekturę wiarygodności środowiskowej w sektorze budowlanym. Dobrowolne, niesprawdzone twierdzenia środowiskowe przestają być bezpieczną strategią marketingową — stają się ryzykiem prawnym. Inwestycja w zweryfikowane EPD i rzetelną komunikację środowiskową to nie tylko obowiązek regulacyjny, ale rosnąca przewaga konkurencyjna na rynku, gdzie nabywcy — od wielkich inwestorów infrastrukturalnych po zamawiających publicznych — coraz precyzyjniej weryfikują środowiskowe deklaracje swoich dostawców.
+
+---
+
+*Jeśli rozróżnienie między Ecolabel, EPD a deklaracjami środowiskowymi rodzi Wasze pytania, chętnie je wyjaśnimy. Piszcie do Redakcji na biuro@multicert.pl.*

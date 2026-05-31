@@ -119,3 +119,7 @@ Przed wystawieniem wyrobu budowlanego w sklepie online warto sprawdzić:
 - Czy procedury wewnętrzne przewidują reagowanie na informacje o niezgodności wyrobu?
 
 Sprzedaż online wyrobów budowlanych jest wygodna i coraz bardziej popularna — ale wymaga takiej samej staranności prawnej i dokumentacyjnej jak handel tradycyjny.
+
+---
+
+*Jeśli obowiązki przy sprzedaży wyrobów online rodzą Wasze pytania albo chcecie doprecyzować swój przypadek, chętnie odpowiemy. Piszcie do Redakcji na biuro@multicert.pl.*

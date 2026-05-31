@@ -164,3 +164,7 @@ Przygotowaliśmy gotowy, interaktywny formularz DoP&C ze wszystkimi 13 polami zg
 ## Podsumowanie
 
 DoP&C jest dokumentem bardziej rozbudowanym niż poprzedni DoP, ale struktura pól pozostaje logiczna i spójna. Kluczowe nowości to: deklaracja SVHC, wskaźnik GWP (dla wybranych wyrobów) oraz wymóg dostępności cyfrowej. Producenci powinni zaktualizować swoje szablony dokumentów i systemy zarządzania dokumentacją, aby w pełni sprostać wymogom CPR 2024/3110 przed datą jego pełnego stosowania.
+
+---
+
+*Jeśli wypełniacie DoP&C i chcecie omówić konkretne pola lub dane wyrobu, chętnie przejrzymy je z Wami. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

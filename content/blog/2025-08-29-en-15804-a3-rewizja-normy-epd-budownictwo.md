@@ -170,3 +170,7 @@ EN 15804+A3 to rewizja o istotnym znaczeniu dla całego sektora budowlanego, wpi
 - **IBU** — Institut Bauen und Umwelt: [https://ibu-epd.com](https://ibu-epd.com)
 - **EUR-Lex** — CPR 2024/3110: [https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - **ISO 21930:2017** — Sustainability in buildings and civil engineering works — Core rules for EPDs: [https://www.iso.org/standard/61694.html](https://www.iso.org/standard/61694.html)
+
+---
+
+*Jeśli nadchodząca rewizja EN 15804+A3 rodzi u Was pytania o wpływ na deklaracje, chętnie je omówimy. Napiszcie do Redakcji na biuro@multicert.pl.*

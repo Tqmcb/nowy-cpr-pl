@@ -89,3 +89,7 @@ Czytając Załącznik ZA nowej normy, warto postępować zgodnie z poniższą ko
 5. Na podstawie ZA.3 przygotuj projekt Deklaracji Właściwości Użytkowych i Zgodności (DoP&C) oraz etykiety CE.
 
 Prawidłowe przeczytanie Załącznika ZA to nie formalność — to podstawa zgodności z CPR 2024/3110 i warunek konieczny legalnego wprowadzenia wyrobu budowlanego do obrotu na terenie Unii Europejskiej.
+
+---
+
+*Jeśli czytanie Załącznika ZA nasuwa Wam pytania albo chcecie, byśmy rozłożyli na czynniki konkretną normę, dajcie znać. Piszcie do Redakcji na biuro@multicert.pl.*

@@ -76,3 +76,7 @@ Najczęstszy problem, jaki widzę podczas inspekcji wstępnych przed certyfikacj
 Drugi element, który systematycznie sprawia kłopoty: kalibracje. Świadectwa wzorcowania przyrządów pomiarowych z przekroczonym terminem ważności to prosta niezgodność, którą można łatwo uniknąć, ustawiając przypomnienie w kalendarzu. A koszt opóźnionej recertyfikacji przyrządu jest wielokrotnie niższy niż koszty opóźnienia certyfikacji całego wyrobu.
 
 Dobrze wdrożony system FPC to nie tylko spełnienie wymogów regulacyjnych — to realne narzędzie poprawy jakości produkcji i redukcji reklamacji. Wdrożenie FPC warto powierzyć firmie z doświadczeniem w branży budowlanej; [Multicert](https://www.multicert.pl) oferuje audyty gotowości, wdrożenie dokumentacji i przygotowanie do inspekcji jednostki notyfikowanej.
+
+---
+
+*Jeśli wdrażacie lub porządkujecie zakładową kontrolę produkcji, chętnie przejrzymy z Wami wymagania i wskażemy luki. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

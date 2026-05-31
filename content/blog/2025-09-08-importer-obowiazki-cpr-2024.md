@@ -92,3 +92,7 @@ W świetle nowych przepisów importerzy powinni niezwłocznie podjąć następuj
 ## Podsumowanie
 
 CPR 2024/3110 stawia importerów wyrobów budowlanych przed nowymi, poważnymi wyzwaniami. Solidarna odpowiedzialność z producentem to nie tylko przepis na papierze — to realne ryzyko finansowe i prawne, które wymaga przemyślanego zarządzania. Importerzy, którzy dotychczas traktowali swoją rolę jako czysto administracyjną, muszą zrewidować swoje podejście i przyjąć aktywną postawę w zakresie zapewnienia zgodności wprowadzanych do obrotu wyrobów budowlanych.
+
+---
+
+*Jeśli nowe obowiązki importera budzą Wasze pytania albo chcecie doprecyzować swoją sytuację, chętnie odpowiemy. Piszcie do Redakcji na biuro@multicert.pl.*

@@ -131,3 +131,7 @@ Poniżej przykładowa lista dokumentów FPC dla zakładu produkującego bloczki 
 ## Podsumowanie
 
 Dobrze wdrożona FPC to nie tylko wymóg formalny — to realne narzędzie zarządzania jakością, które zmniejsza koszty wynikające z reklamacji, odpadów produkcyjnych i przestojów. Małe zakłady, które traktują FPC jako biurokratyczny obowiązek, zazwyczaj mają z nią największe problemy podczas audytów. Te, które traktują ją jako system zarządzania jakością dostosowany do specyfiki wyrobu budowlanego, przechodzą audyty sprawnie i budują trwałą reputację na rynku.
+
+---
+
+*Jeśli prowadzicie mały zakład i chcecie omówić wdrożenie zakładowej kontroli produkcji krok po kroku, chętnie pomożemy. Piszcie na biuro@multicert.pl, bez zobowiązań.*

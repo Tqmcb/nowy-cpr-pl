@@ -162,3 +162,7 @@ Producenci wyrobów, których normy zharmonizowane będą aktualizowane w perspe
 ## Podsumowanie
 
 Lata 2026–2028 będą dla sektora wyrobów budowlanych w UE okresem intensywnych zmian normatywnych, napędzanych wdrożeniem CPR 2024/3110. Największe zmiany dotkną producentów wyrobów izolacyjnych (nowe wymogi deklarowania śladu węglowego — GWP), stolarki okiennej i drzwiowej (aktualizacja EN 14351-1) oraz wszystkich wyrobów, dla których wymagane będzie obliczenie właściwości środowiskowych zgodnie z EN 15804+A2. Kluczem do sprawnego przejścia przez ten okres jest wczesne monitorowanie stanu prac normalizacyjnych, planowanie budżetu na recertyfikację i aktywne uczestnictwo w pracach branżowych organizacji normalizacyjnych.
+
+---
+
+*Jeśli interesuje Was harmonogram konkretnej normy na lata 2026-2028 albo chcecie zaproponować temat, chętnie odpowiemy. Napiszcie do Redakcji na biuro@multicert.pl.*

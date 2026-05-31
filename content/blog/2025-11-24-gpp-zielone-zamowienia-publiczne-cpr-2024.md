@@ -97,3 +97,7 @@ Praktycznie wszystkie grupy wyrobów budowlanych o wysokim wolumenie stosowania 
 ## Podsumowanie
 
 GPP i CPR 2024/3110 tworzą synergię, która nieuchronnie przesuwa standard rynkowy w kierunku powszechnego stosowania EPD i deklarowania GWP. Producenci, którzy uzyskają EPD dziś, będą przygotowani na wymagania zamawiających publicznych, regulacje budowlane i presję nabywców prywatnych, którzy coraz częściej naśladują praktyki z Europy Zachodniej. Czekanie na moment, gdy EPD stanie się wymogiem formalnym w Polsce, to strategia wysokiego ryzyka.
+
+---
+
+*Jeśli temat zielonych zamówień publicznych i GWP jako kryterium budzi Wasze pytania, chętnie je omówimy. Zapraszamy do kontaktu z Redakcją na biuro@multicert.pl.*

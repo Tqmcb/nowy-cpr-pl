@@ -66,3 +66,7 @@ Producenci korzystający z nieaktualnych norm ryzykują:
 ---
 
 Regularnie sprawdzaj aktualność norm, na których podstawie wystawiasz Deklarację Właściwości Użytkowych i Zgodności (DoP&C). Zmiany w hEN mogą wymagać aktualizacji dokumentacji technicznej i powtórzenia części badań.
+
+---
+
+*Jeśli interesuje Was status konkretnej normy zharmonizowanej albo chcecie zaproponować temat na kolejny materiał, chętnie odpowiemy. Napiszcie do Redakcji na biuro@multicert.pl.*

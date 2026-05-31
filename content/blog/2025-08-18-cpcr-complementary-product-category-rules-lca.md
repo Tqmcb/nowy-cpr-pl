@@ -145,3 +145,7 @@ CPCR to kluczowy element normatywny, bez którego poprawna EPD dla wyrobu budowl
 - [CPR 2024/3110 — Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110](https://eur-lex.europa.eu)
 - [Polski Program EPD — epd.org.pl](https://www.epd.org.pl)
 - [IBU EPD — baza CPCR dla Europy](https://ibu-epd.com/en/epd-programme/pcr-process)
+
+---
+
+*Jeśli pracujecie nad obliczeniami LCA i doborem właściwych reguł c-PCR, chętnie przejrzymy z Wami założenia. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

@@ -107,3 +107,7 @@ Dla platform, które działają w wielu krajach UE, wyzwaniem jest ujednolicenie
 ## Podsumowanie
 
 Włączenie platform handlowych online do systemu nadzoru nad rynkiem wyrobów budowlanych to zmiana o daleko idących konsekwencjach. Po raz pierwszy prawo UE wyraźnie mówi, że marketplace nie może być "strefą wolną" od wymogów dla wyrobów budowlanych. Zarówno platformy, jak i sprzedawcy, muszą dostosować się do nowej rzeczywistości: świata, w którym handel online wyrobami budowlanymi podlega tym samym rygorom zgodności co sprzedaż tradycyjna, a cyfrowa dokumentacja jest nie tylko udogodnieniem, ale wymogiem prawnym.
+
+---
+
+*Jeśli obowiązki platform handlowych budzą Wasze pytania albo chcecie doprecyzować konkretny scenariusz, chętnie odpowiemy. Napiszcie do Redakcji na biuro@multicert.pl.*

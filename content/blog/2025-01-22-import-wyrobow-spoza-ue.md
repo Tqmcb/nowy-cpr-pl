@@ -79,3 +79,7 @@ Właściwe zaklasyfikowanie wyrobu do kodu CN jest kluczowe — wpływa na wysok
 ---
 
 Odpowiedzialne podejście do importu to nie tylko kwestia zgodności z prawem — to ochrona Twojej firmy i bezpieczeństwo użytkowników końcowych wyrobów budowlanych.
+
+---
+
+*Jeśli sprowadzacie wyroby spoza UE i zastanawiacie się nad wymaganiami dokumentacyjnymi, pomożemy je uporządkować. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

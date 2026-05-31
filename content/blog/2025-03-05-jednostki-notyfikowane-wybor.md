@@ -97,3 +97,7 @@ Z praktycznego punktu widzenia: zawsze warto zapytać potencjalną JN o referenc
 Pamiętaj, że certyfikat wydany przez jednostkę notyfikowaną jest dokumentem prawnym. Wybierz partnera, któremu możesz zaufać na lata współpracy. W procesie wyboru i koordynacji certyfikacji pomóc może niezależna firma doradcza — [Multicert](https://www.multicert.pl) pośredniczy między producentem a jednostką notyfikowaną, dbając o sprawny przebieg całego procesu.
 
 Sprawdź też ofertę [epd.org.pl](https://www.epd.org.pl) — niezależnego centrum badań i certyfikacji wyrobów budowlanych.
+
+---
+
+*Jeśli wybieracie partnera do oceny zgodności i chcecie omówić swój zakres, chętnie odpowiemy na pytania. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

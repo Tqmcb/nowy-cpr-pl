@@ -121,3 +121,7 @@ Producenci, którzy zaktualizują swoje dokumenty szybko i poprawnie, unikną ry
 - Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
 - Pytania i odpowiedzi KE dotyczące CPR — [ec.europa.eu](https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr/frequently-asked-questions_en)
 - GUNB — informacje o nadzorze rynku wyrobów budowlanych — [gov.pl](https://www.gov.pl/web/gunb)
+
+---
+
+*Jeśli zmiany w przejściu z DoP na DoP&C budzą Wasze pytania, chętnie je wyjaśnimy lub doprecyzujemy wątki. Napiszcie do Redakcji na biuro@multicert.pl.*

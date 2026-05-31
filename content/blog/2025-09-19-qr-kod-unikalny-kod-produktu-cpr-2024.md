@@ -122,3 +122,7 @@ Taki system powinien automatycznie:
 ## Podsumowanie
 
 Obowiązek unikalnego kodu identyfikacyjnego i cyfrowej dostępności DoP&C to nie jednorazowe działanie, ale zmiana o charakterze systemowym. Wymaga inwestycji w infrastrukturę IT, procesów zarządzania danymi i przeszkolenia pracowników. Firmy, które zaczną przygotowania już teraz, unikną kosztownego pośpiechu w ostatniej chwili i zyskają przewagę konkurencyjną na rynku europejskim.
+
+---
+
+*Jeśli temat kodu QR i unikalnego kodu identyfikacyjnego wyrobu rodzi pytania, chętnie je wyjaśnimy. Zapraszamy do kontaktu z Redakcją na biuro@multicert.pl.*

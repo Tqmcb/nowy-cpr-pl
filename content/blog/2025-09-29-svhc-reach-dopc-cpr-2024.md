@@ -108,3 +108,7 @@ Praktyka pokazuje, że producenci wyrobów budowlanych najczęściej napotykają
 ## Podsumowanie
 
 Wymóg deklarowania SVHC w DoP&C to element szerszego trendu w prawie unijnym, zmierzającego do zapewnienia pełnej transparentności chemicznej wyrobów przez cały cykl ich życia — od produkcji, przez użytkowanie, aż po recykling i utylizację. Producenci wyrobów budowlanych, którzy wdrożą te wymagania rzetelnie i terminowo, nie tylko spełnią wymogi prawa, ale również zbudują zaufanie rynkowe i będą gotowi na dalsze zaostrzenie przepisów w nadchodzących latach.
+
+---
+
+*Jeśli zastanawiacie się, jakie substancje SVHC i informacje z REACH ująć w DoP&C, chętnie pomożemy to uporządkować. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

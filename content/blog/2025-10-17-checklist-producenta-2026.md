@@ -153,3 +153,7 @@ Jeśli chcesz zweryfikować swoją gotowość z ekspertem, rozważ zlecenie zewn
 ## Podsumowanie
 
 Wdrożenie CPR 2024 to nie jednorazowe zadanie, ale ciągły proces zarządzania zgodnością regulacyjną. Producenci, którzy podejdą do tego wyzwania systematycznie — zamiast reagować chaotycznie na ostatnią chwilę — nie tylko unikną problemów prawnych, ale zyskają przewagę na rynku: wyroby z przejrzystą dokumentacją cyfrową i potwierdzonymi właściwościami środowiskowymi będą coraz bardziej pożądane przez inwestorów i wykonawców realizujących projekty zgodne z kryteriami ESG.
+
+---
+
+*Jeśli chcecie przejść swoją listę przygotowań na 2026 punkt po punkcie, chętnie wskażemy, co warto domknąć w pierwszej kolejności. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

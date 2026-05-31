@@ -92,3 +92,7 @@ Już teraz warto traktować inwestycję w walidację danych środowiskowych (sys
 ## Podsumowanie
 
 System AVS 3+ to logiczne uzupełnienie nowej architektury CPR 2024 — narzędzie precyzyjnie dostosowane do walidacji danych środowiskowych (wyników LCA), bez zbędnego rozszerzania na certyfikację właściwości technicznych. JN w tym systemie pełni rolę niezależnego audytora metodologicznego, a jej Raport walidacyjny podnosi wiarygodność deklaracji środowiskowych w DoP&C. Producenci, którzy wcześnie wdrożą system 3+, zyskają wiarygodność i przewagę w segmencie rynku, który rośnie najszybciej.
+
+---
+
+*Jeśli przygotowujecie dane środowiskowe do walidacji w systemie AVS 3+, chętnie wskażemy, na co zwrócić uwagę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

@@ -95,3 +95,7 @@ Nowe przepisy CPR 2024 stwarzają szansę na sformalizowanie tego rynku i nadani
 ## Podsumowanie
 
 CPR 2024 tworzy po raz pierwszy spójne ramy prawne dla rynku wtórnego wyrobów budowlanych. Przepisy te balansują między ochroną konsumentów i użytkowników obiektów budowlanych a potrzebą rozwinięcia cyrkularnej gospodarki materiałami budowlanymi. Wdrożenie tych regulacji wymaga od podmiotów rynkowych — od firm rozbiórkowych po sklepy z materiałami z odzysku — zbudowania odpowiednich kompetencji technicznych i procesów dokumentacyjnych.
+
+---
+
+*Jeśli temat wyrobów używanych i z odzysku w drugim obiegu budzi Wasze pytania, chętnie je wyjaśnimy. Piszcie do Redakcji na biuro@multicert.pl.*

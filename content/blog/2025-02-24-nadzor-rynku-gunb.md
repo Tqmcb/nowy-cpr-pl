@@ -104,3 +104,7 @@ Drugi istotny aspekt to kwestia kompetencji osoby, która reprezentuje firmę po
 Warto też wiedzieć, że GUNB korzysta z informacji z Safety Gate — alertów zgłaszanych przez organy innych państw UE. Wyrób, który wrócił z Niemiec lub Francji z alertem w Safety Gate, może być priorytetem do kontroli w Polsce nawet bez dodatkowej skargi. Monitoring Safety Gate w kategorii własnych wyrobów to dobra praktyka, którą polecam każdemu producentowi.
 
 Kontrole GUNB są nieodłącznym elementem rynku budowlanego. Traktuj je nie jako zagrożenie, ale jako motywację do utrzymywania wysokich standardów dokumentacji i jakości wyrobów.
+
+---
+
+*Jeśli temat nadzoru rynku budzi u Was pytania albo chcecie doprecyzować któryś z wątków, chętnie odpowiemy. Piszcie do Redakcji na biuro@multicert.pl.*

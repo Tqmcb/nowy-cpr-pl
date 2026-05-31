@@ -74,3 +74,7 @@ EN 14351-1 dopuszcza tzw. kaskadowanie — rozszerzenie deklaracji na wyroby pod
 ---
 
 Certyfikacja okien i drzwi to inwestycja, która procentuje w postaci dostępu do wymagających rynków i budowania zaufania klientów. Warto zadbać o kompletność dokumentacji i regularność aktualizacji certyfikatów.
+
+---
+
+*Gdy planujecie certyfikację okien lub drzwi według EN 14351-1, pomożemy uporządkować wymagania i dobrać właściwy system oceny. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

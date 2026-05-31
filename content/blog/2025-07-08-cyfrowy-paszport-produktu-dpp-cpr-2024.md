@@ -180,3 +180,7 @@ Producenci, którzy teraz ustandaryzują dane i wdrożą cyfrową dostępność 
 - GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)
 - GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gov.pl/web/gunb](https://www.gov.pl/web/gunb)
 - Projekt Nowej Ustawy o Wyrobach Budowlanych (NUWB) — opublikowany 21.10.2025, Ministerstwo Finansów i Gospodarki
+
+---
+
+*Jeśli temat cyfrowego paszportu wyrobu rodzi pytania albo chcecie, byśmy rozwinęli któryś aspekt, dajcie znać. Piszcie do Redakcji na biuro@multicert.pl.*

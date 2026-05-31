@@ -104,3 +104,7 @@ Ma to szczególne znaczenie dla EPS i XPS (związane z HBCD i blowing agents) or
 ---
 
 Producenci wyrobów izolacyjnych stoją przed największą zmianą regulacyjną od lat. Wczesne przygotowanie EPD i dostosowanie systemów FPC do nowych wymogów środowiskowych to klucz do utrzymania pozycji rynkowej po 2027 roku.
+
+---
+
+*Jeśli ustalacie ścieżkę oceny lub dobór normy dla swoich wyrobów izolacyjnych, chętnie przejrzymy z Wami wymagania i wskażemy właściwe rozwiązanie. Napiszcie do nas na biuro@multicert.pl, bez zobowiązań.*

@@ -71,3 +71,7 @@ Narzędziem do ich obliczenia jest **analiza cyklu życia (LCA — Life Cycle As
 ---
 
 Paszport wyrobu budowlanego (DPP) to przyszły wymóg prawny, który stanie się obowiązkowy dopiero po opublikowaniu nowych norm zharmonizowanych (hTS — harmonized Technical Specification) i aktów wykonawczych KE — na marzec 2026 żadne z tych warunków nie zostało spełnione. Już teraz jest jednak szansą na wyróżnienie się na rynku i budowanie przewagi konkurencyjnej opartej na transparentności i zrównoważonym rozwoju.
+
+---
+
+*Jeśli temat paszportu wyrobu budzi pytania albo chcecie, byśmy rozwinęli któryś wątek, dajcie znać. Piszcie do Redakcji na biuro@multicert.pl.*
