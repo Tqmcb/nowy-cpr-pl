@@ -138,6 +138,7 @@ export default function AutorPage() {
           </section>
 
           {/* Education */}
+          {author.education.length > 0 && (
           <section>
             <h2 className="text-[oklch(20% .03 264)] font-semibold text-lg flex items-center gap-2 mb-4">
               <GraduationCap className="w-5 h-5 text-[oklch(55% .22 27)]" /> Wykształcenie
@@ -154,6 +155,7 @@ export default function AutorPage() {
               ))}
             </ul>
           </section>
+          )}
 
           {/* Awards */}
           {author.awards.length > 0 && (

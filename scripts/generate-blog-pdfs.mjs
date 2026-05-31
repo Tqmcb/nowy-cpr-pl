@@ -33,6 +33,7 @@ const AUTHOR_SLUGS = {
   'Izabela Sztamberek-Sochan': 'izabela-sztamberek-sochan',
   'Tomasz Barto': 'tomasz-barto',
   'Grzegorz Suwara': 'grzegorz-suwara',
+  'Dariusz Samsel': 'dariusz-samsel',
 };
 
 // Zwraca avatar autora: zdjęcie (jpg jako data URI) lub sygnet SVG, lub '' gdy brak

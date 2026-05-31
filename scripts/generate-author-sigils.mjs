@@ -48,6 +48,7 @@ const AUTHORS = {
   'izabela-sztamberek-sochan': 'IS',
   'tomasz-barto': 'TB',
   'grzegorz-suwara': 'GS',
+  'dariusz-samsel': 'DS',
 };
 
 let n = 0;

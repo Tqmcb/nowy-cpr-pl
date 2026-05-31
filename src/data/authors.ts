@@ -382,6 +382,34 @@ export const AUTHORS: Record<string, Author> = {
       },
     ],
   },
+  "dariusz-samsel": {
+    slug: "dariusz-samsel",
+    name: "Dariusz Samsel",
+    shortTitle: "Audytor — Multicert Sp. z o.o. · specjalista laboratoryjny",
+    shortBio:
+      "Audytor w Multicert Sp. z o.o. — akredytowanej jednostce certyfikującej — związany z laboratorium badań wyrobów budowlanych. Specjalizuje się w ocenie zgodności konstrukcji stalowych pod CPR 2024/3110.",
+    fullBio:
+      "Dariusz Samsel jest audytorem w Multicert Sp. z o.o. (www.multicert.com.pl) — akredytowanej jednostce certyfikującej wyroby budowlane — oraz pracuje w laboratorium badań wyrobów budowlanych.\n\nSpecjalizuje się w ocenie zgodności konstrukcji stalowych w świetle CPR 2024/3110, łącząc praktykę laboratoryjną z wiedzą o systemie oceny i weryfikacji wyrobów budowlanych.",
+    roles: [
+      "Audytor — Multicert Sp. z o.o.",
+      "Specjalista laboratoryjny — badania wyrobów budowlanych",
+    ],
+    expertise: [
+      "Konstrukcje stalowe pod CPR 2024/3110",
+      "Ocena zgodności wyrobów budowlanych",
+      "Badania laboratoryjne wyrobów",
+    ],
+    education: [],
+    awards: [],
+    publications: [
+      {
+        title: "Stal konstrukcyjna w nowym CPR — obowiązkowa norma i akt delegowany w drugim kwartale 2026",
+        year: 2026,
+        description: "Konstrukcyjne wyroby metalowe jako pierwsza rodzina z obowiązkową normą i aktem delegowanym w Planie Prac CPR — co to znaczy dla producentów stali.",
+        url: "/blog/stal-konstrukcyjna-cpr-2024-obowiazkowa-norma",
+      },
+    ],
+  },
 };
 
 /** Zwraca autora po slugu lub null */
@@ -405,6 +433,7 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
   "Sławomir Słowik": "slawomir-slowik",
   "mgr inż. Sławomir Słowik": "slawomir-slowik",
   "Slawomir Slowik": "slawomir-slowik",
+  "Dariusz Samsel": "dariusz-samsel",
 };
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */
