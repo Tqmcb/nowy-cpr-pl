@@ -26,10 +26,10 @@ Poniższa tabela zestawia kamienie milowe dla tej rodziny według Tabeli 3 Planu
 
 | Etap | Termin według Planu Prac |
 |---|---|
-| Milestone I oraz Milestone III | zakończone |
+| Etap I oraz Etap III | zakończone |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | trzeci kwartał 2025 |
-| Oczekiwana dostawa norm | trzeci kwartał 2027 |
-| Norma nadana obowiązkową | czwarty kwartał 2027 |
+| Spodziewana publikacja norm | trzeci kwartał 2027 |
+| Nadanie normie statusu obowiązkowego | czwarty kwartał 2027 |
 
 Rodzina cementów jest więc w grupie zaawansowanej — prace nad zakresem i treścią techniczną są zakończone, a wniosek normalizacyjny już złożony. Nadanie normom statusu obowiązkowego przewidziano na czwarty kwartał 2027 roku.
 

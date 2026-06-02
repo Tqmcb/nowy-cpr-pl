@@ -28,18 +28,18 @@ Kruszywa (rodzina 24):
 
 | Etap | Termin według Planu Prac |
 |---|---|
-| Milestone III — przygotowanie treści technicznej | II kwartał 2026 |
+| Etap III — przygotowanie treści technicznej | II kwartał 2026 |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | I kwartał 2027 |
-| Oczekiwana dostawa norm | 2029 |
+| Spodziewana publikacja norm | 2029 |
 
-Dla kruszyw dostawa norm wypada najpóźniej z całego pakietu prac, co paradoksalnie daje tej branży najwięcej spokojnego czasu na przygotowanie danych i dokumentacji, zanim pojawią się wiążące powołania.
+Dla kruszyw publikacja norm wypada najpóźniej z całego pakietu prac, co paradoksalnie daje tej branży najwięcej spokojnego czasu na przygotowanie danych i dokumentacji, zanim pojawią się wiążące powołania.
 
 Druga rodzina obejmuje wyroby do budowy dróg, w tym mieszanki mineralno-asfaltowe (rodzina 23):
 
 | Etap | Termin według Planu Prac |
 |---|---|
-| Milestone I — definicja zakresu rodziny | I kwartał 2026 |
-| Milestone III — przygotowanie treści technicznej | III kwartał 2026 |
+| Etap I — definicja zakresu rodziny | I kwartał 2026 |
+| Etap III — przygotowanie treści technicznej | III kwartał 2026 |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | 2027 |
 
 Z zestawienia widać, że obie rodziny są w środku kolejki: treść techniczna dopiero powstaje, a wnioski normalizacyjne ruszą w 2027 roku. To znaczy, że gotowych, nowych norm zharmonizowanych dla tych wyrobów jeszcze nie ma — i nie pojawią się z dnia na dzień.
@@ -62,7 +62,7 @@ Multicert prowadzi audyty zakładowej kontroli produkcji, weryfikację deklaracj
 
 ## Podsumowanie
 
-Kruszywa i mieszanki mineralno-asfaltowe są w środku harmonogramu CPR: treść techniczna powstaje teraz, wnioski normalizacyjne ruszą w 2027 roku, a dostawa norm dla kruszyw przewidziana jest na 2029 rok. Do tego czasu obowiązują dotychczasowe powołania, a daty z Planu Prac należy traktować jako kierunek, nie jako zmianę obowiązków. Najlepszą inwestycją w tym okresie jest uporządkowanie zakładowej kontroli produkcji i danych środowiskowych — bo to one przesądzą o sprawnym przejściu, gdy nowe normy się pojawią.
+Kruszywa i mieszanki mineralno-asfaltowe są w środku harmonogramu CPR: treść techniczna powstaje teraz, wnioski normalizacyjne ruszą w 2027 roku, a publikacja norm dla kruszyw przewidziana jest na 2029 rok. Do tego czasu obowiązują dotychczasowe powołania, a daty z Planu Prac należy traktować jako kierunek, nie jako zmianę obowiązków. Najlepszą inwestycją w tym okresie jest uporządkowanie zakładowej kontroli produkcji i danych środowiskowych — bo to one przesądzą o sprawnym przejściu, gdy nowe normy się pojawią.
 
 ---
 

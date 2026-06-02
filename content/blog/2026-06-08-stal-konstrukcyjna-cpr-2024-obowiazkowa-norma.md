@@ -32,11 +32,11 @@ Poniższa tabela zestawia kamienie milowe dla tej rodziny wyrobów według Tabel
 
 | Etap | Termin według Planu Prac |
 |---|---|
-| Milestone I — definicja zakresu rodziny | zakończony |
-| Milestone III — przygotowanie treści technicznej | zakończony |
+| Etap I — definicja zakresu rodziny | zakończony |
+| Etap III — przygotowanie treści technicznej | zakończony |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | III kwartał 2025 |
-| Oczekiwana dostawa normy | IV kwartał 2025 |
-| Norma nadana obowiązkową + przyjęcie aktu delegowanego | **II kwartał 2026** |
+| Spodziewana publikacja normy | IV kwartał 2025 |
+| Nadanie normie statusu obowiązkowego + przyjęcie aktu delegowanego | **II kwartał 2026** |
 
 Plan Prac odnotowuje przy tym istotne zastrzeżenie: powołanie normy dla tej rodziny **jest obecnie utrzymywane jeszcze w reżimie starego CPR 305/2011**. Jeżeli norma nie zostanie dostarczona w terminie albo nie będzie zgodna z wnioskiem, Komisja przewiduje uruchomienie nowego wniosku normalizacyjnego pod nowym rozporządzeniem, z terminem dostawy przesuniętym na rok 2027.
 

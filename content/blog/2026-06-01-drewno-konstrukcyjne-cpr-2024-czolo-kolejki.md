@@ -32,10 +32,10 @@ Poniższa tabela zestawia kamienie milowe dla tej rodziny wyrobów według Tabel
 
 | Etap | Termin według Planu Prac |
 |---|---|
-| Milestone I — definicja zakresu rodziny | w toku |
-| Milestone III — przygotowanie treści technicznej | I kwartał 2026 |
+| Etap I — definicja zakresu rodziny | w toku |
+| Etap III — przygotowanie treści technicznej | I kwartał 2026 |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | III kwartał 2026 |
-| Oczekiwana dostawa norm | 2029 |
+| Spodziewana publikacja norm | 2029 |
 
 Z zestawienia wynika ważny wniosek: choć prace ruszają wcześnie, **gotowe nowe normy zharmonizowane pojawią się dopiero pod koniec dekady**. Wczesny start dotyczy etapu przygotowania i wniosku normalizacyjnego, a nie samej dostawy norm. To rozróżnienie chroni przed pochopnym wnioskiem, że „drewno zmienia się już teraz".
 
@@ -59,7 +59,7 @@ Konstrukcyjne wyroby drewniane podlegają ocenie zgodności w systemie AVS wła�
 
 ## Podsumowanie
 
-Konstrukcyjne wyroby drewniane, scalone w pracach z płytami drewnopochodnymi, ruszają wcześnie: treść techniczna powstaje teraz, wniosek normalizacyjny przypada na trzeci kwartał 2026 roku, a dostawa norm — na 2029 rok. Wczesny start nie oznacza jednak natychmiastowej zmiany obowiązków: do publikacji wiążących dokumentów podstawą deklaracji pozostają dotychczasowe powołania. Producent, który już teraz uporządkuje podstawy zgodności i zakładową kontrolę produkcji, wejdzie w zmianę spokojnie.
+Konstrukcyjne wyroby drewniane, scalone w pracach z płytami drewnopochodnymi, ruszają wcześnie: treść techniczna powstaje teraz, wniosek normalizacyjny przypada na trzeci kwartał 2026 roku, a publikacja norm — na 2029 rok. Wczesny start nie oznacza jednak natychmiastowej zmiany obowiązków: do publikacji wiążących dokumentów podstawą deklaracji pozostają dotychczasowe powołania. Producent, który już teraz uporządkuje podstawy zgodności i zakładową kontrolę produkcji, wejdzie w zmianę spokojnie.
 
 ---
 
