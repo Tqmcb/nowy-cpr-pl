@@ -645,28 +645,6 @@ function SharedHero({
       className="relative pt-14 pb-10 md:pt-16 md:pb-12 overflow-hidden"
       style={{ backgroundColor: "oklch(20% .03 264)" }}
     >
-      {/* Photo background */}
-      {post.image_url && (
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `url('${post.image_url}')`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-      )}
-      {/* Dark overlay — readability */}
-      {post.image_url && (
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(to bottom, oklch(20% .03 264 / 0.55) 0%, oklch(20% .03 264 / 0.92) 100%)",
-          }}
-        />
-      )}
-
       {/* Masthead rules — white on dark */}
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
@@ -704,6 +682,18 @@ function SharedHero({
           </span>
         </div>
       </div>
+
+      {/* Featured cover image — pełny, widoczny pod tytułem */}
+      {post.image_url && (
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 mt-8 md:mt-10">
+          <img
+            src={post.image_url}
+            alt={post.title}
+            className="w-full rounded-2xl ring-1 ring-white/15 shadow-2xl"
+            loading="eager"
+          />
+        </div>
+      )}
 
       {/* Scroll hint — brand-red indicator */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 animate-pulse">
