@@ -9,14 +9,15 @@ excerpt: "Rozporządzenie delegowane (UE) 2026/331 ustanawia klasy reakcji na og
 image_url: /images/blog/klasy-reakcji-na-ogien-cpr-2024.jpg
 template: "regulacja"
 sources:
-  - Rozporządzenie delegowane (UE) 2026/331 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg_del/2026/331/oj
+  - Rozporządzenie delegowane (UE) 2026/331 — klasy reakcji na ogień (PL)|https://eur-lex.europa.eu/eli/reg_del/2026/331/oj
+  - Rozporządzenie delegowane (UE) 2026/557 — klasy odporności ogniowej (PL)|https://eur-lex.europa.eu/eli/reg_del/2026/557/oj
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
   - Rozporządzenie delegowane (UE) 2016/364 — klasy reakcji na ogień pod CPR 305/2011|https://eur-lex.europa.eu/eli/reg_del/2016/364/oj
 ---
 
 # Klasy reakcji na ogień w nowym CPR — Euroklasy przeniesione aktem delegowanym 2026/331
 
-Reakcja na ogień to jedna z najważniejszych zasadniczych charakterystyk wyrobów budowlanych — i pierwsza, dla której Komisja Europejska ustaliła klasy właściwości użytkowych pod nowym rozporządzeniem. [Rozporządzenie delegowane Komisji (UE) 2026/331](https://eur-lex.europa.eu/eli/reg_del/2026/331/oj) z dnia 13 lutego 2026 r. zostało opublikowane w Dzienniku Urzędowym Unii Europejskiej 21 kwietnia 2026 r. i weszło w życie dwudziestego dnia później, czyli **11 maja 2026 r.** Dla producentów oznacza to konkretną zmianę porządkującą: znany od lat system Euroklas — od A1 po F — ma od teraz wyraźną podstawę prawną w reżimie [CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol).
+Reakcja na ogień to jedna z najważniejszych zasadniczych charakterystyk wyrobów budowlanych, a klasy dla niej Komisja Europejska ustaliła jako jedne z pierwszych pod nowym rozporządzeniem. [Rozporządzenie delegowane Komisji (UE) 2026/331](https://eur-lex.europa.eu/eli/reg_del/2026/331/oj) z dnia 13 lutego 2026 r. zostało opublikowane w Dzienniku Urzędowym Unii Europejskiej 21 kwietnia 2026 r. i weszło w życie dwudziestego dnia później, czyli **11 maja 2026 r.** To zarazem jeden z dwóch pierwszych aktów delegowanych wydanych pod nowym CPR — drugi, o odporności ogniowej, omawiamy poniżej. Dla producentów oznacza to konkretną zmianę porządkującą: znany od lat system Euroklas — od A1 po F — ma od teraz wyraźną podstawę prawną w reżimie [CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol).
 
 W tym artykule wyjaśniamy, skąd wziął się ten akt, co dokładnie ustanawia, dlaczego klasy się nie zmieniły, choć zmieniła się ich podstawa, oraz jak odróżnić ustanowienie klasy od momentu, w którym dana metoda badań staje się obowiązkowa.
 
@@ -27,6 +28,17 @@ Klasy reakcji na ogień nie są niczym nowym. Pod poprzednim rozporządzeniem �
 Lukę tę zamyka akt 2026/331. Jak wprost stwierdza jego motyw drugi, grupa ekspertów do spraw dorobku prawnego związanego z rozporządzeniem w sprawie wyrobów budowlanych zaleciła Komisji ustanowienie **tych samych klas, które określono w rozporządzeniu 2016/364** — po to, by zachować ciągłość systemu. Podstawą prawną jest art. 5 ust. 5 akapit trzeci CPR 2024/3110, który upoważnia Komisję do określania klas właściwości użytkowych dla zasadniczych charakterystyk w drodze aktu delegowanego.
 
 W praktyce: producent, który zna Euroklasy ze starego CPR, nie musi uczyć się nowej siatki. Zmienia się dokument, do którego się odwołuje, a nie sama klasyfikacja.
+
+## Reakcja na ogień to nie odporność ogniowa — dwa akty, dwie charakterystyki
+
+Akt 2026/331 nie jest jedynym aktem ogniowym wydanym pod nowym CPR. Komisja przyjęła równolegle [rozporządzenie delegowane (UE) 2026/557](https://eur-lex.europa.eu/eli/reg_del/2026/557/oj) z dnia 16 marca 2026 r., które na tej samej podstawie prawnej ustanawia klasy dla drugiej charakterystyki ogniowej — **odporności ogniowej**. Akt ten opublikowano 3 czerwca 2026 r., a wchodzi w życie 23 czerwca 2026 r. Razem stanowią dwa pierwsze akty delegowane określające klasy właściwości użytkowych pod CPR 2024/3110.
+
+Obie charakterystyki bywają mylone, choć opisują co innego:
+
+- **Reakcja na ogień** (akt 2026/331) mówi o tym, **jak sam wyrób przyczynia się do powstania i rozwoju pożaru** — czy się zapala, ile ciepła i dymu wydziela, czy odpadają płonące krople. To Euroklasy od A1 do F.
+- **Odporność ogniowa** (akt 2026/557) mówi o tym, **jak długo element budowlany pełni swoją funkcję w już rozwiniętym pożarze** — zachowuje nośność (R), szczelność (E) i izolacyjność (I). Klasy wyraża się w minutach, na przykład EI 30 czy REI 60.
+
+Dla producenta praktyczny wniosek jest taki: jeden wyrób może podlegać obu klasyfikacjom naraz, ustalanym w osobnych badaniach i na podstawie osobnych aktów. W tym artykule skupiamy się na reakcji na ogień; odporność ogniowa rządzi się własnym zestawem klas z aktu 2026/557.
 
 ## Euroklasy — siedem poziomów udziału w pożarze
 
@@ -84,6 +96,8 @@ Dla większości producentów akt 2026/331 to dobra wiadomość: nie wymusza pon
 Reakcja na ogień to charakterystyka rozstrzygana w laboratorium, a samą klasyfikację wykonuje się na podstawie sprawozdań z badań zgodnie z EN 13501-1. To odrębna ścieżka od oceny zakładowej kontroli produkcji i od certyfikacji systemów zarządzania.
 
 ## Rola jednostki w gotowości do oceny
+
+Rola jednostek w nowym systemie wkrótce zyska własną podstawę. Komisja zapowiada, że kolejny akt delegowany obejmie **systemy oceny i weryfikacji właściwości użytkowych (AVS), w tym rolę i zadania stron trzecich** — czyli jednostek oceniających i notyfikowanych. Publikację przewidziano na najbliższe miesiące i będzie to kolejny krok wdrażania CPR 2024. Do tego czasu, podobnie jak przy klasach reakcji na ogień, wiążące pozostają dotychczasowe zasady przypisania systemów oceny; zapowiedź warto traktować jako sygnał, a nie stan obowiązujący.
 
 Multicert jako jednostka certyfikująca wspiera producentów w przygotowaniu [zakładowej kontroli produkcji](/blog/zakladowa-kontrola-produkcji-fpc) oraz w certyfikacji systemów zarządzania — obszarach, które stanowią podbudowę gotowości do oceny zgodności w systemie AVS właściwym dla danej rodziny wyrobów. W zakresie samych badań reakcji na ogień i sporządzenia raportu klasyfikacyjnego producent współpracuje z akredytowanym laboratorium oraz, tam gdzie wymaga tego system oceny, z jednostką notyfikowaną. Jak czytać przypisany rodzinie system AVS i co sprawdza każda strona procesu, wyjaśniamy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
 
