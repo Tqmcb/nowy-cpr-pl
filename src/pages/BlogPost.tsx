@@ -645,7 +645,7 @@ function SharedHero({
       className="relative pt-14 pb-10 md:pt-16 md:pb-12 overflow-hidden"
       style={{ backgroundColor: "oklch(20% .03 264)" }}
     >
-      {/* Atmospheric photo background — subtle, blurred (tytuł pozostaje czytelny) */}
+      {/* Cover jako tło hero — skala widoczna u dołu, ciemniej u góry pod tytułem */}
       {post.image_url && (
         <>
           <div
@@ -653,17 +653,15 @@ function SharedHero({
             style={{
               backgroundImage: `url('${post.image_url}')`,
               backgroundSize: "cover",
-              backgroundPosition: "center",
-              filter: "blur(3px)",
-              transform: "scale(1.06)",
-              opacity: 0.5,
+              backgroundPosition: "center bottom",
+              opacity: 0.95,
             }}
           />
           <div
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(to bottom, oklch(20% .03 264 / 0.70) 0%, oklch(20% .03 264 / 0.90) 100%)",
+                "linear-gradient(to bottom, oklch(15% .03 264 / 0.86) 0%, oklch(15% .03 264 / 0.62) 48%, oklch(15% .03 264 / 0.28) 100%)",
             }}
           />
         </>
@@ -706,18 +704,6 @@ function SharedHero({
           </span>
         </div>
       </div>
-
-      {/* Featured cover image — pełny, widoczny pod tytułem */}
-      {post.image_url && (
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 mt-8 md:mt-10">
-          <img
-            src={post.image_url}
-            alt={post.title}
-            className="w-full rounded-2xl ring-1 ring-white/15 shadow-2xl"
-            loading="eager"
-          />
-        </div>
-      )}
 
       {/* Scroll hint — brand-red indicator */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 animate-pulse">
