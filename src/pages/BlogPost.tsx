@@ -645,6 +645,30 @@ function SharedHero({
       className="relative pt-14 pb-10 md:pt-16 md:pb-12 overflow-hidden"
       style={{ backgroundColor: "oklch(20% .03 264)" }}
     >
+      {/* Atmospheric photo background — subtle, blurred (tytuł pozostaje czytelny) */}
+      {post.image_url && (
+        <>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url('${post.image_url}')`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              filter: "blur(3px)",
+              transform: "scale(1.06)",
+              opacity: 0.5,
+            }}
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(to bottom, oklch(20% .03 264 / 0.70) 0%, oklch(20% .03 264 / 0.90) 100%)",
+            }}
+          />
+        </>
+      )}
+
       {/* Masthead rules — white on dark */}
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
