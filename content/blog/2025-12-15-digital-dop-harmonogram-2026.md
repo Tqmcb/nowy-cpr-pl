@@ -1,6 +1,6 @@
 ---
 title: "Digital DoP&C — aktualny harmonogram i co producenci muszą zrobić już teraz"
-reviewed: "2026-03-31"
+reviewed: "2026-06-15"
 date: "2025-12-15"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
@@ -17,7 +17,7 @@ sources:
 
 Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C) to jeden z najbardziej dyskutowanych elementów CPR 2024/3110. W 2026 roku sytuacja zaczyna się krystalizować — wyjaśniamy, co jest już pewne, a na co jeszcze czekamy.
 
-## Aktualny stan na luty 2026
+## Aktualny stan na czerwiec 2026
 
 ### Co już obowiązuje?
 
@@ -36,6 +36,12 @@ CPR 2024/3110 przewiduje, że DoP&C powinna być **dostępna online**. Od 8 styc
 **Centralne repozytorium EU** — Komisja planuje stworzenie platformy cyfrowej (lub zestandaryzowanego protokołu dla krajowych i prywatnych repozytoriów). Termin: **2027–2028**.
 
 **Obowiązkowy QR kod na etykiecie CE** — powiązany z przyjęciem aktów delegowanych. Aktualnie: dobrowolny (choć CPR 2024 przewiduje go jako docelowy element etykiety).
+
+### Aktualizacja — zbliżający się termin rejestru DPP (czerwiec 2026)
+
+Na podstawie art. 13 Rozporządzenia ESPR (UE) 2024/1781 Komisja Europejska jest zobowiązana do uruchomienia centralnego **rejestru Cyfrowych Paszportów Produktów do 19 lipca 2026 r.** — za kilka tygodni. Rejestr będzie przechowywał unikalne identyfikatory DPP i stanowi infrastrukturę wspólną dla paszportów produktu we wszystkich sektorach objętych ESPR i CPR.
+
+Uruchomienie rejestru to infrastruktura techniczna, a nie automatyczny obowiązek dla producentów wyrobów budowlanych. Dla wyrobów budowlanych obowiązek DPP wymaga jeszcze aktów delegowanych CPR — których nie ma. Jednak uruchomienie rejestru to sygnał postępu: infrastruktura powstaje, a kolejne akty delegowane (zaczynając od sektorów z wyrobami elektrycznymi i tekstyliami, planowanymi na 2027 r.) będą na nią wskazywać.
 
 ## Co warto zrobić już teraz — bez czekania na akty delegowane?
 

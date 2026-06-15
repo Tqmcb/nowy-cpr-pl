@@ -1,6 +1,6 @@
 ---
 title: "GWP w CPR 2024 — kiedy stanie się obowiązkowe i jak zbierać dane już teraz"
-reviewed: "2026-04-20"
+reviewed: "2026-06-15"
 date: "2025-06-27"
 author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko"
@@ -11,6 +11,7 @@ template: "analiza"
 sources:
   - Rozporządzenie (UE) 2024/3110 art. 19–21 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
   - EN 15804+A2 — metodologia LCA dla wyrobów budowlanych|https://www.pkn.pl
+  - Rozporządzenie delegowane (UE) 2026/52 — unijne ramy GWP budynku (CELEX 32026R0052)|https://eur-lex.europa.eu/eli/reg_del/2026/52/oj/eng
 ---
 
 # GWP w CPR 2024 — jak przygotować się już teraz
@@ -97,6 +98,21 @@ CPR 2024 wprowadził nowy **System AVS 3+** — system oceny i weryfikacji przez
 ### Krok 4: Wpisz GWP do DoP&C
 
 Po uzyskaniu obliczeń, wartość GWP (wyrażona w kg CO₂ eq. / jednostkę funkcjonalną) trafia jako jedna z charakterystyk do tabeli właściwości użytkowych w DoP&C.
+
+## GWP wyrobu a obowiązki na poziomie budynku — nowe ramy prawne (aktualizacja czerwiec 2026)
+
+W maju 2026 r. weszło w życie **Rozporządzenie delegowane Komisji (UE) 2026/52** (CELEX: 32026R0052), wydane na podstawie art. 7 dyrektywy EPBD (UE) 2024/1275. Akt ten ustanawia unijne ramy obliczania GWP nowych budynków w cyklu życia — metodologią bazową jest EN 15978.
+
+To ważne dla producenta wyrobu, choć obowiązek z tego aktu spoczywa na inwestorze i projektancie budynku, a nie bezpośrednio na producencie. Mechanizm jest następujący: projektant oblicza GWP budynku (EN 15978) korzystając jako danych wejściowych z GWP wyrobów (EN 15804+A2, deklarowanego przez producenta pod CPR). **Producent bez deklaracji środowiskowej wyrobu nie jest w stanie dostarczyć danych, których projektant potrzebuje.**
+
+Terminy wynikające z Rozporządzenia delegowanego 2026/52:
+
+| Termin | Obowiązek na poziomie budynku |
+|---|---|
+| **1 stycznia 2028** | Budynki nowe o powierzchni >1 000 m² — obowiązek obliczenia i ujawnienia GWP budynku na świadectwie charakterystyki energetycznej |
+| **1 stycznia 2030** | Wszystkie budynki nowe — ten sam obowiązek bez progu powierzchni |
+
+Inwestorzy realizujący projekty z pozwoleniami wybudowania planowanymi po 2028 roku już dziś zwracają się do dostawców materiałów z pytaniem o dane środowiskowe wyrobu. To przesuwa rynkowy termin gotowości producenta znacznie wcześniej niż formalne wejście w życie obowiązku z CPR.
 
 ## Dlaczego warto zacząć teraz, skoro termin jest za rok–dwa?
 

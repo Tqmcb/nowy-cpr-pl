@@ -1,11 +1,11 @@
 ---
 title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024 — co to jest, kiedy obowiązkowy i dla których wyrobów"
-reviewed: "2026-03-31"
+reviewed: "2026-06-15"
 date: "2025-07-08"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
 tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability", "GUNB", "Polska", "kary"]
-excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
+excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (czerwiec 2026) kary za DPP są niemożliwe, choć rejestr ESPR uruchamiany jest 19 lipca."
 image_url: /images/blog/cyfrowy-paszport-produktu-dpp-cpr-2024-v2.jpg
 template: "analiza"
 sources:
@@ -34,7 +34,9 @@ Rozporządzenie CPR 2024/3110 wprowadza DPP w **art. 75–80**. Kluczowe postano
 3. **Rejestr DPP prowadzony przez KE** — KE zobowiązana do uruchomienia do 19 lipca 2026 r.
 4. **Zasady dla dostawców usług DPP** — określone w osobnym akcie delegowanym KE
 
-> **Kluczowy mechanizm:** DPP staje się obowiązkowy dopiero gdy: (1) CEN opublikuje nową normę zharmonizowaną (hTS) dla danej rodziny wyrobów w Dz.U. UE, (2) upłynie okres koegzystencji (zazwyczaj 12–36 mies.) i stara norma zostanie wycofana, ORAZ (3) KE wyda akty wykonawcze z technicznymi wymaganiami systemu DPP. Na marzec 2026 żadne z tych warunków nie zostało spełnione.
+> **Kluczowy mechanizm:** DPP staje się obowiązkowy dopiero gdy: (1) CEN opublikuje nową normę zharmonizowaną (hTS) dla danej rodziny wyrobów w Dz.U. UE, (2) upłynie okres koegzystencji (zazwyczaj 12–36 mies.) i stara norma zostanie wycofana, ORAZ (3) KE wyda akty wykonawcze z technicznymi wymaganiami systemu DPP. Na czerwiec 2026 żadne z tych warunków nie zostało spełnione.
+
+> **Aktualizacja czerwiec 2026 — rejestr ESPR za 34 dni:** Na podstawie art. 13 Rozporządzenia ESPR (UE) 2024/1781 Komisja Europejska jest zobowiązana do uruchomienia centralnego rejestru Cyfrowych Paszportów Produktów do **19 lipca 2026 r.** Rejestr będzie przechowywał unikalne identyfikatory DPP i stanowi infrastrukturę wspólną dla DPP we wszystkich sektorach — w tym docelowo dla wyrobów budowlanych. Uruchomienie rejestru nie jest równoznaczne z obowiązkiem dla producentów wyrobów budowlanych (ten nadal wymaga aktów delegowanych CPR), ale to istotny sygnał postępu wdrożenia systemu.
 
 ## Kiedy DPP stanie się obowiązkowy?
 
@@ -49,13 +51,13 @@ To pytanie, które zadają wszyscy producenci. Odpowiedź jest złożona:
 
 **Wniosek praktyczny:** w 2026 roku DPP **nie jest jeszcze obowiązkowy** dla żadnego wyrobu budowlanego — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE określających techniczne wymagania DPP. Przygotowanie infrastruktury danych teraz to inwestycja, nie strata czasu.
 
-## Sytuacja prawna w Polsce — marzec 2026
+## Sytuacja prawna w Polsce — czerwiec 2026
 
 CPR 2024/3110 jest **rozporządzeniem UE** (nie dyrektywą), więc stosuje się bezpośrednio w Polsce od 8 stycznia 2026 r. — bez potrzeby osobnej ustawy transponującej. Jednak krajowe mechanizmy egzekucyjne i kary reguluje polska ustawa, która jest właśnie aktualizowana.
 
 **Nowa Ustawa o Wyrobach Budowlanych (NUWB)**
 
-Projekt Nowej Ustawy o Wyrobach Budowlanych został opublikowany przez Ministerstwo Finansów i Gospodarki **21 października 2025 r.** Na marzec 2026 wciąż jest na etapie procesu legislacyjnego — **Sejm nie uchwalił jej jeszcze**. Do czasu uchwalenia NUWB obowiązują kary z dotychczasowej ustawy o wyrobach budowlanych.
+Projekt Nowej Ustawy o Wyrobach Budowlanych został opublikowany przez Ministerstwo Finansów i Gospodarki **21 października 2025 r.** Zakończono etap konsultacji publicznych i opiniowania — opublikowano raport z konsultacji oraz tabelę uwag. Przyjęcie projektu przez Radę Ministrów planowane jest na **trzeci kwartał 2026 r.**, wejście w życie — ok. 2027 r. Do czasu uchwalenia NUWB obowiązują kary z dotychczasowej ustawy o wyrobach budowlanych.
 
 Projekt NUWB przewiduje m.in.:
 - aktualizację stawek kar pieniężnych (wzrost o ok. 50% względem poziomów obecnych),
@@ -63,7 +65,7 @@ Projekt NUWB przewiduje m.in.:
 
 Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl))** oraz inspektorzy wojewódzcy.
 
-**Praktyczne ryzyko kar dla polskich producentów — marzec 2026**
+**Praktyczne ryzyko kar dla polskich producentów — czerwiec 2026**
 
 | Wymaganie | Podstawa prawna (UE) | Status krajowy | Realne ryzyko kary |
 |-----------|---------------------|---------------|-------------------|
