@@ -11,6 +11,7 @@ template: "regulacja"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
   - Dyrektywa (UE) 2024/1275 w sprawie charakterystyki energetycznej budynków (EPBD)|https://eur-lex.europa.eu/eli/dir/2024/1275/oj
+  - Rozporządzenie delegowane (UE) 2026/52 — unijne ramy GWP budynku (CELEX 32026R0052)|https://eur-lex.europa.eu/eli/reg_del/2026/52/oj/eng
   - CPR Working Plan 2026-2029 COM(2025) 772 final|https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en
 ---
 
@@ -36,7 +37,9 @@ Wniosek jest prosty: producent wyrobu odpowiada za rzetelne dane środowiskowe s
 
 ## Co wprowadza dyrektywa o budynkach
 
-Obowiązek raportowania emisji na poziomie budynku to domena EPBD, nie CPR. Dyrektywa wymaga obliczania współczynnika globalnego ocieplenia w cyklu życia nowych budynków o powierzchni użytkowej ponad 1000 metrów kwadratowych od 2028 roku, a wszystkich nowych budynków od 2030 roku, z wynikiem prezentowanym na świadectwie charakterystyki energetycznej. To wymóg adresowany do procesu budowlanego, a nie do producenta wyrobu — i właśnie dlatego nie należy go przypisywać CPR.
+Obowiązek raportowania emisji na poziomie budynku to domena EPBD, nie CPR. Dyrektywa wymaga obliczania współczynnika globalnego ocieplenia w cyklu życia nowych budynków o powierzchni użytkowej ponad 1 000 m² od 2028 roku, a wszystkich nowych budynków od 2030 roku, z wynikiem prezentowanym na świadectwie charakterystyki energetycznej. To wymóg adresowany do procesu budowlanego, a nie do producenta wyrobu — i właśnie dlatego nie należy go przypisywać CPR.
+
+Konkretny kształt tej metodologii ustanawia **Rozporządzenie delegowane Komisji (UE) 2026/52** (CELEX: 32026R0052), które weszło w życie w maju 2026 r. Akt ten, wydany na podstawie art. 7 EPBD, definiuje unijne ramy obliczania GWP budynku — metodologią bazową jest EN 15978 — i formalizuje daty: 1 stycznia 2028 (budynki >1 000 m²) oraz 1 stycznia 2030 (wszystkie budynki nowe). To nie jest już wyłącznie cel polityczny dyrektywy; to wiążące przepisy prawa wtórnego UE z konkretnymi terminami.
 
 ## Trzy nowości środowiskowe z Planu Prac CPR
 
