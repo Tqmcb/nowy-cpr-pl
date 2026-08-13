@@ -159,49 +159,15 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 6, Working Plan 2026–2029",
   },
   {
-    date: "19 lipca 2026",
-    sortDate: "2026-07-19",
-    title: "Uruchomienie Rejestru DPP przez KE",
+    date: "20 lipca 2026",
+    sortDate: "2026-07-20",
+    title: "Uruchomienie unijnego rejestru cyfrowych paszportów",
     description:
-      "Komisja Europejska zobowiązana jest do uruchomienia centralnego Rejestru DPP (Digital Product Passport), który będzie przechowywał co najmniej unikalne identyfikatory wyrobów objętych paszportem.",
-    phase: "przyszlosc",
+      "Komisja Europejska uruchomiła rejestr cyfrowych paszportów produktów oraz jego wersję testową. Rejestr będzie w przyszłości obsługiwał także wyroby budowlane, ale jego uruchomienie nie nałożyło jeszcze obowiązków na ich producentów.",
+    phase: "przeszlosc",
     category: ["prawo", "producent"],
     icon: FileText,
-    article: "Art. 78",
-  },
-  {
-    date: "26 lipca 2026",
-    sortDate: "2026-07-26",
-    title: "Wytyczne KE dotyczące DPP (termin przedłużony)",
-    description:
-      "Termin opublikowania przez Komisję Europejską wytycznych w sprawie Cyfrowego Paszportu Produktu został przedłużony o rok — do 26 lipca 2026 r. Wytyczne mają określić szczegóły techniczne i praktyczne dla producentów.",
-    phase: "przyszlosc",
-    category: ["prawo", "producent"],
-    icon: FileText,
-    article: "Art. 78–79",
-  },
-  {
-    date: "18 sierpnia 2026",
-    sortDate: "2026-08-18",
-    title: "Akt wykonawczy KE w sprawie DPP",
-    description:
-      "Komisja Europejska zobowiązana jest do przyjęcia aktu wykonawczego określającego szczegółowe wymagania dla Cyfrowego Paszportu Produktu (DPP) dla wyrobów budowlanych.",
-    phase: "przyszlosc",
-    category: ["prawo", "producent"],
-    icon: FileText,
-    important: true,
-    article: "Art. 78–79",
-  },
-  {
-    date: "Q4 2026 (oczekiwany)",
-    sortDate: "2026-10-01",
-    title: "Akt delegowany — DPP Service Providers",
-    description:
-      "Komisja Europejska planuje przyjęcie aktu delegowanego określającego zasady działania DPP Service Providers — podmiotów świadczących usługi prowadzenia paszportu w imieniu producenta.",
-    phase: "przyszlosc",
-    category: ["prawo"],
-    icon: FileText,
-    article: "Art. 78",
+    article: "Rozporządzenie (UE) 2026/1778; art. 79 CPR",
   },
 
   // ── PRZYSZLOSC (2027+) ──
@@ -218,6 +184,18 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 92",
   },
   {
+    date: "II kwartał 2027 (plan Komisji)",
+    sortDate: "2027-06-30",
+    title: "Akt delegowany dotyczący paszportów wyrobów budowlanych",
+    description:
+      "Komisja planuje określić zasady prowadzenia paszportów wyrobów budowlanych. System ma być gotowy po 6 miesiącach. Obowiązek producentów rozpocznie się po 18 miesiącach od wejścia w życie aktu.",
+    phase: "przyszlosc",
+    category: ["prawo", "producent"],
+    icon: FileText,
+    important: true,
+    article: "Art. 75 i 80",
+  },
+  {
     date: "8 lipca 2027",
     sortDate: "2027-07-08",
     title: "Cyfrowa Deklaracja DoP&C",
@@ -229,16 +207,16 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     article: "Art. 11 ust. 9",
   },
   {
-    date: "2028+",
-    sortDate: "2028-01-01",
-    title: "GWP i Cyfrowy Paszport Produktu (DPP)",
+    date: "Najwcześniej koniec 2028 (orientacyjnie)",
+    sortDate: "2028-12-31",
+    title: "Pierwsze obowiązkowe paszporty wyrobów budowlanych",
     description:
-      "Po opublikowaniu zharmonizowanych specyfikacji technicznych (hTS): obowiązkowa deklaracja potencjału globalnego ocieplenia (GWP) i Cyfrowy Paszport Produktu. Dotyczy wyrobów z rodzin objętych nowymi hTS.",
+      "Termin wynika z obecnego planu Komisji i okresu 18 miesięcy przewidzianego w CPR. Nie jest wiążący. Paszport obejmie wyroby podlegające nowym specyfikacjom lub europejskim dokumentom oceny wydanym pod CPR 2024/3110.",
     phase: "przyszlosc",
     category: ["producent"],
     icon: Clock,
     important: true,
-    article: "Art. 11 ust. 2, Art. 78-79",
+    article: "Art. 22 ust. 7 oraz art. 75–80",
   },
   {
     date: "9 stycznia 2031",

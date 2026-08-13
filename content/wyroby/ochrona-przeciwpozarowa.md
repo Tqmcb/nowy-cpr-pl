@@ -100,7 +100,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 1. **Obowiązkowe deklaracje zastosowań (Field of Application)** – CPR 2024 precyzuje, że DoP&C musi zawierać tablice zastosowań wskazujące, dla jakich konkretnie konfiguracji (materiał rury, średnica, ściana) deklarowana jest dana klasa EI.
 2. **Zaostrzone wymagania dla powłok intumescencyjnych** – rozszerzenie testów EN 13381-8 o warunki wilgoci i agresywności chemicznej środowiska.
 3. **BWR 7 dla retardantów ogniowych** – wyroby do ochrony drewna muszą deklarować swoją toksykologię i ekotoksykologię jako parametry użytkowe.
-4. **Cyfrowe paszporty wyrobów** – DoP&C i tablice zastosowań muszą być dostępne cyfrowo (QR kod na opakowaniu lub etykiecie wyrobu).
+4. **Cyfrowe paszporty produktów**: nie są jeszcze obowiązkowe dla wyrobów budowlanych. Po wejściu w życie właściwych przepisów będą mogły udostępniać DoP&C, tablice zastosowań i inne wymagane dokumenty za pomocą oznaczenia przypisanego do wyrobu.
 
 ## Harmonogram wdrożenia
 

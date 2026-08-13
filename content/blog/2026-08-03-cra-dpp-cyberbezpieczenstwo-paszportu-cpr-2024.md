@@ -1,11 +1,11 @@
 ---
-title: "Cyberbezpieczeństwo a cyfrowy paszport produktu — gdzie CRA styka się z CPR 2024"
-reviewed: "2026-08-03"
+title: "Akt o cyberodporności a paszport produktu. Kiedy oba rozporządzenia dotyczą jednego wyrobu?"
+reviewed: "2026-08-13"
 date: "2026-08-03"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "Cyfrowy Paszport Produktu", "DPP", "Cyber Resilience Act", "CRA", "cyberbezpieczeństwo", "wyroby z elementami cyfrowymi", "akt delegowany"]
-excerpt: "Akt o cyberodporności (CRA) i cyfrowy paszport produktu z CPR to dwa różne reżimy, które producenci coraz częściej mylą. Wyjaśniamy, czym jest każdy z nich, dlaczego CRA nie reguluje samego paszportu i kiedy jeden wyrób budowlany podlega obu rozporządzeniom naraz."
+excerpt: "Cyfrowy paszport produktu nie podlega aktowi o cyberodporności. Oba rozporządzenia mogą jednak dotyczyć wyrobu budowlanego wyposażonego w oprogramowanie lub łączność sieciową."
 image_url: /images/blog/cra-dpp-cyberbezpieczenstwo-paszportu-cpr-2024.jpg
 template: "regulacja"
 sources:
@@ -14,66 +14,74 @@ sources:
   - Rozporządzenie (UE) 2024/1781 — ESPR, ramy ekoprojektu i cyfrowy paszport|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
 ---
 
-# Cyberbezpieczeństwo a cyfrowy paszport produktu — dwa reżimy, jeden wyrób
+# Akt o cyberodporności a paszport produktu. Kiedy oba rozporządzenia dotyczą jednego wyrobu?
 
-Wraz z nowym CPR pojawiło się pojęcie cyfrowego paszportu produktu, a niemal w tym samym czasie zaczął obowiązywać unijny [akt o cyberodporności (CRA)](https://eur-lex.europa.eu/eli/reg/2024/2847/oj). Skutek jest taki, że producenci coraz częściej łączą oba tematy w jedno — pytają, czy „cyfrowy paszport oznacza obowiązek cyberbezpieczeństwa", albo czy CRA „każe zabezpieczyć paszport". To nieporozumienie, ale nie bezpodstawne: oba akty należą do tej samej, budowanej właśnie warstwy cyfrowej rynku wewnętrznego. Różnią się jednak tym, co regulują, i biegną według odrębnych zegarów.
+Cyfrowy paszport produktu nie jest urządzeniem ani programem komputerowym. Jest zbiorem danych o wyrobie. Dlatego sam paszport nie podlega [aktowi o cyberodporności, czyli rozporządzeniu (UE) 2024/2847](https://eur-lex.europa.eu/eli/reg/2024/2847/oj).
 
-W tym artykule rozdzielamy oba reżimy, pokazujemy, dlaczego [akt o cyberodporności](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) nie reguluje samego paszportu z [CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol), i wyjaśniamy, kiedy jeden wyrób budowlany rzeczywiście podlega obu rozporządzeniom naraz.
+Sytuacja zmienia się, gdy wyrób budowlany ma oprogramowanie albo łączy się z siecią. Wtedy producent może podlegać jednocześnie CPR 2024/3110 i aktowi o cyberodporności. Każde z tych rozporządzeń dotyczy jednak czegoś innego.
 
-## Dwa rozporządzenia, dwa różne cele
+## Co reguluje CPR, a co akt o cyberodporności
 
-Najprościej zacząć od tego, czego każdy akt dotyczy.
+[CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) dotyczy wyrobów budowlanych. Określa między innymi zasady deklarowania właściwości użytkowych, oceny wyrobu i oznakowania CE. Przewiduje również cyfrowy paszport produktu, który będzie udostępniał dane i dokumenty dotyczące wyrobu.
 
-- **Akt o cyberodporności (CRA), rozporządzenie (UE) 2024/2847**, to przepis poziomy o bezpieczeństwie cyfrowym. Obejmuje **produkty z elementami cyfrowymi** — czyli sprzęt i oprogramowanie, które łączą się z innym urządzeniem lub siecią. Nakłada zasadnicze wymagania w zakresie bezpieczeństwa, obowiązek obsługi podatności przez cały cykl życia oraz raportowanie aktywnie wykorzystywanych podatności i poważnych incydentów.
-- **CPR 2024/3110** to przepis o wyrobach budowlanych. Wprowadza cyfrowy paszport produktu jako uporządkowany zbiór danych o wyrobie — właściwościach użytkowych, danych środowiskowych, instrukcjach i dokumentach. Paszport jest **systemem informacji o wyrobie**, a nie funkcją bezpieczeństwa.
+Akt o cyberodporności, określany skrótem CRA od angielskiej nazwy *Cyber Resilience Act*, dotyczy produktów z elementami cyfrowymi. Chodzi przede wszystkim o sprzęt i oprogramowanie, które łączą się z innym urządzeniem lub siecią. Producent takiego produktu musi zadbać o jego bezpieczeństwo, usuwać wykryte podatności i zgłaszać określone incydenty.
 
-Innymi słowy: CRA pilnuje, żeby cyfrowy produkt był odporny na ataki. CPR pilnuje, żeby wyrób budowlany miał deklarowane właściwości i czytelnie udostępnione dane. To dwa różne pytania o ten sam, coraz bardziej cyfrowy wyrób.
+Najkrócej:
 
-## Dlaczego CRA nie reguluje cyfrowego paszportu
+- CPR odpowiada na pytanie, jakie właściwości ma wyrób budowlany i jak należy je wykazać;
+- akt o cyberodporności odpowiada na pytanie, czy jego część cyfrowa jest bezpieczna;
+- cyfrowy paszport udostępnia informacje o wyrobie, ale sam nie jest wyrobem z elementami cyfrowymi.
 
-Tutaj kryje się najczęstszy błąd. Cyfrowy paszport produktu z CPR nie jest „produktem z elementami cyfrowymi" w rozumieniu aktu o cyberodporności. Paszport to warstwa danych — rekord udostępniany przez centralny system unijny, do którego dostęp odbywa się przez nośnik danych przypisany do wyrobu. Akt o cyberodporności obejmuje natomiast sprzęt i oprogramowanie wprowadzane do obrotu jako produkt. Z definicji zakresu wynika więc, że **CRA nie nakłada wymagań na sam paszport**.
+## Dlaczego akt o cyberodporności nie obejmuje samego paszportu
 
-Konstrukcja prawna paszportu jest zresztą całkowicie po stronie CPR. Podstawą jest [art. 59 CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol), który upoważnia Komisję do ustanowienia systemu cyfrowego paszportu w drodze aktu delegowanego. Rozporządzenie wprost zakłada przy tym spójność — „w możliwie największym stopniu" — z paszportem przewidzianym w [rozporządzeniu ESPR (UE) 2024/1781](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), które tworzy ogólne ramy paszportu cyfrowego w Unii. Cyberbezpieczeństwo tych danych jest zagadnieniem ważnym, ale rozstrzyga się je w ramach samego systemu paszportu i przepisów o jego funkcjonowaniu, a nie przez akt o cyberodporności.
+Podstawą prawną paszportu jest [art. 75 CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol). Zgodnie z tym przepisem Komisja ustanowi system dla wyrobów budowlanych w drodze aktu delegowanego. System ma być zgodny z rozwiązaniem przewidzianym w [rozporządzeniu (UE) 2024/1781 w sprawie ekoprojektu dla zrównoważonych produktów](https://eur-lex.europa.eu/eli/reg/2024/1781/oj).
 
-Praktyczny wniosek: jeśli producent słyszy, że „CRA wymaga zabezpieczenia paszportu", powinien tę tezę odłożyć. Obowiązki dotyczące paszportu wynikają z CPR i aktów delegowanych do niego, a nie z aktu o cyberodporności.
+Paszport będzie zbiorem danych udostępnianych za pomocą oznaczenia przypisanego do wyrobu. Akt o cyberodporności obejmuje natomiast sprzęt i oprogramowanie wprowadzane do obrotu jako produkty. Nie nakłada więc obowiązków na sam paszport.
+
+Jeżeli ktoś oferuje „paszport zgodny z CRA”, warto poprosić o wskazanie konkretnej podstawy prawnej. Obowiązki dotyczące paszportu wynikają z CPR i przepisów wydanych na jego podstawie.
 
 ## Kiedy jeden wyrób podlega obu rozporządzeniom
 
-Reżimy się rozchodzą, ale jest obszar, w którym realnie się spotykają — i to jest sedno tematu dla producentów. Chodzi o **wyroby budowlane, które same zawierają elementy cyfrowe**. Coraz więcej elementów budynku to urządzenia łączące się z siecią: automatyka budynkowa, sterowniki, czujniki, elektroniczne zamki i okucia, komponenty systemów alarmowych czy elementy wentylacji i ogrzewania z modułem łączności.
+Oba akty mogą dotyczyć na przykład:
 
-Taki wyrób może podlegać dwóm reżimom jednocześnie:
+- sterownika instalacji budynkowej;
+- czujnika połączonego z siecią;
+- zamka elektronicznego;
+- elementu systemu alarmowego;
+- urządzenia wentylacyjnego lub grzewczego z modułem łączności.
 
-- **Po stronie CPR** — jako wyrób budowlany objęty zharmonizowaną specyfikacją techniczną: producent deklaruje właściwości użytkowe, przechodzi właściwy system oceny i — gdy paszport zacznie obowiązywać dla jego rodziny wyrobów — udostępnia cyfrowy paszport.
-- **Po stronie aktu o cyberodporności** — jako produkt z elementami cyfrowymi: producent spełnia zasadnicze wymagania bezpieczeństwa, prowadzi obsługę podatności i raportuje incydenty.
+Dla takiego wyrobu producent oddzielnie sprawdza obowiązki wynikające z CPR i aktu o cyberodporności. Zgodność z jednym rozporządzeniem nie zastępuje zgodności z drugim.
 
-To nie jest wybór „albo–albo". Dwa rozporządzenia odpowiadają na dwa różne pytania o ten sam egzemplarz: czy spełnia wymagania jako wyrób budowlany i czy jest bezpieczny jako produkt cyfrowy. Producent wyrobu „inteligentnego" musi rozpisać oba zestawy obowiązków osobno, bo zgodność z jednym nie zastępuje drugiego.
+Po stronie CPR producent deklaruje właściwości użytkowe i stosuje właściwy system oceny. Gdy cyfrowy paszport stanie się obowiązkowy dla danej rodziny wyrobów, będzie również musiał go udostępnić.
 
-## Dwa różne zegary
+Po stronie aktu o cyberodporności producent spełnia wymagania bezpieczeństwa dotyczące części cyfrowej, prowadzi obsługę podatności i zgłasza wymagane incydenty.
 
-Oba akty mają też odrębne harmonogramy, których nie wolno mylić.
+## Terminy są różne
 
-| Reżim | Akt podstawowy | Kiedy obowiązki |
+| Zakres | Podstawa prawna | Termin |
 |---|---|---|
-| Cyberbezpieczeństwo | Rozporządzenie (UE) 2024/2847 (CRA) | wejście w życie 10 grudnia 2024 r.; obowiązek raportowania podatności i incydentów od 11 września 2026 r.; pełne stosowanie wymagań zasadniczych, oceny zgodności i oznakowania CE od **11 grudnia 2027 r.** |
-| Cyfrowy paszport produktu | CPR 2024/3110, art. 59 + akt delegowany | obowiązek udostępnienia paszportu dopiero **18 miesięcy po wejściu w życie aktu delegowanego** ustanawiającego system, i tylko dla wyrobów objętych nowymi zharmonizowanymi specyfikacjami technicznymi |
+| Bezpieczeństwo produktów z elementami cyfrowymi | Rozporządzenie (UE) 2024/2847 | zgłaszanie podatności i incydentów od 11 września 2026 r.; pełne stosowanie od 11 grudnia 2027 r. |
+| Cyfrowy paszport produktu budowlanego | CPR 2024/3110, art. 75–80 | obowiązek producenta 18 miesięcy po wejściu w życie aktu delegowanego ustanawiającego system dla budownictwa |
 
-Daty aktu o cyberodporności są twarde i wpisane wprost w rozporządzenie. Zegar cyfrowego paszportu jeszcze nie ruszył — zależy od przyjęcia aktu delegowanego i od stanu harmonizacji danej rodziny wyrobów. Szczegółowo rozkładamy ten warunkowy mechanizm w artykule [Cyfrowy Paszport Produktu — dlaczego jeszcze nie działa](/blog/cyfrowy-paszport-produktu-dlaczego-jeszcze-nie-dziala), a podstawy samego paszportu w tekście [czym jest cyfrowy paszport produktu](/blog/cyfrowy-paszport-produktu-dpp-cpr-2024).
+Unijny rejestr cyfrowych paszportów działa od 20 lipca 2026 r. Jego uruchomienie nie stworzyło jednak obowiązku dla producentów wyrobów budowlanych. Szczegółowo wyjaśniamy to w artykule [Rejestr cyfrowych paszportów już działa. Dla wyrobów budowlanych obowiązku jeszcze nie ma](/blog/cyfrowy-paszport-produktu-dlaczego-jeszcze-nie-dziala).
 
-## Co powinien zrobić producent
+## Co powinien sprawdzić producent
 
-Dla producenta zwykłego wyrobu budowlanego — cegły, izolacji, betonu — akt o cyberodporności nie ma zastosowania, bo wyrób nie ma elementów cyfrowych. Dla producenta wyrobu łączącego się z siecią obraz jest inny i warto go uporządkować już teraz.
+Producent zwykłej cegły, izolacji albo prefabrykatu betonowego nie podlega aktowi o cyberodporności tylko dlatego, że w przyszłości udostępni cyfrowy paszport produktu.
 
-- **Ustalić, czy wyrób ma elementy cyfrowe.** Jeśli komponent łączy się z siecią lub innym urządzeniem i zawiera oprogramowanie, prawdopodobnie jest produktem z elementami cyfrowymi w rozumieniu CRA — niezależnie od obowiązków budowlanych.
-- **Rozdzielić dwie ścieżki dokumentacji.** Deklaracja właściwości użytkowych i zgodności po stronie CPR to inny dokument niż dokumentacja techniczna bezpieczeństwa po stronie aktu o cyberodporności. Łączenie ich w jeden plik prowadzi do luk.
-- **Nie traktować paszportu jako obowiązku cyberbezpieczeństwa.** Paszport to dane o wyrobie pod CPR. Bezpieczeństwo cyfrowe wyrobu to odrębny obowiązek z aktu o cyberodporności, jeśli wyrób w ogóle ma elementy cyfrowe.
-- **Śledzić Dziennik Urzędowy Unii Europejskiej.** Moment startu paszportu wyznaczy akt delegowany do CPR, a kolejne kamienie milowe aktu o cyberodporności są już znane z jego tekstu.
+Jeżeli wyrób zawiera oprogramowanie lub łączy się z siecią, trzeba:
 
-Mapę obowiązków po stronie budowlanej — który system oceny obejmuje dany wyrób i jaką deklarację trzeba sporządzić — porządkujemy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
+- **Zakres aktu o cyberodporności.** Ustal, czy wyrób jest produktem z elementami cyfrowymi.
+- **Dokumentacja.** Oddziel dokumenty wymagane przez CPR od dokumentacji bezpieczeństwa cyfrowego.
+- **Odpowiedzialność.** Wskaż osoby odpowiedzialne za właściwości budowlane i bezpieczeństwo części cyfrowej.
+- **Dalsze przepisy.** Śledź akt delegowany, który ustanowi system paszportów dla wyrobów budowlanych.
 
-## Podsumowanie
+Pomoc w wyborze właściwego systemu oceny po stronie CPR znajduje się w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
 
-Akt o cyberodporności i cyfrowy paszport produktu to dwa różne reżimy, które łatwo pomylić, bo pojawiły się obok siebie. CRA, czyli rozporządzenie (UE) 2024/2847, dotyczy bezpieczeństwa cyfrowego produktów z elementami cyfrowymi i wchodzi w pełne stosowanie 11 grudnia 2027 r. Cyfrowy paszport produktu to system informacji o wyrobie budowlanym z CPR 2024/3110, ustanawiany aktem delegowanym i jeszcze nieuruchomiony. Akt o cyberodporności **nie reguluje samego paszportu**. Oba rozporządzenia spotykają się dopiero wtedy, gdy wyrób budowlany sam jest produktem cyfrowym — wtedy producent prowadzi dwie odrębne ścieżki zgodności naraz.
+## Wniosek
+
+Cyfrowy paszport produktu i akt o cyberodporności dotyczą dwóch różnych spraw. Sam paszport nie podlega aktowi o cyberodporności. Oba rozporządzenia mogą natomiast objąć ten sam wyrób budowlany, jeżeli wyrób zawiera oprogramowanie albo łączy się z siecią.
 
 ---
 
-*Produkujesz wyrób budowlany z elementami cyfrowymi i chcesz uporządkować zgodność po stronie CPR — zakładową kontrolę produkcji i systemy zarządzania — zanim nałożą się obowiązki cyfrowego paszportu? Napisz do nas: biuro@multicert.pl*
+*Produkujesz wyrób budowlany z elementami cyfrowymi i chcesz ustalić jego obowiązki wynikające z CPR? Napisz do nas: biuro@multicert.pl*

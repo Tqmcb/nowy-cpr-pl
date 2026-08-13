@@ -66,7 +66,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 **System 3+ dla danych środowiskowych**: Producenci, którzy chcą zwalidować dane środowiskowe (wyniki LCA) przez jednostkę notyfikowaną, korzystają z nowego Systemu 3+. Jednostka notyfikowana wydaje raport z walidacji, a nie certyfikat – ważna różnica formalna. Walidacja danych środowiskowych przez System 3+ podnosi wiarygodność deklaracji środowiskowych w zamówieniach publicznych z kryteriami zielonymi (GPP).
 
-**Paszport cyfrowy wyrobu**: DPP jest rozwiązaniem docelowym, które dla tej rodziny wyrobów będzie wdrażane etapami po publikacji odpowiednich hTS i aktów wykonawczych. W praktyce warto już teraz przygotowywać dane, które docelowo mogą trafić do DPP: DoP&C, informacje o składzie materiałowym, instrukcję montażu i demontażu oraz dane środowiskowe.
+**Cyfrowy paszport produktu**: Dla tej rodziny wyrobów obowiązek powstanie dopiero po wejściu w życie nowej hTS i aktu delegowanego ustanawiającego system dla budownictwa. Już teraz warto uporządkować dane, które później mogą trafić do paszportu: DoP&C, informacje o składzie materiałowym, instrukcję montażu i demontażu oraz dane środowiskowe.
 
 ## Harmonogram wdrożenia
 

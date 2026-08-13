@@ -32,7 +32,7 @@ const placeholderRequirements: ProductRequirement = {
     "Deklaracja właściwości użytkowych i zgodności (DoP&C)",
     "Oznakowanie CE",
     "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
+    "Cyfrowy paszport produktu (planowany; obowiązek dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)"
   ],
   cprChanges: [
     "Cyfryzacja dokumentacji i oznaczeń",
@@ -93,11 +93,11 @@ const plumbingRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i eksploatacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Certyfikat systemu oceny dla wyrobów mających kontakt z wodą pitną (EAS)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zharmonizowane europejskie standardy dla wyrobów kontaktujących się z wodą pitną (schemat EAS)",
     "Standardy dotyczące zawartości materiałów z recyklingu (min. 25% dla tworzyw sztucznych do 2030)",
@@ -135,11 +135,11 @@ const ceilingRequirement: ProductRequirement = {
     "Instrukcja montażu i konserwacji",
     "Raporty z badań ogniowych",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Certyfikaty jakości powietrza wewnętrznego (np. Eurofins, Indoor Air Comfort)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów emisji lotnych związków organicznych (LZO)",
     "Standardy dotyczące zawartości materiałów z recyklingu (min. 20% do 2030)",
@@ -177,11 +177,11 @@ const steelRequirement: ProductRequirement = {
     "Certyfikaty spawaczy i procedury spawalnicze (WPQR, WPS)",
     "Plan kontroli jakości",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Ślad węglowy dla wyrobów stalowych wg ISO 14067"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące śladu węglowego i raportowania emisji CO2",
     "Standardy produkcji stali niskoemisyjnej (zielona stal)",
@@ -219,11 +219,11 @@ const concreteMortarRequirement: ProductRequirement = {
     "Instrukcja stosowania i przechowywania",
     "Karta charakterystyki (dla domieszek chemicznych) zgodna z REACH",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Raporty z badań emisji substancji niebezpiecznych"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące zawartości materiałów z recyklingu (min. 15% do 2030)",
     "Ograniczenie stosowania cementów wysokoemisyjnych (CEM I)",
@@ -262,11 +262,11 @@ const doorsWindowsRequirement: ProductRequirement = {
     "Dokumentacja gwarancyjna i serwisowa",
     "Instrukcja montażu, obsługi i konserwacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)"
   ],
   cprChanges: [
     "Zaostrzenie wymogów izolacyjności termicznej (docelowy Uw ≤ 0,8 W/m²K do 2030)",
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące możliwości naprawy i wymiany komponentów",
     "Standardy dotyczące trwałości i gwarancji (min. 10 lat)",
@@ -303,11 +303,11 @@ const roadConstructionRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Dokumentacja gwarancyjna",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Plan jakości dla kontraktu drogowego"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi redukcji emisji CO2 w procesie produkcji mieszanek asfaltowych",
     "Promowanie asfaltów niskotemperaturowych i na zimno",
@@ -345,11 +345,11 @@ const flooringRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i konserwacji",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Klasyfikacja użytkowa wg EN ISO 10874 (dawniej EN 685)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów emisji lotnych związków organicznych (LZO) i formaldehydu",
     "Ograniczenia dla stosowania ftalanowów w podłogach elastycznych",
@@ -387,11 +387,11 @@ const structuralTimberRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Dokumentacja obliczeń konstrukcyjnych",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Certyfikat legalnego pochodzenia drewna (PEFC, FSC lub równoważny)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowa certyfikacja zrównoważonego gospodarowania leśnego (PEFC, FSC)",
     "Nowe wymagania dotyczące trwałości konstrukcyjnej w kontekście zmian klimatu",
@@ -429,11 +429,11 @@ const woodPanelsRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Klasyfikacja emisji formaldehydu (E1, E0.5, E0, NAF)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Certyfikat legalnego pochodzenia drewna (PEFC, FSC lub równoważny)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Dalsze zaostrzenie wymogów dotyczących emisji formaldehydu (klasa emisji E0 lub NAF)",
     "Wymogi dotyczące zrównoważonego pozyskiwania drewna (obowiązkowa certyfikacja)",
@@ -471,11 +471,11 @@ const thermalInsulationRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja montażu i stosowania",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Karta charakterystyki wg rozporządzenia REACH (dla produktów zawierających substancje niebezpieczne)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów dotyczących emisji formaldehydów i innych LZO",
     "Nowe wymagania dotyczące bezhalogenowych środków ognioodpornych",
@@ -513,11 +513,11 @@ const membranesRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Instrukcja układania i łączenia",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Karta charakterystyki wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Limit emisji lotnych związków organicznych (LZO) podczas produkcji i instalacji",
     "Nowe wymagania dotyczące bezhalogenowych składników ognioodpornych",
@@ -555,11 +555,11 @@ const precastConcreteRequirement: ProductRequirement = {
     "Dokumentacja obliczeń konstrukcyjnych",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Instrukcje transportu, składowania i montażu"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące minimalnej zawartości materiałów z recyklingu",
     "Raportowanie śladu węglowego w całym cyklu produkcyjnym",
@@ -596,12 +596,12 @@ const masonryRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Informacja o zawartości substancji niebezpiecznych",
     "Procedura utylizacji, ponownego użycia lub recyklingu"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe standardy dotyczące recyklingu i ponownego użycia elementów murowych",
     "Limity emisji CO2 podczas produkcji",
@@ -649,12 +649,12 @@ const glassRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Instrukcja montażu, użytkowania i konserwacji",
     "Raport emisji w procesie produkcji"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone wymagania dla szkła bezpiecznego w zastosowaniach publicznych",
     "Nowe standardy dotyczące recyklingu odpadów szklanych",
@@ -691,12 +691,12 @@ const gypsumRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Instrukcja montażu i użytkowania",
     "Karta charakterystyki wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone wymagania dotyczące odporności ogniowej systemów gipsowych",
     "Nowe standardy dotyczące recyklingu odpadów gipsowych",
@@ -733,12 +733,12 @@ const ceramicRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Instrukcja montażu i użytkowania",
     "Raport emisji w procesie produkcji i wypalania"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wymogi dotyczące raportowania zużycia energii podczas procesu wypalania",
     "Limity emisji CO2 podczas produkcji",
@@ -776,11 +776,11 @@ const asphaltRequirement: ProductRequirement = {
     "Karta charakterystyki wg rozporządzenia REACH",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Raport emisji LZO (lotnych związków organicznych)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzone limity emisji LZO podczas produkcji i stosowania",
     "Wymogi dotyczące recyklingu i ponownego wykorzystania materiałów asfaltowych",
@@ -817,11 +817,11 @@ const metalStructuralRequirement: ProductRequirement = {
     "Certyfikat spawalniczy wg EN 1090 (dla konstrukcji spawanych)",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Certyfikat pochodzenia materiału (nowy wymóg CPR 2024)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Wymogi dotyczące minimalnego udziału materiałów z recyklingu",
@@ -858,12 +858,12 @@ const concreteRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Karta techniczna produktu",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Instrukcja montażu i użytkowania",
     "Raport emisji CO2 w cyklu produkcyjnym"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Wymogi dotyczące minimalnego udziału materiałów z recyklingu",
@@ -901,11 +901,11 @@ const cementRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Karta charakterystyki substancji chemicznej (SDS)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Raport emisji CO2 w cyklu produkcyjnym"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Obowiązkowy raport emisji CO2 w całym cyklu produkcyjnym",
     "Limity emisji CO2 dla poszczególnych typów cementów",
@@ -941,11 +941,11 @@ const timberRequirement: ProductRequirement = {
     "Raport z badań typu",
     "Certyfikat legalności pochodzenia drewna (PEFC lub FSC)",
     "Instrukcje dotyczące montażu, użytkowania i konserwacji",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Wprowadzenie obowiązkowego certyfikatu legalności pochodzenia drewna (EUTR)",
     "Zaostrzenie limitów emisji formaldehydów z produktów drewnianych",
@@ -978,12 +978,12 @@ const adhesivesRequirement: ProductRequirement = {
     "Karta techniczna produktu",
     "Raport z badań typu",
     "Dokumentacja zakładowej kontroli produkcji",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Deklaracja środowiskowa produktu (EPD) wg EN 15804+A2",
     "Instrukcja stosowania z informacją o ograniczeniach użytkowania"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie limitów emisji VOC i innych substancji szkodliwych",
     "Wymogi dotyczące biodegradowalności i zawartości surowców z recyklingu",
@@ -1019,10 +1019,10 @@ const roofingRequirement: ProductRequirement = {
     "Instrukcja montażu zgodna z wymaganiami producenta",
     "Raport odporności ogniowej i klasyfikacji",
     "Deklaracja środowiskowa produktu (EPD) zgodna z EN 15804+A2",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)"
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Zaostrzenie wymogów odporności ogniowej dla materiałów dachowych",
     "Nowe kryteria dotyczące emisji substancji niebezpiecznych",
@@ -1055,12 +1055,12 @@ const insulationRequirement: ProductRequirement = {
     "Dokumentacja zakładowej kontroli produkcji",
     "Raport z badań typu",
     "Karta techniczna produktu",
-    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po publikacji nowych norm zharmonizowanych i aktów KE)",
+    "Cyfrowy paszport produktu (planowany — obowiązkowy dopiero po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa)",
     "Deklaracja środowiskowa produktu (EPD) zgodna z EN 15804+A2",
     "Raport o zawartości substancji niebezpiecznych (SVHC) wg rozporządzenia REACH"
   ],
   cprChanges: [
-    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po publikacji nowych norm zharmonizowanych",
+    "Cyfrowy paszport produktu (DPP) — planowany obowiązek po objęciu wyrobu nową hTS lub EAD i po wejściu w życie aktu delegowanego dla budownictwa",
     "Dane środowiskowe (GWP/EPD) — docelowo obowiązkowe po publikacji nowej normy zharmonizowanej dla danej grupy wyrobów",
     "Nowe, bardziej rygorystyczne klasy efektywności energetycznej",
     "Wprowadzenie kryteriów oceny emisji LZO, formaldehydu i innych substancji do powietrza wewnętrznego",

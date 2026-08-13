@@ -1,62 +1,93 @@
 ---
-title: "Cyfrowy Paszport Produktu — dlaczego jeszcze nie działa i co dzieje się z normalizacją nośników danych"
-reviewed: "2026-07-27"
-date: "2026-07-27"
+title: "Rejestr cyfrowych paszportów już działa. Dla wyrobów budowlanych obowiązku jeszcze nie ma"
+reviewed: "2026-08-13"
+date: "2026-08-13"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
-tags: ["CPR 2024", "Cyfrowy Paszport Produktu", "DPP", "nośniki danych", "akt delegowany", "normalizacja", "okres przejściowy"]
-excerpt: "Cyfrowy Paszport Produktu jest w nowym CPR przesądzony, ale jeszcze nie obowiązuje. Wyjaśniamy, od czego zależy jego start, dlaczego normalizacja nośników danych dopiero się zaczęła i jak czytać zegar osiemnastu miesięcy po akcie delegowanym."
+tags: ["CPR 2024", "Cyfrowy Paszport Produktu", "DPP", "rejestr cyfrowych paszportów", "rozporządzenie 2026/1778", "akt delegowany"]
+excerpt: "Komisja uruchomiła rejestr cyfrowych paszportów produktów, ale producenci wyrobów budowlanych nie muszą jeszcze z niego korzystać. Wyjaśniamy, co się zmieniło i kiedy może powstać obowiązek."
 image_url: /images/blog/cyfrowy-paszport-produktu-dlaczego-jeszcze-nie-dziala.jpg
 template: "regulacja"
 sources:
+  - Komisja Europejska — rejestr cyfrowych paszportów już działa|https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en
+  - Rozporządzenie wykonawcze Komisji (UE) 2026/1778 — EUR-Lex|https://eur-lex.europa.eu/eli/reg_impl/2026/1778/oj
+  - Komisja Europejska — harmonogram cyfrowego paszportu produktu|https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
   - CPR Working Plan 2026-2029 COM(2025) 772 final|https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en
 ---
 
-# Cyfrowy Paszport Produktu — przesądzony, ale jeszcze nieuruchomiony
+# Rejestr cyfrowych paszportów już działa. Co to oznacza dla producenta?
 
-Cyfrowy Paszport Produktu (DPP) to jedna z najgłośniejszych nowości CPR 2024/3110 — i jednocześnie jeden z najczęściej źle rozumianych elementów rozporządzenia. Producenci pytają, „od kiedy muszą mieć paszport", zakładając, że obowiązek już biegnie. Tymczasem na dziś **paszport jest w rozporządzeniu przesądzony, ale jeszcze nie obowiązuje** — a moment jego startu zależy od kilku warunków, które dopiero są spełniane.
+Na razie producent wyrobu budowlanego nie musi niczego zgłaszać. Nie musi też kupować systemu do prowadzenia paszportów.
 
-W tym artykule wyjaśniamy, co musi się wydarzyć, zanim paszport stanie się obowiązkowy, dlaczego normalizacja jego infrastruktury dopiero ruszyła i jak czytać harmonogram. To uzupełnienie naszego wcześniejszego wpisu wyjaśniającego, [czym jest Cyfrowy Paszport Produktu](/blog/cyfrowy-paszport-produktu-dpp-cpr-2024) — tutaj skupiamy się na statusie i realnym tempie wdrożenia.
+Komisja Europejska uruchomiła 20 lipca 2026 r. rejestr cyfrowych paszportów produktów. Rejestr będzie w przyszłości wykorzystywany również w budownictwie. Brakuje jednak przepisów, które określą zasady jego stosowania do wyrobów budowlanych.
 
-## Trzy warunki, od których zależy obowiązek
+Krótko: **rejestr już istnieje, ale obowiązek jeszcze nie powstał**.
 
-Aby paszport stał się obowiązkowy dla danego wyrobu, muszą zostać spełnione łącznie trzy warunki.
+## Co uruchomiono 20 lipca
 
-- **Wyrób musi być objęty nowym CPR.** Paszport obejmie wyroby regulowane zharmonizowanymi specyfikacjami technicznymi lub europejskimi dokumentami oceny wydanymi pod nowym CPR — a nie pod starym rozporządzeniem 305/2011. To istotne: dopóki wyrób pozostaje w reżimie starych powołań, paszport go nie dotyczy.
-- **System paszportu musi być operacyjny.** Potrzebna jest działająca infrastruktura — rejestr, nośniki danych, zasady dostępu i wymiany informacji. Ta warstwa techniczna dopiero powstaje.
-- **Obowiązek musi zostać nadany aktem delegowanym.** To Komisja, w drodze aktu delegowanego, przesądza, dla których wyrobów i od kiedy paszport jest obowiązkowy.
+[Rejestr Komisji Europejskiej](https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en) służy do zapisywania numerów identyfikacyjnych cyfrowych paszportów produktów. Pozwala również sprawdzić, czy dany paszport został zarejestrowany.
 
-Dopóki te trzy elementy nie zejdą się razem, paszport pozostaje wymogiem zapowiedzianym, a nie egzekwowanym.
+Rejestr nie będzie przechowywał całej dokumentacji wyrobu. Dokumentację będzie przechowywał producent albo podmiot prowadzący paszport w jego imieniu. Do rejestru trafią dane potrzebne do identyfikacji paszportu i potwierdzenia jego rejestracji.
 
-## Zegar osiemnastu miesięcy
+Zasady działania rejestru określa [rozporządzenie wykonawcze Komisji (UE) 2026/1778](https://eur-lex.europa.eu/eli/reg_impl/2026/1778/oj). Komisja uruchomiła także wersję testową, z której mogą korzystać przedsiębiorcy przygotowujący się do przyszłych obowiązków.
 
-Najważniejsza liczba, którą warto zapamiętać, to **osiemnaście miesięcy**. Zgodnie z konstrukcją rozporządzenia obowiązek udostępnienia paszportu zaczyna biec dopiero po upływie okresu liczonego od wejścia w życie odpowiedniego aktu delegowanego. To celowy bufor — daje producentom czas na dostosowanie po tym, jak obowiązek zostanie formalnie nadany.
+Pierwsze obowiązkowe paszporty będą dotyczyły określonych rodzajów baterii. Dla nich obowiązek rozpocznie się 18 lutego 2027 r. Wyroby budowlane mają zostać włączone później.
 
-Praktyczny wniosek: nawet gdy akt delegowany się pojawi, producent nie zostaje z dnia na dzień bez przygotowania. Zegar zaczyna tykać od publikacji aktu, a nie wstecz. Dlatego śledzenie momentu przyjęcia aktu delegowanego jest ważniejsze niż domysły o „starcie paszportu".
+## Czego brakuje w budownictwie
 
-## Dlaczego normalizacja dopiero ruszyła
+Komisja musi jeszcze wydać akt delegowany dotyczący wyrobów budowlanych. Ten akt określi między innymi:
 
-Paszport nie zadziała bez wspólnych reguł technicznych: jak zakodować dane, jakim nośnikiem je udostępnić, jak zapewnić, że różne systemy się porozumieją. To zadanie dla normalizacji. [Plan Prac CPR 2026-2029](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en) (COM(2025) 772 final) odnotowuje, że Komisja **dopiero zainicjowała** proces normalizacyjny dotyczący nośników danych, infrastruktury i interoperacyjności.
+- kto będzie mógł wprowadzać i poprawiać dane w paszporcie;
+- które informacje będą dostępne dla klienta, a które dla organu nadzoru;
+- jak długo paszport ma być dostępny;
+- jakie wymagania będzie musiał spełnić podmiot prowadzący paszport w imieniu producenta.
 
-To dobra wiadomość i ostrzeżenie zarazem. Dobra — bo prace ruszyły, a kierunek jest jasny. Ostrzeżenie — bo zainicjowanie normalizacji to początek drogi, nie jej koniec, i potwierdza, że na dziś paszport nie jest jeszcze gotowy do powszechnego stosowania.
+[Komisja zapowiada ten akt na drugi kwartał 2027 r.](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en). Jest to termin planowany, a nie data rozpoczęcia obowiązku.
 
-## Co producent może zrobić już teraz
+Paszport obejmie wyroby podlegające nowym specyfikacjom technicznym lub europejskim dokumentom oceny wydanym na podstawie CPR 2024/3110. Wyrób pozostający w dotychczasowym systemie CPR 305/2011 nie zostanie objęty paszportem tylko dlatego, że unijny rejestr już działa.
 
-Choć obowiązek nie biegnie, przygotowanie ma sens — bo dane, które trafią do paszportu, i tak są potrzebne wcześniej.
+## Od kiedy producent będzie musiał mieć paszport
 
-- **Uporządkować informację o wyrobie.** Identyfikacja wyrobu, dokumentacja techniczna, dane do deklaracji — to materiał, który zasili paszport. Sposób budowy unikalnego identyfikatora opisujemy w artykule [QR kod i unikalny kod identyfikacyjny wyrobu](/blog/qr-kod-unikalny-kod-produktu-cpr-2024).
-- **Śledzić akty delegowane.** To one przesądzą zakres i moment obowiązku. Wiążące będą publikacje, nie zapowiedzi.
-- **Nie wyprzedzać faktów w komunikacji.** Deklarowanie wobec klientów „gotowości na paszport", zanim istnieje operacyjny system i akt delegowany, tworzy ryzyko obietnicy bez pokrycia.
+Termin będzie liczony od wejścia w życie aktu delegowanego dotyczącego budownictwa. [Art. 80 CPR](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) przewiduje dwa etapy:
 
-## Rola jednostki
+| Od wejścia w życie aktu delegowanego | Skutek |
+|---|---|
+| 6 miesięcy | system dla wyrobów budowlanych ma być gotowy do działania |
+| 18 miesięcy | producenci wyrobów objętych nowym CPR mają udostępniać paszporty |
 
-Cyfrowy Paszport Produktu jest narzędziem wynikającym wprost z rozporządzenia unijnego i nadawanym aktem delegowanym — nie jest produktem jednostki certyfikującej ani usługi krajowej. Multicert jako jednostka certyfikująca i weryfikująca pozostaje przy swojej roli: ocenia zgodność wyrobów i danych, w tym kompletność i rzetelność dokumentacji, która z czasem zasili paszport. Sam paszport jako infrastruktura jest domeną systemu unijnego.
+Jeżeli Komisja wyda akt w zapowiadanym terminie, pierwsze obowiązki mogą pojawić się pod koniec 2028 r. Nie jest to jednak pewna data. Ostateczny termin będzie można wyznaczyć dopiero po opublikowaniu aktu delegowanego.
 
-## Podsumowanie
+## Co będzie zawierał paszport
 
-Cyfrowy Paszport Produktu jest w CPR 2024/3110 przesądzony, ale na dziś nie obowiązuje: dotyczy wyrobów pod nowym rozporządzeniem, wymaga operacyjnego systemu i nadania obowiązku aktem delegowanym, a obowiązek udostępnienia zaczyna biec dopiero osiemnaście miesięcy po wejściu w życie tego aktu. Normalizacja nośników danych i infrastruktury dopiero się rozpoczęła. Dla producenta najlepszą strategią jest uporządkowanie informacji o wyrobie i śledzenie aktów delegowanych — bez wyprzedzania faktów.
+Cyfrowy paszport produktu nie będzie nowym certyfikatem. Zbiera informacje i dokumenty dotyczące wyrobu, w tym:
+
+- oznaczenie wyrobu i dane producenta;
+- deklarację właściwości użytkowych i zgodności;
+- instrukcję użytkowania i informacje dotyczące bezpieczeństwa;
+- dokumentację techniczną;
+- wymagane dane środowiskowe;
+- dokumenty wymagane przez inne przepisy odnoszące się do wyrobu.
+
+Kod umieszczony na wyrobie, etykiecie albo opakowaniu będzie prowadził do paszportu. Sam kod nie jest paszportem.
+
+## Co można przygotować już teraz
+
+Nie ma potrzeby zgłaszania wyrobów do rejestru. Warto natomiast uporządkować dane, które później znajdą się w paszporcie.
+
+1. **Sprawdź oznaczenia wyrobów.** Nazwa i kod tego samego wyrobu powinny być jednakowe w katalogu, deklaracji i dokumentacji technicznej.
+2. **Ustal, które dokumenty są aktualne.** Dla każdej partii powinno być wiadomo, jaka wersja deklaracji, instrukcji i karty technicznej obowiązuje.
+3. **Zachowuj dane także poza plikami PDF.** Właściwości wyrobu, skład i dane środowiskowe trzeba będzie później przenieść do paszportu.
+4. **Wyznacz osoby odpowiedzialne za dane.** Producent powinien wiedzieć, kto zatwierdza informacje i kto może je zmienić.
+
+Nie warto dziś kupować usługi oferowanej jako „paszport zgodny z CPR”. Komisja nie określiła jeszcze szczegółowych wymagań dla wyrobów budowlanych, więc nie ma podstaw do takiego potwierdzenia.
+
+## Co wynika dla producenta
+
+Uruchomienie rejestru jest pierwszym praktycznym krokiem do wprowadzenia cyfrowych paszportów produktów w Unii. Dla producenta wyrobu budowlanego nie tworzy jeszcze żadnego nowego obowiązku.
+
+Kolejnym ważnym wydarzeniem będzie publikacja aktu delegowanego dla budownictwa. Od dnia jego wejścia w życie rozpocznie się okres 18 miesięcy na przygotowanie paszportów.
 
 ---
 
-*Chcesz uporządkować dokumentację i dane wyrobu, zanim Cyfrowy Paszport Produktu stanie się obowiązkowy? Napisz do nas: biuro@multicert.pl*
+*Chcesz uporządkować dokumentację wyrobu przed wprowadzeniem cyfrowych paszportów? Napisz do nas: biuro@multicert.pl*

@@ -74,7 +74,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 **System 3+ — walidacja danych środowiskowych przez jednostkę notyfikowaną**: Nowy System 3+ (nowość w CPR 2024, nieistniejący w CPR 305/2011) umożliwia producentowi złożenie danych środowiskowych (wyników LCA) do jednostki notyfikowanej w celu walidacji. Jednostka wydaje Raport z Walidacji (nie certyfikat!), potwierdzający zgodność metodyki z EN 15804+A2 oraz dokładność danych. Walidacja danych środowiskowych przez System 3+ jest dobrowolna, ale silnie podnosi wiarygodność deklaracji środowiskowych – szczególnie w przetargach publicznych.
 
-**Cyfrowy paszport wyrobu (DPP)**: W modelu docelowym każdy wyrób termoizolacyjny objęty nowymi wymogami może zostać włączony do systemu DPP zawierającego: DoP&C, dane środowiskowe (GWP, EPD), skład materiałowy (ważne dla recyklingu) oraz instrukcję montażu i demontażu. Obowiązek ten będzie jednak zależał od nowych hTS i aktów delegowanych KE, więc nie należy traktować go jako automatycznie aktywnego już dziś dla całej rodziny.
+**Cyfrowy paszport produktu**: Dla wyrobów termoizolacyjnych nie ma jeszcze obowiązku tworzenia paszportu. Powstanie on dopiero po wejściu w życie właściwej hTS i aktu delegowanego dla budownictwa. Paszport będzie mógł łączyć DoP&C, wymagane dane środowiskowe, informacje o składzie oraz instrukcję montażu i demontażu.
 
 **Substancje niebezpieczne**: CPR 2024 zaostrza monitorowanie SVHC. Producenci EPS korzystający z trudnopalnych środków chemicznych muszą zapewnić aktualną dokumentację o braku regulowanych substancji; producenci XPS muszą wykazać przejście na środki spieniające HFO zamiast HFC (wymóg rozporządzenia F-gaz).
 
@@ -109,7 +109,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 - [ ] Sprawdzić zawartość SVHC (PolyFR zamiast HBCD w EPS, HFO zamiast HFC w XPS)
 - [ ] Udostępnić DoP&C cyfrowo – wdrożyć QR kody na opakowaniach palet i fakturach
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
-- [ ] Przygotować plan wdrożenia cyfrowego paszportu wyrobu (DPP) — po publikacji aktów delegowanych KE (oczekiwanych nie wcześniej niż 2027)
+- [ ] Uporządkować dane i dokumenty potrzebne później w cyfrowym paszporcie produktu; Komisja planuje właściwy akt delegowany na drugi kwartał 2027 r.
 
 ## Gdzie szukać wsparcia
 

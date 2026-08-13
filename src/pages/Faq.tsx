@@ -147,7 +147,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Co to jest Cyfrowy Paszport Produktu (DPP)?",
     answer:
-      "Cyfrowy Paszport Produktu (DPP — Digital Product Passport) to elektroniczny dokument przypisany do wyrobu, umożliwiający cyfrowe śledzenie jego cech w całym cyklu życia. DPP będzie zawierał: identyfikację wyrobu i producenta, DoP&C, dane środowiskowe (GWP, LCA), informacje o substancjach niebezpiecznych, instrukcje dotyczące ponownego użycia i recyklingu. DPP będzie obowiązkowy po opublikowaniu odpowiednich zharmonizowanych specyfikacji technicznych (hTS). Przewidywany termin: **2028+** dla pierwszych rodzin wyrobów. Dostęp przez QR kod lub unikalny identyfikator wyrobu.",
+      "Cyfrowy Paszport Produktu (DPP, od angielskiej nazwy Digital Product Passport) będzie zbiorem danych i dokumentów przypisanych do wyrobu. Obejmie między innymi oznaczenie wyrobu, dane producenta, DoP&C, instrukcje i wymagane dane środowiskowe. Unijny rejestr paszportów działa od 20 lipca 2026 r., ale dla wyrobów budowlanych nie powstał jeszcze obowiązek korzystania z niego. Komisja planuje wydać akt delegowany dla budownictwa w drugim kwartale 2027 r. Obowiązek producentów rozpocznie się 18 miesięcy po wejściu tego aktu w życie i obejmie wyroby podlegające nowym specyfikacjom technicznym lub europejskim dokumentom oceny wydanym na podstawie CPR 2024/3110.",
     category: "dokumentacja",
     keywords: ["DPP", "paszport", "cyfrowy", "QR", "digital product passport"],
   },

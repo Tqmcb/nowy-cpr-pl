@@ -1,186 +1,112 @@
 ---
 title: "Cyfrowy Paszport Produktu (DPP) w CPR 2024 — co to jest, kiedy obowiązkowy i dla których wyrobów"
-reviewed: "2026-03-31"
+reviewed: "2026-08-13"
 date: "2025-07-08"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Cyfryzacja"
-tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "QR kod", "traceability", "GUNB", "Polska", "kary"]
-excerpt: "Cyfrowy Paszport Produktu (DPP) to jedno z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy czym jest, kiedy stanie się obowiązkowy dla polskich producentów wyrobów budowlanych — i dlaczego dziś (marzec 2026) kary za DPP są niemożliwe."
+tags: ["DPP", "cyfrowy paszport produktu", "CPR 2024", "cyfryzacja", "kod QR", "identyfikowalność", "rejestr DPP"]
+excerpt: "Cyfrowy Paszport Produktu jest jednym z kluczowych narzędzi CPR 2024/3110. Wyjaśniamy, co będzie zawierał, co już uruchomiła Komisja i kiedy obowiązek obejmie wyroby budowlane."
 image_url: /images/blog/cyfrowy-paszport-produktu-dpp-cpr-2024-v2.jpg
 template: "analiza"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
   - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
+  - Rozporządzenie wykonawcze Komisji (UE) 2026/1778 — rejestr DPP|https://eur-lex.europa.eu/eli/reg_impl/2026/1778/oj
+  - Komisja Europejska — harmonogram cyfrowego paszportu produktu|https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en
 ---
 
-# Cyfrowy Paszport Produktu w CPR 2024 — kompletne wyjaśnienie
+# Cyfrowy Paszport Produktu w CPR 2024: kompletne wyjaśnienie
 
-Cyfrowy Paszport Produktu (DPP, ang. Digital Product Passport) jest jedną z najbardziej przełomowych nowości wprowadzonych przez rozporządzenie CPR (UE) 2024/3110. Dla producentów wyrobów budowlanych przyzwyczajonych do papierowej dokumentacji to znacząca zmiana sposobu myślenia o identyfikowalności i transparentności wyrobu.
+Cyfrowy Paszport Produktu (DPP, od angielskiej nazwy *Digital Product Passport*) to uporządkowany zbiór danych o wyrobie, dostępny cyfrowo przez nośnik przypisany do produktu. W budownictwie ma połączyć w jednym systemie identyfikację wyrobu, deklarację właściwości użytkowych i zgodności, dokumentację techniczną, instrukcje oraz informacje potrzebne przy ponownym użyciu i recyklingu.
 
-Ten artykuł wyjaśnia czym jest DPP, kiedy stanie się obowiązkowy dla wyrobów budowlanych, co musi zawierać i jak można się do niego przygotować już teraz.
+Unijny rejestr paszportów już działa, ale **paszport nie jest jeszcze obowiązkowy dla wyrobów budowlanych**. Do rozpoczęcia obowiązku potrzebny jest akt delegowany ustanawiający odrębny system budowlany oraz objęcie wyrobu nową podstawą techniczną wydaną pod CPR 2024/3110.
 
-## Czym jest Cyfrowy Paszport Produktu?
+## Czym jest cyfrowy paszport produktu
 
-DPP to **cyfrowy zbiór danych o wyrobie**, dostępny przez internet i powiązany z konkretnym egzemplarzem lub partią wyrobu za pomocą unikalnego identyfikatora (np. QR kodu, kodu GS1 lub cyfrowego linku GS1). Paszport zawiera wszystkie kluczowe informacje o wyrobie — techniczne, środowiskowe i administracyjne — w formie ustrukturyzowanej i czytelnej maszynowo.
+Paszport nie jest jednym plikiem PDF ani nowym rodzajem certyfikatu. To cyfrowy zestaw informacji powiązany z typem wyrobu przez niepowtarzalny identyfikator i nośnik danych. Nośnikiem może być na przykład kod umieszczony na wyrobie, etykiecie, opakowaniu albo w dokumentacji towarzyszącej. Dokładne rozwiązanie będzie wynikało z systemu ustanowionego dla budownictwa.
 
-Wyobraź sobie DPP jako „dowód osobisty wyrobu" — każda rolka membrany dachowej, każda płyta izolacyjna, każdy profil stalowy będzie miał swój unikalny identyfikator prowadzący do pełnego zestawu danych o tym konkretnym wyrobie.
+CPR wymaga, aby informacje w paszporcie były dokładne, kompletne i aktualne. Dane mają być oparte na otwartych standardach. Tam, gdzie jest to właściwe, powinny mieć postać ustrukturyzowaną i możliwą do odczytu maszynowego. System ma chronić tajemnicę przedsiębiorstwa, prawa własności intelektualnej i dane osobowe.
 
-## Co mówi CPR 2024/3110 o DPP?
+## Co paszport będzie zawierał
 
-Rozporządzenie CPR 2024/3110 wprowadza DPP w **art. 75–80**. Kluczowe postanowienia:
+[Art. 76 CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) określa podstawowy zakres paszportu wyrobu budowlanego. Obejmuje on:
 
-1. **KE przyjmie akty wykonawcze określające zakres DPP** — które grupy wyrobów, jakie dane, jaki format, jakie terminy (art. 76)
-2. **DPP będzie obowiązkowy dopiero po upływie okresu koegzystencji po opublikowaniu nowej normy zharmonizowanej (hTS)** dla danej rodziny wyrobów ORAZ po wydaniu odpowiednich aktów wykonawczych KE
-3. **Rejestr DPP prowadzony przez KE** — KE zobowiązana do uruchomienia do 19 lipca 2026 r.
-4. **Zasady dla dostawców usług DPP** — określone w osobnym akcie delegowanym KE
+- deklarację właściwości użytkowych i zgodności wraz z dokumentami do niej dołączonymi;
+- ogólne informacje o wyrobie, instrukcję użytkowania i informacje dotyczące bezpieczeństwa;
+- dokumentację techniczną wymaganą przez CPR;
+- etykietę, jeżeli ma zastosowanie;
+- niepowtarzalne identyfikatory;
+- dokumentację wymaganą przez inne przepisy Unii odnoszące się do danego wyrobu;
+- nośniki danych kluczowych części, jeżeli dla tych części istnieją odrębne paszporty.
 
-> **Kluczowy mechanizm:** DPP staje się obowiązkowy dopiero gdy: (1) CEN opublikuje nową normę zharmonizowaną (hTS) dla danej rodziny wyrobów w Dz.U. UE, (2) upłynie okres koegzystencji (zazwyczaj 12–36 mies.) i stara norma zostanie wycofana, ORAZ (3) KE wyda akty wykonawcze z technicznymi wymaganiami systemu DPP. Na marzec 2026 żadne z tych warunków nie zostało spełnione.
+Zakres ten jest szerszy niż sama deklaracja właściwości użytkowych i zgodności. Paszport ma prowadzić do pełnego zestawu informacji potrzebnych producentowi, klientowi, projektantowi, organowi nadzoru, a w dalszej części cyklu życia także podmiotom zajmującym się demontażem, ponownym użyciem i odzyskiem materiałów.
 
-## Kiedy DPP stanie się obowiązkowy?
+## Rejestr już działa, ale obowiązek jeszcze nie
 
-To pytanie, które zadają wszyscy producenci. Odpowiedź jest złożona:
+Komisja Europejska [uruchomiła unijny rejestr cyfrowych paszportów 20 lipca 2026 r.](https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en). Zasady jego działania określa [rozporządzenie wykonawcze Komisji (UE) 2026/1778](https://eur-lex.europa.eu/eli/reg_impl/2026/1778/oj).
 
-| Etap | Termin | Co się dzieje |
-|---|---|---|
-| Uruchomienie rejestru DPP przez KE | Planowane do 19 lipca 2026 | KE buduje europejski rejestr DPP |
-| Publikacja aktów wykonawczych KE (art. 75–80) | Brak ustalonego terminu | Określenie formatu, danych, terminów dla poszczególnych grup wyrobów |
-| Publikacja nowych hTS przez CEN w Dz.U. UE + upływ okresu koegzystencji (12–36 mies.) | Dla każdej rodziny wyrobów oddzielnie | **Bez wycofania starej hTS DPP nie jest obowiązkowy** — sama publikacja hTS nie wystarczy |
-| DPP obowiązkowy | Po spełnieniu obu warunków: hTS + akty KE | Pierwsze wyroby: ok. 2028–2029 (orientacyjnie) |
+Rejestr przechowuje przede wszystkim niepowtarzalne identyfikatory i dane niezbędne do potwierdzenia rejestracji paszportu. Pełne dane wyrobu mają pozostać w systemie producenta lub dostawcy usługi paszportu. Komisja udostępniła także środowisko testowe, dokumentację techniczną i zasady komunikacji między systemami.
 
-**Wniosek praktyczny:** w 2026 roku DPP **nie jest jeszcze obowiązkowy** dla żadnego wyrobu budowlanego — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE określających techniczne wymagania DPP. Przygotowanie infrastruktury danych teraz to inwestycja, nie strata czasu.
+Rejestr ma obsługiwać różne sektory, w tym w przyszłości wyroby budowlane. Samo jego uruchomienie nie tworzy jednak obowiązku rejestracji wyrobów budowlanych.
 
-## Sytuacja prawna w Polsce — marzec 2026
+## Kiedy paszport stanie się obowiązkowy w budownictwie
 
-CPR 2024/3110 jest **rozporządzeniem UE** (nie dyrektywą), więc stosuje się bezpośrednio w Polsce od 8 stycznia 2026 r. — bez potrzeby osobnej ustawy transponującej. Jednak krajowe mechanizmy egzekucyjne i kary reguluje polska ustawa, która jest właśnie aktualizowana.
+Zgodnie z [art. 75 CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) Komisja ustanowi system cyfrowego paszportu dla wyrobów budowlanych w drodze aktu delegowanego. Akt ma określić między innymi:
 
-**Nowa Ustawa o Wyrobach Budowlanych (NUWB)**
+- kto uzyskuje dostęp do poszczególnych informacji;
+- kto może tworzyć i aktualizować dane;
+- jak zapewnić dostępność paszportu po zakończeniu działalności producenta;
+- jakie wymagania spełniają dostawcy usług paszportu;
+- jak system budowlany korzysta z unijnego rejestru, identyfikatorów i nośników danych.
 
-Projekt Nowej Ustawy o Wyrobach Budowlanych został opublikowany przez Ministerstwo Finansów i Gospodarki **21 października 2025 r.** Na marzec 2026 wciąż jest na etapie procesu legislacyjnego — **Sejm nie uchwalił jej jeszcze**. Do czasu uchwalenia NUWB obowiązują kary z dotychczasowej ustawy o wyrobach budowlanych.
+[Oficjalny harmonogram Komisji](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en) wskazuje obecnie drugi kwartał 2027 r. jako orientacyjny termin przyjęcia aktu dotyczącego wyrobów budowlanych. Data nie jest jeszcze wiążącym terminem dla producentów.
 
-Projekt NUWB przewiduje m.in.:
-- aktualizację stawek kar pieniężnych (wzrost o ok. 50% względem poziomów obecnych),
-- dostosowanie do nowych mechanizmów nadzoru rynku wynikających z CPR 2024/3110.
+[Art. 80 CPR](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) przewiduje, że:
 
-Nadzór rynku wyrobów budowlanych w Polsce sprawuje **Główny Urząd Nadzoru Budowlanego ([GUNB](https://www.gunb.gov.pl))** oraz inspektorzy wojewódzcy.
+- system budowlany ma być w pełni operacyjny 6 miesięcy po wejściu w życie aktu delegowanego;
+- obowiązek udostępniania paszportu przez producenta zacznie się 18 miesięcy po wejściu w życie tego aktu;
+- w okresie przejściowym producent będzie mógł korzystać z systemu dobrowolnie.
 
-**Praktyczne ryzyko kar dla polskich producentów — marzec 2026**
+Jeżeli Komisja utrzyma obecny harmonogram, pierwsze obowiązki mogłyby pojawić się najwcześniej pod koniec 2028 r. To wyłącznie wniosek z planu prac i ustawowego okresu 18 miesięcy, a nie przesądzona data.
 
-| Wymaganie | Podstawa prawna (UE) | Status krajowy | Realne ryzyko kary |
-|-----------|---------------------|---------------|-------------------|
-| DoP&C w nowym formacie (Art. 15) | ✅ Obowiązuje | ⚠️ NUWB w trakcie uchwalania | Niskie |
-| Unikalny identyfikator wyrobu (UPC) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
-| Cyfrowy dostęp do DoP&C (URL/QR) | ✅ Obowiązuje | ⚠️ j.w. | Niskie |
-| Deklarowanie GWP w DoP&C | ❌ Brak hTS | ❌ Brak podstawy prawnej | **Zerowe** |
-| Cyfrowy Paszport Produktu (DPP) | ❌ Brak hTS + brak aktów KE | ❌ Brak systemu DPP | **Zerowe** |
+## Które wyroby zostaną objęte paszportem
 
-> **Dlaczego za DPP nie ma dziś żadnych kar?** KE nie opublikowała jeszcze ani aktów wykonawczych z formatem DPP, ani nie uruchomiła rejestru DPP (planowany do 19 lipca 2026 r.). Nie można nałożyć kary za niespełnienie wymagań, których infrastruktura techniczna i prawna w ogóle nie istnieje.
+[Plan Prac CPR 2026-2029](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en) wskazuje, że paszport obejmie wyroby regulowane przez zharmonizowane specyfikacje techniczne lub europejskie dokumenty oceny wydane pod nowym CPR. Wyroby pozostające wyłącznie w systemie CPR 305/2011 nie przechodzą automatycznie do paszportu tylko dlatego, że uruchomiono unijny rejestr.
 
-*Producenci powinni śledzić komunikaty [GUNB](https://www.gov.pl/web/gunb) i Dziennik Urzędowy UE — sytuacja zmieni się po uchwaleniu NUWB i opublikowaniu aktów wykonawczych KE.*
+W praktyce wdrożenie będzie więc zależało od dwóch równoległych procesów:
 
-## Co DPP będzie zawierał?
+- ustanowienia systemu paszportu dla budownictwa;
+- przechodzenia poszczególnych rodzin wyrobów na nowe specyfikacje techniczne lub europejskie dokumenty oceny.
 
-Na podstawie CPR 2024/3110 i projektów aktów delegowanych DPP dla wyrobu budowlanego będzie zawierał:
+## Paszport, deklaracja i kod to trzy różne elementy
 
-### Identyfikacja wyrobu
-- Unikalny identyfikator wyrobu (GTIN lub inny globalny standard)
-- Nazwa handlowa, opis, numer modelu
-- Data produkcji / numer partii
-- Dane producenta (nazwa, adres, kontakt)
+Cyfrowa deklaracja właściwości użytkowych i zgodności będzie jednym z dokumentów zawartych w paszporcie. Nie należy jednak utożsamiać obu pojęć.
 
-### Właściwości techniczne
-- Wszystkie deklarowane właściwości z DoP&C
-- Powiązanie z normą zharmonizowaną lub ETA
-- System AVS i wyniki oceny zgodności
+| Element | Funkcja |
+|---|---|
+| Deklaracja właściwości użytkowych i zgodności | Oświadczenie producenta o właściwościach i zgodności wyrobu |
+| Cyfrowy paszport produktu | Zbiór danych i dokumentów dotyczących wyrobu |
+| Nośnik danych | Łączy wyrób z jego paszportem |
+| Unijny rejestr | Przechowuje identyfikatory i dane potrzebne do potwierdzenia rejestracji paszportu |
 
-### Właściwości środowiskowe
-- GWP (Globalny Potencjał Ocieplenia)
-- Inne wskaźniki EN 15804 (gdy obowiązkowe)
-- Zawartość materiałów z recyklingu
-- Informacje o możliwości recyklingu po zakończeniu użytkowania
+Kod umieszczony na wyrobie nie jest więc paszportem. Jest tylko nośnikiem prowadzącym do właściwego zestawu danych.
 
-### Dokumentacja
-- Link do aktualnego DoP&C (cyfrowa wersja)
-- Instrukcja montażu i użytkowania
-- Karta charakterystyki (jeśli dotyczy)
-- Certyfikaty i raporty z badań (opcjonalnie)
+## Jak przygotować dane przed rozpoczęciem obowiązku
 
-### Informacje o łańcuchu dostaw
-- Kraj produkcji
-- Dane importera (jeśli dotyczy)
-- Informacje o kluczowych komponentach (dla zestawów)
+Producent nie musi dziś rejestrować zwykłego wyrobu budowlanego w unijnym rejestrze. Może jednak przygotować dokumentację tak, aby późniejsze wdrożenie nie wymagało budowania całego porządku informacji od początku.
 
-## Jak technicznie działa DPP?
+1. **Ujednolicić identyfikację typów wyrobów.** Nazwy handlowe, numery katalogowe i kody w dokumentacji powinny wskazywać ten sam wyrób.
+2. **Oddzielić dane od plików.** Właściwości użytkowe, skład i dane środowiskowe powinny istnieć również w postaci możliwej do przeniesienia między systemami, a nie wyłącznie w dokumentach PDF.
+3. **Prowadzić historię zmian.** Trzeba wiedzieć, od kiedy obowiązuje dana wersja deklaracji, instrukcji i danych technicznych.
+4. **Uporządkować odpowiedzialność za dane.** Producent powinien wiedzieć, kto zatwierdza informacje i kto może je aktualizować.
+5. **Nie deklarować zgodności z nieistniejącym jeszcze systemem budowlanym.** Ostateczne wymagania określi dopiero akt delegowany Komisji.
 
-DPP opiera się na **cyfrowym linku** — standardzie GS1 Digital Link lub podobnym. Fizycznie na wyrobie lub opakowaniu znajduje się kod QR lub kod kreskowy 2D. Zeskanowanie kodu prowadzi do strony internetowej lub API, które zwracają dane paszportu w ustrukturyzowanym formacie (JSON-LD, XML lub podobny).
+## Najważniejszy wniosek
 
-Europejski system DPP dla wyrobów budowlanych będzie obejmował:
-- **Centralny rejestr** prowadzony przez KE
-- **API** dla uczestników rynku (producenci, projektanci, organy nadzoru)
-- **Interfejs publiczny** dostępny dla wszystkich (np. dla inspektorów budowlanych na placu budowy)
+Unijna infrastruktura paszportów przestała być zapowiedzią: rejestr działa od 20 lipca 2026 r. Nie oznacza to jednak rozpoczęcia obowiązku dla producentów wyrobów budowlanych. Potrzebny jest jeszcze akt delegowany ustanawiający system budowlany, a następnie upływ ustawowego terminu 18 miesięcy.
 
-Ważne: producent **nie musi sam budować serwera** dla swojego DPP. Będzie mógł korzystać z platform certyfikowanych przez KE lub z usług oferowanych przez jednostki notyfikowane i laboratoria.
-
-## Co CPR 2024 mówi o QR kodzie już dziś?
-
-Choć DPP nie jest jeszcze obowiązkowy, CPR 2024/3110 już teraz (od 8 stycznia 2026) wymaga, by **DoP&C była dostępna cyfrowo** — przez URL lub QR kod na wyrobie/opakowaniu (Art. 16 ust. 2).
-
-To jest **poprzedniczka DPP** — jeśli teraz wdrożysz cyfrową dostępność DoP&C przez QR kod, zbudujesz fundament pod przyszły DPP. Techniczne przygotowanie jest bardzo podobne.
-
-## Różnica między DoP&C a DPP
-
-Wielu producentów myli te dwa pojęcia. Oto kluczowe różnice:
-
-| Cecha | DoP&C | DPP |
-|---|---|---|
-| Co to jest | Deklaracja producenta | Cyfrowy zbiór danych wyrobu |
-| Format | Dokument (PDF + link) | Dane ustrukturyzowane (API/JSON) |
-| Kto prowadzi | Producent | Producent + centralny rejestr KE |
-| Obowiązkowość | Od 8.01.2026 | Od ok. 2028–2029 (kategorie priorytetowe) |
-| Zakres danych | Właściwości użytkowe + środowiskowe | Wszystkie dane + historia zmian |
-| Odbiorca | Klient, organ nadzoru | Maszyny, BIM, rynek wtórny |
-
-DoP&C to **deklaracja**, DPP to **repozytorium danych**. DPP będzie zawierało DoP&C jako jeden z elementów.
-
-## Jak przygotować się na DPP już teraz?
-
-Nie czekając na obowiązek, możesz zrobić trzy rzeczy:
-
-**1. Ustandaryzuj dane wyrobów**
-Zadbaj o to, by każdy wyrób miał jednoznaczny identyfikator (GTIN z GS1, własny numer katalogowy z logiką), a dane techniczne były przechowywane w formie ustrukturyzowanej (baza danych, a nie tylko PDF).
-
-**2. Wdróż cyfrową dostępność DoP&C**
-Umieść DoP&C online i dodaj QR kod na etykietach — to krok w stronę pełnej cyfryzacji, a jednocześnie test gotowości technicznej na DPP.
-
-**3. Zbierz dane środowiskowe**
-GWP i inne wskaźniki środowiskowe będą centralnym elementem DPP. Zacznij obliczenia LCA teraz — wówczas gdy DPP stanie się obowiązkowy, będziesz miał dane gotowe.
-
-## DPP a branża budowlana — co zmienia w praktyce?
-
-DPP zmienia sposób w jaki informacje o wyrobach budowlanych przepływają przez łańcuch wartości:
-
-- **Projektant/architekt** pobiera dane techniczne i środowiskowe bezpośrednio do modelu BIM
-- **Wykonawca** weryfikuje na placu budowy (skan QR) czy zamontowany wyrób jest tym samym co w projekcie
-- **Inwestor/właściciel budynku** ma pełną dokumentację wbudowanych materiałów do przyszłego remontu lub wyburzenia
-- **Organ nadzoru (GUNB)** sprawdza DPP zdalnie zamiast żądać papierowych dokumentów
-- **Recykler** wie co jest w budynku i jak odzyskać materiały
-
-## Podsumowanie
-
-Cyfrowy Paszport Produktu nie jest obowiązkowy w 2026 roku dla żadnego polskiego producenta — brakuje zarówno nowych norm zharmonizowanych (hTS), jak i aktów wykonawczych KE precyzujących system DPP. Kary za DPP są dziś niemożliwe, bo nie istnieje ani rejestr, ani format danych, ani podstawa prawna wymagania DPP.
-
-Europejski system DPP jest budowany przez KE — pierwsze akty delegowane wskazujące kategorie priorytetowe oczekiwane są w 2027 r. W Polsce trwa jednocześnie uchwalanie Nowej Ustawy o Wyrobach Budowlanych (NUWB), która zaktualizuje stawki kar i mechanizmy nadzoru GUNB.
-
-Producenci, którzy teraz ustandaryzują dane i wdrożą cyfrową dostępność DoP&C (już obowiązkową od 2026), będą gotowi na DPP bez rewolucji w ostatniej chwili.
+Producent powinien dziś porządkować identyfikatory, dokumentację i dane, ale nie powinien kupować rozwiązania przedstawianego jako „paszport zgodny z CPR”, dopóki nie zostaną opublikowane szczegółowe wymagania systemu.
 
 ---
 
-**Źródła:**
-- Rozporządzenie (UE) 2024/3110 art. 75–80 (Cyfrowy Paszport Produktu) — [EUR-Lex](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=OJ:L_202403110)
-- DG GROW — Digital Product Passport w sektorze budowlanym — [ec.europa.eu](https://single-market-economy.ec.europa.eu/industry/sustainability/product-policy_en)
-- GS1 Digital Link — standard identyfikacji — [gs1.org](https://www.gs1.org/standards/gs1-digital-link)
-- GUNB — nadzór rynku wyrobów budowlanych w Polsce — [gov.pl/web/gunb](https://www.gov.pl/web/gunb)
-- Projekt Nowej Ustawy o Wyrobach Budowlanych (NUWB) — opublikowany 21.10.2025, Ministerstwo Finansów i Gospodarki
-
----
-
-*Jeśli temat cyfrowego paszportu wyrobu rodzi pytania albo chcecie, byśmy rozwinęli któryś aspekt, dajcie znać. Piszcie do Redakcji na biuro@multicert.pl.*
+*Jeśli chcesz ustalić, które dane i dokumenty Twojego wyrobu będą potrzebne w przyszłym paszporcie, napisz do Redakcji na biuro@multicert.pl.*

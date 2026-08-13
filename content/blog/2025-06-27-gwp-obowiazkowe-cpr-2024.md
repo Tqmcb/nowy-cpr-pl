@@ -129,7 +129,7 @@ GWP obejmuje emisje CO₂ i innych gazów cieplarnianych (metan, podtlenek azotu
 Tak, zmiana kluczowego surowca (np. dostawcy cementu w betonie) może istotnie zmienić GWP i wymaga aktualizacji obliczeń LCA oraz DoP&C.
 
 **Gdzie będzie można porównywać GWP różnych wyrobów budowlanych?**
-KE planuje europejski rejestr EPD/DPP, który umożliwi porównywanie wyrobów po wskaźnikach środowiskowych. Polska baza EPD jest w fazie tworzenia.
+Unijny rejestr cyfrowych paszportów działa od 20 lipca 2026 r., ale nie jest porównywarką EPD ani wskaźników GWP. Przechowuje identyfikatory paszportów i dane potrzebne do potwierdzenia ich rejestracji. Dane środowiskowe pozostaną w samych paszportach i innych właściwych dokumentach.
 
 ---
 

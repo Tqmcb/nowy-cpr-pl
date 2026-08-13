@@ -83,12 +83,12 @@ Dla rodziny 34 stosuje się systemy AVS (Assessment and Verification of Constanc
 - Zawartość surowców odnawialnych i materiałów z recyklingu
 - Możliwość demontażu i ponownego użycia modułów (circular economy)
 
-**BIM i cyfryzacja (nowe w CPR 2024):**
-CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszporty wyrobów** i integrację z BIM (Building Information Modelling). Zestawy prefabrykowane są naturalnym kandydatem do cyfrowej dokumentacji – każdy element może mieć cyfrowy identyfikator z przypisaną DoP&C i parametrami BIM.
+**Modelowanie informacji o budynku i cyfryzacja:**
+CPR 2024 wprowadza ramy cyfrowych paszportów produktów. Nie oznacza to jednak, że paszport jest już obowiązkowy albo że musi być połączony z modelem informacji o budynku (BIM, od angielskiej nazwy Building Information Modelling). Dla zestawów prefabrykowanych warto już teraz utrzymywać spójne oznaczenia elementów oraz powiązanie ich z właściwą DoP&C i dokumentacją projektową.
 
 ## Zmiany względem CPR 305/2011
 
-1. **Cyfrowe paszporty wyrobów** – CPR 2024 wprowadza obowiązek udostępnienia dokumentacji wyrobu (DoP&C, instrukcja montażu) w formacie cyfrowym, z możliwością odczytu przez kody QR lub RFID.
+1. **Cyfrowe paszporty produktów**: CPR 2024 tworzy podstawę ich przyszłego stosowania, ale obowiązek dla budownictwa jeszcze nie powstał. Szczegóły sposobu udostępniania danych określi akt delegowany.
 2. **BWR 7 dla systemów modułowych** – zestawy budowlane z drewna, CLT i stali muszą deklarować właściwości środowiskowe (LCA), co staje się przewagą konkurencyjną dla systemów niskoemisyjnych.
 3. **Wzmocniona ścieżka ETA** – CPR 2024 upraszcza procedury ETA dla systemów innowacyjnych, skracając czas od złożenia wniosku do wydania dokumentu.
 4. **Interoperacyjność z EPBD** – deklarowane właściwości cieplne systemów ściennych i stropowych mają bezpośredni wpływ na klasę energetyczną budynku.
@@ -119,7 +119,7 @@ CPR 2024 jako pierwsze rozporządzenie budowlane UE uwzględnia **cyfrowe paszpo
 - [ ] Wybrać system AVS (1 lub 2+) i uzyskać certyfikat od jednostki notyfikowanej
 - [ ] Wdrożyć ZKP w fabryce i poddać ją audytom zewnętrznym
 - [ ] Opracować EPD systemu i rozważyć walidację danych środowiskowych (system 3+) – szczególnie dla drewna
-- [ ] Przygotować cyfrowy paszport wyrobu z DoP&C dostępną przez kod QR
+- [ ] Uporządkować oznaczenia elementów oraz wersje DoP&C, instrukcji montażu i dokumentacji projektowej potrzebnych później w cyfrowym paszporcie produktu
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Wystawić DoP&C i oznaczyć system CE
 - [ ] Opracować instrukcję montażu zgodną z wymaganiami CPR 2024

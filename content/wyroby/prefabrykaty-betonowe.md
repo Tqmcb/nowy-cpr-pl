@@ -99,7 +99,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 - [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVS i numer jednostki notyfikowanej
 - [ ] Rozpocząć przygotowania do deklarowania GWP – nawiązać kontakt z dostawcami cementu i kruszyw w sprawie danych środowiskowych do EPD
 - [ ] Skonfigurować system archiwizacji dokumentacji technicznej (DoP&C przechowywana minimum 10 lat)
-- [ ] Zaplanować wdrożenie cyfrowego paszportu wyrobu (DPP) przed rokiem 2027
+- [ ] Uporządkować oznaczenia wyrobów oraz dane techniczne i środowiskowe potrzebne później w cyfrowym paszporcie produktu
 
 ## Gdzie szukać wsparcia
 

@@ -1,77 +1,81 @@
 ---
 title: "Paszport wyrobu budowlanego — czym jest i kiedy stanie się obowiązkowy"
-reviewed: "2026-03-31"
+reviewed: "2026-08-13"
 date: "2025-04-18"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Aktualności"
-tags: ["paszport wyrobu", "zrównoważoność", "ESG", "cyrkularność"]
-excerpt: "Czym jest paszport wyrobu budowlanego (DPP — Digital Product Passport) i kiedy stanie się obowiązkowy? Na marzec 2026 DPP nie jest jeszcze wymagany — wymaga aktów wykonawczych KE i nowych norm zharmonizowanych. Wyjaśniamy, co CPR 2024 mówi o DPP i jak się przygotować."
+tags: ["paszport wyrobu", "cyfrowy paszport produktu", "CPR 2024", "dokumentacja wyrobu", "identyfikowalność"]
+excerpt: "Paszport połączy dane i dokumenty dotyczące wyrobu budowlanego. Unijny rejestr już działa, ale producenci nie muszą jeszcze tworzyć paszportów."
 image_url: /images/blog/paszport-produktu.jpg
 template: "aktualnosci"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj
-  - Rozporządzenie ESPR (UE) 2024/1781 — EUR-Lex|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
+  - Rozporządzenie wykonawcze Komisji (UE) 2026/1778 — rejestr DPP|https://eur-lex.europa.eu/eli/reg_impl/2026/1778/oj
+  - Komisja Europejska — harmonogram cyfrowego paszportu produktu|https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en
 ---
 
-# Paszport wyrobu budowlanego — czym jest i kiedy stanie się obowiązkowy
+# Paszport wyrobu budowlanego: czym jest i kiedy stanie się obowiązkowy
 
-CPR (EU) 2024/3110 wprowadza koncepcję **cyfrowego paszportu wyrobu** (DPP — Digital Product Passport) — jednego z najważniejszych przyszłych elementów systemu CPR 2024. To narzędzie, które docelowo zmieni sposób dokumentowania i udostępniania informacji o wyrobach przez cały ich cykl życia.
+Cyfrowy paszport produktu będzie porządkował informacje o wyrobie budowlanym. Zamiast szukać deklaracji, instrukcji i danych technicznych w kilku miejscach, użytkownik otworzy właściwy zestaw dokumentów za pomocą oznaczenia przypisanego do wyrobu.
 
-> **Ważne:** DPP nie jest jeszcze obowiązkowy. Obowiązek wejdzie w życie osobno dla każdej rodziny wyrobów dopiero po opublikowaniu nowej normy zharmonizowanej (hTS) w Dz.U. UE, po zakończeniu okresu koegzystencji (zazwyczaj 12–36 mies.) ORAZ po wydaniu przez Komisję Europejską aktów wykonawczych z technicznymi wymaganiami systemu DPP. Na marzec 2026 żadne z tych warunków nie zostało spełnione.
+Paszport nie jest jeszcze obowiązkowy dla wyrobów budowlanych. Komisja Europejska uruchomiła unijny rejestr paszportów 20 lipca 2026 r., ale nie wydała jeszcze aktu delegowanego określającego zasady dla budownictwa.
 
-## Definicja
+## Paszport nie będzie nowym certyfikatem
 
-Paszport wyrobu to cyfrowy dokument zawierający kompleksowe informacje o wyrobie budowlanym od produkcji, przez użytkowanie, aż po recykling i utylizację. Powiązany jest z unikalnym identyfikatorem wyrobu (kodem QR lub tagiem RFID).
+Paszport będzie zbiorem danych i dokumentów. Nie zastąpi oceny wyrobu, badań ani udziału jednostki notyfikowanej, jeżeli są wymagane. Nie będzie też potwierdzał zgodności sam przez się.
 
-## Wymagane informacje
+Jego zadaniem jest przypisanie właściwych informacji do konkretnego typu wyrobu i zapewnienie do nich dostępu. Oznaczenie na wyrobie, etykiecie lub opakowaniu będzie prowadziło do paszportu. Sam kod nie jest paszportem.
 
-### Dane podstawowe
+## Jakie informacje znajdą się w paszporcie
 
-- Identyfikator wyrobu (unikalny numer seryjny lub partii)
-- Producent i łańcuch dostaw
-- Skład materiałowy (substancje szczególnie niebezpieczne)
+Zgodnie z [art. 76 CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) paszport będzie zawierał między innymi:
 
-### Informacje środowiskowe
+- deklarację właściwości użytkowych i zgodności wraz z dokumentami do niej dołączonymi;
+- ogólne informacje o wyrobie;
+- instrukcję użytkowania i informacje dotyczące bezpieczeństwa;
+- dokumentację techniczną wymaganą przez CPR;
+- niepowtarzalne oznaczenia wyrobu;
+- dokumenty wymagane przez inne przepisy Unii dotyczące danego wyrobu.
 
-- **Ślad węglowy (GWP)** – potencjał globalnego ocieplenia w kg CO₂ eq.
-- **Zużycie energii pierwotnej** w produkcji
-- **Potencjał recyklingu** po zakończeniu użytkowania
-- **Klasa cyrkularna** – wskaźnik możliwości ponownego użycia
+Jeżeli dla wyrobu trzeba będzie deklarować właściwości środowiskowe, również te dane znajdą się w dokumentacji udostępnianej przez paszport. Nie oznacza to jednak, że każdy producent już dziś musi sporządzić deklarację środowiskową wyrobu.
 
-### Cykl życia
+## Co już działa
 
-- Przewidywana trwałość w typowych warunkach eksploatacji
-- Instrukcje konserwacji i pielęgnacji
-- Wskazówki dotyczące demontażu
-- Opcje ponownego użycia lub recyklingu
+[Unijny rejestr cyfrowych paszportów produktów](https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en) działa od 20 lipca 2026 r. Przechowuje numery identyfikacyjne paszportów i pozwala potwierdzić ich rejestrację.
 
-## Powiązanie z danymi środowiskowymi
+Rejestr nie przechowuje całej dokumentacji wyrobu. Za dane nadal odpowiada producent. Będzie mógł przechowywać je samodzielnie albo powierzyć prowadzenie paszportu innemu podmiotowi.
 
-CPR 2024 wymaga docelowo deklarowania **właściwości środowiskowych** wyrobów budowlanych — przede wszystkim śladu węglowego (GWP — Global Warming Potential, wyrażanego w kg CO₂ eq.). Paszport wyrobu będzie bazował m.in. na tych danych.
+Wyroby budowlane nie są jeszcze objęte obowiązkiem rejestracji. Uruchomienie rejestru przygotowało wspólną infrastrukturę dla kilku sektorów, ale nie zastąpiło odrębnych przepisów dla budownictwa.
 
-Narzędziem do ich obliczenia jest **analiza cyklu życia (LCA — Life Cycle Assessment)** zgodna z normą EN 15804+A2. Wyniki LCA mogą być opublikowane w formie **Deklaracji Środowiskowej Wyrobu (EPD — Environmental Product Declaration)** — dobrowolnego dokumentu, który jednak znacząco ułatwia spełnienie przyszłych wymogów CPR. Polskim programem rejestracji EPD jest [epd.org.pl](https://www.epd.org.pl).
+## Kiedy obowiązek obejmie wyroby budowlane
 
-## Harmonogram wdrożenia
+Komisja planuje wydać akt delegowany dotyczący paszportów wyrobów budowlanych w drugim kwartale 2027 r. Termin ma charakter orientacyjny.
 
-| Etap | Orientacyjny termin |
-|------|---------------------|
-| Pierwsze akty delegowane KE (kategorie priorytetowe DPP) | 2027 (szacunkowo) |
-| Pierwsze hTS z CPR 2024 + zakończenie koegzystencji | 2027–2029 (w zależności od rodziny wyrobów) |
-| Stopniowe obejmowanie kolejnych rodzin wyrobów | 2029–2032 |
+Po wejściu w życie aktu zaczną biec dwa terminy określone w art. 80 CPR:
 
-*Terminy mają charakter orientacyjny. Obowiązek DPP aktywuje się dla danej grupy wyrobów po opublikowaniu właściwej hTS i upływie okresu koegzystencji.*
+- po 6 miesiącach system dla budownictwa ma być gotowy do działania;
+- po 18 miesiącach producenci wyrobów objętych nowym CPR będą musieli udostępniać paszporty.
 
-## Jak się przygotować?
+Jeżeli plan Komisji nie ulegnie zmianie, pierwsze obowiązki mogą pojawić się pod koniec 2028 r. Dokładną datę będzie można ustalić dopiero po publikacji aktu delegowanego.
 
-1. **Przeprowadź analizę cyklu życia (LCA)** dla swoich wyrobów — to podstawa do obliczenia śladu węglowego
-2. **Rozważ przygotowanie EPD** (Deklaracji Środowiskowej Wyrobu) zgodnie z EN 15804+A2 — dokument dobrowolny, ale ułatwiający spełnienie przyszłych wymogów
-3. **Wdróż system zarządzania danymi** o wyrobach
-4. **Zintegruj** informacje o składzie materiałowym z dokumentacją techniczną
+Paszport obejmie wyroby podlegające specyfikacjom technicznym lub europejskim dokumentom oceny wydanym już na podstawie CPR 2024/3110. Wyroby pozostające w dotychczasowym systemie CPR 305/2011 nie zostaną objęte paszportem automatycznie.
+
+## Jak przygotować dokumentację
+
+Producent nie musi dziś kupować systemu ani zgłaszać wyrobów do rejestru. Powinien natomiast sprawdzić, czy:
+
+- każdy wyrób ma jednoznaczne i jednakowe oznaczenie we wszystkich dokumentach;
+- wiadomo, która wersja deklaracji, instrukcji i karty technicznej jest aktualna;
+- właściwości wyrobu, skład i dane środowiskowe są dostępne również poza plikami PDF;
+- można odtworzyć historię zmian dokumentacji;
+- wyznaczono osoby odpowiedzialne za zatwierdzanie danych.
+
+Nie należy kupować usługi oferowanej jako „paszport zgodny z CPR”. Komisja nie określiła jeszcze szczegółowych wymagań dla budownictwa, więc nikt nie może dziś potwierdzić takiej zgodności.
+
+## Podsumowanie
+
+Cyfrowy paszport produktu uporządkuje dane i dokumenty dotyczące wyrobu budowlanego. Unijny rejestr już działa, lecz obowiązek producenta rozpocznie się dopiero 18 miesięcy po wejściu w życie aktu delegowanego ustanawiającego system dla budownictwa.
 
 ---
 
-Paszport wyrobu budowlanego (DPP) to przyszły wymóg prawny, który stanie się obowiązkowy dopiero po opublikowaniu nowych norm zharmonizowanych (hTS — harmonized Technical Specification) i aktów wykonawczych KE — na marzec 2026 żadne z tych warunków nie zostało spełnione. Już teraz jest jednak szansą na wyróżnienie się na rynku i budowanie przewagi konkurencyjnej opartej na transparentności i zrównoważonym rozwoju.
-
----
-
-*Jeśli temat paszportu wyrobu budzi pytania albo chcecie, byśmy rozwinęli któryś wątek, dajcie znać. Piszcie do Redakcji na biuro@multicert.pl.*
+*Jeśli chcesz uporządkować dokumentację wyrobu przed wprowadzeniem cyfrowych paszportów, napisz do Redakcji na biuro@multicert.pl.*

@@ -116,7 +116,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 - [ ] Oznakować wyroby znakiem CE z numerem certyfikatu i numerem JN (1438 dla CNBOP-PIB)
 - [ ] Przeprowadzić przegląd substancji gaśniczych pod kątem GWP (wycofywanie HFC w systemach gazowych)
 - [ ] Monitorować zmiany w normach serii EN 54 (aktywny komitet CEN/TC 72) – możliwe aktualizacje norm
-- [ ] Przygotować dokumentację do cyfrowego paszportu wyrobu (DPP) uwzględniającą wymagania systemów FMMS (zarządzania konserwacją)
+- [ ] Uporządkować oznaczenia wyrobów, wersje dokumentów oraz dane dotyczące konserwacji, które później mogą trafić do cyfrowego paszportu produktu
 
 ## Gdzie szukać wsparcia
 

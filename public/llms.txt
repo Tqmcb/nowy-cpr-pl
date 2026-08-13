@@ -20,7 +20,7 @@
 - **System 3+** — nowy system AVS (bez odpowiednika w AVCP); obejmuje weryfikację Deklaracji Środowiskowej Produktu (EPD) przez notyfikowane laboratorium (NTL)
 - **FPC** — Zakładowa Kontrola Produkcji (art. 20 ust. 3 CPR 2024/3110); obowiązkowa dla wszystkich producentów; uproszczona dla mikroprzedsiębiorstw
 - **SVHC** — Substancje Wzbudzające Szczególne Obawy (lista kandydatów ECHA); jeśli >0,1% w/w w wyrobie, producent powinien przygotować ujawnienie zgodnie z CPR 2024/3110, właściwą hTS i dokumentacją stosowaną dla danej grupy wyrobów
-- **DPP** — Cyfrowy Paszport Produktu (art. 75–80 CPR 2024/3110); etapowe wdrożenie po 2027 r. na podstawie aktów delegowanych KE; uzupełnia DoP&C o dane środowiskowe i cyklu życia
+- **DPP** — Cyfrowy Paszport Produktu (art. 75–80 CPR 2024/3110); unijny rejestr działa od 20 lipca 2026 r., ale obowiązek dla wyrobów budowlanych rozpocznie się dopiero 18 miesięcy po wejściu w życie właściwego aktu delegowanego
 - **EPD** — Deklaracja Środowiskowa Produktu (Environmental Product Declaration); norma EN 15804+A2; stosowana w systemie AVS 3+
 - **Jednostki notyfikowane (JN)** — organy certyfikujące upoważnione przez państwa członkowskie; wymagane w systemach AVS 1+, 1, 2+
 - **NTL** — Notyfikowane Laboratorium (Notified Testing Laboratory); wymagane w systemie AVS 3+ do weryfikacji EPD

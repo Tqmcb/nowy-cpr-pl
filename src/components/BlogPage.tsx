@@ -197,7 +197,7 @@ Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 27 listopa
 
 ## Kluczowe zmiany
 1. **Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (DoP&C)** — nowy format, obowiązkowy po publikacji nowych norm zharmonizowanych (hTS)
-2. **Cyfrowy paszport produktu (DPP)** — wymaga hTS oraz aktów wykonawczych KE (oba jeszcze nieopublikowane)
+2. **Cyfrowy paszport produktu (DPP)** — unijny rejestr już działa, ale obowiązek dla wyrobów budowlanych wymaga nowej hTS lub EAD oraz aktu delegowanego ustanawiającego system dla budownictwa
 3. **Rozszerzone systemy AVS (dawniej AVCP)** — nowy system 3+ dla aspektów środowiskowych
 4. **Wymagania środowiskowe (GWP)** — obowiązkowe dopiero po wejściu w życie nowych hTS dla danej rodziny wyrobów
 
@@ -236,8 +236,8 @@ Digital DoP&C to elektroniczna forma deklaracji właściwości użytkowych i zgo
 - Archiwizacja: minimum 10 lat
 
 ## Harmonogram wdrożenia
-- 2025–2026: Przygotowanie infrastruktury i rejestr DPP
-- 2027–2028: Akty delegowane KE (format, dostawcy usług)
+- 20 lipca 2026: Uruchomienie unijnego rejestru cyfrowych paszportów
+- II kwartał 2027: Planowany akt delegowany ustanawiający system dla wyrobów budowlanych
 - Po publikacji hTS: Obowiązkowe stosowanie (etapowo wg rodzin wyrobów)
 
 ## Korzyści

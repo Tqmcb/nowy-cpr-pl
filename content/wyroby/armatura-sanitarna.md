@@ -112,7 +112,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 - [ ] Zebrać dane o zużyciu wody dla muszli WC (litry/spłukiwanie) i przygotować deklarację środowiskową
 - [ ] Sprawdzić substancje niebezpieczne w uszczelkach (ftalany w PVC), powłokach i barwnikach ceramicznych
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
-- [ ] Przygotować dane CAD i wymiarowe do DPP (cyfrowego paszportu wyrobu) dostępnego z QR kodu
+- [ ] Uporządkować dane wymiarowe, pliki CAD i wersje dokumentów potrzebnych później w cyfrowym paszporcie produktu
 - [ ] Zapewnić dostępność części zamiennych (zawory, uszczelki, stelaże) przez minimum 7–10 lat po sprzedaży wyrobu
 
 ## Gdzie szukać wsparcia

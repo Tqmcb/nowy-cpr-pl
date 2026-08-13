@@ -72,7 +72,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 
 **System 3+ dla walidacji danych środowiskowych**: Wiodący producenci gipsu w Polsce (Knauf, Rigips/Saint-Gobain, Siniat) już teraz posiadają programowe EPD branżowe. CPR 2024 daje im możliwość walidacji danych środowiskowych (wyników LCA) przez System 3+ – wydania raportu walidacyjnego przez jednostkę notyfikowaną, co podnosi wiarygodność danych w zamówieniach publicznych GPP.
 
-**Cyfrowy paszport wyrobu**: Dla płyt GK o unikalnych kodach produktowych (SKU) możliwe jest wdrożenie DPP na poziomie palety lub partii produkcyjnej. Kod QR na palecie prowadzi do DoP&C, EPD i instrukcji montażu w formacie cyfrowym.
+**Cyfrowy paszport produktu**: Nie wiadomo jeszcze, czy dla płyt gipsowo-kartonowych paszport będzie przypisywany do rodzaju wyrobu, partii czy pojedynczego egzemplarza. Określi to akt delegowany dla budownictwa. Producent może już teraz uporządkować oznaczenia wyrobów oraz wersje DoP&C, EPD i instrukcji montażu.
 
 ## Harmonogram wdrożenia
 
@@ -104,7 +104,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ ] Sprawdzić zawartość pierwiastków promieniotwórczych w gipsie syntetycznym FGD (indeks aktywności I)
 - [ ] Przygotować materiały informacyjne dla dystrybutorów o nowych wymaganiach DoP&C CPR 2024
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
-- [ ] Zaplanować wdrożenie DPP (cyfrowego paszportu wyrobu) z QR kodami na paletach i opakowaniach
+- [ ] Uporządkować oznaczenia wyrobów i wersje dokumentów potrzebnych później w cyfrowym paszporcie produktu
 
 ## Gdzie szukać wsparcia
 

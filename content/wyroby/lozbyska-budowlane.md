@@ -103,7 +103,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 - [ ] Przygotować dokumentację techniczną zawierającą obliczenia projektowe dla każdego indywidualnego zamówienia
 - [ ] Wdrożyć cyfrowy system identyfikowalności – każde łożysko musi być identyfikowalne do partii produkcyjnej, certyfikatu i wyników badań
 - [ ] Zebrać dane środowiskowe (zawartość stali z recyklingu, GWP procesu) na potrzeby przyszłej EPD
-- [ ] Sprawdzić zgodność dokumentacji z wymaganiami DPP i przygotować infrastrukturę do cyfrowego paszportu wyrobu
+- [ ] Uporządkować oznaczenia wyrobów, wersje dokumentów i powiązanie każdego łożyska z właściwą partią produkcyjną
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Zaktualizować oznakowanie CE i etykiety zgodnie z nową terminologią CPR 2024 (DoP&C, AVS)
 
@@ -113,4 +113,4 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z zapleczem do testów materiałów (elastomerów, PTFE) i badań mechanicznych; wykonuje badania wstępne ITT wymagane przed certyfikacją
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – European Technical Assessments (ETA) dla innowacyjnych systemów łożysk nieposiadających pełnej normy zharmonizowanej (np. izolatory sejsmiczne nowych generacji)
 
-Producenci łożysk budowlanych powinni szczególnie śledzić wytyczne techniczne GDDKiA i PKP PLK, które jako zamawiający robót mostowych coraz częściej wymagają DPP i EPD w dokumentacji przetargowej, wyprzedzając nawet harmonogram CPR 2024.
+Producenci łożysk budowlanych powinni sprawdzać wymagania techniczne GDDKiA i PKP PLK oddzielnie dla każdego postępowania. Specyfikacja zamówienia może wymagać dodatkowych danych środowiskowych lub dokumentów, mimo że cyfrowy paszport produktu nie jest jeszcze obowiązkowy na podstawie CPR 2024/3110.
