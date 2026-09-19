@@ -1,73 +1,53 @@
 ---
-title: "Stal konstrukcyjna w nowym CPR — obowiązkowa norma i akt delegowany już w drugim kwartale 2026"
-reviewed: "2026-06-08"
+title: "Stal konstrukcyjna a nowy CPR — co wynika z planu prac, a co obowiązuje dziś"
+reviewed: "2026-09-19"
 date: "2026-06-08"
 author: "Dariusz Samsel | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
-tags: ["CPR 2024", "stal konstrukcyjna", "wyroby metalowe", "Plan Prac CPR", "norma zharmonizowana", "akt delegowany", "ocena zgodności"]
-excerpt: "Konstrukcyjne wyroby metalowe to pierwsza rodzina, dla której Plan Prac CPR przewiduje obowiązkową normę i akt delegowany — w drugim kwartale 2026. Wyjaśniamy, co to znaczy dla producentów stali i jak odróżnić obowiązkowość normy od momentu zmiany jej powołania."
+tags: ["CPR 2024", "stal konstrukcyjna", "wyroby metalowe", "plan prac CPR", "norma zharmonizowana", "systemy oceny i weryfikacji", "akt wykonawczy"]
+excerpt: "Plan prac CPR podaje dla konstrukcyjnych wyrobów metalowych drugi kwartał 2026 r. z zastrzeżeniem dotyczącym starego CPR. Sprawdź, co rozstrzyga o podstawie deklaracji."
 image_url: /images/blog/stal-konstrukcyjna-cpr-2024-obowiazkowa-norma.jpg
 template: "regulacja"
 sources:
-  - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
-  - CPR Working Plan 2026-2029 COM(2025) 772 final|https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en
-  - Rozporządzenie (UE) nr 1025/2012 w sprawie normalizacji europejskiej|https://eur-lex.europa.eu/eli/reg/2012/1025/oj
+  - Pierwszy plan prac CPR na lata 2026–2029 — COM(2025) 772 final|https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0772
+  - Komisja Europejska — wyroby i zharmonizowane specyfikacje techniczne|https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr/harmonised-standards_en
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst polski|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
+  - Rozporządzenie delegowane (UE) 2026/1310 — systemy oceny i weryfikacji (PL)|https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32026R1310
 ---
 
-# Stal konstrukcyjna w nowym CPR — pierwsza rodzina z obowiązkową normą
+Konstrukcyjne wyroby metalowe bywają opisywane jako pierwsza rodzina, która przechodzi pod nowe rozporządzenie. Plan prac Komisji tego nie potwierdza. [Pierwszy plan prac CPR na lata 2026–2029](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0772) podaje dla rodziny 20 drugi kwartał 2026 r. w kolumnie dotyczącej nadania normie statusu obowiązkowego i przyjęcia aktu delegowanego, z uwagą, że powołanie normy dla tej rodziny pozostaje w reżimie rozporządzenia 305/2011.
 
-Spośród trzydziestu sześciu rodzin wyrobów objętych nowym rozporządzeniem w sprawie wyrobów budowlanych — CPR 2024/3110 — konstrukcyjne wyroby metalowe (rodzina 20 według Załącznika VII) są w wyjątkowej sytuacji. To **jedyna rodzina, dla której pierwszy Plan Prac Komisji Europejskiej przewiduje obowiązkową normę wraz z aktem delegowanym już w drugim kwartale 2026 roku**. Innymi słowy: gdy większość branż dopiero czeka na wnioski normalizacyjne, producenci stali konstrukcyjnej jako pierwsi zobaczą, jak w praktyce działa przejście ze starego reżimu CPR 305/2011 do nowego.
+## Co podaje plan prac dla rodziny 20
 
-W tym artykule porządkujemy harmonogram dla tej rodziny na podstawie [Planu Prac CPR 2026-2029](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en) (COM(2025) 772 final) i wyjaśniamy jedno rozróżnienie, które najczęściej myli producentów: **obowiązkowość normy to nie to samo, co moment zmiany jej powołania w Dzienniku Urzędowym Unii Europejskiej**.
+W tabeli 3 planu prac rodzina 20 — konstrukcyjne wyroby metalowe i wyroby pomocnicze — ma zakończone prace nad zakresem rodziny i nad treścią techniczną. Wniosek o normalizację zaplanowano na trzeci kwartał 2025 r., a dostarczenie norm na czwarty kwartał 2025 r. Są to zapisy planu, które same nie potwierdzają wykonania tych etapów.
 
-## Dlaczego akurat stal jest pierwsza
+Ta sama tabela przewiduje wariant zapasowy. Jeżeli normy nie zostaną dostarczone albo nie będą zgodne z wnioskiem, w drugim kwartale 2026 r. ma powstać nowy wniosek o normalizację pod nowym CPR, z terminem dostawy w trzecim kwartale 2027 r. Plan nie rozstrzyga, który wariant się wydarzył.
 
-Plan Prac dzieli rodziny wyrobów na te, dla których prace nad treścią techniczną są już zaawansowane, oraz te, które dopiero wchodzą w kolejkę. Konstrukcyjne wyroby metalowe należą do pierwszej grupy: kamienie milowe dotyczące zakresu rodziny i treści technicznej są w dokumencie oznaczone jako zakończone, a wniosek normalizacyjny do europejskich organizacji normalizacyjnych przypadł na trzeci kwartał 2025 roku, z oczekiwaną dostawą normy w czwartym kwartale 2025.
+## Termin z planu prac to nie jest dowód opublikowania aktu
 
-To dało Komisji podstawę, by zaplanować kolejny krok — **nadanie normie statusu obowiązkowego — na drugi kwartał 2026 roku**. Dla porównania: cement osiągnie ten etap dopiero w czwartym kwartale 2027, a wiele rodzin (membrany, kleje budowlane) nie ma jeszcze nawet daty wniosku normalizacyjnego. Pełny ranking rodzin omawiamy w osobnym artykule o [Planie Prac CPR 2026-2029](/blog/plan-prac-cpr-2026-2029).
+Plan prac opisuje zamierzenia Komisji, a nie stan prawny. Normę czyni obowiązkową akt wykonawczy, o którym mowa w art. 5 ust. 8 [rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol). Norma staje się obowiązkowa rok po przyjęciu takiego aktu, chyba że akt wskazuje późniejszą datę rozpoczęcia stosowania; od dnia przyjęcia wolno ją stosować dobrowolnie.
 
-## Harmonogram dla konstrukcyjnych wyrobów metalowych
+Art. 95 ust. 9 wiąże stosowanie wymagań i obowiązków podmiotów gospodarczych z rozdziałów I–III z upływem roku od przyjęcia aktu wykonawczego z art. 5 ust. 8 albo art. 6 ust. 1, chyba że wskazano późniejszą datę. Rozstrzyga treść opublikowanego aktu. Odrębnie trzeba sprawdzić wyroby oceniane na podstawie europejskich dokumentów oceny.
 
-Poniższa tabela zestawia kamienie milowe dla tej rodziny wyrobów według Tabeli 3 Planu Prac. Wszystkie wartości pochodzą wprost z dokumentu Komisji.
+## Kiedy pojawią się pierwsze obowiązkowe normy nowego CPR
 
-| Etap | Termin według Planu Prac |
-|---|---|
-| Etap I — definicja zakresu rodziny | zakończony |
-| Etap III — przygotowanie treści technicznej | zakończony |
-| Wniosek normalizacyjny do organizacji normalizacyjnych | III kwartał 2025 |
-| Spodziewana publikacja normy | IV kwartał 2025 |
-| Nadanie normie statusu obowiązkowego + przyjęcie aktu delegowanego | **II kwartał 2026** |
+Według stanu strony Komisji na 19 września 2026 r., pierwszymi normami nowego CPR, które staną się obowiązkowe, będą prawdopodobnie normy dotyczące cementu w 2027 r. [Komisja podaje tę zapowiedź na stronie o zharmonizowanych specyfikacjach technicznych](https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr/harmonised-standards_en). Jest to termin orientacyjny. Plan prac wskazuje dla cementu czwarty kwartał 2027 r. jako planowany termin przyjęcia aktów; nie należy utożsamiać go z datą obowiązku konkretnego producenta.
 
-Plan Prac odnotowuje przy tym istotne zastrzeżenie: powołanie normy dla tej rodziny **jest obecnie utrzymywane jeszcze w reżimie starego CPR 305/2011**. Jeżeli norma nie zostanie dostarczona w terminie albo nie będzie zgodna z wnioskiem, Komisja przewiduje uruchomienie nowego wniosku normalizacyjnego pod nowym rozporządzeniem, z terminem dostawy przesuniętym na rok 2027.
+## Co już dotyczy konstrukcyjnych wyrobów metalowych
 
-## Obowiązkowość normy a moment zmiany powołania — nie myl tych dwóch rzeczy
+Systemy oceny i weryfikacji są już przypisane w nowym CPR. [Rozporządzenie delegowane (UE) 2026/1310](https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32026R1310) weszło w życie 17 września 2026 r. W załączniku III przewiduje dla kategorii z rodziny 20 system 2+, a dla elementów metalowych do podwieszanych sufitów o dużej wytrzymałości — system 1. Zawsze trzeba uwzględnić pierwszeństwo załączników I i II dla objętych nimi charakterystyk. [Sposób ustalania systemu](/blog/avs-strony-trzecie-akt-delegowany-cpr-2024/) zależy więc także od ocenianej charakterystyki.
 
-To rozróżnienie jest sednem całego przejścia i źródłem największych nieporozumień.
+Samo rozporządzenie 2026/1310 nie zmienia podstawy dotychczasowej deklaracji. Normy zharmonizowane ważne 8 stycznia 2026 r. zachowują ważność na mocy rozporządzenia 305/2011 do czasu ich wycofania przez Komisję lub uchylenia w inny sposób (art. 95 ust. 3). Wskazane przepisy starego rozporządzenia stosuje się do wyrobów objętych utrzymanymi normami oraz europejskimi dokumentami oceny na warunkach art. 95 ust. 4 i 8.
 
-**Nadanie normie statusu obowiązkowego** następuje poprzez akt wykonawczy Komisji, o którym mowa w [art. 5 ust. 8 CPR 2024/3110](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R3110#art_5). Od tego momentu, po upływie okresu wskazanego w akcie, metody i kryteria oceny właściwości użytkowych z tej normy stają się jedyną dopuszczalną podstawą oceny zasadniczych charakterystyk dla objętych nią wyrobów. Producent nie może już wybrać alternatywnej metody.
+## Co sprawdzić w dokumentacji wyrobu
 
-Nie oznacza to jednak, że z dnia na dzień znika dotychczasowa norma stosowana pod reżimem CPR 305/2011. Do czasu zastąpienia jej nowym instrumentem stare powołanie pozostaje w mocy — branża funkcjonuje w **okresie koegzystencji**, w którym trzeba precyzyjnie ustalić, która podstawa obowiązuje dla konkretnego wyrobu i od kiedy. Mechanizm czterech ścieżek harmonizacji, który decyduje o tym, co znaczy „norma zharmonizowana" w nowym CPR, rozkładamy na czynniki pierwsze w artykule [Cztery ścieżki harmonizacji w CPR 2024](/blog/cztery-sciezki-harmonizacji-cpr-2024).
+- **Opisać dokładnie wyrób i zamierzone zastosowanie.** Rodzina 20 obejmuje różne kategorie, od kształtowników po materiały spawalnicze; jedna norma nie opisuje całej stali konstrukcyjnej.
+- **Ustalić normę, na którą powołuje się deklaracja, i podstawę jej powołania.** Trzeba wiedzieć, czy powołanie pochodzi z reżimu rozporządzenia 305/2011, czy z aktu wydanego pod nowym CPR.
+- **Sprawdzić przypisany system oceny i weryfikacji.** System ustala się dla kategorii wyrobu i zamierzonego zastosowania, a w części przypadków osobno dla poszczególnych charakterystyk.
+- **Sprawdzić ważność certyfikatu i aktualność deklaracji.** Zmiana wyrobu, zakładu lub zakresu produkcji wymaga sprawdzenia, czy dokumenty nadal odpowiadają stanowi faktycznemu.
 
-Dla producenta praktyczny wniosek jest taki: **datę z Planu Prac należy traktować jako zapowiedź, a nie fakt dokonany**. Wiążący jest dopiero opublikowany akt wykonawczy i odniesienie do normy w Dzienniku Urzędowym Unii Europejskiej. Do tej chwili podstawą deklaracji pozostaje dotychczasowe powołanie.
-
-## Co producent stali konstrukcyjnej powinien zrobić już teraz
-
-Mimo że wiążące dokumenty dopiero się pojawią, okres przejściowy to najlepszy moment na uporządkowanie własnej dokumentacji. Trzy działania mają sens niezależnie od dokładnej daty publikacji:
-
-- **Zinwentaryzować aktualne podstawy deklaracji.** Dla każdego wyrobu trzeba wiedzieć, na jakiej normie i jakim systemie oceny opiera się dziś Deklaracja Właściwości Użytkowych i Zgodności. Bez tej mapy nie da się ocenić skali zmiany, gdy pojawi się nowe powołanie.
-- **Przygotować zakładową kontrolę produkcji na audyt.** Niezależnie od zmiany powołania, [zakładowa kontrola produkcji](/blog/fpc-zakladowa-kontrola-produkcji) pozostaje fundamentem oceny zgodności. Spójne zapisy, kryteria akceptacji i działania korygujące to elementy, które sprawdzi każda jednostka oceniająca.
-- **Monitorować Dziennik Urzędowy Unii Europejskiej.** To jedyne źródło prawdy o tym, kiedy norma realnie staje się obowiązkowa. Komunikaty branżowe bywają uproszczone — wiążąca jest publikacja odniesienia.
-
-## Rola jednostki w nowym systemie oceny
-
-Konstrukcyjne wyroby metalowe podlegają ocenie zgodności w systemie AVS właściwym dla tej rodziny, a weryfikację w tym systemie prowadzi jednostka notyfikowana dla danego zakresu wyrobów. To odrębna ścieżka od certyfikacji systemów zarządzania.
-
-Multicert jako jednostka certyfikująca wspiera producentów w przygotowaniu zakładowej kontroli produkcji i w certyfikacji systemów zarządzania — obszarach, które stanowią podbudowę gotowości do oceny zgodności. W zakresie samej oceny właściwości użytkowych wyrobów metalowych w danym systemie AVS producent współpracuje z jednostką notyfikowaną dla tej rodziny. Jak czytać przypisany rodzinie system oceny i jak wybrać partnera, opisujemy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
-
-## Podsumowanie
-
-Konstrukcyjne wyroby metalowe wyznaczają tempo całego przejścia do nowego CPR — to pierwsza rodzina z zaplanowaną obowiązkową normą i aktem delegowanym, w drugim kwartale 2026 roku. Najważniejsze, by nie utożsamiać tej daty z natychmiastową zmianą powołania: do publikacji wiążącego aktu i odniesienia w Dzienniku Urzędowym Unii Europejskiej podstawą deklaracji pozostaje dotychczasowa norma. Producent, który już teraz zinwentaryzuje swoje podstawy zgodności i przygotuje zakładową kontrolę produkcji, wejdzie w zmianę bez pośpiechu.
+Ustaleń dla jednego wyrobu nie wolno przenosić na całą rodzinę ani mieszać z zasadami krajowej deklaracji i znaku budowlanego.
 
 ---
 
-*Produkujesz konstrukcyjne wyroby metalowe i chcesz uporządkować zakładową kontrolę produkcji oraz systemy zarządzania przed zmianą powołania normy? Napisz do nas: biuro@multicert.pl*
+*Jeśli chcecie ustalić podstawę oceny dla konkretnego wyrobu metalowego, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając kategorię wyrobu i zamierzone zastosowanie.*

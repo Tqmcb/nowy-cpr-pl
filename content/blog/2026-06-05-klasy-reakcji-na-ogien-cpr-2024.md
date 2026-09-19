@@ -1,110 +1,57 @@
 ---
-title: "Klasy reakcji na ogień w nowym CPR — Komisja przeniosła Euroklasy aktem delegowanym 2026/331"
-reviewed: "2026-06-05"
+title: "Reakcja na ogień i odporność ogniowa — przepisy CPR i projekt klasyfikacji bez badań"
+reviewed: "2026-09-19"
 date: "2026-06-05"
 author: "Dariusz Samsel | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
-tags: ["CPR 2024", "reakcja na ogień", "Euroklasy", "akt delegowany", "klasy właściwości użytkowych", "EN 13501-1", "badania ogniowe", "zasadnicze charakterystyki"]
-excerpt: "Rozporządzenie delegowane (UE) 2026/331 ustanawia klasy reakcji na ogień pod nowym CPR 2024/3110. Klasy A1–F pozostają te same co dotychczas, ale zmienia się ich podstawa prawna. Wyjaśniamy, co to oznacza dla producenta i jak czytać klasyfikację wyrobu."
+tags: ["CPR 2024", "reakcja na ogień", "Euroklasy", "rozporządzenie 2026/331", "rozporządzenie 2026/557", "klasyfikacja bez badań", "akt delegowany"]
+excerpt: "Akty delegowane 2026/331 i 2026/557 ustanowiły klasy reakcji na ogień i odporności ogniowej pod CPR 2024/3110. Wyjaśniamy, jak czytać klasę wyrobu i czego dotyczy projekt klasyfikacji bez badań."
 image_url: /images/blog/klasy-reakcji-na-ogien-cpr-2024.jpg
 template: "regulacja"
 sources:
-  - Rozporządzenie delegowane (UE) 2026/331 — klasy reakcji na ogień (PL)|https://eur-lex.europa.eu/eli/reg_del/2026/331/oj
-  - Rozporządzenie delegowane (UE) 2026/557 — klasy odporności ogniowej (PL)|https://eur-lex.europa.eu/eli/reg_del/2026/557/oj
-  - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
-  - Rozporządzenie delegowane (UE) 2016/364 — klasy reakcji na ogień pod CPR 305/2011|https://eur-lex.europa.eu/eli/reg_del/2016/364/oj
+  - Rozporządzenie delegowane (UE) 2026/331 — klasy reakcji na ogień|https://eur-lex.europa.eu/eli/reg_del/2026/331/oj
+  - Rozporządzenie delegowane (UE) 2026/557 — klasy odporności ogniowej|https://eur-lex.europa.eu/eli/reg_del/2026/557/oj
+  - Rozporządzenie (UE) 2024/3110 — pełny tekst polski|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
+  - Zgłoszenie projektu aktu delegowanego G/TBT/N/EU/1225|https://technical-barriers-trade.ec.europa.eu/de/notification/40073
+  - Tekst projektu aktu delegowanego o klasyfikacji bez badań|https://technical-barriers-trade.ec.europa.eu/de/notification/text/EU1225_EN_DRAFTTEXT1_51830000f0dc79b32e3b56d284e4aceb.pdf
 ---
 
-# Klasy reakcji na ogień w nowym CPR — Euroklasy przeniesione aktem delegowanym 2026/331
+Klasy dla charakterystyk ogniowych są już ustalone pod nowym rozporządzeniem. [Rozporządzenie delegowane Komisji (UE) 2026/331](https://eur-lex.europa.eu/eli/reg_del/2026/331/oj) z dnia 13 lutego 2026 r. opublikowano 21 kwietnia 2026 r., a w życie weszło 11 maja 2026 r. [Rozporządzenie delegowane Komisji (UE) 2026/557](https://eur-lex.europa.eu/eli/reg_del/2026/557/oj) z dnia 16 marca 2026 r. opublikowano 3 czerwca 2026 r., a w życie weszło 23 czerwca 2026 r. Oba oparto na art. 5 ust. 5 akapit trzeci [rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol).
 
-Reakcja na ogień to jedna z najważniejszych zasadniczych charakterystyk wyrobów budowlanych, a klasy dla niej Komisja Europejska ustaliła jako jedne z pierwszych pod nowym rozporządzeniem. [Rozporządzenie delegowane Komisji (UE) 2026/331](https://eur-lex.europa.eu/eli/reg_del/2026/331/oj) z dnia 13 lutego 2026 r. zostało opublikowane w Dzienniku Urzędowym Unii Europejskiej 21 kwietnia 2026 r. i weszło w życie dwudziestego dnia później, czyli **11 maja 2026 r.** To zarazem jeden z dwóch pierwszych aktów delegowanych wydanych pod nowym CPR — drugi, o odporności ogniowej, omawiamy poniżej. Dla producentów oznacza to konkretną zmianę porządkującą: znany od lat system Euroklas — od A1 po F — ma od teraz wyraźną podstawę prawną w reżimie [CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol).
+## Dlaczego potrzebne były nowe akty
 
-W tym artykule wyjaśniamy, skąd wziął się ten akt, co dokładnie ustanawia, dlaczego klasy się nie zmieniły, choć zmieniła się ich podstawa, oraz jak odróżnić ustanowienie klasy od momentu, w którym dana metoda badań staje się obowiązkowa.
+Klasy ustalone pod rozporządzeniem 305/2011 nie mają zastosowania na podstawie CPR 2024/3110. Motywy obu aktów mówią to wprost. Aby zachować ciągłość systemu, grupa ekspertów do spraw dorobku prawnego CPR zaleciła Komisji ustanowienie tych samych klas: dla reakcji na ogień takich jak w rozporządzeniu delegowanym (UE) 2016/364, a dla odporności ogniowej takich jak w rozporządzeniu delegowanym (UE) 2024/1681. Zmieniła się podstawa prawna, nie siatka klas.
 
-## Skąd wziął się akt 2026/331
+## Reakcja na ogień a odporność ogniowa
 
-Klasy reakcji na ogień nie są niczym nowym. Pod poprzednim rozporządzeniem — CPR 305/2011 — określało je [rozporządzenie delegowane (UE) 2016/364](https://eur-lex.europa.eu/eli/reg_del/2016/364/oj). Problem polegał na tym, że tamte klasy, formalnie przypisane do starego rozporządzenia, **nie mają zastosowania na podstawie CPR 2024/3110**. Powstała więc luka: nowe rozporządzenie obowiązuje, ale brakowało w jego reżimie ustalonych klas, w których producent mógłby deklarować właściwości użytkowe.
+Reakcja na ogień opisuje udział samego wyrobu w powstaniu i rozwoju pożaru. Odporność ogniowa opisuje zachowanie określonych funkcji elementu w warunkach pożaru. W akcie 2026/557 oznaczenia obejmują między innymi R dla nośności, E dla szczelności i I dla izolacyjności. Przykładowo EI 30 oznacza zachowanie szczelności i izolacyjności przez 30 minut w warunkach badania. Jeden wyrób może podlegać obu klasyfikacjom, ustalanym osobno.
 
-Lukę tę zamyka akt 2026/331. Jak wprost stwierdza jego motyw drugi, grupa ekspertów do spraw dorobku prawnego związanego z rozporządzeniem w sprawie wyrobów budowlanych zaleciła Komisji ustanowienie **tych samych klas, które określono w rozporządzeniu 2016/364** — po to, by zachować ciągłość systemu. Podstawą prawną jest art. 5 ust. 5 akapit trzeci CPR 2024/3110, który upoważnia Komisję do określania klas właściwości użytkowych dla zasadniczych charakterystyk w drodze aktu delegowanego.
+## Jak czytać klasę reakcji na ogień
 
-W praktyce: producent, który zna Euroklasy ze starego CPR, nie musi uczyć się nowej siatki. Zmienia się dokument, do którego się odwołuje, a nie sama klasyfikacja.
+Klasy od A1 do F odnoszą się do wyników wskazanych metod badawczych. Kryteriów nie da się sprowadzić do kilku progów. Tabela rozróżnia wyroby jednorodne i niejednorodne oraz komponenty istotne i nieistotne, a w części przypadków dopuszcza wariant alternatywny. Pełny zestaw warunków dla danej klasy trzeba odczytać z tabeli w załączniku.
 
-## Reakcja na ogień to nie odporność ogniowa — dwa akty, dwie charakterystyki
+Klasa F nie oznacza braku deklaracji ani zapisu NPD, czyli stosowanej w reżimie rozporządzenia 305/2011 informacji o nieustalonej właściwości użytkowej. W tabeli dla wyrobów ogólnych klasa F to wynik badania zapalności, który nie spełnia kryterium klasy E.
 
-Akt 2026/331 nie jest jedynym aktem ogniowym wydanym pod nowym CPR. Komisja przyjęła równolegle [rozporządzenie delegowane (UE) 2026/557](https://eur-lex.europa.eu/eli/reg_del/2026/557/oj) z dnia 16 marca 2026 r., które na tej samej podstawie prawnej ustanawia klasy dla drugiej charakterystyki ogniowej — **odporności ogniowej**. Akt ten opublikowano 3 czerwca 2026 r., a wchodzi w życie 23 czerwca 2026 r. Razem stanowią dwa pierwsze akty delegowane określające klasy właściwości użytkowych pod CPR 2024/3110.
+Dla odpowiednich klas i grup wyrobów przewidziano także klasyfikację dodatkową, między innymi wytwarzanie dymu w oznaczeniach s1, s2 i s3 oraz płonące krople i cząstki w oznaczeniach d0, d1 i d2. Zakres oznaczeń trzeba odczytać z właściwej tabeli; nie wszystkie występują przy każdej klasie i grupie wyrobów.
 
-Obie charakterystyki bywają mylone, choć opisują co innego:
+## Cztery grupy wyrobów, cztery zestawy klas
 
-- **Reakcja na ogień** (akt 2026/331) mówi o tym, **jak sam wyrób przyczynia się do powstania i rozwoju pożaru** — czy się zapala, ile ciepła i dymu wydziela, czy odpadają płonące krople. To Euroklasy od A1 do F.
-- **Odporność ogniowa** (akt 2026/557) mówi o tym, **jak długo element budowlany pełni swoją funkcję w już rozwiniętym pożarze** — zachowuje nośność (R), szczelność (E) i izolacyjność (I). Klasy wyraża się w minutach, na przykład EI 30 czy REI 60.
+Akt 2026/331 ustala odrębne zestawy klas dla wyrobów ogólnych, pokryć podłogowych, wyrobów do izolacji cieplnej rur przewodowych oraz kabli elektrycznych. Klasy podłogowe mają indeks fl, klasy izolacji rur indeks L, a klasy kabli indeks ca. Metody badań i progi są w każdej grupie inne. Klasa ustalona dla pokrycia podłogowego nie przenosi się więc na płytę ścienną z tego samego materiału.
 
-Dla producenta praktyczny wniosek jest taki: jeden wyrób może podlegać obu klasyfikacjom naraz, ustalanym w osobnych badaniach i na podstawie osobnych aktów. W tym artykule skupiamy się na reakcji na ogień; odporność ogniowa rządzi się własnym zestawem klas z aktu 2026/557.
+## Projekt klasyfikacji bez badań — stan na 19 września 2026 r.
 
-## Euroklasy — siedem poziomów udziału w pożarze
+Komisja zgłosiła 21 lipca 2026 r. projekt kolejnego aktu delegowanego jako powiadomienie o barierach technicznych w handlu, pod numerem [G/TBT/N/EU/1225](https://technical-barriers-trade.ec.europa.eu/de/notification/40073). Termin zgłaszania uwag wyznaczono na 19 września 2026 r. Dokument pozostaje projektem: nie ma numeru w Dzienniku Urzędowym Unii Europejskiej ani mocy prawnej.
 
-Trzon załącznika do rozporządzenia stanowi tabela klas dla wyrobów ogólnych, czyli wszystkich z wyjątkiem pokryć podłogowych, izolacji termicznej rur przewodowych oraz kabli elektrycznych. Klasy uszeregowano od wyrobów niepalnych po wyroby niesklasyfikowane.
+[Tekst projektu](https://technical-barriers-trade.ec.europa.eu/de/notification/text/EU1225_EN_DRAFTTEXT1_51830000f0dc79b32e3b56d284e4aceb.pdf) opiera się na art. 5 ust. 6 CPR i dotyczy uznania klasy bez badań. Wyroby wykonane wyłącznie z materiałów wymienionych w załączniku do projektu miałyby być uznawane za spełniające klasy A1, A1fl i A1L. Sklejenie takich materiałów byłoby dopuszczalne tylko w granicach wskazanych w projekcie, a pokrycie warstwą nieorganiczną nie wykluczałoby uznania. Warstwa organiczna inna niż klej albo materiał organiczny inny niż klej rozmieszczony niejednorodnie uznanie wykluczają. Projekt odpowiada zakresowi, który pod rozporządzeniem 305/2011 obejmowała decyzja 96/603/WE. Klasy nie otrzymuje więc dowolny wyrób z danego materiału, lecz wyrób spełniający warunki składu i wykonania.
 
-| Klasa | Udział w pożarze | Charakter wyrobu |
-|---|---|---|
-| A1 | brak udziału | wyrób całkowicie niepalny |
-| A2 | praktycznie brak udziału | wyrób niepalny o znikomym potencjale cieplnym |
-| B | bardzo ograniczony | trudno zapalny, znikomo rozprzestrzeniający ogień |
-| C | ograniczony | dopuszczalny w wielu zastosowaniach po spełnieniu kryteriów |
-| D | dopuszczalny | wyrób palny o kontrolowanym zachowaniu |
-| E | wysoki | wyrób spełniający jedynie minimalne kryterium |
-| F | niesklasyfikowany | brak deklarowanej właściwości użytkowej |
+## Co z tego wynika dla dotychczasowej deklaracji
 
-Granice między klasami wyznaczają mierzalne kryteria. Dla klasy A1 wyrób musi spełnić jednocześnie warunki badania niepalności — przyrost temperatury ΔT ≤ 30 °C, stratę masy Δm ≤ 50 % i brak długotrwałego płomienia (tf = 0) — oraz kryterium ciepła spalania PCS ≤ 2,0 MJ/kg. Klasa A2 dopuszcza nieco łagodniejsze progi (ΔT ≤ 50 °C, tf ≤ 20 s, PCS ≤ 3,0 MJ/kg), ale wymaga dodatkowo zdania badania pojedynczego płonącego przedmiotu z parametrami FIGRA0,2 MJ ≤ 120 W/s i THR600s ≤ 7,5 MJ. Im niższa klasa, tym łagodniejsze kryteria — aż do klasy F, która oznacza po prostu brak deklaracji.
+Ustanowienie klasy to nie to samo co obowiązkowa metoda badań. Obowiązek stosowania normy wynika z aktu wykonawczego, o którym mowa w art. 5 ust. 8 CPR, i dotyczy poszczególnych rodzin wyrobów.
 
-## Cztery grupy wyrobów, cztery odrębne zestawy klas
+Klasy pod nowym CPR nie zmieniają automatycznie podstawy dzisiejszej deklaracji. Normy zharmonizowane obowiązujące 8 stycznia 2026 r. zachowują ważność na mocy rozporządzenia 305/2011 do czasu ich wycofania przez Komisję lub uchylenia w inny sposób (art. 95 ust. 3). Art. 95 ust. 9 wiąże stosowanie wymagań i obowiązków z rozdziałów I–III z upływem roku od przyjęcia aktu wykonawczego z art. 5 ust. 8 albo art. 6 ust. 1, chyba że wskazano późniejszą datę. Odrębnie trzeba sprawdzić podstawę i status europejskiego dokumentu oceny.
 
-Załącznik nie ogranicza się do jednej tabeli. Reakcja na ogień zachowuje się inaczej w zależności od tego, gdzie i jak wyrób jest wbudowany, dlatego rozporządzenie utrzymuje cztery odrębne zestawy klas:
-
-- **Wyroby ogólne** — klasy od A1 do F (tabela omówiona wyżej).
-- **Pokrycia podłogowe** — klasy z indeksem „fl" (od ang. *floorings*): A1fl, A2fl, Bfl i dalej do Ffl. Badanie uwzględnia tu krytyczny strumień ciepła, bo ogień rozprzestrzenia się po podłodze inaczej niż po ścianie.
-- **Izolacja termiczna rur przewodowych** — klasy z indeksem „L" (wyrób liniowy), od A1L do FL.
-- **Kable elektryczne** — osobna siatka Aca, B1ca, B2ca, Cca, Dca, Eca, Fca (od ang. *cables*), z własnymi parametrami badań, m.in. tempem wydzielania ciepła HRR i tempem wytwarzania dymu SPR.
-
-Praktyczny wniosek: klasa odczytana dla jednego rodzaju wyrobu nie przenosi się automatycznie na inny. Pokrycie podłogowe i płyta ścienna z tego samego materiału mogą trafić do różnych klas, bo bada się je inaczej.
-
-## Klasy dodatkowe: dym i płonące krople
-
-Sama Euroklasa nie opisuje całego zachowania wyrobu w pożarze. Dlatego dla większości klas rozporządzenie przewiduje **klasyfikację dodatkową**, którą deklaruje się obok klasy głównej:
-
-- **Wytwarzanie dymu** — oznaczenia s1, s2, s3 (od ang. *smoke*), gdzie s1 to najmniejsza, a s3 największa ilość dymu.
-- **Płonące krople i cząstki** — oznaczenia d0, d1, d2 (od ang. *droplets*), gdzie d0 oznacza brak płonących kropli w czasie badania.
-- **Kwasowość** — dla kabli elektrycznych dodatkowo a1, a2, a3, opisująca korozyjność produktów spalania.
-
-W rezultacie pełny zapis klasy ma postać taką jak „B-s1,d0" — i to właśnie ten ciąg, a nie sama litera, jest wartością deklarowaną. Wytyczne projektowe i przepisy techniczno-budowlane odwołują się do całego oznaczenia.
-
-## Ustanowienie klasy to nie to samo co obowiązkowa metoda badań
-
-To rozróżnienie bywa źródłem nieporozumień, więc warto je wyłożyć wprost. Akt 2026/331 **ustanawia klasy** — czyli definiuje język, w którym producent wyraża właściwość użytkową. Sam załącznik zaznacza przy tym, że odpowiednie definicje, badania i kryteria są w pełni opisane lub przywoływane w zharmonizowanych specyfikacjach technicznych, europejskich dokumentach oceny oraz europejskich normach klasyfikacji i badań. Klasyfikacji dokonuje się w europejskim systemie reakcji na ogień, którego podstawą jest norma EN 13501-1.
-
-Co z tego wynika? **Pojawienie się klas w reżimie nowego CPR nie jest tym samym, co nadanie konkretnej normie badawczej statusu obowiązkowego.** Obowiązkowość metody i kryteriów to odrębny mechanizm — wynika z aktu wykonawczego, o którym mowa w art. 5 ust. 8 CPR 2024/3110, i jest powiązana z harmonogramem prac nad normami dla poszczególnych rodzin wyrobów. Klasy są więc gotowe, ale to, którą zharmonizowaną specyfikacją techniczną producent ma się posłużyć dla swojego wyrobu i od kiedy, zależy od stanu harmonizacji danej rodziny. Mechanizm ten porządkujemy w artykule o [czterech ścieżkach harmonizacji w CPR 2024](/blog/cztery-sciezki-harmonizacji-cpr-2024), a harmonogram dla rodzin wyrobów — w analizie [Planu Prac CPR 2026–2029](/blog/plan-prac-cpr-2026-2029).
-
-Dopóki dla danej rodziny utrzymane jest powołanie ze starego reżimu, branża działa w [okresie koegzystencji](/blog/okres-koegzystencji-cpr-2024-ktore-powolanie-obowiazuje), w którym trzeba precyzyjnie ustalić, która podstawa obowiązuje dla konkretnego wyrobu.
-
-## Co to oznacza dla producenta i jego laboratorium
-
-Dla większości producentów akt 2026/331 to dobra wiadomość: nie wymusza ponownej klasyfikacji wyrobów ani zmiany progów. Klasa B-s1,d0 znaczy po nowym CPR dokładnie to, co znaczyła wcześniej. Mimo to okres przejściowy warto wykorzystać na trzy działania:
-
-- **Sprawdzić, na czym opiera się dzisiejsza klasyfikacja.** Dla każdego wyrobu trzeba wiedzieć, z jakiego raportu klasyfikacyjnego i jakiej normy badawczej wynika deklarowana klasa reakcji na ogień. Bez tej mapy nie da się ocenić, czego dotknie zmiana powołania normy, gdy nastąpi.
-- **Zadbać o aktualność badań i raportów.** Klasyfikacja reakcji na ogień opiera się na badaniach laboratoryjnych — niepalności, ciepła spalania, pojedynczego płonącego przedmiotu i zapalności. Raporty muszą odpowiadać aktualnej recepturze i konstrukcji wyrobu; zmiana składu lub warstw może zmienić klasę.
-- **Śledzić Dziennik Urzędowy Unii Europejskiej.** To jedyne wiarygodne źródło informacji o tym, kiedy norma badawcza dla danej rodziny staje się obowiązkowa pod nowym CPR. Komunikaty branżowe bywają uproszczone.
-
-Reakcja na ogień to charakterystyka rozstrzygana w laboratorium, a samą klasyfikację wykonuje się na podstawie sprawozdań z badań zgodnie z EN 13501-1. To odrębna ścieżka od oceny zakładowej kontroli produkcji i od certyfikacji systemów zarządzania.
-
-## Rola jednostki w gotowości do oceny
-
-Rola jednostek w nowym systemie wkrótce zyska własną podstawę. Komisja zapowiada, że kolejny akt delegowany obejmie **systemy oceny i weryfikacji właściwości użytkowych (AVS), w tym rolę i zadania stron trzecich** — czyli jednostek oceniających i notyfikowanych. Publikację przewidziano na najbliższe miesiące i będzie to kolejny krok wdrażania CPR 2024. Do tego czasu, podobnie jak przy klasach reakcji na ogień, wiążące pozostają dotychczasowe zasady przypisania systemów oceny; zapowiedź warto traktować jako sygnał, a nie stan obowiązujący.
-
-Multicert jako jednostka certyfikująca wspiera producentów w przygotowaniu [zakładowej kontroli produkcji](/blog/zakladowa-kontrola-produkcji-fpc) oraz w certyfikacji systemów zarządzania — obszarach, które stanowią podbudowę gotowości do oceny zgodności w systemie AVS właściwym dla danej rodziny wyrobów. W zakresie samych badań reakcji na ogień i sporządzenia raportu klasyfikacyjnego producent współpracuje z akredytowanym laboratorium oraz, tam gdzie wymaga tego system oceny, z jednostką notyfikowaną. Jak czytać przypisany rodzinie system AVS i co sprawdza każda strona procesu, wyjaśniamy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
-
-## Podsumowanie
-
-Rozporządzenie delegowane (UE) 2026/331 zamyka jedną z luk powstałych przy przejściu na nowy CPR: od 11 maja 2026 r. klasy reakcji na ogień mają wyraźną podstawę prawną w reżimie CPR 2024/3110. Co istotne, są to **te same Euroklasy** — od A1 po F, w czterech odrębnych zestawach dla wyrobów ogólnych, podłóg, izolacji rur i kabli, wraz z klasyfikacją dodatkową dla dymu i płonących kropli. Producent nie musi przeklasyfikowywać wyrobów, ale powinien wiedzieć, na jakich badaniach i normach opiera się jego deklaracja — i pamiętać, że ustanowienie klasy to nie to samo, co moment, w którym konkretna norma badawcza staje się obowiązkowa.
+Sama klasa nie przesądza też o dopuszczeniu wyrobu w konkretnym miejscu wbudowania. Art. 11 ust. 2 CPR zachowuje prawo państw członkowskich do określania krajowych wymagań dotyczących stosowania wyrobów.
 
 ---
 
-*Produkujesz wyroby, dla których deklarujesz reakcję na ogień, i chcesz uporządkować zakładową kontrolę produkcji oraz systemy zarządzania przed zmianą powołania norm? Napisz do nas: biuro@multicert.pl*
+*Jeśli chcecie sprawdzić, na jakich badaniach i jakiej podstawie opiera się deklarowana klasa reakcji na ogień Waszego wyrobu, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl).*
