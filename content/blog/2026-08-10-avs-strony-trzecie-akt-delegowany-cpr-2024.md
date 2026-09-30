@@ -1,6 +1,6 @@
 ---
 title: "Systemy oceny i weryfikacji w CPR 2024 — rozporządzenie 2026/1310 przypisało systemy rodzinom wyrobów"
-reviewed: "2026-09-19"
+reviewed: "2026-09-30"
 date: "2026-08-10"
 author: "Dariusz Samsel | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
@@ -9,6 +9,7 @@ excerpt: "Rozporządzenie delegowane (UE) 2026/1310 weszło w życie 17 wrześni
 image_url: /images/blog/avs-strony-trzecie-akt-delegowany-cpr-2024.jpg
 template: "regulacja"
 sources:
+  - Komisja Europejska — przejście na CPR 2024|https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr/cpr-2024-revision_en
   - Rozporządzenie delegowane (UE) 2026/1310 — systemy oceny i weryfikacji (PL)|https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32026R1310
   - Rozporządzenie (UE) 2024/3110 — pełny tekst polski|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
   - Pierwszy plan prac CPR na lata 2026–2029 — COM(2025) 772 final|https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0772
@@ -62,6 +63,22 @@ Najpierw trzeba ustalić, jakim przepisom podlega konkretny wyrób. Nowe przypis
 Normy zharmonizowane obowiązujące 8 stycznia 2026 r. zachowują ważność na mocy rozporządzenia 305/2011 do czasu ich wycofania przez Komisję lub uchylenia w inny sposób (art. 95 ust. 3). Europejskie dokumenty oceny, do których odniesienia opublikowano w odpowiednim wykazie do 8 stycznia 2026 r., zachowują ważność do 9 stycznia 2031 r., chyba że wygasną wcześniej z innych powodów. Wprowadzanie wyrobów na podstawie wydanych zgodnie z nimi europejskich ocen technicznych jest ograniczone datą 9 stycznia 2036 r. oraz warunkami z art. 95 ust. 5. Wskazane przepisy rozporządzenia 305/2011 stosuje się wyłącznie do wyrobów objętych utrzymanymi normami i dokumentami (art. 95 ust. 8).
 
 Art. 95 ust. 9 wiąże stosowanie wymagań i obowiązków z rozdziałów I–III z upływem roku od przyjęcia aktu wykonawczego z art. 5 ust. 8 albo art. 6 ust. 1, chyba że wskazano późniejszą datę. Odrębną podstawę stanowią europejskie dokumenty oceny opracowane według nowego CPR. Dlatego dla konkretnego wyrobu trzeba sprawdzić właściwą specyfikację lub dokument oceny oraz [przepisy przejściowe](/blog/okres-koegzystencji-cpr-2024-ktore-powolanie-obowiazuje/). [Pierwszy plan prac CPR na lata 2026–2029](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0772) przedstawia harmonogram prac nad specyfikacjami.
+
+## Pytania producentów po wejściu aktu w życie
+
+### Czy od 17 września 2026 r. trzeba wymienić wszystkie certyfikaty i deklaracje?
+
+Nie. Wejście w życie rozporządzenia 2026/1310 samo w sobie nie oznacza przejścia każdego wyrobu na nowy CPR ani automatycznej utraty ważności dotychczasowych dokumentów. Komisja Europejska wyjaśnia, że rodziny wyrobów przechodzą na nowe ramy indywidualnie. Dla wyrobu objętego normą powołaną według CPR 305/2011 co do zasady nadal stosuje się ten reżim, dopóki właściwa podstawa nie zostanie zastąpiona zgodnie z przepisami przejściowymi.
+
+### Co sprawdzić przed zmianą dokumentacji?
+
+Trzeba ustalić rodzinę i kategorię wyrobu, zamierzone zastosowanie oraz podstawę jego wprowadzania do obrotu. Następnie sprawdzić właściwe powołanie normy lub europejski dokument oceny, daty przejścia i system przypisany danej charakterystyce. Sama data publikacji aktu albo numer systemu w tabeli nie wystarczają do ustalenia terminu zmiany dokumentów.
+
+### Czy system 3+ zastępuje dotychczasowy system dla całego wyrobu?
+
+Nie należy traktować go jako zamiennika systemu dla wszystkich charakterystyk wyrobu. Załącznik II do rozporządzenia 2026/1310 przypisuje system 3+ zrównoważeniu środowiskowemu. Inne charakterystyki mogą podlegać innym systemom, z uwzględnieniem kolejności stosowania załączników opisanej powyżej. Termin wykorzystania tego przypisania dla konkretnego wyrobu trzeba ocenić razem z właściwą specyfikacją i przepisami przejściowymi.
+
+[Wyjaśnienia Komisji Europejskiej dotyczące przejścia na CPR 2024](https://single-market-economy.ec.europa.eu/sectors/construction/construction-products-regulation-cpr/cpr-2024-revision_en).
 
 ## Od czego zacząć sprawdzanie własnego wyrobu
 
