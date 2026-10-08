@@ -16,7 +16,7 @@ Rewizja jest częścią prac nad wdrożeniem nowego rozporządzenia w sprawie wy
 
 ## Jakie cementy i składniki obejmuje projekt
 
-Zakres rozszerzono o cement biały oraz cementy oznaczane jako CEM II/C-M, CEM VI/A i CEM VI/B. Nie oznacza to, że wszystkie te rozwiązania pojawiły się dopiero w 2026 r. Komunikat instytutu wskazuje, że część włączanych cementów kompozytowych obejmowała dotąd EN 197-5, a cementy z drobnym materiałem z recyklingu betonu — EN 197-6.
+Zakres rozszerzono o cement biały oraz cementy oznaczane jako CEM II/C-M, CEM VI/A i CEM VI/B. Komunikat instytutu wskazuje, że część włączanych cementów kompozytowych obejmowała dotąd EN 197-5, a cementy z drobnym materiałem z recyklingu betonu — EN 197-6.
 
 Poniższe zestawienie przedstawia wybrane zmiany potwierdzone w [oficjalnym wykazie DIN](https://www.dinmedia.de/de/norm-entwurf/din-en-197-1/403619650).
 
