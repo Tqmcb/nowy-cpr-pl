@@ -1,64 +1,66 @@
 ---
-title: "Cement pod CPR 2024 — nowe normy obowiązkowe i etykieta śladu węglowego (cel czwarty kwartał 2027)"
-reviewed: "2026-07-06"
+title: "Cement pod CPR 2024 — harmonogram nowych norm i zapowiedź etykiety śladu węglowego"
+reviewed: "2026-10-08"
 date: "2026-07-06"
 author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Branże i wyroby"
 tags: ["CPR 2024", "cement", "spoiwa", "etykieta śladu węglowego", "Plan Prac CPR", "norma zharmonizowana", "EPD"]
-excerpt: "Cement i spoiwa budowlane czeka pod CPR podwójna zmiana: nowe normy nadane obowiązkowymi oraz obowiązkowa etykieta śladu węglowego, oba z celem na czwarty kwartał 2027. Wyjaśniamy harmonogram dla tej rodziny i co etykieta oznacza dla producentów spoiw."
+excerpt: "Plan prac Komisji przewiduje kolejne kroki dla norm cementowych oraz zapowiada etykietę śladu węglowego cementu. Wyjaśniamy różnicę między terminem prac a początkiem obowiązków producentów."
 image_url: /images/blog/cement-cpr-2024-normy-obowiazkowe-etykieta-sladu-weglowego.jpg
 template: "regulacja"
-sources:
-  - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
-  - CPR Working Plan 2026-2029 COM(2025) 772 final|https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en
-  - Rozporządzenie (UE) nr 1025/2012 w sprawie normalizacji europejskiej|https://eur-lex.europa.eu/eli/reg/2012/1025/oj
 ---
 
-# Cement pod CPR 2024 — podwójna zmiana dla producentów spoiw
+Cement, wapno budowlane i inne spoiwa hydrauliczne są jedną z rodzin wyrobów objętych pracami nad wdrożeniem nowego rozporządzenia w sprawie wyrobów budowlanych (CPR) 2024/3110. [Plan prac Komisji na lata 2026–2029](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en), COM(2025) 772 final, przewiduje opracowanie nowych norm oraz zapowiada obowiązkową etykietę śladu węglowego cementu. **Daty z planu nie są same w sobie datami rozpoczęcia obowiązków producentów.**
 
-Cement i pozostałe spoiwa budowlane czeka pod nowym CPR 2024/3110 zmiana o dwóch wymiarach. Pierwszy to klasyczne przejście normalizacyjne — nowe normy zharmonizowane nadane obowiązkowymi. Drugi jest nowy i znacznie głośniejszy: **obowiązkowa etykieta prezentująca ślad węglowy wyrobu**. Oba kierunki [Plan Prac CPR 2026-2029](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en) (COM(2025) 772 final) wiąże z tym samym celem czasowym — czwartym kwartałem 2027 roku.
-
-W tym artykule porządkujemy harmonogram dla rodziny cementów i spoiw oraz wyjaśniamy, skąd wzięła się etykieta śladu węglowego i co konkretnie oznacza dla producenta.
+W artykule przedstawiono harmonogram dla rodziny cementów i spoiw oraz znaczenie zapowiedzi etykiety śladu węglowego dla producenta.
 
 ## Harmonogram dla cementów i spoiw
 
-Poniższa tabela zestawia kamienie milowe dla tej rodziny według Tabeli 3 Planu Prac. Wartości pochodzą wprost z dokumentu Komisji.
+Poniższa tabela zestawia kamienie milowe dla tej rodziny według tabeli 3 planu prac Komisji. Podane w planie terminy mają charakter orientacyjny.
 
 | Etap | Termin według Planu Prac |
 |---|---|
 | Etap I oraz Etap III | zakończone |
 | Wniosek normalizacyjny do organizacji normalizacyjnych | trzeci kwartał 2025 |
-| Spodziewana publikacja norm | trzeci kwartał 2027 |
-| Nadanie normie statusu obowiązkowego | czwarty kwartał 2027 |
+| Termin dostarczenia pierwszych norm przez organizację normalizacyjną | trzeci kwartał 2027 |
+| Planowane przyjęcie aktów wykonawczych wprowadzających obowiązek stosowania norm i aktów delegowanych | czwarty kwartał 2027 |
 
-Rodzina cementów jest więc w grupie zaawansowanej — prace nad zakresem i treścią techniczną są zakończone, a wniosek normalizacyjny już złożony. Nadanie normom statusu obowiązkowego przewidziano na czwarty kwartał 2027 roku.
+Etapy I i III prac przygotowawczych dla tej rodziny są zakończone, a wniosek normalizacyjny już przyjęto. Nie oznacza to zakończenia opracowania wszystkich norm. Termin ich dostarczenia należy odróżnić od publikacji ostatecznych wydań oraz od przyjęcia aktu Komisji wprowadzającego obowiązek ich stosowania.
+
+Zgodnie z [art. 5 ust. 8 oraz art. 95 ust. 9 rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) obowiązkowe stosowanie normy i związane z nim obowiązki producentów rozpoczynają się zasadniczo rok po przyjęciu właściwego aktu wykonawczego Komisji, chyba że akt określa późniejszą datę. Czwarty kwartał wskazany w planie jest zatem celem etapu prac Komisji, a nie gotowym terminem przejścia zakładu na nowe zasady.
+
+Stan prac nad treścią dokumentów przedstawiają artykuły o [projekcie prEN 197-1:2026](https://www.nowycpr.pl/blog/pren-197-1-2026-cement-sklad-ocena-wlasciwosci/) oraz [prEN 16908:2026 dla cementu, wapna i innych spoiw](https://www.nowycpr.pl/blog/pren-16908-2026-cement-wapno-spoiwa-deklaracje-srodowiskowe/).
 
 ## Etykieta śladu węglowego — skąd się wzięła
 
-Obowiązkowa etykieta prezentująca współczynnik globalnego ocieplenia dla cementu to zapowiedź wynikająca z unijnej polityki przemysłowej, którą Plan Prac wprost wiąże z momentem nadania obowiązkowości nowym normom cementowym — celem jest czwarty kwartał 2027 roku. Innymi słowy: etykieta nie pojawia się w oderwaniu, lecz razem z przejściem normalizacyjnym tej rodziny.
+W części 3.4 [planu prac Komisji](https://single-market-economy.ec.europa.eu/document/download/cad28304-4b49-4396-81a8-6a816d8f1a93_en) przywołano zapowiedź obowiązkowej etykiety cementu prezentującej współczynnik globalnego ocieplenia. Komisja wiąże ją z wprowadzeniem obowiązkowego stosowania nowych norm cementowych. Sam plan nie ustanawia jednak wzoru etykiety, sposobu jej umieszczania ani wiążącej daty rozpoczęcia etykietowania. Zapowiedź dotyczy cementu; nie należy automatycznie rozciągać jej na wszystkie spoiwa.
 
-Dla producenta cementu oznacza to, że dane o śladzie węglowym wyrobu przestają być elementem dobrowolnej komunikacji, a stają się obowiązkowym elementem informacji o wyrobie. To z kolei wymaga rzetelnej metody obliczeń i wiarygodnego źródła danych — tematu, który rozwijamy w artykule o [śladzie węglowym wyrobu a emisjach budynku](/blog/gwp-wyrobu-cpr-a-gwp-budynku-epbd).
+Dla producenta cementu jest to wskazanie kierunku przygotowania danych środowiskowych. Potrzebne będą sprawdzalne dane o wyrobie i właściwe reguły obliczeń. Różnicę między oceną wyrobu a oceną budynku wyjaśnia artykuł o [śladzie węglowym wyrobu a emisjach budynku](/blog/gwp-wyrobu-cpr-a-gwp-budynku-epbd).
 
-## Co odróżnia obowiązkową normę od daty z Planu Prac
+## Co odróżnia obowiązkową normę od daty z planu prac
 
-Podobnie jak w innych rodzinach, datę z Planu Prac trzeba czytać ostrożnie. Nadanie normie statusu obowiązkowego następuje aktem wykonawczym Komisji, a wiążące jest dopiero opublikowane odniesienie w Dzienniku Urzędowym Unii Europejskiej. Do tego czasu dotychczasowe powołania, utrzymane w reżimie starego CPR 305/2011, pozostają w mocy. Mechanizm tego przejścia rozkładamy w artykule [Cztery ścieżki harmonizacji w CPR 2024](/blog/cztery-sciezki-harmonizacji-cpr-2024), a pełny ranking rodzin — w artykule o [Planie Prac CPR 2026-2029](/blog/plan-prac-cpr-2026-2029).
+Do ustalenia wiążącego terminu potrzebny jest akt wykonawczy Komisji i określona w nim data stosowania. Dotychczasowe normy zharmonizowane powołane pod CPR 305/2011 zachowują ważność do wycofania przez Komisję lub uchylenia na zasadach [art. 95 ust. 3 rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol). Obowiązkowe stosowanie nowej normy i wycofanie starego odniesienia są odrębnymi zdarzeniami: art. 95 ust. 10 przewiduje wycofanie w ciągu roku od rozpoczęcia stosowania nowych wymagań i obowiązków. Nie należy uzależniać ich początku wyłącznie od wycofania starej normy.
+
+Harmonogram pozostałych rodzin przedstawia artykuł o [planie prac Komisji](/blog/plan-prac-cpr-2026-2029).
 
 ## Co producent spoiw może zrobić już teraz
 
-Etykieta śladu węglowego sprawia, że przygotowanie danych środowiskowych staje się dla producenta cementu priorytetem na równi z gotowością normalizacyjną. Sensowne kroki na teraz:
+Prace nad normami i zapowiedź etykiety uzasadniają wcześniejsze przygotowanie dokumentacji. Poniższe działania są zaleceniami, a nie nowymi obowiązkami wynikającymi z samego planu:
 
-- **Zbudować rzetelną bazę danych o emisjach wyrobu.** Im wcześniej producent zbierze dane specyficzne dla swojego zakładu, tym mniej będzie zależny od domyślnych wartości tła, które z założenia są ostrożne.
-- **Uporządkować zakładową kontrolę produkcji.** [Zakładowa kontrola produkcji](/blog/fpc-zakladowa-kontrola-produkcji) pozostaje podstawą oceny zgodności także dla spoiw i jest punktem odniesienia dla audytu.
-- **Przygotować deklarację środowiskową wyrobu.** Mechanizm jej walidacji opisujemy w artykule [System AVS 3+ — walidacja danych środowiskowych](/blog/avs-3plus-walidacja-epd).
+- **Zbudować bazę danych o emisjach wyrobu.** Przy danych należy wskazać zakład, okres, wyroby i dokumenty źródłowe.
+- **Uporządkować zakładową kontrolę produkcji.** [Zakładowa kontrola produkcji](/blog/fpc-zakladowa-kontrola-produkcji) jest istotna dla oceny i weryfikacji właściwości użytkowych spoiw oraz dla audytu.
+- **Sprawdzić posiadaną deklarację środowiskową wyrobu (EPD).** Należy ustalić wydanie reguł obliczeń i warunki aktualizacji w danym programie. Projekt nowej normy nie unieważnia automatycznie istniejącej deklaracji.
 
 ## Rola jednostki
 
-Cement i spoiwa podlegają ocenie zgodności w systemie AVS właściwym dla tej rodziny, prowadzonej przez jednostkę notyfikowaną dla danego zakresu wyrobów. Multicert jako jednostka certyfikująca i weryfikująca wspiera producentów w przygotowaniu zakładowej kontroli produkcji oraz w weryfikacji deklaracji środowiskowych — obszarze bezpośrednio związanym z nadchodzącą etykietą śladu węglowego. Oceniamy zgodność danych ze stanem faktycznym; nie przygotowujemy ich za producenta.
+Systemy oceny i weryfikacji dla nowego CPR określa opublikowane [rozporządzenie delegowane (UE) 2026/1310](https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32026R1310). Przy sprawdzaniu systemu należy uwzględnić kategorię wyrobu, zamierzone zastosowanie i ocenianą charakterystykę. Samo opublikowanie tego aktu nie wprowadza obowiązkowego stosowania konkretnej nowej normy cementowej.
+
+Przed zleceniem oceny należy ustalić właściwą specyfikację techniczną oraz zakres notyfikacji lub uprawnień jednostki. Rozdzielenie normy wyrobu i reguł środowiskowych opisano w artykule o [prEN 16908:2026](https://www.nowycpr.pl/blog/pren-16908-2026-cement-wapno-spoiwa-deklaracje-srodowiskowe/).
 
 ## Podsumowanie
 
-Rodzinę cementów i spoiw czeka pod CPR podwójna zmiana z celem na czwarty kwartał 2027 roku: nowe normy nadane obowiązkowymi oraz obowiązkowa etykieta śladu węglowego wyrobu. Daty pozostają celem, dopóki nie potwierdzi ich publikacja w Dzienniku Urzędowym Unii Europejskiej, ale kierunek jest jednoznaczny — dane środowiskowe stają się obowiązkowym elementem informacji o cemencie. Producent, który już teraz zbuduje rzetelną bazę danych o emisjach i przygotuje deklarację środowiskową, wejdzie w zmianę bez pośpiechu.
+Plan Komisji wskazuje kolejne etapy opracowania norm oraz zapowiedź etykiety śladu węglowego cementu. Dla zakładu decyzję o zmianie podstawy deklarowania właściwości należy oprzeć na ostatecznej normie, właściwym akcie Komisji i terminie jego stosowania. Już teraz można uporządkować dokumentację i dane środowiskowe, korzystając z dostępnych projektów do przeglądu zakresu zmian.
 
 ---
 
-*Produkujesz cement lub inne spoiwa i chcesz przygotować dane środowiskowe oraz weryfikację deklaracji przed wejściem obowiązkowej etykiety śladu węglowego? Napisz do nas: biuro@multicert.pl*
+*W sprawie weryfikacji danych środowiskowych cementu i innych spoiw można skontaktować się z Multicert: biuro@multicert.pl.*

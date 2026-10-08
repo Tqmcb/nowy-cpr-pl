@@ -55,7 +55,7 @@ Spis treści projektu przewiduje trzy załączniki dotyczące danych produkcyjny
 - **H, normatywny:** emisje do powietrza deklarowane w ocenie cyklu życia produkcji klinkieru i wapna.
 - **I, informacyjny:** wychwytywanie i składowanie CO₂ (CCS) w tej ocenie, w tym jakość danych i granice systemu.
 
-Są to tematy wskazane w [spisie projektu CEN](https://cdn.standards.iteh.ai/samples/sist/osist-pren-16908-2026/f4b6bf00c0164ab5933da0665a58b409/osist-pren-16908-2026.pdf). Załącznik normatywny ma inną funkcję niż informacyjny, lecz oba pozostają częściami projektu. Sam spis nie wystarcza do ustalenia szczegółowych zasad obliczeń ani sposobu rozliczania wychwyconego CO₂.
+Są to tematy wskazane w [spisie projektu Europejskiego Komitetu Normalizacyjnego (CEN)](https://cdn.standards.iteh.ai/samples/sist/osist-pren-16908-2026/f4b6bf00c0164ab5933da0665a58b409/osist-pren-16908-2026.pdf). Załącznik normatywny ma inną funkcję niż informacyjny, lecz oba pozostają częściami projektu. Sam spis nie wystarcza do ustalenia szczegółowych zasad obliczeń ani sposobu rozliczania wychwyconego CO₂.
 
 W przygotowaniu zakładu przydatne jest rozdzielenie trzech spraw: danych dotyczących instalacji, danych przypisanych do wyrobu oraz dokumentacji sposobu ich wykorzystania w obliczeniu. Jeżeli dane emisyjne odnoszą się do całej instalacji, warto opisać, jakie produkty i procesy obejmują. Ułatwi to późniejsze sprawdzenie zgodności okresów i zakresów danych, bez zakładania z góry sposobu obliczeń przewidzianego w ostatecznej normie.
 

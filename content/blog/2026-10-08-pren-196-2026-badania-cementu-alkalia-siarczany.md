@@ -50,6 +50,12 @@ Oddzielną funkcję ma część 18, dotycząca białości lub barwy cementu i kl
 
 Rewizje części 1 i 7 obejmują natomiast wytrzymałość oraz pobieranie i przygotowanie próbek. [Wykaz zmian DIN dla części 7](https://www.dinmedia.de/de/norm-entwurf/din-en-196-7/404069553) wskazuje uzupełnienie powołań normatywnych, aktualizację terminologii i korekty redakcyjne. Przegląd tej metody powinien więc uwzględniać także dokumenty odniesienia i używane definicje, a nie tylko czynności przy pobieraniu próbki.
 
+## Opublikowana już norma analizy chemicznej
+
+Oprócz opisanych projektów dostępna jest już [PN-EN 196-2:2026-04 w wersji angielskiej](https://sklep.pkn.pl/pn-en-196-2-2026-04e.html), dotycząca analizy chemicznej cementu. Polski Komitet Normalizacyjny opublikował ją 30 kwietnia 2026 r. Norma wprowadza EN 196-2:2025 i zastępuje PN-EN 196-2:2013-11 w wersjach angielskiej i polskiej.
+
+Jej publikacja nie oznacza objęcia cementu nową obowiązkową normą wyrobu według rozporządzenia w sprawie wyrobów budowlanych (CPR). Przy zmianie metody należy sprawdzić jej powołanie w specyfikacji wyrobu, zasady oceny i zakres procedury laboratoryjnej.
+
 ## Powiązanie z projektem normy wyrobu
 
 W [udostępnionym fragmencie prEN 197-1:2026](https://cdn.standards.iteh.ai/samples/sist/osist-pren-197-1-2026/95483d1a273a4585bc5529b1dd8b8a64/osist-pren-197-1-2026.pdf) części EN 196-13 do EN 196-18 występują w powołaniach normatywnych. Przy roboczych oznaczeniach z rokiem 2027 przypisy wskazują aktualny etap jako projekty prEN z 2026 r. Nie jest to potwierdzenie daty ich przyszłej publikacji.
@@ -79,4 +85,4 @@ Przykładowo laboratorium oznaczające skład chemiczny cementu może zacząć o
 
 Po przeglądzie warto wskazać metody możliwe do dalszego przygotowania we własnym laboratorium, metody wymagające uzgodnienia usługi zewnętrznej i kwestie pozostawione do sprawdzenia po przyjęciu ostatecznych dokumentów. Podział powinien wynikać z porównania procedur i wyposażenia. Samo pojawienie się numeru projektu nie jest wystarczającą podstawą do decyzji inwestycyjnej.
 
-Nie wynika z tego automatyczny obowiązek zakupu aparatury, zmiany procedur ani zakresu akredytacji. Projekt metody badawczej nie jest samodzielną podstawą nowych obowiązków producenta wynikających z rozporządzenia w sprawie wyrobów budowlanych (CPR). Mechanizm obowiązkowego stosowania norm zharmonizowanych dotyczących właściwości użytkowych określa [art. 5 ust. 8 rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol). Przed zmianą podstawy badań do deklarowania właściwości użytkowych należy sprawdzić ostateczne wydania oraz powołania w normie wyrobu.
+Opisane projekty nie ustanawiają automatycznego obowiązku zakupu aparatury, zmiany procedur ani zakresu akredytacji. Obowiązkowe stosowanie norm zharmonizowanych dotyczących właściwości użytkowych określa [art. 5 ust. 8 rozporządzenia (UE) 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol). Przed zmianą podstawy badań do deklarowania właściwości użytkowych należy sprawdzić ostateczne wydania oraz powołania w normie wyrobu.
