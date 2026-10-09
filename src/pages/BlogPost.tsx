@@ -706,7 +706,7 @@ function SharedHero({
       </div>
 
       {/* Scroll hint — brand-red indicator */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 animate-pulse">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 hidden sm:flex flex-col items-center gap-1.5 animate-pulse">
         <span className="editorial-kicker text-white/60" style={{ fontSize: "0.65rem" }}>Czytaj</span>
         <ChevronDown className="w-4 h-4 text-white/60" />
       </div>

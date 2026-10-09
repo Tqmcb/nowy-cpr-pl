@@ -15,6 +15,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { publicationDay, publishedBlogFiles } from './blog-publication.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -73,9 +74,9 @@ const siteSearchAction = {
 
 const templateHtml = readFileSync(join(distDir, 'index.html'), 'utf-8');
 
-const files = readdirSync(blogContentDir)
-  .filter(f => f.endsWith('.md'))
-  .sort();
+// Exclude scheduled posts from every public artifact, including direct URLs,
+// JSON, author pages and the sitemap. The daily build releases them on their date.
+const files = publishedBlogFiles(blogContentDir);
 
 let count = 0;
 
@@ -199,9 +200,6 @@ console.log(`\n✓ Pre-rendered ${count} blog posts into dist/blog/*/index.html`
 // ── Static pages pre-rendering ─────────────────────────────────────────────
 // Creates dist/<path>/index.html for each main static page with correct meta.
 
-const todayForSchema = new Date();
-todayForSchema.setHours(23, 59, 59, 999);
-
 const blogSchemaItems = files
   .map(file => {
     const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
@@ -216,7 +214,6 @@ const blogSchemaItems = files
       category: String(meta.category || 'CPR 2024'),
     };
   })
-  .filter(({ date }) => date && new Date(date) <= todayForSchema)
   .sort((a, b) => b.date.localeCompare(a.date));
 
 const documentSchemaItems = [
@@ -522,8 +519,6 @@ const wyrobyItems = readdirSync(wyrobyContentDir)
   });
 
 // Published blog posts (reuse files already read above)
-const todayForBody = new Date();
-todayForBody.setHours(23, 59, 59, 999);
 const publishedPosts = files
   .map(file => {
     const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
@@ -531,7 +526,6 @@ const publishedPosts = files
     const meta = parseFrontmatter(src);
     return { slug, title: String(meta.title || slug), date: String(meta.date || '') };
   })
-  .filter(({ date }) => date && new Date(date) <= todayForBody)
   .sort((a, b) => b.date.localeCompare(a.date));
 
 // Body HTML per path — injected hidden inside <body> for crawlers
@@ -897,11 +891,8 @@ console.log('✓ Created dist/404.html (GitHub Pages SPA fallback)');
 // ── Sitemap generation ─────────────────────────────────────────────────────
 // Regenerates dist/sitemap.xml with:
 //   - Correct slug format (no date prefix) for blog URLs
-//   - Only articles published up to today (same rule as blogLoader.ts)
+//   - Only articles released by publishedBlogFiles (Europe/Warsaw)
 //   - Static pages and catalog sections preserved from public/sitemap.xml
-
-const today = new Date();
-today.setHours(23, 59, 59, 999);
 
 // Read base sitemap from public/ (contains static pages + catalog)
 const sourceSitemap = readFileSync(join(rootDir, 'public', 'sitemap.xml'), 'utf-8');
@@ -916,7 +907,6 @@ const blogEntries = files
     const lastmod = meta.updated || meta.reviewed || date;
     return { slug, date, lastmod };
   })
-  .filter(({ date }) => date && new Date(date) <= today)
   .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
 const blogXml = blogEntries.map(({ slug, lastmod }) => `  <url>
@@ -933,7 +923,7 @@ const productXml = wyrobyItems.map(item => `  <url>
     <priority>0.7</priority>
   </url>`).join('\n');
 
-const todayStr = today.toISOString().slice(0, 10);
+const todayStr = publicationDay();
 const authorXml = Object.keys(AUTHORS).map(slug => `  <url>
     <loc>https://www.nowycpr.pl/autor/${slug}/</loc>
     <lastmod>${todayStr}</lastmod>

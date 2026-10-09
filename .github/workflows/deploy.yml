@@ -33,11 +33,17 @@ jobs:
       - name: Validate CPR content (daty vs Working Plan COM(2025) 772)
         run: npm run validate-cpr
 
+      - name: Verify scheduled publication dates
+        run: node --test scripts/blog-publication.test.mjs
+
       - name: Build
         run: npm run build
         env:
           VITE_WEB3FORMS_ACCESS_KEY: ${{ secrets.VITE_WEB3FORMS_ACCESS_KEY }}
           VITE_MAILERLITE_API_KEY: ${{ secrets.VITE_MAILERLITE_API_KEY }}
+
+      - name: Verify scheduled articles are absent from public output
+        run: node scripts/verify-blog-publication.mjs
 
       - name: Copy index.html to 404.html (SPA routing fix)
         run: cp dist/index.html dist/404.html

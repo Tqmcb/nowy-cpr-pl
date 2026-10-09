@@ -123,10 +123,10 @@ async function fetchWithRetry(url: string): Promise<Response> {
 // ── Dev-mode fallback (import.meta.glob) ──────────────────────────────────────
 
 async function loadAllPostsDev(): Promise<BlogPost[]> {
-    const markdownFiles = import.meta.glob('/content/blog/*.md', {
+    const markdownFiles = import.meta.env.DEV ? import.meta.glob('/content/blog/*.md', {
         query: '?raw',
         import: 'default'
-    });
+    }) : {};
 
     const posts: BlogPost[] = [];
 

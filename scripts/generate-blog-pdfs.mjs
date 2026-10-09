@@ -14,9 +14,10 @@
 
 import { chromium } from 'playwright';
 import { marked } from 'marked';
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { publishedBlogFiles } from './blog-publication.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -336,7 +337,7 @@ export function renderPostHtml(src, slug) {
 export { buildHtml, parseFrontmatter, formatDate, FOOTER_TEMPLATE };
 
 async function main() {
-  const files = readdirSync(blogContentDir).filter(f => f.endsWith('.md')).sort();
+  const files = publishedBlogFiles(blogContentDir);
   console.log(`\nGenerating PDFs for ${files.length} blog posts...`);
 
   const browser = await chromium.launch();
