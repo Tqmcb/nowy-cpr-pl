@@ -1,7 +1,7 @@
 ---
 title: "Spoiwa drogowe normalnie i szybko wiążące (HRB N i E) a CPR 2024 — co zmieni rewizja EN 13282"
-reviewed: "2026-11-16"
-date: "2026-11-16"
+reviewed: "2026-10-14"
+date: "2026-10-14"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "EN 13282", "spoiwa hydrauliczne drogowe", "wniosek normalizacyjny", "akt delegowany 2026/1310", "znak budowlany B", "system 2+", "ZKP"]

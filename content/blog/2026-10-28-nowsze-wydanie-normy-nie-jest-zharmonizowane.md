@@ -1,7 +1,7 @@
 ---
 title: "Które wydanie normy zharmonizowanej podać w deklaracji właściwości użytkowych, gdy PKN wycofał normę"
-reviewed: "2026-11-30"
-date: "2026-11-30"
+reviewed: "2026-10-28"
+date: "2026-10-28"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "norma zharmonizowana", "Dziennik Urzędowy UE", "deklaracja właściwości użytkowych", "James Elliott", "EN 459-1", "EN 13108-1", "oznakowanie CE"]

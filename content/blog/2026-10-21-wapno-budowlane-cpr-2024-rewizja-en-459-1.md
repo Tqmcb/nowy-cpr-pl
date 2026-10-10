@@ -1,7 +1,7 @@
 ---
 title: "Wapno budowlane a CPR 2024 — co zmieni rewizja EN 459-1"
-reviewed: "2026-11-23"
-date: "2026-11-23"
+reviewed: "2026-10-21"
+date: "2026-10-21"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "EN 459-1", "wapno budowlane", "wapno hydrauliczne", "wniosek normalizacyjny", "akt delegowany 2026/1310", "system 2+", "EN 16908"]
