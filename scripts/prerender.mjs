@@ -382,8 +382,8 @@ const staticPages = [
   },
   {
     path: 'services',
-    title: 'Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert | NowyCPR.pl',
-    desc: 'Krajowa certyfikacja ZKP do znaku budowlanego B (akredytacja PCA AC 210) oraz ocena zgodności CE przez partnerskie jednostki notyfikowane ITC Zlín, LL-C i Silniční vývoj – ZDZ. Bezpłatna wycena certyfikacji.',
+    title: 'Krajowa certyfikacja ZKP (znak budowlany B, PCA AC 210) — Multicert | NowyCPR.pl',
+    desc: 'Multicert prowadzi krajową certyfikację ZKP (znak budowlany B, PCA AC 210). Ocenę zgodności CE wykonują ITC Zlín, LL-C i Silniční vývoj – ZDZ; Multicert jest ich przedstawicielem.',
     keywords: 'certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, oznakowanie CE, jednostka notyfikowana, audyt certyfikacyjny, jednostka certyfikująca wyroby budowlane',
     canonical: 'https://www.nowycpr.pl/services/',
     schema: {
@@ -392,13 +392,13 @@ const staticPages = [
         {
           '@type': 'Service',
           '@id': 'https://www.nowycpr.pl/services/#service',
-          name: 'Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert',
+          name: 'Krajowa certyfikacja ZKP wyrobów budowlanych (znak budowlany B, PCA AC 210)',
           provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
           url: 'https://www.nowycpr.pl/services/',
           areaServed: { '@type': 'Country', name: 'Polska' },
-          serviceType: 'Certyfikacja wyrobów budowlanych i ocena zgodności',
-          description: 'Krajowa certyfikacja ZKP do znaku budowlanego B w zakresie akredytacji PCA AC 210, audyty certyfikacyjne i nadzór. Ocenę zgodności CE prowadzą partnerskie jednostki notyfikowane ITC Zlín (NB 1023), LL-C (NB 2435) i Silniční vývoj – ZDZ (NB 1388), których przedstawicielem jest Multicert.',
-          keywords: 'certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, ocena zgodności CE, audyt certyfikacyjny',
+          serviceType: 'Krajowa certyfikacja ZKP wyrobów budowlanych do znaku budowlanego B',
+          description: 'Multicert prowadzi krajową certyfikację ZKP wyrobów budowlanych do znaku budowlanego B w zakresie akredytacji PCA AC 210, audyty certyfikacyjne i nadzór.',
+          keywords: 'certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, audyt certyfikacyjny',
           hasOfferCatalog: {
             '@type': 'OfferCatalog',
             name: 'Usługi CPR 2024/3110',
@@ -410,6 +410,7 @@ const staticPages = [
                 name,
                 areaServed: { '@type': 'Country', name: 'Polska' },
                 ...(index === 1 ? {
+                  description: 'Ocenę zgodności CE wykonują partnerskie jednostki notyfikowane ITC Zlín (NB 1023), LL-C (NB 2435) i Silniční vývoj – ZDZ (NB 1388). Multicert występuje jako ich przedstawiciel w Polsce.',
                   provider: ['ITC Zlín (NB 1023)', 'LL-C (NB 2435)', 'Silniční vývoj – ZDZ (NB 1388)']
                     .map(name => ({ '@type': 'Organization', name })),
                   broker: { '@type': 'Organization', name: 'Multicert Sp. z o.o.' }
@@ -601,7 +602,7 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}
 </ul>`,
 
   services: `
-<h1>Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert</h1>
+<h1>Krajowa certyfikacja ZKP wyrobów budowlanych (znak budowlany B, PCA AC 210) — Multicert</h1>
 <p>Multicert prowadzi krajową certyfikację ZKP do znaku budowlanego B w systemie 2+ w zakresie akredytacji PCA AC 210. Ocenę zgodności CE prowadzą partnerskie jednostki notyfikowane, których przedstawicielem w Polsce jest Multicert.</p>
 <ul>
   <li><strong>Certyfikacja ZKP – znak budowlany B</strong> — beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe / utrwalanie nawierzchni, spoiwa hydrauliczne; zakres akredytacji PCA AC 210</li>
@@ -611,7 +612,7 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}
   <li><strong>Wycena i przebieg certyfikacji</strong> — przegląd wniosku, ustalenie zakresu, bezpłatna wycena i informacje o wymaganiach oraz etapach procesu</li>
   <li><strong>Szkolenia informacyjne CPR 2024</strong> — ogólne szkolenia o wymaganiach CPR (UE) 2024/3110, bez analizy dokumentacji konkretnego przedsiębiorstwa</li>
 </ul>
-<p><a href="#contact-section">Zapytaj o certyfikację</a></p>`,
+<p><a href="/kontakt/">Zapytaj o certyfikację</a></p>`,
 
   harmonogram: `
 <h1>Terminy CPR 2024/3110: DoP&amp;C, GWP, DPP i sankcje</h1>

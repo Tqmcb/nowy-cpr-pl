@@ -546,7 +546,7 @@ function MulticertBoxDark() {
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
         <p className="text-slate-500 text-xs leading-relaxed">
-          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B), EPD dla betonu.
+          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B) w zakresie akredytacji PCA AC 210. Odrębnie: weryfikacja EPD.
         </p>
         <div className="flex items-center gap-2 mt-2">
           <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55% .22 27)]/10 text-[oklch(55% .22 27)] border border-[oklch(55% .22 27)]/25 font-mono">
@@ -575,7 +575,7 @@ function MulticertBoxLight() {
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
         <p className="text-slate-500 text-xs leading-relaxed">
-          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B), EPD dla betonu.
+          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B) w zakresie akredytacji PCA AC 210. Odrębnie: weryfikacja EPD.
         </p>
         <div className="flex items-center gap-2 mt-2">
           <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] border border-[oklch(55%_.22_27/0.2)] font-mono">

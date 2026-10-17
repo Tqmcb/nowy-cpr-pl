@@ -155,7 +155,7 @@ export default function Services() {
       number: "02",
       icon: Factory,
       title: "Ocena zgodności CE przez partnerskie jednostki notyfikowane",
-      description: "Ocenę zgodności do oznakowania CE w systemach AVS/AVCP 1+, 1, 2+, 3 i 3+ prowadzą partnerskie jednostki notyfikowane. Multicert jest ich przedstawicielem w Polsce i pośredniczy w kontakcie producenta z jednostką.",
+      description: "Ocenę zgodności do oznakowania CE w systemach AVS/AVCP 1+, 1, 2+, 3 i 3+ prowadzą partnerskie jednostki notyfikowane. Multicert jest ich przedstawicielem w Polsce i pośredniczy w kontakcie producenta z jednostką. Dostępność oceny dla konkretnego wyrobu i systemu zależy od zakresu notyfikacji właściwej jednostki partnerskiej (NANDO).",
       features: [
         "ITC Zlín (NB 1023)",
         "LL-C (NB 2435)",

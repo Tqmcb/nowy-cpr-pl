@@ -38,7 +38,6 @@ Ocenę zgodności do oznakowania CE prowadzą partnerskie jednostki notyfikowane
 [ITC Zlín](https://www.itczlin.cz) (Institut pro testování a certifikaci, a.s.) to czeska jednostka notyfikowana z siedzibą w Zlínie, prowadząca działalność w zakresie oceny zgodności wyrobów budowlanych na terenie całej UE. Posiada:
 
 - **NB 1023** — notyfikacja jako jednostka certyfikująca wyroby budowlane w systemie CPR (Rozporządzenie UE 305/2011 i 2024/3110)
-- **NB 1390** — dodatkowy zakres notyfikacji (NANDO)
 - **AB 224** — jednostka upoważniona do oceny zgodności wg czeskiego prawa krajowego (NV 163/2002)
 - Status **TAB (Technical Assessment Body)** — uprawniona do wydawania Europejskich Ocen Technicznych (ETA) w ramach EOTA
 

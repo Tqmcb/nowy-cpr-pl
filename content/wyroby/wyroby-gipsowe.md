@@ -109,4 +109,4 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie badań płyt gipsowych i tynków; badania ITT wymagane przed wydaniem DoP&C
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych, które wydają raporty z ITT dla wyrobów w systemie AVS 3
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę w systemie 3 (obecnie AVCP 3; docelowo AVS 3 wg CPR 2024/3110)
