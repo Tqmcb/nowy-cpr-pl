@@ -79,7 +79,7 @@ Klasa odkształcalności jest najważniejszym parametrem użytkowym uszczelniacz
 3. **Rozszerzenie klasy P (basenowe)** – EN 15651-5 jest stosunkowo nową normą (2017) i CPR 2024 pierwszą nowelizacją, w której uszczelniacze basenowe uzyskują pełne umocowanie prawne w systemie CPR.
 4. **Nowy format DoP&C** – zastąpienie dotychczasowej DoP nowszym dokumentem z obowiązkową sekcją środowiskową.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

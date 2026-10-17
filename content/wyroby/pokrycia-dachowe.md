@@ -88,7 +88,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN (dotyczy zwłaszcza producentów blach, którzy deklarują recykling).
 5. **DoP&C** – rozszerzona deklaracja zamiast DoP.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

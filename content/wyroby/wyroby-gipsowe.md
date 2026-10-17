@@ -74,7 +74,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 
 **Cyfrowy paszport produktu**: Nie wiadomo jeszcze, czy dla płyt gipsowo-kartonowych paszport będzie przypisywany do rodzaju wyrobu, partii czy pojedynczego egzemplarza. Określi to akt delegowany dla budownictwa. Producent może już teraz uporządkować oznaczenia wyrobów oraz wersje DoP&C, EPD i instrukcji montażu.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

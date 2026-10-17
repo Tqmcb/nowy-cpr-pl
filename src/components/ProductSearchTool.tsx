@@ -556,7 +556,7 @@ export function ProductSearchTool() {
               <div className="bg-white border border-[oklch(92%_.008_264)] p-6">
                 <h3 className="text-xl font-bold text-[oklch(20%_.03_264)] mb-6 flex items-center gap-3">
                   <Calendar className="w-6 h-6 text-[oklch(55%_.22_27)]" />
-                  Harmonogram wdrażania CPR
+                  Harmonogram zmian CPR
                 </h3>
                 <div className="space-y-6">
                   {[

@@ -77,7 +77,7 @@ Szczególną cechą rodziny 29 jest konieczność spełnienia **wymagań higieni
 3. **Nowe wymagania dla biostymulacji mikrobiologicznej** – test wg EN 16421 staje się obowiązkowym elementem oceny higienicznej materiałów stykających się z wodą pitną.
 4. **Rozszerzenie zakresu o powłoki** – powłoki wewnętrzne rurociągów wodociągowych i zbiorników są teraz explicite ujęte w rodzinie 29.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

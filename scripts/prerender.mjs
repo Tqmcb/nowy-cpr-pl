@@ -542,7 +542,7 @@ const bodyContentMap = {
   '': `
 <h1>Rozporządzenie CPR 2024/3110 dla wyrobów budowlanych — wymagania, DoP&amp;C, CE</h1>
 <p>NowyCPR.pl wyjaśnia, co oznacza rozporządzenie CPR 2024/3110 dla producentów, importerów i dystrybutorów wyrobów budowlanych.</p>
-<p>Główne tematy: DoP&amp;C, oznakowanie CE, systemy AVS, FPC/ZKP, GWP, EPD, cyfrowy paszport produktu DPP, dokumentacja techniczna i terminy wdrożenia CPR.</p>
+<p>Główne tematy: DoP&amp;C, oznakowanie CE, systemy AVS, FPC/ZKP, GWP, EPD, cyfrowy paszport produktu DPP, dokumentacja techniczna i terminy zmian CPR.</p>
 <ul>
   <li><a href="/wyszukiwarka">Wyszukiwarka wymagań CPR dla wyrobu budowlanego</a></li>
   <li><a href="/documents">Wzory DoP&amp;C, CE, FPC, EPD i DPP</a></li>

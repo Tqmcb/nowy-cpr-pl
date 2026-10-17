@@ -51,7 +51,7 @@ DoP (Deklaracja Właściwości Użytkowych) to dokument z CPR 305/2011. CPR 2024
 - **Numer referencyjny lub link URL** w dokumentacji — wystarczający do spełnienia wymogu dostępności online
 - Obowiązkowy QR kod na etykiecie: dopiero po aktach delegowanych KE
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wymóg |
 |------|-------|

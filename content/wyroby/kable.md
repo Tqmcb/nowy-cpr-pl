@@ -81,7 +81,7 @@ Do klas B1ca–Dca dochodzą dodatkowe podklasy:
 3. **Rozszerzenie na kable LSZH** – CPR 2024 jasno wskazuje, że kable bezhalogenowe deklarujące niskie emisje HF powinny korzystać z podklas s1a/s1b w klasyfikacji dymu.
 4. **Precyzja dla kabli data center** – instalacje centrum danych (Cat 6A, Cat 8, kable optyczne) uzyskały klarowniejszy status w rodzinie 31.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

@@ -95,7 +95,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych przez JN może być przydatna rynkowo już dziś, a obowiązkowa stanie się dopiero wraz z wdrożeniem nowych wymagań środowiskowych dla rodziny.
 5. **DoP&C jako model docelowy** – rozszerzona deklaracja zastąpi stary model dopiero po przejściu rodziny na nową specyfikację.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

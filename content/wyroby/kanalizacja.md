@@ -76,7 +76,7 @@ Tworzywa sztuczne charakteryzują się znacznym GWP (~1,5–3,0 kg CO2eq/kg dla 
 4. **DoP&C zamiast DoP** – rozszerzona deklaracja.
 5. **Trwałość w zastosowaniu** – deklarowanie projektowanej trwałości w ziemi z uwzględnieniem warunków gruntowych (pH gleby, temperatura gruntu, obciążenia).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

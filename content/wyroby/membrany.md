@@ -69,7 +69,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 
 **Zawartość substancji szczególnie niebezpiecznych (SVHC)**: CPR 2024 zaostrza wymagania dotyczące deklarowania substancji z listy REACH SVHC. Dotyczy to szczególnie membran PVC zawierających ftalaninowe plastyfikatory (DEHP, DBP, BBP) – podlegają ograniczeniom, a producenci muszą uwzględnić to w DoP&C oraz dokumentacji technicznej.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

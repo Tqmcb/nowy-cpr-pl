@@ -80,7 +80,7 @@ Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród 
 4. **Nacisk na cementy niskoemisyjne** – CPR 2024 promuje stosowanie materiałów o niskim GWP, co w praktyce oznacza przewagę konkurencyjną dla CEM III, CEM V i CEM VI.
 5. **Substancje niebezpieczne** – obowiązek deklarowania zawartości chromu(VI) (dotyczy cementu – max 2 mg/kg suchej masy dla gotowych wyrobów).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

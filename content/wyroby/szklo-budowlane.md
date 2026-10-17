@@ -85,7 +85,7 @@ Dla rodziny 30 obowiązują systemy AVS (Assessment and Verification of Constanc
 3. **Koordynacja z EPBD** – CPR 2024 lepiej integruje wymagania szklane z Dyrektywą o charakterystyce energetycznej budynków, wskazując wartości graniczne Ug jako parametry projektowe wyrobu.
 4. **System 3+ dla danych środowiskowych** – walidacja danych środowiskowych (wyników LCA) przez jednostkę notyfikowaną staje się dostępna i rynkowo oczekiwana dla głównych producentów szkła.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

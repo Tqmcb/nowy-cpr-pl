@@ -78,7 +78,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 
 **Substancje niebezpieczne**: CPR 2024 zaostrza monitorowanie SVHC. Producenci EPS korzystający z trudnopalnych środków chemicznych muszą zapewnić aktualną dokumentację o braku regulowanych substancji; producenci XPS muszą wykazać przejście na środki spieniające HFO zamiast HFC (wymóg rozporządzenia F-gaz).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

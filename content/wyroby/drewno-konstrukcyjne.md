@@ -69,7 +69,7 @@ Najistotniejsze zmiany dla producentów drewna konstrukcyjnego wynikające z CPR
 3. **Nowe wymagania dla klejów w GLT/CLT** – kleje stosowane w wyrobach wielowarstwowych muszą spełniać wymagania dotyczące emisji VOC i formaldehydu (klasa E1 lub lepsza E0).
 4. **Trwałość i serwisowanie** – CPR 2024 kładzie większy nacisk na deklarowanie przewidywanej trwałości elementów i warunków ich utrzymania.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

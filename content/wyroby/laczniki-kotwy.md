@@ -94,7 +94,7 @@ ETA dla kotew zawiera nie tylko wyniki badań, ale też **parametry obliczeniowe
 3. **Sejsmika jako wymaganie standardowe** – CPR 2024 wymaga, by producenci dystrybuujący kotwy w strefach sejsmicznych UE (Włochy, Grecja, Rumunia, Czechy) deklarowali właściwości sejsmiczne.
 4. **Nadzór rynkowy** – wzmocnione uprawnienia organów nadzoru do weryfikacji ETA i DoP&C na budowach.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

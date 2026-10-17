@@ -181,7 +181,7 @@ Jedno praktyczne spostrzeżenie dotyczące Systemu 2+: audytorzy JN podczas insp
 
 ## Podsumowanie
 
-System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań pozwala zaplanować harmonogram wdrożenia. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
+System AVS to fundament certyfikacji wyrobów budowlanych w CPR 2024/3110. Zrozumienie wymagań pozwala zaplanować harmonogram dostosowania do wymagań. Pamiętaj: **system nie jest wybierany przez producenta — jest narzucony przez normę!** Jedynym wyjątkiem jest System 3+, który producent może stosować dobrowolnie, jeśli chce zwalidować swoje dane środowiskowe (np. ślad węglowy) przez niezależną jednostkę notyfikowaną.
 
 ---
 
