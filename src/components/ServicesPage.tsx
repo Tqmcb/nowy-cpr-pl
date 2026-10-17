@@ -236,7 +236,7 @@ export function ServicesPage() {
               company="BuildTech Sp. z o.o."
             />
             <Testimonial
-              quote="Jasne informacje o wymaganiach i przebiegu certyfikacji pod CPR 2024 były dla nas kluczowe. Audyt przebiegł sprawnie i zgodnie z ustalonym harmonogramem."
+              quote="Pomoc w interpretacji skomplikowanych przepisów CPR 2024 była dla nas kluczowa. Multicert wyjaśnił wszystkie aspekty i pomógł nam dostosować produkcję."
               author="Anna Nowak"
               company="Innovate Construction"
             />

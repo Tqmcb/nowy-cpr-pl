@@ -133,4 +133,4 @@ Organy kontrolne ([GUNB](https://www.gunb.gov.pl), [UOKiK](https://www.uokik.gov
 
 ---
 
-*Jeśli nowe wymagania oznakowania CE budzą Wasze pytania o wymagania i przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli macie pytania o nowe wymagania oznakowania CE lub przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

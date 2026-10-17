@@ -118,5 +118,5 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVS 3
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności geosyntetyków (certyfikacja FPC, raporty z ITT)
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności geosyntetyków w zakresie swojej notyfikacji
 - [ocenytechniczne.pl – EOT dla geosyntetyków i wyrobów drogowych](https://www.ocenytechniczne.pl/wyroby/geosyntetyki-i-wyroby-drogowe/) – ETA dla innowacyjnych geosyntetyków nieobjętych normami zharmonizowanymi (np. georuszty z włókna bazaltowego, biodegradowalne maty erozyjochronne)

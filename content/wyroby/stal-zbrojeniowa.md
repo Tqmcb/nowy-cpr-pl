@@ -46,7 +46,7 @@ Systemy sprężania post-tensioning są certyfikowane na podstawie Europejskich 
    - Wydanie CSPU (Certyfikatu Stałości Właściwości Użytkowych)
 3. **Audyty nadzorcze** – co 12 miesięcy lub przy zmianie procesu produkcji
 
-Certyfikację stali zbrojeniowej prowadzi jednostka notyfikowana o właściwym zakresie notyfikacji (sprawdź w bazie NANDO). O ocenę przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
+Ścieżkę oceny (krajową lub – w szczególnych przypadkach – europejską, np. na podstawie ETA) należy ustalić dla konkretnego wyrobu; o możliwość oceny przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -105,7 +105,7 @@ Polska huta produkująca pręty B500B z elektrycznego pieca łukowego (100% zło
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 10080 dla zbrojenia, EN 10138-x dla stali sprężającej)
-- [ ] Złożenie wniosku o certyfikację ZKP do jednostki notyfikowanej o właściwym zakresie notyfikacji (sprawdź w NANDO); o ocenę przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce
+- [ ] Ustalenie ścieżki oceny dla konkretnego wyrobu (krajowa lub – w szczególnych przypadkach – europejska, np. ETA); o możliwość oceny przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce
 - [ ] Wdrożenie ZKP z kontrolą każdego wytopu (skład chemiczny, właściwości mechaniczne)
 - [ ] Uzyskanie CSPU w ramach Systemu AVS 1+ (audyt ante-market)
 - [ ] Zapewnienie pełnej identyfikowalności (traceability) od wytopu do wyrobu gotowego
