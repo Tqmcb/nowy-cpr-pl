@@ -114,7 +114,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań wyrobów termoizolacyjnych; badania λ, CS, reakcji na ogień, nasiąkliwości wodą; wykonuje badania ITT dla AVS 3
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca; badania i certyfikacja wyrobów izolacyjnych; raporty ITT i wsparcie w przygotowaniu DoP&C
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie przy uzyskiwaniu ETA dla innowacyjnych systemów izolacyjnych i ETICS
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności wyrobów izolacyjnych (certyfikacja w AVS 1, raporty ITT w AVS 3)
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – informacje o ścieżce ETA dla innowacyjnych systemów izolacyjnych i ETICS
 
 Ważny zasób dla producentów: bazy danych EPD takie jak Instytut Bauvil (Niemcy) oraz krajowe programy EPD rozwijające się w Polsce. Warto wcześnie zaangażować się w tworzenie EPD branżowych (industry-average EPD), które mogą być tańszą alternatywą dla EPD indywidualnych przed 2027.

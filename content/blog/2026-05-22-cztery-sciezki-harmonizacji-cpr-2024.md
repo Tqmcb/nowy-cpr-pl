@@ -135,15 +135,15 @@ Dwa najważniejsze rozróżnienia, które producent powinien sobie utrwalić:
 
 Mylenie tych pojęć — szczególnie w dokumentacji DoP&C, kontaktach z JN i komunikacji z nadzorem rynku — generuje realne ryzyko niezgodności. Warto zainwestować chwilę w opanowanie tej taksonomii, zanim akty delegowane i wykonawcze zaczną się pojawiać masowo w 2026–2029.
 
-## Multicert wspiera producentów w mapowaniu reżimu zgodności
+## Rola Multicert jako jednostki certyfikującej
 
-Oferujemy:
+Multicert oferuje:
 
-- Analizę aktualnej dokumentacji DoP/DoP&C pod kątem prawidłowego wskazania podstaw normatywnych (która ścieżka z art. 5–8)
-- Monitoring publikacji w Dzienniku Urzędowym UE dla Państwa rodzin wyrobów — normy zharmonizowane dot. właściwości użytkowych, akty z art. 6, akty delegowane z art. 7 ust. 1, CS z art. 8
-- Audyty zakładowej kontroli produkcji (FPC/ZKP) z weryfikacją zgodności stosowanej dokumentacji z aktualnym reżimem normatywnym
-- Wsparcie w wyborze [jednostki notyfikowanej](/blog/jednostki-notyfikowane-wybor) i przygotowaniu do oceny zgodności w nowym systemie [AVS](/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024)
+- Krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B (system 2+) w zakresie akredytacji PCA AC 210 – beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe i utrwalanie nawierzchni, spoiwa hydrauliczne
+- Pośrednictwo w ocenie zgodności w systemach [AVS](/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024) prowadzonej przez partnerskie [jednostki notyfikowane](/blog/jednostki-notyfikowane-wybor), których Multicert jest przedstawicielem w Polsce
+- Audyty certyfikacyjne i nadzór okresowy zakładowej kontroli produkcji (FPC/ZKP), w tym sprawdzenie, czy wskazane w dokumentacji podstawy zgodności są aktualne
+- Bieżące informacje o publikacjach w Dzienniku Urzędowym UE (normy zharmonizowane, akty z art. 6, akty delegowane z art. 7 ust. 1, CS z art. 8) na portalu NowyCPR.pl
 
 ---
 
-*Twój wyrób wymaga oceny pod CPR 2024/3110, ale nie wiesz, czy obowiązuje Cię obowiązkowa hEN dotycząca właściwości użytkowych (art. 5), akt wykonawczy KE (art. 6), wymagania z aktu delegowanego (art. 7) czy wspólne specyfikacje (art. 8)? Napisz do nas: biuro@multicert.pl*
+*Twój wyrób wymaga oceny pod CPR 2024/3110, ale nie wiesz, czy obowiązuje Cię obowiązkowa hEN dotycząca właściwości użytkowych (art. 5), akt wykonawczy KE (art. 6), wymagania z aktu delegowanego (art. 7) czy wspólne specyfikacje (art. 8)? Napisz do nas — odpowiemy na pytania o wymagania i przebieg certyfikacji: biuro@multicert.pl*

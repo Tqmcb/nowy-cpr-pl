@@ -84,4 +84,4 @@ Cyfrowy paszport produktu i akt o cyberodporności dotyczą dwóch różnych spr
 
 ---
 
-*Produkujesz wyrób budowlany z elementami cyfrowymi i chcesz ustalić jego obowiązki wynikające z CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz wyrób budowlany z elementami cyfrowymi i masz pytania o obowiązki wynikające z CPR? Napisz do nas: biuro@multicert.pl*

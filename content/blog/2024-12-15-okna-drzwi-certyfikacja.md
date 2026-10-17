@@ -77,4 +77,4 @@ Certyfikacja okien i drzwi to inwestycja, która procentuje w postaci dostępu d
 
 ---
 
-*Gdy planujecie certyfikację okien lub drzwi według EN 14351-1, pomożemy uporządkować wymagania i dobrać właściwy system oceny. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Gdy planujecie certyfikację okien lub drzwi według EN 14351-1, chętnie odpowiemy na pytania o wymagania i przebieg certyfikacji. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

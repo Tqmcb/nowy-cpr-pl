@@ -73,8 +73,8 @@ Dla wyrobów wprowadzanych wyłącznie na rynek polski, gdy nie istnieje ani hEN
 
 ---
 
-ETA to inwestycja, która otwiera drzwi do całego rynku europejskiego. Dla innowacyjnych producentów może stanowić istotną przewagę konkurencyjną. Przygotowaniem wniosku i dokumentacji do ETA lub Krajowej Oceny Technicznej zajmuje się m.in. [ocenytechniczne.pl](https://www.ocenytechniczne.pl) — serwis specjalizujący się w ocenach technicznych wyrobów budowlanych. Wsparcie w całym procesie oferuje również [epd.org.pl](https://www.epd.org.pl).
+ETA to inwestycja, która otwiera drzwi do całego rynku europejskiego. Dla innowacyjnych producentów może stanowić istotną przewagę konkurencyjną. Wniosek i dokumentację do ETA lub Krajowej Oceny Technicznej przygotowuje producent; informacje o przebiegu obu ścieżek zawiera serwis [ocenytechniczne.pl](https://www.ocenytechniczne.pl), poświęcony ocenom technicznym wyrobów budowlanych.
 
 ---
 
-*Gdy Wasz wyrób nie jest objęty normą zharmonizowaną, chętnie pomożemy rozważyć ścieżkę ETA lub krajowej oceny technicznej. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Gdy Wasz wyrób nie jest objęty normą zharmonizowaną, chętnie odpowiemy na pytania o wymagania i przebieg ścieżki ETA lub krajowej oceny technicznej. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

@@ -62,7 +62,7 @@ export default function OPortalu() {
                   },
                   {
                     title: "Usługi certyfikacyjne",
-                    desc: "Profesjonalne wsparcie w procesie uzyskania oznakowania CE, przygotowania dokumentacji technicznej i Deklaracji Właściwości Użytkowych.",
+                    desc: "Krajowa certyfikacja ZKP do znaku budowlanego B oraz ocena zgodności do oznakowania CE przez partnerskie jednostki notyfikowane, których Multicert jest przedstawicielem w Polsce.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">

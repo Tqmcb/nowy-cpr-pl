@@ -71,4 +71,4 @@ Pokrycie dachowe to nie jeden wyrób, lecz rodzina obejmująca wyroby o różnej
 
 ---
 
-*Produkujesz dachówki, blachy, papy lub membrany dachowe i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz dachówki, blachy, papy lub membrany dachowe i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

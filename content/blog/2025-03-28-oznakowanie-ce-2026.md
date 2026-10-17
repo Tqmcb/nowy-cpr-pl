@@ -129,8 +129,8 @@ Organy kontrolne ([GUNB](https://www.gunb.gov.pl), [UOKiK](https://www.uokik.gov
 
 ---
 
-**Przygotuj się na zmiany — 8 stycznia 2026 to już teraz!** Jeśli potrzebujesz wsparcia w przygotowaniu dokumentacji DoP&C, etykiet CE z QR kodami lub aktualizacji certyfikatów AVS, skontaktuj się z doświadczonymi specjalistami — [Multicert](https://www.multicert.pl) oferuje kompleksową obsługę procesu certyfikacji wyrobów budowlanych zgodnie z CPR 2024/3110.
+**Przygotuj się na zmiany — 8 stycznia 2026 to już teraz!** Za przygotowanie DoP&C i etykiet CE odpowiada producent. Jeśli planujesz aktualizację certyfikatów w systemach AVS, [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych – pośredniczy w ocenie zgodności prowadzonej przez te jednostki zgodnie z CPR 2024/3110.
 
 ---
 
-*Jeśli zastanawiacie się, jak nowe wymagania oznakowania CE dotkną Waszych wyrobów, chętnie to z Wami omówimy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli nowe wymagania oznakowania CE budzą Wasze pytania o wymagania i przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

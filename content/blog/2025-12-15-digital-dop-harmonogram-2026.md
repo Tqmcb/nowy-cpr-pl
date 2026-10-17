@@ -72,15 +72,14 @@ Producenci wyrobów stosowanych w budownictwie publicznym (zamówienia publiczne
 - Certyfikacje budynków LEED i BREEAM premiują dostępność danych w formatach cyfrowych
 - Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM (Building Information Modelling) — a DoP&C jest elementem modelu BIM
 
-## Multicert pomaga w cyfryzacji DoP&C
+## Rola Multicert jako jednostki certyfikującej
 
-Oferujemy:
+Za przygotowanie i cyfrowe udostępnienie DoP&C odpowiada producent. Multicert jako jednostka certyfikująca oferuje:
 
-- Audyt obecnej dokumentacji DoP/DoP&C pod kątem gotowości cyfrowej
-- Przygotowanie struktury danych DoP&C kompatybilnej z przyszłym formatem UE
-- Wdrożenie systemu zarządzania DoP&C na stronie producenta (z linkami i QR kodami)
-- Monitoring zmian w aktach delegowanych KE i aktualizacja dokumentacji
+- Krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B (system 2+) w zakresie akredytacji PCA AC 210 – beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe i utrwalanie nawierzchni, spoiwa hydrauliczne
+- Pośrednictwo w ocenie zgodności do oznakowania CE prowadzonej przez partnerskie jednostki notyfikowane (ITC Zlín NB 1023, LL-C NB 2435, Silniční vývoj – ZDZ NB 1388), których Multicert jest przedstawicielem w Polsce
+- Audyty certyfikacyjne i nadzór okresowy
 
 ---
 
-*Chcesz wiedzieć, jak przygotować Digital DoP&C dla swoich wyrobów? Napisz do nas: biuro@multicert.pl*
+*Masz pytania o wymagania i przebieg certyfikacji w kontekście Digital DoP&C? Napisz do nas: biuro@multicert.pl*

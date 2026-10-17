@@ -202,4 +202,4 @@ Dla kontrastu:
 
 ---
 
-*Śledzicie zmiany w normach dla swojej branży? My też — i chętnie podpowiemy, co aktualizacje hEN/hTS oznaczają dla harmonogramu Waszej certyfikacji. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Śledzicie zmiany w normach dla swojej branży? My też — i chętnie odpowiemy na pytania o to, jak aktualizacje hEN/hTS wpływają na przebieg certyfikacji. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

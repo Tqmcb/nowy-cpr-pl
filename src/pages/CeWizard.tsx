@@ -647,7 +647,7 @@ export default function CeWizard() {
                   >
                     <Newspaper className="w-5 h-5 text-white" />
                     <div>
-                      <div className="text-sm font-semibold text-white">Pomoc eksperta</div>
+                      <div className="text-sm font-semibold text-white">Zapytaj o certyfikację</div>
                       <div className="text-xs text-slate-300">Multicert Sp. z o.o.</div>
                     </div>
                   </Link>

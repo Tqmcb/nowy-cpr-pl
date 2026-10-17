@@ -44,7 +44,7 @@ W systemie AVS 2+ jednostka notyfikowana certyfikuje system FPC producenta (wyda
 
 **System AVS 3+** – walidacja danych środowiskowych. Jeżeli producent będzie deklarował w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki mogą wymagać walidacji w systemie 3+ po opublikowaniu odpowiednich hTS i aktów wykonawczych. Walidacja potwierdza rzetelność obliczeń LCA.
 
-Kluczową polską jednostką notyfikowaną dla prefabrykatów betonowych jest [Multicert](https://www.multicert.com.pl) – posiada akredytację PCA i notyfikację do certyfikacji zgodności prefabrykatów z betonu zwykłego, lekkiego i komórkowego. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl).
+Ocenę zgodności prefabrykatów betonowych w systemach AVS 1 i 2+ prowadzą jednostki notyfikowane. Polscy producenci mogą skorzystać z usług partnerskich jednostek notyfikowanych za pośrednictwem [Multicert](https://www.multicert.com.pl) – ich przedstawiciela w Polsce. Szeroki zakres badań laboratoryjnych oferuje [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -93,7 +93,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 - [ ] Ustalić system AVS (1 lub 2+) na podstawie klasy zagrożenia w normie wyrobu
 - [ ] Przeprowadzić lub zlecić badanie wstępne typu (ITT) w akredytowanym laboratorium
 - [ ] Opracować i wdrożyć podręcznik zakładowej kontroli produkcji (FPC Manual) zgodny z wymaganiami normy
-- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. [Multicert](https://www.multicert.com.pl)) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
+- [ ] Zawrzeć umowę z jednostką notyfikowaną (np. przez [Multicert](https://www.multicert.com.pl), przedstawiciela partnerskich jednostek notyfikowanych) i uzyskać certyfikat CoCP (AVS 1) lub certyfikat FPC (AVS 2+)
 - [ ] Przygotować wzór DoP&C w języku polskim oraz plan jego cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Walidacja danych środowiskowych przez JN (System AVS 3+) dla deklaracji GWP w DoP&C
 - [ ] Oznakować wyroby znakiem CE zgodnie z wymaganiami – etykieta musi zawierać numer normy, system AVS i numer jednostki notyfikowanej
@@ -105,8 +105,8 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 Producenci prefabrykatów betonowych mogą korzystać z następujących źródeł wsparcia technicznego i certyfikacyjnego w Polsce:
 
-- [Multicert](https://www.multicert.com.pl) – jednostka notyfikowana akredytowana przez PCA, specjalizująca się w certyfikacji prefabrykatów z betonu zwykłego, lekkiego i komórkowego; oferuje pełen zakres usług dla systemu AVS 1 i 2+
+- [Multicert](https://www.multicert.com.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych, które prowadzą ocenę zgodności prefabrykatów w systemach AVS 1 i 2+
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z szerokim zakresem akredytacji dla wyrobów betonowych; wykonuje badania ITT i badania próbek FPC
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie w zakresie Europejskich Ocen Technicznych (ETA) dla wyrobów nieobjętych normami zharmonizowanymi lub wyrobów innowacyjnych
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – informacje o Europejskich Ocenach Technicznych (ETA) dla wyrobów nieobjętych normami zharmonizowanymi lub wyrobów innowacyjnych
 
 Warto pamiętać, że 8 stycznia 2026 roku rozpoczyna się stosowanie przepisów ramowych CPR 2024/3110, natomiast konkretne obowiązki produktowe dla danej rodziny będą wdrażane wraz z publikacją odpowiedniej hTS i zakończeniem okresu koegzystencji. Pierwsze kontrole rynkowe z możliwością nakładania sankcji administracyjnych przewidziane są od 8 stycznia 2027 roku.

@@ -97,7 +97,7 @@ To pole wskazuje normę EN lub Europejską Ocenę Techniczną (ETA), na podstawi
 
 ### Pole 8: Dane jednostki notyfikowanej (JN)
 
-**Przykład:** `Multicert Sp. z o.o., numer notyfikacji XXXX, zakres: wyroby betonowe`
+**Przykład:** `[nazwa jednostki notyfikowanej], NB XXXX, zakres: wyroby betonowe`
 
 W systemach AVS 1+, 1 i 2+ w procesie oceny bierze udział jednostka notyfikowana. W DoP&C podaje się nazwę JN, jej numer notyfikacji (z [bazy NANDO](https://ec.europa.eu/growth/tools-databases/nando)) oraz opis wykonanych przez nią zadań (np. certyfikacja wyrobu, inspekcja zakładu). W systemach 3 i 4 zadania JN są ograniczone lub nieobecne — w polu wpisuje się wówczas odpowiednią adnotację.
 
@@ -167,4 +167,4 @@ DoP&C jest dokumentem bardziej rozbudowanym niż poprzedni DoP, ale struktura p�
 
 ---
 
-*Jeśli wypełniacie DoP&C i chcecie omówić konkretne pola lub dane wyrobu, chętnie przejrzymy je z Wami. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli wypełnianie DoP&C budzi Wasze pytania o wymagania lub znaczenie poszczególnych pól, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

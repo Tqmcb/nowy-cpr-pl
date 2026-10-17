@@ -61,4 +61,4 @@ Nowy CPR czyni formę elektroniczną podstawą obiegu deklaracji. Zgodnie z art.
 
 ---
 
-*Przygotowujesz elektroniczny obieg deklaracji właściwości użytkowych i chcesz uporządkować dokumentację pod nowym CPR, zanim wejdą cyfrowy paszport i znormalizowany format deklaracji? Napisz do nas: biuro@multicert.pl*
+*Przygotowujesz elektroniczny obieg deklaracji właściwości użytkowych i masz pytania o wymagania nowego CPR, zanim wejdą cyfrowy paszport i znormalizowany format deklaracji? Napisz do nas: biuro@multicert.pl*

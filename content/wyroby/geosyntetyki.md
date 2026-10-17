@@ -44,7 +44,7 @@ Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczn
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Badania laboratoryjne geosyntetyków wykonują laboratoria wyspecjalizowane w badaniach polimerów i materiałów geotechnicznych. W Polsce [ITCZLin](https://www.itczlin.pl) posiada odpowiednie wyposażenie. Certyfikacja systemu FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
+Badania laboratoryjne geosyntetyków wykonują laboratoria wyspecjalizowane w badaniach polimerów i materiałów geotechnicznych. W Polsce [ITCZLin](https://www.itczlin.pl) posiada odpowiednie wyposażenie. O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -118,5 +118,5 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVS 3
-- [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i wsparcie w zakresie CPR 2024; raporty z ITT dla producentów geosyntetyków
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności geosyntetyków (certyfikacja FPC, raporty z ITT)
 - [ocenytechniczne.pl – EOT dla geosyntetyków i wyrobów drogowych](https://www.ocenytechniczne.pl/wyroby/geosyntetyki-i-wyroby-drogowe/) – ETA dla innowacyjnych geosyntetyków nieobjętych normami zharmonizowanymi (np. georuszty z włókna bazaltowego, biodegradowalne maty erozyjochronne)

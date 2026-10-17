@@ -41,7 +41,7 @@ Wyroby gipsowe podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Badania właściwości wyrobów gipsowych (ognioodporność, izolacyjność akustyczna, wytrzymałość, reakcja na wilgoć) wykonują laboratoria akredytowane takie jak [ITCZLin](https://www.itczlin.pl). Kompleksowa certyfikacja dostępna jest przez [Multicert](https://www.multicert.pl).
+Badania właściwości wyrobów gipsowych (ognioodporność, izolacyjność akustyczna, wytrzymałość, reakcja na wilgoć) wykonują laboratoria akredytowane takie jak [ITCZLin](https://www.itczlin.pl). O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -97,7 +97,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu gipsowego (EN 520 dla GK, EN 13279-1 dla tynków)
 - [ ] Ustalić typ i klasę wyrobu wg EN 520 (A, D, E, F, H, I, P, R) i odpowiednio opisać w DoP&C
 - [ ] Przeprowadzić lub zaktualizować ITT w akredytowanym laboratorium (badania ogniowe, mechaniczne, wilgotnościowe)
-- [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVS 3: np. [Multicert](https://www.multicert.pl))
+- [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVS 3: np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Przygotować wzór DoP&C i plan przejścia z DoP oraz wdrożyć gotowość do cyfrowego udostępniania dokumentów
 - [ ] Wdrożyć FPC z kontrolą jakości surowców (gips, karton, dodatki) i wyrobów gotowych
 - [ ] Zebrać dane środowiskowe do EPD: GWP gipsu kalcynowanego, kartonu, kleju – zlecić EPD
@@ -109,4 +109,4 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie badań płyt gipsowych i tynków; badania ITT wymagane przed wydaniem DoP&C
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty z ITT i wsparcie przy wdrożeniu FPC dla producentów wyrobów gipsowych
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych, które wydają raporty z ITT dla wyrobów w systemie AVS 3

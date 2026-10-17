@@ -65,16 +65,17 @@ export default function Kontakt() {
                 importerów i dystrybutorów wyrobów budowlanych w Polsce.
               </p>
               <p className="text-slate-700 leading-relaxed">
-                Oferujemy kompleksowe wsparcie na każdym etapie procesu certyfikacji —
-                od przygotowania dokumentacji technicznej, przez wstępne badanie typu (ITT),
-                po audyt zakładowej kontroli produkcji (FPC) i wystawienie certyfikatu.
+                Prowadzimy krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B
+                w zakresie akredytacji PCA AC 210 — od przeglądu wniosku, przez audyt certyfikacyjny,
+                po wydanie certyfikatu i nadzór. Ocenę zgodności do oznakowania CE prowadzą partnerskie
+                jednostki notyfikowane, których jesteśmy przedstawicielem w Polsce.
               </p>
             </section>
 
             {/* Services CTA */}
             <section className="rounded-2xl border border-[oklch(55% .22 27)]/20 bg-[oklch(55% .22 27)]/5 p-8">
               <h2 className="text-xl font-bold text-[oklch(20% .03 264)] mb-4">
-                Potrzebujesz wsparcia w certyfikacji?
+                Zapytaj o certyfikację
               </h2>
               <p className="text-slate-700 leading-relaxed mb-6">
                 Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach certyfikacyjnych

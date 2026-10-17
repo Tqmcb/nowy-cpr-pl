@@ -78,4 +78,4 @@ Cyfrowy paszport produktu uporządkuje dane i dokumenty dotyczące wyrobu budowl
 
 ---
 
-*Jeśli chcesz uporządkować dokumentację wyrobu przed wprowadzeniem cyfrowych paszportów, napisz do Redakcji na biuro@multicert.pl.*
+*Jeśli masz pytania o wymagania dotyczące dokumentacji wyrobu przed wprowadzeniem cyfrowych paszportów, napisz do Redakcji na biuro@multicert.pl.*

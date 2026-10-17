@@ -109,4 +109,4 @@ Producent powinien dziś porządkować identyfikatory, dokumentację i dane, ale
 
 ---
 
-*Jeśli chcesz ustalić, które dane i dokumenty Twojego wyrobu będą potrzebne w przyszłym paszporcie, napisz do Redakcji na biuro@multicert.pl.*
+*Jeśli masz pytania o dane i dokumenty, które będą wymagane w przyszłym paszporcie, napisz do Redakcji na biuro@multicert.pl.*

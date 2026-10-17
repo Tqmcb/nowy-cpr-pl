@@ -344,13 +344,13 @@ export function DocumentsPage() {
               <div className="absolute top-0 left-0 h-[5px] w-24" style={{ backgroundColor: "oklch(55% .22 27)" }} />
 
               <div className="max-w-2xl">
-                <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Potrzebujesz pomocy</div>
+                <div className="editorial-kicker mb-4" style={{ color: "oklch(55% .22 27)" }}>Certyfikacja</div>
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-[1.05] text-white mb-4" style={{ fontWeight: 500 }}>
-                  Dokumentacja CPR —<br/>
-                  <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>pomożemy ją przygotować.</span>
+                  Dokumentacja gotowa —<br/>
+                  <span className="italic" style={{ color: "oklch(75% .15 27)", fontWeight: 500 }}>czas na certyfikację.</span>
                 </h2>
                 <p className="text-white/70 leading-[1.6]">
-                  Audytorzy Multicert weryfikują i przygotowują dokumenty zgodne z CPR (EU) 2024/3110.
+                  Multicert prowadzi krajową certyfikację ZKP do znaku budowlanego B, a ocenę zgodności CE – za pośrednictwem partnerskich jednostek notyfikowanych.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
@@ -365,7 +365,7 @@ export function DocumentsPage() {
                   className="font-semibold px-6 py-3 transition-all hover:bg-white/10"
                   style={{ border: "1px solid rgba(255,255,255,0.3)", color: "white", backgroundColor: "transparent", borderRadius: "2px" }}>
                   <Mail className="w-4 h-4 mr-2" />
-                  Umów konsultację
+                  Zapytaj o certyfikację
                 </Button>
               </div>
             </div>

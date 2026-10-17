@@ -60,4 +60,4 @@ Mapowanie danych jest przydatne tak czy inaczej — pokrywa się z tym, czego pr
 
 Rozszerzenie CBAM na wyroby przetworzone wciąż jest projektem, ale jego logika jest prosta i trwała: o koszcie granicznym decyduje **emisyjność stali**, nie sama obróbka. Producenci konstrukcji stalowych, którzy już teraz uporządkują dane o pochodzeniu i śladzie węglowym swojej stali, wejdą w 2028 rok przygotowani — i z przewagą wobec konkurencji, która tego nie zrobi.
 
-Jeśli chcesz uporządkować dane emisyjne swojego łańcucha dostaw stali albo przygotować deklarację środowiskową wyrobu, [napisz do nas](mailto:biuro@multicert.pl) — pomożemy zaplanować to spójnie z obowiązkami CPR.
+Jeśli masz pytania o wymagania i przebieg weryfikacji deklaracji środowiskowej wyrobu w kontekście obowiązków CPR, [napisz do nas](mailto:biuro@multicert.pl).

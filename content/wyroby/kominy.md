@@ -105,5 +105,5 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań systemów kominowych i instalacyjnych; badania szczelności, odporności korozyjnej i termicznej
-- [Multicert](https://www.multicert.pl) – certyfikacja systemu FPC i doradztwo w zakresie CPR 2024 dla producentów elementów instalacyjnych i kominowych
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności elementów instalacyjnych i kominowych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kominowych o specjalnych właściwościach lub nowych konfiguracjach (np. systemy kominowe do pomp ciepła, hybrydowych urządzeń grzewczych)

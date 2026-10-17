@@ -69,4 +69,4 @@ Szkło budowlane to nie jeden wyrób, lecz rodzina, w której każdej grupie prz
 
 ---
 
-*Produkujesz szkło budowlane i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz szkło budowlane i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

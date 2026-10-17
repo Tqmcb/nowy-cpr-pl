@@ -72,4 +72,4 @@ Podłoga to nie jeden wyrób, lecz co najmniej dwa: pokrycie podłogowe (EN 1404
 
 ---
 
-*Produkujesz pokrycia podłogowe lub jastrychy i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz pokrycia podłogowe lub jastrychy i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

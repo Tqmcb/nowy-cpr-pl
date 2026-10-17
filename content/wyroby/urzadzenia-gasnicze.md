@@ -120,6 +120,6 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja systemu zarządzania jakością (ISO 9001) jako uzupełnienie wymagań FPC dla producentów urządzeń ppoż.
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; odpowiada na pytania o wymagania i przebieg certyfikacji wyrobów budowlanych
 - [CNBOP-PIB](https://www.cnbop.pl) – Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego, Józefów; numer notyfikacji NB 1438; wiodąca jednostka notyfikowana dla wyrobów ppoż. w Polsce; badania ITT, certyfikacja CoCP, doradztwo techniczne; niezbędny partner dla każdego producenta z rodziny 10
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane; badania środowiskowe i EMC dla elektronicznych komponentów systemów SAP

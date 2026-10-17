@@ -55,4 +55,4 @@ Kabel zabudowany na stałe w obiekcie to wyrób budowlany, bo w pożarze może r
 
 ---
 
-*Produkujesz kable do zabudowy w obiektach i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania normy pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz kable do zabudowy w obiektach i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania normy pod nowym CPR? Napisz do nas: biuro@multicert.pl*

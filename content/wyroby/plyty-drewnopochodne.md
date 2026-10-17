@@ -133,5 +133,5 @@ Producent MDF do zabudów wnętrz dąży do klasy E0 ze względu na wymagania ry
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania mechaniczne, emisja formaldehydu, VOC dla płyt drewnopochodnych
-- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w certyfikacji i inspekcji wyrobów budowlanych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów z zastosowaniem płyt drewnopochodnych

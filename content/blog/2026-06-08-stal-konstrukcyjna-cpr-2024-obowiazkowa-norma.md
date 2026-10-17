@@ -50,4 +50,4 @@ Ustaleń dla jednego wyrobu nie wolno przenosić na całą rodzinę ani mieszać
 
 ---
 
-*Jeśli chcecie ustalić podstawę oceny dla konkretnego wyrobu metalowego, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając kategorię wyrobu i zamierzone zastosowanie.*
+*Jeśli macie pytania o wymagania i przebieg certyfikacji wyrobów metalowych, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając kategorię wyrobu i zamierzone zastosowanie.*

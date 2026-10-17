@@ -46,7 +46,7 @@ Warto pamiętać o granicy reżimów: to wszystko dotyczy śladu środowiskowego
 
 ## Rola jednostki
 
-Wiarygodność deklaracji środowiskowej potwierdza niezależna weryfikacja. Multicert weryfikuje deklaracje środowiskowe wyrobów i prowadzi walidację danych w systemie oceny 3+ — sprawdzając między innymi, czy dobór danych specyficznych i zbiorów tła jest poprawny i spójny z przyjętą metodyką. Mechanizm walidacji opisujemy w artykule [System AVS 3+ — walidacja danych środowiskowych](/blog/avs-3plus-walidacja-epd). Jako jednostka weryfikująca oceniamy zgodność danych ze stanem faktycznym; nie przygotowujemy ich za producenta.
+Wiarygodność deklaracji środowiskowej potwierdza niezależna weryfikacja. Multicert weryfikuje deklaracje środowiskowe wyrobów — sprawdzając między innymi, czy dobór danych specyficznych i zbiorów tła jest poprawny i spójny z przyjętą metodyką. Walidację danych w systemie oceny 3+ prowadzą jednostki notyfikowane; Multicert jest przedstawicielem w Polsce partnerskich jednostek notyfikowanych. Mechanizm walidacji opisujemy w artykule [System AVS 3+ — walidacja danych środowiskowych](/blog/avs-3plus-walidacja-epd). Jako jednostka weryfikująca oceniamy zgodność danych ze stanem faktycznym; nie przygotowujemy ich za producenta.
 
 ## Podsumowanie
 
@@ -54,4 +54,4 @@ Obowiązkowe konserwatywne europejskie zbiory danych tła i uznanie danych z sys
 
 ---
 
-*Chcesz, by Twoja deklaracja środowiskowa opierała się na poprawnie dobranych danych i przeszła niezależną walidację w systemie oceny 3+? Napisz do nas: biuro@multicert.pl*
+*Masz pytania o wymagania i przebieg weryfikacji deklaracji środowiskowej lub walidacji danych w systemie oceny 3+? Napisz do nas: biuro@multicert.pl*

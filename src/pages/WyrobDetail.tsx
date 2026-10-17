@@ -550,10 +550,10 @@ export default function WyrobDetail() {
                   <div className="bg-[oklch(20% .03 264)] rounded-2xl p-6">
                     <h3 className="text-white font-semibold text-base mb-2 flex items-center gap-2">
                       <HelpCircle className="w-5 h-5 text-[oklch(75%_.15_27)]" />
-                      Potrzebujesz pomocy?
+                      Masz pytania o certyfikację?
                     </h3>
                     <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                      Nasi eksperci pomogą Ci w certyfikacji i spełnieniu wymagań CPR 2024/3110 dla tej rodziny wyrobów.
+                      Odpowiemy na pytania o wymagania CPR 2024/3110 i przebieg certyfikacji dla tej rodziny wyrobów.
                     </p>
                     <button
                       onClick={() => navigate("/services")}

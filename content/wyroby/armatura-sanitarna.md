@@ -44,7 +44,7 @@ Wyroby sanitarne podlegają systemowi **AVS 3 lub AVS 4**:
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Badania właściwości wyrobów sanitarnych (wytrzymałość, odporność na zabrudzenia, właściwości higieniczne, odporność chemiczna) wymagają wyspecjalizowanych laboratoriów. [ITCZLin](https://www.itczlin.pl) posiada akredytację dla badań wyrobów ceramicznych i sanitarnych. Certyfikacja FPC i raporty ITT dostępne przez [Multicert](https://www.multicert.pl).
+Badania właściwości wyrobów sanitarnych (wytrzymałość, odporność na zabrudzenia, właściwości higieniczne, odporność chemiczna) wymagają wyspecjalizowanych laboratoriów. [ITCZLin](https://www.itczlin.pl) posiada akredytację dla badań wyrobów ceramicznych i sanitarnych. O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -105,7 +105,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu sanitarnego (EN 997, EN 14688, EN 14527, EN 13310)
 - [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT w akredytowanym laboratorium
-- [ ] Dla AVS 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN ([Multicert](https://www.multicert.pl))
+- [ ] Dla AVS 3 – zlecić ITT do NTL ([ITCZLin](https://www.itczlin.pl)) i uzyskać certyfikat od JN (np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Sprawdzić skład glazur ceramicznych – wykluczyć ołów i kadm powyżej limitów EN 1388
 - [ ] Przygotować wzór przyszłego DoP&C dla każdego wyrobu oraz plan cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Wdrożyć FPC z kontrolą wymiarów, jakości glazury i wyników badań partii produkcyjnych
@@ -118,5 +118,5 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z kompetencjami w zakresie ceramiki budowlanej i armatury sanitarnej; badania ITT wymagane w systemie AVS 3
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy wdrożeniu FPC dla producentów armatury sanitarnej
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności armatury sanitarnej w systemie AVS 3
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla wyrobów sanitarnych nieobjętych normami zharmonizowanymi (systemy prysznicowe nowej generacji, innowacyjne zbiorniki spłukujące)

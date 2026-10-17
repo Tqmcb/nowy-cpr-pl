@@ -46,7 +46,7 @@ Testy zderzeniowe barier to specjalistyczne, kosztowne badania przeprowadzane na
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów drogowych oferuje [Multicert](https://www.multicert.pl). Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
+Ocenę zgodności wyposażenia dróg prowadzą jednostki notyfikowane – o certyfikację przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl), ich przedstawiciela w Polsce. Badania laboratoryjne prowadzi [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -111,7 +111,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 - [ ] Zidentyfikować właściwą normę EN (EN 1317-2 dla barier, EN 12767 dla słupów, EN 1463-1 dla folii) dla każdego wyrobu
 - [ ] Ustalić system AVS: AVS 1 dla barier ochronnych, AVS 3 dla słupów i znaków
-- [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. [Multicert](https://www.multicert.pl)) i zaplanować test zderzeniowy na akredytowanym torze badawczym
+- [ ] Dla barier (AVS 1): nawiązać kontakt z jednostką notyfikowaną (np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych) i zaplanować test zderzeniowy na akredytowanym torze badawczym
 - [ ] Uzyskać certyfikat CoCP (bariery, AVS 1) lub certyfikat właściwości użytkowych i zgodności (słupy, znaki, AVS 3) od JN
 - [ ] Wdrożyć FPC z kontrolą stali (skład chemiczny, grubość), cynkowania (grubość powłoki) i wymiarów
 - [ ] Przygotować wzór przyszłego DoP&C z klasyfikacją EN 1317 lub EN 12767 oraz plan jego cyfrowego udostępniania
@@ -123,7 +123,7 @@ Wsparcie przy badaniach właściwości mechanicznych i certyfikacji wyrobów dro
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja FPC i doradztwo przy DoP&C dla producentów wyposażenia drogowego; certyfikacja CoCP dla barier drogowych (AVS 1), raporty ITT dla słupów (AVS 3)
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności wyposażenia drogowego (certyfikacja CoCP w AVS 1, ocena w AVS 3)
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze; badania właściwości mechanicznych stali i aluminium; badania fotometryczne folii retrorefleksyjnych i znaków drogowych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów ochrony drogowej (kompozytowe bariery drogowe, mobilne bariery ze stali dupleks, ekrany akustyczne nowych generacji)
 

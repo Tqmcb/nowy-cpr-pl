@@ -54,4 +54,4 @@ Sama klasa nie przesądza też o dopuszczeniu wyrobu w konkretnym miejscu wbudow
 
 ---
 
-*Jeśli chcecie sprawdzić, na jakich badaniach i jakiej podstawie opiera się deklarowana klasa reakcji na ogień Waszego wyrobu, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl).*
+*Jeśli macie pytania o wymagania i przebieg oceny klasy reakcji na ogień, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl).*

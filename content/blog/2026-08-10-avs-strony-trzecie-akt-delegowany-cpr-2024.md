@@ -89,4 +89,4 @@ Nie należy traktować go jako zamiennika systemu dla wszystkich charakterystyk 
 
 ---
 
-*Jeśli chcecie ustalić, który wiersz rozporządzenia 2026/1310 odpowiada Waszemu wyrobowi, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając kategorię wyrobu i zamierzone zastosowanie.*
+*Jeśli macie pytania o wymagania i przebieg oceny zgodności według rozporządzenia 2026/1310, napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając kategorię wyrobu i zamierzone zastosowanie.*

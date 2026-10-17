@@ -148,7 +148,7 @@ Checklist najlepiej potraktować jako narzędzie do regularnego przeglądu — z
 
 Pozycje oznaczone jako niezrealizowane powinny zostać przekształcone w zadania z przypisanymi terminami i właścicielami. Priorytetem powinny być pozycje z sekcji A i C, które bezpośrednio wpływają na zgodność z obowiązkami prawnymi od 8 stycznia 2026 roku.
 
-Jeśli chcesz zweryfikować swoją gotowość z ekspertem, rozważ zlecenie zewnętrznego audytu CPR firmie konsultingowej lub skontaktowanie się z właściwą jednostką notyfikowaną, która przeprowadzi wstępną ocenę bez formalnych konsekwencji.
+Jeśli chcesz zweryfikować swoją gotowość, przeprowadź audyt wewnętrzny lub – w razie potrzeby – skorzystaj z zewnętrznego wsparcia niezależnego od jednostki, która będzie prowadziła Twoją certyfikację. O wymagania i przebieg samej certyfikacji możesz zapytać właściwą jednostkę notyfikowaną.
 
 ## Podsumowanie
 
@@ -156,4 +156,4 @@ Wdrożenie CPR 2024 to nie jednorazowe zadanie, ale ciągły proces zarządzania
 
 ---
 
-*Jeśli chcecie przejść swoją listę przygotowań na 2026 punkt po punkcie, chętnie wskażemy, co warto domknąć w pierwszej kolejności. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli lista przygotowań na 2026 budzi Wasze pytania o wymagania i przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

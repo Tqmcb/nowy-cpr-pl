@@ -97,7 +97,7 @@ Odpowiedzialność karna (do 2 lat pozbawienia wolności) w przypadku:
 
 *dr inż. Robert Dynarowski, Multicert Sp. z o.o.*
 
-Doradczo uczestniczyłem w kilkunastu kontrolach GUNB po stronie podmiotów kontrolowanych. Z tego doświadczenia wynika jedna zasadnicza obserwacja: większość problemów podczas kontroli nie wynika z faktycznej niezgodności wyrobu, lecz z **niemożności natychmiastowego okazania dokumentów**. Inspektor ma ograniczony czas. Jeśli dokumenty nie są pod ręką, zorganizowane i aktualne, kontrola automatycznie obraca się na niekorzyść kontrolowanego.
+Uczestniczyłem w kilkunastu kontrolach GUNB po stronie podmiotów kontrolowanych. Z tego doświadczenia wynika jedna zasadnicza obserwacja: większość problemów podczas kontroli nie wynika z faktycznej niezgodności wyrobu, lecz z **niemożności natychmiastowego okazania dokumentów**. Inspektor ma ograniczony czas. Jeśli dokumenty nie są pod ręką, zorganizowane i aktualne, kontrola automatycznie obraca się na niekorzyść kontrolowanego.
 
 Drugi istotny aspekt to kwestia kompetencji osoby, która reprezentuje firmę podczas kontroli. Pracownik nieznający CPR 2024, podstawowych pojęć (DoP&C, AVS, FPC) i zakresu swoich obowiązków może nieświadomie skomplikować sytuację — np. składając nieprecyzyjne wyjaśnienia, które inspektor może interpretować jako niezgodność. Rekomendowałbym każdej firmie wyznaczenie jednej osoby odpowiedzialnej za certyfikację i regularne szkolenie jej z aktualnych wymagań.
 

@@ -233,12 +233,12 @@ const documentSchemaItems = [
 ];
 
 const serviceSchemaItems = [
-  'Audyt gotowości CPR 2024',
-  'Przegląd systemu ZKP/FPC',
-  'Dokumentacja techniczna CPR 2024',
-  'Weryfikacja i walidacja oprogramowania obliczeniowego',
-  'Analiza norm i harmonogram wdrożenia',
-  'Szkolenia i warsztaty CPR 2024/3110',
+  'Certyfikacja ZKP – znak budowlany B',
+  'Ocena zgodności CE przez partnerskie jednostki notyfikowane',
+  'Audyt certyfikacyjny i nadzór',
+  'Badania przez partnerów',
+  'Wycena i przebieg certyfikacji',
+  'Szkolenia informacyjne CPR 2024',
 ];
 
 const staticPages = [
@@ -382,9 +382,9 @@ const staticPages = [
   },
   {
     path: 'services',
-    title: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert | NowyCPR.pl',
-    desc: 'Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.',
-    keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane',
+    title: 'Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert | NowyCPR.pl',
+    desc: 'Krajowa certyfikacja ZKP do znaku budowlanego B (akredytacja PCA AC 210) oraz ocena zgodności CE przez partnerskie jednostki notyfikowane ITC Zlín, LL-C i Silniční vývoj – ZDZ. Bezpłatna wycena certyfikacji.',
+    keywords: 'certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, oznakowanie CE, jednostka notyfikowana, audyt certyfikacyjny, jednostka certyfikująca wyroby budowlane',
     canonical: 'https://www.nowycpr.pl/services/',
     schema: {
       '@context': 'https://schema.org',
@@ -392,13 +392,13 @@ const staticPages = [
         {
           '@type': 'Service',
           '@id': 'https://www.nowycpr.pl/services/#service',
-          name: 'Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert',
+          name: 'Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert',
           provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
           url: 'https://www.nowycpr.pl/services/',
           areaServed: { '@type': 'Country', name: 'Polska' },
-          serviceType: 'Certyfikacja i doradztwo CPR dla wyrobów budowlanych',
-          description: 'Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych.',
-          keywords: 'certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C',
+          serviceType: 'Certyfikacja wyrobów budowlanych i ocena zgodności',
+          description: 'Krajowa certyfikacja ZKP do znaku budowlanego B w zakresie akredytacji PCA AC 210, audyty certyfikacyjne i nadzór. Ocenę zgodności CE prowadzą partnerskie jednostki notyfikowane ITC Zlín (NB 1023), LL-C (NB 2435) i Silniční vývoj – ZDZ (NB 1388), których przedstawicielem jest Multicert.',
+          keywords: 'certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, ocena zgodności CE, audyt certyfikacyjny',
           hasOfferCatalog: {
             '@type': 'OfferCatalog',
             name: 'Usługi CPR 2024/3110',
@@ -409,7 +409,15 @@ const staticPages = [
                 '@type': 'Service',
                 name,
                 areaServed: { '@type': 'Country', name: 'Polska' },
-                provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.' }
+                ...(index === 1 ? {
+                  provider: ['ITC Zlín (NB 1023)', 'LL-C (NB 2435)', 'Silniční vývoj – ZDZ (NB 1388)']
+                    .map(name => ({ '@type': 'Organization', name })),
+                  broker: { '@type': 'Organization', name: 'Multicert Sp. z o.o.' }
+                } : index === 3 ? {
+                  provider: { '@type': 'Organization', name: 'Partnerskie laboratoria i jednostki partnerskie' }
+                } : {
+                  provider: { '@type': 'Organization', name: 'Multicert Sp. z o.o.' }
+                })
               }
             }))
           }
@@ -537,7 +545,7 @@ const bodyContentMap = {
 <ul>
   <li><a href="/wyszukiwarka">Wyszukiwarka wymagań CPR dla wyrobu budowlanego</a></li>
   <li><a href="/documents">Wzory DoP&amp;C, CE, FPC, EPD i DPP</a></li>
-  <li><a href="/services">Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C</a></li>
+  <li><a href="/services">Certyfikacja ZKP (znak B) i ocena zgodności CE</a></li>
   <li><a href="/blog">Artykuły o CPR 2024/3110, AVS, GWP, EPD i DPP</a></li>
   <li><a href="/harmonogram">Terminy CPR 2024/3110: DoP&amp;C, GWP, DPP i sankcje</a></li>
 </ul>`,
@@ -593,16 +601,17 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}
 </ul>`,
 
   services: `
-<h1>Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C — Multicert</h1>
-<p>Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&amp;C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110.</p>
+<h1>Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert</h1>
+<p>Multicert prowadzi krajową certyfikację ZKP do znaku budowlanego B w systemie 2+ w zakresie akredytacji PCA AC 210. Ocenę zgodności CE prowadzą partnerskie jednostki notyfikowane, których przedstawicielem w Polsce jest Multicert.</p>
 <ul>
-  <li><strong>Audyt gotowości CPR 2024</strong> — identyfikacja systemu AVS, ocena ZKP/FPC, analiza dokumentacji DoP&amp;C, mapa ryzyk</li>
-  <li><strong>Przegląd systemu ZKP (Art. 20 CPR 2024)</strong> — ocena dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), uproszczenie dla mikroprzedsiębiorstw (Art. 60)</li>
-  <li><strong>Dokumentacja techniczna CPR 2024</strong> — DoP&amp;C (Art. 15), plik techniczny (Art. 22), instrukcje (Art. 9), mandat przedstawiciela (Art. 23)</li>
-  <li><strong>Weryfikacja oprogramowania obliczeniowego</strong> — raport walidacyjny do pliku technicznego Art. 21</li>
-  <li><strong>Analiza norm i harmonogram wdrożenia</strong> — normy zharmonizowane, Plan Prac KE (Milestones 0–IV, 2026–2029)</li>
-  <li><strong>Szkolenia CPR 2024/3110</strong> — warsztaty dla producentów i dystrybutorów wyrobów budowlanych</li>
-</ul>`,
+  <li><strong>Certyfikacja ZKP – znak budowlany B</strong> — beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe / utrwalanie nawierzchni, spoiwa hydrauliczne; zakres akredytacji PCA AC 210</li>
+  <li><strong>Ocena zgodności CE przez partnerskie jednostki notyfikowane</strong> — ITC Zlín (NB 1023), LL-C (NB 2435), Silniční vývoj – ZDZ (NB 1388); certyfikaty i raporty wydaje właściwa jednostka w zakresie swojej notyfikacji (NANDO)</li>
+  <li><strong>Audyt certyfikacyjny i nadzór</strong> — ocena ZKP w zakładzie producenta w ramach certyfikacji oraz okresowy nadzór nad certyfikowaną ZKP</li>
+  <li><strong>Badania przez partnerów</strong> — badania wyrobów w partnerskich laboratoriach i jednostkach jako element certyfikacji i nadzoru</li>
+  <li><strong>Wycena i przebieg certyfikacji</strong> — przegląd wniosku, ustalenie zakresu, bezpłatna wycena i informacje o wymaganiach oraz etapach procesu</li>
+  <li><strong>Szkolenia informacyjne CPR 2024</strong> — ogólne szkolenia o wymaganiach CPR (UE) 2024/3110, bez analizy dokumentacji konkretnego przedsiębiorstwa</li>
+</ul>
+<p><a href="#contact-section">Zapytaj o certyfikację</a></p>`,
 
   harmonogram: `
 <h1>Terminy CPR 2024/3110: DoP&amp;C, GWP, DPP i sankcje</h1>
@@ -617,7 +626,7 @@ ${wyrobyItems.map(w => `  <li><a href="/wyrob/${w.slug}/">${escapeHtml(w.title)}
   'o-portalu': `
 <h1>O portalu NowyCPR.pl — Rozporządzenie CPR 2024/3110</h1>
 <p>NowyCPR.pl to kompleksowe źródło wiedzy o Rozporządzeniu (UE) 2024/3110 w sprawie wyrobów budowlanych (CPR) dla producentów, importerów i dystrybutorów działających na rynku polskim i europejskim.</p>
-<p>Portal prowadzony jest przez Multicert Sp. z o.o. — akredytowaną jednostkę certyfikującą wyroby budowlane z siedzibą w Warszawie (ul. Mydlarska 47A, 04-690 Warszawa).</p>
+<p>Portal prowadzony jest przez Multicert Sp. z o.o. — jednostkę prowadzącą krajową certyfikację ZKP do znaku budowlanego B w zakresie akredytacji PCA AC 210 oraz przedstawiciela partnerskich jednostek notyfikowanych ITC Zlín (NB 1023), LL-C (NB 2435) i Silniční vývoj – ZDZ (NB 1388) w ocenie zgodności CE, z siedzibą w Warszawie (ul. Mydlarska 47A, 04-690 Warszawa).</p>
 <p>Co oferujemy: artykuły prawne i techniczne o CPR 2024/3110, katalog 36 rodzin wyrobów budowlanych (Załącznik VII), 13 bezpłatnych szablonów dokumentów (DoP&amp;C, ZKP/FPC, EPD, DPP), wyszukiwarka wymagań dla kategorii wyrobów.</p>`,
 
   kontakt: `
@@ -696,7 +705,7 @@ for (const item of wyrobyItems) {
   <li>Kategoria: ${escapeHtml(item.category)}</li>
   ${item.avs ? `<li>System AVS: ${escapeHtml(item.avs)}</li>` : ''}
   <li><a href="/wyroby/">Powrót do katalogu wyrobów budowlanych CPR</a></li>
-  <li><a href="/services/">Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&amp;C</a></li>
+  <li><a href="/services/">Certyfikacja ZKP (znak B) i ocena zgodności CE</a></li>
 </ul>`;
 
   const outDir = join(distDir, 'wyrob', item.slug);

@@ -75,7 +75,6 @@ Dane te mogą być weryfikowane przez **System AVS 3+** (nowy system w CPR 2024 
 Europejskie platformy DoP&C:
 - **CSTB** (Francja) — Construction Digital Hub
 - **IBU** (Niemcy) — Digital Product Passport (z EPD)
-- **Multicert** (Polska) — wsparcie we wdrożeniu dokumentacji i platformy cyfrowej DoP&C
 
 ## Korzyści Digital DoP&C
 
@@ -98,8 +97,8 @@ Europejskie platformy DoP&C:
 
 ---
 
-**Digital DoP&C to przyszłość dokumentacji budowlanej** — przygotuj się już dziś! Wsparcie w wdrożeniu DoP&C i systemów AVS oferuje [Multicert](https://www.multicert.pl). W zakresie badań laboratoryjnych i EPD — [epd.org.pl](https://www.epd.org.pl).
+**Digital DoP&C to przyszłość dokumentacji budowlanej** — przygotuj się już dziś! O ocenę zgodności w systemach AVS przez partnerskie jednostki notyfikowane możesz zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce. Weryfikację deklaracji EPD prowadzi program [EPD Polska](https://www.epd.org.pl).
 
 ---
 
-*Jeśli przygotowujecie cyfrową deklarację właściwości użytkowych i zgodności, chętnie wskażemy, na co zwrócić uwagę. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli cyfrowa deklaracja właściwości użytkowych i zgodności budzi Wasze pytania, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

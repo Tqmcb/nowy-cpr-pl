@@ -42,7 +42,7 @@ export const SECTIONS: Record<SectionKey, SectionMeta> = {
     key: "uslugi",
     num: "04",
     label: "Usługi",
-    intent: "Profesjonalne wsparcie przy certyfikacji",
+    intent: "Certyfikacja i ocena zgodności",
   },
   "aktualnosci": {
     key: "aktualnosci",
@@ -127,7 +127,7 @@ export const PAGES: PageMeta[] = [
     label: "Usługi certyfikacyjne",
     title: "Usługi",
     titleAccent: "certyfikacyjne",
-    description: "Profesjonalne wsparcie w procesie certyfikacji i przygotowania dokumentacji zgodnej z CPR.",
+    description: "Krajowa certyfikacja ZKP do znaku budowlanego B oraz ocena zgodności CE przez partnerskie jednostki notyfikowane.",
     section: "uslugi",
   },
 

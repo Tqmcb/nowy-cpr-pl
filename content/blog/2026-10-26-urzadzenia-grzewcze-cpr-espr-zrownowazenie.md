@@ -61,4 +61,4 @@ Urządzenia grzewcze i inne produkty związane z energią — ogrzewacze, kotły
 
 ---
 
-*Produkujesz urządzenia grzewcze lub inne produkty związane z energią i chcesz uporządkować, które obowiązki wynikają z CPR, a które z ekoprojektu? Napisz do nas: biuro@multicert.pl*
+*Produkujesz urządzenia grzewcze lub inne produkty związane z energią i masz pytania o to, które obowiązki wynikają z CPR, a które z ekoprojektu? Napisz do nas: biuro@multicert.pl*

@@ -69,4 +69,4 @@ Wyroby gipsowe to rodzina osobnych wyrobów: płyty gipsowo-kartonowe (EN 520), 
 
 ---
 
-*Produkujesz płyty gipsowo-kartonowe, masy do spoinowania, spoiwa lub tynki gipsowe i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz płyty gipsowo-kartonowe, masy do spoinowania, spoiwa lub tynki gipsowe i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

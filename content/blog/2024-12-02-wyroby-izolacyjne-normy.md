@@ -107,4 +107,4 @@ Producenci wyrobów izolacyjnych stoją przed największą zmianą regulacyjną 
 
 ---
 
-*Jeśli ustalacie ścieżkę oceny lub dobór normy dla swoich wyrobów izolacyjnych, chętnie przejrzymy z Wami wymagania i wskażemy właściwe rozwiązanie. Napiszcie do nas na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli macie pytania o wymagania i przebieg certyfikacji wyrobów izolacyjnych, chętnie na nie odpowiemy. Napiszcie do nas na biuro@multicert.pl, bez zobowiązań.*

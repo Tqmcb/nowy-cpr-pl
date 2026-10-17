@@ -162,4 +162,4 @@ A: Nie, system AVS pozostaje taki sam (wynika z normy, nie z konkretnego wyrobu)
 
 ---
 
-*Nie macie pewności, który system AVS dotyczy Waszego wyrobu? Chętnie pomożemy przeanalizować normy i ustalić właściwą ścieżkę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Nie macie pewności, który system AVS dotyczy Waszego wyrobu? Chętnie odpowiemy na pytania o wymagania i przebieg oceny zgodności. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
