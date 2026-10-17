@@ -33,7 +33,7 @@ Wiele systemów fasadowych wprowadzanych jest na rynek na podstawie Europejskich
 
 Systemy fasadowe podlegają wyłącznie **systemowi AVS 3**. Jednostka notyfikowana przeprowadza wstępne badanie ITT i wydaje raport z badania. Producent samodzielnie zarządza FPC, a po publikacji odpowiedniej hTS będzie przechodził na model DoP&C; do tego czasu co do zasady działa według hEN i DoP.
 
-Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). Wsparcie przy certyfikacji i DoP&C oferuje [Multicert](https://www.multicert.pl). Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
+Badania systemów fasadowych wymagają dużych komór badawczych do testów klimatycznych, akustycznych i ogniowych. W Polsce takie badania przeprowadza [ITCZLin](https://www.itczlin.pl). O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce. Dla innowacyjnych systemów fasadowych wymagających ETA można skorzystać z usług Jednostki Oceny Technicznej (TAB) poprzez [ocenytechniczne.pl](https://www.ocenytechniczne.pl).
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
@@ -75,7 +75,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD; systemy na ETA muszą mieć nowe ETA lub normę |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla innowacyjnych systemów |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -90,7 +90,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 - [ ] Określić zastosowaną normę zharmonizowaną (EN 13830) lub podstawę ETA dla systemu fasadowego
 - [ ] Ustalić pełny zestaw właściwości do deklarowania (przepuszczalność, wodoszczelność, wiatr, ciepło, hałas, ogień)
 - [ ] Przeprowadzić ITT w akredytowanej komorze badawczej ([ITCZLin](https://www.itczlin.pl) lub laboratorium zagraniczne)
-- [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVS 3: [Multicert](https://www.multicert.pl))
+- [ ] Uzyskać certyfikat właściwości użytkowych i zgodności od JN (AVS 3: np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Przygotować wzór przyszłego DoP&C z możliwością konfiguracji dla projektów indywidualnych (warianty szybowania, izolacji)
 - [ ] Sprawdzić klasę ogniową okładzin – zaktualizować badania i dokumentację dla okładzin ACM (rdzeń PE vs. FR)
 - [ ] Zebrać dane środowiskowe o zawartości aluminium z recyklingu w profilach od dostawców
@@ -102,5 +102,5 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z komorami do badań klimatycznych okien i fasad; wstępne badanie typu (ITT) dla systemów fasadowych wg EN 13830
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca; raporty ITT i doradztwo przy DoP&C dla producentów systemów fasadowych
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności systemów fasadowych w AVS 3
 - [ocenytechniczne.pl – EOT dla systemów fasadowych i paneli warstwowych](https://www.ocenytechniczne.pl/wyroby/systemy-fasadowe-i-panele-warstwowe/) – europejskie oceny techniczne dla systemów fasadowych bez pełnego pokrycia normą EN 13830 (innowacyjne konfiguracje, nowe materiały okładzinowe)

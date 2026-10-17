@@ -95,4 +95,4 @@ System AVS 3+ to logiczne uzupełnienie nowej architektury CPR 2024 — narzędz
 
 ---
 
-*Jeśli przygotowujecie dane środowiskowe do walidacji w systemie AVS 3+, chętnie wskażemy, na co zwrócić uwagę. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli macie pytania o wymagania i przebieg walidacji danych środowiskowych w systemie AVS 3+ – prowadzonej przez jednostkę notyfikowaną o odpowiednim zakresie notyfikacji – albo o dostępność takiej oceny u partnerskich jednostek notyfikowanych, których Multicert jest przedstawicielem, chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

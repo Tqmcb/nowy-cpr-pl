@@ -124,7 +124,7 @@ Producent betonu, który chce uzyskać EPD, musi:
 3. **Poddać EPD weryfikacji** przez niezależnego weryfikatora programu EPD; odrębnie CPR 2024 przewiduje przyszłą walidację danych środowiskowych w systemie AVS 3+.
 4. **Zarejestrować EPD** w programie EPD Polska lub innym uznanym programie europejskim.
 
-**Multicert** jako jednostka certyfikująca wspiera producentów betonu w przygotowaniu danych do LCA, opracowaniu raportu oraz przygotowaniu do weryfikacji i rejestracji EPD.
+Analizę LCA i raport przygotowuje producent (samodzielnie lub z wybranym wykonawcą). **Multicert** jako operator programu EPD Polska odpowiada za weryfikację i rejestrację deklaracji – nie przygotowuje danych LCA ani raportu za producenta.
 
 ---
 
@@ -214,4 +214,4 @@ Ci, którzy będą czekać do ostatniej chwili, będą musieli to wszystko nadro
 
 ---
 
-*Liczycie klasy GWR dla swoich receptur albo przygotowujecie EPD? Chętnie pomożemy — od zebrania danych po rejestrację deklaracji w programie EPD Polska. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Liczycie klasy GWR dla swoich receptur albo przygotowujecie EPD? Chętnie odpowiemy na pytania o wymagania i przebieg weryfikacji oraz rejestracji deklaracji w programie EPD Polska. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

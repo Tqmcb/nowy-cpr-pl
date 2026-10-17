@@ -87,7 +87,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 | ~2028–2029 | Obowiązkowe deklarowanie GWP — po publikacji nowych hTS i upływie koegzystencji |
 | 2027–2028 | Rozbudowa bazy EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
 | 9 stycznia 2031 | Wygasają EAD (w tym dla systemów ETICS na ETA) |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -114,7 +114,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium akredytowane do badań wyrobów termoizolacyjnych; badania λ, CS, reakcji na ogień, nasiąkliwości wodą; wykonuje badania ITT dla AVS 3
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca; badania i certyfikacja wyrobów izolacyjnych; raporty ITT i wsparcie w przygotowaniu DoP&C
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie przy uzyskiwaniu ETA dla innowacyjnych systemów izolacyjnych i ETICS
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności wyrobów izolacyjnych w systemach 1 i 3 (obecnie AVCP; docelowo AVS wg CPR 2024/3110)
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – informacje o ścieżce ETA dla innowacyjnych systemów izolacyjnych i ETICS
 
 Ważny zasób dla producentów: bazy danych EPD takie jak Instytut Bauvil (Niemcy) oraz krajowe programy EPD rozwijające się w Polsce. Warto wcześnie zaangażować się w tworzenie EPD branżowych (industry-average EPD), które mogą być tańszą alternatywą dla EPD indywidualnych przed 2027.

@@ -144,4 +144,4 @@ Producent, który **sam stwierdzi niezgodność**, może podjąć dobrowolne wyc
 
 ---
 
-*Otrzymaliście decyzję GUNB albo podejrzewacie niezgodność wyrobu? Chętnie pomożemy zorientować się w procedurze naprawczej i kontaktach z nadzorem. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Otrzymaliście decyzję GUNB albo podejrzewacie niezgodność wyrobu? Jeśli macie pytania o wpływ tej sytuacji na certyfikację wyrobu, chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

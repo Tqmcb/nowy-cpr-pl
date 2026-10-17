@@ -111,4 +111,4 @@ Wymóg deklarowania SVHC w DoP&C to element szerszego trendu w prawie unijnym, z
 
 ---
 
-*Jeśli zastanawiacie się, jakie substancje SVHC i informacje z REACH ująć w DoP&C, chętnie pomożemy to uporządkować. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli wymagania dotyczące SVHC i informacji z REACH w DoP&C budzą Wasze pytania, chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

@@ -39,7 +39,7 @@ export function Footer() {
               <span className="text-2xl font-serif" style={{ color: brandRed, fontWeight: 600 }}>.pl</span>
             </div>
             <p className="text-sm leading-[1.55] mb-3" style={{ color: textBody }}>
-              Kompleksowe wsparcie dla producentów wyrobów budowlanych w kontekście Rozporządzenia CPR (EU) 2024/3110.
+              Portal informacyjny dla producentów wyrobów budowlanych o Rozporządzeniu CPR (EU) 2024/3110.
             </p>
             <p className="editorial-kicker mb-3" style={{ color: textMuted }}>Wydawca</p>
             <p className="font-serif text-base italic mb-4" style={{ color: "white", fontWeight: 500 }}>Multicert Sp. z o.o.</p>

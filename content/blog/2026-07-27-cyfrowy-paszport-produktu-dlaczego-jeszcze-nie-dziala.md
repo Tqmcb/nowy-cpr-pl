@@ -94,4 +94,4 @@ Można już korzystać z narzędzi do porządkowania danych oraz ze środowiska 
 
 ---
 
-*Chcesz uporządkować dokumentację wyrobu przed wprowadzeniem cyfrowych paszportów? Napisz do nas: biuro@multicert.pl*
+*Masz pytania o wymagania dotyczące dokumentacji wyrobu przed wprowadzeniem cyfrowych paszportów? Napisz do nas: biuro@multicert.pl*

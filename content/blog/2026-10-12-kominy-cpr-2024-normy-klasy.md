@@ -68,4 +68,4 @@ Komin to wyrób, którego właściwości opisuje ciąg klas — temperatury, ci�
 
 ---
 
-*Produkujesz kominy metalowe lub ceramiczne i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz kominy metalowe lub ceramiczne i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

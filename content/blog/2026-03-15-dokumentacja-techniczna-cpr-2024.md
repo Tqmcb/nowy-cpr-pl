@@ -133,4 +133,4 @@ Klientom, dystrybutorowi ani konkurentom dokumentacja techniczna nie jest udost�
 
 ---
 
-*Porządkujecie dokumentację techniczną przed kontrolą GUNB i chcecie sprawdzić, czy niczego nie brakuje? Chętnie przejrzymy z Wami wymagania. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Macie pytania o wymagania dotyczące dokumentacji technicznej lub przebieg certyfikacji? Chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

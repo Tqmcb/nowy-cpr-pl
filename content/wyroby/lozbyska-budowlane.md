@@ -46,7 +46,7 @@ W systemie AVS 1 zakres zadań jednostki notyfikowanej jest najszerszy:
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikację CoCP w systemie AVS 1 oferuje [Multicert](https://www.multicert.pl).
+Badania laboratoryjne łożysk (testy obciążeniowe, badania gumy, testy PTFE) wymagają specjalistycznych maszyn wytrzymałościowych, dostępnych m.in. w [ITCZLin](https://www.itczlin.pl). Certyfikat CoCP w systemie AVS 1 wydaje jednostka notyfikowana – o certyfikację przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl), ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -83,7 +83,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA (dot. innowacyjnych łożysk) |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -96,7 +96,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 ## Checklist producenta
 
 - [ ] Potwierdzić, które typy łożysk produkowane są według norm z serii EN 1337 (EN 1337-2 do EN 1337-8)
-- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. [Multicert](https://www.multicert.pl))
+- [ ] Zapewnić ważny certyfikat CoCP od jednostki notyfikowanej (AVS 1 – np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Przeprowadzić lub zaktualizować badania ITT dla wszystkich deklarowanych właściwości użytkowych
 - [ ] Prowadzić zakładową kontrolę produkcji (FPC) z udokumentowanymi wynikami badań dla każdej partii
 - [ ] Przygotować wzór DoP&C dla każdego wyrobu lub grupy wyrobów oraz plan przejścia z DoP po publikacji odpowiedniej hTS
@@ -109,7 +109,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – jednostka notyfikowana oferująca certyfikację CoCP w systemie AVS 1, inspekcje FPC i doradztwo w zakresie CPR 2024 dla producentów wyrobów konstrukcyjnych
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących certyfikację CoCP w systemie AVS 1 i inspekcje FPC
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze z zapleczem do testów materiałów (elastomerów, PTFE) i badań mechanicznych; wykonuje badania wstępne ITT wymagane przed certyfikacją
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – European Technical Assessments (ETA) dla innowacyjnych systemów łożysk nieposiadających pełnej normy zharmonizowanej (np. izolatory sejsmiczne nowych generacji)
 

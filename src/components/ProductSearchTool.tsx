@@ -488,7 +488,7 @@ export function ProductSearchTool() {
                     <Award className="w-5 h-5 text-[oklch(55%_.22_27)] flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium text-[oklch(20%_.03_264)]">Potrzebujesz certyfikacji?</p>
-                      <p className="text-slate-500 text-sm mb-3">Multicert oferuje kompleksowe usługi certyfikacji zgodnej z CPR (EU) 2024/3110.</p>
+                      <p className="text-slate-500 text-sm mb-3">Multicert prowadzi krajową certyfikację ZKP do znaku budowlanego B i pośredniczy w ocenie zgodności CE prowadzonej przez partnerskie jednostki notyfikowane.</p>
                       <Button variant="outline" size="sm" asChild className="border-slate-200 text-slate-700 hover:border-[oklch(55%_.22_27/0.4)] hover:text-[oklch(55%_.22_27)]">
                         <Link to="/services">Sprawdź nasze usługi</Link>
                       </Button>
@@ -636,7 +636,7 @@ export function ProductSearchTool() {
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
-                      Akredytowana jednostka certyfikująca wyroby budowlane. Certyfikacja ZKP, weryfikacja DoP&C, przegląd dokumentacji technicznej zgodnie z CPR (UE) 2024/3110.
+                      Akredytowana jednostka certyfikująca wyroby budowlane. Krajowa certyfikacja ZKP do znaku budowlanego B (PCA AC 210); przedstawiciel partnerskich jednostek notyfikowanych w ocenie zgodności CE.
                     </p>
                   </div>
                 </a>
@@ -702,7 +702,7 @@ export function ProductSearchTool() {
                       <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-[oklch(55%_.22_27)] transition-colors ml-auto shrink-0" />
                     </div>
                     <p className="text-slate-500 text-sm leading-relaxed">
-                      Multicert — Europejskie Oceny Techniczne (EOT) dla wyrobów budowlanych nieobj­ętych normami zharmonizowanymi. Pełen zakres usług: ocena zgodności, badania, ekspertyzy.
+                      Serwis Multicert o Europejskich Ocenach Technicznych (EOT) dla wyrobów budowlanych nieobj­ętych normami zharmonizowanymi. EOT wydają jednostki oceny technicznej (TAB).
                     </p>
                   </div>
                 </a>
@@ -821,11 +821,11 @@ export function ProductSearchTool() {
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Potrzebujesz pomocy w przygotowaniu do wymagań CPR?
+                Masz pytania o certyfikację wyrobu?
               </h2>
               <p className="text-slate-300 mb-8">
-                Nasi eksperci pomogą Ci dostosować Twoje wyroby do nowych wymagań.
-                Oferujemy kompleksowe wsparcie w procesie certyfikacji oraz ocenę zgodności z wymaganiami CPR 2024/3110.
+                Odpowiemy na pytania o wymagania i przebieg certyfikacji.
+                Prowadzimy krajową certyfikację ZKP do znaku budowlanego B, a ocenę zgodności z CPR 2024/3110 do oznakowania CE – za pośrednictwem partnerskich jednostek notyfikowanych.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

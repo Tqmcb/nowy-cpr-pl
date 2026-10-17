@@ -48,8 +48,8 @@ Rodzina 20 stosuje dwa poziomy nadzoru, zależne od klasy wykonania (EXC):
 - EXC2: Standardowe hale, konstrukcje biurowe, elementy powtarzalne
 - W systemie 2+: JN certyfikuje ZKP (audyt), lecz nie prowadzi audit sampling ante market.
 
-Certyfikację EN 1090 dla wytwórni stalowych wykonują w Polsce:
-- [Multicert](https://www.multicert.pl) – certyfikacja EXC1-EXC4
+Certyfikację EN 1090 dla wytwórni stalowych prowadzą jednostki notyfikowane. W Polsce można skorzystać m.in. z:
+- [Multicert](https://www.multicert.pl) – przedstawiciel partnerskich jednostek notyfikowanych; pośrednictwo w certyfikacji ZKP prowadzonej przez partnerskie jednostki notyfikowane
 - [ITCZLin](https://www.itczlin.pl) – badania wyrobów stalowych i materiałów wyjściowych
 
 ## Kluczowe wymagania CPR 2024
@@ -99,7 +99,7 @@ Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych pod CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 nie muszą automatycznie przechodzić na DoP&C z dniem 8 stycznia 2026. W praktyce termin przejścia będzie zależał od publikacji odpowiedniej hTS, okresu koegzystencji i odnowienia certyfikacji.
 
@@ -109,7 +109,7 @@ Wytwórnie posiadające certyfikat EN 1090 pod CPR 305/2011 nie muszą automatyc
 
 Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2, stal S355J2):
 1. Posiadanie WPS/WPQR dla spawania MIG/MAG stali S355J2 wg EN ISO 15614-1
-2. Certyfikacja ZKP przez jednostkę notyfikowaną (np. [Multicert](https://www.multicert.pl)) – System AVS 2+
+2. Certyfikacja ZKP przez jednostkę notyfikowaną (np. partnerską jednostkę notyfikowaną za pośrednictwem [Multicert](https://www.multicert.pl)) – System AVS 2+
 3. Personel nadzoru spawalniczego na poziomie IWT (Technolog Spawalnik IWT/EWT)
 4. Opracowanie DoP&C dla elementów prefabrykowanych: klasa EXC2, S355J2, tolerancje EN 1090-2, powłoka antykorozyjna klasa C3 (EN ISO 12944)
 5. Deklaracja GWP dla stali EAF: ~0,55 kg CO2eq/kg
@@ -118,7 +118,7 @@ Polska wytwórnia hal przemysłowych (ramy stalowe z profili IPE/HEB, klasa EXC2
 
 - [ ] Ustalenie klas wykonania EXC dla produkowanych elementów
 - [ ] Wybór systemu AVS (1 dla EXC3/4, 2+ dla EXC1/2) i akredytowanej JN
-- [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do [Multicert](https://www.multicert.pl) lub [ITCZLin](https://www.itczlin.pl)
+- [ ] Złożenie wniosku o certyfikację ZKP EN 1090 do jednostki notyfikowanej (np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych, lub bezpośrednio do [ITCZLin](https://www.itczlin.pl))
 - [ ] Przygotowanie procedur spawania (WPS/WPQR wg EN ISO 15614)
 - [ ] Zatrudnienie personelu nadzoru spawalniczego (IWE/IWT) odpowiedniego dla EXC
 - [ ] Kwalifikacja spawaczy wg EN ISO 9606-1 (ważność certyfikatów spawaczy co 2 lata)

@@ -70,4 +70,4 @@ Kleje i chemia budowlana to pełnoprawne wyroby budowlane, w których każdej ro
 
 ---
 
-*Produkujesz kleje, hydroizolacje lub uszczelniacze i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz kleje, hydroizolacje lub uszczelniacze i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

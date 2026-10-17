@@ -27,7 +27,7 @@ CPR 2024/3110 przewiduje, że DoP&C powinna być **dostępna online**. Od 8 styc
 - Przechowywania DoP&C przez 10 lat od daty wprowadzenia wyrobu do obrotu
 - Umożliwienia pobrania DoP&C (format PDF jest akceptowany)
 
-> **Ważne — przepisy przejściowe:** Producenci posiadający stary DoP wystawiony zgodnie z CPR 305/2011 **nie muszą go natychmiast zastępować** DoP&C. Artykuły 4–9 CPR 305/2011 pozostają stosowane do 8 stycznia 2040 (art. 93 CPR 2024/3110). Obowiązek cyfrowej dostępności w pełnym zakresie dotyczy DoP&C — nie starego DoP. Praktycznym momentem przejścia jest aktualizacja normy zharmonizowanej wyrobu (hEN → hTS) lub odnowienie certyfikatu JN.
+> **Ważne — przepisy przejściowe:** Producenci posiadający stary DoP wystawiony zgodnie z CPR 305/2011 **nie muszą go natychmiast zastępować** DoP&C. Artykuły 4–9 CPR 305/2011 (DoP i oznakowanie CE) stosuje się nadal, ale tylko do wyrobów objętych dotychczasowymi hEN lub EAD (art. 95 ust. 8 CPR 2024/3110) — do czasu, gdy dla danej rodziny wyrobów zaczną obowiązywać wymagania CPR 2024/3110, co do zasady rok po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110). W ciągu roku od tego terminu Komisja wycofuje odpowiednie stare hEN i EAD (art. 95 ust. 10 CPR 2024/3110), a 8 stycznia 2040 to najpóźniejszy termin uchylenia zachowanych przepisów (art. 94 CPR 2024/3110). Dotychczasowe certyfikaty i sprawozdania z badań mogą posłużyć jako podstawa techniczna przy spełnieniu warunków z art. 95 ust. 7 CPR 2024/3110 (odpowiadający typ wyrobu, aktualne wymagania i metody oceny w świetle hTS lub EAD). Obowiązek cyfrowej dostępności w pełnym zakresie dotyczy DoP&C — nie starego DoP. Momentem przejścia jest termin z art. 95 ust. 9 CPR 2024/3110 dla danej rodziny wyrobów albo wcześniejsze dobrowolne stosowanie hTS od jej wejścia w życie.
 
 ### Co jeszcze nie jest obowiązkowe?
 
@@ -72,15 +72,14 @@ Producenci wyrobów stosowanych w budownictwie publicznym (zamówienia publiczne
 - Certyfikacje budynków LEED i BREEAM premiują dostępność danych w formatach cyfrowych
 - Inwestorzy infrastrukturalni (GDDKiA, PKP PLK) coraz częściej wymagają danych BIM (Building Information Modelling) — a DoP&C jest elementem modelu BIM
 
-## Multicert pomaga w cyfryzacji DoP&C
+## Rola Multicert jako jednostki certyfikującej
 
-Oferujemy:
+Za przygotowanie i cyfrowe udostępnienie DoP&C odpowiada producent. Multicert jako jednostka certyfikująca oferuje:
 
-- Audyt obecnej dokumentacji DoP/DoP&C pod kątem gotowości cyfrowej
-- Przygotowanie struktury danych DoP&C kompatybilnej z przyszłym formatem UE
-- Wdrożenie systemu zarządzania DoP&C na stronie producenta (z linkami i QR kodami)
-- Monitoring zmian w aktach delegowanych KE i aktualizacja dokumentacji
+- Krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B (system 2+) w zakresie akredytacji PCA AC 210 – beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe i utrwalanie nawierzchni, spoiwa hydrauliczne
+- Pośrednictwo w ocenie zgodności do oznakowania CE prowadzonej przez partnerskie jednostki notyfikowane (ITC Zlín NB 1023, LL-C NB 2435, Silniční vývoj – ZDZ NB 1388), których Multicert jest przedstawicielem w Polsce
+- Audyty certyfikacyjne i nadzór okresowy
 
 ---
 
-*Chcesz wiedzieć, jak przygotować Digital DoP&C dla swoich wyrobów? Napisz do nas: biuro@multicert.pl*
+*Masz pytania o wymagania i przebieg certyfikacji w kontekście Digital DoP&C? Napisz do nas: biuro@multicert.pl*

@@ -123,4 +123,4 @@ CPR 2024/3110 to największa zmiana w regulacjach wyrobów budowlanych od czasu 
 ---
 
 **Potrzebujesz pomocy w przygotowaniu do CPR 2024?**
-Chętnie pomożemy uporządkować aktualizację dokumentacji DoP&C, dobrać właściwy system AVS i przygotować cyfrową deklarację — napiszcie na biuro@multicert.pl, bez zobowiązań. Walidację danych środowiskowych i deklaracje EPD prowadzimy w [programie EPD Polska](https://www.epd.org.pl).
+Macie pytania o wymagania i przebieg certyfikacji pod CPR 2024? Chętnie na nie odpowiemy — napiszcie na biuro@multicert.pl, bez zobowiązań. Weryfikację deklaracji EPD prowadzimy w [programie EPD Polska](https://www.epd.org.pl).

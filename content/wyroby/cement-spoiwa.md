@@ -40,8 +40,8 @@ Dla cementu, wapna i spoiw hydraulicznych obowiązuje wyłącznie **System AVS 1
    - **Nadzorujące badanie próbek pobranych przed wprowadzeniem wyrobu na rynek** – to jest istota systemu 1+: JN pobiera próbki z rynku lub magazynu, badając czy wyrób jest zgodny z deklaracją PRZED jego sprzedażą lub w ciągłej rotacji
 3. **Wynik** – JN wydaje Certyfikat Stałości Właściwości Użytkowych (CSPU/COCPC)
 
-W Polsce certyfikację cementu prowadzą m.in.:
-- [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących
+Certyfikację cementu w systemie AVS 1+ prowadzą jednostki notyfikowane. Polscy producenci mogą skorzystać z:
+- [Multicert](https://www.multicert.com.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych (ocena zgodności CE); w zakresie akredytacji PCA AC 210 – krajowa certyfikacja ZKP spoiw hydraulicznych do znaku budowlanego B
 
 ## Kluczowe wymagania CPR 2024
 
@@ -87,7 +87,7 @@ Cement portlandzki CEM I ma **jeden z najwyższych wskaźników GWP** spośród 
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 Producenci cementu są obowiązkowo objęci certyfikacją JN – bez ważnego certyfikatu ZKP (CSPU) wystawionego przez akredytowaną JN, wprowadzenie cementu na rynek UE jest niemożliwe.
 
@@ -97,7 +97,7 @@ Producenci cementu są obowiązkowo objęci certyfikacją JN – bez ważnego ce
 
 Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66–80% żużla wielkopiecowego) z klasą wytrzymałości 42,5 N. Zakres działań pod CPR 2024:
 1. Badania wstępne ITT wg EN 197-1 (wytrzymałość, czas wiązania, stałość objętości, zawartość SO3 i Cl)
-2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – uzyskanie CSPU
+2. Certyfikacja ZKP przez partnerską jednostkę notyfikowaną (za pośrednictwem [Multicert](https://www.multicert.com.pl)) – uzyskanie CSPU
 3. Zlecenie opracowania EPD z wynikiem GWP ~350 kg CO2eq/t (vs ~900 kg CO2eq/t dla CEM I)
 4. Przygotowanie się do przyszłej walidacji danych środowiskowych w Systemie AVS 3+ po wdrożeniu wymogów dla tej rodziny
 5. Na obecnym etapie: wystawianie DoP i oznakowanie CE zgodnie z obowiązującą hEN; równolegle przygotowanie wzoru przyszłego DoP&C
@@ -106,7 +106,7 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 197-1, EN 197-5, EN 413-1, EN 459-1 lub EN 14216)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.com.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do jednostki notyfikowanej (np. przez [Multicert](https://www.multicert.com.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Przeprowadzenie badań wstępnych ITT w laboratorium JN
 - [ ] Uzyskanie Certyfikatu Stałości Właściwości Użytkowych (CSPU) – System AVS 1+
 - [ ] Wdrożenie i utrzymywanie ZKP z częstotliwościami badań wg normy wyrobu
@@ -119,4 +119,4 @@ Cementownia uruchamia produkcję cementu hutniczego CEM III/B (zawierającego 66
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.com.pl) – certyfikacja dla producentów betonu, cementu i materiałów wiążących
+- [Multicert](https://www.multicert.com.pl) – jednostka certyfikująca: pośrednictwo w ocenie zgodności CE jako przedstawiciel partnerskich jednostek notyfikowanych; krajowa certyfikacja ZKP spoiw hydraulicznych do znaku budowlanego B w zakresie akredytacji PCA AC 210

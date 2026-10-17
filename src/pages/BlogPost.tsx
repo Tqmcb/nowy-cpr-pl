@@ -489,9 +489,9 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
       )}
       <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
         <h4 className="text-[oklch(20%_.03_264)] font-semibold mb-2 flex items-center gap-2">
-          <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Potrzebujesz pomocy?
+          <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Masz pytania o certyfikację?
         </h4>
-        <p className="text-slate-500 text-sm mb-4">Nasi eksperci pomogą Ci spełnić wymagania CPR 2024/3110.</p>
+        <p className="text-slate-500 text-sm mb-4">Odpowiemy na pytania o wymagania CPR 2024/3110 i przebieg certyfikacji.</p>
         <button
           onClick={() => navigate("/services")}
           className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20%_.03_264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"
@@ -546,7 +546,7 @@ function MulticertBoxDark() {
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
         <p className="text-slate-500 text-xs leading-relaxed">
-          Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
+          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B) w zakresie akredytacji PCA AC 210. Odrębnie: weryfikacja EPD.
         </p>
         <div className="flex items-center gap-2 mt-2">
           <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55% .22 27)]/10 text-[oklch(55% .22 27)] border border-[oklch(55% .22 27)]/25 font-mono">
@@ -575,7 +575,7 @@ function MulticertBoxLight() {
       <div className="space-y-2">
         <p className="text-slate-800 text-sm font-medium">Multicert Sp. z o.o.</p>
         <p className="text-slate-500 text-xs leading-relaxed">
-          Akredytowana jednostka certyfikująca. Certyfikacja ZKP wyrobów budowlanych, EPD dla betonu.
+          Akredytowana jednostka certyfikująca. Krajowa certyfikacja ZKP wyrobów budowlanych (znak B) w zakresie akredytacji PCA AC 210. Odrębnie: weryfikacja EPD.
         </p>
         <div className="flex items-center gap-2 mt-2">
           <span className="text-xs px-2 py-0.5 rounded-full bg-[oklch(55%_.22_27/0.1)] text-[oklch(55%_.22_27)] border border-[oklch(55%_.22_27/0.2)] font-mono">
@@ -924,9 +924,9 @@ function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: Temp
               )}
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(20%_.03_264)] font-semibold mb-2 flex items-center gap-2">
-                  <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Potrzebujesz pomocy?
+                  <HelpCircle className="w-4 h-4 text-[oklch(55%_.22_27)]" /> Masz pytania o certyfikację?
                 </h4>
-                <p className="text-slate-500 text-sm mb-4">Przeprowadzimy analizę i doradzimy odpowiednie rozwiązanie.</p>
+                <p className="text-slate-500 text-sm mb-4">Odpowiemy na pytania o wymagania i przebieg certyfikacji oraz przygotujemy bezpłatną wycenę.</p>
                 <button
                   onClick={() => navigate("/services")}
                   className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-[oklch(20%_.03_264)] text-white font-semibold rounded-xl hover:bg-[#1a3d6b] transition-colors text-sm"

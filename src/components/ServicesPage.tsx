@@ -87,14 +87,14 @@ export function ServicesPage() {
             <div className="md:w-1/2">
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Usługi certyfikacyjne Multicert</h1>
               <p className="text-lg text-gray-600 mb-6">
-                Oferujemy kompleksowe usługi certyfikacyjne dla producentów wyrobów budowlanych, pomagając spełnić wymagania nowego rozporządzenia CPR 2024.
+                Krajowa certyfikacja ZKP do znaku budowlanego B w zakresie akredytacji PCA AC 210 oraz ocena zgodności CE przez partnerskie jednostki notyfikowane, których Multicert jest przedstawicielem w Polsce.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   onClick={() => document.getElementById("contact-form")?.scrollIntoView({ behavior: "smooth" })}
                   className="font-medium"
                 >
-                  Umów się na konsultację
+                  Zapytaj o certyfikację
                 </Button>
                 <Button
                   asChild
@@ -130,14 +130,14 @@ export function ServicesPage() {
               bgColor="bg-blue-600"
             />
             <ServiceBox
-              title="Eksperci w interpretacji przepisów"
-              description="Nasz zespół składa się z doświadczonych specjalistów, którzy pomogą zrozumieć skomplikowane przepisy i wymagania oraz dostosować produkt do regulacji CPR 2024."
+              title="Bezstronna ocena zgodności"
+              description="Jako jednostka certyfikująca oceniamy zgodność wyrobów i zakładowej kontroli produkcji z wymaganiami. Odpowiadamy na pytania o wymagania i przebieg certyfikacji."
               icon="🏗️"
               bgColor="bg-green-600"
             />
             <ServiceBox
               title="Współpraca z laboratoriami"
-              description="Posiadamy szeroką sieć partnerskich laboratoriów badawczych, co pozwala na kompleksową ocenę właściwości produktów i szybkie przeprowadzenie niezbędnych testów."
+              description="Badania wymagane w procesie oceny zgodności wykonują partnerskie laboratoria i jednostki notyfikowane, co pozwala sprawnie przeprowadzić niezbędne testy."
               icon="🔬"
               bgColor="bg-purple-600"
             />
@@ -162,20 +162,20 @@ export function ServicesPage() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Nasze usługi certyfikacyjne</h2>
           <p className="text-lg text-gray-600 mb-12 max-w-3xl">
-            Oferujemy kompleksowe usługi certyfikacyjne dostosowane do wymagań różnych rodzajów wyrobów budowlanych zgodnie z nowym rozporządzeniem CPR 2024.
+            Krajowa certyfikacja ZKP do znaku budowlanego B (beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe / utrwalanie nawierzchni, spoiwa hydrauliczne) oraz pośrednictwo w ocenie zgodności CE prowadzonej przez partnerskie jednostki notyfikowane.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xl font-bold mb-3">Ocena stałości właściwości użytkowych</h3>
               <p className="text-gray-600 mb-4">
-                Kompleksowa ocena zgodności produktu z wymaganiami CPR 2024, obejmująca badania typu, zakładową kontrolę produkcji oraz dokumentację techniczną.
+                Ocena zgodności do oznakowania CE prowadzona przez partnerskie jednostki notyfikowane (ITC Zlín NB 1023, LL-C NB 2435, Silniční vývoj – ZDZ NB 1388), których Multicert jest przedstawicielem w Polsce.
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
-                <li>Analiza dokumentacji technicznej</li>
-                <li>Badania właściwości produktu</li>
+                <li>Pośrednictwo w kontakcie z jednostką notyfikowaną</li>
+                <li>Badania wyrobu przez partnerów</li>
                 <li>Ocena zgodności z normami zharmonizowanymi</li>
-                <li>Wydanie certyfikatu zgodności</li>
+                <li>Certyfikat wydawany przez jednostkę notyfikowaną</li>
               </ul>
             </div>
 
@@ -187,34 +187,34 @@ export function ServicesPage() {
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
                 <li>Audyt procesów produkcyjnych</li>
                 <li>Ocena systemów kontroli jakości</li>
-                <li>Identyfikacja obszarów do poprawy</li>
-                <li>Rekomendacje dotyczące zgodności z CPR 2024</li>
+                <li>Raport z audytu ze stwierdzonymi niezgodnościami</li>
+                <li>Nadzór okresowy nad certyfikowaną ZKP</li>
               </ul>
             </div>
 
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold mb-3">Certyfikacja zgodności EC/DoP&C</h3>
+              <h3 className="text-xl font-bold mb-3">Certyfikacja ZKP – znak budowlany B</h3>
               <p className="text-gray-600 mb-4">
-                Wsparcie w przygotowaniu deklaracji właściwości użytkowych i zgodności (DoP&C) i uzyskaniu oznakowania CE zgodnego z wymogami nowego rozporządzenia.
+                Krajowa certyfikacja zakładowej kontroli produkcji do znaku budowlanego B (system 2+) w zakresie akredytacji PCA AC 210.
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
-                <li>Przygotowanie dokumentacji EC/DoP&C</li>
-                <li>Weryfikacja zgodności z normami</li>
-                <li>Wsparcie w oznaczeniu produktu znakiem CE</li>
-                <li>Aktualizacja dokumentacji zgodnie z CPR 2024</li>
+                <li>Beton towarowy</li>
+                <li>Mieszanki związane hydraulicznie</li>
+                <li>Mieszanki mineralno-asfaltowe / utrwalanie nawierzchni</li>
+                <li>Spoiwa hydrauliczne</li>
               </ul>
             </div>
 
             <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold mb-3">Szkolenia techniczne</h3>
+              <h3 className="text-xl font-bold mb-3">Szkolenia informacyjne</h3>
               <p className="text-gray-600 mb-4">
-                Profesjonalne szkolenia z zakresu wymagań CPR 2024, pomagające zrozumieć nowe przepisy i dostosować do nich organizację.
+                Ogólne szkolenia informacyjne z zakresu wymagań CPR 2024 i przebiegu certyfikacji.
               </p>
               <ul className="list-disc list-inside text-gray-600 mb-4 ml-2">
-                <li>Analiza wpływu CPR 2024 na produkty</li>
+                <li>Najważniejsze zmiany w CPR 2024</li>
                 <li>Szkolenia dla działów technicznych i jakości</li>
-                <li>Pomoc w interpretacji przepisów</li>
-                <li>Audyt zgodności dokumentacji z nowymi wymaganiami</li>
+                <li>Przebieg audytu certyfikacyjnego</li>
+                <li>Terminy przejściowe i stan prac nad hTS</li>
               </ul>
             </div>
           </div>
@@ -254,9 +254,9 @@ export function ServicesPage() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row gap-10">
             <div className="md:w-1/2">
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">Umów się na bezpłatną konsultację</h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">Bezpłatna wycena certyfikacji</h2>
               <p className="text-gray-600 mb-6">
-                Masz pytania dotyczące certyfikacji Twojego produktu? Chcesz dowiedzieć się więcej o wymaganiach CPR 2024? Wypełnij formularz, a nasz ekspert skontaktuje się z Tobą w ciągu 24 godzin.
+                Masz pytania o wymagania i przebieg certyfikacji Twojego wyrobu? Wypełnij formularz, a skontaktujemy się z Tobą w ciągu 24 godzin.
               </p>
               <div className="mb-8">
                 <h3 className="font-bold text-lg mb-2">Multicert Sp. z o.o.</h3>

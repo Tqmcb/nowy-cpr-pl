@@ -136,4 +136,4 @@ Producent musi niezwłocznie wyznaczyć nowego UP lub zaprzestać wprowadzania w
 
 ---
 
-*Ustalacie rolę upoważnionego przedstawiciela dla zakładu spoza UE? Chętnie wskażemy, jak to poukładać zgodnie z CPR. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Ustalacie rolę upoważnionego przedstawiciela dla zakładu spoza UE? Chętnie odpowiemy na pytania o wymagania CPR i przebieg certyfikacji. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

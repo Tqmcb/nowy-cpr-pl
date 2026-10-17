@@ -21,7 +21,7 @@ sources:
 
 Rozporządzenie CPR 2024/3110 weszło w życie 7 stycznia 2025 roku, jednak większość jego przepisów stosuje się stopniowo, zgodnie z harmonogramem przejściowym. Rok 2026 to punkt zwrotny — data 8 stycznia 2026 oznacza pełne stosowanie CPR 2024, a kolejne miesiące przyniosą dalsze zmiany wynikające z aktualizacji norm zharmonizowanych przez Komisję Europejską.
 
-> **Przepisy przejściowe:** Istniejące Deklaracje Właściwości Użytkowych (DoP) wystawione zgodnie z CPR 305/2011 oraz certyfikaty AVCP **zachowują ważność do 8 stycznia 2040** (art. 93 CPR 2024/3110). Nie ma obowiązku natychmiastowej wymiany całej dokumentacji. Przejście na DoP&C i AVS następuje etapami — przy okazji aktualizacji normy zharmonizowanej wyrobu lub odnowienia certyfikatu JN. Poniższa checklista zawiera zarówno działania wymagane już teraz (cyfrowa dostępność dokumentów, UPC), jak i te do zaplanowania na przyszłość.
+> **Przepisy przejściowe:** Dla wyrobów objętych dotychczasowymi normami zharmonizowanymi (hEN) lub EAD przyjętymi na podstawie CPR 305/2011 Deklaracje Właściwości Użytkowych (DoP) i oznakowanie CE nadal sporządza się według CPR 305/2011 (art. 95 ust. 8 CPR 2024/3110). Trwa to do czasu, gdy dla danej rodziny wyrobów zaczną obowiązywać wymagania CPR 2024/3110 — co do zasady rok po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110); w ciągu roku od tego terminu Komisja wycofuje odpowiednie stare hEN i EAD (art. 95 ust. 10 CPR 2024/3110). Data 8 stycznia 2040 to najpóźniejszy termin uchylenia zachowanych przepisów CPR 305/2011 (art. 94 CPR 2024/3110), a nie gwarantowany okres ważności dokumentów. Dotychczasowe certyfikaty i sprawozdania z badań mogą posłużyć jako podstawa techniczna do wykazania zgodności z CPR 2024/3110, jeśli typ wyrobu odpowiada, a wymagania i metody oceny są aktualne w świetle mającej zastosowanie hTS lub EAD (art. 95 ust. 7 CPR 2024/3110). Nie ma obowiązku natychmiastowej wymiany całej dokumentacji. Przejście na DoP&C i AVS następuje dla każdej rodziny wyrobów w terminie wynikającym z art. 95 ust. 9 CPR 2024/3110 — albo wcześniej, jeśli producent dobrowolnie zastosuje hTS od jej wejścia w życie. Poniższa checklista zawiera zarówno działania wymagane już teraz (cyfrowa dostępność dokumentów, UPC), jak i te do zaplanowania na przyszłość.
 
 Producenci, którzy zaczną przygotowania zbyt późno, ryzykują przerwami w łańcuchu dostaw, problemami z organami nadzoru rynku i utratą certyfikacji. Poniższa checklista została opracowana jako praktyczne narzędzie zarządzania gotowością regulacyjną — przejdź przez każdą sekcję i zaznacz, które działania Twoja firma już podjęła, a które jeszcze wymagają realizacji.
 
@@ -148,7 +148,7 @@ Checklist najlepiej potraktować jako narzędzie do regularnego przeglądu — z
 
 Pozycje oznaczone jako niezrealizowane powinny zostać przekształcone w zadania z przypisanymi terminami i właścicielami. Priorytetem powinny być pozycje z sekcji A i C, które bezpośrednio wpływają na zgodność z obowiązkami prawnymi od 8 stycznia 2026 roku.
 
-Jeśli chcesz zweryfikować swoją gotowość z ekspertem, rozważ zlecenie zewnętrznego audytu CPR firmie konsultingowej lub skontaktowanie się z właściwą jednostką notyfikowaną, która przeprowadzi wstępną ocenę bez formalnych konsekwencji.
+Jeśli chcesz zweryfikować swoją gotowość, przeprowadź audyt wewnętrzny lub – w razie potrzeby – skorzystaj z zewnętrznego wsparcia niezależnego od jednostki, która będzie prowadziła Twoją certyfikację. O wymagania i przebieg samej certyfikacji możesz zapytać właściwą jednostkę notyfikowaną.
 
 ## Podsumowanie
 
@@ -156,4 +156,4 @@ Wdrożenie CPR 2024 to nie jednorazowe zadanie, ale ciągły proces zarządzania
 
 ---
 
-*Jeśli chcecie przejść swoją listę przygotowań na 2026 punkt po punkcie, chętnie wskażemy, co warto domknąć w pierwszej kolejności. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli lista przygotowań na 2026 budzi Wasze pytania o wymagania i przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

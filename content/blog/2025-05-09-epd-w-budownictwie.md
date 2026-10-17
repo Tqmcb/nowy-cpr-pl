@@ -142,4 +142,4 @@ EPD to dobrowolne narzędzie, ale dane, które zawiera — przede wszystkim śla
 ---
 
 **Potrzebujesz pomocy w przygotowaniu EPD?**
-Skorzystaj z usług specjalistów — [epd.org.pl](https://www.epd.org.pl) to polska platforma EPD oferująca wsparcie przy analizie LCA, weryfikacji i rejestracji deklaracji środowiskowych dla wyrobów budowlanych.
+Weryfikację i rejestrację deklaracji środowiskowych dla wyrobów budowlanych prowadzi polski program EPD — [epd.org.pl](https://www.epd.org.pl). Analizę LCA przygotowuje producent samodzielnie lub z wybranym wykonawcą.

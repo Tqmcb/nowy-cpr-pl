@@ -154,14 +154,14 @@ Wspólne specyfikacje w CPR 2024/3110:
 
 Dla producenta wyrobu budowlanego oznacza to jedno: w okresie 2026-2029, gdy Komisja będzie systematycznie wymieniać normy zharmonizowane na nowe wydane pod CPR 2024, mogą pojawić się luki czasowe pokryte CS. Warto być na to przygotowanym — w dokumentacji, w procedurach FPC i w komunikacji z jednostką notyfikowaną.
 
-## Multicert wspiera producentów w mapowaniu zgodności CPR 2024
+## Rola Multicert jako jednostki certyfikującej
 
-Oferujemy:
+Multicert oferuje:
 
-- Analizę aktualnej dokumentacji DoP/DoP&C pod kątem zgodności z normami zharmonizowanymi i wspólnymi specyfikacjami opublikowanymi pod CPR 2024
-- Monitoring publikacji w Dzienniku Urzędowym UE dotyczących Państwa rodzin wyrobów (hEN, CS, akty delegowane)
-- Audyty zakładowej kontroli produkcji (FPC/ZKP) dostosowane do nowej podstawy normatywnej
-- Wsparcie przy wyborze [jednostki notyfikowanej](/blog/jednostki-notyfikowane-wybor) i przygotowaniu do oceny zgodności w nowym systemie [AVS](/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024)
+- Krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B (system 2+) w zakresie akredytacji PCA AC 210 – beton towarowy, mieszanki związane hydraulicznie, mieszanki mineralno-asfaltowe i utrwalanie nawierzchni, spoiwa hydrauliczne
+- Pośrednictwo w ocenie zgodności w systemach [AVS](/blog/avs-vs-avcp-nowy-system-oceny-cpr-2024) prowadzonej przez partnerskie [jednostki notyfikowane](/blog/jednostki-notyfikowane-wybor), których Multicert jest przedstawicielem w Polsce
+- Audyty certyfikacyjne i nadzór okresowy zakładowej kontroli produkcji (FPC/ZKP)
+- Bieżące informacje o publikacjach w Dzienniku Urzędowym UE (hEN, CS, akty delegowane) na portalu NowyCPR.pl
 
 ---
 

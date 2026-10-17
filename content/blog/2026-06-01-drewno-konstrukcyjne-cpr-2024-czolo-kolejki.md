@@ -55,7 +55,7 @@ Wczesna pozycja w kolejce to argument, by nie zwlekać z przygotowaniem. Trzy dz
 
 ## Rola jednostki
 
-Konstrukcyjne wyroby drewniane podlegają ocenie zgodności w systemie AVS właściwym dla tej rodziny, a weryfikację w tym systemie prowadzi jednostka notyfikowana dla danego zakresu wyrobów. Multicert jako jednostka certyfikująca wspiera producentów w przygotowaniu zakładowej kontroli produkcji i w certyfikacji systemów zarządzania — obszarach, które budują gotowość do oceny zgodności. Jak czytać przypisany rodzinie system oceny, opisujemy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
+Konstrukcyjne wyroby drewniane podlegają ocenie zgodności w systemie AVS właściwym dla tej rodziny, a weryfikację w tym systemie prowadzi jednostka notyfikowana dla danego zakresu wyrobów. Multicert nie jest jednostką notyfikowaną – jest przedstawicielem w Polsce partnerskich jednostek notyfikowanych, które prowadzą ocenę zgodności, w tym audyty zakładowej kontroli produkcji. Jak czytać przypisany rodzinie system oceny, opisujemy w artykule [Jak wybrać właściwą procedurę oceny zgodności](/blog/procedury-oceny-zgodnosci-cpr-2024).
 
 ## Podsumowanie
 
@@ -63,4 +63,4 @@ Konstrukcyjne wyroby drewniane, scalone w pracach z płytami drewnopochodnymi, r
 
 ---
 
-*Produkujesz konstrukcyjne wyroby drewniane lub płyty drewnopochodne i chcesz przygotować zakładową kontrolę produkcji przed zmianą powołania norm? Napisz do nas: biuro@multicert.pl*
+*Produkujesz konstrukcyjne wyroby drewniane lub płyty drewnopochodne i masz pytania o wymagania i przebieg certyfikacji przed zmianą powołania norm? Napisz do nas: biuro@multicert.pl*

@@ -126,4 +126,4 @@ Przed każdą partią wyrobów budowlanych sprawdź:
 
 ---
 
-*Macie wątpliwości co do zgodności wyrobów, które dystrybujecie? Chętnie pomożemy ustalić, na co zwrócić uwagę w łańcuchu dostaw. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Macie wątpliwości co do zgodności wyrobów, które dystrybujecie? Chętnie odpowiemy na pytania o wymagania CPR wobec dystrybutorów i przebieg certyfikacji. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

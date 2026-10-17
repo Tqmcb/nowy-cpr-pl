@@ -44,7 +44,7 @@ Wyroby z rodziny 18 stosują:
 - **System AVS 4** – dla wyrobów pomocniczych (uszczelki, kleje, elementy montażowe) i wyrobów o minimalnym ryzyku. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla producentów deklarujących GWP i wskaźniki środowiskowe (szczególnie istotne dla rur z tworzyw sztucznych ze względu na wymagania dotyczące cyrkularności).
 
-Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a certyfikację systemową – [Multicert](https://www.multicert.pl).
+Badania mechaniczne i chemiczne rur kanalizacyjnych wykonuje m.in. [ITCZLin](https://www.itczlin.pl), a o ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -83,7 +83,7 @@ Tworzywa sztuczne charakteryzują się znacznym GWP (~1,5–3,0 kg CO2eq/kg dla 
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych pod CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -112,5 +112,5 @@ Firma produkuje rury o strukturze warstwowej (ścianka gładka wewnątrz i z pal
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania rur i kształtek z tworzyw sztucznych do kanalizacji (wytrzymałość, szczelność, odporność chemiczna)
-- [Multicert](https://www.multicert.pl) – certyfikacja wyrobów instalacyjnych i kanalizacyjnych
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w ocenie zgodności wyrobów instalacyjnych i kanalizacyjnych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla innowacyjnych systemów kanalizacyjnych nieobjętych normami zharmonizowanymi

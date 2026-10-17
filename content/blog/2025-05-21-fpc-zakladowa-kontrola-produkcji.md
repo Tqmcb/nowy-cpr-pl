@@ -134,4 +134,4 @@ Dobrze wdrożona FPC to nie tylko wymóg formalny — to realne narzędzie zarz�
 
 ---
 
-*Jeśli prowadzicie mały zakład i chcecie omówić wdrożenie zakładowej kontroli produkcji krok po kroku, chętnie pomożemy. Piszcie na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli prowadzicie mały zakład i macie pytania o wymagania i przebieg certyfikacji zakładowej kontroli produkcji, chętnie na nie odpowiemy. Piszcie na biuro@multicert.pl, bez zobowiązań.*

@@ -98,7 +98,7 @@ Większość płyt drewnopochodnych klasyfikuje się jako:
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 Producenci, którzy stosowali stare formularze DoP bez deklaracji formaldehydu lub VOC, powinni już teraz przygotować dane i szablony pod przyszłe DoP&C. Sam moment przejścia będzie jednak zależał od publikacji odpowiedniej hTS i zakończenia okresu koegzystencji.
 
@@ -133,5 +133,5 @@ Producent MDF do zabudów wnętrz dąży do klasy E0 ze względu na wymagania ry
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania mechaniczne, emisja formaldehydu, VOC dla płyt drewnopochodnych
-- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów budowlanych
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w certyfikacji i inspekcji wyrobów budowlanych
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów z zastosowaniem płyt drewnopochodnych

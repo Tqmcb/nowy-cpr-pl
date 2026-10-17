@@ -161,4 +161,4 @@ Sytuacja regulacyjna w krajach UE zmienia się dynamicznie — przez resztę 202
 
 ---
 
-*Portal NowyCPR.pl oraz Multicert regularnie śledzą zmiany regulacyjne w krajach UE istotnych dla polskich producentów i eksporterów. W razie potrzeby analizy ryzyka regulacyjnego dla konkretnego rynku lub wsparcia w zakresie dokumentacji CPR 2024 — zapraszamy do kontaktu: [biuro@multicert.pl](mailto:biuro@multicert.pl)*
+*Portal NowyCPR.pl oraz Multicert regularnie śledzą zmiany regulacyjne w krajach UE istotnych dla polskich producentów i eksporterów. Pytania o wymagania i przebieg certyfikacji — zapraszamy do kontaktu: [biuro@multicert.pl](mailto:biuro@multicert.pl)*

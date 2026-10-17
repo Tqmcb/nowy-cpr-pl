@@ -44,8 +44,8 @@ Dla kruszyw z rodziny 24 obowiązuje wyłącznie **System AVS 2+**:
 2. **Jednostka notyfikowana (JN)** – certyfikuje ZKP: przeprowadza audyt wytwórni (kopalni, zakładu przeróbki) i ocenia system kontroli produkcji. Wydaje certyfikat ZKP.
 3. **Producent** przeprowadza badania wstępne ITT samodzielnie lub zlecając je laboratorium.
 
-W Polsce certyfikację ZKP dla producentów kruszyw prowadzi:
-- [Multicert](https://www.multicert.com.pl) – specjalizacja w certyfikacji kruszyw betonowych, drogowych i specjalnych
+Certyfikację ZKP dla producentów kruszyw w systemie AVS 2+ prowadzą jednostki notyfikowane. Polscy producenci mogą skorzystać z:
+- [Multicert](https://www.multicert.com.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w certyfikacji ZKP kruszyw
 
 ## Kluczowe wymagania CPR 2024
 
@@ -102,7 +102,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -110,7 +110,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 
 Kopalnia żwiru rzecznego produkuje kruszywo 0/4 (piasek), 4/8 i 8/16 do betonu towarowego:
 1. Badania ITT wg EN 12620: uziarnienie, SI, LA, absorpcja wody, zawartość chlorków, siarczanów, ASR (petrografia wg EN 932-3 + szybki test chemiczny wg EN 1744-2)
-2. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
+2. Certyfikacja ZKP przez partnerską jednostkę notyfikowaną (za pośrednictwem [Multicert](https://www.multicert.com.pl)) – System AVS 2+
 3. Opracowanie EPD: GWP = 0,006 kg CO2eq/kg (wydobycie + załadunek + transport 25 km)
 4. Na obecnym etapie: DoP zgodnie z obowiązującą hEN; równolegle przygotowanie danych do przyszłego DoP&C z klasami uziarnienia i wskaźnikiem GWP
 
@@ -119,14 +119,14 @@ Kopalnia żwiru rzecznego produkuje kruszywo 0/4 (piasek), 4/8 i 8/16 do betonu 
 Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i 4/16:
 1. Badania składu: zawartość zaprawy cementowej, absorpcja wody (~6%), gęstość (~2250 kg/m³)
 2. Kontrola zanieczyszczeń: azbest (poniżej progu), PCB, metale ciężkie – deklaracja w DoP&C
-3. Certyfikacja ZKP przez [Multicert](https://www.multicert.com.pl) – System AVS 2+
+3. Certyfikacja ZKP przez partnerską jednostkę notyfikowaną (za pośrednictwem [Multicert](https://www.multicert.com.pl)) – System AVS 2+
 4. EPD: GWP = 0,003 kg CO2eq/kg (tylko koszty kruszenia i przesiewania bez wydobycia)
 5. Na obecnym etapie: DoP i CE wg obowiązującej hEN; równolegle przygotowanie dokumentacji pod przyszłe ujęcie RCA, WA10 i GWP w nowym modelu
 
 ## Checklist producenta
 
 - [ ] Identyfikacja normy (EN 12620, EN 13043, EN 13055, EN 13242 lub EN 13383)
-- [ ] Złożenie wniosku o certyfikację ZKP do akredytowanej JN ([Multicert](https://www.multicert.com.pl))
+- [ ] Złożenie wniosku o certyfikację ZKP do jednostki notyfikowanej (np. przez [Multicert](https://www.multicert.com.pl), przedstawiciela partnerskich jednostek notyfikowanych)
 - [ ] Przeprowadzenie badań ITT: uziarnienie, kształt (SI), wytrzymałość (LA, MDE), mrozoodporność
 - [ ] Badania chemiczne: chlorki, siarczany, reaktywność alkaliczna (ASR)
 - [ ] Dla RCA/RMA: badanie zawartości zaprawy, zanieczyszczeń, absorpcji wody
@@ -139,5 +139,5 @@ Zakład przeróbki odpadów betonowych z rozbiórek produkuje kruszywo RCA 0/4 i
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.com.pl) – lider w certyfikacji kruszyw do betonu, asfaltów i podbudów drogowych w Polsce
+- [Multicert](https://www.multicert.com.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących certyfikację ZKP kruszyw (CE)
 - [ITCZLin](https://www.itczlin.pl) – badania właściwości fizycznych i mechanicznych kruszyw

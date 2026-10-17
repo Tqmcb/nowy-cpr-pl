@@ -74,7 +74,7 @@ Dla systemów AVS 1+, 1, 2+ i 3 wymagane jest zaangażowanie jednostki notyfikow
 **Jak wybrać JN?**
 
 1. Skorzystaj z bazy NANDO ([ec.europa.eu/growth/tools-databases/nando](https://ec.europa.eu/growth/tools-databases/nando)) — wyszukaj JN notyfikowane dla odpowiedniej normy EN (pole „Standard/Document").
-2. Zidentyfikuj polskie JN — dla wyrobów budowlanych notyfikowane są m.in. Multicert, CNBOP-PIB.
+2. Zidentyfikuj JN dostępne dla polskich producentów — np. CNBOP-PIB lub partnerskie jednostki notyfikowane reprezentowane w Polsce przez Multicert (ITC Zlín NB 1023, LL-C NB 2435, Silniční vývoj – ZDZ NB 1388).
 3. Poproś o ofertę cenową od co najmniej 2–3 JN — ceny mogą się znacznie różnić w zależności od zakresu i złożoności badań.
 4. Sprawdź aktualność notyfikacji — zdarza się, że notyfikacja JN wygasa lub jest zawieszona.
 
@@ -194,4 +194,4 @@ Certyfikacja wyrobu budowlanego zgodnie z CPR 2024/3110 to inwestycja czasowa i 
 
 ---
 
-*Jeśli planujecie ścieżkę od ITT do oznakowania CE i chcecie ją omówić dla swojego wyrobu, chętnie pomożemy ją zaplanować. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli planujecie ścieżkę od ITT do oznakowania CE i macie pytania o wymagania i przebieg certyfikacji, chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

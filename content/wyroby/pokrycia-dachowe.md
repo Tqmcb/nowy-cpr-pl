@@ -95,7 +95,7 @@ Pokrycia dachowe same w sobie nie zapewniają izolacyjności cieplnej, lecz ich 
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 (np. dla systemów okien dachowych) |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -131,6 +131,6 @@ Producent membran TPO do dachów płaskich:
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja i inspekcja wyrobów dachowych
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w ocenie zgodności wyrobów dachowych
 - [ITCZLin](https://www.itczlin.pl) – badania materiałów dachowych i membran
 - [ocenytechniczne.pl – EOT dla membran i hydroizolacji dachowych](https://www.ocenytechniczne.pl/wyroby/membrany-i-hydroizolacje/) – ETA dla systemów okien dachowych, świetlików i innowacyjnych systemów dachowych

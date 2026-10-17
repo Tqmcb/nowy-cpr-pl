@@ -44,7 +44,7 @@ Dla wyrobów z rodziny 21 obowiązuje:
 - **System AVS 4** – dla większości tynków dekoracyjnych, materiałów do spoinowania i wyrobów pomocniczych. Producent samodzielnie przeprowadza badania i deklaruje właściwości.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników środowiskowych.
 
-Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
+Badania tynków i okładzin (emisje VOC, reakcja na ogień, wodoszczelność) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -99,7 +99,7 @@ Systemy GK (płyty gipsowo-kartonowe) są najczęściej testowane jako zestawy (
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD dla systemów ETICS z CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -135,6 +135,6 @@ Producent systemu ścianek działowych (profile stalowe + płyty GK + masa spoin
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych i tynkarskich
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w ocenie zgodności wyrobów wykończeniowych i tynkarskich
 - [ITCZLin](https://www.itczlin.pl) – badania emisji VOC, właściwości mechanicznych tynków i zapraw, badania ogniowe
 - [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – ETA dla systemów ETICS i innowacyjnych systemów suchej zabudowy

@@ -41,7 +41,7 @@ System AVS stosowany dla tej rodziny wyrobów zależy przede wszystkim od funkcj
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Dla wyrobów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub korzystać z usług [Multicert](https://www.multicert.pl). Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
+Dla wyrobów objętych AVS 3, producent może zlecić badania ITT laboratoriom akredytowanym takim jak [ITCZLin](https://www.itczlin.pl) lub skorzystać z pośrednictwa [Multicert](https://www.multicert.pl) – przedstawiciela partnerskich jednostek notyfikowanych w Polsce. Dla wyrobów z odpornością ogniową konieczne jest zaangażowanie jednostki notyfikowanej posiadającej kompetencje pożarowe.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -76,7 +76,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Oczekiwane akty delegowane z obowiązkiem deklarowania GWP |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -103,5 +103,5 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium badawcze oferujące testy okien i drzwi (EN 1026, EN 1027, EN 12211); wykonuje badania ITT wymagane w systemie AVS 3
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca certyfikację wyrobów okienno-drzwiowych; doradztwo w zakresie CPR 2024
-- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – wsparcie dla producentów ubiegających się o ETA dla innowacyjnych rozwiązań okienno-drzwiowych nieposiadających normy zharmonizowanej
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności wyrobów okienno-drzwiowych
+- [ocenytechniczne.pl](https://www.ocenytechniczne.pl) – informacje dla producentów ubiegających się o ETA dla innowacyjnych rozwiązań okienno-drzwiowych nieposiadających normy zharmonizowanej

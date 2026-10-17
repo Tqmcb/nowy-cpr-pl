@@ -62,4 +62,4 @@ Ten sam mechanizm — rama w nowym rozporządzeniu, a obowiązkowość normy roz
 
 ---
 
-*Projektujesz lub produkujesz ściany osłonowe i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania normy pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Projektujesz lub produkujesz ściany osłonowe i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania normy pod nowym CPR? Napisz do nas: biuro@multicert.pl*

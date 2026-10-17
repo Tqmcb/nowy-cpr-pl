@@ -75,4 +75,4 @@ Odpowiedzi warto zapisać wraz ze wskazaniem przepisu i dokumentu, na którym si
 
 ---
 
-*Chcecie ustalić wymagania dla swojego wyrobu? Napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając zamierzone zastosowanie i podstawę oceny, z której korzystacie — wskażemy, które przepisy mają zastosowanie.*
+*Macie pytania o wymagania i przebieg certyfikacji? Napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), podając zamierzone zastosowanie i podstawę oceny, z której korzystacie.*

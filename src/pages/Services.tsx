@@ -142,73 +142,73 @@ export default function Services() {
     {
       number: "01",
       icon: ClipboardCheck,
-      title: "Audyt gotowości CPR 2024",
-      description: "Kompleksowy przegląd luk między aktualną dokumentacją i procesami a wymaganiami CPR (UE) 2024/3110. Otrzymujesz jasny obraz co działa, co wymaga aktualizacji i w jakiej kolejności działać.",
+      title: "Certyfikacja ZKP – znak budowlany B",
+      description: "Krajowa certyfikacja zakładowej kontroli produkcji wyrobów budowlanych do znaku budowlanego B (system 2+), prowadzona przez Multicert w zakresie akredytacji PCA AC 210.",
       features: [
-        "Identyfikacja właściwego systemu AVS dla każdej linii produktowej",
-        "Ocena systemu ZKP/FPC względem Art. 20 CPR 2024",
-        "Analiza dokumentacji: obowiązująca DoP / przyszła DoP&C, plik techniczny, instrukcje",
-        "Raport z mapą ryzyk i priorytetową ścieżką wdrożenia"
+        "Beton towarowy",
+        "Mieszanki związane hydraulicznie",
+        "Mieszanki mineralno-asfaltowe / utrwalanie nawierzchni",
+        "Spoiwa hydrauliczne"
       ]
     },
     {
       number: "02",
       icon: Factory,
-      title: "Przegląd systemu ZKP (Art. 20 CPR 2024)",
-      description: "Ocena Zakładowej Kontroli Produkcji względem wymagań Art. 20 CPR (UE) 2024/3110 — dla wszystkich systemów AVS (1+, 1, 2+, 3, 3+, 4), w tym uproszczona wersja dla mikroprzedsiębiorstw.",
+      title: "Ocena zgodności CE przez partnerskie jednostki notyfikowane",
+      description: "Ocenę zgodności do oznakowania CE w systemach AVS/AVCP 1+, 1, 2+, 3 i 3+ prowadzą partnerskie jednostki notyfikowane. Multicert jest ich przedstawicielem w Polsce i pośredniczy w kontakcie producenta z jednostką. Dostępność oceny dla konkretnego wyrobu i systemu zależy od zakresu notyfikacji właściwej jednostki partnerskiej (NANDO).",
       features: [
-        "Ocena Księgi ZKP i procedur operacyjnych",
-        "Weryfikacja dostosowania do systemu AVS klienta",
-        "Przegląd ZKP dla mikroprzedsiębiorstw (Art. 60)",
-        "Wytyczne przed inspekcją jednostki notyfikowanej (NB)"
+        "ITC Zlín (NB 1023)",
+        "LL-C (NB 2435)",
+        "Silniční vývoj – ZDZ (NB 1388)",
+        "Certyfikaty i raporty wydaje właściwa jednostka notyfikowana w zakresie swojej notyfikacji (NANDO)"
       ]
     },
     {
       number: "03",
       icon: FolderOpen,
-      title: "Dokumentacja techniczna CPR 2024",
-      description: "Przygotowanie dokumentacji wg CPR (UE) 2024/3110 — od aktualnej DoP i szablonu przyszłej DoP&C, przez plik techniczny po instrukcje i mandaty. Uwaga: DoP&C zastępuje DoP dopiero po opublikowaniu hTS dla danej rodziny wyrobów (na marzec 2026 żadna hTS nie istnieje).",
+      title: "Audyt certyfikacyjny i nadzór",
+      description: "Ocena zakładowej kontroli produkcji w zakładzie producenta w ramach procesu certyfikacji oraz okresowy nadzór nad certyfikowaną ZKP.",
       features: [
-        "Szablon DoP (obowiązująca) i DoP&C (po publikacji hTS) — Art. 15",
-        "Wewnętrzny plik techniczny — Art. 22 ust. 3",
-        "Instrukcja dla użytkowników profesjonalnych — Art. 9",
-        "Mandat upoważnionego przedstawiciela — Art. 23"
+        "Audyt ZKP w zakładzie produkcyjnym",
+        "Ocena zgodności ZKP z wymaganiami specyfikacji technicznej i programu certyfikacji",
+        "Nadzór okresowy nad certyfikowaną ZKP",
+        "Rozszerzenie zakresu i recertyfikacja"
       ]
     },
     {
       number: "04",
       icon: Code2,
-      title: "Weryfikacja i walidacja oprogramowania obliczeniowego",
-      description: "Ocena oprogramowania stosowanego do obliczeń normowych (Eurokody, normy termiczne, ogniowe, akustyczne). Raport walidacyjny stanowi element pliku technicznego Art. 22 ust. 3 i jest dowodem poprawności deklarowanych właściwości użytkowych.",
+      title: "Badania przez partnerów",
+      description: "Badania wyrobów wymagane w procesie oceny zgodności wykonują partnerskie laboratoria i jednostki partnerskie — jako element prowadzonej certyfikacji i nadzoru.",
       features: [
-        "Weryfikacja algorytmów vs normy zharmonizowane",
-        "Walidacja wyników vs deklarowane właściwości w DoP&C",
-        "Ocena oprogramowania własnego i zewnętrznego (BIM, CAD, kalkulatory)",
-        "Raport walidacyjny do pliku technicznego"
+        "Badania próbek pobranych w ramach certyfikacji i nadzoru",
+        "Wstępne badanie typu (ITT) w laboratoriach partnerskich i jednostkach notyfikowanych",
+        "Sprawozdania z badań jako podstawa oceny zgodności",
+        "Badania w laboratoriach o kompetencjach właściwych dla danej normy"
       ]
     },
     {
       number: "05",
       icon: Map,
-      title: "Analiza norm i harmonogram wdrożenia",
-      description: "Identyfikacja obowiązujących norm hEN (CPR 305/2011) dla wyrobów klienta i opracowanie harmonogramu dostosowania do CPR 2024 — z uwzględnieniem Planu Prac KE i etapów publikacji przyszłych hTS (Milestones 0–IV, przewidywane 2027–2029).",
+      title: "Wycena i przebieg certyfikacji",
+      description: "Przed rozpoczęciem procesu przeglądamy wniosek, ustalamy zakres certyfikacji i przygotowujemy bezpłatną wycenę. Odpowiadamy na pytania o wymagania i przebieg certyfikacji.",
       features: [
-        "Przyporządkowanie obowiązujących norm hEN do produktów klienta",
-        "Śledzenie etapów Milestones 0–IV wg Planu Prac KE",
-        "Plan działań z konkretnymi datami przejściowymi",
-        "Monitoring zmian w Dzienniku Urzędowym UE (usługa ciągła)"
+        "Bezpłatna wycena certyfikacji",
+        "Przegląd wniosku i ustalenie zakresu certyfikacji",
+        "Informacja o etapach i terminach procesu certyfikacji",
+        "Wykaz dokumentów wymaganych do wniosku"
       ]
     },
     {
       number: "06",
       icon: GraduationCap,
-      title: "Szkolenia i warsztaty CPR 2024",
-      description: "Praktyczne szkolenia dostosowane do roli uczestnika — od zarządu przez dział jakości po produkcję. Prowadzone przez audytorów Multicert z bezpośrednim doświadczeniem we wdrożeniach CPR.",
+      title: "Szkolenia informacyjne CPR 2024",
+      description: "Ogólne szkolenia informacyjne o wymaganiach CPR (UE) 2024/3110 — dla zarządu, działu jakości i produkcji. Prowadzone przez audytorów Multicert; nie obejmują analizy dokumentacji konkretnego przedsiębiorstwa.",
       features: [
         "CPR 2024 dla zarządu i kierowników — co się zmienia, terminy, ryzyka",
-        "Warsztat DoP&C — jak wypełnić, SVHC, QR kod, dostęp cyfrowy",
-        "ZKP dla działu jakości i produkcji — praktyczny przegląd wymagań",
-        "Porządkowanie danych do przyszłego paszportu produktu (art. 75–80)"
+        "DoP i DoP&C — struktura deklaracji, SVHC, dostęp cyfrowy",
+        "ZKP — przegląd wymagań normowych i przebiegu audytu certyfikacyjnego",
+        "Cyfrowy paszport produktu (art. 75–80) — stan prac"
       ]
     }
   ];
@@ -216,11 +216,11 @@ export default function Services() {
   return (
     <div className="flex flex-col min-h-screen">
       <Helmet>
-        <title>Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert | NowyCPR.pl</title>
-        <meta name="description" content="Certyfikacja wyrobów budowlanych, audyt ZKP/FPC, weryfikacja DoP&C, oznakowanie CE i przegląd dokumentacji technicznej pod CPR 2024/3110." />
-        <meta name="keywords" content="certyfikacja wyrobów budowlanych, certyfikacja CPR, audyt ZKP, audyt FPC, weryfikacja DoP&C, oznakowanie CE, jednostka certyfikująca wyroby budowlane" />
-        <meta property="og:title" content="Certyfikacja wyrobów budowlanych CPR, ZKP i DoP&C — Multicert" />
-        <meta property="og:description" content="Certyfikacja CPR, audyty ZKP/FPC, DoP&C, CE i dokumentacja techniczna dla producentów wyrobów budowlanych." />
+        <title>Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert | NowyCPR.pl</title>
+        <meta name="description" content="Krajowa certyfikacja ZKP do znaku budowlanego B (akredytacja PCA AC 210) oraz ocena zgodności CE przez partnerskie jednostki notyfikowane ITC Zlín, LL-C i Silniční vývoj – ZDZ. Bezpłatna wycena certyfikacji." />
+        <meta name="keywords" content="certyfikacja wyrobów budowlanych, certyfikacja ZKP, znak budowlany B, oznakowanie CE, jednostka notyfikowana, audyt certyfikacyjny, jednostka certyfikująca wyroby budowlane" />
+        <meta property="og:title" content="Certyfikacja ZKP (znak B) i ocena zgodności CE — Multicert" />
+        <meta property="og:description" content="Krajowa certyfikacja ZKP do znaku B, ocena zgodności CE przez partnerskie jednostki notyfikowane, audyty certyfikacyjne i nadzór." />
         <meta property="og:url" content="https://www.nowycpr.pl/services/" />
         <link rel="canonical" href="https://www.nowycpr.pl/services/" />
       </Helmet>
@@ -234,7 +234,7 @@ export default function Services() {
             className="group text-white font-semibold px-8 py-4 whitespace-nowrap transition-all"
             style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
           >
-            Umów bezpłatną konsultację
+            Zapytaj o certyfikację
             <ArrowRight className="w-4 h-4 ml-2 shrink-0 group-hover:translate-x-1 transition-transform" />
           </Button>
         </PageHeader>
@@ -251,9 +251,9 @@ export default function Services() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-0" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
                 {[
-                  { icon: BadgeCheck, title: "Audytorzy z praktyką", description: "Usługi realizują certyfikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych i weryfikacji dokumentacji technicznej." },
-                  { icon: Users, title: "Indywidualne podejście", description: "Każda ocena jest inna — analizujemy konkretne wyroby, systemy AVS i strukturę przedsiębiorstwa, a nie przykładamy ogólnych szablonów." },
-                  { icon: ShieldCheck, title: "Kompletne wsparcie", description: "Od audytu gotowości, przez dokumentację i ZKP, po walidację oprogramowania i szkolenia — cały zakres przygotowania w jednym miejscu." }
+                  { icon: BadgeCheck, title: "Audytorzy z praktyką", description: "Audyty certyfikacyjne prowadzą kwalifikowani audytorzy Multicert z bezpośrednim doświadczeniem w ocenie wyrobów budowlanych." },
+                  { icon: Users, title: "Bezstronność", description: "Jako jednostka certyfikująca oceniamy zgodność — nie przygotowujemy ani nie wdrażamy systemów i dokumentacji, które certyfikujemy." },
+                  { icon: ShieldCheck, title: "Znak B i CE w jednym miejscu", description: "Krajowa certyfikacja ZKP do znaku budowlanego B w zakresie akredytacji PCA AC 210 oraz dostęp do partnerskich jednostek notyfikowanych dla oznakowania CE." }
                 ].map((item, idx) => (
                   <div key={idx} className="p-6 md:p-10" style={{
                     borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
@@ -290,7 +290,7 @@ export default function Services() {
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>CPR 2024</span>
                 </h2>
                 <p className="lg:col-span-4 text-base md:text-lg leading-[1.6]" style={{ color: "oklch(42% .02 264)" }}>
-                  Realizowane przez audytorów Multicert — dla producentów, importerów i dystrybutorów wyrobów budowlanych.
+                  Krajowa certyfikacja Multicert i ocena zgodności CE przez partnerskie jednostki notyfikowane — dla producentów, importerów i dystrybutorów wyrobów budowlanych.
                 </p>
               </div>
 
@@ -326,7 +326,7 @@ export default function Services() {
                   className="group text-white font-semibold px-8 py-4 whitespace-nowrap transition-all"
                   style={{ backgroundColor: "oklch(20% .03 264)", borderRadius: "2px" }}
                 >
-                  Zapytaj o wycenę
+                  Bezpłatna wycena certyfikacji
                   <ArrowRight className="w-4 h-4 ml-2 shrink-0 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
@@ -363,7 +363,7 @@ export default function Services() {
                 {[
                   { label: "Producenci wyrobów budowlanych", desc: "każda kategoria i system AVS" },
                   { label: "Importerzy i dystrybutorzy", desc: "sprowadzający wyroby pod własną marką" },
-                  { label: "Mikroprzedsiębiorstwa i MŚP", desc: "uproszczone ścieżki wdrożenia" }
+                  { label: "Mikroprzedsiębiorstwa i MŚP", desc: "uproszczone procedury przewidziane w CPR" }
                 ].map((item, idx) => (
                   <div key={idx} className="p-6 md:p-6" style={{
                     borderRight: idx < 2 ? "1px solid oklch(92% .008 264)" : "none",
@@ -386,14 +386,14 @@ export default function Services() {
           <Container>
             <div className="max-w-6xl mx-auto">
               <p className="editorial-kicker text-center mb-8" style={{ color: "oklch(60% .015 264)" }}>
-                Działamy we współpracy z akredytowanymi jednostkami certyfikującymi
+                Multicert i partnerskie jednostki notyfikowane, które reprezentujemy w Polsce
               </p>
               <div className="flex flex-wrap justify-center items-center gap-4">
                 {[
                   { name: "Multicert Sp. z o.o.", url: "https://www.multicert.pl" },
-                  { name: "ITC Zlín", url: "https://www.itczlin.cz" },
-                  { name: "LL-C", url: "https://www.ll-c.com.pl" },
-                  { name: "ZDZ Cert (NB 1388)", url: "https://www.zdzcert.pl" },
+                  { name: "ITC Zlín (NB 1023)", url: "https://www.itczlin.cz" },
+                  { name: "LL-C (NB 2435)", url: "https://www.ll-c.com.pl" },
+                  { name: "Silniční vývoj – ZDZ (NB 1388)", url: "https://www.zdzcert.pl" },
                 ].map((partner) => (
                   <a key={partner.name} href={partner.url} target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-1.5 px-5 py-2.5 font-serif text-sm transition-all hover:bg-white"
@@ -419,11 +419,11 @@ export default function Services() {
                 </div>
               </div>
               <h2 className="font-serif text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[1] mb-4" style={{ color: "oklch(20% .03 264)", fontWeight: 500 }}>
-                Umów<br/>
-                <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>bezpłatną konsultację</span>
+                Zapytaj<br/>
+                <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>o certyfikację</span>
               </h2>
               <p className="text-base md:text-lg leading-[1.6] mb-8 max-w-2xl" style={{ color: "oklch(42% .02 264)" }}>
-                Opisz swój wyrób i sytuację — audytor Multicert skontaktuje się w ciągu 24 godzin.
+                Opisz swój wyrób i interesujący Cię zakres certyfikacji — skontaktujemy się w ciągu 24 godzin z bezpłatną wyceną lub odpowiedzią na pytania o wymagania i przebieg certyfikacji.
               </p>
 
               <div className="pt-12" style={{ borderTop: "2px solid oklch(20% .03 264)" }}>
@@ -479,7 +479,7 @@ export default function Services() {
                       <textarea id="message" name="message" required rows={4} value={formData.message} onChange={handleChange}
                         className="w-full px-4 py-3 bg-white focus:outline-none transition-all font-serif resize-none"
                         style={{ border: "1px solid oklch(86% .012 264)", borderRadius: "2px", color: "oklch(20% .03 264)" }}
-                        placeholder="Opisz jakimi wyrobami się zajmujesz i w czym możemy pomóc..."></textarea>
+                        placeholder="Opisz wyroby, które chcesz certyfikować, i interesujący Cię zakres (znak B / CE)..."></textarea>
                     </div>
 
                     <div className="mb-8 flex items-start">

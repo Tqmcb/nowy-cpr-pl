@@ -148,4 +148,4 @@ CPCR to kluczowy element normatywny, bez którego poprawna EPD dla wyrobu budowl
 
 ---
 
-*Jeśli pracujecie nad obliczeniami LCA i doborem właściwych reguł c-PCR, chętnie przejrzymy z Wami założenia. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli dobór reguł c-PCR budzi Wasze pytania o wymagania i przebieg weryfikacji deklaracji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*

@@ -84,8 +84,8 @@ Nowe rozporządzenie wprowadza dodatkowe wymogi dotyczące:
 
 ---
 
-Branża betonowa stoi przed istotnym wyzwaniem dostosowania się do nowych wymogów środowiskowych CPR 2024. Producenci betonu, którzy wcześniej przygotują EPD i zaktualizują systemy FPC, unikną kosztownych opóźnień. W zakresie certyfikacji i badań wyrobów betonowych warto sprawdzić ofertę [epd.org.pl](https://www.epd.org.pl) oraz [Multicert](https://www.multicert.com.pl) — jednostki akredytowanej w zakresie betonu, cementu i prefabrykatów betonowych.
+Branża betonowa stoi przed istotnym wyzwaniem dostosowania się do nowych wymogów środowiskowych CPR 2024. Producenci betonu, którzy wcześniej przygotują EPD i zaktualizują systemy FPC, unikną kosztownych opóźnień. Weryfikację deklaracji EPD prowadzi program [epd.org.pl](https://www.epd.org.pl). [Multicert](https://www.multicert.com.pl) prowadzi krajową certyfikację ZKP betonu towarowego do znaku budowlanego B w zakresie akredytacji PCA AC 210, a ocenę zgodności prefabrykatów do oznakowania CE – za pośrednictwem partnerskich jednostek notyfikowanych, których jest przedstawicielem w Polsce.
 
 ---
 
-*Jeśli chcecie omówić specyficzne wymagania dla betonu lub prefabrykatów w Waszym zakładzie, chętnie wskażemy, na co zwrócić uwagę. Piszcie na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli macie pytania o wymagania i przebieg certyfikacji betonu lub prefabrykatów, chętnie na nie odpowiemy. Piszcie na biuro@multicert.pl, bez zobowiązań.*

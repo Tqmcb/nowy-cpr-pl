@@ -94,7 +94,7 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Ile kosztuje certyfikacja CPR?",
     answer:
-      "Koszty certyfikacji zależą od systemu AVS, liczby norm, zakresu badań i wybranej JN. Szacunkowo: **Badania laboratoryjne (ITT)**: 3 000–20 000 PLN (zależnie od wyrobu i normy). **Audyt ZKP + certyfikat**: 5 000–15 000 PLN (jednorazowo). **Nadzór roczny**: 3 000–8 000 PLN. **Dokumentacja (DoP&C, instrukcje)**: od 2 000 PLN. Dla małych firm z jednym wyrobem łączny koszt to ok. 15 000–40 000 PLN, dla dużych producentów z wieloma wyrobami — proporcjonalnie więcej. Skontaktuj się z nami po indywidualną wycenę.",
+      "Koszty certyfikacji zależą od systemu AVS, liczby norm, zakresu badań i wybranej JN. Szacunkowo: **Badania laboratoryjne (ITT)**: 3 000–20 000 PLN (zależnie od wyrobu i normy). **Audyt ZKP + certyfikat**: 5 000–15 000 PLN (jednorazowo). **Nadzór roczny**: 3 000–8 000 PLN. Deklarację (DoP&C) i instrukcje sporządza producent – w trakcie oceny sprawdzane są jedynie dokumenty przedłożone przez producenta. Dla małych firm z jednym wyrobem łączny koszt to ok. 15 000–40 000 PLN, dla dużych producentów z wieloma wyrobami — proporcjonalnie więcej. Skontaktuj się z nami po indywidualną wycenę.",
     category: "producent",
     keywords: ["koszt", "cena", "ile kosztuje", "PLN", "wycena", "budżet"],
   },

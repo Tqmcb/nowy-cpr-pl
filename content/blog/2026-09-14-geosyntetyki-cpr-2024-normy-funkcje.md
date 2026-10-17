@@ -74,4 +74,4 @@ Geosyntetyki to grupa rządząca się własną logiką: o właściwej normie dec
 
 ---
 
-*Produkujesz geosyntetyki i chcesz uporządkować zakładową kontrolę produkcji oraz przygotować się na zmianę powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*
+*Produkujesz geosyntetyki i masz pytania o wymagania i przebieg certyfikacji po zmianie powołania norm pod nowym CPR? Napisz do nas: biuro@multicert.pl*

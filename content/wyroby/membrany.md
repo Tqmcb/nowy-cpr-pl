@@ -43,7 +43,7 @@ Membrany hydroizolacyjne podlegają systemowi AVS 3 lub AVS 4, w zależności od
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
-Kluczową rolę w badaniach membran hydroizolacyjnych pełnią laboratoria akredytowane, takie jak [ITCZLin](https://www.itczlin.pl). Kompleksową certyfikację wyrobów izolacyjnych oferuje [Multicert](https://www.multicert.pl).
+Kluczową rolę w badaniach membran hydroizolacyjnych pełnią laboratoria akredytowane, takie jak [ITCZLin](https://www.itczlin.pl). O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024 – właściwości do deklarowania
 
@@ -78,7 +78,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 | ~2027 | Oczekiwane akty delegowane dotyczące obowiązkowego GWP |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla membran innowacyjnych |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -93,7 +93,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 - [ ] Zidentyfikować właściwą normę zharmonizowaną (EN 13956, EN 13967, EN 13969, EN 15814) dla każdego wyrobu
 - [ ] Ustalić system AVS (3 lub 4) na podstawie wymagań normy wyrobu
 - [ ] Przeprowadzić kompletne badanie ITT w akredytowanym laboratorium dla wszystkich deklarowanych właściwości
-- [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej (np. [Multicert](https://www.multicert.pl)) w celu uzyskania raportu z badania ITT
+- [ ] Dla systemu 3 – obecnie (AVCP 3) sprawozdanie z badań typu wydaje notyfikowane laboratorium; docelowo (AVS 3 wg CPR 2024/3110) certyfikat wydaje jednostka notyfikowana (o ocenę przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce)
 - [ ] Opracować i wdrożyć procedury FPC (kontrola surowców, kontrola procesu, badania wyrobu gotowego)
 - [ ] Przygotować wzór DoP&C z właściwościami wymaganymi dla tej rodziny wyrobów oraz plan jego cyfrowego udostępniania po publikacji odpowiedniej hTS
 - [ ] Przegląd składu wyrobu pod kątem SVHC (szczególnie plastyfikatory w PVC, PAH w bitumie)
@@ -105,5 +105,5 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – laboratorium z akredytacją do badań membran hydroizolacyjnych; wykonuje testy wodoszczelności, wytrzymałości mechanicznej, odporności na starzenie i ogień
-- [Multicert](https://www.multicert.pl) – jednostka certyfikująca oferująca usługi w zakresie systemu AVS 3 dla membran; raporty z ITT oraz wsparcie we wdrożeniu FPC
+- [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę membran w systemie 3 (obecnie AVCP 3; docelowo AVS 3 wg CPR 2024/3110)
 - [ocenytechniczne.pl – EOT dla membran i hydroizolacji](https://www.ocenytechniczne.pl/wyroby/membrany-i-hydroizolacje/) – europejskie oceny techniczne (ETA) dla systemów hydroizolacyjnych nieobjętych normami zharmonizowanymi (np. nowe technologie nakładane natryskowo)

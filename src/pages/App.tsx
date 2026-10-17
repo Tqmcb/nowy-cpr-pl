@@ -427,7 +427,7 @@ function HomePage() {
                   <span className="italic" style={{ color: "oklch(55% .22 27)", fontWeight: 500 }}>NowyCPR</span>?
                 </h2>
                 <p className="lg:col-span-4 text-base md:text-lg leading-[1.6]" style={{ color: "oklch(42% .02 264)" }}>
-                  Kompleksowe wsparcie w przygotowaniu do wymagań rozporządzenia CPR — od weryfikacji wymagań po certyfikację.
+                  Rzetelne informacje o wymaganiach rozporządzenia CPR, narzędzia dla producentów i dostęp do certyfikacji.
                 </p>
               </div>
 
@@ -450,7 +450,7 @@ function HomePage() {
                   {
                     icon: Award,
                     title: "Usługi certyfikacyjne",
-                    description: "Profesjonalne wsparcie w procesie certyfikacji i przygotowania dokumentacji.",
+                    description: "Krajowa certyfikacja ZKP do znaku B oraz ocena zgodności CE przez partnerskie jednostki notyfikowane.",
                     path: "/services",
                     num: "03"
                   }

@@ -49,7 +49,7 @@ const sections = [
           2. Treści zamieszczone w Serwisie <span className="text-white font-medium">nie stanowią</span> porady
           prawnej, certyfikacyjnej, technicznej ani inżynierskiej w rozumieniu przepisów prawa.
           W sprawach wymagających indywidualnej analizy prawnej lub technicznej zaleca się skonsultowanie
-          z wykwalifikowanym doradcą lub specjalistą.
+          z prawnikiem lub specjalistą.
         </p>
         <p>
           3. Wydawca dokłada wszelkich starań, aby treści publikowane w Serwisie były rzetelne i aktualne,

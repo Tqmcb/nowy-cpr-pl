@@ -121,4 +121,4 @@ Warto pamiętać, że w Polsce równolegle toczą się prace nad nowelizacją Pr
 
 ---
 
-*Na bieżąco śledzimy postęp prac nad nową ustawą o wyrobach budowlanych. Macie pytania o dostosowanie dokumentacji do CPR 2024 albo ocenę ryzyka regulacyjnego? Napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), bez zobowiązań.*
+*Na bieżąco śledzimy postęp prac nad nową ustawą o wyrobach budowlanych. Macie pytania o wymagania i przebieg certyfikacji — krajowej lub CE? Napiszcie na [biuro@multicert.pl](mailto:biuro@multicert.pl), bez zobowiązań.*

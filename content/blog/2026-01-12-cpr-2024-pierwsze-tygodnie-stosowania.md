@@ -105,4 +105,4 @@ W pierwszych tygodniach od 8 stycznia 2026 widoczne są:
 
 ---
 
-*Macie pytania o dostosowanie swojej dokumentacji do CPR 2024? Chętnie odpowiemy i podpowiemy, od czego zacząć. Napiszcie na biuro@multicert.pl, bez zobowiązań.*
+*Macie pytania o wymagania CPR 2024 i przebieg certyfikacji? Chętnie na nie odpowiemy. Napiszcie na biuro@multicert.pl, bez zobowiązań.*

@@ -58,7 +58,7 @@ Dla mieszanek mineralno-asfaltowych szczególne znaczenie mają branżowe zasady
 
 ## Rola jednostki
 
-Multicert prowadzi audyty zakładowej kontroli produkcji, weryfikację deklaracji środowiskowych oraz walidację danych w systemie oceny 3+ dla wyrobów drogowych. To obszar, w którym branża kruszyw i mieszanek mineralno-asfaltowych może budować gotowość już w okresie przejściowym — porządkując zapisy produkcji i dane środowiskowe, zanim nowe normy staną się wiążące. Jako jednostka certyfikująca i weryfikująca opisujemy stan faktyczny i oceniamy zgodność; nie zastępujemy producenta w prowadzeniu jego procesów.
+Multicert prowadzi krajową certyfikację zakładowej kontroli produkcji do znaku budowlanego B w zakresie akredytacji PCA AC 210 (m.in. mieszanki mineralno-asfaltowe i utrwalanie nawierzchni, mieszanki związane hydraulicznie) oraz weryfikację deklaracji środowiskowych. Ocenę zgodności do oznakowania CE, w tym walidację danych w systemie oceny 3+, prowadzi jednostka notyfikowana o odpowiednim zakresie notyfikacji; o dostępność takiej oceny u partnerskich jednostek notyfikowanych, których Multicert jest przedstawicielem w Polsce, można zapytać Multicert. To obszar, w którym branża kruszyw i mieszanek mineralno-asfaltowych może budować gotowość już w okresie przejściowym — porządkując zapisy produkcji i dane środowiskowe, zanim nowe normy staną się wiążące. Jako jednostka certyfikująca i weryfikująca opisujemy stan faktyczny i oceniamy zgodność; nie zastępujemy producenta w prowadzeniu jego procesów.
 
 ## Podsumowanie
 
@@ -66,4 +66,4 @@ Kruszywa i mieszanki mineralno-asfaltowe są w środku harmonogramu CPR: treść
 
 ---
 
-*Masz kruszywa lub mieszanki mineralno-asfaltowe do oceny pod CPR 2024/3110? Napisz do nas — pomożemy ustalić właściwy system AVS i spokojnie przygotować dane do deklaracji środowiskowej, w tempie Waszego harmonogramu. Bez zobowiązań: biuro@multicert.pl*
+*Masz kruszywa lub mieszanki mineralno-asfaltowe do oceny pod CPR 2024/3110? Napisz do nas — odpowiemy na pytania o wymagania i przebieg certyfikacji. Bez zobowiązań: biuro@multicert.pl*

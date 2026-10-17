@@ -44,7 +44,7 @@ Dla wyrobów z rodziny 19 obowiązuje:
 - **System AVS 4** – dla podłóg mieszkalnych i wyrobów pomocniczych, gdzie producent samodzielnie deklaruje właściwości na podstawie własnych badań.
 - **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP, emisji VOC i wskaźników cyrkulacyjnych.
 
-Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). Certyfikację oferuje [Multicert](https://www.multicert.pl).
+Badania podłóg (reakcja na ogień, emisja VOC/formaldehyd, antypoślizgowość) wykonuje m.in. [ITCZLin](https://www.itczlin.pl). O ocenę zgodności przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce.
 
 ## Kluczowe wymagania CPR 2024
 
@@ -97,7 +97,7 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -134,4 +134,4 @@ Producent LVT bez zawartości ftalanów DEHP (zastąpionych DINP lub DOTP) przyg
 ## Gdzie szukać wsparcia
 
 - [ITCZLin](https://www.itczlin.pl) – badania podłóg i posadzek (emisja formaldehydu, VOC, reakcja na ogień, antypoślizgowość)
-- [Multicert](https://www.multicert.pl) – certyfikacja wyrobów wykończeniowych
+- [Multicert](https://www.multicert.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w ocenie zgodności wyrobów wykończeniowych

@@ -82,4 +82,4 @@ Odpowiedzialne podejście do importu to nie tylko kwestia zgodności z prawem �
 
 ---
 
-*Jeśli sprowadzacie wyroby spoza UE i zastanawiacie się nad wymaganiami dokumentacyjnymi, pomożemy je uporządkować. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
+*Jeśli sprowadzacie wyroby spoza UE i macie pytania o wymagania dokumentacyjne lub przebieg certyfikacji, chętnie na nie odpowiemy. Zapraszamy do kontaktu na biuro@multicert.pl, bez zobowiązań.*
