@@ -97,7 +97,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 - [ ] Zidentyfikować właściwą normę EN dla każdego wyrobu gipsowego (EN 520 dla GK, EN 13279-1 dla tynków)
 - [ ] Ustalić typ i klasę wyrobu wg EN 520 (A, D, E, F, H, I, P, R) i odpowiednio opisać w DoP&C
 - [ ] Przeprowadzić lub zaktualizować ITT w akredytowanym laboratorium (badania ogniowe, mechaniczne, wilgotnościowe)
-- [ ] Uzyskać raport z ITT od jednostki notyfikowanej (AVS 3: np. przez [Multicert](https://www.multicert.pl), przedstawiciela partnerskich jednostek notyfikowanych)
+- [ ] Dla systemu 3 – obecnie (AVCP 3) sprawozdanie z badań typu wydaje notyfikowane laboratorium; docelowo (AVS 3 wg CPR 2024/3110) certyfikat wydaje jednostka notyfikowana (o ocenę przez partnerskie jednostki notyfikowane można zapytać [Multicert](https://www.multicert.pl) – ich przedstawiciela w Polsce)
 - [ ] Przygotować wzór DoP&C i plan przejścia z DoP oraz wdrożyć gotowość do cyfrowego udostępniania dokumentów
 - [ ] Wdrożyć FPC z kontrolą jakości surowców (gips, karton, dodatki) i wyrobów gotowych
 - [ ] Zebrać dane środowiskowe do EPD: GWP gipsu kalcynowanego, kartonu, kleju – zlecić EPD

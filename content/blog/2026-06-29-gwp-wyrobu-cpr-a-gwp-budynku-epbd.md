@@ -56,7 +56,7 @@ W praktyce oznacza to gotowość do przygotowania rzetelnej deklaracji środowis
 
 ## Rola jednostki
 
-Multicert weryfikuje deklaracje środowiskowe wyrobów; walidację danych w systemie oceny 3+ prowadzą partnerskie jednostki notyfikowane, których Multicert jest przedstawicielem w Polsce. Działamy na poziomie wyrobu — tam, gdzie producent odpowiada za rzetelność danych. Raportowanie emisji na poziomie budynku, wynikające z dyrektywy EPBD, jest odrębnym reżimem poza tą usługą. Jako jednostka weryfikująca oceniamy zgodność danych ze stanem faktycznym; nie przygotowujemy ich za producenta.
+Multicert weryfikuje deklaracje środowiskowe wyrobów; walidację danych w systemie oceny 3+ prowadzi jednostka notyfikowana o odpowiednim zakresie notyfikacji – o dostępność takiej oceny u partnerskich jednostek notyfikowanych, których Multicert jest przedstawicielem w Polsce, można zapytać Multicert. Działamy na poziomie wyrobu — tam, gdzie producent odpowiada za rzetelność danych. Raportowanie emisji na poziomie budynku, wynikające z dyrektywy EPBD, jest odrębnym reżimem poza tą usługą. Jako jednostka weryfikująca oceniamy zgodność danych ze stanem faktycznym; nie przygotowujemy ich za producenta.
 
 ## Podsumowanie
 
