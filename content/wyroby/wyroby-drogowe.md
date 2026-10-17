@@ -36,7 +36,7 @@ Rodzina 23 jest istotna z perspektywy środowiskowej ze względu na duże wolume
 
 ## System AVS i certyfikacja
 
-> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów od roku po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110; wcześniejsze dobrowolne stosowanie hTS jest możliwe); do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
 
 Obecnie rodzina 23 stosuje zróżnicowane systemy AVCP zależnie od wyrobu:
 
@@ -109,9 +109,9 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 1. Badania ITT wg EN 1338: wytrzymałość T≥3,6 MPa, ścieralność klasa 1, PSV≥44, mrozoodporność D
 2. Określenie typu wyrobu i ZKP prowadzone przez producenta – System AVCP 4 (bez udziału jednostki notyfikowanej)
-3. Opracowanie EPD z deklaracją GWP 155 kg CO2eq/t (10% kruszywa z recyklingu betonu w składzie)
-4. Walidacja danych środowiskowych w Systemie AVS 3+ – raport walidacyjny
-5. DoP&C: EN 1338, klasa T, PSV ≥44, klasa mrozoodporności D, GWP 155 kg CO2eq/t
+3. Model docelowy: opracowanie EPD z deklaracją GWP 155 kg CO2eq/t (10% kruszywa z recyklingu betonu w składzie)
+4. Model docelowy: walidacja danych środowiskowych w Systemie AVS 3+ – raport walidacyjny
+5. Model docelowy: DoP&C: EN 1338, klasa T, PSV ≥44, klasa mrozoodporności D, GWP 155 kg CO2eq/t. Obecnie producent sporządza DoP i oznakowuje wyrób znakiem CE na podstawie EN 1338 w Systemie AVCP 4.
 
 **Przykład 2: Rafinery / Producent asfaltu PMB 45/80-55**
 

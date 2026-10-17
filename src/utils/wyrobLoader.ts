@@ -80,6 +80,7 @@ export interface ProductFamily {
     category: string;
     avs_system: string;
     normy: string[];
+    normy_label?: string;
     tags: string[];
     image_url: string;
 }
@@ -93,6 +94,7 @@ export interface WyrobiMetadata {
     category: string;
     avs_system: string;
     normy: string[];
+    normy_label?: string;
     tags: string[];
     excerpt: string;
     image_url: string;
@@ -129,6 +131,7 @@ export async function getAllWyroby(): Promise<ProductFamily[]> {
                     category: metadata.category ?? "",
                     avs_system: metadata.avs_system ?? "",
                     normy: metadata.normy ?? [],
+                    normy_label: metadata.normy_label,
                     tags: metadata.tags ?? [],
                     image_url: metadata.image_url ?? "",
                 });

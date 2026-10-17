@@ -506,7 +506,7 @@ export default function WyrobDetail() {
                       {wyrob.normy && wyrob.normy.length > 0 && (
                         <div>
                           <p className="text-slate-500 text-xs uppercase tracking-wide mb-2">
-                            Normy zharmonizowane ({wyrob.normy.length})
+                            {wyrob.normy_label || "Normy zharmonizowane"} ({wyrob.normy.length})
                           </p>
                           <div className="space-y-1.5">
                             {wyrob.normy.map((norma) => (

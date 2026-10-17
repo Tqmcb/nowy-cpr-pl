@@ -39,7 +39,7 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 
 ## System AVS i certyfikacja
 
-> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów od roku po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110; wcześniejsze dobrowolne stosowanie hTS jest możliwe); do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
 
 Obecnie geosyntetyki podlegają systemowi **AVCP 2+ lub AVCP 4** w zależności od funkcji wyrobu:
 
@@ -106,7 +106,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 **Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13493. System AVCP 2+. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
 
-**Geotkanina nietkana do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVCP 4 (funkcja wyłącznie separacyjna).
+**Geowłóknina do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVCP 4 (funkcja wyłącznie separacyjna).
 
 ## Checklist producenta
 

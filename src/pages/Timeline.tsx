@@ -68,7 +68,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-01-08",
     title: "Stosowanie przepisów instytucjonalnych CPR 2024",
     description:
-      "Zaczynają obowiązywać przepisy ramowe rozporządzenia: nowe definicje, ramy dla jednostek notyfikowanych oraz przepisy o nadzorze rynku i sankcjach. Jednak bez opublikowanych nowych zharmonizowanych specyfikacji technicznych (hTS) producenci nadal stosują dotychczasowe normy zharmonizowane (hEN) i wystawiają DoP na starych zasadach.",
+      "Zaczynają obowiązywać przepisy ramowe rozporządzenia: nowe definicje, ramy dla jednostek notyfikowanych oraz przepisy o nadzorze rynku (przepisy o sankcjach – od 8 stycznia 2027 r.). Jednak bez opublikowanych nowych zharmonizowanych specyfikacji technicznych (hTS) producenci nadal stosują dotychczasowe normy zharmonizowane (hEN) i wystawiają DoP na starych zasadach.",
     phase: "teraz",
     category: ["prawo"],
     icon: Scale,
@@ -80,7 +80,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2026-01-08",
     title: "Okres przejściowy — stare hEN nadal obowiązują",
     description:
-      "Dopóki Komisja nie opublikuje nowych hTS dla danej rodziny wyrobów, producenci stosują dotychczasowe normy hEN i systemy AVCP. Nowe obowiązki (DoP&C, AVS, oznakowanie CE wg art. 20) wejdą w życie dopiero wraz z publikacją odpowiednich hTS. Przejście następuje stopniowo, rodzina po rodzinie.",
+      "Dopóki Komisja nie opublikuje nowych hTS dla danej rodziny wyrobów, producenci stosują dotychczasowe normy hEN i systemy AVCP. Nowe obowiązki (DoP&C, AVS, oznakowanie CE) będą stosowane dla danej rodziny wyrobów od roku po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110); producent może dobrowolnie stosować hTS wcześniej, od ich wejścia w życie. Przejście następuje stopniowo, rodzina po rodzinie.",
     phase: "teraz",
     category: ["prawo", "producent"],
     icon: Clock,

@@ -6,6 +6,7 @@ date: "2026-02-25"
 category: "Wyroby konstrukcyjne"
 avs_system: "krajowy 1+ (znak B) / 3+"
 normy: ["EN 10080", "EN ISO 15630-1", "EN 10138-1", "EN 10138-3"]
+normy_label: "Normy (niezharmonizowane)"
 tags: ["stal", "zbrojenie", "beton", "sprężanie", "CPR 2024"]
 excerpt: "Stal zbrojeniowa i sprężająca – rodzina 16 CPR 2024. Pręty B500A/B/C, siatki zbrojeniowe, sploty Y1770/Y1860. Obecnie krajowy system 1+ i znak budowlany B. Spawalność, ciągliwość i wytrzymałość krytyczne dla bezpieczeństwa konstrukcji."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
@@ -15,7 +16,7 @@ image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 
 Rodzina 16 w Załączniku VII CPR 2024/3110 obejmuje stal zbrojeniową i sprężającą do betonu oraz wyroby pomocnicze, w tym systemy sprężania post-tensioning. Są to wyroby o kluczowym znaczeniu dla bezpieczeństwa konstrukcji – zbrojenie przenosi siły rozciągające w elementach żelbetowych, a stale sprężające (o wytrzymałości 3–5-krotnie wyższej niż zbrojeniowe) są stosowane w mostach, halach sprężonych i stropach bezbelkowych.
 
-Obecnie w Polsce wyroby do zbrojenia betonu podlegają krajowemu systemowi 1+, co wynika z bezpośredniego wpływu jakości zbrojenia na bezpieczeństwo konstrukcji żelbetowych; docelowy system AVS według CPR 2024/3110 ustali akt delegowany Komisji. Niski poziom ciągliwości lub spawalności pręta zbrojeniowego może prowadzić do kruchego zniszczenia bez wcześniejszego ostrzeżenia – czyli do katastrofy budowlanej. CPR 2024/3110 wprowadza ponadto w modelu docelowym obowiązkową deklarację właściwości środowiskowych.
+Obecnie w Polsce pręty, walcówka, łączniki i taśmy z wgniotami oraz siatki i prefabrykaty zbrojarskie do elementów konstrukcyjnych podlegają krajowemu systemowi 1+ (wyjątki objęte systemem 4 opisano niżej), co wynika z bezpośredniego wpływu jakości zbrojenia na bezpieczeństwo konstrukcji żelbetowych; docelowy system AVS według CPR 2024/3110 ustali akt delegowany Komisji. Niski poziom ciągliwości lub spawalności pręta zbrojeniowego może prowadzić do kruchego zniszczenia bez wcześniejszego ostrzeżenia – czyli do katastrofy budowlanej. CPR 2024/3110 wprowadza ponadto w modelu docelowym obowiązkową deklarację właściwości środowiskowych.
 
 ## Normy (niezharmonizowane)
 
@@ -36,11 +37,11 @@ Systemy sprężania post-tensioning mogą uzyskać oznakowanie CE na podstawie E
 
 ## System AVS i certyfikacja
 
-> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów dopiero po publikacji odpowiedniej hTS; do tego czasu stosuje się krajowy system oceny i znak budowlany B (a dla systemów sprężania także ETA).
+> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów od roku po przyjęciu aktu wykonawczego dla tej rodziny, chyba że akt wskaże późniejszy termin (art. 95 ust. 9 CPR 2024/3110; wcześniejsze dobrowolne stosowanie hTS jest możliwe); do tego czasu stosuje się krajowy system oceny i znak budowlany B (a dla systemów sprężania także ETA).
 
 **Stan obecny – krajowy system 1+ i znak budowlany B.** W Polsce pręty, walcówka (kręgi), łączniki i taśmy z wgniotami do zbrojenia betonu oraz zestawy zakotwień i cięgien do sprężania konstrukcji betonowych podlegają krajowemu systemowi 1+. Siatki zgrzewane/spawane, maty zbrojące i zgrzewane/spawane prefabrykaty zbrojarskie – krajowemu systemowi 1+ (elementy konstrukcyjne) albo 4 (elementy niekonstrukcyjne), a kanały i osłonki – systemowi 4. Ocena odbywa się na podstawie Polskiej Normy albo krajowej oceny technicznej; producent sporządza krajową deklarację właściwości użytkowych i znakuje wyrób znakiem budowlanym B. Krajowy system 1+ oznacza:
 
-1. **Producent** – określa typ wyrobu, wdraża ZKP i prowadzi badania próbek zgodnie z planem badań. ZKP obejmuje kontrolę składu chemicznego (spectrometryczna analiza wytopów), właściwości mechanicznych (próba rozciągania, próba gięcia, próba zmęczeniowa), geometrii żeber i karbów, spawalności (ekwiwalent węglowy CE).
+1. **Producent** – określa typ wyrobu, wdraża ZKP i prowadzi badania próbek zgodnie z planem badań. ZKP obejmuje kontrolę składu chemicznego (spektrometryczna analiza wytopów), właściwości mechanicznych (próba rozciągania, próba gięcia, próba zmęczeniowa), geometrii żeber i karbów, spawalności (ekwiwalent węglowy CE).
 2. **Akredytowana jednostka certyfikująca** – przeprowadza:
    - Ocenę właściwości użytkowych na podstawie badań próbek (w tym ich pobierania)
    - Wstępną inspekcję zakładu produkcyjnego i ZKP
