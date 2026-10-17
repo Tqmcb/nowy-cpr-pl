@@ -71,7 +71,7 @@ CPR 2024/3110 wprowadza dla prefabrykatów betonowych szereg istotnych zmian w s
 
 **Cyfrowy paszport wyrobu**: DPP jest rozwiązaniem docelowym, które dla prefabrykatów betonowych będzie wdrażane etapami. W praktyce warto już teraz przygotowywać dane, które docelowo mogą trafić do DPP: informacje o właściwościach użytkowych, DoP&C oraz dane środowiskowe.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

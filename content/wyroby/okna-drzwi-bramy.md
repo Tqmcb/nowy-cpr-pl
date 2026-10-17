@@ -68,7 +68,7 @@ Dla bram przemysłowych (EN 13241) dodatkowo deklaruje się: bezpieczne użytkow
 
 **Cyfrowy paszport produktu**: Dla tej rodziny wyrobów obowiązek powstanie dopiero po wejściu w życie nowej hTS i aktu delegowanego ustanawiającego system dla budownictwa. Już teraz warto uporządkować dane, które później mogą trafić do paszportu: DoP&C, informacje o składzie materiałowym, instrukcję montażu i demontażu oraz dane środowiskowe.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

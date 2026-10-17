@@ -86,7 +86,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 
 **Nowe wyroby objęte CPR**: CPR 2024 rozszerza zakres na nowe kategorie wyrobów ppoż.: automatyczne systemy tłumienia wybuchu (EN 16750), aerozolowe systemy gaśnicze, stałe urządzenia gaśnicze dla tuneli drogowych i kolejowych (szczególnie istotne w kontekście infrastruktury finansowanej ze środków UE).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

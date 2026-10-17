@@ -5,7 +5,7 @@ date: "2025-02-05"
 author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["CPR", "2024", "regulacje", "nowe wymagania", "AVS", "DoP&C"]
-excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram wdrożenia do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."
+excerpt: "Kompletny przewodnik po nowym Rozporządzeniu CPR 2024/3110. Najważniejsze zmiany, pełny harmonogram zmian CPR do 2040, nowy system AVS z systemem 3+, DoP&C i wymagania środowiskowe."
 image_url: /images/blog/cpr-2024-nowe-rozporzadzenie-v2.jpg
 template: "regulacja"
 sources:
@@ -16,9 +16,9 @@ sources:
 
 # CPR 2024/3110 - Nowe Rozporządzenie o Wyrobach Budowlanych
 
-Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopada 2024 r. zastępuje CPR 305/2011 i wprowadza rewolucyjne zmiany w certyfikacji i deklarowaniu właściwości wyrobów budowlanych. Poznaj najważniejsze zmiany i pełny harmonogram wdrożenia.
+Rozporządzenie (UE) 2024/3110 Parlamentu Europejskiego i Rady z dnia 27 listopada 2024 r. zastępuje CPR 305/2011 i wprowadza rewolucyjne zmiany w certyfikacji i deklarowaniu właściwości wyrobów budowlanych. Poznaj najważniejsze zmiany i pełny harmonogram zmian CPR.
 
-## Pełny harmonogram wdrożenia
+## Pełny harmonogram zmian CPR
 
 ### Kluczowe daty:
 - **7 stycznia 2025**: Wejście w życie rozporządzenia; Załączniki I, II, VII, IX, X obowiązują od tej daty

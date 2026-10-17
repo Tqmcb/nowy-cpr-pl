@@ -93,7 +93,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 4. **Substancje niebezpieczne** – poliaromatyczne węglowodory (PAH) w asfaltach – limitowane przez REACH Rozporządzenie (WE) nr 1272/2008; konieczna kontrola zawartości benzo[a]pirenu.
 5. **DoP&C zamiast DoP** – rozszerzona deklaracja.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

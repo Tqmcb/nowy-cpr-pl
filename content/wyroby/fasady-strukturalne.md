@@ -67,7 +67,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 
 **Pożar fasadowy a CPR 2024**: Pożary fasadowe (Grenfell Tower 2017, Rydzyna 2006) spowodowały zaostrzenie wymagań dotyczących reakcji na ogień zewnętrznych okładzin. CPR 2024 wzmacnia wymagania dotyczące FIGRA (Fire Growth Rate Index) i deklarowania klasy Euroklassyfikacji dla cyklu zewnętrznego (EN 13501-1, metoda SBI i IN300).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

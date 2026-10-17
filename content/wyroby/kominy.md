@@ -70,7 +70,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 
 **System 3+ i dane środowiskowe**: Dla ceramicznych wkładów kominowych i ceramiki strukturalnej GWP jest stosunkowo niski (ceramika jest materiałem o niskim śladzie węglowym w porównaniu z metalem). Producenci ceramiki kominowej mogą to wykorzystać w komunikacji rynkowej po uzyskaniu walidacji danych środowiskowych przez System 3+.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

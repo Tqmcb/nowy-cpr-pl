@@ -93,7 +93,7 @@ CPR 2024 wprowadza ramy cyfrowych paszportów produktów. Nie oznacza to jednak,
 3. **Wzmocniona ścieżka ETA** – CPR 2024 upraszcza procedury ETA dla systemów innowacyjnych, skracając czas od złożenia wniosku do wydania dokumentu.
 4. **Interoperacyjność z EPBD** – deklarowane właściwości cieplne systemów ściennych i stropowych mają bezpośredni wpływ na klasę energetyczną budynku.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

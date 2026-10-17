@@ -74,7 +74,7 @@ CPR 2024 po raz pierwszy wyraźnie stwarza ramy dla **uzupełniających materia�
 3. **System 3+ dla danych środowiskowych** – jednostka notyfikowana waliduje dane środowiskowe (wyniki LCA) dla domieszek i dodatków.
 4. **Uproszczony nadzór rynkowy** – wzmocnione uprawnienia organów nadzoru do pobierania próbek w terenie i weryfikacji DoP&C.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

@@ -201,7 +201,7 @@ Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/3110 z dnia 27 listopa
 3. **Rozszerzone systemy AVS (dawniej AVCP)** — nowy system 3+ dla aspektów środowiskowych
 4. **Wymagania środowiskowe (GWP)** — obowiązkowe dopiero po wejściu w życie nowych hTS dla danej rodziny wyrobów
 
-## Terminy wdrożenia
+## Terminy zmian CPR
 - 7 stycznia 2025 — wejście w życie
 - 8 stycznia 2026 — stosowanie głównych przepisów CPR
 - 2026–2029+ — publikacja nowych hTS przez CEN; GWP i DPP obowiązkowe dopiero po zakończeniu okresu koegzystencji dla danej rodziny wyrobów
@@ -223,7 +223,7 @@ Producenci muszą zapewnić:
     id: "2",
     title: "Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C) - Praktyczny poradnik",
     slug: "cyfrowa-dop",
-    excerpt: "Jak przygotować się do obowiązkowej cyfryzacji dokumentacji produktów budowlanych zgodnie z CPR 2024. Format danych, wymagania techniczne i harmonogram wdrożenia.",
+    excerpt: "Jak przygotować się do obowiązkowej cyfryzacji dokumentacji produktów budowlanych zgodnie z CPR 2024. Format danych, wymagania techniczne i harmonogram zmian CPR.",
     content: `# Cyfrowa Deklaracja Właściwości Użytkowych i Zgodności (Digital DoP&C)
 
 ## Czym jest Digital DoP&C?
@@ -235,7 +235,7 @@ Digital DoP&C to elektroniczna forma deklaracji właściwości użytkowych i zgo
 - Repozytorium: dostęp przez unikalny identyfikator (QR kod)
 - Archiwizacja: minimum 10 lat
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 - 20 lipca 2026: Uruchomienie unijnego rejestru cyfrowych paszportów
 - II kwartał 2027: Planowany akt delegowany ustanawiający system dla wyrobów budowlanych
 - Po publikacji hTS: Obowiązkowe stosowanie (etapowo wg rodzin wyrobów)

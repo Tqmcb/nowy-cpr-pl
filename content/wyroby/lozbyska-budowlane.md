@@ -75,7 +75,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 
 **Brak zmian w systemie AVS**: Dla łożysk budowlanych system AVS 1 obowiązywał już w CPR 305/2011 i pozostaje niezmieniony w CPR 2024.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

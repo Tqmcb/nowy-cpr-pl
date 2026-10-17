@@ -63,7 +63,7 @@ Dla rodziny 25 obowiązują systemy AVS (Assessment and Verification of Constanc
 3. **System 3+ dla danych środowiskowych** – nowy tryb weryfikacji, w którym jednostka notyfikowana waliduje dane środowiskowe (wyniki LCA) zadeklarowane przez producenta.
 4. **Nowy format DoP&C** – Deklaracja Właściwości Użytkowych i Zgodności zastępuje dotychczasową Deklarację Właściwości Użytkowych (DoP) przewidzianą w CPR 305/2011.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

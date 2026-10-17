@@ -84,7 +84,7 @@ Większość elementów murowych ceramicznych, betonowych, silikatowych i ABK kl
 4. **DoP&C** – zintegrowany dokument zamiast odrębnych deklaracji.
 5. **Trwałość** – CPR 2024 kładzie nacisk na deklarowanie przewidywanej trwałości i warunków ekspozycji (klasy ekspozycji wg EN 1996).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

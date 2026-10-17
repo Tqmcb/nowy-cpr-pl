@@ -76,7 +76,7 @@ System AVS 3 jest obligatoryjny dla rur do przesyłu gazu ze względu na bezpoś
 3. **Deklaracja emisji do gruntu** – zbiorniki podziemne muszą deklarować właściwości nieprzepuszczalności i odporności chemicznej w odniesieniu do ochrony gleby i wód gruntowych (BWR 6).
 4. **Nowy format DoP&C** – zintegrowana deklaracja zastępuje dotychczasową DoP.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

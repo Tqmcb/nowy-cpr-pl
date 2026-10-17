@@ -165,7 +165,7 @@ export const AUTHORS: Record<string, Author> = {
       {
         title: "CPR 2024/3110 — Nowe Rozporządzenie o Wyrobach Budowlanych",
         year: 2025,
-        description: "Kompletny przewodnik po CPR 2024/3110 — kluczowe zmiany, harmonogram wdrożenia, nowy system AVS i wymagania środowiskowe.",
+        description: "Kompletny przewodnik po CPR 2024/3110 — kluczowe zmiany, harmonogram zmian CPR, nowy system AVS i wymagania środowiskowe.",
         url: "/blog/cpr-2024-nowe-rozporzadzenie",
       },
       {

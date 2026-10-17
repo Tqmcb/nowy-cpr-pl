@@ -90,7 +90,7 @@ Dla wykładzin PVC i LVT (Luxury Vinyl Tile):
 4. **Substancje SVHC** – producenci LVT (PVC) muszą sprawdzić i zadeklarować brak ftalanów DEHP, DBP, DIBP i BBP (wpisanych na listę SVHC REACH).
 5. **Cyrkulacja** – deklarowanie zawartości materiałów z recyklingu i możliwości recyklingu na końcu życia wyrobu.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

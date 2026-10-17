@@ -89,7 +89,7 @@ Ocenę zgodności wyposażenia dróg prowadzą jednostki notyfikowane – o cert
 
 **Nowe wymagania dot. ekranów akustycznych**: Ekrany akustyczne drogowe – coraz powszechniejszy element wyposażenia dróg – będą podlegały nowym wymaganiom środowiskowym w zakresie degradacji materiałów (PVC vs. drewno vs. aluminium) i możliwości recyklingu po zakończeniu eksploatacji.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

@@ -107,7 +107,7 @@ Taki system powinien automatycznie:
 - generować kod QR i przekazywać go do systemu etykietowania,
 - archiwizować poprzednie wersje DoP&C z datą obowiązywania.
 
-## Terminy i harmonogram wdrożenia
+## Terminy i harmonogram zmian CPR
 
 | Data | Wymóg | Status |
 |------|-------|--------|

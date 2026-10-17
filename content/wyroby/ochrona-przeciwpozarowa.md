@@ -102,7 +102,7 @@ Czasy odporności: 15, 20, 30, 45, 60, 90, 120, 180, 240 minut.
 3. **BWR 7 dla retardantów ogniowych** – wyroby do ochrony drewna muszą deklarować swoją toksykologię i ekotoksykologię jako parametry użytkowe.
 4. **Cyfrowe paszporty produktów**: nie są jeszcze obowiązkowe dla wyrobów budowlanych. Po wejściu w życie właściwych przepisów będą mogły udostępniać DoP&C, tablice zastosowań i inne wymagane dokumenty za pomocą oznaczenia przypisanego do wyrobu.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

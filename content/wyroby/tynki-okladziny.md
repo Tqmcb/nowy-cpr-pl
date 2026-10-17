@@ -92,7 +92,7 @@ Systemy GK (płyty gipsowo-kartonowe) są najczęściej testowane jako zestawy (
 4. **Systemy ETICS** – EAD wydane pod CPR 305/2011 tracą ważność 9 stycznia 2031; nowe systemy ETICS wymagają ETA na podstawie nowych EAD.
 5. **DoP&C** – rozszerzona deklaracja łącząca właściwości użytkowe i środowiskowe.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

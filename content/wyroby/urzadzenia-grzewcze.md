@@ -78,7 +78,7 @@ Dla rodziny 27 obowiązują systemy AVS (Assessment and Verification of Constanc
 3. **Lepsze powiązanie z ErP** – CPR 2024 precyzuje interfejs między certyfikatem CE wg CPR a etykietą energetyczną wg ErP, eliminując podwójne badania dla parametrów wspólnych.
 4. **Nowy format DoP&C** – zastąpienie dotychczasowej DoP zintegrowanym dokumentem obejmującym właściwości użytkowe, środowiskowe i informacje o substancjach niebezpiecznych.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|

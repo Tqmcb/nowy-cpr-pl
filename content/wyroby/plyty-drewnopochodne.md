@@ -91,7 +91,7 @@ Większość płyt drewnopochodnych klasyfikuje się jako:
 4. **DoP&C zamiast DoP** – rozszerzona deklaracja obejmuje właściwości użytkowe i środowiskowe.
 5. **Precyzyjniejsze wymagania dla klejów** – kleje stosowane do płyt muszą spełniać wymagania dotyczące substancji niebezpiecznych, w tym SVHC z listy REACH.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

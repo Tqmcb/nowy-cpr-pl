@@ -92,7 +92,7 @@ Deklarowanie metody produkcji i GWP w DoP&C otwiera przewagę konkurencyjną dla
 4. **DoP&C jako model docelowy** – zintegrowana deklaracja zastąpi obecny model po przejściu rodziny na nową specyfikację.
 5. **Trwałość i korozja** – CPR 2024 wymaga deklarowania klasy korozyjności (wg EN ISO 12944) i trwałości powłok ochronnych.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

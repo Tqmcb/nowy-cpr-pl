@@ -85,7 +85,7 @@ Stal zbrojeniowa produkowana w elektrycznym piecu łukowym (EAF) z recyklingu z�
 4. **Systemy post-tensioning** – pozostają w obszarze ETA, ale EAD wydane pod CPR 305/2011 tracą ważność 9 stycznia 2031.
 5. **Systemy prefabrykowane** – zbrojenie stosowane w prefabrykacji podlega zarówno EN 10080 (materiał) jak i normom prefabrykatów (np. EN 14651 dla belek).
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Wydarzenie |
 |---|---|

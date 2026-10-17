@@ -90,7 +90,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 **System 3+ dla danych środowiskowych**: Producenci geomembran stosowanych w zamówieniach publicznych (autostrady, składowiska komunalne finansowane ze środków UE) mogą zwalidować dane środowiskowe (wyniki LCA) przez System 3+, uzyskując raport walidacyjny od jednostki notyfikowanej. To podnosi wiarygodność danych środowiskowych w przetargach GDDKiA i gmin.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|

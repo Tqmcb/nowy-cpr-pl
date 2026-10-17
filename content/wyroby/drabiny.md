@@ -104,7 +104,7 @@ Rodzina 36 jest **całkowicie nową rodziną** – nie istniała w CPR 305/2011.
 3. **Harmonizacja rynku** – producenci drabin działający transgranicznie (Niemcy, Włochy, Polska) oczekiwali jednolitych wymagań eliminujących bariery techniczne.
 4. **Spójność z wymaganiami BHP** – rodzina 36 uzupełnia wymagania Dyrektywy o miejscach pracy (89/654/EWG) od strony wyrobu budowlanego.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Etap | Data |
 |---|---|
@@ -112,7 +112,7 @@ Rodzina 36 jest **całkowicie nową rodziną** – nie istniała w CPR 305/2011.
 | Rozpoczęcie stosowania przepisów ramowych | **8 stycznia 2026** |
 | Obowiązek stosowania kar przez państwa członkowskie | **8 stycznia 2027** |
 
-Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm dotychczas nie podlegało CPR. W praktyce już teraz warto uporządkować dokumentację, badania i proces certyfikacji, ale zakres obowiązków produktowych będzie zależał od publikacji odpowiedniej hTS i harmonogramu wdrożenia dla tej rodziny.
+Producenci drabin trwałych wchodzą na nowy rynek regulacyjny – wiele firm dotychczas nie podlegało CPR. W praktyce już teraz warto uporządkować dokumentację, badania i proces certyfikacji, ale zakres obowiązków produktowych będzie zależał od publikacji odpowiedniej hTS i harmonogramu jej wejścia w życie dla tej rodziny.
 
 ## Przykłady wyrobów i zastosowania
 

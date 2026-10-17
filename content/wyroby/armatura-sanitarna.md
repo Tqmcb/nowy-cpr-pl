@@ -83,7 +83,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 
 **Cyfrowy paszport wyrobu (DPP)**: Armatura sanitarna to kategoria wyrobów, dla której DPP niesie szczególną wartość dla konsumentów: dostęp do instrukcji montażu, danych technicznych, wymiarów do projektowania (CAD), a w przyszłości do informacji o recyklingu.
 
-## Harmonogram wdrożenia
+## Harmonogram zmian CPR
 
 | Data | Zdarzenie |
 |---|---|
