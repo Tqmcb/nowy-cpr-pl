@@ -98,7 +98,7 @@ Większość płyt drewnopochodnych klasyfikuje się jako:
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 Producenci, którzy stosowali stare formularze DoP bez deklaracji formaldehydu lub VOC, powinni już teraz przygotować dane i szablony pod przyszłe DoP&C. Sam moment przejścia będzie jednak zależał od publikacji odpowiedniej hTS i zakończenia okresu koegzystencji.
 

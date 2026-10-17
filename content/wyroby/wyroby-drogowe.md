@@ -4,10 +4,10 @@ family_number: 23
 family_name_en: "ROAD CONSTRUCTION PRODUCTS"
 date: "2026-02-25"
 category: "Wyroby drogowe"
-avs_system: "2+ / 3 / 3+"
+avs_system: "2+ / 4 / 3+"
 normy: ["EN 13808", "EN 14188-1", "EN 12591", "EN 13043", "EN 1338", "EN 1339", "EN 1340"]
 tags: ["asfalt", "drogi", "kostka brukowa", "krawężniki", "CPR 2024"]
-excerpt: "Wyroby drogowe – rodzina 23 CPR 2024. Asfalty drogowe i modyfikowane, mieszanki asfaltowe, kostka betonowa, krawężniki. System AVS 2+ dla prefabrykatów betonowych, AVS 3 dla asfaltów."
+excerpt: "Wyroby drogowe – rodzina 23 CPR 2024. Asfalty drogowe i modyfikowane, mieszanki asfaltowe, kostka betonowa, krawężniki. Obecnie AVCP 4 dla prefabrykatów betonowych, AVCP 2+ dla asfaltów i mieszanek mineralno-asfaltowych."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -36,17 +36,19 @@ Rodzina 23 jest istotna z perspektywy środowiskowej ze względu na duże wolume
 
 ## System AVS i certyfikacja
 
-> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
 
-Rodzina 23 stosuje zróżnicowane systemy AVS zależnie od wyrobu:
+Obecnie rodzina 23 stosuje zróżnicowane systemy AVCP zależnie od wyrobu:
 
-**System AVS 2+** – dla prefabrykowanych betonowych wyrobów drogowych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340). Jednostka notyfikowana certyfikuje ZKP producenta, wydając certyfikat. Producent przeprowadza badania ITT.
+**System AVCP 4** – dla betonowych i kamiennych elementów nawierzchni do zastosowań zewnętrznych (kostka brukowa EN 1338, płyty EN 1339, krawężniki EN 1340, krawężniki kamienne EN 1343). Producent sam określa typ wyrobu i prowadzi ZKP; jednostka notyfikowana nie uczestniczy i nie wydaje certyfikatu.
 
-**System AVS 3** – w modelu docelowym będzie dotyczył asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023) i emulsji (EN 13808). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
+**System AVCP 2+** – dla asfaltów drogowych (EN 12591), asfaltów modyfikowanych (EN 14023), emulsji (EN 13808) i mieszanek mineralno-asfaltowych (EN 13108). Jednostka notyfikowana certyfikuje ZKP na podstawie wstępnej inspekcji zakładu i ZKP oraz ciągłego nadzoru. Wyroby pomocnicze do dróg betonowych (np. wypełniacze szczelin) podlegają systemowi 4.
+
+Docelowe systemy AVS dla rodziny 23 według CPR 2024/3110 zostaną ustalone aktem delegowanym Komisji.
 
 **System AVS 3+** – walidacja danych środowiskowych (wyników LCA) dla deklaracji GWP i wskaźników cyrkulacyjnych, szczególnie ważna dla producentów stosujących granulat asfaltowy RAP lub kruszywa z recyklingu.
 
-Ocenę zgodności betonowych wyrobów drogowych prowadzą jednostki notyfikowane – polscy producenci mogą skorzystać z pośrednictwa [Multicert](https://www.multicert.com.pl), przedstawiciela partnerskich jednostek notyfikowanych w Polsce. Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
+Betonowe wyroby drogowe w systemie 4 nie wymagają udziału jednostki notyfikowanej – typ wyrobu określa i ZKP prowadzi sam producent. Badania lepiszcz asfaltowych wykonuje m.in. [ITCZLin](https://www.itczlin.pl).
 
 ## Kluczowe wymagania CPR 2024
 
@@ -98,7 +100,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 
@@ -106,7 +108,7 @@ CPR 2024/3110 mocno promuje cyrkularność w drogownictwie: deklarowanie zawarto
 
 Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 1. Badania ITT wg EN 1338: wytrzymałość T≥3,6 MPa, ścieralność klasa 1, PSV≥44, mrozoodporność D
-2. Certyfikacja ZKP przez partnerską jednostkę notyfikowaną (za pośrednictwem [Multicert](https://www.multicert.com.pl)) – System AVS 2+
+2. Określenie typu wyrobu i ZKP prowadzone przez producenta – System AVCP 4 (bez udziału jednostki notyfikowanej)
 3. Opracowanie EPD z deklaracją GWP 155 kg CO2eq/t (10% kruszywa z recyklingu betonu w składzie)
 4. Walidacja danych środowiskowych w Systemie AVS 3+ – raport walidacyjny
 5. DoP&C: EN 1338, klasa T, PSV ≥44, klasa mrozoodporności D, GWP 155 kg CO2eq/t
@@ -115,17 +117,17 @@ Zakład prefabrykatów drogowych produkujący kostkę 8×8×8 cm i 20×10×8 cm:
 
 Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 1. Badania ITT wg EN 14023: penetracja, punkt mięknienia, odporność na starzenie RTFOT+PAV
-2. System AVS 3 – badania ITT w NTL ([ITCZLin](https://www.itczlin.pl)), certyfikat od JN, ZKP u producenta
+2. System AVCP 2+ – ZKP u producenta, certyfikat ZKP od JN (wstępna inspekcja zakładu i ZKP, ciągły nadzór); docelowy system AVS ustali akt delegowany
 3. Sprawdzenie zawartości PAH (poliaromatycznych węglowodorów) wg REACH
 4. DoP&C: PMB 45/80-55, zawartość polimeru min. 3,5% SBS, brak PAH ponad limity REACH
 
 ## Checklist producenta
 
 - [ ] Identyfikacja normy wyrobu (EN 12591, EN 14023, EN 13808, EN 1338, EN 1339, EN 1340)
-- [ ] Ustalenie systemu AVS (2+ dla prefabrykatów betonowych, 3 dla asfaltów)
+- [ ] Ustalenie systemu AVCP (obecnie 4 dla prefabrykatów betonowych, 2+ dla asfaltów i mieszanek mineralno-asfaltowych; docelowe systemy AVS ustali akt delegowany)
 - [ ] Przeprowadzenie badań ITT w akredytowanym laboratorium
-- [ ] Certyfikacja ZKP przez JN (np. przez [Multicert](https://www.multicert.com.pl), przedstawiciela partnerskich jednostek notyfikowanych) dla Systemu AVS 2+
-- [ ] Dla asfaltów (AVS 3): zlecenie ITT do NTL ([ITCZLin](https://www.itczlin.pl)), uzyskanie certyfikatu od JN, wdrożenie ZKP
+- [ ] Dla prefabrykatów betonowych (AVCP 4): określenie typu wyrobu i ZKP prowadzone samodzielnie przez producenta – bez udziału JN
+- [ ] Dla asfaltów (AVCP 2+): wdrożenie ZKP, uzyskanie certyfikatu ZKP od JN
 - [ ] Sprawdzenie zawartości PAH w asfaltach i asfaltach modyfikowanych (REACH)
 - [ ] Deklarowanie GWP i udziału RAP / kruszyw z recyklingu
 - [ ] Wystawienie DoP&C z deklaracją klas właściwości, GWP i cyrkulacyjnych wskaźników
@@ -135,5 +137,4 @@ Producent asfaltu modyfikowanego SBS do stosowania w warstwach ścieralnych SMA:
 
 ## Gdzie szukać wsparcia
 
-- [Multicert](https://www.multicert.com.pl) – przedstawiciel w Polsce partnerskich jednostek notyfikowanych; pośrednictwo w ocenie zgodności betonowych prefabrykatów drogowych (kostka, krawężniki, płyty)
 - [ITCZLin](https://www.itczlin.pl) – badania lepiszcz asfaltowych, asfaltów modyfikowanych, mieszanek mineralno-asfaltowych

@@ -94,7 +94,7 @@ Producent klapy dymowej (EN 12101-2) deklaruje:
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie GWP dla substancji gaśniczych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

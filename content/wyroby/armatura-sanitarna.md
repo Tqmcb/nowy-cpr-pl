@@ -91,7 +91,7 @@ Producent wanny akrylowej (EN 14527) deklaruje:
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie oszczędności wody i GWP dla armatury |
 | 9 stycznia 2031 | Wygasają EAD (dot. innowacyjnych materiałów sanitarnych) |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

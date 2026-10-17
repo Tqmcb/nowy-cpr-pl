@@ -78,7 +78,7 @@ Dla systemów do kotłów kondensacyjnych (EN 14989-1) dodatkowo deklaruje się:
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane Komisji w zakresie właściwości środowiskowych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

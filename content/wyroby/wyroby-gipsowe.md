@@ -82,7 +82,7 @@ Deklarowanie GWP dla płyt gipsowo-kartonowych (obowiązkowe po publikacji nowyc
 | 8 stycznia 2027 | Stosowanie sankcji (Art. 92); przygotowanie EPD intensywne |
 | ~2027 | Akty delegowane z obowiązkowym GWP dla wyrobów gipsowych |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

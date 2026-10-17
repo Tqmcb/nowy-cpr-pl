@@ -20,7 +20,7 @@ sources:
 
 ## Czym jest DoP&C i czym różni się od starego DoP?
 
-> **Przepisy przejściowe:** Istniejące Deklaracje Właściwości Użytkowych (DoP) wystawione zgodnie z CPR 305/2011 **zachowują moc prawną do 8 stycznia 2040** (art. 4–9 CPR 305/2011 stosowane na mocy art. 93 CPR 2024/3110). Nie ma obowiązku natychmiastowego zastąpienia istniejących DoP przez DoP&C. Niniejszy szablon służy producentom **sporządzającym nową deklarację** lub **dobrowolnie przechodzącym na format DoP&C** — np. przy odnowieniu certyfikatu JN lub aktualizacji normy zharmonizowanej wyrobu.
+> **Przepisy przejściowe:** Istniejące Deklaracje Właściwości Użytkowych (DoP) wystawione zgodnie z CPR 305/2011 **zachowują moc prawną do 8 stycznia 2040** (art. 4–9 CPR 305/2011 stosowane na mocy art. 94 i art. 95 ust. 8 CPR 2024/3110). Nie ma obowiązku natychmiastowego zastąpienia istniejących DoP przez DoP&C. Niniejszy szablon służy producentom **sporządzającym nową deklarację** lub **dobrowolnie przechodzącym na format DoP&C** — np. przy odnowieniu certyfikatu JN lub aktualizacji normy zharmonizowanej wyrobu.
 
 Rozporządzenie CPR 2024/3110 zastępuje rozporządzenie 305/2011 i wraz z nim zmienia nazwę oraz zakres kluczowego dokumentu towarzyszącego oznakowanemu wyrobowi budowlanemu. Dotychczasowa **Deklaracja Właściwości Użytkowych** (DoP — ang. Declaration of Performance) przekształca się w **Deklarację Właściwości Użytkowych i Zgodności** (DoP&C — ang. Declaration of Performance and Conformity).
 

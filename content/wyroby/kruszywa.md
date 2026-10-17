@@ -102,7 +102,7 @@ Naturalne kruszywa mają **jeden z najniższych wskaźników GWP ze wszystkich m
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji |
 | 9 stycznia 2031 | Wygaśnięcie EAD z CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 ## Przykłady wyrobów
 

@@ -4,10 +4,10 @@ family_number: 8
 family_name_en: "GEOTEXTILES, GEOMEMBRANES, AND RELATED PRODUCTS"
 date: "2026-02-25"
 category: "Wyroby geotechniczne"
-avs_system: "3 / 4 / 3+"
-normy: ["EN 13249", "EN 13250", "EN 13251", "EN 13252", "EN 13253", "EN 13254", "EN 13255", "EN 13256", "EN 13257", "EN 13265"]
+avs_system: "2+ / 4 / 3+"
+normy: ["EN 13249", "EN 13250", "EN 13251", "EN 13252", "EN 13253", "EN 13254", "EN 13255", "EN 13256", "EN 13257", "EN 13265", "EN 13361", "EN 13362", "EN 13491", "EN 13492", "EN 13493"]
 tags: ["geosyntetyki", "geomembrany", "drogownictwo", "geotechnika", "CPR 2024"]
-excerpt: "Geosyntetyki i geomembrany – rodzina 8 CPR 2024. Geotekstylia, geosiatki, geomembrany HDPE. 10 norm zharmonizowanych wg zastosowania. Drogownictwo, hydrotechnika, geotechnika."
+excerpt: "Geosyntetyki i geomembrany – rodzina 8 CPR 2024. Geotekstylia, geosiatki, geomembrany HDPE. 15 norm zharmonizowanych wg zastosowania. Drogownictwo, hydrotechnika, geotechnika."
 image_url: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800"
 ---
 
@@ -21,26 +21,33 @@ Rodzina obejmuje: geotekstylia tkaniny i dzianiny (woven geotextiles) z poliprop
 
 | Wyrób | Norma zharmonizowana |
 |---|---|
-| Geosyntetyki w robotach drogowych | EN 13249 |
-| Geosyntetyki przy budowie linii kolejowych | EN 13250 |
-| Geosyntetyki w geotechnice (wzmocnienie gruntu) | EN 13251 |
-| Geosyntetyki w systemach drenażowych | EN 13252 |
-| Geosyntetyki do ochrony przed erozją | EN 13253 |
-| Geosyntetyki do zbiorników i tam (retencja) | EN 13254 |
-| Geosyntetyki do kanałów (uszczelnienie) | EN 13255 |
-| Geosyntetyki do tuneli i podziemnych obiektów | EN 13256 |
-| Geosyntetyki do składowisk odpadów (uszczelnienie) | EN 13257 |
-| Geosyntetyki do składowisk odpadów ciekłych | EN 13265 |
+| Geotekstylia i wyroby pokrewne – drogi i inne powierzchnie z ruchem (bez kolei i warstw asfaltowych) | EN 13249 |
+| Geotekstylia i wyroby pokrewne – koleje | EN 13250 |
+| Geotekstylia i wyroby pokrewne – roboty ziemne, fundamenty i konstrukcje oporowe | EN 13251 |
+| Geotekstylia i wyroby pokrewne – systemy drenażowe | EN 13252 |
+| Geotekstylia i wyroby pokrewne – ochrona przed erozją (umocnienia brzegów) | EN 13253 |
+| Geotekstylia i wyroby pokrewne – zbiorniki i zapory | EN 13254 |
+| Geotekstylia i wyroby pokrewne – kanały | EN 13255 |
+| Geotekstylia i wyroby pokrewne – tunele i konstrukcje podziemne | EN 13256 |
+| Geotekstylia i wyroby pokrewne – składowiska odpadów stałych | EN 13257 |
+| Geotekstylia i wyroby pokrewne – zbiorniki odpadów ciekłych | EN 13265 |
+| Bariery geosyntetyczne (geomembrany, GCL) – zbiorniki i zapory | EN 13361 |
+| Bariery geosyntetyczne – kanały | EN 13362 |
+| Bariery geosyntetyczne – bariera dla cieczy w tunelach i konstrukcjach podziemnych | EN 13491 |
+| Bariery geosyntetyczne – składowiska odpadów ciekłych, stacje przeładunkowe, obudowy wtórne | EN 13492 |
+| Bariery geosyntetyczne – składowiska i miejsca składowania odpadów stałych | EN 13493 |
 
 ## System AVS i certyfikacja
 
-> **Uwaga:** Poniższy opis pokazuje model docelowy CPR 2024/3110. Dla danej rodziny wyrobów obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
+> **Uwaga:** Poniżej opisano obecne zasady oraz elementy modelu docelowego CPR 2024/3110. Obowiązki takie jak DoP&C, AVS, nowe oznakowanie CE i wymogi środowiskowe będą stosowane dla tej rodziny wyrobów dopiero po publikacji odpowiedniej hTS; do tego czasu co do zasady stosuje się hEN, AVCP i DoP.
 
-Geosyntetyki podlegają systemowi **AVS 3 lub AVS 4** w zależności od krytyczności zastosowania i wymagań normy:
+Obecnie geosyntetyki podlegają systemowi **AVCP 2+ lub AVCP 4** w zależności od funkcji wyrobu:
 
-**System AVS 3** będzie w modelu docelowym stosowany dla geosyntetyków używanych w aplikacjach, gdzie awaria wyrobu może powodować poważne konsekwencje: wzmocnienie skarp i nasypów drogowych (EN 13249, EN 13251), uszczelnienie zbiorników wodnych i retencyjnych (EN 13254), izolacja składowisk odpadów (EN 13257, EN 13265), uszczelnienie kanałów irygacyjnych (EN 13255). Istotny będzie udział notyfikowanego laboratorium technicznego (NTL) w badaniu typu. Do czasu publikacji odpowiedniej hTS producenci tej rodziny zasadniczo działają jednak według obowiązujących hEN, AVCP i DoP.
+**System AVCP 2+** dotyczy geotekstyliów, geokompozytów, geosiatek i geomembran stosowanych jako bariera dla cieczy lub gazów, warstwa ochronna, do drenażu i/lub filtracji albo do zbrojenia – w drogach, kolei, fundamentach i ścianach, drenażu, ochronie przed erozją, zbiornikach i zaporach, kanałach, tunelach oraz na składowiskach odpadów ciekłych i stałych. Jednostka notyfikowana certyfikuje ZKP producenta.
 
-**System AVS 4** może być stosowany dla mniej krytycznych zastosowań: geosyntetyki separacyjne pod drogami tymczasowymi, geotekstylia do ochrony skarp przed erozją powierzchniową (EN 13253) w prostych zastosowaniach, geokompozyty drenażowe w niskim ryzyku.
+**System AVCP 4** dotyczy geosyntetyków stosowanych wyłącznie jako warstwa separacyjna. Producent sam określa typ wyrobu i prowadzi ZKP, bez udziału jednostki notyfikowanej.
+
+Docelowe systemy AVS dla rodziny 8 według CPR 2024/3110 zostaną ustalone aktem delegowanym Komisji.
 
 **System AVS 3+** – walidacja danych środowiskowych. Gdy producent deklaruje w DoP&C właściwości środowiskowe (np. GWP — potencjał globalnego ocieplenia, obliczony metodą LCA zgodnie z EN 15804+A2), wyniki te muszą zostać zwalidowane przez jednostkę notyfikowaną w Systemie AVS 3+. Walidacja potwierdza rzetelność obliczeń LCA i ma zastosowanie, gdy producent deklaruje właściwości środowiskowe w DoP&C.
 
@@ -67,7 +74,7 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 - Odporność na promieniowanie UV (EN ISO 12224-1 lub EN 14030)
 - Indeks szybkości przepływu masy (MFI) jako wskaźnik jakości polimeru
 
-**Właściwości specificzne dla geomembran (EN 13254, EN 13257):**
+**Właściwości specyficzne dla geomembran (EN 13361, EN 13362, EN 13491, EN 13492, EN 13493):**
 - Grubość nominalna [mm] i odchyłki
 - Szczelność na ciśnienie wody (wodoszczelność) – test pod ciśnieniem
 - Wytrzymałość szwów na ściskanie i rozciąganie
@@ -91,21 +98,21 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane z obowiązkowym GWP dla geosyntetyków |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
-**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (wzmocnienie gruntu). System AVS 3 dla nasypów drogowych. Producent zleca ITT do NTL, uzyskuje certyfikat od JN, prowadzi FPC z kontrolą gramaturą i wytrzymałości.
+**Geotkanina polipropylenowa do wzmocnienia nasypu**: Geotkanina woven PP, wytrzymałość na rozciąganie 80/30 kN/m (wzdłuż/w poprzek), wydłużenie 12%, wartość filtracyjna O90 = 200 µm. EN 13249 (drogi) lub EN 13251 (roboty ziemne, fundamenty i konstrukcje oporowe). System AVCP 2+ (funkcja zbrojenia). Producent prowadzi FPC z kontrolą gramatury i wytrzymałości, a jednostka notyfikowana certyfikuje ZKP.
 
-**Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13257. System AVS 3. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
+**Geomembrana HDPE 1,5 mm do składowiska odpadów**: Geomembrana z polietylenu wysokiej gęstości, grubość 1,5 mm, zawartość sadzy 2–3%, wytrzymałość na rozciąganie ≥ 15 N/mm², wydłużenie ≥ 700%. EN 13493. System AVCP 2+. Każda dostawa musi być udokumentowana wynikami kontroli produkcji (sprawdzenie grubości, MFI, zawartości sadzy).
 
-**Geotkanina nietkana do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVS 3.
+**Geotkanina nietkana do separacji pod autostradą**: Włóknina igłowana PP, gramatura 200 g/m², CBR ≥ 2500 N, O90 ≤ 300 µm. EN 13249. Stosowana jako warstwa separacyjna między podbudową a gruntem rodzimym. System AVCP 4 (funkcja wyłącznie separacyjna).
 
 ## Checklist producenta
 
-- [ ] Zidentyfikować właściwe normy EN (EN 13249–EN 13265) dla każdego wyrobu i zastosowania
-- [ ] Ustalić system AVS (3 lub 4) i przeprowadzić ITT dla wszystkich deklarowanych właściwości
-- [ ] Dla AVS 3 – złożyć dokumentację do jednostki notyfikowanej i uzyskać raport z ITT
+- [ ] Zidentyfikować właściwe normy EN (EN 13249–EN 13265 dla geotekstyliów, EN 13361–EN 13493 dla barier geosyntetycznych) dla każdego wyrobu i zastosowania
+- [ ] Ustalić system AVCP (obecnie 2+ lub 4; docelowy AVS ustali akt delegowany) i przeprowadzić ITT dla wszystkich deklarowanych właściwości
+- [ ] Dla AVCP 2+ – uzyskać od jednostki notyfikowanej certyfikat zgodności ZKP
 - [ ] Wdrożyć FPC z kontrolą surowców polimerowych (gramatura, MFI, zawartość sadzy) i wyrobów gotowych
 - [ ] Przygotować wzór przyszłego DoP&C dla każdego wyrobu z pełnym zestawem deklarowanych właściwości
 - [ ] Udostępnić DoP&C cyfrowo – QR kod na rolce lub fakturze
@@ -117,6 +124,6 @@ Deklarowane właściwości geosyntetyków różnią się w zależności od zasto
 
 ## Gdzie szukać wsparcia
 
-- [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe; wykonuje ITT dla systemów AVS 3
+- [ITCZLin](https://www.itczlin.pl) – laboratorium z kompetencjami w badaniach geosyntetyków; badania wytrzymałościowe, hydrauliczne, trwałościowe
 - [Multicert](https://www.multicert.pl) – jednostka certyfikująca, przedstawiciel w Polsce partnerskich jednostek notyfikowanych prowadzących ocenę zgodności geosyntetyków w zakresie swojej notyfikacji
 - [ocenytechniczne.pl – EOT dla geosyntetyków i wyrobów drogowych](https://www.ocenytechniczne.pl/wyroby/geosyntetyki-i-wyroby-drogowe/) – ETA dla innowacyjnych geosyntetyków nieobjętych normami zharmonizowanymi (np. georuszty z włókna bazaltowego, biodegradowalne maty erozyjochronne)

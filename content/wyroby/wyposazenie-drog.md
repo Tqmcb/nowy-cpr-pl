@@ -97,7 +97,7 @@ Ocenę zgodności wyposażenia dróg prowadzą jednostki notyfikowane – o cert
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | ~2027 | Akty delegowane w zakresie GWP i trwałości dla wyposażenia dróg |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

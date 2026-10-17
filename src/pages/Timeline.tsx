@@ -73,7 +73,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     category: ["prawo"],
     icon: Scale,
     important: true,
-    article: "Art. 93 ust. 2",
+    article: "Art. 96",
   },
   {
     date: "8 stycznia 2026",
@@ -85,18 +85,18 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     category: ["prawo", "producent"],
     icon: Clock,
     important: true,
-    article: "Art. 93 ust. 8-9",
+    article: "Art. 95 ust. 3, 8–9",
   },
   {
     date: "8 stycznia 2026",
     sortDate: "2026-01-08",
     title: "Nowe ramy dla importerów i dystrybutorów",
     description:
-      "Rozporządzenie wprowadza rozszerzone obowiązki importerów i dystrybutorów (art. 22-23). Praktyczne stosowanie tych przepisów zależy jednak od publikacji hTS — do tego czasu obowiązują dotychczasowe zasady.",
+      "Rozporządzenie wprowadza rozszerzone obowiązki importerów i dystrybutorów (art. 24–25). Praktyczne stosowanie tych przepisów zależy jednak od publikacji hTS — do tego czasu obowiązują dotychczasowe zasady.",
     phase: "teraz",
     category: ["prawo"],
     icon: Building2,
-    article: "Art. 22-23",
+    article: "Art. 24–25",
   },
   {
     date: "Maj 2026",
@@ -107,7 +107,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     phase: "teraz",
     category: ["prawo"],
     icon: Clock,
-    article: "Art. 36 ust. 5",
+    article: "Art. 10 ust. 2",
   },
   {
     date: "16 grudnia 2025",
@@ -119,19 +119,19 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     category: ["prawo"],
     icon: FileText,
     important: true,
-    article: "Art. 6",
+    article: "Art. 4",
   },
   {
     date: "Maj 2026",
     sortDate: "2026-05-13",
     title: "Stan implementacji — brak jeszcze pierwszych hTS",
     description:
-      "Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana w Dz.U. UE — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe Art. 93 ust. 8–9). Pierwsze nowe hTS spodziewane są w latach 2027–2029 zgodnie z Working Planem COM(2025) 772.",
+      "Na dzień 13 maja 2026 r. żadna nowa hTS nie została jeszcze opublikowana w Dz.U. UE — wszyscy producenci nadal stosują dotychczasowe normy hEN i wystawiają DoP wg CPR 305/2011 (przepisy przejściowe art. 95 ust. 8–9). Pierwsze nowe hTS spodziewane są w latach 2027–2029 zgodnie z Working Planem COM(2025) 772.",
     phase: "teraz",
     category: ["prawo", "producent"],
     icon: Clock,
     important: true,
-    article: "Art. 93 ust. 8–9",
+    article: "Art. 95 ust. 8–9",
   },
   {
     date: "Po publikacji hTS",
@@ -143,7 +143,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     category: ["jn", "producent"],
     icon: Shield,
     important: true,
-    article: "Art. 36, Zał. IX",
+    article: "Art. 10, Zał. IX",
   },
 
   // ── PRZYSZLOSC (2026+) ──
@@ -156,7 +156,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     phase: "przyszlosc",
     category: ["prawo", "producent"],
     icon: FileText,
-    article: "Art. 6, Working Plan 2026–2029",
+    article: "Art. 4, art. 5 ust. 2, Working Plan 2026–2029",
   },
   {
     date: "20 lipca 2026",
@@ -204,7 +204,6 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     phase: "przyszlosc",
     category: ["prawo", "producent"],
     icon: FileText,
-    article: "Art. 11 ust. 9",
   },
   {
     date: "Najwcześniej koniec 2028 (orientacyjnie)",
@@ -223,22 +222,21 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     sortDate: "2031-01-09",
     title: "Wygaśnięcie starych EAD",
     description:
-      "Europejskie Dokumenty Oceny (EAD) wydane na podstawie CPR 305/2011 tracą ważność. Producenci korzystający z EAD muszą przejść na nowe specyfikacje.",
+      "Kończy się ważność Europejskich Dokumentów Oceny (EAD) wpisanych na listę na podstawie CPR 305/2011 do 8 stycznia 2026. Wyrobów objętych Europejskimi Ocenami Technicznymi (ETA) wydanymi według tych EAD nie wolno wprowadzać do obrotu po 9 stycznia 2036.",
     phase: "przyszlosc",
     category: ["prawo", "producent", "jn"],
     icon: AlertTriangle,
-    article: "Art. 93 ust. 10",
+    article: "Art. 95 ust. 4",
   },
   {
     date: "8 stycznia 2038",
     sortDate: "2038-01-08",
     title: "Wyroby użyte ponownie / regenerowane",
     description:
-      "Przepisy dotyczące wyrobów budowlanych użytych ponownie, regenerowanych i wytworzonych z recyklingu stają się obowiązkowe (Art. 6).",
+      "Przepisy dotyczące wyrobów budowlanych użytych ponownie, regenerowanych i wytworzonych z recyklingu stają się obowiązkowe.",
     phase: "przyszlosc",
     category: ["prawo", "producent"],
     icon: Building2,
-    article: "Art. 6, Art. 93 ust. 6",
   },
   {
     date: "8 stycznia 2040",
@@ -250,7 +248,7 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
     category: ["prawo", "producent"],
     icon: CheckCircle2,
     important: true,
-    article: "Art. 93 ust. 12",
+    article: "Art. 94",
   },
 ];
 

@@ -78,7 +78,7 @@ Producent elastycznej membrany dachowej (EN 13956) zobowiązany jest deklarować
 | ~2027 | Oczekiwane akty delegowane dotyczące obowiązkowego GWP |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla membran innowacyjnych |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

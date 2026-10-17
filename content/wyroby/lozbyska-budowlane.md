@@ -83,7 +83,7 @@ Producent łożysk budowlanych zobowiązany jest do deklarowania w DoP&C następ
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD wydane na podstawie CPR 305/2011 |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA (dot. innowacyjnych łożysk) |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

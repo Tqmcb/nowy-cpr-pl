@@ -75,7 +75,7 @@ Dla okładzin ceramicznych i kamiennych GWP jest stosunkowo niski. Dla ACM z rdz
 | 8 stycznia 2027 | Stosowanie sankcji za naruszenia (Art. 92) |
 | 9 stycznia 2031 | Wygasają EAD; systemy na ETA muszą mieć nowe ETA lub normę |
 | 9 stycznia 2036 | Koniec możliwości stosowania starych ETA dla innowacyjnych systemów |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 

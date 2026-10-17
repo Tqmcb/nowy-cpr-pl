@@ -27,7 +27,7 @@ CPR 2024/3110 przewiduje, że DoP&C powinna być **dostępna online**. Od 8 styc
 - Przechowywania DoP&C przez 10 lat od daty wprowadzenia wyrobu do obrotu
 - Umożliwienia pobrania DoP&C (format PDF jest akceptowany)
 
-> **Ważne — przepisy przejściowe:** Producenci posiadający stary DoP wystawiony zgodnie z CPR 305/2011 **nie muszą go natychmiast zastępować** DoP&C. Artykuły 4–9 CPR 305/2011 pozostają stosowane do 8 stycznia 2040 (art. 93 CPR 2024/3110). Obowiązek cyfrowej dostępności w pełnym zakresie dotyczy DoP&C — nie starego DoP. Praktycznym momentem przejścia jest aktualizacja normy zharmonizowanej wyrobu (hEN → hTS) lub odnowienie certyfikatu JN.
+> **Ważne — przepisy przejściowe:** Producenci posiadający stary DoP wystawiony zgodnie z CPR 305/2011 **nie muszą go natychmiast zastępować** DoP&C. Artykuły 4–9 CPR 305/2011 pozostają stosowane do 8 stycznia 2040 (art. 94 i art. 95 ust. 8 CPR 2024/3110). Obowiązek cyfrowej dostępności w pełnym zakresie dotyczy DoP&C — nie starego DoP. Praktycznym momentem przejścia jest aktualizacja normy zharmonizowanej wyrobu (hEN → hTS) lub odnowienie certyfikatu JN.
 
 ### Co jeszcze nie jest obowiązkowe?
 

@@ -76,7 +76,7 @@ Najistotniejsze zmiany dla producentów drewna konstrukcyjnego wynikające z CPR
 | 8 stycznia 2026 | Rozpoczęcie stosowania przepisów ramowych CPR 2024/3110 |
 | 8 stycznia 2027 | Wejście w życie sankcji za naruszenia przepisów |
 | 9 stycznia 2031 | Wygaśnięcie EAD wydanych na podstawie CPR 305/2011 |
-| 7 stycznia 2040 | Koniec okresu przejściowego |
+| 8 stycznia 2040 | Koniec okresu przejściowego |
 
 Producenci, którzy uzyskali certyfikację pod CPR 305/2011, nie muszą automatycznie przechodzić na DoP&C z dniem 8 stycznia 2026. W praktyce moment przejścia będzie zależał od publikacji odpowiedniej hTS dla danej rodziny wyrobów oraz odnowienia certyfikacji.
 

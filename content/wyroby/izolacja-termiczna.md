@@ -87,7 +87,7 @@ Te wartości będą musiały być deklarowane w DoP&C i będą bezpośrednio wid
 | ~2028–2029 | Obowiązkowe deklarowanie GWP — po publikacji nowych hTS i upływie koegzystencji |
 | 2027–2028 | Rozbudowa bazy EPD dla wyrobów izolacyjnych (np. epd.org.pl) |
 | 9 stycznia 2031 | Wygasają EAD (w tym dla systemów ETICS na ETA) |
-| 7 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
+| 8 stycznia 2040 | Zakończenie pełnego okresu przejściowego |
 
 ## Przykłady wyrobów
 
