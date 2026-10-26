@@ -6,7 +6,7 @@ author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o.
 category: "Normy i regulacje"
 tags: ["CPR 2024", "EN 13282", "spoiwa hydrauliczne drogowe", "wniosek normalizacyjny", "akt delegowany 2026/1310", "znak budowlany B", "system 2+", "ZKP"]
 excerpt: "Pierwszy wniosek normalizacyjny pod CPR 2024/3110 obejmuje nową normę EN 13282 dla hydraulicznych spoiw drogowych szybko (E) i normalnie (N) wiążących. Spoiwa normalnie wiążące, dziś objęte PN-EN 13282-2 i znakiem budowlanym [B], zostaną objęte obowiązkiem oznakowania CE, gdy nowa norma stanie się obowiązkowa. Wyjaśniamy terminy, wymagania i stan obecny."
-image_url: /images/blog/cement-cpr-2024-normy-obowiazkowe-etykieta-sladu-weglowego.jpg
+image_url: /images/blog/spoiwa-drogowe-en13282-okladka-v2.jpg
 template: "regulacja"
 sources:
   - Decyzja wykonawcza Komisji C(2025) 4828 — załączniki (kopia ITB)|https://www.itb.pl/wp-content/uploads/2025/09/AnnexesC20254828_1.pdf

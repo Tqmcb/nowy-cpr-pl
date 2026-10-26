@@ -6,7 +6,7 @@ author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o.
 category: "Normy i regulacje"
 tags: ["CPR 2024", "EN 459-1", "wapno budowlane", "wapno hydrauliczne", "wniosek normalizacyjny", "akt delegowany 2026/1310", "system 2+", "EN 16908"]
 excerpt: "EN 459-1:2010 jest normą zharmonizowaną do rozporządzenia nr 305/2011. Wniosek normalizacyjny C(2025) 4828 przewiduje nową EN 459-1 do końca 2027 r. Wyjaśniamy, co zmieni się w deklarowaniu wapna wapniowego, dolomitowego i hydraulicznego, jakie systemy oceny przypisał akt delegowany 2026/1310 i na jakich zasadach obecna norma zachowuje ważność."
-image_url: /images/blog/cement-cpr-2024-normy-obowiazkowe-etykieta-sladu-weglowego.jpg
+image_url: /images/blog/wapno-budowlane-en459-okladka-v2.jpg
 template: "regulacja"
 sources:
   - Decyzja wykonawcza Komisji C(2025) 4828 — załączniki (kopia ITB)|https://www.itb.pl/wp-content/uploads/2025/09/AnnexesC20254828_1.pdf

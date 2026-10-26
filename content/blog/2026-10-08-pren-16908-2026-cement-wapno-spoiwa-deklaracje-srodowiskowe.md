@@ -6,7 +6,7 @@ author: "Redakcja NowyCPR.pl"
 category: "Normy i regulacje"
 tags: ["prEN 16908", "cement", "wapno budowlane", "spoiwa hydrauliczne", "EPD", "CPR 2024"]
 excerpt: "Projekt prEN 16908:2026 doprecyzowuje reguły środowiskowe dla cementu, wapna i innych spoiw hydraulicznych. Porównanie z wydaniem 2022 i znaczenie dla producentów."
-image_url: /images/blog/cement-cpr-2024-normy-obowiazkowe-etykieta-sladu-weglowego.jpg
+image_url: /images/blog/pren16908-cement-srodowisko-okladka-v2.jpg
 template: "aktualnosci"
 ---
 
