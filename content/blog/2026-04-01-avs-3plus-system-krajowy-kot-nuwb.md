@@ -6,7 +6,7 @@ author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o
 category: "Certyfikacja"
 tags: ["AVS 3+", "KOT", "NUWB", "system krajowy", "EPD", "CPR 2024", "certyfikacja", "wyroby budowlane"]
 excerpt: "AVS 3+ to nowy system weryfikacji EPD — ale czy dotyczy też wyrobów w systemie 4? Czy przy systemie 2+ będą dwa oddzielne audyty? I co z producentami działającymi w polskim systemie krajowym (KOT)? Odpowiadamy na te pytania krok po kroku."
-image_url: /images/blog/avs-3plus-walidacja-epd.jpg
+image_url: /images/blog/avs3plus-system-krajowy-okladka-v2.jpg
 template: "przewodnik"
 sources:
   - Rozporządzenie (UE) 2024/3110 — Załącznik IX (systemy AVS)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj

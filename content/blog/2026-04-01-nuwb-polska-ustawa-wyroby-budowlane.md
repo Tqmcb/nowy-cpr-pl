@@ -6,7 +6,7 @@ author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Prawo"
 tags: ["NUWB", "ustawa krajowa", "Polska", "CPR 2024", "MFiG", "GUNB", "implementacja"]
 excerpt: "CPR 2024/3110 stosuje się bezpośrednio, ale Polska potrzebuje nowej ustawy krajowej — NUWB — by uregulować kary, uprawnienia GUNB i wyznaczenie jednostek. Wyjaśniamy co ustawa musi zawierać, jaki jest aktualny status prac i co to oznacza dla producentów już teraz."
-image_url: /images/blog/nuwb-polska-ustawa-wyroby-budowlane.jpg
+image_url: /images/blog/cpr-przepisy.jpg
 template: "regulacja"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst|https://eur-lex.europa.eu/eli/reg/2024/3110/oj

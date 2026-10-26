@@ -6,7 +6,7 @@ author: "Redakcja NowyCPR.pl"
 category: "Normy i regulacje"
 tags: ["prEN 197-1", "cement", "cementy kompozytowe", "badania cementu", "CPR 2024"]
 excerpt: "Projekt prEN 197-1:2026 rozszerza zakres cementów i składników oraz zmienia sposób definiowania klas wytrzymałości. Co przewidziano dla producentów?"
-image_url: /images/blog/cement-cpr-2024-normy-obowiazkowe-etykieta-sladu-weglowego.jpg
+image_url: /images/blog/pren197-skladniki-cementu-okladka-v2.jpg
 template: "aktualnosci"
 ---
 
