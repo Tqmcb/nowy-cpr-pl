@@ -1,16 +1,16 @@
 ---
 title: "Projekt prEN 1015-18:2026: absorpcja kapilarna zapraw z wynikiem po 10 minutach"
-reviewed: "2026-10-09"
+reviewed: "2026-10-26"
 date: "2026-10-27"
 author: "Redakcja NowyCPR.pl"
 category: "Normy i regulacje"
 tags: ["prEN 1015-18", "zaprawy", "absorpcja wody", "metody badań", "EPD", "CPR 2024"]
-excerpt: "Projekt prEN 1015-18:2026 zastępuje wydanie z 2002 r.: zmienione przygotowanie próbek i wynik po 10 minutach w kg/m². Dwie niespójności projektu do wyjaśnienia w konsultacjach."
+excerpt: "Projekt prEN 1015-18:2026 ma zastąpić EN 1015-18:2002: zmienione przygotowanie próbek i, dla zapraw innych niż renowacyjne, wynik po 10 minutach w kg/m². Dwie niespójności projektu do wyjaśnienia w konsultacjach."
 image_url: /images/blog/pren-1015-18-2026-zaprawy-absorpcja-kapilarna.jpg
 template: "aktualnosci"
 ---
 
-Komitet techniczny CEN/TC 125 Europejskiego Komitetu Normalizacyjnego (CEN) skierował do ankiety projekt prEN 1015-18:2026, metody oznaczania współczynnika absorpcji wody spowodowanej podciąganiem kapilarnym w stwardniałej zaprawie. Oznaczenie prEN informuje o projekcie normy europejskiej; dokument ma zastąpić EN 1015-18:2002. Dansk Standard przyjmuje uwagi do 7 grudnia 2026 r. na [karcie projektu](https://forslagskommentering.ds.dk/Home/Details/28661); stan projektu i konsultacji sprawdzono 9 października 2026 r.
+Komitet techniczny CEN/TC 125 Europejskiego Komitetu Normalizacyjnego (CEN) skierował do ankiety projekt prEN 1015-18:2026, metody oznaczania współczynnika absorpcji wody spowodowanej podciąganiem kapilarnym w stwardniałej zaprawie. Oznaczenie prEN informuje o projekcie normy europejskiej; dokument ma zastąpić EN 1015-18:2002. Dansk Standard przyjmuje uwagi do 7 grudnia 2026 r. na [karcie projektu](https://forslagskommentering.ds.dk/Home/Details/28661); stan projektu i konsultacji sprawdzono 26 października 2026 r.
 
 ## Zakres szerszy niż sugeruje tytuł
 
@@ -39,7 +39,7 @@ Projekt rozszerza sprawozdanie, a zmiana przygotowania próbek może przesunąć
 | Użycie bibuły i gazy w formie, temperatura suszenia, kryterium stałej masy | Dziennik laboratoryjny | Wyjaśnienie różnic między starymi i nowymi wynikami |
 | Liczba próbek, sposób uszczelnienia, głębokość zanurzenia | Dziennik laboratoryjny | Ustalenie, według której wersji wykonano badanie |
 | Masy M1 i M2 oraz czas ważenia | Arkusz pomiarowy | Odtworzenie współczynnika; ocena kompletności danych do wyniku po 10 minutach |
-| Dla zapraw renowacyjnych: M0, M3 i wysokość wniknięcia wody | Arkusz pomiarowy | Pełny zestaw wyników wymagany w sprawozdaniu |
+| Dla zapraw renowacyjnych: M0, M3 i wysokość wniknięcia wody | Arkusz pomiarowy | Dane do obliczenia absorpcji i przygotowania wyników do sprawozdania |
 | Deklarowana wartość absorpcji w dokumentacji wyrobu | Deklaracja właściwości użytkowych, karta techniczna | Czy wynik według projektu nadal potwierdza deklarowaną wartość lub kategorię |
 
 Zalecenie redakcji: przechowywać surowe masy i czasy ważenia wraz z wersją arkusza obliczeniowego. Po wyjaśnieniu wzoru należy sprawdzić, czy zachowane dane wystarczą do obliczenia wyniku. Nie można z góry wykluczyć potrzeby dodatkowych pomiarów, zwłaszcza gdy nie zapisano masy suchej.
@@ -52,6 +52,6 @@ EN 1015-18 jest metodą badania; nie jest zharmonizowaną normą wyrobu i sama n
 
 [Plan prac Komisji](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772) w tabeli 3 wymienia zaprawy w rodzinach wyrobów murowych oraz wyrobów związanych z betonem, zaprawą i zaczynem, dla których prace są w toku; daty w planie są orientacyjne i nie dotyczą tej metody z osobna.
 
-Współczynnik absorpcji jest właściwością techniczną. Nie jest wynikiem oceny cyklu życia (LCA) i nie zastępuje danych o surowcach, energii i odpadach z zakładu, które są potrzebne do deklaracji środowiskowej produktu (EPD). Sposób przygotowania takich danych dla zapraw i innych wyrobów chemii budowlanej opisano na stronie o [EPD dla chemii budowlanej](https://epd.org.pl/epd-dla-chemii-budowlanej/). Wydane deklaracje można sprawdzić w [rejestrze EPD Polska](https://epdportal.org/epd-list/), a zakresy deklaracji z różnych źródeł zestawić w [wyszukiwarce EPD](https://epdportal.org/epd-search/), która nie weryfikuje każdej znalezionej deklaracji.
+Współczynnik absorpcji jest właściwością techniczną. Nie jest wynikiem oceny cyklu życia (LCA) i nie zastępuje danych o surowcach, energii i odpadach z zakładu, które są potrzebne do deklaracji środowiskowej produktu (EPD). Informacje o opracowaniu EPD dla zapraw i innych wyrobów chemii budowlanej znajdują się na stronie o [EPD dla chemii budowlanej](https://epd.org.pl/epd-dla-chemii-budowlanej/). Wydane deklaracje można sprawdzić w [rejestrze EPD Polska](https://epdportal.org/epd-list/), a deklaracje z różnych źródeł odszukać w [wyszukiwarce EPD](https://epdportal.org/epd-search/); ich zakresy należy porównywać w dokumentach źródłowych.
 
 [Rozporządzenie delegowane (UE) 2026/1310, załącznik II, wiersz 10](https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=OJ:L_202601310) przypisuje system 3+ zrównoważeniu środowiskowemu. System 4 z załącznika I ma pierwszeństwo tylko dla charakterystyk, do których mają zastosowanie warunki uznawania za spełnienie określonych wymagań z art. 1 ust. 1–2 tego aktu. Termin zastosowania tego przypisania do konkretnego wyrobu wymaga sprawdzenia właściwej specyfikacji i przepisów przejściowych CPR. [Załącznik IX pkt 4 CPR](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) przewiduje walidację danych wejściowych, założeń, oceny producenta, procesu i prawidłowego wykorzystania oprogramowania oraz wstępną inspekcję zakładu dotyczącą danych przedsiębiorstwa. Dokumentem wynikowym jest sprawozdanie z walidacji. Weryfikacja dobrowolnej EPD nie zastępuje automatycznie tej procedury. Projekt metody badania absorpcji nie uruchamia sam obowiązku korzystania z systemu 3+.
