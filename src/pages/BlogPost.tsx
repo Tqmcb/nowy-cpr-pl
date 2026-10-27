@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import type { BlogPost as BlogPostType } from "../utils/blogLoader";
 import { getPostBySlug } from "../utils/blogLoader";
-import { getAuthorSlug } from "../data/authors";
+import { getAuthorSlug, getArticleAuthors } from "../data/authors";
 import type { ProductFamily } from "../utils/wyrobLoader";
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -1352,15 +1352,11 @@ export default function BlogPost() {
     "headline": post.title,
     "description": description,
     "image": imageUrl,
-    "author": {
+    "author": getArticleAuthors(post.author).map(author => ({
       "@type": "Person",
-      "name": post.author,
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Multicert Sp. z o.o.",
-        "url": "https://www.nowycpr.pl"
-      }
-    },
+      "name": author.name,
+      "url": `https://www.nowycpr.pl/autor/${author.slug}/`,
+    })),
     "publisher": {
       "@type": "Organization",
       "name": "NowyCPR.pl — Multicert Sp. z o.o.",

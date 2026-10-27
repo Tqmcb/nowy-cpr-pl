@@ -2,7 +2,7 @@
 title: "Projekt prEN 197-1:2026: nowe cementy, składniki i zasady oceny"
 reviewed: "2026-10-08"
 date: "2026-10-08"
-author: "Redakcja NowyCPR.pl"
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 197-1", "cement", "cementy kompozytowe", "badania cementu", "CPR 2024"]
 excerpt: "Projekt prEN 197-1:2026 rozszerza zakres cementów i składników oraz zmienia sposób definiowania klas wytrzymałości. Co przewidziano dla producentów?"

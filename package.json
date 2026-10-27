@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/verify-blog-authors.mjs",
     "build": "vite build",
     "postbuild": "node scripts/prerender.mjs && node scripts/generate-blog-pdfs.mjs",
     "gsc": "node scripts/search-console.mjs",

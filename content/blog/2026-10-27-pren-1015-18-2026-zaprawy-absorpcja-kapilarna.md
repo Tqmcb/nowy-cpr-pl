@@ -2,7 +2,7 @@
 title: "Projekt prEN 1015-18:2026: absorpcja kapilarna zapraw z wynikiem po 10 minutach"
 reviewed: "2026-10-26"
 date: "2026-10-27"
-author: "Redakcja NowyCPR.pl"
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 1015-18", "zaprawy", "absorpcja wody", "metody badań", "EPD", "CPR 2024"]
 excerpt: "Projekt prEN 1015-18:2026 ma zastąpić EN 1015-18:2002: zmienione przygotowanie próbek i, dla zapraw innych niż renowacyjne, wynik po 10 minutach w kg/m². Dwie niespójności projektu do wyjaśnienia w konsultacjach."
