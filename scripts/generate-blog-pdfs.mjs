@@ -15,7 +15,7 @@
 import { chromium } from 'playwright';
 import { marked } from 'marked';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
-import { join, dirname } from 'path';
+import { join, dirname, resolve, extname, sep } from 'path';
 import { fileURLToPath } from 'url';
 import { publishedBlogFiles } from './blog-publication.mjs';
 
@@ -192,6 +192,8 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
   .byline-sigil { flex-shrink: 0; line-height: 0; }
   .byline-sigil svg, .byline-sigil img { width: 30pt; height: 30pt; display: block; border-radius: 50%; object-fit: cover; }
 
+  .content img { display: block; max-width: 100%; max-height: 140mm; width: auto; height: auto; margin: 14pt auto; object-fit: contain; break-inside: avoid; }
+
   /* ── Treść ────────────────────────────────────────────── */
   .content { margin-top: 16pt; }
 
@@ -322,7 +324,17 @@ export function renderPostHtml(src, slug) {
   const title = meta.title || slug;
   // Usuń wiodący nagłówek H1 z treści — tytuł pokazuje masthead
   const bodyNoH1 = body.replace(/^\s*#\s+.+\n+/, '');
-  const htmlBody = marked.parse(bodyNoH1, { gfm: true, breaks: false });
+  const imageRoot = resolve(rootDir, 'public', 'images') + sep;
+  const imageTypes = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp', gif: 'image/gif', svg: 'image/svg+xml' };
+  const htmlBody = marked.parse(bodyNoH1, { gfm: true, breaks: false }).replace(
+    /(<img\b[^>]*?\bsrc=["'])(\/images\/[^"']+)(["'])/g,
+    (match, prefix, source, suffix) => {
+      const imagePath = resolve(rootDir, 'public', '.' + source);
+      const mime = imageTypes[extname(imagePath).slice(1).toLowerCase()];
+      if (!imagePath.startsWith(imageRoot) || !mime || !existsSync(imagePath)) return match;
+      return `${prefix}data:${mime};base64,${readFileSync(imagePath).toString('base64')}${suffix}`;
+    },
+  );
   return buildHtml({
     title,
     author: meta.author || '',
