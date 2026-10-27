@@ -1,64 +1,62 @@
 ---
-title: "Urządzenia grzewcze a CPR 2024 — dlaczego zrównoważenie rozstrzyga ESPR, a nie nowy CPR"
-reviewed: "2026-10-26"
+title: "Urządzenia grzewcze: jakie znaczenie mają CPR i przepisy o ekoprojekcie"
+reviewed: "2026-10-27"
 date: "2026-10-26"
 author: "dr inż. Robert Dynarowski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["CPR 2024", "ESPR", "urządzenia grzewcze", "pompy ciepła", "ekoprojekt", "zrównoważenie", "produkty związane z energią", "rozporządzenie 2024/1781"]
-excerpt: "Ogrzewacze, kotły i pompy ciepła są wyrobami budowlanymi, ale ich wymagania środowiskowe ustala nie nowy CPR, lecz rozporządzenie o ekoprojekcie ESPR. Wyjaśniamy, co przesądza motyw 32 CPR, które produkty obejmuje ten wyjątek, co zostaje po stronie CPR i co to oznacza dla producenta urządzeń związanych z energią."
-image_url: /images/blog/urzadzenia-grzewcze-cpr-espr-zrownowazenie.jpg
+excerpt: "Czy wymagania środowiskowe dla kotłów, pomp ciepła i wentylacji wynikają z CPR, czy z przepisów o ekoprojekcie? Wyjaśniamy podział wymagań i sposób ustalania obowiązków dla konkretnego urządzenia."
+image_url: /images/blog/urzadzenia-grzewcze-cpr-ekoprojekt.webp
 template: "regulacja"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
-  - Rozporządzenie (UE) 2024/1781 — ESPR, ramy ekoprojektu|https://eur-lex.europa.eu/eli/reg/2024/1781/oj
+  - Rozporządzenie (UE) 2024/1781 — ramy wymogów dotyczących ekoprojektu (PL)|https://eur-lex.europa.eu/eli/reg/2024/1781/oj/pol
+  - Plan prac Komisji na lata 2026–2029, COM(2025) 772 (EUR-Lex)|https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772
+  - Komisja Europejska — prace nad ekoprojektem i plany prac|https://energy-efficient-products.ec.europa.eu/policy-making-0_en
 ---
 
-# Urządzenia grzewcze a CPR 2024 — dlaczego zrównoważenie rozstrzyga ESPR
+Producent kotłów, pomp ciepła albo central wentylacyjnych pyta: skąd będą pochodzić wymagania środowiskowe dla moich urządzeń? Z nowego [rozporządzenia (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR) czy z przepisów o ekoprojekcie? Ekoprojekt uwzględnia aspekty zrównoważenia środowiskowego w cechach produktu i w całym jego łańcuchu wartości. Łańcuch wartości obejmuje działania i procesy wchodzące w cykl życia produktu. Podział wymagań pomagają zrozumieć dwa fragmenty CPR: motyw 32 oraz art. 12 ust. 2. Mają one różną rolę prawną.
 
-Ogrzewacze, kotły, pompy ciepła i systemy wentylacji bywają wbudowane w obiekt na stałe, więc naturalnie pojawia się pytanie, czy podlegają nowemu CPR i jego wymaganiom środowiskowym. Odpowiedź jest nietypowa: te wyroby istotnie należą do świata budowlanego, ale **ich wymagania dotyczące zrównoważenia ustala nie nowy CPR, lecz rozporządzenie o ekoprojekcie (ESPR)**. To jeden z nielicznych wyjątków, w których rozporządzenie o wyrobach budowlanych świadomie ustępuje pierwszeństwa innemu aktowi.
+## Czym jest motyw w akcie prawnym UE
 
-W tym artykule wyjaśniamy, co przesądza w tej sprawie [CPR 2024/3110](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol), które produkty obejmuje wyjątek, co mimo to zostaje po stronie CPR i co cała ta konstrukcja oznacza dla producenta urządzeń związanych z energią.
+Rozporządzenie UE zaczyna się od preambuły, czyli części, w której prawodawca uzasadnia przyjęte rozwiązania. Preambuła składa się z numerowanych punktów nazywanych motywami. Motyw 32 to więc 32. punkt preambuły CPR. Nie jest artykułem i sam nie ustanawia obowiązków producenta. Pomaga natomiast zrozumieć cel przepisów. Obowiązki wynikają z artykułów rozporządzenia i z aktów przyjętych na ich podstawie.
 
-## Produkty na styku dwóch rozporządzeń
+## Jak CPR opisuje podział wymagań
 
-Nowy CPR i [rozporządzenie ESPR (UE) 2024/1781](https://eur-lex.europa.eu/eli/reg/2024/1781/oj) zostały zaprojektowane jako spójne ramy. CPR jest rozwijany w linii z ESPR, ale z przepisami dostosowanymi do specyfiki sektora budowlanego, i to on ma być co do zasady aktem harmonizującym wszystkie istotne aspekty wyrobów budowlanych — w tym aspekty zrównoważenia, nawet jeśli te same kwestie mogłoby objąć ESPR.
+Według motywu 32 CPR, z nielicznymi wyjątkami, ma harmonizować wszystkie odpowiednie aspekty wyrobów budowlanych, także zrównoważoność. Dotyczy to również kwestii, które mogłoby objąć [rozporządzenie (UE) 2024/1781](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/pol) ustanawiające ramy wymogów dotyczących ekoprojektu dla zrównoważonych produktów (w skrócie ESPR).
 
-Istnieje jednak grupa wyrobów, które są jednocześnie wyrobami budowlanymi i **produktami związanymi z energią** ujętymi w planach prac dotyczących ekoprojektu. To właśnie dla nich ustawodawca przewidział odwrócenie zwykłej kolejności.
+Wyjątek obejmuje dwie grupy:
 
-## Co przesądza motyw 32 CPR
+- produkty związane z energią ujęte w planach prac dotyczących ekoprojektu, które są jednocześnie wyrobami budowlanymi,
+- produkty pośrednie w rozumieniu ESPR.
 
-Kluczowe rozstrzygnięcie zawiera motyw 32 rozporządzenia. Stanowi on, że w przypadku produktów związanych z energią ujętych w planach prac dotyczących ekoprojektu, które są zarazem wyrobami budowlanymi — **z wyjątkiem cementu** — pierwszeństwo w ustanawianiu wymagań dotyczących zrównoważenia przypada rozporządzeniu ESPR. Innymi słowy: dla tych wyrobów to ekoprojekt, a nie nowy CPR, jest aktem wiodącym w kwestiach środowiskowych.
+Produkt związany z energią to taki, którego używanie wpływa na zużycie energii. Produkt pośredni wymaga jeszcze obróbki lub przekształcenia, np. mieszania, powlekania albo montażu, aby nadawał się dla użytkownika końcowego. Oba pojęcia definiuje art. 2 ESPR. Samo spełnienie definicji produktu pośredniego nie rozstrzyga obowiązków: trzeba sprawdzić szczegółowe przepisy dla danej grupy produktów.
 
-Rozporządzenie wymienia wprost, o jakie produkty chodzi. Wyjątek dotyczy między innymi:
+Dla tych grup pierwszeństwo w ustalaniu wymagań w zakresie zrównoważonego rozwoju ma mieć rozporządzenie w sprawie ekoprojektu. W grupie produktów pośrednich wyłączono z tego rozwiązania cement. Dla niego motyw 32 zachowuje ogólną zasadę ustalania wymagań według CPR.
 
-- ogrzewaczy, kotłów i pomp ciepła,
-- urządzeń do podgrzewania wody i ogrzewania pomieszczeń,
-- wentylatorów oraz systemów chłodzenia i wentylacji,
-- produktów fotowoltaicznych — z wyłączeniem paneli zintegrowanych z budynkiem.
+Jako przykłady motyw wymienia źródła ciepła, kotły, pompy ciepła, urządzenia do ogrzewania wody i pomieszczeń, wentylatory, systemy chłodzenia i wentylacji oraz produkty fotowoltaiczne. Z tego przykładu wyłączono panele fotowoltaiczne zintegrowane z budynkiem. Lista ma charakter przykładowy. Nie oznacza wyłączenia każdego urządzenia grzewczego z CPR. Trzeba sprawdzić zakres właściwych przepisów i to, czy produkt ujęto w planie prac dotyczącym ekoprojektu. Taki plan wskazuje priorytety prac Komisji dla grup produktów. [Komisja udostępnia aktualny plan na lata 2025–2030 i wcześniejsze plany](https://energy-efficient-products.ec.europa.eu/policy-making-0_en).
 
-Dla tej listy obowiązki w zakresie zrównoważenia — takie jak wymagania środowiskowe cyklu życia — będą wynikać z ESPR i jego aktów wykonawczych, a nie z mechanizmu wymagań środowiskowych nowego CPR, który porządkujemy w artykule o [obowiązkowym śladzie węglowym GWP](/blog/gwp-obowiazkowe-cpr-2024).
+Motyw dodaje, że w razie potrzeby CPR nadal ma mieć zastosowanie uzupełniające, głównie w odniesieniu do bezpieczeństwa. Trzeba przy tym uwzględnić inne przepisy UE, np. o urządzeniach gazowych, urządzeniach niskiego napięcia i maszynach.
 
-## Co mimo to zostaje po stronie CPR
+[Plan prac Komisji do CPR, COM(2025) 772](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772) zapowiada też poszerzenie grupy wyrobów nr 27 z załącznika VII CPR. Obecnie dotyczy ona urządzeń do ogrzewania pomieszczeń, a ma objąć wszystkie urządzenia grzewcze i chłodzące. Plan jest zapowiedzią, a nie przepisem, ale pokazuje, że takie urządzenia pozostają w zakresie prac nad CPR.
 
-Wyjątek nie oznacza, że urządzenia grzewcze całkowicie wypadają z reżimu wyrobów budowlanych. Motyw 32 zastrzega, że CPR **nadal stosuje się w sposób komplementarny tam, gdzie jest to potrzebne — głównie w odniesieniu do aspektów bezpieczeństwa** — z uwzględnieniem innych przepisów unijnych dotyczących tych produktów, na przykład prawa o urządzeniach spalających paliwa gazowe, sprzęcie niskonapięciowym i maszynach.
+## Co rozstrzyga art. 12 ust. 2 CPR
 
-Istotne jest też domknięcie na wypadek sprzeczności: w razie konfliktu z rozporządzeniem ESPR **pierwszeństwo mają odpowiednie przepisy CPR**. Konstrukcja jest więc precyzyjna — pierwszeństwo dla zrównoważenia idzie do ekoprojektu, ale to nie pozbawia CPR roli w pozostałych aspektach ani prymatu w sytuacji kolizji przepisów.
+Wiążącą regułę na wypadek kolizji zawiera art. 12 ust. 2 CPR: „W razie kolizji między niniejszym rozporządzeniem a rozporządzeniem (UE) 2024/1781 i rozporządzeniem (UE) nr 1025/2012 pierwszeństwo mają odpowiednie przepisy niniejszego rozporządzenia”. Rozporządzenie nr 1025/2012 dotyczy normalizacji europejskiej. Motyw 32 zawiera podobne zdanie, ale podstawą tej reguły jest artykuł.
 
-## Co to oznacza dla producenta
+Motyw i artykuł pełnią więc różne funkcje. Motyw wyjaśnia, który akt ma być podstawą wymagań w zakresie zrównoważonego rozwoju dla wymienionych produktów. Artykuł rozstrzyga, które przepisy stosować, gdy wymagania obu rozporządzeń wzajemnie się wykluczają.
 
-Dla producenta urządzeń związanych z energią praktyczny wniosek jest taki, że trzeba czytać dwa reżimy naraz i nie mylić ich zakresów:
+## Jak ustalić wymagania dla konkretnego urządzenia
 
-- **Wymagania środowiskowe wyrobu śledzić po stronie ESPR.** To rozporządzenie o ekoprojekcie i jego akty wykonawcze, a nie nowy CPR, ustalą wymagania dotyczące zrównoważenia dla ogrzewaczy, kotłów, pomp ciepła czy wentylacji.
-- **Aspekty bezpieczeństwa i pozostałe obowiązki czytać po stronie CPR oraz prawa sektorowego.** Tu w grę wchodzi również prawo o urządzeniach gazowych, niskonapięciowych i maszynach.
-- **Pamiętać o wyjątku dla cementu.** Cement, choć bywa rozpatrywany w kontekście dekarbonizacji, nie korzysta z tego odwrócenia — pozostaje w zwykłym reżimie wymagań CPR.
-- **Nie przenosić mechanicznie wymagań GWP z CPR na te wyroby.** Ślad węglowy i inne wskaźniki dla urządzeń związanych z energią będą wynikać z ekoprojektu, co odróżnia je od typowych wyrobów budowlanych objętych [czterema ścieżkami harmonizacji CPR](/blog/cztery-sciezki-harmonizacji-cpr-2024).
+Sama preambuła nie wystarczy do ustalenia obowiązków. Podstawę oceny wskazują właściwe dokumenty. Zharmonizowane specyfikacje techniczne obejmują obowiązkowe normy dotyczące właściwości użytkowych oraz określone akty Komisji. Europejski dokument oceny służy do wydawania europejskich ocen technicznych, czyli ocen właściwości konkretnych wyrobów. Zasadnicze charakterystyki to cechy wyrobu wskazane w CPR, w tym cechy środowiskowe. Dla konkretnego urządzenia trzeba sprawdzić:
 
-Granicę między danymi o wyrobie a wymaganiami cyfrowymi obu reżimów pomaga zrozumieć też artykuł o [cyfrowym paszporcie produktu](/blog/cyfrowy-paszport-produktu-dpp-cpr-2024), który w nowym CPR jest budowany w spójności z paszportem przewidzianym w ESPR.
+1. **Podstawę oceny według CPR.** Czy urządzenie jest objęte zharmonizowaną specyfikacją techniczną albo europejskim dokumentem oceny? Jakie zasadnicze charakterystyki, także środowiskowe, trzeba deklarować?
+2. **Przepisy o ekoprojekcie.** Czy obejmują dane urządzenie lub produkt pośredni, jaki mają zakres i od kiedy się je stosuje?
+3. **Pozostałe przepisy UE.** Jakie wymagania wynikają np. z przepisów o urządzeniach gazowych, urządzeniach niskiego napięcia i maszynach?
+4. **Ewentualną kolizję wymagań.** Jeżeli wymagania wzajemnie się wykluczają, zastosowanie ma art. 12 ust. 2 CPR.
 
-## Podsumowanie
-
-Urządzenia grzewcze i inne produkty związane z energią — ogrzewacze, kotły, pompy ciepła, wentylacja, a także produkty fotowoltaiczne poza panelami zintegrowanymi z budynkiem — to wyroby na styku dwóch rozporządzeń. Motyw 32 nowego CPR przesądza, że pierwszeństwo w ustanawianiu wymagań dotyczących zrównoważenia ma dla nich rozporządzenie o ekoprojekcie ESPR, z wyraźnym wyjątkiem cementu. CPR pozostaje przy tym aktem komplementarnym, głównie w zakresie bezpieczeństwa, a w razie konfliktu przepisów to jego postanowienia mają pierwszeństwo. Dla producenta oznacza to jedno: wymagania środowiskowe tych urządzeń trzeba śledzić po stronie ESPR, a nie szukać ich w mechanizmie środowiskowym nowego CPR.
+Zakres i terminy obowiązków wynikają z tych przepisów, a nie z samej preambuły ani z planów prac. Wymagań dotyczących śladu węglowego z CPR, opisanych w artykule o [obliczaniu wpływu wyrobu na klimat według CPR](/blog/gwp-obowiazkowe-cpr-2024), nie należy przenosić na urządzenie bez sprawdzenia jego specyfikacji. Nie należy też zakładać, że wszystkie wymagania środowiskowe dla urządzenia znajdą się w przepisach o ekoprojekcie. Sposoby wprowadzania wymagań dla grup wyrobów w CPR opisujemy w artykule o [czterech ścieżkach harmonizacji](/blog/cztery-sciezki-harmonizacji-cpr-2024).
 
 ---
 
-*Produkujesz urządzenia grzewcze lub inne produkty związane z energią i masz pytania o to, które obowiązki wynikają z CPR, a które z ekoprojektu? Napisz do nas: biuro@multicert.pl*
+*Pytania o to, które obowiązki dla urządzeń grzewczych wynikają z CPR, a które z przepisów o ekoprojekcie, można kierować na adres: biuro@multicert.pl*

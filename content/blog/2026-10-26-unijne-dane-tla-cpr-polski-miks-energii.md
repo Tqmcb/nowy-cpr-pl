@@ -4,8 +4,8 @@ reviewed: "2026-10-27"
 date: "2026-10-26"
 author: "Mikołaj Junosza-Szaniawski | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko i LCA"
-tags: ["CPR 2024", "zbiory danych tła", "energia elektryczna", "miks rezydualny", "ocena cyklu życia", "EPD", "EN 15804"]
-excerpt: "Dane tła opisują m.in. wytwarzanie energii i pozwalają obliczyć wpływ jej zużycia na środowisko. Wyjaśniamy zakres unijnego zamówienia i różnice między miksami energii dla Polski."
+tags: ["CPR 2024", "zbiory danych tła", "energia elektryczna", "miks rezydualny", "ocena cyklu życia", "EPD", "EN 15804", "EU ETS"]
+excerpt: "Dane tła opisują m.in. wytwarzanie energii i pozwalają obliczyć wpływ jej zużycia na środowisko. Wyjaśniamy zakres unijnego zamówienia, różnice między miksami energii dla Polski i sposób sprawdzania aktualności danych."
 image_url: /images/blog/unijne-dane-tla-cpr-polski-miks-energii.jpg
 template: "regulacja"
 sources:
@@ -13,6 +13,11 @@ sources:
   - Przetarg EC-GROW/2025/OP/0101 — ogłoszenie i specyfikacja, portal Funding & Tenders|https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/627f4c62-9362-4147-ab7f-29ea48624f89-PIN
   - GreenDelta — projekt „Life Cycle Information for CPR Compliance”|https://www.greendelta.com/project/cprcompliance/
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
+  - JRC — wykaz odpowiedników zbiorów EF 2.0 i EF 3.1 (XLSX)|https://eplca.jrc.ec.europa.eu/permalink/MAPPED_EF2.0_EF3.1_datasets.xlsx
+  - JRC — Nodes containing EF data|https://knowledge-for-policy.ec.europa.eu/european-platform-life-cycle-assessment-eplca/topic/node-registered-pef/oef-0_en
+  - Komisja Europejska — EU ETS: monitorowanie, raportowanie i weryfikacja|https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/monitoring-reporting-and-verification_en
+  - TED — ogłoszenie o udzieleniu zamówienia EC-GROW/2025/OP/0101, 26649-2026|https://ted.europa.eu/en/notice/-/detail/26649-2026
+  - EN 15941:2024 — jakość i dobór danych do oceny środowiskowej, katalog EVS|https://www.evs.ee/en/evs-en-15941-2024
   - AIB — misja stowarzyszenia|https://www.aib-net.org/aib/mission
   - AIB — European Residual Mix|https://www.aib-net.org/facts/european-residual-mix
   - poLCA — profil energii Polska 2025 v4: metoda, źródła i status|https://polca.org.pl/energia-polska-2025-v4.html
@@ -20,7 +25,7 @@ sources:
 
 Zakład produkujący wyroby budowlane wie z liczników i faktur, ile kilowatogodzin energii elektrycznej zużył. Ta liczba nie mówi jednak, jaki wpływ na środowisko ma to zużycie. Do obliczenia tego wpływu potrzebna jest informacja, jak energię wytworzono i dostarczono: z jakich źródeł, z jakimi emisjami i jakim zużyciem zasobów. Gotowy opis takiego procesu, na przykład dostarczenia 1 kWh energii elektrycznej, nazywa się danymi tła. Producent stosuje go razem z danymi własnego zakładu.
 
-Komisja Europejska zamówiła wspólne, unijne zbiory danych tła dla producentów wyrobów objętych [rozporządzeniem (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR). Dla Polski zamówienie obejmuje m.in. dwa zbiory dotyczące energii elektrycznej z sieci. W specyfikacji noszą one nazwy „miks sieciowy 1–60 kV” i „miks rezydualny”.
+Komisja Europejska zamówiła wspólne, unijne zbiory danych tła dla producentów wyrobów objętych [rozporządzeniem (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR). Dla Polski zamówienie obejmuje m.in. dwa zbiory dotyczące energii elektrycznej z sieci: „electricity grid mix 1kv-60kv” i „electricity residual grid mix”. Dalej używamy ich polskich nazw w tłumaczeniu redakcji: „miks sieciowy 1–60 kV” i „miks rezydualny”.
 
 Zasady doboru danych zależą od celu obliczeń i wymagań dla wyrobu. W osobnym artykule wyjaśniamy, [jak dobierać dane tła do deklaracji środowiskowej wyrobu (EPD) i co CPR przewiduje dla obliczeń środowiskowych](/blog/cpr-bazy-danych-srodowiskowych-ef-4-0/).
 
@@ -36,7 +41,7 @@ W obliczeniach łączy się dwa rodzaje danych. Dane specyficzne pochodzą z zak
 
 [Plan prac Komisji do CPR na lata 2026–2029, COM(2025) 772](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772) zapowiada europejskie zbiory danych tła dla producentów. W pierwszej kolejności mają one objąć rodziny wyrobów, dla których powstaną pierwsze normy zharmonizowane uwzględniające zrównoważenie środowiskowe. Według planu zbiory mają być stosowane obowiązkowo tam, gdzie dane specyficzne dla przedsiębiorstwa nie są łatwo dostępne albo ich pozyskanie jest drogie. Komisja chce w ten sposób ograniczyć wybieranie danych tylko dlatego, że dają wyrobowi najkorzystniejszy wynik.
 
-Plan przedstawia zamierzenia Komisji i sam nie ustanawia szczegółowego obowiązku. Wcześniejsze zapowiedzi planu omówiliśmy w artykule o [zbiorach danych tła i danych z unijnego systemu handlu uprawnieniami do emisji](/blog/zbiory-danych-tla-dane-ets-slad-srodowiskowy-wyrobu).
+Plan przedstawia zamierzenia Komisji i sam nie ustanawia szczegółowego obowiązku.
 
 ## Co obejmuje zamówienie i zakres dla Polski
 
@@ -44,7 +49,24 @@ Zbiory powstają w ramach [przetargu EC-GROW/2025/OP/0101](https://ec.europa.eu/
 
 Dla Polski specyfikacja wymienia dwanaście zbiorów dotyczących energii elektrycznej. Dziesięć opisuje wytwarzanie energii z poszczególnych źródeł: biogazu, biomasy stałej, gazu węglowego, węgla kamiennego, ciężkiego oleju opałowego, energii wodnej, węgla brunatnego, gazu ziemnego, energii słonecznej i energii wiatru. Dwa dotyczą energii z sieci: „miks sieciowy 1–60 kV” i „miks rezydualny”.
 
-Projekt realizuje konsorcjum kierowane przez [GreenDelta](https://www.greendelta.com/project/cprcompliance/). Wykonawca podaje okres projektu: luty–sierpień 2026 r. Jest to okres prac, a nie data publicznego udostępnienia zbiorów. Na podstawie źródeł tej daty nie da się ustalić. Rok danych, wersję i zakres każdego zbioru trzeba sprawdzić w jego dokumentacji.
+W [ogłoszeniu o udzieleniu zamówienia](https://ted.europa.eu/en/notice/-/detail/26649-2026) wymieniono GreenDelta, Ecoinnovazione i EBP Schweiz. [GreenDelta opisuje swoją rolę jako kierowanie projektem](https://www.greendelta.com/project/cprcompliance/) i podaje okres prac: luty–sierpień 2026 r. Jest to okres prac, a nie data publicznego udostępnienia zbiorów. Na podstawie źródeł tej daty nie da się ustalić.
+
+## Jak sprawdzić aktualność danych dla Polski
+
+Rok, którego dotyczą dane o procesie, nazywa się rokiem odniesienia. Trzeba odróżnić go od roku wydania bazy i roku publikacji pliku. Nowa edycja bazy nie jest dowodem, że każdy zawarty w niej proces opisuje nowszy okres.
+
+Konkretny przykład dotyczy polskiej energii elektrycznej. Wspólne Centrum Badawcze Komisji (JRC) udostępnia [wykaz odpowiedników zbiorów EF 2.0 i EF 3.1](https://eplca.jrc.ec.europa.eu/permalink/MAPPED_EF2.0_EF3.1_datasets.xlsx), który pomaga zastąpić starsze zbiory nowszymi. Według [strony JRC](https://knowledge-for-policy.ec.europa.eu/european-platform-life-cycle-assessment-eplca/topic/node-registered-pef/oef-0_en) wykaz uzupełniano do czerwca 2023 r. Jeden z wpisów opisuje profil energii elektrycznej z polskiej sieci o napięciu 1–60 kV. Dostawcą tego zbioru danych EF 3.1 jest Sphera, a podany rok odniesienia to 2012. Sam rok nie pozwala ustalić, czy i jak zmieniono model względem wcześniejszej wersji.
+
+Ten wpis trzeba czytać w kontekście. Jest to jeden wiersz historycznego wykazu. Nie wynika z niego, że wszystkie dane Sphery, innych dostawców ani wszystkie obecnie dostępne dane dla Polski pochodzą z 2012 r. Ta sama strona JRC wymienia osobny zbiór danych Sphery, częściowo zgodny z EF, z zaktualizowanymi danymi m.in. o energii elektrycznej, dostępny do 2030 r.
+
+Według specyfikacji zamówienia polski „miks sieciowy 1–60 kV” ma powstać na podstawie istniejących danych EF, w razie potrzeby uzupełnionych innymi źródłami. Specyfikacja wymaga zgodności z EN 15804 i EN 15941 i podkreśla potrzebę danych wysokiej jakości, regularnie aktualizowanych. Na podstawie dostępnych dokumentów nie można ustalić, jaki rok odniesienia będzie miał gotowy zbiór. Gdyby dostosowanie objęło głównie format i wskaźniki, a nie dane o źródłach energii, profil mógłby opisywać strukturę wytwarzania sprzed wielu lat i nie odpowiadać obecnemu zużyciu. Nie da się z góry powiedzieć, czy wynik byłby przez to wyższy, czy niższy.
+
+Po udostępnieniu zbioru warto sprawdzić w jego dokumentacji:
+
+- rok odniesienia i okres, dla którego dane uznano za reprezentatywne,
+- źródła energii i technologie ujęte w miksie,
+- zasięg geograficzny i poziom napięcia,
+- metodę modelowania i źródła danych.
 
 ## Miks fizyczny a miks rezydualny
 
@@ -59,20 +81,32 @@ Gwarancja pochodzenia to dokument, który potwierdza, z jakiego źródła wytwor
 
 Specyfikacja zamówienia Komisji wymienia nazwy zbiorów, ale nie przesądza, że unijny „miks sieciowy 1–60 kV” będzie miał taki sam zakres jak krajowy fizyczny miks zużycia. Szczegółowy zakres trzeba sprawdzić w dokumentacji danego zbioru.
 
-O wyborze miksu nie decyduje to, który daje korzystniejszy wynik. Decydują metoda obliczeń i zasady programu deklaracji, czyli zasady organizacji, w ramach której opracowuje się deklarację EPD. Jeżeli program uwzględnia dokumenty o pochodzeniu energii, takie jak gwarancje pochodzenia, energię można opisać udokumentowanymi danymi sprzedawcy lub danymi o energii wytwarzanej na miejscu. Muszą one jednak spełniać wymagania metody i programu. Do pozostałej energii stosuje się miks rezydualny. Jeżeli program opiera się na fizycznych przepływach energii, stosuje się odpowiedni profil fizyczny. Z tego powodu obu miksów nie można stosować zamiennie tylko dlatego, że każdy z nich dotyczy energii z sieci.
+O wyborze miksu decydują metoda obliczeń i zasady programu EPD. Program określa reguły przygotowania, weryfikacji i publikacji deklaracji, a prowadzi go operator. Dobór danych dotyczących energii opisuje normatywny załącznik E do [EN 15941:2024](https://www.evs.ee/en/evs-en-15941-2024), w szczególności punkty E.2.1.3–E.2.1.4 i E.2.2.
+
+Jeżeli w danym programie i regionie uwzględnia się dokumenty o pochodzeniu energii, takie jak gwarancje pochodzenia, dla energii kupowanej z sieci stosuje się dane konkretnego produktu energetycznego sprzedawcy, gdy dokumenty spełniają wymagania normy. Dla energii kupowanej z sieci bez takich dokumentów stosuje się miks rezydualny. Gdy dokumentów nie uznaje się lub nie można prawidłowo rozliczyć pochodzenia energii, np. z powodu braku miksu rezydualnego, norma wymaga zastosowania przepływów fizycznych lub odpowiedniego miksu zużycia.
+
+Energię wytworzoną i zużytą na miejscu rozlicza się osobno. Stosuje się dane jej wytwarzania, jeżeli odpowiadających jej dokumentów o pochodzeniu nie sprzedano osobie trzeciej. Jeżeli je sprzedano, stosuje się miks rezydualny. Sam brak gwarancji pochodzenia dla własnej fotowoltaiki nie oznacza konieczności użycia miksu rezydualnego.
+
+Jeżeli część EPD w regionie korzysta z dokumentów o pochodzeniu energii, norma zaleca, aby wszystkie EPD dla produkcji w tym regionie opierały się na takich dokumentach albo na miksie rezydualnym. Jest to zalecenie dotyczące spójności podejścia, odrębne od wymagań dla poszczególnych dostaw energii.
 
 ## Wskaźnik emisji CO₂ a pełna ocena cyklu życia
 
 Informacja o pochodzeniu energii, pojedyncza liczba emisji CO₂ i zestaw wskaźników cyklu życia to trzy różne rzeczy. Miks rezydualny pokazuje udział poszczególnych źródeł energii. AIB podaje dla miksów rezydualnych także zawartość CO₂, czyli jedną liczbę w gramach CO₂ na kilowatogodzinę. Pełny zbiór danych tła do LCA zawiera natomiast wiele wskaźników dla tej samej ilości energii. Oprócz wpływu na klimat obejmuje m.in. zakwaszenie, zużycie zasobów i wody oraz odpady. Wpływ na klimat podaje się w EPD jako potencjał globalnego ocieplenia (GWP), w kilogramach CO₂ równoważnego. Uwzględnia on więc także inne gazy cieplarniane, przeliczone na CO₂. Jakie procesy i substancje obejmuje dana liczba lub dany zbiór, określa ich dokumentacja. Pojedynczy wskaźnik emisji CO₂ nie zastępuje zbioru danych do LCA.
 
-Przykładem pełnego zestawu wskaźników jest [karta „Energia elektryczna. Polska, 2025” (model v4)](https://polca.org.pl/energia-polska-2025-v4.html) w serwisie poLCA prowadzonym przez Multicert. Podaje ona 37 wskaźników na 1 kWh energii fizycznie dostarczonej w Polsce w 2025 r., w tym całkowity potencjał globalnego ocieplenia (GWP-total). Karta zaznacza, że profil nie jest miksem rezydualnym ani profilem konkretnego sprzedawcy. To, czy nadaje się do określonej deklaracji, ocenia się według zasad właściwego programu. Aktualne wartości i ograniczenia podaje sama karta.
+Przykładem pełnego zestawu wskaźników jest [karta „Energia elektryczna. Polska, 2025” (model v4)](https://polca.org.pl/energia-polska-2025-v4.html) w serwisie poLCA prowadzonym przez Multicert. Podaje ona 37 wskaźników na 1 kWh energii fizycznie dostarczonej w Polsce w 2025 r., w tym całkowity potencjał globalnego ocieplenia (GWP-total). Profil nie jest miksem rezydualnym ani profilem konkretnego sprzedawcy. Rok 2025 dotyczy miksu i aktualizowanych parametrów; część procesów tła pochodzi ze starszych danych. Model wykorzystuje bazę BAFU:2026 zmodyfikowaną przez Multicert. Jak zaznaczono w karcie, nie przeprowadzono jeszcze niezależnej recenzji eksperckiej ani formalnego przyjęcia zbioru w programie deklaracji. Przydatność do konkretnej deklaracji ocenia się osobno według zasad właściwego programu.
+
+## Dane z EU ETS a energia z sieci
+
+EU ETS to unijny system handlu uprawnieniami do emisji. Instalacja objęta systemem monitoruje emisje gazów cieplarnianych według planu zatwierdzonego przez właściwy organ, a roczny raport o emisjach sprawdza akredytowany weryfikator. Zasady te [opisuje Komisja](https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/monitoring-reporting-and-verification_en). Plan prac Komisji zalicza dane wysokiej jakości z ETS dużych instalacji do danych specyficznych dla przedsiębiorstwa. Zapowiada też akt delegowany, który ma uznać wykorzystanie tych danych w ocenie środowiskowej grup wyrobów, w których obejmują one znaczną część emisji w cyklu życia.
+
+Dla energii elektrycznej kupowanej z sieci dane ETS nie zastępują zbioru tła. Raport zakładu objętego ETS dotyczy emisji jego instalacji, np. ze spalania paliw na miejscu, i nie obejmuje energii kupowanej z sieci. Raporty elektrowni opisują emisje gazów cieplarnianych pojedynczych instalacji. Zbiór tła obejmuje natomiast cały miks, wiele wskaźników i procesy poza elektrownią, np. wydobycie paliw. Jak wykorzystać dane ETS w obliczeniach dla wyrobu, wyjaśniamy w artykule o [danych z systemu handlu emisjami](/blog/zbiory-danych-tla-dane-ets-slad-srodowiskowy-wyrobu).
 
 ## Jak przygotować dane zakładu
 
 1. **Zużycie energii.** Zestawić zużycie energii elektrycznej z liczników i faktur, w kWh. Jeżeli zakład wytwarza kilka wyrobów, przypisać zużycie do linii lub wyrobów. Energię wytwarzaną na miejscu ująć osobno.
 2. **Okres.** Dla zużycia energii i wielkości produkcji przyjąć wspólny okres odniesienia, zwykle pełny rok, zgodnie z wymaganiami metody i programu. Jest to okres danych użytych w obliczeniach, a nie okres ważności deklaracji EPD.
 3. **Dostawy i sprzedawca.** Zebrać umowy sprzedaży energii, nazwę sprzedawcy i produktu oraz strukturę paliw podawaną przez sprzedawcę. Zebrać też dokumenty umorzenia gwarancji pochodzenia lub innych dokumentów o pochodzeniu energii, z ilościami energii, których dotyczą.
-4. **Opis użytego zbioru tła.** Przed wyborem zbioru sprawdzić jego zgodność z EN 15804 i zasadami programu dotyczącymi energii. Zapisać kraj, rok danych, wersję zbioru i rodzaj miksu (fizyczny czy rezydualny). Taki zapis pozwala odtworzyć obliczenia i sprawdzić, czy zmiana wyniku wiąże się ze zużyciem w zakładzie, czy z użyciem innych danych tła.
+4. **Opis użytego zbioru tła.** Przed wyborem zbioru sprawdzić jego zgodność z EN 15804 i zasadami programu dotyczącymi energii. Zapisać kraj, rok odniesienia, wersję zbioru i rodzaj miksu (fizyczny czy rezydualny). Taki zapis pozwala odtworzyć obliczenia i sprawdzić, czy zmiana wyniku wiąże się ze zużyciem w zakładzie, czy z użyciem innych danych tła.
 
 Zasady opracowania deklaracji w programie EPD Polska opisuje serwis [epd.org.pl](https://epd.org.pl/).
 

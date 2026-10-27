@@ -4,13 +4,14 @@ reviewed: "2026-10-27"
 date: "2026-10-27"
 author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko i LCA"
-tags: ["CPR 2024", "bazy danych LCA", "EF 4.0", "dane tła", "ecoinvent", "Sphera", "BAFU", "EPD", "EN 15804"]
+tags: ["CPR 2024", "bazy danych LCA", "EF 4.0", "dane tła", "ecoinvent", "Sphera", "BAFU", "EPD", "EN 15804", "EU ETS"]
 excerpt: "Wyjaśniamy, jak dobierać dane do deklaracji środowiskowej wyrobu budowlanego, co CPR przewiduje dla obliczeń i dlaczego przegląd baz EF nie jest listą baz zatwierdzonych do CPR."
 image_url: /images/blog/cpr-bazy-danych-ef4-okladka.webp
 template: "przewodnik"
 sources:
   - Rozporządzenie (UE) 2024/3110 — pełny tekst (PL)|https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol
   - Plan prac Komisji na lata 2026–2029, COM(2025) 772 (EUR-Lex)|https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772
+  - Komisja Europejska — EU ETS: monitorowanie, raportowanie i weryfikacja|https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/monitoring-reporting-and-verification_en
   - Data for EF methods — Green Forum, Komisja Europejska|https://green-forum.ec.europa.eu/green-business/environmental-footprint-methods/data-ef-methods_en
   - Transitional guidance on the limited availability of EF-compliant datasets — Green Forum, 14.07.2026|https://green-forum.ec.europa.eu/news/transitional-guidance-limited-availability-ef-compliant-datasets-2026-07-14_en
   - EF TAB, 17.04.2026 — prezentacja Komisji, przegląd baz danych|https://ec.europa.eu/transparency/expert-groups-register/core/api/front/document/130788/download
@@ -34,7 +35,9 @@ Przy przygotowaniu deklaracji środowiskowej wyrobu (EPD) dane dobiera się zgod
 
 Ocena cyklu życia (LCA) to obliczenie wpływu wyrobu na środowisko na wszystkich etapach objętych analizą, od pozyskania surowców po produkcję i dalsze etapy życia wyrobu. W EPD przedstawia się wyniki takich obliczeń dla konkretnego wyrobu w ustalonej formie.
 
-W [rozporządzeniu (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR) art. 15 ust. 2 stanowi, że deklaracja właściwości użytkowych i zgodności obejmuje właściwości użytkowe w zakresie zrównoważenia środowiskowego wyrobu w całym cyklu życia. Dotyczy to z góry ustalonych zasadniczych charakterystyk środowiskowych z załącznika II, i to tych, które w danym przypadku się deklaruje. Przepis przewiduje też, że oblicza się je przy użyciu oprogramowania udostępnionego bezpłatnie na stronie Komisji. Aktualizacje tego oprogramowania stają się obowiązkowe rok po publikacji; wcześniej można stosować je dobrowolnie. Które charakterystyki producent deklaruje, wynika z zharmonizowanej specyfikacji technicznej lub europejskiego dokumentu oceny dla jego grupy wyrobów (art. 15 ust. 1). Obowiązki dla konkretnego wyrobu trzeba ustalić z uwzględnieniem przepisów przejściowych oraz właściwej specyfikacji technicznej lub dokumentu oceny.
+CPR określa oceniane cechy wyrobu jako „zasadnicze charakterystyki”. Należą do nich również cechy środowiskowe wymienione w rozporządzeniu. Sposób ich oceny określają właściwe dokumenty. Zharmonizowane specyfikacje techniczne obejmują obowiązkowe normy dotyczące właściwości użytkowych oraz określone akty Komisji. Europejski dokument oceny służy natomiast do wydawania europejskich ocen technicznych, czyli ocen właściwości konkretnych wyrobów.
+
+W [rozporządzeniu (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR) art. 15 ust. 2 stanowi, że deklaracja właściwości użytkowych i zgodności obejmuje właściwości użytkowe w zakresie zrównoważenia środowiskowego wyrobu w całym cyklu życia. Dotyczy to z góry ustalonych zasadniczych charakterystyk środowiskowych z załącznika II, i to tych, które w danym przypadku się deklaruje. Przepis przewiduje też, że oblicza się je przy użyciu oprogramowania udostępnionego bezpłatnie na stronie Komisji. Aktualizacje tego oprogramowania stają się obowiązkowe rok po publikacji; wcześniej można stosować je dobrowolnie. Które charakterystyki producent deklaruje, wynika ze zharmonizowanej specyfikacji technicznej lub europejskiego dokumentu oceny dla jego grupy wyrobów (art. 15 ust. 1). Obowiązki dla konkretnego wyrobu trzeba ustalić z uwzględnieniem przepisów przejściowych oraz właściwej specyfikacji technicznej lub dokumentu oceny.
 
 Omawiane przepisy i wytyczne nie określają sposobu przenoszenia danych z poszczególnych baz lub z EPD do oprogramowania Komisji. Producent powinien sprawdzić wymagania tego narzędzia oraz specyfikacji swojego wyrobu. Kryteria opisane poniżej pomagają dobrać dane do analizy, ale nie stanowią potwierdzenia spełnienia obowiązków CPR.
 
@@ -42,9 +45,11 @@ Omawiane przepisy i wytyczne nie określają sposobu przenoszenia danych z poszc
 
 Producent zbiera dane dotyczące własnego zakładu, a w miarę dostępności również dane od konkretnych dostawców. Dane tła opisują procesy poza działalnością zakładu, na przykład produkcję kupowanego surowca, dostarczanie energii lub transport. Często pochodzą z gotowych baz. Dane dotyczące konkretnego dostawcy mogą lepiej odzwierciedlać rzeczywisty proces niż średnia branżowa; ich wykorzystanie zależy od jakości informacji i zasad analizy.
 
-Baza jest katalogiem wielu zbiorów danych. Pojedynczy zbiór może opisywać na przykład wytworzenie tony materiału albo dostarczenie kilowatogodziny energii. Właśnie taki opis konkretnego procesu wykorzystuje się w obliczeniach. [Komisja wyjaśnia zasady doboru danych](https://green-forum.ec.europa.eu/green-business/environmental-footprint-methods/data-ef-methods_en), a dla EPD wyrobów budowlanych reguły wyboru i jakości danych określa [PN-EN 15804+A2:2020-03](https://sklep.pkn.pl/normy/pn-en-15804-a2-2020-03p.html) oraz właściwy program.
+Baza jest katalogiem wielu zbiorów danych. Pojedynczy zbiór może opisywać na przykład wytworzenie tony materiału albo dostarczenie kilowatogodziny energii. Właśnie taki opis konkretnego procesu wykorzystuje się w obliczeniach. [Komisja wyjaśnia zasady doboru danych dla metod śladu środowiskowego EF](https://green-forum.ec.europa.eu/green-business/environmental-footprint-methods/data-ef-methods_en), które omawiamy dalej. Dla EPD wyrobów budowlanych reguły wyboru i jakości danych określa [PN-EN 15804+A2:2020-03](https://sklep.pkn.pl/normy/pn-en-15804-a2-2020-03p.html) oraz właściwy program.
 
-[Plan prac Komisji do CPR, COM(2025) 772](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772), w części 3.2.2 zapowiada europejskie zbiory danych tła dla producentów. Mają być stosowane obowiązkowo tam, gdzie dane specyficzne dla przedsiębiorstwa nie są łatwo dostępne albo ich pozyskanie jest kosztowne. Komisja chce, aby miały charakter konserwatywny, co ma zapobiec „wybieraniu danych”, czyli doborowi tych, które stawiają wyrób w najkorzystniejszym świetle. Plan nie określa jeszcze szczegółowej metody ustalania tych wartości. Jest to zapowiedź w komunikacie Komisji zawierającym plan prac, a nie wykaz zatwierdzonych baz. Z planu nie wynika, że któraś z baz opisanych niżej jest już uznana do celów CPR.
+[Plan prac Komisji do CPR, COM(2025) 772](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772), w części 3.2.2 zapowiada europejskie zbiory danych tła dla producentów. Mają być stosowane obowiązkowo tam, gdzie dane specyficzne dla przedsiębiorstwa nie są łatwo dostępne albo ich pozyskanie jest kosztowne. Do takich danych plan zalicza także dane wysokiej jakości z unijnego systemu handlu uprawnieniami do emisji (EU ETS) dla dużych instalacji. W tym systemie instalacja [monitoruje emisje gazów cieplarnianych](https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/monitoring-reporting-and-verification_en) według zatwierdzonego planu, a roczny raport sprawdza akredytowany weryfikator. Raport opisuje emisje instalacji, a nie ślad środowiskowy wyrobu. Jak można go wykorzystać w obliczeniach, wyjaśniamy w artykule o [danych z systemu handlu emisjami](/blog/zbiory-danych-tla-dane-ets-slad-srodowiskowy-wyrobu).
+
+Komisja chce, aby zbiory tła miały charakter „konserwatywny”. Wiąże to określenie z zapobieganiem doborowi danych tylko dlatego, że stawiają wyrób w najkorzystniejszym świetle. Plan nie podaje definicji tego określenia ani szczegółowej metody ustalania wartości. Jest to zapowiedź w komunikacie Komisji zawierającym plan prac, a nie wykaz zatwierdzonych baz. Z planu nie wynika, że któraś z baz opisanych niżej jest już uznana do celów CPR.
 
 ## Czym jest EF 4.0
 
@@ -81,12 +86,12 @@ Producent wybiera zbiór opisujący konkretny proces. Dla cementu w naszej zapra
 
 1. **Geografię.** Czy proces opisuje produkcję w Polsce, w Europie czy na świecie? Czy dostawca rzeczywiście jest stamtąd?
 2. **Technologię.** Czy opisana technologia odpowiada tej, którą stosuje dostawca?
-3. **Okres.** Z jakiego roku pochodzą dane i która wersja bazy obowiązuje?
+3. **Okres.** Jaki rok odniesienia podano w opisie procesu i której wersji bazy użyto? Nowa wersja bazy nie oznacza, że każdy proces opisuje nowszy rok. Przykład polskiego profilu energii elektrycznej z rokiem odniesienia 2012 w historycznym wykazie JRC dla EF 3.1 omawiamy w artykule o [unijnych danych tła i polskim miksie energii](/blog/unijne-dane-tla-cpr-polski-miks-energii).
 4. **Jednostkę.** Czy proces odnosi się do kilograma, tony, metra sześciennego czy kilowatogodziny i czy przeliczenie jest poprawne?
 5. **Kompletność.** Czy zbiór zawiera wszystkie wskaźniki wymagane przez metodę, czy tylko wpływ na klimat?
 6. **Zasady docelowej analizy lub programu.** Czy metoda, norma lub program EPD dopuszczają ten rodzaj danych?
 
-Wybór dokumentuje się: nazwa bazy, wersja, proces, kraj, rok i uzasadnienie. Zapisuje się też licencję albo warunki użytkowania bazy, na których korzysta się z danych. Nie wybiera się procesu wyłącznie dlatego, że daje najniższą emisję CO₂. Dane powinny odpowiadać rzeczywistej produkcji i zasadom obliczeń.
+W dokumentacji zapisuje się nazwę bazy, jej wersję, wybrany proces, kraj, rok odniesienia i uzasadnienie wyboru. Podaje się też licencję albo warunki użytkowania bazy. Nie wybiera się procesu wyłącznie dlatego, że daje najniższą emisję CO₂. Dane powinny odpowiadać rzeczywistej produkcji i zasadom obliczeń.
 
 ## Rejestr EPD a baza procesów
 
