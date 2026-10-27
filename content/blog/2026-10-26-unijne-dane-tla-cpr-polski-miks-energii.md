@@ -26,6 +26,10 @@ Komisja Europejska zamówiła wspólne, unijne zbiory danych tła dla producent�
 
 Ocena cyklu życia (LCA) polega na obliczeniu oddziaływania wyrobu na środowisko. Uwzględnia etapy objęte analizą, np. pozyskanie surowców i produkcję. Deklaracja środowiskowa wyrobu (EPD) przedstawia wyniki takich obliczeń dla określonego wyrobu, zgodnie z ustaloną metodą.
 
+![Dane o zużyciu energii w zakładzie i dane tła o wpływie dostarczenia 1 kWh łączy się w obliczeniach oceny cyklu życia. Wyniki udziału energii przedstawia się w deklaracji środowiskowej wyrobu.](/images/blog/dane-tla-obliczenia-epd.webp)
+
+Schemat pokazuje udział energii w obliczeniach. Deklaracja EPD obejmuje również inne procesy uwzględnione w analizie.
+
 W obliczeniach łączy się dwa rodzaje danych. Dane specyficzne pochodzą z zakładu lub od jego dostawców: zużycie surowców, energii i paliw, odpady, transport. Dane tła opisują procesy ogólne, wspólne dla wielu zakładów, takie jak wytwarzanie energii elektrycznej i paliw czy usługi transportowe. Zużycie energii przypisane do wyrobu mnoży się przez wskaźniki ze zbioru tła. W ten sposób otrzymuje się udział energii w wynikach deklaracji.
 
 [Plan prac Komisji do CPR na lata 2026–2029, COM(2025) 772](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0772) zapowiada europejskie zbiory danych tła dla producentów. W pierwszej kolejności mają one objąć rodziny wyrobów, dla których powstaną pierwsze normy zharmonizowane uwzględniające zrównoważenie środowiskowe. Według planu zbiory mają być stosowane obowiązkowo tam, gdzie dane specyficzne dla przedsiębiorstwa nie są łatwo dostępne albo ich pozyskanie jest drogie. Komisja chce w ten sposób ograniczyć wybieranie danych tylko dlatego, że dają wyrobowi najkorzystniejszy wynik.
