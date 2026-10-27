@@ -505,12 +505,12 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
   );
 }
 
-function PostToc({ post }: { post: BlogPostType }) {
+function PostToc({ post, sidebar = false }: { post: BlogPostType; sidebar?: boolean }) {
   const items = extractTableOfContents(post.content);
   if (items.length === 0) return null;
 
   return (
-    <details className="article-toc group">
+    <details className={`article-toc group ${sidebar ? "article-toc-sidebar hidden lg:block" : "lg:hidden"}`} open={sidebar || undefined}>
       <summary className="flex items-center gap-2 cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800">
         <BookOpen className="w-4 h-4" />
         <span>Spis treści</span>
@@ -524,7 +524,7 @@ function PostToc({ post }: { post: BlogPostType }) {
                 href={`#${item.id}`}
                 onClick={(event) => {
                   const details = event.currentTarget.closest("details");
-                  if (details) details.open = false;
+                  if (details && !sidebar) details.open = false;
                 }}
                 className="block border-l pl-3 py-1.5 text-sm leading-snug text-slate-700 font-medium transition-colors hover:text-[oklch(55%_.22_27)] hover:border-[oklch(55%_.22_27)]"
               >
@@ -757,6 +757,7 @@ function RegulacjaTemplate({ post, articleContent, navigate, bottomSection }: Te
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                   <Calendar className="w-4 h-4 text-[oklch(55% .22 27)]" /> Harmonogram
@@ -819,6 +820,7 @@ function PrzewodnikTemplate({ post, articleContent, navigate, bottomSection }: T
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               {/* TL;DR — streszczenie posta */}
               {post.excerpt && (
                 <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
@@ -869,6 +871,7 @@ function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: Temp
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
                 <dl className="space-y-3">
@@ -988,6 +991,7 @@ function TechnicznyTemplate({ post, articleContent, navigate, bottomSection }: T
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
@@ -1046,6 +1050,7 @@ function AktualnosciTemplate({ post, articleContent, navigate, bottomSection }: 
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               {/* Co musisz wiedzieć */}
               {post.excerpt && (
                 <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
@@ -1104,6 +1109,7 @@ function PraktycznyTemplate({ post, articleContent, navigate, bottomSection }: T
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               {/* Lista kontrolna */}
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
@@ -1158,6 +1164,7 @@ function DefaultTemplate({ post, articleContent, navigate, bottomSection }: Temp
               </ReactMarkdown>
             </article>
             <aside className="article-support" aria-label="Informacje i materiały do artykułu">
+              <PostToc post={post} sidebar />
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
