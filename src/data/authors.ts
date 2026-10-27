@@ -438,14 +438,24 @@ const AUTHOR_NAME_TO_SLUG: Record<string, string> = {
 
 /** Zwraca slug autora na podstawie pola `author` z frontmatter bloga */
 export function getAuthorSlug(authorName: string): string | null {
-  // sprawdź dokładne dopasowanie
-  const direct = AUTHOR_NAME_TO_SLUG[authorName];
-  if (direct) return direct;
-  // sprawdź czy któryś klucz jest zawarty w nazwie
-  for (const [key, slug] of Object.entries(AUTHOR_NAME_TO_SLUG)) {
-    if (authorName.includes(key) || key.includes(authorName.replace(" | ", ""))) {
-      return slug;
-    }
+  return AUTHOR_NAME_TO_SLUG[authorName.trim()] ?? null;
+}
+
+/** Organizacja jest wydawcą, a nie zastępczym autorem artykułu. */
+const AUTHOR_ORGANIZATIONS = new Set([
+  "Redakcja NowyCPR.pl", "Multicert Sp. z o.o.", "EPD Polska", "NowyCPR.pl",
+]);
+
+export function getArticleAuthors(authorField: string): { name: string; slug: string }[] {
+  if (typeof authorField !== "string") throw new Error("Brak imiennego autora artykułu.");
+  const names = authorField.split("|").map(name => name.trim()).filter(Boolean);
+  const authors: { name: string; slug: string }[] = [];
+  for (const name of names) {
+    if (AUTHOR_ORGANIZATIONS.has(name)) continue;
+    const slug = getAuthorSlug(name);
+    if (!slug || !AUTHORS[slug]) throw new Error(`Autor bez rozpoznanego profilu: ${name}`);
+    if (!authors.some(author => author.slug === slug)) authors.push({ name, slug });
   }
-  return null;
+  if (!authors.length) throw new Error("Artykuł wymaga imiennego autora; sama redakcja lub organizacja nie wystarcza.");
+  return authors;
 }

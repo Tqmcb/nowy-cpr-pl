@@ -16,6 +16,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { publicationDay, publishedBlogFiles } from './blog-publication.mjs';
+import { AUTHORS, getArticleAuthors } from './load-authors.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -105,11 +106,11 @@ for (const file of files) {
     image: imageUrl,
     datePublished,
     dateModified,
-    author: {
-      '@type': 'Organization',
-      name: 'NowyCPR.pl — Multicert Sp. z o.o.',
-      url: 'https://www.nowycpr.pl/'
-    },
+    author: getArticleAuthors(meta.author).map(author => ({
+      '@type': 'Person',
+      name: author.name,
+      url: `https://www.nowycpr.pl/autor/${author.slug}/`,
+    })),
     publisher: {
       '@type': 'Organization',
       name: 'NowyCPR.pl — Multicert Sp. z o.o.',
@@ -737,62 +738,23 @@ for (const item of wyrobyItems) {
 console.log(`\n✓ Pre-rendered ${productCount} product pages into dist/wyrob/*/index.html`);
 
 // ── Author pages pre-rendering ────────────────────────────────────────────
-// Loads AUTHORS from src/data/authors.ts (TypeScript source) by stripping
-// TS type annotations and executing the resulting JS via new Function().
 // Generates dist/autor/<slug>/index.html for each author with full bio,
 // Person schema.org JSON-LD, and links to their publications.
 
-function loadAuthorsData() {
-  const authorsPath = join(rootDir, 'src', 'data', 'authors.ts');
-  const tsSrc = readFileSync(authorsPath, 'utf-8');
-
-  // Strip TypeScript syntax that doesn't run in plain JS:
-  //   - interface declarations
-  //   - generic type params on the AUTHORS constant
-  //   - JSDoc-style block comments above functions
-  //   - TS function param/return type annotations
-  //   - `export` keywords on const and function declarations
-  let jsSrc = tsSrc
-    .replace(/^export\s+interface\s+\w+\s*\{[\s\S]*?\n\}/gm, '')
-    .replace(/:\s*Record<[^>]+>\s*=/g, ' =')
-    .replace(/^\/\*\*[\s\S]*?\*\//gm, '')
-    // Strip type annotations on function parameters: (slug: string) → (slug)
-    .replace(/(\([^)]*?)(\w+):\s*\w+(\s*[,)])/g, '$1$2$3')
-    // Strip function return types: function x(...): string | null { → function x(...) {
-    .replace(/(\)\s*):\s*[\w| ]+(\s*\{)/g, '$1$2')
-    .replace(/^export\s+const\s+/gm, 'const ')
-    .replace(/^export\s+function\s+/gm, 'function ');
-
-  const fn = new Function(jsSrc + '\nreturn { AUTHORS, AUTHOR_NAME_TO_SLUG };');
-  return fn();
-}
-
-const { AUTHORS, AUTHOR_NAME_TO_SLUG } = loadAuthorsData();
-
-// Build a map: author slug → list of their blog posts (slug, title, date, excerpt)
-// using AUTHOR_NAME_TO_SLUG which already lists all known name variants.
+// Build a map: author slug → list of their published blog posts.
 const blogPostsByAuthor = {};
 for (const file of files) {
   const slug = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, '');
   const src = readFileSync(join(blogContentDir, file), 'utf-8');
   const meta = parseFrontmatter(src);
-  const authorField = String(meta.author || '');
-
-  // Track which slugs were already matched for this article (avoid duplicates
-  // when multiple variants of the same name are listed in AUTHOR_NAME_TO_SLUG)
-  const matchedSlugs = new Set();
-  for (const [nameVariant, authorSlug] of Object.entries(AUTHOR_NAME_TO_SLUG)) {
-    if (matchedSlugs.has(authorSlug)) continue;
-    if (authorField.includes(nameVariant)) {
-      matchedSlugs.add(authorSlug);
-      if (!blogPostsByAuthor[authorSlug]) blogPostsByAuthor[authorSlug] = [];
-      blogPostsByAuthor[authorSlug].push({
-        slug,
-        title: String(meta.title || slug),
-        date: String(meta.date || ''),
-        excerpt: String(meta.excerpt || ''),
-      });
-    }
+  for (const { slug: authorSlug } of getArticleAuthors(meta.author)) {
+    if (!blogPostsByAuthor[authorSlug]) blogPostsByAuthor[authorSlug] = [];
+    blogPostsByAuthor[authorSlug].push({
+      slug,
+      title: String(meta.title || slug),
+      date: String(meta.date || ''),
+      excerpt: String(meta.excerpt || ''),
+    });
   }
 }
 // Sort each author's posts by date desc
@@ -817,7 +779,6 @@ for (const [authorSlug, author] of Object.entries(AUTHORS)) {
     url: canonical,
     knowsAbout: author.expertise || [],
     alumniOf: (author.education || []).map(e => ({ '@type': 'EducationalOrganization', name: e })),
-    worksFor: { '@type': 'Organization', name: 'NowyCPR.pl — Multicert Sp. z o.o.', url: 'https://www.multicert.pl' },
   };
 
   // Body HTML for crawlers (Google, AI bots) — replaced by React on hydration

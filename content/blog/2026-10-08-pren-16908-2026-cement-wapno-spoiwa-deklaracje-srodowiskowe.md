@@ -2,7 +2,7 @@
 title: "Projekt prEN 16908:2026: co zmienia dla cementu i wapna?"
 reviewed: "2026-10-08"
 date: "2026-10-08"
-author: "Redakcja NowyCPR.pl"
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 16908", "cement", "wapno budowlane", "spoiwa hydrauliczne", "EPD", "CPR 2024"]
 excerpt: "Projekt prEN 16908:2026 doprecyzowuje reguły środowiskowe dla cementu, wapna i innych spoiw hydraulicznych. Porównanie z wydaniem 2022 i znaczenie dla producentów."

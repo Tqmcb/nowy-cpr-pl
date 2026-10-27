@@ -2,7 +2,7 @@
 title: "CPR i bazy danych środowiskowych: dobór danych, EPD i EF 4.0"
 reviewed: "2026-10-27"
 date: "2026-10-27"
-author: "Redakcja NowyCPR.pl | Multicert Sp. z o.o."
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Środowisko i LCA"
 tags: ["CPR 2024", "bazy danych LCA", "EF 4.0", "dane tła", "ecoinvent", "Sphera", "BAFU", "EPD", "EN 15804", "EU ETS"]
 excerpt: "Wyjaśniamy, jak dobierać dane do deklaracji środowiskowej wyrobu budowlanego, co CPR przewiduje dla obliczeń i dlaczego przegląd baz EF nie jest listą baz zatwierdzonych do CPR."

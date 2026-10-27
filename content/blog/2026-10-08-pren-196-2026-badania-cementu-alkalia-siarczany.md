@@ -2,7 +2,7 @@
 title: "Projekty norm EN 196 z 2026 r.: co zmienia się w badaniach cementu?"
 reviewed: "2026-10-08"
 date: "2026-10-08"
-author: "Redakcja NowyCPR.pl"
+author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["EN 196", "badania cementu", "alkalia", "odporność na siarczany", "laboratorium", "CPR 2024"]
 excerpt: "Projekty EN 196 z 2026 r. dotyczą m.in. alkaliów, odporności na siarczany i składników cementu. Przegląd zakresów oraz przygotowania laboratoriów."
