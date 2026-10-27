@@ -22,6 +22,8 @@ Zakład produkujący wyroby budowlane wie z liczników i faktur, ile kilowatogod
 
 Komisja Europejska zamówiła wspólne, unijne zbiory danych tła dla producentów wyrobów objętych [rozporządzeniem (UE) 2024/3110 w sprawie wyrobów budowlanych](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) (CPR). Dla Polski zamówienie obejmuje m.in. dwa zbiory dotyczące energii elektrycznej z sieci. W specyfikacji noszą one nazwy „miks sieciowy 1–60 kV” i „miks rezydualny”.
 
+Zasady doboru danych zależą od celu obliczeń i wymagań dla wyrobu. W osobnym artykule wyjaśniamy, [jak dobierać dane tła do deklaracji środowiskowej wyrobu (EPD) i co CPR przewiduje dla obliczeń środowiskowych](/blog/cpr-bazy-danych-srodowiskowych-ef-4-0/).
+
 ## Czym są dane tła i co zapowiada Komisja
 
 Ocena cyklu życia (LCA) polega na obliczeniu oddziaływania wyrobu na środowisko. Uwzględnia etapy objęte analizą, np. pozyskanie surowców i produkcję. Deklaracja środowiskowa wyrobu (EPD) przedstawia wyniki takich obliczeń dla określonego wyrobu, zgodnie z ustaloną metodą.
