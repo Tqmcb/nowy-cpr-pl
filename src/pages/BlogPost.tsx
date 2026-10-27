@@ -285,7 +285,7 @@ const DARK_COMPONENTS: Components = {
     </pre>
   ),
   table: ({ children }) => (
-    <div className="overflow-x-auto my-10" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "2px solid oklch(20% .03 264)" }}>
+    <div className="article-table overflow-x-auto my-10" tabIndex={0} role="region" aria-label="Tabela z możliwością przewijania w poziomie" style={{ borderTop: "2px solid oklch(20% .03 264)", borderBottom: "2px solid oklch(20% .03 264)" }}>
       <table className="w-full border-collapse text-[15px]">{children}</table>
     </div>
   ),
@@ -358,7 +358,7 @@ const LIGHT_COMPONENTS: Components = {
     </pre>
   ),
   table: ({ children }) => (
-    <div className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-md">
+    <div className="article-table overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-md" tabIndex={0} role="region" aria-label="Tabela z możliwością przewijania w poziomie">
       <table className="w-full border-collapse text-sm">{children}</table>
     </div>
   ),
@@ -462,7 +462,7 @@ function DarkSidebarMeta({ post, navigate }: { post: BlogPostType; navigate: (pa
         </div>
       )}
       {post.sources && post.sources.length > 0 && (
-        <div className="pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
+        <div className="article-references pt-6" style={{ borderTop: "1px solid oklch(92% .008 264)" }}>
           <h4 className="editorial-kicker mb-4 flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
             <BookOpen className="w-3 h-3" /> Źródła
           </h4>
@@ -510,17 +510,22 @@ function PostToc({ post }: { post: BlogPostType }) {
   if (items.length === 0) return null;
 
   return (
-    <div className="lg:sticky lg:top-24 bg-white border border-slate-200 rounded-lg p-5 shadow-sm">
-      <h4 className="editorial-kicker mb-4 flex items-center gap-2" style={{ color: "oklch(55% .22 27)" }}>
-        <BookOpen className="w-3.5 h-3.5" />
-        Spis treści
-      </h4>
-      <nav aria-label="Spis treści artykułu">
-        <ol className="space-y-2">
+    <details className="article-toc group">
+      <summary className="flex items-center gap-2 cursor-pointer px-4 py-3 text-sm font-semibold text-slate-800">
+        <BookOpen className="w-4 h-4" />
+        <span>Spis treści</span>
+        <ChevronDown className="w-4 h-4 ml-auto transition-transform group-open:rotate-180" />
+      </summary>
+      <nav aria-label="Spis treści artykułu" className="px-4 pb-4">
+        <ol className="grid gap-x-8 gap-y-1 md:grid-cols-2">
           {items.map((item) => (
             <li key={item.id}>
               <a
                 href={`#${item.id}`}
+                onClick={(event) => {
+                  const details = event.currentTarget.closest("details");
+                  if (details) details.open = false;
+                }}
                 className="block border-l pl-3 py-1.5 text-sm leading-snug text-slate-700 font-medium transition-colors hover:text-[oklch(55%_.22_27)] hover:border-[oklch(55%_.22_27)]"
               >
                 {item.text}
@@ -529,7 +534,7 @@ function PostToc({ post }: { post: BlogPostType }) {
           ))}
         </ol>
       </nav>
-    </div>
+    </details>
   );
 }
 
@@ -721,10 +726,10 @@ function SharedHero({
 function RegulacjaTemplate({ post, articleContent, navigate, bottomSection }: TemplateBaseProps) {
   const KEY_DATES = [
     { date: "7 sty 2025", label: "Wejście w życie CPR 2024/3110" },
-    { date: "8 sty 2026", label: "Pełne stosowanie rozporządzenia" },
+    { date: "8 sty 2026", label: "Stosowanie większości przepisów rozporządzenia" },
     { date: "8 sty 2027", label: "Sankcje (Art. 92) zaczną obowiązywać" },
     { date: "9 sty 2031", label: "Wygasają stare EAD" },
-    { date: "7 sty 2040", label: "Koniec okresu przejściowego" },
+    { date: "8 sty 2040", label: "Uchylenie pozostałych przepisów rozporządzenia (UE) nr 305/2011" },
   ];
   return (
     <div className="flex flex-col min-h-screen" style={{ backgroundColor: "#ffffff" }}>
@@ -744,14 +749,14 @@ function RegulacjaTemplate({ post, articleContent, navigate, bottomSection }: Te
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-6">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                   <Calendar className="w-4 h-4 text-[oklch(55% .22 27)]" /> Harmonogram
@@ -764,6 +769,14 @@ function RegulacjaTemplate({ post, articleContent, navigate, bottomSection }: Te
                     </li>
                   ))}
                 </ol>
+                <a
+                  href="https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mt-4 text-xs leading-relaxed text-[oklch(55%_.22_27)] underline underline-offset-2"
+                >
+                  Podstawa: art. 94–96 rozporządzenia (UE) 2024/3110
+                </a>
               </div>
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
@@ -798,14 +811,14 @@ function PrzewodnikTemplate({ post, articleContent, navigate, bottomSection }: T
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               {/* TL;DR — streszczenie posta */}
               {post.excerpt && (
                 <div className="bg-[oklch(55% .22 27)]/5 border border-[oklch(55% .22 27)]/20 rounded-2xl p-5">
@@ -848,14 +861,14 @@ function AnalizaTemplate({ post, articleContent, navigate, bottomSection }: Temp
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={EMERALD_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <h4 className="text-[oklch(20% .03 264)] font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h4>
                 <dl className="space-y-3">
@@ -967,14 +980,14 @@ function TechnicznyTemplate({ post, articleContent, navigate, bottomSection }: T
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ORANGE_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-3 flex items-center gap-2">
                   <FileText className="w-4 h-4" /> Normy i wymagania
@@ -1025,14 +1038,14 @@ function AktualnosciTemplate({ post, articleContent, navigate, bottomSection }: 
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={ROSE_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               {/* Co musisz wiedzieć */}
               {post.excerpt && (
                 <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
@@ -1083,14 +1096,14 @@ function PraktycznyTemplate({ post, articleContent, navigate, bottomSection }: T
         />
         {/* Content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={TEAL_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               {/* Lista kontrolna */}
               <div className="bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] rounded-2xl p-5">
                 <h4 className="text-[oklch(55%_.22_27)] font-semibold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
@@ -1137,14 +1150,14 @@ function DefaultTemplate({ post, articleContent, navigate, bottomSection }: Temp
           }}
         />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-16">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-            <article className="prose-editorial max-w-[680px]">
+          <div className="article-layout">
+            <PostToc post={post} />
+            <article className="prose-editorial min-w-0">
               <ReactMarkdown remarkPlugins={[remarkGfm]} components={DARK_COMPONENTS}>
                 {articleContent}
               </ReactMarkdown>
             </article>
-            <aside className="space-y-8">
-              <PostToc post={post} />
+            <aside className="article-support" aria-label="Informacje i materiały do artykułu">
               <DarkSidebarMeta post={post} navigate={navigate} />
             </aside>
           </div>
