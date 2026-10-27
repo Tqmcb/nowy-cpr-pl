@@ -61,6 +61,108 @@
   }
 }
 
+/* Articles keep a readable text measure while giving data tables the page width. */
+.article-layout {
+  min-width: 0;
+}
+
+.article-layout > article > :is(p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6, pre) {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.article-layout > article :is(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: 9rem;
+}
+
+.article-toc {
+  position: sticky;
+  top: 3.75rem;
+  z-index: 30;
+  margin-bottom: 2rem;
+  border: 1px solid oklch(88% .01 264);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.article-toc > summary {
+  list-style: none;
+}
+
+.article-toc > summary::-webkit-details-marker {
+  display: none;
+}
+
+.article-toc > nav {
+  max-height: min(55svh, 30rem);
+  overflow-y: auto;
+}
+
+.article-table {
+  max-width: 100%;
+  overscroll-behavior-x: contain;
+}
+
+.article-table table:has(tr > :nth-child(4)) {
+  min-width: 48rem;
+}
+
+.article-table :is(th, td) {
+  vertical-align: top;
+}
+
+.article-table th {
+  white-space: normal;
+}
+
+.article-support {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.article-support > * {
+  min-width: 0;
+}
+
+.article-references {
+  grid-column: 1 / -1;
+}
+
+.article-references > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem 2rem;
+}
+
+.article-references > ul > li {
+  margin: 0;
+}
+
+.article-references a {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .article-toc {
+    top: 3.5rem;
+  }
+
+  .article-support {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-support {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 /* Base Styles */
 @layer base {
   * {
@@ -69,7 +171,7 @@
 
   html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   body {
@@ -79,7 +181,7 @@
     background-color: #ffffff;
     background-image: none;
     color: oklch(42% .02 264);
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   /* Sekcje z subtelną siatką — alternatywa dla czystego bg-white */
