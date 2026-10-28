@@ -6,7 +6,7 @@ author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 13497", "ETICS", "odporność na uderzenie", "metody badań", "EPD", "CPR 2024"]
 excerpt: "Projekt prEN 13497:2026 zmienia procedurę uderzenia i ocenę uszkodzeń złożonych systemów ociepleń. Co sprawdzić w sprawozdaniu z badania."
-image_url: /images/blog/pren-13497-2026-ocieplenia-odpornosc-na-uderzenie.jpg
+image_url: /images/blog/ocieplenia-uderzenie-material.webp
 template: "aktualnosci"
 ---
 
