@@ -6,7 +6,7 @@ author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 1015-18", "zaprawy", "absorpcja wody", "metody badań", "EPD", "CPR 2024"]
 excerpt: "Projekt prEN 1015-18:2026 ma zastąpić EN 1015-18:2002: zmienione przygotowanie próbek i, dla zapraw innych niż renowacyjne, wynik po 10 minutach w kg/m². Dwie niespójności projektu do wyjaśnienia w konsultacjach."
-image_url: /images/blog/pren-1015-18-2026-zaprawy-absorpcja-kapilarna.jpg
+image_url: /images/blog/zaprawy-absorpcja-material.webp
 template: "aktualnosci"
 ---
 

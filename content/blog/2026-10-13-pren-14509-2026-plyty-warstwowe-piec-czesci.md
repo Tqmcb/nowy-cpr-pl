@@ -6,7 +6,7 @@ author: "Grzegorz Suwara | Redakcja NowyCPR.pl | Multicert Sp. z o.o."
 category: "Normy i regulacje"
 tags: ["prEN 14509", "płyty warstwowe", "metody badań", "EPD", "CPR 2024", "konsultacje norm"]
 excerpt: "Pięć projektów serii prEN 14509 z 2026 r. rozdziela płyty warstwowe samonośne i konstrukcyjne, metody badań, mocowania i projektowanie. Zestawienie zmian i zaleceń."
-image_url: /images/blog/pren-14509-2026-plyty-warstwowe-piec-czesci.jpg
+image_url: /images/blog/plyty-warstwowe-metal-material.webp
 template: "aktualnosci"
 ---
 
