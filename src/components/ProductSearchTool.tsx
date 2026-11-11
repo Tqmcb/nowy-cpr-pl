@@ -621,7 +621,7 @@ export function ProductSearchTool() {
 
                 {/* Multicert — wyróżnione */}
                 <a
-                  href="https://www.multicert.pl"
+                  href="https://multicert.pl/?mc_portal=nowycpr.pl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 p-5 rounded-[2px] bg-[oklch(55%_.22_27/0.05)] border border-[oklch(55%_.22_27/0.2)] hover:border-[oklch(55%_.22_27/0.4)] hover:bg-[oklch(55% .22 27)]/8 transition-all duration-300 group"
