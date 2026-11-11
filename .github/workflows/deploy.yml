@@ -16,6 +16,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-24.04
+    container: mcr.microsoft.com/playwright:v1.60.0-noble
     steps:
       - uses: actions/checkout@v6
 
@@ -27,8 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright Chromium (dla generate-blog-pdfs.mjs)
-        run: npx playwright install --with-deps chromium
+      - name: Verify bundled Chromium for PDF generation
+        timeout-minutes: 2
+        run: node --input-type=module -e 'import { chromium } from "playwright"; const browser = await chromium.launch(); console.log(await browser.version()); await browser.close();'
 
       - name: Validate CPR content (daty vs Working Plan COM(2025) 772)
         run: npm run validate-cpr
