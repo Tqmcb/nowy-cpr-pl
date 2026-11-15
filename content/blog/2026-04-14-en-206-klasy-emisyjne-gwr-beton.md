@@ -30,7 +30,7 @@ Część 1 zawiera załączniki krajowe od NA do NG, a część 2 normatywny za�
 
 ## Czym są klasy GWR i kiedy się je stosuje
 
-GWR (Global warming reduction) to klasy redukcji opisane w punkcie 5.4 normy EN 206-1:2026, którą wprowadza PN-EN 206-1:2026-09. Beton przypisuje się do klasy GWR na podstawie obliczonej redukcji X i progów z tablicy 13. GWPtotal (Global Warming Potential) to całkowity potencjał tworzenia efektu cieplarnianego według EN 15804, wyrażany w kilogramach ekwiwalentu CO₂ (kg CO₂e). Nie jest więc masą samego dwutlenku węgla.
+GWR (Global warming reduction) to klasy redukcji opisane w punkcie 5.4 normy EN 206-1:2026, którą wprowadza PN-EN 206-1:2026-09. Beton przypisuje się do klasy GWR na podstawie obliczonej redukcji X i progów z tablicy 13. GWPtotal (Global Warming Potential) to całkowity potencjał globalnego ocieplenia według EN 15804, wyrażany w kilogramach ekwiwalentu CO₂ (kg CO₂e). Nie jest więc masą samego dwutlenku węgla.
 
 Punkt 5.4.1 zaczyna się od warunku: metodę obliczeń stosuje się wtedy, gdy beton jest klasyfikowany pod względem emisji CO₂. Z tego sformułowania nie wynika obowiązek nadania klasy GWR każdemu betonowi. Przepisy aktualne w miejscu stosowania betonu mogą ustanowić inne klasy redukcji. Norma wymaga wtedy akronimu innego niż GWR.
 
@@ -85,8 +85,6 @@ Reguły programu EPD Polska, którego jesteśmy operatorem, publikujemy na [epd.
 
 ## Co zachować w dokumentacji obliczenia
 
-Zalecamy, aby przy każdej podanej klasie GWR producent zachował:
-
 - docelowy skład betonu ocenianego (recepturę);
 - właściwości użytkowe, na podstawie których dobrano beton odniesienia;
 - pochodzenie danych wejściowych i wersję metody obliczeń;
@@ -100,6 +98,6 @@ Zestawienie to jest naszym zaleceniem, a nie obowiązkiem raportowania każdej p
 
 CPR to rozporządzenie (UE) 2024/3110 w sprawie wyrobów budowlanych. Zgodnie z [art. 13 ust. 1](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/pol) producent sporządza deklarację właściwości użytkowych i zgodności, jeżeli wyrób jest objęty zharmonizowaną specyfikacją techniczną przyjętą na podstawie art. 5 lub 6 tego rozporządzenia. Producent wyrobu, który nie jest objęty żadną zharmonizowaną specyfikacją techniczną, może wydać taką deklarację zgodnie z europejskim dokumentem oceny i europejską oceną techniczną.
 
-Samo oznaczenie PN nie potwierdza przyjęcia zharmonizowanej specyfikacji technicznej w trybie art. 5 lub 6 tego rozporządzenia. Wydanie PN-EN 206-1:2026-09 i PN-EN 206-2:2026-09 ani wyznaczenie klasy GWR nie tworzy więc automatycznie obowiązku sporządzenia deklaracji właściwości użytkowych i zgodności według rozporządzenia (UE) 2024/3110. Nie wprowadza też powszechnego obowiązku podawania klasy GWR dla betonu.
+Samo wydanie Polskiej Normy nie potwierdza przyjęcia zharmonizowanej specyfikacji technicznej w trybie art. 5 lub 6 tego rozporządzenia. Wydanie PN-EN 206-1:2026-09 i PN-EN 206-2:2026-09 ani przypisanie klasy GWR nie tworzy więc automatycznie obowiązku sporządzenia deklaracji właściwości użytkowych i zgodności według rozporządzenia (UE) 2024/3110. Z punktu 5.4.1 nie wynika powszechny obowiązek podawania klasy GWR; ewentualne postanowienia krajowe producent sprawdza w pełnym tekście normy.
 
 Pytania o reguły programu EPD Polska przyjmujemy pod adresem biuro@multicert.pl.
