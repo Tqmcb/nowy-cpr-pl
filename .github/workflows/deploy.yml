@@ -35,8 +35,8 @@ jobs:
       - name: Validate CPR content (daty vs Working Plan COM(2025) 772)
         run: npm run validate-cpr
 
-      - name: Verify publication dates and named author rules
-        run: node --test scripts/blog-publication.test.mjs scripts/blog-authors.test.mjs
+      - name: Verify publication dates, named authors and PDF links
+        run: node --test scripts/blog-publication.test.mjs scripts/blog-authors.test.mjs scripts/generate-blog-pdfs.test.mjs
 
       - name: Build
         run: npm run build

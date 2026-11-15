@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
@@ -27,6 +28,22 @@ import {
 import { Helmet } from "react-helmet-async";
 
 export default function Services() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash !== "#contact-section") return;
+    // Odnośnik z PDF trafia do formularza po wyrenderowaniu strony.
+    let cancelled = false;
+    const frame = requestAnimationFrame(async () => {
+      await document.fonts.ready;
+      if (!cancelled) document.getElementById("contact-section")?.scrollIntoView({ block: "start" });
+    });
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(frame);
+    };
+  }, [hash]);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -408,7 +425,7 @@ export default function Services() {
         </section>
 
         {/* Contact Form — editorial */}
-        <section id="contact-section" className="py-12 md:py-16 bg-white">
+        <section id="contact-section" className="scroll-mt-28 py-12 md:py-16 bg-white">
           <Container>
             <div className="max-w-5xl mx-auto">
               <div className="flex items-baseline gap-6 mb-6">

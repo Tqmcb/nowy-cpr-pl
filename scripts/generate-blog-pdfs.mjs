@@ -24,6 +24,16 @@ const rootDir = join(__dirname, '..');
 const distDir = join(rootDir, 'dist');
 const blogContentDir = join(rootDir, 'content', 'blog');
 const sigilDir = join(rootDir, 'public', 'images', 'authors');
+const SITE_URL = 'https://www.nowycpr.pl/';
+
+function pdfLink(path, slug) {
+  const url = new URL(path, SITE_URL);
+  url.searchParams.set('utm_source', 'nowycpr.pl');
+  url.searchParams.set('utm_medium', 'pdf');
+  url.searchParams.set('utm_campaign', 'artykuly');
+  url.searchParams.set('utm_content', slug);
+  return url.href;
+}
 
 // Mapowanie nazwy autora (pierwszy segment bylines) → slug sygnetu
 const AUTHOR_SLUGS = {
@@ -95,10 +105,13 @@ function formatDate(d) {
   return m ? `${m[3]}.${m[2]}.${m[1]}` : (d || '');
 }
 
-function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg }) {
+function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg, slug = '' }) {
   const byline = (author || '').replace(/\s*\|\s*/g, '  ·  ');
   const dateFmt = formatDate(date);
   const metaBits = [byline, dateFmt].filter(Boolean).join('  ·  ');
+  const articlePath = slug ? `/blog/${encodeURIComponent(slug)}/` : '/blog/';
+  const articleUrl = new URL(articlePath, SITE_URL).href;
+  const emailUrl = `mailto:biuro@multicert.pl?subject=${encodeURIComponent(`Zapytanie z PDF: ${title}`)}&body=${encodeURIComponent(`Artykuł: ${articleUrl}\n\n`)}`;
 
   const sourcesHtml = (sources && sources.length)
     ? `<section class="sources">
@@ -115,6 +128,7 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
+<base href="${escapeHtml(articleUrl)}">
 <title>${escapeHtml(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -151,7 +165,7 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
   article { counter-reset: h2; }
 
   /* ── Masthead ─────────────────────────────────────────── */
-  .masthead { margin: 0 0 18pt; }
+  .masthead { margin: 0 0 18pt; break-inside: avoid; }
   .mast-top {
     display: flex; justify-content: space-between; align-items: baseline;
     margin-bottom: 7pt;
@@ -166,6 +180,7 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
     border-radius: 1.5pt; display: inline-block;
   }
   .brand .tld { color: var(--red); }
+  a.brand { text-decoration: none; }
   .brand-right {
     font-size: 8.5pt; color: var(--muted); font-weight: 500;
     text-align: right; letter-spacing: 0.2pt;
@@ -278,6 +293,15 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
   .sources ol { font-size: 9pt; color: var(--muted); padding-left: 18pt; }
   .sources a { color: var(--muted); word-break: break-all; }
 
+  .pdf-links {
+    margin-top: 10pt; padding-top: 8pt;
+    border-top: 2pt solid var(--red); break-inside: avoid;
+    font-size: 9.5pt; line-height: 1.4;
+  }
+  .pdf-links p { margin-bottom: 6pt; }
+  .pdf-links p:last-child { margin-bottom: 0; }
+  .pdf-links a { font-weight: 600; text-decoration-color: var(--navy); }
+
   /* CTA — ostatni akapit po <hr> jako wyróżniony box */
   .content > hr:last-of-type + p {
     background: var(--navy); color: #E2E8F0;
@@ -294,13 +318,17 @@ function buildHtml({ title, author, category, date, sources, htmlBody, sigilSvg 
 <article>
   <header class="masthead">
     <div class="mast-top">
-      <div class="brand"><span class="brand-mark"></span><span>NowyCPR<span class="tld">.pl</span></span></div>
+      <a class="brand" href="${escapeHtml(pdfLink('/', slug))}"><span class="brand-mark"></span><span>NowyCPR<span class="tld">.pl</span></span></a>
       <div class="brand-right">Multicert Sp. z o.o.<br>Portal wiedzy o CPR 2024/3110</div>
     </div>
     <div class="mast-rule"></div>
     ${category ? `<div class="eyebrow">${escapeHtml(category)}</div>` : '<div style="height:13pt"></div>'}
     <h1>${escapeHtml(title)}</h1>
     ${metaBits ? `<div class="byline">${sigilSvg ? `<span class="byline-sigil">${sigilSvg}</span>` : ''}<span>${metaBits}</span></div>` : ''}
+    <nav class="pdf-links" aria-label="Przejdź do strony lub kontaktu">
+      <p><a href="${escapeHtml(pdfLink('/services/#contact-section', slug))}">Zapytaj o certyfikację</a> lub <a href="${escapeHtml(emailUrl)}">napisz do nas</a>.</p>
+      <p><a href="${escapeHtml(pdfLink('/services/', slug))}">Sprawdź usługi</a> · <a href="${escapeHtml(pdfLink(articlePath, slug))}">Przeczytaj artykuł online</a></p>
+    </nav>
   </header>
   <div class="content">
 ${htmlBody}
@@ -343,6 +371,7 @@ export function renderPostHtml(src, slug) {
     sources: meta.sources || [],
     htmlBody,
     sigilSvg: authorSigilSvg(meta.author || ''),
+    slug,
   });
 }
 
